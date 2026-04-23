@@ -82,7 +82,7 @@ class QuizActiveFragment : Fragment() {
                         id = View.generateViewId()
                         text = option
                         textSize = 16f
-                        padding = 16
+                        setPadding(32, 24, 32, 24)
                     }
                     binding.rgOptions.addView(radioButton)
                 }
