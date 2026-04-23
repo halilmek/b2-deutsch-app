@@ -1,0 +1,119 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper function to check if user is authenticated
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper function to check if user owns the document
+    function isOwner(userId) {
+      return request.auth.uid == userId;
+    }
+
+    // Helper function to check if user is admin
+    function isAdmin() {
+      return get(/databases/$(database)/documents/users/$(request.auth.uid)).data.isAdmin == true;
+    }
+
+    // ============ USERS ============
+    match /users/{userId} {
+      // Users can read their own profile
+      allow read: if isAuthenticated() && isOwner(userId);
+      // Users can write their own profile (but not isAdmin field)
+      allow write: if isAuthenticated() && isOwner(userId)
+        && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['isAdmin']);
+      // Admins can read/write any user
+      allow read, write: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ USER PROGRESS ============
+    match /userProgress/{docId} {
+      allow read: if isAuthenticated() && docId.startswith(request.auth.uid);
+      allow write: if isAuthenticated() && docId.startswith(request.auth.uid);
+    }
+
+    // ============ LEVELS ============
+    match /levels/{levelId} {
+      // Anyone authenticated can read levels
+      allow read: if isAuthenticated();
+      // Only admins can write levels
+      allow write: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ LESSONS ============
+    match /lessons/{lessonId} {
+      // Authenticated users can read published lessons
+      allow read: if isAuthenticated();
+      // Only admins can create/update lessons
+      allow create, update: if isAuthenticated() && isAdmin();
+      allow delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ QUIZZES ============
+    match /quizzes/{quizId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ VOCABULARY ============
+    match /vocabulary/{wordId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ READING PASSAGES ============
+    match /readingPassages/{passageId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ LISTENING EXERCISES ============
+    match /listeningExercises/{exerciseId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ WRITING SUBMISSIONS ============
+    match /writingSubmissions/{submissionId} {
+      // Users can only read their own submissions
+      allow read: if isAuthenticated()
+        && resource.data.userId == request.auth.uid;
+      // Users can create submissions (evaluation happens via Cloud Function)
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid;
+      // Submissions are updated by the system (Cloud Function) - no direct client write
+      allow update, delete: if false;
+    }
+
+    // ============ SPEAKING SESSIONS ============
+    match /speakingSessions/{sessionId} {
+      // Users can read their own sessions
+      allow read: if isAuthenticated()
+        && resource.data.userId == request.auth.uid;
+      // Users can create sessions
+      allow create: if isAuthenticated()
+        && request.resource.data.userId == request.auth.uid;
+      // Sessions are updated by the system
+      allow update, delete: if false;
+    }
+
+    // ============ PEER EXAM ROOMS ============
+    match /peerExamRooms/{roomId} {
+      // Users can read rooms they're part of
+      allow read: if isAuthenticated()
+        && (resource.data.examinerId == request.auth.uid
+            || resource.data.candidateId == request.auth.uid);
+      // Users can create rooms
+      allow create: if isAuthenticated();
+      // Only participants can update
+      allow update: if isAuthenticated()
+        && (resource.data.examinerId == request.auth.uid
+            || resource.data.candidateId == request.auth.uid);
+      allow delete: if isAuthenticated()
+        && (resource.data.examinerId == request.auth.uid
+            || resource.data.candidateId == request.auth.uid);
+    }
+  }
+}
