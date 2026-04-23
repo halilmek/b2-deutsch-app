@@ -223,8 +223,8 @@ class FirebaseDataSource @Inject constructor(
         return try {
             val docRef = firestore.collection(Constants.Collections.WRITING_SUBMISSIONS)
                 .document()
-            submission.id = docRef.id
-            docRef.set(submission).await()
+            val updatedSubmission = submission.copy(id = docRef.id)
+            docRef.set(updatedSubmission).await()
             Result.success(docRef.id)
         } catch (e: Exception) {
             Result.failure(e)
