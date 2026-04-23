@@ -273,7 +273,7 @@ class FirebaseDataSource @Inject constructor(
     // ============ STORAGE ============
     suspend fun uploadAudioRecording(userId: String, fileName: String, audioBytes: ByteArray): Result<String> {
         return try {
-            val ref = storage.reference()
+            val ref = storage.reference
                 .child("audio")
                 .child(userId)
                 .child(fileName)
@@ -287,7 +287,7 @@ class FirebaseDataSource @Inject constructor(
 
     suspend fun uploadSpeakingRecording(userId: String, sessionId: String, fileName: String, audioBytes: ByteArray): Result<String> {
         return try {
-            val ref = storage.reference()
+            val ref = storage.reference
                 .child("recordings")
                 .child(userId)
                 .child(sessionId)
