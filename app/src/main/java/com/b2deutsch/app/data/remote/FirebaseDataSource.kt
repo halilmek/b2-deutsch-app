@@ -249,8 +249,8 @@ class FirebaseDataSource @Inject constructor(
         return try {
             val docRef = firestore.collection(Constants.Collections.SPEAKING_SESSIONS)
                 .document()
-            session.id = docRef.id
-            docRef.set(session).await()
+            val updatedSession = session.copy(id = docRef.id)
+            docRef.set(updatedSession).await()
             Result.success(docRef.id)
         } catch (e: Exception) {
             Result.failure(e)
