@@ -193,6 +193,22 @@ class FirebaseDataSource @Inject constructor(
         }
     }
 
+    suspend fun getQuestionsBySubject(subjectId: String): Result<List<Question>> {
+        return try {
+            // Query quizBank for questions that have this subjectId in their array
+            val snapshot = firestore.collection("quizBank")
+                .whereArrayContains("subjectIds", subjectId)
+                .get()
+                .await()
+            val questions = snapshot.documents.mapNotNull { doc ->
+                doc.toObject(Question::class.java)
+            }
+            Result.success(questions)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
     // ============ VOCABULARY ============
     suspend fun getVocabularyByLevel(level: String): Result<List<VocabularyWord>> {
         return try {
@@ -226,6 +242,32 @@ class FirebaseDataSource @Inject constructor(
         return try {
             val snapshot = firestore.collection(Constants.Collections.READING_PASSAGES)
                 .whereEqualTo("level", level)
+                .get()
+                .await()
+            val passages = snapshot.toObjects(ReadingPassage::class.java)
+            Result.success(passages)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+    suspend fun getReadingsBySubject(subjectId: String): Result<List<ReadingPassage>> {
+        return try {
+            val snapshot = firestore.collection("readings")
+                .whereEqualTo("subjectId", subjectId)
+                .get()
+                .await()
+            val passages = snapshot.toObjects(ReadingPassage::class.java)
+            Result.success(passages)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+    suspend fun getReadingsByTheme(themeId: String): Result<List<ReadingPassage>> {
+        return try {
+            val snapshot = firestore.collection("readings")
+                .whereEqualTo("themeId", themeId)
                 .get()
                 .await()
             val passages = snapshot.toObjects(ReadingPassage::class.java)

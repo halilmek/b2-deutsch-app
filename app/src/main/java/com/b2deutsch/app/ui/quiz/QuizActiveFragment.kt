@@ -33,16 +33,23 @@ class QuizActiveFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val quizId = arguments?.getString("quizId") ?: return
-        viewModel.startQuiz(quizId)
+        val subjectId = arguments?.getString("subjectId") ?: quizId.substringBeforeLast("_quiz")
+        
+        viewModel.startQuiz(subjectId)
 
         observeViewModel()
+
+        // "Weiter" button to proceed from reading to questions
+        binding.btnWeiter.setOnClickListener {
+            viewModel.proceedToQuestions()
+        }
 
         binding.btnNext.setOnClickListener {
             val selectedId = binding.rgOptions.checkedRadioButtonId
             if (selectedId != -1) {
                 val selectedAnswer = binding.rgOptions.findViewById<RadioButton>(selectedId)?.text.toString()
                 val questionIndex = viewModel.currentQuestionIndex.value ?: 0
-                viewModel.selectAnswer(questionIndex, selectedAnswer)
+                viewModel.selectAnswer(selectedAnswer)
                 viewModel.nextQuestion()
             }
         }
@@ -56,8 +63,7 @@ class QuizActiveFragment : Fragment() {
             val selectedId = binding.rgOptions.checkedRadioButtonId
             if (selectedId != -1) {
                 val selectedAnswer = binding.rgOptions.findViewById<RadioButton>(selectedId)?.text.toString()
-                val questionIndex = viewModel.currentQuestionIndex.value ?: 0
-                viewModel.selectAnswer(questionIndex, selectedAnswer)
+                viewModel.selectAnswer(selectedAnswer)
             }
             viewModel.submitQuiz()
         }
@@ -68,6 +74,24 @@ class QuizActiveFragment : Fragment() {
             quiz?.let {
                 binding.tvQuizTitle.text = it.title
                 binding.tvTimeLimit.text = "Time: ${it.timeLimit} min"
+            }
+        }
+
+        // Handle quiz phase changes
+        viewModel.quizPhase.observe(viewLifecycleOwner) { phase ->
+            when (phase) {
+                QuizViewModel.QuizPhase.READING -> showReadingPhase()
+                QuizViewModel.QuizPhase.QUESTIONS -> showQuestionsPhase()
+                QuizViewModel.QuizPhase.RESULT -> { /* handled by quizResult observer */ }
+                null -> {}
+            }
+        }
+
+        // Observe reading for READING phase
+        viewModel.currentReading.observe(viewLifecycleOwner) { reading ->
+            reading?.let {
+                binding.tvReadingTitle.text = it.title
+                binding.tvReadingContent.text = it.content
             }
         }
 
@@ -118,6 +142,7 @@ class QuizActiveFragment : Fragment() {
             result?.let {
                 val bundle = Bundle().apply {
                     putString("quizId", arguments?.getString("quizId"))
+                    putString("subjectId", arguments?.getString("subjectId"))
                     putInt("score", it.score)
                     putBoolean("passed", it.passed)
                     putInt("correct", it.correctAnswers)
@@ -126,6 +151,34 @@ class QuizActiveFragment : Fragment() {
                 findNavController().navigate(R.id.action_quizActive_to_result, bundle)
             }
         }
+    }
+
+    private fun showReadingPhase() {
+        binding.cardReading.visibility = View.VISIBLE
+        binding.btnWeiter.visibility = View.VISIBLE
+        binding.navigationButtons.visibility = View.GONE
+        
+        binding.tvQuestionNumber.visibility = View.GONE
+        binding.tvQuestionText.visibility = View.GONE
+        binding.rgOptions.visibility = View.GONE
+        
+        // Hide progress for reading phase
+        binding.tvProgress.visibility = View.GONE
+        binding.progressBar.visibility = View.GONE
+    }
+
+    private fun showQuestionsPhase() {
+        binding.cardReading.visibility = View.GONE
+        binding.btnWeiter.visibility = View.GONE
+        binding.navigationButtons.visibility = View.VISIBLE
+        
+        binding.tvQuestionNumber.visibility = View.VISIBLE
+        binding.tvQuestionText.visibility = View.VISIBLE
+        binding.rgOptions.visibility = View.VISIBLE
+        
+        // Show progress for questions phase
+        binding.tvProgress.visibility = View.VISIBLE
+        binding.progressBar.visibility = View.VISIBLE
     }
 
     override fun onDestroyView() {

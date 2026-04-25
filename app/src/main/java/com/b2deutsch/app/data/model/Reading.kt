@@ -3,10 +3,15 @@ package com.b2deutsch.app.data.model
 data class ReadingPassage(
     val id: String = "",
     val level: String = "B2",
+    val themeId: String = "", // beruf, gesundheit, umwelt, etc.
+    val subjectIds: List<String>? = null, // Grammar topic IDs that use this reading
     val category: String = "", // education, technology, health, society, etc.
     val title: String = "",
     val content: String = "", // German text (300-500 words for B2)
+    val wordCount: Int = 0,
+    val readingTimeMinutes: Int = 5,
     val source: String = "AI_GENERATED",
+    val tags: List<String> = emptyList(),
     val questions: List<ReadingQuestion> = emptyList(),
     val createdAt: Long = System.currentTimeMillis()
 )

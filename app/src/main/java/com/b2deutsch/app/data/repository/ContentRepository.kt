@@ -30,6 +30,9 @@ class ContentRepository @Inject constructor(
     suspend fun getQuestionsByTheme(themeId: String): Result<List<Question>> =
         dataSource.getQuestionsByTheme(themeId)
 
+    suspend fun getQuestionsBySubject(subjectId: String): Result<List<Question>> =
+        dataSource.getQuestionsBySubject(subjectId)
+
     suspend fun getQuestionsByReading(readingId: String): Result<List<Question>> =
         dataSource.getQuestionsByReading(readingId)
 
@@ -43,6 +46,12 @@ class ContentRepository @Inject constructor(
     // ============ READING ============
     suspend fun getReadingPassages(level: String): Result<List<ReadingPassage>> =
         dataSource.getReadingPassagesByLevel(level)
+
+    suspend fun getReadingsBySubject(subjectId: String): Result<List<ReadingPassage>> =
+        dataSource.getReadingsBySubject(subjectId)
+
+    suspend fun getReadingsByTheme(themeId: String): Result<List<ReadingPassage>> =
+        dataSource.getReadingsByTheme(themeId)
 
     // ============ LISTENING ============
     suspend fun getListeningExercises(level: String): Result<List<ListeningExercise>> =

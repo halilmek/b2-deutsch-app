@@ -12,22 +12,12 @@ const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
-// Get the directory where the script is located
 const scriptDir = __dirname;
 
-// Check if service account credentials are provided
 const credPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
 if (!credPath) {
     console.error('❌ Error: GOOGLE_APPLICATION_CREDENTIALS not set');
-    console.error('');
-    console.error('Steps to fix:');
-    console.error('1. Go to https://console.firebase.google.com/');
-    console.error('2. Select project: b2-deutsch-app');
-    console.error('3. Go to Project Settings → Service Accounts');
-    console.error('4. Click "Generate new private key"');
-    console.error('5. Save the JSON file somewhere safe');
-    console.error('6. Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json');
-    console.error('7. Run this script again: node firebase_import_complete.js --all');
+    console.error('Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json');
     process.exit(1);
 }
 
@@ -45,12 +35,33 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
+// Mapping: grammar topic ID -> theme ID
+const GRAMMAR_TO_THEME = {
+    'b2_01': 'beruf', 'b2_02': 'beruf', 'b2_03': 'beruf',
+    'b2_04': 'gesundheit', 'b2_05': 'gesundheit', 'b2_06': 'gesundheit',
+    'b2_07': 'umwelt', 'b2_08': 'umwelt', 'b2_09': 'umwelt',
+    'b2_10': 'gesellschaft', 'b2_11': 'gesellschaft', 'b2_12': 'gesellschaft',
+    'b2_13': 'reisen', 'b2_14': 'reisen',
+    'b2_15': 'medien', 'b2_16': 'medien',
+    'b2_17': 'bildung', 'b2_18': 'bildung',
+    'b2_19': 'wirtschaft', 'b2_20': 'wirtschaft',
+    'b2_21': 'geschichte', 'b2_22': 'geschichte', 'b2_23': 'geschichte'
+};
+
+// Get all grammar topic IDs that map to a theme
+function getSubjectIdsForTheme(themeId) {
+    return Object.entries(GRAMMAR_TO_THEME)
+        .filter(([_, t]) => t === themeId)
+        .map(([s, _]) => s);
+}
+
 async function importThemes(data) {
     console.log('📥 Importing themes...');
     const batch = db.batch();
     
     for (const theme of data.themes) {
         const ref = db.collection('themes').doc(theme.id);
+        const subjectIds = getSubjectIdsForTheme(theme.id);
         batch.set(ref, {
             id: theme.id,
             name: theme.name,
@@ -59,6 +70,7 @@ async function importThemes(data) {
             description: theme.description,
             tags: theme.tags,
             textCount: theme.textCount,
+            subjectIds: subjectIds, // Array of grammar topic IDs that use this theme
             createdAt: admin.firestore.FieldValue.serverTimestamp()
         });
     }
@@ -78,14 +90,20 @@ async function importReadings(data) {
         
         for (const reading of batchReadings) {
             const ref = db.collection('readings').doc(reading.id);
+            
+            // Find grammar topics that map to this reading's theme
+            const themeId = reading.themeId;
+            const subjectIds = getSubjectIdsForTheme(themeId);
+            
             batch.set(ref, {
                 id: reading.id,
                 themeId: reading.themeId,
+                subjectIds: subjectIds, // Grammar topics that use this reading
                 title: reading.title,
                 content: reading.content,
                 wordCount: reading.wordCount,
                 readingTimeMinutes: reading.readingTimeMinutes,
-                tags: reading.tags,
+                tags: reading.tags || [],
                 createdAt: admin.firestore.FieldValue.serverTimestamp()
             });
             count++;
@@ -102,34 +120,34 @@ async function importQuestions(data) {
     let count = 0;
     const batchSize = 100;
     
-    // First, organize questions by themeId
-    const questionsByTheme = {};
-    for (const question of data.questions) {
-        // Extract themeId from question id (e.g., "b2_beruf_q1" -> themeId like "b2_beruf")
-        const parts = question.id.split('_q')[0];
-        const themeId = parts || question.themeId || 'unknown';
-        
-        if (!questionsByTheme[themeId]) {
-            questionsByTheme[themeId] = [];
-        }
-        questionsByTheme[themeId].push({...question, themeId});
-    }
-    
-    // Import all questions to quizBank with themeId
     for (let i = 0; i < data.questions.length; i += batchSize) {
         const batch = db.batch();
         const batchQuestions = data.questions.slice(i, i + batchSize);
         
         for (const question of batchQuestions) {
             const ref = db.collection('quizBank').doc(question.id);
+            
+            // Determine theme from question ID (e.g., "b2_beruf_01_q1" -> "beruf")
+            let themeId = 'unknown';
+            for (const theme of ['beruf', 'gesundheit', 'umwelt', 'gesellschaft', 'reisen', 'medien', 'bildung', 'wirtschaft', 'geschichte']) {
+                if (question.id.includes(theme)) {
+                    themeId = theme;
+                    break;
+                }
+            }
+            
+            // Find grammar topics that map to this theme
+            const subjectIds = getSubjectIdsForTheme(themeId);
+            
             batch.set(ref, {
                 id: question.id,
-                themeId: question.themeId || 'unknown',
+                themeId: themeId,
+                subjectIds: subjectIds, // Grammar topics this question relates to
                 type: question.type,
                 questionText: question.questionText,
                 options: question.options || null,
                 correctAnswer: question.correctAnswer,
-                explanation: question.explanation,
+                explanation: question.explanation || null,
                 pairs: question.pairs || null,
                 correctOrder: question.correctOrder || null,
                 createdAt: admin.firestore.FieldValue.serverTimestamp()
@@ -150,16 +168,21 @@ async function importQuestions(data) {
     count = 0;
     
     for (const reading of data.readings) {
-        const readingQuestions = data.questions.filter(q => 
-            q.id.includes(reading.id.replace('b2_', 'b2_'))
-        );
+        const readingQuestions = data.questions.filter(q => {
+            // Match questions that start with reading theme
+            const readingTheme = reading.themeId;
+            return q.id.includes(readingTheme) && q.id.includes('_q');
+        });
         
         if (readingQuestions.length > 0) {
             const batch = db.batch();
             
             for (let i = 0; i < readingQuestions.length; i++) {
                 const question = readingQuestions[i];
-                const qId = question.id.split('_').pop();
+                // Extract question number from ID
+                const qMatch = question.id.match(/_q(\d+)$/);
+                const qId = qMatch ? qMatch[1] : String(i + 1);
+                
                 const ref = db.collection('readings')
                     .doc(reading.id)
                     .collection('questions')
@@ -171,7 +194,7 @@ async function importQuestions(data) {
                     questionText: question.questionText,
                     options: question.options || null,
                     correctAnswer: question.correctAnswer,
-                    explanation: question.explanation,
+                    explanation: question.explanation || null,
                     createdAt: admin.firestore.FieldValue.serverTimestamp()
                 });
                 count++;
@@ -196,7 +219,6 @@ async function main() {
     
     if (!fs.existsSync(jsonPath)) {
         console.error(`❌ Error: Content file not found at: ${jsonPath}`);
-        console.error('');
         console.error('Make sure b2_all_themes_complete.json is in the content/reading folder.');
         process.exit(1);
     }
@@ -222,13 +244,13 @@ async function main() {
         console.log('');
         console.log('🎉 Import complete!');
         console.log('');
-        console.log('📁 Firestore Collections Created:');
-        console.log('   /themes/{id}');
-        console.log('   /readings/{id}');
-        console.log('   /readings/{id}/questions/{id}');
-        console.log('   /quizBank/{id}');
+        console.log('📁 Firestore Collections:');
+        console.log('   /themes/{id} - 9 B2 themes with subjectIds mapping');
+        console.log('   /readings/{id} - 90 readings with subjectIds mapping');
+        console.log('   /readings/{id}/questions/{id} - Questions per reading');
+        console.log('   /quizBank/{id} - All 450 questions with subjectIds');
         console.log('');
-        console.log('💡 QuizBank has themeId field - can query by themeId!');
+        console.log('💡 Quiz Flow: topic b2_01 → theme beruf → readings + questions');
         
     } catch (error) {
         console.error('❌ Import failed:', error);
