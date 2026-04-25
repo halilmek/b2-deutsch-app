@@ -57,6 +57,36 @@ service cloud.firestore {
       allow create, update, delete: if isAuthenticated() && isAdmin();
     }
 
+    // ============ GRAMMAR QUIZ BANK (Questions for each topic) ============
+    match /grammarQuizBank/{questionId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ QUIZ BANK (Reading comprehension questions) ============
+    match /quizBank/{questionId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ THEMES ============
+    match /themes/{themeId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+    }
+
+    // ============ READINGS ============
+    match /readings/{readingId} {
+      allow read: if isAuthenticated();
+      allow create, update, delete: if isAuthenticated() && isAdmin();
+      
+      // Subcollection: questions
+      match /questions/{questionId} {
+        allow read: if isAuthenticated();
+        allow create, update, delete: if isAuthenticated() && isAdmin();
+      }
+    }
+
     // ============ VOCABULARY ============
     match /vocabulary/{wordId} {
       allow read: if isAuthenticated();
