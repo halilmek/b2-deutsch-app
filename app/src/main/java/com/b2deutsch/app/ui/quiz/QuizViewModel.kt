@@ -7,7 +7,6 @@ import androidx.lifecycle.viewModelScope
 import com.b2deutsch.app.data.model.Question
 import com.b2deutsch.app.data.model.Quiz
 import com.b2deutsch.app.data.model.QuizResult
-import com.b2deutsch.app.data.model.ReadingPassage
 import com.b2deutsch.app.data.repository.ContentRepository
 import com.b2deutsch.app.data.repository.UserRepository
 import com.b2deutsch.app.util.Constants
@@ -23,9 +22,6 @@ class QuizViewModel @Inject constructor(
 
     private val _quizzes = MutableLiveData<List<Quiz>>()
     val quizzes: LiveData<List<Quiz>> = _quizzes
-
-    private val _currentReading = MutableLiveData<ReadingPassage?>()
-    val currentReading: LiveData<ReadingPassage?> = _currentReading
 
     private val _currentQuiz = MutableLiveData<Quiz?>()
     val currentQuiz: LiveData<Quiz?> = _currentQuiz
@@ -45,19 +41,14 @@ class QuizViewModel @Inject constructor(
     private val _isLoading = MutableLiveData<Boolean>()
     val isLoading: LiveData<Boolean> = _isLoading
 
-    private val _quizPhase = MutableLiveData<QuizPhase>(QuizPhase.READING)
-    val quizPhase: LiveData<QuizPhase> = _quizPhase
+    private val _errorMessage = MutableLiveData<String?>()
+    val errorMessage: LiveData<String?> = _errorMessage
 
     private var timeRemaining = 0
     private var quizStartTime = 0L
     private var currentSubjectId: String = ""
-    private var usedReadingIds = mutableSetOf<String>()
-
-    enum class QuizPhase {
-        READING,    // Showing the text passage
-        QUESTIONS,  // Answering questions about the text
-        RESULT      // Quiz completed
-    }
+    private var availableQuestions = mutableListOf<Question>()
+    private var usedQuestionIndices = mutableSetOf<Int>()
 
     // Load quizzes for a level (used by QuizzesFragment)
     fun loadQuizzes(level: String = Constants.DEFAULT_LEVEL) {
@@ -74,75 +65,32 @@ class QuizViewModel @Inject constructor(
         }
     }
 
-    // Map grammar topic ID to theme ID
-    private fun subjectToTheme(subjectId: String): String {
-        return when (subjectId) {
-            "b2_01", "b2_02", "b2_03" -> "beruf"
-            "b2_04", "b2_05", "b2_06" -> "gesundheit"
-            "b2_07", "b2_08", "b2_09" -> "umwelt"
-            "b2_10", "b2_11", "b2_12" -> "gesellschaft"
-            "b2_13", "b2_14" -> "reisen"
-            "b2_15", "b2_16" -> "medien"
-            "b2_17", "b2_18" -> "bildung"
-            "b2_19", "b2_20" -> "wirtschaft"
-            "b2_21", "b2_22", "b2_23" -> "geschichte"
-            else -> "beruf" // Default
-        }
-    }
-
-    // Load a reading passage for this subject, then present questions
+    /**
+     * Start a quiz for a specific grammar topic (subjectId like "b2_01", "b2_02", etc.)
+     * Questions are loaded directly from the grammar question bank - no reading texts involved.
+     */
     fun startQuiz(subjectId: String) {
         currentSubjectId = subjectId
         viewModelScope.launch {
             _isLoading.value = true
             _selectedAnswers.value = mutableMapOf()
             _quizResult.value = null
-            _quizPhase.value = QuizPhase.READING
+            _errorMessage.value = null
+            usedQuestionIndices.clear()
             
-            val themeId = subjectToTheme(subjectId)
-            
-            // Get readings for this theme (filtered by subjectId in the reading document)
-            contentRepository.getReadingsByTheme(themeId)
-                .onSuccess { readings ->
-                    // Filter readings that are tagged with this subjectId
-                    val subjectReadings = readings.filter { reading ->
-                        reading.subjectIds?.contains(subjectId) == true || 
-                        reading.id.contains(themeId)
-                    }
-                    
-                    if (subjectReadings.isNotEmpty()) {
-                        // Pick a random unread reading
-                        val availableReadings = subjectReadings.filter { it.id !in usedReadingIds }
-                        val readingToUse = if (availableReadings.isNotEmpty()) {
-                            availableReadings.random()
-                        } else {
-                            usedReadingIds.clear()
-                            subjectReadings.random()
-                        }
-                        
-                        usedReadingIds.add(readingToUse.id)
-                        _currentReading.value = readingToUse
-                        
-                        // Load questions for this specific reading
-                        loadQuestionsForReading(readingToUse.id, subjectId)
-                    } else if (readings.isNotEmpty()) {
-                        // Fallback: use any reading from the theme
-                        val availableReadings = readings.filter { it.id !in usedReadingIds }
-                        val readingToUse = if (availableReadings.isNotEmpty()) {
-                            availableReadings.random()
-                        } else {
-                            usedReadingIds.clear()
-                            readings.random()
-                        }
-                        
-                        usedReadingIds.add(readingToUse.id)
-                        _currentReading.value = readingToUse
-                        loadQuestionsForReading(readingToUse.id, subjectId)
+            // Load questions from grammar question bank for this topic
+            contentRepository.getGrammarQuestionsBySubject(subjectId)
+                .onSuccess { questions ->
+                    if (questions.isNotEmpty()) {
+                        availableQuestions = questions.shuffled().toMutableList()
+                        createQuizFromQuestions(subjectId)
                     } else {
+                        // No questions in DB - use fallback
                         createFallbackQuiz(subjectId)
                     }
                 }
-                .onFailure {
+                .onFailure { error ->
+                    _errorMessage.value = error.message
                     createFallbackQuiz(subjectId)
                 }
             
@@ -150,117 +98,79 @@ class QuizViewModel @Inject constructor(
         }
     }
 
-    private suspend fun loadQuestionsForReading(readingId: String, subjectId: String) {
-        contentRepository.getQuestionsByReading(readingId)
-            .onSuccess { questions ->
-                if (questions.isNotEmpty()) {
-                    createQuizFromQuestions(questions, readingId, subjectId)
-                } else {
-                    loadFromQuizBank(subjectId, readingId)
-                }
-            }
-            .onFailure {
-                loadFromQuizBank(subjectId, readingId)
-            }
-    }
-
-    private suspend fun loadFromQuizBank(subjectId: String, readingId: String) {
-        // Load questions from quizBank that are tagged with this subjectId
-        contentRepository.getQuestionsBySubject(subjectId)
-            .onSuccess { questions ->
-                if (questions.isNotEmpty()) {
-                    val shuffled = questions.shuffled().take(5)
-                    createQuizFromQuestions(shuffled, readingId, subjectId)
-                } else {
-                    createFallbackQuiz(subjectId)
-                }
-            }
-            .onFailure {
-                createFallbackQuiz(subjectId)
-            }
-    }
-
-    private fun createQuizFromQuestions(questions: List<Question>, readingId: String, subjectId: String) {
+    private fun createQuizFromQuestions(subjectId: String) {
+        // Take 5 questions for this quiz
+        val quizQuestions = availableQuestions.take(5)
+        
         val quiz = Quiz(
-            id = "${subjectId}_${readingId}_quiz",
+            id = "${subjectId}_quiz",
             level = "B2",
-            category = Constants.Categories.READING,
+            category = Constants.Categories.GRAMMAR,
             title = getSubjectTitle(subjectId),
-            taskType = "reading",
-            timeLimit = 15,
+            taskType = "grammar",
+            timeLimit = 10,
             passingScore = 60,
-            questions = questions.take(5) // Max 5 questions per quiz
+            questions = quizQuestions
         )
         
         _currentQuiz.value = quiz
         _currentQuestionIndex.value = 0
         timeRemaining = quiz.timeLimit * 60
         quizStartTime = System.currentTimeMillis()
-        
-        _quizPhase.value = QuizPhase.READING
-        _currentQuestion.value = null
+        updateCurrentQuestion()
     }
 
     private fun createFallbackQuiz(subjectId: String) {
+        // Generate sample questions when DB has no data
         val sampleQuestions = listOf(
             Question(
-                id = "sample_1",
+                id = "${subjectId}_sample_1",
                 type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Lesen Sie den Text und beantworten Sie die Frage. Welche Aussage ist laut Text richtig?",
+                questionText = "Wählen Sie die correct Antwort.",
                 options = listOf("A) Antwort A", "B) Antwort B", "C) Antwort C", "D) Antwort D"),
                 correctAnswer = "A) Antwort A",
-                explanation = "Überprüfen Sie den Text sorgfältig."
+                explanation = "Dies ist eine Beispielantwort."
             ),
             Question(
-                id = "sample_2",
+                id = "${subjectId}_sample_2",
                 type = Constants.QuizTypes.TRUE_FALSE,
-                questionText = "Der Text beschreibt die Situation korrekt.",
+                questionText = "Diese Aussage ist richtig.",
                 options = listOf("Richtig", "Falsch"),
                 correctAnswer = "Richtig",
-                explanation = "Der Text erwähnt dieses Thema."
+                explanation = "Überprüfen Sie die Grammatikregeln."
             ),
             Question(
-                id = "sample_3",
+                id = "${subjectId}_sample_3",
                 type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Was ist die Hauptaussage des Textes?",
-                options = listOf(
-                    "Die Situation hat sich verbessert.",
-                    "Die Situation ist unverändert.",
-                    "Die Situation hat sich verschlechtert.",
-                    "Der Text gibt keine Information darüber."
-                ),
-                correctAnswer = "Die Situation hat sich verbessert.",
-                explanation = "Der Text zeigt eine positive Entwicklung."
+                questionText = "Welche Option ist korrekt?",
+                options = listOf("Option A", "Option B", "Option C", "Option D"),
+                correctAnswer = "Option A",
+                explanation = "Erklärung folgt."
             ),
             Question(
-                id = "sample_4",
+                id = "${subjectId}_sample_4",
                 type = Constants.QuizTypes.FILL_BLANK,
-                questionText = "Der Text handelt von ___ .",
-                options = listOf("Beruf", "Gesundheit", "Umwelt", "Politik"),
-                correctAnswer = "Beruf",
-                explanation = "Das Thema wird im ersten Absatz eingeführt."
+                questionText = "Ergänzen Sie das fehlende Wort.",
+                options = listOf("Wort 1", "Wort 2", "Wort 3", "Wort 4"),
+                correctAnswer = "Wort 1",
+                explanation = "Bitte überprüfen Sie Ihre Antwort."
             ),
             Question(
-                id = "sample_5",
+                id = "${subjectId}_sample_5",
                 type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Welche Lösung wird im Text vorgeschlagen?",
-                options = listOf(
-                    "Lösung A",
-                    "Lösung B",
-                    "Lösung C",
-                    "Keine Lösung wird genannt."
-                ),
-                correctAnswer = "Keine Lösung wird genannt.",
-                explanation = "Der Text beschreibt das Problem nur."
+                questionText = "Was ist die richtige Lösung?",
+                options = listOf("Lösung A", "Lösung B", "Lösung C", "Lösung D"),
+                correctAnswer = "Lösung A",
+                explanation = "Erklärung hier."
             )
         )
         
         val quiz = Quiz(
             id = "${subjectId}_fallback",
             level = "B2",
-            category = Constants.Categories.READING,
+            category = Constants.Categories.GRAMMAR,
             title = getSubjectTitle(subjectId),
-            taskType = "reading",
+            taskType = "grammar",
             timeLimit = 10,
             passingScore = 60,
             questions = sampleQuestions
@@ -268,16 +178,6 @@ class QuizViewModel @Inject constructor(
         
         _currentQuiz.value = quiz
         _currentQuestionIndex.value = 0
-        _quizPhase.value = QuizPhase.READING
-        _currentReading.value = ReadingPassage(
-            id = "sample_reading",
-            title = "Leseverstehen",
-            content = "Dies ist ein Übungstext für das Leseverstehen. Lesen Sie den Text sorgfältig durch und beantworten Sie die Fragen. Der Text behandelt ein alltägliches Thema, das für das B2-Niveau relevant ist. Achten Sie auf die Hauptaussage und die Details im Text."
-        )
-    }
-
-    fun proceedToQuestions() {
-        _quizPhase.value = QuizPhase.QUESTIONS
         updateCurrentQuestion()
     }
 
@@ -339,10 +239,9 @@ class QuizViewModel @Inject constructor(
             passed = score >= quiz.passingScore,
             timeSpent = timeSpent
         )
-        
-        _quizPhase.value = QuizPhase.RESULT
     }
 
+    // Start a new quiz with different questions from the same topic
     fun startNextQuiz() {
         startQuiz(currentSubjectId)
     }

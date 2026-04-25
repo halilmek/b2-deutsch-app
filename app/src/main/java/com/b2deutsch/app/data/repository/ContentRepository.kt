@@ -36,6 +36,10 @@ class ContentRepository @Inject constructor(
     suspend fun getQuestionsByReading(readingId: String): Result<List<Question>> =
         dataSource.getQuestionsByReading(readingId)
 
+    // Grammar quiz questions (stored separately from reading questions)
+    suspend fun getGrammarQuestionsBySubject(subjectId: String): Result<List<Question>> =
+        dataSource.getGrammarQuestionsBySubject(subjectId)
+
     // ============ VOCABULARY ============
     suspend fun getVocabularyByLevel(level: String): Result<List<VocabularyWord>> =
         dataSource.getVocabularyByLevel(level)

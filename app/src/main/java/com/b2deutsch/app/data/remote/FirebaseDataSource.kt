@@ -209,6 +209,22 @@ class FirebaseDataSource @Inject constructor(
         }
     }
 
+    // Grammar questions from grammarQuizBank collection
+    suspend fun getGrammarQuestionsBySubject(subjectId: String): Result<List<Question>> {
+        return try {
+            val snapshot = firestore.collection("grammarQuizBank")
+                .whereEqualTo("subjectId", subjectId)
+                .get()
+                .await()
+            val questions = snapshot.documents.mapNotNull { doc ->
+                doc.toObject(Question::class.java)
+            }
+            Result.success(questions)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
     // ============ VOCABULARY ============
     suspend fun getVocabularyByLevel(level: String): Result<List<VocabularyWord>> {
         return try {
