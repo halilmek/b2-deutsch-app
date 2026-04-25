@@ -80,7 +80,7 @@ class QuizActiveFragment : Fragment() {
 
                 binding.rgOptions.removeAllViews()
                 
-                // Show options based on question type
+                // Show options if available
                 if (it.options.isNotEmpty()) {
                     it.options.forEach { option ->
                         val radioButton = RadioButton(context).apply {
@@ -91,6 +91,14 @@ class QuizActiveFragment : Fragment() {
                         }
                         binding.rgOptions.addView(radioButton)
                     }
+                } else {
+                    // For questions without options, show a message
+                    val infoText = android.widget.TextView(context).apply {
+                        text = "Bitte antworten Sie auf die Frage oben."
+                        textSize = 14f
+                        setPadding(32, 24, 32, 24)
+                    }
+                    binding.rgOptions.addView(infoText)
                 }
 
                 // Restore previously selected answer

@@ -126,42 +126,42 @@ class QuizViewModel @Inject constructor(
             Question(
                 id = "${subjectId}_sample_1",
                 type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Wählen Sie die correct Antwort.",
-                options = listOf("A) Antwort A", "B) Antwort B", "C) Antwort C", "D) Antwort D"),
-                correctAnswer = "A) Antwort A",
-                explanation = "Dies ist eine Beispielantwort."
+                questionText = "Welches Wort passt in die Lücke? ___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+                options = listOf("Als", "Wenn", "Während", "Bevor"),
+                correctAnswer = "Als",
+                explanation = "'Als' wird für einmalige Situationen in der Vergangenheit verwendet."
             ),
             Question(
                 id = "${subjectId}_sample_2",
                 type = Constants.QuizTypes.TRUE_FALSE,
-                questionText = "Diese Aussage ist richtig.",
+                questionText = "Der Konnektor 'als' wird für wiederholte Handlungen verwendet.",
                 options = listOf("Richtig", "Falsch"),
-                correctAnswer = "Richtig",
-                explanation = "Überprüfen Sie die Grammatikregeln."
+                correctAnswer = "Falsch",
+                explanation = "'Als' ist für einmalige Situationen. 'Wenn' ist für Wiederholungen."
             ),
             Question(
                 id = "${subjectId}_sample_3",
                 type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Welche Option ist korrekt?",
-                options = listOf("Option A", "Option B", "Option C", "Option D"),
-                correctAnswer = "Option A",
-                explanation = "Erklärung folgt."
+                questionText = "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+                options = listOf("als", "nachdem", "bevor", "während"),
+                correctAnswer = "nachdem",
+                explanation = "'Nachdem' zeigt, dass die Handlung davor war."
             ),
             Question(
                 id = "${subjectId}_sample_4",
                 type = Constants.QuizTypes.FILL_BLANK,
-                questionText = "Ergänzen Sie das fehlende Wort.",
-                options = listOf("Wort 1", "Wort 2", "Wort 3", "Wort 4"),
-                correctAnswer = "Wort 1",
-                explanation = "Bitte überprüfen Sie Ihre Antwort."
+                questionText = "___ ich gestern nach Hause kam, hat es geregnet.",
+                options = listOf("Als", "Wenn", "Während", "Bevor"),
+                correctAnswer = "Als",
+                explanation = "'Als' für einmalige Vergangenheit."
             ),
             Question(
                 id = "${subjectId}_sample_5",
                 type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Was ist die richtige Lösung?",
-                options = listOf("Lösung A", "Lösung B", "Lösung C", "Lösung D"),
-                correctAnswer = "Lösung A",
-                explanation = "Erklärung hier."
+                questionText = "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+                options = listOf("Wenn", "Als", "Bevor", "Während"),
+                correctAnswer = "Wenn",
+                explanation = "'Wenn' für Bedingung und Zukunft."
             )
         )
         
