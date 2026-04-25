@@ -123,7 +123,7 @@ class ExamsFragment : Fragment() {
         })
 
         content.addView(TextView(requireContext()).apply {
-            text = "📝 $questionCount questions  |  ⏱️ $duration"
+            text = "📝 ${exam.questionCount} questions  |  ⏱️ ${exam.duration}"
             textSize = 12f
             setTextColor(requireContext().getColor(R.color.purple_700))
         })
