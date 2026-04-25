@@ -4,26 +4,41 @@
  * Imports all themes, readings, and questions to Firestore
  * 
  * Usage:
- *   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/serviceAccountKey.json
- *   node firebase_import.js --all
- *   node firebase_import.js --themes
- *   node firebase_import.js --readings
+ *   1. Download service account key from Firebase Console
+ *   2. Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
+ *   3. Run: node firebase_import_complete.js --all
  */
 
 const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
 
-// Initialize Firebase Admin
-const serviceAccount = process.env.GOOGLE_APPLICATION_CREDENTIALS 
-    ? JSON.parse(fs.readFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS))
-    : null;
+// Get the directory where the script is located
+const scriptDir = __dirname;
 
-if (!serviceAccount) {
+// Check if service account credentials are provided
+const credPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
+if (!credPath) {
     console.error('❌ Error: GOOGLE_APPLICATION_CREDENTIALS not set');
-    console.error('   Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json');
+    console.error('');
+    console.error('Steps to fix:');
+    console.error('1. Go to https://console.firebase.google.com/');
+    console.error('2. Select project: b2-deutsch-app');
+    console.error('3. Go to Project Settings → Service Accounts');
+    console.error('4. Click "Generate new private key"');
+    console.error('5. Save the JSON file somewhere safe');
+    console.error('6. Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your-key.json');
+    console.error('7. Run this script again: node firebase_import_complete.js --all');
     process.exit(1);
 }
+
+if (!fs.existsSync(credPath)) {
+    console.error(`❌ Error: Service account key not found at: ${credPath}`);
+    console.error('Please check the path to your key file.');
+    process.exit(1);
+}
+
+const serviceAccount = JSON.parse(fs.readFileSync(credPath));
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
@@ -147,22 +162,21 @@ async function main() {
     
     console.log('🚀 B2 Deutsch Firebase Import');
     console.log('=============================');
+    console.log('');
     
-    // Load data files
-    const dataFiles = [
-        '/home/node/.openclaw/workspace/b2-deutsch-app/content/b2_all_themes_complete.json'
-    ];
+    // Look for the JSON file in the same directory as this script
+    const jsonPath = path.join(scriptDir, 'b2_all_themes_complete.json');
     
-    let allData = { themes: [], readings: [], questions: [] };
-    
-    for (const file of dataFiles) {
-        if (fs.existsSync(file)) {
-            const data = JSON.parse(fs.readFileSync(file, 'utf8'));
-            allData.themes.push(...data.themes);
-            allData.readings.push(...data.readings);
-            allData.questions.push(...data.questions);
-        }
+    if (!fs.existsSync(jsonPath)) {
+        console.error(`❌ Error: Content file not found at: ${jsonPath}`);
+        console.error('');
+        console.error('Make sure b2_all_themes_complete.json is in the content/reading folder.');
+        console.error('Pull the latest code from GitHub first:');
+        console.error('   git pull origin main');
+        process.exit(1);
     }
+    
+    const allData = JSON.parse(fs.readFileSync(jsonPath, 'utf8'));
     
     console.log(`📊 Total: ${allData.themes.length} themes, ${allData.readings.length} readings, ${allData.questions.length} questions`);
     console.log('');
