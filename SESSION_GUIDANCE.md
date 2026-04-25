@@ -1,9 +1,8 @@
 # B2 Deutsch App — Session Guidance
 ## Developer Notes & Roadmap
 
-**Last Updated:** 2026-04-25 16:00 UTC
+**Last Updated:** 2026-04-25 20:20 UTC
 **Session History:** See SESSION LOG at bottom
-**Append after every session using format: `## Session: [Date] — [Summary of work]`**
 
 ---
 
@@ -13,7 +12,7 @@
 **Name:** B2 Deutsch — Prüfungsvorbereitung
 **Platform:** Android (Kotlin + Jetpack Compose)
 **Package:** `com.b2deutsch.app`
-**Firebase Project:** `b2-deutsch-app` (project_number: 419122108874)
+**Firebase Project:** `b2-deutsch-app`
 **Repository:** https://github.com/halilmek/b2-deutsch-app
 
 ### Core Purpose
@@ -40,177 +39,117 @@ German language exam prep app for ALL CEFR levels (A1, A2, B1, B2, C1) — with 
 - [x] Android project scaffolded (Kotlin + Jetpack Compose)
 - [x] Firebase project configured (Auth + Firestore + Storage)
 - [x] GitHub repository: `halilmek/b2-deutsch-app`
-- [x] `google-services.json` at `app/google-services.json`
-- [x] Hilt dependency injection setup (AppModule.kt)
+- [x] Hilt dependency injection setup
 
-### ✅ Authentication (Phase 3)
+### ✅ Authentication
 - [x] LoginFragment with email/password
 - [x] SignUpFragment with display name
 - [x] AuthViewModel with Firebase Auth
 - [x] Navigation: login → home flow
 - [x] Logout functionality
 
-### ✅ Home Dashboard (SIMPLIFIED — Phase 3)
-- [x] HomeFragment — minimal layout
-- [x] NO streak/lessons cards (removed)
-- [x] NO feature buttons (removed — simplified)
+### ✅ Home Dashboard (SIMPLIFIED — 2026-04-25)
+- [x] Header with welcome message
 - [x] Level selection grid (A1, A2, B1, B2, C1)
-- [x] **Red logout button — top-right corner**
-- [x] **Bottom logout text link**
-- [x] **Exams button visible next to C1 level**
+- [x] **Red "📝 EXAMS" card** below C1 level
+- [x] NO streak/lessons cards (removed)
+- [x] NO feature buttons (removed)
+- [x] NO logout buttons (removed)
 
 ### ✅ Subject → Quiz → Results Flow
-- [x] SubjectListFragment — shows all subjects for selected level
-- [x] SubjectAdapter — subject cards with category badges
-- [x] SubjectDetailFragment — explanation + tips + Start Quiz button
+- [x] SubjectListFragment — **23 numbered B2 topics** (no category filters)
+- [x] SubjectAdapter
+- [x] SubjectDetailFragment — description + tips + "Quiz starten" button
 - [x] SubjectResultFragment — detailed results with explanations
-- [x] QuizResultAdapter — per-question result display
-- [x] Category filter chips (Alle, Grammatik, Lesen, Wortschatz)
+- [x] QuizResultAdapter for per-question display
+- [x] **NO "Zurück zur Übersicht" button** (removed)
 
-### ✅ Exams Module (CORE FEATURE — NEW!)
-- [x] ExamsFragment — shows 4 exam types per level
+### ✅ 23 B2 Grammar Topics (2026-04-25)
+Each topic has: 2-paragraph description, examples, learning tips, quiz button
+
+| # | Topic | Turkish |
+|---|-------|---------|
+| 1 | Konnektoren: als, bevor, bis, seitdem, während, wenn | Bağlaçlar |
+| 2 | Konnektoren: sobald, solange | Bağlaçlar |
+| 3 | Verben und Ergänzungen | Fiiller ve Tamamlayıcılar |
+| 4 | Zeitformen in der Vergangenheit | Geçmiş Zaman |
+| 5 | Zeitformen der Zukunft | Gelecek Zaman |
+| 6 | Futur mit werden | Gelecek Zaman |
+| 7 | Angaben im Satz | Cümledeki İfadeler |
+| 8 | Verneinung mit nicht | Olumsuzluk |
+| 9 | Negationswörter | Olumsuzluk Kelimeleri |
+| 10 | Passiv Präteritum | Edilgen Yapı |
+| 11 | Konjunktiv II der Vergangenheit | Geçmiş Zaman Konj. II |
+| 12 | Konjunktiv II mit Modalverben | Modal Fiiller |
+| 13 | Pronomen: einander | Zamirler |
+| 14 | Weiterführende Nebensätze | Yan Cümlecikler |
+| 15 | Präpositionen mit Genitiv | Genitiv ile Prepozisyonlar |
+| 16 | je und desto/umso + Komparativ | Karşılaştırmalar |
+| 17 | Nomen-Verb-Verbindungen | İsim-Fiil Bağlantıları |
+| 18 | Folgen ausdrücken | Sonuçları İfade Etme |
+| 19 | Ausdrücke mit Präpositionen | Prepozisyonlarla İfadeler |
+| 20 | irreale Konditionalsätze | Gerçek Dışı Koşul |
+| 21 | Relativsätze im Genitiv | İlgili Cümleler |
+| 22 | Konjunktiv I in der indirekten Rede | Dolaylı Anlatım |
+| 23 | Konjunktiv II in irrealen Vergleichssätzen | Gerçek Dışı Karşılaştırma |
+
+### ✅ Exams Module (CORE FEATURE)
+- [x] ExamsFragment — 4 exam types per level
 - [x] ExamActiveFragment — timer, questions, navigation
-- [x] ExamResultFragment — score display, pass/fail, encouragement
-- [x] C1 Exams button next to C1 level card
-- [x] 4 Exam Types: Leseverstehen, Hörverstehen, Schreiben, Sprechen
+- [x] ExamResultFragment — score display, pass/fail
 - [x] Navigation: Home → Exams → ExamActive → ExamResult
 
 ### ✅ B2 Reading Comprehension Content
 - [x] 40 texts, 200 questions, 320 vocabulary items (Topics 1-4)
 - [x] Topics 5-12 still needed
 
-### ✅ Navigation System
-- [x] nav_graph.xml with all fragment destinations (16 destinations)
-- [x] Navigation actions between all screens
-- [x] Start destination: loginFragment
-
 ### ✅ Documentation
-- [x] ROADMAP.md, ARCHITECTURE.md, SETUP_GUIDE.md
-- [x] PROJECT_STATUS.md — Master status (UPDATED after every session)
+- [x] ROADMAP.md
+- [x] ARCHITECTURE.md
 - [x] PRODUCT_BACKLOG.md — 13 epics, 103 user stories
 - [x] SESSION_GUIDANCE.md — This file
+- [x] PROJECT_STATUS.md
 
 ---
 
-## 3. WHAT WE ARE GOING TO MAKE
+## 3. NEXT STEPS
 
-### 🔴 PRIORITY 1 — Topic Content in SubjectList
-Each subject should show:
-- Topic heading (clickable)
-- Short description (max 100 words)
-- Sample questions
-- Quiz immediately below
+### 🔴 NEXT — Quiz Content Generation
+1. List B2 exam question types for reading section
+2. Generate questions for all 23 grammar topics
+3. Use texts from database for context
+4. Each quiz: 5-10 questions, mixed types
+5. Save to Firestore for reuse
 
-### 🔴 PRIORITY 2 — Firebase Data Import
-**On MacBook:**
-```bash
-cd ~/b2-deutsch-app/content/reading
-export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
-node firebase_import.js --all b2_reading_topics.json b2_reading_topics_4_12.json
-```
-
-### 🔴 PRIORITY 3 — Build & Test APK
-```bash
-cd ~/b2-deutsch-app && ./gradlew assembleDebug
-adb install app/build/outputs/apk/debug/app-debug.apk
-```
-
-### 🟡 PRIORITY 4 — Complete Topics 5–12 Content
-- 8 topics × 10 texts = 80 more texts needed
-- Each text: 5 questions + 8 vocab + 1 exam tip
-
-### 🟡 PRIORITY 5 — Exams for All Levels (A1-C1)
-Currently exams only show for C1. Need to extend to all levels.
+### 🔴 AFTER THAT — Firebase Import + Build APK
+1. Import content to Firestore
+2. Build and test APK on phone
 
 ---
 
 ## 📋 SESSION LOG
 
-### Session: 2026-04-25 16:00 UTC
-**Summary:** Major UI overhaul + Exams module added.
+### Session: 2026-04-25 18:30 UTC
+**Summary:** Major UI overhaul — simplified home, 23 numbered B2 topics, removed filters.
 
-**Home Screen Changes:**
-- Removed streak/lessons cards (top section)
-- Removed feature buttons (Lessons, Quizzes, Vocabulary, Writing, Speaking, Themen & Fächer)
-- Kept only: Header with welcome + red logout button, Level grid, Bottom logout text
-- Red logout button in top-right corner
+**Home Screen (Simplified):**
+- Removed streak/lessons cards
+- Removed feature buttons
+- Removed logout buttons
+- Added red EXAMS card below C1
 
-**Level Grid Changes:**
-- Added "📝 Exams" button next to C1 level card
-- LevelAdapter with onExamsClick callback
-- Level data class with hasExams flag
+**Subject List:**
+- Removed: Alle, Grammatik, Lesen, Wortschatz chips
+- Added: 23 numbered grammar topics with Turkish explanations
+- Each topic: 2 paragraphs description + examples + tips
+- "Quiz starten" button kept, "Zurück zur Übersicht" removed
 
-**New Exams Module (CORE FEATURE):**
-- ExamsFragment — 4 exam types for selected level:
-  - 📖 Leseverstehen (60 min, 10 questions)
-  - 🎧 Hörverstehen (40 min, 10 questions)
-  - ✍️ Schreiben (75 min, 1 task)
-  - 🎤 Sprechen (15 min, 2 parts)
-- ExamActiveFragment — timer countdown, question display, radio button answers, prev/next navigation
-- ExamResultFragment — score card, pass/fail, encouragement message
-
-**Navigation Flow:**
-- Home → Tap Level → SubjectList
-- Home → Tap "Exams" on C1 → ExamsFragment
-- Exams → Tap Exam → ExamActiveFragment (with timer)
-- ExamActive → Finish → ExamResultFragment
-
-**Files Created:**
-- `ExamsFragment.kt`, `ExamActiveFragment.kt`, `ExamResultFragment.kt`
-- `fragment_exams.xml`, `fragment_exam_active.xml`, `fragment_exam_result.xml`
-- `item_level.xml` (updated with Exams button)
-- `Level.kt` (updated with hasExams flag)
-- `LevelAdapter.kt` (updated with onExamsClick)
-- `nav_graph.xml` (updated with exams navigation)
-- `dimens.xml` (new)
-
-**Next:** Add topic content to SubjectList (each topic with description + sample questions + quiz)
+**Bug Fixes:**
+- QuizResult import (data model not ui.quiz)
+- selectedId type mismatch
+- exams_to_exams navigation
+- gray_600, gray_700, gray_100 colors added
 
 ---
 
-### Session: 2026-04-25 14:48 UTC
-**Summary:** Pushed all 116 files to GitHub. Created PRODUCT_BACKLOG.md with 13 epics, 103 user stories.
-
-**Files Created:**
-- `PRODUCT_BACKLOG.md` — Complete backlog with epics, user stories, priorities
-- `push-to-github.js` — Node.js GitHub API script
-
----
-
-## 🚨 KNOWN ISSUES
-
-1. **SubjectList needs topic content** — Each subject needs description, sample questions, quiz below
-2. **Firebase not populated** — Need service account key to run import
-3. **No APK built/tested** — Need Android Studio + phone
-
----
-
-## 📁 KEY FILE LOCATIONS
-
-| File | Location |
-|------|----------|
-| Android project | `/home/node/.openclaw/workspace/b2-deutsch-app/` |
-| Reading content | `content/reading/` |
-| Firebase import | `content/reading/firebase_import.js` |
-| Quick quiz | `content/reading/QUICKSTART_B2_READING_QUIZ.md` |
-| Project status | `b2-deutsch-app/PROJECT_STATUS.md` |
-| Product backlog | `b2-deutsch-app/PRODUCT_BACKLOG.md` |
-
----
-
-## 📝 QUICK COMMANDS
-
-```bash
-# Update from GitHub
-cd ~/b2-deutsch-app && git pull origin main
-
-# Push to GitHub (from server)
-cd /home/node/.openclaw/workspace && node push-to-github.js
-
-# Build APK (on MacBook)
-cd ~/b2-deutsch-app && ./gradlew assembleDebug
-```
-
----
-
-_Last updated: 2026-04-25 16:00 UTC_
+_Last updated: 2026-04-25 20:20 UTC_
