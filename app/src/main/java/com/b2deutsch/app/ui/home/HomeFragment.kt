@@ -10,7 +10,6 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import com.b2deutsch.app.R
 import com.b2deutsch.app.databinding.FragmentHomeBinding
-import com.b2deutsch.app.ui.auth.AuthViewModel
 import com.b2deutsch.app.ui.level.LevelAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -21,7 +20,6 @@ class HomeFragment : Fragment() {
     private val binding get() = _binding!!
 
     private val homeViewModel: HomeViewModel by activityViewModels()
-    private val authViewModel: AuthViewModel by activityViewModels()
 
     private lateinit var levelAdapter: LevelAdapter
 
@@ -46,11 +44,9 @@ class HomeFragment : Fragment() {
         levelAdapter = LevelAdapter(
             onLevelClick = { level ->
                 homeViewModel.setCurrentLevel(level.id)
-                // Navigate to Subject List for this level
                 findNavController().navigate(R.id.action_home_to_subjectList)
             },
             onExamsClick = { level ->
-                // Navigate to Exams module for this level
                 homeViewModel.setCurrentLevel(level.id)
                 findNavController().navigate(R.id.action_home_to_exams)
             }
@@ -63,16 +59,9 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        // Top right logout button
-        binding.btnLogoutTop.setOnClickListener {
-            authViewModel.signOut()
-            findNavController().navigate(R.id.action_home_to_login)
-        }
-
-        // Bottom logout button
-        binding.btnLogout.setOnClickListener {
-            authViewModel.signOut()
-            findNavController().navigate(R.id.action_home_to_login)
+        // Exams card - goes to exams for selected level (default C1)
+        binding.cardExams.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_exams)
         }
     }
 

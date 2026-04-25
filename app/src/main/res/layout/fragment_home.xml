@@ -17,29 +17,27 @@
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:orientation="vertical"
             android:padding="20dp"
-            android:background="@color/purple_700"
-            android:gravity="center_vertical">
+            android:background="@color/purple_700">
 
             <TextView
                 android:id="@+id/tvWelcome"
-                android:layout_width="0dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
                 android:text="Welcome!"
                 android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="@color/white" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/btnLogoutTop"
-                style="@style/Widget.MaterialComponents.Button.TextButton"
+            <TextView
+                android:id="@+id/tvCurrentLevel"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Logout"
-                android:textColor="@color/red_500"
-                android:textSize="14sp" />
+                android:text="Select Level"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="4dp" />
         </LinearLayout>
 
         <!-- Levels Label -->
@@ -54,7 +52,7 @@
             android:paddingHorizontal="16dp"
             android:paddingTop="16dp" />
 
-        <!-- Levels Grid with Exams -->
+        <!-- Levels Grid -->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvLevels"
             android:layout_width="match_parent"
@@ -63,15 +61,40 @@
             android:nestedScrollingEnabled="false"
             android:clipToPadding="false" />
 
-        <!-- Logout at Bottom -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnLogout"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
+        <!-- Exams Box -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardExams"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Logout"
-            android:textColor="@color/gray_600"
-            android:layout_margin="16dp" />
+            android:layout_margin="16dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:cardBackgroundColor="@color/red_500">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="24dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="📝 EXAMS"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="→"
+                    android:textSize="24sp"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
 
         <ProgressBar
             android:id="@+id/progressBar"
