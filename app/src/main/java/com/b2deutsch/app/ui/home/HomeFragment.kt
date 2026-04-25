@@ -43,11 +43,18 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupRecyclerView() {
-        levelAdapter = LevelAdapter { level ->
-            homeViewModel.setCurrentLevel(level.id)
-            // Navigate to Subject List for this level
-            findNavController().navigate(R.id.action_home_to_subjectList)
-        }
+        levelAdapter = LevelAdapter(
+            onLevelClick = { level ->
+                homeViewModel.setCurrentLevel(level.id)
+                // Navigate to Subject List for this level
+                findNavController().navigate(R.id.action_home_to_subjectList)
+            },
+            onExamsClick = { level ->
+                // Navigate to Exams module for this level
+                homeViewModel.setCurrentLevel(level.id)
+                findNavController().navigate(R.id.action_home_to_exams)
+            }
+        )
 
         binding.rvLevels.apply {
             layoutManager = GridLayoutManager(context, 2)
@@ -56,30 +63,13 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        binding.btnLessons.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_lessons)
+        // Top right logout button
+        binding.btnLogoutTop.setOnClickListener {
+            authViewModel.signOut()
+            findNavController().navigate(R.id.action_home_to_login)
         }
 
-        binding.btnQuizzes.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_quizzes)
-        }
-
-        binding.btnVocabulary.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_vocabulary)
-        }
-
-        binding.btnWriting.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_writing)
-        }
-
-        binding.btnSpeaking.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_speaking)
-        }
-
-        binding.btnSubjects.setOnClickListener {
-            findNavController().navigate(R.id.action_home_to_subjectList)
-        }
-
+        // Bottom logout button
         binding.btnLogout.setOnClickListener {
             authViewModel.signOut()
             findNavController().navigate(R.id.action_home_to_login)
@@ -93,19 +83,8 @@ class HomeFragment : Fragment() {
             }
         }
 
-        homeViewModel.currentLevel.observe(viewLifecycleOwner) { level ->
-            binding.tvCurrentLevel.text = "Level: $level"
-        }
-
         homeViewModel.levels.observe(viewLifecycleOwner) { levels ->
             levelAdapter.submitList(levels)
-        }
-
-        homeViewModel.userProgress.observe(viewLifecycleOwner) { progress ->
-            progress?.let {
-                binding.tvStreak.text = "🔥 Streak: ${it.streak} days"
-                binding.tvLessonsCompleted.text = "📚 ${it.lessonsCompleted} lessons"
-            }
         }
 
         homeViewModel.isLoading.observe(viewLifecycleOwner) { isLoading ->

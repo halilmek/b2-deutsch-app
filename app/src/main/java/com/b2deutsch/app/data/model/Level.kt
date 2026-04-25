@@ -6,5 +6,6 @@ data class Level(
     val description: String = "",
     val order: Int = 0,
     val isLocked: Boolean = false,
-    val iconUrl: String = ""
+    val iconUrl: String = "",
+    val hasExams: Boolean = false  // C1 has Exams button
 )

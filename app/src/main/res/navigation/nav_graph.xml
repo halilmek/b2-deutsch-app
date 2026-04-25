@@ -45,112 +45,17 @@
         tools:layout="@layout/fragment_home">
 
         <action
-            android:id="@+id/action_home_to_lessons"
-            app:destination="@id/lessonsFragment" />
-
-        <action
-            android:id="@+id/action_home_to_quizzes"
-            app:destination="@id/quizzesFragment" />
-
-        <action
-            android:id="@+id/action_home_to_vocabulary"
-            app:destination="@id/vocabularyFragment" />
-
-        <action
-            android:id="@+id/action_home_to_writing"
-            app:destination="@id/writingFragment" />
-
-        <action
-            android:id="@+id/action_home_to_speaking"
-            app:destination="@id/speakingFragment" />
-
-        <action
             android:id="@+id/action_home_to_subjectList"
             app:destination="@id/subjectListFragment" />
+
+        <action
+            android:id="@+id/action_home_to_exams"
+            app:destination="@id/examsFragment" />
 
         <action
             android:id="@+id/action_home_to_login"
             app:destination="@id/loginFragment"
             app:popUpTo="@id/homeFragment"
-            app:popUpToInclusive="true" />
-    </fragment>
-
-    <!-- Lessons -->
-    <fragment
-        android:id="@+id/lessonsFragment"
-        android:name="com.b2deutsch.app.ui.lessons.LessonsFragment"
-        android:label="Lessons"
-        tools:layout="@layout/fragment_lessons">
-
-        <action
-            android:id="@+id/action_lessons_to_detail"
-            app:destination="@id/lessonDetailFragment">
-            <argument
-                android:name="lessonId"
-                app:argType="string" />
-        </action>
-    </fragment>
-
-    <fragment
-        android:id="@+id/lessonDetailFragment"
-        android:name="com.b2deutsch.app.ui.lessons.LessonDetailFragment"
-        android:label="Lesson"
-        tools:layout="@layout/fragment_lesson_detail">
-
-        <argument
-            android:name="lessonId"
-            app:argType="string" />
-    </fragment>
-
-    <!-- Quizzes -->
-    <fragment
-        android:id="@+id/quizzesFragment"
-        android:name="com.b2deutsch.app.ui.quiz.QuizzesFragment"
-        android:label="Quizzes"
-        tools:layout="@layout/fragment_quizzes">
-
-        <action
-            android:id="@+id/action_quizzes_to_quizActive"
-            app:destination="@id/quizActiveFragment">
-            <argument
-                android:name="quizId"
-                app:argType="string" />
-        </action>
-    </fragment>
-
-    <fragment
-        android:id="@+id/quizActiveFragment"
-        android:name="com.b2deutsch.app.ui.quiz.QuizActiveFragment"
-        android:label="Quiz"
-        tools:layout="@layout/fragment_quiz_active">
-
-        <argument
-            android:name="quizId"
-            app:argType="string" />
-
-        <action
-            android:id="@+id/action_quizActive_to_result"
-            app:destination="@id/quizResultFragment">
-            <argument
-                android:name="quizId"
-                app:argType="string" />
-        </action>
-    </fragment>
-
-    <fragment
-        android:id="@+id/quizResultFragment"
-        android:name="com.b2deutsch.app.ui.quiz.QuizResultFragment"
-        android:label="Results"
-        tools:layout="@layout/fragment_quiz_result">
-
-        <argument
-            android:name="quizId"
-            app:argType="string" />
-
-        <action
-            android:id="@+id/action_result_to_subjectList"
-            app:destination="@id/subjectListFragment"
-            app:popUpTo="@id/subjectListFragment"
             app:popUpToInclusive="true" />
     </fragment>
 
@@ -212,21 +117,169 @@
             app:popUpToInclusive="true" />
     </fragment>
 
-    <!-- Vocabulary -->
+    <!-- Exams -->
+    <fragment
+        android:id="@+id/examsFragment"
+        android:name="com.b2deutsch.app.ui.exams.ExamsFragment"
+        android:label="Exams"
+        tools:layout="@layout/fragment_exams">
+
+        <argument
+            android:name="level"
+            app:argType="string"
+            android:defaultValue="C1" />
+
+        <action
+            android:id="@+id/action_exams_to_examActive"
+            app:destination="@id/examActiveFragment">
+            <argument
+                android:name="examId"
+                app:argType="string" />
+            <argument
+                android:name="level"
+                app:argType="string" />
+            <argument
+                android:name="examTitle"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/examActiveFragment"
+        android:name="com.b2deutsch.app.ui.exams.ExamActiveFragment"
+        android:label="Exam"
+        tools:layout="@layout/fragment_exam_active">
+
+        <argument
+            android:name="examId"
+            app:argType="string" />
+        <argument
+            android:name="level"
+            app:argType="string" />
+        <argument
+            android:name="examTitle"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_examActive_to_examResult"
+            app:destination="@id/examResultFragment">
+            <argument
+                android:name="examId"
+                app:argType="string" />
+            <argument
+                android:name="level"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/examResultFragment"
+        android:name="com.b2deutsch.app.ui.exams.ExamResultFragment"
+        android:label="Exam Results"
+        tools:layout="@layout/fragment_exam_result">
+
+        <argument
+            android:name="examId"
+            app:argType="string" />
+        <argument
+            android:name="level"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Legacy Quiz Flow (kept for backward compatibility) -->
+    <fragment
+        android:id="@+id/quizzesFragment"
+        android:name="com.b2deutsch.app.ui.quiz.QuizzesFragment"
+        android:label="Quizzes"
+        tools:layout="@layout/fragment_quizzes">
+
+        <action
+            android:id="@+id/action_quizzes_to_quizActive"
+            app:destination="@id/quizActiveFragment">
+            <argument
+                android:name="quizId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizActiveFragment"
+        android:name="com.b2deutsch.app.ui.quiz.QuizActiveFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz_active">
+
+        <argument
+            android:name="quizId"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_quizActive_to_result"
+            app:destination="@id/quizResultFragment">
+            <argument
+                android:name="quizId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizResultFragment"
+        android:name="com.b2deutsch.app.ui.quiz.QuizResultFragment"
+        android:label="Results"
+        tools:layout="@layout/fragment_quiz_result">
+
+        <argument
+            android:name="quizId"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_result_to_subjectList"
+            app:destination="@id/subjectListFragment"
+            app:popUpTo="@id/subjectListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Legacy Lessons (kept for backward compatibility) -->
+    <fragment
+        android:id="@+id/lessonsFragment"
+        android:name="com.b2deutsch.app.ui.lessons.LessonsFragment"
+        android:label="Lessons"
+        tools:layout="@layout/fragment_lessons">
+
+        <action
+            android:id="@+id/action_lessons_to_detail"
+            app:destination="@id/lessonDetailFragment">
+            <argument
+                android:name="lessonId"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/lessonDetailFragment"
+        android:name="com.b2deutsch.app.ui.lessons.LessonDetailFragment"
+        android:label="Lesson"
+        tools:layout="@layout/fragment_lesson_detail">
+
+        <argument
+            android:name="lessonId"
+            app:argType="string" />
+    </fragment>
+
+    <!-- Legacy Vocabulary -->
     <fragment
         android:id="@+id/vocabularyFragment"
         android:name="com.b2deutsch.app.ui.vocabulary.VocabularyFragment"
         android:label="Vocabulary"
         tools:layout="@layout/fragment_vocabulary" />
 
-    <!-- Writing -->
+    <!-- Legacy Writing -->
     <fragment
         android:id="@+id/writingFragment"
         android:name="com.b2deutsch.app.ui.writing.WritingFragment"
         android:label="Writing"
         tools:layout="@layout/fragment_writing" />
 
-    <!-- Speaking -->
+    <!-- Legacy Speaking -->
     <fragment
         android:id="@+id/speakingFragment"
         android:name="com.b2deutsch.app.ui.speaking.SpeakingFragment"

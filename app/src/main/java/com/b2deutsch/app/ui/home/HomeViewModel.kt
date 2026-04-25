@@ -84,10 +84,10 @@ class HomeViewModel @Inject constructor(
     }
 
     private fun getDefaultLevels(): List<Level> = listOf(
-        Level("A1", "A1", "Elementary", 1, isLocked = false),
-        Level("A2", "A2", "Pre-Intermediate", 2, isLocked = false),
-        Level("B1", "B1", "Intermediate", 3, isLocked = false),
-        Level("B2", "B2", "Upper-Intermediate", 4, isLocked = false),
-        Level("C1", "C1", "Advanced", 5, isLocked = false)
+        Level("A1", "A1", "Elementary", 1, isLocked = false, hasExams = false),
+        Level("A2", "A2", "Pre-Intermediate", 2, isLocked = false, hasExams = false),
+        Level("B1", "B1", "Intermediate", 3, isLocked = false, hasExams = false),
+        Level("B2", "B2", "Upper-Intermediate", 4, isLocked = false, hasExams = false),
+        Level("C1", "C1", "Advanced", 5, isLocked = false, hasExams = true)
     )
 }

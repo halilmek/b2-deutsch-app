@@ -1,6 +1,7 @@
 package com.b2deutsch.app.ui.level
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
@@ -9,7 +10,8 @@ import com.b2deutsch.app.data.model.Level
 import com.b2deutsch.app.databinding.ItemLevelBinding
 
 class LevelAdapter(
-    private val onLevelClick: (Level) -> Unit
+    private val onLevelClick: (Level) -> Unit,
+    private val onExamsClick: ((Level) -> Unit)? = null
 ) : ListAdapter<Level, LevelAdapter.LevelViewHolder>(LevelDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LevelViewHolder {
@@ -34,11 +36,21 @@ class LevelAdapter(
             binding.tvLevelDescription.text = level.description
             binding.tvLevelOrder.text = "Level ${level.order}"
 
+            // Show Exams button for C1 (or any level with hasExams = true)
+            if (level.hasExams) {
+                binding.btnExams.visibility = View.VISIBLE
+                binding.btnExams.setOnClickListener {
+                    onExamsClick?.invoke(level)
+                }
+            } else {
+                binding.btnExams.visibility = View.GONE
+            }
+
             // Visual indicator for locked levels
             binding.ivLock.visibility = if (level.isLocked) {
-                android.view.View.VISIBLE
+                View.VISIBLE
             } else {
-                android.view.View.GONE
+                View.GONE
             }
 
             // Set color based on level
