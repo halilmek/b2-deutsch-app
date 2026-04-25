@@ -25,3 +25,13 @@ data class UserProgress(
     val streak: Int = 0,
     val lastActiveDate: String = ""
 )
+
+data class SubjectProgress(
+    val userId: String = "",
+    val subjectId: String = "",
+    val level: String = "B2",
+    val quizzesCompleted: Int = 0,
+    val bestScore: Int = 0,
+    val lastAttemptAt: Long = 0,
+    val isCompleted: Boolean = false
+)

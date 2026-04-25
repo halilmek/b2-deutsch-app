@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Header: Question number + result icon -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvQuestionNumber"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Frage 1"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/purple_700" />
+
+            <ImageView
+                android:id="@+id/ivResult"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@android:drawable/presence_online" />
+        </LinearLayout>
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/tvQuestionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Was ist die Hauptaussage des Textes?"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginTop="8dp" />
+
+        <!-- User's Answer -->
+        <TextView
+            android:id="@+id/tvYourAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deine Antwort: Antwort A"
+            android:textSize="13sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp" />
+
+        <!-- Correct Answer (only shown if wrong) -->
+        <TextView
+            android:id="@+id/tvCorrectAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Richtige Antwort: Antwort B"
+            android:textSize="13sp"
+            android:textColor="@color/green_600"
+            android:layout_marginTop="4dp" />
+
+        <!-- Explanation -->
+        <TextView
+            android:id="@+id/tvExplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💡 Die richtige Antwort ist B, weil..."
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:background="@android:color/transparent"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="italic"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:backgroundTint="#F5F5F5" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

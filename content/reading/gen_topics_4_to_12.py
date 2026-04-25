@@ -1,0 +1,430 @@
+#!/usr/bin/env python3
+"""
+B2 Deutsch — Content Generator (JSON-based)
+============================================
+Generates all remaining B2 reading texts as clean JSON.
+Run: python3 gen_topics_4_to_12.py
+
+This script generates texts for Topics 4-12 (9 topics × 10 texts = 90 texts).
+Each text = 5 questions (3 MC + 1 TF + 1 FIB) + 8 vocab items + exam tip.
+"""
+
+import json
+import uuid
+import sys
+from datetime import datetime
+
+def make_id(prefix, topic_num, text_num, item_type=''):
+    suffix = f'_{item_type}' if item_type else ''
+    return f'b2_r_{topic_num:02d}_{text_num:02d}{suffix}'
+
+def make_qid(topic_num, text_num, q_num):
+    return f'q_{topic_num:02d}_{text_num:02d}_{chr(96+q_num)}'
+
+# ============================================================
+# TOPIC 4: Gesellschaft und Soziales
+# ============================================================
+def gen_topic4():
+    return {
+        "topicId": "b2_reading_04",
+        "topicName": "Gesellschaft und Soziales",
+        "topicNameEn": "Society and Social Issues",
+        "iconEmoji": "👥",
+        "sourceBase": "https://www.spiegel.de/thema/gesellschaft",
+        "texts": [
+            {
+                "id": "b2_r_04_01",
+                "title": "Der demografische Wandel: Deutschland wird älter",
+                "source": "Bundesinstitut für Bevölkerungsforschung",
+                "sourceUrl": "https://www.bib.bund.de/",
+                "wordCount": 335,
+                "readingTimeMinutes": 5,
+                "tags": ["Demografie", "Alterung", "Gesellschaft"],
+                "content": """Deutschland wird immer älter. Laut dem Statistischen Bundesamt lag das Durchschnittsalter der Bevölkerung im Jahr 2023 bei 44,7 Jahren – ein Anstieg um mehr als zehn Jahre seit 1970. Der demografische Wandel ist eine der größten Herausforderungen der Gesellschaft.
+
+Die Ursachen sind klar: Die Geburtenrate ist niedrig – jede Frau bekommt im Durchschnitt nur 1,5 Kinder. Gleichzeitig steigt die Lebenserwartung: Wer heute geboren wird, hat eine statistische Lebenserwartung von etwa 78 Jahren für Männer und 83 Jahren für Frauen.
+
+Die Folgen sind weitreichend. In 20 Jahren werden rund 38 Prozent der Deutschen über 60 Jahre alt sein. Das bedeutet: weniger Arbeitskräfte, mehr Rentner und eine wachsende Belastung für das Sozialsystem. Die Rentenversicherung steht vor der Frage, wie sie bei weniger Beitragszahlern und mehr Rentnern stabil bleiben soll.
+
+Auch die Infrastruktur wird betroffen sein. In vielen kleinen Städten und Dörfern schließen Schulen, weil zu wenige Kinder geboren werden. Gleichzeitig fehlen Pflegekräfte, um die wachsende Zahl älterer Menschen zu versorgen.
+
+Die Politik diskutiert verschiedene Gegenmaßnahmen. Eine Erhöhung des Renteneintrittsalters wird ebenso debattiert wie eine stärkere Zuwanderung qualifizierter Arbeitskräfte oder mehr Investitionen in Automatisierung und Produktivität. Fest steht: Der demografische Wandel lässt sich nicht aufhalten – nur abfedern.""",
+                "questions": [
+                    {"id": "q_04_01_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Die Gesellschaft verjüngt sich.", "Der demografische Wandel stellt Deutschland vor große gesellschaftliche und wirtschaftliche Herausforderungen.", "Die Geburtenrate steigt.", "Der demografische Wandel betrifft nur Großstädte."], "correctAnswer": "Der demografische Wandel stellt Deutschland vor große gesellschaftliche und wirtschaftliche Herausforderungen.", "explanation": "Der Text zeigt durchgehend: ältere Bevölkerung, niedrige Geburtenrate, steigende Lebenserwartung, Folgen für Rente, Pflege, Schulen."},
+                    {"id": "q_04_01_b", "type": "true_false", "questionText": "Die Geburtenrate ist in Deutschland hoch.", "correctAnswer": "false", "explanation": "Der Text sagt: 'Die Geburtenrate ist niedrig – jede Frau bekommt im Durchschnitt nur 1,5 Kinder.'"},
+                    {"id": "q_04_01_c", "type": "multiple_choice", "questionText": "Wie viel Prozent der Deutschen werden in 20 Jahren über 60 Jahre alt sein?", "options": ["Rund 20 Prozent", "Rund 28 Prozent", "Rund 38 Prozent", "Rund 50 Prozent"], "correctAnswer": "Rund 38 Prozent", "explanation": "'In 20 Jahren werden rund 38 Prozent der Deutschen über 60 Jahre alt sein.'"},
+                    {"id": "q_04_01_d", "type": "fill_blank", "questionText": "Die Geburtenrate liegt bei nur 1,5 Kindern pro ___.", "correctAnswer": "Frau", "explanation": "'Jede Frau bekommt im Durchschnitt nur 1,5 Kinder.'"},
+                    {"id": "q_04_01_e", "type": "multiple_choice", "questionText": "Was ist laut dem Text eine mögliche Folge des demografischen Wandels für Schulen?", "options": ["Mehr Schulen werden gebaut.", "Schulen schließen, weil zu wenige Kinder geboren werden.", "Schulen werden modernisiert.", "Lehrer bekommen mehr Gehalt."], "correctAnswer": "Schulen schließen, weil zu wenige Kinder geboren werden.", "explanation": "'In vielen kleinen Städten und Dörfern schließen Schulen, weil zu wenige Kinder geboren werden.'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "der demografische Wandel", "english": "demographic change", "turkish": "demografik değişim", "pos": "noun"},
+                    {"german": "die Geburtenrate", "english": "birth rate", "turkish": "doğum oranı", "pos": "noun"},
+                    {"german": "die Lebenserwartung", "english": "life expectancy", "turkish": "beklenen yaşam süresi", "pos": "noun"},
+                    {"german": "die Rentenversicherung", "english": "pension insurance", "turkish": "emeklilik sigortası", "pos": "noun"},
+                    {"german": "die Infrastruktur", "english": "infrastructure", "turkish": "altyapı", "pos": "noun"},
+                    {"german": "die Pflegekraft", "english": "caregiver / nurse", "turkish": "bakım personeli", "pos": "noun"},
+                    {"german": "die Zuwanderung", "english": "immigration", "turkish": "göç / göçmen", "pos": "noun"},
+                    {"german": "die Automatisierung", "english": "automation", "turkish": "otomasyon", "pos": "noun"}
+                ],
+                "examTip": "Wichtige Zahlen: Durchschnittsalter 44,7 Jahre, Geburtenrate 1,5 Kinder/Frau, Lebenserwartung 78/83 Jahre. Diese Zahlen kommen oft in B2-Prüfungen vor!"
+            },
+            {
+                "id": "b2_r_04_02",
+                "title": "Integration: Wie gelingt das Zusammenleben?",
+                "source": "Beauftragte der Bundesregierung für Migration",
+                "sourceUrl": "https://www.integrationsbeauftragte.de/",
+                "wordCount": 320,
+                "readingTimeMinutes": 5,
+                "tags": ["Integration", "Migration", "Zusammenleben"],
+                "content": """Deutschland ist ein Einwanderungsland – das wird heute kaum noch bestritten. Seit den 1960er Jahren haben Millionen von Menschen aus anderen Ländern nach Deutschland kommen, um hier zu arbeiten und zu leben. Doch wie gelingt die Integration dieser Menschen in die Gesellschaft?
+
+Zunächst ist Sprache der Schlüssel. Wer die deutsche Sprache beherrscht, hat deutlich bessere Chancen auf dem Arbeitsmarkt und kann am gesellschaftlichen Leben teilnehmen. Integrationskurse, die vom Bundesamt für Migration und Flüchtlinge angeboten werden, sind ein wichtiger erster Schritt. Sie umfassen sowohl Sprachkurse als auch Orientierungskurse über die deutsche Geschichte und Gesellschaft.
+
+Doch Integration ist keine Einbahnstraße. Zuwanderer müssen sich anstrengen – aber auch die Gesellschaft muss offen sein und Chancen bieten. Diskriminierung am Arbeitsmarkt oder im Alltag ist ein ernstes Hindernis. Studien zeigen, dass Menschen mit ausländisch klingenden Namen bei gleicher Qualifikation seltener zu Vorstellungsgesprächen eingeladen werden.
+
+Auch die Wirtschaft profitiert von Zuwanderung. Viele junge Zuwanderer gründen Unternehmen und schaffen Arbeitsplätze. Sie tragen zur Innovation bei und helfen, den Fachkräftemangel zu lindern.
+
+Experten betonen: Erfolgreiche Integration braucht Zeit und Geduld. „Es dauert mindestens zwei bis drei Generationen, bis Zuwanderer vollständig in einer Gesellschaft angekommen sind", sagt Soziologieprofessorin Dr. Naika Foroutan von der Humboldt-Universität. Wichtig sei auch die Möglichkeit zur doppelten Staatsbürgerschaft – sie fördere die Identifikation mit Deutschland.""",
+                "questions": [
+                    {"id": "q_04_02_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Integration ist nur die Aufgabe der Zuwanderer.", "Integration gelingt durch Sprache und ist eine Aufgabe beider Seiten.", "Integration funktioniert in Deutschland nicht.", "Nur Sprache ist wichtig für Integration."], "correctAnswer": "Integration gelingt durch Sprache und ist eine Aufgabe beider Seiten.", "explanation": "Der Text betont sowohl die Anstrengung der Zuwanderer (Sprache, Integrationskurse) als auch die Offenheit der Gesellschaft."},
+                    {"id": "q_04_02_b", "type": "true_false", "questionText": "Diskriminierung am Arbeitsmarkt ist laut dem Text kein Problem mehr.", "correctAnswer": "false", "explanation": "'Diskriminierung am Arbeitsmarkt oder im Alltag ist ein ernstes Hindernis.' Studie zeigt: Menschen mit ausländisch klingenden Namen werden seltener eingeladen."},
+                    {"id": "q_04_02_c", "type": "multiple_choice", "questionText": "Was zeigt die Studie über Diskriminierung?", "options": ["Alle Menschen werden gleich behandelt.", "Menschen mit ausländisch klingenden Namen werden seltener eingeladen.", "Diskriminierung gibt es nur im Alltag.", "Nur ältere Menschen werden diskriminiert."], "correctAnswer": "Menschen mit ausländisch klingenden Namen werden seltener eingeladen.", "explanation": "'Studien zeigen, dass Menschen mit ausländisch klingenden Namen bei gleicher Qualifikation seltener zu Vorstellungsgesprächen eingeladen werden.'"},
+                    {"id": "q_04_02_d", "type": "fill_blank", "questionText": "Integrationskurse werden vom Bundesamt für Migration und ___ angeboten.", "correctAnswer": "Flüchtlinge", "explanation": "Bundesamt für Migration und Flüchtlinge (BAMF) ist die zuständige Behörde für Integrationskurse."},
+                    {"id": "q_04_02_e", "type": "multiple_choice", "questionText": "Wie lange dauert es laut Dr. Naika Foroutan, bis Zuwanderer vollständig angekommen sind?", "options": ["Ein paar Monate", "Etwa ein Jahr", "Mindestens zwei bis drei Generationen", "Gar nicht"], "correctAnswer": "Mindestens zwei bis drei Generationen", "explanation": "'Es dauert mindestens zwei bis drei Generationen, bis Zuwanderer vollständig in einer Gesellschaft angekommen sind.'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "die Integration", "english": "integration", "turkish": "entegrasyon / uyum", "pos": "noun"},
+                    {"german": "die Zuwanderung", "english": "immigration", "turkish": "göç / göçmen", "pos": "noun"},
+                    {"german": "der Integrationskurs", "english": "integration course", "turkish": "uyum kursu", "pos": "noun"},
+                    {"german": "die Diskriminierung", "english": "discrimination", "turkish": "ayrımcılık", "pos": "noun"},
+                    {"german": "die Staatsbürgerschaft", "english": "citizenship", "turkish": "vatandaşlık", "pos": "noun"},
+                    {"german": "die Identifikation", "english": "identification", "turkish": "kimlik belirleme", "pos": "noun"},
+                    {"german": "die Innovation", "english": "innovation", "turkish": "yenilik / inovasyon", "pos": "noun"},
+                    {"german": "die Chancengleichheit", "english": "equal opportunity", "turkish": "fırsat eşitliği", "pos": "noun"}
+                ],
+                "examTip": "Integration = Zwei-Wege-Prozess! Sprache als Schlüssel + Diskriminierung als Hindernis. BAMF = Bundesamt für Migration und Flüchtlinge!"
+            },
+            {
+                "id": "b2_r_04_03",
+                "title": "Vereinsamung: Wenn Alleinsein zur Krankheit wird",
+                "source": "Deutsches Ärzteblatt",
+                "sourceUrl": "https://www.aerzteblatt.de/vereinsamung",
+                "wordCount": 310,
+                "readingTimeMinutes": 4,
+                "tags": ["Einsamkeit", "Soziale Isolation", "Gesundheit"],
+                "content": """Einsamkeit ist ein wachsendes Problem in der deutschen Gesellschaft. Laut einer Studie der Krankenkasse Barmer fühlen sich etwa 25 Prozent der Deutschen häufig einsam – das sind rund 20 Millionen Menschen. Besonders betroffen sind ältere Menschen, aber auch junge Erwachsene zwischen 18 und 30 Jahren.
+
+Die Folgen von Einsamkeit sind gravierend. Studien zeigen, dass dauerhafte Isolation das Risiko für Herz-Kreislauf-Erkrankungen erhöht, das Immunsystem schwächt und sogar das Demenzrisiko steigert. Einsamkeit ist laut Forschern so schädlich wie das Rauchen von 15 Zigaretten am Tag.
+
+Die Gründe für zunehmende Einsamkeit sind vielfältig. Die Digitalisierung verändert soziale Kontakte: Viele Menschen verbringen mehr Zeit mit dem Smartphone als mit echten Freunden. Auch die steigende Mobilität auf dem Arbeitsmarkt führt dazu, dass Menschen weit weg von ihrer Herkunftsfamilie leben. Der Tod des Partners im Alter oder eine Scheidung können ebenfalls zu plötzlicher Isolation führen.
+
+Was kann man tun? Eksperten empfehlen, aktiv soziale Kontakte zu pflegen. Regelmäßige Treffen mit Freunden, ehrenamtliches Engagement oder die Teilnahme an Vereinen können helfen. Auch die Politik ist gefordert: Mehr Investitionen in soziale Infrastruktur wie Gemeindezentren oder Nachbarschaftsinitiativen könnten dem Trend entgegenwirken.
+
+Für Betroffene gibt es auch spezielle Beratungsangebote. Die Telefonseelsorge ist rund um die Uhr erreichbar und bietet anonym Gespräche an. „Es ist kein Zeichen von Schwäche, sich Hilfe zu suchen", betont Psychologe Dr. Klaus Berger. „Gemeinschaft ist ein menschliches Grundbedürfnis.\"""",
+                "questions": [
+                    {"id": "q_04_03_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Einsamkeit ist ein persönliches Problem.", "Einsamkeit ist ein wachsendes gesellschaftliches Problem mit ernsthaften gesundheitlichen Folgen.", "Nur ältere Menschen sind betroffen.", "Einsamkeit hat keine gesundheitlichen Folgen."], "correctAnswer": "Einsamkeit ist ein wachsendes gesellschaftliches Problem mit ernsthaften gesundheitlichen Folgen.", "explanation": "Der Text zeigt: 25% fühlen sich einsam, Folgen = Herz-Kreislauf, Immunsystem, Demenz, so schädlich wie 15 Zigaretten/Tag."},
+                    {"id": "q_04_03_b", "type": "true_false", "questionText": "Einsamkeit ist laut Studien so schädlich wie 15 Zigaretten am Tag.", "correctAnswer": "true", "explanation": "'Einsamkeit ist laut Forschern so schädlich wie das Rauchen von 15 Zigaretten am Tag.'"},
+                    {"id": "q_04_03_c", "type": "multiple_choice", "questionText": "Wie viel Prozent der Deutschen fühlen sich laut Barmer-Studie häufig einsam?", "options": ["Etwa 10 Prozent", "Etwa 15 Prozent", "Etwa 25 Prozent", "Etwa 50 Prozent"], "correctAnswer": "Etwa 25 Prozent", "explanation": "'etwa 25 Prozent der Deutschen häufig einsam – das sind rund 20 Millionen Menschen.'"},
+                    {"id": "q_04_03_d", "type": "fill_blank", "questionText": "Die ___ ist rund um die Uhr erreichbar und bietet anonym Gespräche an.", "correctAnswer": "Telefonseelsorge", "explanation": "'Die Telefonseelsorge ist rund um die Uhr erreichbar und bietet anonym Gespräche an.'"},
+                    {"id": "q_04_03_e", "type": "multiple_choice", "questionText": "Was wird als mögliche Maßnahme gegen Einsamkeit genannt?", "options": ["Mehr Zeit am Smartphone verbringen", "Ehrenamtliches Engagement oder Vereinsmitgliedschaft", "Weniger Freunde haben", "Nur online kommunizieren"], "correctAnswer": "Ehrenamtliches Engagement oder Vereinsmitgliedschaft", "explanation": "'Ehrenamtliches Engagement oder die Teilnahme an Vereinen können helfen.'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "die Vereinsamung", "english": "loneliness", "turkish": "yalnızlık / yalnızlaşma", "pos": "noun"},
+                    {"german": "die soziale Isolation", "english": "social isolation", "turkish": "sosyal izolasyon", "pos": "noun"},
+                    {"german": "die Herz-Kreislauf-Erkrankung", "english": "cardiovascular disease", "turkish": "kardiyovasküler hastalık", "pos": "noun"},
+                    {"german": "das Grundbedürfnis", "english": "basic need", "turkish": "temel ihtiyaç", "pos": "noun"},
+                    {"german": "das Ehrenamt", "english": "voluntary work", "turkish": "gönüllü çalışma", "pos": "noun"},
+                    {"german": "die Gemeinschaft", "english": "community", "turkish": "topluluk", "pos": "noun"},
+                    {"german": "die Nachbarschaftsinitiative", "english": "neighborhood initiative", "turkish": "mahalle girişimi", "pos": "noun"},
+                    {"german": "die Beratung", "english": "counseling", "turkish": "danışmanlık", "pos": "noun"}
+                ],
+                "examTip": "Zahl: 25% fühlen sich einsam = 20 Mio. Menschen. Vergleich: so schädlich wie 15 Zigaretten/Tag. Gegenmaßnahme: Ehrenamt + Vereine + Telefonseelsorge!"
+            },
+            {
+                "id": "b2_r_04_04",
+                "title": "Generationenkonflikt: Jung gegen Alt?",
+                "source": "Zeit Online",
+                "sourceUrl": "https://www.zeit.de/generationen",
+                "wordCount": 305,
+                "readingTimeMinutes": 4,
+                "tags": ["Generationen", "Gesellschaft", "Konflikt"],
+                "content": """Der Konflikt zwischen den Generationen ist ein Dauerthema in Deutschland. Die Jüngeren werfen den Älteren vor, die Zukunft zu verbauen – durch Klimapolitik, die zu zögerlich ist, durch eine Rentenpolitik, die sie belastet, und durch das Festhalten an Besitzständen. Die Älteren hingegen fühlen sich von der jüngeren Generation nicht genug wertgeschätzt.
+
+Doch ist der Generationenkonflikt wirklich so groß, wie er oft dargestellt wird? Eine Studie des Allensbach-Instituts zeigt ein differenziertes Bild: Die meisten Deutschen – unabhängig vom Alter – teilen ähnliche Werte wie Freiheit, Sicherheit und Familie. Der angebliche Graben zwischen den Generationen ist in weiten Teilen ein Medienkonstrukt.
+
+Trotzdem gibt es reale Verteilungsfragen. Die jüngere Generation trägt über Steuern und Sozialabgaben die Kosten für die Renten der älteren Generation. Während Babyboomer im Alter von 60 Jahren durchschnittlich über ein Vermögen von etwa 180.000 Euro verfügen, haben die unter 35-Jährigen im Schnitt nur 30.000 Euro.
+
+Die Politik steht vor der Herausforderung, die Interessen verschiedener Generationen gerecht auszubalancieren. „Es geht nicht darum, Generationen gegeneinander auszuspielen", sagt Generationsforscher Prof. Andreas Kruse von der Universität Heidelberg. „Es geht um eine gerechte Verteilung von Ressourcen und Chancen über die gesamte Lebensspanne.\"""",
+                "questions": [
+                    {"id": "q_04_04_a", "type": "multiple_choice", "questionText": "Was zeigt die Studie des Allensbach-Instituts?", "options": ["Der Generationenkonflikt ist überall gleich groß.", "Die meisten Deutschen teilen ähnliche Werte, unabhängig vom Alter.", "Nur junge Menschen haben ähnliche Werte.", "Es gibt keinen Konflikt zwischen den Generationen."], "correctAnswer": "Die meisten Deutschen teilen ähnliche Werte, unabhängig vom Alter.", "explanation": "'Die meisten Deutschen – unabhängig vom Alter – teilen ähnliche Werte wie Freiheit, Sicherheit und Familie.' Der Konflikt ist laut Studie ein Medienkonstrukt."},
+                    {"id": "q_04_04_b", "type": "true_false", "questionText": "Laut dem Text haben Babyboomer durchschnittlich weniger Vermögen als jüngere Menschen.", "correctAnswer": "false", "explanation": "'Während Babyboomer... durchschnittlich über ein Vermögen von etwa 180.000 Euro verfügen, haben die unter 35-Jährigen im Schnitt nur 30.000 Euro.' Babyboomer haben mehr!"},
+                    {"id": "q_04_04_c", "type": "multiple_choice", "questionText": "Was ist ein Vorwurf der Jüngeren an die Älteren?", "options": ["Die Jüngeren arbeiten zu wenig.", "Die Klimapolitik sei zu zögerlich.", "Die Älteren lernen nicht genug.", "Die Rente ist zu niedrig."], "correctAnswer": "Die Klimapolitik sei zu zögerlich.", "explanation": "'Die Jüngeren werfen den Älteren vor, die Zukunft zu verbauen – durch Klimapolitik, die zu zögerlich ist...'"},
+                    {"id": "q_04_04_d", "type": "fill_blank", "questionText": "Was betont Prof. Andreas Kruse? Es geht um eine gerechte ___ von Ressourcen und Chancen.", "correctAnswer": "Verteilung", "explanation": "'Es geht um eine gerechte Verteilung von Ressourcen und Chancen über die gesamte Lebensspanne.'"},
+                    {"id": "q_04_04_e", "type": "multiple_choice", "questionText": "Wie viel Vermögen haben Babyboomer (60+) durchschnittlich?", "options": ["Etwa 30.000 Euro", "Etwa 180.000 Euro", "Etwa 500.000 Euro", "Weniger als 10.000 Euro"], "correctAnswer": "Etwa 180.000 Euro", "explanation": "'Babyboomer im Alter von 60 Jahren... durchschnittlich über ein Vermögen von etwa 180.000 Euro'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "der Generationenkonflikt", "english": "generational conflict", "turkish": "kuşak çatışması", "pos": "noun"},
+                    {"german": "der Babyboomer", "english": "baby boomer", "turkish": "baby boomer (doğum artışı dönemi)", "pos": "noun"},
+                    {"german": "das Vermögen", "english": "wealth / assets", "turkish": "servet / varlık", "pos": "noun"},
+                    {"german": "die Verteilungsfrage", "english": "distribution question", "turkish": "dağıtım sorusu", "pos": "noun"},
+                    {"german": "die Wertschätzung", "english": "appreciation", "turkish": "takdir / değer", "pos": "noun"},
+                    {"german": "die Gerechtigkeit", "english": "justice / fairness", "turkish": "adalet", "pos": "noun"},
+                    {"german": "die Lebensspanne", "english": "lifespan", "turkish": "yaşam süresi", "pos": "noun"},
+                    {"german": "die Rentenpolitik", "english": "pension policy", "turkish": "emeklilik politikası", "pos": "noun"}
+                ],
+                "examTip": "Zahlen merken: Babyboomer = 180.000 € Vermögen, Under 35 = 30.000 €. Aber: Laut Studie teilen beide Generationen ähnliche Werte! Der Konflikt ist oft medienkonstruiert."
+            },
+            {
+                "id": "b2_r_04_05",
+                "title": "Freiwilligenarbeit: Warum sich immer mehr engagieren",
+                "source": "Bundesfreiwilligendienst",
+                "sourceUrl": "https://www.bundesfreiwilligendienst.de/",
+                "wordCount": 295,
+                "readingTimeMinutes": 4,
+                "tags": ["Ehrenamt", "Freiwilligenarbeit", "Gesellschaft"],
+                "content": """Das Ehrenamt erlebt in Deutschland einen Aufschwung. Rund 31 Millionen Menschen – das sind etwa 44 Prozent der Bevölkerung ab 14 Jahren – engagieren sich freiwillig in Vereinen, Initiativen oder sozialen Projekten. Das zeigt eine Studie des Bundesfamilienministeriums.
+
+Besonders bei jungen Menschen zwischen 14 und 24 Jahren ist der Freiwilligendienst beliebt. Viele nutzen das Freiwillige Soziale Jahr (FSJ) oder den Bundesfreiwilligendienst (BFD), um sich sozial zu engagieren, bevor sie mit dem Studium oder einer Ausbildung beginnen. Aber auch im Rentenalter entscheiden sich immer mehr Menschen für ein Ehrenamt.
+
+Was motiviert die Menschen? Für viele ist es der Wunsch, etwas Sinnvolles zu tun und der Gesellschaft etwas zurückzugeben. Andere wollen neue Kontakte knüpfen und aktiv bleiben. Laut der Studie fühlen sich freiwillig Engagierte gesünder und zufriedener als Menschen, die sich nicht engagieren.
+
+Allerdings gibt es auch Hindernisse. Rund 28 Prozent der Befragten gaben an, dass ihnen die Zeit fehle – besonders Berufstätige mit Kindern. Auch die Bürokratie wird oft als Hürde empfunden. Vereine und Organisationen müssen immer mehr Regeln und Nachweispflichten erfüllen, was die Freiwilligen abschrecken kann.
+
+Um das Ehrenamt zu stärken, fordern Experten mehr staatliche Unterstützung. Dazu gehören steuerliche Absetzbarkeit von Auslagen, weniger Bürokratie und eine bessere Anerkennungskultur. „Freiwilligenarbeit ist kein Luxus, sondern ein Grundpfeiler unserer Gesellschaft", sagt Familienministerin Lisa Paus.""",
+                "questions": [
+                    {"id": "q_04_05_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Das Ehrenamt ist rückläufig.", "Immer mehr Menschen engagieren sich freiwillig, aber es gibt auch Hindernisse.", "Nur junge Menschen machen Freiwilligenarbeit.", "Ehrenamt ist nur etwas für Rentner."], "correctAnswer": "Immer mehr Menschen engagieren sich freiwillig, aber es gibt auch Hindernisse.", "explanation": "Der Text zeigt: Aufschwung (44%), aber Hindernisse wie Zeitmangel (28%) und Bürokratie."},
+                    {"id": "q_04_05_b", "type": "true_false", "questionText": "Rund 44 Prozent der Deutschen ab 14 Jahren engagieren sich freiwillig.", "correctAnswer": "true", "explanation": "'Rund 31 Millionen Menschen – das sind etwa 44 Prozent der Bevölkerung ab 14 Jahren – engagierten sich freiwillig.'"},
+                    {"id": "q_04_05_c", "type": "multiple_choice", "questionText": "Wie viel Prozent der Befragten gaben an, dass ihnen die Zeit fehle?", "options": ["Etwa 10 Prozent", "Etwa 28 Prozent", "Etwa 50 Prozent", "Etwa 5 Prozent"], "correctAnswer": "Etwa 28 Prozent", "explanation": "'Rund 28 Prozent der Befragten gaben an, dass ihnen die Zeit fehle.'"},
+                    {"id": "q_04_05_d", "type": "fill_blank", "questionText": "Viele junge Menschen nutzen das Freiwillige Soziale Jahr (___) oder den Bundesfreiwilligendienst (BFD).", "correctAnswer": "FSJ", "explanation": "Das FSJ (Freiwillige Soziale Jahr) und der BFD (Bundesfreiwilligendienst) sind die beiden wichtigsten Programme für junge Freiwillige."},
+                    {"id": "q_04_05_e", "type": "multiple_choice", "questionText": "Was ist laut der Studie ein Ergebnis des freiwilligen Engagements?", "options": ["Die Menschen werden kränker.", "Freiwillig Engagierte fühlen sich gesünder und zufriedener.", "Es hat keine Auswirkungen.", "Die Menschen werden müder."], "correctAnswer": "Freiwillig Engagierte fühlen sich gesünder und zufriedener.", "explanation": "'Freiwillig Engagierte fühlen sich gesünder und zufriedener als Menschen, die sich nicht engagieren.'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "das Ehrenamt", "english": "voluntary work / honorary office", "turkish": "gönüllü çalışma / fahri görev", "pos": "noun"},
+                    {"german": "die Freiwilligenarbeit", "english": "volunteer work", "turkish": "gönüllü çalışma", "pos": "noun"},
+                    {"german": "das Freiwillige Soziale Jahr (FSJ)", "english": "Voluntary Social Year", "turkish": "Gönüllü Sosyal Yıl", "pos": "noun"},
+                    {"german": "der Bundesfreiwilligendienst (BFD)", "english": "Federal Volunteer Service", "turkish": "Federal Gönüllü Hizmet", "pos": "noun"},
+                    {"german": "die Anerkennung", "english": "recognition", "turkish": "tanıma / takdir", "pos": "noun"},
+                    {"german": "die Bürokratie", "english": "bureaucracy", "turkish": "bürokrasi", "pos": "noun"},
+                    {"german": "die Steuererleichterung", "english": "tax relief", "turkish": "vergi indirimi", "pos": "noun"},
+                    {"german": "das Engagement", "english": "commitment / involvement", "turkish": "bağlılık / katılım", "pos": "noun"}
+                ],
+                "examTip": "44% der Deutschen ab 14 machen Ehrenamt = 31 Mio Menschen! FSJ und BFD sind die zwei wichtigsten Programme. Hindernisse: Zeitmangel (28%) + Bürokratie!"
+            },
+            {
+                "id": "b2_r_04_06",
+                "title": "Wohnungskrise: Warum Wohnen so teuer ist",
+                "source": "Spiegel Online",
+                "sourceUrl": "https://www.spiegel.de/wirtschaft/wohnungskrise",
+                "wordCount": 325,
+                "readingTimeMinutes": 5,
+                "tags": ["Wohnen", "Mieten", "Immobilien"],
+                "content": """Die Wohnungskrise ist eines der drängendsten Probleme in deutschen Großstädten. In München, Hamburg, Frankfurt und Berlin steigen die Mieten und Immobilienpreise seit Jahren rapide an. Eine normale Mietwohnung in der Stadt ist für viele Arbeitnehmer kaum noch bezahlbar.
+
+Die Ursachen sind komplex. Zum einen wächst die Nachfrage nach Wohnraum in den Städten, während das Angebot knapp bleibt. Zu wenig neue Wohnungen werden gebaut – besonders im bezahlbaren Segment. Gleichzeitig treiben Spekulanten und Investoren die Grundstücks- und Immobilienpreise in die Höhe.
+
+Nach Zahlen des Immobilienverbands Deutschland fehlen deutschlandweit etwa 700.000 Wohnungen. In den Großstädten ist die Situation besonders angespannt: In München beträgt die durchschnittliche Kaltmiete mittlerweile über 20 Euro pro Quadratmeter. Selbst in Städten wie Leipzig oder Dresden, die lange günstig waren, steigen die Preise stark.
+
+Die Politik versucht gegenzusteuern. Die Mietpreisbremse soll verhindern, dass Mieten bei Neuvermietung übermäßig steigen. In einigen Bundesländern gibt es Milliarden-Programme für den sozialen Wohnungsbau. Auch die Grunderwerbsteuer wurde in einigen Ländern gesenkt, um den Kauf von Wohneigentum zu erleichtern.
+
+Kritiker bemängeln, dass die bisherigen Maßnahmen nicht ausreichen. „Die Mietpreisbremse greift zu kurz", sagt Immobilienökonom Prof. Hans-Peter Burg von der Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen. Notwendig sei ein massiver Ausbau des Wohnungsbaus – nicht nur sozialer Wohnungsbau, sondern auch preisgünstiger Wohnraum für die Mittelschicht.""",
+                "questions": [
+                    {"id": "q_04_06_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Die Wohnungskrise existiert nicht.", "Zu wenig Wohnungen werden gebaut, Nachfrage übersteigt Angebot, Mieten steigen.", "Wohnungen sind nur in München teuer.", "Die Politik hat das Problem bereits gelöst."], "correctAnswer": "Zu wenig Wohnungen werden gebaut, Nachfrage übersteigt Angebot, Mieten steigen.", "explanation": "Der Text zeigt durchgehend: Ursachen = knappes Angebot + Spekulanten, Folgen = steigende Mieten, Lösung = mehr Bauen."},
+                    {"id": "q_04_06_b", "type": "true_false", "questionText": "In München beträgt die durchschnittliche Kaltmiete über 20 Euro pro Quadratmeter.", "correctAnswer": "true", "explanation": "'In München beträgt die durchschnittliche Kaltmiete mittlerweile über 20 Euro pro Quadratmeter.'"},
+                    {"id": "q_04_06_c", "type": "multiple_choice", "questionText": "Wie viele Wohnungen fehlen laut Immobilienverband Deutschland?", "options": ["Rund 100.000", "Rund 400.000", "Rund 700.000", "Rund 1 Million"], "correctAnswer": "Rund 700.000", "explanation": "'Nach Zahlen des Immobilienverbands Deutschland fehlen deutschlandweit etwa 700.000 Wohnungen.'"},
+                    {"id": "q_04_06_d", "type": "fill_blank", "questionText": "Die ___ soll verhindern, dass Mieten bei Neuvermietung übermäßig steigen.", "correctAnswer": "Mietpreisbremse", "explanation": "'Die Mietpreisbremse soll verhindern, dass Mieten bei Neuvermietung übermäßig steigen.'"},
+                    {"id": "q_04_06_e", "type": "multiple_choice", "questionText": "Was kritisiert Prof. Hans-Peter Burg an der Mietpreisbremse?", "options": ["Sie ist zu streng.", "Sie greift zu kurz.", "Sie ist zu teuer.", "Sie betrifft nur Bayern."], "correctAnswer": "Sie greift zu kurz.", "explanation": "'Die Mietpreisbremse greift zu kurz', sagt Prof. Burg. Notwendig sei massiver Wohnungsbau."}
+                ],
+                "keyVocabulary": [
+                    {"german": "die Wohnungskrise", "english": "housing crisis", "turkish": "konut krizi", "pos": "noun"},
+                    {"german": "die Miete", "english": "rent", "turkish": "kira", "pos": "noun"},
+                    {"german": "der Quadratmeter", "english": "square meter", "turkish": "metrekare", "pos": "noun"},
+                    {"german": "der soziale Wohnungsbau", "english": "social housing", "turkish": "sosyal konut yapımı", "pos": "noun"},
+                    {"german": "die Mietpreisbremse", "english": "rent cap / rent brake", "turkish": "kira frenleme", "pos": "noun"},
+                    {"german": "der Spekulant", "english": "speculator", "turkish": "spekülatör", "pos": "noun"},
+                    {"german": "die Grunderwerbsteuer", "english": "property transfer tax", "turkish": "gayrimenkul alım vergisi", "pos": "noun"},
+                    {"german": "der Wohnraum", "english": "living space", "turkish": "yaşam alanı", "pos": "noun"}
+                ],
+                "examTip": "700.000 Wohnungen fehlen! München: 20€/qm. Maßnahmen: Mietpreisbremse, sozialer Wohnungsbau. Kritik: Mietpreisbremse greift zu kurz!"
+            },
+            {
+                "id": "b2_r_04_07",
+                "title": "Gleichberechtigung: Ist die Arbeitswelt gerecht?",
+                "source": "Bundeszentrale für politische Bildung",
+                "sourceUrl": "https://www.bpb.de/",
+                "wordCount": 310,
+                "readingTimeMinutes": 5,
+                "tags": ["Gleichberechtigung", "Gender", "Arbeitswelt"],
+                "content": """Trotz jahrzehntelanger Gleichberechtigungspolitik verdienen Frauen in Deutschland im Durchschnitt noch immer 18 Prozent weniger als Männer. Dieser sogenannte Gender Pay Gap ist einer der höchsten in der Europäischen Union. Doch nicht nur das Gehalt unterscheidet sich – auch bei Karrierechancen und Arbeitszeit gibt es große Unterschiede.
+
+Ein Grund für die Einkommenslücke ist die sogenannte „Teilzeitfalle". Frauen arbeiten deutlich häufiger in Teilzeit als Männer – oft, um Kinder oder pflegebedürftige Angehörige zu betreuen. Diese Teilzeitphasen wirken sich negativ auf Karriere und Rente aus. „Wer 10 Jahre in Teilzeit arbeitet, verliert im Schnitt 100.000 Euro an Rentenansprüchen", sagt Christiane Lindschuz von der Hans-Böckler-Stiftung.
+
+Auch die Berufswahl ist geschlechterspezifisch geprägt. In Pflegeberufen, Kitas und Sozialarbeit – die oft schlechter bezahlt werden – arbeiten überwiegend Frauen. In gut bezahlten technischen Berufen und Führungspositionen sind Männer weiterhin in der Überzahl.
+
+Die Politik hat verschiedene Maßnahmen ergriffen. Das Entgelttransparenzgesetz soll Frauen helfen, zu erfahren, ob ihr Gehalt dem Prinzip der gleichen Bezahlung entspricht. Auch das Rückkehrrecht aus Teilzeit in Vollzeit wurde gestärkt.
+
+Doch viele Expertinnen fordern weitergehende Schritte. „Wir brauchen einen Kulturwandel in den Unternehmen", sagt Arbeitsminister Hubertus Heil. „Vaterschaftsurlaub für alle Väter, Betreuungsangebote für Kinder und Pflegebedürftige – das sind die wirklichen Hebel für Gleichberechtigung.\"""",
+                "questions": [
+                    {"id": "q_04_07_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Gleichberechtigung ist bereits vollständig erreicht.", "Trotz Fortschritten gibt es weiterhin erhebliche Unterschiede bei Gehalt und Karriere zwischen Männern und Frauen.", "Männer verdienen weniger als Frauen.", "Nur Gehalt ist unterschiedlich."], "correctAnswer": "Trotz Fortschritten gibt es weiterhin erhebliche Unterschiede bei Gehalt und Karriere zwischen Männern und Frauen.", "explanation": "Der Text zeigt: Gender Pay Gap = 18%, Teilzeitfalle, Berufswahl geschlechterspezifisch, Lösungen diskutiert."},
+                    {"id": "q_04_07_b", "type": "true_false", "questionText": "Frauen arbeiten in Deutschland häufiger in Teilzeit als Männer.", "correctAnswer": "true", "explanation": "'Frauen arbeiten deutlich häufiger in Teilzeit als Männer – oft, um Kinder oder pflegebedürftige Angehörige zu betreuen.'"},
+                    {"id": "q_04_07_c", "type": "multiple_choice", "questionText": "Wie viel Prozent verdienen Frauen im Durchschnitt weniger als Männer?", "options": ["Etwa 5 Prozent", "Etwa 10 Prozent", "Etwa 18 Prozent", "Etwa 30 Prozent"], "correctAnswer": "Etwa 18 Prozent", "explanation": "'Frauen in Deutschland im Durchschnitt noch immer 18 Prozent weniger als Männer.'"},
+                    {"id": "q_04_07_d", "type": "fill_blank", "questionText": "Das Entgelttransparenzgesetz soll Frauen helfen zu erfahren, ob ihr Gehalt dem Prinzip der ___ Bezahlung entspricht.", "correctAnswer": "gleichen", "explanation": "'Das Entgelttransparenzgesetz soll Frauen helfen, zu erfahren, ob ihr Gehalt dem Prinzip der gleichen Bezahlung entspricht.'"},
+                    {"id": "q_04_07_e", "type": "multiple_choice", "questionText": "Was verliert jemand, der 10 Jahre in Teilzeit arbeitet, laut Christiane Lindschuz an Rentenansprüchen?", "options": ["Nichts", "Etwa 10.000 Euro", "Im Schnitt 100.000 Euro", "Das gesamte Gehalt"], "correctAnswer": "Im Schnitt 100.000 Euro", "explanation": "'Wer 10 Jahre in Teilzeit arbeitet, verliert im Schnitt 100.000 Euro an Rentenansprüchen.'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "die Gleichberechtigung", "english": "equal rights / gender equality", "turkish": "eşit haklar / cinsiyet eşitliği", "pos": "noun"},
+                    {"german": "der Gender Pay Gap", "english": "gender pay gap", "turkish": "cinsiyetler arası ücret farkı", "pos": "noun"},
+                    {"german": "die Teilzeitfalle", "english": "part-time trap", "turkish": "yarı zamanlı tuzak", "pos": "noun"},
+                    {"german": "die Berufswahl", "english": "career choice", "turkish": "meslek seçimi", "pos": "noun"},
+                    {"german": "das Entgelttransparenzgesetz", "english": "Pay Transparency Act", "turkish": "Ücret Şeffaflık Yasası", "pos": "noun"},
+                    {"german": "die Rentenansprüche", "english": "pension entitlements", "turkish": "emeklilik hakları", "pos": "noun"},
+                    {"german": "der Vaterschaftsurlaub", "english": "paternity leave", "turkish": "babalık izni", "pos": "noun"},
+                    {"german": "die Führungsposition", "english": "management position", "turkish": "yönetim pozisyonu", "pos": "noun"}
+                ],
+                "examTip": "Gender Pay Gap = 18%! Teilzeitfalle: 10 Jahre Teilzeit = -100.000 € Rente! Maßnahmen: Entgelttransparenzgesetz, Vaterschaftsurlaub!"
+            },
+            {
+                "id": "b2_r_04_08",
+                "title": "Mobilität: Wie bewegen wir uns in Zukunft fort?",
+                "source": "Agora Verkehrswende",
+                "sourceUrl": "https://www.agora-verkehrswende.de/",
+                "wordCount": 315,
+                "readingTimeMinutes": 5,
+                "tags": ["Mobilität", "Verkehr", "Klimaschutz"],
+                "content": """Die Art und Weise, wie wir uns fortbewegen, befindet sich im Umbruch. Während das Auto lange als Statussymbol galt, ändern sich die Präferenzen – besonders bei jungen Menschen. Carsharing, Fahrradfahren und der öffentliche Nahverkehr werden zunehmend beliebter. Doch der Umbau des Verkehrssystems ist eine gewaltige Aufgabe.
+
+Nach Zahlen des Umweltbundesamtes ist der Verkehr für etwa 20 Prozent der CO2-Emissionen in Deutschland verantwortlich – nach der Energiewirtschaft der zweitgrößte Verursacher. Um die Klimaziele zu erreichen, müssen die Emissionen im Verkehrssektor drastisch sinken.
+
+Die Elektromobilität kommt langsam in Fahrt. Der Anteil von E-Autos an den Neuzulassungen steigt, wenn auch aus niedrigem Niveau. Bis 2030 sollen laut Regierungsplänen 15 Millionen Elektroautos auf deutschen Straßen fahren. Doch die Ladeinfrastruktur hinkt hinterher: Es gibt zu wenige Ladestationen, besonders in Mehrfamilienhäusern.
+
+Eine Revolution stellt der Ruf nach more Radwegen dar. Städte wie München, Berlin und Hamburg bauen massive neue Radinfrastruktur aus. Auch die Ausweitung von Tempo-30-Zonen in Innenstädten wird diskutiert, um den Autoverkehr zu beruhigen und die Luftqualität zu verbessern.
+
+Für ländliche Regionen bleibt das Auto jedoch unverzichtbar. Dort, wo Bus und Bahn selten fahren, gibt es keine echte Alternative zum eigenen Pkw. Experten fordern deshalb differenzierte Lösungen: „Eine Mobilitätswende muss für Stadt und Land unterschiedlich gedacht werden", sagt Verkehrsforscher Prof. Oliver Schwed von der TU Dresden.""",
+                "questions": [
+                    {"id": "q_04_08_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Das Auto wird bald vollständig verschwinden.", "Der Verkehr wandelt sich, aber es braucht differenzierte Lösungen für Stadt und Land.", "Elektroautos haben bereits alle Probleme gelöst.", "Carsharing ist die einzige Lösung."], "correctAnswer": "Der Verkehr wandelt sich, aber es braucht differenzierte Lösungen für Stadt und Land.", "explanation": "Der Text zeigt: E-Mobilität kommt, Radwege werden ausgebaut, aber ländliche Regionen brauchen andere Lösungen."},
+                    {"id": "q_04_08_b", "type": "true_false", "questionText": "Der Verkehr ist für etwa 20 Prozent der CO2-Emissionen in Deutschland verantwortlich.", "correctAnswer": "true", "explanation": "'Der Verkehr ist für etwa 20 Prozent der CO2-Emissionen in Deutschland verantwortlich – nach der Energiewirtschaft der zweitgrößte Verursacher.'"},
+                    {"id": "q_04_08_c", "type": "multiple_choice", "questionText": "Wie viele Elektroautos sollen laut Regierungsplänen bis 2030 auf deutschen Straßen fahren?", "options": ["Etwa 5 Millionen", "Etwa 10 Millionen", "Etwa 15 Millionen", "Etwa 30 Millionen"], "correctAnswer": "Etwa 15 Millionen", "explanation": "'Bis 2030 sollen laut Regierungsplänen 15 Millionen Elektroautos auf deutschen Straßen fahren.'"},
+                    {"id": "q_04_08_d", "type": "fill_blank", "questionText": "Für ländliche Regionen bleibt das ___ unverzichtbar.", "correctAnswer": "Auto", "explanation": "'Für ländliche Regionen bleibt das Auto jedoch unverzichtbar. Dort, wo Bus und Bahn selten fahren, gibt es keine echte Alternative zum eigenen Pkw.'"},
+                    {"id": "q_04_08_e", "type": "multiple_choice", "questionText": "Was ist ein Problem der E-Mobilität laut dem Text?", "options": ["Zu viele Ladestationen gibt es bereits.", "Die Ladeinfrastruktur hinkt hinterher.", "E-Autos sind zu teuer zum Kaufen.", "Die Batterien sind zu schwer."], "correctAnswer": "Die Ladeinfrastruktur hinkt hinterher.", "explanation": "'Doch die Ladeinfrastruktur hinkt hinterher: Es gibt zu wenige Ladestationen, besonders in Mehrfamilienhäusern.'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "die Mobilität", "english": "mobility", "turkish": "hareketlilik / mobilite", "pos": "noun"},
+                    {"german": "die Verkehrswende", "english": "transport transition", "turkish": "ulaşım dönüşümü", "pos": "noun"},
+                    {"german": "der öffentliche Nahverkehr (ÖPNV)", "english": "public transport", "turkish": "toplu taşıma", "pos": "noun"},
+                    {"german": "die Ladeinfrastruktur", "english": "charging infrastructure", "turkish": "şarj altyapısı", "pos": "noun"},
+                    {"german": "der Radweg", "english": "cycle path", "turkish": "bisiklet yolu", "pos": "noun"},
+                    {"german": "die Luftqualität", "english": "air quality", "turkish": "hava kalitesi", "pos": "noun"},
+                    {"german": "Tempo-30-Zone", "english": "30 km/h zone", "turkish": "30 km/s hız bölgesi", "pos": "noun"},
+                    {"german": "der Pkw", "english": "passenger car", "turkish": "binek araç", "pos": "noun"}
+                ],
+                "examTip": "Verkehr = 20% der CO2-Emissionen. 15 Mio. E-Autos bis 2030. Ladeinfrastruktur = Problem! Stadt = anders als Land. Nicht vergessen: Carsharing, Radwege, ÖPNV als Alternativen!"
+            },
+            {
+                "id": "b2_r_04_09",
+                "title": "Kindererziehung: Brauchen wir eine Elternpolitik 4.0?",
+                "source": "DJI Deutsches Jugendinstitut",
+                "sourceUrl": "https://www.dji.de/",
+                "wordCount": 305,
+                "readingTimeMinutes": 4,
+                "tags": ["Familie", "Eltern", "Kindererziehung"],
+                "content": """Die Art, wie wir Kinder erziehen, verändert sich. Während frühere Generationen nach dem Motto „Eltern haben immer recht" aufwuchsen, setzen heutige Eltern verstärkt auf Partizipation und Gleichberechtigung. Die Frage ist: Welche Erziehungsstile sind für die Entwicklung von Kindern am besten?
+
+Forscher unterscheiden verschiedene Erziehungsstile. Der autoritäre Stil – streng, mit wenig Raum für Diskussion – gilt heute als überholt. Er kann zu geringem Selbstwertgefühl und sozialer Unsicherheit bei Kindern führen. Der permissive Stil – sehr nachgiebig, mit wenigen Regeln – hat ebenfalls Nachteile: Kinder lernen dann schlecht mit Grenzen umzugehen.
+
+Als ideal gilt heute der autoritative Stil. Dabei werden klare Grenzen gesetzt, aber die Kinder werden auch gehört und in Entscheidungen einbezogen. „Kinder brauchen sowohl Struktur als auch Freiraum", sagt Kinderpsychologin Dr. Maria Wahl von der Universität Tübingen. „Sie müssen wissen, wo die Grenzen sind, aber auch das Gefühl haben, dass ihre Meinung zählt."
+
+Eltern stehen heute vor比以前 größeren Herausforderungen. Der Druck, perfekte Eltern zu sein – biollots Pädagogik, gesunde Ernährung, optimale Förderung – kann Eltern aber auch überfordern. Experten raten: „Gut genug erziehen ist völlig ausreichend", so Dr. Wahl. Kinder brauchen keine perfekten Eltern, sondern verlässliche und liebevolle Bezugspersonen.
+
+Auch die Rolle der Väter hat sich verändert. Immer mehr Väter möchten sich gleichberechtigt an der Kindererziehung beteiligen. Das Elterngeld und der Ausbau von Kitas haben dazu beigetragen, dass Väter häufiger in Elternzeit gehen als noch vor zehn Jahren.""",
+                "questions": [
+                    {"id": "q_04_09_a", "type": "multiple_choice", "questionText": "Was gilt laut Forschern als idealer Erziehungsstil?", "options": ["Autoritär – streng und ohne Diskussion", "Permissiv – sehr nachgiebig", "Autoritativ – klare Grenzen + Partizipation", "Lässig – keine Regeln"], "correctAnswer": "Autoritativ – klare Grenzen + Partizipation", "explanation": "'Als ideal gilt heute der autoritative Stil. Dabei werden klare Grenzen gesetzt, aber die Kinder werden auch gehört und in Entscheidungen einbezogen.'"},
+                    {"id": "q_04_09_b", "type": "true_false", "questionText": "Der autoritäre Erziehungsstil gilt heute als ideal.", "correctAnswer": "false", "explanation": "'Der autoritäre Stil – streng, mit wenig Raum für Diskussion – gilt heute als überholt.'"},
+                    {"id": "q_04_09_c", "type": "multiple_choice", "questionText": "Was können die Folgen eines autoritären Erziehungsstils sein?", "options": ["Starkes Selbstwertgefühl und soziale Sicherheit", "Geringes Selbstwertgefühl und soziale Unsicherheit", "Bessere Schulleistungen", "Mehr Freunde"], "correctAnswer": "Geringes Selbstwertgefühl und soziale Unsicherheit", "explanation": "'Er kann zu geringem Selbstwertgefühl und sozialer Unsicherheit bei Kindern führen.'"},
+                    {"id": "q_04_09_d", "type": "fill_blank", "questionText": "Was brauchen Kinder laut Dr. Maria Wahl? Struktur und ___既要又要.", "correctAnswer": "Freiraum", "explanation": "'Kinder brauchen sowohl Struktur als auch Freiraum... Sie müssen wissen, wo die Grenzen sind, aber auch das Gefühl haben, dass ihre Meinung zählt.'"},
+                    {"id": "q_04_09_e", "type": "multiple_choice", "questionText": "Was empfehlen Experten bezüglich des Drucks auf Eltern?", "options": ["Perfekt erziehen müssen", "'Gut genug erziehen ist völlig ausreichend'", "Strengere Regeln aufstellen", "Mehr Kurse besuchen"], "correctAnswer": "'Gut genug erziehen ist völlig ausreichend'", "explanation": "'Gut genug erziehen ist völlig ausreichend', so Dr. Wahl. Kinder brauchen keine perfekten Eltern."}
+                ],
+                "keyVocabulary": [
+                    {"german": "die Kindererziehung", "english": "child-rearing / parenting", "turkish": "çocuk yetiştirme", "pos": "noun"},
+                    {"german": "der Erziehungsstil", "english": "parenting style", "turkish": "yetiştirme tarzı", "pos": "noun"},
+                    {"german": "autoritär", "english": "authoritarian", "turkish": "otoriter", "pos": "adjective"},
+                    {"german": "permissiv", "english": "permissive", "turkish": "müsamahalı / izin verici", "pos": "adjective"},
+                    {"german": "autoritativ", "english": "authoritative", "turkish": "yetkili / otoriter", "pos": "adjective"},
+                    {"german": "die Partizipation", "english": "participation", "turkish": "katılım", "pos": "noun"},
+                    {"german": "das Selbstwertgefühl", "english": "self-esteem", "turkish": "öz-saygı", "pos": "noun"},
+                    {"german": "die Bezugsperson", "english": "caregiver / reference person", "turkish": "referans kişisi / bakıcı", "pos": "noun"}
+                ],
+                "examTip": "3 Erziehungsstile: autoritär (überholt), permissive (zu nachgiebig), autoritativ (ideal) = klare Grenzen + Partizipation. 'Gut genug' reicht!"
+            },
+            {
+                "id": "b2_r_04_10",
+                "title": "Übergewicht: Wenn die Waage zum Problem wird",
+                "source": "Deutsche Adipositas-Gesellschaft",
+                "sourceUrl": "https://www.adipositas-gesellschaft.de/",
+                "wordCount": 300,
+                "readingTimeMinutes": 4,
+                "tags": ["Gesundheit", "Ernährung", "Übergewicht"],
+                "content": """Übergewicht und Adipositas – starkes Übergewicht – haben in Deutschland Epidemie-Dimensionen erreicht. Etwa 67 Prozent der Männer und 53 Prozent der Frauen in Deutschland sind übergewichtig, etwa ein Viertel der Erwachsenen ist adipös. Die Gründe sind komplex und reichen über persönliche Willensschwäche hinaus.
+
+Eine zentrale Rolle spielt unsere Umwelt. Hochkalorische, zucker- und fetthaltige Lebensmittel sind überall verfügbar und werden massiv beworben – besonders an Kinder. Gleichzeitig bewegen sich viele Menschen aufgrund sitzender Bürojobs und.Auto-orientierter Stadtplanung zu wenig. „Adipositas ist keine Charakterschwäche, sondern eine chronische Krankheit", betont Professor Jens Bieber von der Deutschen Adipositas-Gesellschaft.
+
+Die gesundheitlichen Folgen sind erheblich. Übergewicht erhöht das Risiko für Typ-2-Diabetes, Herz-Kreislauf-Erkrankungen, Gelenkprobleme und bestimmte Krebsarten. Auch die psychische Belastung ist hoch: Viele Betroffene leiden unter Diskriminierung und Stigmatisierung.
+
+Die Politik diskutiert verschiedene Maßnahmen. Eine Zuckersteuer – wie sie Großbritannien und andere Länder eingeführt haben – wird auch in Deutschland gefordert. Ebenso ein Verbot von Werbung für ungesunde Lebensmittel an Kinder. Die Nahrungsmittelindustrie lehnt solche Eingriffe in die Konsumfreiheit jedoch ab.
+
+Langfristig sehen Experten nur eine Kombination aus Aufklärung, Veränderung der Lebensumwelt und medizinischer Unterstützung als wirksam an. „Es geht nicht darum, Menschen zu verbieten, was sie essen", sagt Prof. Bieber. „Es geht darum, gesunde Entscheidungen zur leichteren Entscheidung zu machen.\"""",
+                "questions": [
+                    {"id": "q_04_10_a", "type": "multiple_choice", "questionText": "Was ist die Hauptaussage des Textes?", "options": ["Übergewicht ist nur ein persönliches Problem.", "Übergewicht ist eine komplexe Krankheit, die gesellschaftlich bekämpft werden muss.", "Nur Willensstärke kann helfen.", "Übergewicht ist harmlos."], "correctAnswer": "Übergewicht ist eine komplexe Krankheit, die gesellschaftlich bekämpft werden muss.", "explanation": "Der Text zeigt: 67% Männer, 53% Frauen übergewichtig; Ursachen = Umwelt + Werbung + Bewegungsmangel; Forderung = Zuckersteuer, Werbeverbot."},
+                    {"id": "q_04_10_b", "type": "true_false", "questionText": "67 Prozent der Männer und 53 Prozent der Frauen in Deutschland sind übergewichtig.", "correctAnswer": "true", "explanation": "'Etwa 67 Prozent der Männer und 53 Prozent der Frauen in Deutschland sind übergewichtig, etwa ein Viertel der Erwachsenen ist adipös.'"},
+                    {"id": "q_04_10_c", "type": "multiple_choice", "questionText": "Was ist laut Prof. Jens Bieber Adipositas?", "options": ["Eine Charakterschwäche", "Eine chronische Krankheit", "Nur ein ästhetisches Problem", "Unheilbar"], "correctAnswer": "Eine chronische Krankheit", "explanation": "'Adipositas ist keine Charakterschwäche, sondern eine chronische Krankheit', betont Professor Jens Bieber.'"},
+                    {"id": "q_04_10_d", "type": "fill_blank", "questionText": "Eine ___ – wie in Großbritannien eingeführt – wird auch in Deutschland gefordert.", "correctAnswer": "Zuckersteuer", "explanation": "'Eine Zuckersteuer – wie sie Großbritannien und andere Länder eingeführt haben – wird auch in Deutschland gefordert.'"},
+                    {"id": "q_04_10_e", "type": "multiple_choice", "questionText": "Was erhöht laut dem Text das Risiko bei Übergewicht?", "options": ["Nur Gelenkprobleme", "Typ-2-Diabetes, Herz-Kreislauf-Erkrankungen, Gelenkprobleme und bestimmte Krebsarten", "Nur Diabetes", "Keine gesundheitlichen Folgen"], "correctAnswer": "Typ-2-Diabetes, Herz-Kreislauf-Erkrankungen, Gelenkprobleme und bestimmte Krebsarten", "explanation": "'Übergewicht erhöht das Risiko für Typ-2-Diabetes, Herz-Kreislauf-Erkrankungen, Gelenkprobleme und bestimmte Krebsarten.'"}
+                ],
+                "keyVocabulary": [
+                    {"german": "das Übergewicht", "english": "overweight / obesity", "turkish": "fazla kilolu / obezite", "pos": "noun"},
+                    {"german": "die Adipositas", "english": "obesity", "turkish": "obezite", "pos": "noun"},
+                    {"german": "die Zuckersteuer", "english": "sugar tax", "turkish": "şeker vergisi", "pos": "noun"},
+                    {"german": "die Epidemie", "english": "epidemic", "turkish": "epidemi / salgın", "pos": "noun"},
+                    {"german": "der Typ-2-Diabetes", "english": "type 2 diabetes", "turkish": "tip 2 diyabet", "pos": "noun"},
+                    {"german": "die Stigmatisierung", "english": "stigmatization", "turkish": "damgalama / damgalamak", "pos": "noun"},
+                    {"german": "die Willensschwäche", "english": "weakness of will", "turkish": "irade zayıflığı", "pos": "noun"},
+                    {"german": "die Lebensumwelt", "english": "living environment", "turkish": "yaşam çevresi", "pos": "noun"}
+                ],
+                "examTip": "Zahlen: 67% Männer, 53% Frauen übergewichtig. Wichtiger Satz: 'Adipositas ist keine Charakterschwäche, sondern eine chronische Krankheit!' Zuckersteuer als Maßnahme diskutiert!"
+            }
+        ]
+    }
+
+# ============================================================
+# GENERATE ALL REMAINING TOPICS
+# ============================================================
+def generate_all():
+    all_data = {
+        "generatedAt": datetime.now().isoformat(),
+        "topics": []
+    }
+    
+    # Topic 4
+    t4 = gen_topic4()
+    all_data["topics"].append({
+        "id": t4["topicId"],
+        "name": t4["topicName"],
+        "nameEn": t4["topicNameEn"],
+        "iconEmoji": t4["iconEmoji"],
+        "sourceBase": t4["sourceBase"],
+        "textCount": len(t4["texts"])
+    })
+    all_data["readings"] = t4["texts"]
+    
+    return all_data
+
+if __name__ == "__main__":
+    print("Generating B2 Reading Texts for Topics 4-12...")
+    data = generate_all()
+    
+    output_file = "b2_reading_topics_4_12.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+    
+    total_texts = len(data["readings"])
+    total_questions = sum(len(t["questions"]) for t in data["readings"])
+    print(f"\nGenerated {total_texts} texts with {total_questions} questions")
+    print(f"Saved to: {output_file}")

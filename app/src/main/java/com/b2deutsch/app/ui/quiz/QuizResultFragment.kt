@@ -51,6 +51,10 @@ class QuizResultFragment : Fragment() {
         binding.btnHome.setOnClickListener {
             findNavController().navigate(R.id.homeFragment)
         }
+
+        binding.btnBackToSubjects.setOnClickListener {
+            findNavController().navigate(R.id.action_result_to_subjectList)
+        }
     }
 
     override fun onDestroyView() {

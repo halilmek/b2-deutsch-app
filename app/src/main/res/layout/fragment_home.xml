@@ -120,6 +120,7 @@
 
         <!-- Feature Buttons -->
         <LinearLayout
+            android:id="@+id/featureButtonsContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
@@ -174,6 +175,17 @@
                 android:textSize="16sp"
                 android:padding="16dp"
                 android:layout_marginBottom="16dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnSubjects"
+                style="@style/Widget.MaterialComponents.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📚 Themen &amp; Fächer"
+                android:textSize="16sp"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                app:backgroundTint="@color/purple_700" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnLogout"

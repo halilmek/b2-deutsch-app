@@ -65,6 +65,10 @@
             app:destination="@id/speakingFragment" />
 
         <action
+            android:id="@+id/action_home_to_subjectList"
+            app:destination="@id/subjectListFragment" />
+
+        <action
             android:id="@+id/action_home_to_login"
             app:destination="@id/loginFragment"
             app:popUpTo="@id/homeFragment"
@@ -142,6 +146,70 @@
         <argument
             android:name="quizId"
             app:argType="string" />
+
+        <action
+            android:id="@+id/action_result_to_subjectList"
+            app:destination="@id/subjectListFragment"
+            app:popUpTo="@id/subjectListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <!-- Subjects — Themen & Fächer -->
+    <fragment
+        android:id="@+id/subjectListFragment"
+        android:name="com.b2deutsch.app.ui.subject.SubjectListFragment"
+        android:label="Themen"
+        tools:layout="@layout/fragment_subject_list">
+
+        <action
+            android:id="@+id/action_subjectList_to_subjectDetail"
+            app:destination="@id/subjectDetailFragment">
+            <argument
+                android:name="subjectId"
+                app:argType="string" />
+            <argument
+                android:name="subjectName"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/subjectDetailFragment"
+        android:name="com.b2deutsch.app.ui.subject.SubjectDetailFragment"
+        android:label="Thema"
+        tools:layout="@layout/fragment_subject_detail">
+
+        <argument
+            android:name="subjectId"
+            app:argType="string" />
+        <argument
+            android:name="subjectName"
+            app:argType="string" />
+
+        <action
+            android:id="@+id/action_subjectDetail_to_quizActive"
+            app:destination="@id/quizActiveFragment">
+            <argument
+                android:name="quizId"
+                app:argType="string" />
+            <argument
+                android:name="subjectId"
+                app:argType="string"
+                android:defaultValue="" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/subjectResultFragment"
+        android:name="com.b2deutsch.app.ui.subject.SubjectResultFragment"
+        android:label="Ergebnis"
+        tools:layout="@layout/fragment_subject_result">
+
+        <action
+            android:id="@+id/action_result_to_subjectList"
+            app:destination="@id/subjectListFragment"
+            app:popUpTo="@id/subjectListFragment"
+            app:popUpToInclusive="true" />
     </fragment>
 
     <!-- Vocabulary -->

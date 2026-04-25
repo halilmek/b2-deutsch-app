@@ -40,4 +40,11 @@ class ContentRepository @Inject constructor(
     // ============ LISTENING ============
     suspend fun getListeningExercises(level: String): Result<List<ListeningExercise>> =
         dataSource.getListeningExercisesByLevel(level)
+
+    // ============ SUBJECTS ============
+    suspend fun getSubjectsByLevel(level: String): Result<List<Subject>> =
+        dataSource.getSubjectsByLevel(level)
+
+    suspend fun getSubject(subjectId: String): Result<Subject> =
+        dataSource.getSubject(subjectId)
 }

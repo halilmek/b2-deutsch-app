@@ -75,6 +75,17 @@
         android:text="Back to Home"
         android:textSize="16sp"
         android:padding="16dp"
+        app:layout_constraintBottom_toTopOf="@id/btnBackToSubjects"
+        android:layout_marginBottom="8dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnBackToSubjects"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="← Back to Subjects"
+        android:textSize="14sp"
+        android:padding="16dp"
         app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

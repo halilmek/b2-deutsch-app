@@ -45,6 +45,8 @@ class HomeFragment : Fragment() {
     private fun setupRecyclerView() {
         levelAdapter = LevelAdapter { level ->
             homeViewModel.setCurrentLevel(level.id)
+            // Navigate to Subject List for this level
+            findNavController().navigate(R.id.action_home_to_subjectList)
         }
 
         binding.rvLevels.apply {
@@ -72,6 +74,10 @@ class HomeFragment : Fragment() {
 
         binding.btnSpeaking.setOnClickListener {
             findNavController().navigate(R.id.action_home_to_speaking)
+        }
+
+        binding.btnSubjects.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_subjectList)
         }
 
         binding.btnLogout.setOnClickListener {

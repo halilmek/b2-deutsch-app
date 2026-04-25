@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="4dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Subject Icon -->
+        <TextView
+            android:id="@+id/tvSubjectIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text="📚"
+            android:textSize="28sp"
+            android:gravity="center"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Category Badge -->
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grammatik"
+            android:textSize="10sp"
+            android:textColor="@color/white"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:background="@color/purple_500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Subject Name -->
+        <TextView
+            android:id="@+id/tvSubjectName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Grammatik: Konjunktiv II"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@id/tvSubjectIcon"
+            app:layout_constraintEnd_toStartOf="@id/ivPremium"
+            app:layout_constraintTop_toTopOf="@id/tvSubjectIcon" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/tvSubjectDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Der Konjunktiv II wird verwendet, um hypothetische Situationen und Wünsche auszudrücken."
+            android:textSize="13sp"
+            android:textColor="@android:color/darker_gray"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toEndOf="@id/tvSubjectIcon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvSubjectName" />
+
+        <!-- Quiz Count -->
+        <TextView
+            android:id="@+id/tvQuizCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10 Quiz"
+            android:textSize="12sp"
+            android:textColor="@color/purple_500"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"
+            app:layout_constraintStart_toEndOf="@id/tvSubjectIcon"
+            app:layout_constraintTop_toBottomOf="@id/tvSubjectDescription" />
+
+        <!-- Premium Icon -->
+        <ImageView
+            android:id="@+id/ivPremium"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/btn_star_big_on"
+            android:visibility="gone"
+            app:layout_constraintEnd_toStartOf="@id/tvCategory"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginEnd="4dp" />
+
+        <!-- Lock Icon -->
+        <ImageView
+            android:id="@+id/ivLock"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@android:drawable/ic_lock_lock"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@id/tvQuizCount" />
+
+        <!-- Progress Bar (optional) -->
+        <ProgressBar
+            android:id="@+id/progressSubject"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="0dp"
+            android:layout_height="4dp"
+            android:max="100"
+            android:progress="0"
+            android:layout_marginTop="8dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="8dp"
+            android:progressTint="@color/purple_500"
+            app:layout_constraintStart_toEndOf="@id/tvSubjectIcon"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvQuizCount" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

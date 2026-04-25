@@ -218,6 +218,17 @@ class FirebaseDataSource @Inject constructor(
         }
     }
 
+    // ============ SUBJECTS ============
+    // Subjects are generated locally in SubjectListViewModel.getDefaultSubjects()
+    // This method can be used when subjects are stored in Firestore
+    suspend fun getSubjectsByLevel(level: String): Result<List<Subject>> {
+        return Result.failure(Exception("Subjects loaded from local defaults"))
+    }
+
+    suspend fun getSubject(subjectId: String): Result<Subject> {
+        return Result.failure(Exception("Subject not found in Firestore"))
+    }
+
     // ============ WRITING ============
     suspend fun submitWriting(submission: WritingSubmission): Result<String> {
         return try {
