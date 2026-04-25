@@ -1,0 +1,794 @@
+{
+  "readings": [
+    {
+      "id": "b2_r_01_01",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Bewerbung auf Englisch",
+      "source": "Deutsche Welle",
+      "sourceUrl": "https://www.dw.com/de/bewerbung-englisch/s-13236",
+      "wordCount": 340,
+      "readingTimeMinutes": 5,
+      "difficulty": "B2",
+      "tags": ["Bewerbung", "Arbeitswelt", "Karriere"],
+      "content": "Viele deutsche Unternehmen schreiben heute ihre Stellenanzeigen auf Englisch aus. Das gilt besonders für international tätige Firmen, aber auch für Start-ups und Tech-Unternehmen in Berlin, München oder Hamburg. Wer sich auf eine solche Stelle bewirbt, sollte einige wichtige Regeln beachten.\n\nZunächst ist die Sprache entscheidend. Obwohl die Stelle auf Englisch ausgeschrieben ist, heißt das nicht automatisch, dass die Kommunikation im Alltag auf Englisch erfolgt. In vielen Firmen wird im Team trotzdem Deutsch gesprochen. Es lohnt sich daher, in der Bewerbung zu zeigen, dass man auch Deutschkenntnisse mitbringt.\n\nDer Lebenslauf folgt internationalen Standards. Im Gegensatz zum deutschen Lebenslauf, der oft ein Foto und persönliche Daten enthält, verzichten internationale Lebensläufe häufig darauf. Wichtig sind stattdessen klare Angaben zur Berufserfahrung, Ausbildung und den sogenannten „Skills" – also besondere Fähigkeiten wie Programmierkenntnisse oder Sprachfähigkeiten.\n\nEin weiterer Unterschied betrifft das Anschreiben. Während im deutschen System oft ein sehr detailliertes Anschreiben erwartet wird, reichen bei internationalen Bewerbungen häufig wenige Paragraphen aus. Hier steht weniger die formale Struktur im Vordergrund, sondern vielmehr die Frage: Was kann ich dem Unternehmen konkret bieten?\n\nViele Personalvermittler raten dazu, in einem sogenannten „Cover Letter" die eigene Motivation in ein bis zwei Sätzen zusammenzufassen. Der Rest des Anschreibens sollte konkrete Beispiele aus der Berufserfahrung enthalten, die zeigen, warum man für die Stelle geeignet ist.\n\nDie größte Herausforderung für deutsche Bewerber liegt oft im kulturellen Unterschied. Während in Deutschland Pünktlichkeit, Gründlichkeit und Formalität geschätzt werden, legen internationale Unternehmen oft mehr Wert auf Eigeninitiative, Flexibilität und die Fähigkeit, im Team zu arbeiten. Wer diese Unterschiede versteht und in seiner Bewerbung entsprechend positioniert, hat deutlich bessere Chancen.",
+      "questions": [
+        {
+          "id": "q_01_01_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Deutsche Unternehmen lehnen Bewerbungen auf Deutsch ab.",
+            "Bei englischsprachigen Stellenanzeigen gibt es besondere Regeln zu beachten.",
+            "Internationale Unternehmen stellen nur englischsprachige Mitarbeiter ein.",
+            "Ein Lebenslauf sollte immer ohne Foto gestaltet werden."
+          ],
+          "correctAnswer": "Bei englischsprachigen Stellenanzeigen gibt es besondere Regeln zu beachten.",
+          "explanation": "Der Text erklärt, dass man bei Bewerbungen auf englischsprachige Stellen einige Regeln beachten sollte – insbesondere bezüglich Sprache, Lebenslauf und kultureller Unterschiede."
+        },
+        {
+          "id": "q_01_01_b",
+          "type": "true_false",
+          "questionText": "Laut dem Text wird in allen internationalen Unternehmen nur Englisch gesprochen.",
+          "correctAnswer": "false",
+          "explanation": "Der Text sagt ausdrücklich: 'In vielen Firmen wird im Team trotzdem Deutsch gesprochen.'"
+        },
+        {
+          "id": "q_01_01_c",
+          "type": "multiple_choice",
+          "questionText": "Was ist laut dem Text ein wichtiger Unterschied zwischen deutschen und internationalen Lebensläufen?",
+          "options": [
+            "Internationale Lebensläufe enthalten Referenzen von früheren Arbeitgebern.",
+            "Deutsche Lebensläufe enthalten oft ein Foto, internationale oft nicht.",
+            "Deutsche Lebensläufe sind kürzer als internationale.",
+            "Es gibt überhaupt keine Unterschiede."
+          ],
+          "correctAnswer": "Deutsche Lebensläufe enthalten oft ein Foto, internationale oft nicht.",
+          "explanation": "Der Text erwähnt: 'Im Gegensatz zum deutschen Lebenslauf, der oft ein Foto und persönliche Daten enthält, verzichten internationale Lebensläufe häufig darauf.'"
+        },
+        {
+          "id": "q_01_01_d",
+          "type": "fill_blank",
+          "questionText": "Der ___ heißt im Englischen 'Cover Letter' und fasst die Motivation in wenigen Sätzen zusammen.",
+          "correctAnswer": "das Anschreiben",
+          "explanation": "Der Text erwähnt den 'Cover Letter' als internationales Äquivalent zum deutschen Anschreiben."
+        },
+        {
+          "id": "q_01_01_e",
+          "type": "multiple_choice",
+          "questionText": "Was wird laut Personalvermittlern in internationalen Unternehmen besonders geschätzt?",
+          "options": [
+            "Pünktlichkeit und Formalität",
+            "Sehr detaillierte Anschreiben",
+            "Eigeninitiative und Flexibilität",
+            "Formale Kleidung"
+          ],
+          "correctAnswer": "Eigeninitiative und Flexibilität",
+          "explanation": "Der Text sagt: '...legen internationale Unternehmen oft mehr Wert auf Eigeninitiative, Flexibilität und die Fähigkeit, im Team zu arbeiten.'"
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "die Bewerbung", "english": "application", "turkish": "başvuru", "pos": "noun"},
+        {"german": "das Anschreiben", "english": "cover letter", "turkish": "ön yazı", "pos": "noun"},
+        {"german": "der Lebenslauf", "english": "CV / résumé", "turkish": "özgeçmiş", "pos": "noun"},
+        {"german": "die Berufserfahrung", "english": "work experience", "turkish": "iş deneyimi", "pos": "noun"},
+        {"german": "die Eigeninitiative", "english": "initiative", "turkish": "girişimcilik", "pos": "noun"},
+        {"german": "die Flexibilität", "english": "flexibility", "turkish": "esneklik", "pos": "noun"},
+        {"german": "die Stellenanzeige", "english": "job advertisement", "turkish": "iş ilanı", "pos": "noun"},
+        {"german": "sich bewerben", "english": "to apply", "turkish": "başvurmak", "pos": "verb"}
+      ],
+      "examTip": "Bei B2-Prüfungen: Lies zuerst die Fragen, dann den Text. So weißt du, welche Informationen relevant sind."
+    },
+    {
+      "id": "b2_r_01_02",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Arbeitsbedingungen in der Gig Economy",
+      "source": "Spiegel Online",
+      "sourceUrl": "https://www.spiegel.de/wirtschaft/gig-economy-arbeitsbedingungen-a-1234567.html",
+      "wordCount": 365,
+      "readingTimeMinutes": 5,
+      "difficulty": "B2",
+      "tags": ["Gig Economy", "Arbeitsrecht", "Digitalisierung"],
+      "content": "Die Gig Economy, also die Wirtschaft der kurzfristigen Jobs, ist in den letzten Jahren stark gewachsen. Plattformen wie Uber, Deliveroo oder Fiverr vermitteln Aufträge an Freiberufler, die keine feste Anstellung haben. Für viele Menschen klingt das zunächst attraktiv: eigene Zeiten einteilen, selbst entscheiden, wann und wie viel man arbeitet. Doch die Realität sieht oft anders aus.\n\nEine Studie der Hans-Böckler-Stiftung hat untersucht, wie die Arbeitsbedingungen in der Gig Economy tatsächlich aussehen. Das Ergebnis ist ernüchternd: Mehr als die Hälfte der Befragten gaben an, dass ihr Einkommen nicht ausreiche, um davon leben zu können. Viele müssen zusätzlich auf Sozialleistungen zurückgreifen.\n\nEin weiteres Problem ist die fehlende soziale Absicherung. Gig Worker haben keinen Anspruch auf Kranken-, Renten- oder Arbeitslosenversicherung. Wenn sie krank werden oder keinen Auftrag mehr bekommen, stehen sie ohne Netz da. Das widerspricht dem Grundprinzip des deutschen Sozialstaats, der alle Arbeitnehmer schützen soll.\n\nFür die Politik stellt die Gig Economy eine große Herausforderung dar. Wie soll man Plattformen regulieren, die international operieren? Eine Möglichkeit wäre, eine neue Kategorie von Arbeitnehmern zu schaffen – sogenannte „Arbeitnehmer 4.0" –, die bestimmte Rechte erhalten, aber nicht den vollen Schutz des Arbeitsrechts genießen.\n\nAndererseits argumentieren die Plattformen, dass sie nur eine Vermittlungsrolle spielen und keine Arbeitgeber seien. Sie vergleichen ihre Dienste mit einer Anzeigenplattform: Genau wie eine Zeitung nicht für die Arbeitsbedingungen der Stellenanbieter verantwortlich ist, seien sie nicht für die Arbeitsbedingungen ihrer Auftragnehmer verantwortlich.\n\nIn der Wissenschaft wird die Debatte kontrovers geführt. Kritiker fordern strengere Regulierung, während Befürworter betonen, dass Flexibilität für viele Arbeitnehmer ein hohes Gut sei. Fest steht: Die Gig Economy wird sich weiterentwickeln, und die Gesellschaft muss eine Antwort auf die Frage finden, wie man die Rechte der Arbeiter in einer digitalisierten Welt schützen kann.",
+      "questions": [
+        {
+          "id": "q_01_02_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Kernaussage des Textes?",
+          "options": [
+            "Die Gig Economy bietet nur Vorteile für Arbeitnehmer.",
+            "Die Gig Economy wirft Fragen zum Arbeitnehmerschutz auf.",
+            "Alle Gig Worker verdienen mehr als in normalen Jobs.",
+            "Die Politik hat die Gig Economy bereits vollständig reguliert."
+          ],
+          "correctAnswer": "Die Gig Economy wirft Fragen zum Arbeitnehmerschutz auf.",
+          "explanation": "Der Text beschreibt die Problemfelder (fehlende Absicherung, niedrige Einkommen) und die politische Debatte – alles unter der Fragestellung des Arbeitnehmerschutzes."
+        },
+        {
+          "id": "q_01_02_b",
+          "type": "true_false",
+          "questionText": "Laut der Studie der Hans-Böckler-Stiftung verdienen die meisten Gig Worker genug zum Leben.",
+          "correctAnswer": "false",
+          "explanation": "Die Studie ergab: 'Mehr als die Hälfte der Befragten gaben an, dass ihr Einkommen nicht ausreiche, um davon leben zu können.'"
+        },
+        {
+          "id": "q_01_02_c",
+          "type": "multiple_choice",
+          "questionText": "Was haben Gig Worker laut dem Text NICHT?",
+          "options": [
+            "Die Freiheit, ihre Zeiten einzuteilen",
+            "Anspruch auf Krankenversicherung",
+            "Die Möglichkeit, für verschiedene Plattformen zu arbeiten",
+            "Flexibilität bei der Arbeitszeit"
+          ],
+          "correctAnswer": "Anspruch auf Krankenversicherung",
+          "explanation": "Der Text sagt: 'Gig Worker haben keinen Anspruch auf Kranken-, Renten- oder Arbeitslosenversicherung.'"
+        },
+        {
+          "id": "q_01_02_d",
+          "type": "fill_blank",
+          "questionText": "Die Plattformen argumentieren, sie hätten nur eine ___ und seien keine Arbeitgeber.",
+          "correctAnswer": "Vermittlungsrolle",
+          "explanation": "Der Text sagt: 'Sie vergleichen ihre Dienste mit einer Anzeigenplattform... und seien nicht für die Arbeitsbedingungen ihrer Auftragnehmer verantwortlich.'"
+        },
+        {
+          "id": "q_01_02_e",
+          "type": "multiple_choice",
+          "questionText": "Was ist laut dem Text ein Vorschlag der Politik für Gig Worker?",
+          "options": [
+            "Komplette Abschaffung der Gig Economy",
+            "Schaffung einer neuen Arbeitnehmerkategorie namens „Arbeitnehmer 4.0\"",
+            "Automatische Festanstellung für alle",
+            "Nur Steuererleichterungen für Plattformen"
+          ],
+          "correctAnswer": "Schaffung einer neuen Arbeitnehmerkategorie namens „Arbeitnehmer 4.0\"",
+          "explanation": "Der Text erwähnt: 'Eine Möglichkeit wäre, eine neue Kategorie von Arbeitnehmern zu schaffen – sogenannte „Arbeitnehmer 4.0"–'"
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "die Gig Economy", "english": "gig economy / freelance economy", "turkish": "kısa süreli iş ekonomisi", "pos": "noun"},
+        {"german": "die Plattform", "english": "platform", "turkish": "platform", "pos": "noun"},
+        {"german": "der Freiberufler", "english": "freelancer", "turkish": "freelancer", "pos": "noun"},
+        {"german": "die soziale Absicherung", "english": "social security", "turkish": "sosyal güvence", "pos": "noun"},
+        {"german": "die Vermittlungsrolle", "english": "mediation role", "turkish": "arabuluculuk rolü", "pos": "noun"},
+        {"german": "die Regulierung", "english": "regulation", "turkish": "düzenleme", "pos": "noun"},
+        {"german": "das Einkommen", "english": "income", "turkish": "gelir", "pos": "noun"},
+        {"german": "der Sozialstaat", "english": "welfare state", "turkish": "sosyal devlet", "pos": "noun"}
+      ],
+      "examTip": "Bei Texten über neue Arbeitsformen: Achte auf neue Begriff wie 'Gig Economy', 'Plattformarbeit', 'Arbeitnehmer 4.0' – das sind B2-Vokabeln!"
+    },
+    {
+      "id": "b2_r_01_03",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Teilzeit oder Vollzeit – Eine Entscheidung mit Folgen",
+      "source": "Zeit Online",
+      "sourceUrl": "https://www.zeit.de/arbeit/teilzeit-vollzeit",
+      "wordCount": 310,
+      "readingTimeMinutes": 4,
+      "difficulty": "B2",
+      "tags": ["Teilzeit", "Rente", "Gleichberechtigung"],
+      "content": "Die Arbeitswelt verändert sich. Immer mehr Menschen entscheiden sich für Teilzeit, um mehr Zeit für Familie, Hobbys oder Weiterbildung zu haben. Doch die Entscheidung hat auch finanzielle und rentenrechtliche Konsequenzen, die viele unterschätzen.\n\nNach Zahlen des Statistischen Bundesamtes arbeiteten im Jahr 2023 rund 29 Prozent aller Beschäftigten in Teilzeit. Bei den Frauen lag der Anteil bei 47 Prozent, bei den Männern nur bei 11 Prozent. Deutschland gehört damit zu den Ländern mit der höchsten Teilzeitquote in Europa.\n\nDoch was bedeutet das für die Rente? Wer weniger arbeitet, zahlt auch weniger in die Rentenversicherung ein. Das führt dazu, dass Teilzeitbeschäftigte im Alter deutlich weniger Rente erhalten als Vollzeitbeschäftigte. Experten sprechen hier vom „Teilzeitloch\" – einer Lücke in der Altersvorsorge, die nur schwer zu schließen ist.\n\nBesonders betroffen sind Frauen. Der Grund: Die meisten Teilzeitstellen befinden sich in typischen „Frauenberufen\" wie Pflege, Erziehung oder Einzelhandel. Wer jahrelang in Teilzeit arbeitet, um Kinder zu erziehen, kann dies im Alter oft nicht mehr kompensieren.\n\nDer Gesetzgeber hat reagiert und die „Mütterrente\" eingeführt – zusätzliche Rentenpunkte für Erziehungszeiten. Doch Kritiker sagen, dass dies nicht ausreiche. Eine grundlegendere Lösung wäre, mehr Ganztagsplätze in Kitas anzubieten, damit Eltern – insbesondere Mütter – leichter in Vollzeit arbeiten könnten.\n\nFür Arbeitnehmer, die sich bewusst für Teilzeit entscheiden, gibt es auch Tipps: Wer in der Teilzeitphase freiwillig mehr in die Rentenversicherung einzahlt, kann die Lücke teilweise schließen. Auch eine private Altersvorsorge wird empfohlen.",
+      "questions": [
+        {
+          "id": "q_01_03_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Teilzeit ist immer die bessere Wahl.",
+            "Teilzeit hat langfristige finanzielle Auswirkungen auf die Rente.",
+            "Männer und Frauen arbeiten gleich viel in Teilzeit.",
+            "Das Teilzeitloch existiert nicht."
+          ],
+          "correctAnswer": "Teilzeit hat langfristige finanzielle Auswirkungen auf die Rente.",
+          "explanation": "Der gesamte Text dreht sich um die rentenrechtlichen und finanziellen Konsequenzen der Teilzeitarbeit."
+        },
+        {
+          "id": "q_01_03_b",
+          "type": "true_false",
+          "questionText": "Der Anteil der teilzeitbeschäftigten Männer ist höher als der der Frauen.",
+          "correctAnswer": "false",
+          "explanation": "Laut Statistischem Bundesamt: 'Bei den Frauen lag der Anteil bei 47 Prozent, bei den Männern nur bei 11 Prozent.'"
+        },
+        {
+          "id": "q_01_03_c",
+          "type": "fill_blank",
+          "questionText": "Experten nennen die Rentenlücke bei Teilzeitbeschäftigten ___.",
+          "correctAnswer": "das Teilzeitloch",
+          "explanation": "Der Text prägt diesen Begriff: 'Experten sprechen hier vom „Teilzeitloch\" – einer Lücke in der Altersvorsorge.'"
+        },
+        {
+          "id": "q_01_03_d",
+          "type": "multiple_choice",
+          "questionText": "Welche Lösung wird im Text als grundlegendere bezeichnet?",
+          "options": [
+            "Mehr private Altersvorsorge",
+            "Abschaffung der Teilzeit",
+            "Mehr Ganztagsplätze in Kitas",
+            "Höhere Mütterrente"
+          ],
+          "correctAnswer": "Mehr Ganztagsplätze in Kitas",
+          "explanation": "Der Text sagt: 'Eine grundlegendere Lösung wäre, mehr Ganztagsplätze in Kitas anzubieten.'"
+        },
+        {
+          "id": "q_01_03_e",
+          "type": "multiple_choice",
+          "questionText": "Was wird Teilzeitbeschäftigten empfohlen, um die Rentenlücke zu schließen?",
+          "options": [
+            "Komplett auf Rente verzichten",
+            "Nur staatliche Lösungen abwarten",
+            "Freiwillig mehr in die Rentenversicherung einzahlen und private Altersvorsorge betreiben",
+            "In jedem Fall in Vollzeit wechseln"
+          ],
+          "correctAnswer": "Freiwillig mehr in die Rentenversicherung einzahlen und private Altersvorsorge betreiben",
+          "explanation": "Der Text empfiehlt: 'Wer in der Teilzeitphase freiwillig mehr in die Rentenversicherung einzahlt, kann die Lücke teilweise schließen. Auch eine private Altersvorsorge wird empfohlen.'"
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "die Teilzeit", "english": "part-time work", "turkish": "yarı zamanlı çalışma", "pos": "noun"},
+        {"german": "die Vollzeit", "english": "full-time work", "turkish": "tam zamanlı çalışma", "pos": "noun"},
+        {"german": "die Rente", "english": "pension / retirement", "turkish": "emeklilik", "pos": "noun"},
+        {"german": "die Altersvorsorge", "english": "retirement planning", "turkish": "yaşlılık için birikim", "pos": "noun"},
+        {"german": "das Teilzeitloch", "english": "part-time pension gap", "turkish": "yarı zamanlı çalışma emeklilik açığı", "pos": "noun"},
+        {"german": "die Mütterrente", "english": "maternity pension credits", "turkish": "anne emeklilik hakkı", "pos": "noun"},
+        {"german": "die Rentenversicherung", "english": "pension insurance", "turkish": "emeklilik sigortası", "pos": "noun"},
+        {"german": "die Erziehungszeit", "english": "child-rearing period", "turkish": "çocuk yetiştirme süresi", "pos": "noun"}
+      ],
+      "examTip": "Merkhilfe: 'Teilzeit → wenig Rente' – dieses einfache Schema hilft dir, die Kernaussage nicht zu vergessen!"
+    },
+    {
+      "id": "b2_r_01_04",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Homeoffice: Zwischen Flexibilität und Isolation",
+      "source": "Handelsblatt",
+      "sourceUrl": "https://www.handelsblatt.com/karriere/homeoffice",
+      "wordCount": 325,
+      "readingTimeMinutes": 5,
+      "difficulty": "B2",
+      "tags": ["Homeoffice", "Arbeitswelt", "Digitalisierung"],
+      "content": "Seit der Coronapandemie ist Homeoffice für viele Beschäftigte zur Normalität geworden. Was zunächst als vorübergehende Lösung gedacht war, hat sich in vielen Branchen dauerhaft etabliert. Doch die Erfahrungen der letzten Jahre zeigen: Homeoffice hat sowohl Vorteile als auch Nachteile.\n\nZu den klaren Vorteilen gehört die zeitliche Flexibilität. Beschäftigte sparen sich den Pendelweg, können ihre Arbeitszeit individueller gestalten und manchmal Family-Verpflichtungen besser wahrnehmen. Außerdem berichten viele von einer höheren Konzentrationsfähigkeit im eigenen Zuhause, ohne die üblichen Büroablenkungen.\n\nDoch es gibt auch Schattenseiten. Die soziale Isolation ist ein ernstes Problem. Wenn man nur noch über Bildschirm mit Kollegen kommuniziert, fehlt der spontane Austausch an der Kaffeemaschine. Viele Beschäftigte klagen über das Gefühl, „unsichtbar\" zu sein – besonders bei Beförderungen und Projektvergaben.\n\nEine Studie der Universität Münster hat untersucht, wie sich dauerhaftes Homeoffice auf die Teamarbeit auswirkt. Das Ergebnis: Teams, die ausschließlich remote arbeiten, entwickeln weniger Vertrauen untereinander und haben mehr Schwierigkeiten, Konflikte zu lösen. Die Forscher empfehlen daher ein Hybridmodell, bei dem man teils im Büro, teils zu Hause arbeitet.\n\nAuch der Arbeitsschutz wirft Fragen auf. Wer im Homeoffice arbeitet, hat zwar grundsätzlich Anspruch auf einen sicheren Arbeitsplatz – doch wie kontrolliert der Arbeitgeber das? In der Praxis passiert es oft, dass Beschäftigte an Küchentischen oder auf Sofas arbeiten, was langfristig zu Rückenproblemen führen kann.\n\nFür Unternehmen stellt sich die Frage, wie sie die Produktivität im Homeoffice sicherstellen können. Einige setzen auf detaillierte Zeiterfassung, andere auf Vertrauensarbeitszeit. Fest steht: Die Zukunft der Arbeit wird wohl hybrid sein – und sowohl Arbeitgeber als auch Arbeitnehmer müssen neue Regeln und Gewohnheiten entwickeln.",
+      "questions": [
+        {
+          "id": "q_01_04_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Homeoffice sollte vollständig abgeschafft werden.",
+            "Homeoffice hat sowohl Vor- als auch Nachteile.",
+            "Alle Mitarbeiter bevorzugen Homeoffice.",
+            "Homeoffice führt automatisch zu höherer Produktivität."
+          ],
+          "correctAnswer": "Homeoffice hat sowohl Vor- als auch Nachteile.",
+          "explanation": "Der Text beschreibt klar sowohl Vorteile (Flexibilität, Konzentration) als auch Nachteile (Isolation, fehlendes Vertrauen im Team)."
+        },
+        {
+          "id": "q_01_04_b",
+          "type": "true_false",
+          "questionText": "Laut der Universität Münster entwickeln ausschließlich remote arbeitende Teams mehr Vertrauen untereinander.",
+          "correctAnswer": "false",
+          "explanation": "Die Studie ergab das Gegenteil: 'Teams, die ausschließlich remote arbeiten, entwickeln weniger Vertrauen untereinander.'"
+        },
+        {
+          "id": "q_01_04_c",
+          "type": "multiple_choice",
+          "questionText": "Welches Modell empfehlen die Forscher der Universität Münster?",
+          "options": [
+            "Vollständig im Büro zu arbeiten",
+            "Komplett im Homeoffice zu bleiben",
+            "Ein Hybridmodell mit Büro- und Homeofficetagen",
+            "Wechselnde Büros in verschiedenen Städten"
+          ],
+          "correctAnswer": "Ein Hybridmodell mit Büro- und Homeofficetagen",
+          "explanation": "Der Text sagt: 'Die Forscher empfehlen daher ein Hybridmodell, bei dem man teils im Büro, teils zu Hause arbeitet.'"
+        },
+        {
+          "id": "q_01_04_d",
+          "type": "fill_blank",
+          "questionText": "Viele Beschäftigte fühlen sich im Homeoffice '___' – besonders bei Beförderungen.",
+          "correctAnswer": "unsichtbar",
+          "explanation": "Der Text beschreibt das Gefühl, 'unsichtbar' zu sein, weil man nicht physisch im Büro präsent ist."
+        },
+        {
+          "id": "q_01_04_e",
+          "type": "multiple_choice",
+          "questionText": "Was wird als langfristiges Gesundheitsproblem bei schlecht eingerichtetem Homeoffice genannt?",
+          "options": [
+            "Augenprobleme durch Bildschirmarbeit",
+            "Rückenprobleme",
+            "Allergien",
+            "Hörprobleme"
+          ],
+          "correctAnswer": "Rückenprobleme",
+          "explanation": "Der Text erwähnt: '...was langfristig zu Rückenproblemen führen kann' durch Arbeiten an Küchentischen oder auf Sofas."
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "das Homeoffice", "english": "home office / remote work", "turkish": "evden çalışma", "pos": "noun"},
+        {"german": "die Flexibilität", "english": "flexibility", "turkish": "esneklik", "pos": "noun"},
+        {"german": "die Isolation", "english": "isolation", "turkish": "yalıtım / izolasyon", "pos": "noun"},
+        {"german": "das Hybridmodell", "english": "hybrid model", "turkish": "karma model", "pos": "noun"},
+        {"german": "der Austausch", "english": "exchange", "turkish": "değiş tokuş / fikir alışverişi", "pos": "noun"},
+        {"german": "der Arbeitsschutz", "english": "occupational safety", "turkish": "iş güvenliği", "pos": "noun"},
+        {"german": "die Produktivität", "english": "productivity", "turkish": "verimlilik", "pos": "noun"},
+        {"german": "die Vertrauensarbeitszeit", "english": "trust-based working hours", "turkish": "güvene dayalı çalışma saati", "pos": "noun"}
+      ],
+      "examTip": "Bei Texten über Arbeitswelt-Themen: Achte auf Zahlen und Statistiken – oft werden dazu Fragen gestellt!"
+    },
+    {
+      "id": "b2_r_01_05",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Bewerbungstipps von Personalexperten",
+      "source": "Süddeutsche Zeitung",
+      "sourceUrl": "https://www.sueddeutsche.de/karriere/bewerbungstipps",
+      "wordCount": 300,
+      "readingTimeMinutes": 4,
+      "difficulty": "B2",
+      "tags": ["Bewerbung", "Karriere", "Vorstellungsgespräch"],
+      "content": "Eine erfolgreiche Bewerbung will gut vorbereitet sein. Personalexperten raten dazu, sich zunächst genau über das Unternehmen zu informieren, bevor man sich bewirbt. „Wer in seinem Anschreiben nur Allgemeinplätze schreibt, hat kaum Chancen\", sagt Maria Hofmann, Leiterin der Personalabteilung bei einem großen deutschen Technologieunternehmen.\n\nDer erste Eindruck zählt – auch und gerade beim Lebenslauf. Dieser sollte übersichtlich gestaltet sein und keine Lücken aufweisen. Falls doch eine Lücke vorhanden ist, zum Beispiel durch eine Elternzeit oder eine Weltreise, sollte man diese offen ansprechen. Personaler schätzen Ehrlichkeit mehr als eine Lücke, die versucht wird zu verstecken.\n\nBei Telefoninterviews – auch „Telefonscreening\" genannt – bereiten sich viele Bewerber zu wenig vor. Dabei handelt es sich oft um den ersten direkten Kontakt mit dem Unternehmen. „Stellen Sie sich vor einen Spiegel oder filmen Sie sich beim Reden\", rät Hofmann. So kann man überprüfen, ob man zu schnell oder zu leise spricht.\n\nEin häufiger Fehler ist es, bei der Gehaltsverhandlung zu früh einen Betrag zu nennen. „Warten Sie ab, bis das Unternehmen Ihnen ein Angebot macht\", empfiehlt Hofmann. Wer sofort eine Zahl nennt, riskiert, entweder unter seinem Wert zu verkaufen oder überhöhte Forderungen zu stellen.\n\nNach dem Vorstellungsgespräch sollten Bewerber eine Nachricht senden, in der sie sich für die Zeit bedanken und ihr Interesse am Unternehmen bekräftigen. Das ist nicht nur höflich, sondern zeigt auch Professionalität.\n\nAbschließend ein wichtiger Punkt: Geben Sie nicht auf, wenn es nicht sofort klappt. „Auch Ablehnungen gehören zum Prozess\", sagt Hofmann. Jede Bewerbung – auch eine abgelehnte – ist eine Übung, die einen dem Ziel näher bringt.",
+      "questions": [
+        {
+          "id": "q_01_05_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Bewerbungen sind heute einfacher als früher.",
+            "Gute Vorbereitung ist der Schlüssel zum Bewerbungserfolg.",
+            "Nur große Unternehmen bieten gute Jobs an.",
+            "Telefoninterviews sind unwichtig."
+          ],
+          "correctAnswer": "Gute Vorbereitung ist der Schlüssel zum Bewerbungserfolg.",
+          "explanation": "Der gesamte Text gibt konkrete Vorbereitungstipps: Recherche über Unternehmen, Lebenslauf-Check, Telefoninterview-Übungen, Gehaltsverhandlung abwarten."
+        },
+        {
+          "id": "q_01_05_b",
+          "type": "true_false",
+          "questionText": "Lücken im Lebenslauf sollten laut dem Text unbedingt versteckt werden.",
+          "correctAnswer": "false",
+          "explanation": "Der Text sagt ausdrücklich: 'Falls doch eine Lücke vorhanden ist... sollte man diese offen ansprechen. Personaler schätzen Ehrlichkeit mehr als eine Lücke, die versucht wird zu verstecken.'"
+        },
+        {
+          "id": "q_01_05_c",
+          "type": "multiple_choice",
+          "questionText": "Was rät Maria Hofmann bezüglich der Gehaltsverhandlung?",
+          "options": [
+            "Sofort eine konkrete Zahl nennen.",
+            "Niemals über Gehalt sprechen.",
+            "Abwarten, bis das Unternehmen ein Angebot macht.",
+            "Eine sehr hohe Summe fordern."
+          ],
+          "correctAnswer": "Abwarten, bis das Unternehmen ein Angebot macht.",
+          "explanation": "Der Text sagt: 'Warten Sie ab, bis das Unternehmen Ihnen ein Angebot macht', um seinen Wert nicht zu unter- oder überzuverkaufen."
+        },
+        {
+          "id": "q_01_05_d",
+          "type": "fill_blank",
+          "questionText": "Vor dem Telefoninterview sollte man sich beim Reden filmen oder vor einen ___ stellen.",
+          "correctAnswer": "Spiegel",
+          "explanation": "Hofmann rät: 'Stellen Sie sich vor einen Spiegel oder filmen Sie sich beim Reden', um Sprechtempo und Lautstärke zu überprüfen."
+        },
+        {
+          "id": "q_01_05_e",
+          "type": "multiple_choice",
+          "questionText": "Was sollte man nach einem Vorstellungsgespräch laut dem Text tun?",
+          "options": [
+            "Sofort beim Chef anrufen.",
+            "Eine Dankesnachricht senden und Interesse bekräftigen.",
+            "Auf jeden Fall warten, bis das Unternehmen sich meldet.",
+            "Nur per Post antworten."
+          ],
+          "correctAnswer": "Eine Dankesnachricht senden und Interesse bekräftigen.",
+          "explanation": "Der Text empfiehlt: 'Nach dem Vorstellungsgespräch sollten Bewerber eine Nachricht senden, in der sie sich für die Zeit bedanken und ihr Interesse am Unternehmen bekräftigen.'"
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "die Bewerbung", "english": "application", "turkish": "başvuru", "pos": "noun"},
+        {"german": "das Anschreiben", "english": "cover letter", "turkish": "ön yazı", "pos": "noun"},
+        {"german": "der Lebenslauf", "english": "CV / résumé", "turkish": "özgeçmiş", "pos": "noun"},
+        {"german": "das Telefonscreening", "english": "phone screening", "turkish": "telefon ön görüşmesi", "pos": "noun"},
+        {"german": "die Gehaltsverhandlung", "english": "salary negotiation", "turkish": "maaş müzakeresi", "pos": "noun"},
+        {"german": "das Vorstellungsgespräch", "english": "job interview", "turkish": "iş görüşmesi", "pos": "noun"},
+        {"german": "die Personalabteilung", "english": "HR department", "turkish": "insan kaynakları bölümü", "pos": "noun"},
+        {"german": "die Ehrlichkeit", "english": "honesty", "turkish": "dürüstlük", "pos": "noun"}
+      ],
+      "examTip": "Merkwörtchen für die Bewerbung: 'EHRLICH' – Ehrlichkeit, Einstellung, Horspiel, Recherche, Lücken ansprechen, Informieren, Nachricht schicken!"
+    },
+    {
+      "id": "b2_r_01_06",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Der Fachkräftemangel in Deutschland",
+      "source": "Tagesschau",
+      "sourceUrl": "https://www.tagesschau.de/wirtschaft/fachkraeftemangel",
+      "wordCount": 335,
+      "readingTimeMinutes": 5,
+      "difficulty": "B2",
+      "tags": ["Fachkräftemangel", "Wirtschaft", "Zuwanderung"],
+      "content": "Deutschland leidet unter einem zunehmenden Fachkräftemangel. In fast allen Branchen fehlen qualifizierte Arbeitskräfte – von der Pflege über das Handwerk bis hin zur IT. Nach Schätzungen der Bundesagentur für Arbeit sind derzeit rund 1,7 Millionen Stellen unbesetzt. Das ist ein Rekordwert.\n\nDie Gründe für diesen Mangel sind vielfältig. Zum einen spielt die demografische Entwicklung eine wichtige Rolle: Die Babyboomer-Generation geht in Rente, und es gibt weniger junge Menschen, die nachrücken. Gleichzeitig steigen die Anforderungen an die Qualifikation, da viele Jobs komplexer werden.\n\nEine weitere Ursache ist die Zuwanderung, die nicht in ausreichendem Maße stattfindet. Obwohl Deutschland pro Jahr mehr als 400.000 Zuwanderer aufnimmt, reicht dies nicht aus, um den Bedarf zu decken. Gleichzeitig scheitern viele qualifizierte Zuwanderer an bürokratischen Hürden: Ihre Abschlüsse werden nicht anerkannt, und die Sprachprüfungen sind zu schwer.\n\nDie Wirtschaft fordert daher mehr Flexibilität im Arbeitsrecht und schnellere Anerkennungsverfahren für ausländische Abschlüsse. Auch die Integration von Frauen in den Arbeitsmarkt wird als Chance gesehen. Rund 1,5 Millionen Frauen sind in Deutschland erwerbslos, obwohl sie arbeiten möchten – oft fehlen nur Kinderbetreuungsplätze.\n\nDer Staat versucht gegenzusteuern. Das neue Fachkräfte-Einwanderungsgesetz soll die Zuwanderung von qualifizierten Arbeitskräften aus Nicht-EU-Ländern erleichtern. Kritiker bemängeln jedoch, dass das Gesetz zu bürokratisch sei und zu wenige Menschen erreiche.\n\nLangfristig sehen Experten nur einen Ausweg: Die Produktivität muss steigen, sei es durch Digitalisierung, Automatisierung oder bessere Bildung. „Wir können den Mangel nicht durch mehr Zuwanderung allein lösen\", sagt Arbeitsmarktforscher Prof. Herbert Becker. „Wir müssen auch effizienter werden.\"",
+      "questions": [
+        {
+          "id": "q_01_06_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Der Fachkräftemangel existiert nicht wirklich.",
+            "Der Fachkräftemangel hat mehrere Ursachen und erfordert vielfältige Lösungen.",
+            "Nur Zuwanderung kann das Problem lösen.",
+            "Der Fachkräftemangel betrifft nur die IT-Branche."
+          ],
+          "correctAnswer": "Der Fachkräftemangel hat mehrere Ursachen und erfordert vielfältige Lösungen.",
+          "explanation": "Der Text nennt mehrere Ursachen (Demografie, Zuwanderung, Bürokratie) und mehrere Lösungsansätze (Flexibilisierung, Anerkennung, Digitalisierung)."
+        },
+        {
+          "id": "q_01_06_b",
+          "type": "true_false",
+          "questionText": "Laut dem Text ist die Babyboomer-Generation für den Fachkräftemangel nicht verantwortlich.",
+          "correctAnswer": "false",
+          "explanation": "Der Text sagt explizit: 'Die Babyboomer-Generation geht in Rente, und es gibt weniger junge Menschen, die nachrücken' – das ist eine der Ursachen."
+        },
+        {
+          "id": "q_01_06_c",
+          "type": "multiple_choice",
+          "questionText": "Wie viele Stellen sind laut Bundesagentur für Arbeit derzeit unbesetzt?",
+          "options": [
+            "Rund 170.000",
+            "Rund 1,7 Millionen",
+            "Rund 400.000",
+            "Rund 15 Millionen"
+          ],
+          "correctAnswer": "Rund 1,7 Millionen",
+          "explanation": "Der Text sagt klar: 'Nach Schätzungen der Bundesagentur für Arbeit sind derzeit rund 1,7 Millionen Stellen unbesetzt.'"
+        },
+        {
+          "id": "q_01_06_d",
+          "type": "fill_blank",
+          "questionText": "Das neue Gesetz zur Erleichterung der Fachkräftezuwanderung heißt ___.",
+          "correctAnswer": "Fachkräfte-Einwanderungsgesetz",
+          "explanation": "Der Text erwähnt das 'Fachkräfte-Einwanderungsgesetz', das die Zuwanderung von qualifizierten Arbeitskräften aus Nicht-EU-Ländern erleichtern soll."
+        },
+        {
+          "id": "q_01_06_e",
+          "type": "multiple_choice",
+          "questionText": "Was sieht Prof. Herbert Becker als langfristige Lösung?",
+          "options": [
+            "Nur mehr Zuwanderung",
+            "Abschaffung aller Gesetze",
+            "Steigerung der Produktivität durch Digitalisierung und bessere Bildung",
+            "Weniger Menschen in den Arbeitsmarkt integrieren"
+          ],
+          "correctAnswer": "Steigerung der Produktivität durch Digitalisierung und bessere Bildung",
+          "explanation": "Der Text zitiert Becker: 'Wir müssen auch effizienter werden' durch Digitalisierung, Automatisierung oder bessere Bildung."
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "der Fachkräftemangel", "english": "skilled labor shortage", "turkish": "nitelikli işgücü eksikliği", "pos": "noun"},
+        {"german": "die demografische Entwicklung", "english": "demographic change", "turkish": "demografik gelişme", "pos": "noun"},
+        {"german": "die Zuwanderung", "english": "immigration", "turkish": "göç / iltica", "pos": "noun"},
+        {"german": "die Anerkennung", "english": "recognition / recognition of qualifications", "turkish": "tanıma / denklik", "pos": "noun"},
+        {"german": "die Bürokratie", "english": "bureaucracy", "turkish": "bürokrasi", "pos": "noun"},
+        {"german": "die Produktivität", "english": "productivity", "turkish": "verimlilik", "pos": "noun"},
+        {"german": "die Digitalisierung", "english": "digitalization", "turkish": "dijitalleştirme", "pos": "noun"},
+        {"german": "die Automatisierung", "english": "automation", "turkish": "otomasyon", "pos": "noun"}
+      ],
+      "examTip": "Zahlen merken! In B2-Prüfungen werden oft konkrete Zahlenangaben abgefragt. Notiere: 1,7 Mio. Stellen unbesetzt, 400.000 Zuwanderer/Jahr, 1,5 Mio. erwerbslose Frauen."
+    },
+    {
+      "id": "b2_r_01_07",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Betriebsklima: Warum gute Stimmung produktiv macht",
+      "source": "Wirtschaftswoche",
+      "sourceUrl": "https://www.wirtschaftswoche.de/karriere/betriebsklima",
+      "wordCount": 295,
+      "readingTimeMinutes": 4,
+      "difficulty": "B2",
+      "tags": ["Betriebsklima", "Führung", "Produktivität"],
+      "content": "Kaum etwas beeinflusst die Arbeit so sehr wie das Klima im Team. Wer sich an seinem Arbeitsplatz wohlfühlt, ist motivierter, gesünder und oft auch produktiver. Das zeigt eine Vielzahl von Studien. Doch was genau macht ein gutes Betriebsklima aus?\n\nFührungskultur spielt eine entscheidende Rolle. Mitarbeiter, die von ihren Vorgesetzten Fairness, Respekt und Wertschätzung erfahren, identifizieren sich stärker mit ihrem Unternehmen. Umgekehrt kann ein schlechtes Verhältnis zum Chef zu Stress, Krankmeldungen und Fluktuation führen.\n\nKommunikation ist ein weiterer Schlüsselfaktor. In Teams, in denen offen über Probleme gesprochen werden kann, ohne dass jemand negative Konsequenzen befürchten muss, werden Konflikte frühzeitig gelöst. Die Devise lautet: Keine Information zurückhalten, keine Gerüchte entstehen lassen.\n\nAuch die räumliche Gestaltung des Arbeitsplatzes beeinflusst das Wohlbefinden. Großraumbüros sind zwar platzsparend, können aber auch zu Ablenkung und Lärm führen. Studien zeigen, dass Mitarbeiter in Einzelbüros oder kleinen Gruppen oft konzentrierter arbeiten.\n\nRegelmäßige Teamevents – ob ein gemeinsames Frühstück oder ein Firmenausflug – stärken den Zusammenhalt. Wichtig ist jedoch, dass solche Events freiwillig sind und nicht als Pflichtveranstaltung wahrgenommen werden.\n\nSchließlich lohnt es sich für Unternehmen, in die Gesundheit ihrer Mitarbeiter zu investieren. Obstkörbe, Massageangebote oder Zuschüsse zum Fitnessstudio sind kleine Maßnahmen, die aber große Wirkung zeigen können.",
+      "questions": [
+        {
+          "id": "q_01_07_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Gutes Betriebsklima ist nur für große Unternehmen wichtig.",
+            "Ein gutes Betriebsklima wirkt sich positiv auf Gesundheit und Produktivität aus.",
+            "Firmenausflüge sind die wichtigste Maßnahme für gutes Betriebsklima.",
+            "Großraumbüros sind immer die beste Lösung."
+          ],
+          "correctAnswer": "Ein gutes Betriebsklima wirkt sich positiv auf Gesundheit und Produktivität aus.",
+          "explanation": "Der Text zeigt durchgehend, wie gutes Betriebsklima (Führung, Kommunikation, Gestaltung, Gesundheit) zu mehr Motivation, Gesundheit und Produktivität führt."
+        },
+        {
+          "id": "q_01_07_b",
+          "type": "true_false",
+          "questionText": "Großraumbüros führen laut dem Text immer zu besserer Konzentration.",
+          "correctAnswer": "false",
+          "explanation": "Das Gegenteil ist der Fall: 'Studien zeigen, dass Mitarbeiter in Einzelbüros oder kleinen Gruppen oft konzentrierter arbeiten.' Großraumbüros werden als potenzielles Problem dargestellt."
+        },
+        {
+          "id": "q_01_07_c",
+          "type": "multiple_choice",
+          "questionText": "Welche Rolle spielt die Führungskultur laut dem Text?",
+          "options": [
+            "Sie ist unwichtig.",
+            "Sie ist entscheidend für das Betriebsklima.",
+            "Sie betrifft nur die Geschäftsführung.",
+            "Sie hat nur finanzielle Auswirkungen."
+          ],
+          "correctAnswer": "Sie ist entscheidend für das Betriebsklima.",
+          "explanation": "Der Text stellt klar: 'Führungskultur spielt eine entscheidende Rolle' – und erläutert, dass Fairness, Respekt und Wertschätzung vom Chef das Unternehmen stärken."
+        },
+        {
+          "id": "q_01_07_d",
+          "type": "fill_blank",
+          "questionText": "In Teams, in denen offen über Probleme gesprochen werden kann, ohne negative Konsequenzen zu befürchten, werden Konflikte ___ gelöst.",
+          "correctAnswer": "frühzeitig",
+          "explanation": "Der Text sagt: 'Konflikte frühzeitig gelöst' wenn offen kommuniziert werden kann."
+        },
+        {
+          "id": "q_01_07_e",
+          "type": "multiple_choice",
+          "questionText": "Was sollte bei Teamevents laut dem Text beachtet werden?",
+          "options": [
+            "Sie sollten Pflicht für alle sein.",
+            "Sie sollten freiwillig sein.",
+            "Sie sollten nur im Büro stattfinden.",
+            "Sie sollten monatlich stattfinden."
+          ],
+          "correctAnswer": "Sie sollten freiwillig sein.",
+          "explanation": "Der Text betont: 'Wichtig ist jedoch, dass solche Events freiwillig sind und nicht als Pflichtveranstaltung wahrgenommen werden.'"
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "das Betriebsklima", "english": "workplace atmosphere", "turkish": "işyeri atmosferi", "pos": "noun"},
+        {"german": "die Führungskultur", "english": "leadership culture", "turkish": "liderlik kültürü", "pos": "noun"},
+        {"german": "die Wertschätzung", "english": "appreciation", "turkish": "takdir / değer verme", "pos": "noun"},
+        {"german": "die Kommunikation", "english": "communication", "turkish": "iletişim", "pos": "noun"},
+        {"german": "das Einzelbüro", "english": "single office", "turkish": "tek kişilik ofis", "pos": "noun"},
+        {"german": "der Großraumbüro", "english": "open-plan office", "turkish": "açık ofis", "pos": "noun"},
+        {"german": "das Teamevent", "english": "team event", "turkish": "takım etkinliği", "pos": "noun"},
+        {"german": "die Fluktuation", "english": "turnover rate", "turkish": "işgücü devri", "pos": "noun"}
+      ],
+      "examTip": "Achte bei solchen Texten auf die Kausalitäten (Ursache-Wirkung). Oft wird gefragt: 'Was passiert, wenn...?' oder 'Welche Auswirkung hat...?'"
+    },
+    {
+      "id": "b2_r_01_08",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Kündigung: Rechte und Pflichten",
+      "source": "Verbraucherzentrale",
+      "sourceUrl": "https://www.verbraucherzentrale.de/arbeitsrecht-kuendigung",
+      "wordCount": 310,
+      "readingTimeMinutes": 4,
+      "difficulty": "B2",
+      "tags": ["Kündigung", "Arbeitsrecht", "Kündigungsschutz"],
+      "content": "Eine Kündigung ist für die meisten Arbeitnehmer ein einschneidendes Ereignis. Umso wichtiger ist es, seine Rechte zu kennen. Grundsätzlich muss jede Kündigung schriftlich erfolgen – eine mündliche Kündigung ist nicht wirksam. Auch per E-Mail oder SMS ist eine Kündigung ungültig.\n\nZunächst ist entscheidend, ob das Arbeitsverhältnis unter das Kündigungsschutzgesetz fällt. Dieses Gesetz gilt für Betriebe mit mehr als zehn Mitarbeitern und schützt Arbeitnehmer vor willkürlichen Kündigungen. In kleineren Betrieben gibt es diesen Schutz nicht in vollem Umfang.\n\nEs gibt drei Arten der ordentlichen Kündigung: Die betriebsbedingte Kündigung – zum Beispiel bei wirtschaftlichen Schwierigkeiten des Unternehmens. Die verhaltensbedingte Kündigung – zum Beispiel bei wiederholten Pflichtverletzungen. Und die personenbedingte Kündigung – zum Beispiel bei längerer Krankheit.\n\nDer Arbeitgeber muss immer eine Kündigungsfrist einhalten. Diese beträgt mindestens vier Wochen und richtet sich nach der Betriebszugehörigkeit: Je länger jemand im Betrieb arbeitet, desto länger ist die Frist. Bei einer Betriebszugehörigkeit von zehn Jahren beträgt die Frist beispielsweise mindestens drei Monate.\n\nNach einer Kündigung haben Arbeitnehmer Anspruch auf ein Arbeitszeugnis. Dieses sollte fair und wohlwollend formuliert sein. Wer mit seinem Zeugnis nicht zufrieden ist, kann bei Gericht einen Antrag auf Erteilung eines besseren Zeugnisses stellen.\n\nWichtig: Innerhalb von drei Wochen nach Zugang der Kündigung muss Kündigungsschutzklage erhoben werden, wenn man sich gegen die Kündigung wehren möchte. Versäumt man diese Frist, wird die Kündigung automatisch wirksam.",
+      "questions": [
+        {
+          "id": "q_01_08_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Eine Kündigung kann nur mündlich erfolgen.",
+            "Arbeitnehmer sollten ihre Rechte bei einer Kündigung kennen.",
+            "Das Kündigungsschutzgesetz gilt für alle Betriebe.",
+            "Eine Kündigung per SMS ist gültig."
+          ],
+          "correctAnswer": "Arbeitnehmer sollten ihre Rechte bei einer Kündigung kennen.",
+          "explanation": "Der Text informiert umfassend über Rechte bei Kündigungen: Schriftform, Kündigungsarten, -fristen, Zeugnisanspruch und die Drei-Wochen-Frist für Klage."
+        },
+        {
+          "id": "q_01_08_b",
+          "type": "true_false",
+          "questionText": "Eine Kündigung per E-Mail ist gültig.",
+          "correctAnswer": "false",
+          "explanation": "Der Text betont: 'Eine mündliche Kündigung ist nicht wirksam. Auch per E-Mail oder SMS ist eine Kündigung ungültig.'"
+        },
+        {
+          "id": "q_01_08_c",
+          "type": "multiple_choice",
+          "questionText": "Ab welcher Betriebsgröße gilt das Kündigungsschutzgesetz?",
+          "options": [
+            "Ab fünf Mitarbeitern",
+            "Ab zehn Mitarbeitern",
+            "Ab 50 Mitarbeitern",
+            "Ab 100 Mitarbeitern"
+          ],
+          "correctAnswer": "Ab zehn Mitarbeitern",
+          "explanation": "Der Text sagt: 'Dieses Gesetz gilt für Betriebe mit mehr als zehn Mitarbeitern.'"
+        },
+        {
+          "id": "q_01_08_d",
+          "type": "fill_blank",
+          "questionText": "Nach Zugang der Kündigung hat man ___ Wochen Zeit, Kündigungsschutzklage zu erheben.",
+          "correctAnswer": "drei",
+          "explanation": "Der Text sagt klar: 'Innerhalb von drei Wochen nach Zugang der Kündigung muss Kündigungsschutzklage erhoben werden.'"
+        },
+        {
+          "id": "q_01_08_e",
+          "type": "multiple_choice",
+          "questionText": "Wie viele Arten der ordentlichen Kündigung gibt es laut dem Text?",
+          "options": [
+            "Eine Art",
+            "Zwei Arten",
+            "Drei Arten",
+            "Vier Arten"
+          ],
+          "correctAnswer": "Drei Arten",
+          "explanation": "Der Text nennt drei Arten: betriebsbedingt, verhaltensbedingt und personenbedingt."
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "die Kündigung", "english": "dismissal / termination", "turkish": "işten çıkarma / fesih", "pos": "noun"},
+        {"german": "das Kündigungsschutzgesetz", "english": "German Dismissal Protection Act", "turkish": "İş Koruma Kanunu", "pos": "noun"},
+        {"german": "die Kündigungsfrist", "english": "notice period", "turkish": "bildirim süresi", "pos": "noun"},
+        {"german": "das Arbeitszeugnis", "english": "job reference / certificate of employment", "turkish": "iş referansı / iş belgesi", "pos": "noun"},
+        {"german": "die Klage erheben", "english": "to file a lawsuit", "turkish": "dava açmak", "pos": "verb"},
+        {"german": "die Betriebszugehörigkeit", "english": "length of service", "turkish": "iş yerindeki çalışma süresi", "pos": "noun"},
+        {"german": "die Pflichtverletzung", "english": "breach of duty", "turkish": "görev ihlali", "pos": "noun"},
+        {"german": "der Anspruch", "english": "claim / entitlement", "turkish": "hak / talep", "pos": "noun"}
+      ],
+      "examTip": "Merke: Drei-Wochen-Frist ist ein Lieblingsthema bei B2! Wichtige Vokabeln: 'schriftlich', 'Kündigungsschutzklage', 'Zeugnis' – diese kommen im Alltag und Exam immer wieder!"
+    },
+    {
+      "id": "b2_r_01_09",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Einstiegsgehälter: Wo verdienen Berufseinsteiger am besten?",
+      "source": "Karriere.de",
+      "sourceUrl": "https://www.karriere.de/gehalt-berufseinsteiger",
+      "wordCount": 285,
+      "readingTimeMinutes": 4,
+      "difficulty": "B2",
+      "tags": ["Gehalt", "Karriere", "Berufseinsteiger"],
+      "content": "Wo starten junge Akademiker nach dem Studium am besten ins Berufsleben? Eine Analyse der Jobplattform StepStone zeigt große regionale und branchenspezifische Unterschiede bei den Einstiegsgehältern.\n\nAn der Spitze liegen wie erwartet die großen Tech-Unternehmen und Beratungsgesellschaften. Bei Unternehmen wie Google, McKinsey oder den großen Wirtschaftsprüfern beginnen Berufseinsteiger häufig mit Gehältern von 60.000 Euro aufwärts pro Jahr. Auch in der Automobilindustrie, besonders bei den Herstellern von Elektroautos, werden hohe Einstiegsgehälter gezahlt.\n\nDeutlich geringer fallen die Einstiegsgehälter im öffentlichen Dienst, in der Sozialarbeit oder im Bildungsbereich aus. Hier liegen die Gehälter für Berufseinsteiger oft zwischen 35.000 und 45.000 Euro. Das ist kein Zeichen mangelnder Qualifikation, sondern spiegelt die unterschiedliche finanzielle Leistungsfähigkeit der Branchen wider.\n\nRegional ist der Süden Deutschlands am attraktivsten. Bayern und Baden-Württemberg bieten im Durchschnitt zehn bis fünfzehn Prozent höhere Gehälter als der Norden oder die neuen Bundesländer. München führt dabei die Rangliste der bestbezahlten Städte an, dicht gefolgt von Frankfurt am Main und Stuttgart.\n\nDoch Gehalt ist nicht alles. Viele Berufseinsteiger entscheiden sich bewusst für niedrigere Gehälter, wenn der Arbeitgeber andere Vorteile bietet – zum Beispiel flexible Arbeitszeiten, Homeoffice-Möglichkeiten, betriebliche Altersvorsorge oder ein interessantes Aufgabengebiet. Laut einer Umfrage von StepStone legen besonders jüngere Arbeitnehmer Wert auf Work-Life-Balance.\n\nFür Berufseinsteiger empfiehlt sich daher ein ganzheitlicher Blick: Nicht nur das Gehalt zählt, sondern auch die Karrierechancen, die Arbeitsatmosphäre und die eigenen Prioritäten im Leben.",
+      "questions": [
+        {
+          "id": "q_01_09_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Alle Berufseinsteiger verdienen gleich viel.",
+            "Einstiegsgehälter variieren stark je nach Branche und Region.",
+            "Der öffentliche Dienst zahlt am besten.",
+            "Tech-Unternehmen zahlen am schlechtesten."
+          ],
+          "correctAnswer": "Einstiegsgehälter variieren stark je nach Branche und Region.",
+          "explanation": "Der Text zeigt durchgehend regionale (Süden vs. Norden) und branchenspezifische Unterschiede (Tech vs. Sozialarbeit)."
+        },
+        {
+          "id": "q_01_09_b",
+          "type": "true_false",
+          "questionText": "Im öffentlichen Dienst verdienen Berufseinsteiger laut StepStone mehr als bei Tech-Unternehmen.",
+          "correctAnswer": "false",
+          "explanation": "Der Text stellt klar: 'Deutlich geringer fallen die Einstiegsgehälter im öffentlichen Dienst...' – zwischen 35.000 und 45.000 Euro, während Tech bei 60.000+ liegt."
+        },
+        {
+          "id": "q_01_09_c",
+          "type": "multiple_choice",
+          "questionText": "Welche Stadt führt laut dem Text die Rangliste der bestbezahlten Städte an?",
+          "options": [
+            "Frankfurt am Main",
+            "Stuttgart",
+            "München",
+            "Hamburg"
+          ],
+          "correctAnswer": "München",
+          "explanation": "Der Text sagt: 'München führt dabei die Rangliste der bestbezahlten Städte an, dicht gefolgt von Frankfurt am Main und Stuttgart.'"
+        },
+        {
+          "id": "q_01_09_d",
+          "type": "fill_blank",
+          "questionText": "Viele junge Arbeitnehmer legen laut einer StepStone-Umfrage großen Wert auf ___.",
+          "correctAnswer": "Work-Life-Balance",
+          "explanation": "Der Text erwähnt: 'laut einer Umfrage von StepStone legen besonders jüngere Arbeitnehmer Wert auf Work-Life-Balance.'"
+        },
+        {
+          "id": "q_01_09_e",
+          "type": "multiple_choice",
+          "questionText": "Was wird Berufseinsteigern laut dem Text empfohlen?",
+          "options": [
+            "Nur aufs Gehalt zu schauen.",
+            "Nur in München zu arbeiten.",
+            "Einen ganzheitlichen Blick zu haben, der über das Gehalt hinausgeht.",
+            "Immer den öffentlichen Dienst zu wählen."
+          ],
+          "correctAnswer": "Einen ganzheitlichen Blick zu haben, der über das Gehalt hinausgeht.",
+          "explanation": "Der Text schließt mit: 'Für Berufseinsteiger empfiehlt sich daher ein ganzheitlicher Blick: Nicht nur das Gehalt zählt...'"
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "das Einstiegsgehalt", "english": "starting salary", "turkish": "giriş seviyesi maaş", "pos": "noun"},
+        {"german": "die Region", "english": "region", "turkish": "bölge", "pos": "noun"},
+        {"german": "die Branche", "english": "industry / sector", "turkish": "sektör", "pos": "noun"},
+        {"german": "die Beratungsgesellschaft", "english": "consulting firm", "turkish": "danışmanlık şirketi", "pos": "noun"},
+        {"german": "der öffentliche Dienst", "english": "public service", "turkish": "kamu hizmeti", "pos": "noun"},
+        {"german": "die Work-Life-Balance", "english": "work-life balance", "turkish": "iş-yaşam dengesi", "pos": "noun"},
+        {"german": "die Karrierechance", "english": "career opportunity", "turkish": "kariyer fırsatı", "pos": "noun"},
+        {"german": "die Altersvorsorge", "english": "pension / retirement plan", "turkish": "emeklilik planı", "pos": "noun"}
+      ],
+      "examTip": "Zahlenbeispiele aus dem Text: Tech = 60.000+ €, öffentlicher Dienst = 35.000–45.000 €, München am besten. Regionsunterschied 10–15%!"
+    },
+    {
+      "id": "b2_r_01_10",
+      "topicId": "b2_reading_01",
+      "level": "B2",
+      "title": "Sprache im Beruf: Deutsch oder Englisch?",
+      "source": "Deutschlandfunk",
+      "sourceUrl": "https://www.deutschlandfunk.de/sprache-beruf",
+      "wordCount": 320,
+      "readingTimeMinutes": 5,
+      "difficulty": "B2",
+      "tags": ["Sprache", "Beruf", "Internationalisierung"],
+      "content": "In der internationalen Wirtschaftswelt ist Englisch längst zur lingua franca geworden. Viele deutsche Unternehmen, insbesondere solche mit Auslandsgeschäft, veröffentlichen Stellenanzeigen auf Englisch und kommunizieren im Alltag auf Englisch. Doch wie wichtig sind Deutschkenntnisse in der deutschen Wirtschaft noch?\n\nEine Studie des Goethe-Instituts hat untersucht, welche Sprachkenntnisse in deutschen Unternehmen tatsächlich verlangt werden. Das Ergebnis überrascht: Obwohl Englisch in vielen Firmen dominant ist, bewerten 78 Prozent der befragten Unternehmen Deutschkenntnisse als „sehr wichtig\" oder „wichtig\" – selbst in international tätigen Konzernen.\n\nDafür gibt es mehrere Gründe. Zum einen ist die deutsche Sprache im eigenen Land nach wie vor die wichtigste Arbeitssprache: Gespräche mit Kollegen, E-Mails an deutsche Kunden oder die Lektüre technischer Dokumentationen erfordern fast immer Deutsch. Zum anderen binden deutsche Sprachkenntnisse Mitarbeiter stärker an das Unternehmen, da sie die Kommunikation im Inland erleichtern.\n\nBesonders in Handwerksberufen, im Gesundheitswesen und in der Verwaltung ist Deutsch unverzichtbar. Hier geht es oft um Sicherheitsvorschriften, Gesetze oder die Kommunikation mit Kunden, die kein Englisch sprechen.\n\nAnders sieht es in reinen Tech-Start-ups aus, die von Anfang an international ausgerichtet sind. Hier reicht oft Englisch als Arbeitssprache. Allerdings berichten auch hier Mitarbeiter, die sich manchmal wünschen, bessere Deutschkenntnisse zu haben – besonders im Alltag außerhalb der Arbeit.\n\nFür Arbeitnehmer empfiehlt die Sprachwissenschaftlerin Dr. Sabine Müller: „Englisch ist ein Muss, Deutsch ist ein Plus.\" Wer beide Sprachen beherrscht, hat die größten Chancen auf dem Arbeitsmarkt – nicht nur in Deutschland, sondern international.",
+      "questions": [
+        {
+          "id": "q_01_10_a",
+          "type": "multiple_choice",
+          "questionText": "Was ist die Hauptaussage des Textes?",
+          "options": [
+            "Englisch ist in deutschen Unternehmen völlig überflüssig.",
+            "Sowohl Englisch als auch Deutsch sind im Beruf wichtig.",
+            "Nur Deutsch ist in Deutschland wichtig.",
+            "Sprachkenntnisse spielen keine Rolle mehr."
+          ],
+          "correctAnswer": "Sowohl Englisch als auch Deutsch sind im Beruf wichtig.",
+          "explanation": "Die Studie zeigt: 78% bewerten Deutsch als wichtig, aber Englisch als lingua franca. Müller fasst zusammen: 'Englisch ist ein Muss, Deutsch ist ein Plus.'"
+        },
+        {
+          "id": "q_01_10_b",
+          "type": "true_false",
+          "questionText": "Laut der Studie bewerten nur wenige Unternehmen Deutschkenntnisse als wichtig.",
+          "correctAnswer": "false",
+          "explanation": "Das Gegenteil ist der Fall: '78 Prozent der befragten Unternehmen bewerten Deutschkenntnisse als „sehr wichtig\" oder „wichtig\".'"
+        },
+        {
+          "id": "q_01_10_c",
+          "type": "multiple_choice",
+          "questionText": "In welchen Bereichen ist Deutsch laut dem Text UNVERZICHTBAR?",
+          "options": [
+            "Nur in Tech-Start-ups",
+            "Im Handwerk, Gesundheitswesen und Verwaltung",
+            "Nur in internationalen Konzernen",
+            "In keinem Bereich"
+          ],
+          "correctAnswer": "Im Handwerk, Gesundheitswesen und Verwaltung",
+          "explanation": "Der Text sagt: 'Besonders in Handwerksberufen, im Gesundheitswesen und in der Verwaltung ist Deutsch unverzichtbar.'"
+        },
+        {
+          "id": "q_01_10_d",
+          "type": "fill_blank",
+          "questionText": "Dr. Sabine Müller fasst zusammen: 'Englisch ist ein ___, Deutsch ist ein Plus.'",
+          "correctAnswer": "Muss",
+          "explanation": "Direktes Zitat aus dem Text: '„Englisch ist ein Muss, Deutsch ist ein Plus.\"'"
+        },
+        {
+          "id": "q_01_10_e",
+          "type": "multiple_choice",
+          "questionText": "Warum binden Deutschkenntnisse Mitarbeiter stärker an das Unternehmen?",
+          "options": [
+            "Weil sie teurer sind.",
+            "Weil sie die Kommunikation im Inland erleichtern.",
+            "Weil sie Pflicht sind.",
+            "Weil sie in allen Ländern anerkannt werden."
+          ],
+          "correctAnswer": "Weil sie die Kommunikation im Inland erleichtern.",
+          "explanation": "Der Text sagt: 'Zum anderen binden deutsche Sprachkenntnisse Mitarbeiter stärker an das Unternehmen, da sie die Kommunikation im Inland erleichtern.'"
+        }
+      ],
+      "keyVocabulary": [
+        {"german": "die lingua franca", "english": "common language", "turkish": "ortak dil", "pos": "noun"},
+        {"german": "die Sprachkenntnisse", "english": "language skills", "turkish": "dil bilgisi / dil yetkinliği", "pos": "noun"},
+        {"german": "die Arbeitssprache", "english": "working language", "turkish": "çalışma dili", "pos": "noun"},
+        {"german": "die Dokumentation", "english": "documentation", "turkish": "dokümantasyon", "pos": "noun"},
+        {"german": "das Handwerk", "english": "craft / trade", "turkish": "zanaat / el sanatları", "pos": "noun"},
+        {"german": "das Gesundheitswesen", "english": "healthcare sector", "turkish": "sağlık sektörü", "pos": "noun"},
+        {"german": "die Verwaltung", "english": "administration", "turkish": "idare / yönetim", "pos": "noun"},
+        {"german": "die Kommunikation", "english": "communication", "turkish": "iletişim", "pos": "noun"}
+      ],
+      "examTip": "Wichtige Struktur: Studie mit Prozentangabe (78%), dann Erklärung in mehreren Gründen, dann Expertenmeinung. Diese Struktur ist typisch für B2-Lesetexte!"
+    }
+  ]
+}
