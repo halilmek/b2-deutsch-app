@@ -162,6 +162,37 @@ class FirebaseDataSource @Inject constructor(
         }
     }
 
+    // ============ QUIZ QUESTIONS FROM QUIZBANK ============
+    suspend fun getQuestionsByTheme(themeId: String): Result<List<Question>> {
+        return try {
+            val snapshot = firestore.collection("quizBank")
+                .whereEqualTo("themeId", themeId)
+                .get()
+                .await()
+            val questions = snapshot.documents.mapNotNull { doc ->
+                doc.toObject(Question::class.java)
+            }
+            Result.success(questions)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
+
+    suspend fun getQuestionsByReading(readingId: String): Result<List<Question>> {
+        return try {
+            val snapshot = firestore.collection("readings")
+                .document(readingId)
+                .collection("questions")
+                .get()
+                .await()
+            val questions = snapshot.toObjects(Question::class.java)
+            Result.success(questions)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
     // ============ VOCABULARY ============
     suspend fun getVocabularyByLevel(level: String): Result<List<VocabularyWord>> {
         return try {

@@ -26,6 +26,13 @@ class ContentRepository @Inject constructor(
     suspend fun getQuiz(quizId: String): Result<Quiz> =
         dataSource.getQuiz(quizId)
 
+    // ============ QUIZ QUESTIONS ============
+    suspend fun getQuestionsByTheme(themeId: String): Result<List<Question>> =
+        dataSource.getQuestionsByTheme(themeId)
+
+    suspend fun getQuestionsByReading(readingId: String): Result<List<Question>> =
+        dataSource.getQuestionsByReading(readingId)
+
     // ============ VOCABULARY ============
     suspend fun getVocabularyByLevel(level: String): Result<List<VocabularyWord>> =
         dataSource.getVocabularyByLevel(level)

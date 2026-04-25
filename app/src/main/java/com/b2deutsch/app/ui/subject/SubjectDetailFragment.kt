@@ -51,7 +51,7 @@ class SubjectDetailFragment : Fragment() {
             findNavController().navigateUp()
         }
 
-        // Start Quiz button - navigate to quiz
+        // Start Quiz button - navigate to quiz with subjectId
         binding.btnStartQuiz.setOnClickListener {
             val bundle = Bundle().apply {
                 putString("quizId", "${subjectId}_quiz_1")

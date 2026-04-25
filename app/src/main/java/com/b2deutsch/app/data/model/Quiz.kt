@@ -16,11 +16,17 @@ data class Quiz(
 
 data class Question(
     val id: String = "",
-    val type: String = "multiple_choice", // multiple_choice, true_false, fill_blank
+    val type: String = "multiple_choice", // multiple_choice, true_false, fill_blank, matching, ordering
     val questionText: String = "",
     val options: List<String> = emptyList(),
     val correctAnswer: String = "",
-    val explanation: String = ""
+    val explanation: String = "",
+    // For matching questions
+    val pairs: Map<String, String>? = null,
+    val matchingOptions: List<String>? = null,
+    // For ordering questions
+    val correctOrder: List<Int>? = null,
+    val orderItems: List<String>? = null
 )
 
 data class QuizResult(

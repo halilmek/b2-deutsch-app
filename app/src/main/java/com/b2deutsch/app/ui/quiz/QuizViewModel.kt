@@ -44,6 +44,10 @@ class QuizViewModel @Inject constructor(
     private var timeRemaining = 0
     private var quizStartTime = 0L
 
+    // Keep track of available questions for the current subject
+    private var availableQuestions = listOf<Question>()
+    private var currentQuizIndex = 0
+
     fun loadQuizzes(level: String = Constants.DEFAULT_LEVEL) {
         viewModelScope.launch {
             _isLoading.value = true
@@ -61,27 +65,98 @@ class QuizViewModel @Inject constructor(
     fun startQuiz(quizId: String) {
         viewModelScope.launch {
             _isLoading.value = true
-            contentRepository.getQuiz(quizId)
-                .onSuccess { quiz ->
-                    _currentQuiz.value = quiz
-                    _currentQuestionIndex.value = 0
-                    _selectedAnswers.value = mutableMapOf()
-                    _quizResult.value = null
-                    timeRemaining = quiz.timeLimit * 60
-                    quizStartTime = System.currentTimeMillis()
-                    updateCurrentQuestion()
-                }
-                .onFailure {
-                    // Try from cached list
-                    val quiz = _quizzes.value?.find { it.id == quizId }
-                    if (quiz != null) {
-                        _currentQuiz.value = quiz
-                        _currentQuestionIndex.value = 0
-                        updateCurrentQuestion()
+            _selectedAnswers.value = mutableMapOf()
+            _quizResult.value = null
+            
+            // Extract theme ID from quizId (format: b2_01_quiz_1 -> b2_01)
+            val themeId = quizId.replace("_quiz_${currentQuizIndex + 1}", "")
+            
+            // Load questions from Firestore for this theme
+            contentRepository.getQuestionsByTheme(themeId)
+                .onSuccess { questions ->
+                    if (questions.isNotEmpty()) {
+                        availableQuestions = questions.shuffled()
+                        createQuizFromQuestions(themeId)
+                    } else {
+                        // Fall back to sample if no questions in DB
+                        createSampleQuiz(themeId)
                     }
                 }
+                .onFailure {
+                    createSampleQuiz(themeId)
+                }
+            
             _isLoading.value = false
         }
+    }
+
+    private fun createQuizFromQuestions(themeId: String) {
+        // Take 5 questions for this quiz
+        val quizQuestions = if (availableQuestions.size >= 5) {
+            availableQuestions.take(5)
+        } else {
+            availableQuestions
+        }
+        
+        // Remove used questions so next quiz is different
+        if (availableQuestions.size >= 5) {
+            availableQuestions = availableQuestions.drop(5)
+        }
+        
+        val quiz = Quiz(
+            id = "${themeId}_quiz_${currentQuizIndex + 1}",
+            level = "B2",
+            category = Constants.Categories.GRAMMAR,
+            title = getSubjectTitle(themeId),
+            taskType = "grammar",
+            timeLimit = 10,
+            passingScore = 70,
+            questions = quizQuestions
+        )
+        
+        _currentQuiz.value = quiz
+        _currentQuestionIndex.value = 0
+        currentQuizIndex++
+        timeRemaining = quiz.timeLimit * 60
+        quizStartTime = System.currentTimeMillis()
+        updateCurrentQuestion()
+    }
+
+    private fun createSampleQuiz(themeId: String) {
+        val sampleQuizzes = getSampleQuizzes("B2")
+        val quiz = sampleQuizzes.firstOrNull() ?: sampleQuizzes.first()
+        _currentQuiz.value = quiz
+        _currentQuestionIndex.value = 0
+        updateCurrentQuestion()
+    }
+
+    private fun getSubjectTitle(themeId: String): String {
+        val titles = mapOf(
+            "b2_01" to "1. Konnektoren: als, bevor, bis, seitdem, während, wenn",
+            "b2_02" to "2. Konnektoren: sobald, solange",
+            "b2_03" to "3. Verben und Ergänzungen",
+            "b2_04" to "4. Zeitformen in der Vergangenheit",
+            "b2_05" to "5. Zeitformen der Zukunft",
+            "b2_06" to "6. Futur mit werden",
+            "b2_07" to "7. Angaben im Satz",
+            "b2_08" to "8. Verneinung mit nicht",
+            "b2_09" to "9. Negationswörter",
+            "b2_10" to "10. Passiv Präteritum",
+            "b2_11" to "11. Konjunktiv II der Vergangenheit",
+            "b2_12" to "12. Konjunktiv II mit Modalverben",
+            "b2_13" to "13. Pronomen: einander",
+            "b2_14" to "14. Weiterführende Nebensätze",
+            "b2_15" to "15. Präpositionen mit Genitiv",
+            "b2_16" to "16. je und desto/umso + Komparativ",
+            "b2_17" to "17. Nomen-Verb-Verbindungen",
+            "b2_18" to "18. Folgen ausdrücken",
+            "b2_19" to "19. Ausdrücke mit Präpositionen",
+            "b2_20" to "20. irreale Konditionalsätze",
+            "b2_21" to "21. Relativsätze im Genitiv",
+            "b2_22" to "22. Konjunktiv I in der indirekten Rede",
+            "b2_23" to "23. Konjunktiv II in irrealen Vergleichssätzen"
+        )
+        return titles[themeId] ?: "Quiz"
     }
 
     fun selectAnswer(questionIndex: Int, answer: String) {
@@ -146,10 +221,10 @@ class QuizViewModel @Inject constructor(
     private fun getSampleQuizzes(level: String): List<Quiz> {
         return listOf(
             Quiz(
-                id = "${level.lowercase()}_quiz_1",
+                id = "${level.lowercase()}_quiz_sample",
                 level = level,
                 category = Constants.Categories.GRAMMAR,
-                title = "Grammar Quiz",
+                title = "Sample Quiz",
                 taskType = "grammar",
                 timeLimit = 10,
                 passingScore = 70,

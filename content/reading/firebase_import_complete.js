@@ -4,9 +4,8 @@
  * Imports all themes, readings, and questions to Firestore
  * 
  * Usage:
- *   1. Download service account key from Firebase Console
- *   2. Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
- *   3. Run: node firebase_import_complete.js --all
+ *   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
+ *   node firebase_import_complete.js --all
  */
 
 const admin = require('firebase-admin');
@@ -27,14 +26,13 @@ if (!credPath) {
     console.error('3. Go to Project Settings → Service Accounts');
     console.error('4. Click "Generate new private key"');
     console.error('5. Save the JSON file somewhere safe');
-    console.error('6. Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your-key.json');
+    console.error('6. Run: export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json');
     console.error('7. Run this script again: node firebase_import_complete.js --all');
     process.exit(1);
 }
 
 if (!fs.existsSync(credPath)) {
     console.error(`❌ Error: Service account key not found at: ${credPath}`);
-    console.error('Please check the path to your key file.');
     process.exit(1);
 }
 
@@ -100,32 +98,33 @@ async function importReadings(data) {
 }
 
 async function importQuestions(data) {
-    console.log('📥 Importing questions...');
+    console.log('📥 Importing questions to quizBank...');
     let count = 0;
+    const batchSize = 100;
     
-    // Group questions by readingId
-    const questionsByReading = {};
+    // First, organize questions by themeId
+    const questionsByTheme = {};
     for (const question of data.questions) {
-        const readingId = question.id.replace(/_q\d+$/, '');
-        if (!questionsByReading[readingId]) {
-            questionsByReading[readingId] = [];
+        // Extract themeId from question id (e.g., "b2_beruf_q1" -> themeId like "b2_beruf")
+        const parts = question.id.split('_q')[0];
+        const themeId = parts || question.themeId || 'unknown';
+        
+        if (!questionsByTheme[themeId]) {
+            questionsByTheme[themeId] = [];
         }
-        questionsByReading[readingId].push(question);
+        questionsByTheme[themeId].push({...question, themeId});
     }
     
-    // Import questions to subcollection of each reading
-    for (const [readingId, questions] of Object.entries(questionsByReading)) {
+    // Import all questions to quizBank with themeId
+    for (let i = 0; i < data.questions.length; i += batchSize) {
         const batch = db.batch();
+        const batchQuestions = data.questions.slice(i, i + batchSize);
         
-        for (const question of questions) {
-            const qId = question.id.replace(`${readingId}_`, '');
-            const ref = db.collection('readings')
-                .doc(readingId)
-                .collection('questions')
-                .doc(qId);
-            
+        for (const question of batchQuestions) {
+            const ref = db.collection('quizBank').doc(question.id);
             batch.set(ref, {
                 id: question.id,
+                themeId: question.themeId || 'unknown',
                 type: question.type,
                 questionText: question.questionText,
                 options: question.options || null,
@@ -139,21 +138,50 @@ async function importQuestions(data) {
         }
         
         await batch.commit();
+        if ((i + batchSize) % 500 === 0) {
+            console.log(`   Imported ${count}/${data.questions.length} questions...`);
+        }
     }
     
-    // Also import all questions to quizBank for easy access
-    const batch = db.batch();
-    for (const question of data.questions) {
-        const ref = db.collection('quizBank').doc(question.id);
-        batch.set(ref, {
-            ...question,
-            createdAt: admin.firestore.FieldValue.serverTimestamp()
-        });
+    console.log(`✅ Imported ${count} questions to quizBank`);
+    
+    // Also import to readings subcollections
+    console.log('📥 Importing questions to readings subcollections...');
+    count = 0;
+    
+    for (const reading of data.readings) {
+        const readingQuestions = data.questions.filter(q => 
+            q.id.includes(reading.id.replace('b2_', 'b2_'))
+        );
+        
+        if (readingQuestions.length > 0) {
+            const batch = db.batch();
+            
+            for (let i = 0; i < readingQuestions.length; i++) {
+                const question = readingQuestions[i];
+                const qId = question.id.split('_').pop();
+                const ref = db.collection('readings')
+                    .doc(reading.id)
+                    .collection('questions')
+                    .doc(qId);
+                
+                batch.set(ref, {
+                    id: question.id,
+                    type: question.type,
+                    questionText: question.questionText,
+                    options: question.options || null,
+                    correctAnswer: question.correctAnswer,
+                    explanation: question.explanation,
+                    createdAt: admin.firestore.FieldValue.serverTimestamp()
+                });
+                count++;
+            }
+            
+            await batch.commit();
+        }
     }
-    await batch.commit();
     
     console.log(`✅ Imported ${count} questions to reading subcollections`);
-    console.log(`✅ Imported ${data.questions.length} questions to quizBank`);
 }
 
 async function main() {
@@ -164,15 +192,12 @@ async function main() {
     console.log('=============================');
     console.log('');
     
-    // Look for the JSON file in the same directory as this script
     const jsonPath = path.join(scriptDir, 'b2_all_themes_complete.json');
     
     if (!fs.existsSync(jsonPath)) {
         console.error(`❌ Error: Content file not found at: ${jsonPath}`);
         console.error('');
         console.error('Make sure b2_all_themes_complete.json is in the content/reading folder.');
-        console.error('Pull the latest code from GitHub first:');
-        console.error('   git pull origin main');
         process.exit(1);
     }
     
@@ -202,6 +227,8 @@ async function main() {
         console.log('   /readings/{id}');
         console.log('   /readings/{id}/questions/{id}');
         console.log('   /quizBank/{id}');
+        console.log('');
+        console.log('💡 QuizBank has themeId field - can query by themeId!');
         
     } catch (error) {
         console.error('❌ Import failed:', error);
