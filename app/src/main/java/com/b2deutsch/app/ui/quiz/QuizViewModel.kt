@@ -21,6 +21,9 @@ class QuizViewModel @Inject constructor(
     private val userRepository: UserRepository
 ) : ViewModel() {
 
+    private val _quizzes = MutableLiveData<List<Quiz>>()
+    val quizzes: LiveData<List<Quiz>> = _quizzes
+
     private val _currentReading = MutableLiveData<ReadingPassage?>()
     val currentReading: LiveData<ReadingPassage?> = _currentReading
 
@@ -54,6 +57,21 @@ class QuizViewModel @Inject constructor(
         READING,    // Showing the text passage
         QUESTIONS,  // Answering questions about the text
         RESULT      // Quiz completed
+    }
+
+    // Load quizzes for a level (used by QuizzesFragment)
+    fun loadQuizzes(level: String = Constants.DEFAULT_LEVEL) {
+        viewModelScope.launch {
+            _isLoading.value = true
+            contentRepository.getQuizzesByLevel(level)
+                .onSuccess { quizList ->
+                    _quizzes.value = quizList
+                }
+                .onFailure {
+                    _quizzes.value = emptyList()
+                }
+            _isLoading.value = false
+        }
     }
 
     // Map grammar topic ID to theme ID
