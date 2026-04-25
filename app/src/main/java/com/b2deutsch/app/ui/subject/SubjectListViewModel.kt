@@ -82,249 +82,467 @@ class SubjectListViewModel @Inject constructor(
     }
 
     private fun getB2Subjects(): List<Subject> = listOf(
-        // GRAMMAR
+        // 1. Konnektoren: als, bevor, bis, seitdem, während, wenn
         Subject(
-            id = "b2_grammatik_01",
+            id = "b2_01",
             level = "B2",
-            name = "Grammatik: Konjunktiv II",
-            nameShort = "Konjunktiv II",
-            description = "Der Konjunktiv II wird verwendet, um hypothetische Situationen, Wünsche und Höflichkeitsformen auszudrücken. Er beschreibt unrealistische Bedingungen und träumende Wünsche.",
+            name = "1. Konnektoren: als, bevor, bis, seitdem, während, wenn",
+            nameShort = "Konnektoren I",
+            description = "Konnektoren sind Wörter, die Sätze oder Satzteile miteinander verbinden. In der B2-Prüfung werden sie häufig verwendet, um komplexe Texte zu verstehen und zu schreiben. Die Konnektoren 'als, bevor, bis, seitdem, während, wenn' beschreiben zeitliche Beziehungen zwischen Handlungen.\n\nBeispiele:\n• 'Als ich in Deutschland ankam, konnte ich kein Deutsch.' (zeitlicher Punkt)\n• 'Bevor ich zur Prüfung ging, habe ich viel geübt.' (vorherige Handlung)\n• 'Während ich in Berlin lebte, habe ich viele Freunde gefunden.' (gleichzeitige Handlung)",
             category = Constants.Categories.GRAMMAR,
-            iconEmoji = "📝",
+            iconEmoji = "🔗",
             order = 1,
-            quizCount = 3,
+            quizCount = 10,
             tips = listOf(
-                "Konjunktiv II = würde + Infinitiv (einfachste Form)",
-                "z.B.: Ich würde gerne reisen (hypothetisch)",
-                "Im Perfekt: würde + Partizip II von 'haben/sein'",
-                "Häufig mit 'wenn' verwendet: Wenn ich Zeit hätte..."
+                "ALS = einmalige Situation in der Vergangenheit",
+                "BEVOR = zuerst Handlung A, dann Handlung B",
+                "WÄHREND = zwei Handlungen geschehen gleichzeitig",
+                "WENN = wiederholte Situation oder Zukunft",
+                "BIS = bis zu einem Zeitpunkt oder Ergebnis",
+                "SEITDEM = seit einem vergangenen Zeitpunkt bis jetzt"
             )
         ),
+        // 2. Konnektoren: sobald, solange
         Subject(
-            id = "b2_grammatik_02",
+            id = "b2_02",
             level = "B2",
-            name = "Grammatik: Passiv",
-            nameShort = "Passiv",
-            description = "Das Passiv wird verwendet, wenn die Handlung wichtiger ist als der Handelnde. In der B2-Prüfung kommt oft das Zustandspassiv und das werden-Passiv vor.",
+            name = "2. Konnektoren: sobald, solange",
+            nameShort = "Konnektoren II",
+            description = "Die Konnektoren 'sobald' und 'solange' drücken zeitliche Beziehungen aus, die über einfache Konjunktionen hinausgehen. 'Sobald' bedeutet 'olur olmaz' und zeigt eine Unmittelbarkeit an, während 'solange' 'sürece' bedeutet und eine Bedingung für die Dauer einer Handlung beschreibt.\n\nBeispiele:\n• 'Sobald ich die Prüfung bestanden habe, werde ich feiern.' (unmittelbare Folge)\n• 'Solange du fleißig lernst, wirst du Erfolg haben.' (Bedingung für die Dauer)",
             category = Constants.Categories.GRAMMAR,
-            iconEmoji = "📝",
+            iconEmoji = "🔗",
             order = 2,
-            quizCount = 3,
+            quizCount = 10,
             tips = listOf(
-                "Vorgangspassiv: wird + Partizip II",
-                "Zustandspassiv: ist + Partizip II",
-                "'Man' + Aktiv = wird + Partizip II (Passiv)",
-                "Von-Wendung: von + Dativ (wer macht etwas)"
+                "SOBALD = sobald etwas passiert, passiert etwas anderes sofort",
+                "SOLANGE = während dieser Zeit / unter dieser Bedingung",
+                "SOBALD = oft mit Futur verwendet: Sobald ich..., werde ich...",
+                "SOLANGE = kann auch mit Konjunktiv II verwendet werden",
+                "Unterscheide: Solange (während) vs. Sobald ( sobald )"
             )
         ),
+        // 3. Verben und Ergänzungen
         Subject(
-            id = "b2_grammatik_03",
+            id = "b2_03",
             level = "B2",
-            name = "Grammatik: Nebensätze",
-            nameShort = "Nebensätze",
-            description = "Nebensätze sind abhängige Sätze, die mit Konjunktionen (dass, weil, obwohl, wenn) eingeleitet werden. Das Verb steht am Ende des Nebensatzes.",
+            name = "3. Verben und Ergänzungen",
+            nameShort = "Verben und Ergänzungen",
+            description = "In der B2-Prüfung ist es wichtig, die richtigen Verb-Ergänzungen zu kennen. Manche Verben brauchen den Akkusativ, andere den Dativ, und wieder andere beide. Einige Verben sind reflexiv oder erfordern eine Präposition.\n\nBeispiele:\n• 'Ich freue mich auf die Prüfung.' (reflexiv + Akkusativ)\n• 'Er arbeitet an einem Projekt.' (Dativ + Akkusativ)\n• 'Sie wartet auf ihren Freund.' (Akkusativ)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 3,
-            quizCount = 2,
+            quizCount = 10,
             tips = listOf(
-                "Weil/Sodass/Obwohl + Verb am Ende",
-                "dass + Subjekt + Verb",
-                "wenn + Verb am Ende (Bedingung)",
-                "Bevor/Nachdem + Partizip II oder hatte/war"
+                "Verben mit Dativ: helfen, danken, glauben, antworten",
+                "Verben mit Akkusativ: sehen, hören, finden, kennen",
+                "Wechselpräpositionen: an, auf, in, über, vor, zwischen...",
+                "Feste Präpositionen: denken an, warten auf, sprechen über",
+                "Reflexive Verben: sich freuen, sich kümmern, sich erinnern"
             )
         ),
+        // 4. Zeitformen in der Vergangenheit
         Subject(
-            id = "b2_grammatik_04",
+            id = "b2_04",
             level = "B2",
-            name = "Grammatik: Nominalisierung",
-            nameShort = "Nominalisierung",
-            description = "Nominalisierung bedeutet, Verben oder Adjektive in Nomen umzuwandeln. Das ist typisch für den gehobenen Schreibstil in B2-Prüfungen.",
+            name = "4. Zeitformen in der Vergangenheit",
+            nameShort = "Vergangenheit",
+            description = "In der deutschen Grammatik gibt es mehrere Formen, um die Vergangenheit auszudrücken: Präteritum, Perfekt und Plusquamperfekt. Für die B2-Prüfung ist es wichtig, diese korrekt zu verwenden und den Unterschied zu verstehen.\n\nBeispiele:\n• 'Ich habe gestern Deutsch gelernt.' (Perfekt - abgeschlossene Handlung)\n• 'Ich war schon fertig, als er kam.' (Plusquamperfekt + Präteritum)",
             category = Constants.Categories.GRAMMAR,
-            iconEmoji = "📝",
+            iconEmoji = "⏰",
             order = 4,
-            quizCount = 2,
+            quizCount = 10,
             tips = listOf(
-                "Verben → Nomen: entscheiden → die Entscheidung",
-                "Adj → Nomen: wichtig → die Wichtigkeit",
-                "Nominalisierung macht Texte formeller",
-                "Oft mit 'von' oder 'für': die Lösung des Problems"
+                "PERFEKT = haben/sein (Präsens) + Partizip II",
+                "PRÄTERITUM = wurde, war, hatte, konnte - häufig beiWritten verwendet",
+                "PLUSQUAMPERFEKT = hatte/war + Partizip II (vor einer anderen Vergangenheit)",
+                "Erzählungen: Präteritum für Hintergrund, Perfekt für Highlights",
+                "Konjunktionen: als, wenn, bevor - helfen beim Strukturieren"
             )
         ),
-
-        // READING - LESEVERSTEHEN
+        // 5. Zeitformen der Zukunft
         Subject(
-            id = "b2_reading_01",
+            id = "b2_05",
             level = "B2",
-            name = "Lesen: Beruf und Arbeitswelt",
-            nameShort = "Beruf",
-            description = "Texte über Bewerbungen, Arbeitsbedingungen, Karriereplanung und den deutschen Arbeitsmarkt. Diese Themen sind Teil des Goethe B2 Exams.",
-            category = Constants.Categories.READING,
-            iconEmoji = "💼",
+            name = "5. Zeitformen der Zukunft",
+            nameShort = "Zukunft",
+            description = "Für die Zukunft gibt es im Deutschen zwei Hauptmethoden: 'werden' + Infinitativ für Vorhersagen und Pläne, sowie Präsens mit Zeitangabe für geplante Handlungen. Die B2-Prüfung erwartet den korrekten Gebrauch beider Formen.\n\nBeispiele:\n• 'Ich werde morgen Deutsch lernen.' (Werden + Infinitiv)\n• 'Morgen lerne ich Deutsch.' (Präsens mit Zeitangabe)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "⏰",
+            order = 5,
+            quizCount = 10,
+            tips = listOf(
+                "WERDEN + Infinititiv = Vorhersage, Vermutung über Zukunft",
+                "Präsens + Zeitangabe = geplante, sichere Handlungen",
+                "Werden auch für Höflichkeit: würde + Infinititiv",
+                "Future Words: morgen, nächste Woche, bald, später",
+                "Im B2-Exam: meistens wird für Zukunft verwendet"
+            )
+        ),
+        // 6. Futur mit werden
+        Subject(
+            id = "b2_06",
+            level = "B2",
+            name = "6. Futur mit werden",
+            nameShort = "Futur mit werden",
+            description = "'Werden' ist das Hilfsverb für das deutsche Futur. Es wird sowohl für das Futur I als auch für das Futur II verwendet. 'Werden' kann auch für Vermutungen über die Gegenwart verwendet werden.\n\nBeispiele:\n• 'Es wird morgen regnen.' (Futur I - Vorhersage)\n• 'Du wirst die Prüfung bestanden haben.' (Futur II - Vermutung über Vergangenes)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "⏰",
+            order = 6,
+            quizCount = 10,
+            tips = listOf(
+                "Futur I: wird + Partizip II + werden",
+                "Futur II: wird + Partizip II + haben/sein + werden",
+                "Vermutungen über Gegenwart: wird + Infinititiv + haben",
+                "Futur II mit 'schon' = Vermutung dass etwas passiert ist",
+                "Im B2-Exam: 'werden' oft für Vorhersagen und Vermutungen"
+            )
+        ),
+        // 7. Angaben im Satz
+        Subject(
+            id = "b2_07",
+            level = "B2",
+            name = "7. Angaben im Satz",
+            nameShort = "Angaben im Satz",
+            description = "Angaben sind Satzglieder, die zusätzliche Informationen geben: Zeitangaben (wann?), Ortsangaben (wo?), Artangaben (wie?). Sie können an verschiedenen Positionen im Satz stehen, beeinflussen aber nicht die Verbposition.\n\nBeispiele:\n• 'Am Montag werde ich in Berlin einen Test schreiben.' (Zeit + Ort)\n• 'Wegen der Krankheit konnte ich nicht kommen.' (Kausal)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📍",
+            order = 7,
+            quizCount = 10,
+            tips = listOf(
+                "Position 1: oft Zeitangabe oder Verb (Frage)",
+                "Position 2: Subjekt oder Objekt",
+                "Position 3: andere Angaben (Ortsangabe, Artangabe)",
+                "Position 4: Temporalangabe am Satzende möglich",
+                "Wichtigste Angaben: temporal, lokal, kausal, modal, instrumental"
+            )
+        ),
+        // 8. Verneinung mit nicht
+        Subject(
+            id = "b2_08",
+            level = "B2",
+            name = "8. Verneinung mit nicht",
+            nameShort = "Nicht-Verneinung",
+            description = "Die Verneinung mit 'nicht' kann sich auf verschiedene Satzglieder beziehen. Die Position von 'nicht' bestimmt, was verneint wird. Dies ist ein häufiger Fehler in der B2-Prüfung.\n\nBeispiele:\n• 'Ich spreche nicht Deutsch. (sondern Englisch)' - Verneinung des Verbs\n• 'Das ist nicht mein Buch. (sondern deins)' - Verneinung des Nominals",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "❌",
+            order = 8,
+            quizCount = 10,
+            tips = listOf(
+                "nicht + Verb = ganze Handlung verneint",
+                "nicht + am Satzende = Negation des nächsten Satzglieds",
+                "nicht bei Adjektiv = verneint das Adjektiv",
+                "kein vs. nicht: kein = Verneinung von Nomen mit Artikel",
+                "Satznegation: nicht am Ende | Wortnegation: nicht vor dem Wort"
+            )
+        ),
+        // 9. Negationswörter
+        Subject(
+            id = "b2_09",
+            level = "B2",
+            name = "9. Negationswörter: nichts, nie/niemals, niemand, nirgends",
+            nameShort = "Negationswörter",
+            description = "Es gibt verschiedene Negationswörter im Deutschen, die verwendet werden, um die Verneinung zu verstärken oder zu spezifizieren. In der B2-Prüfung werden diese häufig in Lese- und Schreibaufgaben verwendet.\n\nBeispiele:\n• 'Niemand hat das verstanden.' (niemand = hiç kimse)\n• 'Ich habe ihn nirgends gefunden.' (nirgends = hiçbir yerde)\n• 'Niemals werde ich das tun!' (niemals = asla)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "❌",
+            order = 9,
+            quizCount = 10,
+            tips = listOf(
+                "NIEMAND = no one / hiç kimse",
+                "NIchts = nothing / hiçbir şey",
+                "NIE/NIEMALS = never / asla",
+                "NIRGENDS = nowhere / hiçbir yerde",
+                "KEINER = no one / hiçbiri (Deklination wie Artikel)"
+            )
+        ),
+        // 10. Passiv Präteritum
+        Subject(
+            id = "b2_10",
+            level = "B2",
+            name = "10. Passiv Präteritum",
+            nameShort = "Passiv Präteritum",
+            description = "Das Passiv Präteritum wird verwendet, um vergangene Handlungen zu beschreiben, bei denen der Handelnde unbekannt oder unwichtig ist. Es wird oft in formellen Texten und Berichten verwendet.\n\nBeispiele:\n• 'Das Problem wurde gelöst.' (Vorgangspassiv)\n• 'Die Tür war schon geöffnet.' (Zustandspassiv)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "🔄",
             order = 10,
             quizCount = 10,
             tips = listOf(
-                "Achte auf Zahlen und Daten im Text",
-                "Unterscheide Fakten von Meinungen",
-                "Typische Wörter: Stellenanzeige, Bewerbung, Gehalt",
-                "Übe das scrapbook-Methode: Thema → Gliederung → Details"
+                "Vorgangspassiv Präteritum: wurde + Partizip II",
+                "Zustandspassiv: war + Partizip II",
+                "Agent (von wem?): von + Dativ",
+                "Wichtig: nicht alle Verben können Passiv bilden",
+                "Passiv in Vergangenheit: wurde häufig in Berichten verwendet"
             )
         ),
+        // 11. Konjunktiv II der Vergangenheit
         Subject(
-            id = "b2_reading_02",
+            id = "b2_11",
             level = "B2",
-            name = "Lesen: Gesundheit und Medizin",
-            nameShort = "Gesundheit",
-            description = " Texte über Krankheiten, Prävention, das deutsche Gesundheitssystem und psychische Gesundheit. Wichtiges Thema für Alltag und Prüfung.",
-            category = Constants.Categories.READING,
-            iconEmoji = "🏥",
+            name = "11. Konjunktiv II der Vergangenheit",
+            nameShort = "Konjunktiv II Vergangenheit",
+            description = "Der Konjunktiv II der Vergangenheit wird verwendet, um irreale Wünsche und hypothetische Situationen in der Vergangenheit auszudrücken. Er beschreibt, was hätte sein können, aber nicht war.\n\nBeispiele:\n• 'Wenn ich genug gelernt hätte, hätte ich die Prüfung bestanden.'\n• 'Ich hätte das nicht tun sollen.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "💭",
             order = 11,
             quizCount = 10,
             tips = listOf(
-                "Gesundheitssystem-Artikel enthalten oft Zahlen",
-                "Achte auf Symptom-Beschreibungen",
-                "Typische Wörter: Symptome, Behandlung, Prävention",
-                "Lese nach Fakten, nicht nach Meinungen"
+                "Irreale Bedingung: wenn + hätte/wäre + Partizip II",
+                "Hätte-Form: hätte + Partizip II + gemacht",
+                "Wäre-Form: wäre + Partizip II + gegangen",
+                "Würde-Form: würde + Infinitiv + haben/sein (oft in gesprochener Sprache)",
+                "Unterscheide: Konjunktiv II jetzt vs. damals"
             )
         ),
+        // 12. Konjunktiv II mit Modalverben
         Subject(
-            id = "b2_reading_03",
+            id = "b2_12",
             level = "B2",
-            name = "Lesen: Umwelt und Natur",
-            nameShort = "Umwelt",
-            description = "Texte über Klimawandel, Nachhaltigkeit, erneuerbare Energien und Umweltschutz. Ein aktuelles Thema in allen deutschsprachigen Ländern.",
-            category = Constants.Categories.READING,
-            iconEmoji = "🌍",
+            name = "12. Konjunktiv II mit Modalverben",
+            nameShort = "Konjunktiv II Modalverben",
+            description = "Der Konjunktiv II mit Modalverben wird verwendet, um Höflichkeit auszudrücken oder um irreale Möglichkeiten zu beschreiben. Die Form ist hätte/säre + Infinitiv + Modalverb.\n\nBeispiele:\n• 'Ich hätte das machen können.' (Möglichkeit in der Vergangenheit)\n• 'Wenn ich Zeit gehabt hätte, hätte ich kommen müssen.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "💭",
             order = 12,
             quizCount = 10,
             tips = listOf(
-                "Umweltthemen enthalten oft Prozent- und Zahlenangaben",
-                "Erkene Argumentationsstruktur: Problem → Lösung",
-                "Typische Wörter: Klimawandel, CO2, Nachhaltigkeit",
-                "Wichtig: Meinung des Autors verstehen"
+                "Hätte + Infinitiv + Modalverb = Möglichkeit",
+                "Würde + Infinitiv + Modalverb = höfliche Bitte",
+                "Konjunktiv II von können: könnte",
+                "Modalverben im Konjunktiv II: müssen → müsste, dürfen → dürfte",
+                "In der B2-Prüfung: höfliche Bitten mit würde + Infinitiv"
             )
         ),
+        // 13. Pronomen: einander
         Subject(
-            id = "b2_reading_04",
+            id = "b2_13",
             level = "B2",
-            name = "Lesen: Gesellschaft und Soziales",
-            nameShort = "Gesellschaft",
-            description = "Texte über Demografie, Integration, soziale Gerechtigkeit und den demografischen Wandel in Deutschland.",
-            category = Constants.Categories.READING,
-            iconEmoji = "👥",
+            name = "13. Pronomen: einander",
+            nameShort = "einander",
+            description = "'Einander' ist ein Pronomen, das die wechselseitige Beziehung zwischen zwei oder mehr Personen ausdrückt. Es entspricht 'birbirine' im Türkischen und wird mit Verben verwendet, die eine reziproke Handlung ausdrücken.\n\nBeispiele:\n• 'Die beiden Schüler helfen einander.' (einander = sich gegenseitig)\n• 'Sie haben einander nie verstanden.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "🔄",
             order = 13,
             quizCount = 10,
             tips = listOf(
-                "Gesellschaftsthemen sind oft argumentativ",
-                "Achte auf Kontrastwörter: jedoch, aber, andererseits",
-                "Zahlen und Statistiken sind wichtige Detailfragen",
-                "Verstehe die Kernaussage des Autors"
+                "EINANDER = sich gegenseitig / birbirine",
+                "Nur für wechselseitige Handlungen!",
+                "Kann mit allen Kasus verwendet werden: einander, einander, einander",
+                "Synonym: sich (gegenseitig)",
+                "Im B2-Exam: oft in Leseverstehen verwendet"
             )
         ),
+        // 14. Weiterführende Nebensätze
         Subject(
-            id = "b2_reading_05",
+            id = "b2_14",
             level = "B2",
-            name = "Lesen: Medien und Kommunikation",
-            nameShort = "Medien",
-            description = "Texte über soziale Medien, Datenschutz, Fake News und die Digitalisierung. Hochaktuell und relevant für die B2-Prüfung.",
-            category = Constants.Categories.READING,
-            iconEmoji = "📱",
+            name = "14. Weiterführende Nebensätze",
+            nameShort = "Weiterführende Nebensätze",
+            description = "Weiterführende Nebensätze (auch: uneingeleitete Relativsätze) werden mit 'was' oder 'wo' eingeleitet und geben zusätzliche Informationen. Sie sind typisch für gehobene Texte und häufig in der B2-Prüfung.\n\nBeispiele:\n• 'Er hat das Buch gelesen, was ich sehr interessant fand.'\n• 'Das ist alles, was ich weiß.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
             order = 14,
-            quizCount = 5,
+            quizCount = 10,
             tips = listOf(
-                "Typische Wörter: Algorithmus, Datenschutz, Cybermobbing",
-                "Verstehe den Unterschied zwischen Fakten und Meinungen",
-                "Achte auf den Ton des Artikels (kritisch, neutral, positiv)",
-                "DSGVO ist ein wichtiges Stichwort"
+                "Was + Präposition = wofür, worüber, womit...",
+                "Wo + Präposition = wo, wohin, woher...",
+                "Weiterführend = gibt neue, zusätzliche Information",
+                "Normaler Relativsatz = eingeleitet mit der/die/das",
+                "Im B2-Exam: 'was' oft in formellen Texten"
             )
         ),
+        // 15. Präpositionen mit Genitiv
         Subject(
-            id = "b2_reading_06",
+            id = "b2_15",
             level = "B2",
-            name = "Lesen: Bildung und Erziehung",
-            nameShort = "Bildung",
-            description = "Texte über das deutsche Schulsystem, Hochschulbildung, lebenslanges Lernen und Bildungsungerechtigkeit.",
-            category = Constants.Categories.READING,
-            iconEmoji = "🎓",
+            name = "15. Präpositionen mit Genitiv",
+            nameShort = "Genitiv-Präpositionen",
+            description = "Einige Präpositionen im Deutschen verlangen den Genitiv. Diese werden besonders in formellen Texten und beim Schreiben von Aufsätzen verwendet. In der B2-Prüfung ist die korrekte Verwendung wichtig.\n\nBeispiele:\n• 'Trotz des Regens bin ich gekommen.' (trotz + Genitiv)\n• 'Während des Sommers bin ich immer im Urlaub.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
             order = 15,
-            quizCount = 5,
+            quizCount = 10,
             tips = listOf(
-                "Deutsches Schulsystem: Grundschule → Sekundarstufe",
-                "Wichtig: Unterschied Ausbildung vs. Studium",
-                "Typische Wörter: Gymnasium, Realschule, Hauptschule",
-                "Bildungsthemen oft mit Statistiken"
+                "Trotz, während, wegen, statt, anstatt, dank, angesichts",
+                "Immer mit Artikel: trotz des/dem/die → trotz der (Nominativ/Dativ)",
+                "Genitiv-Endungen: -es, -e, -s (oft bei Nomen)",
+                "Bei Nomen: trotz des Wetters, während der Reise",
+                "Im B2-Exam: diese Präpositionen oft in Schreibanforderungen"
             )
         ),
-
-        // VOCABULARY - WORTSCHATZ
+        // 16. je und desto/umso
         Subject(
-            id = "b2_vokabel_01",
+            id = "b2_16",
             level = "B2",
-            name = "Wortschatz: Beruf und Karriere",
-            nameShort = "Beruf-Vokabeln",
-            description = "Wichtige Vokabeln und Redewendungen für das Thema Beruf und Karriere. Unverzichtbar für die B2-Prüfung.",
-            category = Constants.Categories.VOCABULARY,
-            iconEmoji = "💼",
+            name = "16. je und desto/umso + Komparativ",
+            nameShort = "Je und desto",
+            description = "'Je... desto' oder 'je... umso' wird verwendet, um einen proportionalen Vergleich auszudrücken. Je mehr von A, desto mehr von B. Diese Struktur ist typisch für argumentative Texte.\n\nBeispiele:\n• 'Je mehr ich lerne, desto mehr weiß ich.'\n• 'Je länger die Wartezeit, umso unzufriedener werden die Kunden.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📊",
+            order = 16,
+            quizCount = 10,
+            tips = listOf(
+                "JE + Komparativ = desto/umso + Komparativ",
+                "Je mehr, desto besser",
+                "Je schneller, umso besser",
+                "Nach JE: Verb am Ende!",
+                "Im B2-Exam: oft in Statistik-Texten"
+            )
+        ),
+        // 17. Nomen-Verb-Verbindungen
+        Subject(
+            id = "b2_17",
+            level = "B2",
+            name = "17. Nomen-Verb-Verbindungen",
+            nameShort = "Nomen-Verb-Verbindungen",
+            description = "Nomen-Verb-Verbindungen sind Ausdrücke, bei denen ein Nomen mit einem Verb eine feste Wendung bildet. Diese sind typisch für formelle deutsche Texte und sollten in der B2-Prüfung korrekt verwendet werden.\n\nBeispiele:\n• 'Ich werde eine Entscheidung treffen.' (Entscheidung treffen)\n• 'Er hat eine Frage gestellt.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 17,
+            quizCount = 10,
+            tips = listOf(
+                "Entscheidung treffen = karar vermek",
+                "Frage stellen = soru sormak",
+                "Eine Entscheidung treffen, eine Frage stellen",
+                "Wichtig: der Artikel bleibt beim Nomen!",
+                "Im B2-Exam: Leseverstehen und Schreiben"
+            )
+        ),
+        // 18. Folgen ausdrücken
+        Subject(
+            id = "b2_18",
+            level = "B2",
+            name = "18. Folgen ausdrücken: folglich, infolgedessen, deshalb, sodass",
+            nameShort = "Folgen ausdrücken",
+            description = "Um Folgen und Ergebnisse auszudrücken, werden verschiedene Konnektoren verwendet: 'deshalb', 'daher', 'deswegen', 'folglich', 'infolgedessen', 'sodass'. Diese sind wichtig für argumentative Texte.\n\nBeispiele:\n• 'Es hat viel geregnet, deshalb ist die Straße nass.'\n• 'Er hat viel gelernt, sodass er die Prüfung bestanden hat.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 18,
+            quizCount = 10,
+            tips = listOf(
+                "DESHALB/DESWEGEN/DARUM = therefore / bu yüzden (Position 2)",
+                "FOLGLICH = consequently / sonuç olarak (Position 1 oder 2)",
+                "INFOLGEDESSEN = consequently / bunun sonucunda (nachgestellt)",
+                "SODASS = so that / öyle ki (Ziel/Wirkung, Verb am Ende)",
+                "Im B2-Exam: diese zeigen logische Argumentation"
+            )
+        ),
+        // 19. Ausdrücke mit Präpositionen
+        Subject(
+            id = "b2_19",
+            level = "B2",
+            name = "19. Ausdrücke mit Präpositionen",
+            nameShort = "Präposition-Ausdrücke",
+            description = "Viele Ausdrücke im Deutschen werden mit festen Präpositionen verwendet. Diese zu kennen ist wichtig für das Leseverstehen und für das Schreiben.\n\nBeispiele:\n• 'Es kommt darauf an, ob du lernen willst.' (an + Akkusativ)\n• 'Ich rechne mit deiner Hilfe.' (mit + Dativ)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 19,
+            quizCount = 10,
+            tips = listOf(
+                "ankommen auf + Akkusativ = dependent on",
+                "rechnen mit + Dativ = to count on",
+                "leiden unter + Dativ = to suffer from",
+                "sich erinnern an + Akkusativ = to remember",
+                "Im B2-Exam: Präpositionen mit bestimmten Verben und Adjektiven"
+            )
+        ),
+        // 20. irreale Konditionalsätze in der Vergangenheit
+        Subject(
+            id = "b2_20",
+            level = "B2",
+            name = "20. irreale Konditionalsätze in der Vergangenheit",
+            nameShort = "Irreale Konditionalsätze",
+            description = "Irreale Konditionalsätze in der Vergangenheit beschreiben Situationen, die nicht passiert sind. Sie bestehen aus einem wenn-Satz (Bedingung) und einem Hauptsatz (Ergebnis). Beide verwenden den Konjunktiv II.\n\nBeispiele:\n• 'Wenn ich früher aufgestanden wäre, hätte ich den Zug erreicht.'\n• 'Hätte ich mehr Zeit gehabt, hätte ich das Buch gelesen.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "💭",
             order = 20,
-            quizCount = 2,
+            quizCount = 10,
             tips = listOf(
-                "Lerne Vokabeln immer mit Artikel (der/die/das)",
-                "Notiere auch die Verbalformen: sich bewerben → die Bewerbung",
-                "Bildung von Nomen: arbeiten → die Arbeit, der Arbeitnehmer",
-                "Übe mit Beispielsätzen, nicht nur einzelne Wörter"
+                "Wenn-Satz: wäre/hätte + Partizip II + worden/gewesen",
+                "Hauptsatz: hätte/wäre + Partizip II + Konjugation",
+                "Hätte ich... = Wäre ich... = Inversion möglich",
+                "Bedeutung: wenn + hätte/wäre = if + had + past participle",
+                "Im B2-Exam: oft in Leseverstehen und Schreiben"
             )
         ),
+        // 21. Relativsätze im Genitiv
         Subject(
-            id = "b2_vokabel_02",
+            id = "b2_21",
             level = "B2",
-            name = "Wortschatz: Umwelt und Nachhaltigkeit",
-            nameShort = "Umwelt-Vokabeln",
-            description = "Vokabeln rund um Umweltschutz, Klimawandel und nachhaltiges Leben. Ein häufiges Prüfungsthema.",
-            category = Constants.Categories.VOCABULARY,
-            iconEmoji = "🌍",
+            name = "21. Relativsätze im Genitiv",
+            nameShort = "Relativsätze Genitiv",
+            description = "Relativsätze im Genitiv werden verwendet, um Nomen zu beschreiben, die ein Genitivattribut erfordern. Sie sind typisch für formelle Texte und sollten in der B2-Prüfung beherrscht werden.\n\nBeispiele:\n• 'Das ist der Mann, dessen Auto ich gefahren habe.'\n• 'Die Studentin, deren Prüfung ich korrigiert habe, ist krank.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
             order = 21,
-            quizCount = 2,
+            quizCount = 10,
             tips = listOf(
-                "Grüne Vokabeln: nachhaltig, erneuerbar, recyceln",
-                "Wortfamilien lernen: der Klimawandel → klimatisch → Klima",
-                " opposites: erneuerbar ↔ endlich (Ressourcen)",
-                "Lerne phraseologische Wendungen: CO2 ausstoßen"
+                "DESSEN (maskulin/neutral) = whose (bei dem Mann)",
+                "DEREN (feminin/plural) = whose (bei der Frau)",
+                "Genitiv nachgestellt: der Mann, dessen Auto...",
+                "Wichtig: Deklination von dessen/deren beachten!",
+                "Im B2-Exam: oft in formellen Lesetexten"
+            )
+        ),
+        // 22. Konjunktiv I in der indirekten Rede
+        Subject(
+            id = "b2_22",
+            level = "B2",
+            name = "22. Konjunktiv I in der indirekten Rede",
+            nameShort = "Konjunktiv I",
+            description = "Der Konjunktiv I wird hauptsächlich in der indirekten Rede verwendet, um die Aussagen einer anderen Person wiederzugeben. In der B2-Prüfung ist diese Form wichtig für das Leseverstehen von Interviews und Berichten.\n\nBeispiele:\n• 'Er sagte, er komme morgen.' (Indirekte Rede)\n• 'Sie sagte, sie habe die Prüfung bestanden.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "💭",
+            order = 22,
+            quizCount = 10,
+            tips = listOf(
+                "Konjunktiv I: ich komme → er komme, ich habe → er habe",
+                "sein → ich sei, du seist, er sei",
+                "werden → ich werde, er werde",
+                "Häufigste Verwendung: sagte er, meinte sie",
+                "Im B2-Exam: in Berichten und Interviews"
+            )
+        ),
+        // 23. Konjunktiv II in irrealen Vergleichsätzen
+        Subject(
+            id = "b2_23",
+            level = "B2",
+            name = "23. Konjunktiv II in irrealen Vergleichsätzen",
+            nameShort = "Irreale Vergleiche",
+            description = "Irreale Vergleichssätze werden mit 'als ob' oder 'als wenn' eingeleitet und beschreiben hypothetische Situationen. Das Verb steht im Konjunktiv II am Ende des Satzes.\n\nBeispiele:\n• 'Er sieht aus, als ob er krank wäre.' (Konjunktiv II)\n• 'Sie spricht, als wenn sie Deutscher wäre.'",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "💭",
+            order = 23,
+            quizCount = 10,
+            tips = listOf(
+                "ALS OB = as if / sanki",
+                "ALS WENN = als ob (gleichbedeutend)",
+                "Verb am Ende: ...als ob er krank wäre",
+                "Konjunktiv II von sein: wäre, wärst, wäre",
+                "Im B2-Exam: beschreibende Texte und Vergleiche"
             )
         )
     )
 
     private fun getB1Subjects(): List<Subject> = listOf(
         Subject(
-            id = "b1_grammatik_01",
+            id = "b1_01",
             level = "B1",
-            name = "Grammatik: Perfekt",
+            name = "B1 Grammatik: Perfekt",
             nameShort = "Perfekt",
-            description = "Das Perfekt wird im Alltag häufig verwendet. Lerne die Verwendung von 'haben' und 'sein' als Hilfsverben.",
+            description = "Das Perfekt wird im Alltag häufig verwendet.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,
-            quizCount = 3
-        ),
-        Subject(
-            id = "b1_reading_01",
-            level = "B1",
-            name = "Lesen: Alltag und Freizeit",
-            nameShort = "Alltag",
-            description = "Texte über Hobbys, Freizeitaktivitäten und den Alltag in Deutschland.",
-            category = Constants.Categories.READING,
-            iconEmoji = "⚽",
-            order = 10,
             quizCount = 5
         )
     )
 
     private fun getA2Subjects(): List<Subject> = listOf(
         Subject(
-            id = "a2_grammatik_01",
+            id = "a2_01",
             level = "A2",
-            name = "Grammatik: Präteritum",
+            name = "A2 Grammatik: Präteritum",
             nameShort = "Präteritum",
-            description = "Das Präteritum für die Vergangenheit. Besonders wichtig für 'sein', 'haben' und die Modalverben.",
+            description = "Das Präteritum für die Vergangenheit.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,
@@ -334,11 +552,11 @@ class SubjectListViewModel @Inject constructor(
 
     private fun getA1Subjects(): List<Subject> = listOf(
         Subject(
-            id = "a1_grammatik_01",
+            id = "a1_01",
             level = "A1",
-            name = "Grammatik: Verben konjugieren",
+            name = "A1 Grammatik: Verben konjugieren",
             nameShort = "Verben",
-            description = "Die wichtigsten Verben im Präsens: sein, haben, gehen, machen.",
+            description = "Die wichtigsten Verben im Präsens.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,
@@ -348,11 +566,11 @@ class SubjectListViewModel @Inject constructor(
 
     private fun getC1Subjects(): List<Subject> = listOf(
         Subject(
-            id = "c1_grammatik_01",
+            id = "c1_01",
             level = "C1",
-            name = "Grammatik: Subjekterweiterung",
+            name = "C1 Grammatik: Subjekterweiterung",
             nameShort = "Subjekterweiterung",
-            description = "Komplexe Satzstrukturen mit Nominalisierung und erweiterten Attributen.",
+            description = "Komplexe Satzstrukturen.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,

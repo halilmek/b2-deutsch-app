@@ -5,13 +5,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.activityViewModels
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.b2deutsch.app.R
 import com.b2deutsch.app.databinding.FragmentSubjectListBinding
-import com.b2deutsch.app.ui.home.HomeViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -21,8 +18,6 @@ class SubjectListFragment : Fragment() {
     private val binding get() = _binding!!
 
     private val viewModel: SubjectListViewModel by viewModels()
-    private val homeViewModel: HomeViewModel by activityViewModels()
-
     private lateinit var subjectAdapter: SubjectAdapter
 
     override fun onCreateView(
@@ -36,20 +31,23 @@ class SubjectListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setupRecyclerView()
+        setupUI()
         observeViewModel()
-        loadData()
+        viewModel.loadSubjectsForLevel("B2")
     }
 
-    private fun setupRecyclerView() {
+    private fun setupUI() {
+        binding.tvHeader.text = "Themen"
+        binding.tvLevel.text = "Level: B2"
+
         subjectAdapter = SubjectAdapter { subject ->
             viewModel.selectSubject(subject)
-            // Navigate to subject detail
-            val bundle = Bundle().apply {
-                putString("subjectId", subject.id)
-                putString("subjectName", subject.name)
-            }
-            findNavController().navigate(R.id.action_subjectList_to_subjectDetail, bundle)
+            findNavController().navigate(
+                SubjectListFragmentDirections.actionSubjectListToSubjectDetail(
+                    subjectId = subject.id,
+                    subjectName = subject.name
+                )
+            )
         }
 
         binding.rvSubjects.apply {
@@ -59,24 +57,20 @@ class SubjectListFragment : Fragment() {
     }
 
     private fun observeViewModel() {
-        homeViewModel.currentLevel.observe(viewLifecycleOwner) { level ->
-            binding.tvLevel.text = "Level: $level"
-            viewModel.loadSubjectsForLevel(level)
-        }
-
         viewModel.subjects.observe(viewLifecycleOwner) { subjects ->
-            subjectAdapter.submitList(subjects)
-            binding.tvEmpty.visibility = if (subjects.isEmpty()) View.VISIBLE else View.GONE
+            if (subjects.isEmpty()) {
+                binding.tvEmpty.visibility = View.VISIBLE
+                binding.rvSubjects.visibility = View.GONE
+            } else {
+                binding.tvEmpty.visibility = View.GONE
+                binding.rvSubjects.visibility = View.VISIBLE
+                subjectAdapter.submitList(subjects)
+            }
         }
 
         viewModel.isLoading.observe(viewLifecycleOwner) { isLoading ->
             binding.progressBar.visibility = if (isLoading) View.VISIBLE else View.GONE
         }
-    }
-
-    private fun loadData() {
-        val level = homeViewModel.currentLevel.value ?: "B2"
-        viewModel.loadSubjectsForLevel(level)
     }
 
     override fun onDestroyView() {
