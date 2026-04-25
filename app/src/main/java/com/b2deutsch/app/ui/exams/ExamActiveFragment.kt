@@ -146,7 +146,7 @@ class ExamActiveFragment : Fragment() {
 
     private fun saveCurrentAnswer() {
         val radioGroup = binding.answersContainer.getChildAt(0) as? RadioGroup ?: return
-        val selectedId = radioGroup.checkedRadioButtonId
+        val selectedId: Int = radioGroup.checkedRadioButtonId
         if (selectedId == View.NO_ID) return
         val selectedText = radioGroup.findViewById<RadioButton>(selectedId)?.text?.toString()
         selectedText?.let { selectedAnswers[currentQuestionIndex] = it }
