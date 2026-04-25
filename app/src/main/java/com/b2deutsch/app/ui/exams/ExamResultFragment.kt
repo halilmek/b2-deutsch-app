@@ -44,9 +44,7 @@ class ExamResultFragment : Fragment() {
         }
         
         binding.btnBackToExams.setOnClickListener {
-            findNavController().navigate(R.id.action_exams_to_exams, Bundle().apply {
-                putString("level", level)
-            })
+            findNavController().popBackStack()
         }
         
         binding.btnShare.setOnClickListener {
