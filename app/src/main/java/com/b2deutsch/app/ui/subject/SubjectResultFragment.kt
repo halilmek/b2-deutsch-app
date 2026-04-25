@@ -10,7 +10,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.b2deutsch.app.R
 import com.b2deutsch.app.databinding.FragmentSubjectResultBinding
-import com.b2deutsch.app.ui.quiz.QuizResult
+import com.b2deutsch.app.data.model.QuizResult
 import com.b2deutsch.app.ui.quiz.QuizResultAdapter
 import com.b2deutsch.app.ui.quiz.QuizViewModel
 import dagger.hilt.android.AndroidEntryPoint
