@@ -1,31 +1,31 @@
 package com.b2deutsch.app.ui.quiz
 
 import android.app.Application
+import android.util.Log
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.viewModelScope
+import com.b2deutsch.app.data.local.LocalQuestionBank
 import com.b2deutsch.app.data.model.Question
 import com.b2deutsch.app.data.model.Quiz
 import com.b2deutsch.app.data.model.QuizResult
 import com.b2deutsch.app.data.model.WrongAnswer
-import com.b2deutsch.app.data.repository.ContentRepository
 import com.b2deutsch.app.data.repository.UserRepository
 import com.b2deutsch.app.util.Constants
-import com.b2deutsch.app.util.QuizProgressManager
 import dagger.hilt.android.lifecycle.HiltViewModel
+import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.withContext
 import javax.inject.Inject
 
 @HiltViewModel
 class QuizViewModel @Inject constructor(
-    private val contentRepository: ContentRepository,
     private val userRepository: UserRepository,
     private val application: Application
 ) : AndroidViewModel(application) {
 
-    private val _quizzes = MutableLiveData<List<Quiz>>()
-    val quizzes: LiveData<List<Quiz>> = _quizzes
+    private val TAG = "QuizViewModel"
 
     private val _currentQuiz = MutableLiveData<Quiz?>()
     val currentQuiz: LiveData<Quiz?> = _currentQuiz
@@ -45,34 +45,29 @@ class QuizViewModel @Inject constructor(
     private val _isLoading = MutableLiveData<Boolean>()
     val isLoading: LiveData<Boolean> = _isLoading
 
-    private val _errorMessage = MutableLiveData<String?>()
-    val errorMessage: LiveData<String?> = _errorMessage
+    private val _quizMessage = MutableLiveData<String?>()
+    val quizMessage: LiveData<String?> = _quizMessage
 
-    private var timeRemaining = 0
+    private val _isComplete = MutableLiveData(false)
+    val isComplete: LiveData<Boolean> = _isComplete
+
     private var quizStartTime = 0L
-    private var currentSubjectId: String = ""
-    private var allQuestionsForTopic = listOf<Question>()
+    private var currentSubjectId = ""
+    private var currentQuizQuestionIds = listOf<String>()  // track IDs for completion
 
-    // Load quizzes for a level (used by QuizzesFragment)
-    fun loadQuizzes(level: String = Constants.DEFAULT_LEVEL) {
+    init {
+        // Initialize question bank from assets on startup
         viewModelScope.launch {
-            _isLoading.value = true
-            contentRepository.getQuizzesByLevel(level)
-                .onSuccess { quizList ->
-                    _quizzes.value = quizList
-                }
-                .onFailure {
-                    _quizzes.value = emptyList()
-                }
-            _isLoading.value = false
+            withContext(Dispatchers.IO) {
+                LocalQuestionBank.initializeFromAssets(application)
+            }
         }
     }
 
     /**
-     * Start a quiz for a specific grammar topic (subjectId like "b2_01", "b2_02", etc.)
-     * Questions are loaded directly from the grammar question bank - no reading texts involved.
-     * Uses SEQUENTIAL ordering: Q1-5 first, then Q6-10, then Q11-15, etc.
-     * When all questions shown once, counter resets and loops.
+     * Start a quiz for a grammar topic (subjectId like "b2_01").
+     * Uses LOCAL question bank (100 questions per topic, offline-capable).
+     * Selects 10 random questions from ACTIVE (unsolved) pool.
      */
     fun startQuiz(subjectId: String) {
         currentSubjectId = subjectId
@@ -80,116 +75,59 @@ class QuizViewModel @Inject constructor(
             _isLoading.value = true
             _selectedAnswers.value = mutableMapOf()
             _quizResult.value = null
-            _errorMessage.value = null
-            
-            // Load ALL questions for this topic from grammar question bank
-            contentRepository.getGrammarQuestionsBySubject(subjectId)
-                .onSuccess { questions ->
-                    if (questions.isNotEmpty()) {
-                        allQuestionsForTopic = questions
-                        // Use SEQUENTIAL ordering via QuizProgressManager
-                        // Get 5 questions in order (Q1-5, Q6-10, Q11-15...) based on pointer
-                        val indices = QuizProgressManager.getNextQuestionIndices(
-                            application,
-                            subjectId,
-                            questions.size
-                        )
-                        val quizQuestions = indices.mapNotNull { questions.getOrNull(it) }
-                        createQuizFromQuestions(quizQuestions, subjectId)
-                    } else {
-                        createFallbackQuiz(subjectId)
-                    }
-                }
-                .onFailure { error ->
-                    _errorMessage.value = error.message
-                    createFallbackQuiz(subjectId)
-                }
-            
-            _isLoading.value = false
-        }
-    }
+            _quizMessage.value = null
+            _isComplete.value = false
 
-    private fun createQuizFromQuestions(questions: List<Question>, subjectId: String) {
-        // Take 5 questions for this quiz
-        val quizQuestions = questions.take(5)
-        
-        val quiz = Quiz(
-            id = "${subjectId}_quiz",
-            level = "B2",
-            category = Constants.Categories.GRAMMAR,
-            title = getSubjectTitle(subjectId),
-            taskType = "grammar",
-            timeLimit = 10,
-            passingScore = 60,
-            questions = quizQuestions
-        )
-        
-        _currentQuiz.value = quiz
-        _currentQuestionIndex.value = 0
-        timeRemaining = quiz.timeLimit * 60
-        quizStartTime = System.currentTimeMillis()
-        updateCurrentQuestion()
-    }
+            val result = withContext(Dispatchers.IO) {
+                LocalQuestionBank.getNextQuiz(application, subjectId)
+            }
 
-    private fun createFallbackQuiz(subjectId: String) {
-        // Generate sample questions when DB has no data
-        val sampleQuestions = listOf(
-            Question(
-                id = "${subjectId}_sample_1",
-                type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Welches Wort passt in die Lücke? ___ ich in Deutschland ankam, konnte ich kein Deutsch.",
-                options = listOf("Als", "Wenn", "Während", "Bevor"),
-                correctAnswer = "Als",
-                explanation = "'Als' wird für einmalige Situationen in der Vergangenheit verwendet."
-            ),
-            Question(
-                id = "${subjectId}_sample_2",
-                type = Constants.QuizTypes.TRUE_FALSE,
-                questionText = "Der Konnektor 'als' wird für wiederholte Handlungen verwendet.",
-                options = listOf("Richtig", "Falsch"),
-                correctAnswer = "Falsch",
-                explanation = "'Als' ist für einmalige Situationen. 'Wenn' ist für Wiederholungen."
-            ),
-            Question(
-                id = "${subjectId}_sample_3",
-                type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
-                options = listOf("als", "nachdem", "bevor", "während"),
-                correctAnswer = "nachdem",
-                explanation = "'Nachdem' zeigt, dass die Handlung davor war."
-            ),
-            Question(
-                id = "${subjectId}_sample_4",
-                type = Constants.QuizTypes.FILL_BLANK,
-                questionText = "___ ich gestern nach Hause kam, hat es geregnet.",
-                options = listOf("Als", "Wenn", "Während", "Bevor"),
-                correctAnswer = "Als",
-                explanation = "'Als' für einmalige Vergangenheit."
-            ),
-            Question(
-                id = "${subjectId}_sample_5",
-                type = Constants.QuizTypes.MULTIPLE_CHOICE,
-                questionText = "___ du fleißig lernst, wirst du die Prüfung bestehen.",
-                options = listOf("Wenn", "Als", "Bevor", "Während"),
-                correctAnswer = "Wenn",
-                explanation = "'Wenn' für Bedingung und Zukunft."
+            if (result.isComplete) {
+                // All 100 questions done!
+                _isComplete.value = true
+                _quizMessage.value = result.message
+                _isLoading.value = false
+                return@launch
+            }
+
+            if (result.isLooping) {
+                _quizMessage.value = result.message
+            }
+
+            // Build Quiz object from question details
+            val questions = result.questions.map { q ->
+                Question(
+                    id = q.id,
+                    type = q.type,
+                    questionText = q.questionText,
+                    options = q.options,
+                    correctAnswer = q.correctAnswer,
+                    explanation = q.explanation
+                )
+            }
+
+            // Track these IDs so we can mark them solved after quiz
+            currentQuizQuestionIds = questions.map { it.id }
+
+            val quiz = Quiz(
+                id = "${subjectId}_quiz",
+                level = "B2",
+                category = Constants.Categories.GRAMMAR,
+                title = getSubjectTitle(subjectId),
+                taskType = "grammar",
+                timeLimit = 15,
+                passingScore = 60,
+                questions = questions
             )
-        )
-        
-        val quiz = Quiz(
-            id = "${subjectId}_fallback",
-            level = "B2",
-            category = Constants.Categories.GRAMMAR,
-            title = getSubjectTitle(subjectId),
-            taskType = "grammar",
-            timeLimit = 10,
-            passingScore = 60,
-            questions = sampleQuestions
-        )
-        
-        _currentQuiz.value = quiz
-        _currentQuestionIndex.value = 0
-        updateCurrentQuestion()
+
+            _currentQuiz.value = quiz
+            _currentQuestionIndex.value = 0
+            quizStartTime = System.currentTimeMillis()
+            updateCurrentQuestion()
+            _isLoading.value = false
+
+            Log.d(TAG, "Quiz started: ${questions.size} questions, ${result.remainingActive} remaining active")
+        }
     }
 
     fun selectAnswer(answer: String) {
@@ -202,7 +140,6 @@ class QuizViewModel @Inject constructor(
     fun nextQuestion() {
         val currentIndex = _currentQuestionIndex.value ?: 0
         val quiz = _currentQuiz.value ?: return
-
         if (currentIndex < quiz.questions.size - 1) {
             _currentQuestionIndex.value = currentIndex + 1
             updateCurrentQuestion()
@@ -225,6 +162,9 @@ class QuizViewModel @Inject constructor(
         }
     }
 
+    /**
+     * Submit quiz: calculate score, mark questions as solved, save result.
+     */
     fun submitQuiz() {
         val quiz = _currentQuiz.value ?: return
         val answers = _selectedAnswers.value ?: emptyMap()
@@ -232,7 +172,7 @@ class QuizViewModel @Inject constructor(
 
         var correctCount = 0
         val wrongAnswerList = mutableListOf<WrongAnswer>()
-        
+
         quiz.questions.forEachIndexed { index, question ->
             val userAnswer = answers[index] ?: ""
             if (userAnswer == question.correctAnswer) {
@@ -251,6 +191,17 @@ class QuizViewModel @Inject constructor(
         val score = if (totalQuestions > 0) (correctCount * 100) / totalQuestions else 0
         val timeSpent = ((System.currentTimeMillis() - quizStartTime) / 1000).toInt()
 
+        // Mark these 10 questions as solved (passive) in local bank
+        viewModelScope.launch {
+            withContext(Dispatchers.IO) {
+                LocalQuestionBank.markQuizCompleted(
+                    application,
+                    currentSubjectId,
+                    currentQuizQuestionIds
+                )
+            }
+        }
+
         _quizResult.value = QuizResult(
             quizId = quiz.id,
             userId = userId,
@@ -264,95 +215,74 @@ class QuizViewModel @Inject constructor(
     }
 
     /**
-     * Start the NEXT quiz with the next 5 questions in sequence.
-     * This is called when user clicks "NEXT QUIZ" after completing a quiz.
-     * Pointer advances by 5 each time. Resets to 0 when all questions exhausted.
+     * Next Quiz: get next 10 random questions from active pool.
      */
     fun startNextQuiz() {
         startQuiz(currentSubjectId)
     }
-    
+
     /**
-     * Reset progress for current subject and start fresh from Q1.
-     * Useful when user wants to restart the question cycle.
+     * Reset topic progress: all 100 back to active (unsolved).
      */
-    fun resetAndRestartQuiz() {
-        QuizProgressManager.resetProgress(application, currentSubjectId)
-        startQuiz(currentSubjectId)
+    fun resetTopicProgress() {
+        viewModelScope.launch(Dispatchers.IO) {
+            LocalQuestionBank.resetTopic(application, currentSubjectId)
+        }
+        _isComplete.value = false
+        _quizMessage.value = null
     }
-    
+
     /**
-     * Retry the SAME quiz with the same 5 questions (for practice).
-     * Uses the previously shown batch based on current pointer position.
+     * Retry same batch: reload last 10 questions (same IDs, same order).
      */
     fun retryQuiz() {
         val quiz = _currentQuiz.value ?: return
-        if (allQuestionsForTopic.isEmpty()) return
-        
-        // Get the batch that was just shown (current pointer - 5 to current pointer - 1)
-        val currentPointer = QuizProgressManager.getCurrentPointer(application, currentSubjectId)
-        val startIndex = (currentPointer - 5).coerceAtLeast(0)
-        
-        val indices = startIndex until (startIndex + 5)
-        val quizQuestions = indices.mapNotNull { allQuestionsForTopic.getOrNull(it) }
-        
         _selectedAnswers.value = mutableMapOf()
         _quizResult.value = null
         _currentQuestionIndex.value = 0
         quizStartTime = System.currentTimeMillis()
-        
-        // Reload same questions
-        val newQuiz = Quiz(
-            id = quiz.id,
-            level = quiz.level,
-            category = quiz.category,
-            title = quiz.title,
-            taskType = quiz.taskType,
-            timeLimit = quiz.timeLimit,
-            passingScore = quiz.passingScore,
-            questions = quizQuestions
-        )
-        _currentQuiz.value = newQuiz
         updateCurrentQuestion()
     }
 
     /**
-     * Get current progress info for UI display.
-     * Returns string like "Frage 1-5 von 50" or "Frage 6-10 von 50"
+     * Progress string like "70/100 gelöst"
      */
-    fun getQuizProgressInfo(): String {
-        val total = allQuestionsForTopic.size
-        val pointer = QuizProgressManager.getCurrentPointer(application, currentSubjectId)
-        val currentBatchStart = (pointer - 5).coerceAtLeast(0) + 1
-        val currentBatchEnd = pointer.coerceAtMost(total)
-        return "Frage $currentBatchStart-$currentBatchEnd von $total"
+    fun getProgressString(): String {
+        return LocalQuestionBank.getProgressString(application, currentSubjectId)
+    }
+
+    /**
+     * Get remaining active questions count
+     */
+    fun getRemainingCount(): Int {
+        return LocalQuestionBank.getRemainingCount(application, currentSubjectId)
     }
 
     private fun getSubjectTitle(subjectId: String): String {
         val titles = mapOf(
-            "b2_01" to "1. Konnektoren: als, bevor, bis, seitdem, während, wenn",
+            "b2_01" to "1. Konnektoren: als, bevor, bis, seitdem, wahrend, wenn",
             "b2_02" to "2. Konnektoren: sobald, solange",
-            "b2_03" to "3. Verben und Ergänzungen",
+            "b2_03" to "3. Verben und Erganzungen",
             "b2_04" to "4. Zeitformen in der Vergangenheit",
             "b2_05" to "5. Zeitformen der Zukunft",
             "b2_06" to "6. Futur mit werden",
             "b2_07" to "7. Angaben im Satz",
             "b2_08" to "8. Verneinung mit nicht",
-            "b2_09" to "9. Negationswörter",
-            "b2_10" to "10. Passiv Präteritum",
+            "b2_09" to "9. Negationsworter",
+            "b2_10" to "10. Passiv Prateritum",
             "b2_11" to "11. Konjunktiv II der Vergangenheit",
             "b2_12" to "12. Konjunktiv II mit Modalverben",
             "b2_13" to "13. Pronomen: einander",
-            "b2_14" to "14. Weiterführende Nebensätze",
-            "b2_15" to "15. Präpositionen mit Genitiv",
+            "b2_14" to "14. Weiterfuhrende Nebensatze",
+            "b2_15" to "15. Prapositionen mit Genitiv",
             "b2_16" to "16. je und desto/umso + Komparativ",
             "b2_17" to "17. Nomen-Verb-Verbindungen",
-            "b2_18" to "18. Folgen ausdrücken",
-            "b2_19" to "19. Ausdrücke mit Präpositionen",
-            "b2_20" to "20. irreale Konditionalsätze",
-            "b2_21" to "21. Relativsätze im Genitiv",
+            "b2_18" to "18. Folgen ausdrucken",
+            "b2_19" to "19. Ausdrucke mit Prapositionen",
+            "b2_20" to "20. Irreale Konditionalsatze",
+            "b2_21" to "21. Relativsatze im Genitiv",
             "b2_22" to "22. Konjunktiv I in der indirekten Rede",
-            "b2_23" to "23. Konjunktiv II in irrealen Vergleichssätzen"
+            "b2_23" to "23. Konjunktiv II in irrealen Vergleichssatzen"
         )
         return titles[subjectId] ?: "Quiz"
     }

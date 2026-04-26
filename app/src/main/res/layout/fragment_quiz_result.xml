@@ -60,6 +60,76 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="8dp" />
 
+            <!-- Progress Bar -->
+            <TextView
+                android:id="@+id/tvProgress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30/100 gelost"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp" />
+
+            <ProgressBar
+                android:id="@+id/progressQuiz"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="32dp"
+                android:max="100"
+                android:progress="30" />
+
+            <!-- Loop/Restart Message -->
+            <TextView
+                android:id="@+id/tvLoopMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/orange_100"
+                android:textColor="@color/orange_800"
+                android:textSize="13sp"
+                android:visibility="gone"
+                android:text="" />
+
+            <!-- Completion Banner -->
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/cardComplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:visibility="gone"
+                app:cardCornerRadius="12dp"
+                app:cardBackgroundColor="@color/green_100">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="🎉 Alle Fragen abgeschlossen!"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/green_700" />
+
+                    <TextView
+                        android:id="@+id/tvCompleteMessage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alle 100 Fragen fur dieses Thema gelost!"
+                        android:textSize="13sp"
+                        android:textColor="@color/green_600"
+                        android:layout_marginTop="4dp" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
             <!-- Wrong Answers Report Section -->
             <TextView
                 android:id="@+id/tvWrongAnswersHeader"

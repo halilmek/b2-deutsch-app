@@ -13,6 +13,7 @@ import com.b2deutsch.app.databinding.FragmentSubjectResultBinding
 import com.b2deutsch.app.data.model.QuizResult
 import com.b2deutsch.app.ui.quiz.QuizResultAdapter
 import com.b2deutsch.app.ui.quiz.QuizViewModel
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -22,7 +23,6 @@ class SubjectResultFragment : Fragment() {
     private val binding get() = _binding!!
 
     private val quizViewModel: QuizViewModel by activityViewModels()
-
     private lateinit var resultAdapter: QuizResultAdapter
 
     override fun onCreateView(
@@ -46,12 +46,36 @@ class SubjectResultFragment : Fragment() {
             findNavController().navigate(R.id.action_result_to_subjectList)
         }
 
-        // Retry button
+        // Retry button - retry SAME 10 questions
         binding.btnRetry.setOnClickListener {
-            findNavController().navigateUp()
+            quizViewModel.retryQuiz()
+            // Go back to quiz - SubjectDetailFragment will navigate to QuizActiveFragment
+            findNavController().popBackStack(R.id.subjectDetailFragment, false)
         }
 
-        // Share button (optional)
+        // Next Quiz button - go back to subject list, user starts new quiz
+        binding.btnNextQuiz.setOnClickListener {
+            val level = arguments?.getString("level") ?: "B2"
+            val bundle = Bundle().apply { putString("level", level) }
+            findNavController().navigate(R.id.action_result_to_subjectList, bundle)
+        }
+
+        // Reset progress (when topic complete)
+        binding.btnResetProgress.setOnClickListener {
+            MaterialAlertDialogBuilder(requireContext())
+                .setTitle("Fortschritt zurücksetzen?")
+                .setMessage("Alle 100 Fragen werden wieder als ungeloest markiert.")
+                .setPositiveButton("Ja, zurücksetzen") { _, _ ->
+                    quizViewModel.resetTopicProgress()
+                    val level = arguments?.getString("level") ?: "B2"
+                    val bundle = Bundle().apply { putString("level", level) }
+                    findNavController().navigate(R.id.action_result_to_subjectList, bundle)
+                }
+                .setNegativeButton("Abbrechen", null)
+                .show()
+        }
+
+        // Share button
         binding.btnShare.setOnClickListener {
             shareResults()
         }
@@ -61,14 +85,31 @@ class SubjectResultFragment : Fragment() {
         quizViewModel.quizResult.observe(viewLifecycleOwner) { result ->
             result?.let { displayResults(it) }
         }
+
+        quizViewModel.isComplete.observe(viewLifecycleOwner) { isComplete ->
+            if (isComplete) {
+                binding.cardComplete.visibility = View.VISIBLE
+                binding.btnNextQuiz.visibility = View.GONE
+            } else {
+                binding.cardComplete.visibility = View.GONE
+                binding.btnNextQuiz.visibility = View.VISIBLE
+            }
+        }
+
+        quizViewModel.quizMessage.observe(viewLifecycleOwner) { message ->
+            if (!message.isNullOrEmpty()) {
+                binding.tvLoopMessage.text = message
+                binding.tvLoopMessage.visibility = View.VISIBLE
+            } else {
+                binding.tvLoopMessage.visibility = View.GONE
+            }
+        }
     }
 
     private fun displayResults(result: QuizResult) {
-        // Score display
         binding.tvScore.text = "${result.score}%"
         binding.tvCorrectCount.text = "${result.correctAnswers} von ${result.totalQuestions} richtig"
 
-        // Pass/Fail indicator
         if (result.passed) {
             binding.tvPassFail.text = "🎉 Bestanden!"
             binding.tvPassFail.setTextColor(requireContext().getColor(R.color.green_500))
@@ -79,55 +120,25 @@ class SubjectResultFragment : Fragment() {
             binding.cardScore.setCardBackgroundColor(requireContext().getColor(R.color.red_100))
         }
 
-        // Encouragement message
         binding.tvEncouragement.text = getEncouragementMessage(result.score)
 
-        // Time spent
         val minutes = result.timeSpent / 60
         val seconds = result.timeSpent % 60
         binding.tvTimeSpent.text = "Zeit: ${minutes}:${String.format("%02d", seconds)}"
 
-        // Show result details
-        setupResultsRecyclerView()
-    }
-
-    private fun setupResultsRecyclerView() {
-        resultAdapter = QuizResultAdapter()
-        binding.rvResults.apply {
-            layoutManager = LinearLayoutManager(context)
-            adapter = resultAdapter
-        }
-
-        // Submit quiz to get detailed results
-        quizViewModel.submitQuiz()
-
-        // Observe submitted result
-        quizViewModel.quizResult.observe(viewLifecycleOwner) { result ->
-            result?.let {
-                quizViewModel.currentQuiz.value?.let { quiz ->
-                    val results = quiz.questions.mapIndexed { index, question ->
-                        val userAnswer = quizViewModel.selectedAnswers.value?.get(index) ?: ""
-                        QuestionResult(
-                            questionNumber = index + 1,
-                            questionText = question.questionText,
-                            userAnswer = userAnswer,
-                            correctAnswer = question.correctAnswer,
-                            explanation = question.explanation,
-                            isCorrect = userAnswer == question.correctAnswer
-                        )
-                    }
-                    resultAdapter.submitList(results)
-                }
-            }
-        }
+        // Progress
+        val progressStr = quizViewModel.getProgressString()
+        binding.tvProgress.text = progressStr
+        val solved = progressStr.split("/").firstOrNull()?.toIntOrNull() ?: 0
+        binding.progressQuiz.progress = solved
     }
 
     private fun getEncouragementMessage(score: Int): String {
         return when {
-            score >= 90 -> "Ausgezeichnet! Du beherrschst dieses Thema sehr gut! 🌟"
-            score >= 70 -> "Gut gemacht! Du bist auf dem richtigen Weg! 👍"
-            score >= 50 -> "Nicht schlecht! Übung macht den Meister! 💪"
-            else -> "Keine Sorge! Versuche es noch einmal, du schaffst es! 📚"
+            score >= 90 -> "Ausgezeichnet! 🌟"
+            score >= 70 -> "Gut gemacht! 👍"
+            score >= 50 -> "Nicht schlecht! 💪"
+            else -> "Keine Sorge! 📚"
         }
     }
 
@@ -135,17 +146,18 @@ class SubjectResultFragment : Fragment() {
         val result = quizViewModel.quizResult.value ?: return
         val shareText = """
             🏆 B2 Deutsch Quiz Ergebnis
-            
             Score: ${result.score}%
             ${result.correctAnswers} von ${result.totalQuestions} richtig
-            
             ${if (result.passed) "🎉 Bestanden!" else "😅 Nicht bestanden"}
-            
+            ${quizViewModel.getProgressString()}
             Mit ❤️ von B2 Deutsch App
         """.trimIndent()
 
-        // Share intent would go here
-        // For now, just show a toast or copy to clipboard
+        val intent = android.content.Intent(android.content.Intent.ACTION_SEND).apply {
+            type = "text/plain"
+            putExtra(android.content.Intent.EXTRA_TEXT, shareText)
+        }
+        startActivity(android.content.Intent.createChooser(intent, "Teilen"))
     }
 
     override fun onDestroyView() {
@@ -153,15 +165,3 @@ class SubjectResultFragment : Fragment() {
         _binding = null
     }
 }
-
-/**
- * Data class for displaying question results
- */
-data class QuestionResult(
-    val questionNumber: Int,
-    val questionText: String,
-    val userAnswer: String,
-    val correctAnswer: String,
-    val explanation: String,
-    val isCorrect: Boolean
-)

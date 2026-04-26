@@ -52,10 +52,13 @@ class QuizResultFragment : Fragment() {
             binding.tvResultStatus.setTextColor(ContextCompat.getColor(requireContext(), R.color.error))
         }
 
+        // Observe progress (isComplete and quizMessage)
+        observeViewModel()
+
         // Show wrong answers report
         showWrongAnswersReport()
 
-        // Next Quiz button - starts a new quiz with DIFFERENT questions
+        // Next Quiz button - gets 10 new questions from active pool
         binding.btnNextQuiz.setOnClickListener {
             subjectId?.let { id ->
                 viewModel.startNextQuiz()
@@ -67,7 +70,7 @@ class QuizResultFragment : Fragment() {
             }
         }
 
-        // Retry button - goes back to same quiz with SAME questions
+        // Retry button - retry SAME 10 questions
         binding.btnRetry.setOnClickListener {
             viewModel.retryQuiz()
             findNavController().popBackStack()
@@ -79,6 +82,36 @@ class QuizResultFragment : Fragment() {
 
         binding.btnBackToSubjects.setOnClickListener {
             findNavController().navigate(R.id.action_result_to_subjectList)
+        }
+    }
+
+    private fun observeViewModel() {
+        // Update progress bar
+        val progressStr = viewModel.getProgressString()
+        binding.tvProgress.text = progressStr
+        val solved = progressStr.split("/").firstOrNull()?.toIntOrNull() ?: 0
+        binding.progressQuiz.progress = solved
+
+        // Observe completion state
+        viewModel.isComplete.observe(viewLifecycleOwner) { isComplete ->
+            if (isComplete) {
+                binding.cardComplete.visibility = View.VISIBLE
+                binding.btnNextQuiz.visibility = View.GONE
+                binding.tvLoopMessage.visibility = View.GONE
+            } else {
+                binding.cardComplete.visibility = View.GONE
+                binding.btnNextQuiz.visibility = View.VISIBLE
+            }
+        }
+
+        // Observe messages (loop restart, etc.)
+        viewModel.quizMessage.observe(viewLifecycleOwner) { message ->
+            if (!message.isNullOrEmpty()) {
+                binding.tvLoopMessage.text = message
+                binding.tvLoopMessage.visibility = View.VISIBLE
+            } else {
+                binding.tvLoopMessage.visibility = View.GONE
+            }
         }
     }
 
