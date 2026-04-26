@@ -193,7 +193,7 @@ class SubjectListViewModel @Inject constructor(
             description = "In der deutschen Grammatik gibt es mehrere Formen, um die Vergangenheit auszudrücken: Präteritum, Perfekt und Plusquamperfekt. Für die B2-Prüfung ist es wichtig, diese korrekt zu verwenden und den Unterschied zu verstehen.\n\nBeispiele:\n• 'Ich habe gestern Deutsch gelernt.' (Perfekt - abgeschlossene Handlung)\n• 'Ich war schon fertig, als er kam.' (Plusquamperfekt + Präteritum)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
-            order = 3
+            order = 3,
             quizCount = 10,
             tips = listOf(
                 "PERFEKT = haben/sein (Präsens) + Partizip II",
@@ -212,7 +212,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Für die Zukunft gibt es im Deutschen zwei Hauptmethoden: 'werden' + Infinitativ für Vorhersagen und Pläne, sowie Präsens mit Zeitangabe für geplante Handlungen. Die B2-Prüfung erwartet den korrekten Gebrauch beider Formen.\n\nBeispiele:\n• 'Ich werde morgen Deutsch lernen.' (Werden + Infinitiv)\n• 'Morgen lerne ich Deutsch.' (Präsens mit Zeitangabe)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
-            order = 4
+            order = 4,
             quizCount = 10,
             tips = listOf(
                 "WERDEN + Infinititiv = Vorhersage, Vermutung über Zukunft",
@@ -231,7 +231,7 @@ class SubjectListViewModel @Inject constructor(
             description = "'Werden' ist das Hilfsverb für das deutsche Futur. Es wird sowohl für das Futur I als auch für das Futur II verwendet. 'Werden' kann auch für Vermutungen über die Gegenwart verwendet werden.\n\nBeispiele:\n• 'Es wird morgen regnen.' (Futur I - Vorhersage)\n• 'Du wirst die Prüfung bestanden haben.' (Futur II - Vermutung über Vergangenes)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
-            order = 5
+            order = 5,
             quizCount = 10,
             tips = listOf(
                 "Futur I: wird + Partizip II + werden",
@@ -250,7 +250,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Angaben sind Satzglieder, die zusätzliche Informationen geben: Zeitangaben (wann?), Ortsangaben (wo?), Artangaben (wie?). Sie können an verschiedenen Positionen im Satz stehen, beeinflussen aber nicht die Verbposition.\n\nBeispiele:\n• 'Am Montag werde ich in Berlin einen Test schreiben.' (Zeit + Ort)\n• 'Wegen der Krankheit konnte ich nicht kommen.' (Kausal)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📍",
-            order = 6
+            order = 6,
             quizCount = 10,
             tips = listOf(
                 "Position 1: oft Zeitangabe oder Verb (Frage)",
@@ -269,7 +269,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Die Verneinung mit 'nicht' kann sich auf verschiedene Satzglieder beziehen. Die Position von 'nicht' bestimmt, was verneint wird. Dies ist ein häufiger Fehler in der B2-Prüfung.\n\nBeispiele:\n• 'Ich spreche nicht Deutsch. (sondern Englisch)' - Verneinung des Verbs\n• 'Das ist nicht mein Buch. (sondern deins)' - Verneinung des Nominals",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "❌",
-            order = 7
+            order = 7,
             quizCount = 10,
             tips = listOf(
                 "nicht + Verb = ganze Handlung verneint",
@@ -288,7 +288,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Es gibt verschiedene Negationswörter im Deutschen, die verwendet werden, um die Verneinung zu verstärken oder zu spezifizieren. In der B2-Prüfung werden diese häufig in Lese- und Schreibaufgaben verwendet.\n\nBeispiele:\n• 'Niemand hat das verstanden.' (niemand = hiç kimse)\n• 'Ich habe ihn nirgends gefunden.' (nirgends = hiçbir yerde)\n• 'Niemals werde ich das tun!' (niemals = asla)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "❌",
-            order = 8
+            order = 8,
             quizCount = 10,
             tips = listOf(
                 "NIEMAND = no one / hiç kimse",
@@ -307,7 +307,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Das Passiv Präteritum wird verwendet, um vergangene Handlungen zu beschreiben, bei denen der Handelnde unbekannt oder unwichtig ist. Es wird oft in formellen Texten und Berichten verwendet.\n\nBeispiele:\n• 'Das Problem wurde gelöst.' (Vorgangspassiv)\n• 'Die Tür war schon geöffnet.' (Zustandspassiv)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "🔄",
-            order = 9
+            order = 9,
             quizCount = 10,
             tips = listOf(
                 "Vorgangspassiv Präteritum: wurde + Partizip II",
@@ -326,7 +326,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Der Konjunktiv II der Vergangenheit wird verwendet, um irreale Wünsche und hypothetische Situationen in der Vergangenheit auszudrücken. Er beschreibt, was hätte sein können, aber nicht war.\n\nBeispiele:\n• 'Wenn ich genug gelernt hätte, hätte ich die Prüfung bestanden.'\n• 'Ich hätte das nicht tun sollen.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
-            order = 10
+            order = 10,
             quizCount = 10,
             tips = listOf(
                 "Irreale Bedingung: wenn + hätte/wäre + Partizip II",
@@ -345,7 +345,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Der Konjunktiv II mit Modalverben wird verwendet, um Höflichkeit auszudrücken oder um irreale Möglichkeiten zu beschreiben. Die Form ist hätte/säre + Infinitiv + Modalverb.\n\nBeispiele:\n• 'Ich hätte das machen können.' (Möglichkeit in der Vergangenheit)\n• 'Wenn ich Zeit gehabt hätte, hätte ich kommen müssen.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
-            order = 11
+            order = 11,
             quizCount = 10,
             tips = listOf(
                 "Hätte + Infinitiv + Modalverb = Möglichkeit",
@@ -364,7 +364,7 @@ class SubjectListViewModel @Inject constructor(
             description = "'Einander' ist ein Pronomen, das die wechselseitige Beziehung zwischen zwei oder mehr Personen ausdrückt. Es entspricht 'birbirine' im Türkischen und wird mit Verben verwendet, die eine reziproke Handlung ausdrücken.\n\nBeispiele:\n• 'Die beiden Schüler helfen einander.' (einander = sich gegenseitig)\n• 'Sie haben einander nie verstanden.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "🔄",
-            order = 12
+            order = 12,
             quizCount = 10,
             tips = listOf(
                 "EINANDER = sich gegenseitig / birbirine",
@@ -383,7 +383,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Weiterführende Nebensätze (auch: uneingeleitete Relativsätze) werden mit 'was' oder 'wo' eingeleitet und geben zusätzliche Informationen. Sie sind typisch für gehobene Texte und häufig in der B2-Prüfung.\n\nBeispiele:\n• 'Er hat das Buch gelesen, was ich sehr interessant fand.'\n• 'Das ist alles, was ich weiß.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
-            order = 13
+            order = 13,
             quizCount = 10,
             tips = listOf(
                 "Was + Präposition = wofür, worüber, womit...",
@@ -402,7 +402,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Einige Präpositionen im Deutschen verlangen den Genitiv. Diese werden besonders in formellen Texten und beim Schreiben von Aufsätzen verwendet. In der B2-Prüfung ist die korrekte Verwendung wichtig.\n\nBeispiele:\n• 'Trotz des Regens bin ich gekommen.' (trotz + Genitiv)\n• 'Während des Sommers bin ich immer im Urlaub.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
-            order = 14
+            order = 14,
             quizCount = 10,
             tips = listOf(
                 "Trotz, während, wegen, statt, anstatt, dank, angesichts",
@@ -421,7 +421,7 @@ class SubjectListViewModel @Inject constructor(
             description = "'Je... desto' oder 'je... umso' wird verwendet, um einen proportionalen Vergleich auszudrücken. Je mehr von A, desto mehr von B. Diese Struktur ist typisch für argumentative Texte.\n\nBeispiele:\n• 'Je mehr ich lerne, desto mehr weiß ich.'\n• 'Je länger die Wartezeit, umso unzufriedener werden die Kunden.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📊",
-            order = 15
+            order = 15,
             quizCount = 10,
             tips = listOf(
                 "JE + Komparativ = desto/umso + Komparativ",
@@ -440,7 +440,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Nomen-Verb-Verbindungen sind Ausdrücke, bei denen ein Nomen mit einem Verb eine feste Wendung bildet. Diese sind typisch für formelle deutsche Texte und sollten in der B2-Prüfung korrekt verwendet werden.\n\nBeispiele:\n• 'Ich werde eine Entscheidung treffen.' (Entscheidung treffen)\n• 'Er hat eine Frage gestellt.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
-            order = 16
+            order = 16,
             quizCount = 10,
             tips = listOf(
                 "Entscheidung treffen = karar vermek",
@@ -459,7 +459,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Um Folgen und Ergebnisse auszudrücken, werden verschiedene Konnektoren verwendet: 'deshalb', 'daher', 'deswegen', 'folglich', 'infolgedessen', 'sodass'. Diese sind wichtig für argumentative Texte.\n\nBeispiele:\n• 'Es hat viel geregnet, deshalb ist die Straße nass.'\n• 'Er hat viel gelernt, sodass er die Prüfung bestanden hat.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
-            order = 17
+            order = 17,
             quizCount = 10,
             tips = listOf(
                 "DESHALB/DESWEGEN/DARUM = therefore / bu yüzden (Position 2)",
@@ -478,7 +478,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Viele Ausdrücke im Deutschen werden mit festen Präpositionen verwendet. Diese zu kennen ist wichtig für das Leseverstehen und für das Schreiben.\n\nBeispiele:\n• 'Es kommt darauf an, ob du lernen willst.' (an + Akkusativ)\n• 'Ich rechne mit deiner Hilfe.' (mit + Dativ)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
-            order = 18
+            order = 18,
             quizCount = 10,
             tips = listOf(
                 "ankommen auf + Akkusativ = dependent on",
@@ -497,7 +497,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Irreale Konditionalsätze in der Vergangenheit beschreiben Situationen, die nicht passiert sind. Sie bestehen aus einem wenn-Satz (Bedingung) und einem Hauptsatz (Ergebnis). Beide verwenden den Konjunktiv II.\n\nBeispiele:\n• 'Wenn ich früher aufgestanden wäre, hätte ich den Zug erreicht.'\n• 'Hätte ich mehr Zeit gehabt, hätte ich das Buch gelesen.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
-            order = 19
+            order = 19,
             quizCount = 10,
             tips = listOf(
                 "Wenn-Satz: wäre/hätte + Partizip II + worden/gewesen",
@@ -516,7 +516,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Relativsätze im Genitiv werden verwendet, um Nomen zu beschreiben, die ein Genitivattribut erfordern. Sie sind typisch für formelle Texte und sollten in der B2-Prüfung beherrscht werden.\n\nBeispiele:\n• 'Das ist der Mann, dessen Auto ich gefahren habe.'\n• 'Die Studentin, deren Prüfung ich korrigiert habe, ist krank.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
-            order = 20
+            order = 20,
             quizCount = 10,
             tips = listOf(
                 "DESSEN (maskulin/neutral) = whose (bei dem Mann)",
@@ -535,7 +535,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Der Konjunktiv I wird hauptsächlich in der indirekten Rede verwendet, um die Aussagen einer anderen Person wiederzugeben. In der B2-Prüfung ist diese Form wichtig für das Leseverstehen von Interviews und Berichten.\n\nBeispiele:\n• 'Er sagte, er komme morgen.' (Indirekte Rede)\n• 'Sie sagte, sie habe die Prüfung bestanden.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
-            order = 21
+            order = 21,
             quizCount = 10,
             tips = listOf(
                 "Konjunktiv I: ich komme → er komme, ich habe → er habe",
@@ -554,7 +554,7 @@ class SubjectListViewModel @Inject constructor(
             description = "Irreale Vergleichssätze werden mit 'als ob' oder 'als wenn' eingeleitet und beschreiben hypothetische Situationen. Das Verb steht im Konjunktiv II am Ende des Satzes.\n\nBeispiele:\n• 'Er sieht aus, als ob er krank wäre.' (Konjunktiv II)\n• 'Sie spricht, als wenn sie Deutscher wäre.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
-            order = 22
+            order = 22,
             quizCount = 10,
             tips = listOf(
                 "ALS OB = as if / sanki",
