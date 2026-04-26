@@ -20,7 +20,7 @@ import java.io.InputStreamReader
  */
 object LocalQuestionBank {
 
-    private const val PREFS_NAME = "quiz_progress_prefs_v2"
+    private const val PREFS_NAME = "quiz_progress_prefs_v3"
     private const val KEY_ACTIVE_PREFIX = "active_"      // unsolved question IDs
     private const val KEY_PASSIVE_PREFIX = "passive_"    // solved question IDs
     private const val KEY_BANK_LOADED = "bank_loaded"    // if JSON was parsed
