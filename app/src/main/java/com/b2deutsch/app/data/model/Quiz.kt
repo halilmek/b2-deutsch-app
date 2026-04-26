@@ -29,6 +29,14 @@ data class Question(
     val orderItems: List<String>? = null
 )
 
+// Wrong answer info for quiz report
+data class WrongAnswer(
+    val questionText: String,
+    val yourAnswer: String,
+    val correctAnswer: String,
+    val explanation: String
+)
+
 data class QuizResult(
     val quizId: String = "",
     val userId: String = "",
@@ -37,5 +45,6 @@ data class QuizResult(
     val correctAnswers: Int = 0,
     val passed: Boolean = false,
     val completedAt: Long = System.currentTimeMillis(),
-    val timeSpent: Int = 0 // seconds
+    val timeSpent: Int = 0, // seconds
+    val wrongAnswers: List<WrongAnswer> = emptyList()
 )

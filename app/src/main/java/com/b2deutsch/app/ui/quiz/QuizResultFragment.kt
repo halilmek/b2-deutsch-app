@@ -4,10 +4,14 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
+import android.widget.TextView
+import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.b2deutsch.app.R
+import com.b2deutsch.app.data.model.WrongAnswer
 import com.b2deutsch.app.databinding.FragmentQuizResultBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -42,13 +46,16 @@ class QuizResultFragment : Fragment() {
 
         if (passed) {
             binding.tvResultStatus.text = "🎉 Passed!"
-            binding.tvResultStatus.setTextColor(resources.getColor(R.color.success, null))
+            binding.tvResultStatus.setTextColor(ContextCompat.getColor(requireContext(), R.color.success))
         } else {
             binding.tvResultStatus.text = "📚 Keep Practicing!"
-            binding.tvResultStatus.setTextColor(resources.getColor(R.color.error, null))
+            binding.tvResultStatus.setTextColor(ContextCompat.getColor(requireContext(), R.color.error))
         }
 
-        // Next Quiz button - starts a new quiz with same subject
+        // Show wrong answers report
+        showWrongAnswersReport()
+
+        // Next Quiz button - starts a new quiz with DIFFERENT questions
         binding.btnNextQuiz.setOnClickListener {
             subjectId?.let { id ->
                 viewModel.startNextQuiz()
@@ -60,15 +67,10 @@ class QuizResultFragment : Fragment() {
             }
         }
 
+        // Retry button - goes back to same quiz with SAME questions
         binding.btnRetry.setOnClickListener {
-            subjectId?.let { id ->
-                viewModel.retryQuiz()
-                val bundle = Bundle().apply {
-                    putString("quizId", "${id}_quiz_1")
-                    putString("subjectId", id)
-                }
-                findNavController().navigate(R.id.action_result_to_nextQuiz, bundle)
-            }
+            viewModel.retryQuiz()
+            findNavController().popBackStack()
         }
 
         binding.btnHome.setOnClickListener {
@@ -78,6 +80,88 @@ class QuizResultFragment : Fragment() {
         binding.btnBackToSubjects.setOnClickListener {
             findNavController().navigate(R.id.action_result_to_subjectList)
         }
+    }
+
+    private fun showWrongAnswersReport() {
+        val result = viewModel.quizResult.value ?: return
+        val wrongAnswers = result.wrongAnswers
+        
+        if (wrongAnswers.isEmpty()) {
+            binding.tvWrongAnswersHeader.visibility = View.GONE
+            return
+        }
+        
+        binding.tvWrongAnswersHeader.visibility = View.VISIBLE
+        binding.tvWrongAnswersHeader.text = "📋 Review Wrong Answers (${wrongAnswers.size})"
+        
+        val container = binding.wrongAnswersContainer
+        container.removeAllViews()
+        
+        wrongAnswers.forEachIndexed { index, wrong ->
+            val card = createWrongAnswerCard(index + 1, wrong)
+            container.addView(card)
+        }
+    }
+    
+    private fun createWrongAnswerCard(number: Int, wrong: WrongAnswer): View {
+        val card = LinearLayout(requireContext()).apply {
+            orientation = LinearLayout.VERTICAL
+            setBackgroundResource(R.drawable.card_background)
+            setPadding(32, 24, 32, 24)
+            layoutParams = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            ).apply {
+                setMargins(0, 16, 0, 0)
+            }
+        }
+        
+        // Question number
+        val numText = TextView(requireContext()).apply {
+            text = "Question $number"
+            textSize = 14f
+            setTextColor(ContextCompat.getColor(context, R.color.purple_700))
+        }
+        
+        // Question text
+        val qText = TextView(requireContext()).apply {
+            text = wrong.questionText
+            textSize = 16f
+            setTextColor(ContextCompat.getColor(context, R.color.black))
+            setPadding(0, 16, 0, 0)
+        }
+        
+        // Your answer (wrong)
+        val yourAnswer = TextView(requireContext()).apply {
+            text = "❌ Your answer: ${wrong.yourAnswer}"
+            textSize = 14f
+            setTextColor(ContextCompat.getColor(context, R.color.error))
+            setPadding(0, 16, 0, 0)
+        }
+        
+        // Correct answer
+        val correctAnswer = TextView(requireContext()).apply {
+            text = "✅ Correct answer: ${wrong.correctAnswer}"
+            textSize = 14f
+            setTextColor(ContextCompat.getColor(context, R.color.success))
+            setPadding(0, 8, 0, 0)
+        }
+        
+        // Explanation
+        val explanation = TextView(requireContext()).apply {
+            text = "💡 ${wrong.explanation}"
+            textSize = 13f
+            setTextColor(ContextCompat.getColor(context, android.color.darker_gray))
+            setPadding(0, 8, 0, 0)
+        }
+        
+        card.addView(numText)
+        card.addView(qText)
+        card.addView(yourAnswer)
+        card.addView(correctAnswer)
+        card.addView(explanation)
+        
+        return card
     }
 
     override fun onDestroyView() {

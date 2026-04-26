@@ -7,6 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.b2deutsch.app.data.model.Question
 import com.b2deutsch.app.data.model.Quiz
 import com.b2deutsch.app.data.model.QuizResult
+import com.b2deutsch.app.data.model.WrongAnswer
 import com.b2deutsch.app.data.repository.ContentRepository
 import com.b2deutsch.app.data.repository.UserRepository
 import com.b2deutsch.app.util.Constants
@@ -232,9 +233,19 @@ class QuizViewModel @Inject constructor(
         val userId = userRepository.currentUserId ?: "anonymous"
 
         var correctCount = 0
+        val wrongAnswerList = mutableListOf<WrongAnswer>()
+        
         quiz.questions.forEachIndexed { index, question ->
-            if (answers[index] == question.correctAnswer) {
+            val userAnswer = answers[index] ?: ""
+            if (userAnswer == question.correctAnswer) {
                 correctCount++
+            } else {
+                wrongAnswerList.add(WrongAnswer(
+                    questionText = question.questionText,
+                    yourAnswer = userAnswer.ifEmpty { "Keine Antwort" },
+                    correctAnswer = question.correctAnswer,
+                    explanation = question.explanation.ifEmpty { "Keine Erklärung verfügbar" }
+                ))
             }
         }
 
@@ -249,7 +260,8 @@ class QuizViewModel @Inject constructor(
             totalQuestions = totalQuestions,
             correctAnswers = correctCount,
             passed = score >= quiz.passingScore,
-            timeSpent = timeSpent
+            timeSpent = timeSpent,
+            wrongAnswers = wrongAnswerList
         )
     }
 
