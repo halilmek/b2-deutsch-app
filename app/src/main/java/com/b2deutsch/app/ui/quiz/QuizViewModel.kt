@@ -48,6 +48,7 @@ class QuizViewModel @Inject constructor(
     private var quizStartTime = 0L
     private var currentSubjectId: String = ""
     private var usedQuestionIds = mutableSetOf<String>()
+    private var allQuestionsForTopic = listOf<Question>()
 
     // Load quizzes for a level (used by QuizzesFragment)
     fun loadQuizzes(level: String = Constants.DEFAULT_LEVEL) {
@@ -64,7 +65,6 @@ class QuizViewModel @Inject constructor(
         }
     }
 
-    private var usedQuestionIds = mutableSetOf<String>()
 
     /**
      * Start a quiz for a specific grammar topic (subjectId like "b2_01", "b2_02", etc.)
@@ -112,7 +112,7 @@ class QuizViewModel @Inject constructor(
 
     private fun createQuizFromQuestions(questions: List<Question>, subjectId: String) {
         // Take 5 questions for this quiz
-        val quizQuestions = availableQuestions.take(5)
+        val quizQuestions = questions.take(5)
         
         val quiz = Quiz(
             id = "${subjectId}_quiz",
