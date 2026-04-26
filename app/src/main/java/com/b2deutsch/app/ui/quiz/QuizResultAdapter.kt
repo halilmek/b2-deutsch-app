@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.b2deutsch.app.R
 import com.b2deutsch.app.databinding.ItemQuizResultBinding
-import com.b2deutsch.app.ui.subject.QuestionResult
+import com.b2deutsch.app.data.model.QuestionResult
 
 class QuizResultAdapter : ListAdapter<QuestionResult, QuizResultAdapter.ResultViewHolder>(ResultDiffCallback()) {
 
