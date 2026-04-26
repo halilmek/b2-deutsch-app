@@ -174,7 +174,7 @@ class SubjectListViewModel @Inject constructor(
             description = "In der B2-Prüfung ist es wichtig, die richtigen Verb-Ergänzungen zu kennen. Manche Verben brauchen den Akkusativ, andere den Dativ, und wieder andere beide. Einige Verben sind reflexiv oder erfordern eine Präposition.\n\nBeispiele:\n• 'Ich freue mich auf die Prüfung.' (reflexiv + Akkusativ)\n• 'Er arbeitet an einem Projekt.' (Dativ + Akkusativ)\n• 'Sie wartet auf ihren Freund.' (Akkusativ)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
-            order = 2
+            order = 2,
             quizCount = 10,
             tips = listOf(
                 "Verben mit Dativ: helfen, danken, glauben, antworten",
