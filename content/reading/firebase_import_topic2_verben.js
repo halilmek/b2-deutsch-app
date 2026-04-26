@@ -46,6 +46,28 @@ const questions = [
   { id: 'b2_02_q029', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Ich verlasse mich ___ dich.', options: ['an', 'auf', 'mit', '\u00fcber'], correctAnswer: 'auf', explanation: '"sich verlassen auf + Akkusativ": to rely on. "Ich verlasse mich auf dich."', difficulty: 'easy', level: 'B2' },
   { id: 'b2_02_q030', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat sich ___ dem langen Weg erholt.', options: ['von', '\u00fcber', 'f\u00fcr', 'an'], correctAnswer: 'von', explanation: '"sich erholen von + Dativ": to recover from. "Sie hat sich von dem langen Weg erholt."', difficulty: 'medium', level: 'B2' }
 
+,
+  { id: 'b2_02_q031', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat sich ___ der neuen Aufgabe besch\u00e4ftigt.', options: ['\u00fcber', 'mit', 'an', 'f\u00fcr'], correctAnswer: 'mit', explanation: '"sich besch\u00e4ftigen mit + Dativ": to occupy oneself with. "Er besch\u00e4ftigt sich mit der Aufgabe."', difficulty: 'medium', level: 'B2' },
+  { id: 'b2_02_q032', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat sich ___ die Kritik ihres Chefs beschwert.', options: ['\u00fcber', 'von', 'f\u00fcr', 'an'], correctAnswer: '\u00fcber', explanation: '"sich beschweren \u00fcber + Akkusativ": to complain about. "Sie hat sich \u00fcber die Kritik beschwert."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q033', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Ich freue mich ___ das Wiedersehen mit meiner Familie.', options: ['\u00fcber', 'auf', 'von', 'f\u00fcr'], correctAnswer: 'auf', explanation: '"sich freuen auf + Akkusativ": to look forward to (future event). "Ich freue mich auf das Wiedersehen."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q034', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat ___ seinem Bruder gestritten.', options: ['\u00fcber', 'an', 'mit', 'f\u00fcr'], correctAnswer: 'mit', explanation: '"sich streiten mit + Dativ": to argue with. "Er hat sich mit seinem Bruder gestritten."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q035', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Die Studenten klagen ___ zu viele Pr\u00fcfungen.', options: ['\u00fcber', 'von', 'an', 'f\u00fcr'], correctAnswer: '\u00fcber', explanation: '"klagen \u00fcber + Akkusativ": to complain about. "Die Studenten klagen \u00fcber zu viele Pr\u00fcfungen."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q036', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat lange ___ einer L\u00f6sung gesucht.', options: ['nach', 'f\u00fcr', 'um', '\u00fcber'], correctAnswer: 'nach', explanation: '"suchen nach + Dativ": to search for/look for. "Sie hat nach einer L\u00f6sung gesucht."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q037', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat ___ dem Projekt teilgenommen.', options: ['bei', 'an', 'mit', '\u00fcber'], correctAnswer: 'an', explanation: '"teilnehmen an + Dativ": to participate in. "Er hat an dem Projekt teilgenommen."', difficulty: 'medium', level: 'B2' },
+  { id: 'b2_02_q038', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Ich habe ___ meiner Schwester telefoniert.', options: ['an', 'mit', '\u00fcber', 'von'], correctAnswer: 'mit', explanation: '"telefonieren mit + Dativ": to phone/call. "Ich habe mit meiner Schwester telefoniert."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q039', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat ___ den Misserfolg gelitten.', options: ['f\u00fcr', 'unter', '\u00fcber', 'an'], correctAnswer: 'unter', explanation: '"leiden unter + Dativ": to suffer from. "Er hat unter dem Misserfolg gelitten."', difficulty: 'medium', level: 'B2' },
+  { id: 'b2_02_q040', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat sich ___ dem Unfall erholt.', options: ['von', '\u00fcber', 'nach', 'f\u00fcr'], correctAnswer: 'von', explanation: '"sich erholen von + Dativ": to recover from. "Sie hat sich von dem Unfall erholt."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q041', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Ich zweifle ___ seiner Ehrlichkeit.', options: ['an', '\u00fcber', 'f\u00fcr', 'gegen'], correctAnswer: 'an', explanation: '"zweifeln an + Dativ": to doubt. "Ich zweifle an seiner Ehrlichkeit."', difficulty: 'medium', level: 'B2' },
+  { id: 'b2_02_q042', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat ___ die Reise verzichtet.', options: ['auf', 'f\u00fcr', '\u00fcber', 'mit'], correctAnswer: 'auf', explanation: '"verzichten auf + Akkusativ": to do without/to forgo. "Er hat auf die Reise verzichtet."', difficulty: 'medium', level: 'B2' },
+  { id: 'b2_02_q043', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat sich ___ der Stelle als \u00c4rztin beworben.', options: ['f\u00fcr', 'um', 'an', '\u00fcber'], correctAnswer: 'um', explanation: '"sich bewerben um + Akkusativ": to apply for. "Sie hat sich um die Stelle beworben."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q044', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat ___ seiner Mutter geholfen.', options: ['f\u00fcr', 'mit', 'an', 'bei'], correctAnswer: 'bei', explanation: '"helfen bei + Dativ": to help with. "Er hat bei seiner Mutter geholfen." / "Er hat seiner Mutter geholfen."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q045', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Wir haben ___ einer besseren Zukunft gehofft.', options: ['an', 'f\u00fcr', 'auf', '\u00fcber'], correctAnswer: 'auf', explanation: '"hoffen auf + Akkusativ": to hope for. "Wir haben auf eine bessere Zukunft gehofft."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q046', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat sich ___ das Konzert gefreut.', options: ['auf', '\u00fcber', 'an', 'f\u00fcr'], correctAnswer: 'auf', explanation: '"sich freuen auf + Akkusativ": to look forward to (upcoming event). "Sie hat sich auf das Konzert gefreut."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q047', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat ___ seiner Vergangenheit erz\u00e4hlt.', options: ['\u00fcber', 'von', 'an', 'f\u00fcr'], correctAnswer: 'von', explanation: '"erz\u00e4hlen von + Dativ": to talk about/tell about. "Er hat von seiner Vergangenheit erz\u00e4hlt."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q048', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat sich ___ dem schlechten Wetter beklagt.', options: ['\u00fcber', 'von', 'f\u00fcr', 'unter'], correctAnswer: '\u00fcber', explanation: '"sich beklagen \u00fcber + Akkusativ": to complain about. "Sie hat sich \u00fcber das schlechte Wetter beklagt."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q049', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Er hat ___ seiner Arbeit angefangen.', options: ['mit', 'an', 'f\u00fcr', '\u00fcber'], correctAnswer: 'mit', explanation: '"anfangen mit + Dativ": to begin with/start with. "Er hat mit seiner Arbeit angefangen."', difficulty: 'easy', level: 'B2' },
+  { id: 'b2_02_q050', module: 'B2', topicNumber: '2. Topic', topicName: 'Verben und Erg\u00e4nzungen', subTopic: 'Verben mit Pr\u00e4positionen', questionText: 'Sie hat ___ dem Ergebnis gezweifelt.', options: ['f\u00fcr', '\u00fcber', 'an', 'von'], correctAnswer: 'an', explanation: '"zweifeln an + Dativ": to doubt. "Sie hat an dem Ergebnis gezweifelt."', difficulty: 'easy', level: 'B2' }
+
 ];
 
 function firestorePost(docId, fields) {
@@ -88,21 +110,21 @@ async function main() {
     module: 'B2',
     topicNumber: '2. Topic',
     topicName: 'Verben und Ergänzungen',
-    subTopics: 'Reflexive Verben: Akkusativ (Q1-10), Reflexive Verben: Dativ (Q11-20), Verben mit Präpositionen (Q21-30)',
-    questionCount: 30,
+    subTopics: 'Reflexive Verben: Akkusativ (Q1-10), Reflexive Verben: Dativ (Q11-20), Verben mit Präpositionen (Q21-50)',
+    questionCount: 50,
     type: 'module'
   }));
   console.log('  ✅ Topic b2_02 created\n');
 
   // Import questions
-  console.log('📝 Importing 30 questions...\n');
+  console.log('📝 Importing 50 questions...\n');
   for (const q of questions) {
     const result = await firestorePost(q.id, toFields(q));
     const status = result.status === 200 || result.status === 409 ? '✅' : '⚠️';
     console.log(`  ${status} ${q.id}: ${q.questionText.substring(0, 50)}...`);
   }
 
-  console.log('\n🎉 Done! 30 questions imported to moduleQuizQuestions');
+  console.log('\n🎉 Done! 50 questions imported to moduleQuizQuestions');
   console.log('\n📊 View in Firebase Console:');
   console.log('  https://console.firebase.google.com/project/b2-deutsch-app/firestore');
 }
