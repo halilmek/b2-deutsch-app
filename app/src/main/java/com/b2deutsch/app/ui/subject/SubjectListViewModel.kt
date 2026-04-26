@@ -70,6 +70,50 @@ class SubjectListViewModel @Inject constructor(
         _selectedSubject.value = subject
     }
 
+    fun loadQuizzesForCategory(level: String, category: String) {
+        viewModelScope.launch {
+            _isLoading.value = true
+            
+            // For quiz categories, return subjects that represent quiz topics
+            val quizSubjects = when (category) {
+                "reading" -> getReadingQuizSubjects(level)
+                "listening" -> getListeningQuizSubjects(level)
+                "writing" -> getWritingQuizSubjects(level)
+                "speaking" -> getSpeakingQuizSubjects(level)
+                else -> emptyList()
+            }
+            
+            _subjects.value = quizSubjects
+            _isLoading.value = false
+        }
+    }
+
+    private fun getReadingQuizSubjects(level: String): List<Subject> = listOf(
+        Subject(id = "${level.lowercase()}_reading_1", level = level, name = "📖 Beruf & Arbeit", nameShort = "Reading 1", description = "Reading comprehension about job and work topics.", category = Constants.Categories.READING, iconEmoji = "📖", order = 1, quizCount = 10),
+        Subject(id = "${level.lowercase()}_reading_2", level = level, name = "📖 Gesundheit & Medizin", nameShort = "Reading 2", description = "Reading comprehension about health and medicine.", category = Constants.Categories.READING, iconEmoji = "📖", order = 2, quizCount = 10),
+        Subject(id = "${level.lowercase()}_reading_3", level = level, name = "📖 Umwelt & Natur", nameShort = "Reading 3", description = "Reading comprehension about environment and nature.", category = Constants.Categories.READING, iconEmoji = "📖", order = 3, quizCount = 10),
+        Subject(id = "${level.lowercase()}_reading_4", level = level, name = "📖 Gesellschaft & Soziales", nameShort = "Reading 4", description = "Reading comprehension about society and social issues.", category = Constants.Categories.READING, iconEmoji = "📖", order = 4, quizCount = 10),
+        Subject(id = "${level.lowercase()}_reading_5", level = level, name = "📖 Medien & Kommunikation", nameShort = "Reading 5", description = "Reading comprehension about media and communication.", category = Constants.Categories.READING, iconEmoji = "📖", order = 5, quizCount = 10)
+    )
+
+    private fun getListeningQuizSubjects(level: String): List<Subject> = listOf(
+        Subject(id = "${level.lowercase()}_listening_1", level = level, name = "🎧 Alltagsgespräche", nameShort = "Listening 1", description = "Listen to everyday conversations.", category = Constants.Categories.LISTENING, iconEmoji = "🎧", order = 1, quizCount = 8),
+        Subject(id = "${level.lowercase()}_listening_2", level = level, name = "🎧 Nachrichten & Berichte", nameShort = "Listening 2", description = "Listen to news and reports.", category = Constants.Categories.LISTENING, iconEmoji = "🎧", order = 2, quizCount = 8),
+        Subject(id = "${level.lowercase()}_listening_3", level = level, name = "🎧 Interviews & Diskussionen", nameShort = "Listening 3", description = "Listen to interviews and discussions.", category = Constants.Categories.LISTENING, iconEmoji = "🎧", order = 3, quizCount = 8)
+    )
+
+    private fun getWritingQuizSubjects(level: String): List<Subject> = listOf(
+        Subject(id = "${level.lowercase()}_writing_1", level = level, name = "✍️ E-Mail schreiben", nameShort = "Writing 1", description = "Practice writing formal and informal emails.", category = Constants.Categories.WRITING, iconEmoji = "✍️", order = 1, quizCount = 5),
+        Subject(id = "${level.lowercase()}_writing_2", level = level, name = "✍️ Foruminbeitrag", nameShort = "Writing 2", description = "Practice writing forum posts and comments.", category = Constants.Categories.WRITING, iconEmoji = "✍️", order = 2, quizCount = 5),
+        Subject(id = "${level.lowercase()}_writing_3", level = level, name = "✍️ Aufsatz", nameShort = "Writing 3", description = "Practice essay writing with different topics.", category = Constants.Categories.WRITING, iconEmoji = "✍️", order = 3, quizCount = 5)
+    )
+
+    private fun getSpeakingQuizSubjects(level: String): List<Subject> = listOf(
+        Subject(id = "${level.lowercase()}_speaking_1", level = level, name = "🎤 Alltagsgespräch", nameShort = "Speaking 1", description = "Practice everyday conversation.", category = Constants.Categories.SPEAKING, iconEmoji = "🎤", order = 1, quizCount = 5),
+        Subject(id = "${level.lowercase()}_speaking_2", level = level, name = "🎤 Meinung äußern", nameShort = "Speaking 2", description = "Practice expressing opinions.", category = Constants.Categories.SPEAKING, iconEmoji = "🎤", order = 2, quizCount = 5),
+        Subject(id = "${level.lowercase()}_speaking_3", level = level, name = "🎤 Diskussion", nameShort = "Speaking 3", description = "Practice discussion skills.", category = Constants.Categories.SPEAKING, iconEmoji = "🎤", order = 3, quizCount = 5)
+    )
+
     fun getDefaultSubjects(level: String): List<Subject> {
         return when (level) {
             "B2" -> getB2Subjects()

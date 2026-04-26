@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
@@ -62,9 +63,51 @@ class HomeFragment : Fragment() {
     }
 
     private fun setupClickListeners() {
-        // Exams card - goes to exams for selected level (default C1)
+        // Exams card
         binding.cardExams.setOnClickListener {
             findNavController().navigate(R.id.action_home_to_exams)
+        }
+
+        // Reading card - goes to SubjectList with reading filter
+        binding.cardReading.setOnClickListener {
+            val bundle = Bundle().apply {
+                putString("level", "B2")
+                putString("category", "reading")
+            }
+            findNavController().navigate(R.id.action_home_to_subjectList, bundle)
+        }
+
+        // Listening card - goes to SubjectList with listening filter
+        binding.cardListening.setOnClickListener {
+            val bundle = Bundle().apply {
+                putString("level", "B2")
+                putString("category", "listening")
+            }
+            findNavController().navigate(R.id.action_home_to_subjectList, bundle)
+        }
+
+        // Writing card - goes to SubjectList with writing filter
+        binding.cardWriting.setOnClickListener {
+            val bundle = Bundle().apply {
+                putString("level", "B2")
+                putString("category", "writing")
+            }
+            findNavController().navigate(R.id.action_home_to_subjectList, bundle)
+        }
+
+        // Speaking card - premium only
+        binding.cardSpeaking.setOnClickListener {
+            val user = homeViewModel.currentUser.value
+            val isPremium = user?.subscriptionTier == "premium"
+            if (isPremium) {
+                val bundle = Bundle().apply {
+                    putString("level", "B2")
+                    putString("category", "speaking")
+                }
+                findNavController().navigate(R.id.action_home_to_subjectList, bundle)
+            } else {
+                Toast.makeText(requireContext(), "Speaking practice requires Premium ✨", Toast.LENGTH_SHORT).show()
+            }
         }
     }
 

@@ -151,7 +151,7 @@ class QuizResultFragment : Fragment() {
         val explanation = TextView(requireContext()).apply {
             text = "💡 ${wrong.explanation}"
             textSize = 13f
-            setTextColor(ContextCompat.getColor(context, android.color.darker_gray))
+            setTextColor(ContextCompat.getColor(context, android.R.color.darker_gray))
             setPadding(0, 8, 0, 0)
         }
         
