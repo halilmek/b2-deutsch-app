@@ -107,8 +107,8 @@ class QuizActiveFragment : Fragment() {
 
                 binding.rgOptions.removeAllViews()
                 
-                // Get options safely
-                val options = question.options ?: emptyList<String>()
+                // Get options safely - handle null from Firestore
+                val options: List<String> = question.options?.takeIf { it != null } ?: emptyList()
                 
                 if (options.isNotEmpty()) {
                     options.forEach { option ->
