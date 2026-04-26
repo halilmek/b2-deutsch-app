@@ -1,187 +1,143 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-04-26
+**Last Updated:** 2026-04-26 23:50 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase Project:** b2-deutsch-app (project_number: 419122108874)
 **Firebase Storage:** b2-deutsch-app.firebasestorage.app
 
 ---
 
-## 🟢 BUILDING RIGHT NOW
+## 🔴 CRITICAL — b2_questions.json WAS CORRUPTED
 
-### B2 Module — Konnektoren Questions (Topic 1)
+**What happened:** The `gen_merged_topic1.py` script (run during Topic 1 merge) copied the same 96 konnektor questions across ALL 22 topics in `b2_questions.json`. Every topic 2–23 was filled with duplicate copies of Topic 1's questions.
 
-**File:** `content/reading/b2_konnektoren_questions.md`
+**Total questions in JSON:** 2,246 | **Unique texts:** 191 | **Duplicates:** 2,005
 
-**96 questions prepared** (12 per konnektor):
-| Konnektor | Questions | Ready? |
-|-----------|-----------|--------|
-| als | 12 | ✅ Ready — needs review |
-| bevor | 12 | ✅ Ready — needs review |
-| bis | 12 | ✅ Ready — needs review |
-| seitdem | 12 | ✅ Ready — needs review |
-| während | 12 | ✅ Ready — needs review |
-| wenn | 12 | ✅ Ready — needs review |
-| sobbing | 12 | ✅ Ready — needs review |
-| solange | 12 | ✅ Ready — needs review |
-
-**Question format:**
-```
-id: "b2_01_als_q001"
-module: "B2"
-topicNumber: "1. Topic"
-topicName: "Konnektoren"
-konnektor: "als"
-questionText: "___ ich in Deutschland ankam, konnte ich kein Deutsch."
-options: ["Wenn", "Als", "Während", "Bevor"]
-correctAnswer: "Als"
-explanation: "\"Als\" wird für einmalige Situationen in der Vergangenheit verwendet..."
-difficulty: "easy"
-level: "B2"
-```
-
-**Topics 2–23:** Pending — need to be generated with same structure
+**Fix applied (2026-04-26):**
+- Added 50 Topic 2 questions to `b2_questions.json`
+- Bumped SharedPreferences `quiz_progress_prefs_v4` to clear cached questions
+- Topic 2 now has correct 50 questions in local JSON
+- Topic 1 was already correct in JSON (96 konnektor questions)
 
 ---
 
-## ✅ COMPLETED
+## 📋 CURRENT QUESTION STATUS
 
-### 1. LocalQuestionBank — Offline 100 Q/Topic System
-- **File:** `app/src/main/java/com/b2deutsch/app/data/local/LocalQuestionBank.kt`
-- Questions loaded from `app/src/main/assets/b2_questions.json` (offline)
-- Active/Passive tracking via SharedPreferences
-- 10 random questions per quiz from active pool
-- Loop reset after 90+ solved
-- `getAllTopicIds(level)` — returns topic IDs for any level
+### Local `b2_questions.json`
+| Topic | ID | Questions | Content | Status |
+|-------|-----|---------|---------|--------|
+| 1 | b2_01 | 96 | Konnektoren (als, bevor, bis...) | ✅ Correct |
+| 2 | b2_02 | 50 | Verben und Ergänzungen (Reflexive + Präpositionen) | ✅ Correct |
+| 3-23 | b2_03–b2_23 | 100 each | **ALL WRONG** — duplicate konnektor questions | ❌ Need rebuild |
 
-### 2. QuizViewModel — Updated
-- Uses LocalQuestionBank instead of Firestore for quiz questions
-- `startQuiz()`, `startNextQuiz()`, `retryQuiz()`, `resetTopicProgress()`
-- `loadQuizzes(level)` — loads topic list for QuizzesFragment
-- `isComplete`, `quizMessage`, `errorMessage` LiveData
-
-### 3. Result Screens — Updated
-- `fragment_quiz_result.xml`: progress bar, completion banner
-- `fragment_subject_result.xml`: Next Quiz button, progress display
-- `QuizResultFragment.kt` + `SubjectResultFragment.kt`: observe new LiveData
-
-### 4. QuestionResult Data Class
-- Added to `Quiz.kt` — fixes QuizResultAdapter compile error
-
-### 5. Missing Colors Fixed
-- `colors.xml`: added `orange_100`, `orange_800`, `green_700`
-
-### 6. 100 Q/Topic Generator (All Levels)
-- **File:** `gen_all_levels_100q.py`
-- 83 topics × 100 questions = **8,300 total**
-- A1: 15 topics, A2: 15, B1: 15, B2: 23, C1: 15
-- **Not yet pushed to Firebase** (API key restricted)
-
-### 7. Firebase Data Structure (Two Collections)
-```
-grammarQuizBank/      — General grammar (all levels, all types)
-moduleQuizQuestions/  — B2 exam module (konnektor-specific, MCQ only)
-```
+### Firebase `moduleQuizQuestions`
+| Topic | Questions | Content | Status |
+|-------|-----------|---------|--------|
+| 1 | 96 | Konnektoren | ✅ Ready |
+| 2 | 50 | Verben und Ergänzungen | ✅ Ready |
+| 3-23 | 0 | — | ❌ Need import |
 
 ---
 
-## 🔴 BLOCKED / NEEDS ATTENTION
+## 🔌 APP FLOW (How Questions Are Loaded)
 
-### Firebase Import — BLOCKED
-- All API keys are Android/JS-client restricted
-- Cannot write to Firestore from server script
-- **Solution options:**
-  1. Set Firestore rules to `allow read, write: if true` → import from server
-  2. Create unrestricted server API key → import from server
-  3. Run import from MacBook with Firebase CLI
+```
+Quiz starts
+    │
+    ▼
+QuizViewModel.startQuiz(subjectId)
+    │
+    ▼
+LocalQuestionBank.getNextQuiz(context, subjectId)
+    │
+    ├─► Reads from b2_questions.json (LOCAL ASSET)
+    │
+    ├─► topicId = "b2_01" → gets 96 questions from JSON
+    │
+    └─► topicId = "b2_02" → gets 50 questions from JSON ✅ NEW
+            │
+            ▼
+    SharedPreferences tracks active/passive Q IDs
+```
 
-### B2 Topics 2–23 Questions — PENDING
-- Topic 1 (Konnektoren) 96 Q: **ready, needs review**
-- Topics 2–23: **not started**
-- Need same structure: module / topicNumber / topicName / konnektor
+**Firebase `moduleQuizQuestions` is NOT read by the app yet.**
+It exists as a cloud backup and for future sync features.
 
 ---
 
-## 📋 WHAT NEEDS TO BE DONE
+## 📌 TOPIC LIST (B2 — 22 Topics)
 
-### Immediately:
-- [ ] **REVIEW Topic 1 questions** (96 konnektor questions above)
-- [ ] **PUSH Topic 1 to Firebase** (`moduleQuizQuestions` collection)
-- [ ] **DELETE old `grammarQuizBank` B2 module questions** from Firebase
-- [ ] **Generate Topics 2–23** with same konnektor-specific structure
+| # | ID | Topic Name | Questions in JSON | Questions in Firebase |
+|---|-----|------------|-----------------|---------------------|
+| 1 | b2_01 | Konnektoren | 96 ✅ | 96 ✅ |
+| 2 | b2_02 | Verben und Ergänzungen | 50 ✅ | 50 ✅ |
+| 3 | b2_03 | Zeitformen in der Vergangenheit | 100 ❌ | 0 |
+| 4 | b2_04 | Zeitformen der Zukunft | 100 ❌ | 0 |
+| 5 | b2_05 | Futur mit werden | 100 ❌ | 0 |
+| 6 | b2_06 | Angaben im Satz | 100 ❌ | 0 |
+| 7 | b2_07 | Verneinung mit nicht | 100 ❌ | 0 |
+| 8 | b2_08 | Negationswörter | 100 ❌ | 0 |
+| 9 | b2_09 | Passiv Präteritum | 100 ❌ | 0 |
+| 10 | b2_10 | Konjunktiv II der Vergangenheit | 100 ❌ | 0 |
+| 11 | b2_11 | Konjunktiv II mit Modalverben | 100 ❌ | 0 |
+| 12 | b2_12 | Pronomen: einander | 100 ❌ | 0 |
+| 13 | b2_13 | Weiterführende Nebensätze | 100 ❌ | 0 |
+| 14 | b2_14 | Präpositionen mit Genitiv | 100 ❌ | 0 |
+| 15 | b2_15 | je und desto/umso + Komparativ | 100 ❌ | 0 |
+| 16 | b2_16 | Nomen-Verb-Verbindungen | 100 ❌ | 0 |
+| 17 | b2_17 | Folgen ausdrücken | 100 ❌ | 0 |
+| 18 | b2_18 | Ausdrücke mit Präpositionen | 100 ❌ | 0 |
+| 19 | b2_19 | Irreale Konditionalsätze | 100 ❌ | 0 |
+| 20 | b2_20 | Relativsätze im Genitiv | 100 ❌ | 0 |
+| 21 | b2_21 | Konjunktiv I in der indirekten Rede | 100 ❌ | 0 |
+| 22 | b2_22 | Konjunktiv II in irrealen Vergleichssätze | 100 ❌ | 0 |
 
-### Short-term:
-- [ ] **Push Topics 2–23** to `moduleQuizQuestions` collection (one by one for review)
-- [ ] **Build module quiz UI** in Android app to use `moduleQuizQuestions`
-- [ ] **Separate navigation**: "Module Quiz" vs "General Quiz"
+---
 
-### Medium-term:
-- [ ] **A1–C1 module questions** — same structure
-- [ ] **Reading passages** — AI-generated
-- [ ] **Vocabulary flashcards**
+## 🛠️ WHAT NEEDS TO BE DONE
+
+### Priority 1 — Topics 3–23: Rebuild JSON Content
+- Generate 100 proper grammar questions per topic
+- Match Firebase schema: `{id, subjectId, level, questionText, options, correctAnswer, explanation, type, difficulty, tags}`
+- You provide curated questions OR I generate with AI
+
+### Priority 2 — Firebase Import for Topics 3–23
+- Create import scripts per topic (same as `firebase_import_topic2_verben.js`)
+- Run on MacBook after regenerating `b2_questions.json`
+
+### Priority 3 — App Enhancement (Future)
+- Add Firebase fallback: if topic not found in `b2_questions.json`, query `moduleQuizQuestions` by topicNumber
+- This enables cloud sync and content updates without app rebuilds
 
 ---
 
 ## 📁 KEY FILES
 
-| File | Purpose |
-|------|---------|
-| `app/src/main/assets/b2_questions.json` | 8,300 general grammar questions (offline bundle) |
-| `content/reading/all_levels_100_questions.json` | Source JSON for all levels |
-| `content/reading/b2_konnektoren_questions.md` | **Current work — Topic 1 questions (96 Q)** |
-| `content/reading/gen_all_levels_100q.py` | 100Q/topic generator script |
-| `content/reading/firebase_import_rest.js` | Firebase import script (needs server API key) |
-| `app/src/main/java/com/b2deutsch/app/data/local/LocalQuestionBank.kt` | Offline question bank + progress tracking |
-| `app/src/main/java/com/b2deutsch/app/ui/quiz/QuizViewModel.kt` | Quiz logic |
+### Firebase Scripts
+- `content/reading/firebase_import_konnektoren.js` — Topic 1 (96 Q) → Firebase ✅
+- `content/reading/firebase_import_topic2_verben.js` — Topic 2 (50 Q) → Firebase ✅
+- `content/reading/firebase_fix_bis.js` — Fix 3 wrong bis questions in Firebase ✅
+- `content/reading/firebase_delete_old_konnektoren.js` — Cleanup script (ran, found 0 docs)
+
+### App Files
+- `app/src/main/assets/b2_questions.json` — Local question bank (CORRUPTED — needs fix for Topics 3–23)
+- `app/src/main/java/.../LocalQuestionBank.kt` — Active/passive tracking, SharedPreferences v4
+- `app/src/main/java/.../QuizViewModel.kt` — Quiz logic, reads from LocalQuestionBank
+
+### Architecture
+- **Primary source:** `b2_questions.json` (local asset, bundled in app)
+- **Cloud backup:** Firebase `moduleQuizQuestions` (per-topic collections)
+- **Progress:** SharedPreferences (offline, fast)
+- **Two collections:** `grammarQuizBank` (general) + `moduleQuizQuestions` (B2 module)
 
 ---
 
-## 📊 FIREBASE COLLECTIONS
+## 🔗 FIREBASE CONSOLE LINKS
 
-### grammarQuizBank (General Grammar)
-- **8,300 questions** — A1 (1,500), A2 (1,500), B1 (1,500), B2 (2,300), C1 (1,500)
-- 83 topics × 100 questions
-- Fields: id, subjectId, type, questionText, options, correctAnswer, difficulty, topicName, level
-- **NOT yet pushed to Firebase** (blocked by API key)
-
-### moduleQuizQuestions (B2 Exam Module)
-- **96 questions** (Topic 1 only — als, bevor, bis, seitdem, während, wenn, sobbing, solange)
-- Fields: id, module, topicNumber, topicName, konnektor, questionText, options, correctAnswer, explanation, difficulty, level
-- **Ready to push** — needs user review first
+- **moduleQuizQuestions:** https://console.firebase.google.com/project/b2-deutsch-app/firestore/data~2FmoduleQuizQuestions
+- **grammarQuizBank:** https://console.firebase.google.com/project/b2-deutsch-app/firestore/data~2FgrammarQuizBank
+- **Firestore Rules:** https://console.firebase.google.com/project/b2-deutsch-app/firestore/rules
 
 ---
 
-## 🗂️ MODULE QUIZ DATA MODEL
-
-```kotlin
-// moduleQuizQuestions collection schema
-data class ModuleQuestion(
-    val id: String,           // "b2_01_als_q001"
-    val module: String,       // "B2"
-    val topicNumber: String,  // "1. Topic"
-    val topicName: String,    // "Konnektoren"
-    val konnektor: String,    // "als"
-    val questionText: String,
-    val options: List<String>,
-    val correctAnswer: String,
-    val explanation: String,
-    val difficulty: String,    // "easy" | "medium" | "hard"
-    val level: String        // "B2"
-)
-```
-
----
-
-## 📅 RECENT COMMITS
-
-| Date | Commit | Description |
-|------|--------|-------------|
-| 2026-04-26 | `4ede3f7` | feat: 100-questions-per-topic offline quiz system |
-| 2026-04-26 | `3a1ab66` | feat: add A1-A2-B1-C1 question banks + all-levels generator |
-| 2026-04-26 | `6cfb314` | fix: add missing color resources |
-| 2026-04-26 | `8c6eaaa` | fix: correct QuestionResult import in QuizResultAdapter |
-| 2026-04-26 | `0c6a4e8` | fix: add loadQuizzes+quizzes to QuizViewModel |
-
----
-
-_Last updated: 2026-04-26 21:17 UTC_
+_Last updated: 2026-04-26 23:50 UTC_
