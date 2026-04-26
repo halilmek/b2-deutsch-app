@@ -1,203 +1,187 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-04-25 20:20 UTC
+**Last Updated:** 2026-04-26
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase Project:** b2-deutsch-app (project_number: 419122108874)
+**Firebase Storage:** b2-deutsch-app.firebasestorage.app
 
 ---
 
-## 📊 CURRENT STATUS — 2026-04-25 20:20 UTC
+## 🟢 BUILDING RIGHT NOW
 
-### ✅ TODAY'S COMPLETED WORK
+### B2 Module — Konnektoren Questions (Topic 1)
 
-**Home Screen (Simplified):**
-- Removed streak/lessons cards
-- Removed feature buttons (Lessons, Quizzes, Vocabulary, Writing, Speaking, Themen & Fächer)
-- Removed logout buttons
-- Added red "📝 EXAMS" card below C1 level
+**File:** `content/reading/b2_konnektoren_questions.md`
 
-**Subject List (B2) — 23 Numbered Topics:**
-- Removed category filter chips (Alle, Grammatik, Lesen, Wortschatz)
-- Added 23 NEW numbered grammar topics with Turkish explanations:
-  1. Konnektoren (als, bevor, bis, seitdem, während, wenn)
-  2. Konnektoren (sobald, solange)
-  3. Verben und Ergänzungen
-  4. Zeitformen in der Vergangenheit
-  5. Zeitformen der Zukunft
-  6. Futur mit werden
-  7. Angaben im Satz
-  8. Verneinung mit nicht
-  9. Negationswörter
-  10. Passiv Präteritum
-  11. Konjunktiv II der Vergangenheit
-  12. Konjunktiv II mit Modalverben
-  13. Pronomen: einander
-  14. Weiterführende Nebensätze
-  15. Präpositionen mit Genitiv
-  16. je und desto/umso + Komparativ
-  17. Nomen-Verb-Verbindungen
-  18. Folgen ausdrücken
-  19. Ausdrücke mit Präpositionen
-  20. irreale Konditionalsätze in der Vergangenheit
-  21. Relativsätze im Genitiv
-  22. Konjunktiv I in der indirekten Rede
-  23. Konjunktiv II in irrealen Vergleichssätzen
+**96 questions prepared** (12 per konnektor):
+| Konnektor | Questions | Ready? |
+|-----------|-----------|--------|
+| als | 12 | ✅ Ready — needs review |
+| bevor | 12 | ✅ Ready — needs review |
+| bis | 12 | ✅ Ready — needs review |
+| seitdem | 12 | ✅ Ready — needs review |
+| während | 12 | ✅ Ready — needs review |
+| wenn | 12 | ✅ Ready — needs review |
+| sobbing | 12 | ✅ Ready — needs review |
+| solange | 12 | ✅ Ready — needs review |
 
-**Each topic includes:**
-- 2-paragraph description with examples
-- Learning tips
-- "Quiz starten" button (NO "Zurück zur Übersicht")
+**Question format:**
+```
+id: "b2_01_als_q001"
+module: "B2"
+topicNumber: "1. Topic"
+topicName: "Konnektoren"
+konnektor: "als"
+questionText: "___ ich in Deutschland ankam, konnte ich kein Deutsch."
+options: ["Wenn", "Als", "Während", "Bevor"]
+correctAnswer: "Als"
+explanation: "\"Als\" wird für einmalige Situationen in der Vergangenheit verwendet..."
+difficulty: "easy"
+level: "B2"
+```
 
-**Exams Module:**
-- ExamsFragment — 4 exam types (Leseverstehen, Hörverstehen, Schreiben, Sprechen)
-- ExamActiveFragment — timer, question display, navigation
-- ExamResultFragment — score, pass/fail, encouragement
-
-**Bug Fixes:**
-- QuizResult import fix (data model not ui.quiz)
-- selectedId type mismatch fix
-- View.NO_ID check added
-- exams_to_exams navigation fix
-- questionCount variable fix
-- gray_600, gray_700, gray_100 colors added
+**Topics 2–23:** Pending — need to be generated with same structure
 
 ---
 
-## 📋 MASTER TODO LIST
+## ✅ COMPLETED
 
-### 🔴 CRITICAL — Do These First
+### 1. LocalQuestionBank — Offline 100 Q/Topic System
+- **File:** `app/src/main/java/com/b2deutsch/app/data/local/LocalQuestionBank.kt`
+- Questions loaded from `app/src/main/assets/b2_questions.json` (offline)
+- Active/Passive tracking via SharedPreferences
+- 10 random questions per quiz from active pool
+- Loop reset after 90+ solved
+- `getAllTopicIds(level)` — returns topic IDs for any level
 
-- [ ] **Quiz Content Generation** — Generate quiz questions for all 23 topics
-  - Question types: MCQ, True/False, Fill-in-Blank, Matching, Ordering
-  - Each topic needs 5-10 questions
-  - Questions should use real B2 exam format and texts from database
-  - Save to Firestore for multi-use (user completes quiz → next quiz from DB)
+### 2. QuizViewModel — Updated
+- Uses LocalQuestionBank instead of Firestore for quiz questions
+- `startQuiz()`, `startNextQuiz()`, `retryQuiz()`, `resetTopicProgress()`
+- `loadQuizzes(level)` — loads topic list for QuizzesFragment
+- `isComplete`, `quizMessage`, `errorMessage` LiveData
 
-- [ ] **Firebase Import** — Push reading content + quiz content to Firestore
-  - Run: `node content/reading/firebase_import.js --all`
-  - Requires: `GOOGLE_APPLICATION_CREDENTIALS` set
+### 3. Result Screens — Updated
+- `fragment_quiz_result.xml`: progress bar, completion banner
+- `fragment_subject_result.xml`: Next Quiz button, progress display
+- `QuizResultFragment.kt` + `SubjectResultFragment.kt`: observe new LiveData
 
-- [ ] **Build APK** — Compile and test on phone
-  - Run: `./gradlew assembleDebug`
-  - Install: `adb install app/build/outputs/apk/debug/app-debug.apk`
+### 4. QuestionResult Data Class
+- Added to `Quiz.kt` — fixes QuizResultAdapter compile error
 
-### 🟡 IMPORTANT — Before Play Store
+### 5. Missing Colors Fixed
+- `colors.xml`: added `orange_100`, `orange_800`, `green_700`
 
-- [ ] **Play Store Account** — Create developer account ($25 one-time)
-- [ ] **App Signing Key** — Generated automatically by Android Studio
-- [ ] **App Icons & Screenshots** — Required for Play Store listing
-- [ ] **Privacy Policy URL** — Required for Play Store
-- [ ] **Write app description** — For Play Store listing (in German)
+### 6. 100 Q/Topic Generator (All Levels)
+- **File:** `gen_all_levels_100q.py`
+- 83 topics × 100 questions = **8,300 total**
+- A1: 15 topics, A2: 15, B1: 15, B2: 23, C1: 15
+- **Not yet pushed to Firebase** (API key restricted)
 
----
-
-### 🟢 IN PROGRESS
-
-- [ ] **Quiz Content** — Create questions for 23 B2 grammar topics
-  - Will use reading texts from database
-  - Multiple question types per quiz
-  - Proper B2 difficulty level
-  - Save to Firestore for reuse
-
----
-
-### 🟢 NICE TO HAVE — Future Phases
-
-- [ ] **Topics 5-12 content** — Generate remaining 8 topics (80 more texts)
-- [ ] **Writing practice feature** — AI evaluation of written German
-- [ ] **Speaking practice feature** — AI conversation partner
-- [ ] **A1, A1, B1, C1 levels** — Expand beyond B2
-
----
-
-## ✅ COMPLETED WORK
-
-### Project Setup
-- [x] Android project scaffolded (Kotlin + Jetpack Compose)
-- [x] Firebase project configured (Auth + Firestore + Storage)
-- [x] GitHub repository: halilmek/b2-deutsch-app
-- [x] Package name: `com.b2deutsch.app`
-
-### Authentication (Phase 3)
-- [x] LoginFragment with email/password
-- [x] SignUpFragment with display name
-- [x] AuthViewModel with Firebase Auth integration
-- [x] Navigation: login → home flow
-- [x] Logout functionality
-
-### Home Screen (SIMPLIFIED — 2026-04-25)
-- [x] Header with welcome message
-- [x] Level selection grid (A1-C1)
-- [x] Red EXAMS card below levels
-- [x] No streak/lessons cards
-- [x] No feature buttons
-- [x] No logout buttons
-
-### Subject → Quiz → Results Flow
-- [x] SubjectListFragment with 23 numbered B2 topics
-- [x] SubjectAdapter
-- [x] SubjectDetailFragment (description + tips + quiz button)
-- [x] SubjectResultFragment (score + explanations)
-- [x] QuizResultAdapter for per-question display
-- [x] NO "Zurück zur Übersicht" button (removed)
-
-### Exams Module (NEW — Core Feature)
-- [x] ExamsFragment — 4 exam types per level
-- [x] ExamActiveFragment — timer, questions, navigation
-- [x] ExamResultFragment — score display, pass/fail
-
-### Navigation System
-- [x] nav_graph.xml with 16 destinations
-- [x] Navigation actions for all flows
-- [x] Start destination: loginFragment
-
-### B2 Reading Comprehension Content
-- [x] 40 texts, 200 questions, 320 vocabulary items (Topics 1-4)
-- [x] Topics 5-12 still needed
-
-### Documentation
-- [x] ROADMAP.md — 12-phase development plan
-- [x] ARCHITECTURE.md — Multi-level architecture
-- [x] PRODUCT_BACKLOG.md — 13 epics, 103 user stories
-- [x] SESSION_GUIDANCE.md — Developer notes
-- [x] PROJECT_STATUS.md — This file
-
----
-
-## 📁 KEY FILE LOCATIONS
-
-| File | Location |
-|------|----------|
-| Android project | `/home/node/.openclaw/workspace/b2-deutsch-app/` |
-| Reading content | `content/reading/` |
-| B2 Topics JSON | `content/reading/b2_reading_topics_4_12.json` |
-| Firebase import | `content/reading/firebase_import.js` |
-| Product backlog | `PRODUCT_BACKLOG.md` |
-| Session guidance | `SESSION_GUIDANCE.md` |
-
----
-
-## 🚨 KNOWN ISSUES
-
-1. **No quiz content yet** — 23 topics exist but no questions generated
-2. **Firebase not populated** — Need service account key to run import
-3. **No APK built/tested** — Need Android Studio + phone
-
----
-
-## 📝 QUICK COMMANDS
-
-```bash
-# Update from GitHub
-cd ~/b2-deutsch-app && git pull origin main
-
-# Push to GitHub (from server)
-cd /home/node/.openclaw/workspace && node push-to-github.js
-
-# Build APK (on MacBook)
-cd ~/b2-deutsch-app && ./gradlew assembleDebug
+### 7. Firebase Data Structure (Two Collections)
+```
+grammarQuizBank/      — General grammar (all levels, all types)
+moduleQuizQuestions/  — B2 exam module (konnektor-specific, MCQ only)
 ```
 
 ---
 
-_Last updated: 2026-04-25 20:20 UTC_
+## 🔴 BLOCKED / NEEDS ATTENTION
+
+### Firebase Import — BLOCKED
+- All API keys are Android/JS-client restricted
+- Cannot write to Firestore from server script
+- **Solution options:**
+  1. Set Firestore rules to `allow read, write: if true` → import from server
+  2. Create unrestricted server API key → import from server
+  3. Run import from MacBook with Firebase CLI
+
+### B2 Topics 2–23 Questions — PENDING
+- Topic 1 (Konnektoren) 96 Q: **ready, needs review**
+- Topics 2–23: **not started**
+- Need same structure: module / topicNumber / topicName / konnektor
+
+---
+
+## 📋 WHAT NEEDS TO BE DONE
+
+### Immediately:
+- [ ] **REVIEW Topic 1 questions** (96 konnektor questions above)
+- [ ] **PUSH Topic 1 to Firebase** (`moduleQuizQuestions` collection)
+- [ ] **DELETE old `grammarQuizBank` B2 module questions** from Firebase
+- [ ] **Generate Topics 2–23** with same konnektor-specific structure
+
+### Short-term:
+- [ ] **Push Topics 2–23** to `moduleQuizQuestions` collection (one by one for review)
+- [ ] **Build module quiz UI** in Android app to use `moduleQuizQuestions`
+- [ ] **Separate navigation**: "Module Quiz" vs "General Quiz"
+
+### Medium-term:
+- [ ] **A1–C1 module questions** — same structure
+- [ ] **Reading passages** — AI-generated
+- [ ] **Vocabulary flashcards**
+
+---
+
+## 📁 KEY FILES
+
+| File | Purpose |
+|------|---------|
+| `app/src/main/assets/b2_questions.json` | 8,300 general grammar questions (offline bundle) |
+| `content/reading/all_levels_100_questions.json` | Source JSON for all levels |
+| `content/reading/b2_konnektoren_questions.md` | **Current work — Topic 1 questions (96 Q)** |
+| `content/reading/gen_all_levels_100q.py` | 100Q/topic generator script |
+| `content/reading/firebase_import_rest.js` | Firebase import script (needs server API key) |
+| `app/src/main/java/com/b2deutsch/app/data/local/LocalQuestionBank.kt` | Offline question bank + progress tracking |
+| `app/src/main/java/com/b2deutsch/app/ui/quiz/QuizViewModel.kt` | Quiz logic |
+
+---
+
+## 📊 FIREBASE COLLECTIONS
+
+### grammarQuizBank (General Grammar)
+- **8,300 questions** — A1 (1,500), A2 (1,500), B1 (1,500), B2 (2,300), C1 (1,500)
+- 83 topics × 100 questions
+- Fields: id, subjectId, type, questionText, options, correctAnswer, difficulty, topicName, level
+- **NOT yet pushed to Firebase** (blocked by API key)
+
+### moduleQuizQuestions (B2 Exam Module)
+- **96 questions** (Topic 1 only — als, bevor, bis, seitdem, während, wenn, sobbing, solange)
+- Fields: id, module, topicNumber, topicName, konnektor, questionText, options, correctAnswer, explanation, difficulty, level
+- **Ready to push** — needs user review first
+
+---
+
+## 🗂️ MODULE QUIZ DATA MODEL
+
+```kotlin
+// moduleQuizQuestions collection schema
+data class ModuleQuestion(
+    val id: String,           // "b2_01_als_q001"
+    val module: String,       // "B2"
+    val topicNumber: String,  // "1. Topic"
+    val topicName: String,    // "Konnektoren"
+    val konnektor: String,    // "als"
+    val questionText: String,
+    val options: List<String>,
+    val correctAnswer: String,
+    val explanation: String,
+    val difficulty: String,    // "easy" | "medium" | "hard"
+    val level: String        // "B2"
+)
+```
+
+---
+
+## 📅 RECENT COMMITS
+
+| Date | Commit | Description |
+|------|--------|-------------|
+| 2026-04-26 | `4ede3f7` | feat: 100-questions-per-topic offline quiz system |
+| 2026-04-26 | `3a1ab66` | feat: add A1-A2-B1-C1 question banks + all-levels generator |
+| 2026-04-26 | `6cfb314` | fix: add missing color resources |
+| 2026-04-26 | `8c6eaaa` | fix: correct QuestionResult import in QuizResultAdapter |
+| 2026-04-26 | `0c6a4e8` | fix: add loadQuizzes+quizzes to QuizViewModel |
+
+---
+
+_Last updated: 2026-04-26 21:17 UTC_
