@@ -51,6 +51,9 @@ class QuizViewModel @Inject constructor(
     private val _isComplete = MutableLiveData(false)
     val isComplete: LiveData<Boolean> = _isComplete
 
+    private val _errorMessage = MutableLiveData<String?>()
+    val errorMessage: LiveData<String?> = _errorMessage
+
     private var quizStartTime = 0L
     private var currentSubjectId = ""
     private var currentQuizQuestionIds = listOf<String>()  // track IDs for completion
