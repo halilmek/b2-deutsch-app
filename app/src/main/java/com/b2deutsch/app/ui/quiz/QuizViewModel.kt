@@ -47,8 +47,7 @@ class QuizViewModel @Inject constructor(
     private var timeRemaining = 0
     private var quizStartTime = 0L
     private var currentSubjectId: String = ""
-    private var availableQuestions = mutableListOf<Question>()
-    private var usedQuestionIndices = mutableSetOf<Int>()
+    private var usedQuestionIds = mutableSetOf<String>()
 
     // Load quizzes for a level (used by QuizzesFragment)
     fun loadQuizzes(level: String = Constants.DEFAULT_LEVEL) {
@@ -65,6 +64,8 @@ class QuizViewModel @Inject constructor(
         }
     }
 
+    private var usedQuestionIds = mutableSetOf<String>()
+
     /**
      * Start a quiz for a specific grammar topic (subjectId like "b2_01", "b2_02", etc.)
      * Questions are loaded directly from the grammar question bank - no reading texts involved.
@@ -76,16 +77,27 @@ class QuizViewModel @Inject constructor(
             _selectedAnswers.value = mutableMapOf()
             _quizResult.value = null
             _errorMessage.value = null
-            usedQuestionIndices.clear()
             
             // Load questions from grammar question bank for this topic
             contentRepository.getGrammarQuestionsBySubject(subjectId)
                 .onSuccess { questions ->
                     if (questions.isNotEmpty()) {
-                        availableQuestions = questions.shuffled().toMutableList()
-                        createQuizFromQuestions(subjectId)
+                        // Filter out already-used questions and shuffle
+                        val unusedQuestions = questions.filter { it.id !in usedQuestionIds }
+                        val questionsToUse = if (unusedQuestions.size >= 5) {
+                            unusedQuestions.shuffled()
+                        } else {
+                            // Reset if we're running low on questions
+                            usedQuestionIds.clear()
+                            questions.shuffled()
+                        }
+                        
+                        // Take 5 questions and mark them as used
+                        val quizQuestions = questionsToUse.take(5)
+                        quizQuestions.forEach { usedQuestionIds.add(it.id) }
+                        
+                        createQuizFromQuestions(quizQuestions, subjectId)
                     } else {
-                        // No questions in DB - use fallback
                         createFallbackQuiz(subjectId)
                     }
                 }
@@ -98,7 +110,7 @@ class QuizViewModel @Inject constructor(
         }
     }
 
-    private fun createQuizFromQuestions(subjectId: String) {
+    private fun createQuizFromQuestions(questions: List<Question>, subjectId: String) {
         // Take 5 questions for this quiz
         val quizQuestions = availableQuestions.take(5)
         
@@ -244,6 +256,16 @@ class QuizViewModel @Inject constructor(
     // Start a new quiz with different questions from the same topic
     fun startNextQuiz() {
         startQuiz(currentSubjectId)
+    }
+    
+    // Retry the SAME quiz with the same questions (for practice)
+    fun retryQuiz() {
+        val currentQuiz = _currentQuiz.value ?: return
+        _selectedAnswers.value = mutableMapOf()
+        _quizResult.value = null
+        _currentQuestionIndex.value = 0
+        quizStartTime = System.currentTimeMillis()
+        updateCurrentQuestion()
     }
 
     private fun getSubjectTitle(subjectId: String): String {

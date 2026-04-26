@@ -44,7 +44,10 @@ class HomeFragment : Fragment() {
         levelAdapter = LevelAdapter(
             onLevelClick = { level ->
                 homeViewModel.setCurrentLevel(level.id)
-                findNavController().navigate(R.id.action_home_to_subjectList)
+                val bundle = Bundle().apply {
+                    putString("level", level.id)
+                }
+                findNavController().navigate(R.id.action_home_to_subjectList, bundle)
             },
             onExamsClick = { level ->
                 homeViewModel.setCurrentLevel(level.id)

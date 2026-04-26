@@ -66,6 +66,11 @@
         android:label="Themen"
         tools:layout="@layout/fragment_subject_list">
 
+        <argument
+            android:name="level"
+            app:argType="string"
+            android:defaultValue="B2" />
+
         <action
             android:id="@+id/action_subjectList_to_subjectDetail"
             app:destination="@id/subjectDetailFragment">

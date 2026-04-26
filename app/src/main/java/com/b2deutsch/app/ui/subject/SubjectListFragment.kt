@@ -31,14 +31,18 @@ class SubjectListFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        setupUI()
+        
+        // Get level from navigation arguments, default to B2
+        val level = arguments?.getString("level") ?: "B2"
+        
+        setupUI(level)
         observeViewModel()
-        viewModel.loadSubjectsForLevel("B2")
+        viewModel.loadSubjectsForLevel(level)
     }
 
-    private fun setupUI() {
+    private fun setupUI(level: String) {
         binding.tvHeader.text = "Themen"
-        binding.tvLevel.text = "Level: B2"
+        binding.tvLevel.text = "Level: $level"
 
         subjectAdapter = SubjectAdapter { subject ->
             viewModel.selectSubject(subject)

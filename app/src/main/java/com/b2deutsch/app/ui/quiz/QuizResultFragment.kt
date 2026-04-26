@@ -62,7 +62,7 @@ class QuizResultFragment : Fragment() {
 
         binding.btnRetry.setOnClickListener {
             subjectId?.let { id ->
-                viewModel.startNextQuiz()
+                viewModel.retryQuiz()
                 val bundle = Bundle().apply {
                     putString("quizId", "${id}_quiz_1")
                     putString("subjectId", id)
