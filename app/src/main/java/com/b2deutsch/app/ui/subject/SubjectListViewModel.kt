@@ -126,46 +126,46 @@ class SubjectListViewModel @Inject constructor(
     }
 
     private fun getB2Subjects(): List<Subject> = listOf(
-        // 1. Konnektoren: als, bevor, bis, seitdem, während, wenn
+        // 1. Konnektoren: als, bevor, bis, seitdem, während, wenn, sobald, solange
         Subject(
             id = "b2_01",
             level = "B2",
-            name = "1. Konnektoren: als, bevor, bis, seitdem, während, wenn",
-            nameShort = "Konnektoren I",
-            description = "Konnektoren sind Wörter, die Sätze oder Satzteile miteinander verbinden. In der B2-Prüfung werden sie häufig verwendet, um komplexe Texte zu verstehen und zu schreiben. Die Konnektoren 'als, bevor, bis, seitdem, während, wenn' beschreiben zeitliche Beziehungen zwischen Handlungen.\n\nBeispiele:\n• 'Als ich in Deutschland ankam, konnte ich kein Deutsch.' (zeitlicher Punkt)\n• 'Bevor ich zur Prüfung ging, habe ich viel geübt.' (vorherige Handlung)\n• 'Während ich in Berlin lebte, habe ich viele Freunde gefunden.' (gleichzeitige Handlung)",
+            name = "1. Konnektoren",
+            nameShort = "Konnektoren",
+            description = "Konnektoren sind Wörter, die Sätze oder Satzteile miteinander verbinden. In der B2-Prüfung werden sie häufig verwendet, um komplexe Texte zu verstehen und zu schreiben. Die 8 temporalen Konnektoren beschreiben zeitliche Beziehungen zwischen Handlungen.\n\n" +
+                "ALS — einmalige Situation in der Vergangenheit\n" +
+                "• 'Als ich in Deutschland ankam, konnte ich kein Deutsch.'\n\n" +
+                "BEVOR — zuerst Handlung A, dann Handlung B\n" +
+                "• 'Bevor ich zur Prüfung ging, habe ich viel geübt.'\n\n" +
+                "BIS — bis zu einem Zeitpunkt oder Ergebnis\n" +
+                "• 'Ich warte hier, bis du fertig bist.'\n\n" +
+                "SEITDEM — seit einem vergangenen Zeitpunkt bis jetzt\n" +
+                "• 'Seitdem ich in Berlin wohne, fühle ich mich wohl.'\n\n" +
+                "WÄHREND — zwei Handlungen geschehen gleichzeitig\n" +
+                "• 'Während sie kocht, hört sie Musik.'\n\n" +
+                "WENN — wiederholte Situation oder Zukunft\n" +
+                "• 'Wenn es regnet, bleibe ich zu Hause.'\n\n" +
+                "SOBALD — unmittelbare Abfolge\n" +
+                "• 'Sobald ich ankomme, rufe ich dich an.'\n\n" +
+                "SOLANGE — während der Zeitdauer einer Handlung\n" +
+                "• 'Solange du lernst, darfst du hier bleiben.'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "🔗",
             order = 1,
-            quizCount = 10,
+            quizCount = 96,
             tips = listOf(
-                "ALS = einmalige Situation in der Vergangenheit",
-                "BEVOR = zuerst Handlung A, dann Handlung B",
-                "WÄHREND = zwei Handlungen geschehen gleichzeitig",
-                "WENN = wiederholte Situation oder Zukunft",
-                "BIS = bis zu einem Zeitpunkt oder Ergebnis",
-                "SEITDEM = seit einem vergangenen Zeitpunkt bis jetzt"
+                "ALS = einmalige Situation in der Vergangenheit (when — one time)",
+                "BEVOR = zuerst Handlung A, dann Handlung B (before)",
+                "BIS = bis zu einem Zeitpunkt oder Ergebnis (until)",
+                "SEITDEM = seit einem vergangenen Zeitpunkt bis jetzt (since)",
+                "WÄHREND = zwei Handlungen geschehen gleichzeitig (while)",
+                "WENN = wiederholte Situation oder Zukunft (when/whenever)",
+                "SOBALD = unmittelbare Abfolge zweier Handlungen (as soon as)",
+                "SOLANGE = während der Zeitdauer einer Handlung (as long as)"
             )
         ),
-        // 2. Konnektoren: sobald, solange
-        Subject(
-            id = "b2_02",
-            level = "B2",
-            name = "2. Konnektoren: sobald, solange",
-            nameShort = "Konnektoren II",
-            description = "Die Konnektoren 'sobald' und 'solange' drücken zeitliche Beziehungen aus, die über einfache Konjunktionen hinausgehen. 'Sobald' bedeutet 'olur olmaz' und zeigt eine Unmittelbarkeit an, während 'solange' 'sürece' bedeutet und eine Bedingung für die Dauer einer Handlung beschreibt.\n\nBeispiele:\n• 'Sobald ich die Prüfung bestanden habe, werde ich feiern.' (unmittelbare Folge)\n• 'Solange du fleißig lernst, wirst du Erfolg haben.' (Bedingung für die Dauer)",
-            category = Constants.Categories.GRAMMAR,
-            iconEmoji = "🔗",
-            order = 2,
-            quizCount = 10,
-            tips = listOf(
-                "SOBALD = sobald etwas passiert, passiert etwas anderes sofort",
-                "SOLANGE = während dieser Zeit / unter dieser Bedingung",
-                "SOBALD = oft mit Futur verwendet: Sobald ich..., werde ich...",
-                "SOLANGE = kann auch mit Konjunktiv II verwendet werden",
-                "Unterscheide: Solange (während) vs. Sobald ( sobald )"
-            )
-        ),
-        // 3. Verben und Ergänzungen
+
+// 3. Verben und Ergänzungen
         Subject(
             id = "b2_03",
             level = "B2",

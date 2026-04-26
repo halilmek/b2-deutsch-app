@@ -226,7 +226,7 @@ object LocalQuestionBank {
             "A1" -> 15
             "A2" -> 15
             "B1" -> 15
-            "B2" -> 23
+            "B2" -> 22
             "C1" -> 15
             else -> 0
         }
