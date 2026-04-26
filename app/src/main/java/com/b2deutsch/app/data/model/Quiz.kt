@@ -37,6 +37,16 @@ data class WrongAnswer(
     val explanation: String
 )
 
+// Question result for QuizResultAdapter (RecyclerView)
+data class QuestionResult(
+    val questionNumber: Int,
+    val questionText: String,
+    val userAnswer: String,
+    val isCorrect: Boolean,
+    val correctAnswer: String,
+    val explanation: String
+)
+
 data class QuizResult(
     val quizId: String = "",
     val userId: String = "",
