@@ -1,8 +1,9 @@
 package com.b2deutsch.app.ui.quiz
 
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.b2deutsch.app.data.model.Question
 import com.b2deutsch.app.data.model.Quiz
@@ -11,6 +12,7 @@ import com.b2deutsch.app.data.model.WrongAnswer
 import com.b2deutsch.app.data.repository.ContentRepository
 import com.b2deutsch.app.data.repository.UserRepository
 import com.b2deutsch.app.util.Constants
+import com.b2deutsch.app.util.QuizProgressManager
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
 import javax.inject.Inject
@@ -18,8 +20,9 @@ import javax.inject.Inject
 @HiltViewModel
 class QuizViewModel @Inject constructor(
     private val contentRepository: ContentRepository,
-    private val userRepository: UserRepository
-) : ViewModel() {
+    private val userRepository: UserRepository,
+    private val application: Application
+) : AndroidViewModel(application) {
 
     private val _quizzes = MutableLiveData<List<Quiz>>()
     val quizzes: LiveData<List<Quiz>> = _quizzes
@@ -48,7 +51,6 @@ class QuizViewModel @Inject constructor(
     private var timeRemaining = 0
     private var quizStartTime = 0L
     private var currentSubjectId: String = ""
-    private var usedQuestionIds = mutableSetOf<String>()
     private var allQuestionsForTopic = listOf<Question>()
 
     // Load quizzes for a level (used by QuizzesFragment)
@@ -66,10 +68,11 @@ class QuizViewModel @Inject constructor(
         }
     }
 
-
     /**
      * Start a quiz for a specific grammar topic (subjectId like "b2_01", "b2_02", etc.)
      * Questions are loaded directly from the grammar question bank - no reading texts involved.
+     * Uses SEQUENTIAL ordering: Q1-5 first, then Q6-10, then Q11-15, etc.
+     * When all questions shown once, counter resets and loops.
      */
     fun startQuiz(subjectId: String) {
         currentSubjectId = subjectId
@@ -79,24 +82,19 @@ class QuizViewModel @Inject constructor(
             _quizResult.value = null
             _errorMessage.value = null
             
-            // Load questions from grammar question bank for this topic
+            // Load ALL questions for this topic from grammar question bank
             contentRepository.getGrammarQuestionsBySubject(subjectId)
                 .onSuccess { questions ->
                     if (questions.isNotEmpty()) {
-                        // Filter out already-used questions and shuffle
-                        val unusedQuestions = questions.filter { it.id !in usedQuestionIds }
-                        val questionsToUse = if (unusedQuestions.size >= 5) {
-                            unusedQuestions.shuffled()
-                        } else {
-                            // Reset if we're running low on questions
-                            usedQuestionIds.clear()
-                            questions.shuffled()
-                        }
-                        
-                        // Take 5 questions and mark them as used
-                        val quizQuestions = questionsToUse.take(5)
-                        quizQuestions.forEach { usedQuestionIds.add(it.id) }
-                        
+                        allQuestionsForTopic = questions
+                        // Use SEQUENTIAL ordering via QuizProgressManager
+                        // Get 5 questions in order (Q1-5, Q6-10, Q11-15...) based on pointer
+                        val indices = QuizProgressManager.getNextQuestionIndices(
+                            application,
+                            subjectId,
+                            questions.size
+                        )
+                        val quizQuestions = indices.mapNotNull { questions.getOrNull(it) }
                         createQuizFromQuestions(quizQuestions, subjectId)
                     } else {
                         createFallbackQuiz(subjectId)
@@ -265,19 +263,69 @@ class QuizViewModel @Inject constructor(
         )
     }
 
-    // Start a new quiz with different questions from the same topic
+    /**
+     * Start the NEXT quiz with the next 5 questions in sequence.
+     * This is called when user clicks "NEXT QUIZ" after completing a quiz.
+     * Pointer advances by 5 each time. Resets to 0 when all questions exhausted.
+     */
     fun startNextQuiz() {
         startQuiz(currentSubjectId)
     }
     
-    // Retry the SAME quiz with the same questions (for practice)
+    /**
+     * Reset progress for current subject and start fresh from Q1.
+     * Useful when user wants to restart the question cycle.
+     */
+    fun resetAndRestartQuiz() {
+        QuizProgressManager.resetProgress(application, currentSubjectId)
+        startQuiz(currentSubjectId)
+    }
+    
+    /**
+     * Retry the SAME quiz with the same 5 questions (for practice).
+     * Uses the previously shown batch based on current pointer position.
+     */
     fun retryQuiz() {
-        val currentQuiz = _currentQuiz.value ?: return
+        val quiz = _currentQuiz.value ?: return
+        if (allQuestionsForTopic.isEmpty()) return
+        
+        // Get the batch that was just shown (current pointer - 5 to current pointer - 1)
+        val currentPointer = QuizProgressManager.getCurrentPointer(application, currentSubjectId)
+        val startIndex = (currentPointer - 5).coerceAtLeast(0)
+        
+        val indices = startIndex until (startIndex + 5)
+        val quizQuestions = indices.mapNotNull { allQuestionsForTopic.getOrNull(it) }
+        
         _selectedAnswers.value = mutableMapOf()
         _quizResult.value = null
         _currentQuestionIndex.value = 0
         quizStartTime = System.currentTimeMillis()
+        
+        // Reload same questions
+        val newQuiz = Quiz(
+            id = quiz.id,
+            level = quiz.level,
+            category = quiz.category,
+            title = quiz.title,
+            taskType = quiz.taskType,
+            timeLimit = quiz.timeLimit,
+            passingScore = quiz.passingScore,
+            questions = quizQuestions
+        )
+        _currentQuiz.value = newQuiz
         updateCurrentQuestion()
+    }
+
+    /**
+     * Get current progress info for UI display.
+     * Returns string like "Frage 1-5 von 50" or "Frage 6-10 von 50"
+     */
+    fun getQuizProgressInfo(): String {
+        val total = allQuestionsForTopic.size
+        val pointer = QuizProgressManager.getCurrentPointer(application, currentSubjectId)
+        val currentBatchStart = (pointer - 5).coerceAtLeast(0) + 1
+        val currentBatchEnd = pointer.coerceAtMost(total)
+        return "Frage $currentBatchStart-$currentBatchEnd von $total"
     }
 
     private fun getSubjectTitle(subjectId: String): String {
