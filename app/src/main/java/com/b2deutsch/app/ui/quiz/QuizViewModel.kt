@@ -56,10 +56,9 @@ class QuizViewModel @Inject constructor(
 
     private var quizStartTime = 0L
     private var currentSubjectId = ""
-    private var currentQuizQuestionIds = listOf<String>()  // track IDs for completion
+    private var currentQuizQuestionIds = listOf<String>()
 
     init {
-        // Initialize question bank from assets on startup
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
                 LocalQuestionBank.initializeFromAssets(application)
@@ -67,11 +66,6 @@ class QuizViewModel @Inject constructor(
         }
     }
 
-    /**
-     * Start a quiz for a grammar topic (subjectId like "b2_01").
-     * Uses LOCAL question bank (100 questions per topic, offline-capable).
-     * Selects 10 random questions from ACTIVE (unsolved) pool.
-     */
     fun startQuiz(subjectId: String) {
         currentSubjectId = subjectId
         viewModelScope.launch {
@@ -86,7 +80,6 @@ class QuizViewModel @Inject constructor(
             }
 
             if (result.isComplete) {
-                // All 100 questions done!
                 _isComplete.value = true
                 _quizMessage.value = result.message
                 _isLoading.value = false
@@ -97,7 +90,6 @@ class QuizViewModel @Inject constructor(
                 _quizMessage.value = result.message
             }
 
-            // Build Quiz object from question details
             val questions = result.questions.map { q ->
                 Question(
                     id = q.id,
@@ -109,7 +101,6 @@ class QuizViewModel @Inject constructor(
                 )
             }
 
-            // Track these IDs so we can mark them solved after quiz
             currentQuizQuestionIds = questions.map { it.id }
 
             val quiz = Quiz(
@@ -165,9 +156,6 @@ class QuizViewModel @Inject constructor(
         }
     }
 
-    /**
-     * Submit quiz: calculate score, mark questions as solved, save result.
-     */
     fun submitQuiz() {
         val quiz = _currentQuiz.value ?: return
         val answers = _selectedAnswers.value ?: emptyMap()
@@ -194,14 +182,9 @@ class QuizViewModel @Inject constructor(
         val score = if (totalQuestions > 0) (correctCount * 100) / totalQuestions else 0
         val timeSpent = ((System.currentTimeMillis() - quizStartTime) / 1000).toInt()
 
-        // Mark these 10 questions as solved (passive) in local bank
         viewModelScope.launch {
             withContext(Dispatchers.IO) {
-                LocalQuestionBank.markQuizCompleted(
-                    application,
-                    currentSubjectId,
-                    currentQuizQuestionIds
-                )
+                LocalQuestionBank.markQuizCompleted(application, currentSubjectId, currentQuizQuestionIds)
             }
         }
 
@@ -217,16 +200,10 @@ class QuizViewModel @Inject constructor(
         )
     }
 
-    /**
-     * Next Quiz: get next 10 random questions from active pool.
-     */
     fun startNextQuiz() {
         startQuiz(currentSubjectId)
     }
 
-    /**
-     * Reset topic progress: all 100 back to active (unsolved).
-     */
     fun resetTopicProgress() {
         viewModelScope.launch(Dispatchers.IO) {
             LocalQuestionBank.resetTopic(application, currentSubjectId)
@@ -235,9 +212,6 @@ class QuizViewModel @Inject constructor(
         _quizMessage.value = null
     }
 
-    /**
-     * Retry same batch: reload last 10 questions (same IDs, same order).
-     */
     fun retryQuiz() {
         val quiz = _currentQuiz.value ?: return
         _selectedAnswers.value = mutableMapOf()
@@ -247,16 +221,10 @@ class QuizViewModel @Inject constructor(
         updateCurrentQuestion()
     }
 
-    /**
-     * Progress string like "70/100 gelöst"
-     */
     fun getProgressString(): String {
         return LocalQuestionBank.getProgressString(application, currentSubjectId)
     }
 
-    /**
-     * Get remaining active questions count
-     */
     fun getRemainingCount(): Int {
         return LocalQuestionBank.getRemainingCount(application, currentSubjectId)
     }
@@ -285,8 +253,37 @@ class QuizViewModel @Inject constructor(
             "b2_20" to "20. Irreale Konditionalsatze",
             "b2_21" to "21. Relativsatze im Genitiv",
             "b2_22" to "22. Konjunktiv I in der indirekten Rede",
-            "b2_23" to "23. Konjunktiv II in irrealen Vergleichssatzen"
+            "b2_23" to "23. Konjunktiv II in irrealen Vergleichssatze"
         )
-        return titles[subjectId] ?: "Quiz"
+        return titles[subjectId] ?: subjectId
     }
+
+    /**
+     * Legacy: load quiz list for a level (used by QuizzesFragment).
+     */
+    fun loadQuizzes(level: String) {
+        viewModelScope.launch {
+            _isLoading.value = true
+            val topicIds = LocalQuestionBank.getAllTopicIds(level)
+            val quizList = topicIds.map { subjectId ->
+                val progress = LocalQuestionBank.getProgressString(application, subjectId)
+                Quiz(
+                    id = subjectId,
+                    level = level,
+                    category = Constants.Categories.GRAMMAR,
+                    title = getSubjectTitle(subjectId),
+                    description = "$progress gelost",
+                    taskType = "grammar",
+                    timeLimit = 15,
+                    passingScore = 60,
+                    questions = emptyList()
+                )
+            }
+            _quizzes.value = quizList
+            _isLoading.value = false
+        }
+    }
+
+    private val _quizzes = MutableLiveData<List<Quiz>>(emptyList())
+    val quizzes: LiveData<List<Quiz>> = _quizzes
 }
