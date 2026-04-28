@@ -310,6 +310,22 @@ object LocalQuestionBank {
         return (1..23).map { "b2_${it.toString().padStart(2, '0')}" }
     }
 
+    /**
+     * Get all topic IDs for a given level.
+     */
+    fun getAllTopicIds(level: String): List<String> {
+        val levelUpper = level.uppercase()
+        val count = when (levelUpper) {
+            "A1" -> 15
+            "A2" -> 15
+            "B1" -> 15
+            "B2" -> 22
+            "C1" -> 15
+            else -> 0
+        }
+        return (1..count).map { "${levelUpper.lowercase()}_${it.toString().padStart(2, '0')}" }
+    }
+
     // ============ DATA CLASSES ============
 
     data class QuizResult(
