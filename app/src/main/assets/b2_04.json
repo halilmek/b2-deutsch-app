@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "subjectId": "b2_04",
-  "topicName": "Zeitformen der Vergangenheit (Perfekt & Präteritum)",
-  "totalQuestions": 120,
+  "topicName": "Zeitformen der Vergangenheit (Perfekt, Präteritum, Plusquamperfekt)",
+  "totalQuestions": 130,
   "questions": [
     {
       "id": "b2_04_q001",
@@ -1923,6 +1923,166 @@
       "explanation": "'wogen ab' = Präteritum von 'abwägen'. Trennbares 'ab' + starkes Verb (o→o): wogen, wogst, wogen. Partizip: abgewogen.",
       "difficulty": "hard",
       "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q121",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem ich gegessen ______, ging ich spazieren.",
+      "options": [
+        "habe",
+        "hatte",
+        "bin",
+        "war"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte gegessen' = Plusquamperfekt. Nach 'Nachdem' (after) + Plusquamperfekt → Hauptsatz mit Präteritum (ging). Plusquamperfekt = war/hatte + Partizip II.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q122",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er war müde, weil er lange ______ gearbeitet.",
+      "options": [
+        "hat",
+        "hatte",
+        "ist",
+        "war"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte gearbeitet' = Plusquamperfekt. Nach 'weil' (because) mit Plusquamperfekt: hatte/hatten + Partizip II. 'arbeiten' → Perfekt mit haben.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q123",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir das Buch ______, schrieben wir einen Bericht.",
+      "options": [
+        "gelesen haben",
+        "gelesen hatten",
+        "lasen",
+        "gelesen sind"
+      ],
+      "correctAnswer": "gelesen hatten",
+      "explanation": "'gelesen hatten' = Plusquamperfekt. Wir hatten gelesen. Nach 'Nachdem' → Plusquamperfekt, dann Hauptsatz Präteritum (schrieben).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q124",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Sie ging nach Hause, nachdem sie lange ______.",
+      "options": [
+        "gearbeitet hat",
+        "gearbeitet hatte",
+        "arbeitete",
+        "gearbeitet ist"
+      ],
+      "correctAnswer": "gearbeitet hatte",
+      "explanation": "'gearbeitet hatte' = Plusquamperfekt. Nach 'Nachdem' → Plusquamperfekt (hatte + Partizip). arbeiten → hat gearbeitet → hatte gearbeitet.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q125",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich konnte nicht kommen, weil ich meine Hausaufgaben nicht ______.",
+      "options": [
+        "gemacht habe",
+        "gemacht hatte",
+        "machte",
+        "gemacht bin"
+      ],
+      "correctAnswer": "gemacht hatte",
+      "explanation": "'gemacht hatte' = Plusquamperfekt. Nach 'weil' (weil-Satz) → Plusquamperfekt. machen → hat gemacht → hatte gemacht.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q126",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er nach Deutschland ______, lernte er Deutsch.",
+      "options": [
+        "gekommen ist",
+        "gekommen hatte",
+        "gekommen war",
+        "kam"
+      ],
+      "correctAnswer": "gekommen war",
+      "explanation": "'gekommen war' = Plusquamperfekt von 'sein'. kommen → ist gekommen → war gekommen. Nach 'Nachdem' → Plusquamperfekt, dann lernte (Präteritum).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q127",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Wir blieben zu Hause, weil es stark ______.",
+      "options": [
+        "geregnet hat",
+        "geregnet hatte",
+        "regnete",
+        "geregnet ist"
+      ],
+      "correctAnswer": "geregnet hatte",
+      "explanation": "'geregnet hatte' = Plusquamperfekt. regnen → hat geregnet → hatte geregnet. Nach 'weil' → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q128",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem ich den Film ______, empfahl ich ihn meinen Freunden.",
+      "options": [
+        "gesehen habe",
+        "gesehen hatte",
+        "sah",
+        "gesehen bin"
+      ],
+      "correctAnswer": "gesehen hatte",
+      "explanation": "'gesehen hatte' = Plusquamperfekt. sehen → hat gesehen → hatte gesehen. Nach 'Nachdem' → Plusquamperfekt, dann empfahl (Präteritum).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q129",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Sie war glücklich, weil sie die Prüfung ______.",
+      "options": [
+        "bestanden hat",
+        "bestanden hatte",
+        "bestand",
+        "bestanden ist"
+      ],
+      "correctAnswer": "bestanden hatte",
+      "explanation": "'bestanden hatte' = Plusquamperfekt. bestehen → hat bestanden → hatte bestanden. Nach 'weil' → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q130",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir das Problem ______, waren wir erleichtert.",
+      "options": [
+        "gelöst haben",
+        "gelöst hatten",
+        "lösten",
+        "gelöst sind"
+      ],
+      "correctAnswer": "gelöst hatten",
+      "explanation": "'gelöst hatten' = Plusquamperfekt. lösen → hat gelöst → hatten gelöst. Nach 'Nachdem' → Plusquamperfekt, dann waren (Präteritum).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
     }
   ]
 }
