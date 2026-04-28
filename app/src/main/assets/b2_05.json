@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "subjectId": "b2_05",
-  "topicName": "Zeitformen der Zukunft (Präsens)",
-  "totalQuestions": 40,
+  "topicName": "Zeitformen der Zukunft (Präsens & Futur I)",
+  "totalQuestions": 50,
   "questions": [
     {
       "id": "b2_05_q001",
@@ -643,6 +643,166 @@
       "explanation": "'Vor etwas zittern' = trembling from. 3. tekil: zittert. 'Lampenfieber' = stage fright.",
       "difficulty": "medium",
       "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q041",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Er ist nicht ans Telefon gegangen. Er ______ wohl schon schlafen.",
+      "options": [
+        "schläft",
+        "wird schlafen",
+        "schlief",
+        "geschlafen hat"
+      ],
+      "correctAnswer": "wird schlafen",
+      "explanation": "'Wohl' = tahmin ifadesi → Futur I. 'Er wird wohl schon schlafen' = He is probably already asleep. Wohl signals assumption about the present.",
+      "difficulty": "easy",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q042",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Ich glaube, morgen ______ es regnen.",
+      "options": [
+        "regnet",
+        "wird regnen",
+        "regnete",
+        "geregnet hat"
+      ],
+      "correctAnswer": "wird regnen",
+      "explanation": "'Ich glaube' + Prädikation → Futur I für Vorhersage. 'Ich glaube, morgen wird es regnen' = I believe it will rain tomorrow.",
+      "difficulty": "easy",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q043",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Keine Sorge, ich ______ dir helfen.",
+      "options": [
+        "helfe",
+        "half",
+        "werde helfen",
+        "geholfen habe"
+      ],
+      "correctAnswer": "werde helfen",
+      "explanation": "Spontane karar / güvence → Futur I. 'Ich werde dir helfen' = I will help you. Anlık karar veya güvence vermek için Futur I kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q044",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Er ______ jetzt im Büro sein, ich habe ihn dort gesehen.",
+      "options": [
+        "ist",
+        "war",
+        "wird sein",
+        "gewesen ist"
+      ],
+      "correctAnswer": "wird sein",
+      "explanation": "'Jetzt' şu an için tahmin → Futur I. 'Er wird jetzt im Büro sein' = He is probably in the office right now. Futur I ile şu an için tahmin.",
+      "difficulty": "medium",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q045",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Du bist so müde, du ______ sicher bald einschlafen.",
+      "options": [
+        "schläfst",
+        "wirst einschlafen",
+        "schliefst",
+        "eingeschlafen bist"
+      ],
+      "correctAnswer": "wird einschlafen",
+      "explanation": "'Du wirst bald einschlafen' = You'll surely fall asleep soon. Güvence + tahmin → Futur I.",
+      "difficulty": "easy",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q046",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "In der Zukunft ______ die Menschen mehr online arbeiten.",
+      "options": [
+        "arbeiten",
+        "arbeiteten",
+        "werden arbeiten",
+        "gearbeitet haben"
+      ],
+      "correctAnswer": "werden arbeiten",
+      "explanation": "Genel gelecek öngörüsü → Futur I. 'In der Zukunft werden die Menschen mehr online arbeiten' = In the future, people will work more online.",
+      "difficulty": "easy",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q047",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir sicher, dass er die Prüfung ______ bestehen.",
+      "options": [
+        "besteht",
+        "bestand",
+        "wird bestehen",
+        "bestanden hat"
+      ],
+      "correctAnswer": "wird bestehen",
+      "explanation": "Güvence ifadesi (Ich bin mir sicher) → Futur I. 'Er wird die Prüfung bestehen' = He will pass the exam. Kesin ifade + gelecek zaman.",
+      "difficulty": "medium",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q048",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Warte kurz, ich ______ gleich zurückkommen.",
+      "options": [
+        "komme",
+        "kam",
+        "werde kommen",
+        "gekommen bin"
+      ],
+      "correctAnswer": "werde kommen",
+      "explanation": "Anlık karar / hemen yapılacak eylem → Futur I. 'Ich werde gleich zurückkommen' = I will come back right away. Spontane kararlar için Futur I.",
+      "difficulty": "easy",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q049",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Er sieht krank aus. Er ______ wohl Fieber haben.",
+      "options": [
+        "hat",
+        "hatte",
+        "wird haben",
+        "gehabt hat"
+      ],
+      "correctAnswer": "wird haben",
+      "explanation": "'Wohl' = tahmin. Şu an için tahmin: 'Er wird wohl Fieber haben' = He probably has a fever. 'Wohl' + görünüm = Futur I.",
+      "difficulty": "medium",
+      "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q050",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Vielleicht ______ sie später noch anrufen.",
+      "options": [
+        "ruft",
+        "rief",
+        "wird anrufen",
+        "angerufen hat"
+      ],
+      "correctAnswer": "wird anrufen",
+      "explanation": "'Vielleicht' = belki → tahmin. 'Sie wird später noch anrufen' = She will probably call later. Unsichere Vorhersage → Futur I.",
+      "difficulty": "easy",
+      "topicName": "Futur I (will future)"
     }
   ]
 }
