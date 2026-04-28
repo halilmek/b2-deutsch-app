@@ -194,7 +194,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
             order = 3,
-            quizCount = 10,
+            quizCount = 16,
             tips = listOf(
                 "PERFEKT = haben/sein (Präsens) + Partizip II",
                 "PRÄTERITUM = wurde, war, hatte, konnte - häufig beiWritten verwendet",
