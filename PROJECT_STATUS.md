@@ -6,157 +6,216 @@
 
 ---
 
-## 🔧 WHAT WE FIXED (2026-04-28)
+## ✅ WHAT WE COMPLETED (2026-04-28)
 
-### Bug: Topic ID Mismatch — Topics Showing Wrong Questions
+### Bug Fixes
 
-**Problem:** Topic 2 in the app ("Verben und Ergänzungen") was loading Topic 1 (Konnektoren) questions. Topic 3 was loading Topic 2 questions, etc.
+| Issue | Fix |
+|-------|-----|
+| **Topic ID mismatch** | Added missing `b2_02` to SubjectListViewModel — all topics now load correct JSON files |
+| **Topic 2 showing Topic 1 questions** | Fixed by aligning subjectId ordering with JSON file names |
+| **SharedPreferences corruption** | Bumped to `quiz_progress_prefs_v6` + `INIT_VERSION=2` — forces clean init on update |
+| **Topic 3 quizCount=10** | Updated to `quizCount=16` (160 questions ÷ 10 per quiz = 16 sessions) |
+| **Missing Context import** | Added `android.content.Context` and `SharedPreferences` imports to LocalQuestionBank.kt |
 
-**Root Cause:** The app code (SubjectListViewModel) had a numbering gap — it jumped from `b2_01` → `b2_03`, skipping `b2_02`. The JSON files were named sequentially starting from `b2_01`, so:
-- `b2_01.json` (file) = Topic 1 Konnektoren ✅
-- `b2_02.json` (file) = Topic 2 Verben ✅
-- But the app expected: `b2_03` = Topic 2, `b2_04` = Topic 3 (because `b2_02` didn't exist in code)
+### New Content (Topic 3 — Zeitformen der Vergangenheit)
 
-This caused every topic to load from the wrong file (always shifted by 1 down from where it should be).
+**b2_04.json now has 160 real questions:**
+- q001–q060: Perfekt (haben/sein, trennbar/untrennbar verbs)
+- q061–q080: Perfekt gemischte Übungen (reflexive, strong verbs)
+- q081–q120: Präteritum (strong & weak verbs)
+- q121–q160: Plusquamperfekt (Nachdem/Because/Obwohl clauses)
+- Topic name: "Zeitformen der Vergangenheit (Perfekt, Präteritum, Plusquamperfekt)"
 
-**Solution (Option A):** Added the missing `b2_02` subject entry to SubjectListViewModel, shifting all subsequent topic IDs by +1.
+### New Files Created
 
-### Changes Made
+| File | Purpose |
+|------|---------|
+| `scripts/firestore_import_topic3.js` | One-time import of b2_04 questions to Firestore |
+| `scripts/import_and_sync.js` | **Option A** — push JSON to BOTH GitHub assets AND Firestore in one command |
+| `data/sync/FirebaseSyncService.kt` | App-side sync: checks Firestore once per week, downloads new content |
+| `data/local/LocalQuestionBank.kt` | Updated with `updateTopicFromFirebase()` for sync support |
 
-**1. SubjectListViewModel.kt** — Added `b2_02` (Verben und Ergänzungen):
+### Firebase Sync Architecture (Admin-Push Model)
+
 ```
-Before: b2_01, b2_03, b2_04, b2_05 ... b2_23
-After:  b2_01, b2_02, b2_04, b2_05 ... b2_23
+ADMIN SIDE                              APP SIDE
+─────────────────────────────────      ─────────────────────────────────
+You add questions to JSON
+       ↓
+node scripts/import_and_sync.js        ← You run this
+       ↓
+Push to GitHub (assets/)                ← Version in assets increments
+Push to Firestore (moduleQuizQuestions) ← version: N → N+1
+       ↓                                        ↓
+Content updated in Firestore           User opens app
+                                           ↓
+                                    FirebaseSyncService checks:
+                                    "last sync > 7 days ago?"
+                                           ↓
+                                     YES → queries Firestore for version > currentVersion
+                                           ↓
+                                     Downloads new questions → saves to SharedPreferences
+                                           ↓
+                                     NO → skip, use cached local data
+                                           ↓
+                                    App goes OFFLINE — no Firebase calls during quiz
 ```
 
-**2. JSON Files** — All 23 files verified and aligned to subject ID mapping:
-| File | subjectId | topicName | Questions | Status |
-|------|-----------|-----------|-----------|--------|
-| b2_01.json | b2_01 | Konnektoren | 96 | ✅ Real content |
-| b2_02.json | b2_02 | Verben und Ergänzungen | 50 | ✅ Real content |
-| b2_03.json | b2_03 | Verben und Ergänzungen | 50 | ⚠️ Duplicate of b2_02 |
-| b2_04.json | b2_04 | Zeitformen der Zukunft | 100 | ⚠️ Placeholder (wrong first Q) |
-| b2_05.json | b2_05 | Futur mit werden | 100 | ⚠️ Placeholder |
-| ... | ... | ... | 100 | ⚠️ Placeholders |
-| b2_23.json | b2_23 | Reserve | 100 | ⚠️ Placeholder |
-
-**3. LocalQuestionBank.kt** — Updated:
-- Uses per-topic JSON files (`{subjectId}.json`) instead of single `b2_questions.json`
-- Uses `quiz_progress_prefs_v6` (forces clean init on update)
-- `INIT_VERSION = 2` — version check clears old corrupt SharedPreferences
-- Debug logs added with tag `LQB`
-
-**4. gradle.properties** — kapt JVM args for JDK 21 compatibility:
-```
-kapt.use.worker.api=false
-org.gradle.jvmargs=--add-opens=jdk.compiler/com.sun.tools.javac.main=ALL-UNNAMED (and 4 more)
-```
+**Sync Rules:**
+- Firebase only called on app launch (once per week maximum)
+- All quiz content served from local SharedPreferences (offline-first)
+- You control when content updates — run `import_and_sync.js` and users get it within 7 days
 
 ---
 
 ## 📊 CURRENT CONTENT STATE
 
-### ✅ Topics with Real Content (manually created / verified)
-| subjectId | topicName | Questions | Source |
-|-----------|-----------|-----------|--------|
-| b2_01 | Konnektoren | 96 | Real (12 per konnektor: als, bevor, bis, seitdem, während, wenn, sobbing, solange) |
-| b2_02 | Verben und Ergänzungen | 50 | Real (fill-in-blank: mich/mir, mich/mir, auf/an, etc.) |
+### Real Content (Manually Created)
+| subjectId | topicName | Questions | QuizCount | File | Status |
+|-----------|-----------|-----------|-----------|------|--------|
+| b2_01 | Konnektoren | 96 | 10 | b2_01.json | ✅ |
+| b2_02 | Verben und Ergänzungen | 50 | 5 | b2_02.json | ✅ |
+| b2_03 | Verben und Ergänzungen | 50 | 5 | b2_03.json | ⚠️ Duplicate of b2_02 |
+| b2_04 | Zeitformen der Vergangenheit | 160 | **16** | b2_04.json | ✅ |
+| b2_05–b2_23 | Placeholders | 100 each | 10 | b2_05.json...b2_23.json | ❌ Wrong content |
 
-### ⚠️ Topics with Placeholder Content (need real questions)
-| subjectId | topicName | Current State |
-|-----------|-----------|---------------|
-| b2_03 | Verben und Ergänzungen | ❌ Duplicate of b2_02 — same 50 questions |
-| b2_04 | Zeitformen der Zukunft | ❌ All questions show Konnektor text instead of real content |
-| b2_05 | Futur mit werden | ❌ Placeholder |
-| b2_06 | Angaben im Satz | ❌ Placeholder |
-| b2_07 | Angaben im Satz | ❌ Duplicate placeholder |
-| b2_08–b2_23 | Various | ❌ All placeholders (wrong content) |
+### Topic Quiz Counts (SubjectListViewModel)
+| Topic | subjectId | quizCount | totalQuestions ÷ 10 |
+|------|-----------|-----------|---------------------|
+| 1. Konnektoren | b2_01 | 10 | 96 ÷ 10 = 9.6 → 10 ✅ |
+| 2. Verben und Ergänzungen | b2_02 | 5 | 50 ÷ 10 = 5 ✅ |
+| 3. Zeitformen | b2_04 | **16** | 160 ÷ 10 = 16 ✅ |
+| 4. Zeitformen der Zukunft | b2_05 | 10 | (placeholder) |
 
-**Note:** Topics 3–23 all contain the WRONG content — they show Konnektor questions instead of their actual topic content. This is because the original `b2_questions.json` was corrupted (Topics 3–23 all contained Topic 1 duplicate content).
+---
 
-### 📋 Remaining Work
-1. **Fill b2_03.json** with proper Verben questions (or delete it — it's a duplicate of b2_02)
-2. **Fill b2_04–b2_23** with real grammar questions per topic
-3. **Delete b2_questions.json** (no longer used, removed locally)
+## 🚀 HOW TO PUSH NEW QUESTIONS
+
+### Option A: Sync Single Topic
+```bash
+cd /Users/halilozturk/b2-deutsch-app
+
+# Set credentials
+export GOOGLE_APPLICATION_CREDENTIALS=/path/to/firebase-key.json
+
+# Push Topic 3 (b2_04) to GitHub + Firestore
+node scripts/import_and_sync.js b2_04
+
+# Push multiple topics
+node scripts/import_and_sync.js b2_04 b2_05 b2_06
+
+# Push ALL topics
+node scripts/import_and_sync.js
+```
+
+### What Happens
+1. Reads `app/src/main/assets/b2_XX.json`
+2. Increments `version` field in Firestore (v1 → v2 → v3...)
+3. Pushes updated JSON to GitHub assets
+4. App detects newer version → syncs on next open
+
+### Firebase Document Structure
+```
+moduleQuizQuestions/b2_04/
+  id: "b2_04"
+  subjectId: "b2_04"
+  module: "B2"
+  topicName: "Zeitformen der Vergangenheit"
+  totalQuestions: 160
+  version: 3  ← increments each time you push
+  questions: [array of 160 question objects]
+  updatedAt: Timestamp
+
+moduleQuizQuestions/b2_04_q001  ← individual doc
+moduleQuizQuestions/b2_04_q002
+...
+moduleQuizQuestions/b2_04_q160
+```
+
+---
+
+## 📋 REMAINING WORK
+
+### Must Fix
+- [ ] b2_03.json is duplicate of b2_02 — delete or replace with new content
+- [ ] b2_05–b2_23 have wrong placeholder content (Konnektor questions instead of real topics)
+
+### Should Do
+- [ ] Add Firebase `version` field support to `import_and_sync.js` — currently creates/updates
+- [ ] Test FirebaseSyncService end-to-end after publishing Topic 4+ content
+- [ ] Add pull-to-refresh in app for manual sync trigger
+
+### Future
+- [ ] Topic 4 (Zeitformen der Zukunft) — need real questions
+- [ ] AI Speaking Partner integration
+- [ ] AI Writing Evaluation
+- [ ] Peer Speaking Exams
 
 ---
 
 ## 🏗️ ARCHITECTURE SUMMARY
 
-### Question Loading Flow
+### Question Loading Flow (OFFLINE)
 ```
-User taps Topic 2 (Verben) in SubjectListFragment
-  → QuizViewModel.startQuiz("b2_02")
-    → LocalQuestionBank.getNextQuiz(context, "b2_02")
-      → Opens b2_02.json from assets
-      → Returns 10 questions from ACTIVE pool (from SharedPreferences)
-```
-
-### Per-Topic JSON File Structure
-```json
-{
-  "version": "1.0",
-  "subjectId": "b2_02",
-  "topicName": "Verben und Ergänzungen",
-  "totalQuestions": 50,
-  "questions": [
-    {
-      "id": "b2_02_q001",
-      "subjectId": "b2_02",
-      "type": "fill_blank",
-      "questionText": "Ich muss ___ beeilen, sonst verpasse ich den Zug.",
-      "options": ["mich", "mir", "sich", "dir"],
-      "correctAnswer": "mir",
-      "explanation": "'sich beeilen' is reflexive...",
-      "difficulty": "medium",
-      "topicName": "Verben und Ergänzungen"
-    }
-  ]
-}
+User taps Topic 3 → QuizViewModel.startQuiz("b2_04")
+  → LocalQuestionBank.getNextQuiz(context, "b2_04")
+    → Reads from SharedPreferences (active/pool)
+      → Question IDs → b2_04.json for details
 ```
 
-### SharedPreferences (v6) Key Structure
+### Question Sync Flow (WEEKLY)
+```
+App launch → FirebaseSyncService.syncIfNeeded()
+  → Check: last sync > 7 days ago?
+    → NO: skip
+    → YES: query Firestore for version > currentVersion
+      → Download new questions
+      → LocalQuestionBank.updateTopicFromFirebase()
+      → Save to SharedPreferences
+      → Update last_sync_timestamp
+```
+
+### SharedPreferences (v6) Keys
 ```
 quiz_progress_prefs_v6:
-  init_version = 2 (forces clean init on version change)
-  active_b2_01 = ["b2_01_q001", "b2_01_q002", ...]  (unsolved question IDs)
-  passive_b2_01 = ["b2_01_q005", ...]  (solved question IDs)
-  count_b2_01 = 96  (total questions for this topic)
-  active_b2_02 = ["b2_02_q001", ...]
-  passive_b2_02 = []
-  count_b2_02 = 50
-  ...
+  init_version = 2
+  active_b2_04 = ["b2_04_q001", "b2_04_q002", ...]
+  passive_b2_04 = ["b2_04_q005", ...]  (solved)
+  count_b2_04 = 160
+
+firebase_sync_prefs:
+  last_sync_timestamp = 1714300800000
+  sync_version = 1
 ```
 
 ---
 
-## 📁 KEY FILES
+## 🔑 KEY FILES
 
 | File | Purpose |
 |------|---------|
-| `app/src/main/assets/b2_01.json` | Topic 1: Konnektoren (96 Q) — REAL ✅ |
-| `app/src/main/assets/b2_02.json` | Topic 2: Verben und Ergänzungen (50 Q) — REAL ✅ |
-| `app/src/main/assets/b2_03.json` | Topic 3: Verben und Ergänzungen (50 Q) — DUPLICATE ⚠️ |
-| `app/src/main/assets/b2_04–b2_23.json` | Placeholder topics (100 Q each) — WRONG ❌ |
-| `app/src/main/assets/b2_questions.json` | OLD — deleted, no longer used |
-| `LocalQuestionBank.kt` | Reads per-topic JSON, manages progress via SharedPreferences |
-| `SubjectListViewModel.kt` | Defines all 23 B2 subjects with display order |
-| `QuizViewModel.kt` | Manages quiz session, calls LocalQuestionBank |
-| `gradle.properties` | JDK 21 kapt workaround, build config |
+| `app/src/main/assets/b2_01.json` | Topic 1: Konnektoren (96 Q) |
+| `app/src/main/assets/b2_02.json` | Topic 2: Verben und Ergänzungen (50 Q) |
+| `app/src/main/assets/b2_04.json` | Topic 3: Zeitformen (160 Q) ✅ MAIN FOCUS |
+| `scripts/import_and_sync.js` | **Push to GitHub + Firestore** (Option A) |
+| `scripts/firestore_import_topic3.js` | One-time Firestore import |
+| `data/sync/FirebaseSyncService.kt` | Weekly sync logic (app-side) |
+| `data/local/LocalQuestionBank.kt` | Question bank, progress tracking |
+| `ui/subject/SubjectListViewModel.kt` | Defines all 23 B2 subjects with quizCount |
+| `B2DeutschApp.kt` | App init — calls FirebaseSyncService on launch |
 
 ---
 
 ## 🧪 TESTING CHECKLIST
 
-After each code change:
-- [ ] Build APK (`./gradlew assembleRelease`)
-- [ ] Uninstall old APK from test device (SharedPreferences is versioned but clean slate is safer)
-- [ ] Install new APK, create fresh account
-- [ ] Topic 1 (Konnektoren): verify 10 Konnektor questions appear
-- [ ] Topic 2 (Verben und Ergänzungen): verify 10 Verb questions appear, NOT Konnektor
-- [ ] Topic 3: verify correct content per topic
-- [ ] Log check: `adb logcat | grep -E "LQB|QuizActive"` should show `subjectId=b2_02` for Topic 2
+After `import_and_sync.js`:
+- [ ] `git pull` on Mac → rebuild APK
+- [ ] Uninstall old APK → fresh install
+- [ ] Topic 3 should show: 16 quizzes available, 160 questions
+- [ ] Check Firestore: `moduleQuizQuestions/b2_04` has `version: N`
+- [ ] Next push to same topic → version increments → users get update within 7 days
 
 ---
 
-_Last updated: 2026-04-28 16:20 UTC_
+_Last updated: 2026-04-28 20:40 UTC_
