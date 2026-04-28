@@ -175,7 +175,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 2,
-            quizCount = 10,
+            quizCount = 5,
             tips = listOf(
                 "Verben mit Dativ: helfen, danken, glauben, antworten",
                 "Verben mit Akkusativ: sehen, hören, finden, kennen",
