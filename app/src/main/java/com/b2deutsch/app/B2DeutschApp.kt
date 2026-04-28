@@ -24,7 +24,7 @@ class B2DeutschApp : Application() {
 
         // Check Firebase for updates (admin push model — runs once per week)
         applicationScope.launch {
-            val result = FirebaseSyncService.syncIfNeeded(this@B2App)
+            val result = FirebaseSyncService.syncIfNeeded(applicationContext)
             when (result) {
                 is FirebaseSyncService.SyncResult.SUCCESS -> {
                     Log.d("B2App", "Firebase sync: ${result.topicsUpdated} topics updated")
