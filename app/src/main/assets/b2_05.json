@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "b2_05",
   "topicName": "Zeitformen der Zukunft (Präsens & Futur I)",
-  "totalQuestions": 50,
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "b2_05_q001",
@@ -803,6 +803,166 @@
       "explanation": "'Vielleicht' = belki → tahmin. 'Sie wird später noch anrufen' = She will probably call later. Unsichere Vorhersage → Futur I.",
       "difficulty": "easy",
       "topicName": "Futur I (will future)"
+    },
+    {
+      "id": "b2_05_q051",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Er _______ das Projekt bis Ende des Monats _______ abschließen.",
+      "options": [
+        "wird ... sicherlich",
+        "wirst ... sicherlich",
+        "werden ... sicherlich",
+        "werdet ... sicherlich"
+      ],
+      "correctAnswer": "wird ... sicherlich",
+      "explanation": "3. tekil şahıs (er) → wird. 'Er wird das Projekt bis Ende des Monats sicherlich abschließen' = He will certainly finish the project by the end of the month.",
+      "difficulty": "easy",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q052",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz drückt eine Vermutung mit Futur I aus?",
+      "options": [
+        "Ich fahre morgen nach Hamburg.",
+        "Sie wird wohl zu Hause sein.",
+        "Wir haben nächste Woche Urlaub.",
+        "Er ist gestern angekommen."
+      ],
+      "correctAnswer": "Sie wird wohl zu Hause sein.",
+      "explanation": "'Wohl' + Futur I = tahmin ifadesi. 'Sie wird wohl zu Hause sein' = She is probably at home.",
+      "difficulty": "easy",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q053",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Ich _______ dir helfen, sobald ich Zeit _______.",
+      "options": [
+        "werde ... habe",
+        "werde ... haben werde",
+        "wird ... habe",
+        "werde ... hatte"
+      ],
+      "correctAnswer": "werde ... habe",
+      "explanation": "Futur I + Nebensatz (sobald) cümlesinde Präsens kullanılır. 'Ich werde dir helfen, sobald ich Zeit habe' = I'll help you as soon as I have time.",
+      "difficulty": "medium",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q054",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welches Modalpartikel passt typischerweise zur Vermutung im Futur I?",
+      "options": [
+        "doch",
+        "wohl",
+        "mal",
+        "ja"
+      ],
+      "correctAnswer": "wohl",
+      "explanation": "'Wohl' = tahmin ifadesi. 'Wohl' signals assumption/guess. 'Er wird wohl krank sein' = He is probably sick.",
+      "difficulty": "easy",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q055",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "_______ ihr morgen an der Besprechung teilnehmen?",
+      "options": [
+        "Werden",
+        "Werdet",
+        "Wirst",
+        "Wird"
+      ],
+      "correctAnswer": "Werdet",
+      "explanation": "Soru cümlesi + 'ihr' (2. çoğul) → 'Werdet ihr...?' doğru. Fiil başa gelir ve 'ihr' ile çekim yapılır.",
+      "difficulty": "easy",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q056",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch FALSCH?",
+      "options": [
+        "Das wird nicht einfach sein.",
+        "Wir werden das Problem lösen.",
+        "Du wirst bestimmt Erfolg haben.",
+        "Er werden morgen kommen."
+      ],
+      "correctAnswer": "Er werden morgen kommen.",
+      "explanation": "'Er' için 3. tekil şahıs 'wird' kullanılmalı. 'Er werden morgen kommen' yanlış → doğrusu: 'Er wird morgen kommen.'",
+      "difficulty": "hard",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q057",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter _______ morgen besser _______.",
+      "options": [
+        "ist ... geworden",
+        "wird ... werden",
+        "wird ... sein",
+        "wäre ... werden"
+      ],
+      "correctAnswer": "wird ... werden",
+      "explanation": "'Das Wetter wird besser werden' = The weather will get better. Futur I'de werden Hem yardımcı hem fiil olarak kullanılabilir.",
+      "difficulty": "medium",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q058",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz drückt ein Versprechen mit Futur I aus?",
+      "options": [
+        "Er wohnt ab nächster Woche in Berlin.",
+        "Ich werde das nie wieder tun!",
+        "Sie hat gestern angerufen.",
+        "Wir sind morgen zu Hause."
+      ],
+      "correctAnswer": "Ich werde das nie wieder tun!",
+      "explanation": "Söz verme / yemin → Futur I. 'Ich werde das nie wieder tun!' = I will never do that again! Enerjik söz + Futur I.",
+      "difficulty": "easy",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q059",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftler glauben, dass die Temperaturen in den nächsten Jahren _______ steigen _______.",
+      "options": [
+        "stark ... werden",
+        "stark ... wird",
+        "werden ... stark",
+        "stark ... worden"
+      ],
+      "correctAnswer": "stark ... werden",
+      "explanation": "Nebensatz'ta Infinitiv (steigen) sona, werden en sona gider. '...dass die Temperaturen stark steigen werden.'",
+      "difficulty": "hard",
+      "topicName": "Futur I (werden + Infinitiv)"
+    },
+    {
+      "id": "b2_05_q060",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet Futur I KORREKT für eine Prognose?",
+      "options": [
+        "Laut Experten wird die Arbeitslosigkeit sinken.",
+        "Laut Experten sinken die Arbeitslosigkeit wird.",
+        "Laut Experten die Arbeitslosigkeit sinken wird.",
+        "Laut Experten wird sinken die Arbeitslosigkeit."
+      ],
+      "correctAnswer": "Laut Experten wird die Arbeitslosigkeit sinken.",
+      "explanation": "Doğru Futur I cümle yapısı: wird (2. pozisyon) + Infinitiv (satz sonu). 'Die Arbeitslosigkeit sinken' = the unemployment will decrease.",
+      "difficulty": "medium",
+      "topicName": "Futur I (werden + Infinitiv)"
     }
   ]
 }
