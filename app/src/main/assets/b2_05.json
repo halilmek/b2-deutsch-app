@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "b2_05",
   "topicName": "Zeitformen der Zukunft (Präsens)",
-  "totalQuestions": 10,
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "b2_05_q001",
@@ -162,6 +162,166 @@
       "correctAnswer": "kommt",
       "explanation": "Präsens für geplante Ankunft. 'Wann kommt ihr morgen an?' = When are you arriving tomorrow? Zeitangabe ('morgen') macht die Zukunft klar.",
       "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q011",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Wir _______ nächste Woche eine wichtige Präsentation.",
+      "options": [
+        "werden haben",
+        "haben",
+        "hatten",
+        "hätten"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "Kesin planlanmış gelecek → Präsens. 'Wir haben nächste Woche eine wichtige Präsentation' = We have an important presentation next week.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q012",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Der Zug _______ um 18:45 Uhr in München _______.",
+      "options": [
+        "wird ... ankommen",
+        "kommt ... an",
+        "kam ... an",
+        "käme ... an"
+      ],
+      "correctAnswer": "kommt ... an",
+      "explanation": "Tarifeli/programlı olay → Präsens. 'Der Zug kommt um 18:45 Uhr in München an' = The train arrives in Munich at 18:45.",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q013",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz drückt eine geplante Zukunft mit Präsens aus?",
+      "options": [
+        "Er würde morgen kommen.",
+        "Sie wird das Projekt leiten.",
+        "Ich treffe ihn am Donnerstag um 10 Uhr.",
+        "Wir wären nächste Woche da."
+      ],
+      "correctAnswer": "Ich treffe ihn am Donnerstag um 10 Uhr.",
+      "explanation": "Zaman zarfıyla birlikte Präsens = geplante Zukunft. 'Ich treffe ihn am Donnerstag' = I'm meeting him on Thursday.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q014",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz _______ am 3. Mai in Berlin _______.",
+      "options": [
+        "wird ... stattfinden",
+        "findet ... statt",
+        "fand ... statt",
+        "hat ... stattgefunden"
+      ],
+      "correctAnswer": "findet ... statt",
+      "explanation": "Kesin tarihli resmi etkinlik → Präsens. 'Die Konferenz findet am 3. Mai statt' = The conference takes place on May 3rd.",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q015",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH, wenn man eine feste Verabredung ausdrücken möchte?",
+      "options": [
+        "Wir fahren morgen früh los.",
+        "Sie fliegt am Samstag nach Wien.",
+        "Er kommt übermorgen an.",
+        "Ich werde gestern dort sein."
+      ],
+      "correctAnswer": "Ich werde gestern dort sein.",
+      "explanation": "'Gestern' (yesterday) geçmişi ifade eder, 'werde ... sein' geleceği ifade eder — bu çelişki yanlıştır. Präsens für Zukunft works only with future time indicators.",
+      "difficulty": "hard",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q016",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "_______ du am Wochenende zu unserer Party?",
+      "options": [
+        "Wirst kommen",
+        "Kommst",
+        "Käme",
+        "Bist gekommen"
+      ],
+      "correctAnswer": "Kommst",
+      "explanation": "Davet/plan sorusu → Präsens. 'Kommst du am Wochenende zu unserer Party?' = Are you coming to our party on the weekend?",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q017",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Welches Zeitadverb passt NICHT zum Präsens für die Zukunft?",
+      "options": [
+        "morgen",
+        "nächste Woche",
+        "gestern Abend",
+        "in zwei Stunden"
+      ],
+      "correctAnswer": "gestern Abend",
+      "explanation": "'Gestern Abend' (yesterday evening) geçmişe ait zaman zarfı, gelecek ifade etmez. Präsens für Zukunft braucht Zukunfts-Zeitangabe.",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q018",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Die neue Regelung _______ ab Januar in Kraft.",
+      "options": [
+        "tritt",
+        "wird treten",
+        "trat",
+        "ist getreten"
+      ],
+      "correctAnswer": "tritt",
+      "explanation": "'Ab Januar' ile belirlenmiş resmi gelecek → Präsens. 'Die neue Regelung tritt ab Januar in Kraft' = The new regulation comes into force from January.",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q019",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Wähle den Satz, in dem Präsens NICHT für die Zukunft steht:",
+      "options": [
+        "Nächsten Monat ziehen wir in eine neue Wohnung.",
+        "Das Semester beginnt am 15. Oktober.",
+        "Sie arbeitet gerade an ihrem Bericht.",
+        "Ich fliege in drei Tagen nach Japan."
+      ],
+      "correctAnswer": "Sie arbeitet gerade an ihrem Bericht.",
+      "explanation": "'Gerade' (right now) şu anı ifade eder, geleceği değil. Diğer cümlelerde zaman zarfı geleceği açıkça belirtir.",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart für Zukunft)"
+    },
+    {
+      "id": "b2_05_q020",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Laut Fahrplan _______ der Bus in zehn Minuten _______.",
+      "options": [
+        "wird ... abfahren",
+        "ist ... abgefahren",
+        "fährt ... ab",
+        "fuhr ... ab"
+      ],
+      "correctAnswer": "fährt ... ab",
+      "explanation": "Tarifeli/programlı gelecek → Präsens. 'fährt ... ab' = departs. Fahrplan = timetable/schedule = gegenwärtige Tatsache, deshalb Präsens.",
+      "difficulty": "medium",
       "topicName": "Präsens (Gegenwart für Zukunft)"
     }
   ]
