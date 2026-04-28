@@ -439,7 +439,6 @@ object LocalQuestionBank {
             jsonMap.put("questions", questionsArray)
 
             // Save to app internal storage (not assets — writable)
-            val file = context.getFileStreamName("${subjectId}_fb.json")
             context.openFileOutput("${subjectId}_fb.json", Context.MODE_PRIVATE).use { out ->
                 out.write(jsonMap.toString().toByteArray())
             }
