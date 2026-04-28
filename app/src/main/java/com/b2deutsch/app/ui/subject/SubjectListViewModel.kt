@@ -152,7 +152,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "🔗",
             order = 1,
-            quizCount = 96,
+            quizCount = 10,
             tips = listOf(
                 "ALS = einmalige Situation in der Vergangenheit (when — one time)",
                 "BEVOR = zuerst Handlung A, dann Handlung B (before)",
