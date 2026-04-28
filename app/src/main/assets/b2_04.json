@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "b2_04",
   "topicName": "Zeitformen der Vergangenheit (Perfekt, Präteritum, Plusquamperfekt)",
-  "totalQuestions": 140,
+  "totalQuestions": 150,
   "questions": [
     {
       "id": "b2_04_q001",
@@ -2242,6 +2242,166 @@
       "correctAnswer": "vorbereitet hatten",
       "explanation": "'vorbereitet hatten' = Plusquamperfekt. vorbereiten (trennbar: vor + bereitet) → kein Zwischen-'ge' → vorbereitet. Hilfsverb: hatten.",
       "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q141",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Nachdem ich gegessen _____, ging ich ins Kino.",
+      "options": [
+        "hatte",
+        "habe",
+        "war",
+        "bin"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte gegessen' = Plusquamperfekt. essen → Perfekt: hat gegessen → Plusquamperfekt: hatte gegessen. Nach 'Nachdem' → Plusquamperfekt, dann Hauptsatz Präteritum (ging).",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q142",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Bevor sie nach Hause kam, _____ sie ihre Arbeit schon beendet.",
+      "options": [
+        "hatte",
+        "ist",
+        "war",
+        "hat"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte beendet' = Plusquamperfekt. beenden (transitives Verb) → Perfekt: hat beendet → Plusquamperfekt: hatte beendet. Bevor-Satz → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q143",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Wir _____ den Zug verpasst, weil wir zu spät losgefahren waren.",
+      "options": [
+        "sind",
+        "hatten",
+        "haben",
+        "waren"
+      ],
+      "correctAnswer": "hatten",
+      "explanation": "'hatten verpasst' = Plusquamperfekt. verpassen (transitiv) → Perfekt: hat verpasst → Plusquamperfekt: hatten verpasst. Grund: weil wir zu spät losgefahren waren (Plusquamperfekt).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q144",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Er _____ mir die Nachricht geschickt, bevor ich ihn anrief.",
+      "options": [
+        "ist",
+        "hatte",
+        "war",
+        "hat"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte geschickt' = Plusquamperfekt. schicken (transitiv) → Perfekt: hat geschickt → Plusquamperfekt: hatte geschickt. Bevor-Satz → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q145",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Nachdem die Sonne _____ aufgegangen _____, gingen wir los.",
+      "options": [
+        "war / -",
+        "hatte / -",
+        "- / war",
+        "- / hatte"
+      ],
+      "correctAnswer": "war / -",
+      "explanation": "'war aufgegangen' = Plusquamperfekt. aufgehen = Zustandsveränderung → Hilfsverb: sein. Perfekt: ist aufgegangen → Plusquamperfekt: war aufgegangen.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q146",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Ich erkannte den Ort nicht, weil ich dort nie _____ _____.",
+      "options": [
+        "gewesen / war",
+        "gewesen / hatte",
+        "war / gewesen",
+        "hatte / gewesen"
+      ],
+      "correctAnswer": "war / gewesen",
+      "explanation": "'war gewesen' = Plusquamperfekt von 'sein'. Perfekt: ist gewesen → Plusquamperfekt: war gewesen. 'Ich war dort nie gewesen' = I had never been there.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q147",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Bevor das Konzert begann, _____ wir schon eine Stunde gewartet.",
+      "options": [
+        "waren",
+        "hatten",
+        "sind",
+        "haben"
+      ],
+      "correctAnswer": "hatten",
+      "explanation": "'hatten gewartet' = Plusquamperfekt. warten → Perfekt: hat gewartet → Plusquamperfekt: hatten gewartet. Bevor-Satz → Plusquamperfekt.",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q148",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Sie _____ alles vorbereitet, als die Gäste kamen.",
+      "options": [
+        "war",
+        "hatte",
+        "ist",
+        "hat"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte vorbereitet' = Plusquamperfekt. vorbereiten (trennbar: vor-) → kein Zwischen-'ge' → vorbereitet. Hilfsverb: hatten. Als-Satz → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q149",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Nachdem er nach Berlin _____ _____, fand er sofort einen Job.",
+      "options": [
+        "gefahren / hatte",
+        "gefahren / war",
+        "war / gefahren",
+        "hatte / gefahren"
+      ],
+      "correctAnswer": "war / gefahren",
+      "explanation": "'war gefahren' = Plusquamperfekt. fahren = Bewegungsverb → Hilfsverb: sein. Perfekt: ist gefahren → Plusquamperfekt: war gefahren.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q150",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Wir konnten nicht Fußball spielen, weil es die ganze Nacht _____ _____.",
+      "options": [
+        "geregnet / hatte",
+        "geregnet / war",
+        "hatte / geregnet",
+        "war / geregnet"
+      ],
+      "correctAnswer": "geregnet / hatte",
+      "explanation": "'hatte geregnet' = Plusquamperfekt. regnen → Perfekt: hat geregnet → Plusquamperfekt: hatte geregnet. regnen uses haben (weather, no movement).",
+      "difficulty": "medium",
       "topicName": "Plusquamperfekt"
     }
   ]
