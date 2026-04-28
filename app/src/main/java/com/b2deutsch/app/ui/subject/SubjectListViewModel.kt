@@ -165,9 +165,9 @@ class SubjectListViewModel @Inject constructor(
             )
         ),
 
-// 3. Verben und Ergänzungen
+        // 2. Verben und Ergänzungen
         Subject(
-            id = "b2_03",
+            id = "b2_02",
             level = "B2",
             name = "2. Verben und Ergänzungen",
             nameShort = "Verben und Ergänzungen",
@@ -184,7 +184,7 @@ class SubjectListViewModel @Inject constructor(
                 "Reflexive Verben: sich freuen, sich kümmern, sich erinnern"
             )
         ),
-        // 4. Zeitformen in der Vergangenheit
+        // 3. Zeitformen in der Vergangenheit
         Subject(
             id = "b2_04",
             level = "B2",
