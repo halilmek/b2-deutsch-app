@@ -1,8 +1,8 @@
 {
   "version": "1.0",
   "subjectId": "b2_04",
-  "topicName": "Perfekt mit haben und sein",
-  "totalQuestions": 80,
+  "topicName": "Zeitformen der Vergangenheit (Perfekt & Präteritum)",
+  "totalQuestions": 90,
   "questions": [
     {
       "id": "b2_04_q001",
@@ -1283,6 +1283,166 @@
       "explanation": "'sein' → Perfekt mit sein → Partizip: gewesen. Du: bist gewesen. WICHTIG: nicht 'hast gewesen'!",
       "difficulty": "medium",
       "topicName": "Perfekt mit haben und sein"
+    },
+    {
+      "id": "b2_04_q081",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ gestern keine Zeit.",
+      "options": [
+        "habe",
+        "hatte",
+        "bin",
+        "war"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte' = Präteritum von 'haben'. Used in written German and narratives. (Perfekt would be: habe gehabt — but here Präteritum is correct for the context)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q082",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er ______ sehr müde nach Hause.",
+      "options": [
+        "geht",
+        "ging",
+        "gegangen",
+        "ist gegangen"
+      ],
+      "correctAnswer": "ging",
+      "explanation": "'ging' = Präteritum von 'gehen'. Weak verb, no umlaut change in Präteritum. (Perfekt would be: ist gegangen)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q083",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ das Problem nicht verstehen.",
+      "options": [
+        "konnten",
+        "können",
+        "gekonnt",
+        "konnten haben"
+      ],
+      "correctAnswer": "konnten",
+      "explanation": "'konnten' = Präteritum von 'können'. Modalverb — Präteritum ends in -te: konnten, konnte, konntet. (Perfekt: hat gekonnt)",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q084",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ in Berlin geboren.",
+      "options": [
+        "ist",
+        "war",
+        "wurde",
+        "hat"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "'wurde' = Präteritum von 'werden' (Passiv). 'Sie wurde geboren' = She was born (passive construction in Präteritum)",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q085",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ ihn sofort.",
+      "options": [
+        "erkenne",
+        "erkannte",
+        "erkannt",
+        "habe erkannt"
+      ],
+      "correctAnswer": "erkannte",
+      "explanation": "'erkannte' = Präteritum von 'erkennen'. Schwaches Verb (weak verb) — Präteritum: erkannte, erkanntest, erkannte. No vowel change.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q086",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er ______ das Fenster.",
+      "options": [
+        "öffnet",
+        "öffnete",
+        "geöffnet",
+        "hat geöffnet"
+      ],
+      "correctAnswer": "öffnete",
+      "explanation": "'öffnete' = Präteritum von 'öffnen'. Schwaches Verb — Präteritum: öffnete, öffnetest, öffnete. (Perfekt: hat geöffnet)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q087",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ lange auf den Bus.",
+      "options": [
+        "warten",
+        "warteten",
+        "gewartet",
+        "haben gewartet"
+      ],
+      "correctAnswer": "warteten",
+      "explanation": "'warteten' = Präteritum von 'warten'. Schwaches Verb auf -en → Präteritum: warteten, wartetest, warteten. (Perfekt: haben gewartet)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q088",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ das Buch in zwei Tagen.",
+      "options": [
+        "liest",
+        "las",
+        "gelesen",
+        "hat gelesen"
+      ],
+      "correctAnswer": "las",
+      "explanation": "'las' = Präteritum von 'lesen'. Starkes Verb (strong verb) — vowel change: e→a. Präteritum: las, lasest, las. (Perfekt: hat gelesen)",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q089",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ sehr früh auf.",
+      "options": [
+        "stehe",
+        "stand",
+        "gestanden",
+        "habe gestanden"
+      ],
+      "correctAnswer": "stand",
+      "explanation": "'stand' = Präteritum von 'stehen'. Starkes Verb — vowel change: eh→a. Präteritum: stand, standest, stand. (Perfekt: habe gestanden)",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q090",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er ______ mir die Wahrheit.",
+      "options": [
+        "sagt",
+        "sagte",
+        "gesagt",
+        "hat gesagt"
+      ],
+      "correctAnswer": "sagte",
+      "explanation": "'sagte' = Präteritum von 'sagen'. Schwaches Verb — Präteritum: sagte, sagtest, sagte. (Perfekt: hat gesagt)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
     }
   ]
 }
