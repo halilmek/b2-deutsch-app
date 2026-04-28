@@ -359,4 +359,93 @@ object LocalQuestionBank {
         val difficulty: String,
         val topicName: String
     )
+
+    /**
+     * Update topic from Firebase data (called by FirebaseSyncService).
+     * Re-initializes the topic's question pool from new Firebase content.
+     * Only updates if the topic's question count changed.
+     */
+    fun updateTopicFromFirebase(
+        context: Context,
+        subjectId: String,
+        topicName: String,
+        totalQuestions: Int,
+        questions: List<Map<String, Any>>
+    ) {
+        val prefs = getPrefs(context)
+        val currentTotal = prefs.getInt(KEY_TOPIC_COUNT_PREFIX + subjectId, 0)
+
+        // Only update if question count changed (new content)
+        if (currentTotal == totalQuestions && questions.isNotEmpty()) {
+            Log.d("LQB", "Topic $subjectId unchanged — skipping update")
+            return
+        }
+
+        Log.d("LQB", "Updating topic $subjectId from Firebase: $totalQuestions questions")
+
+        // Build all question IDs for this topic
+        val allIds = (1..totalQuestions).map {
+            "${subjectId}_q${it.toString().padStart(3, '0')}"
+        }
+
+        // Reset active/pool and save new question count
+        val activeArray = JSONArray(allIds)
+        prefs.edit()
+            .putString(KEY_ACTIVE_PREFIX + subjectId, activeArray.toString())
+            .putString(KEY_PASSIVE_PREFIX + subjectId, JSONArray().toString())
+            .putInt(KEY_TOPIC_COUNT_PREFIX + subjectId, totalQuestions)
+            .apply()
+
+        // Also save the full question JSON locally for offline access
+        saveQuestionsJson(context, subjectId, topicName, questions)
+
+        Log.d("LQB", "Topic $subjectId updated successfully")
+    }
+
+    /**
+     * Save question data locally as JSON (for offline Firebase fallback).
+     */
+    private fun saveQuestionsJson(
+        context: Context,
+        subjectId: String,
+        topicName: String,
+        questions: List<Map<String, Any>>
+    ) {
+        try {
+            val jsonMap = JSONObject()
+            jsonMap.put("version", "firebase_sync")
+            jsonMap.put("subjectId", subjectId)
+            jsonMap.put("topicName", topicName)
+            jsonMap.put("totalQuestions", questions.size)
+
+            val questionsArray = JSONArray()
+            for (q in questions) {
+                val qObj = JSONObject()
+                qObj.put("id", q["id"] ?: "")
+                qObj.put("subjectId", q["subjectId"] ?: subjectId)
+                qObj.put("type", q["type"] ?: "multiple_choice")
+                qObj.put("questionText", q["questionText"] ?: "")
+                qObj.put("correctAnswer", q["correctAnswer"] ?: "")
+                qObj.put("explanation", q["explanation"] ?: "")
+                qObj.put("difficulty", q["difficulty"] ?: "medium")
+                qObj.put("topicName", q["topicName"] ?: topicName)
+
+                @Suppress("UNCHECKED_CAST")
+                val options = q["options"] as? List<String> ?: emptyList()
+                qObj.put("options", JSONArray(options))
+
+                questionsArray.put(qObj)
+            }
+            jsonMap.put("questions", questionsArray)
+
+            // Save to app internal storage (not assets — writable)
+            val file = context.getFileStreamName("${subjectId}_fb.json")
+            context.openFileOutput("${subjectId}_fb.json", Context.MODE_PRIVATE).use { out ->
+                out.write(jsonMap.toString().toByteArray())
+            }
+            Log.d("LQB", "Saved Firebase cache: ${subjectId}_fb.json")
+        } catch (e: Exception) {
+            Log.e("LQB", "Failed to save questions JSON", e)
+        }
+    }
 }
