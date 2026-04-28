@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "b2_05",
   "topicName": "Zeitformen der Zukunft (Präsens, Futur I & Futur II)",
-  "totalQuestions": 100,
+  "totalQuestions": 110,
   "questions": [
     {
       "id": "b2_05_q001",
@@ -1602,6 +1602,166 @@
       "correctAnswer": "Wir werden den Film gesehen haben.",
       "explanation": "Doğru Futur II yapısı: werden + Partizip II + haben. 'Wir werden den Film gesehen haben' = We will have watched the film.",
       "difficulty": "hard",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q101",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Morgen um diese Zeit ______ er die Prüfung ______.",
+      "options": [
+        "wird / bestanden haben",
+        "hat / bestanden",
+        "ist / bestanden gewesen",
+        "wird / bestehen"
+      ],
+      "correctAnswer": "wird / bestanden haben",
+      "explanation": "Futur II. 'Morgen um diese Zeit wird er die Prüfung bestanden haben' = Tomorrow at this time he will have passed the exam.",
+      "difficulty": "medium",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q102",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Sie ist noch nicht da. Sie ______ wahrscheinlich den Bus ______.",
+      "options": [
+        "wird / verpasst sein",
+        "hat / verpasst",
+        "wird / verpasst haben",
+        "ist / verpasst worden"
+      ],
+      "correctAnswer": "wird / verpasst haben",
+      "explanation": "Vermutung über Vergangenheit. 'Sie wird wahrscheinlich den Bus verpasst haben' = She probably missed the bus.",
+      "difficulty": "easy",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q103",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Bis zum Sommer ______ wir unsere Bachelorarbeit ______.",
+      "options": [
+        "werden / abgeben",
+        "haben / abgegeben",
+        "werden / abgegeben haben",
+        "sind / abgegeben"
+      ],
+      "correctAnswer": "werden / abgegeben haben",
+      "explanation": "Futur II. 'Bis zum Sommer werden wir unsere Bachelorarbeit abgegeben haben' = By summer we will have submitted our thesis.",
+      "difficulty": "medium",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q104",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Gestern war er so müde. Er ______ wieder sehr spät ______.",
+      "options": [
+        "wird / aufbleiben",
+        "hat / aufgeblieben",
+        "wird / aufgeblieben sein",
+        "ist / aufgeblieben"
+      ],
+      "correctAnswer": "wird / aufgeblienen sein",
+      "explanation": "Geçmiş tahmini. 'Er wird wieder sehr spät aufgeblieben sein' = He probably stayed up very late again.",
+      "difficulty": "medium",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q105",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "In fünf Jahren ______ sich die Technologie völlig ______.",
+      "options": [
+        "hat / verändert",
+        "wird / verändert haben",
+        "ist / verändert worden",
+        "wird / verändern"
+      ],
+      "correctAnswer": "wird / verändert haben",
+      "explanation": "Zukünftige vollendete Handlung. 'In fünf Jahren wird sich die Technologie völlig verändert haben' = In five years technology will have changed completely.",
+      "difficulty": "medium",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q106",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du ihn nicht erreicht? Er ______ schon nach Hause ______.",
+      "options": [
+        "wird / gegangen sein",
+        "ist / gegangen",
+        "hatte / gehen sollen",
+        "wird / gehen"
+      ],
+      "correctAnswer": "wird / gegangen sein",
+      "explanation": "Geçmiş tahmini. 'Er wird schon nach Hause gegangen sein' = He must have already gone home.",
+      "difficulty": "easy",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q107",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Nächsten Monat ______ ich endlich meinen Führerschein ______.",
+      "options": [
+        "habe / gemacht",
+        "werde / machen",
+        "werde / gemacht haben",
+        "bin / gemacht"
+      ],
+      "correctAnswer": "werde / gemacht haben",
+      "explanation": "Zukünftige abgeschlossene Handlung. 'Ich werde meinen Führerschein gemacht haben' = I will have gotten my driver's license.",
+      "difficulty": "medium",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q108",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Der Zug ist schon abgefahren. Wir ______ ihn ______.",
+      "options": [
+        "haben / verpasst",
+        "werden / verpasst haben",
+        "sind / verpasst",
+        "werden / verpassen"
+      ],
+      "correctAnswer": "werden / verpasst haben",
+      "explanation": "Futur II: 'Wir werden ihn verpasst haben' = We will have missed it. Zug zaten gitmiş → geçmişe dayalı tahmin.",
+      "difficulty": "easy",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q109",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Ihr seid so blass. Ihr ______ den ganzen Tag ______.",
+      "options": [
+        "habt / gearbeitet",
+        "werdet / gearbeitet haben",
+        "seid / gearbeitet gewesen",
+        "werdet / arbeiten"
+      ],
+      "correctAnswer": "werdet / gearbeitet haben",
+      "explanation": "Görünüşe dayalı geçmiş tahmin. 'Ihr werdet den ganzen Tag gearbeitet haben' = You probably worked all day.",
+      "difficulty": "easy",
+      "topicName": "Futur II (Vermutung über die Vergangenheit)"
+    },
+    {
+      "id": "b2_05_q110",
+      "subjectId": "b2_05",
+      "type": "multiple_choice",
+      "questionText": "Bis 2030 ______ das Klima sich dramatisch ______.",
+      "options": [
+        "hat / verändert",
+        "wird / verändert haben",
+        "ist / verändert worden",
+        "wird / verändern"
+      ],
+      "correctAnswer": "wird / verändert haben",
+      "explanation": "Zukünftige vollendete Handlung. 'Bis 2030 wird das Klima sich dramatisch verändert haben' = By 2030 the climate will have changed dramatically.",
+      "difficulty": "medium",
       "topicName": "Futur II (Vermutung über die Vergangenheit)"
     }
   ]
