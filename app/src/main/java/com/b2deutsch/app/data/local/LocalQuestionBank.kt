@@ -1,10 +1,4 @@
-package com.b2deutsch.app.data.local
-
-import android.content.Context
-import android.content.SharedPreferences
-import org.json.JSONArray
-import org.json.JSONObject
-import java.io.InputStreamReader
+import android.util.Log
 
 /**
  * Local question bank — per-topic JSON files for offline access.
@@ -90,6 +84,7 @@ object LocalQuestionBank {
     fun getNextQuiz(context: Context, subjectId: String): QuizResult {
         val prefs = getPrefs(context)
         val total = prefs.getInt(KEY_TOPIC_COUNT_PREFIX + subjectId, 0)
+        android.util.Log.d("LQB", "getNextQuiz subjectId=\$subjectId total=\$total")
 
         // No questions for this topic?
         if (total == 0) {
