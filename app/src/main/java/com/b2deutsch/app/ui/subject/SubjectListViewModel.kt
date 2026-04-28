@@ -213,7 +213,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
             order = 4,
-            quizCount = 10,
+            quizCount = 12,  // 120 questions ÷ 10 per quiz = 12 sessions
             tips = listOf(
                 "WERDEN + Infinititiv = Vorhersage, Vermutung über Zukunft",
                 "Präsens + Zeitangabe = geplante, sichere Handlungen",
