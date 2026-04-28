@@ -7,6 +7,7 @@ import com.b2deutsch.app.data.local.LocalQuestionBank
 import com.google.firebase.firestore.FirebaseFirestore
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
+import kotlinx.coroutines.tasks.await
 
 /**
  * Firebase Sync Service — Admin Push Model
@@ -150,14 +151,6 @@ object FirebaseSyncService {
         getPrefs(context).edit()
             .putLong(KEY_LAST_SYNC, System.currentTimeMillis())
             .apply()
-    }
-
-    // Extension to make Firestore suspend-compatible
-    private suspend fun <T> com.google.android.gms.tasks.Task<T>.await(): T {
-        return suspendCancellableCoroutine { continuation ->
-            addOnSuccessListener { result -> continuation.resume(result, null) }
-            addOnFailureListener { e -> continuation.resumeWithException(e) }
-        }
     }
 
     // ===== RESULT CLASS =====
