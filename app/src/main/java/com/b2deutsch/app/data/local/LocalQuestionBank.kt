@@ -29,10 +29,12 @@ import java.io.InputStreamReader
  */
 object LocalQuestionBank {
 
-    private const val PREFS_NAME = "quiz_progress_prefs_v5"
+    private const val PREFS_NAME = "quiz_progress_prefs_v6"
     private const val KEY_ACTIVE_PREFIX = "active_"      // unsolved question IDs
     private const val KEY_PASSIVE_PREFIX = "passive_"    // solved question IDs
     private const val KEY_TOPIC_COUNT_PREFIX = "count_" // total questions per topic
+    private const val KEY_INIT_VERSION = "init_version"   // forces re-init on code update
+    private const val INIT_VERSION = 2
     private const val QUESTIONS_PER_QUIZ = 10
 
     // ============ PUBLIC API ============
@@ -44,6 +46,15 @@ object LocalQuestionBank {
      */
     fun initializeFromAssets(context: Context) {
         val prefs = getPrefs(context)
+
+        // Force re-init if init version changed (clears old corrupt SharedPreferences)
+        val currentVersion = prefs.getInt(KEY_INIT_VERSION, 0)
+        if (currentVersion != INIT_VERSION) {
+            // Wipe all stored progress — fresh start with new per-topic files
+            prefs.edit().clear().apply()
+            prefs.edit().putInt(KEY_INIT_VERSION, INIT_VERSION).apply()
+        }
+
         val topicIds = getAllB2TopicIds()
 
         topicIds.forEach { subjectId ->
@@ -55,20 +66,17 @@ object LocalQuestionBank {
                     reader.close()
                     val json = JSONObject(jsonText)
                     val total = json.getInt("totalQuestions")
-                    val questions = json.getJSONArray("questions")
 
-                    // Initialize if not already
-                    if (!prefs.contains(KEY_ACTIVE_PREFIX + subjectId)) {
-                        val allIds = (1..total).map {
-                            "${subjectId}_q${it.toString().padStart(3, '0')}"
-                        }
-                        val activeArray = JSONArray(allIds)
-                        prefs.edit()
-                            .putString(KEY_ACTIVE_PREFIX + subjectId, activeArray.toString())
-                            .putString(KEY_PASSIVE_PREFIX + subjectId, JSONArray().toString())
-                            .putInt(KEY_TOPIC_COUNT_PREFIX + subjectId, total)
-                            .apply()
+                    // Initialize (or re-init) question IDs for this topic
+                    val allIds = (1..total).map {
+                        "${subjectId}_q${it.toString().padStart(3, '0')}"
                     }
+                    val activeArray = JSONArray(allIds)
+                    prefs.edit()
+                        .putString(KEY_ACTIVE_PREFIX + subjectId, activeArray.toString())
+                        .putString(KEY_PASSIVE_PREFIX + subjectId, JSONArray().toString())
+                        .putInt(KEY_TOPIC_COUNT_PREFIX + subjectId, total)
+                        .apply()
                 }
             } catch (e: Exception) {
                 // Topic file doesn't exist yet → coming soon, skip
