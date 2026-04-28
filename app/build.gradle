@@ -5,6 +5,7 @@ plugins {
     id 'kotlin-kapt'
     id 'androidx.navigation.safeargs.kotlin'
     id 'com.google.dagger.hilt.android'
+    id 'com.google.firebase.crashlytics'
 }
 
 android {
@@ -19,6 +20,10 @@ android {
         versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        manifestPlaceholders += [
+            firebaseCrashlyticsBuildId: "419122108874"
+        ]
     }
 
     buildTypes {
@@ -71,6 +76,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-firestore-ktx'
     implementation 'com.google.firebase:firebase-storage-ktx'
     implementation 'com.google.firebase:firebase-analytics-ktx'
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
 
     // Hilt (Dependency Injection)
     implementation 'com.google.dagger:hilt-android:2.48.1'
