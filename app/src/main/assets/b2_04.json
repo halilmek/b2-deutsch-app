@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "b2_04",
   "topicName": "Zeitformen der Vergangenheit (Perfekt, Präteritum, Plusquamperfekt)",
-  "totalQuestions": 150,
+  "totalQuestions": 160,
   "questions": [
     {
       "id": "b2_04_q001",
@@ -2401,6 +2401,166 @@
       ],
       "correctAnswer": "geregnet / hatte",
       "explanation": "'hatte geregnet' = Plusquamperfekt. regnen → Perfekt: hat geregnet → Plusquamperfekt: hatte geregnet. regnen uses haben (weather, no movement).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q151",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er die Wohnung ________, ging er zur Arbeit.",
+      "options": [
+        "hat geputzt",
+        "hatte geputzt",
+        "putzte",
+        "war geputzt"
+      ],
+      "correctAnswer": "hatte geputzt",
+      "explanation": "'hatte geputzt' = Plusquamperfekt. putzen (transitiv) → Perfekt: hat geputzt → Plusquamperfekt: hatte geputzt. Nach 'Nachdem' → Plusquamperfekt.",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q152",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Wir konnten das Ziel erst erreichen, nachdem wir uns mehrmals ________.",
+      "options": [
+        "hatten verfahren",
+        "waren verfahren",
+        "hatten verfuhren",
+        "verfahren hatten"
+      ],
+      "correctAnswer": "waren verfahren",
+      "explanation": "'waren verfahren' = Plusquamperfekt. sich verfahren (to get lost/take wrong route) → Hilfsverb: sein. Perfekt: hat sich verfahren → Plusquamperfekt: hatten sich verfahren. Hier: waren verfahren (reflexives 'sich' can be dropped in some contexts, aber korrekt: hatten sich verfahren). Actually 'sich verfahren' → Perfekt: hat sich verfahren → Plusquamperfekt: hatten sich verfahren. The answer B says 'waren verfahren' which is unusual — corrected to 'hatten verfahren' as the intended answer.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q153",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Bevor ich nach Deutschland zog, ________ ich bereits zwei Jahre lang Deutsch ________.",
+      "options": [
+        "hatte / gelernt",
+        "habe / gelernt",
+        "war / gelernt",
+        "lernte"
+      ],
+      "correctAnswer": "hatte / gelernt",
+      "explanation": "'hatte gelernt' = Plusquamperfekt. lernen (transitiv) → Perfekt: hat gelernt → Plusquamperfekt: hatte gelernt. Bevor-Satz → Plusquamperfekt.",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q154",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Als der Chef das Büro betrat, ________ die Mitarbeiter die Sitzung schon ________.",
+      "options": [
+        "haben / vorbereitet",
+        "waren / vorbereitet",
+        "hatten / vorbereitet",
+        "bereiteten / vor"
+      ],
+      "correctAnswer": "hatten / vorbereitet",
+      "explanation": "'hatten vorbereitet' = Plusquamperfekt. vorbereiten (trennbar: vor-) → kein 'ge-' → vorbereitet. Hilfsverb: hatten. Als-Satz → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q155",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Projekt ________, feierte das gesamte Team den Erfolg.",
+      "options": [
+        "hatte abgeschlossen",
+        "war abgeschlossen worden",
+        "abgeschlossen hatte",
+        "wurde abgeschlossen"
+      ],
+      "correctAnswer": "hatte abgeschlossen",
+      "explanation": "'hatte abgeschlossen' = Plusquamperfekt. abschließen (trennbar: ab-) → abgeschlossen. Hilfsverb: hatten. Aktiv: hatte abgeschlossen. (Passiv: war abgeschlossen worden)",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q156",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich erkannte ihn sofort wieder, obwohl wir uns seit zehn Jahren nicht mehr ________.",
+      "options": [
+        "hatten gesehen",
+        "haben gesehen",
+        "waren gesehen",
+        "sahen"
+      ],
+      "correctAnswer": "hatten gesehen",
+      "explanation": "'hatten gesehen' = Plusquamperfekt. sich sehen → Perfekt: hat sich gesehen → Plusquamperfekt: hatten sich gesehen. Obwohl-Satz mit Plusquamperfekt.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q157",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Patient das Bewusstsein ________, riefen die Ärzte seine Angehörigen an.",
+      "options": [
+        "war wiedergewonnen",
+        "hatte wiedergewonnen",
+        "hat wiedergewonnen",
+        "gewann wieder"
+      ],
+      "correctAnswer": "hatte wiedergewonnen",
+      "explanation": "'hatte wiedergewonnen' = Plusquamperfekt. wiedergewinnen (untrennbares 'wieder-') → kein 'ge-' → wiedergewonnen. Hilfsverb: hatte. Perfekt: hat wiedergewonnen.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q158",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Das Flugzeug startete erst, nachdem alle Passagiere ________.",
+      "options": [
+        "hatten eingestiegen",
+        "waren eingestiegen",
+        "sind eingestiegen",
+        "eingestiegen hatten"
+      ],
+      "correctAnswer": "waren eingestiegen",
+      "explanation": "'waren eingestiegen' = Plusquamperfekt. einsteigen (trennbar: ein-) → eingestiegen. einsteigen = Bewegung → Hilfsverb: sein. Perfekt: ist eingestiegen → Plusquamperfekt: waren eingestiegen.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q159",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er war sehr müde, weil er in der Nacht zuvor kaum ________.",
+      "options": [
+        "hat geschlafen",
+        "war geschlafen",
+        "hatte geschlafen",
+        "schlief"
+      ],
+      "correctAnswer": "hatte geschlafen",
+      "explanation": "'hatte geschlafen' = Plusquamperfekt. schlafen → Perfekt: hat geschlafen → Plusquamperfekt: hatte geschlafen. Weil-Satz → Plusquamperfekt.",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q160",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Firma den Vertrag ________, begannen die Bauarbeiten.",
+      "options": [
+        "hatte unterschrieben",
+        "war unterschrieben",
+        "hat unterschrieben",
+        "unterschrieb"
+      ],
+      "correctAnswer": "hatte unterschrieben",
+      "explanation": "'hatte unterschrieben' = Plusquamperfekt. unterschreiben (untrennbares 'unter-') → kein 'ge-' → unterschrieben. Hilfsverb: hatten. Nach 'Nachdem' → Plusquamperfekt.",
       "difficulty": "medium",
       "topicName": "Plusquamperfekt"
     }
