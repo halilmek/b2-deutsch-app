@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "b2_04",
   "topicName": "Zeitformen der Vergangenheit (Perfekt & Präteritum)",
-  "totalQuestions": 90,
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_04_q001",
@@ -1442,6 +1442,166 @@
       "correctAnswer": "sagte",
       "explanation": "'sagte' = Präteritum von 'sagen'. Schwaches Verb — Präteritum: sagte, sagtest, sagte. (Perfekt: hat gesagt)",
       "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q091",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Als ich gestern nach Hause kam, ___ meine Frau schon.",
+      "options": [
+        "schlief",
+        "schlafete",
+        "schläft",
+        "hat geschlafen"
+      ],
+      "correctAnswer": "schlief",
+      "explanation": "'schlief' = Präteritum von 'schlafen'. Starkes Verb (e→ie): schlief, schliefst, schlief. Mit 'als' wird Präteritum verwendet.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q092",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Der Minister ___ in seiner Rede über die Wirtschaftskrise.",
+      "options": [
+        "spricht",
+        "sprach",
+        "sprechte",
+        "hat gesprochen"
+      ],
+      "correctAnswer": "sprach",
+      "explanation": "'sprach' = Präteritum von 'sprechen'. Starkes Verb (e→a): sprach, sprachst, sprach. In formellen Texten wird Präteritum bevorzugt.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q093",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ___ den ganzen Tag im Garten.",
+      "options": [
+        "spielten",
+        "spielen",
+        "gespielten",
+        "haben gespielt"
+      ],
+      "correctAnswer": "spielten",
+      "explanation": "'spielten' = Präteritum von 'spielen'. Schwaches Verb → Präteritum mit -te Endung: spielten, spieltest, spielten.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q094",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er ___ damals kein Geld und ___ sich nichts leisten.",
+      "options": [
+        "hatte … konnte",
+        "hatte … kann",
+        "war … konnte",
+        "hatte … könnte"
+      ],
+      "correctAnswer": "hatte … konnte",
+      "explanation": "'hatte' = Präteritum von 'haben'. 'konnte' = Präteritum von 'können' (Modalverb). Beide werden im Präteritum verwendet — auch in der gesprochenen Sprache.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q095",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Die Firma ___ im Jahr 1995 ___.",
+      "options": [
+        "wurde … gegründet",
+        "war … gegründet",
+        "hat … gegründet",
+        "wurde … gründen"
+      ],
+      "correctAnswer": "wurde … gegründet",
+      "explanation": "'wurde gegründet' = Passiv Präteritum. wurde (Präteritum von werden) + Partizip II (gegründet). Passiv: Die Firma wurde gegründet.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q096",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er die Prüfung bestanden hatte, ___ er sehr erleichtert.",
+      "options": [
+        "ist",
+        "war",
+        "wurde",
+        "wäre"
+      ],
+      "correctAnswer": "war",
+      "explanation": "'war' = Präteritum von 'sein'. Nach Plusquamperfekt (hatte bestanden) folgt im Hauptsatz Präteritum oder Plusquamperfekt. Hier: war = einfaches Präteritum.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q097",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Sie ___ stundenlang auf ihn, aber er ___ nicht.",
+      "options": [
+        "wartete … kam",
+        "wartet … kommt",
+        "wartete … kommt",
+        "hat gewartet … kam"
+      ],
+      "correctAnswer": "wartete … kam",
+      "explanation": "'wartete' = Präteritum von 'warten' (schwach). 'kam' = Präteritum von 'kommen' (stark: e→a). Zwei gleichzeitige vergangene Handlungen → Präteritum.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q098",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler ___ eine neue Methode, die die Forschung revolutionierte.",
+      "options": [
+        "entwickelte",
+        "entwickelt",
+        "hat entwickelt",
+        "entwickeln"
+      ],
+      "correctAnswer": "entwickelte",
+      "explanation": "'entwickelte' = Präteritum von 'entwickeln'. Schwaches Verb → Präteritum: entwickelte. In wissenschaftlichen Texten wird Präteritum bevorzugt.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q099",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Es ___ damals keine Möglichkeit, das Problem zu lösen.",
+      "options": [
+        "hat gegeben",
+        "gab",
+        "gibt",
+        "gegeben"
+      ],
+      "correctAnswer": "gab",
+      "explanation": "'es gab' = Präteritum von 'es gibt'. Eine sehr häufige Konstruktion! Perfekt would be: es hat gegeben. Präteritum: es gab (common in written German).",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q100",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge ___, dass er den Täter nicht ___.",
+      "options": [
+        "sagte … erkannte",
+        "sagt … erkannte",
+        "sagte … erkennt",
+        "sagte … hat erkannt"
+      ],
+      "correctAnswer": "sagte … erkannte",
+      "explanation": "'sagte' = Präteritum von 'sagen' (schwach). 'erkannte' = Präteritum von 'erkennen' (untrennbares 'er-' → kein 'ge-'). Indirekte Rede und Berichterstattung → Präteritum.",
+      "difficulty": "medium",
       "topicName": "Präteritum"
     }
   ]
