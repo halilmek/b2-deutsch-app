@@ -222,7 +222,7 @@ class SubjectListViewModel @Inject constructor(
                 "Im B2-Exam: meistens wird für Zukunft verwendet"
             )
         ),
-        // 6. Futur mit werden
+        // 5. Futur mit werden
         Subject(
             id = "b2_06",
             level = "B2",
@@ -241,30 +241,30 @@ class SubjectListViewModel @Inject constructor(
                 "Im B2-Exam: 'werden' oft für Vorhersagen und Vermutungen"
             )
         ),
-        // 7. Angaben im Satz
+        // 6. Angaben im Satz
         Subject(
             id = "b2_07",
             level = "B2",
             name = "6. Angaben im Satz",
             nameShort = "Angaben im Satz",
-            description = "Angaben sind Satzglieder, die zusätzliche Informationen geben: Zeitangaben (wann?), Ortsangaben (wo?), Artangaben (wie?). Sie können an verschiedenen Positionen im Satz stehen, beeinflussen aber nicht die Verbposition.\n\nBeispiele:\n• 'Am Montag werde ich in Berlin einen Test schreiben.' (Zeit + Ort)\n• 'Wegen der Krankheit konnte ich nicht kommen.' (Kausal)",
+            description = "Angaben sind Satzglieder, die zusätzliche Informationen geben — sie antworten auf Fragen wie Wann? Wo? Warum? Wie? In German, Angaben follow the TEKAMO order when multiple ones are combined.\n\nTEKAMO — Four Main Types of Angaben:\n• TE (Temporal) — Wann? — morgen, gestern, oft\n• KA (Kausal) — Warum? — wegen des Wetters, deshalb\n• MO (Modal) — Wie? — schnell, leider, gern\n• LO (Lokal) — Wo/Wohin/Woher? — in Berlin, nach Hause\n\nSentence Position Rules (TEKAMO Order):\nWhen multiple Angaben appear together: TE → KA → MO → LO\nExample: Ich fahre morgen (TE) wegen der Arbeit (KA) mit dem Zug (MO) nach Munchen (LO).\n\nBeispiele:\n• 'Am Montag werde ich in Berlin einen Test schreiben.' (TE + LO)\n• 'Wegen der Krankheit konnte ich nicht kommen.' (KA only)\n• 'Sie hat gestern im Bro schnell gegessen.' (TE + LO + MO)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📍",
             order = 6,
-            quizCount = 10,
+            quizCount = 2,
             tips = listOf(
-                "Position 1: oft Zeitangabe oder Verb (Frage)",
-                "Position 2: Subjekt oder Objekt",
-                "Position 3: andere Angaben (Ortsangabe, Artangabe)",
-                "Position 4: Temporalangabe am Satzende möglich",
-                "Wichtigste Angaben: temporal, lokal, kausal, modal, instrumental"
+                "TEKAMO order: Temporal -> Kausal -> Modal -> Lokal",
+                "Position 1: usually temporal information (Wann?)",
+                "Position 2: Subject/Object",
+                "Position 3+: other Angaben in TEKAMO order",
+                "LO (Wo/Wohin/Woher) can also appear at the end of the sentence"
             )
         ),
-        // 8. Verneinung mit nicht
+        // 6. Verneinung mit nicht
         Subject(
             id = "b2_08",
             level = "B2",
-            name = "7. Verneinung mit nicht",
+            name = "6. Verneinung mit nicht",
             nameShort = "Nicht-Verneinung",
             description = "Die Verneinung mit 'nicht' kann sich auf verschiedene Satzglieder beziehen. Die Position von 'nicht' bestimmt, was verneint wird. Dies ist ein häufiger Fehler in der B2-Prüfung.\n\nBeispiele:\n• 'Ich spreche nicht Deutsch. (sondern Englisch)' - Verneinung des Verbs\n• 'Das ist nicht mein Buch. (sondern deins)' - Verneinung des Nominals",
             category = Constants.Categories.GRAMMAR,
@@ -279,11 +279,11 @@ class SubjectListViewModel @Inject constructor(
                 "Satznegation: nicht am Ende | Wortnegation: nicht vor dem Wort"
             )
         ),
-        // 9. Negationswörter
+        // 7. Negationswörter
         Subject(
             id = "b2_09",
             level = "B2",
-            name = "8. Negationswörter: nichts, nie/niemals, niemand, nirgends",
+            name = "7. Negationswörter: nichts, nie/niemals, niemand, nirgends",
             nameShort = "Negationswörter",
             description = "Es gibt verschiedene Negationswörter im Deutschen, die verwendet werden, um die Verneinung zu verstärken oder zu spezifizieren. In der B2-Prüfung werden diese häufig in Lese- und Schreibaufgaben verwendet.\n\nBeispiele:\n• 'Niemand hat das verstanden.' (niemand = hiç kimse)\n• 'Ich habe ihn nirgends gefunden.' (nirgends = hiçbir yerde)\n• 'Niemals werde ich das tun!' (niemals = asla)",
             category = Constants.Categories.GRAMMAR,
@@ -298,11 +298,11 @@ class SubjectListViewModel @Inject constructor(
                 "KEINER = no one / hiçbiri (Deklination wie Artikel)"
             )
         ),
-        // 10. Passiv Präteritum
+        // 8. Passiv Präteritum
         Subject(
             id = "b2_10",
             level = "B2",
-            name = "9. Passiv Präteritum",
+            name = "8. Passiv Präteritum",
             nameShort = "Passiv Präteritum",
             description = "Das Passiv Präteritum wird verwendet, um vergangene Handlungen zu beschreiben, bei denen der Handelnde unbekannt oder unwichtig ist. Es wird oft in formellen Texten und Berichten verwendet.\n\nBeispiele:\n• 'Das Problem wurde gelöst.' (Vorgangspassiv)\n• 'Die Tür war schon geöffnet.' (Zustandspassiv)",
             category = Constants.Categories.GRAMMAR,
@@ -317,11 +317,11 @@ class SubjectListViewModel @Inject constructor(
                 "Passiv in Vergangenheit: wurde häufig in Berichten verwendet"
             )
         ),
-        // 11. Konjunktiv II der Vergangenheit
+        // 9. Konjunktiv II der Vergangenheit
         Subject(
             id = "b2_11",
             level = "B2",
-            name = "10. Konjunktiv II der Vergangenheit",
+            name = "9. Konjunktiv II der Vergangenheit",
             nameShort = "Konjunktiv II Vergangenheit",
             description = "Der Konjunktiv II der Vergangenheit wird verwendet, um irreale Wünsche und hypothetische Situationen in der Vergangenheit auszudrücken. Er beschreibt, was hätte sein können, aber nicht war.\n\nBeispiele:\n• 'Wenn ich genug gelernt hätte, hätte ich die Prüfung bestanden.'\n• 'Ich hätte das nicht tun sollen.'",
             category = Constants.Categories.GRAMMAR,
@@ -336,11 +336,11 @@ class SubjectListViewModel @Inject constructor(
                 "Unterscheide: Konjunktiv II jetzt vs. damals"
             )
         ),
-        // 12. Konjunktiv II mit Modalverben
+        // 10. Konjunktiv II mit Modalverben
         Subject(
             id = "b2_12",
             level = "B2",
-            name = "11. Konjunktiv II mit Modalverben",
+            name = "10. Konjunktiv II mit Modalverben",
             nameShort = "Konjunktiv II Modalverben",
             description = "Der Konjunktiv II mit Modalverben wird verwendet, um Höflichkeit auszudrücken oder um irreale Möglichkeiten zu beschreiben. Die Form ist hätte/säre + Infinitiv + Modalverb.\n\nBeispiele:\n• 'Ich hätte das machen können.' (Möglichkeit in der Vergangenheit)\n• 'Wenn ich Zeit gehabt hätte, hätte ich kommen müssen.'",
             category = Constants.Categories.GRAMMAR,
