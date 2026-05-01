@@ -1,8 +1,8 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "subjectId": "b2_07",
   "topicName": "Angaben im Satz",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "b2_07_q101",
@@ -582,6 +582,326 @@
       "correctAnswer": "Er bleibt heute wegen Krankheit leider zu Hause.",
       "explanation": "TE -> KA -> MO -> LO = korrekt.",
       "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q141",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabe ist eine temporale Angabe?",
+      "options": [
+        "wegen des Regens",
+        "mit dem Fahrrad",
+        "heute Nachmittag",
+        "im Schwimmbad"
+      ],
+      "correctAnswer": "heute Nachmittag",
+      "explanation": "TE (temporal) = Wann? -> heute Nachmittag, morgen, gestern",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q142",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welcher Reihenfolge stehen die Angaben nach der TEKAMOLO-Regel?",
+      "options": [
+        "Modal - Temporal - Kausal - Lokal",
+        "Temporal - Kausal - Modal - Lokal",
+        "Lokal - Modal - Kausal - Temporal",
+        "Kausal - Temporal - Modal - Lokal"
+      ],
+      "correctAnswer": "Temporal - Kausal - Modal - Lokal",
+      "explanation": "TEKAMOLO = Temporal, Kausal, Modal, Lokal",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q143",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz hat die richtige Wortstellung der Angaben im Mittelfeld?",
+      "options": [
+        "Ich bin gestern wegen des Stresses mit dem Bus gefahren.",
+        "Ich bin mit dem Bus gestern wegen des Stresses gefahren.",
+        "Ich bin wegen des Stresses mit dem Bus gestern gefahren.",
+        "Ich bin gestern mit dem Bus wegen des Stresses gefahren."
+      ],
+      "correctAnswer": "Ich bin gestern wegen des Stresses mit dem Bus gefahren.",
+      "explanation": "TE (gestern) -> KA (wegen) -> MO (mit dem Bus) = korrekte Reihenfolge",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q144",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was erfragt eine kausale Angabe?",
+      "options": [
+        "Wann?",
+        "Wie?",
+        "Warum?",
+        "Wo?"
+      ],
+      "correctAnswer": "Warum?",
+      "explanation": "KA beantwortet Warum?-Fragen: wegen, deshalb",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q145",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Vervollstandigen Sie den Satz: ____ gehe ich ins Kino. (temporal, Vorfeld-Position)",
+      "options": [
+        "Mit meinem Bruder",
+        "In die Stadt",
+        "Morgen Abend",
+        "Wegen des Films"
+      ],
+      "correctAnswer": "Morgen Abend",
+      "explanation": "TE im Vorfeld: Morgen Abend -> Inversion",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q146",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabe ist modal?",
+      "options": [
+        "nach der Arbeit",
+        "trotz des Larms",
+        "mit großer Vorsicht",
+        "auf dem Tisch"
+      ],
+      "correctAnswer": "mit großer Vorsicht",
+      "explanation": "MO = Art und Weise, beschreibt Wie?-Frage",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q147",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist die lokale Angabe?",
+      "options": [
+        "Wir treffen uns morgen am Bahnhof.",
+        "Er hat wegen des Sturms das Haus nicht verlassen.",
+        "Sie spricht sehr leise mit ihrem Freund.",
+        "Die Kinder spielen im Garten"
+      ],
+      "correctAnswer": "Die Kinder spielen im Garten",
+      "explanation": "LO (lokal) = Wo? -> im Garten",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q148",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt eine konzessive Angabe (Einrauming)?",
+      "options": [
+        "Trotz des Verbots hat er geraucht.",
+        "Er raucht wegen des Stresses.",
+        "Er raucht in der Pause.",
+        "Er raucht mit Genuss."
+      ],
+      "correctAnswer": "Trotz des Verbots hat er geraucht.",
+      "explanation": "konzessiv = obwohl / trotz = Einraumung",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q149",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Ordnen Sie die Angaben richtig: (1) temporal - (2) kausal - (3) modal - (4) lokal",
+      "options": [
+        "(4) - (3) - (2) - (1)",
+        "(1) - (2) - (3) - (4)",
+        "(2) - (1) - (4) - (3)",
+        "(3) - (4) - (1) - (2)"
+      ],
+      "correctAnswer": "(1) - (2) - (3) - (4)",
+      "explanation": "TEKAMOLO = TE, KA, MO, LO",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q150",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was ist falsch an diesem Satz? Ich habe im Park gestern aus Spaß einen Ball getreten.",
+      "options": [
+        "Die kausale Angabe fehlt.",
+        "Die temporale Angabe muss vor der lokalen stehen.",
+        "Die modale Angabe ist falsch.",
+        "Der Satz ist korrekt."
+      ],
+      "correctAnswer": "Die temporale Angabe muss vor der lokalen stehen.",
+      "explanation": "Richtige Reihenfolge: TE (gestern) -> LO (im Park) -> MO (aus Spaß)",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q151",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Frage beantwortet die Angabe ohne seine Brille?",
+      "options": [
+        "Wann?",
+        "Warum?",
+        "Wie?",
+        "Wohin?"
+      ],
+      "correctAnswer": "Wie?",
+      "explanation": "ohne seine Brille = Art und Weise = MO",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q152",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Wahlen Sie den Satz mit einer finalen Angabe (Zweck / Absicht).",
+      "options": [
+        "Er lernt, um die Prufung zu bestehen.",
+        "Er lernt wegen der Prufung.",
+        "Er lernt morgen.",
+        "Er lernt in der Bibliothek."
+      ],
+      "correctAnswer": "Er lernt, um die Prufung zu bestehen.",
+      "explanation": "final = Zweck/Absicht -> um ... zu",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q153",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabe kann nicht im Vorfeld (Position 1) stehen?",
+      "options": [
+        "Gestern",
+        "Aus Freundlichkeit",
+        "Mit dem Zug",
+        "- (alle konnen im Vorfeld stehen)"
+      ],
+      "correctAnswer": "- (alle konnen im Vorfeld stehen)",
+      "explanation": "Alle Angabetypen konnen im Vorfeld stehen",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q154",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Erkennen Sie die Angabeart: Sie hat aus reiner Hoflichkeit geantwortet.",
+      "options": [
+        "temporal",
+        "modal",
+        "kausal",
+        "lokal"
+      ],
+      "correctAnswer": "kausal",
+      "explanation": "aus reiner Hoflichkeit = Grund = KA",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q155",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Setzen Sie die richtige Angabe ein: Wir fahren ______ nach Berlin. (modal)",
+      "options": [
+        "morgen",
+        "wegen der Arbeit",
+        "mit dem Zug",
+        "zum Hauptbahnhof"
+      ],
+      "correctAnswer": "mit dem Zug",
+      "explanation": "MO = Art und Weise -> mit dem Zug",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q156",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz steht die temporale Angabe an letzter Stelle (Nachfeld)?",
+      "options": [
+        "Ich bin gestern angekommen.",
+        "Angekommen bin ich gestern.",
+        "Gestern bin ich angekommen.",
+        "Ich bin angekommen, als es dunkel wurde."
+      ],
+      "correctAnswer": "Ich bin angekommen, als es dunkel wurde.",
+      "explanation": "Nachfeld = Satzende; Gliedsatz als TE im Nachfeld",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q157",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Kombination ist korrekt nach TEKAMOLO?",
+      "options": [
+        "Er arbeitet heute wegen des Projekts mit viel Eifer im BUro.",
+        "Er arbeitet im BUro mit viel Eifer heute wegen des Projekts.",
+        "Er arbeitet mit viel Eifer im BUro heute wegen des Projekts.",
+        "Er arbeitet wegen des Projekts heute mit viel Eifer im BUro."
+      ],
+      "correctAnswer": "Er arbeitet heute wegen des Projekts mit viel Eifer im BUro.",
+      "explanation": "TE (heute) -> KA (wegen) -> MO (mit viel Eifer) -> LO (im BUro)",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q158",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Die Angabe trotz des schlechten Wetters ist ...",
+      "options": [
+        "temporal",
+        "kausal (Grund)",
+        "konzessiv (Einrauming)",
+        "modal"
+      ],
+      "correctAnswer": "konzessiv (Einrauming)",
+      "explanation": "trotz = konzessiv = obwohl / even though",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q159",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist keine typische Angabe, sondern ein notwendiges Objekt?",
+      "options": [
+        "nach Hause",
+        "in der Schule",
+        "das Buch",
+        "glucklicherweise"
+      ],
+      "correctAnswer": "das Buch",
+      "explanation": "das Buch ist Objekt, keine Angabe",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q160",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was pruft diese Aufgabe im Lese-Teil einer B2-Prufung typischerweise?",
+      "options": [
+        "Die genaue Kenntnis der TEKAMOLO-Reihenfolge",
+        "Die Ubersetzung von Angaben ins Turkische",
+        "Das Auswendiglernen von Prapositionen",
+        "Die Fuhigkeit, Texte laut vorzulesen"
+      ],
+      "correctAnswer": "Die genaue Kenntnis der TEKAMOLO-Reihenfolge",
+      "explanation": "B2-Prufung Leseverstehen: Angaben im Satz",
+      "difficulty": "easy",
       "topicName": "Angaben im Satz"
     }
   ]
