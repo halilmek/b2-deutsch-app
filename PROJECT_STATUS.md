@@ -8,6 +8,35 @@
 
 ## ✅ WHAT WE COMPLETED (2026-05-01)
 
+### 20 New Questions for Topic 6 — Angaben im Satz (b2_07)
+Huma provided 20 new MCQ questions about "Angaben im Satz" (adverbial phrases in sentences). Each question shows a German sentence and asks a question (Wann/Wo/Warum/Wie/Mit wem). Verified against answer key.
+
+| Q# | Sentence | Question | Answer |
+|----|---------|---------|--------|
+| 1 | Ich habe gestern im Büro lange gearbeitet. | Wann habe ich gearbeitet? | **gestern** (B) |
+| 2 | Er fährt wegen des schlechten Wetters nicht. | Warum fährt er nicht? | **wegen des schlechten Wetters** (A) |
+| 3 | Sie wohnt seit zwei Jahren in Berlin. | Seit wann wohnt sie in Berlin? | **seit zwei Jahren** (B) |
+| 4 | Wir gehen am Wochenende ins Kino. | Wann gehen wir ins Kino? | **am Wochenende** (B) |
+| 5 | Er arbeitet im Büro sehr konzentriert. | Wo arbeitet er? | **im Büro** (A) |
+| 6 | Ich bleibe wegen meiner Krankheit zu Hause. | Warum bleibe ich zu Hause? | **wegen meiner Krankheit** (B) |
+| 7 | Sie fährt mit dem Bus zur Arbeit. | Wie fährt sie zur Arbeit? | **mit dem Bus** (B) |
+| 8 | Er hat heute Morgen schnell gefrühstückt. | Wann hat er gefrühstückt? | **heute Morgen** (B) |
+| 9 | Wir treffen uns im Park um 18 Uhr. | Wo treffen wir uns? | **im Park** (A) |
+| 10 | Er hat aus Angst nichts gesagt. | Warum hat er nichts gesagt? | **aus Angst** (C) |
+| 11 | Ich habe gestern wegen des Regens mit dem Auto gearbeitet. | Warum habe ich mit dem Auto gearbeitet? | **wegen des Regens** (B) |
+| 12 | Sie lernt jeden Tag zu Hause fleißig. | Wo lernt sie? | **zu Hause** (C) |
+| 13 | Er ist wegen eines Termins früh gegangen. | Warum ist er gegangen? | **wegen eines Termins** (B) |
+| 14 | Wir haben gestern im Restaurant gut gegessen. | Wie haben wir gegessen? | **gut** (A) |
+| 15 | Sie bleibt heute wegen der Prüfung zu Hause. | Wann bleibt sie zu Hause? | **heute** (B) |
+| 16 | Er hat im Büro mit seinem Chef gesprochen. | Mit wem hat er gesprochen? | **mit seinem Chef** (B) |
+| 17 | Ich gehe morgen wegen eines Meetings ins Büro. | Wann gehe ich ins Büro? | **morgen** (A) |
+| 18 | Sie hat im Urlaub in Spanien entspannt. | Wo hat sie entspannt? | **in Spanien** (B) |
+| 19 | Er arbeitet aus finanziellen Gründen am Wochenende. | Warum arbeitet er am Wochenende? | **aus finanziellen Gründen** (B) |
+| 20 | Wir fahren mit dem Zug nach Berlin. | Wie fahren wir nach Berlin? | **mit dem Zug** (B) |
+
+**b2_07 → v1.1 | 120 questions total → quizCount: 12**
+**Pushed to GitHub:** `6513152d2c5528a2fd4cbbf3532325dfae90c232`
+
 ### Fix Rotation Restart + Fill Blank UI (QuizActiveFragment)
 Two bugs fixed in one commit:
 
@@ -60,7 +89,7 @@ Huma provided 25 additional MCQ questions for b2_06. All verified against answer
 | 2 | b2_04 | Zeitformen der Vergangenheit | 160 | 16 | ✅ Complete |
 | 3 | b2_05 | Zeitformen der Zukunft | 120 | 12 | ✅ Complete |
 | **4** | **b2_06** | **Futur mit werden** | **125** | **13** | ✅ **125 Q, v1.3 (7 errors fixed)** |
-| 5 | b2_07 | Angaben im Satz | 100 | 10 | ⏳ Pending |
+| 5 | b2_07 | Angaben im Satz | 120 | 12 | ✅ **120 Q (20 new from Huma + 100 existing)** |
 | 6 | b2_08 | Verneinung mit nicht | 100 | 10 | ⏳ Pending |
 | 7 | b2_09 | Negationswörter | 100 | 10 | ⏳ Pending |
 | 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⏳ Pending |
