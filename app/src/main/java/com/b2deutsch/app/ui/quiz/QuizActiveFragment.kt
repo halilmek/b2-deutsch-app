@@ -70,7 +70,7 @@ class QuizActiveFragment : Fragment() {
                 // For fill_blank: collect text from input fields
                 val answer1 = fillBlankAnswer1?.text?.toString()?.trim() ?: ""
                 val answer2 = fillBlankAnswer2?.text?.toString()?.trim() ?: ""
-                val blanks = currentQuestion.questionText.count("_____")
+                val blanks = currentQuestion.questionText.windowed(5).count { it == "_____" }
 
                 val combinedAnswer = if (blanks == 2) "$answer1 $answer2" else answer1
                 if (combinedAnswer.isNotEmpty()) {
@@ -108,7 +108,7 @@ class QuizActiveFragment : Fragment() {
             if (currentQuestion?.type == "fill_blank") {
                 val answer1 = fillBlankAnswer1?.text?.toString()?.trim() ?: ""
                 val answer2 = fillBlankAnswer2?.text?.toString()?.trim() ?: ""
-                val blanks = currentQuestion.questionText.count("_____")
+                val blanks = currentQuestion.questionText.windowed(5).count { it == "_____" }
                 val combinedAnswer = if (blanks == 2) "$answer1 $answer2" else answer1
                 if (combinedAnswer.isNotEmpty()) {
                     viewModel.selectAnswer(combinedAnswer)
@@ -237,7 +237,7 @@ class QuizActiveFragment : Fragment() {
     }
 
     private fun renderFillBlankUI(question: com.b2deutsch.app.data.model.Question) {
-        val blanks = question.questionText.count("_____")
+        val blanks = question.questionText.windowed(5).count { it == "_____" }
 
         // Label
         val label = TextView(requireContext()).apply {
