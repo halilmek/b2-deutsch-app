@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-01 12:50 UTC
+**Last Updated:** 2026-05-01 22:05 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 
@@ -49,6 +49,19 @@ All 20 new questions (q101–q120) were missing `subjectId: "b2_07"` → silent 
 
 ---
 
+### 2026-05-01 14:00–22:05 UTC — 40 More TEKAMO Questions for b2_07
+
+Three batches of 20 questions each added to Topic 6 (Angaben im Satz):
+
+#### Batch 1 (q121–q140) — TEKAMO Rules + Position
+Questions 121-140 focus on: TEKAMO order, inversion, Vorfeld/Mittelfeld/Nachfeld positions, "nicht" placement, sentence correction, Wo/Wohin distinction.
+
+#### Batch 2 (q141–q160) — More TEKAMO Practice
+Questions 141-160 focus on: temporal/kausal/modal/lokal identification, konzessive Angaben (trotz), finale Angaben (um...zu), Angabe vs Objekt distinction, B2 exam preparation.
+
+**b2_07 total: 60 questions → v1.6 → quizCount: 6**
+**Pushed to GitHub:** `178e70502b3618c40d65406784e245e7ed3b55db`
+
 ### 20 New Questions for Topic 6 — Angaben im Satz (b2_07)
 Huma provided 20 new MCQ questions about "Angaben im Satz" (adverbial phrases in sentences). Each question shows a German sentence and asks a question (Wann/Wo/Warum/Wie/Mit wem). Verified against answer key.
 
@@ -90,6 +103,19 @@ Before: Silent crash → empty quiz shown, user never knew why
 After: Log errors visible in logcat, app doesn't crash
 
 **Pushed to GitHub:** `3f39682418111b4a3e636c15b0688e8dc74ff4db`
+
+### 2026-05-01 14:00–22:05 UTC — 40 More TEKAMO Questions for b2_07
+
+Three batches of 20 questions each added to Topic 6 (Angaben im Satz):
+
+#### Batch 1 (q121–q140) — TEKAMO Rules + Position
+Questions 121-140 focus on: TEKAMO order, inversion, Vorfeld/Mittelfeld/Nachfeld positions, "nicht" placement, sentence correction, Wo/Wohin distinction.
+
+#### Batch 2 (q141–q160) — More TEKAMO Practice
+Questions 141-160 focus on: temporal/kausal/modal/lokal identification, konzessive Angaben (trotz), finale Angaben (um...zu), Angabe vs Objekt distinction, B2 exam preparation.
+
+**b2_07 total: 60 questions → v1.6 → quizCount: 6**
+**Pushed to GitHub:** `178e70502b3618c40d65406784e245e7ed3b55db`
 
 ### 20 New Questions for Topic 6 — Angaben im Satz (b2_07)
 Two bugs fixed in one commit:
