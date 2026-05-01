@@ -1,12 +1,53 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-01
+**Last Updated:** 2026-05-01 12:50 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 
 ---
 
 ## ✅ WHAT WE COMPLETED (2026-05-01)
+
+### 2026-05-01 11:40–12:50 UTC — Bug Fixing Spree
+
+#### 1. b2_07 Question ID Bug — 0 Questions Showing
+**Root cause:** When I trimmed b2_07 to keep only 20 new questions (q101–q120), `initializeFromAssets()` was generating question IDs as `b2_07_q001` through `b2_07_q020` instead of `b2_07_q101` through `b2_07_q120`. The app tried to load non-existent questions → returned empty quiz.
+
+**Fix:** `initializeFromAssets()` now reads actual question IDs directly from the JSON file instead of generating them. Works for any ID offset (q001, q101, etc.).
+
+**Commit:** `0c4612c08e98ca5ea62003c648b1cd70d4411aba`
+
+#### 2. 760 Questions Wrong Type: fill_blank with MCQ Options
+**Root cause:** Topics b2_04 through b2_23 had ~40 placeholder questions each marked `type: fill_blank` but with 4 MCQ options. The app rendered both radio buttons AND fill-in EditText fields simultaneously → broken UI.
+
+**Fix:** Changed all 760 questions from `type: fill_blank` → `type: multiple_choice` across 19 files.
+**Commit:** `bcbf267432851dac12a57e42e3e5bd9c0f771a88`
+
+#### 3. Safeguard in QuizActiveFragment — Render MCQ for fill_blank with Options
+**Added:** Even if data has old `type=fill_blank` with options, the app now detects this and forces MCQ rendering instead.
+```kotlin
+if (hasOptions || blanks == 0) {
+    renderMCQOptions(question)  // not fill_blank UI
+}
+```
+**Commit:** `077d9fd65c86267451ac8df0227403ab31b13aab`
+
+#### 4. Detailed Logging in QuizActiveFragment
+Every question render now logs: type, questionText, options count, correctAnswer, blank count, which UI branch selected. Filter with: `adb logcat -s QuizActive LQB`
+
+**Commit:** `bd631d0bacc39482cc9ddc4db0251e83713c337e`
+
+#### 5. b2_07 Trimmed to 20 Questions Only
+Huma: "please remove other questions under this topic! leave the newly added 20 questions!"
+- Removed 100 old placeholder questions, kept only q101–q120 (20 new Angaben questions)
+- b2_07 now: 20 questions, v1.4
+**Commit:** `40b8ff249c712a78e598a6ef3ed32f1e43a17d4b`
+
+#### 6. b2_07 Missing subjectId (Earlier Fix)
+All 20 new questions (q101–q120) were missing `subjectId: "b2_07"` → silent JSONException → empty quiz.
+**Commit:** `885444c5fc8b56a5bda7004c1f254d398e947bcc`
+
+---
 
 ### 20 New Questions for Topic 6 — Angaben im Satz (b2_07)
 Huma provided 20 new MCQ questions about "Angaben im Satz" (adverbial phrases in sentences). Each question shows a German sentence and asks a question (Wann/Wo/Warum/Wie/Mit wem). Verified against answer key.
@@ -34,8 +75,8 @@ Huma provided 20 new MCQ questions about "Angaben im Satz" (adverbial phrases in
 | 19 | Er arbeitet aus finanziellen Gründen am Wochenende. | Warum arbeitet er am Wochenende? | **aus finanziellen Gründen** (B) |
 | 20 | Wir fahren mit dem Zug nach Berlin. | Wie fahren wir nach Berlin? | **mit dem Zug** (B) |
 
-**b2_07 → v1.2 | 120 questions total → quizCount: 12 (fixed missing subjectId in q101-q120)**
-**Pushed to GitHub:** `885444c5fc8b56a5bda7004c1f254d398e947bcc`
+**b2_07 → v1.4 | 20 questions only (q101-q120, Huma's new questions only) → quizCount: 2**
+**Pushed to GitHub:** `40b8ff249c712a78e598a6ef3ed32f1e43a17d4b`
 
 ### Robust Error Logging in LocalQuestionBank.kt
 Added proper error/warning logging to `getQuestionDetails()` so data issues surface visibly instead of silently failing:
@@ -140,26 +181,73 @@ node scripts/import_and_sync.js
 
 ---
 
+## 📋 TOPIC CONTENT SUMMARY
+
+| # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
+|---|----------|-----------|-----------|-----------|----------------|
+| 1 | b2_01 | Konnektoren & Verben | 96+50 | ~15 | ✅ Complete |
+| 2 | b2_04 | Zeitformen der Vergangenheit | 160 | 16 | ✅ Complete |
+| 3 | b2_05 | Zeitformen der Zukunft | 120 | 12 | ✅ Complete |
+| 4 | b2_06 | Futur mit werden | 125 | 13 | ✅ 125 Q, v1.3 |
+| **5** | **b2_07** | **Angaben im Satz** | **20** | **2** | ✅ **Huma's 20 new questions only (q101-q120)** |
+| 6 | b2_08 | Verneinung mit nicht | 100 | 10 | ⚠️ Placeholder (40 broken fill_blank → MCQ fixed) |
+| 7 | b2_09 | Negationswörter | 100 | 10 | ⚠️ Placeholder |
+| 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⚠️ Placeholder |
+| 9 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
+| 10 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
+| 11 | b2_13 | Pronomen: einander | 100 | 10 | ⚠️ Placeholder |
+| 12 | b2_14 | Weiterführende Nebensätze | 100 | 10 | ⚠️ Placeholder |
+| 13 | b2_15 | Präpositionen mit Genitiv | 100 | 10 | ⚠️ Placeholder |
+| 14 | b2_16 | je und desto/umso | 100 | 10 | ⚠️ Placeholder |
+| 15 | b2_17 | Nomen-Verb-Verbindungen | 100 | 10 | ⚠️ Placeholder |
+| 16 | b2_18 | Folgen ausdrücken | 100 | 10 | ⚠️ Placeholder |
+| 17 | b2_19 | Ausdrücke mit Präpositionen | 100 | 10 | ⚠️ Placeholder |
+| 18 | b2_20 | Irreale Konditionalsätze | 100 | 10 | ⚠️ Placeholder |
+| 19 | b2_21 | Relativsätze im Genitiv | 100 | 10 | ⚠️ Placeholder |
+| 20 | b2_22 | Konjunktiv I in der indirekten Rede | 100 | 10 | ⚠️ Placeholder |
+| 21 | b2_23 | Konjunktiv II in irrealen Vergleichssätzen | 100 | 10 | ⚠️ Placeholder |
+| 22 | — | (Reserve) | — | — | ⏳ Pending |
+
+---
+
 ## 📋 REMAINING WORK
 
 ### Must Do
-- [ ] Firestore push for b2_06: run `node scripts/import_and_sync.js b2_06`
-- [ ] b2_07–b2_22 have placeholder content (need real grammar questions)
+- [ ] Huma pulls latest changes after each fix
+- [ ] Huma clears app data / reinstalls after ID generation fix
+- [ ] Firestore push: `node scripts/import_and_sync.js b2_04 b2_06 b2_07`
+- [ ] Generate real content for b2_08–b2_23 (16 placeholder topics)
 
 ### Should Do
-- [ ] Test FirebaseSyncService end-to-end with new content
-- [ ] Add pull-to-refresh for manual sync trigger
+- [ ] Test rotation fix mid-quiz
+- [ ] Test 2-blank fill questions in b2_06
+- [ ] Test FirebaseSyncService end-to-end
 
 ### Future
 - [ ] AI Speaking Partner integration
 - [ ] AI Writing Evaluation
-- [ ] Peer Speaking Exams
 
 ---
 
-## 🔧 SESSION LOG
+## 🔧 TODAY'S GITHUB COMMITS (2026-05-01)
 
-### 2026-05-01 (Second Session) — 25 New Questions for Futur mit werden
+| Time (UTC) | Commit | Description |
+|-----------|--------|-------------|
+| 12:50 | `0c4612c` | LQB: read actual question IDs from JSON (fixes b2_07 0-question bug) |
+| 12:40 | `077d9fd` | QuizActiveFragment: safeguard fill_blank+options → MCQ rendering |
+| 12:30 | `bd631d0` | QuizActiveFragment: detailed logging for every question render |
+| 12:20 | `40b8ff2` | b2_07.json: trimmed to 20 Huma questions only (q101-q120), v1.4 |
+| 12:00 | `bcbf267` | 760 fill_blank→multiple_choice across 19 JSON files |
+| 11:55 | `885444c` | b2_07.json: add missing subjectId to q101-q120 |
+| 11:40 | `3f39682` | LocalQuestionBank: error/warning logging added |
+| earlier | `c55f194` | QuizActiveFragment: rotation fix + fill_blank UI |
+| earlier | `a02eb02` | b2_06: 7 Futur grammar errors fixed |
+| earlier | `549e107` | b2_06: 25 new MCQ added (q101-q125) |
+| earlier | `c8aad35` | SubjectListViewModel: topic order fixed (b2_06=5, b2_07=6) |
+
+---
+
+_Last updated: 2026-05-01 12:50 UTC_
 
 Huma provided 25 MCQ questions for topic 5 (Futur mit werden) via chat.
 All verified correct against the answer key provided. Added to b2_06.json as q101–q125.
