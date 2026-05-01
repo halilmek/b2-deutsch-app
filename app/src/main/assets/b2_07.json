@@ -1,8 +1,8 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "subjectId": "b2_07",
   "topicName": "Angaben im Satz",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "questions": [
     {
       "id": "b2_07_q101",
@@ -263,6 +263,326 @@
       "correctAnswer": "mit dem Zug",
       "difficulty": "medium",
       "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q121",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist in der richtigen TEKAMO-Reihenfolge?",
+      "options": [
+        "Ich fahre in Berlin morgen wegen der Arbeit mit dem Bus.",
+        "Ich fahre morgen wegen der Arbeit mit dem Bus nach Berlin.",
+        "Ich fahre wegen der Arbeit morgen nach Berlin mit dem Bus.",
+        "Ich fahre mit dem Bus morgen nach Berlin wegen der Arbeit."
+      ],
+      "correctAnswer": "Ich fahre morgen wegen der Arbeit mit dem Bus nach Berlin.",
+      "explanation": "TE (morgen) -> KA (wegen der Arbeit) -> MO (mit dem Bus) -> LO (nach Berlin).",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q122",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabenart beantwortet die Frage \"Warum?\"?",
+      "options": [
+        "Temporale Angabe",
+        "Lokale Angabe",
+        "Kausale Angabe",
+        "Modale Angabe"
+      ],
+      "correctAnswer": "Kausale Angabe",
+      "explanation": "Kausale Angaben (KA) beantworten \"Warum?\"-Fragen.",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q123",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Er kommt heute leider nicht nach Hause.\" - was ist die Reihenfolge der Angabenarten?",
+      "options": [
+        "Mo - Ka - Te - Lo",
+        "Te - Mo - Lo - (nicht)",
+        "Te - Mo - (nicht) - Lo",
+        "Lo - Te - Mo - Ka"
+      ],
+      "correctAnswer": "Te - Mo - (nicht) - Lo",
+      "explanation": "Te (heute) -> Mo (leider) -> (nicht) -> Lo (nach Hause).",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q124",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabenart beantwortet die Frage \"Wie?\"?",
+      "options": [
+        "Temporale Angabe",
+        "Modale Angabe",
+        "Kausale Angabe",
+        "Lokale Angabe"
+      ],
+      "correctAnswer": "Modale Angabe",
+      "explanation": "Modale Angaben (MO) beantworten \"Wie?\"-Fragen.",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q125",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Warum steht in dem Satz \"Gestern hat sie ihren Freund angerufen.\" diese Wortstellung?",
+      "options": [
+        "Gestern ist ein Temporaladverb und steht immer am Satzanfang.",
+        "Gestern ist nach Vorfeld verschoben, zur Betonung; das Subjekt steht nach dem Verb (Inversion).",
+        "Gestern ist eine Modale Angabe und steht vor dem Verb.",
+        "Der Satz ist falsch; richtig ware 'Sie hat gestern...'."
+      ],
+      "correctAnswer": "Gestern ist nach Vorfeld verschoben, zur Betonung; das Subjekt steht nach dem Verb (Inversion).",
+      "explanation": "Temporalangaben konnen zur Betonung ins Vorfeld; dann folgt Inversion.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q126",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche der folgenden ist KEINE Temporale Angabe?",
+      "options": [
+        "morgen",
+        "oft",
+        "deshalb",
+        "letzte Woche"
+      ],
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb ist eine Kausale Angabe - beantwortet \"Warum?\", nicht \"Wann?\"",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q127",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet _____ _____ in Hamburg. - Welche Reihenfolge ist korrekt? (jetzt / wahrscheinlich)",
+      "options": [
+        "wahrscheinlich - jetzt",
+        "jetzt - wahrscheinlich",
+        "in Hamburg - jetzt",
+        "jetzt - in Hamburg"
+      ],
+      "correctAnswer": "jetzt - wahrscheinlich",
+      "explanation": "TE (jetzt) -> MO (wahrscheinlich) -> LO (in Hamburg).",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q128",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Wo steht \"nicht\" in Bezug auf die Angaben?",
+      "options": [
+        "Vor Lokal, nach Temporal",
+        "Vor Modal, vor Lokal; aber nach Temporal",
+        "Immer am Satzende",
+        "Vor Kausal, vor Temporal"
+      ],
+      "correctAnswer": "Vor Modal, vor Lokal; aber nach Temporal",
+      "explanation": "Nicht steht vor Modal und Lokal, aber nach Temporalangaben.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q129",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz sind die Angaben richtig positioniert?",
+      "options": [
+        "Sie hat wegen des Unfalls gestern nicht kommen konnen.",
+        "Sie hat gestern wegen des Unfalls nicht kommen konnen.",
+        "Sie hat nicht gestern wegen des Unfalls kommen konnen.",
+        "Sie hat kommen nicht wegen des Unfalls gestern konnen."
+      ],
+      "correctAnswer": "Sie hat gestern wegen des Unfalls nicht kommen konnen.",
+      "explanation": "TE (gestern) -> KA (wegen des Unfalls) -> nicht -> Modalverb.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q130",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabenart beantwortet die Fragen \"Wo? / Wohin? / Woher?\"?",
+      "options": [
+        "Modale Angabe",
+        "Temporale Angabe",
+        "Kausale Angabe",
+        "Lokale Angabe"
+      ],
+      "correctAnswer": "Lokale Angabe",
+      "explanation": "LO beantwortet Wo? (stat), Wohin? (Ziel), Woher? (Herkunft).",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q131",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Sie fahrt taglich mit dem Fahrrad zur Arbeit.\" - welche Art von Angabe ist \"mit dem Fahrrad\"?",
+      "options": [
+        "Temporale Angabe",
+        "Lokale Angabe",
+        "Modale Angabe",
+        "Kausale Angabe"
+      ],
+      "correctAnswer": "Modale Angabe",
+      "explanation": "Mit dem Fahrrad = Art und Weise, Antwort auf \"Wie?\".",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q132",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was ist eine Inversion (Wortstellung im Deutschen)?",
+      "options": [
+        "Das Verb geht an das Satzende.",
+        "Das Subjekt wird nach Vorfeld verschoben.",
+        "Ein anderes Element als das Verb geht nach Vorfeld und das Subjekt folgt dem Verb.",
+        "Eine Angabe wird aus dem Satz herausgenommen."
+      ],
+      "correctAnswer": "Ein anderes Element als das Verb geht nach Vorfeld und das Subjekt folgt dem Verb.",
+      "explanation": "Inversion = non-verb element in Vorfeld, subject after verb.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q133",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Wir essen abends oft sehr schnell.\" - was ist die Reihenfolge der Angaben?",
+      "options": [
+        "Te (abends) - Mo (oft) - Mo (sehr schnell)",
+        "Mo (abends) - Te (oft) - Lo (sehr schnell)",
+        "Te (abends) - Ka (oft) - Mo (sehr schnell)",
+        "Lo (abends) - Te (oft) - Mo (sehr schnell)"
+      ],
+      "correctAnswer": "Te (abends) - Mo (oft) - Mo (sehr schnell)",
+      "explanation": "abends=TE, oft=MO, sehr schnell=MO.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q134",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist die Wortstellung falsch?",
+      "options": [
+        "Ich gehe heute Abend mit Freunden ins Kino.",
+        "Er fahrt wegen des Staus mit dem Zug nach Frankfurt.",
+        "Sie kommt nach Hause morgen leider nicht.",
+        "Wir treffen uns morgen fruh in der Stadt."
+      ],
+      "correctAnswer": "Sie kommt nach Hause morgen leider nicht.",
+      "explanation": "LO sollte nicht vor TE (morgen) und MO (leider) stehen.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q135",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Zu welcher Angabengruppe gehoren \"daher\", \"deshalb\", \"deswegen\"?",
+      "options": [
+        "Temporale Angabe",
+        "Modale Angabe",
+        "Kausale Angabe",
+        "Lokale Angabe"
+      ],
+      "correctAnswer": "Kausale Angabe",
+      "explanation": "daher, deshalb, deswegen = Kausaladverbien (KA).",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q136",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Er hat leider das Konzert verpasst.\" - welche Angabenart ist \"leider\" und wo steht es?",
+      "options": [
+        "Temporal - im Vorfeld",
+        "Modal - im Mittelfeld, zwischen Subjekt und Verb",
+        "Kausal - am Satzende",
+        "Lokal - im Nachfeld"
+      ],
+      "correctAnswer": "Modal - im Mittelfeld, zwischen Subjekt und Verb",
+      "explanation": "leider = MO; steht im Mittelfeld zwischen Subjekt und Verb.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q137",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist das Vorfeld richtig verwendet?",
+      "options": [
+        "Morgen ich fahre nach Wien.",
+        "Morgen fahre nach Wien ich.",
+        "Morgen fahre ich nach Wien.",
+        "Morgen nach Wien fahre ich."
+      ],
+      "correctAnswer": "Morgen fahre ich nach Wien.",
+      "explanation": "TE im Vorfeld -> invertierte Wortstellung: Verb vor Subjekt.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q138",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Ist \"Sie arbeitet jetzt wegen des Projekts sehr viel zu Hause.\" in der richtigen TEKAMO-Reihenfolge?",
+      "options": [
+        "Ja, Te (jetzt) - Ka (wegen des Projekts) - Mo (sehr viel) - Lo (zu Hause) ist korrekt.",
+        "Nein, Kausal muss vor Temporal stehen.",
+        "Nein, Lokal muss an den Anfang.",
+        "Nein, Modal darf nicht verwendet werden."
+      ],
+      "correctAnswer": "Ja, Te (jetzt) - Ka (wegen des Projekts) - Mo (sehr viel) - Lo (zu Hause) ist korrekt.",
+      "explanation": "TE -> KA -> MO -> LO - alle in richtiger Reihenfolge.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q139",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "\"Wo?\" zeigt eine Lokale Angabe an. Was bedeutet \"Wohin?\"?",
+      "options": [
+        "Beide bedeuten dasselbe.",
+        "Wo? = stationarer Ort, Wohin? = Richtung/Ziel (Bewegung).",
+        "Wo? = Bewegungsrichtung, Wohin? = Ausgangspunkt.",
+        "Wohin? zeigt eine Modale Angabe an."
+      ],
+      "correctAnswer": "Wo? = stationarer Ort, Wohin? = Richtung/Ziel (Bewegung).",
+      "explanation": "Wo? = static location, Wohin? = direction/target of movement.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q140",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz stehen alle Angaben in der richtigen Reihenfolge?",
+      "options": [
+        "Er bleibt heute wegen Krankheit leider zu Hause.",
+        "Er bleibt leider heute zu Hause wegen Krankheit.",
+        "Er bleibt zu Hause heute wegen Krankheit leider.",
+        "Er bleibt wegen Krankheit leider heute zu Hause."
+      ],
+      "correctAnswer": "Er bleibt heute wegen Krankheit leider zu Hause.",
+      "explanation": "TE -> KA -> MO -> LO = korrekt.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
     }
   ]
 }
