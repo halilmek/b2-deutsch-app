@@ -68,9 +68,9 @@ object LocalQuestionBank {
                     val json = JSONObject(jsonText)
                     val total = json.getInt("totalQuestions")
 
-                    // Initialize (or re-init) question IDs for this topic
-                    val allIds = (1..total).map {
-                        "${subjectId}_q${it.toString().padStart(3, '0')}"
+                    val questionsArray = json.getJSONArray("questions")
+                    val allIds = (0 until questionsArray.length()).map { i ->
+                        questionsArray.getJSONObject(i).getString("id")
                     }
                     val activeArray = JSONArray(allIds)
                     prefs.edit()
