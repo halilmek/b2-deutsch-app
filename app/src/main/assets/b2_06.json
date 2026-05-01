@@ -1,8 +1,8 @@
 {
-  "version": "1.0",
+  "version": "1.3",
   "subjectId": "b2_06",
   "topicName": "Futur mit werden",
-  "totalQuestions": 100,
+  "totalQuestions": 125,
   "questions": [
     {
       "id": "b2_06_q001",
@@ -263,31 +263,21 @@
     {
       "id": "b2_06_q017",
       "subjectId": "b2_06",
-      "type": "multiple_choice",
+      "type": "fill_blank",
       "questionText": "Bis nächste Woche _____ ich das Buch gelesen _____.",
-      "options": [
-        "werde",
-        "gelesen haben",
-        "wirst",
-        "gelesen"
-      ],
-      "correctAnswer": "werde",
+      "options": [],
+      "correctAnswer": "werde gelesen haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "topicName": "Futur mit werden"
     },
     {
       "id": "b2_06_q018",
       "subjectId": "b2_06",
-      "type": "multiple_choice",
+      "type": "fill_blank",
       "questionText": "Bis morgen _____ er das Programm installiert _____.",
-      "options": [
-        "wird",
-        "haben",
-        "werde",
-        "wird"
-      ],
-      "correctAnswer": "wird",
+      "options": [],
+      "correctAnswer": "wird installiert haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -295,47 +285,32 @@
     {
       "id": "b2_06_q019",
       "subjectId": "b2_06",
-      "type": "multiple_choice",
+      "type": "fill_blank",
       "questionText": "Bis dahin _____ wir alles vorbereitet _____.",
-      "options": [
-        "werden",
-        "haben",
-        "wird",
-        "werde"
-      ],
-      "correctAnswer": "werden",
+      "options": [],
+      "correctAnswer": "werden vorbereitet haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "topicName": "Futur mit werden"
     },
     {
       "id": "b2_06_q020",
       "subjectId": "b2_06",
-      "type": "multiple_choice",
+      "type": "fill_blank",
       "questionText": "Bald _____ sie die Aufgabe abgegeben _____.",
-      "options": [
-        "wird",
-        "haben",
-        "werde",
-        "wirst"
-      ],
-      "correctAnswer": "wird",
+      "options": [],
+      "correctAnswer": "wird abgegeben haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
-      "difficulty": "medium",
+      "difficulty": "hard",
       "topicName": "Futur mit werden"
     },
     {
       "id": "b2_06_q021",
       "subjectId": "b2_06",
-      "type": "multiple_choice",
+      "type": "fill_blank",
       "questionText": "Bis Ende des Monats _____ er das Geld verdient _____.",
-      "options": [
-        "wird",
-        "haben",
-        "werde",
-        "wirst"
-      ],
-      "correctAnswer": "wird",
+      "options": [],
+      "correctAnswer": "wird verdient haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -343,17 +318,12 @@
     {
       "id": "b2_06_q022",
       "subjectId": "b2_06",
-      "type": "multiple_choice",
+      "type": "fill_blank",
       "questionText": "Bis Weihnachten _____ ich das Geschenk gekauft _____.",
-      "options": [
-        "werde",
-        "haben",
-        "wirst",
-        "wird"
-      ],
-      "correctAnswer": "werde",
+      "options": [],
+      "correctAnswer": "werde gekauft haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
-      "difficulty": "easy",
+      "difficulty": "hard",
       "topicName": "Futur mit werden"
     },
     {
@@ -463,7 +433,7 @@
         "werde",
         "wird"
       ],
-      "correctAnswer": "wurde",
+      "correctAnswer": "wird",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -915,7 +885,7 @@
         "wirst",
         "gehst"
       ],
-      "correctAnswer": "werde",
+      "correctAnswer": "werde gehen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -931,7 +901,7 @@
         "wird",
         "treffen uns"
       ],
-      "correctAnswer": "werden",
+      "correctAnswer": "werden uns treffen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -947,7 +917,7 @@
         "werde",
         "finden"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird finden",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -963,7 +933,7 @@
         "wird",
         "verstehen"
       ],
-      "correctAnswer": "wirst",
+      "correctAnswer": "wirst verstehen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -979,7 +949,7 @@
         "werde",
         "kommen"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird kommen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -995,7 +965,7 @@
         "werde",
         "sein"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird sein",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1011,7 +981,7 @@
         "werde",
         "sein"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird sein",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1027,7 +997,7 @@
         "werde",
         "sein"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird sein",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1043,7 +1013,7 @@
         "wirst",
         "geschlafen haben"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird schlafen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1059,7 +1029,7 @@
         "werde",
         "gelesen haben"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird lesen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1075,7 +1045,7 @@
         "wird",
         "abfahren"
       ],
-      "correctAnswer": "fährt",
+      "correctAnswer": "wird abfahren",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1091,7 +1061,7 @@
         "gehen",
         "werden gehen"
       ],
-      "correctAnswer": "gehen",
+      "correctAnswer": "werden gehen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1107,7 +1077,7 @@
         "wird",
         "stattfinden"
       ],
-      "correctAnswer": "findet",
+      "correctAnswer": "wird stattfinden",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1123,7 +1093,7 @@
         "wird",
         "anfangen"
       ],
-      "correctAnswer": "fängt",
+      "correctAnswer": "wird anfangen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1139,7 +1109,7 @@
         "werde",
         "aufstehen"
       ],
-      "correctAnswer": "stehe",
+      "correctAnswer": "werde aufstehen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1155,7 +1125,7 @@
         "wird",
         "haben"
       ],
-      "correctAnswer": "werde",
+      "correctAnswer": "werde gehabt haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1171,7 +1141,7 @@
         "werde",
         "abgeschlossen haben"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird abschließen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1187,7 +1157,7 @@
         "wird",
         "vorbereitet haben"
       ],
-      "correctAnswer": "werden",
+      "correctAnswer": "werden vorbereiten",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1203,7 +1173,7 @@
         "werde",
         "bestanden haben"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird bestanden haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1219,7 +1189,7 @@
         "wirst",
         "gemacht haben"
       ],
-      "correctAnswer": "werde",
+      "correctAnswer": "werde machen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1315,7 +1285,7 @@
         "wirst",
         "besuchen"
       ],
-      "correctAnswer": "werde",
+      "correctAnswer": "werde besuchen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1331,7 +1301,7 @@
         "wird",
         "gesehen haben"
       ],
-      "correctAnswer": "werden",
+      "correctAnswer": "werden uns sehen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1347,7 +1317,7 @@
         "werde",
         "bekommen"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird bekommen haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1363,7 +1333,7 @@
         "wird",
         "anfangen"
       ],
-      "correctAnswer": "fängt",
+      "correctAnswer": "wird anfangen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1379,7 +1349,7 @@
         "wird",
         "schaffen"
       ],
-      "correctAnswer": "wirst",
+      "correctAnswer": "wirst schaffen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1395,7 +1365,7 @@
         "werde",
         "vergessen haben"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird vergessen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1411,7 +1381,7 @@
         "werde",
         "bestanden haben"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird bestanden haben",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1427,7 +1397,7 @@
         "wird",
         "gekommen sein"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird kommen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1443,7 +1413,7 @@
         "wird",
         "schlafen"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird schlafen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1459,7 +1429,7 @@
         "wird",
         "fahren"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird fahren",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1475,7 +1445,7 @@
         "wird",
         "gewesen sein"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird sein",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1491,7 +1461,7 @@
         "werde",
         "lesen"
       ],
-      "correctAnswer": "werde",
+      "correctAnswer": "werde lesen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
       "topicName": "Futur mit werden"
@@ -1507,7 +1477,7 @@
         "wird",
         "einschlafen"
       ],
-      "correctAnswer": "werden",
+      "correctAnswer": "werden einschlafen",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "medium",
       "topicName": "Futur mit werden"
@@ -1523,7 +1493,7 @@
         "werde",
         "sein"
       ],
-      "correctAnswer": "wird",
+      "correctAnswer": "wird sein",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "hard",
       "topicName": "Futur mit werden"
@@ -1539,9 +1509,409 @@
         "wirst",
         "vergessen"
       ],
+      "correctAnswer": "wird vergessen",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q101",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Nächste Woche ______ ich nach Berlin fahren.",
+      "options": [
+        "werde",
+        "wirst",
+        "werden",
+        "wird"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q102",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "______ du morgen an der Konferenz teilnehmen?",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werdet"
+      ],
+      "correctAnswer": "wirst",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q103",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ wahrscheinlich später nach Hause kommen.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q104",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ im nächsten Jahr ein neues Projekt starten.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q105",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "______ ihr am Wochenende ins Kino gehen?",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werdet"
+      ],
+      "correctAnswer": "werdet",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q106",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten ______ ihre Prüfungen im Juni ablegen.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q107",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Ich glaube, es ______ morgen regnen.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q108",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Wann ______ Sie den Bericht fertigstellen?",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q109",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Er ______ sicher bald eine neue Wohnung finden.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
       "correctAnswer": "wird",
       "explanation": "Grammatik-Thema: Futur mit werden",
       "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q110",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "______ wir das Ziel bis Ende des Monats erreichen?",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q111",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ nächstes Jahr Deutsch auf C1-Niveau lernen.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q112",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ hoffentlich pünktlich zum Meeting erscheinen.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q113",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "______ du mir später bei der Aufgabe helfen?",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "wirst",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q114",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Die Firma ______ ihre Produkte international vermarkten.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q115",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ nicht lange auf dich warten.",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q116",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "______ Sie bald wieder nach Deutschland reisen?",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "medium",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q117",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Ich bin sicher, dass er die Prüfung ______.",
+      "options": [
+        "bestehen wird",
+        "wird bestehen",
+        "werde bestehen",
+        "wirst bestehen"
+      ],
+      "correctAnswer": "bestehen wird",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q118",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Glaubst du, dass wir das Problem rechtzeitig ______?",
+      "options": [
+        "lösen werden",
+        "werden lösen",
+        "werde lösen",
+        "wirst lösen"
+      ],
+      "correctAnswer": "lösen werden",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q119",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Sie hat gesagt, dass sie nächstes Jahr im Ausland ______.",
+      "options": [
+        "studieren wird",
+        "wird studieren",
+        "werde studieren",
+        "wirst studieren"
+      ],
+      "correctAnswer": "studieren wird",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q120",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Es ist möglich, dass es am Wochenende ______.",
+      "options": [
+        "schneien wird",
+        "wird schneien",
+        "werde schneien",
+        "wirst schneien"
+      ],
+      "correctAnswer": "schneien wird",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q121",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Bis morgen Abend ______ ich die Arbeit ______.",
+      "options": [
+        "werde ... abgeschlossen haben",
+        "wird ... abgeschlossen haben",
+        "wirst ... abgeschlossen haben",
+        "werden ... abgeschlossen haben"
+      ],
+      "correctAnswer": "werde ... abgeschlossen haben",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q122",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Bis zum Jahr 2030 ______ die Technologie sich stark ______.",
+      "options": [
+        "werde ... verändert haben",
+        "wird ... verändert haben",
+        "wirst ... verändert haben",
+        "werden ... verändert haben"
+      ],
+      "correctAnswer": "wird ... verändert haben",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q123",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ wahrscheinlich schon abgereist ______, wenn wir ankommen.",
+      "options": [
+        "werde ... sein",
+        "wird ... sein",
+        "wirst ... gewesen sein",
+        "wird ... gewesen sein"
+      ],
+      "correctAnswer": "wird ... gewesen sein",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q124",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Welche Zeitform ist hier korrekt? \"Morgen ______ ich früh aufstehen.\"",
+      "options": [
+        "werde",
+        "wirst",
+        "wird",
+        "werden"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "easy",
+      "topicName": "Futur mit werden"
+    },
+    {
+      "id": "b2_06_q125",
+      "subjectId": "b2_06",
+      "type": "multiple_choice",
+      "questionText": "Was ist die richtige Reihenfolge? \"Ich glaube, dass ______.\"",
+      "options": [
+        "sie wird kommen",
+        "sie kommen wird",
+        "sie werde kommen",
+        "sie kommen werde"
+      ],
+      "correctAnswer": "sie kommen wird",
+      "explanation": "Grammatik-Thema: Futur mit werden",
+      "difficulty": "hard",
       "topicName": "Futur mit werden"
     }
   ]
