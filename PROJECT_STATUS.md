@@ -34,10 +34,23 @@ Huma provided 20 new MCQ questions about "Angaben im Satz" (adverbial phrases in
 | 19 | Er arbeitet aus finanziellen Gründen am Wochenende. | Warum arbeitet er am Wochenende? | **aus finanziellen Gründen** (B) |
 | 20 | Wir fahren mit dem Zug nach Berlin. | Wie fahren wir nach Berlin? | **mit dem Zug** (B) |
 
-**b2_07 → v1.1 | 120 questions total → quizCount: 12**
-**Pushed to GitHub:** `6513152d2c5528a2fd4cbbf3532325dfae90c232`
+**b2_07 → v1.2 | 120 questions total → quizCount: 12 (fixed missing subjectId in q101-q120)**
+**Pushed to GitHub:** `885444c5fc8b56a5bda7004c1f254d398e947bcc`
 
-### Fix Rotation Restart + Fill Blank UI (QuizActiveFragment)
+### Robust Error Logging in LocalQuestionBank.kt
+Added proper error/warning logging to `getQuestionDetails()` so data issues surface visibly instead of silently failing:
+
+- **Empty questionText** → `Log.e` + returns empty string (won't crash)
+- **Empty correctAnswer** → `Log.e` + returns empty string (won't crash)
+- **Missing options array** → `Log.w` + returns empty list (won't crash)
+- **Missing subjectId** → uses `optString` with safe fallback (no crash)
+
+Before: Silent crash → empty quiz shown, user never knew why
+After: Log errors visible in logcat, app doesn't crash
+
+**Pushed to GitHub:** `3f39682418111b4a3e636c15b0688e8dc74ff4db`
+
+### 20 New Questions for Topic 6 — Angaben im Satz (b2_07)
 Two bugs fixed in one commit:
 
 1. **Rotation restart bug:** Fragment was calling `viewModel.startQuiz()` unconditionally in `onViewCreated()`. Every rotation recreated the ViewModel and restarted the quiz. Fixed by checking `if (viewModel.currentQuiz.value == null)` before starting a new quiz — if a quiz is already in progress, it resumes it instead of restarting.
