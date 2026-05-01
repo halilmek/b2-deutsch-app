@@ -142,6 +142,12 @@ class QuizActiveFragment : Fragment() {
             }
 
             try {
+                Log.d("QuizActive", "━━━ RENDERING QUESTION ━━━")
+                Log.d("QuizActive", "  type=${question.type}")
+                Log.d("QuizActive", "  questionText=${question.questionText}")
+                Log.d("QuizActive", "  options=${question.options}")
+                Log.d("QuizActive", "  correctAnswer=${question.correctAnswer}")
+
                 binding.tvQuestionText.text = question.questionText ?: "No question text"
                 binding.tvQuestionNumber.text = "Question ${(viewModel.currentQuestionIndex.value ?: 0) + 1}"
 
@@ -150,11 +156,13 @@ class QuizActiveFragment : Fragment() {
                 fillBlankAnswer2 = null
 
                 if (question.type == "fill_blank") {
-                    // Render fill-in-the-blank UI
+                    val blanks = question.questionText.windowed(5).count { it == "_____" }
+                    Log.d("QuizActive", "  → fill_blank detected, blanks=$blanks (5-underscore count)")
                     renderFillBlankUI(question)
                 } else {
-                    // Render MCQ / T/F UI
-                    val options: List<String> = question.options?.takeIf { it != null } ?: emptyList()
+                    // MCQ or T/F
+                    val options: List<String> = question.options?.takeIf { it.isNotEmpty() } ?: emptyList()
+                    Log.d("QuizActive", "  → options branch, optionCount=${options.size}")
 
                     if (options.isNotEmpty()) {
                         options.forEach { option ->
@@ -166,9 +174,11 @@ class QuizActiveFragment : Fragment() {
                             }
                             binding.rgOptions.addView(radioButton)
                         }
+                        Log.d("QuizActive", "  → added ${options.size} radio buttons")
                     } else {
+                        Log.w("QuizActive", "  ⚠️ NO OPTIONS — question has type=${question.type} but no options array!")
                         binding.rgOptions.addView(TextView(requireContext()).apply {
-                            text = "Keine Optionen verfügbar"
+                            text = "⚠️ Keine Optionen verfügbar (type=${question.type})"
                             textSize = 14f
                             setPadding(32, 24, 32, 24)
                         })
