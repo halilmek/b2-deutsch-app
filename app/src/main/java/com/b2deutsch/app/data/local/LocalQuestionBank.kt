@@ -287,17 +287,34 @@ object LocalQuestionBank {
                 for (i in 0 until questions.length()) {
                     val q = questions.getJSONObject(i)
                     if (q.getString("id") == questionId) {
+                        // Use optString with safe fallbacks — don't crash on missing fields
+                        val qSubjectId = q.optString("subjectId", subjectId)
+                        val qType = q.optString("type", "multiple_choice")
+                        val qText = q.optString("questionText", "")
+                        val qAnswer = q.optString("correctAnswer", "")
+
+                        if (qText.isEmpty()) {
+                            Log.e("LQB", "⚠️ Question $questionId has empty questionText in $fileName")
+                        }
+                        if (qAnswer.isEmpty()) {
+                            Log.e("LQB", "⚠️ Question $questionId has empty correctAnswer in $fileName")
+                        }
+
                         val optionsArray = q.optJSONArray("options")
                         val options = if (optionsArray != null) {
                             (0 until optionsArray.length()).map { optionsArray.getString(it) }
-                        } else emptyList()
+                        } else {
+                            Log.w("LQB", "⚠️ Question $questionId has no options in $fileName")
+                            emptyList()
+                        }
+
                         return@use Question(
                             id = q.getString("id"),
-                            subjectId = q.getString("subjectId"),
-                            type = q.getString("type"),
-                            questionText = q.getString("questionText"),
+                            subjectId = qSubjectId,
+                            type = qType,
+                            questionText = qText,
                             options = options,
-                            correctAnswer = q.getString("correctAnswer"),
+                            correctAnswer = qAnswer,
                             explanation = q.optString("explanation", ""),
                             difficulty = q.optString("difficulty", "medium"),
                             topicName = q.optString("topicName", "")
