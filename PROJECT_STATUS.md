@@ -8,6 +8,15 @@
 
 ## ✅ WHAT WE COMPLETED (2026-05-01)
 
+### Fix Rotation Restart + Fill Blank UI (QuizActiveFragment)
+Two bugs fixed in one commit:
+
+1. **Rotation restart bug:** Fragment was calling `viewModel.startQuiz()` unconditionally in `onViewCreated()`. Every rotation recreated the ViewModel and restarted the quiz. Fixed by checking `if (viewModel.currentQuiz.value == null)` before starting a new quiz — if a quiz is already in progress, it resumes it instead of restarting.
+
+2. **Fill-in-blank UI:** Added proper `EditText` input fields for `fill_blank` type questions. Supports 1-blank and 2-blank questions with separate input fields. Answers are combined with a space ("word1 word2") before storing. State is restored on rotation.
+
+**Pushed to GitHub:** `c55f1942d5faa3018a0226e9518846b1cb4dcdc7`
+
 ### 7 Errors Fixed in Topic 5 — Futur mit werden (b2_06)
 While reviewing the full question set, I found and fixed 7 errors:
 
@@ -144,4 +153,4 @@ Module now has 22 topics (was 23).
 
 ---
 
-_Last updated: 2026-05-01 10:15 UTC_
+_Last updated: 2026-05-01 10:40 UTC_
