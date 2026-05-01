@@ -157,36 +157,22 @@ class QuizActiveFragment : Fragment() {
 
                 if (question.type == "fill_blank") {
                     val blanks = question.questionText.windowed(5).count { it == "_____" }
-                    Log.d("QuizActive", "  → fill_blank detected, blanks=$blanks (5-underscore count)")
-                    renderFillBlankUI(question)
-                } else {
-                    // MCQ or T/F
-                    val options: List<String> = question.options?.takeIf { it.isNotEmpty() } ?: emptyList()
-                    Log.d("QuizActive", "  → options branch, optionCount=${options.size}")
+                    val hasOptions = question.options?.isNotEmpty() == true
 
-                    if (options.isNotEmpty()) {
-                        options.forEach { option ->
-                            val radioButton = RadioButton(requireContext()).apply {
-                                id = View.generateViewId()
-                                text = option
-                                textSize = 16f
-                                setPadding(32, 24, 32, 24)
-                            }
-                            binding.rgOptions.addView(radioButton)
-                        }
-                        Log.d("QuizActive", "  → added ${options.size} radio buttons")
+                    // SAFEGUARD: fill_blank with options → treat as MCQ
+                    // Also: fill_blank with 0 blanks detected → treat as MCQ
+                    if (hasOptions || blanks == 0) {
+                        Log.w("QuizActive", "  ⚠️ fill_blank with options/0blanks — treating as MCQ (safeguard)")
+                        renderMCQOptions(question)
                     } else {
-                        Log.w("QuizActive", "  ⚠️ NO OPTIONS — question has type=${question.type} but no options array!")
-                        binding.rgOptions.addView(TextView(requireContext()).apply {
-                            text = "⚠️ Keine Optionen verfügbar (type=${question.type})"
-                            textSize = 14f
-                            setPadding(32, 24, 32, 24)
-                        })
+                        Log.d("QuizActive", "  → fill_blank UI, blanks=$blanks")
+                        renderFillBlankUI(question)
                     }
-
-                    // Restore previously selected answer
-                    restoreRadioSelection()
+                } else {
+                    renderMCQOptions(question)
                 }
+
+                restoreRadioSelection()
 
                 Log.d("QuizActive", "Question displayed: ${question.questionText?.take(50)}")
 
@@ -297,6 +283,31 @@ class QuizActiveFragment : Fragment() {
             if (parts.size > 1) {
                 fillBlankAnswer2?.setText(parts.getOrNull(1) ?: "")
             }
+        }
+    }
+
+    private fun renderMCQOptions(question: com.b2deutsch.app.data.model.Question) {
+        val options: List<String> = question.options?.takeIf { it.isNotEmpty() } ?: emptyList()
+        Log.d("QuizActive", "  → renderMCQOptions, optionCount=${options.size}")
+
+        if (options.isNotEmpty()) {
+            options.forEach { option ->
+                val radioButton = RadioButton(requireContext()).apply {
+                    id = View.generateViewId()
+                    text = option
+                    textSize = 16f
+                    setPadding(32, 24, 32, 24)
+                }
+                binding.rgOptions.addView(radioButton)
+            }
+            Log.d("QuizActive", "  → added ${options.size} radio buttons")
+        } else {
+            Log.w("QuizActive", "  ⚠️ NO OPTIONS in renderMCQOptions for: ${question.questionText.take(40)}")
+            binding.rgOptions.addView(TextView(requireContext()).apply {
+                text = "⚠️ Keine Optionen verfügbar (type=${question.type})"
+                textSize = 14f
+                setPadding(32, 24, 32, 24)
+            })
         }
     }
 
