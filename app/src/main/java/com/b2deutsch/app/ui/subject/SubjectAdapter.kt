@@ -44,13 +44,11 @@ class SubjectAdapter(
             // Premium indicator
             binding.ivPremium.visibility = if (subject.isPremium) View.VISIBLE else View.GONE
 
-            // Lock icon if no quizzes available
-            binding.ivLock.visibility = if (subject.quizCount == 0) View.VISIBLE else View.GONE
+            // Lock icon hidden — topics without quizzes are still clickable (user can read tips/explanation)
+            binding.ivLock.visibility = View.GONE
 
             binding.root.setOnClickListener {
-                if (subject.quizCount > 0) {
-                    onSubjectClick(subject)
-                }
+                onSubjectClick(subject)
             }
         }
 
