@@ -152,7 +152,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "🔗",
             order = 1,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "ALS = einmalige Situation in der Vergangenheit (when — one time)",
                 "BEVOR = zuerst Handlung A, dann Handlung B (before)",
@@ -175,7 +175,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 2,
-            quizCount = 5,
+            quizCount = 0,
             tips = listOf(
                 "Verben mit Dativ: helfen, danken, glauben, antworten",
                 "Verben mit Akkusativ: sehen, hören, finden, kennen",
@@ -194,7 +194,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
             order = 3,
-            quizCount = 16,
+            quizCount = 0,
             tips = listOf(
                 "PERFEKT = haben/sein (Präsens) + Partizip II",
                 "PRÄTERITUM = wurde, war, hatte, konnte - häufig beiWritten verwendet",
@@ -213,7 +213,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
             order = 4,
-            quizCount = 12,  // 120 questions ÷ 10 per quiz = 12 sessions
+            quizCount = 0,  // 120 questions ÷ 10 per quiz = 12 sessions
             tips = listOf(
                 "WERDEN + Infinititiv = Vorhersage, Vermutung über Zukunft",
                 "Präsens + Zeitangabe = geplante, sichere Handlungen",
@@ -232,7 +232,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "⏰",
             order = 5,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Futur I: wird + Partizip II + werden",
                 "Futur II: wird + Partizip II + haben/sein + werden",
@@ -270,7 +270,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "❌",
             order = 7,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "nicht + Verb = ganze Handlung verneint",
                 "nicht + am Satzende = Negation des nächsten Satzglieds",
@@ -289,7 +289,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "❌",
             order = 8,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "NIEMAND = no one / hiç kimse",
                 "NIchts = nothing / hiçbir şey",
@@ -308,7 +308,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "🔄",
             order = 9,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Vorgangspassiv Präteritum: wurde + Partizip II",
                 "Zustandspassiv: war + Partizip II",
@@ -327,7 +327,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 10,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Irreale Bedingung: wenn + hätte/wäre + Partizip II",
                 "Hätte-Form: hätte + Partizip II + gemacht",
@@ -346,7 +346,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 11,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Hätte + Infinitiv + Modalverb = Möglichkeit",
                 "Würde + Infinitiv + Modalverb = höfliche Bitte",
@@ -365,7 +365,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "🔄",
             order = 12,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "EINANDER = sich gegenseitig / birbirine",
                 "Nur für wechselseitige Handlungen!",
@@ -384,7 +384,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 13,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Was + Präposition = wofür, worüber, womit...",
                 "Wo + Präposition = wo, wohin, woher...",
@@ -403,7 +403,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 14,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Trotz, während, wegen, statt, anstatt, dank, angesichts",
                 "Immer mit Artikel: trotz des/dem/die → trotz der (Nominativ/Dativ)",
@@ -422,7 +422,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📊",
             order = 15,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "JE + Komparativ = desto/umso + Komparativ",
                 "Je mehr, desto besser",
@@ -441,7 +441,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 16,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Entscheidung treffen = karar vermek",
                 "Frage stellen = soru sormak",
@@ -460,7 +460,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 17,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "DESHALB/DESWEGEN/DARUM = therefore / bu yüzden (Position 2)",
                 "FOLGLICH = consequently / sonuç olarak (Position 1 oder 2)",
@@ -479,7 +479,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 18,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "ankommen auf + Akkusativ = dependent on",
                 "rechnen mit + Dativ = to count on",
@@ -498,7 +498,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 19,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Wenn-Satz: wäre/hätte + Partizip II + worden/gewesen",
                 "Hauptsatz: hätte/wäre + Partizip II + Konjugation",
@@ -517,7 +517,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 20,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "DESSEN (maskulin/neutral) = whose (bei dem Mann)",
                 "DEREN (feminin/plural) = whose (bei der Frau)",
@@ -536,7 +536,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 21,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "Konjunktiv I: ich komme → er komme, ich habe → er habe",
                 "sein → ich sei, du seist, er sei",
@@ -555,7 +555,7 @@ class SubjectListViewModel @Inject constructor(
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 22,
-            quizCount = 10,
+            quizCount = 0,
             tips = listOf(
                 "ALS OB = as if / sanki",
                 "ALS WENN = als ob (gleichbedeutend)",
