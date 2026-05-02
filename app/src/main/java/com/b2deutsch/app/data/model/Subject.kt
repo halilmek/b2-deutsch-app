@@ -17,7 +17,8 @@ data class Subject(
     val category: String = "",           // grammar, vocabulary, reading, listening, writing, speaking
     val iconEmoji: String = "📚",
     val order: Int = 0,
-    val quizCount: Int = 0,              // Number of available quizzes
+    val questionCount: Int = 0,           // Total questions in this topic (set dynamically from JSON)
+    val quizCount: Int = 0,               // Number of available quizzes (computed: questionCount / 10, rounded up)
     val isPremium: Boolean = false,
     val tips: List<String> = emptyList() // Learning tips for this subject
 )
