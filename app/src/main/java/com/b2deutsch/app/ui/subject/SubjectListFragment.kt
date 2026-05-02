@@ -9,6 +9,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.b2deutsch.app.R
+import com.b2deutsch.app.data.local.LocalQuestionBank
 import com.b2deutsch.app.databinding.FragmentSubjectListBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -105,7 +106,13 @@ class SubjectListFragment : Fragment() {
             } else {
                 binding.tvEmpty.visibility = View.GONE
                 binding.rvSubjects.visibility = View.VISIBLE
-                subjectAdapter.submitList(subjects)
+                // Dynamically compute questionCount and quizCount from actual question count in JSON files
+                val updatedSubjects = subjects.map { subject ->
+                    val totalQ = LocalQuestionBank.getTotalQuestionCount(requireContext(), subject.id)
+                    val computedQuizCount = if (totalQ > 0) (totalQ + 9) / 10 else subject.quizCount
+                    subject.copy(questionCount = totalQ, quizCount = computedQuizCount)
+                }
+                subjectAdapter.submitList(updatedSubjects)
             }
         }
 
