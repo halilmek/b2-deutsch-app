@@ -247,12 +247,11 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "6. Angaben im Satz",
             nameShort = "Angaben im Satz",
-            quizCount = 6,
             description = "Angaben sind Satzglieder, die zusätzliche Informationen geben — sie antworten auf Fragen wie Wann? Wo? Warum? Wie? In German, Angaben follow the TEKAMO order when multiple ones are combined.\n\nTEKAMO — Four Main Types of Angaben:\n• TE (Temporal) — Wann? — morgen, gestern, oft\n• KA (Kausal) — Warum? — wegen des Wetters, deshalb\n• MO (Modal) — Wie? — schnell, leider, gern\n• LO (Lokal) — Wo/Wohin/Woher? — in Berlin, nach Hause\n\nSentence Position Rules (TEKAMO Order):\nWhen multiple Angaben appear together: TE → KA → MO → LO\nExample: Ich fahre morgen (TE) wegen der Arbeit (KA) mit dem Zug (MO) nach Munchen (LO).\n\nBeispiele:\n• 'Am Montag werde ich in Berlin einen Test schreiben.' (TE + LO)\n• 'Wegen der Krankheit konnte ich nicht kommen.' (KA only)\n• 'Sie hat gestern im Bro schnell gegessen.' (TE + LO + MO)",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📍",
             order = 6,
-            quizCount = 4,
+            quizCount = 0, // computed dynamically from JSON
             tips = listOf(
                 "TEKAMO order: Temporal -> Kausal -> Modal -> Lokal",
                 "Position 1: usually temporal information (Wann?)",
