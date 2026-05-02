@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.b2deutsch.app.R
+import com.b2deutsch.app.data.local.LocalQuestionBank
 import com.b2deutsch.app.databinding.FragmentSubjectDetailBinding
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -67,12 +68,16 @@ class SubjectDetailFragment : Fragment() {
     private fun observeViewModel() {
         viewModel.subjects.observe(viewLifecycleOwner) { subjects ->
             val subject = subjects.find { it.id == subjectId }
-            subject?.let { bindSubject(it) }
+            subject?.let {
+                // Dynamically compute quizCount from actual question count in JSON
+                val totalQ = LocalQuestionBank.getTotalQuestionCount(requireContext(), it.id)
+                val computedQuizCount = if (totalQ > 0) (totalQ + 9) / 10 else it.quizCount
+                bindSubject(it.copy(questionCount = totalQ, quizCount = computedQuizCount))
+            }
         }
     }
 
     private fun loadSubject(id: String) {
-        // Find subject from loaded list or create from defaults
         val level = arguments?.getString("level") ?: "B2"
         viewModel.loadSubjectsForLevel(level)
     }
@@ -94,14 +99,14 @@ class SubjectDetailFragment : Fragment() {
             binding.tvTips.visibility = View.GONE
         }
 
-        // Quiz count
-        binding.tvQuizCount.text = "${subject.quizCount} Quiz verfügbar"
+        // Quiz count — dynamically computed from JSON file (questions ÷ 10)
+        val totalQ = LocalQuestionBank.getTotalQuestionCount(requireContext(), subject.id)
+        val computedQuizCount = if (totalQ > 0) (totalQ + 9) / 10 else subject.quizCount
+        binding.tvQuizCount.text = "$totalQ Fragen · $computedQuizCount Quiz verfügbar"
 
         // Start Quiz button
-        binding.btnStartQuiz.isEnabled = subject.quizCount > 0
-        if (subject.quizCount == 0) {
-            binding.btnStartQuiz.text = "Bald verfügbar"
-        }
+        binding.btnStartQuiz.isEnabled = computedQuizCount > 0
+        binding.btnStartQuiz.text = if (computedQuizCount > 0) "Quiz starten" else "Bald verfügbar"
     }
 
     private fun getCategoryLabel(category: String): String {
