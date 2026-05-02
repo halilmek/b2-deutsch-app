@@ -35,7 +35,7 @@ class SubjectAdapter(
             binding.tvSubjectIcon.text = subject.iconEmoji
             binding.tvSubjectName.text = subject.name
             binding.tvSubjectDescription.text = subject.description
-            binding.tvQuizCount.text = "${subject.quizCount} Quiz"
+            binding.tvQuizCount.text = "${subject.questionCount} Fragen · ${subject.quizCount} Quiz"
 
             // Category badge
             binding.tvCategory.text = getCategoryLabel(subject.category)
