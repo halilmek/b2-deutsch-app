@@ -116,5 +116,5 @@ node scripts/import_and_sync.js
 
 ---
 
-_Last updated: 2026-05-03 16:01 UTC_
+_Last updated: 2026-05-03 16:35 UTC_
 _Update after: every topic content change, every bug fix, every new Firebase push_
