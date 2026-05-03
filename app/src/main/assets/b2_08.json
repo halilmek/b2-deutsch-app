@@ -1,8 +1,8 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "subjectId": "b2_08",
   "topicName": "Negationsworter",
-  "totalQuestions": 100,
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "b2_08_q001",
@@ -1542,6 +1542,326 @@
       "correctAnswer": "als",
       "explanation": "Grammatik-Thema: Verneinung mit nicht",
       "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q101",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich mag _____ diese laute Musik.\n(Wir moegen diese Art von Musik nicht.)",
+      "options": [
+        "nicht",
+        "kein",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht\" negiert das Verb „mag\" (Ich mag ... nicht = I don't like).",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q102",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er kommt _____ vor 18 Uhr nach Hause.\n(Wann?)",
+      "options": [
+        "nicht",
+        "kein",
+        "niemals",
+        "keines"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„vor 18 Uhr\" ist eine Praepositionsgruppe (wohin?/wann?). „nicht\" steht davor: „nicht vor 18 Uhr\" = nicht vor diesem Zeitpunkt.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q103",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir haben _____ den neuen Film gesehen, sondern das Theaterstueck.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\" Struktur: Wir haben NICHT den Film gesehen, SONDERN das Theaterstueck.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q104",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie spricht _____ schnell, sondern sehr deutlich.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\" Struktur: Sie spricht NICHT schnell, SONDERN sehr deutlich.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q105",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich kann _____ heute ins Kino gehen, weil ich lernen muss.",
+      "options": [
+        "nicht",
+        "kein",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Modalverb + Infinitiv: „kann nicht gehen\" = cannot go. „nicht\" steht vor dem Infinitiv.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q106",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Hast du _____ deine Hausaufgaben gemacht?\n(Doch, ich habe sie gemacht!)",
+      "options": [
+        "nicht",
+        "kein",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt: „nicht\" steht vor dem Partizip. „Hast du NICHT deine Hausaufgaben gemacht?\" = Hasn't he done his homework?",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q107",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er hat das Buch _____ gelesen, sondern nur ueberflogen.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\" in Perfekt: Er hat das Buch NICHT gelesen, SONDERN nur ueberflogen.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q108",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du mich _____ angerufen?",
+      "options": [
+        "nicht",
+        "kein",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt (trennbares Verb): „hat nicht ... angerufen\". „nicht\" steht vor dem Gesamtausdruck.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q109",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie bringt _____ ihre Freunde zur Party mit.\n(trennbares Verb: mitbringen)",
+      "options": [
+        "nicht",
+        "kein",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Trennbares Verb „mitbringen\" in Perfekt: „hat nicht ... mitgebracht\". „nicht\" steht vor dem Verb.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q110",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ gestern viel geschlafen, sondern frueh aufgestanden.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\" in Perfekt: Ich habe NICHT viel geschlafen, SONDERN frueh aufgestanden.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q111",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter ist heute _____ schlecht, sondern ganz angenehm.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\": Das Wetter ist NICHT schlecht, SONDERN ganz angenehm.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q112",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er faehrt _____ langsam, sondern sehr schnell.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\": Er faehrt NICHT langsam, SONDERN sehr schnell.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q113",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir wohnen _____ in der Stadt, sondern auf dem Land.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\": Wir wohnen NICHT in der Stadt, SONDERN auf dem Land.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q114",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie interessiert sich _____ fuer Politik, sondern fuer Kunst.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\": Sie interessiert sich NICHT fuer Politik, SONDERN fuer Kunst.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q115",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ mein Buch, sondern das von Lisa.\n(Possessivpronomen)",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Possessivpronomen wird mit „nicht\" verneint: Das ist NICHT mein Buch, SONDERN das von Lisa.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q116",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "_____ auf diesen Moment habe ich gewartet!\n(Vurgulu cumle basi)",
+      "options": [
+        "Nicht",
+        "Kein",
+        "Nie",
+        "Nichts"
+      ],
+      "correctAnswer": "Nicht",
+      "explanation": "Vurgulu „Nicht\" am Satzanfang: NICHT auf diesen Moment (sondern auf einen anderen).",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q117",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er behauptet, dass er _____ davon gewusst habe.\n(Nebensatz: Verdi Endstellung)",
+      "options": [
+        "nicht",
+        "kein",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Nebensatz: Verb am Ende. „...dass er NICHT davon gewusst habe\" — „nicht\" vor dem Partizip.",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q118",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "_____ Peter war es, sondern sein Bruder, der angerufen hat.\n(Ozel isim olumsuzlamasi)",
+      "options": [
+        "Nicht",
+        "Kein",
+        "Nie",
+        "Nichts"
+      ],
+      "correctAnswer": "Nicht",
+      "explanation": "Vurgulu „Nicht\" + Eigenname: NICHT Peter (sondern sein Bruder).",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q119",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ die Jacke gekauft, sondern die Hose.",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht...sondern\": Sie hat NICHT die Jacke gekauft, SONDERN die Hose.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q120",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Problem laesst sich _____ so einfach loesen, wie du denkst.\n(Zarf grubu olumsuzlamasi)",
+      "options": [
+        "kein",
+        "nicht",
+        "nie",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„nicht so einfach\" = not that easily. „nicht\" verneint die Art und Weise (Adverbialphrase).",
+      "difficulty": "hard",
       "topicName": "Verneinung mit nicht"
     }
   ]
