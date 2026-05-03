@@ -1,8 +1,8 @@
 {
-  "version": "1.61",
+  "version": "1.7",
   "subjectId": "b2_07",
   "topicName": "Angaben im Satz",
-  "totalQuestions": 80,
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_07_q101",
@@ -1182,6 +1182,326 @@
       "correctAnswer": "Freitag ist der letzte Termin für die Abgabe des Berichts.",
       "difficulty": "medium",
       "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q181",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Art von Angabe ist das Wort morgen im folgenden Satz?\nMorgen besuche ich meine Grosseltern.",
+      "options": [
+        "Lokal",
+        "Temporal",
+        "Kausal",
+        "Modal"
+      ],
+      "correctAnswer": "Temporal",
+      "explanation": "morgen = Zeitangabe, Temporal (Wann?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q182",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Art von Angabe ist mit dem Fahrrad im Satz Sie fährt mit dem Fahrrad zur Arbeit?",
+      "options": [
+        "Temporal",
+        "Kausal",
+        "Modal",
+        "Final"
+      ],
+      "correctAnswer": "Modal",
+      "explanation": "mit dem Fahrrad = Art und Weise, Modal (Wie?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q183",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz kommt eine kausale Angabe vor?",
+      "options": [
+        "Er kommt heute nicht.",
+        "Wegen der Krankheit bleibt er zu Hause.",
+        "Sie laeuft schnell zum Bus.",
+        "Im Sommer fahren wir ans Meer."
+      ],
+      "correctAnswer": "Wegen der Krankheit bleibt er zu Hause.",
+      "explanation": "Wegen der Krankheit = kausale Angabe, Grund (Warum?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q184",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Art von Angabe wird durch die Konstruktion um...zu im Satz Er lernt Deutsch, um in Deutschland zu studieren ausgedrueckt?",
+      "options": [
+        "Temporal",
+        "Lokal",
+        "Final",
+        "Modal"
+      ],
+      "correctAnswer": "Final",
+      "explanation": "um...zu = finale Angabe, Zweck/Absicht (Wozu?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q185",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Beispiele ist eine lokale Angabe?",
+      "options": [
+        "gestern",
+        "deshalb",
+        "in der Bibliothek",
+        "mit Geduld"
+      ],
+      "correctAnswer": "in der Bibliothek",
+      "explanation": "in der Bibliothek = lokale Angabe, Ort (Wo?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q186",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Reihenfolge der Angaben entspricht der TeKaMoLo-Regel?",
+      "options": [
+        "Modal - Kausal - Temporal - Lokal",
+        "Temporal - Kausal - Modal - Lokal",
+        "Lokal - Modal - Temporal - Kausal",
+        "Kausal - Temporal - Lokal - Modal"
+      ],
+      "correctAnswer": "Temporal - Kausal - Modal - Lokal",
+      "explanation": "TeKaMoLo = Temporal -> Kausal -> Modal -> Lokal",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q187",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches ist die korrekte Reihenfolge nach TeKaMoLo im Satz: Sie faehrt (1) heute (2) wegen der Konferenz (3) mit dem Zug (4) nach Hamburg?",
+      "options": [
+        "1-2-3-4",
+        "2-1-3-4",
+        "1-3-2-4",
+        "2-3-1-4"
+      ],
+      "correctAnswer": "1-2-3-4",
+      "explanation": "heute=Te, wegen=Ka, mit=Mo, nach=Lo -> 1-2-3-4",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q188",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist die Reihenfolge der Angaben falsch?",
+      "options": [
+        "Er arbeitet morgen aus Pflichtgefuehl sehr konzentriert im BUro.",
+        "Sie geht heute mit Freunden ins Kino.",
+        "Wir fahren wegen des Wetters schnell nach Hause.",
+        "Ich lerne jeden Tag mit Freude fuer die Pruefung in der Bibliothek."
+      ],
+      "correctAnswer": "Wir fahren wegen des Wetters schnell nach Hause.",
+      "explanation": "Fehlende TE-Angabe (Temporal). Richtig mit TE: Wir fahren heute wegen des Wetters schnell nach Hause.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q189",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was passiert, wenn eine Angabe auf Position 1 im Satz steht?",
+      "options": [
+        "Das Verb rutscht ans Satzende.",
+        "Das Subjekt steht nach dem Verb (Inversion).",
+        "Der Satz verliert seine Bedeutung.",
+        "Die Artikel aendern sich."
+      ],
+      "correctAnswer": "Das Subjekt steht nach dem Verb (Inversion).",
+      "explanation": "Vorfeld (Position 1) = Angabe -> Inversion: Subjekt folgt dem Verb.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q190",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Warum steht Gestern am Satzanfang im Satz Gestern hat er mir wegen des Projekts telefonisch geantwortet?",
+      "options": [
+        "Zur Betonung",
+        "Weil es obligatorisch ist",
+        "Damit das Verb an zweiter Stelle steht",
+        "A und C sind richtig"
+      ],
+      "correctAnswer": "A und C sind richtig",
+      "explanation": "TE im Vorfeld = zur Betonung UND sichert Verb-Zweit-Stellung (Inversion).",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q191",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz hat dieselbe Bedeutung wie: Weil es stark regnete, blieben wir zu Hause?",
+      "options": [
+        "Trotzdem blieben wir zu Hause.",
+        "Wegen des starken Regens blieben wir zu Hause.",
+        "Obwohl es regnete, blieben wir zu Hause.",
+        "Deshalb gingen wir spazieren."
+      ],
+      "correctAnswer": "Wegen des starken Regens blieben wir zu Hause.",
+      "explanation": "weil -> wegen (kausal: Nebensatz -> Angabe, gleicher Grund)",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q192",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort passt in die Luecke? Er hat die Pruefung bestanden, ... er jeden Tag gelernt hat.",
+      "options": [
+        "trotzdem",
+        "deshalb",
+        "weil",
+        "obwohl"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "weil = kausaler Nebensatzkonnektor (Warum? -> Grund)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q193",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet die Konstruktion dadurch, dass korrekt?",
+      "options": [
+        "Er lernt viel, dadurch, dass er erfolgreich ist.",
+        "Dadurch, dass er viel lernt, besteht er die Pruefung.",
+        "Er besteht die Pruefung, dadurch dass.",
+        "Dadurch er lernt, besteht er."
+      ],
+      "correctAnswer": "Dadurch, dass er viel lernt, besteht er die Pruefung.",
+      "explanation": "Dadurch, dass leitet kausalen Nebensatz ein: Dadurch, dass + Subjekt + Verb.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q194",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor erzeugt eine kausale Angabe im Satz: Sie geht zur Arbeit, ... sie krank ist?",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "wenn"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "weil = kausaler Konnektor (Grund: Warum? -> krank)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q195",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Wie kann die finale Angabe im Satz Um punktlich zu sein, nimmt er den fruehen Zug umformuliert werden?",
+      "options": [
+        "Weil er punktlich sein will...",
+        "Damit er punktlich ist...",
+        "Obwohl er punktlich ist...",
+        "Wenn er punktlich ist..."
+      ],
+      "correctAnswer": "Damit er punktlich ist...",
+      "explanation": "um...zu = finaler Infinitiv; damit ist der aequivlente Nebensatzkonnektor.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q196",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Lesetext: Anna plant ihre Reise nach Oesterreich. Naechsten Monat moechte sie mit dem Zug von Berlin nach Wien fahren, weil sie die Landschaft geniessen will. Welche Art von Angabe ist naechsten Monat im Text?",
+      "options": [
+        "Lokal",
+        "Temporal",
+        "Kausal",
+        "Modal"
+      ],
+      "correctAnswer": "Temporal",
+      "explanation": "naechsten Monat = Zeitangabe, Temporal (Wann?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q197",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): ...weil sie die Landschaft geniessen will. Auf welche Frage gibt der Ausdruck weil sie die Landschaft geniessen will eine Antwort?",
+      "options": [
+        "Wo faehrt sie hin?",
+        "Wann faehrt sie?",
+        "Warum faehrt sie?",
+        "Wie faehrt sie?"
+      ],
+      "correctAnswer": "Warum faehrt sie?",
+      "explanation": "weil = kausale Angabe (Grund) -> beantwortet Warum?",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q198",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): ...ausserdem bucht sie ein Hotel im Stadtzentrum, um schnell zu den Sehenswuerdigkeiten zu gelangen. Welche Art von Angabe ist im Stadtzentrum?",
+      "options": [
+        "Temporal",
+        "Kausal",
+        "Lokal",
+        "Final"
+      ],
+      "correctAnswer": "Lokal",
+      "explanation": "im Stadtzentrum = lokale Angabe, Ort (Wo?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q199",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): ...um schnell zu den Sehenswuerdigkeiten zu gelangen. Welche Funktion hat der Ausdruck um schnell zu den Sehenswuerdigkeiten zu gelangen?",
+      "options": [
+        "Zeitangabe",
+        "Grundangabe",
+        "Zweckangabe",
+        "Ortsangabe"
+      ],
+      "correctAnswer": "Zweckangabe",
+      "explanation": "um...zu = finale Angabe (Wozu? / Zweck / Absicht)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q200",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): Trotz der hohen Kosten freut sie sich sehr auf die Reise. Was fuegt der Ausdruck Trotz der hohen Kosten dem Satz hinzu?",
+      "options": [
+        "Eine Zeitangabe",
+        "Eine Bedingung",
+        "Eine konzessive Angabe (Gegengrund)",
+        "Eine Zweckangabe"
+      ],
+      "correctAnswer": "Eine konzessive Angabe (Gegengrund)",
+      "explanation": "trotz = konzessiv = obwohl -> drueckt einen Gegengrund aus (Einschraenkung).",
+      "difficulty": "easy",
       "topicName": "Angaben im Satz"
     }
   ]
