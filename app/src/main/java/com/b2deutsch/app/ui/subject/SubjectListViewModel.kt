@@ -264,7 +264,7 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "b2_08",
             level = "B2",
-            name = "6. Verneinung mit nicht",
+            name = "7. Verneinung mit nicht",
             nameShort = "Nicht-Verneinung",
             description = "Die Verneinung mit 'nicht' kann sich auf verschiedene Satzglieder beziehen. Die Position von 'nicht' bestimmt, was verneint wird. Dies ist ein häufiger Fehler in der B2-Prüfung.\n\nBeispiele:\n• 'Ich spreche nicht Deutsch. (sondern Englisch)' - Verneinung des Verbs\n• 'Das ist nicht mein Buch. (sondern deins)' - Verneinung des Nominals",
             category = Constants.Categories.GRAMMAR,
@@ -283,7 +283,7 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "b2_09",
             level = "B2",
-            name = "7. Negationswörter: nichts, nie/niemals, niemand, nirgends",
+            name = "8. Negationswörter: nichts, nie/niemals, niemand, nirgends",
             nameShort = "Negationswörter",
             description = "Es gibt verschiedene Negationswörter im Deutschen, die verwendet werden, um die Verneinung zu verstärken oder zu spezifizieren. In der B2-Prüfung werden diese häufig in Lese- und Schreibaufgaben verwendet.\n\nBeispiele:\n• 'Niemand hat das verstanden.' (niemand = hiç kimse)\n• 'Ich habe ihn nirgends gefunden.' (nirgends = hiçbir yerde)\n• 'Niemals werde ich das tun!' (niemals = asla)",
             category = Constants.Categories.GRAMMAR,
@@ -302,7 +302,7 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "b2_10",
             level = "B2",
-            name = "8. Passiv Präteritum",
+            name = "9. Passiv Präteritum",
             nameShort = "Passiv Präteritum",
             description = "Das Passiv Präteritum wird verwendet, um vergangene Handlungen zu beschreiben, bei denen der Handelnde unbekannt oder unwichtig ist. Es wird oft in formellen Texten und Berichten verwendet.\n\nBeispiele:\n• 'Das Problem wurde gelöst.' (Vorgangspassiv)\n• 'Die Tür war schon geöffnet.' (Zustandspassiv)",
             category = Constants.Categories.GRAMMAR,
@@ -321,7 +321,7 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "b2_11",
             level = "B2",
-            name = "9. Konjunktiv II der Vergangenheit",
+            name = "10. Konjunktiv II der Vergangenheit",
             nameShort = "Konjunktiv II Vergangenheit",
             description = "Der Konjunktiv II der Vergangenheit wird verwendet, um irreale Wünsche und hypothetische Situationen in der Vergangenheit auszudrücken. Er beschreibt, was hätte sein können, aber nicht war.\n\nBeispiele:\n• 'Wenn ich genug gelernt hätte, hätte ich die Prüfung bestanden.'\n• 'Ich hätte das nicht tun sollen.'",
             category = Constants.Categories.GRAMMAR,
@@ -340,7 +340,7 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "b2_12",
             level = "B2",
-            name = "10. Konjunktiv II mit Modalverben",
+            name = "11. Konjunktiv II mit Modalverben",
             nameShort = "Konjunktiv II Modalverben",
             description = "Der Konjunktiv II mit Modalverben wird verwendet, um Höflichkeit auszudrücken oder um irreale Möglichkeiten zu beschreiben. Die Form ist hätte/säre + Infinitiv + Modalverb.\n\nBeispiele:\n• 'Ich hätte das machen können.' (Möglichkeit in der Vergangenheit)\n• 'Wenn ich Zeit gehabt hätte, hätte ich kommen müssen.'",
             category = Constants.Categories.GRAMMAR,
