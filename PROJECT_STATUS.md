@@ -17,7 +17,7 @@
 | 3 | b2_05 | Zeitformen der Zukunft | 120 | 12 | ✅ Complete |
 | 4 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete (7 errors fixed) |
 | 5 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete (q101-q200, v1.7) |
-| 6 | b2_08 | Verneinung mit nicht | 120 | 12 | ✅ Complete (q001-q120, v1.1) |
+| 6 | b2_08 | Verneinung mit nicht | 20 | 2 | ✅ Complete (q101-q120, v1.2) |
 | 7 | b2_09 | Negationswörter | 100 | 10 | ⚠️ Placeholder |
 | 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⚠️ Placeholder |
 | 9 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
@@ -116,5 +116,5 @@ node scripts/import_and_sync.js
 
 ---
 
-_Last updated: 2026-05-03 17:09 UTC_
+_Last updated: 2026-05-03 17:25 UTC_
 _Update after: every topic content change, every bug fix, every new Firebase push_
