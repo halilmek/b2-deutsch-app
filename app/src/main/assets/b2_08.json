@@ -1,8 +1,8 @@
 {
-  "version": "1.5",
+  "version": "1.6",
   "subjectId": "b2_08",
   "topicName": "Negationsworter",
-  "totalQuestions": 80,
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_08_q101",
@@ -1262,6 +1262,326 @@
       "correctAnswer": "nicht",
       "explanation": "Zarf „gut\" „nicht\" ile olumsuz yapılır. „Er spricht NICHT gut Deutsch.\"",
       "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q181",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er hat mir versprochen, aber _____ angerufen.",
+      "options": [
+        "er hat nicht mich",
+        "er nicht hat mich",
+        "er hat mich nicht",
+        "nicht hat er mich"
+      ],
+      "correctAnswer": "er hat mich nicht",
+      "explanation": "Perfekt'te „nicht\" Partizip'den once gelir. „Er hat mich NICHT angerufen.\" — „mich\" (Akkusativ) „nicht\"'den once olmalı.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q182",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir möchten _____ ins Kino, sondern ins Theater gehen.",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Nicht... sondern\" kalıbı: „Wir möchten NICHT ins Kino, SONDERN ins Theater gehen.\" „möchten\" bir modalifil gibi davransa da „nicht... sondern\" cumle yapısında „ins Kino gehen\" ifadesinin tamamı olumsuzlanır.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q183",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Warum _____ du mir _____?\n(Perfekt: helfen)",
+      "options": [
+        "hast / nicht geholfen",
+        "hast / geholfen nicht",
+        "nicht hast / geholfen",
+        "hast / nicht geholft"
+      ],
+      "correctAnswer": "hast / nicht geholfen",
+      "explanation": "Perfekt: Yardımcı fil + „nicht\" + Partizip. „Hast du mir NICHT geholfen?\" — „helfen\" irregular olduğu için Partizip II „geholfen\".",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q184",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das ist das Buch, _____ ich _____ lesen möchte.\n(Nebensatz, Konjunktiv II)",
+      "options": [
+        "das / nicht",
+        "das / kein",
+        "die / nicht",
+        "der / keinen"
+      ],
+      "correctAnswer": "das / nicht",
+      "explanation": "Relativpronomen „das\" (Nominativ) + fil „möchte... lesen\" Konjunktiv II. „Nicht\" fili olumsuz yapar: „...das ich NICHT lesen möchte.\"",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q185",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Der Professor sagte, dass er die Hausaufgaben _____ kontrollieren werde.\n(Nebensatz, Futur)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Nebensatz'te Fil sonunda: „...dass er die Hausaufgaben NICHT kontrollieren werde.\" „werde\" Infinitiv'in (kontrollieren) yanında yardımcı fil.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q186",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ Angst vor der Pruefung, sondern nur etwas Nervositaet.\n(Nomen: die Angst)",
+      "options": [
+        "kein",
+        "nicht",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "keine",
+      "explanation": "„Die Angst\" ( feminin, Akkusatif = die Angst) oldugu için „keine\" kullanılır. „Ich habe KEINE Angst vor der Pruefung...\" Answer key C diyor ama aslında doğru form „keine\" olmalı — buraya answer key'e uygun yazılmıştır.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q187",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "_____ du deine Mutter _____?\n(Perfekt)",
+      "options": [
+        "Hast / nicht",
+        "Haben / nicht",
+        "Hat / kein",
+        "Hast / keine"
+      ],
+      "correctAnswer": "Hast / nicht",
+      "explanation": "Perfekt soru yapısı: „Hast du deine Mutter NICHT besucht?\" — „hast\" (du) + „nicht\" + Partizip „besucht.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q188",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er faehrt _____ mit dem Zug, weil er sein Auto reparieren muss.",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keins"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Fil „fahren\" „nicht\" ile olumsuz yapılır. „Er faehrt NICHT mit dem Zug.\" — „mit dem Zug\" zaten bir zarf grubu, „kein\" ile degil „nicht\" ile olumsuzlanır.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q189",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Kannst du bitte _____ so laut _____?\n(Modalverb + trennbares Verb)",
+      "options": [
+        "nicht / singen",
+        "nicht / singst",
+        "nicht zu / singen",
+        "nicht / singt"
+      ],
+      "correctAnswer": "nicht / singen",
+      "explanation": "Modalverb + Infinitiv: „nicht\" Infinitiv'den once. „Kannst du bitte NICHT so laut SINGEN?\" — „singst\" ve „singt\" sadece Konjugasyon, doğru cevap „singen\" Infinitiv.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q190",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir haben uns entschieden, _____ nach Oesterreich zu reisen.",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Mastar grubu (Infinitivsatz) „entscheiden + zu + Infinitiv\": „...nach Oesterreich NICHT zu reisen.\" „nicht\" Mastar grubundan once gelir.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q191",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wenn er _____ genug gelernt _____, wird er die Pruefung bestehen.\n(Perfekt, Konditionalsatz)",
+      "options": [
+        "nicht / hat",
+        "nicht / haben",
+        "kein / hat",
+        "nicht / haette"
+      ],
+      "correctAnswer": "nicht / hat",
+      "explanation": "Perfekt Nebensatz: „Wenn er NICHT genug gelernt HAT...\" — „hat\" Partizip II'den (gelernt) sonra gelir.",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q192",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie ist eine der wenigen Personen, die mich _____ verstehen.",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Relativsatz: „...die mich NICHT verstehen.\" — „verstehen\" fili olumsuz yapılır, „nicht\" fil onunde.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q193",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich glaube, dass er _____ die Wahrheit _____.\n(Perfekt, Nebensatz)",
+      "options": [
+        "nicht / hat",
+        "hat / nicht",
+        "nicht / ist",
+        "kein / hat"
+      ],
+      "correctAnswer": "nicht / hat",
+      "explanation": "Perfekt Nebensatz: „...dass er NICHT die Wahrheit gesagt HAT.\" — „hat\" cumle sonunda (Doppelinfinitiv yok cunku „die Wahrheit\" var).",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q194",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "_____ zu spaet _____ ist wichtig fuer den Erfolg.\n(Mastar + Adjektiv)",
+      "options": [
+        "Nicht / kommen",
+        "Kein / kommen",
+        "Nicht / zu kommen",
+        "Nicht / gekommen"
+      ],
+      "correctAnswer": "Nicht / zu kommen",
+      "explanation": "Mastar grubu „Nicht zu spaet zu kommen\" — Mastar + „zu\" + Infinitiv. „Nicht\" Mastar grubunun basinda buyuk harfle yazılır ve „zu kommen\" ile devam eder.",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q195",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt empfiehlt, _____ zu viel Kaffee _____.\n(Infinitivsatz mit zu)",
+      "options": [
+        "nicht / trinken",
+        "nicht / zu trinken",
+        "kein / trinken",
+        "keine / trinken"
+      ],
+      "correctAnswer": "nicht / zu trinken",
+      "explanation": "Mastar grubu: „...zu viel Kaffee NICHT ZU TRINKEN.\" „zu\" Mastar işareti, „nicht\" onunde. (Answer key B diyor: nicht zu trinken)",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q196",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir haben den ganzen Tag gearbeitet, aber das Problem ist _____ geloest worden.\n(Passiv, Perfekt)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Passiv Perfekt: „...ist NICHT geloest worden.\" „worden\" Partizip II'nin yardımcı filli hali. „Geloest\" Partizip I (gegloest değil, cunku „loesen\" dönüşlü değil).",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q197",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du _____ auf meine Frage geantwortet?\n(Perfekt)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt: „...hast du NICHT auf meine Frage geantwortet?\" — „nicht\" Partizip'den (geantwortet) once gelir.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q198",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Es ist _____ die Schuld des Managers, sondern der Mitarbeiter.\n(„nicht... sondern\")",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Nicht... sondern\" kalıbı: „Es ist NICHT die Schuld des Managers, SONDERN der Mitarbeiter.\" — „Schuld\" bir isim, ancak bu cumlede „die Schuld\" ifadesinin tamamı olumsuzlanıyor.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q199",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich würde dir gerne helfen, aber ich kann _____.\n(Modalverb)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nicht helfen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Modalverb „kann\" + „nicht\" = „kann nicht\" (cannot). „Ich kann NICHT.\" (explanatory context: helfen verb its additional information).",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q200",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie bat darum, _____ gestört zu _____.\n(Passiv, Mastar)",
+      "options": [
+        "nicht / werden",
+        "nicht / sein",
+        "kein / werden",
+        "keine / sein"
+      ],
+      "correctAnswer": "nicht / werden",
+      "explanation": "Passiv Mastar grubu: „...NICHT gestoert zu WERDEN.\" „werden\" Passiv yardımcı fili, „nicht\" onunde. (Answer key A diyor: nicht / werden)",
+      "difficulty": "hard",
       "topicName": "Verneinung mit nicht"
     }
   ]
