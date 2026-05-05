@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-05 21:27 UTC
+**Last Updated:** 2026-05-05 21:36 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -18,7 +18,7 @@
 | 4 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete (7 errors fixed) |
 | 5 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete (q101-q200, v1.7) |
 | 6 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete (q101-q200, v1.6) |
-| 7 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete (q001-q100, v1.5) + 7 Lerntipps — nichts, nie/niemals, niemand, kein, nirgends, weder…noch, ohne, nicht nur…sondern auch, noch nie, nicht mehr |
+| 7 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete (q001-q100, v2.0) + 10 Lerntipps — nichts, nie/niemals, niemand, kein, nirgends, weder…noch, nicht nur…sondern auch, ohne…zu, noch nie/nicht mehr, keiner |
 | 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⚠️ Placeholder |
 | 9 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
 | 10 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
@@ -54,6 +54,11 @@
 ---
 
 ## 🔄 CURRENT SESSION (2026-05-05)
+
+### 2026-05-05 21:36 — b2_09 Lerntipps Expanded to 10 with Full Beispiele (v2.0)
+- Expanded Lerntipps from 7 to 10: added „nicht nur…sondern auch", „ohne…zu + Infinitiv", „Special: noch nie/nicht mehr/schon lange nicht"
+- Every Lerntipp now has comprehensive Beispiele covering all grammatical cases (N/A/D/Genitiv)
+- Grammar notes and DİKKAT warnings added to each section
 
 ### 2026-05-05 21:27 — b2_09 COMPLETE at 100 Questions (q081-q100, v1.5)
 - Added q081-q100: ohne, weder...noch, nicht nur...sondern auch, noch nie, nicht mehr, Wo...auch, Als, zeitweise

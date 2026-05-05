@@ -114,7 +114,7 @@ Each topic has: 2-paragraph description, examples, learning tips, quiz button
 
 ## 3. NEXT STEPS
 
-### 🔴 NEXT — b2_10 Content Generation
+### 🔴 NEXT — b2_10 Passiv Präteritum Content Generation
 1. Generate 100 questions for b2_10 Passiv Präteritum
 2. Push to GitHub + Firestore
 3. Continue with b2_11 through b2_23
@@ -134,6 +134,23 @@ node scripts/import_and_sync.js b2_09   # push next topic
 ---
 
 ## 📋 SESSION LOG
+
+### Session: 2026-05-05 21:36 UTC — b2_09 Lerntipps Expanded to 10 with Full Beispiele (v2.0)
+**Summary:** Lerntipps expanded from 7 to 10. Added nicht nur…sondern auch, ohne…zu + Infinitiv, and Special: noch nie/nicht mehr/schon lange nicht. Each Lerntipp now has comprehensive Beispiele covering all grammatical cases (Nominativ, Akkusativ, Dativ, Genitiv) plus DİKKAT warnings.
+
+**b2_09 Lerntipps now include:**
+• nichts (nesne/özne olarak) — full case coverage
+• nie / niemals (zaman zarfı)
+• niemand — Nominativ/Akkusativ/Dativ/Genitiv all shown
+• kein (sıfat olarak, isimden ÖNCE) — Maskulin/Feminin/Nöter
+• nirgends / nirgendwo (yer belirteci)
+• weder … noch (iki ifadeyi birlikte olumsuzlama)
+• keiner / keine / kein — Hiçbiri (isim olarak, tek başına)
+• nicht nur … sondern auch
+• ohne … zu + Infinitiv
+• Special: noch nie / nicht mehr / schon lange nicht
+
+---
 
 ### Session: 2026-05-05 21:27 UTC — b2_09 COMPLETE at 100 Questions! (v1.5)
 **Summary:** b2_09 fully expanded from 20 to 100 questions across 5 batches.
