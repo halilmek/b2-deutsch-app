@@ -1,8 +1,8 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "subjectId": "b2_08",
   "topicName": "Negationsworter",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "b2_08_q101",
@@ -641,6 +641,306 @@
       ],
       "correctAnswer": "nicht",
       "explanation": "Perfekt: „nicht\" steht vor dem Partizip. „obwohl\" ist ein Konnektor (Nebensatz). „Er hat mir NICHT geholfen, obwohl er Zeit hatte.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q141",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe mich dazu entschieden, an dem Projekt _____.\n(Mastar grubu: entscheiden + zu + Infinitiv)",
+      "options": [
+        "nicht teilzunehmen",
+        "teilzunehmen nicht",
+        "nicht zu teilnehmen"
+      ],
+      "correctAnswer": "nicht teilzunehmen",
+      "explanation": "Mastar gruplarında (Infinitivsatz) „nicht\" yapıdan once gelir. „Ich habe mich entschieden, NICHT teilzunehmen.\"",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q142",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Es ist _____ ratsam, die Pruefung ohne Vorbereitung abzulegen.\n(Wie?)",
+      "options": [
+        "nie",
+        "nicht",
+        "kein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Sıfat onunde „nicht\" kullanılır. „Es ist NICHT ratsam...\" — „ratsam\" bir sıfattır.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q143",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er konnte die Aufgabe _____ loesen, obwohl er sich sehr bemueht hatte.",
+      "options": [
+        "nicht",
+        "nichts",
+        "kein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Filin olumsuzlugu: „Er konnte die Aufgabe NICHT loesen.\" „nicht\" fili, „nichts\" birseyi olumsuzlarken kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q144",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir fliegen _____ nach Paris, sondern nach Rom.",
+      "options": [
+        "nein",
+        "kein",
+        "nicht"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Nicht... sondern\" kalıbı: Wir fliegen NICHT nach Paris, SONDERN nach Rom.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q145",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du mir das _____ frueher gesagt?\n(Wann?)",
+      "options": [
+        "nicht",
+        "nichts",
+        "kein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Zaman zarfindan once: „Warum hast du mir das NICHT frueher gesagt?\" — „frueher\" bir zaman zarfıdır.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q146",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er ist mit der Entscheidung der Geschaeftsfuehrung _____ einverstanden.\n(Redewendung)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Einverstanden sein\" kalıbıyla „nicht\" kullanılır. „Er ist mit der Entscheidung NICHT einverstanden.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q147",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ meine Tasche, sondern deine.\n(Possessivpronomen)",
+      "options": [
+        "nicht",
+        "keine",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Iyeylik zamiri (meine) varsa „kein\" degil „nicht\" kullanılır. Das ist NICHT meine Tasche, SONDERN deine.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q148",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich kann dir _____ versprechen, dass alles klappt.\n(Obje olarak)",
+      "options": [
+        "nicht",
+        "nichts",
+        "kein"
+      ],
+      "correctAnswer": "nichts",
+      "explanation": "„Bir sey vaat edemem\" anlamında nesne olarak „nichts\" kullanılır. „Ich kann dir NICHTS versprechen.\"",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q149",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich _____ fuer die Stelle beworben, weil er die Anforderungen nicht erfuellte.",
+      "options": [
+        "nicht",
+        "nichts",
+        "kein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Fil (beworben) cumlenin sonunda, „nicht\" ondan once gelir. „Er hat sich NICHT beworben...\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q150",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie fuehlt sich heute _____ besonders wohl.\n(Wie?)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Wohlfuehlen\" fiilini ve zarfı niteler. „Sie fuehlt sich heute NICHT besonders wohl.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q151",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter war _____ so schlecht, wie wir erwartet hatten.\n(Wie?)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Sıfat nitelemesi: „Das Wetter war NICHT so schlecht...\" — „so schlecht\" bir zarf grubudur.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q152",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir sollten _____ vergessen, die Dokumente rechtzeitig einzureichen.\n(Modalverb + Mastar)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Modalverb + Mastar: „nicht\" once gelir. „Wir sollten NICHT vergessen...\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q153",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er wollte _____ an der Sitzung teilnehmen, da er krank war.",
+      "options": [
+        "nicht",
+        "nichts",
+        "kein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Edatlı tamlamadan (an der Sitzung) once gelir. „Er wollte NICHT an der Sitzung teilnehmen...\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q154",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das neue Gesetz tritt _____ sofort in Kraft.\n(Wann?)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Zarf nitelemesi: „Das neue Gesetz tritt NICHT sofort in Kraft.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q155",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ Lust, heute Abend auszugehen.\n(Nomen! DİKKAT!)",
+      "options": [
+        "nicht",
+        "keine",
+        "nichts"
+      ],
+      "correctAnswer": "keine",
+      "explanation": "İsim (Lust) oldugunda „kein/e\" kullanılır. „Ich habe KEINE Lust...\" — Nomen oldugunda „kein\" tablosu gecerlidir.",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q156",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Es ist _____ meine Absicht, dich zu beleidigen.\n(Possessivpronomen + Nomen)",
+      "options": [
+        "nicht",
+        "keine",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Meine Absicht\" (belirli bir isim, tanımlıkla) oldugu için „nicht\" kullanılır. „Es ist NICHT meine Absicht...\"",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q157",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Kannst du heute _____ kommen?\n(Modalverb + Verb)",
+      "options": [
+        "nicht",
+        "nichts",
+        "kein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Fil olumsuzlugu: „Kannst du heute NICHT kommen?\" — „nicht\" Modalverb + Infinitiv yapısından once gelir.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q158",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Der Film war _____ so spannend, wie die Kritik behauptet hat.\n(Wie?)",
+      "options": [
+        "nicht",
+        "nichts",
+        "kein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Sıfat nitelemesi: „Der Film war NICHT so spannend...\" — „so spannend\" bir zarf grubudur.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q159",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ihn gestern im Buro _____ angetroffen.\n(Trennbares Verb: an + treffen)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Ayırılabilir filli cumlede ektten (angetroffen) hemen once gelir. „Ich habe ihn gestern NICHT angetroffen.\"",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q160",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Problem liegt _____ an der Technik, sondern an der Kommunikation.\n(„liegen an\" Redewendung)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Nicht... sondern\" kalıbı: „Das Problem liegt NICHT an der Technik, SONDERN an der Kommunikation.\"",
       "difficulty": "medium",
       "topicName": "Verneinung mit nicht"
     }
