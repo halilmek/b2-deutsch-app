@@ -1,8 +1,8 @@
 {
-  "version": "1.2",
+  "version": "1.3",
   "subjectId": "b2_08",
   "topicName": "Negationsworter",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "questions": [
     {
       "id": "b2_08_q101",
@@ -322,6 +322,326 @@
       "correctAnswer": "nicht",
       "explanation": "„nicht so einfach\" = not that easily. „nicht\" verneint die Art und Weise (Adverbialphrase).",
       "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q121",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er kommt morgen _____ zur Arbeit.\n(Wann?)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Morgen\" ist ein Zeitausdruck (Wann?). „Nicht\" steht vor der Zeitangabe: „Er kommt morgen NICHT zur Arbeit.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q122",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ mein Buch.\n(Das Buch gehoert mir.)",
+      "options": [
+        "nicht",
+        "kein",
+        "keinen",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Possessivpronomen „mein\" wird mit „nicht\" verneint: Das ist NICHT mein Buch (sondern das von jemand anderem).",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q123",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich rufe dich heute _____ an.\n(Trennbares Verb: anrufen)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Trennbares Verb „anrufen\": Die Negation „nicht\" steht vor dem trennbaren Praefix: „Ich rufe dich heute NICHT an.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q124",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er hat das Buch _____ gelesen.\n(Perfekt)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt mit „haben\": „nicht\" steht vor dem Partizip. „Er hat das Buch NICHT gelesen.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q125",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter ist heute _____ schön.\n(Wie?)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Adverb (Wie?) wird mit „nicht\" verneint: Das Wetter ist heute NICHT schön.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q126",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich fahre _____ nach München.\n(Wohin?)",
+      "options": [
+        "nicht",
+        "kein",
+        "keinen",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Richtungsangabe (Wohin?) mit „nach\" + Stadtname. „Nicht\" steht davor: „Ich fahre NICHT nach München.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q127",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "_____ er hat das gesagt, sondern sie.\n(Satzanfang, betont)",
+      "options": [
+        "Nicht",
+        "Kein",
+        "Keine",
+        "Nein"
+      ],
+      "correctAnswer": "Nicht",
+      "explanation": "Betonter Satzanfang mit „nicht\": NICHT er (sondern sie). „Nicht\" am Satzanfang ist immer grossgeschrieben.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q128",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ das richtige Wort.\n(Das Wort ist falsch.)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Demonstrativpronomen „das\" wird mit „nicht\" verneint: Das ist NICHT das richtige Wort.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q129",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich verstehe das _____\n(Was?)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Das Verb „verstehen\" wird mit „nicht\" negiert: Ich verstehe das NICHT.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q130",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er schlaeft _____ ein, weil er nervoes ist.\n(Trennbares Verb: einschlafen)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Trennbares Verb „einschlafen\": „nicht\" steht vor dem getrennten Praefix. „Er schlaeft NICHT ein.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q131",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das war _____ besonders klug von dir.\n(Wie?)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Adjektiv „besonders klug\" wird mit „nicht\" verneint: Das war NICHT besonders klug von dir.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q132",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie wird ihn _____ anrufen.\n(Trennbares Verb: anrufen, Futur)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Futur mit „werden\": „nicht\" steht vor dem Infinitiv. „Sie wird ihn NICHT anrufen.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q133",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ geschlafen, weil es zu laut war.\n(Grund: laut)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt: „Ich habe NICHT geschlafen.\" Das Verb „schlafen\" wird direkt mit „nicht\" negiert.",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q134",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Konzert faengt _____ um 8 an.\n(Trennbares Verb: anfangen, Zeitangabe)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Trennbares Verb „anfangen\": „nicht\" steht vor der Zeitangabe. „Das Konzert faengt NICHT um 8 an.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q135",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er ist _____ in die Schule gegangen.\n(Perfekt mit sein)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt mit „sein\": „nicht\" steht vor dem Partizip. „Er ist NICHT in die Schule gegangen.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q136",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das habe ich _____ gewusst.\n(Perfekt, Modalverb)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt mit Modalverb: Doppelinfinitiv-Konstruktion. „Das habe ich NICHT gewusst.\" (= I didn't know that.)",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q137",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er ist _____ sehr gross.\n(Wie?)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "keinen"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Adjektiv „sehr gross\" wird mit „nicht\" verneint: Er ist NICHT sehr gross.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q138",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich kann das Paket _____ abholen.\n(Modalverb + trennbares Verb)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Modalverb + Infinitiv: „nicht\" steht vor dem Infinitiv. „Ich kann das Paket NICHT abholen.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q139",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Du solltest das _____ so ernst nehmen.\n(Modalverb, Redewendung)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Modalverb „sollten\": „nicht\" steht vor dem Infinitiv. „Du solltest das NICHT so ernst nehmen.\"",
+      "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q140",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er hat mir _____, obwohl er Zeit hatte.\n(Perfekt, Konnektor: obwohl)",
+      "options": [
+        "nicht",
+        "kein",
+        "keine",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt: „nicht\" steht vor dem Partizip. „obwohl\" ist ein Konnektor (Nebensatz). „Er hat mir NICHT geholfen, obwohl er Zeit hatte.\"",
+      "difficulty": "medium",
       "topicName": "Verneinung mit nicht"
     }
   ]
