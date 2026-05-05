@@ -18,7 +18,7 @@
 | 4 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete (7 errors fixed) |
 | 5 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete (q101-q200, v1.7) |
 | 6 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete (q101-q200, v1.6) |
-| 7 | b2_09 | Negationswörter | 20 | 2 | ✅ Complete (q001-q020, v1.1) — nichts, nie/niemals, niemand, kein, nirgends, weder…noch |
+| 7 | b2_09 | Negationswörter | 40 | 4 | ✅ Complete (q001-q040, v1.2) — nichts, nie/niemals, niemand, kein, nirgends, weder…noch, weder…noch |
 | 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⚠️ Placeholder |
 | 9 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
 | 10 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
@@ -54,6 +54,10 @@
 ---
 
 ## 🔄 CURRENT SESSION (2026-05-05)
+
+### 2026-05-05 21:22 — b2_09 +20 More Questions (q021-q040)
+- Added q021-q040: noch/niemand/nirgends/nirgends/nichts/nie contexts
+- b2_09 now has 40 questions (v1.2)
 
 ### 2026-05-05 21:18 — b2_09 Negationswörter Replaced + 7 Lerntipps Added
 - Deleted 100 wrong placeholder questions (Konnektoren content in Negationswörter file)
