@@ -1,1548 +1,366 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "subjectId": "b2_09",
-  "topicName": "Passiv Prateritum",
-  "totalQuestions": 100,
+  "topicName": "Negationswörter",
+  "totalQuestions": 20,
+  "lerntipps": [
+    {
+      "title": "nichts — Hiçbir şey",
+      "content": "nichts\" bir şeyin olmadığını belirtir (nothing). Cümlede tek başına kullanılır.\nBeispiele:\n• Er hat nichts gesagt. (Hiçbir şey söylemedi.)\n• Ich habe nichts verstanden. (Hiçbir şey anlamadım.)\n• Nichts ist passiert. (Hiçbir şey olmadı.)",
+      "icon": "❌"
+    },
+    {
+      "title": "nie / niemals — Hiçbir zaman",
+      "content": "Zaman zarfı olarak cümlede kullanılır. „nie\" günlük, „niemals\" daha vurgulu/edebi.\nBeispiele:\n• Ich gehe nie ins Kino. (Hiçbir zaman sinemaya gitmem.)\n• Das werde ich niemals vergessen! (Bunu asla unutmayacağım!)\n• Sie war nie zufrieden. (Hiçbir zaman memnun değildi.)",
+      "icon": "⏰"
+    },
+    {
+      "title": "niemand — Hiç kimse",
+      "content": "İnsanları olumsuzlarken kullanılır. Dativ, Akkusatif ve Nominativ durumlarına göre değişir: Nominativ: niemand | Akkusatif: niemanden | Dativ: niemandem | Genitiv: niemandes\nBeispiele:\n• Niemand war zu Hause. (Hiç kimse evde değildi.)\n• Ich habe niemanden getroffen. (Hiç kimseyi karşılaşmadım.)\n• Mit niemandem habe ich gesprochen. (Hiç kimseyle konuşmadım.)",
+      "icon": "👤"
+    },
+    {
+      "title": "kein — Hiç (sıfat olarak)",
+      "content": "„Kein\" bir isimden önce gelir ve onu olumsuz yapar (a/an'ın olumsuzu gibi). Cinsiyete ve duruma göre: kein (maskulin/nöter), keine (feminin), keinen (Akkusativ), keinem (Dativ)\nBeispiele:\n• Ich habe kein Geld. (Param yok.)\n• Er hat keine Freunde hier. (Burada arkadaşı yok.)\n• Das ist keine gute Idee. (Bu iyi bir fikir değil.)",
+      "icon": "🚫"
+    },
+    {
+      "title": "nirgends / nirgendwo — Hiçbir yerde",
+      "content": "Yer/zaman belirteci olarak kullanılır. „nirgendwo\" daha yaygın, „nirgends\" eşanlamlı variant.\nBeispiele:\n• Er ist nirgends zu finden. (Hiçbir yerde bulunamıyor.)\n• Das Paket ist nirgendwo angekommen. (Paket hiçbir yere ulaşmadı.)\n• Ich habe ihn nirgends gesehen. (Onu hiçbir yerde görmedim.)",
+      "icon": "📍"
+    },
+    {
+      "title": "weder … noch — Ne … ne de",
+      "content": "İki şeyi aynı anda olumsuzlar. „Weder\" ilk olumsuz ifadeden önce, „noch\" ikincisinden önce gelir.\nBeispiele:\n• Ich habe weder Hunger noch Durst. (Ne açım ne de susadım.)\n• Er hat weder geschlafen noch gegessen. (Uyumadı da yemek de yemedi.)\n• Sie ist weder froh noch traurig. (Ne mutlu ne de üzgün.)",
+      "icon": "⚖️"
+    },
+    {
+      "title": "keiner / keine / kein — Hiçbiri",
+      "content": "İsim olarak „kein\" kullanıldığında (sıfat olmadan), cinsiyete göre: keiner (maskulin), keine (feminin), kein (nöter). Genitiv: keines\nBeispiele:\n• Keiner hat das gewusst. (Hiçbiri bunu bilmiyordu.)\n• Von den Büchern ist keines interessant. (Kitapların hiçbiri ilginç değil.)\n• Keine von ihnen war da. (Hiçbiri orada değildi.)",
+      "icon": "🚫"
+    }
+  ],
   "questions": [
     {
       "id": "b2_09_q001",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "questionText": "Er hat _____ gesagt.\n(Hiçbir şey söylemedi.)",
       "options": [
-        "Als",
-        "Wenn",
-        "Wahrend",
-        "Bevor"
+        "nicht",
+        "nichts",
+        "niemand",
+        "nirgends"
       ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey. „Er hat NICHTS gesagt.\" — „nicht\" bir fiili, „nichts\" bir nesneyi olumsuzlar.",
       "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q002",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "questionText": "_____ war zu Hause.\n(Evde hiç kimse yoktu.)",
       "options": [
-        "als",
-        "nachdem",
-        "bevor",
-        "wahrend"
+        "Nichts",
+        "Nirgends",
+        "Niemand",
+        "Keiner"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse (insanlar için). „Niemand war zu Hause.\" — yer/zaman için „nirgends\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q003",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ ich in Berlin lebte, habe ich viele Freunde gefunden.",
+      "questionText": "Sie geht _____ einkaufen.\n(Hiçbir zaman alışverişe gitmez.)",
       "options": [
-        "Als",
-        "Wenn",
-        "Wahrend",
-        "Seitdem"
+        "nirgends",
+        "niemand",
+        "nichts",
+        "nie"
       ],
-      "correctAnswer": "Wahrend",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman (zaman zarfı). „Sie geht NIE einkaufen.\" — yer belirteci için „nirgends\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q004",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Ich warte hier, ___ du zuruckkommst.",
+      "questionText": "Ich habe _____ Geld.\n(Param yok.)",
       "options": [
-        "als",
-        "bis",
-        "seit",
-        "wahrend"
+        "nicht",
+        "nichts",
+        "kein",
+        "niemand"
       ],
-      "correctAnswer": "bis",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "kein",
+      "explanation": "„Geld\" bir isim (Nomen). İsimleri olumsuzlamak için „kein\" kullanılır. „Ich habe KEIN Geld.\"",
       "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q005",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ ich die Schule beendet habe, werde ich studieren.",
+      "questionText": "Das stimmt _____.",
       "options": [
-        "Als",
-        "Wenn",
-        "Bevor",
-        "Nachdem"
+        "kein",
+        "niemand",
+        "nicht",
+        "nichts"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
+      "correctAnswer": "nicht",
+      "explanation": "„Stimme\" bir fiil (doğru olmak). „Das stimmt NICHT.\" — isim değil fiil olduğu için „nicht\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q006",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "questionText": "_____ hat mir geholfen.\n(Hiç kimse yardım etmedi.)",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "Niemanden",
+        "Niemand",
+        "Nirgendwo",
+        "Nichts"
       ],
-      "correctAnswer": "als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
+      "correctAnswer": "Niemand",
+      "explanation": "Nominativ: „Niemand hat mir geholfen.\" — „Niemanden\" Akkusativ, „Nirgendwo\" yer zarfı, „Nichts\" nesne.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q007",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ du fleissig lernst, wirst du die Prufung bestehen.",
+      "questionText": "Ich habe _____ getroffen.\n(Hiç kimseyle karşılaşmadım.)",
       "options": [
-        "Wenn",
-        "Als",
-        "Bevor",
-        "Wahrend"
+        "niemand",
+        "niemanden",
+        "niemandem",
+        "nichts"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "correctAnswer": "niemanden",
+      "explanation": "Akkusativ: „Ich habe NIEMANDEN getroffen.\" — „treffen\" (karşılaşmak) Akkusatif gerektirir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q008",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten mochte.",
+      "questionText": "Er ist _____ zu finden.\n(Hiçbir yerde bulunamıyor.)",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "nirgends",
+        "niemals",
+        "niemand",
+        "nichts"
       ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "nirgends",
+      "explanation": "Yer belirteci: „Er ist NIRGENDS zu finden.\" — „niemals\" zaman, „niemand\" insanlar için.",
       "difficulty": "medium",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q009",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Er rief an, ___ er zu Hause ankam.",
+      "questionText": "Das hat er _____ gemacht.\n(Bunu hiçbir zaman yapmadı.) — vurgulu ifade",
       "options": [
-        "als",
-        "wenn",
-        "wahrend",
-        "bevor"
+        "nie",
+        "niemals",
+        "nirgends",
+        "nicht"
       ],
-      "correctAnswer": "als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
+      "correctAnswer": "niemals",
+      "explanation": "„Niemals\" = „nie\"'den daha vurgulu. „Das hat er NIEMALS gemacht.\" — vurgulu ifadelerde „niemals\" tercih edilir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q010",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ sie in Munchen wohnte, hat sie viele Museen besucht.",
+      "questionText": "Ich habe _____ Hunger, _____ Durst.\n(Ne açım ne de susadım.)",
       "options": [
-        "Als",
-        "Wenn",
-        "Wahrend",
-        "Seitdem"
+        "weder … noch",
+        "entweder … oder",
+        "nicht … sondern",
+        "kaum … als"
       ],
-      "correctAnswer": "Wahrend",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "correctAnswer": "weder … noch",
+      "explanation": "„Weder…noch\" = ne…ne de. İki ifadeyi aynı anda olumsuzlar. „WEDER Hunger NOCH Durst.\"",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q011",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Ich bleibe zu Hause, ___ ich krank bin.",
+      "questionText": "_____ Wichtiges ist passiert.\n(Önemli bir şey olmadı.)",
       "options": [
-        "weil",
-        "wenn",
-        "als",
-        "wahrend"
+        "Nicht",
+        "Nichts",
+        "Kein",
+        "Niemand"
       ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "Nichts",
+      "explanation": "„Nichts\" cümle başında ve tek başına kullanılabilir. „NICHTS Wichtiges ist passiert.\" — „nicht\" sıfatların önüne gelmez.",
       "difficulty": "medium",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q012",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ es regnet, bleibe ich drinnen.",
+      "questionText": "Er hat _____ Freunde hier.\n(Burada arkadaşı yok.)",
       "options": [
-        "Weil",
-        "Wenn",
-        "Als",
-        "Wahrend"
+        "nicht",
+        "nichts",
+        "keine",
+        "nirgends"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
+      "correctAnswer": "keine",
+      "explanation": "„Freunde\" (çoğul isim) „keine\" ile olumsuzlanır. „Er hat KEINE Freunde hier.\" — „Freunde\" feminin değil, çoğul.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q013",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Er arbeitet viel, ___ er Geld verdienen will.",
+      "questionText": "Sie war _____ allein.\n(Hiçbir zaman yalnız değildi.) — çok vurgulu",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "nie",
+        "niemals",
+        "nicht",
+        "nirgends"
       ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "correctAnswer": "niemals",
+      "explanation": "Çok vurgulu ifadelerde „niemals\" tercih edilir. „Sie war NIEMALS allein.\" — „nie\" daha günlük, „niemals\" daha edebi/vurgulu.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q014",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ du Zeit hast, konnen wir ins Kino gehen.",
+      "questionText": "Ich kenne hier _____. (Burada hiç kimseyi tanımıyorum.)",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Damit"
+        "niemand",
+        "niemanden",
+        "niemandes",
+        "niemandem"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "niemanden",
+      "explanation": "Akkusatif: „Ich kenne hier NIEMANDEN.\" — „kennen\" Akkusatif gerektirir.",
       "difficulty": "medium",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q015",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Sie rief mich an, ___ sie die Neuigkeit gehort hatte.",
+      "questionText": "Das Paket ist _____ angekommen.\n(Paket hiçbir yere ulaşmadı.)",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "nirgends",
+        "nirgendwo",
+        "nirgendwohin",
+        "niemals"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "nirgendwo",
+      "explanation": "„Nirgendwo\" = nowhere (yer belirteci). „Das Paket ist NIRGENDWO angekommen.\" — „nirgendwohin\" (hiçbir yere, yönü ifade eder) burada değil.",
       "difficulty": "hard",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q016",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Ich werde dich informieren, ___ ich etwas erfahre.",
+      "questionText": "Er hat weder geschlafen _____ gegessen.\n(Uyumadı da yemek de yemedi.)",
       "options": [
-        "sobald",
-        "solange",
-        "wenn",
-        "als"
+        "oder",
+        "noch",
+        "als",
+        "auch"
       ],
-      "correctAnswer": "sobald",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "noch",
+      "explanation": "„Weder…noch\" = ne…ne de. „WEDER geschlafen NOCH gegessen.\" — „oder\" „veya\" anlamında, „noch\" „de\" anlamında (olumsuzda).",
       "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q017",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ ich in Hamburg ankomme, rufe ich dich an.",
+      "questionText": "Ich habe _____ Ahnung davon.\n(Bundan hiç fikrim yok.)",
       "options": [
-        "Wenn",
-        "Als",
-        "Sobald",
-        "Nachdem"
+        "nicht",
+        "keine",
+        "nichts",
+        "niemand"
       ],
-      "correctAnswer": "Sobald",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "keine",
+      "explanation": "„Ahnung\" feminin bir isim (die Ahnung). „Ich habe KEINE Ahnung davon.\" — „nichts\" değil çünkü „Ahnung\" isim.",
       "difficulty": "medium",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q018",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Er liest die Zeitung, ___ er fruhstuckt.",
+      "questionText": "_____ hat das gewusst.\n(Hiç kimse bunu bilmiyordu.) — vurgulu/edebi",
       "options": [
-        "wahrend",
-        "als",
-        "wenn",
-        "bevor"
+        "Keiner",
+        "Niemand",
+        "Niemandes",
+        "Nichts"
       ],
-      "correctAnswer": "wahrend",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" vurgulu/edebi kullanımda „keiner\" yerine tercih edilir. „NIEMAND hat das gewusst.\" — Nominativ.",
       "difficulty": "hard",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q019",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "___ du nett zu anderen bist, werden sie nett zu dir sein.",
+      "questionText": "Das ist _____ Neuigkeiten!\n(Bu hiç haber değil!) — sıfat tamlaması",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Wahrend"
+        "keine",
+        "nicht",
+        "nichts",
+        "kein"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "correctAnswer": "keine",
+      "explanation": "Sıfat tamlamasında: „keine Neuigkeiten\" (die Neuigkeiten — feminin, çoğul). „Das sind KEINE Neuigkeiten!\" — „nichts\" tek başına kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q020",
       "subjectId": "b2_09",
       "type": "multiple_choice",
-      "questionText": "Ich habe geubt, ___ ich zur Prufung ging.",
+      "questionText": "Mit _____ habe ich darüber gesprochen.\n(Bununla hakkında hiç kimseyle konuşmadım.)",
       "options": [
-        "bevor",
-        "nachdem",
-        "als",
-        "wenn"
+        "niemand",
+        "niemanden",
+        "niemandem",
+        "niemandes"
       ],
-      "correctAnswer": "bevor",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q021",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "___ er das Problem verstand, konnte er es losen.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
+      "correctAnswer": "niemandem",
+      "explanation": "Dativ: „Mit NIEMANDEM...\" — „mit\" Dativ gerektirir. „niemanden\" Akkusativ, „niemandem\" Dativ.",
       "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q022",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Man wird mude, ___ man lange arbeitet.",
-      "options": [
-        "wenn",
-        "als",
-        "weil",
-        "bevor"
-      ],
-      "correctAnswer": "wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q023",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "___ die Sonne unterging, machten wir Fotos.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Wahrend",
-        "Weil"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q024",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Er ist traurig, ___ sein Hund gestorben ist.",
-      "options": [
-        "weil",
-        "als",
-        "wenn",
-        "wahrend"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q025",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Das Kind weinte, ___ es sich verletzt hatte.",
-      "options": [
-        "weil",
-        "als",
-        "wenn",
-        "nachdem"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q026",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Ich freue mich ___ die Ferien.",
-      "options": [
-        "auf",
-        "uber",
-        "an",
-        "nach"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q027",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Er arbeitet ___ einem wichtigen Projekt.",
-      "options": [
-        "an",
-        "auf",
-        "uber",
-        "bei"
-      ],
-      "correctAnswer": "an",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q028",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Sie wartet ___ ihren Freund.",
-      "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q029",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Ich habe mich ___ das Angebot gefreut.",
-      "options": [
-        "uber",
-        "auf",
-        "an",
-        "nach"
-      ],
-      "correctAnswer": "uber",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q030",
-      "subjectId": "b2_09",
-      "type": "multiple_choice",
-      "questionText": "Er denkt ___ seine Familie.",
-      "options": [
-        "an",
-        "auf",
-        "uber",
-        "nach"
-      ],
-      "correctAnswer": "an",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q031",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Der Konnektor als wird fur einmalige Situationen in der Vergangenheit verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q032",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Wenn kann fur Zukunft und Wiederholung verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q033",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Wahrend druckt Gleichzeitigkeit aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q034",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Bevor bedeutet nachdem in positiver Form.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q035",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Seitdem wird mit Perfekt verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q036",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Bis zeigt eine zeitliche Begrenzung an.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q037",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Man verwendet als fur gewohnheitsmassige Handlungen.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q038",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Wahrend kann auch als Substantiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q039",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Wenn ist immer fur die Zukunft.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q040",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Weil leitet einen Nebensatz ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q041",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Nachdem zeigt, dass die Handlung davor war.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q042",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Sobald druckt Unmittelbarkeit aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q043",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Solange bedeutet sobald.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q044",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Damit druckt einen Zweck aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q045",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Der Konnektor weil erfordert Komma und Verb am Ende.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q046",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Als kann nur mit Prateritum verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q047",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Obwohl druckt einen Gegensatz aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q048",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Bis kann auch eine Handlung beenden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q049",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Wenn kann auch einen Wunsch ausdrucken.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q050",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Bevor steht immer am Anfang des Nebensatzes.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q051",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Nachdem ist immer zeitlich.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q052",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Sowohl als auch verbindet zwei gleiche Satzteile.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q053",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Entweder oder druckt eine Auswahl aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q054",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Weder noch verneint beide Satzteile.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q055",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Deshalb ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q056",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Aber ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q057",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Sonst druckt eine Konsequenz aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q058",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Trotzdem druckt einen Gegensatz aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q059",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Deswegen ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q060",
-      "subjectId": "b2_09",
-      "type": "true_false",
-      "questionText": "Außerdem fugt etwas hinzu.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q061",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich bin mude, ___ ich ins Bett gehe.",
-      "options": [
-        "wenn",
-        "weil",
-        "als",
-        "wahrend"
-      ],
-      "correctAnswer": "wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q062",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er arbeitet viel, ___ er Geld verdienen will.",
-      "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q063",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Sie hat geweint, ___ sie die Nachricht horte.",
-      "options": [
-        "als",
-        "weil",
-        "wenn",
-        "nachdem"
-      ],
-      "correctAnswer": "als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q064",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Wir warten hier, ___ der Bus kommt.",
-      "options": [
-        "bis",
-        "wenn",
-        "als",
-        "wahrend"
-      ],
-      "correctAnswer": "bis",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q065",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich lese gern, ___ ich Zeit habe.",
-      "options": [
-        "wenn",
-        "weil",
-        "als",
-        "bevor"
-      ],
-      "correctAnswer": "wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q066",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du Hilfe brauchst, sag Bescheid.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Bevor"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q067",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ sie ankam, rief sie mich an.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Sobald",
-        "Nachdem"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q068",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich bleibe hier, ___ du hier bleibst.",
-      "options": [
-        "solange",
-        "sobald",
-        "wenn",
-        "bis"
-      ],
-      "correctAnswer": "solange",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q069",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er arbeitet nicht, ___ er nicht mude ist.",
-      "options": [
-        "weil",
-        "wenn",
-        "als",
-        "wahrend"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q070",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du fertig bist, kannst du gehen.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Bevor"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q071",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Sie hat gelacht, ___ sie den Witz gehort hat.",
-      "options": [
-        "als",
-        "weil",
-        "wenn",
-        "nachdem"
-      ],
-      "correctAnswer": "als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q072",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du dich freust, zeige ich dir mein Geschenk.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Sobald",
-        "Als"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q073",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er wird warten, ___ sie kommt.",
-      "options": [
-        "bis",
-        "solange",
-        "wenn",
-        "sobald"
-      ],
-      "correctAnswer": "bis",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q074",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ruf mich an, ___ du zu Hause ankommst.",
-      "options": [
-        "sobald",
-        "solange",
-        "wenn",
-        "bis"
-      ],
-      "correctAnswer": "sobald",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q075",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich warte hier, ___ du Zeit hast.",
-      "options": [
-        "bis",
-        "solange",
-        "wenn",
-        "sobald"
-      ],
-      "correctAnswer": "bis",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q076",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du SSL hast, ist die Verbindung sicher.",
-      "options": [
-        "Solange",
-        "Sobald",
-        "Wenn",
-        "Nachdem"
-      ],
-      "correctAnswer": "Solange",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q077",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er wird anrufen, ___ er angekommen ist.",
-      "options": [
-        "sobald",
-        "solange",
-        "wenn",
-        "bis"
-      ],
-      "correctAnswer": "sobald",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q078",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du hier arbeitest, kann ich mich ausruhen.",
-      "options": [
-        "Solange",
-        "Sobald",
-        "Wenn",
-        "Nachdem"
-      ],
-      "correctAnswer": "Solange",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q079",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich sage Bescheid, ___ ich etwas erfahre.",
-      "options": [
-        "sobald",
-        "solange",
-        "wenn",
-        "weil"
-      ],
-      "correctAnswer": "sobald",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q080",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Du kannst bleiben, ___ du leise bist.",
-      "options": [
-        "solange",
-        "sobald",
-        "wenn",
-        "als"
-      ],
-      "correctAnswer": "solange",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q081",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du die Erlaubnis hast, kannst du eintreten.",
-      "options": [
-        "Sobald",
-        "Wenn",
-        "Solange",
-        "Nachdem"
-      ],
-      "correctAnswer": "Sobald",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q082",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ ich mude bin, gehe ich ins Bett.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Wahrend"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q083",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er ist glucklich, ___ er die Prufung bestanden hat.",
-      "options": [
-        "weil",
-        "als",
-        "wenn",
-        "nachdem"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q084",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ er in Deutschland ankam, sprach er kein Deutsch.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Bevor"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q085",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich mache die Tur zu, ___ es kalt ist.",
-      "options": [
-        "weil",
-        "wenn",
-        "als",
-        "wahrend"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q086",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du fleissig ubst, wirst du besser.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q087",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ sie das Gesicht sah, erkannte sie ihn.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Sobald"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q088",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er lernt Deutsch, ___ er in Deutschland arbeiten will.",
-      "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q089",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Wahrend",
-        "Seitdem"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q090",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Sie ist traurig, ___ sie ihren Hund verloren hat.",
-      "options": [
-        "weil",
-        "als",
-        "wenn",
-        "nachdem"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q091",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du kommst, kannst du mir helfen.",
-      "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Sobald"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q092",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er las das Buch, ___ er im Bett lag.",
-      "options": [
-        "wahrend",
-        "als",
-        "wenn",
-        "weil"
-      ],
-      "correctAnswer": "wahrend",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q093",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ er das gehort hat, hat er gelacht.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q094",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich rufe dich an, ___ ich zu Hause bin.",
-      "options": [
-        "wenn",
-        "sobald",
-        "als",
-        "bis"
-      ],
-      "correctAnswer": "wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q095",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ du nett fragst, wird sie Ja sagen.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q096",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er hat gewohnt hier, ___ er umgezogen ist.",
-      "options": [
-        "bis",
-        "bevor",
-        "als",
-        "wenn"
-      ],
-      "correctAnswer": "bis",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q097",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "___ die Prufung zu Ende war, sind alle gegangen.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Nachdem",
-        "Bevor"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q098",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Ich bin mude, ___ ich ins Bett gehe.",
-      "options": [
-        "wenn",
-        "weil",
-        "als",
-        "wahrend"
-      ],
-      "correctAnswer": "wenn",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "medium",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q099",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Er arbeitet viel, ___ er Geld verdienen will.",
-      "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "hard",
-      "topicName": "Negationsworter"
-    },
-    {
-      "id": "b2_09_q100",
-      "subjectId": "b2_09",
-      "type": "fill_blank",
-      "questionText": "Sie hat geweint, ___ sie die Nachricht horte.",
-      "options": [
-        "als",
-        "weil",
-        "wenn",
-        "nachdem"
-      ],
-      "correctAnswer": "als",
-      "explanation": "Grammatik-Thema: Negationsworter",
-      "difficulty": "easy",
-      "topicName": "Negationsworter"
+      "topicName": "Negationswörter"
     }
-  ]
+  ],
+  "description": "Bu konu Almanca'daki temel olumsuzlama kelimelerini kapsar: nichts (hiçbir şey), nie/niemals (hiçbir zaman), niemand (hiç kimse), kein (hiçbir, sıfat olarak), nirgends/nirgendwo (hiçbir yerde), weder...noch (ne...ne de). Her bir olumsuzlama kelimesinin cümle içinde doğru kullanımı, durum eklerine göre (Nominativ, Akkusativ, Dativ) hangi formun kullanılacağı ve vurgulu ifadelerdeki farklılıklar işlenmektedir."
 }
