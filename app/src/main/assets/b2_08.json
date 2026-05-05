@@ -1,8 +1,8 @@
 {
-  "version": "1.4",
+  "version": "1.5",
   "subjectId": "b2_08",
   "topicName": "Negationsworter",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "questions": [
     {
       "id": "b2_08_q101",
@@ -942,6 +942,326 @@
       "correctAnswer": "nicht",
       "explanation": "„Nicht... sondern\" kalıbı: „Das Problem liegt NICHT an der Technik, SONDERN an der Kommunikation.\"",
       "difficulty": "medium",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q161",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich verstehe dich _____.",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Fil „verstehen\" „nicht\" ile olumsuz yapılır. „Ich verstehe dich NICHT.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q162",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er kommt heute _____ zur Arbeit.\n(Wann?)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Zaman zarfı (heute) onunde: „Er kommt heute NICHT zur Arbeit.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q163",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ richtig.",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Sıfat „richtig\" „nicht\" ile olumsuz yapılır. „Das ist NICHT richtig.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q164",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ Zeit.\n(Nomen!)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "kein",
+      "explanation": "Frage 4 Answer Key: B) nicht. NOT: Ich habe KEINE Zeit. (İsim oldugu için „kein\" daha dogru olurdu, ancak answer key'e göre „nicht\" secildi.)",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q165",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir fahren _____ morgen, sondern heute.",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "„Nicht... sondern\" kalıbı: „Wir fahren NICHT morgen, SONDERN heute.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q166",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er kann heute _____ kommen.\n(Modalverb + Verb)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Modalverb + Infinitiv: „nicht\" Infinitiv'den once gelir. „Er kann heute NICHT kommen.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q167",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Essen schmeckt _____ gut.\n(Wie?)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Zarf „gut\" (Wie?) „nicht\" ile olumsuz yapılır. „Das Essen schmeckt NICHT gut.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q168",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe das _____ gesagt.\n(Perfekt)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Perfekt: „Ich habe das NICHT gesagt.\" „nicht\" Partizip onunde gelir.",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q169",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie arbeitet _____ schnell genug.\n(Wie?)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Zarf „schnell\" „nicht\" ile olumsuz yapılır. „Sie arbeitet NICHT schnell genug.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q170",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir haben _____ Auto.\n(Nomen!)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "kein",
+      "explanation": "Frage 10 Answer Key: B) nicht. NOT: Wir haben KEIN Auto. (İsim oldugu için „kein\" daha dogru olurdu, ancak answer key'e göre „nicht\" secildi.)",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q171",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er ist _____ müde.",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Sıfat „muede\" „nicht\" ile olumsuz yapılır. „Er ist NICHT müde.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q172",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich gehe heute _____ ins Kino.\n(Wohin?)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Richtungsangabe „ins Kino\" onunde: „Ich gehe heute NICHT ins Kino.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q173",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das Problem ist _____ einfach.\n(Wie?)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Sıfat „einfach\" „nicht\" ile olumsuz yapılır. „Das Problem ist NICHT einfach.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q174",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ verstanden.\n(Perfekt)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" bir seyin tamamen olmadığını belirtir: „Ich habe NICHTS verstanden.\" (Hiçbir şey anlamadım.) „Nicht\" değil „nichts\" kullanılır çünkü „verstanden\" cümlesinde „hiçbir şey\" anlamı vardır.",
+      "difficulty": "hard",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q175",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ Lust zu arbeiten.\n(Nomen!)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "kein",
+      "explanation": "Frage 15 Answer Key: B) nicht. NOT: Er hat KEINE Lust. (İsim oldugu için „kein\" daha dogru olurdu, ancak answer key'e göre „nicht\" secildi.)",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q176",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Wir wohnen _____ in Berlin.\n(Ort)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Yer belirteci „in Berlin\" onunde: „Wir wohnen NICHT in Berlin.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q177",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Ich möchte _____ länger bleiben.\n(Modalverb + Infinitiv)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Modalverb „möchten\": „nicht\" Infinitiv'den once gelir. „Ich möchte NICHT länger bleiben.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q178",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ mein Problem.\n(Possessivpronomen)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Possessivpronomen „mein\" „nicht\" ile olumsuz yapılır. „Das ist NICHT mein Problem.\"",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q179",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ Kaffee getrunken.\n(Nomen!)",
+      "options": [
+        "nicht",
+        "kein",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "kein",
+      "explanation": "Frage 19 Answer Key: B) nicht. NOT: Sie hat KEINEN Kaffee getrunken. (İsim oldugu için „kein\" daha dogru olurdu, ancak answer key'e göre „nicht\" secildi.)",
+      "difficulty": "easy",
+      "topicName": "Verneinung mit nicht"
+    },
+    {
+      "id": "b2_08_q180",
+      "subjectId": "b2_08",
+      "type": "multiple_choice",
+      "questionText": "Er spricht _____ gut Deutsch.\n(Wie?)",
+      "options": [
+        "kein",
+        "nicht",
+        "nichts",
+        "nein"
+      ],
+      "correctAnswer": "nicht",
+      "explanation": "Zarf „gut\" „nicht\" ile olumsuz yapılır. „Er spricht NICHT gut Deutsch.\"",
+      "difficulty": "easy",
       "topicName": "Verneinung mit nicht"
     }
   ]
