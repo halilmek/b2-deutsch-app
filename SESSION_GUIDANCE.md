@@ -135,6 +135,19 @@ node scripts/import_and_sync.js b2_09   # push next topic
 
 ## 📋 SESSION LOG
 
+### Session: 2026-05-05 21:18 UTC — b2_09 Negationswörter Replaced + 7 Lerntipps Added
+**Summary:** b2_09 had 100 wrong placeholder questions (Konnektoren content). Replaced all with 20 real Negationswörter questions + 7 Lerntipps.
+
+**b2_09 What Was Done:**
+- Deleted 100 wrong placeholder questions
+- Added 20 real questions (q001-q020): nichts, nie/niemals, niemand (3 cases), kein, nirgends/nirgendwo, weder...noch, keiner
+- Added 7 Lerntipps: nichts, nie/niemals, niemand, kein, nirgends/nirgendwo, weder...noch, keiner/keine/kein
+- Lerntipps include: title, content (with Beispiele), icon
+
+**Next Topic:** b2_09 needs 80 more questions (q021-q100). Then b2_10 Passiv Präteritum.
+
+---
+
 ### Session: 2026-05-05 20:38 UTC — b2_08 Expanded to 100 Questions!
 **Summary:** b2_08 Verneinung mit nicht expanded from 20 to 100 questions across 5 batches.
 

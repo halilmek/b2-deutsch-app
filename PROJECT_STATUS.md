@@ -18,7 +18,7 @@
 | 4 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete (7 errors fixed) |
 | 5 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete (q101-q200, v1.7) |
 | 6 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete (q101-q200, v1.6) |
-| 7 | b2_09 | Negationswörter | 100 | 10 | ⚠️ Placeholder |
+| 7 | b2_09 | Negationswörter | 20 | 2 | ✅ Complete (q001-q020, v1.1) — nichts, nie/niemals, niemand, kein, nirgends, weder…noch |
 | 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⚠️ Placeholder |
 | 9 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
 | 10 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
@@ -55,6 +55,13 @@
 
 ## 🔄 CURRENT SESSION (2026-05-05)
 
+### 2026-05-05 21:18 — b2_09 Negationswörter Replaced + 7 Lerntipps Added
+- Deleted 100 wrong placeholder questions (Konnektoren content in Negationswörter file)
+- Added 20 real Negationswörter questions (q001-q020, v1.1)
+  - Topics: nichts, nie/niemals, niemand (N/A/D cases), kein, nirgends/nirgendwo, weder…noch, keiner
+  - 7 Lerntipps added: nichts, nie/niemals, niemand, kein, nirgends/nirgendwo, weder…noch, keiner/keine/kein
+- Topic name: "Negationswörter" (subjectId: b2_09)
+
 ### b2_08 Verneinung mit nicht — Expanded to 100 Questions!
 - **v1.2** (initial): 20 questions (q101-q120) — nicht vs kein, Perfekt, nicht...sondern
 - **v1.3**: +20 questions (q121-q140) — Zeitausdrücke, trennbare Verben, Possessivpronomen
@@ -73,9 +80,10 @@
 ## 📋 REMAINING WORK
 
 ### Immediate (Next Session)
-- [ ] Push b2_08 to Firestore (`node scripts/import_and_sync.js b2_08`)
-- [ ] Start b2_09 Negationswörter — generate content (kein, nichts, nie, niemand, nowhere, etc.)
-- [ ] Continue with b2_10 through b2_23 — all have placeholder questions
+- [ ] Push b2_08 and b2_09 to Firestore (`node scripts/import_and_sync.js b2_08 b2_09`)
+- [ ] Expand b2_09 to 100 questions (add 80 more: q021-q100) — currently only 20
+- [ ] Start b2_10 Passiv Präteritum — generate 100 questions
+- [ ] Continue with b2_11 through b2_23 — all have placeholder questions
 
 ### Pending Topics (need content generation)
 - b2_09 Negationswörter — kein, nichts, nie, niemand, etc.
