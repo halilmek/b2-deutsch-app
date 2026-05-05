@@ -114,13 +114,13 @@ Each topic has: 2-paragraph description, examples, learning tips, quiz button
 
 ## 3. NEXT STEPS
 
-### 🔴 NEXT — b2_09 Content Generation
-1. Generate 100 questions for b2_09 Negationswörter (kein, nichts, nie, niemand, nowhere, etc.)
+### 🔴 NEXT — b2_10 Content Generation
+1. Generate 100 questions for b2_10 Passiv Präteritum
 2. Push to GitHub + Firestore
-3. Continue with b2_10 Passiv Präteritum
+3. Continue with b2_11 through b2_23
 
 ### 🔴 AFTER THAT — Complete Remaining Topics
-1. b2_09 through b2_23 — all need real content (currently placeholders)
+1. b2_10 through b2_23 — all need real content (currently placeholders)
 2. Push each topic to Firestore after completion
 3. ~15 topics remaining × ~100 questions each
 
@@ -134,6 +134,20 @@ node scripts/import_and_sync.js b2_09   # push next topic
 ---
 
 ## 📋 SESSION LOG
+
+### Session: 2026-05-05 21:27 UTC — b2_09 COMPLETE at 100 Questions! (v1.5)
+**Summary:** b2_09 fully expanded from 20 to 100 questions across 5 batches.
+
+**b2_09 Question Batches:**
+- q001-q020 (v1.1): Initial 20 + 7 Lerntipps — nichts, nie/niemals, niemand, kein, nirgends, weder...noch
+- q021-q040 (v1.2): +20 — nichts, niemand, nirgends, nie, jemand contexts
+- q041-q060 (v1.3): +20 — nichts/kein/nie/Niemand/nirgendwo/niemals
+- q061-q080 (v1.4): +20 — weder...noch, jemand/niemand, nichts/niemand/nirgendwo/nie/kein
+- q081-q100 (v1.5): +20 — ohne, nicht nur...sondern auch, noch nie, nicht mehr, Wo...auch, Als, zeitweise
+
+**Next Topic:** b2_10 Passiv Präteritum
+
+---
 
 ### Session: 2026-05-05 21:18 UTC — b2_09 Negationswörter Replaced + 7 Lerntipps Added
 **Summary:** b2_09 had 100 wrong placeholder questions (Konnektoren content). Replaced all with 20 real Negationswörter questions + 7 Lerntipps.
@@ -163,7 +177,7 @@ node scripts/import_and_sync.js b2_09   # push next topic
 - `PROJECT_STATUS.md` — updated topic table + session log
 - `PRODUCT_BACKLOG.md` — ADMIN-002 updated (Topics 1-8 now complete)
 
-**Next Topic to Work On:** b2_09 Negationswörter
+**Next Topic to Work On:** b2_10 Passiv Präteritum
 
 ---
 

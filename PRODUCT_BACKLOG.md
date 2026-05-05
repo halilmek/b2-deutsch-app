@@ -262,7 +262,7 @@
 | ID | Story | Points | Priority | Status |
 |----|-------|--------|----------|--------|
 | ADMIN-001 | **As a developer, I want to generate B2 reading content via AI** so I can scale content quickly | 13 | P0 | 📋 TODO |
-| ADMIN-002 | **As a developer, I want to import content to Firestore** so content appears in the app | 5 | ✅ Done (Topics 1-8: b2_01–b2_08 — b2_08 has 100 questions, v1.6) |
+| ADMIN-002 | **As a developer, I want to import content to Firestore** so content appears in the app | 5 | ✅ Done (Topics 1-9: b2_01–b2_09 — b2_08 & b2_09 each 100 questions) |
 | ADMIN-003 | **As a developer, I want to manage content via JSON files** so non-technical content can be added | 3 | 📋 TODO |
 | ADMIN-004 | **As a developer, I want quiz questions auto-generated per reading** so I don't have to write them manually | 8 | 📋 TODO |
 | ADMIN-005 | **As a developer, I want to track content completion status** so I know what's missing | 3 | 📋 TODO |

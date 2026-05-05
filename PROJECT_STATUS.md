@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-05 21:04 UTC
+**Last Updated:** 2026-05-05 21:27 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -18,7 +18,7 @@
 | 4 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete (7 errors fixed) |
 | 5 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete (q101-q200, v1.7) |
 | 6 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete (q101-q200, v1.6) |
-| 7 | b2_09 | Negationswörter | 80 | 8 | ✅ Complete (q001-q080, v1.4) — nichts, nie/niemals, niemand, kein, nirgends, weder…noch |
+| 7 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete (q001-q100, v1.5) + 7 Lerntipps — nichts, nie/niemals, niemand, kein, nirgends, weder…noch, ohne, nicht nur…sondern auch, noch nie, nicht mehr |
 | 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⚠️ Placeholder |
 | 9 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
 | 10 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
@@ -55,9 +55,13 @@
 
 ## 🔄 CURRENT SESSION (2026-05-05)
 
+### 2026-05-05 21:27 — b2_09 COMPLETE at 100 Questions (q081-q100, v1.5)
+- Added q081-q100: ohne, weder...noch, nicht nur...sondern auch, noch nie, nicht mehr, Wo...auch, Als, zeitweise
+- b2_09 fully complete: 100 questions + 7 Lerntipps
+
 ### 2026-05-05 21:25 — b2_09 +20 Questions (q061-q080, v1.4)
 - Added q061-q080: weder...noch, jemand/niemand, nichts, niemand, nirgendwo, nie, kein
-- b2_09 now has 80 questions (need 20 more for 100)
+- b2_09 now has 80 questions
 
 ### 2026-05-05 21:23 — b2_09 +20 Questions (q041-q060, v1.3)
 - Added q041-q060: nichts/kein/nie/Niemand/nirgendwo/niemals
@@ -93,7 +97,6 @@
 
 ### Immediate (Next Session)
 - [ ] Push b2_08 and b2_09 to Firestore (`node scripts/import_and_sync.js b2_08 b2_09`)
-- [ ] Expand b2_09 to 100 questions (need q081-q100 = 20 more)
 - [ ] Start b2_10 Passiv Präteritum — generate 100 questions
 - [ ] Continue with b2_11 through b2_23 — all have placeholder questions
 
