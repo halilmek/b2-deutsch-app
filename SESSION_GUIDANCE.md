@@ -114,20 +114,45 @@ Each topic has: 2-paragraph description, examples, learning tips, quiz button
 
 ## 3. NEXT STEPS
 
-### 🔴 NEXT — Quiz Content Generation
-1. List B2 exam question types for reading section
-2. Generate questions for all 23 grammar topics
-3. Use texts from database for context
-4. Each quiz: 5-10 questions, mixed types
-5. Save to Firestore for reuse
+### 🔴 NEXT — b2_09 Content Generation
+1. Generate 100 questions for b2_09 Negationswörter (kein, nichts, nie, niemand, nowhere, etc.)
+2. Push to GitHub + Firestore
+3. Continue with b2_10 Passiv Präteritum
 
-### 🔴 AFTER THAT — Firebase Import + Build APK
-1. Import content to Firestore
-2. Build and test APK on phone
+### 🔴 AFTER THAT — Complete Remaining Topics
+1. b2_09 through b2_23 — all need real content (currently placeholders)
+2. Push each topic to Firestore after completion
+3. ~15 topics remaining × ~100 questions each
+
+### 🔴 FIREBASE SYNC (from local machine)
+```bash
+cd /Users/halilozturk/b2-deutsch-app
+node scripts/import_and_sync.js b2_08   # push completed topic
+node scripts/import_and_sync.js b2_09   # push next topic
+```
 
 ---
 
 ## 📋 SESSION LOG
+
+### Session: 2026-05-05 20:38 UTC — b2_08 Expanded to 100 Questions!
+**Summary:** b2_08 Verneinung mit nicht expanded from 20 to 100 questions across 5 batches.
+
+**b2_08 Question Batches Added:**
+- q101-q120 (v1.2): Initial 20 — nicht vs kein, Perfekt, nicht...sondern
+- q121-q140 (v1.3): +20 — trennbare Verben, Zeitausdrücke, Possessivpronomen
+- q141-q160 (v1.4): +20 — Infinitivsatz, Mastar grupları, Nomen, Redewendungen (kein/nichts)
+- q161-q180 (v1.5): +20 — Perfekt, Modalverben, einfache nicht-Fragen
+- q181-q200 (v1.6): +20 — Perfekt, Nebensatz, Passiv, Infinitivsatz mit zu, Relativsatz
+
+**Files Updated:**
+- `app/src/main/assets/b2_08.json` — version 1.6, 100 questions
+- `PROJECT_STATUS.md` — updated topic table + session log
+- `PRODUCT_BACKLOG.md` — ADMIN-002 updated (Topics 1-8 now complete)
+
+**Next Topic to Work On:** b2_09 Negationswörter
+
+---
 
 ### Session: 2026-04-25 18:30 UTC
 **Summary:** Major UI overhaul — simplified home, 23 numbered B2 topics, removed filters.
@@ -152,4 +177,4 @@ Each topic has: 2-paragraph description, examples, learning tips, quiz button
 
 ---
 
-_Last updated: 2026-04-25 20:20 UTC_
+_Last updated: 2026-05-05 21:04 UTC_
