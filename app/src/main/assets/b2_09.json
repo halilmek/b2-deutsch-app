@@ -1,8 +1,8 @@
 {
-  "version": "1.1",
+  "version": "1.2",
   "subjectId": "b2_09",
   "topicName": "Negationswörter",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "lerntipps": [
     {
       "title": "nichts — Hiçbir şey",
@@ -359,6 +359,326 @@
       "correctAnswer": "niemandem",
       "explanation": "Dativ: „Mit NIEMANDEM...\" — „mit\" Dativ gerektirir. „niemanden\" Akkusativ, „niemandem\" Dativ.",
       "difficulty": "hard",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q021",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Hast du heute schon etwas gegessen? – Nein, ich habe noch _____ gegessen.",
+      "options": [
+        "nie",
+        "nichts",
+        "niemand",
+        "nirgendwo"
+      ],
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey (something negatifi). „Ich habe noch NICHTS gegessen.\" — „nogün hiçbir şey yemedim.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q022",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Warst du schon mal in Japan? – Nein, ich war _____ dort.",
+      "options": [
+        "nichts",
+        "niemand",
+        "niemals",
+        "kein"
+      ],
+      "correctAnswer": "niemals",
+      "explanation": "„Niemeals\" = hiçbir zaman (vurgulu). „Ich war NIEMALS dort.\" — „nie\" günlük, „niemals\" vurgulu/edebi.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q023",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "_____ hat mir bei den Hausaufgaben geholfen. Ich musste alles allein machen.",
+      "options": [
+        "Etwas",
+        "Jemand",
+        "Niemand",
+        "Nichts"
+      ],
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse (insanlar için, Nominativ). „NIEMAND hat mir geholfen.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q024",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Ich habe meinen Schluessel ueberall gesucht, aber ich kann ihn _____ finden.",
+      "options": [
+        "nirgendwo",
+        "niemals",
+        "nichts",
+        "niemand"
+      ],
+      "correctAnswer": "nirgendwo",
+      "explanation": "„Nirgendwo\" = hiçbir yerde (yer belirteci). „Ich kann ihn NIRGENDWO finden.\" — „niemals\" zaman, „nichts\" nesne.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q025",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Kennst du jemanden hier auf der Party? – Nein, ich kenne _____.",
+      "options": [
+        "nichts",
+        "niemanden",
+        "niemals",
+        "nie"
+      ],
+      "correctAnswer": "niemanden",
+      "explanation": "Akkusatif: „Ich kenne NIEMANDEN.\" — „kennen\" Akkusatif gerektirdigi için „niemanden\" kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q026",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "_____ von meinen Freunden hatte Zeit, mit mir ins Kino zu gehen.",
+      "options": [
+        "Nichts",
+        "Niemand",
+        "Keiner",
+        "Nie"
+      ],
+      "correctAnswer": "Keiner",
+      "explanation": "İsim olarak „kein\" (Nominativ maskulin): „KEINER von meinen Freunden.\" — „keiner\" bir ismi olumsuzlar, „niemand\" bir kişiyi.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q027",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Hast du irgendwelche Nachrichten fuer mich? – Nein, _____ Neues.",
+      "options": [
+        "nie",
+        "nichts",
+        "niemanden",
+        "nirgends"
+      ],
+      "correctAnswer": "nichts",
+      "explanation": "Tek başına kullanım: „NICHTS Neues.\" — „Neues\" bir sıfat, „nichts\" onu olumsuzlar.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q028",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Er ist so unzuverlaessig, man kann ihm _____ glauben.",
+      "options": [
+        "nichts",
+        "niemand",
+        "nirgends",
+        "nie"
+      ],
+      "correctAnswer": "nie",
+      "explanation": "„Man kann ihm NIE glauben.\" — „asla güvenemezsin\" anlamında „nie\" (zaman zarfı) kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q029",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Hat _____ angerufen, waehrend ich weg war? – Nein, das Telefon war still.",
+      "options": [
+        "niemand",
+        "nichts",
+        "nie",
+        "jemand"
+      ],
+      "correctAnswer": "jemand",
+      "explanation": "Soruda „jemand\" (birisi) kullanılır cünkü cevap birisi mi soruluyor. „Hat JEMAND angerufen?\" — Hayır, kimse aramadı = „Nein, niemand.\"",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q030",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Ich habe in diesem Schrank nachgesehen, aber da ist _____ drin.",
+      "options": [
+        "nie",
+        "nichts",
+        "niemand",
+        "nirgends"
+      ],
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey yok içinde. „Da ist NICHTS drin.\" — „nirgends\" yer belirteci, burada nesne olumsuzlanıyor.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q031",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Glaubst du, dass wir uns _____ wiedersehen werden?",
+      "options": [
+        "nichts",
+        "niemals",
+        "nirgendwo",
+        "niemand"
+      ],
+      "correctAnswer": "niemals",
+      "explanation": "„Niemeals\" = asla, hiçbir zaman. „Dass wir uns NIEMALS wiedersehen werden.\" — „nie\" ve „niemals\" her ikisi de olabilir ama vurgulu ifadede „niemals\" tercih edilir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q032",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Ich habe mit _____ ueber mein Geheimnis gesprochen.",
+      "options": [
+        "nichts",
+        "niemandem",
+        "nie",
+        "keinen"
+      ],
+      "correctAnswer": "niemandem",
+      "explanation": "Dativ: „Mit NIEMANDEM...\" — „mit\" Dativ gerektirdigi için „niemandem\" (Dativ) kullanılır.",
+      "difficulty": "hard",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q033",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Wo ist die Fernbedienung? Ich kann sie _____ finden.",
+      "options": [
+        "nirgends",
+        "niemals",
+        "niemand",
+        "nichts"
+      ],
+      "correctAnswer": "nirgends",
+      "explanation": "Yer belirteci: „Ich kann sie NIRGENDS finden.\" — „hiçbir yerde bulamıyorum.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q034",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "_____ ist perfekt, jeder macht mal Fehler.",
+      "options": [
+        "Nichts",
+        "Niemand",
+        "Nie",
+        "Keiner"
+      ],
+      "correctAnswer": "Niemand",
+      "explanation": "İnsanlar için: „NIEMAND ist perfekt.\" — „Nichts\" şeyler için, „Niemand\" insanlar için.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q035",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Hast du heute etwas Besonderes vor? – Nein, _____.",
+      "options": [
+        "nie",
+        "nichts",
+        "nirgendwo",
+        "niemand"
+      ],
+      "correctAnswer": "nichts",
+      "explanation": "Tek başına: „NICHTS.\" — „özel bir şeyim yok\" anlamında „nichts\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q036",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Wir haben lange gewartet, aber _____ kam zu dem Treffen.",
+      "options": [
+        "nichts",
+        "niemals",
+        "niemand",
+        "nirgends"
+      ],
+      "correctAnswer": "niemand",
+      "explanation": "İnsanlar için Nominativ: „NIEMAND kam zu dem Treffen.\" — „hiç kimse gelmedi.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q037",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Das ist eine private Feier, hier darf _____ rein, der keine Einladung hat.",
+      "options": [
+        "nichts",
+        "niemand",
+        "nie",
+        "nirgends"
+      ],
+      "correctAnswer": "niemand",
+      "explanation": "„Hier darf NIEMAND rein...\" — „davetiyesi olmayan hiç kimse giremez.\" Burada „niemand\" bir kural ifadesi olarak kullanılıyor.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q038",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Ich werde diese Reise _____ vergessen, sie war wunderschön.",
+      "options": [
+        "nichts",
+        "nie",
+        "niemand",
+        "nirgends"
+      ],
+      "correctAnswer": "nie",
+      "explanation": "„Ich werde diese Reise NIE vergessen.\" — „asla unutmayacağım\" anlamında zaman zarfı „nie\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q039",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Gibt es ein Problem? – Nein, _____ ist passiert.",
+      "options": [
+        "niemand",
+        "nichts",
+        "nie",
+        "nirgends"
+      ],
+      "correctAnswer": "nichts",
+      "explanation": "„NICHTS ist passiert.\" — „hiçbir şey olmadı.\" „Passieren\" bir fiil olduğu için „nichts\" ile olumsuzlanır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
+    },
+    {
+      "id": "b2_09_q040",
+      "subjectId": "b2_09",
+      "type": "multiple_choice",
+      "questionText": "Hast du die Tasche irgendwo gesehen? – Nein, _____.",
+      "options": [
+        "nichts",
+        "niemanden",
+        "nirgends",
+        "niemals"
+      ],
+      "correctAnswer": "nirgends",
+      "explanation": "Yer belirteci: „Ich habe sie NIRGENDS gesehen.\" — „hiçbir yerde görmedim.\"",
+      "difficulty": "easy",
       "topicName": "Negationswörter"
     }
   ],
