@@ -234,7 +234,8 @@ class QuizViewModel @Inject constructor(
     private fun getSubjectTitle(subjectId: String): String {
         val titles = mapOf(
             "b2_01" to "1. Konnektoren",
-            "b2_03" to "2. Verben und Ergänzungen",
+            "b2_02" to "2. Verben und Ergänzungen",
+            "b2_03" to "3. Verben und Ergänzungen",
             "b2_04" to "3. Zeitformen in der Vergangenheit",
             "b2_05" to "4. Zeitformen der Zukunft",
             "b2_06" to "5. Futur mit werden",
