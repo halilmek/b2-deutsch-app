@@ -1,6 +1,6 @@
 # B2 Deutsch App — Project Roadmap
 
-**Last Updated:** 2026-04-26
+**Last Updated:** 2026-05-06 21:51 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 
@@ -49,10 +49,10 @@ grammarQuizBank/
     level: string            # "A1" | "A2" | "B1" | "B2" | "C1"
     type: string             # "multiple_choice"
     questionText: string
-    options: string[]         # ["Als", "Wenn", "Während", "Bevor"]
+    options: string[]        # ["Als", "Wenn", "Während", "Bevor"]
     correctAnswer: string
     explanation: string
-    difficulty: string        # "easy" | "medium" | "hard"
+    difficulty: string       # "easy" | "medium" | "hard"
     topicName: string
     firebaseId: string
 ```
@@ -64,7 +64,7 @@ grammarQuizBank/
 | A1 | 15 topics | 1,500 Q | ✅ In assets + Firebase |
 | A2 | 15 topics | 1,500 Q | ✅ In assets + Firebase |
 | B1 | 15 topics | 1,500 Q | ✅ In assets + Firebase |
-| B2 | 23 topics | 2,300 Q | ✅ In assets + Firebase |
+| B2 | 23 topics | ~2,340 Q | ✅ In assets (b2_01 to b2_14 complete, b2_15-b2_23 placeholder) |
 | C1 | 15 topics | 1,500 Q | ✅ In assets + Firebase |
 
 ### Quiz Mechanics
@@ -76,67 +76,63 @@ grammarQuizBank/
 
 ---
 
-## 📌 PHASE 4 — B2 EXAM MODULE QUIZZES 🔄 IN PROGRESS
+## 📌 PHASE 4 — B2 EXAM MODULE QUIZZES 🔄 MAJOR PROGRESS
 
 ### Purpose
-B2 exam-style module questions with **specific konnektor focus** — not general grammar.
+B2 exam-style module questions with **specific grammar focus** — not general grammar.
 
-### Structure: Topics → Sub-Topics → Questions
+### B2 Module — 23 Topics Status
 
-**B2 Module Structure (23 Topics):**
+| Topic # | subjectId | Topic Name | Questions | Description | Status |
+|---------|-----------|-----------|-----------|-------------|--------|
+| 1 | b2_01 | Konnektoren | ~146 | ✅ Complete | DONE |
+| 2 | b2_02 | Verben und Ergänzungen | 50 | ⚠️ Partial — no topic entry in metadata | PARTIAL |
+| 3 | b2_03 | Verben und Ergänzungen | 100 | ✅ Complete | DONE |
+| 4 | b2_04 | Zeitformen in der Vergangenheit | 160 | ✅ Complete | DONE |
+| 5 | b2_05 | Zeitformen der Zukunft | 120 | ✅ Complete | DONE |
+| 6 | b2_06 | Futur mit werden | 125 | ✅ Complete | DONE |
+| 7 | b2_07 | Angaben im Satz | 100 | ✅ Complete | DONE |
+| 8 | b2_08 | Verneinung mit nicht | 100 | ✅ Complete | DONE |
+| 9 | b2_09 | Negationswörter | 100 | ✅ Complete | DONE |
+| 10 | b2_10 | Passiv Präteritum | 100 | ✅ Complete | DONE |
+| 11 | b2_11 | Konjunktiv II der Vergangenheit | 100 | ✅ Complete | DONE |
+| 12 | b2_12 | Konjunktiv II mit Modalverben | 120 | ✅ Complete (120 questions) | DONE |
+| 13 | b2_13 | Pronomen: einander | 100 | ✅ Complete | DONE |
+| 14 | b2_14 | Weiterführende Nebensätze | 100 | ✅ Complete | DONE |
+| 15 | b2_15 | Präpositionen mit Genitiv | 100 | ⏳ Pending — placeholder | PENDING |
+| 16 | b2_16 | je und desto/umso + Komparativ | 100 | ⏳ Pending — placeholder | PENDING |
+| 17 | b2_17 | Nomen-Verb-Verbindungen | 100 | ⏳ Pending — placeholder | PENDING |
+| 18 | b2_18 | Folgen ausdrücken | 100 | ⏳ Pending — placeholder | PENDING |
+| 19 | b2_19 | Ausdrücke mit Präpositionen | 100 | ⏳ Pending — placeholder | PENDING |
+| 20 | b2_20 | Irreale Konditionalsätze | 100 | ⏳ Pending — placeholder | PENDING |
+| 21 | b2_21 | Relativsätze im Genitiv | 100 | ⏳ Pending — placeholder | PENDING |
+| 22 | b2_22 | Konjunktiv I in der indirekten Rede | 100 | ⏳ Pending — placeholder | PENDING |
+| 23 | b2_23 | Konjunktiv II in irrealen Vergleichssätzen | 100 | ⏳ Pending — placeholder | PENDING |
 
-| Topic # | Topic Name | Sub-Topics | Status |
-|---------|-----------|-----------|--------|
-| 1. Topic | Konnektoren | als, bevor, bis, seitdem, während, wenn, sobald, solange | 🔄 96 Q (12 per konnektor) — NEEDS REVIEW |
-| 2. Topic | Verben und Ergänzungen | TODO | ⏳ Pending |
-| 3. Topic | Zeitformen in der Vergangenheit | TODO | ⏳ Pending |
-| 4. Topic | Zeitformen der Zukunft | TODO | ⏳ Pending |
-| 5. Topic | Futur mit werden | TODO | ⏳ Pending |
-| 6. Topic | Angaben im Satz | TODO | ⏳ Pending |
-| 7. Topic | Verneinung mit nicht | TODO | ⏳ Pending |
-| 8. Topic | Negationswörter | TODO | ⏳ Pending |
-| 9. Topic | Passiv Präteritum | TODO | ⏳ Pending |
-| 10. Topic | Konjunktiv II der Vergangenheit | TODO | ⏳ Pending |
-| 11. Topic | Konjunktiv II mit Modalverben | TODO | ⏳ Pending |
-| 12. Topic | Pronomen: einander | TODO | ⏳ Pending |
-| 13. Topic | Weiterführende Nebensätze | TODO | ⏳ Pending |
-| 14. Topic | Präpositionen mit Genitiv | TODO | ⏳ Pending |
-| 15. Topic | je und desto/umso + Komparativ | TODO | ⏳ Pending |
-| 16. Topic | Nomen-Verb-Verbindungen | TODO | ⏳ Pending |
-| 17. Topic | Folgen ausdrücken | TODO | ⏳ Pending |
-| 18. Topic | Ausdrücke mit Präpositionen | TODO | ⏳ Pending |
-| 19. Topic | Irreale Konditionalsätze | TODO | ⏳ Pending |
-| 20. Topic | Relativsätze im Genitiv | TODO | ⏳ Pending |
-| 21. Topic | Konjunktiv I in der indirekten Rede | TODO | ⏳ Pending |
-| 22. Topic | Konjunktiv II in irrealen Vergleichssätzen | TODO | ⏳ Pending |
-| 23. Topic | (Reserve) | TODO | ⏳ Pending |
+**Progress: 14/23 topics complete (b2_01 to b2_14)**
+**9 topics remaining: b2_15 to b2_23**
 
-### Data Model — moduleQuizQuestions
+### Topics with Updated Descriptions (Beschreibung)
 
+| Topic | Description Status |
+|-------|-------------------|
+| b2_10 | ✅ Turkish→English grammar explanation for Passiv Präteritum |
+| b2_11 | ✅ Turkish→English grammar explanation for Konjunktiv II der Vergangenheit |
+| b2_12 | ✅ Turkish→English grammar explanation for Konjunktiv II mit Modalverben + modalverb table |
+| b2_13 | ✅ Turkish→English grammar explanation for Pronomen: einander + 17-form table |
+| b2_14 | ✅ Turkish→English grammar explanation for Weiterführende Nebensätze + conjunction table |
+
+---
+
+## 📋 FIRESTORE SYNC PRIORITY
+
+All completed topics need Firestore sync. Run on local machine:
+
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-app-firebase-adminsdk-fbsvc-4aa25c0ca2.json"
+cd /Users/halilozturk/b2-deutsch-app
+node scripts/import_and_sync.js b2_08 b2_09 b2_10 b2_11 b2_12 b2_13 b2_14
 ```
-moduleQuizQuestions/
-  {questionId}/                  # e.g. "b2_01_als_q001"
-    id: string
-    module: string                # "B2"
-    topicNumber: string           # "1. Topic"
-    topicName: string             # "Konnektoren"
-    konnektor: string             # "als" | "bevor" | "bis" | "seitdem" | "während" | "wenn" | "sobald" | "solange"
-    questionText: string
-    options: string[]
-    correctAnswer: string
-    explanation: string
-    difficulty: string            # "easy" | "medium" | "hard"
-    level: string                # "B2"
-```
-
-### Two Separate Collections
-
-| Collection | Purpose | Question Type | Question Count |
-|------------|---------|---------------|---------------|
-| `grammarQuizBank` | General grammar practice (all levels) | MCQ + T/F + Fill | 8,300 (bundled in assets) |
-| `moduleQuizQuestions` | B2 exam module (konnektor-specific) | MCQ only | 96+ (in progress) |
-
-**Key rule:** Never mix general grammar and module exam questions in the same collection.
 
 ---
 
@@ -208,4 +204,5 @@ moduleQuizQuestions/
 
 ---
 
-_Last updated: 2026-04-26_
+_Last updated: 2026-05-06 21:51 UTC_
+_Update after: every topic content change, every Firestore sync, every new feature_

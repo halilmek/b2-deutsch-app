@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-06 20:13 UTC
+**Last Updated:** 2026-05-06 21:51 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -13,8 +13,8 @@
 | # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
 |---|----------|-----------|-----------|-----------|----------------|
 | 1 | b2_01 | Konnektoren | ~146 | ~15 | ✅ Complete |
-| 2 | b2_02 | Verben und Ergänzungen | — | — | ⚠️ Placeholder |
-| 3 | b2_03 | Verben und Ergänzungen | ~100 | ~10 | ✅ Complete |
+| 2 | b2_02 | Verben und Ergänzungen | 50 | 5 | ⚠️ Partial (no topic entry) |
+| 3 | b2_03 | Verben und Ergänzungen | 100 | 10 | ✅ Complete |
 | 4 | b2_04 | Zeitformen in der Vergangenheit | 160 | 16 | ✅ Complete |
 | 5 | b2_05 | Zeitformen der Zukunft | 120 | 12 | ✅ Complete |
 | 6 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete |
@@ -23,11 +23,11 @@
 | 9 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete |
 | 10 | b2_10 | Passiv Präteritum | 100 | 10 | ✅ Complete |
 | 11 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ✅ Complete |
-| 12 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ✅ Complete |
-| 13 | b2_13 | Pronomen: einander | 100 | 10 | ⚠️ Placeholder |
-| 14 | b2_14 | Weiterführende Nebensätze | 100 | 10 | ⚠️ Placeholder |
+| 12 | b2_12 | Konjunktiv II mit Modalverben | 120 | 12 | ✅ Complete |
+| 13 | b2_13 | Pronomen: einander | 100 | 10 | ✅ Complete |
+| 14 | b2_14 | Weiterführende Nebensätze | 100 | 10 | ✅ Complete |
 | 15 | b2_15 | Präpositionen mit Genitiv | 100 | 10 | ⚠️ Placeholder |
-| 16 | b2_16 | je und desto/umso | 100 | 10 | ⚠️ Placeholder |
+| 16 | b2_16 | je und desto/umso + Komparativ | 100 | 10 | ⚠️ Placeholder |
 | 17 | b2_17 | Nomen-Verb-Verbindungen | 100 | 10 | ⚠️ Placeholder |
 | 18 | b2_18 | Folgen ausdrücken | 100 | 10 | ⚠️ Placeholder |
 | 19 | b2_19 | Ausdrücke mit Präpositionen | 100 | 10 | ⚠️ Placeholder |
@@ -55,56 +55,57 @@
 
 ---
 
-## 🔄 CURRENT SESSION (2026-05-06)
+## 🔄 CURRENT SESSION (2026-05-06) — MAJOR SESSION
 
-### 2026-05-06 20:13 — FIX: All 5 batches merged into 100 questions (q001-q100)
-- Problem: Each of the 5 commits replaced the file with 20 questions (same IDs b2_10_q001-q020) — never accumulated
-- Fix: Re-extracted all 5 batches from git history, re-IDed as q001-q100, rewrote both files
-- GitHub: commit `9928e49` — 100 questions now live
+### 2026-05-06 21:42 — b2_14 COMPLETE at 100 questions
+- 4 batches added: q001-q040 (was/womit/worüber/wodurch/wovor/worauf)
+- q041-q060 (was/weshalb/worum) + q061-q080 (worüber/wodurch/worunter/worauf)
+- q081-q100 (weil/obwohl/als/wenn/damit/bevor/falls/wegen/subordinate clauses)
+- Description already updated with full Turkish→English grammar explanation
+- GitHub: commits `bf4ef4e`, `f72fc8c`
 
-### 2026-05-06 19:58 — b2_10 Batch 3: 20 new single-verb Passiv Prateritum questions
-- Added 20 questions (q001-q020) — "Der Text ___ gestern ___." style
-- Single-verb fill_blank format (was + Partizip II)
-- All answers: A (wurde/wurden)
-- Updated: `app/src/main/assets/b2_10.json` + `b2_questions.json`
-- GitHub: commit `e7c89aa`
-- **⚠️ Firestore sync pending:** `node scripts/import_and_sync.js b2_10`
+### 2026-05-06 21:23 — b2_13 COMPLETE at 100 questions (Pronomen: einander)
+- 5 batches: q001-q020, q021-q040, q041-q060, q061-q080, q081-q100
+- Covers all compound forms: einander, miteinander, voneinander, füreinander, gegeneinander, zueinander, aneinander, übereinander, nebeneinander, nacheinander, durcheinander, hintereinander, ineinander, untereinander, beieinander
+- Description updated with full Turkish→English table (17 forms)
+- GitHub: commits `62e01e9`, `a613605`, `0e4e3dc`, `6138e7f`, `ae93548`
 
-### 2026-05-06 19:54 — b2_10 Batch 2: 20 new two-part Passiv Prateritum questions
-- Added 20 questions (q001-q020) — "Der Bericht ___ gestern von der Sekretärin ___." style
-- Two-part fill_blank format (modal verb structures included)
-- Answers: B or A depending on singular/plural
-- GitHub: commit `6d4aaeb`
-- **⚠️ Firestore sync pending**
+### 2026-05-06 21:08 — b2_12 COMPLETE at 120 questions (Konjunktiv II mit Modalverben)
+- 6 batches: q001-q020 (first), q021-q040, q041-q060, q061-q080, q081-q100, q101-q120
+- Covers Doppelinfinitiv, polite forms (Könntest du...?), modalverb conjugation table
+- Description updated with Turkish→English grammar explanation and modalverb table
+- GitHub: commits `a83e083`, `35ff959`, `ba2d0c4`, `5e29f90`, `bdef8be`, `08cee73`
 
-### 2026-05-06 19:43 — b2_10 Batch 1: 20 new Passiv Prateritum questions (first batch)
-- Replaced placeholder content with 20 real Passiv Präteritum questions
-- Two-part fill_blank: "Das alte Gebäude _____ im Jahr 1998 abgerissen."
-- All answers: A
-- GitHub: commit `34a9a1e`
+### 2026-05-06 20:35 — b2_11 COMPLETE at 100 questions (Konjunktiv II der Vergangenheit)
+- 5 batches: q001-q020, q021-q040, q041-q060, q061-q080, q081-q100
+- Answers mix: B, A, B, A, C, A... (dual-blank, single-verb, Doppelinfinitiv)
+- Description updated with Turkish→English grammar explanation
+- GitHub: commits `258e2f5`, `edd0121`, `527b5f8`, `9e3bdce`, `994f9d3`
+
+### 2026-05-06 20:13 — b2_10 COMPLETE at 100 questions (Passiv Präteritum)
+- Problem: 5 batches with same IDs (b2_10_q001-q020) never accumulated
+- Fix: Re-extracted all 5 batches from git history, re-IDed as q001-q100
+- All 5 batches merged into single commit `9928e49`
+- Description: Turkish→English grammar explanation
 
 ### 2026-05-06 19:37 — Bug Fix 3: Quiz topic cross-contamination
-- **Problem:** Navigating from b2_10 → b2_01 showed stale "9. Passiv Präteritum" title
-- **Root cause:** QuizActiveFragment only checked `currentQuiz == null` — if a different topic's quiz was in progress, it would "resume" with old questions while displaying new topic title
-- **Fix:** Added topic ID matching check — if in-progress quiz doesn't match incoming subjectId, start fresh
+- **Problem:** QuizActiveFragment only checked `currentQuiz == null` → stale quiz from different topic was "resumed"
+- **Fix:** Added topic ID matching check — if quiz.id doesn't match subjectId, start fresh
 - GitHub: commit `b04b7d2`
 
 ### 2026-05-06 19:35 — Bug Fix 2: fill_blank questions with options freezing on Next
-- **Problem:** fill_blank questions rendered as MCQ (due to options) still triggered fill_blank logic in btnNext — no answer collected, app seemed frozen
-- **Root cause:** btnNext checked `currentQuestion.type == "fill_blank"` which was still "fill_blank" even when rendered as MCQ radio buttons
-- **Fix:** Added `binding.root.tag = "safeguard_fill_blank"` marker; btnNext checks tag to distinguish true fill_blank from disguised MCQ
+- **Problem:** fill_blank with options rendered as MCQ radio buttons, but btnNext still ran fill_blank logic → null EditText → empty answer → freeze
+- **Fix:** `binding.root.tag = "safeguard_fill_blank"` marker; btnNext checks tag
 - Also fixed `binding.tag` → `binding.root.tag` (FragmentBinding has no .tag property)
 - GitHub: commit `60df53c`
 
 ### 2026-05-06 19:30 — Bug Fix 1: Answers not saved/tracked in quizzes
-- **Problem:** User selected answers but app didn't save/track them — scores always showed incorrect results
-- **Root cause:** `_selectedAnswers.value = answers` mutated map in place; LiveData doesn't fire when object reference is unchanged
-- **Fix:** Created new map each time: `val newMap = currentMap.toMutableMap(); newMap[index] = answer; _selectedAnswers.value = newMap`
+- **Problem:** `_selectedAnswers.value = answers` mutated map in place → LiveData didn't fire → scores always wrong
+- **Fix:** Created new map each time: `newMap.toMutableMap()` before setting value
 - GitHub: commit `6b7b053`
 
 ### 2026-05-06 19:27 — b2_02 title fix
-- **Problem:** Topic 2 showed "b2_02" as raw ID instead of topic name
-- **Fix:** Added missing `"b2_02" to "2. Verben und Ergänzungen"` in `getSubjectTitle()` map
+- Added missing `"b2_02" to "2. Verben und Ergänzungen"` in `getSubjectTitle()` map
 - GitHub: commit `e289d8c`
 
 ---
@@ -113,7 +114,11 @@
 
 | Topic | GitHub | Firestore | Notes |
 |-------|--------|-----------|-------|
-| b2_10 | ✅ Committed (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_10` from local |
+| b2_10 | ✅ (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_10` |
+| b2_11 | ✅ (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_11` |
+| b2_12 | ✅ (120 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_12` |
+| b2_13 | ✅ (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_13` |
+| b2_14 | ✅ (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_14` |
 | b2_09 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_09` |
 | b2_08 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_08` |
 
@@ -121,45 +126,64 @@
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-app-firebase-adminsdk-fbsvc-4aa25c0ca2.json"
 cd /Users/halilozturk/b2-deutsch-app
-node scripts/import_and_sync.js b2_10
+node scripts/import_and_sync.js b2_10 b2_11 b2_12 b2_13 b2_14
 ```
 
 ---
 
 ## 📋 REMAINING WORK
 
-### Immediate (Next Session)
-- [ ] Firestore sync: `node scripts/import_and_sync.js b2_10` (b2_10 has 3 batches = 60 total questions across updates — latest is the current 20)
-- [ ] Add more questions to b2_10 to reach 100 total (currently 20, need ~80 more)
-- [ ] b2_02 placeholder — generate real content
-- [ ] Continue with b2_11 through b2_23 — all have placeholder questions
+### Firestore Sync (Priority)
+- [ ] Sync all newly completed topics to Firestore (b2_08 through b2_14)
 
-### Pending Topics (need content generation)
-- b2_02 Verben und Ergänzungen — ⚠️ placeholder
-- b2_10 Passiv Präteritum — 20/100, need ~80 more
-- b2_11 Konjunktiv II der Vergangenheit
-- b2_12 Konjunktiv II mit Modalverben
-- b2_13 Pronomen: einander
-- b2_14 Weiterführende Nebensätze
-- b2_15 Präpositionen mit Genitiv
-- b2_16 je und desto/umso
-- b2_17 Nomen-Verb-Verbindungen
-- b2_18 Folgen ausdrücken
-- b2_19 Ausdrücke mit Präpositionen
-- b2_20 Irreale Konditionalsätze
-- b2_21 Relativsätze im Genitiv
-- b2_22 Konjunktiv I in der indirekten Rede
-- b2_23 Konjunktiv II in irrealen Vergleichssätzen
+### Topics Needing Content (9 remaining)
+- b2_15 Präpositionen mit Genitiv — placeholder
+- b2_16 je und desto/umso + Komparativ — placeholder
+- b2_17 Nomen-Verb-Verbindungen — placeholder
+- b2_18 Folgen ausdrücken — placeholder
+- b2_19 Ausdrücke mit Präpositionen — placeholder
+- b2_20 Irreale Konditionalsätze — placeholder
+- b2_21 Relativsätze im Genitiv — placeholder
+- b2_22 Konjunktiv I in der indirekten Rede — placeholder
+- b2_23 Konjunktiv II in irrealen Vergleichssätzen — placeholder
+
+### Topic with Partial Content
+- b2_02 — 50 questions in questionBank but NO topic entry (wont show in app until topic entry added)
 
 ---
 
-## 🔧 GITHUB COMMITS (2026-05-06)
+## 🔧 GITHUB COMMITS (2026-05-06) — FULL DAY
 
 | Time (UTC) | Commit | Description |
 |------------|--------|-------------|
-| 19:58 | `e7c89aa` | b2_10: 20 new single-verb Passiv Prateritum questions (all A answers) |
-| 19:54 | `6d4aaeb` | b2_10: 20 new two-part Passiv Prateritum questions (modalverb included) |
-| 19:37 | `b04b7d2` | Fix: quiz topic cross-contamination (fresh start if different topic) |
+| 21:42 | `f72fc8c` | b2_14: add 20 questions q081-q100 (subordinate clauses: weil/obwohl/als/wenn/damit) |
+| 21:41 | `bf4ef4e` | b2_14: add 20 questions (was/womit/worüber/wodurch/wovor/worauf) |
+| 21:38 | `4973932` | b2_14: extend description (was/womit/worüber/worauf/wofür/wodurch/weswegen/wovor) |
+| 21:37 | `8261c71` | b2_14: clear all questions (emptied for new content) |
+| 21:23 | `ae93548` | b2_13: add 20 questions q081-q100 — COMPLETE at 100 |
+| 21:23 | `6138e7f` | b2_13: add 20 questions q061-q080 (untereinander/beieinander) |
+| 21:22 | `0e4e3dc` | b2_13: add 20 questions q041-q060 (einander/miteinander) |
+| 21:21 | `a613605` | b2_13: add 20 questions q021-q040 (durcheinander/aufeinander/hintereinander/zueinander) |
+| 21:21 | `62e01e9` | b2_13: add 20 Pronomen: einander questions (miteinander/einander) |
+| 21:11 | `cf08778` | b2_13: update description (Turkish→English grammar explanation) |
+| 21:08 | `bdef8be` | b2_12: add 20 questions q081-q100 — COMPLETE at 120 |
+| 21:05 | `414197a` | b2_12: update description (Turkish→English modalverb table) |
+| 21:01 | `08cee73` | b2_12: add 20 questions q101-q120 (extended beyond 100) |
+| 20:59 | `5e29f90` | b2_12: add 20 questions q061-q080 (single-verb, all B answers) |
+| 20:56 | `ba2d0c4` | b2_12: add 20 questions q041-q060 (Doppelinfinitiv) |
+| 20:50 | `35ff959` | b2_12: add 20 questions q021-q040 (Konjunktiv II mit Modalverben) |
+| 20:47 | `a83e083` | b2_12: add 20 Konjunktiv II mit Modalverben questions (AI-sourced) |
+| 20:35 | `994f9d3` | b2_11: add 20 questions q081-q100 — COMPLETE at 100 |
+| 20:32 | `9e3bdce` | b2_11: add 20 questions q061-q080 |
+| 20:31 | `527b5f8` | b2_11: add 20 questions q041-q060 (single-verb Konjunktiv II, all B answers) |
+| 20:21 | `edd0121` | b2_11: add 20 questions q021-q040 (dual-blank, B/C answers) |
+| 20:13 | `258e2f5` | b2_11: add 20 Konjunktiv II der Vergangenheit questions |
+| 20:13 | `9fc36c1` | docs: PROJECT_STATUS — b2_10 now 100 questions |
+| 20:13 | `9928e49` | b2_10: merge all 5 batches into 100 questions (q001-q100) |
+| 20:03 | `e7c89aa` | b2_10: 20 single-verb Passiv Prateritum questions (single-verb fill_blank) |
+| 19:58 | `23fa4a9` | b2_10: 20 dual-blank Passiv Prateritum (singular/plural wurde/wurden) |
+| 19:54 | `6d4aaeb` | b2_10: 20 new two-part Passiv Prateritum questions |
+| 19:37 | `b04b7d2` | Fix: quiz topic check — start fresh if different topic |
 | 19:35 | `60df53c` | Fix: fill_blank safeguard marker + binding.root.tag |
 | 19:30 | `6b7b053` | Fix: selectAnswer LiveData map mutation (new map reference) |
 | 19:27 | `e289d8c` | Fix: b2_02 title mapping missing |
@@ -167,5 +191,5 @@ node scripts/import_and_sync.js b2_10
 
 ---
 
-_Last updated: 2026-05-06 20:13 UTC_
+_Last updated: 2026-05-06 21:51 UTC_
 _Update after: every topic content change, every bug fix, every new Firebase push_
