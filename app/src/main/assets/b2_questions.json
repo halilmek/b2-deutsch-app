@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "generated": "2026-04-26",
-  "totalQuestions": 2246,
+  "totalQuestions": 2186,
   "topics": {
     "b2_01": {
       "name": "Konnektoren",
@@ -1061,7 +1061,7 @@
     },
     "b2_12": {
       "name": "Konjunktiv II mit Modalverben",
-      "count": 20,
+      "count": 40,
       "questionIds": [
         "b2_12_q001",
         "b2_12_q002",
@@ -1082,7 +1082,27 @@
         "b2_12_q017",
         "b2_12_q018",
         "b2_12_q019",
-        "b2_12_q020"
+        "b2_12_q020",
+        "b2_12_q021",
+        "b2_12_q022",
+        "b2_12_q023",
+        "b2_12_q024",
+        "b2_12_q025",
+        "b2_12_q026",
+        "b2_12_q027",
+        "b2_12_q028",
+        "b2_12_q029",
+        "b2_12_q030",
+        "b2_12_q031",
+        "b2_12_q032",
+        "b2_12_q033",
+        "b2_12_q034",
+        "b2_12_q035",
+        "b2_12_q036",
+        "b2_12_q037",
+        "b2_12_q038",
+        "b2_12_q039",
+        "b2_12_q040"
       ]
     },
     "b2_13": {
@@ -36027,6 +36047,326 @@
       "correctAnswer": "hätte / vermeiden / können",
       "explanation": "Konjunktiv II mit Modalverben — Doppelinfinitiv",
       "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q021",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Welche Form ist korrekt? Wenn ich mehr Zeit hatte, _____ ich das Buch lesen.",
+      "options": [
+        "kann",
+        "konnte",
+        "konnte",
+        "konnen"
+      ],
+      "correctAnswer": "konnte",
+      "explanation": "Konjunktiv II mit Modalverben - Konjunktiv II in Konditionalsatz",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q022",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Du _____ eigentlich zum Arzt gehen. Du siehst krank aus.",
+      "options": [
+        "musst",
+        "musstest",
+        "muesstest",
+        "muessen"
+      ],
+      "correctAnswer": "muesstest",
+      "explanation": "Konjunktiv II mit Modalverben - moralische Empfehlung",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q023",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Er sagte, er _____ leider nicht kommen, weil er arbeiten müsse.",
+      "options": [
+        "kann",
+        "koennte",
+        "konnte",
+        "duerfte"
+      ],
+      "correctAnswer": "koennte",
+      "explanation": "Konjunktiv II mit Modalverben - indirekte Rede",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q024",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Welcher Satz druckt eine hofliche Bitte aus?",
+      "options": [
+        "Du musst mir helfen!",
+        "Könntest du mir helfen?",
+        "Du kannst mir helfen.",
+        "Du sollst mir helfen!"
+      ],
+      "correctAnswer": "Könntest du mir helfen?",
+      "explanation": "Konjunktiv II mit Modalverben - Hofliche Bitte",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q025",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Ich hatte fruher _____ kommen konnen, aber ich hatte keine Zeit.",
+      "options": [
+        "konnen",
+        "gekonnt",
+        "konnte",
+        "kann"
+      ],
+      "correctAnswer": "konnen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q026",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Das _____ schwierig werden.",
+      "options": [
+        "sollte",
+        "wollte",
+        "duerfte",
+        "muesste"
+      ],
+      "correctAnswer": "duerfte",
+      "explanation": "Konjunktiv II mit Modalverben - Wahrscheinlichkeit/Annahme",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q027",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wenn du fleissiger warst, _____ du die Prufung bestehen.",
+      "options": [
+        "koenntest",
+        "kannst",
+        "konntest",
+        "koennen"
+      ],
+      "correctAnswer": "koenntest",
+      "explanation": "Konjunktiv II mit Modalverben - Konditionalsatz",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q028",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Sie _____ das nicht gesagt haben.",
+      "options": [
+        "haette...sollen",
+        "hatte...sollen",
+        "haette...sollten",
+        "habe...sollen"
+      ],
+      "correctAnswer": "haette...sollen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv (sollen)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q029",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "In dieser Bibliothek _____ man nicht laut sprechen.",
+      "options": [
+        "koennte",
+        "duerfte",
+        "sollte",
+        "muesste"
+      ],
+      "correctAnswer": "sollte",
+      "explanation": "Konjunktiv II mit Modalverben - Warnung/Regel",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q030",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wir _____ eigentlich mehr fur die Umwelt tun.",
+      "options": [
+        "koennten",
+        "wollten",
+        "sollten",
+        "duerften"
+      ],
+      "correctAnswer": "sollten",
+      "explanation": "Konjunktiv II mit Modalverben - moralische Verpflichtung",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q031",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Er hatte die Aufgabe rechtzeitig _____ _____ .",
+      "options": [
+        "fertigstellen sollen",
+        "fertig / stellen sollen",
+        "fertiggestellt sollen",
+        "fertigstellen sollten"
+      ],
+      "correctAnswer": "fertigstellen sollen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q032",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "_____ du mir bitte das Salz reichen?",
+      "options": [
+        "Muesstest",
+        "Könntest",
+        "Solltest",
+        "Duerftest"
+      ],
+      "correctAnswer": "Könntest",
+      "explanation": "Konjunktiv II mit Modalverben - Hofliche Bitte",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q033",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wenn ich damals gewusst hatte, was passiert, _____ ich anders gehandelt.",
+      "options": [
+        "koennen haben",
+        "haette...koennen",
+        "habe...koennen",
+        "hatte...koennen"
+      ],
+      "correctAnswer": "haette...koennen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q034",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Das _____ die Losung sein.",
+      "options": [
+        "Eine Pflicht",
+        "Eine Vermutung/Olasilik",
+        "Ein Wunsch",
+        "Ein Verbot"
+      ],
+      "correctAnswer": "Eine Vermutung/Olasilik",
+      "explanation": "Konjunktiv II mit Modalverben - dûrfte = Vermutung/Wahrscheinlichkeit",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q035",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Du _____ das Formular bis Freitag abgeben. Es ist Pflicht.",
+      "options": [
+        "koenntest",
+        "duerftest",
+        "muesstest",
+        "solltest"
+      ],
+      "correctAnswer": "muesstest",
+      "explanation": "Konjunktiv II mit Modalverben - formelle Verpflichtung",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q036",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Ich wunschte, ich _____ Klavier spielen.",
+      "options": [
+        "kann",
+        "koennte",
+        "konnte",
+        "duerfte"
+      ],
+      "correctAnswer": "koennte",
+      "explanation": "Konjunktiv II mit Modalverben - hypothetischer Wunsch",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q037",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Welcher Satz ist im Konjunktiv II Perfekt korrekt?",
+      "options": [
+        "Er hat kommen mussen.",
+        "Er hatte kommen mussen.",
+        "Er haette kommen mussen.",
+        "Er habe kommen mussen."
+      ],
+      "correctAnswer": "Er haette kommen mussen.",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q038",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Ohne deinen Rat _____ ich diesen Fehler gemacht.",
+      "options": [
+        "haette...haben koennen",
+        "haette...machen koennen",
+        "habe...machen koennen",
+        "hatte...koennen machen"
+      ],
+      "correctAnswer": "haette...machen koennen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv",
+      "difficulty": "hard",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q039",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Man _____ meinen, dass er nie gelernt hat.",
+      "options": [
+        "sollte",
+        "koennte",
+        "muesste",
+        "duerfte"
+      ],
+      "correctAnswer": "koennte",
+      "explanation": "Konjunktiv II mit Modalverben - Vermutung/Eindruck",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q040",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Ihr _____ punkttlich sein! Der Chef erwartet das von euch.",
+      "options": [
+        "Ihr koennt punkttlich sein.",
+        "Ihr solltet punkttlich sein.",
+        "Ihr muesst punkttlich sein.",
+        "Ihr werdet punkttlich sein."
+      ],
+      "correctAnswer": "Ihr solltet punkttlich sein.",
+      "explanation": "Konjunktiv II mit Modalverben - Hofliche Empfehlung",
+      "difficulty": "easy",
       "topicName": "Konjunktiv II mit Modalverben"
     }
   ]
