@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-06 19:58 UTC
+**Last Updated:** 2026-05-06 20:13 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -21,7 +21,7 @@
 | 7 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete |
 | 8 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete |
 | 9 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete |
-| 10 | b2_10 | Passiv Präteritum | 40 | 4 | 🔄 In Progress (3 batches added 2026-05-06) |
+| 10 | b2_10 | Passiv Präteritum | 100 | 10 | ✅ Complete |
 | 11 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
 | 12 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
 | 13 | b2_13 | Pronomen: einander | 100 | 10 | ⚠️ Placeholder |
@@ -56,6 +56,11 @@
 ---
 
 ## 🔄 CURRENT SESSION (2026-05-06)
+
+### 2026-05-06 20:13 — FIX: All 5 batches merged into 100 questions (q001-q100)
+- Problem: Each of the 5 commits replaced the file with 20 questions (same IDs b2_10_q001-q020) — never accumulated
+- Fix: Re-extracted all 5 batches from git history, re-IDed as q001-q100, rewrote both files
+- GitHub: commit `9928e49` — 100 questions now live
 
 ### 2026-05-06 19:58 — b2_10 Batch 3: 20 new single-verb Passiv Prateritum questions
 - Added 20 questions (q001-q020) — "Der Text ___ gestern ___." style
@@ -108,7 +113,7 @@
 
 | Topic | GitHub | Firestore | Notes |
 |-------|--------|-----------|-------|
-| b2_10 | ✅ Committed | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_10` from local |
+| b2_10 | ✅ Committed (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_10` from local |
 | b2_09 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_09` |
 | b2_08 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_08` |
 
@@ -162,5 +167,5 @@ node scripts/import_and_sync.js b2_10
 
 ---
 
-_Last updated: 2026-05-06 19:58 UTC_
+_Last updated: 2026-05-06 20:13 UTC_
 _Update after: every topic content change, every bug fix, every new Firebase push_
