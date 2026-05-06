@@ -2,16 +2,21 @@
   "version": "1.0",
   "subjectId": "b2_10",
   "topicName": "Passiv Prateritum",
-  "totalQuestions": 20,
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_10_q001",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Das neue Krankenhaus _____ im letzten Jahr _____ .",
-      "options": ["wird eröffnet", "wurde eröffnet", "ist eröffnet worden", "war eröffnet"],
-      "correctAnswer": "wurde eröffnet",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — wurde + eröffnet",
+      "questionText": "Das alte Gebäude _____ im Jahr 1998 abgerissen.",
+      "options": [
+        "wurde",
+        "worden",
+        "wird",
+        "war"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -19,10 +24,15 @@
       "id": "b2_10_q002",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Die alten Häuser _____ von den Handwerkern _____ .",
-      "options": ["wurden renoviert", "werden renoviert", "sind renoviert worden", "wurden renovieren"],
-      "correctAnswer": "wurden renoviert",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "questionText": "Die Verträge _____ gestern von beiden Seiten unterschrieben.",
+      "options": [
+        "wurden",
+        "wurde",
+        "werden",
+        "worden"
+      ],
+      "correctAnswer": "wurden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -30,10 +40,15 @@
       "id": "b2_10_q003",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Warum _____ du nicht zur Party _____ ?",
-      "options": ["wirst eingeladen", "wurdest eingeladen", "bist eingeladen worden", "warst eingeladen"],
-      "correctAnswer": "wurdest eingeladen",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform (du)",
+      "questionText": "Der Brief _____ vom Direktor persönlich _____.",
+      "options": [
+        "wurde geschrieben",
+        "wird geschrieben",
+        "wurde schreiben",
+        "war geschrieben"
+      ],
+      "correctAnswer": "wurde geschrieben",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -41,9 +56,14 @@
       "id": "b2_10_q004",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Der Brief _____ gestern _____ .",
-      "options": ["wird abgeschickt", "wurde abgeschickt", "ist abgeschickt worden", "wurde abschicken"],
-      "correctAnswer": "wurde abgeschickt",
+      "questionText": "Das Fenster _____ während des Sturms _____.",
+      "options": [
+        "wurde gebrochen",
+        "wurden gebrochen",
+        "wurde brechen",
+        "wird gebrochen"
+      ],
+      "correctAnswer": "wurde gebrochen",
       "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
@@ -52,9 +72,14 @@
       "id": "b2_10_q005",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Die Entscheidung _____ nach langer Diskussion _____ .",
-      "options": ["wird getroffen", "wurde getroffen", "ist getroffen worden", "wurde treffen"],
-      "correctAnswer": "wurde getroffen",
+      "questionText": "Die neuen Regeln _____ letztes Jahr eingeführt.",
+      "options": [
+        "werden",
+        "wurden",
+        "wurde",
+        "worden"
+      ],
+      "correctAnswer": "wurden",
       "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
@@ -63,10 +88,15 @@
       "id": "b2_10_q006",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "_____ die Dokumente schon _____ ?",
-      "options": ["Wurden unterschrieben", "Werden unterschrieben", "Sind unterschrieben worden", "Wurden unterschreiben"],
-      "correctAnswer": "Wurden unterschrieben",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform (Plural)",
+      "questionText": "Der Zeuge _____ von der Polizei stundenlang _____.",
+      "options": [
+        "wurde befragt",
+        "wurden befragt",
+        "wurde befragen",
+        "wird befragt"
+      ],
+      "correctAnswer": "wurde befragt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -74,8 +104,13 @@
       "id": "b2_10_q007",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Das Projekt _____ von einem internationalen Team _____ .",
-      "options": ["wird entwickelt", "wurde entwickelt", "ist entwickelt worden", "wurde entwickeln"],
+      "questionText": "Das Medikament _____ in den 1980er Jahren _____.",
+      "options": [
+        "wurde entwickelt",
+        "werden entwickelt",
+        "wurde entwickeln",
+        "worden entwickelt"
+      ],
       "correctAnswer": "wurde entwickelt",
       "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
@@ -85,10 +120,15 @@
       "id": "b2_10_q008",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Die Fenster _____ während der Renovierung _____ .",
-      "options": ["werden ausgetauscht", "wurden ausgetauscht", "sind ausgetauscht worden", "wurden austauschen"],
-      "correctAnswer": "wurden ausgetauscht",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "questionText": "Die Kinder _____ nach dem Unfall sofort _____.",
+      "options": [
+        "wurden versorgt",
+        "wurde versorgt",
+        "wurden versorgen",
+        "werden versorgt"
+      ],
+      "correctAnswer": "wurden versorgt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -96,10 +136,15 @@
       "id": "b2_10_q009",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Wann _____ der Vertrag _____ ?",
-      "options": ["wird unterzeichnet", "wurde unterzeichnet", "ist unterzeichnet worden", "wurde unterzeichnen"],
-      "correctAnswer": "wurde unterzeichnet",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform",
+      "questionText": "Der Dieb _____ von einem Nachbarn _____.",
+      "options": [
+        "wurde gesehen",
+        "wurden gesehen",
+        "wurde sehen",
+        "wird gesehen"
+      ],
+      "correctAnswer": "wurde gesehen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -107,10 +152,15 @@
       "id": "b2_10_q010",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Die Gäste _____ herzlich vom Gastgeber _____ .",
-      "options": ["werden begrüßt", "wurden begrüßt", "sind begrüßt worden", "wurden begrüßen"],
-      "correctAnswer": "wurden begrüßt",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "questionText": "Das Konzert _____ wegen des Regens _____.",
+      "options": [
+        "wurde abgesagt",
+        "wurden abgesagt",
+        "wird abgesagt",
+        "wurde absagen"
+      ],
+      "correctAnswer": "wurde abgesagt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -118,10 +168,15 @@
       "id": "b2_10_q011",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Das Problem _____ nicht sofort _____ .",
-      "options": ["wird gelöst", "wurde gelöst", "ist gelöst worden", "wurde lösen"],
-      "correctAnswer": "wurde gelöst",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Verneinung",
+      "questionText": "Die Brücke _____ vor zehn Jahren von einer berühmten Firma _____.",
+      "options": [
+        "wurde gebaut",
+        "werden gebaut",
+        "wurde bauen",
+        "worden gebaut"
+      ],
+      "correctAnswer": "wurde gebaut",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -129,10 +184,15 @@
       "id": "b2_10_q012",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "_____ die Ergebnisse schon _____ ?",
-      "options": ["Werden veröffentlicht", "Wurden veröffentlicht", "Sind veröffentlicht worden", "Wurden veröffentlichen"],
-      "correctAnswer": "Wurden veröffentlicht",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform",
+      "questionText": "Alle Dokumente _____ sorgfältig _____.",
+      "options": [
+        "wurden geprüft",
+        "wurde geprüft",
+        "werden geprüft",
+        "worden geprüft"
+      ],
+      "correctAnswer": "wurden geprüft",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -140,32 +200,47 @@
       "id": "b2_10_q013",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Der alte Bahnhof _____ vor zehn Jahren _____ .",
-      "options": ["wird abgerissen", "wurde abgerissen", "ist abgerissen worden", "wurde abreißen"],
-      "correctAnswer": "wurde abgerissen",
+      "questionText": "Das Problem _____ nicht rechtzeitig _____ werden.",
+      "options": [
+        "konnte gelöst",
+        "konnte lösen",
+        "könnte gelöst",
+        "musste lösend"
+      ],
+      "correctAnswer": "konnte gelöst",
       "explanation": "Grammatik-Thema: Passiv Prateritum",
-      "difficulty": "easy",
+      "difficulty": "medium",
       "topicName": "Passiv Prateritum"
     },
     {
       "id": "b2_10_q014",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Die Waren _____ sorgfältig _____ .",
-      "options": ["werden verpackt", "wurden verpackt", "sind verpackt worden", "wurden verpacken"],
-      "correctAnswer": "wurden verpackt",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
-      "difficulty": "easy",
+      "questionText": "Der Vertrag _____ sofort _____ werden.",
+      "options": [
+        "musste unterzeichnet",
+        "müsste unterzeichnet",
+        "musste unterzeichnen",
+        "muss unterzeichnet"
+      ],
+      "correctAnswer": "musste unterzeichnet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "medium",
       "topicName": "Passiv Prateritum"
     },
     {
       "id": "b2_10_q015",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "_____ du gestern vom Chef _____ ?",
-      "options": ["Wirst angerufen", "Wurdest angerufen", "Bist angerufen worden", "Wurdest anrufen"],
-      "correctAnswer": "Wurdest angerufen",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform (du)",
+      "questionText": "Die Patienten _____ täglich vom Arzt _____.",
+      "options": [
+        "wurden untersucht",
+        "wurde untersucht",
+        "werden untersucht",
+        "worden untersucht"
+      ],
+      "correctAnswer": "wurden untersucht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -173,9 +248,14 @@
       "id": "b2_10_q016",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Die Straße _____ wegen Bauarbeiten _____ .",
-      "options": ["wird gesperrt", "wurde gesperrt", "ist gesperrt worden", "wurde sperren"],
-      "correctAnswer": "wurde gesperrt",
+      "questionText": "Das gestohlene Auto _____ drei Tage später _____.",
+      "options": [
+        "wurde gefunden",
+        "wurden gefunden",
+        "wurde finden",
+        "wird gefunden"
+      ],
+      "correctAnswer": "wurde gefunden",
       "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
@@ -184,9 +264,14 @@
       "id": "b2_10_q017",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Das Gemälde _____ von einem berühmten Künstler _____ .",
-      "options": ["wird gemalt", "wurde gemalt", "ist gemalt worden", "wurde malen"],
-      "correctAnswer": "wurde gemalt",
+      "questionText": "Der Fehler _____ erst nach langer Zeit _____.",
+      "options": [
+        "wurde bemerkt",
+        "wurden bemerkt",
+        "wurde bemerken",
+        "wird bemerkt"
+      ],
+      "correctAnswer": "wurde bemerkt",
       "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
@@ -195,10 +280,15 @@
       "id": "b2_10_q018",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "_____ die Prüfung schon _____ ?",
-      "options": ["Wird korrigiert", "Wurde korrigiert", "Ist korrigiert worden", "Wurde korrigieren"],
-      "correctAnswer": "Wurde korrigiert",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform",
+      "questionText": "Die Ausstellung _____ von Tausenden von Besuchern _____.",
+      "options": [
+        "wurde besucht",
+        "wurden besucht",
+        "wurde besuchen",
+        "wird besucht"
+      ],
+      "correctAnswer": "wurde besucht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -206,10 +296,15 @@
       "id": "b2_10_q019",
       "subjectId": "b2_10",
       "type": "fill_blank",
-      "questionText": "Die Informationen _____ an alle Mitarbeiter _____ .",
-      "options": ["werden weitergeleitet", "wurden weitergeleitet", "sind weitergeleitet worden", "wurden weiterleiten"],
-      "correctAnswer": "wurden weitergeleitet",
-      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "questionText": "Das Essen _____ pünktlich um 12 Uhr _____.",
+      "options": [
+        "wurde serviert",
+        "wurden serviert",
+        "wurde servieren",
+        "werden serviert"
+      ],
+      "correctAnswer": "wurde serviert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
       "topicName": "Passiv Prateritum"
     },
@@ -217,8 +312,1293 @@
       "id": "b2_10_q020",
       "subjectId": "b2_10",
       "type": "fill_blank",
+      "questionText": "Die Nachrichten _____ gestern Abend im Radio _____.",
+      "options": [
+        "wurden übertragen",
+        "wurde übertragen",
+        "wurden übertragen werden",
+        "worden übertragen"
+      ],
+      "correctAnswer": "wurden übertragen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "medium",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q021",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Bericht __________ gestern von der Sekretärin __________.",
+      "options": [
+        "wurde schreiben",
+        "wurde geschrieben",
+        "wird geschrieben",
+        "wurden geschrieben"
+      ],
+      "correctAnswer": "wurde geschrieben",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q022",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die alten Dokumente __________ während des Umzugs __________.",
+      "options": [
+        "wurde verloren",
+        "wurden verlieren",
+        "wurden verloren",
+        "war verloren"
+      ],
+      "correctAnswer": "wurden verloren",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q023",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Gebäude __________ im Jahre 1920 __________.",
+      "options": [
+        "wurde bauen",
+        "wurde gebaut",
+        "wird gebaut",
+        "wurden gebaut"
+      ],
+      "correctAnswer": "wurde gebaut",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q024",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Gäste __________ höflich vom Personal __________.",
+      "options": [
+        "wurden empfangen",
+        "wurde empfangen",
+        "wurden empfängt",
+        "werden empfangen"
+      ],
+      "correctAnswer": "wurden empfangen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q025",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Warum __________ die Tür nicht __________?",
+      "options": [
+        "wurde abgeschlossen",
+        "wurden abschließen",
+        "wurde abschließt",
+        "war abgeschlossen"
+      ],
+      "correctAnswer": "wurde abgeschlossen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q026",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Fehler __________ im Text leider nicht __________.",
+      "options": [
+        "wurde korrigiert",
+        "wurden korrigiert",
+        "wurden korrigieren",
+        "wird korrigiert"
+      ],
+      "correctAnswer": "wurden korrigiert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q027",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Gesetz __________ vom Parlament mit großer Mehrheit __________.",
+      "options": [
+        "wurde verabschieden",
+        "wurden verabschiedet",
+        "wurde verabschiedet",
+        "wird verabschiedet"
+      ],
+      "correctAnswer": "wurde verabschiedet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q028",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "__________ die Einladungen schon rechtzeitig __________?",
+      "options": [
+        "Wurde verschicken",
+        "Wurden verschickt",
+        "Werden verschickt",
+        "Wurden verschicken"
+      ],
+      "correctAnswer": "Wurden verschickt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q029",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Stadt __________ durch das schwere Erdbeben fast völlig __________.",
+      "options": [
+        "wurde zerstört",
+        "wurden zerstört",
+        "wurde zerstören",
+        "wird zerstören"
+      ],
+      "correctAnswer": "wurde zerstört",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q030",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Projekt __________ trotz der Schwierigkeiten erfolgreich __________.",
+      "options": [
+        "wurde beenden",
+        "wurde beendet",
+        "wurden beendet",
+        "wird beendet"
+      ],
+      "correctAnswer": "wurde beendet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q031",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Früher __________ hier viel mehr Kaffee __________.",
+      "options": [
+        "wurde getrunken",
+        "wurde trinken",
+        "wurden getrunken",
+        "wird getrunken"
+      ],
+      "correctAnswer": "wurde getrunken",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q032",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die neuen Mitarbeiter __________ am ersten Tag umfassend __________.",
+      "options": [
+        "wurde informieren",
+        "wurden informiert",
+        "wurden informieren",
+        "wird informiert"
+      ],
+      "correctAnswer": "wurden informiert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q033",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Fenster __________ vermutlich durch den starken Wind __________.",
+      "options": [
+        "wurde einschlagen",
+        "wurde eingeschlagen",
+        "wurden eingeschlagen",
+        "wird eingeschlagen"
+      ],
+      "correctAnswer": "wurde eingeschlagen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "medium",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q034",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Alle Fragen __________ während der Konferenz __________.",
+      "options": [
+        "wurde beantworten",
+        "wurden beantwortet",
+        "wurden beantworten",
+        "wird beantwortet"
+      ],
+      "correctAnswer": "wurden beantwortet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q035",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Täter __________ kurz nach dem Raub von der Polizei __________.",
+      "options": [
+        "wurde festgenommen",
+        "wurde festnehmen",
+        "wurden festgenommen",
+        "wird festgenommen"
+      ],
+      "correctAnswer": "wurde festgenommen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q036",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Brücke __________ sofort __________ __________.",
+      "options": [
+        "musste repariert werden",
+        "wurde repariert müssen",
+        "musste reparieren werden",
+        "musste repariert worden"
+      ],
+      "correctAnswer": "musste repariert werden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Modalverb mit Passiv",
+      "difficulty": "medium",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q037",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Termin __________ leider __________ __________.",
+      "options": [
+        "konnte nicht verschoben werden",
+        "wurde nicht verschoben können",
+        "konnte nicht verschieben werden",
+        "konnte nicht verschoben worden"
+      ],
+      "correctAnswer": "konnte nicht verschoben werden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Modalverb mit Passiv",
+      "difficulty": "medium",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q038",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Patienten __________ die ganze Nacht über __________.",
+      "options": [
+        "wurde überwachen",
+        "wurden überwacht",
+        "wurden überbewacht",
+        "wird überwacht"
+      ],
+      "correctAnswer": "wurden überwacht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q039",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Geld __________ bereits auf das Konto __________.",
+      "options": [
+        "wurde überwiesen",
+        "wurde überweisen",
+        "wurden überwiesen",
+        "wird überwiesen"
+      ],
+      "correctAnswer": "wurde überwiesen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q040",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Versammlung __________ wegen des Streiks __________.",
+      "options": [
+        "wurde absagen",
+        "wurde abgesagt",
+        "wurden abgesagt",
+        "wird abgesagt"
+      ],
+      "correctAnswer": "wurde abgesagt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q041",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Text ___ gestern ___.",
+      "options": [
+        "wird geschrieben",
+        "wurde geschrieben",
+        "ist geschrieben",
+        "hatte geschrieben"
+      ],
+      "correctAnswer": "wurde geschrieben",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q042",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Essen ___ schnell ___.",
+      "options": [
+        "wurde vorbereitet",
+        "wird vorbereitet",
+        "ist vorbereitet",
+        "war vorbereiten"
+      ],
+      "correctAnswer": "wurde vorbereitet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q043",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Tür ___ von dem Mann ___.",
+      "options": [
+        "wurde geöffnet",
+        "wird öffnen",
+        "war geöffnet",
+        "ist öffnen"
+      ],
+      "correctAnswer": "wurde geöffnet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q044",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Viele Häuser ___ im Jahr 1990 ___.",
+      "options": [
+        "wurden gebaut",
+        "sind gebaut",
+        "werden bauen",
+        "hatten gebaut"
+      ],
+      "correctAnswer": "wurden gebaut",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit (Plural)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q045",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Film ___ gestern Abend ___.",
+      "options": [
+        "wurde gezeigt",
+        "wird zeigen",
+        "ist gezeigt",
+        "hatte gezeigt"
+      ],
+      "correctAnswer": "wurde gezeigt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q046",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Frage ___ nicht ___.",
+      "options": [
+        "wurde beantwortet",
+        "wird beantworten",
+        "ist beantworten",
+        "war beantworten"
+      ],
+      "correctAnswer": "wurde beantwortet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q047",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Problem ___ sofort ___.",
+      "options": [
+        "wurde gelöst",
+        "wird lösen",
+        "ist lösen",
+        "war gelöst"
+      ],
+      "correctAnswer": "wurde gelöst",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q048",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Kinder ___ zur Schule ___.",
+      "options": [
+        "wurden gebracht",
+        "wird bringen",
+        "sind bringen",
+        "war gebracht"
+      ],
+      "correctAnswer": "wurden gebracht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit (Plural)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q049",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Brief ___ schon ___.",
+      "options": [
+        "wurde geschickt",
+        "wird schicken",
+        "ist schicken",
+        "war schicken"
+      ],
+      "correctAnswer": "wurde geschickt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q050",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Regeln ___ erklärt ___.",
+      "options": [
+        "wurden",
+        "wird",
+        "ist",
+        "war"
+      ],
+      "correctAnswer": "wurden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit (Plural)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q051",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Fenster ___ von ihm ___.",
+      "options": [
+        "wurde repariert",
+        "wird reparieren",
+        "ist reparieren",
+        "war reparieren"
+      ],
+      "correctAnswer": "wurde repariert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q052",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Viele Menschen ___ verletzt ___.",
+      "options": [
+        "wurden",
+        "wird",
+        "ist",
+        "war"
+      ],
+      "correctAnswer": "wurden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit (Plural)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q053",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Auto ___ gestern ___.",
+      "options": [
+        "wurde verkauft",
+        "wird verkaufen",
+        "ist verkaufen",
+        "war verkaufen"
+      ],
+      "correctAnswer": "wurde verkauft",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q054",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Aufgabe ___ richtig ___.",
+      "options": [
+        "wurde gemacht",
+        "wird machen",
+        "ist machen",
+        "war machen"
+      ],
+      "correctAnswer": "wurde gemacht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q055",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die E-Mail ___ sofort ___.",
+      "options": [
+        "wurde geschickt",
+        "wird schicken",
+        "ist schicken",
+        "war schicken"
+      ],
+      "correctAnswer": "wurde geschickt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q056",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Straße ___ neu ___.",
+      "options": [
+        "wurde gebaut",
+        "wird bauen",
+        "ist bauen",
+        "war bauen"
+      ],
+      "correctAnswer": "wurde gebaut",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q057",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Fehler ___ schnell ___.",
+      "options": [
+        "wurde gefunden",
+        "wird finden",
+        "ist finden",
+        "war finden"
+      ],
+      "correctAnswer": "wurde gefunden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q058",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Bücher ___ verteilt ___.",
+      "options": [
+        "wurden",
+        "wird",
+        "ist",
+        "war"
+      ],
+      "correctAnswer": "wurden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit (Plural)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q059",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Zimmer ___ gereinigt ___.",
+      "options": [
+        "wurde",
+        "wird",
+        "ist",
+        "war"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q060",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Vertrag ___ unterschrieben ___.",
+      "options": [
+        "wurde",
+        "wird",
+        "ist",
+        "war"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Das Passiv der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q061",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Bauarbeiten _____ letzten Monat endlich _____.",
+      "options": [
+        "wurde beendet",
+        "wurden beendet",
+        "wurde beenden",
+        "wurden beendeten"
+      ],
+      "correctAnswer": "wurden beendet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural Subjekt (Die Bauarbeiten)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q062",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Täter _____ von der Polizei _____.",
+      "options": [
+        "wurde verhaftet",
+        "wurde verhaften",
+        "wurdest verhaftet",
+        "wurden verhaftet"
+      ],
+      "correctAnswer": "wurde verhaftet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (Der Täter)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q063",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Als Kind _____ ich oft von meinen Großeltern _____.",
+      "options": [
+        "wurde besucht",
+        "wurdest besucht",
+        "wurde besuchen",
+        "wurde besuchte"
+      ],
+      "correctAnswer": "wurde besucht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — als Kind (Singular ich)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q064",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Entscheidung _____ ohne große Diskussionen _____.",
+      "options": [
+        "wurden getroffen",
+        "wurde getroffen",
+        "wurde treffen",
+        "wurdet getroffen"
+      ],
+      "correctAnswer": "wurde getroffen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (Die Entscheidung)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q065",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Im Mittelalter _____ viele Burgen _____.",
+      "options": [
+        "wurde gebaut",
+        "wurden gebaut",
+        "wurden bauen",
+        "wurde baute"
+      ],
+      "correctAnswer": "wurden gebaut",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural (viele Burgen)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q066",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Bewerbungsunterlagen _____ rechtzeitig _____.",
+      "options": [
+        "wurden eingereicht",
+        "wurde eingereicht",
+        "wurdet eingereicht",
+        "wurden einreichen"
+      ],
+      "correctAnswer": "wurden eingereicht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural (Die Bewerbungsunterlagen)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q067",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Warum _____ das Projekt gestern nicht _____?",
+      "options": [
+        "wurde genehmigt",
+        "wurden genehmigt",
+        "wurdest genehmigt",
+        "wurde genehmigen"
+      ],
+      "correctAnswer": "wurde genehmigt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (das Projekt)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q068",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Alle Fenster _____ während des Sturms _____.",
+      "options": [
+        "wurden geschlossen",
+        "wurde geschlossen",
+        "wurden schließen",
+        "wurdet geschlossen"
+      ],
+      "correctAnswer": "wurden geschlossen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural (Alle Fenster)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q069",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der alte Vertrag _____ noch einmal _____.",
+      "options": [
+        "wurde geprüft",
+        "wurden geprüft",
+        "wurde prüfen",
+        "wurdest geprüft"
+      ],
+      "correctAnswer": "wurde geprüft",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (Der alte Vertrag)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q070",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Gäste _____ herzlich _____.",
+      "options": [
+        "wurde begrüßt",
+        "wurden begrüßt",
+        "wurden begrüßen",
+        "wurdet begrüßt"
+      ],
+      "correctAnswer": "wurden begrüßt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural (Die Gäste)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q071",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Meine Brieftasche _____ gestern aus dem Auto _____.",
+      "options": [
+        "wurde gestohlen",
+        "wurde stehlen",
+        "wurden gestohlen",
+        "wurdest gestohlen"
+      ],
+      "correctAnswer": "wurde gestohlen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (Meine Brieftasche)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q072",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Prüfungsaufgaben _____ vom Lehrer _____.",
+      "options": [
+        "wurde korrigiert",
+        "wurden korrigiert",
+        "wurden korrigieren",
+        "wurdet korrigiert"
+      ],
+      "correctAnswer": "wurden korrigiert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural (Die Prüfungsaufgaben)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q073",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Im 18. Jahrhundert _____ das Rathaus _____.",
+      "options": [
+        "wurde erbaut",
+        "wurden erbaut",
+        "wurde erbauen",
+        "wurdest erbaut"
+      ],
+      "correctAnswer": "wurde erbaut",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (das Rathaus)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q074",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Möglichkeit _____ nie ernsthaft _____.",
+      "options": [
+        "wurde diskutiert",
+        "wurden diskutiert",
+        "wurdest diskutiert",
+        "wurde diskutieren"
+      ],
+      "correctAnswer": "wurde diskutiert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (Die Möglichkeit)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q075",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Beweise _____ sorgfältig _____.",
+      "options": [
+        "wurde gesammelt",
+        "wurden gesammelt",
+        "wurden sammeln",
+        "wurdet gesammelt"
+      ],
+      "correctAnswer": "wurden gesammelt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural (Die Beweise)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q076",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Nach der Explosion _____ das Gebäude sofort _____.",
+      "options": [
+        "wurde evakuiert",
+        "wurden evakuiert",
+        "wurde evakuieren",
+        "wurdest evakuiert"
+      ],
+      "correctAnswer": "wurde evakuiert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (das Gebäude)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q077",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Frist _____ leider _____.",
+      "options": [
+        "wurde überschritten",
+        "wurden überschritten",
+        "wurdest überschritten",
+        "wurde überschreiten"
+      ],
+      "correctAnswer": "wurde überschritten",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (Die Frist)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q078",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Diese Theorie _____ vor über hundert Jahren _____.",
+      "options": [
+        "wurde entwickelt",
+        "wurden entwickelt",
+        "wurde entwickeln",
+        "wurdest entwickelt"
+      ],
+      "correctAnswer": "wurde entwickelt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Singular (Diese Theorie)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q079",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Teilnehmer _____ in drei Gruppen _____.",
+      "options": [
+        "wurde eingeteilt",
+        "wurden eingeteilt",
+        "wurden einteilen",
+        "wurdet eingeteilt"
+      ],
+      "correctAnswer": "wurden eingeteilt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural (Die Teilnehmer)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q080",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Hausaufgaben _____ bis Montag _____.",
+      "options": [
+        "musste gemacht werden",
+        "mussten gemacht werden",
+        "mussten gemacht wurden",
+        "musste gemacht wurden"
+      ],
+      "correctAnswer": "mussten gemacht werden",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Modalverb (müssen) + Passiv",
+      "difficulty": "medium",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q081",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das neue Krankenhaus _____ im letzten Jahr _____ .",
+      "options": [
+        "wird eröffnet",
+        "wurde eröffnet",
+        "ist eröffnet worden",
+        "war eröffnet"
+      ],
+      "correctAnswer": "wurde eröffnet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — wurde + eröffnet",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q082",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die alten Häuser _____ von den Handwerkern _____ .",
+      "options": [
+        "wurden renoviert",
+        "werden renoviert",
+        "sind renoviert worden",
+        "wurden renovieren"
+      ],
+      "correctAnswer": "wurden renoviert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q083",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Warum _____ du nicht zur Party _____ ?",
+      "options": [
+        "wirst eingeladen",
+        "wurdest eingeladen",
+        "bist eingeladen worden",
+        "warst eingeladen"
+      ],
+      "correctAnswer": "wurdest eingeladen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform (du)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q084",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der Brief _____ gestern _____ .",
+      "options": [
+        "wird abgeschickt",
+        "wurde abgeschickt",
+        "ist abgeschickt worden",
+        "wurde abschicken"
+      ],
+      "correctAnswer": "wurde abgeschickt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q085",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Entscheidung _____ nach langer Diskussion _____ .",
+      "options": [
+        "wird getroffen",
+        "wurde getroffen",
+        "ist getroffen worden",
+        "wurde treffen"
+      ],
+      "correctAnswer": "wurde getroffen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q086",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "_____ die Dokumente schon _____ ?",
+      "options": [
+        "Wurden unterschrieben",
+        "Werden unterschrieben",
+        "Sind unterschrieben worden",
+        "Wurden unterschreiben"
+      ],
+      "correctAnswer": "Wurden unterschrieben",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform (Plural)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q087",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Projekt _____ von einem internationalen Team _____ .",
+      "options": [
+        "wird entwickelt",
+        "wurde entwickelt",
+        "ist entwickelt worden",
+        "wurde entwickeln"
+      ],
+      "correctAnswer": "wurde entwickelt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q088",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Fenster _____ während der Renovierung _____ .",
+      "options": [
+        "werden ausgetauscht",
+        "wurden ausgetauscht",
+        "sind ausgetauscht worden",
+        "wurden austauschen"
+      ],
+      "correctAnswer": "wurden ausgetauscht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q089",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Wann _____ der Vertrag _____ ?",
+      "options": [
+        "wird unterzeichnet",
+        "wurde unterzeichnet",
+        "ist unterzeichnet worden",
+        "wurde unterzeichnen"
+      ],
+      "correctAnswer": "wurde unterzeichnet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q090",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Gäste _____ herzlich vom Gastgeber _____ .",
+      "options": [
+        "werden begrüßt",
+        "wurden begrüßt",
+        "sind begrüßt worden",
+        "wurden begrüßen"
+      ],
+      "correctAnswer": "wurden begrüßt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q091",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Problem _____ nicht sofort _____ .",
+      "options": [
+        "wird gelöst",
+        "wurde gelöst",
+        "ist gelöst worden",
+        "wurde lösen"
+      ],
+      "correctAnswer": "wurde gelöst",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Verneinung",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q092",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "_____ die Ergebnisse schon _____ ?",
+      "options": [
+        "Werden veröffentlicht",
+        "Wurden veröffentlicht",
+        "Sind veröffentlicht worden",
+        "Wurden veröffentlichen"
+      ],
+      "correctAnswer": "Wurden veröffentlicht",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q093",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Der alte Bahnhof _____ vor zehn Jahren _____ .",
+      "options": [
+        "wird abgerissen",
+        "wurde abgerissen",
+        "ist abgerissen worden",
+        "wurde abreißen"
+      ],
+      "correctAnswer": "wurde abgerissen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q094",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Waren _____ sorgfältig _____ .",
+      "options": [
+        "werden verpackt",
+        "wurden verpackt",
+        "sind verpackt worden",
+        "wurden verpacken"
+      ],
+      "correctAnswer": "wurden verpackt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q095",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "_____ du gestern vom Chef _____ ?",
+      "options": [
+        "Wirst angerufen",
+        "Wurdest angerufen",
+        "Bist angerufen worden",
+        "Wurdest anrufen"
+      ],
+      "correctAnswer": "Wurdest angerufen",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform (du)",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q096",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Straße _____ wegen Bauarbeiten _____ .",
+      "options": [
+        "wird gesperrt",
+        "wurde gesperrt",
+        "ist gesperrt worden",
+        "wurde sperren"
+      ],
+      "correctAnswer": "wurde gesperrt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q097",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Das Gemälde _____ von einem berühmten Künstler _____ .",
+      "options": [
+        "wird gemalt",
+        "wurde gemalt",
+        "ist gemalt worden",
+        "wurde malen"
+      ],
+      "correctAnswer": "wurde gemalt",
+      "explanation": "Grammatik-Thema: Passiv Prateritum",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q098",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "_____ die Prüfung schon _____ ?",
+      "options": [
+        "Wird korrigiert",
+        "Wurde korrigiert",
+        "Ist korrigiert worden",
+        "Wurde korrigieren"
+      ],
+      "correctAnswer": "Wurde korrigiert",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Frageform",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q099",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
+      "questionText": "Die Informationen _____ an alle Mitarbeiter _____ .",
+      "options": [
+        "werden weitergeleitet",
+        "wurden weitergeleitet",
+        "sind weitergeleitet worden",
+        "wurden weiterleiten"
+      ],
+      "correctAnswer": "wurden weitergeleitet",
+      "explanation": "Grammatik-Thema: Passiv Prateritum — Plural",
+      "difficulty": "easy",
+      "topicName": "Passiv Prateritum"
+    },
+    {
+      "id": "b2_10_q100",
+      "subjectId": "b2_10",
+      "type": "fill_blank",
       "questionText": "Das Experiment _____ im Labor _____ .",
-      "options": ["wird durchgeführt", "wurde durchgeführt", "ist durchgeführt worden", "wurde durchführen"],
+      "options": [
+        "wird durchgeführt",
+        "wurde durchgeführt",
+        "ist durchgeführt worden",
+        "wurde durchführen"
+      ],
       "correctAnswer": "wurde durchgeführt",
       "explanation": "Grammatik-Thema: Passiv Prateritum",
       "difficulty": "easy",
