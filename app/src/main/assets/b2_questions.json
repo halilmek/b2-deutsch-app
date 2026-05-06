@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "generated": "2026-04-26",
-  "totalQuestions": 2246,
+  "totalQuestions": 2266,
   "topics": {
     "b2_01": {
       "name": "Konnektoren",
@@ -1061,7 +1061,7 @@
     },
     "b2_12": {
       "name": "Konjunktiv II mit Modalverben",
-      "count": 100,
+      "count": 120,
       "questionIds": [
         "b2_12_q001",
         "b2_12_q002",
@@ -1162,7 +1162,27 @@
         "b2_12_q097",
         "b2_12_q098",
         "b2_12_q099",
-        "b2_12_q100"
+        "b2_12_q100",
+        "b2_12_q101",
+        "b2_12_q102",
+        "b2_12_q103",
+        "b2_12_q104",
+        "b2_12_q105",
+        "b2_12_q106",
+        "b2_12_q107",
+        "b2_12_q108",
+        "b2_12_q109",
+        "b2_12_q110",
+        "b2_12_q111",
+        "b2_12_q112",
+        "b2_12_q113",
+        "b2_12_q114",
+        "b2_12_q115",
+        "b2_12_q116",
+        "b2_12_q117",
+        "b2_12_q118",
+        "b2_12_q119",
+        "b2_12_q120"
       ]
     },
     "b2_13": {
@@ -37366,6 +37386,326 @@
       ],
       "correctAnswer": "duerfte",
       "explanation": "Konjunktiv II - Vermutung/Meinung (duerfte = dürfte)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q101",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wenn ich mehr Zeit _____, _____ ich dich besuchen _____.",
+      "options": [
+        "haette / wuerde / koennen",
+        "haette / koennte / besuchen",
+        "haette / koennte / besuchen",
+        "haette / wuerde / besuchen koennen"
+      ],
+      "correctAnswer": "haette / wuerde / besuchen koennen",
+      "explanation": "Konjunktiv II mit Modalverben - Doppelinfinitiv (wuerde + Infinitiv + koennen)",
+      "difficulty": "hard",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q102",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Du _____ fruher aufstehen _____, sonst verpasst du den Zug.",
+      "options": [
+        "solltest / muessen",
+        "solltest",
+        "muesstest / sollen",
+        "muesstest"
+      ],
+      "correctAnswer": "solltest",
+      "explanation": "Konjunktiv II - Ratschlag (solltest = Empfehlung)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q103",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "_____ Sie mir bitte sagen, wo der Bahnhof ist?",
+      "options": [
+        "Wuerden",
+        "Könnten",
+        "Möchten",
+        "Sollten"
+      ],
+      "correctAnswer": "Könnten",
+      "explanation": "Konjunktiv II - Höfliche Bitte (Könnten Sie mir bitte...?)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q104",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Er tut so, als ob er alles besser _____.",
+      "options": [
+        "wusste",
+        "wuessste",
+        "wissen wuerde",
+        "B ve C dogru"
+      ],
+      "correctAnswer": "B ve C dogru",
+      "explanation": "Konjunktiv II - als ob Konstruction (sowohl wuessste als auch wissen würde sind korrekt)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q105",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wir _____ gestern kommen _____, aber wir hatten ein Problem.",
+      "options": [
+        "haetten / koennen",
+        "koennten / haben",
+        "haetten / gekonnt",
+        "haetten / koennen"
+      ],
+      "correctAnswer": "haetten / koennen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv (haetten + Infinitiv + koennen)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q106",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wenn du mich gefragt hattest, _____ ich dir _____ helfen.",
+      "options": [
+        "wuerde / koennen",
+        "haette / koennen",
+        "koennte / haben",
+        "wuerde / gekonnt"
+      ],
+      "correctAnswer": "haette / koennen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv (haette + Infinitiv + koennen)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q107",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Sie _____ die Prufung bestanden _____, wenn sie mehr gelernt hatte.",
+      "options": [
+        "haette / koennen",
+        "wuerde / koennen",
+        "koennte / haben",
+        "haette / gekonnt"
+      ],
+      "correctAnswer": "haette / koennen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv (haette + Partizip + koennen)",
+      "difficulty": "hard",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q108",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "_____ du mir das Buch bitte leihen?",
+      "options": [
+        "Wuerdest",
+        "Könntest",
+        "Solltest",
+        "Muesstest"
+      ],
+      "correctAnswer": "Könntest",
+      "explanation": "Konjunktiv II - Höfliche Bitte (Könntest du mir...?)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q109",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Ich _____ gestern nicht so viel essen _____. Jetzt fuehle ich mich schlecht.",
+      "options": [
+        "sollte / duerfen",
+        "haette / duerfen",
+        "wuerde / duerfen",
+        "muesste / haben"
+      ],
+      "correctAnswer": "haette / duerfen",
+      "explanation": "Konjunktiv II Perfekt - Pişmanlık (hätte + Infinitiv + dürfen)",
+      "difficulty": "hard",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q110",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wenn ich du _____, _____ ich mehr Sport _____.",
+      "options": [
+        "waere / wuerde / machen",
+        "bin / wuerde / machen",
+        "waere / mache / wuerde",
+        "waere / wuerde / gemacht"
+      ],
+      "correctAnswer": "waere / wuerde / machen",
+      "explanation": "Konjunktiv II - Konditionalsatz (wäre + würde + Infinitiv)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q111",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Man _____ hier nicht parken _____. Das ist verboten.",
+      "options": [
+        "duerfte / koennen",
+        "duerfte",
+        "wuerde / duerfen",
+        "koennte / duerfen"
+      ],
+      "correctAnswer": "duerfte",
+      "explanation": "Konjunktiv II - Höfliche Verbotsform (dürfte hier nicht parken = es ist nicht erlaubt)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q112",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Er _____ die E-Mail schicken _____, aber er hat es vergessen.",
+      "options": [
+        "haette / sollen",
+        "sollte / haben",
+        "wuerde / sollen",
+        "haette / gesollt"
+      ],
+      "correctAnswer": "haette / sollen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv (hätte + Infinitiv + sollen)",
+      "difficulty": "hard",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q113",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "_____ wir nicht fruher losfahren _____? Dann waren wir punkttlich.",
+      "options": [
+        "Wuerden / sollen",
+        "Sollten",
+        "Könnten / sollen",
+        "Hätten / sollen"
+      ],
+      "correctAnswer": "Sollten",
+      "explanation": "Konjunktiv II - Vorschlag (Sollten wir nicht früher losfahren?)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q114",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wenn sie mehr Geld _____, _____ sie eine Weltreise _____.",
+      "options": [
+        "haette / wuerde / machen",
+        "haette / koennte / machen",
+        "haette / wuerde / gemacht",
+        "haette / machen / wuerde"
+      ],
+      "correctAnswer": "haette / wuerde / machen",
+      "explanation": "Konjunktiv II - Konditionalsatz (hätte + würde + Infinitiv)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q115",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Du _____ dich besser auf die Prufung vorbereiten _____.",
+      "options": [
+        "haettest / sollen",
+        "solltest",
+        "wuerdest / sollen",
+        "muesstest / haben"
+      ],
+      "correctAnswer": "solltest",
+      "explanation": "Konjunktiv II - Ratschlag (solltest = du solltest)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q116",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "_____ Sie so freundlich sein, das Fenster zu schließen?",
+      "options": [
+        "Wuerden",
+        "Könnten",
+        "Sollten",
+        "Möchten"
+      ],
+      "correctAnswer": "Wuerden",
+      "explanation": "Konjunktiv II - Sehr höfliche Bitte (Würden Sie so freundlich sein...?)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q117",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Ich _____ das nicht _____, wenn ich es gewusst hatte.",
+      "options": [
+        "wuerde / machen",
+        "haette / gemacht",
+        "haette / machen",
+        "koennte / gemacht"
+      ],
+      "correctAnswer": "haette / machen",
+      "explanation": "Konjunktiv II Perfekt - Pişmanlık (hätte + Infinitiv machen)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q118",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Man _____ meinen, er _____ alles _____.",
+      "options": [
+        "koennte / wuerde / wissen",
+        "koennte / wuessste",
+        "wuerde / koennte / wissen",
+        "koennte / haette / gewusst"
+      ],
+      "correctAnswer": "koennte / wuessste",
+      "explanation": "Konjunktiv II - Vermutung mit Konjunktiv (Man könnte meinen, er wüsste alles)",
+      "difficulty": "hard",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q119",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "Wir _____ fruher ankommen _____, wenn der Zug nicht Verspatung gehabt hatte.",
+      "options": [
+        "haetten / koennen",
+        "koennten / haben",
+        "wuerden / koennen",
+        "haetten / gekonnt"
+      ],
+      "correctAnswer": "haetten / koennen",
+      "explanation": "Konjunktiv II Perfekt - Doppelinfinitiv (hätten + ankommen + können)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II mit Modalverben"
+    },
+    {
+      "id": "b2_12_q120",
+      "subjectId": "b2_12",
+      "type": "fill_blank",
+      "questionText": "_____ du bitte leiser sein? Ich muss mich konzentrieren.",
+      "options": [
+        "Wuerdest",
+        "Könntest",
+        "Solltest",
+        "Muesstest"
+      ],
+      "correctAnswer": "Könntest",
+      "explanation": "Konjunktiv II - Höfliche Bitte (Könntest du bitte...?)",
       "difficulty": "easy",
       "topicName": "Konjunktiv II mit Modalverben"
     }
