@@ -126,9 +126,11 @@ class QuizViewModel @Inject constructor(
 
     fun selectAnswer(answer: String) {
         val index = _currentQuestionIndex.value ?: 0
-        val answers = _selectedAnswers.value ?: mutableMapOf()
-        answers[index] = answer
-        _selectedAnswers.value = answers
+        val currentMap = _selectedAnswers.value ?: mutableMapOf()
+        // Create a new map so LiveData sees a change and notifies observers
+        val newMap = currentMap.toMutableMap()
+        newMap[index] = answer
+        _selectedAnswers.value = newMap
     }
 
     fun nextQuestion() {
