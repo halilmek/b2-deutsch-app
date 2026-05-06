@@ -66,8 +66,11 @@ class QuizActiveFragment : Fragment() {
             if (isSubmitting) return@setOnClickListener
 
             val currentQuestion = viewModel.currentQuestion.value
-            if (currentQuestion?.type == "fill_blank") {
-                // For fill_blank: collect text from input fields
+            val isSafeguardFillBlank = binding.tag == "safeguard_fill_blank"
+
+            // fill_blank with no blanks/with options was rendered as MCQ → treat as MCQ
+            if (currentQuestion?.type == "fill_blank" && !isSafeguardFillBlank) {
+                // True fill_blank: collect text from input fields
                 val answer1 = fillBlankAnswer1?.text?.toString()?.trim() ?: ""
                 val answer2 = fillBlankAnswer2?.text?.toString()?.trim() ?: ""
                 val blanks = currentQuestion.questionText.windowed(5).count { it == "_____" }
@@ -80,7 +83,7 @@ class QuizActiveFragment : Fragment() {
                     Toast.makeText(context, "Bitte füllen Sie die Lücke(n) aus", Toast.LENGTH_SHORT).show()
                 }
             } else {
-                // MCQ / T/F: use RadioGroup selection
+                // MCQ / safeguard fill_blank: use RadioGroup selection
                 val selectedId = binding.rgOptions.checkedRadioButtonId
                 if (selectedId != -1) {
                     val selectedAnswer = binding.rgOptions.findViewById<RadioButton>(selectedId)?.text?.toString()
@@ -163,8 +166,13 @@ class QuizActiveFragment : Fragment() {
                     // Also: fill_blank with 0 blanks detected → treat as MCQ
                     if (hasOptions || blanks == 0) {
                         Log.w("QuizActive", "  ⚠️ fill_blank with options/0blanks — treating as MCQ (safeguard)")
-                        renderMCQOptions(question)
+                        // Treat as MCQ for rendering AND for answer handling
+                        val mcqQuestion = question.copy(type = "multiple_choice")
+                        renderMCQOptions(mcqQuestion)
+                        // Store that this is a fill_blank masquerading as MCQ
+                        binding.tag = "safeguard_fill_blank"
                     } else {
+                        binding.tag = null
                         Log.d("QuizActive", "  → fill_blank UI, blanks=$blanks")
                         renderFillBlankUI(question)
                     }
