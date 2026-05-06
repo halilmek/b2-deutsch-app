@@ -48,10 +48,18 @@ class QuizActiveFragment : Fragment() {
         }
         val subjectId = arguments?.getString("subjectId") ?: quizId.substringBeforeLast("_quiz")
 
-        // Only start a new quiz if one isn't already in progress
-        // This prevents restart when rotating the device
-        if (viewModel.currentQuiz.value == null) {
-            Log.d("QuizActive", "Starting fresh quiz: subjectId=$subjectId")
+        // Rotation-safe: only resume if the in-progress quiz matches this subjectId
+        // If a different topic is in progress (e.g. b2_10 from previous Konnektoren session),
+        // start fresh to prevent cross-topic contamination
+        val currentQuiz = viewModel.currentQuiz.value
+        val isSameTopic = currentQuiz != null && (
+            currentQuiz.id == subjectId ||
+            currentQuiz.id.startsWith(subjectId) ||
+            currentQuiz.id == "${subjectId}_quiz" ||
+            currentQuiz.id == "${subjectId}_quiz_1"
+        )
+        if (!isSameTopic) {
+            Log.d("QuizActive", "Starting fresh quiz: subjectId=$subjectId (different topic in progress)")
             viewModel.startQuiz(subjectId)
         } else {
             Log.d("QuizActive", "Resuming existing quiz (rotation safe)")
