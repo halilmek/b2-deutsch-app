@@ -66,7 +66,7 @@ class QuizActiveFragment : Fragment() {
             if (isSubmitting) return@setOnClickListener
 
             val currentQuestion = viewModel.currentQuestion.value
-            val isSafeguardFillBlank = binding.tag == "safeguard_fill_blank"
+            val isSafeguardFillBlank = binding.root.tag == "safeguard_fill_blank"
 
             // fill_blank with no blanks/with options was rendered as MCQ → treat as MCQ
             if (currentQuestion?.type == "fill_blank" && !isSafeguardFillBlank) {
@@ -170,9 +170,9 @@ class QuizActiveFragment : Fragment() {
                         val mcqQuestion = question.copy(type = "multiple_choice")
                         renderMCQOptions(mcqQuestion)
                         // Store that this is a fill_blank masquerading as MCQ
-                        binding.tag = "safeguard_fill_blank"
+                        binding.root.tag = "safeguard_fill_blank"
                     } else {
-                        binding.tag = null
+                        binding.root.tag = null
                         Log.d("QuizActive", "  → fill_blank UI, blanks=$blanks")
                         renderFillBlankUI(question)
                     }
