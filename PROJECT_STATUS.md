@@ -22,7 +22,7 @@
 | 8 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete |
 | 9 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete |
 | 10 | b2_10 | Passiv Präteritum | 100 | 10 | ✅ Complete |
-| 11 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
+| 11 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ✅ Complete |
 | 12 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
 | 13 | b2_13 | Pronomen: einander | 100 | 10 | ⚠️ Placeholder |
 | 14 | b2_14 | Weiterführende Nebensätze | 100 | 10 | ⚠️ Placeholder |
