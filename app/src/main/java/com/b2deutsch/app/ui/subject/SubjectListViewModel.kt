@@ -323,7 +323,7 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "10. Konjunktiv II der Vergangenheit",
             nameShort = "Konjunktiv II Vergangenheit",
-            description = "Der Konjunktiv II der Vergangenheit wird verwendet, um irreale Wünsche und hypothetische Situationen in der Vergangenheit auszudrücken. Er beschreibt, was hätte sein können, aber nicht war.\n\nBeispiele:\n• 'Wenn ich genug gelernt hätte, hätte ich die Prüfung bestanden.'\n• 'Ich hätte das nicht tun sollen.'",
+            description = "🔹 1. Structure (Form)\n\nKonjunktiv II der Vergangenheit is formed as follows:\n\nhätte / wäre + Partizip II\n\nhätte → with most verbs (haben as auxiliary)\nwäre → with motion verbs and sein\n\n👉 Examples:\n• Ich hätte mehr gelernt. (If I had studied more.)\n• Er wäre früher gekommen. (If he had come earlier.)\n\n🔹 2. Areas of Use\n\n✅ a) Unrealised past situations\n• Ich hätte dich angerufen. (But I didn't call.)\n\n✅ b) Regret / criticism\n• Du hättest besser aufpassen sollen. (You should have been more careful.)\n\n✅ c) Conditional sentences (with wenn)\n• Wenn ich mehr Zeit gehabt hätte, wäre ich gekommen.\n\n🔹 3. Use with modal verbs\n\nWith modal verbs the structure is:\n\n👉 hätte + Infinitiv + Modalverb (Partizip II)\n\n• Ich hätte kommen müssen. (I should have come.)\n\n🔹 4. Important Notes\n\n• Unrealised past → not indicative!\n• Mostly used with wenn-clauses.\n• Alternative structures: ohne dass, anstatt dass.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 10,
