@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "generated": "2026-04-26",
-  "totalQuestions": 2206,
+  "totalQuestions": 2226,
   "topics": {
     "b2_01": {
       "name": "Konnektoren",
@@ -955,7 +955,7 @@
     },
     "b2_11": {
       "name": "Konjunktiv II der Vergangenheit",
-      "count": 60,
+      "count": 80,
       "questionIds": [
         "b2_11_q001",
         "b2_11_q002",
@@ -1016,7 +1016,27 @@
         "b2_11_q057",
         "b2_11_q058",
         "b2_11_q059",
-        "b2_11_q060"
+        "b2_11_q060",
+        "b2_11_q061",
+        "b2_11_q062",
+        "b2_11_q063",
+        "b2_11_q064",
+        "b2_11_q065",
+        "b2_11_q066",
+        "b2_11_q067",
+        "b2_11_q068",
+        "b2_11_q069",
+        "b2_11_q070",
+        "b2_11_q071",
+        "b2_11_q072",
+        "b2_11_q073",
+        "b2_11_q074",
+        "b2_11_q075",
+        "b2_11_q076",
+        "b2_11_q077",
+        "b2_11_q078",
+        "b2_11_q079",
+        "b2_11_q080"
       ]
     },
     "b2_12": {
@@ -36647,6 +36667,326 @@
       "correctAnswer": "hätte",
       "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit",
       "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q061",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Wenn ich gestern mehr Zeit ______, ______ ich dir geholfen.",
+      "options": [
+        "hätte / werde",
+        "gehabt hätte / hätte",
+        "hätte / hätte",
+        "habe / würde"
+      ],
+      "correctAnswer": "hätte / hätte",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelform",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q062",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Er ______ das Examen bestimmt bestanden, wenn er mehr gelernt ______.",
+      "options": [
+        "wäre / hätte",
+        "hätte / wäre",
+        "wird / hat",
+        "würde / wäre"
+      ],
+      "correctAnswer": "wäre / hätte",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — motion verb (sein)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q063",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Ich ______ so viel Schokolade nicht ______, wenn ich die Kalorien gewusst hätte.",
+      "options": [
+        "würde / essen",
+        "hätte / gegessen",
+        "habe / gegessen",
+        "wäre / essen"
+      ],
+      "correctAnswer": "hätte / gegessen",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelinfinitiv",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q064",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Wir ______ früher ankommen ______, aber unser Zug hatte Verspätung.",
+      "options": [
+        "hätten / können",
+        "würden / können",
+        "hätten / gekonnt",
+        "wären / können"
+      ],
+      "correctAnswer": "hätten / können",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelinfinitiv (hätten + Infinitiv + können)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q065",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "______ du mir bitte den Schlüssel gegeben?",
+      "options": [
+        "Würdest",
+        "Hättest",
+        "Wärst",
+        "Hast"
+      ],
+      "correctAnswer": "Hättest",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Hättest + Partizip II",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q066",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Wenn sie pünktlicher ______, ______ sie den Anschlussflug nicht verpasst.",
+      "options": [
+        "wäre / hätte",
+        "gewesen wäre / hätte",
+        "ist / hat",
+        "war / würde"
+      ],
+      "correctAnswer": "gewesen wäre / hätte",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Konjunktiv von sein (gewesen wäre)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q067",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Du ______ das Fenster nicht aufmachen ______ – es war doch kalt!",
+      "options": [
+        "solltest / lassen",
+        "hättest / sollen",
+        "hast / gesollt",
+        "wärst / sollen"
+      ],
+      "correctAnswer": "hättest / sollen",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — hättest + Infinitiv + sollen",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q068",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Ich an deiner Stelle ______ ich mich bei ihr entschuldigt.",
+      "options": [
+        "würde",
+        "habe",
+        "hätte",
+        "wäre"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — hätte + Partizip II",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q069",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Wenn ich die Wahrheit ______, ______ ich anders reagiert.",
+      "options": [
+        "wusste / habe",
+        "gewusst hätte / hätte",
+        "weiß / werde",
+        "wüsste / würde"
+      ],
+      "correctAnswer": "gewusst hätte / hätte",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelkonjunktiv",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q070",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "______ Sie so freundlich ______ und mir kurz zugehört?",
+      "options": [
+        "Wären / gewesen",
+        "Hätten / sein",
+        "Würden / sein",
+        "Wären / sein"
+      ],
+      "correctAnswer": "Wären / gewesen",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Wären + Partizip II + gewesen (past politeness form)",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q071",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Die Blumen ______ nicht eingegangen, wenn du sie regelmäßig gegossen ______.",
+      "options": [
+        "wären / hättest",
+        "hätten / wärst",
+        "sind / hast",
+        "würden / würdest"
+      ],
+      "correctAnswer": "wären / hättest",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — motion verb (sein)",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q072",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Peter ______ den Termin nicht vergessen ______, wenn er sich eine Notiz gemacht hätte.",
+      "options": [
+        "hätte / dürfen",
+        "wäre / sollen",
+        "hätte / sollen",
+        "würde / müssen"
+      ],
+      "correctAnswer": "hätte / sollen",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelinfinitiv",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q073",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Was ______ du ______, wenn du damals die Chance gehabt hättest?",
+      "options": [
+        "hättest / getan",
+        "würdest / tun",
+        "hast / getan",
+        "wärst / getan"
+      ],
+      "correctAnswer": "hättest / getan",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — hättest + Partizip II",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q074",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Es ______ besser gewesen, wir ______ früher losgefahren.",
+      "options": [
+        "ist / wären",
+        "wäre / wären",
+        "wird / hätten",
+        "wäre / hätten"
+      ],
+      "correctAnswer": "wäre / hätten",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Es wäre + Partizip II + gewesen",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q075",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Ihr ______ mich anrufen ______, aber ihr habt es vergessen.",
+      "options": [
+        "hättet / sollen",
+        "würdet / sollen",
+        "hättet / gesollt",
+        "wärt / gesollt"
+      ],
+      "correctAnswer": "hättet / sollen",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelinfinitiv",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q076",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Ohne deine Hilfe ______ ich die Prüfung nie geschafft.",
+      "options": [
+        "habe",
+        "würde",
+        "hätte",
+        "wäre"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Ohne + Konjunktiv II",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q077",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Wenn er früher mit dem Rauchen aufgehört ______, ______ er jetzt gesündere Lungen.",
+      "options": [
+        "hat / hat",
+        "hätte / hätte",
+        "würde / wäre",
+        "hatte / würde"
+      ],
+      "correctAnswer": "hätte / hätte",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — hätte + Infinitiv",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q078",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "______ ihr mir bitte die Nachricht weitersagen ______?",
+      "options": [
+        "Würdet / gekonnt",
+        "Hättet / gekonnt",
+        "Wäret / können",
+        "Hättet / können"
+      ],
+      "correctAnswer": "Hättet / können",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelinfinitiv",
+      "difficulty": "medium",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q079",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Sie ______ das Geschenk nicht so teuer ______, wenn sie gewusst hätte, dass du es nicht magst.",
+      "options": [
+        "hätte / gekauft",
+        "wäre / gekauft",
+        "würde / kaufen",
+        "hat / gekauft"
+      ],
+      "correctAnswer": "hätte / gekauft",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Konjunktiv II der Vergangenheit"
+    },
+    {
+      "id": "b2_11_q080",
+      "subjectId": "b2_11",
+      "type": "fill_blank",
+      "questionText": "Man ______ den Unfall vermeiden ______, wenn der Fahrer aufgepasst hätte.",
+      "options": [
+        "hätte / gekonnt",
+        "wäre / gekonnt",
+        "hätte / können",
+        "würde / können"
+      ],
+      "correctAnswer": "hätte / gekonnt",
+      "explanation": "Grammatik-Thema: Konjunktiv II der Vergangenheit — Doppelinfinitiv",
+      "difficulty": "medium",
       "topicName": "Konjunktiv II der Vergangenheit"
     }
   ]
