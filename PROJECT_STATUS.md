@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-05 21:36 UTC
+**Last Updated:** 2026-05-06 19:58 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -12,27 +12,29 @@
 
 | # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
 |---|----------|-----------|-----------|-----------|----------------|
-| 1 | b2_01 | Konnektoren & Verben | ~146 | ~15 | ✅ Complete |
-| 2 | b2_04 | Zeitformen der Vergangenheit | 160 | 16 | ✅ Complete |
-| 3 | b2_05 | Zeitformen der Zukunft | 120 | 12 | ✅ Complete |
-| 4 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete (7 errors fixed) |
-| 5 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete (q101-q200, v1.7) |
-| 6 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete (q101-q200, v1.6) |
-| 7 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete (q001-q100, v2.0) + 10 Lerntipps — nichts, nie/niemals, niemand, kein, nirgends, weder…noch, nicht nur…sondern auch, ohne…zu, noch nie/nicht mehr, keiner |
-| 8 | b2_10 | Passiv Präteritum | 100 | 10 | ⚠️ Placeholder |
-| 9 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
-| 10 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
-| 11 | b2_13 | Pronomen: einander | 100 | 10 | ⚠️ Placeholder |
-| 12 | b2_14 | Weiterführende Nebensätze | 100 | 10 | ⚠️ Placeholder |
-| 13 | b2_15 | Präpositionen mit Genitiv | 100 | 10 | ⚠️ Placeholder |
-| 14 | b2_16 | je und desto/umso | 100 | 10 | ⚠️ Placeholder |
-| 15 | b2_17 | Nomen-Verb-Verbindungen | 100 | 10 | ⚠️ Placeholder |
-| 16 | b2_18 | Folgen ausdrücken | 100 | 10 | ⚠️ Placeholder |
-| 17 | b2_19 | Ausdrücke mit Präpositionen | 100 | 10 | ⚠️ Placeholder |
-| 18 | b2_20 | Irreale Konditionalsätze | 100 | 10 | ⚠️ Placeholder |
-| 19 | b2_21 | Relativsätze im Genitiv | 100 | 10 | ⚠️ Placeholder |
-| 20 | b2_22 | Konjunktiv I in der indirekten Rede | 100 | 10 | ⚠️ Placeholder |
-| 21 | b2_23 | Konjunktiv II in irrealen Vergleichssätzen | 100 | 10 | ⚠️ Placeholder |
+| 1 | b2_01 | Konnektoren | ~146 | ~15 | ✅ Complete |
+| 2 | b2_02 | Verben und Ergänzungen | — | — | ⚠️ Placeholder |
+| 3 | b2_03 | Verben und Ergänzungen | ~100 | ~10 | ✅ Complete |
+| 4 | b2_04 | Zeitformen in der Vergangenheit | 160 | 16 | ✅ Complete |
+| 5 | b2_05 | Zeitformen der Zukunft | 120 | 12 | ✅ Complete |
+| 6 | b2_06 | Futur mit werden | 125 | 13 | ✅ Complete |
+| 7 | b2_07 | Angaben im Satz | 100 | 10 | ✅ Complete |
+| 8 | b2_08 | Verneinung mit nicht | 100 | 10 | ✅ Complete |
+| 9 | b2_09 | Negationswörter | 100 | 10 | ✅ Complete |
+| 10 | b2_10 | Passiv Präteritum | 40 | 4 | 🔄 In Progress (3 batches added 2026-05-06) |
+| 11 | b2_11 | Konjunktiv II der Vergangenheit | 100 | 10 | ⚠️ Placeholder |
+| 12 | b2_12 | Konjunktiv II mit Modalverben | 100 | 10 | ⚠️ Placeholder |
+| 13 | b2_13 | Pronomen: einander | 100 | 10 | ⚠️ Placeholder |
+| 14 | b2_14 | Weiterführende Nebensätze | 100 | 10 | ⚠️ Placeholder |
+| 15 | b2_15 | Präpositionen mit Genitiv | 100 | 10 | ⚠️ Placeholder |
+| 16 | b2_16 | je und desto/umso | 100 | 10 | ⚠️ Placeholder |
+| 17 | b2_17 | Nomen-Verb-Verbindungen | 100 | 10 | ⚠️ Placeholder |
+| 18 | b2_18 | Folgen ausdrücken | 100 | 10 | ⚠️ Placeholder |
+| 19 | b2_19 | Ausdrücke mit Präpositionen | 100 | 10 | ⚠️ Placeholder |
+| 20 | b2_20 | Irreale Konditionalsätze | 100 | 10 | ⚠️ Placeholder |
+| 21 | b2_21 | Relativsätze im Genitiv | 100 | 10 | ⚠️ Placeholder |
+| 22 | b2_22 | Konjunktiv I in der indirekten Rede | 100 | 10 | ⚠️ Placeholder |
+| 23 | b2_23 | Konjunktiv II in irrealen Vergleichssätzen | 100 | 10 | ⚠️ Placeholder |
 
 ---
 
@@ -53,61 +55,83 @@
 
 ---
 
-## 🔄 CURRENT SESSION (2026-05-05)
+## 🔄 CURRENT SESSION (2026-05-06)
 
-### 2026-05-05 21:36 — b2_09 Lerntipps Expanded to 10 with Full Beispiele (v2.0)
-- Expanded Lerntipps from 7 to 10: added „nicht nur…sondern auch", „ohne…zu + Infinitiv", „Special: noch nie/nicht mehr/schon lange nicht"
-- Every Lerntipp now has comprehensive Beispiele covering all grammatical cases (N/A/D/Genitiv)
-- Grammar notes and DİKKAT warnings added to each section
+### 2026-05-06 19:58 — b2_10 Batch 3: 20 new single-verb Passiv Prateritum questions
+- Added 20 questions (q001-q020) — "Der Text ___ gestern ___." style
+- Single-verb fill_blank format (was + Partizip II)
+- All answers: A (wurde/wurden)
+- Updated: `app/src/main/assets/b2_10.json` + `b2_questions.json`
+- GitHub: commit `e7c89aa`
+- **⚠️ Firestore sync pending:** `node scripts/import_and_sync.js b2_10`
 
-### 2026-05-05 21:27 — b2_09 COMPLETE at 100 Questions (q081-q100, v1.5)
-- Added q081-q100: ohne, weder...noch, nicht nur...sondern auch, noch nie, nicht mehr, Wo...auch, Als, zeitweise
-- b2_09 fully complete: 100 questions + 7 Lerntipps
+### 2026-05-06 19:54 — b2_10 Batch 2: 20 new two-part Passiv Prateritum questions
+- Added 20 questions (q001-q020) — "Der Bericht ___ gestern von der Sekretärin ___." style
+- Two-part fill_blank format (modal verb structures included)
+- Answers: B or A depending on singular/plural
+- GitHub: commit `6d4aaeb`
+- **⚠️ Firestore sync pending**
 
-### 2026-05-05 21:25 — b2_09 +20 Questions (q061-q080, v1.4)
-- Added q061-q080: weder...noch, jemand/niemand, nichts, niemand, nirgendwo, nie, kein
-- b2_09 now has 80 questions
+### 2026-05-06 19:43 — b2_10 Batch 1: 20 new Passiv Prateritum questions (first batch)
+- Replaced placeholder content with 20 real Passiv Präteritum questions
+- Two-part fill_blank: "Das alte Gebäude _____ im Jahr 1998 abgerissen."
+- All answers: A
+- GitHub: commit `34a9a1e`
 
-### 2026-05-05 21:23 — b2_09 +20 Questions (q041-q060, v1.3)
-- Added q041-q060: nichts/kein/nie/Niemand/nirgendwo/niemals
-- b2_09 now has 60 questions
+### 2026-05-06 19:37 — Bug Fix 3: Quiz topic cross-contamination
+- **Problem:** Navigating from b2_10 → b2_01 showed stale "9. Passiv Präteritum" title
+- **Root cause:** QuizActiveFragment only checked `currentQuiz == null` — if a different topic's quiz was in progress, it would "resume" with old questions while displaying new topic title
+- **Fix:** Added topic ID matching check — if in-progress quiz doesn't match incoming subjectId, start fresh
+- GitHub: commit `b04b7d2`
 
-### 2026-05-05 21:22 — b2_09 +20 Questions (q021-q040)
-- Added q021-q040: nichts/niemand/nirgends/nie contexts
-- b2_09 now has 40 questions (v1.2)
+### 2026-05-06 19:35 — Bug Fix 2: fill_blank questions with options freezing on Next
+- **Problem:** fill_blank questions rendered as MCQ (due to options) still triggered fill_blank logic in btnNext — no answer collected, app seemed frozen
+- **Root cause:** btnNext checked `currentQuestion.type == "fill_blank"` which was still "fill_blank" even when rendered as MCQ radio buttons
+- **Fix:** Added `binding.root.tag = "safeguard_fill_blank"` marker; btnNext checks tag to distinguish true fill_blank from disguised MCQ
+- Also fixed `binding.tag` → `binding.root.tag` (FragmentBinding has no .tag property)
+- GitHub: commit `60df53c`
 
-### 2026-05-05 21:18 — b2_09 Negationswörter Replaced + 7 Lerntipps Added
-- Deleted 100 wrong placeholder questions (Konnektoren content in Negationswörter file)
-- Added 20 real Negationswörter questions (q001-q020, v1.1)
-  - Topics: nichts, nie/niemals, niemand (N/A/D cases), kein, nirgends/nirgendwo, weder…noch, keiner
-  - 7 Lerntipps added: nichts, nie/niemals, niemand, kein, nirgends/nirgendwo, weder…noch, keiner/keine/kein
-- Topic name: "Negationswörter" (subjectId: b2_09)
+### 2026-05-06 19:30 — Bug Fix 1: Answers not saved/tracked in quizzes
+- **Problem:** User selected answers but app didn't save/track them — scores always showed incorrect results
+- **Root cause:** `_selectedAnswers.value = answers` mutated map in place; LiveData doesn't fire when object reference is unchanged
+- **Fix:** Created new map each time: `val newMap = currentMap.toMutableMap(); newMap[index] = answer; _selectedAnswers.value = newMap`
+- GitHub: commit `6b7b053`
 
-### b2_08 Verneinung mit nicht — Expanded to 100 Questions!
-- **v1.2** (initial): 20 questions (q101-q120) — nicht vs kein, Perfekt, nicht...sondern
-- **v1.3**: +20 questions (q121-q140) — Zeitausdrücke, trennbare Verben, Possessivpronomen
-- **v1.4**: +20 questions (q141-q160) — Infinitivsatz, Nomen, Redewendungen, Mastar grupları
-- **v1.5**: +20 questions (q161-q180) — Perfekt, Modalverben, einfache nicht-Fragen
-- **v1.6**: +20 questions (q181-q200) — Perfekt, Nebensatz, Passiv, Infinitivsatz, Relativsatz
-- **Total:** 100 questions across 5 batches, pushed to GitHub
+### 2026-05-06 19:27 — b2_02 title fix
+- **Problem:** Topic 2 showed "b2_02" as raw ID instead of topic name
+- **Fix:** Added missing `"b2_02" to "2. Verben und Ergänzungen"` in `getSubjectTitle()` map
+- GitHub: commit `e289d8c`
 
-### Repository Access
-- Cloned `halilmek/b2-deutsch-app` to `/home/node/.openclaw/workspace/b2-deutsch-app/`
-- Working remotely (no Firebase credentials on server — push from local)
-- GitHub remote access active
+---
+
+## 📋 FIRESTORE SYNC STATUS
+
+| Topic | GitHub | Firestore | Notes |
+|-------|--------|-----------|-------|
+| b2_10 | ✅ Committed | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_10` from local |
+| b2_09 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_09` |
+| b2_08 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_08` |
+
+### Firestore sync command (run from local machine):
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-app-firebase-adminsdk-fbsvc-4aa25c0ca2.json"
+cd /Users/halilozturk/b2-deutsch-app
+node scripts/import_and_sync.js b2_10
+```
 
 ---
 
 ## 📋 REMAINING WORK
 
 ### Immediate (Next Session)
-- [ ] Push b2_08 and b2_09 to Firestore (`node scripts/import_and_sync.js b2_08 b2_09`)
-- [ ] Start b2_10 Passiv Präteritum — generate 100 questions
+- [ ] Firestore sync: `node scripts/import_and_sync.js b2_10` (b2_10 has 3 batches = 60 total questions across updates — latest is the current 20)
+- [ ] Add more questions to b2_10 to reach 100 total (currently 20, need ~80 more)
+- [ ] b2_02 placeholder — generate real content
 - [ ] Continue with b2_11 through b2_23 — all have placeholder questions
 
 ### Pending Topics (need content generation)
-- b2_09 Negationswörter — kein, nichts, nie, niemand, etc.
-- b2_10 Passiv Präteritum
+- b2_02 Verben und Ergänzungen — ⚠️ placeholder
+- b2_10 Passiv Präteritum — 20/100, need ~80 more
 - b2_11 Konjunktiv II der Vergangenheit
 - b2_12 Konjunktiv II mit Modalverben
 - b2_13 Pronomen: einander
@@ -122,48 +146,21 @@
 - b2_22 Konjunktiv I in der indirekten Rede
 - b2_23 Konjunktiv II in irrealen Vergleichssätzen
 
-### Infrastructure
-- [ ] Firebase credentials not on server — content pushes done from Halil's local machine
-- [ ] `node scripts/import_and_sync.js` used for Firestore sync
+---
+
+## 🔧 GITHUB COMMITS (2026-05-06)
+
+| Time (UTC) | Commit | Description |
+|------------|--------|-------------|
+| 19:58 | `e7c89aa` | b2_10: 20 new single-verb Passiv Prateritum questions (all A answers) |
+| 19:54 | `6d4aaeb` | b2_10: 20 new two-part Passiv Prateritum questions (modalverb included) |
+| 19:37 | `b04b7d2` | Fix: quiz topic cross-contamination (fresh start if different topic) |
+| 19:35 | `60df53c` | Fix: fill_blank safeguard marker + binding.root.tag |
+| 19:30 | `6b7b053` | Fix: selectAnswer LiveData map mutation (new map reference) |
+| 19:27 | `e289d8c` | Fix: b2_02 title mapping missing |
+| 19:19 | `34a9a1e` | b2_10: 20 new Passiv Prateritum questions (batch 1) |
 
 ---
 
-## 🚀 HOW TO PUSH NEW QUESTIONS (from local machine)
-
-```bash
-cd /Users/halilozturk/b2-deutsch-app
-
-# Push Topic 8 (b2_08) to GitHub + Firestore
-node scripts/import_and_sync.js b2_08
-
-# Push multiple topics
-node scripts/import_and_sync.js b2_08 b2_09
-
-# Push ALL topics
-node scripts/import_and_sync.js
-```
-
----
-
-## 🔧 GITHUB COMMITS
-
-| Date | Commit | Description |
-|------|--------|-------------|
-| 2026-05-05 | `bff6569` | b2_08: add 20 nicht questions q181-q200 (Perfekt, Nebensatz, Passiv, Infinitivsatz, v1.6) |
-| 2026-05-05 | `a59dc8f` | b2_08: add 20 nicht questions q161-q180 (v1.5) |
-| 2026-05-05 | `89d19d8` | b2_08: add 20 nicht questions q141-q160 (Infinitivsatz, Nomen, Redewendungen, v1.4) |
-| 2026-05-05 | `9c8649a` | b2_08: add 20 nicht questions q121-q140 (v1.3) |
-| 2026-05-05 | `8132bde` | docs: PROJECT_STATUS - b2_08 trimmed to 20 questions (v1.2) |
-| 2026-05-03 | `2b55dfc` | SubjectDetailFragment: fix dynamic quiz count computation |
-| 2026-05-01 | `178e705` | b2_07: 40 TEKAMO questions (q121-q160) |
-| 2026-05-01 | `40b8ff2` | b2_07: trimmed to 20 Huma questions only |
-| 2026-05-01 | `bcbf267` | 760 fill_blank→multiple_choice across 19 files |
-| 2026-05-01 | `a02eb02` | b2_06: 7 Futur grammar errors fixed |
-| 2026-05-01 | `549e107` | b2_06: 25 new MCQ added (q101-q125) |
-| 2026-05-01 | `c8aad35` | Topic numbering fixed |
-| 2026-04-29 | — | Dynamic quizCount + Futur mit werden generated |
-
----
-
-_Last updated: 2026-05-05 21:04 UTC_
+_Last updated: 2026-05-06 19:58 UTC_
 _Update after: every topic content change, every bug fix, every new Firebase push_
