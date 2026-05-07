@@ -440,7 +440,8 @@ German genitive prepositions require nouns to be in the Genitive case. They are 
 
 • These prepositions often appear in reading comprehension texts (formal articles, official letters).
 • In writing tasks, using genitive prepositions shows advanced grammar knowledge.
-• Remember: nouns after these prepositions ALWAYS get the genitive article (des, der, etc.)."""
+• Remember: nouns after these prepositions ALWAYS get the genitive article (des, der, etc.).
+            """
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 14,
