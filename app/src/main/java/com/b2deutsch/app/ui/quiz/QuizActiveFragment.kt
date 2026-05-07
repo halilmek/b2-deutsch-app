@@ -115,8 +115,9 @@ class QuizActiveFragment : Fragment() {
 
             isSubmitting = true
             val currentQuestion = viewModel.currentQuestion.value
+            val isSafeguardFillBlank = binding.root.tag == "safeguard_fill_blank"
 
-            if (currentQuestion?.type == "fill_blank") {
+            if (currentQuestion?.type == "fill_blank" && !isSafeguardFillBlank) {
                 val answer1 = fillBlankAnswer1?.text?.toString()?.trim() ?: ""
                 val answer2 = fillBlankAnswer2?.text?.toString()?.trim() ?: ""
                 val blanks = currentQuestion.questionText.windowed(5).count { it == "_____" }
