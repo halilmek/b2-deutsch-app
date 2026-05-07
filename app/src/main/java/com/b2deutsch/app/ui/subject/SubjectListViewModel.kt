@@ -399,7 +399,7 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "14. Präpositionen mit Genitiv",
             nameShort = "Genitiv-Präpositionen",
-            description = """🔹 What are Präpositionen mit Genitiv?
+            description = "🔹 What are Präpositionen mit Genitiv?
 
 German genitive prepositions require nouns to be in the Genitive case. They are common in formal writing and B2 exams.
 
@@ -440,8 +440,7 @@ German genitive prepositions require nouns to be in the Genitive case. They are 
 
 • These prepositions often appear in reading comprehension texts (formal articles, official letters).
 • In writing tasks, using genitive prepositions shows advanced grammar knowledge.
-• Remember: nouns after these prepositions ALWAYS get the genitive article (des, der, etc.).
-            """
+• Remember: nouns after these prepositions ALWAYS get the genitive article (des, der, etc.).",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 14,
