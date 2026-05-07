@@ -399,10 +399,13 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "14. Präpositionen mit Genitiv",
             nameShort = "Genitiv-Präpositionen",
-            description = "🔹 What are Präpositionen mit Genitiv?
-\nGerman genitive prepositions require nouns to be in the Genitive case. They are common in formal writing and B2 exams.
-\n🔹 Prepositions and Their Meanings
-\n| Preposition | Meaning (English) | Example |
+            description = """🔹 What are Präpositionen mit Genitiv?
+
+German genitive prepositions require nouns to be in the Genitive case. They are common in formal writing and B2 exams.
+
+🔹 Prepositions and Their Meanings
+
+| Preposition | Meaning (English) | Example |
 |------------|------------------|---------|
 | anstatt / statt | instead of | Statt des Regens kam die Sonne. |
 | aufgrund | because of / due to | Aufgrund des Lärms konnte ich nicht schlafen. |
@@ -427,14 +430,17 @@ class SubjectListViewModel @Inject constructor(
 | jenseits | on the other side of | Jenseits der Grenze beginnt ein anderes Land. |
 
 🔹 Important Grammar Rules
-\n• All these prepositions GOVERN THE GENITIVE CASE.
+
+• All these prepositions GOVERN THE GENITIVE CASE.
 • Most are used in written/formal German.
 • In spoken German, some alternatives are preferred (e.g., 'wegen' can also be used with Dative in informal speech).
 • Watch the article contractions: trotz + des = trotz des, während + der = während der.
-\n🔹 B2 Exam Tips
-\n• These prepositions often appear in reading comprehension texts (formal articles, official letters).
+
+🔹 B2 Exam Tips
+
+• These prepositions often appear in reading comprehension texts (formal articles, official letters).
 • In writing tasks, using genitive prepositions shows advanced grammar knowledge.
-• Remember: nouns after these prepositions ALWAYS get the genitive article (des, der, etc.)."
+• Remember: nouns after these prepositions ALWAYS get the genitive article (des, der, etc.)."""
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 14,
