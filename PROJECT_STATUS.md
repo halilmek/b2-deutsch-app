@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-06 21:51 UTC
+**Last Updated:** 2026-05-07 19:04 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -39,6 +39,13 @@
 ---
 
 ## ✅ COMPLETED (from previous sessions)
+
+### 2026-05-07 — Firestore Sync Session
+- Ran `node scripts/import_and_sync.js b2_14`
+- Firebase sync succeeded ✅
+- GitHub push FAILED ❌ — "Could not get SHA for app/src/main/assets/b2_14.json" (401 Bad Credentials — token issue from sandbox)
+- Note: GitHub content is already up-to-date from May 6th commits (`f72fc8c`, `bf4ef4e`, etc.)
+- All other topics (b2_08–b2_13) still pending Firestore sync
 
 ### 2026-05-01 — Bug Fixing Spree
 - b2_07 question ID bug fixed (0 questions showing)
@@ -118,7 +125,7 @@
 | b2_11 | ✅ (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_11` |
 | b2_12 | ✅ (120 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_12` |
 | b2_13 | ✅ (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_13` |
-| b2_14 | ✅ (100 qs) | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_14` |
+| b2_14 | ✅ (100 qs) | ✅ Done (Firebase) | GitHub already current from May-06 commits |
 | b2_09 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_09` |
 | b2_08 | ✅ | ⚠️ Pending | Run `node scripts/import_and_sync.js b2_08` |
 
@@ -126,8 +133,10 @@
 ```bash
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-app-firebase-adminsdk-fbsvc-4aa25c0ca2.json"
 cd /Users/halilozturk/b2-deutsch-app
-node scripts/import_and_sync.js b2_10 b2_11 b2_12 b2_13 b2_14
+node scripts/import_and_sync.js b2_08 b2_09 b2_10 b2_11 b2_12 b2_13
 ```
+
+> ⚠️ b2_14 already synced to Firebase on 2026-05-07. Skip it.
 
 ---
 
@@ -191,5 +200,5 @@ node scripts/import_and_sync.js b2_10 b2_11 b2_12 b2_13 b2_14
 
 ---
 
-_Last updated: 2026-05-06 21:51 UTC_
+_Last updated: 2026-05-07 19:04 UTC_
 _Update after: every topic content change, every bug fix, every new Firebase push_

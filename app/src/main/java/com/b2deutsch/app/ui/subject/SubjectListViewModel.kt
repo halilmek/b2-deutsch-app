@@ -399,7 +399,42 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "14. Präpositionen mit Genitiv",
             nameShort = "Genitiv-Präpositionen",
-            description = "Einige Präpositionen im Deutschen verlangen den Genitiv. Diese werden besonders in formellen Texten und beim Schreiben von Aufsätzen verwendet. In der B2-Prüfung ist die korrekte Verwendung wichtig.\n\nBeispiele:\n• 'Trotz des Regens bin ich gekommen.' (trotz + Genitiv)\n• 'Während des Sommers bin ich immer im Urlaub.'",
+            description = "🔹 What are Präpositionen mit Genitiv?
+\nGerman genitive prepositions require nouns to be in the Genitive case. They are common in formal writing and B2 exams.
+\n🔹 Prepositions and Their Meanings
+\n| Preposition | Meaning (English) | Example |
+|------------|------------------|---------|
+| anstatt / statt | instead of | Statt des Regens kam die Sonne. |
+| aufgrund | because of / due to | Aufgrund des Lärms konnte ich nicht schlafen. |
+| außerhalb | outside (of) | Außerhalb der Stadt ist es ruhig. |
+| innerhalb | inside (of) / within | Innerhalb eines Jahres lernte er Deutsch. |
+| trotz | despite | Trotz des Verbots kamen viele Leute. |
+| während | during | Während des Unterrichts ist das Handy aus. |
+| wegen | because of / due to | Wegen des Unfalls gab es Stau. |
+| dank | thanks to | Dank seines Einsatzes gewannen wir. |
+| laut | according to | Laut des Berichts ist alles in Ordnung. |
+| mittels | by means of | Mittels eines Tricks öffnete er die Tür. |
+| mangels | for lack of | Mangels Beweisen wurde er freigesprochen. |
+| anlässlich | on the occasion of | Anlässlich seines Geburtstags gab es ein Fest. |
+| bezüglich | regarding / concerning | Bezüglich Ihrer Anfrage senden wir Unterlagen. |
+| hinsichtlich | with regard to | Hinsichtlich der Qualität gibt es keine Mängel. |
+| seitens | on the part of | Seitens der Firma gab es keine Einwände. |
+| unweit | not far from | Unweit des Bahnhofs steht ein Hotel. |
+| anhand | by means of / with the help of | Anhand der Daten wurde alles klar. |
+| infolge | as a result of | Infolge des Unfalls gab es Stau. |
+| angesichts | in view of / given | Angesichts der Lage mussten wir handeln. |
+| diesseits | on this side of | Diesseits des Flusses steht ein Bauernhof. |
+| jenseits | on the other side of | Jenseits der Grenze beginnt ein anderes Land. |
+
+🔹 Important Grammar Rules
+\n• All these prepositions GOVERN THE GENITIVE CASE.
+• Most are used in written/formal German.
+• In spoken German, some alternatives are preferred (e.g., 'wegen' can also be used with Dative in informal speech).
+• Watch the article contractions: trotz + des = trotz des, während + der = während der.
+\n🔹 B2 Exam Tips
+\n• These prepositions often appear in reading comprehension texts (formal articles, official letters).
+• In writing tasks, using genitive prepositions shows advanced grammar knowledge.
+• Remember: nouns after these prepositions ALWAYS get the genitive article (des, der, etc.)."
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 14,
