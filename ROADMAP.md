@@ -75,6 +75,7 @@ After every task, update ROADMAP.md with:
 ### ✅ Completed
 - [x] `b2_17`: 100 Nomen-Verb-Verbindungen questions (original 20 + 80 new from 4 tests) — added 2026-05-12
 - [x] `b2_17`: topicName ✅, description ✅
+- [x] `b2_18`: expanded description with full grammar summary (Folgen ausdrücken), tips translated to English — 2026-05-12
 
 ### 🚨 Pending Fixes
 - [ ] `b2_16`: topicName wrong (says "Nomen-Verb-Verbindungen", should be "je und desto/umso + Komparativ")
