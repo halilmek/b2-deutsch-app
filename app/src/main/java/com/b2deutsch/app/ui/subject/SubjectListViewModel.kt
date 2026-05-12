@@ -521,17 +521,17 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "20. Relativsätze im Genitiv",
             nameShort = "Relativsätze Genitiv",
-            description = "Relativsätze im Genitiv werden verwendet, um Nomen zu beschreiben, die ein Genitivattribut erfordern. Sie sind typisch für formelle Texte und sollten in der B2-Prüfung beherrscht werden.\n\nBeispiele:\n• 'Das ist der Mann, dessen Auto ich gefahren habe.'\n• 'Die Studentin, deren Prüfung ich korrigiert habe, ist krank.'",
+            description = "📚 'Relativsätze im Genitiv' (Relative Clauses in Genitive / Belirteç Cümlelerinde Genitif) are used to express possession or belonging. They refer to a noun in the main clause (Bezugswort) and give additional information about who owns something or how something relates.\n\n📋 Relativpronomen im Genitiv — Overview\n\n• Maskulinum → dessen\n  Example: 'Der Mann, dessen Auto kaputt ist, ...' (The man whose car is broken)\n\n• Femininum → deren\n  Example: 'Die Frau, deren Buch ich lese, ...' (The woman whose book I am reading)\n\n• Neutrum → dessen\n  Example: 'Das Kind, dessen Spielzeug fehlt, ...' (The child whose toy is missing)\n\n• Plural → deren\n  Example: 'Die Leute, deren Hunde bellen, ...' (The people whose dogs are barking)\n\n🔸 When to Use Relativsätze im Genitiv\n\n• Expressing possession/belonging:\n  'Das Auto des Mannes steht vor der Tür.' → 'Der Mann, dessen Auto vor der Tür steht, ...'\n\n• Reformulating with possessive articles:\n  'Seine Eltern kommen aus der Türkei.' → 'Fatih Akin, dessen Eltern aus der Türkei kommen, ...'\n\n• After prepositions with Genitiv reference:\n  'Erika, in deren Schwester Max verliebt ist, ...' (verliebt sein in + Akkusativ, but 'deren' shows Genitive belonging)\n\n⚠️ Important for B2 Exams:\n• dessen/deren never changes — always stays in Genitiv regardless of the following noun's case\n• Relativsatz is a Nebensatz → conjugated verb goes to the end\n• After prepositions: preposition + Relativpronomen: 'von dessen', 'in deren', 'mit deren'",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 20,
             quizCount = 0,
             tips = listOf(
-                "DESSEN (maskulin/neutral) = whose (bei dem Mann)",
-                "DEREN (feminin/plural) = whose (bei der Frau)",
-                "Genitiv nachgestellt: der Mann, dessen Auto...",
-                "Wichtig: Deklination von dessen/deren beachten!",
-                "Im B2-Exam: oft in formellen Lesetexten"
+                "DESSEN = whose (maskulin/neutral) — for men, objects",
+                "DEREN = whose (feminin/plural) — for women, groups",
+                "dessen/deren stays in Genitiv regardless of following noun's case",
+                "Verb goes to the end (Nebensatz)",
+                "After prepositions: von dessen, in deren, mit deren"
             )
         ),
         // 22. Konjunktiv I in der indirekten Rede
