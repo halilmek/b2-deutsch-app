@@ -802,6 +802,391 @@ class SubjectListViewModel @Inject constructor(
     )
 
     private fun getA1Subjects(): List<Subject> = listOf(
+        // 1. Verben konjugieren (sein, haben, werden)
+        Subject(
+            id = "a1_01",
+            level = "A1",
+            name = "1. Verben konjugieren (sein, haben, werden)",
+            nameShort = "Verben konjugieren",
+            description = "Im A1-Level lernst du die wichtigsten Verben im Präsens zu konjugieren: sein, haben und werden. Diese Verben werden im Alltag sehr häufig verwendet.
+
+SEIN (to be): ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie sind
+HABEN (to have): ich habe, du hast, er hat, wir haben, ihr habt, sie haben
+WERDEN (to become): ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden
+
+Diese drei Verben sind die Basis für fast alle deutschen Sätze.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 1,
+            quizCount = 5,
+            tips = listOf(
+                "SEIN: ich bin, du bist, er ist, wir sind, ihr seid, sie sind",
+                "HABEN: ich habe, du hast, er hat, wir haben, ihr habt, sie haben",
+                "WERDEN: ich werde, du wirst, er wird, wir werden, ihr werdet, sie werden",
+                "SEIN und HABEN sind unregelmäßig — auswendig lernen!",
+                "In Perfekt: sein-Haben + Partizip II",
+                "Frage: Was hast du gemacht? (What did you do?)"
+            )
+        ),
+        // 2. Nomen und Artikel
+        Subject(
+            id = "a1_02",
+            level = "A1",
+            name = "2. Nomen und Artikel",
+            nameShort = "Nomen und Artikel",
+            description = "Lerne die Artikel (der, die, das) und die Pluralformen der Nomen im Deutschen.
+
+DER (maskulin): der Mann, der Tisch, der Hund
+DIE (feminin): die Frau, die Katze, die Schule
+DAS (sächlich): das Buch, das Kind, das Auto
+
+Pluralformen: der Mann → die Männer, das Kind → die Kinder, das Buch → die Bücher",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 2,
+            quizCount = 5,
+            tips = listOf(
+                "DER = maskulin (der Mann), DIE = feminin (die Frau), DAS = sächlich (das Kind)",
+                "Plural: -e, -er, -en, -s: das Buch → die Bücher, der Tisch → die Tische",
+                "Unbestimmter Artikel: ein, eine, ein (a/an)",
+                "Bestimmter Artikel: der, die, das (the)",
+                "Lerne Nomen MIT Artikel: das Buch, nicht nur Buch",
+                "Farben: rot, blau, grün, gelb, schwarz, weiß — immer kleingeschrieben"
+            )
+        ),
+        // 3. Präsens (Gegenwart)
+        Subject(
+            id = "a1_03",
+            level = "A1",
+            name = "3. Präsens (Gegenwart)",
+            nameShort = "Präsens",
+            description = "Das Präsens beschreibt Handlungen in der Gegenwart. Regelmäßige und unregelmäßige Verben im Präsens.
+
+REGELMÄSSIG (regular): arbeiten → ich arbeite, du arbeitest, er arbeitet
+UNREGELMÄSSIG (irregular): lesen → ich lese, du liest, er liest; fahren → ich fahre, du fährst, er fährt
+
+Wichtige unregelmäßige Verben: lesen, fahren, schlafen, nehmen, sehen, wissen",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 3,
+            quizCount = 5,
+            tips = listOf(
+                "Regelmäßige Verben: -e, -st, -t, -en, -t, -en",
+                "Unregelmäßige Verben: Vokalwechsel (a→ä, e→i, e→ie)",
+                "lesen: ich lese, du liest, er liest (e→i)",
+                "fahren: ich fahre, du fährst, er fährt (a→ä)",
+                "sprechen: ich spreche, du sprichst, er spricht (e→i)",
+                "Im A1 wichtig: Präsens für Alltag, Pläne und Gewohnheiten"
+            )
+        ),
+        // 4. Akkusativ (Wen-Fall)
+        Subject(
+            id = "a1_04",
+            level = "A1",
+            name = "4. Akkusativ (Wen-Fall)",
+            nameShort = "Akkusativ",
+            description = "Der Akkusativ beschreibt die direkten Objects einer Handlung. Lerne die Akkusativformen der Artikel.
+
+BESTIMMT (the): der → den, die → die, das → das, den → den
+UNBESTIMMT (a): ein → einen, eine → eine, ein → ein
+
+Verben mit Akkusativ: sehen, hören, kennen, lesen, machen, nehmen
+
+Beispiele: Ich sehe den Mann. (I see the man.) Du liest das Buch. (You read the book.)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 4,
+            quizCount = 5,
+            tips = listOf(
+                "BESTIMMT: der → den, die → die, das → das, die (Plural) → die",
+                "UNBESTIMMT: ein → einen, eine → eine, ein → ein",
+                "WANN? Frage: Wen? oder Was? → Akkusativ",
+                "Typische Verben: sehen, hören, kennen, lesen, machen, nehmen, brauchen",
+                "Wechselpräpositionen brauchen auch Akkusativ (wohin?): in das Haus → ins Haus",
+                "Maskulin und Neutrum ändern sich im Akkusativ: der → den, das → das"
+            )
+        ),
+        // 5. Dativ (Wem-Fall)
+        Subject(
+            id = "a1_05",
+            level = "A1",
+            name = "5. Dativ (Wem-Fall)",
+            nameShort = "Dativ",
+            description = "Der Dativ beschreibt die indirekten Objects einer Handlung. Lerne die Dativformen der Artikel.
+
+BESTIMMT: der → dem, die → der, das → dem, die (Plural) → den
+UNBESTIMMT: ein → einem, eine → einer, ein → einem
+
+Verben mit Dativ: helfen, danken, geben, zeigen, erklären, antworten
+
+Beispiele: Ich helfe dem Mann. (I help the man.) Sie gibt dem Kind das Buch. (She gives the book to the child.)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 5,
+            quizCount = 5,
+            tips = listOf(
+                "BESTIMMT: der → dem, die → der, das → dem, die (Plural) → den",
+                "UNBESTIMMT: ein → einem, eine → einer, ein → einem",
+                "WANN? Frage: Wem? → Dativ",
+                "Typische Verben: helfen (+D), danken (+D), geben (+D +A), zeigen (+D +A)",
+                "Dativ steht oft nach Präpositionen: aus, bei, mit, nach, von, zu",
+                "Plural Dativ: immer -n am Ende: den Männern, den Kindern, den Büchern"
+            )
+        ),
+        // 6. Präpositionen
+        Subject(
+            id = "a1_06",
+            level = "A1",
+            name = "6. Präpositionen",
+            nameShort = "Präpositionen",
+            description = "Lerne die wichtigsten Präpositionen (in, auf, an, mit, nach, aus, von, zu, bei, für, gegen, um) und ihre Kasus.
+
+FESTE PRÄPOSITIONEN:
+• Akkusativ: für, gegen, um, durch, ohne, bis
+• Dativ: aus, bei, mit, nach, seit, von, zu
+• Wechsel: in, auf, an, über, vor, zwischen, hinter, unter
+
+Beispiele: Ich gehe in die Schule. (wohin → Akkusativ) Ich bin in der Schule. (wo → Dativ)",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 6,
+            quizCount = 5,
+            tips = listOf(
+                "AKKUSATIV fest: für, gegen, um, durch, ohne, bis",
+                "DATIV fest: aus, bei, mit, nach, seit, von, zu",
+                "WECHSELPRÄPOSITIONEN: in, auf, an, über, vor, zwischen, hinter, unter",
+                "WECHSEL: wohin? → Akkusativ | wo? → Dativ",
+                "IN: ich gehe IN die Schule (Akk) | ich bin IN der Schule (Dat)",
+                "ZU: immer Dativ — Ich gehe zum (=zu dem) Arzt. Ich gehe zur (=zu der) Schule."
+            )
+        ),
+        // 7. Verben mit Präpositionen
+        Subject(
+            id = "a1_07",
+            level = "A1",
+            name = "7. Verben mit Präpositionen",
+            nameShort = "Verben + Präpositionen",
+            description = "Einige Verben werden immer mit einer bestimmten Präposition verwendet. Die Präposition bestimmt den Kasus (Akkusativ oder Dativ).
+
+WARTEN AUF (+Akk): Ich warte auf den Bus.
+DENKEN AN (+Akk): Er denkt an seine Familie.
+FREUEN SICH AUF/ÜBER (+Akk): Sie freut sich auf die Reise. / Sie freut sich über das Geschenk.
+SPRECHEN ÜBER (+Akk): Wir sprechen über das Thema.
+SICH ERINNERN AN (+Akk): Ich erinnere mich an den Tag.
+HELFEN BEI (+Dat): Ich helfe bei der Arbeit.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 7,
+            quizCount = 5,
+            tips = listOf(
+                "warten AUF (+Akk): Ich warte auf den Bus.",
+                "denken AN (+Akk): Er denkt an die Familie.",
+                "sprechen ÜBER (+Akk): Wir sprechen über das Problem.",
+                "sich freuen AUF (+Akk): Freude auf die Zukunft",
+                "sich freuen ÜBER (+Akk): Freude über etwas Geschehenes",
+                "helfen BEI (+Dat): Sie hilft bei der Arbeit.",
+                "sich erinnern AN (+Akk): Ich erinnere mich an dich.",
+                "kümmern UM (+Akk): Wir kümmern uns um die Kinder."
+            )
+        ),
+        // 8. Perfekt
+        Subject(
+            id = "a1_08",
+            level = "A1",
+            name = "8. Perfekt",
+            nameShort = "Perfekt",
+            description = "Das Perfekt beschreibt abgeschlossene Handlungen in der Vergangenheit. Bildung: haben oder sein als Hilfsverb + Partizip II.
+
+HABEN-Verben (die meisten): ich habe gemacht, du hast gegessen, er hat gelesen
+SEIN-Verben (Bewegung/Veränderung): ich bin gegangen, du bist gekommen, er ist geblieben
+
+Partizip II: gemacht, gegessen, gelesen, gegangen, gekommen, gesehen, getrunken, geschrieben, gesprochen, gelernt",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 8,
+            quizCount = 5,
+            tips = listOf(
+                "HABEN + Partizip II: für die meisten Verben (trinken → getrunken)",
+                "SEIN + Partizip II: für Bewegung (gehen → gegangen, kommen → gekommen) und Veränderung (werden → geworden, sein → gewesen)",
+                "Regelmäßige Verben: ge- + Stamm + -t: machen → gemacht, spielen → gespielt",
+                "Unregelmäßige Verben: ge- + 3. Form + -en: lesen → gelesen, sehen → gesehen",
+                "Trennbare Verben: am / auf / aus / ein / mit / vor / zurück → Partizip II: aufmachen → aufgemacht",
+                "Frageform: Was hast du gemacht? (What did you do?)"
+            )
+        ),
+        // 9. Modalverben (können, müssen, wollen, dürfen, sollen)
+        Subject(
+            id = "a1_09",
+            level = "A1",
+            name = "9. Modalverben (können, müssen, wollen, dürfen, sollen)",
+            nameShort = "Modalverben",
+            description = "Modalverben ändern die Bedeutung eines Satzes. Sie werden mit einem Infinitiv verwendet.
+
+KÖNNEN (ability): Ich kann Deutsch sprechen. (I can speak German.)
+MÜSSEN (necessity): Ich muss jetzt gehen. (I must go now.)
+WOLLEN (wish): Ich will das machen. (I want to do that.)
+DÜRFEN (permission): Ich darf das machen. (I am allowed to do that.)
+SOLLEN (obligation): Ich soll das tun. (I should do that.)
+
+Konjugation: ich kann, du kannst, er kann, wir können, ihr könnt, sie können",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 9,
+            quizCount = 5,
+            tips = listOf(
+                "KÖNNEN = can/ability: Ich kann schwimmen. (I can swim.)",
+                "MÜSSEN = must/necessity: Ich muss lernen. (I must study.)",
+                "WOLLEN = want/wish: Ich will nach Hause. (I want to go home.)",
+                "DÜRFEN = may/permission: Ich darf hier bleiben. (I may stay here.)",
+                "SOLLEN = should/obligation: Du sollst zum Arzt gehen. (You should go to the doctor.)",
+                "Modalverben stehen an 2. Stelle, Infinitiv am Ende: Ich muss heute Deutsch lernen.",
+                "Konjugation: ich kann, du kannst, er kann, wir können, ihr könnt, sie können"
+            )
+        ),
+        // 10. Sätze bilden (Wortstellung)
+        Subject(
+            id = "a1_10",
+            level = "A1",
+            name = "10. Sätze bilden (Wortstellung)",
+            nameShort = "Satzbildung",
+            description = "Grundlegende Wortstellung im deutschen Satz: Subjekt + Verb + Objekt. Das Verb steht an zweiter Stelle im Hauptsatz.
+
+NORMAL: Ich trinke Kaffee. (Ich [Subjekt] trinke [Verb] Kaffee [Objekt])
+VERB AN 2. STELLE: Heute trinke ich Kaffee. (Angabe + Verb + Subjekt + ...)
+FRAGE: Trinke ich Kaffee? (Verb + Subjekt + ...)
+NEBENSATZ (dass, weil, wenn): ... dass ich Kaffee trinke. (Verb am Ende!)
+
+WICHTIG: Im Nebensatz steht das Verb am Ende!",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 10,
+            quizCount = 5,
+            tips = listOf(
+                "HAUPTSATZ: Subjekt + Verb an 2. Stelle",
+                "Frage: Verb + Subjekt an 1. Stelle? → Trinkst du Kaffee?",
+                "Angabe vorne: Heute trinke ich Kaffee. (Angabe, Verb, Subjekt)",
+                "NEBENSATZ: dass, weil, wenn, als, bevor → Verb am ENDE",
+                "Ich trinke Kaffee. → Ich weiß, dass ich Kaffee trinke. (nicht: dass ich trinke Kaffee)",
+                "Imperfekt Nebensatz: ... weil ich müde war. (Verb: war — am Ende)",
+                "WORTSTELLUNG üben: Immer zuerst Subjekt und Verb finden!"
+            )
+        )
+    )
+
+    private fun getA2Subjects(): List<Subject> = listOf(
+        Subject(
+            id = "a2_01",
+            level = "A2",
+            name = "1. Präteritum (war, hatte, machte)",
+            nameShort = "Präteritum",
+            description = "Das Präteritum wird hauptsächlich in der geschriebenen Sprache und in formellen Situationen verwendet. Die wichtigsten Verben sind sein, haben und die Modalverben. Im Alltag wird es weniger häufig benutzt.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 1,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_02",
+            level = "A2",
+            name = "2. Perfekt (haben/sein + Partizip II)",
+            nameShort = "Perfekt",
+            description = "Das Perfekt ist die wichtigste Vergangenheitsform im Alltag. Verwendung: haben oder sein als Hilfsverb + Partizip II. Die meisten Verben benutzen haben, nur Bewegungsverben und sein/werden benutzen sein.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 2,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_03",
+            level = "A2",
+            name = "3. Verben mit Präpositionen (AC)",
+            nameShort = "Verben + Präpositionen",
+            description = "Bestimmte Verben erfordern bestimmte Präpositionen im Akkusativ oder Dativ: denken an (+A), warten auf (+A), sprechen über (+A), helfen bei (+D), sich freuen über (+A).",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 3,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_04",
+            level = "A2",
+            name = "4. Wechselpräpositionen (in, auf, an, über, unter, vor, zwischen, hinter)",
+            nameShort = "Wechselpräpositionen",
+            description = "Wechselpräpositionen wechseln zwischen Akkusativ (Richtung) und Dativ (Ort): in, auf, an, über, unter, vor, zwischen, hinter. Akkusativ = wohin? Dativ = wo?",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 4,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_05",
+            level = "A2",
+            name = "5. Nebensätze (dass, ob, weil, wenn, als)",
+            nameShort = "Nebensätze",
+            description = "Nebensätze sind von Sätzen eingeleitet durch: dass (dass), ob (ob), weil (weil), wenn (wenn), als (als), bevor (bevor), damit (damit), obwohl (obwohl). Das Verb steht am Satzende.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 5,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_06",
+            level = "A2",
+            name = "6. Reflexive Verben (sich freuen, sich erinnern, sich befinden)",
+            nameShort = "Reflexive Verben",
+            description = "Reflexive Verben: sich freuen über (+A), sich erinnern an (+A), sich befinden in (+D), sich ärgern über (+A), sich interessieren für (+A). Das Reflexivpronomen richtet sich nach der Person und Kasus.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 6,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_07",
+            level = "A2",
+            name = "7. Imperativ (Mach! Mach! Machen Sie!)",
+            nameShort = "Imperativ",
+            description = "Der Imperativ wird verwendet um Anweisungen zu geben: du-Form (Mach!), ihr-Form (Macht!), Sie-Form (Machen Sie!). Der Imperativ wird vor allem in informellen und formellen Kontexten verwendet.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 7,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_08",
+            level = "A2",
+            name = "8. Plusquamperfekt (hatte gemacht, war gegangen)",
+            nameShort = "Plusquamperfekt",
+            description = "Das Plusquamperfekt beschreibt Handlungen, die vor einer anderen vergangenen Handlung stattfanden. Struktur: hatte/war + Partizip II. Es wird oft mit Präteritum oder Perfekt verwendet.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 8,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_09",
+            level = "A2",
+            name = "9. Relativsätze (der, die, das, wo, wer, was)",
+            nameShort = "Relativsätze",
+            description = "Relativsätze werden mit der/die/das eingeleitet und geben zusätzliche Informationen über ein Nomen. Das Verb steht am Ende des Relativsatzes. Die Relativpronomen richten sich nach dem Kasus des Verbs.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 9,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_10",
+            level = "A2",
+            name = "10. Konjunktionen (und, aber, oder, denn, sondern, deshalb, trotzdem)",
+            nameShort = "Konjunktionen",
+            description = "Die wichtigsten Konjunktionen: und (und), aber (aber), oder (oder), denn (denn), sondern (sondern), deshalb (deshalb), trotzdem (trotzdem), daher (daher), außerdem (außerdem).",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 10,
+            quizCount = 0
+        )
+    )
+
+    private fun getA1Subjects(): List<Subject> = listOf(
         Subject(
             id = "a1_01",
             level = "A1",
