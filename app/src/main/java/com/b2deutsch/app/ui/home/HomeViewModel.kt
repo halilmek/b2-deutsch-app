@@ -88,6 +88,7 @@ class HomeViewModel @Inject constructor(
         Level("A2", "A2", "Pre-Intermediate", 2, isLocked = false, hasExams = false),
         Level("B1", "B1", "Intermediate", 3, isLocked = false, hasExams = false),
         Level("B2", "B2", "Upper-Intermediate", 4, isLocked = false, hasExams = false),
-        Level("C1", "C1", "Advanced", 5, isLocked = false, hasExams = true)
+        Level("C1", "C1", "Advanced", 5, isLocked = false, hasExams = true),
+        Level("C2", "C2", "Proficient", 6, isLocked = false, hasExams = false)
     )
 }

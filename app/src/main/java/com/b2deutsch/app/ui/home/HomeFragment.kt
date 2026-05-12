@@ -53,6 +53,13 @@ class HomeFragment : Fragment() {
             onExamsClick = { level ->
                 homeViewModel.setCurrentLevel(level.id)
                 findNavController().navigate(R.id.action_home_to_exams)
+            },
+            onC2Click = { level ->
+                android.widget.Toast.makeText(
+                    requireContext(),
+                    "🔒 C2 - Coming Soon! (Under Construction)",
+                    android.widget.Toast.LENGTH_SHORT
+                ).show()
             }
         )
 
