@@ -53,9 +53,8 @@ After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 - [x] `b2_21`: 100 Relativsätze im Genitiv questions + description + tips ✅
 - [x] `b2_22`: 100 Konjunktiv I questions + description + tips ✅
 - [x] `b2_23`: 100 Konjunktiv II irrealen Vergleichsätze questions + description + tips ✅
-- [x] **C2 button added** to level selector (under construction toast) ✅
+- [x] **HomeViewModel fix**: merge C2 from defaults if not in Firestore (C2 not appearing bug) ✅ (2026-05-12)
 - [x] **10 A1 grammar topics** added (Verben, Nomen/Artikel, Präsens, Akkusativ, Dativ, Präpositionen, Verben+Präpositionen, Perfekt, Modalverben, Satzbildung) ✅
-- [x] **C2 subject entry** added (c2_01 under construction placeholder) ✅
 
 ### 🚨 Pending Fixes
 - [ ] `b2_15`: missing description
