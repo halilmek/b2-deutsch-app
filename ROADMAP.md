@@ -51,7 +51,9 @@ After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 - [x] `b2_19`: 100 Ausdrücke mit Präpositionen questions + description + tips ✅
 - [x] `b2_20`: 100 Irreale Konditionalsätze questions + description + tips ✅
 - [x] `b2_21`: 100 Relativsätze im Genitiv questions + description + tips ✅
-- [x] `b2_23`: description expanded with conjunctions (als ob/wenn/wie) + Konjunktiv II tense rules + tips ✅ (2026-05-12)
+- [x] `b2_22`: 100 Konjunktiv I questions + description + tips ✅
+- [x] `b2_23`: description expanded with als ob/wenn/wie + Konjunktiv II rules + tips ✅
+- [x] **C2 button added** to level selector (under construction toast) ✅
 
 ### 🚨 Pending Fixes
 - [ ] `b2_15`: missing description
@@ -59,7 +61,7 @@ After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 
 ### 📋 Backlog
 - `b2_02`: Has questions but no topic entry in app
-- `b2_22` to `b2_23`: may need questions
+- C2 level: under construction (questions not yet added)
 
 ---
 
