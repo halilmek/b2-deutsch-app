@@ -579,13 +579,112 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "b1_01",
             level = "B1",
-            name = "B1 Grammatik: Perfekt",
-            nameShort = "Perfekt",
-            description = "Das Perfekt wird im Alltag häufig verwendet.",
+            name = "1. Nebensätze (dass, ob, weil, obwohl, damit, bevor, als, wenn)",
+            nameShort = "Nebensätze",
+            description = "B1级从句：dass (that), ob (whether), weil (because), obwohl (although), damit (so that), bevor (before), als (when), wenn (if/when)。动词在句末。",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,
-            quizCount = 5
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_02",
+            level = "B1",
+            name = "2. Konjunktiv II (wäre, hätte, würde, könnte, müsste)",
+            nameShort = "Konjunktiv II",
+            description = "虚拟式II：wäre, hätte, würde, könnte, müsste。用于礼貌请求、假设情况、非现实愿望。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 2,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_03",
+            level = "B1",
+            name = "3. Passiv (wird gemacht, wurde gemacht, ist gemacht worden)",
+            nameShort = "Passiv",
+            description = "被动语态：werden + Partizip II。描述动作而非执行者。时态：Präsens, Präteritum, Perfekt, Plusquamperfekt。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 3,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_04",
+            level = "B1",
+            name = "4. Modalverben im Konjunktiv II (könnte, müsste, würde, dürfte)",
+            nameShort = "Modalverben KII",
+            description = "情态动词虚拟式：könnte (could), müsste (must/might have), würde (would), dürfte (may/might)。用于礼貌假设。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 4,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_05",
+            level = "B1",
+            name = "5. Nominalisierung (machen → die Durchführung)",
+            nameShort = "Nominalisierung",
+            description = "名词化：将动词转换为名词（das + 动词词干 + -ung）。例如：machen → die Durchführung, planen → die Planung。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 5,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_06",
+            level = "B1",
+            name = "6. Relativsätze im Genitiv (deren, dessen, denen)",
+            nameShort = "Relativsätze Genitiv",
+            description = "名词性关系从句：deren (whose/her), dessen (whose/his), denen (to whom)。与第二格形容词连用。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 6,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_07",
+            level = "B1",
+            name = "7. Konnektoren (deshalb, trotzdem, allerdings, moreover, however)",
+            nameShort = "Konnektoren",
+            description = "连接词：deshalb (therefore), trotzdem (nevertheless), allerdings (however), außerdem (additionally), jednak (however)。连接句子和论证。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 7,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_08",
+            level = "B1",
+            name = "8. Perfekt und Präteritum (对比和使用场景)",
+            nameShort = "Perfekt vs Präteritum",
+            description = "完成时与过去时对比：口语用 Perfekt，书面语用 Präteritum。行为动词和sein/haben在口语中的用法。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 8,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_09",
+            level = "B1",
+            name = "9. Verben mit festen Präpositionen (sich erinnern an, bestehen aus, abhängen von)",
+            nameShort = "Feste Präpositionen",
+            description = "固定介词动词：sich erinnern an (+A), bestehen aus (+D), abhängen von (+D), leiden unter (+D), profitieren von (+D)。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 9,
+            quizCount = 0
+        ),
+        Subject(
+            id = "b1_10",
+            level = "B1",
+            name = "10. Partizip I und II als Adjektiv (lesend, gelesen, kommend, gekommen)",
+            nameShort = "Partizipien",
+            description = "分词作形容词：Partizip I (正在进行) 和 Partizip II (已完成)。用于修饰名词：das lesende Kind vs. das gelesene Buch。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 10,
+            quizCount = 0
         )
     )
 
@@ -593,13 +692,112 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "a2_01",
             level = "A2",
-            name = "A2 Grammatik: Präteritum",
+            name = "1. Präteritum (war, hatte, machte)",
             nameShort = "Präteritum",
-            description = "Das Präteritum für die Vergangenheit.",
+            description = "Das Präteritum wird主要用于书面语和正式场合。常用动词 sein, haben 以及行为动词在描述过去时使用。",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,
-            quizCount = 3
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_02",
+            level = "A2",
+            name = "2. Perfekt (haben/sein + Partizip II)",
+            nameShort = "Perfekt",
+            description = "Das Perfekt ist die wichtigste Vergangenheitsform im Alltag. Verwendung: haben oder sein als Hilfsverb + Partizip II.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 2,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_03",
+            level = "A2",
+            name = "3. Verben mit Präpositionen (AC)",
+            nameShort = "Verben + Präpositionen",
+            description = "Bestimmte Verben erfordern bestimmte Präpositionen im Akkusativ oder Dativ: denken an (+A), warten auf (+A), sprechen über (+A), helfen bei (+D).",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 3,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_04",
+            level = "A2",
+            name = "4. Wechselpräpositionen (in, auf, an, über, unter, vor, zwischen, hinter)",
+            nameShort = "Wechselpräpositionen",
+            description = "Wechselpräpositionen wechseln zwischen Akkusativ (Richtung) und Dativ (Ort): Ich gehe in das Haus (Akk.) vs. Ich bin in dem Haus (Dat.).",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 4,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_05",
+            level = "A2",
+            name = "5. Nebensätze (dass, ob, weil, wenn, als)",
+            nameShort = "Nebensätze",
+            description = "Nebensätze sind从句。常用连词：dass (that), ob (if/whether), weil (because), wenn (if/when), als (when). 动词在句末。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 5,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_06",
+            level = "A2",
+            name = "6. Reflexive Verben (sich freuen, sich erinnern, sich befinden)",
+            nameShort = "Reflexive Verben",
+            description = "反身动词：sich freuen über (+A), sich erinnern an (+A), sich befinden in (+D)。反身代词 sich 必须与动词一起使用。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 6,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_07",
+            level = "A2",
+            name = "7. Imperativ (Mach! Mach! Machen Sie!)",
+            nameShort = "Imperativ",
+            description = "命令式：Du-Form (Mach!), ihr-Form (Macht!), Sie-Form (Machen Sie!)。用于给出指令、建议或请求。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 7,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_08",
+            level = "A2",
+            name = "8. Plusquamperfekt (hatte gemacht, war gegangen)",
+            nameShort = "Plusquamperfekt",
+            description = "过去完成时：描述过去的过去。结构：hatte/war + Partizip II。使用情境：在叙述中比 Perfekt 更早发生的动作。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 8,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_09",
+            level = "A2",
+            name = "9. Relativsätze (der, die, das, wo, wer, was)",
+            nameShort = "Relativsätze",
+            description = "关系从句：用 der, die, das, wer, was 引导。动词放在句末。用于修饰名词并提供额外信息。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 9,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a2_10",
+            level = "A2",
+            name = "10. Konjunktionen (und, aber, oder, denn, sondern, deshalb, trotzdem)",
+            nameShort = "Konjunktionen",
+            description = "连词：und (and), aber (but), oder (or), denn (because), sondern (but rather), deshalb (therefore), trotzdem (nevertheless)。连接两个主句或句子成分。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 10,
+            quizCount = 0
         )
     )
 
@@ -720,12 +918,111 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "c2_01",
             level = "C2",
-            name = "C2 Grammatik: Vorläufige Inhalte",
-            nameShort = "C2",
-            description = "C2 Level ist in Vorbereitung. In Kürze werden hier Grammatikthemen verfügbar sein.",
+            name = "1. Konjunktiv I und II in gehobener Schriftsprache",
+            nameShort = "Konjunktiv I/II",
+            description = "C2级虚拟式：间接引语中的虚拟式I；假设和愿望中的虚拟式II。高层次学术和正式写作。",
             category = Constants.Categories.GRAMMAR,
-            iconEmoji = "🔒",
+            iconEmoji = "📝",
             order = 1,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_02",
+            level = "C2",
+            name = "2. Nominalstil und Verbalstil ( stilistische Varianten)",
+            nameShort = "Nominal-/Verbalstil",
+            description = "名词化风格和动词化风格：两种风格的比较和应用。什么时候使用名词化，什么时候使用动词化。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 2,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_03",
+            level = "C2",
+            name = "3. Komplexe Satzgefüge (Mehrfach nebensätze)",
+            nameShort = "Satzgefüge",
+            description = "复合句结构：多个从句的嵌套和连接。识别和构建具有三层以上的句子结构。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 3,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_04",
+            level = "C2",
+            name = "4. Passiversatzformen und Funktionen des Passivs",
+            nameShort = "Passivformen",
+            description = "被动替代形式和被动语态的功能：sein + zu, sich lassen + Infinitiv, man + 主动结构。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 4,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_05",
+            level = "C2",
+            name = "5. Konnektoren für akademische Argumentation (diesbezüglich, hinsichtlich, nonchalance)",
+            nameShort = "Akademische Konnektoren",
+            description = "学术论证连词：hinsichtlich (regarding), diesbezüglich (in this regard), nichtsdestoweniger (nevertheless), obschon (although)。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 5,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_06",
+            level = "C2",
+            name = "6. Partizipialattribute und ihre Umwandlung in Relativsätze",
+            nameShort = "Partizipialattribute",
+            description = "分词定语及其转换：Die am Fenster sitzende Frau → Die Frau, die am Fenster sitzt。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 6,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_07",
+            level = "C2",
+            name = "7. Irreale Vergleichssätze (als ob, als wenn, als)",
+            nameShort = "Irreale Vergleichssätze",
+            description = "非真实比较句：als ob, als wenn, als。描述与现实相反的假设情况和比喻。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 7,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_08",
+            level = "C2",
+            name = "8. Modalverben: Konjunktiv I/II Formen und indirekte Rede",
+            nameShort = "Modalverben indirekte Rede",
+            description = "情态动词虚拟式I/II：间接引语中的形式转换。er könne, sie müsse, man habe, sie dürften。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 8,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_09",
+            level = "C2",
+            name = "9. Textkohäsion: Pronomen, Konnektoren, Kettenbildung",
+            nameShort = "Textkohäsion",
+            description = "文本连贯性：代词、连词、词汇链。确保文本内部连贯性和逻辑流畅性。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 9,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_10",
+            level = "C2",
+            name = "10. Indirekte Rede mit Konjunktiv I (Zeitformen, Angleichung, Übereinstimmung)",
+            nameShort = "Indirekte Rede KI",
+            description = "虚拟式I间接引语：时态形式、时间协调、主从句中的一致性规则。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 10,
             quizCount = 0
         )
     )
@@ -734,13 +1031,112 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "c1_01",
             level = "C1",
-            name = "C1 Grammatik: Subjekterweiterung",
-            nameShort = "Subjekterweiterung",
-            description = "Komplexe Satzstrukturen.",
+            name = "1. Konjunktiv I (er sage, sie komme, man sei)",
+            nameShort = "Konjunktiv I",
+            description = "虚拟式I：用于间接引语。形式：sei, habe, komme, sage, gehe。用于报道新闻、传言、学术语境。",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,
-            quizCount = 4
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_02",
+            level = "C1",
+            name = "2. Konjunktiv II in irrealen Bedingungssätzen (Wenn ich Zeit hätte, würde ich...)",
+            nameShort = "KII Irreale Bedingung",
+            description = "虚拟式II在非真实条件句中：Wenn ich Zeit hätte, würde ich reisen。与过去和现在相反的假设。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 2,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_03",
+            level = "C1",
+            name = "3. Passiversatzformen (sein zu, sich lassen, werden)",
+            nameShort = "Passiversatz",
+            description = "被动替代形式：sein zu + Infinitiv (必须被...), sich lassen + Infinitiv (可以被...), werden 作为独立结构。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 3,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_04",
+            level = "C1",
+            name = "4. Nominalstil (Substantivierung von Verben und Adjektiven)",
+            nameShort = "Nominalstil",
+            description = "名词化风格：将动词和形容词转换为名词以增加文本复杂度。 das Erstellen von (创建), die Durchführung von (执行)。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 4,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_05",
+            level = "C1",
+            name = "5. Syntax: Lange Nebensätze mit mehreren Ebenen",
+            nameShort = "Lange Nebensätze",
+            description = "多层级从句：多个从句嵌套在同一主句中。识别和构建具有多个从句的复杂句子。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 5,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_06",
+            level = "C1",
+            name = "6. Konnektoren für wissenschaftliche Texte (daher, folglich, nicht zuletzt, zum einen...zum anderen)",
+            nameShort = "Wissenschaftliche Konnektoren",
+            description = "学术写作连词：daher (therefore), folglich (consequently), nicht zuletzt (last but not least), zum einen...zum anderen (on the one hand...on the other hand)。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 6,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_07",
+            level = "C1",
+            name = "7. Relativsätze im Genitiv und Dativ (dessen, deren, denen, woran, worüber)",
+            nameShort = "Relativsätze C1",
+            description = "C1级关系从句：名词性和副词性关系词。dessen, deren, denen, woran, worüber, worauf, wobei。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 7,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_08",
+            level = "C1",
+            name = "8. Infinitivkonstruktionen (um zu, ohne zu, statt zu, anstatt zu)",
+            nameShort = "Infinitivkonstruktionen",
+            description = "不定式结构：um zu (为了), ohne zu (没有), statt zu / anstatt zu (而不是)。表达目的和对比。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 8,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_09",
+            level = "C1",
+            name = "9. Modalverben im Konjunktiv I (er könne, sie müsse, man habe)",
+            nameShort = "Modalverben KI",
+            description = "情态动词虚拟式I：er könne, sie müsse, man habe, sie dürfe。用于间接引用情态动词。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 9,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c1_10",
+            level = "C1",
+            name = "10. Partizipialkonstruktionen (把从句压缩为分词短语)",
+            nameShort = "Partizipialkonstruktionen",
+            description = "分词结构：将关系从句压缩为分词短语以增加文本密度。Das auf dem Tisch liegende Buch → The book lying on the table。",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 10,
+            quizCount = 0
         )
     )
 }
