@@ -51,7 +51,7 @@ After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 - [x] `b2_19`: 100 Ausdrücke mit Präpositionen questions + description + tips ✅
 - [x] `b2_20`: 100 Irreale Konditionalsätze questions + description + tips ✅
 - [x] `b2_21`: 100 Relativsätze im Genitiv questions + description + tips ✅
-- [x] `b2_22`: description expanded with full Konjunktiv I grammar + tips ✅ (2026-05-12)
+- [x] `b2_22`: 100 Konjunktiv I questions + description ✅ + tips ✅ (2026-05-12)
 
 ### 🚨 Pending Fixes
 - [ ] `b2_15`: missing description
