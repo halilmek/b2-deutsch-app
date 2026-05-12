@@ -56,7 +56,7 @@ object LocalQuestionBank {
             prefs.edit().putInt(KEY_INIT_VERSION, INIT_VERSION).apply()
         }
 
-        val topicIds = getAllB2TopicIds()
+        val topicIds = getAllB2TopicIds() + getAllA1TopicIds() + getAllA2TopicIds() + getAllB1TopicIds() + getAllC1TopicIds() + getAllC2TopicIds()
 
         topicIds.forEach { subjectId ->
             val fileName = "$subjectId.json"
@@ -337,17 +337,38 @@ object LocalQuestionBank {
         return (1..23).map { "b2_${it.toString().padStart(2, '0')}" }
     }
 
+    private fun getAllA1TopicIds(): List<String> {
+        return (1..10).map { "a1_${it.toString().padStart(2, '0')}" }
+    }
+
+    private fun getAllA2TopicIds(): List<String> {
+        return (1..10).map { "a2_${it.toString().padStart(2, '0')}" }
+    }
+
+    private fun getAllB1TopicIds(): List<String> {
+        return (1..10).map { "b1_${it.toString().padStart(2, '0')}" }
+    }
+
+    private fun getAllC1TopicIds(): List<String> {
+        return (1..10).map { "c1_${it.toString().padStart(2, '0')}" }
+    }
+
+    private fun getAllC2TopicIds(): List<String> {
+        return (1..10).map { "c2_${it.toString().padStart(2, '0')}" }
+    }
+
     /**
      * Get all topic IDs for a given level.
      */
-    fun getAllTopicIds(level: String): List<String> {
+        fun getAllTopicIds(level: String): List<String> {
         val levelUpper = level.uppercase()
         val count = when (levelUpper) {
-            "A1" -> 15
-            "A2" -> 15
-            "B1" -> 15
-            "B2" -> 22
-            "C1" -> 15
+            "A1" -> 10
+            "A2" -> 10
+            "B1" -> 10
+            "B2" -> 23
+            "C1" -> 10
+            "C2" -> 10
             else -> 0
         }
         return (1..count).map { "${levelUpper.lowercase()}_${it.toString().padStart(2, '0')}" }
