@@ -62,26 +62,24 @@ node scripts/import_and_sync.js <module>   # e.g. b2_09, b2_10, etc.
 
 ---
 
-## 📝 Documentation Rule (IMPORTANT)
+## 📝 Documentation Rule
 
 After every task, update ROADMAP.md with:
-1. **WHAT** we did — the feature/fix
-2. **METHOD/TECHNIQUE** — how we did it (patterns, file changes, approach)
-3. **FILES CHANGED** — which files were modified
-
-This way future-me knows HOW we built things, not just WHAT.
+1. **WHAT** we did
+2. **FILES CHANGED**
 
 ---
 
-## 🗺️ Roadmap (Known Issues & Backlog)
+## 🗺️ Roadmap — What's Done & What's Next
+
+### ✅ Completed
+- [x] `b2_17`: 100 Nomen-Verb-Verbindungen questions (original 20 + 80 new from 4 tests) — added 2026-05-12
+- [x] `b2_17`: topicName ✅, description ✅
 
 ### 🚨 Pending Fixes
-- [ ] `b2_16`: topicName says "Nomen-Verb-Verbindungen" but should be "je und desto/umso + Komparativ"
-- [ ] `b2_16`: missing description (Turkish → English grammar explanation)
-- [ ] `b2_15`: missing description (Turkish → English grammar explanation)
-
-### 📝 In Progress
-- [ ] NVV content for `b2_17` (20 questions added ✅, topicName ✅, description ✅)
+- [ ] `b2_16`: topicName wrong (says "Nomen-Verb-Verbindungen", should be "je und desto/umso + Komparativ")
+- [ ] `b2_16`: missing description
+- [ ] `b2_15`: missing description
 
 ### 📋 Backlog
 - `b2_18` to `b2_23`: Placeholder modules, need full content
@@ -89,52 +87,41 @@ This way future-me knows HOW we built things, not just WHAT.
 
 ---
 
-## 📚 Completed Methods/Techniques Log
+## 📚 How We Do Things
 
-### How to add a new topic (b2_XX)
-1. Create `app/src/main/assets/b2_XX.json` with questions array
-2. Add topic entry in `SubjectListViewModel.kt` with:
-   - `id = "b2_XX"`
-   - `topicName` (German)
-   - `description` (Turkish → English grammar explanation)
-   - `tips` (optional study tips)
-3. Add `100` (or custom count) questions in JSON
-4. Sync: `node scripts/import_and_sync.js b2_XX`
-
-### How to fix a topicName or description
-1. Edit `SubjectListViewModel.kt` — find the b2_XX entry
-2. Update `topicName` or `description` field
-3. Commit + push + sync same module
-
-### How to add questions to existing topic
+### Add questions to existing topic
 1. Edit `app/src/main/assets/b2_XX.json`
-2. Add new question objects to the array
+2. Add new question objects to the array (keep `id` unique: `b2_XX_q001`, `b2_XX_q002`, etc.)
+3. Update `totalQuestions` if needed
+4. Commit + push + sync
+
+### Add new topic (b2_XX)
+1. Create `app/src/main/assets/b2_XX.json` with questions array
+2. Add topic entry in `SubjectListViewModel.kt` with id, topicName, description, tips
+3. Commit + push + sync
+
+### Fix topicName or description
+1. Edit `SubjectListViewModel.kt` — find the b2_XX entry
+2. Update the field
 3. Commit + push + sync
 
 ---
 
-## 🧠 How to Make Me Ready Each Session
+## 🧠 Session Start
 
-### At session start:
-> "Ready for b2-deutsch-app. Token: [TOKEN]"
+Say: "Ready for b2-deutsch-app. Token: [TOKEN]"
 
-I will:
-1. Read `TOOLS.md` for project paths and state
-2. Read `ROADMAP.md` for current backlog
-3. Configure git remote with provided token
-
-### Give me a task directly:
-> "Fix b2_16 topicName and add description" → I do it, push, you pull + sync.
+I will configure git and start working.
 
 ---
 
-## 📄 Key Files in Sandbox
+## 📄 Key Files
 
 ```
 b2-deutsch-app/
 ├── app/src/main/assets/          # b2_XX.json — question data
 ├── app/src/main/java/.../
-│   └── SubjectListViewModel.kt   # topic names + descriptions + tips
+│   └── SubjectListViewModel.kt   # topic names + descriptions
 └── scripts/
     └── import_and_sync.js        # Firebase sync script
 ```
