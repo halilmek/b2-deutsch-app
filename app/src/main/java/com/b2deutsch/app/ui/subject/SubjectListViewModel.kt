@@ -559,17 +559,17 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "22. Konjunktiv II in irrealen Vergleichsätzen",
             nameShort = "Irreale Vergleiche",
-            description = "Irreale Vergleichssätze werden mit 'als ob' oder 'als wenn' eingeleitet und beschreiben hypothetische Situationen. Das Verb steht im Konjunktiv II am Ende des Satzes.\n\nBeispiele:\n• 'Er sieht aus, als ob er krank wäre.' (Konjunktiv II)\n• 'Sie spricht, als wenn sie Deutscher wäre.'",
+            description = "📚 'Konjunktiv II in irrealen Vergleichssaetzen' (Unreal Comparative Clauses / Gercek disi karsilastirma cumleleri) are used to compare a situation with something that is not real or hypothetical.\n\n🔗 Conjunctions\n\n• als ob + Nebensatz → as if / sanki (verb at end)\n  Example: 'Er tut so, als ob er alles wuesste.' (He acts as if he knew everything)\n\n• als wenn + Nebensatz → as if / sanki (same meaning as als ob, verb at end)\n  Example: 'Sie spricht, als wenn sie Deutscher waere.'\n\n• als + direct (no Nebensatz) → verb immediately after als\n  Example: 'Er tut so, als wuesste er alles.' (same meaning, different structure)\n\n• wie wenn + Nebensatz → as if / nasil ki (similar to als ob)\n\n📐 Structure Rules\n\n• als ob / als wenn / wie wenn → verb goes to the END (Nebensatz)\n• als (alone) → verb immediately after als (no Nebensatz)\n\n⏰ Konjunktiv II Tense Usage\n\n• Gegenwart (Present comparison):\n  'Sie sieht aus, als ob sie krank waere.' (She looks as if she were sick)\n\n• Vergangenheit (Past comparison — Konjunktiv II Perfekt):\n  'Er spricht, als ob er das selbst erlebt haette.' (He speaks as if he had experienced it himself)\n\n🔧 Konjunktiv II Formation (Summary)\n\n• sein → waere, haettest, haette, haetten\n• haben → haette, haettest, haette\n• werden → wuerde, wuerdest, wuerde\n• wissen → wuesste, wuesstest, wuesste\n• koennen → koennte, koenntest, koennte\n• muessen → muesste, muesstest, muesste\n• gehen → ginge / wuerde gehen\n• kommen → kaeme / wuerde kommen",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 22,
             quizCount = 0,
             tips = listOf(
-                "ALS OB = as if / sanki",
-                "ALS WENN = als ob (gleichbedeutend)",
-                "Verb am Ende: ...als ob er krank wäre",
-                "Konjunktiv II von sein: wäre, wärst, wäre",
-                "Im B2-Exam: beschreibende Texte und Vergleiche"
+                "als ob / als wenn = as if / sanki (Nebensatz: verb at end)",
+                "als (alone) = as if / sanki (verb directly after als)",
+                "Gegenwart: Konjunktiv II (waere, haette, koennte)",
+                "Vergangenheit: Konjunktiv II Perfekt (haette + Partizip II)",
+                "B2 Exam: descriptive texts and comparisons"
             )
         )
     )
