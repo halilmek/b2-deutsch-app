@@ -10,6 +10,7 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.b2deutsch.app.data.local.LocalQuestionBank
 import com.b2deutsch.app.databinding.FragmentSubjectDetailBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class SubjectDetailFragment : Fragment() {
