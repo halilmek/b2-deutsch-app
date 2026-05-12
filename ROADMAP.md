@@ -78,9 +78,9 @@ After every task, update ROADMAP.md with:
 - [x] `b2_18`: expanded description with full grammar summary (Folgen ausdrücken), tips translated to English — 2026-05-12
 
 ### 🚨 Pending Fixes
-- [ ] `b2_16`: topicName wrong (says "Nomen-Verb-Verbindungen", should be "je und desto/umso + Komparativ")
-- [ ] `b2_16`: missing description
 - [ ] `b2_15`: missing description
+- [ ] `b2_16`: topicName wrong (says "Nomen-Verb-Verbindungen", should be "je und desto/umso + Komparativ") + missing description
+- [ ] `b2_18`: description ✅, tips ✅, but 0 questions — ready for new Folgen ausdrücken questions
 
 ### 📋 Backlog
 - `b2_18` to `b2_23`: Placeholder modules, need full content
