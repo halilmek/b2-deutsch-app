@@ -51,7 +51,10 @@ class HomeViewModel @Inject constructor(
                     // Seed default levels if none exist
                     _levels.value = getDefaultLevels()
                 } else {
-                    _levels.value = levelList
+                    // Always ensure C2 is present (merge with Firestore data)
+                    val defaultLevels = getDefaultLevels()
+                    val hasC2 = levelList.any { it.id == "C2" }
+                    _levels.value = if (hasC2) levelList else levelList + defaultLevels.filter { it.id == "C2" }
                 }
             }.onFailure {
                 _levels.value = getDefaultLevels()
