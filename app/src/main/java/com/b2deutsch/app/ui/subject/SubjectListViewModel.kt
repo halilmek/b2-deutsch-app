@@ -1008,9 +1008,6 @@ class SubjectListViewModel @Inject constructor(
         )
     )
 
-    )
-
-
     private fun getC2Subjects(): List<Subject> = listOf(
         Subject(
             id = "c2_01",
