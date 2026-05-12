@@ -80,7 +80,7 @@ After every task, update ROADMAP.md with:
 ### 🚨 Pending Fixes
 - [ ] `b2_15`: missing description
 - [ ] `b2_16`: topicName wrong (says "Nomen-Verb-Verbindungen", should be "je und desto/umso + Komparativ") + missing description
-- [ ] `b2_18`: description ✅, tips ✅, but 0 questions — ready for new Folgen ausdrücken questions
+- [x] `b2_18`: 100 Folgen ausdrücken questions (5 tests × 20) + description ✅ + tips ✅ — added 2026-05-12
 
 ### 📋 Backlog
 - `b2_18` to `b2_23`: Placeholder modules, need full content
