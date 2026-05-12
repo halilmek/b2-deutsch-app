@@ -502,17 +502,17 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "19. irreale Konditionalsätze in der Vergangenheit",
             nameShort = "Irreale Konditionalsätze",
-            description = "Irreale Konditionalsätze in der Vergangenheit beschreiben Situationen, die nicht passiert sind. Sie bestehen aus einem wenn-Satz (Bedingung) und einem Hauptsatz (Ergebnis). Beide verwenden den Konjunktiv II.\n\nBeispiele:\n• 'Wenn ich früher aufgestanden wäre, hätte ich den Zug erreicht.'\n• 'Hätte ich mehr Zeit gehabt, hätte ich das Buch gelesen.'",
+            description = "📚 'Irreale Konditionalsätze' (Unreal Conditional Sentences / gerçek olmayan koşul cümleleri) express conditions that did not happen or are highly unlikely to happen. They use Konjunktiv II in two time frames.\n\n1️⃣ Konjunktiv II – Gegenwart/Zukunft (Present/Future)\nUsed for hypothetical or imaginary situations.\nStructure:\nWenn + Konjunktiv II, ... Konjunktiv II\nKonjunktiv II = würde + Infinitiv OR strong verb forms (wäre, hätte, könnte, müsste)\n\nExamples:\n• 'Wenn ich Zeit hätte, würde ich kommen.' (If I had time, I would come)\n• 'Wenn er reich wäre, kaufte er ein Haus.' (If he were rich, he would buy a house)\n\n2️⃣ Konjunktiv II – Vergangenheit (Past)\nUsed for events that did not happen in the past.\nStructure:\nWenn + hätte/wäre + Partizip II, ... hätte/wäre + Partizip II\n\nExamples:\n• 'Wenn ich mehr gelernt hätte, hätte ich die Prüfung bestanden.' (If I had studied more, I would have passed)\n• 'Wenn sie früher gekommen wäre, wäre sie dabei gewesen.' (If she had come earlier, she would have been there)\n\n3️⃣ Verkürzte Konditionalsätze (Elliptical Conditionals — without wenn)\nWhen wenn is omitted, the verb moves to position 1:\n• 'Wäre ich reich, würde ich reisen.' (Were I rich, I would travel)\n• 'Hätte er gelernt, hätte er bestanden.' (Had he studied, he would have passed)\n\n⚠️ B2 Important Points\n• würde + Infinitiv can be replaced by direct Konjunktiv II forms (käme, ginge, wäre)\n• Do not mix past and present time frames\n• Recognize both wenn-clause and wenn-less structures",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "💭",
             order = 19,
             quizCount = 0,
             tips = listOf(
-                "Wenn-Satz: wäre/hätte + Partizip II + worden/gewesen",
-                "Hauptsatz: hätte/wäre + Partizip II + Konjugation",
-                "Hätte ich... = Wäre ich... = Inversion möglich",
-                "Bedeutung: wenn + hätte/wäre = if + had + past participle",
-                "Im B2-Exam: oft in Leseverstehen und Schreiben"
+                "Present/Future: würde + Infinitiv OR strong verb Konjunktiv II (wäre, hätte, könnte)",
+                "Past: Wenn + hätte/wäre + Partizip II → hätte/wäre + Partizip II",
+                "Hätte ich... = Wäre ich... → inversion allowed (no wenn needed)",
+                "if + past participle = if + had + past participle → past unreal",
+                "B2 Exam: watch for Konjunktiv II in reading and writing tasks"
             )
         ),
         // 21. Relativsätze im Genitiv
