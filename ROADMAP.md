@@ -31,9 +31,9 @@
 ---
 
 ## 📋 Module Naming
-- JSON: `app/src/main/assets/b2_XX.json`
-- Topics: `b2_01` through `b2_23`
-- Sync: `scripts/import_and_sync.js <b2_XX>`
+- JSON: `app/src/main/assets/b2_XX.json` or `a1_XX.json`
+- Topics: b2_01–b2_23, a1_01–a1_10, a2_01–a2_10, etc.
+- Sync: `scripts/import_and_sync.js <module>`
 
 ---
 
@@ -46,16 +46,14 @@ After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 ## 🗺️ Roadmap — Done & Next
 
 ### ✅ Completed (2026-05-12)
-- [x] `b2_17`: 100 Nomen-Verb-Verbindungen questions + description ✅
-- [x] `b2_18`: 100 Folgen ausdrücken questions + description + tips ✅
-- [x] `b2_19`: 100 Ausdrücke mit Präpositionen questions + description + tips ✅
-- [x] `b2_20`: 100 Irreale Konditionalsätze questions + description + tips ✅
-- [x] `b2_21`: 100 Relativsätze im Genitiv questions + description + tips ✅
-- [x] `b2_22`: 100 Konjunktiv I questions + description + tips ✅
-- [x] `b2_23`: 100 Konjunktiv II irrealen Vergleichsätze questions + description + tips ✅
-- [x] **HomeViewModel fix**: merge C2 from defaults if not in Firestore (C2 not appearing bug) ✅ (2026-05-12)
+- [x] `b2_17`–`b2_23`: 100 questions each + descriptions + tips ✅
+- [x] **C2 button** added to level selector + HomeViewModel fix ✅
 - [x] **A2, B1, C1, C2**: each expanded to 10 grammar topics ✅
-- [x] **10 A1 grammar topics** added (Verben, Nomen/Artikel, Präsens, Akkusativ, Dativ, Präpositionen, Verben+Präpositionen, Perfekt, Modalverben, Satzbildung) ✅
+- [x] **A1 JSON files**: 10 files × 50 MCQ = 500 questions ✅
+  - a1_01: Verben konjugieren | a1_02: Nomen und Artikel | a1_03: Präsens
+  - a1_04: Akkusativ | a1_05: Dativ | a1_06: Präpositionen
+  - a1_07: Verben mit Präpositionen | a1_08: Perfekt | a1_09: Modalverben | a1_10: Sätze bilden
+- [x] **A1/A2/B1/C1/C2 descriptions**: fixed Chinese characters → German ✅
 
 ### 🚨 Pending Fixes
 - [ ] `b2_15`: missing description
@@ -63,15 +61,14 @@ After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 
 ### 📋 Backlog
 - `b2_02`: Has questions but no topic entry in app
-- A1 questions: need to be added to a1_01 through a1_10
-- C2 questions: not yet added (under construction)
+- A2, B1, C1, C2: topics defined but no questions yet (quizCount = 0)
 
 ---
 
 ## 📚 How We Do Things
 
 ### Add questions to existing topic
-1. Edit `app/src/main/assets/b2_XX.json`
+1. Edit `app/src/main/assets/b2_XX.json` or `a1_XX.json`
 2. Add question objects (keep `id` unique: `b2_XX_q001`, etc.)
 3. Update `totalQuestions`
 4. Commit + push + sync
@@ -93,7 +90,7 @@ Say: "Ready for b2-deutsch-app. Token: [TOKEN]"
 
 ```
 b2-deutsch-app/
-├── app/src/main/assets/          # b2_XX.json — question data
+├── app/src/main/assets/          # b2_XX.json, a1_XX.json — question data
 ├── app/src/main/java/.../
 │   └── SubjectListViewModel.kt   # topic names + descriptions
 └── scripts/
