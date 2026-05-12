@@ -183,7 +183,7 @@ object LocalQuestionBank {
      * Reset progress for ALL B2 topics
      */
     fun resetAllTopics(context: Context) {
-        getAllB2TopicIds().forEach { resetTopic(context, it) }
+        (getAllB2TopicIds() + getAllA1TopicIds() + getAllA2TopicIds() + getAllB1TopicIds() + getAllC1TopicIds() + getAllC2TopicIds()).forEach { resetTopic(context, it) }
     }
 
     /**
