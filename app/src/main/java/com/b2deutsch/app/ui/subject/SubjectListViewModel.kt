@@ -121,6 +121,7 @@ class SubjectListViewModel @Inject constructor(
             "A2" -> getA2Subjects()
             "A1" -> getA1Subjects()
             "C1" -> getC1Subjects()
+            "C2" -> getC2Subjects()
             else -> getB2Subjects()
         }
     }
@@ -606,13 +607,126 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "a1_01",
             level = "A1",
-            name = "A1 Grammatik: Verben konjugieren",
-            nameShort = "Verben",
-            description = "Die wichtigsten Verben im Präsens.",
+            name = "1. Verben konjugieren (sein, haben, werden)",
+            nameShort = "Verben konjugieren",
+            description = "Im A1-Level lernst du die wichtigsten Verben im Präsens zu konjugieren: sein, haben und werden. Diese Verben werden im Alltag sehr häufig verwendet.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 1,
-            quizCount = 2
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_02",
+            level = "A1",
+            name = "2. Nomen und Artikel",
+            nameShort = "Nomen und Artikel",
+            description = "Lerne die Artikel (der, die, das) und die Pluralformen der Nomen im Deutschen.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 2,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_03",
+            level = "A1",
+            name = "3. Präsens (Gegenwart)",
+            nameShort = "Präsens",
+            description = "Das Präsens beschreibt Handlungen in der Gegenwart. Regelmäßige und unregelmäßige Verben im Präsens.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 3,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_04",
+            level = "A1",
+            name = "4. Akkusativ (Wen-Fall)",
+            nameShort = "Akkusativ",
+            description = "Der Akkusativ beschreibt die direkteobjects einer Handlung. Lerne die Akkusativformen der Artikel.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 4,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_05",
+            level = "A1",
+            name = "5. Dativ (Wem-Fall)",
+            nameShort = "Dativ",
+            description = "Der Dativ beschreibt die indirekteobjects einer Handlung. Lerne die Dativformen der Artikel.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 5,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_06",
+            level = "A1",
+            name = "6. Präpositionen",
+            nameShort = "Präpositionen",
+            description = "Lerne die wichtigsten Präpositionen (in, auf, an, mit, nach, aus, von, zu, bei, für, gegen, um) und ihre Kasus.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 6,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_07",
+            level = "A1",
+            name = "7. Verben mit Präpositionen",
+            nameShort = "Verben + Präpositionen",
+            description = "Einige Verben werden immer mit einer bestimmten Präposition verwendet: warten auf, denken an, sich freuen auf/über.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 7,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_08",
+            level = "A1",
+            name = "8. Perfekt",
+            nameShort = "Perfekt",
+            description = "Das Perfekt beschreibt abgeschlossene Handlungen in der Vergangenheit. Bildung: haben/sein + Partizip II.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 8,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_09",
+            level = "A1",
+            name = "9. Modalverben (können, müssen, wollen, dürfen, sollen)",
+            nameShort = "Modalverben",
+            description = "Modalverben ändern die Bedeutung eines Satzes: können (ability), müssen (necessity), wollen (wish), dürfen (permission), sollen (obligation).",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 9,
+            quizCount = 0
+        ),
+        Subject(
+            id = "a1_10",
+            level = "A1",
+            name = "10. Sätze bilden (Wortstellung)",
+            nameShort = "Satzbildung",
+            description = "Grundlegende Wortstellung im deutschen Satz: Subjekt + Verb + Objekt. Verb an zweiter Stelle im Hauptsatz.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 10,
+            quizCount = 0
+        )
+    )
+
+    private fun getC2Subjects(): List<Subject> = listOf(
+        Subject(
+            id = "c2_01",
+            level = "C2",
+            name = "C2 Grammatik: Vorläufige Inhalte",
+            nameShort = "C2",
+            description = "C2 Level ist in Vorbereitung. In Kürze werden hier Grammatikthemen verfügbar sein.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "🔒",
+            order = 1,
+            quizCount = 0
         )
     )
 
