@@ -18,30 +18,9 @@
 
 ## 🔄 Standard Workflow
 
-### Step 1 — I code in sandbox
-I work in `/home/node/.openclaw/workspace/b2-deutsch-app`. Halil tells me what to build/fix.
-
-### Step 2 — I push to GitHub
-```bash
-cd /home/node/.openclaw/workspace/b2-deutsch-app
-git remote set-url origin "https://[TOKEN]@github.com/halilmek/b2-deutsch-app.git"
-git add .
-git commit -m "description"
-git push origin main
-```
-
-### Step 3 — Halil pulls on his Mac
-```bash
-cd /Users/halilozturk/b2-deutsch-app
-git pull origin main
-```
-
-### Step 4 — Halil syncs to Firestore
-```bash
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-app-firebase-adminsdk-fbsvc-4aa25c0ca2.json"
-cd /Users/halilozturk/b2-deutsch-app
-node scripts/import_and_sync.js <module>   # e.g. b2_09, b2_10, etc.
-```
+1. **I code in sandbox** → commit → push to GitHub
+2. **Halil pulls** on his Mac: `git pull origin main`
+3. **Halil syncs to Firestore**: `node scripts/import_and_sync.js <module>`
 
 ---
 
@@ -51,36 +30,35 @@ node scripts/import_and_sync.js <module>   # e.g. b2_09, b2_10, etc.
 
 ---
 
-## 📋 Module Naming Convention
-
-- JSON files: `app/src/main/assets/b2_XX.json`
+## 📋 Module Naming
+- JSON: `app/src/main/assets/b2_XX.json`
 - Topics: `b2_01` through `b2_23`
-- Sync script: `scripts/import_and_sync.js <b2_XX>`
+- Sync: `scripts/import_and_sync.js <b2_XX>`
 
 ---
 
 ## 📝 Documentation Rule
 
-After every task, update ROADMAP.md:
-1. **WHAT** we did
-2. **FILES CHANGED**
+After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 
 ---
 
-## 🗺️ Roadmap — What's Done & What's Next
+## 🗺️ Roadmap — Done & Next
 
-### ✅ Completed
-- [x] `b2_17`: 100 Nomen-Verb-Verbindungen questions ✅, description ✅ (2026-05-12)
-- [x] `b2_18`: 100 Folgen ausdrücken questions ✅, description ✅, tips ✅ (2026-05-12)
-- [x] `b2_19`: 100 Ausdrücke mit Präpositionen questions ✅, description ✅, tips ✅ (2026-05-12)
+### ✅ Completed (2026-05-12)
+- [x] `b2_17`: 100 Nomen-Verb-Verbindungen questions + description ✅
+- [x] `b2_18`: 100 Folgen ausdrücken questions + description + tips ✅
+- [x] `b2_19`: 100 Ausdrücke mit Präpositionen questions + description + tips ✅
+- [x] `b2_20`: 100 Irreale Konditionalsätze questions + description + tips ✅
+- [x] `b2_21`: Relativsätze im Genitiv description expanded + tips ✅
 
 ### 🚨 Pending Fixes
-- [x] `b2_20`: 100 Irreale Konditionalsätze questions ✅, description ✅, tips ✅ (2026-05-12)
+- [ ] `b2_15`: missing description
 - [ ] `b2_16`: topicName wrong + missing description
 
 ### 📋 Backlog
 - `b2_02`: Has questions but no topic entry in app
-- `b2_18` to `b2_23`: other modules may need content review
+- `b2_22` to `b2_23`: may need content review
 
 ---
 
