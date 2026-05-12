@@ -1,806 +1,166 @@
 {
-  "totalQuestions": 50,
-  "topicName": "Nomen und Artikel",
+  "totalQuestions": 10,
+  "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen",
   "questions": [
     {
       "id": "a1_02_q001",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
+      "questionText": "Die Qualität ________ Materials spielt eine entscheidende Rolle für die Langlebigkeit.",
       "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
+        "A) des",
+        "B) dem",
+        "C) das",
+        "D) den"
       ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "A",
+      "explanation": "Genitiv nach 'Qualitaet': 'die Qualitaet DES Materials' — Genitiv.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q002",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Stuhl ist groß.",
+      "questionText": "Er hat ________ Mut bewiesen, die Missstände öffentlich anzuprangern.",
       "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
+        "A) einen",
+        "B) –",
+        "C) den",
+        "D) einem"
       ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "C",
+      "explanation": "Akkusativ nach 'Mut': 'hat DEN Mut bewiesen' — mit Artikel bei Abstrakta mit Adjektiv.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q003",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
+      "questionText": "Trotz ________ schlechten Wetters wurde die Veranstaltung im Freien durchgeführt.",
       "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
+        "A) des",
+        "B) dem",
+        "C) das",
+        "D) der"
       ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "A",
+      "explanation": "Genitiv nach 'Trotz': 'TROTZ DES schlechten Wetters' — Genitiv.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q004",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
+      "questionText": "Wir müssen ________ Phänomen der Inflation genauer untersuchen.",
       "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
+        "A) das",
+        "B) die",
+        "C) der",
+        "D) den"
       ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "A",
+      "explanation": "Akkusativ nach 'untersuchen': 'wir muessen DAS Phaenomen... untersuchen'.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q005",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
+      "questionText": "Es bedarf ________ hohen Maßes an Konzentration, um diese Aufgabe zu bewältigen.",
       "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
+        "A) eines",
+        "B) einem",
+        "C) einer",
+        "D) ein"
       ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "A",
+      "explanation": "Genitiv nach 'bedarf': 'Es bedarf EINES hohen Masses...' — Genitiv.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q006",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Buch ist groß.",
+      "questionText": "Die ________ des Projekts hängen von der Finanzierung ab.",
       "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
+        "A) Erfolg",
+        "B) Erfolge",
+        "C) Erfolgen",
+        "D) Erfolger"
       ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "B",
+      "explanation": "Nomen Plural: 'Die ERFOLGE des Projekts...' — Pluralform no article.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q007",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Haus ist groß.",
+      "questionText": "Er leidet unter ________ chronischen Schlafmangel.",
       "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
+        "A) –",
+        "B) einem",
+        "C) der",
+        "D) des"
       ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "B",
+      "explanation": "Dativ nach 'leiden': 'unter EINEM chronischen Schlafmangel' — Dativ.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q008",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Stuhl ist groß.",
+      "questionText": "Das Ergebnis ________ Untersuchung war für alle Beteiligten überraschend.",
       "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
+        "A) der",
+        "B) dem",
+        "C) die",
+        "D) den"
       ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "A",
+      "explanation": "Genitiv nach substantive: 'Das Ergebnis DER Untersuchung...' — Genitiv.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q009",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Auto ist groß.",
+      "questionText": "Ich habe ________ Verdacht, dass hier nicht alles mit rechten Dingen zugeht.",
       "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
+        "A) den",
+        "B) dem",
+        "C) des",
+        "D) das"
       ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "A",
+      "explanation": "Akkusativ nach 'Verdacht': 'Ich habe DEN Verdacht...' — kein Artikel oder 'einen' moeglich.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     },
     {
       "id": "a1_02_q010",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
+      "questionText": "Die Umsetzung ________ Vorhabens erfordert viel Geduld.",
       "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
+        "A) dieses",
+        "B) diesem",
+        "C) dieser",
+        "D) dies"
       ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q011",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q012",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q013",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q014",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stuhl ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q015",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q016",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stuhl ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q017",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Frau ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q018",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q019",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Haus ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q020",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stuhl ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q021",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q022",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q023",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q024",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q025",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Tisch ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q026",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Frau ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q027",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q028",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q029",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stuhl ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q030",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q031",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q032",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Tisch ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q033",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Buch ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q034",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q035",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Mann ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q036",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Buch ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q037",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q038",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q039",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Stadt ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q040",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Auto ist groß.",
-      "options": [
-        "das",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "das",
-      "explanation": "Ein sächliches Nomen braucht 'das'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q041",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Haus ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q042",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Frau ist groß.",
-      "options": [
-        "der",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "der",
-      "explanation": "Ein männliches Nomen braucht 'der'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q043",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Frau ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q044",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Kind ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q045",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q046",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q047",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Buch ist groß.",
-      "options": [
-        "die",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "die",
-      "explanation": "Ein weibliches Nomen braucht 'die'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q048",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Tisch ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q049",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Schule ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
-    },
-    {
-      "id": "a1_02_q050",
-      "subjectId": "a1_02",
-      "type": "multiple_choice",
-      "questionText": "_____ Frau ist groß.",
-      "options": [
-        "einen",
-        "ein",
-        "eine",
-        "einer"
-      ],
-      "correctAnswer": "einen",
-      "explanation": "Akkusativ: männliches Nomen braucht 'einen'.",
-      "difficulty": "easy",
-      "topicName": "Nomen und Artikel"
+      "correctAnswer": "A",
+      "explanation": "Genitiv nach 'Umsetzung': 'Die Umsetzung DES Vorhabens...' — Genitiv.",
+      "difficulty": "medium",
+      "topicName": "2. Nomen und Artikel – Fokus: Genus, Kasus & abstrakte Nomen"
     }
   ]
 }

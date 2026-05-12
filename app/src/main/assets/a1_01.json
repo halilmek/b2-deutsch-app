@@ -1,806 +1,166 @@
 {
-  "totalQuestions": 50,
-  "topicName": "Verben konjugieren (sein, haben, werden)",
+  "totalQuestions": 10,
+  "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen",
   "questions": [
     {
       "id": "a1_01_q001",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Was __________ du gestern gemacht?",
+      "questionText": "Wenn ich an deiner Stelle ________, hätte ich das Angebot sofort angenommen.",
       "options": [
-        "hast",
-        "bist",
-        "hat",
-        "seid"
+        "A) wäre",
+        "B) bin",
+        "C) sei",
+        "D) würde"
       ],
-      "correctAnswer": "hast",
-      "explanation": "Perfekt with haben: 'was hast du gemacht?' (What did you do?)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
+      "correctAnswer": "A",
+      "explanation": "Konjunktiv II irrealer Vergleich: 'Wenn ich an deiner Stelle waere, haette ich...' — waere = Konjunktiv II von sein.",
+      "difficulty": "medium",
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q001",
+      "id": "a1_01_q002",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Was __________ du gestern gemacht?",
+      "questionText": "Es ________ in der Sitzung beschlossen, dass die Budgetplanung angepasst werden muss.",
       "options": [
-        "hast",
-        "bist",
-        "hat",
-        "seid"
+        "A) hat",
+        "B) wurde",
+        "C) ist",
+        "D) war"
       ],
-      "correctAnswer": "hast",
-      "explanation": "Perfekt with haben: 'was hast du gemacht?' (What did you do?)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
+      "correctAnswer": "B",
+      "explanation": "Passiversatz mit 'werden': 'Es wurde in der Sitzung beschlossen...' — unpersoenliches Passiv.",
+      "difficulty": "medium",
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q001",
+      "id": "a1_01_q003",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Was __________ du gestern gemacht?",
+      "questionText": "Wir ________ heute ein ganz anderes Ergebnis erzielt, wenn die Daten korrekt gewesen wären.",
       "options": [
-        "hast",
-        "bist",
-        "hat",
-        "seid"
+        "A) haben",
+        "B) sind",
+        "C) hätten",
+        "D) wären"
       ],
-      "correctAnswer": "hast",
-      "explanation": "Perfekt with haben: 'was hast du gemacht?' (What did you do?)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
+      "correctAnswer": "C",
+      "explanation": "Konjunktiv II irrealer Vergleich: 'haetten' = Konjunktiv II von haben. Irreale Bedingung mit 'wenn'.",
+      "difficulty": "medium",
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q001",
+      "id": "a1_01_q004",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Was __________ du gestern gemacht?",
+      "questionText": "Das Gebäude ________ im nächsten Jahr vollständig saniert.",
       "options": [
-        "hast",
-        "bist",
-        "hat",
-        "seid"
+        "A) wird",
+        "B) ist",
+        "C) hat",
+        "D) wird sein"
       ],
-      "correctAnswer": "hast",
-      "explanation": "Perfekt with haben: 'was hast du gemacht?' (What did you do?)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
+      "correctAnswer": "A",
+      "explanation": "Futur I Passiv: 'wird ... saniert' — werden + Partizip II.",
+      "difficulty": "medium",
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q001",
+      "id": "a1_01_q005",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Was __________ du gestern gemacht?",
+      "questionText": "Er ________ angeblich ein Experte auf diesem Gebiet, aber ich zweifle daran.",
       "options": [
-        "hast",
-        "bist",
-        "hat",
-        "seid"
+        "A) ist",
+        "B) sei",
+        "C) wäre",
+        "D) wird"
       ],
-      "correctAnswer": "hast",
-      "explanation": "Perfekt with haben: 'was hast du gemacht?' (What did you do?)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
+      "correctAnswer": "B",
+      "explanation": "Konjunktiv I indirekte Rede: 'Er sei...' — aus 'Er ist ein Experte' (behauptet).",
+      "difficulty": "medium",
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
       "id": "a1_01_q006",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Ich __________ ein Student.",
+      "questionText": "________ du die Güte, mir bei dieser komplexen Analyse behilflich zu sein?",
       "options": [
-        "bin",
-        "hast",
-        "seid",
-        "habt"
+        "A) Hast",
+        "B) Hättest",
+        "C) Seist",
+        "D) Wirst"
       ],
-      "correctAnswer": "bin",
-      "explanation": "'sein' konjugation: ich bin (I am)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q006",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ ein Student.",
-      "options": [
-        "bin",
-        "hast",
-        "seid",
-        "habt"
-      ],
-      "correctAnswer": "bin",
-      "explanation": "'sein' konjugation: ich bin (I am)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q006",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ ein Student.",
-      "options": [
-        "bin",
-        "hast",
-        "seid",
-        "habt"
-      ],
-      "correctAnswer": "bin",
-      "explanation": "'sein' konjugation: ich bin (I am)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q006",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ ein Student.",
-      "options": [
-        "bin",
-        "hast",
-        "seid",
-        "habt"
-      ],
-      "correctAnswer": "bin",
-      "explanation": "'sein' konjugation: ich bin (I am)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q006",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ ein Student.",
-      "options": [
-        "bin",
-        "hast",
-        "seid",
-        "habt"
-      ],
-      "correctAnswer": "bin",
-      "explanation": "'sein' konjugation: ich bin (I am)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q011",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Er __________ das Buch gelesen.",
-      "options": [
-        "hat",
-        "ist",
-        "haben",
-        "sein"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "Perfekt with haben: 'hat gelesen' (has read)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q011",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Er __________ das Buch gelesen.",
-      "options": [
-        "hat",
-        "ist",
-        "haben",
-        "sein"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "Perfekt with haben: 'hat gelesen' (has read)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q011",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Er __________ das Buch gelesen.",
-      "options": [
-        "hat",
-        "ist",
-        "haben",
-        "sein"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "Perfekt with haben: 'hat gelesen' (has read)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q011",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Er __________ das Buch gelesen.",
-      "options": [
-        "hat",
-        "ist",
-        "haben",
-        "sein"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "Perfekt with haben: 'hat gelesen' (has read)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q011",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Er __________ das Buch gelesen.",
-      "options": [
-        "hat",
-        "ist",
-        "haben",
-        "sein"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "Perfekt with haben: 'hat gelesen' (has read)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q016",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ morgen ins Kino gehen.",
-      "options": [
-        "werde",
-        "bin",
-        "habe",
-        "wirst"
-      ],
-      "correctAnswer": "werde",
-      "explanation": "Futur I: werden + Infinitiv (will go)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q016",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ morgen ins Kino gehen.",
-      "options": [
-        "werde",
-        "bin",
-        "habe",
-        "wirst"
-      ],
-      "correctAnswer": "werde",
-      "explanation": "Futur I: werden + Infinitiv (will go)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q016",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ morgen ins Kino gehen.",
-      "options": [
-        "werde",
-        "bin",
-        "habe",
-        "wirst"
-      ],
-      "correctAnswer": "werde",
-      "explanation": "Futur I: werden + Infinitiv (will go)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q016",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ morgen ins Kino gehen.",
-      "options": [
-        "werde",
-        "bin",
-        "habe",
-        "wirst"
-      ],
-      "correctAnswer": "werde",
-      "explanation": "Futur I: werden + Infinitiv (will go)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q016",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ morgen ins Kino gehen.",
-      "options": [
-        "werde",
-        "bin",
-        "habe",
-        "wirst"
-      ],
-      "correctAnswer": "werde",
-      "explanation": "Futur I: werden + Infinitiv (will go)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q021",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Sie __________ heute Deutsch.",
-      "options": [
-        "lernt",
-        "lernen",
-        "lernst",
-        "lerne"
-      ],
-      "correctAnswer": "lernt",
-      "explanation": "Präsens 3. Person: sie lernt (she learns)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q021",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Sie __________ heute Deutsch.",
-      "options": [
-        "lernt",
-        "lernen",
-        "lernst",
-        "lerne"
-      ],
-      "correctAnswer": "lernt",
-      "explanation": "Präsens 3. Person: sie lernt (she learns)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q021",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Sie __________ heute Deutsch.",
-      "options": [
-        "lernt",
-        "lernen",
-        "lernst",
-        "lerne"
-      ],
-      "correctAnswer": "lernt",
-      "explanation": "Präsens 3. Person: sie lernt (she learns)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q021",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Sie __________ heute Deutsch.",
-      "options": [
-        "lernt",
-        "lernen",
-        "lernst",
-        "lerne"
-      ],
-      "correctAnswer": "lernt",
-      "explanation": "Präsens 3. Person: sie lernt (she learns)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q021",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Sie __________ heute Deutsch.",
-      "options": [
-        "lernt",
-        "lernen",
-        "lernst",
-        "lerne"
-      ],
-      "correctAnswer": "lernt",
-      "explanation": "Präsens 3. Person: sie lernt (she learns)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q026",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "sprecht",
-        "spricht"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "Präsens 1. Person: ich spreche (I speak)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q026",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "sprecht",
-        "spricht"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "Präsens 1. Person: ich spreche (I speak)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q026",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "sprecht",
-        "spricht"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "Präsens 1. Person: ich spreche (I speak)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q026",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "sprecht",
-        "spricht"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "Präsens 1. Person: ich spreche (I speak)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q026",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Ich __________ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "sprecht",
-        "spricht"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "Präsens 1. Person: ich spreche (I speak)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q031",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Wir __________ zu Hause.",
-      "options": [
-        "sind",
-        "seid",
-        "bist",
-        "bin"
-      ],
-      "correctAnswer": "sind",
-      "explanation": "'sein' konjugation: wir sind (we are)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q031",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Wir __________ zu Hause.",
-      "options": [
-        "sind",
-        "seid",
-        "bist",
-        "bin"
-      ],
-      "correctAnswer": "sind",
-      "explanation": "'sein' konjugation: wir sind (we are)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q031",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Wir __________ zu Hause.",
-      "options": [
-        "sind",
-        "seid",
-        "bist",
-        "bin"
-      ],
-      "correctAnswer": "sind",
-      "explanation": "'sein' konjugation: wir sind (we are)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q031",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Wir __________ zu Hause.",
-      "options": [
-        "sind",
-        "seid",
-        "bist",
-        "bin"
-      ],
-      "correctAnswer": "sind",
-      "explanation": "'sein' konjugation: wir sind (we are)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q031",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Wir __________ zu Hause.",
-      "options": [
-        "sind",
-        "seid",
-        "bist",
-        "bin"
-      ],
-      "correctAnswer": "sind",
-      "explanation": "'sein' konjugation: wir sind (we are)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q036",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Das Fenster __________ geöffnet.",
-      "options": [
-        "ist",
-        "hat",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "Passiv Präsens: ist + Partizip II (is opened)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q036",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Das Fenster __________ geöffnet.",
-      "options": [
-        "ist",
-        "hat",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "Passiv Präsens: ist + Partizip II (is opened)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q036",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Das Fenster __________ geöffnet.",
-      "options": [
-        "ist",
-        "hat",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "Passiv Präsens: ist + Partizip II (is opened)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q036",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Das Fenster __________ geöffnet.",
-      "options": [
-        "ist",
-        "hat",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "Passiv Präsens: ist + Partizip II (is opened)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q036",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Das Fenster __________ geöffnet.",
-      "options": [
-        "ist",
-        "hat",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "Passiv Präsens: ist + Partizip II (is opened)",
-      "difficulty": "easy",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q041",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Wenn ich Zeit __________, würde ich lernen.",
-      "options": [
-        "hätte",
-        "habe",
-        "hat",
-        "hattest"
-      ],
-      "correctAnswer": "hätte",
-      "explanation": "Konjunktiv II: hätte (would have) — unreal condition",
+      "correctAnswer": "B",
+      "explanation": "Konjunktiv II Hoefflichkeit: 'Haettest du...' — irrealer Wunsch, sehr hoeflich.",
       "difficulty": "medium",
-      "topicName": "Verben konjugieren"
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q041",
+      "id": "a1_01_q007",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Wenn ich Zeit __________, würde ich lernen.",
+      "questionText": "In den letzten Jahrzehnten ________ die Digitalisierung rasant vorangeschritten.",
       "options": [
-        "hätte",
-        "habe",
-        "hat",
-        "hattest"
+        "A) ist",
+        "B) hat",
+        "C) wird",
+        "D) würde"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "Konjunktiv II: hätte (would have) — unreal condition",
+      "correctAnswer": "A",
+      "explanation": "Perfekt mit sein: 'ist ... vorangeschritten' — Bewegungsverben und certain intransitive verbs.",
       "difficulty": "medium",
-      "topicName": "Verben konjugieren"
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q041",
+      "id": "a1_01_q008",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Wenn ich Zeit __________, würde ich lernen.",
+      "questionText": "Es ________ höchste Zeit, dass wir eine nachhaltige Lösung finden.",
       "options": [
-        "hätte",
-        "habe",
-        "hat",
-        "hattest"
+        "A) wird",
+        "B) wäre",
+        "C) ist",
+        "D) sei"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "Konjunktiv II: hätte (would have) — unreal condition",
+      "correctAnswer": "C",
+      "explanation": "Es wird hoechste Zeit = es ist dringend; 'wird' here is idiomatic with 'Zeit'.",
       "difficulty": "medium",
-      "topicName": "Verben konjugieren"
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q041",
+      "id": "a1_01_q009",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Wenn ich Zeit __________, würde ich lernen.",
+      "questionText": "Was ________ wohl aus dem Projekt geworden, wenn der Investor abgesprungen wäre?",
       "options": [
-        "hätte",
-        "habe",
-        "hat",
-        "hattest"
+        "A) wäre",
+        "B) ist",
+        "C) wird",
+        "D) hätte"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "Konjunktiv II: hätte (would have) — unreal condition",
+      "correctAnswer": "A",
+      "explanation": "Irrealer Vergleich mit 'waere': 'waere ... geworden' — Konjunktiv II von werden.",
       "difficulty": "medium",
-      "topicName": "Verben konjugieren"
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     },
     {
-      "id": "a1_01_q041",
+      "id": "a1_01_q010",
       "subjectId": "a1_01",
       "type": "multiple_choice",
-      "questionText": "Wenn ich Zeit __________, würde ich lernen.",
+      "questionText": "Sobald die Bedingungen erfüllt sind, ________ der Vertrag wirksam.",
       "options": [
-        "hätte",
-        "habe",
-        "hat",
-        "hattest"
+        "A) wird",
+        "B) hat",
+        "C) ist",
+        "D) wäre"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "Konjunktiv II: hätte (would have) — unreal condition",
+      "correctAnswer": "A",
+      "explanation": "Futur I aktiv: 'wird ... wirksam' — werden + Partizip I (adjektiv).",
       "difficulty": "medium",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q046",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Du __________ das nicht tun müssen.",
-      "options": [
-        "könntest",
-        "kannst",
-        "konntest",
-        "kann"
-      ],
-      "correctAnswer": "könntest",
-      "explanation": "Konjunktiv II: könntest (could — polite)",
-      "difficulty": "medium",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q046",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Du __________ das nicht tun müssen.",
-      "options": [
-        "könntest",
-        "kannst",
-        "konntest",
-        "kann"
-      ],
-      "correctAnswer": "könntest",
-      "explanation": "Konjunktiv II: könntest (could — polite)",
-      "difficulty": "medium",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q046",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Du __________ das nicht tun müssen.",
-      "options": [
-        "könntest",
-        "kannst",
-        "konntest",
-        "kann"
-      ],
-      "correctAnswer": "könntest",
-      "explanation": "Konjunktiv II: könntest (could — polite)",
-      "difficulty": "medium",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q046",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Du __________ das nicht tun müssen.",
-      "options": [
-        "könntest",
-        "kannst",
-        "konntest",
-        "kann"
-      ],
-      "correctAnswer": "könntest",
-      "explanation": "Konjunktiv II: könntest (could — polite)",
-      "difficulty": "medium",
-      "topicName": "Verben konjugieren"
-    },
-    {
-      "id": "a1_01_q046",
-      "subjectId": "a1_01",
-      "type": "multiple_choice",
-      "questionText": "Du __________ das nicht tun müssen.",
-      "options": [
-        "könntest",
-        "kannst",
-        "konntest",
-        "kann"
-      ],
-      "correctAnswer": "könntest",
-      "explanation": "Konjunktiv II: könntest (could — polite)",
-      "difficulty": "medium",
-      "topicName": "Verben konjugieren"
+      "topicName": "1. Verben konjugieren (sein, haben, werden) – Fokus: Passiv, Konjunktiv & Nuancen"
     }
   ]
 }
