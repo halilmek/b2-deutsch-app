@@ -22,7 +22,6 @@
 I work in `/home/node/.openclaw/workspace/b2-deutsch-app`. Halil tells me what to build/fix.
 
 ### Step 2 — I push to GitHub
-From sandbox:
 ```bash
 cd /home/node/.openclaw/workspace/b2-deutsch-app
 git remote set-url origin "https://[TOKEN]@github.com/halilmek/b2-deutsch-app.git"
@@ -47,16 +46,14 @@ node scripts/import_and_sync.js <module>   # e.g. b2_09, b2_10, etc.
 ---
 
 ## 🔑 GitHub Push Constraints
-
-- **From sandbox (Linux)**: Can push directly using token in URL → works ✅
-- **From Halil's Mac**: Use normal `git push origin main` → works ✅
 - **Never put raw tokens in files that get pushed to GitHub** → use placeholders
+- Sandbox pushes work via token-in-URL ✅
 
 ---
 
 ## 📋 Module Naming Convention
 
-- JSON files: `app/src/main/assets/b2_XX.json` (e.g. `b2_09.json`, `b2_17.json`)
+- JSON files: `app/src/main/assets/b2_XX.json`
 - Topics: `b2_01` through `b2_23`
 - Sync script: `scripts/import_and_sync.js <b2_XX>`
 
@@ -64,7 +61,7 @@ node scripts/import_and_sync.js <module>   # e.g. b2_09, b2_10, etc.
 
 ## 📝 Documentation Rule
 
-After every task, update ROADMAP.md with:
+After every task, update ROADMAP.md:
 1. **WHAT** we did
 2. **FILES CHANGED**
 
@@ -73,18 +70,17 @@ After every task, update ROADMAP.md with:
 ## 🗺️ Roadmap — What's Done & What's Next
 
 ### ✅ Completed
-- [x] `b2_17`: 100 Nomen-Verb-Verbindungen questions (original 20 + 80 new from 4 tests) — added 2026-05-12
-- [x] `b2_17`: topicName ✅, description ✅
-- [x] `b2_18`: expanded description with full grammar summary (Folgen ausdrücken), tips translated to English — 2026-05-12
+- [x] `b2_17`: 100 Nomen-Verb-Verbindungen questions ✅, description ✅ (2026-05-12)
+- [x] `b2_18`: 100 Folgen ausdrücken questions ✅, description ✅, tips ✅ (2026-05-12)
+- [x] `b2_19`: 100 Ausdrücke mit Präpositionen questions ✅, description ✅, tips ✅ (2026-05-12)
 
 ### 🚨 Pending Fixes
-- [x] `b2_19`: description expanded with full verb/adj/noun tables + tips translated to English — added 2026-05-12
-- [ ] `b2_16`: topicName wrong (says "Nomen-Verb-Verbindungen", should be "je und desto/umso + Komparativ") + missing description
-- [x] `b2_18`: 100 Folgen ausdrücken questions (5 tests × 20) + description ✅ + tips ✅ — added 2026-05-12
+- [ ] `b2_15`: missing description
+- [ ] `b2_16`: topicName wrong + missing description
 
 ### 📋 Backlog
-- `b2_18` to `b2_23`: Placeholder modules, need full content
 - `b2_02`: Has questions but no topic entry in app
+- `b2_18` to `b2_23`: other modules may need content review
 
 ---
 
@@ -92,14 +88,9 @@ After every task, update ROADMAP.md with:
 
 ### Add questions to existing topic
 1. Edit `app/src/main/assets/b2_XX.json`
-2. Add new question objects to the array (keep `id` unique: `b2_XX_q001`, `b2_XX_q002`, etc.)
-3. Update `totalQuestions` if needed
+2. Add question objects (keep `id` unique: `b2_XX_q001`, etc.)
+3. Update `totalQuestions`
 4. Commit + push + sync
-
-### Add new topic (b2_XX)
-1. Create `app/src/main/assets/b2_XX.json` with questions array
-2. Add topic entry in `SubjectListViewModel.kt` with id, topicName, description, tips
-3. Commit + push + sync
 
 ### Fix topicName or description
 1. Edit `SubjectListViewModel.kt` — find the b2_XX entry
@@ -111,8 +102,6 @@ After every task, update ROADMAP.md with:
 ## 🧠 Session Start
 
 Say: "Ready for b2-deutsch-app. Token: [TOKEN]"
-
-I will configure git and start working.
 
 ---
 
