@@ -81,7 +81,8 @@ class SubjectListFragment : Fragment() {
                 findNavController().navigate(
                     SubjectListFragmentDirections.actionSubjectListToSubjectDetail(
                         subjectId = subject.id,
-                        subjectName = subject.name
+                        subjectName = subject.name,
+                        level = currentLevel
                     )
                 )
             }

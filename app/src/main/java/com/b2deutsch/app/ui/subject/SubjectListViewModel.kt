@@ -1,5 +1,6 @@
 package com.b2deutsch.app.ui.subject
 
+import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -32,18 +33,24 @@ class SubjectListViewModel @Inject constructor(
     val selectedSubject: LiveData<Subject?> = _selectedSubject
 
     fun loadSubjectsForLevel(level: String) {
+        Log.d("SubjectListVM", "📥 loadSubjectsForLevel($level) called")
         viewModelScope.launch {
             _isLoading.value = true
 
             // Get all subjects for this level
+            Log.d("SubjectListVM", "🔍 Fetching subjects from repository for level=$level")
             contentRepository.getSubjectsByLevel(level)
                 .onSuccess { subjectList ->
+                    Log.d("SubjectListVM", "✅ Repository returned ${subjectList.size} subjects")
                     _subjects.value = subjectList
                 }
-                .onFailure {
+                .onFailure { ex ->
+                    Log.w("SubjectListVM", "❌ Repository failed: ${ex.message}, falling back to defaults")
                     // Fall back to default subjects
                     _subjects.value = getDefaultSubjects(level)
                 }
+
+            Log.d("SubjectListVM", "📤 Setting _subjects with getDefaultSubjects($level) = ${getDefaultSubjects(level).size} subjects")
 
             // Load progress for each subject
             loadProgressForSubjects(level)

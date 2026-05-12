@@ -106,6 +106,10 @@
         <argument
             android:name="subjectName"
             app:argType="string" />
+        <argument
+            android:name="level"
+            app:argType="string"
+            android:defaultValue="B2" />
 
         <action
             android:id="@+id/action_subjectDetail_to_quizActive"

@@ -1,16 +1,15 @@
 package com.b2deutsch.app.ui.subject
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
-import com.b2deutsch.app.R
 import com.b2deutsch.app.data.local.LocalQuestionBank
 import com.b2deutsch.app.databinding.FragmentSubjectDetailBinding
-import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class SubjectDetailFragment : Fragment() {
@@ -22,11 +21,14 @@ class SubjectDetailFragment : Fragment() {
 
     private var subjectId: String = ""
     private var subjectName: String = ""
+    private var subjectLevel: String = "B2"
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         subjectId = arguments?.getString("subjectId") ?: ""
         subjectName = arguments?.getString("subjectName") ?: ""
+        subjectLevel = arguments?.getString("level") ?: "B2"
+        Log.d("SubjectDetail", "📥 Arguments — subjectId=$subjectId, subjectName=$subjectName, level=$subjectLevel")
     }
 
     override fun onCreateView(
@@ -45,10 +47,12 @@ class SubjectDetailFragment : Fragment() {
     }
 
     private fun setupUI() {
+        Log.d("SubjectDetail", "🎬 setupUI — subjectName=$subjectName")
         binding.tvSubjectTitle.text = subjectName
 
         // Back button
         binding.btnBack.setOnClickListener {
+            Log.d("SubjectDetail", "🔙 Back pressed")
             findNavController().navigateUp()
         }
 
@@ -58,6 +62,7 @@ class SubjectDetailFragment : Fragment() {
                 putString("quizId", "${subjectId}_quiz_1")
                 putString("subjectId", subjectId)
             }
+            Log.d("SubjectDetail", "🎮 Starting quiz for subjectId=$subjectId")
             findNavController().navigate(R.id.action_subjectDetail_to_quizActive, bundle)
         }
 
@@ -66,35 +71,51 @@ class SubjectDetailFragment : Fragment() {
     }
 
     private fun observeViewModel() {
+        Log.d("SubjectDetail", "👀 observeViewModel registered")
         viewModel.subjects.observe(viewLifecycleOwner) { subjects ->
+            Log.d("SubjectDetail", "📨 subjects updated: ${subjects.size} subjects received")
             val subject = subjects.find { it.id == subjectId }
+            if (subject != null) {
+                Log.d("SubjectDetail", "✅ MATCHED subjectId=$subjectId | description len=${subject.description.length} | tips=${subject.tips.size}")
+                Log.d("SubjectDetail", "📝 description[0..80]: ${subject.description.take(80)}")
+            } else {
+                Log.e("SubjectDetail", "❌ NO MATCH for subjectId=$subjectId")
+                Log.d("SubjectDetail", "   Available ids: ${subjects.map { it.id }.joinToString()}")
+            }
             subject?.let {
-                // Dynamically compute quizCount from actual question count in JSON
                 val totalQ = LocalQuestionBank.getTotalQuestionCount(requireContext(), it.id)
                 val computedQuizCount = if (totalQ > 0) (totalQ + 9) / 10 else it.quizCount
+                Log.d("SubjectDetail", "📊 quizCount=$computedQuizCount, totalQ=$totalQ")
                 bindSubject(it.copy(questionCount = totalQ, quizCount = computedQuizCount))
             }
         }
     }
 
     private fun loadSubject(id: String) {
-        val level = arguments?.getString("level") ?: "B2"
+        val level = subjectLevel
+        Log.d("SubjectDetail", "📤 loadSubjectsForLevel($level) for subjectId=$id")
         viewModel.loadSubjectsForLevel(level)
     }
 
     private fun bindSubject(subject: com.b2deutsch.app.data.model.Subject) {
+        Log.d("SubjectDetail", "🎨 bindSubject for ${subject.id}")
         binding.tvSubjectIcon.text = subject.iconEmoji
-        binding.tvSubjectDescription.text = subject.description
+        binding.tvSubjectDescription.text = subject.description.ifEmpty {
+            Log.e("SubjectDetail", "⚠️ description is EMPTY for ${subject.id}")
+            "No description available"
+        }
 
         // Show category
         binding.tvCategory.text = getCategoryLabel(subject.category)
 
         // Show tips
+        Log.d("SubjectDetail", "💡 tips count: ${subject.tips.size}")
         if (subject.tips.isNotEmpty()) {
             binding.tvTipsTitle.visibility = View.VISIBLE
             binding.tvTips.visibility = View.VISIBLE
             binding.tvTips.text = subject.tips.joinToString("\n\n") { "• $it" }
         } else {
+            Log.e("SubjectDetail", "⚠️ NO TIPS for ${subject.id}")
             binding.tvTipsTitle.visibility = View.GONE
             binding.tvTips.visibility = View.GONE
         }
