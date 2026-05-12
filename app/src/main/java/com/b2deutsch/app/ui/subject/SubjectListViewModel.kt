@@ -437,17 +437,20 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "16. Nomen-Verb-Verbindungen",
             nameShort = "Nomen-Verb-Verbindungen",
-            description = "Nomen-Verb-Verbindungen sind Ausdrücke, bei denen ein Nomen mit einem Verb eine feste Wendung bildet. Diese sind typisch für formelle deutsche Texte und sollten in der B2-Prüfung korrekt verwendet werden.\n\nBeispiele:\n• 'Ich werde eine Entscheidung treffen.' (Entscheidung treffen)\n• 'Er hat eine Frage gestellt.'",
+            description = "📚 Nomen-Verb-Verbindungen (NVV) — B2 Topic Summary\n\nNomen-Verb-Verbindungen (noun-verb combinations) are fixed expressions in German where a specific noun is used together with a particular verb. These structures replace a single verb and are especially common in written and formal texts.\n\nBasic Concept:\nInstead of using a single verb, German often uses a noun + verb combination:\n• eine Entscheidung treffen = to decide (lit. 'to make a decision')\n• eine Frage stellen = to ask (lit. 'to place a question')\n• Kritik üben = to criticize (lit. 'to exercise criticism')\n• in Betracht ziehen = to consider (lit. 'to pull into consideration')\n• zur Verfügung stehen = to be available (lit. 'to stand at disposal')\n• Rücksicht nehmen auf = to consider / to take into account\n• einen Antrag stellen = to apply (lit. 'to place an application')\n• Einfluss nehmen auf = to influence (lit. 'to take influence on')\n• zum Ausdruck bringen = to express (lit. 'to bring to expression')\n• in Frage kommen = to be considered / to be possible (lit. 'to come into question')\n\nImportant Notes:\n• The noun usually appears without an article or with a definite article\n• The verb goes to the end of the sentence (German verb rule)\n• NVVs can be passivized: Eine Entscheidung wird getroffen\n• In the B2 exam, questions usually test correct verb selection or matching\n\nCommon Verb Patterns in NVVs:\n• treffen: eine Entscheidung treffen\n• stellen: eine Frage stellen, einen Antrag stellen\n• machen: Eindruck machen\n• nehmen: Einfluss nehmen, Rücksicht nehmen\n• üben: Kritik üben\n• bringen: zum Ausdruck bringen\n• stehen: zur Verfügung stehen\n• tragen: Sorge tragen\n• aufnehmen: Kontakt aufnehmen\n• ziehen: in Betracht ziehen\n• kommen: in Frage kommen\n• halten: eine Rede halten\n• übernehmen: Verantwortung übernehmen\n• erreichen: einen Kompromiss erreichen\n• finden: einen Kompromiss finden\n• ergriffen: das Wort ergreifen\n• treten: in Kraft treten\n\nWhy does it matter?\nIn B2 reading and writing tasks, NVVs appear frequently in formal texts such as newspaper articles, official letters, and academic texts. Using the correct NVV instead of a simple verb shows advanced proficiency and helps you sound more natural, like a native speaker.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 16,
             quizCount = 0,
             tips = listOf(
-                "Entscheidung treffen = karar vermek",
-                "Frage stellen = soru sormak",
-                "Eine Entscheidung treffen, eine Frage stellen",
-                "Wichtig: der Artikel bleibt beim Nomen!",
-                "Im B2-Exam: Leseverstehen und Schreiben"
+                "eine Entscheidung treffen ≠ eine Entscheidung machen (treffen is correct!)",
+                "eine Frage stellen ≠ eine Frage machen (stellen is correct!)",
+                "Einfluss nehmen auf (+Akkusativ) — NOT 'Einfluss machen'!",
+                "Rücksicht nehmen auf (+Akkusativ)",
+                "Kritik üben an (+Dativ)",
+                "in Kraft treten | in Betracht ziehen | in Frage kommen",
+                "NVVs can be passivized: Eine Entscheidung wird getroffen",
+                "B2 exam: usually tests correct verb selection or matching"
             )
         ),
         // 18. Folgen ausdrücken

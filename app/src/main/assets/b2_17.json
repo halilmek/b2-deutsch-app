@@ -2,7 +2,327 @@
   "version": "1.0",
   "subjectId": "b2_17",
   "topicName": "Nomen-Verb-Verbindungen",
-  "totalQuestions": 0,
-  "questions": [],
-  "description": "📚 Nomen-Verb-Verbindungen (NVV) — B2 Topic Summary\n\nNomen-Verb-Verbindungen (Noun-Verb Combinations) are fixed expressions in German where a noun is used together with a specific verb. These structures replace a single verb and are especially common in written and formal texts.\n\nCore Concept:\n\n| Noun-Verb Combination | Single Verb Equivalent |\n|---|---|\n| eine Entscheidung treffen | entscheiden |\n| eine Frage stellen | fragen |\n| Kritik üben | kritisieren |\n| in Betracht ziehen | berücksichtigen |\n| zur Verfügung stehen | verfügbar sein |\n| Rücksicht nehmen auf | berücksichtigen |\n| einen Antrag stellen | beantragen |\n| Einfluss nehmen auf | beeinflussen |\n| zum Ausdruck bringen | ausdrücken |\n| in Frage kommen | möglich sein |\n\nKey Points:\n\n- The noun usually appears without an article or with a definite article\n- The verb moves to the end of the sentence (German verb rule)\n- NVVs can be converted to passive: Eine Entscheidung wird getroffen\n- In B2 exams, they usually appear as \"choose the correct verb\" or \"match\" questions"
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": "b2_17_q001",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Der Direktor hat gestern eine wichtige Entscheidung ________.",
+      "options": [
+        "gemacht",
+        "getroffen",
+        "genommen",
+        "gestellt"
+      ],
+      "correctAnswer": "getroffen",
+      "explanation": "eine Entscheidung treffen",
+      "difficulty": "easy",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q002",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin hat dem Professor eine Frage ________.",
+      "options": [
+        "gestellt",
+        "gemacht",
+        "gegeben",
+        "gebracht"
+      ],
+      "correctAnswer": "gestellt",
+      "explanation": "eine Frage stellen",
+      "difficulty": "easy",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q003",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Der neue Mitarbeiter hat sofort einen guten Eindruck ________.",
+      "options": [
+        "gemacht",
+        "gegeben",
+        "gezeigt",
+        "gestellt"
+      ],
+      "correctAnswer": "gemacht",
+      "explanation": "einen Eindruck machen",
+      "difficulty": "easy",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q004",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung will Einfluss auf die Medien ________.",
+      "options": [
+        "machen",
+        "üben",
+        "nehmen",
+        "bringen"
+      ],
+      "correctAnswer": "nehmen",
+      "explanation": "Einfluss nehmen auf (+Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q005",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen auf die Bedürfnisse der Kunden Rücksicht ________.",
+      "options": [
+        "zeigen",
+        "nehmen",
+        "geben",
+        "machen"
+      ],
+      "correctAnswer": "nehmen",
+      "explanation": "Rücksicht nehmen auf (+Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q006",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Der Anwalt hat Kritik an dem Urteil ________.",
+      "options": [
+        "geübt",
+        "gemacht",
+        "gestellt",
+        "genommen"
+      ],
+      "correctAnswer": "geübt",
+      "explanation": "Kritik üben an (+Dativ)",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q007",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Das neue Gesetz tritt morgen in ________.",
+      "options": [
+        "Wirkung",
+        "Kraft",
+        "Geltung",
+        "Funktion"
+      ],
+      "correctAnswer": "Kraft",
+      "explanation": "in Kraft treten",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q008",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Die Lehrerin brachte ihre Enttäuschung klar zum ________.",
+      "options": [
+        "Wort",
+        "Ausdruck",
+        "Vorschein",
+        "Sprechen"
+      ],
+      "correctAnswer": "Ausdruck",
+      "explanation": "zum Ausdruck bringen",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q009",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Der Bewerber muss einen Antrag auf Förderung ________.",
+      "options": [
+        "machen",
+        "schreiben",
+        "stellen",
+        "geben"
+      ],
+      "correctAnswer": "stellen",
+      "explanation": "einen Antrag stellen",
+      "difficulty": "easy",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q010",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Diese Lösung kommt leider nicht in ________.",
+      "options": [
+        "Betracht",
+        "Frage",
+        "Frage und Betracht",
+        "Möglichkeit"
+      ],
+      "correctAnswer": "Frage",
+      "explanation": "in Frage kommen",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q011",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Der Vorsitzende hat das Wort ________.",
+      "options": [
+        "gesagt",
+        "ergriffen",
+        "genommen",
+        "benutzt"
+      ],
+      "correctAnswer": "ergriffen",
+      "explanation": "das Wort ergreifen",
+      "difficulty": "easy",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q012",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Die neue Technologie steht allen Nutzern zur ________.",
+      "options": [
+        "Auswahl",
+        "Nutzung",
+        "Verfügung",
+        "Benutzung"
+      ],
+      "correctAnswer": "Verfügung",
+      "explanation": "zur Verfügung stehen",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q013",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Er hat für seinen Fehler die Verantwortung ________.",
+      "options": [
+        "gemacht",
+        "genommen",
+        "übernommen",
+        "gestellt"
+      ],
+      "correctAnswer": "übernommen",
+      "explanation": "Verantwortung übernehmen",
+      "difficulty": "medium",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q014",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt muss in ________ gezogen werden.",
+      "options": [
+        "Überlegung",
+        "Betracht",
+        "Gedanken",
+        "Rücksicht"
+      ],
+      "correctAnswer": "Betracht",
+      "explanation": "in Betracht ziehen",
+      "difficulty": "hard",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q015",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Die Firma hat mit dem neuen Partner Kontakt ________.",
+      "options": [
+        "gemacht",
+        "aufgenommen",
+        "gesucht",
+        "gestellt"
+      ],
+      "correctAnswer": "aufgenommen",
+      "explanation": "Kontakt aufnehmen mit (+Dativ)",
+      "difficulty": "easy",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q016",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Der Schüler hat bei der Prüfung einen Fehler ________.",
+      "options": [
+        "getan",
+        "gemacht",
+        "begangen",
+        "B und C sind richtig"
+      ],
+      "correctAnswer": "B und C sind richtig",
+      "explanation": "einen Fehler machen oder begehen",
+      "difficulty": "hard",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q017",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen kamen endlich zu einem ________.",
+      "options": [
+        "Ergebnis",
+        "Ende",
+        "Abschluss",
+        "A und C sind richtig"
+      ],
+      "correctAnswer": "A und C sind richtig",
+      "explanation": "zu einem Ergebnis/Abschluss kommen",
+      "difficulty": "hard",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q018",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker hat eine Rede ________.",
+      "options": [
+        "gesagt",
+        "gehalten",
+        "gemacht",
+        "vorgetragen"
+      ],
+      "correctAnswer": "gehalten",
+      "explanation": "eine Rede halten",
+      "difficulty": "easy",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q019",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Die Eltern müssen für ihre Kinder Sorge ________.",
+      "options": [
+        "machen",
+        "nehmen",
+        "tragen",
+        "geben"
+      ],
+      "correctAnswer": "tragen",
+      "explanation": "Sorge tragen für (+Akkusativ)",
+      "difficulty": "hard",
+      "topicName": "Nomen-Verb-Verbindungen"
+    },
+    {
+      "id": "b2_17_q020",
+      "subjectId": "b2_17",
+      "type": "multiple_choice",
+      "questionText": "Nach langen Diskussionen wurde ein Kompromiss ________.",
+      "options": [
+        "gemacht",
+        "gefunden",
+        "erreicht",
+        "B und C sind richtig"
+      ],
+      "correctAnswer": "B und C sind richtig",
+      "explanation": "einen Kompromiss finden oder erreichen",
+      "difficulty": "hard",
+      "topicName": "Nomen-Verb-Verbindungen"
+    }
+  ]
 }
