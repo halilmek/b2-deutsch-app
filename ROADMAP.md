@@ -75,7 +75,7 @@ After every task, update ROADMAP.md:
 - [x] `b2_19`: 100 Ausdrücke mit Präpositionen questions ✅, description ✅, tips ✅ (2026-05-12)
 
 ### 🚨 Pending Fixes
-- [ ] `b2_15`: missing description
+- [x] `b2_20`: 100 Irreale Konditionalsätze questions ✅, description ✅, tips ✅ (2026-05-12)
 - [ ] `b2_16`: topicName wrong + missing description
 
 ### 📋 Backlog
