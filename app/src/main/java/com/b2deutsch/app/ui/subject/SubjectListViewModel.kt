@@ -459,17 +459,17 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "17. Folgen ausdrücken: folglich, infolgedessen, deshalb, sodass",
             nameShort = "Folgen ausdrücken",
-            description = "Um Folgen und Ergebnisse auszudrücken, werden verschiedene Konnektoren verwendet: 'deshalb', 'daher', 'deswegen', 'folglich', 'infolgedessen', 'sodass'. Diese sind wichtig für argumentative Texte.\n\nBeispiele:\n• 'Es hat viel geregnet, deshalb ist die Straße nass.'\n• 'Er hat viel gelernt, sodass er die Prüfung bestanden hat.'",
+            description = "📚 'Folgen ausdrücken' (Expressing Consequences / Sonuç İfade Etme) is an important grammar and expression skill at B2 level. It covers various structures used to express the result of an action, situation, or event.\n\n🔑 Key Structures\n\n• deshalb / daher / darum → cause → consequence (Hauptsatz)\n  Example: 'Es regnete, deshalb blieben wir zu Hause.'\n\n• also → consequence / logical conclusion\n  Example: 'Du hast Fieber, also musst du zum Arzt.'\n\n• deswegen → therefore / bu yüzden (Hauptsatz)\n  Example: 'Sie hat nicht geschlafen, deswegen ist sie müde.'\n\n• infolgedessen → consequently / bunun sonucu olarak (formal, written)\n  Example: 'Die Fabrik schloss, infolgedessen verloren viele ihren Job.'\n\n• folglich → consequently / dolayısıyla (formal/written)\n  Example: 'Er kam zu spät, folglich verpasste er den Zug.'\n\n• sodass / so … dass → so that / öyle ki (Nebensatz — verb at the end)\n  Example: 'Er arbeitete so viel, dass er krank wurde.'\n\n• somit → thus / bu suretle (formal)\n  Example: 'Das Projekt ist beendet, somit können wir pausieren.'\n\n• demnach → accordingly / buna göre\n  Example: 'Die Studie zeigt X, demnach ist Y richtig.'\n\n🔍 Important Distinctions\n\n• deshalb / daher / darum / deswegen → very similar in meaning, used in Hauptsatz, verb in position 2\n• sodass → Nebensatz conjunction, verb goes to the end\n• so … dass → Degree + Result: 'Er sprach so leise, dass niemand ihn hörte.'\n• folglich / infolgedessen / somit / demnach → used in more formal/academic texts",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 17,
             quizCount = 0,
             tips = listOf(
-                "DESHALB/DESWEGEN/DARUM = therefore / bu yüzden (Position 2)",
-                "FOLGLICH = consequently / sonuç olarak (Position 1 oder 2)",
-                "INFOLGEDESSEN = consequently / bunun sonucunda (nachgestellt)",
-                "SODASS = so that / öyle ki (Ziel/Wirkung, Verb am Ende)",
-                "Im B2-Exam: diese zeigen logische Argumentation"
+                "DESHALB/DESWEGEN/DARUM = therefore / therefore (Position 2)",
+                "FOLGLICH = consequently / consequently (Position 1 or 2)",
+                "INFOLGEDESSEN = consequently / as a result (postpositioned)",
+                "SODASS = so that / so that (Purpose/Effect, Verb at the end)",
+                "In the B2 Exam: these show logical argumentation"
             )
         ),
         // 19. Ausdrücke mit Präpositionen
