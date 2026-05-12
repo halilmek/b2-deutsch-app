@@ -478,17 +478,22 @@ class SubjectListViewModel @Inject constructor(
             level = "B2",
             name = "18. Ausdrücke mit Präpositionen",
             nameShort = "Präposition-Ausdrücke",
-            description = "Viele Ausdrücke im Deutschen werden mit festen Präpositionen verwendet. Diese zu kennen ist wichtig für das Leseverstehen und für das Schreiben.\n\nBeispiele:\n• 'Es kommt darauf an, ob du lernen willst.' (an + Akkusativ)\n• 'Ich rechne mit deiner Hilfe.' (mit + Dativ)",
+            description = "📚 'Ausdrücke mit Präpositionen' (Expressions with Prepositions / Edatlı Fiiller) covers fixed prepositions used with verbs, adjectives, and nouns at B2 level.\n\n🔷 1. Verbs with Prepositions (Fiil + Edat)\n\n• warten auf + Akkusativ = to wait for\n  Example: 'Ich warte auf den Bus.'\n\n• sich freuen auf / über + Akkusativ = to look forward to\n  Example: 'Ich freue mich auf die Ferien.' / 'über das Geschenk'\n\n• denken an + Akkusativ = to think of\n  Example: 'Ich denke an dich.'\n\n• sich erinnern an + Akkusativ = to remember\n  Example: 'Er erinnert sich an seine Kindheit.'\n\n• sich beschäftigen mit + Dativ = to deal with\n  Example: 'Sie beschäftigt sich mit Musik.'\n\n• sprechen über / von + Akkusativ / Dativ = to talk about\n  Example: 'Wir sprechen über das Problem.'\n\n• bitten um + Akkusativ = to ask for\n  Example: 'Er bittet um Hilfe.'\n\n• sich bewerben um / bei + Akkusativ / Dativ = to apply for\n  Example: 'Sie bewirbt sich um die Stelle bei einer Firma.'\n\n• gehören zu + Dativ = to belong to\n  Example: 'Das gehört zu meinen Aufgaben.'\n\n• leiden an / unter + Dativ = to suffer from\n  Example: 'Er leidet an einer Krankheit.' / 'unter dem Lärm'\n\n• sich interessieren für + Akkusativ = to be interested in\n  Example: 'Ich interessiere mich für Kunst.'\n\n• zweifeln an + Dativ = to doubt\n  Example: 'Sie zweifelt an seiner Ehrlichkeit.'\n\n• bestehen aus / auf + Dativ = to consist of / to insist on\n  Example: 'Das Gerät besteht aus Metall.' / 'Er besteht auf seiner Meinung.'\n\n• abhängen von + Dativ = to depend on\n  Example: 'Es hängt von dir ab.'\n\n🔷 2. Adjectives with Prepositions (Sıfat + Edat)\n\n• zufrieden mit = satisfied with\n• begeistert von / für = enthusiastic about\n• verantwortlich für = responsible for\n• neidisch auf = jealous of\n• stolz auf = proud of\n• neugierig auf = curious about\n• angewiesen auf = dependent on\n• gewöhnt an = accustomed to\n• überzeugt von = convinced of\n• enttäuscht von / über = disappointed with\n\n🔷 3. Nouns with Prepositions (İsim + Edat)\n\n• die Angst vor = fear of\n• die Lust auf = desire for\n• das Interesse an / für = interest in\n• die Hoffnung auf = hope for\n• die Freude über / an = joy over / in\n\n🔷 4. Pronominaladverbien (da(r)- / wo(r)-)\n\nWhen a preposition refers to a thing (not a person), use a pronominal adverb:\n• 'Ich warte auf den Bus.' → 'Ich warte darauf.'\n• 'Wofür interessierst du dich?' → 'Dafür interessiere ich mich sehr.'\n\nNote: Use 'worüber', 'worauf', etc. when asking about things, not people.",
             category = Constants.Categories.GRAMMAR,
             iconEmoji = "📝",
             order = 18,
             quizCount = 0,
             tips = listOf(
-                "ankommen auf + Akkusativ = dependent on",
-                "rechnen mit + Dativ = to count on",
-                "leiden unter + Dativ = to suffer from",
-                "sich erinnern an + Akkusativ = to remember",
-                "Im B2-Exam: Präpositionen mit bestimmten Verben und Adjektiven"
+                "warten auf + Akk = to wait for",
+                "sich freuen auf/über + Akk = to look forward to",
+                "sich erinnern an + Akk = to remember",
+                "sich beschäftigen mit + Dat = to deal with",
+                "sprechen über/von + Akk/Dat = to talk about",
+                "bitten um + Akk = to ask for",
+                "leiden an/unter + Dat = to suffer from",
+                "zufrieden mit + Dat = satisfied with",
+                "stolz auf + Akk = proud of",
+                "Antwort: da(r)- / wo(r)- pronouns for things not people"
             )
         ),
         // 20. irreale Konditionalsätze in der Vergangenheit
