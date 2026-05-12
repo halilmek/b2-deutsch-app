@@ -1,7 +1,7 @@
 # b2-deutsch-app — Project Roadmap & Agent Memory
 
-> ⚠️ **TOKEN NEEDED**: Halil provides at start of each session  
-> Store token in `~/.openclaw/workspace/TOOLS.md` at runtime — never hardcode  
+> ⚠️ **TOKEN NEEDED**: Halil provides at start of each session
+> Store token in `~/.openclaw/workspace/TOOLS.md` at runtime — never hardcode
 > Remote URL format: `https://[TOKEN]@github.com/halilmek/b2-deutsch-app.git`
 
 ---
@@ -52,7 +52,7 @@ After every task, update ROADMAP.md with WHAT we did + FILES CHANGED.
 - [x] `b2_20`: 100 Irreale Konditionalsätze questions + description + tips ✅
 - [x] `b2_21`: 100 Relativsätze im Genitiv questions + description + tips ✅
 - [x] `b2_22`: 100 Konjunktiv I questions + description + tips ✅
-- [x] `b2_23`: description expanded with als ob/wenn/wie + Konjunktiv II rules + tips ✅
+- [x] `b2_23`: 100 Konjunktiv II irrealen Vergleichsätze questions + description + tips ✅
 - [x] **C2 button added** to level selector (under construction toast) ✅
 
 ### 🚨 Pending Fixes
