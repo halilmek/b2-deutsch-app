@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-13 18:47 UTC
+**Last Updated:** 2026-05-13 18:48 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -50,8 +50,14 @@
 | 6 | a1_06 | Präpositionen (in, auf, an, mit, nach...) | 60 | 6 | ✅ Complete |
 | 7 | a1_07 | Verben mit Präpositionen (warten auf, denken an...) | 60 | 6 | ✅ Complete |
 | 8 | a1_08 | Perfekt (haben/sein + Partizip II) | 60 | 6 | ✅ Complete |
-| 9 | a1_09 | Modalverben (können, müssen, wollen, dürfen, sollen) | 50 | 5 | ✅ Complete |
-| 10 | a1_10 | Sätze bilden (Wortstellung) | 50 | 5 | ✅ Complete |
+| 9 | a1_09 | Modalverben (können, müssen, wollen, dürfen, sollen) | 60 | 6 | ✅ Complete |
+| 10 | a1_10 | Sätze bilden (Wortstellung) | 60 | 6 | ✅ Complete |
+
+---
+
+### 2026-05-13 18:48 — a1_09-10: Q61-Q70 added (all A1 topics now 60 questions)
+- **Commits:** `cbf9a35` (a1_09), `5863b58` (a1_10)
+- **All A1:** a1_01–a1_10 → 60 questions each (600 total), 6 quizzes each
 
 ---
 
