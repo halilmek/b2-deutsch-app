@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_08",
   "topicName": "8. Perfekt (haben/sein + Partizip II)",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "questions": [
     {
       "id": "a1_08_q001",
@@ -641,6 +641,166 @@
       ],
       "correctAnswer": "haben",
       "explanation": "haben ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q051",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Gestern _____ ich den ganzen Tag im Bett _____, weil ich Fieber hatte.",
+      "options": [
+        "habe / gelegen",
+        "bin / gelegen",
+        "habe / gelegt",
+        "bin / gelegt"
+      ],
+      "correctAnswer": "bin / gelegen",
+      "explanation": "liegen → ist gelegen (Perfekt mit sein).",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q052",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Er _____ sein Portemonnaie auf dem Weg zur Arbeit _____.",
+      "options": [
+        "ist / verloren",
+        "hat / verloren",
+        "ist / verliegt",
+        "hat / verliert"
+      ],
+      "correctAnswer": "hat / verloren",
+      "explanation": "verlieren → hat verloren (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q053",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Wann _____ du eigentlich _____ das neue Auto zu kaufen?",
+      "options": [
+        "hast / beschloss",
+        "bist / beschlossen",
+        "hast / beschlossen",
+        "bist / beschlosst"
+      ],
+      "correctAnswer": "hast / beschlossen",
+      "explanation": "beschließen → hast beschlossen (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q054",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _____ im Garten _____ und sind ganz schmutzig.",
+      "options": [
+        "haben / gespielt",
+        "sind / gespielt",
+        "haben / gespielt worden",
+        "sind / gespielt worden"
+      ],
+      "correctAnswer": "haben / gespielt",
+      "explanation": "spielen → haben gespielt (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q055",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ uns vor zwei Wochen eine Wohnung _____, aber der Mietvertrag ist noch nicht unterschrieben.",
+      "options": [
+        "haben / angesehen",
+        "sind / angesehen",
+        "haben / gesehen zu",
+        "sind / gesehen"
+      ],
+      "correctAnswer": "haben / angesehen",
+      "explanation": "sich eine Wohnung ansehen → haben angesehen (Perfekt mit haben, reflexiv).",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q056",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Zum Glück _____ dem alten Mann nichts Ernstes _____.",
+      "options": [
+        "ist / passiert",
+        "hat / passiert",
+        "ist / gepasst",
+        "hat / gepasst"
+      ],
+      "correctAnswer": "ist / passiert",
+      "explanation": "passieren → ist passiert (Perfekt mit sein, Zustandsänderung).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q057",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Warum _____ du mir nicht rechtzeitig _____?",
+      "options": [
+        "hast / Bescheid gesagt",
+        "bist / Bescheid gesagt",
+        "hast / Bescheid gegeben",
+        "bist / Bescheid getan"
+      ],
+      "correctAnswer": "hast / Bescheid gegeben",
+      "explanation": "Bescheid geben → hast Bescheid gegeben (Perfekt mit haben).",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q058",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Meine Schwester _____ nach Berlin _____, um dort zu studieren.",
+      "options": [
+        "ist / gezogen",
+        "hat / gezogen",
+        "ist / zog",
+        "hat / zugezogen"
+      ],
+      "correctAnswer": "ist / gezogen",
+      "explanation": "umziehen → ist gezogen (Perfekt mit sein, Bewegung/Stadtwechsel).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q059",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Die Firma _____ im letzten Jahr einen neuen Geschäftsführer _____.",
+      "options": [
+        "hat / eingestellt",
+        "ist / eingestellt",
+        "hat / gestellt ein",
+        "ist / eingestiegen"
+      ],
+      "correctAnswer": "hat / eingestellt",
+      "explanation": "ein一套 → hat eingestellt (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q060",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "Er _____ das ganze Buch innerhalb einer Woche _____, obwohl es sehr dick ist.",
+      "options": [
+        "hat / durchgelesen",
+        "ist / durchgelesen",
+        "hat / vorgelesen",
+        "ist / gelesen durch"
+      ],
+      "correctAnswer": "hat / durchgelesen",
+      "explanation": "durchlesen → hat durchgelesen (Perfekt mit haben).",
       "difficulty": "easy",
       "topicName": "Perfekt (haben/sein + Partizip II)"
     }
