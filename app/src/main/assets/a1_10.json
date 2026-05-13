@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_10",
   "topicName": "10. Sätze bilden (Wortstellung)",
-  "totalQuestions": 50,
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_10_q001",
@@ -802,6 +802,166 @@
       "correctAnswer": "Je mehr du übst, desto besser wirst du.",
       "explanation": "Je... desto/umso: Je + Komparativ + Subjekt + Verb, desto + Komparativ + Verb + Subjekt.",
       "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q061",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "_____ du weißt, dass morgen Feiertag ist?",
+      "options": [
+        "Weißt",
+        "Wissen",
+        "Wisst",
+        "Weiß"
+      ],
+      "correctAnswer": "Weißt",
+      "explanation": "wissen → du weißt (2. Person Singular, Umlaut).",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q062",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Gestern _____ ich meine Freunde im Café getroffen.",
+      "options": [
+        "habe",
+        "hat",
+        "hatten",
+        "haben"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "treffen → habe getroffen (Perfekt mit haben, 1. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q063",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Wenn es morgen regnet, _____ wir zu Hause.",
+      "options": [
+        "bleiben",
+        "bleibt",
+        "bleibe",
+        "geblieben"
+      ],
+      "correctAnswer": "bleiben",
+      "explanation": "Nebensatz (wenn) → Hauptsatz mit Verb 1. Stelle: bleiben wir.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q064",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Nicht nur _____, sondern auch _____ war sehr freundlich.",
+      "options": [
+        "der Chef / die Kollegin",
+        "die Kollegin / der Chef",
+        "Chef / Kollegin",
+        "dem Chef / der Kollegin"
+      ],
+      "correctAnswer": "der Chef / die Kollegin",
+      "explanation": "Nicht nur... sondern auch: korrekte Satzbaureihenfolge mit Artikel.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q065",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "_____ du mir bitte sagen, wo die nächste Apotheke ist?",
+      "options": [
+        "Kann",
+        "Kannst",
+        "Können",
+        "Könnt"
+      ],
+      "correctAnswer": "Kannst",
+      "explanation": "können → du kannst (2. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q066",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß nicht, _____ er heute kommt oder nicht.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "Indirekte Frage mit ob (ja/nein-Frage): ob er heute kommt oder nicht.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q067",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "_____ sie mehr Zeit gehabt hätte, wäre sie mitgekommen.",
+      "options": [
+        "Wenn",
+        "Weil",
+        "Dass",
+        "Obwohl"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "Irrealer Konditionalsatz: wenn sie mehr Zeit gehabt hätte (Konjunktiv II).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q068",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Er fragt mich, _____ ich schon gegessen habe.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "Indirekte Frage mit ob: ob ich schon gegessen habe.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q069",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "_____ ich mich nicht irre, haben wir uns schon einmal gesehen.",
+      "options": [
+        "Wenn",
+        "Weil",
+        "Dass",
+        "Obwohl"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn ich mich nicht irre (= wenn ich recht habe, glaube ich).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q070",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Sie möchte wissen, _____ der Zug abfährt.",
+      "options": [
+        "wann",
+        "dass",
+        "weil",
+        "ob"
+      ],
+      "correctAnswer": "wann",
+      "explanation": "Indirekte W-Frage: wann der Zug abfährt (W-question word).",
+      "difficulty": "easy",
       "topicName": "Sätze bilden (Wortstellung)"
     }
   ]
