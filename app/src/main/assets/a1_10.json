@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_10",
   "topicName": "10. Sätze bilden (Wortstellung)",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "questions": [
     {
       "id": "a1_10_q001",
@@ -642,6 +642,166 @@
       "correctAnswer": "rufe",
       "explanation": "rufe ist hier die richtige Antwort.",
       "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q051",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie den korrekten Satz:",
+      "options": [
+        "Weil heute regnet es, bleibe ich zu Hause.",
+        "Weil es regnet heute, bleibe ich zu Hause.",
+        "Weil es heute regnet, bleibe ich zu Hause.",
+        "Weil heute es regnet, bleibe ich zu Hause."
+      ],
+      "correctAnswer": "Weil es heute regnet, bleibe ich zu Hause.",
+      "explanation": "Nebensatz: weil + Subjekt + Verb an 2. Stelle (es regnet) → Hauptsatz mit Verb an 1. Stelle.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q052",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die richtige Satzstellung:",
+      "options": [
+        "Wenn ich Zeit habe, ich besuche dich morgen.",
+        "Wenn ich Zeit habe, besuche ich dich morgen.",
+        "Wenn ich Zeit habe, besuchen morgen ich dich.",
+        "Wenn ich habe Zeit, ich besuche dich morgen."
+      ],
+      "correctAnswer": "Wenn ich Zeit habe, besuche ich dich morgen.",
+      "explanation": "Nebensatz (wenn) → Verb am Ende, Hauptsatz → Verb an 1. Stelle: besuche ich.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q053",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Der Chef fragt, …",
+      "options": [
+        "… ob du den Bericht fertig hast.",
+        "… ob hast du den Bericht fertig.",
+        "… ob du hast den Bericht fertig.",
+        "… ob du den Bericht fertig hast du."
+      ],
+      "correctAnswer": "… ob du den Bericht fertig hast.",
+      "explanation": "Indirekte Frage mit ob → normale Wortstellung: Subjekt (du) + Verb (hast).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q054",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Richtig ist:",
+      "options": [
+        "Nach dem Essen habe ich kurz geschlafen und dann ich habe weitergearbeitet.",
+        "Nach dem Essen habe ich kurz geschlafen und dann habe ich weitergearbeitet.",
+        "Nach dem Essen habe ich kurz geschlafen und dann weitergearbeitet habe ich.",
+        "Nach dem Essen ich kurz geschlafen habe und dann habe ich weitergearbeitet."
+      ],
+      "correctAnswer": "Nach dem Essen habe ich kurz geschlafen und dann habe ich weitergearbeitet.",
+      "explanation": "Hauptsatz mit Verb 1. Stelle nach 'und': dann + Verb + Subjekt (habe ich).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q055",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Kein Fehler in der Wortstellung:",
+      "options": [
+        "Kannst du mir sagen, wann fährt der letzte Bus?",
+        "Kannst du mir sagen, wann der letzte Bus fährt?",
+        "Kannst du mir sagen, der letzte Bus wann fährt?",
+        "Kannst du mir sagen, wann fährt der letzte Bus ab?"
+      ],
+      "correctAnswer": "Kannst du mir sagen, wann der letzte Bus fährt?",
+      "explanation": "Indirekte W-Frage (wann): Subjekt vor Verb im Nebensatz (der letzte Bus fährt).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q056",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatikalisch korrekt?",
+      "options": [
+        "Ich weiß nicht, ob kommt er heute.",
+        "Ich weiß nicht, ob er heute kommt.",
+        "Ich weiß nicht, er kommt heute ob.",
+        "Ich weiß nicht, heute kommt er ob."
+      ],
+      "correctAnswer": "Ich weiß nicht, ob er heute kommt.",
+      "explanation": "Indirekte Frage mit ob: Subjekt (er) vor Verb (kommt) im Nebensatz.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q057",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Richtig ist:",
+      "options": [
+        "Obwohl er müde war, er half uns trotzdem.",
+        "Obwohl er müde war, half er uns trotzdem.",
+        "Obwohl er müde war uns half er trotzdem.",
+        "Obwohl er war müde, half er uns trotzdem."
+      ],
+      "correctAnswer": "Obwohl er müde war, half er uns trotzdem.",
+      "explanation": "Obwohl + Nebensatz → Hauptsatz mit Verb an 1. Stelle: half er.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q058",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Satz mit korrekter Stellung der trennbaren Verben:",
+      "options": [
+        "Ich rufe dich heute Abend an.",
+        "Ich rufe an dich heute Abend.",
+        "Ich anrufe dich heute Abend.",
+        "Heute Abend rufe an ich dich."
+      ],
+      "correctAnswer": "Ich rufe dich heute Abend an.",
+      "explanation": "Trennbare Verben: Verb am Ende im Nebensatz, Präfix abgetrennt (anrufen → rufe ... an).",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q059",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die richtige Reihenfolge:",
+      "options": [
+        "Dass er die Prüfung bestanden hat, freut mich sehr.",
+        "Dass hat er die Prüfung bestanden, freut mich sehr.",
+        "Er die Prüfung bestanden hat, freut mich sehr dass.",
+        "Bestanden hat er die Prüfung dass, freut mich sehr."
+      ],
+      "correctAnswer": "Dass er die Prüfung bestanden hat, freut mich sehr.",
+      "explanation": "Nominalsatz: Dass + Subjekt + Verb (hat) → Komma, dann Hauptsatz.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q060",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Richtig ist:",
+      "options": [
+        "Je mehr du übst, desto besser wirst du.",
+        "Je mehr du übst, wirst du desto besser.",
+        "Je mehr übst du, desto besser wirst du.",
+        "Du übst je mehr, desto besser wirst du."
+      ],
+      "correctAnswer": "Je mehr du übst, desto besser wirst du.",
+      "explanation": "Je... desto/umso: Je + Komparativ + Subjekt + Verb, desto + Komparativ + Verb + Subjekt.",
+      "difficulty": "medium",
       "topicName": "Sätze bilden (Wortstellung)"
     }
   ]
