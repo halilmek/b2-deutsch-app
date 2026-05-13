@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_02",
   "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "questions": [
     {
       "id": "a1_02_q001",
@@ -642,6 +642,166 @@
       "correctAnswer": "Bücher",
       "explanation": "Bücher ist hier die richtige Antwort.",
       "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q051",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "_____ Wissen über diese Technologie ist ziemlich begrenzt.",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Den"
+      ],
+      "correctAnswer": "Das",
+      "explanation": "Wissen = Neutrum (das Wissen), Nominativ.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q052",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Kennst du _____ neuen Mitarbeiterinnen aus der Buchhaltung?",
+      "options": [
+        "die",
+        "der",
+        "den",
+        "das"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Plural: die neuen Mitarbeiterinnen (Frauen = Plural).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q053",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "In vielen Ländern sind _____ Staatsschulden in den letzten Jahren gestiegen.",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Staatsschulden = Plural (die Staatsschulden), Nominativ Plural.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q054",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Trotz _____ starken Regens kamen fast alle Gäste pünktlich.",
+      "options": [
+        "dem",
+        "des",
+        "den",
+        "der"
+      ],
+      "correctAnswer": "des",
+      "explanation": "Genitiv nach trotz (trotz + Genitiv): des starken Regens.",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q055",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Welche _____ dieser beiden Lösungsansätze ist effizienter – der erste oder der zweite?",
+      "options": [
+        "von",
+        "aus",
+        "bei",
+        "nach"
+      ],
+      "correctAnswer": "von",
+      "explanation": "welche von diesen beiden (von + Dativ).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q056",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Die meisten Leute unterschätzen _____ Gefahren des Rauchens.",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Plural: die Gefahren des Rauchens (Gefahren = feminin Plural).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q057",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Der Geschmack _____ alten Weines war außergewöhnlich.",
+      "options": [
+        "- (null Artikel)",
+        "eines",
+        "des",
+        "dem"
+      ],
+      "correctAnswer": "des",
+      "explanation": "Genitiv: der Geschmack des alten Weines (Wein = maskulin).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q058",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "_____ neu entwickelten Softwarelösungen werden nächste Woche vorgestellt.",
+      "options": [
+        "Die",
+        "Der",
+        "Das",
+        "Den"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Nominativ Plural: die neu entwickelten Softwarelösungen.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q059",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Ich habe nichts gegen _____ Vorschläge meines Kollegen, aber sie sind zu teuer.",
+      "options": [
+        "die",
+        "der",
+        "den",
+        "das"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Plural: gegen die Vorschläge (Vorschläge = maskulin Plural).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q060",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Wir gedenken _____ Opfern des Krieges jedes Jahr am Volkstrauertag.",
+      "options": [
+        "die",
+        "der",
+        "den",
+        "des"
+      ],
+      "correctAnswer": "der",
+      "explanation": "Dativ Plural: wir gedenken der Opfer (den Opfern = Dativ).",
+      "difficulty": "medium",
       "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     }
   ]
