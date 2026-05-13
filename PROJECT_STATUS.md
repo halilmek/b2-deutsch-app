@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-13 18:48 UTC
+**Last Updated:** 2026-05-13 19:28 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -52,6 +52,30 @@
 | 8 | a1_08 | Perfekt (haben/sein + Partizip II) | 60 | 6 | ✅ Complete |
 | 9 | a1_09 | Modalverben (können, müssen, wollen, dürfen, sollen) | 60 | 6 | ✅ Complete |
 | 10 | a1_10 | Sätze bilden (Wortstellung) | 60 | 6 | ✅ Complete |
+
+---
+
+## 📋 A2 MODULE CONTENT (10 Topics)
+
+| # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
+|---|----------|-----------|-----------|-----------|----------------|
+| 1 | a2_01 | Präteritum (war, hatte, machte) | 20 | 2 | ✅ New (Halil's B2 test) |
+| 2 | a2_02 | Perfekt (haben/sein + Partizip II) | 0 | 0 | ⚠️ Placeholder |
+| 3 | a2_03 | Verben mit Präpositionen (AC) | 0 | 0 | ⚠️ Placeholder |
+| 4 | a2_04 | Wechselpräpositionen | 0 | 0 | ⚠️ Placeholder |
+| 5 | a2_05 | Nebensätze (dass, ob, weil, wenn, als) | 0 | 0 | ⚠️ Placeholder |
+| 6 | a2_06 | Reflexive Verben | 0 | 0 | ⚠️ Placeholder |
+| 7 | a2_07 | Imperativ | 0 | 0 | ⚠️ Placeholder |
+| 8 | a2_08 | Plusquamperfekt | 0 | 0 | ⚠️ Placeholder |
+| 9 | a2_09 | Relativsätze | 0 | 0 | ⚠️ Placeholder |
+| 10 | a2_10 | (missing from list) | 0 | 0 | ⚠️ Placeholder |
+
+### 2026-05-13 19:28 — a2_01: Added 20 Präteritum questions (Halil's B2 level test)
+- **Commit:** `74d4fd0`
+- **Topic:** Präteritum — 20 questions, 2 quizzes
+- **Source:** Halil's B2 test (Präteritum Testi)
+
+
 
 ---
 
