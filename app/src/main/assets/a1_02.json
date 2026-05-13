@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_02",
   "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)",
-  "totalQuestions": 50,
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_02_q001",
@@ -802,6 +802,166 @@
       "correctAnswer": "der",
       "explanation": "Dativ Plural: wir gedenken der Opfer (den Opfern = Dativ).",
       "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q061",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "_____ Informationen, die du mir gegeben hast, waren sehr hilfreich.",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Dem"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Nominativ Plural: die Informationen (Feminin Plural von Information).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q062",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Trotz _____ schlechten Wetters gingen wir spazieren.",
+      "options": [
+        "des",
+        "dem",
+        "den",
+        "die"
+      ],
+      "correctAnswer": "des",
+      "explanation": "Genitiv nach trotz: trotz des schlechten Wetters.",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q063",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Sie hat mir bei _____ Entscheidung geholfen.",
+      "options": [
+        "der",
+        "dem",
+        "die",
+        "das"
+      ],
+      "correctAnswer": "der",
+      "explanation": "Dativ Feminin: bei der Entscheidung (Entscheidung = feminin).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q064",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "_____ Kinder von nebenan spielen jeden Tag im Garten.",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Den"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Nominativ Plural: die Kinder (Kinder = Plural).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q065",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Er interessiert sich für _____ Politik anderer Länder.",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "dem"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: für die Politik (interessiert sich für + Akkusativ).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q066",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Wegen _____ starken Regens wurde das Spiel abgesagt.",
+      "options": [
+        "des",
+        "dem",
+        "den",
+        "die"
+      ],
+      "correctAnswer": "des",
+      "explanation": "Genitiv nach wegen: wegen des starken Regens (Regen = maskulin).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q067",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "_____ Buch, das ich letzte Woche gekauft habe, ist schon kaputt.",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Dem"
+      ],
+      "correctAnswer": "Das",
+      "explanation": "Nominativ Neutrum: das Buch (Buch = Neutrum).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q068",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Sie spricht fließend _____ Sprachen: Deutsch, Englisch und Französisch.",
+      "options": [
+        "drei",
+        "dreier",
+        "dreien",
+        "dreis"
+      ],
+      "correctAnswer": "drei",
+      "explanation": "Kein Artikel bei Zahlenangabe: drei Sprachen (drei als Adjektiv ohne Endung).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q069",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "_____ meisten Menschen bevorzugen _____ warme Wetter im Sommer.",
+      "options": [
+        "Die / das",
+        "Der / die",
+        "Das / der",
+        "Den / dem"
+      ],
+      "correctAnswer": "Die / das",
+      "explanation": "Die meisten (Nominativ Plural) + das warme Wetter (Akkusativ Neutrum).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q070",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Hast du _____ neuen Film schon gesehen?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: hast du (wen?) den neuen Film gesehen.",
+      "difficulty": "easy",
       "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     }
   ]
