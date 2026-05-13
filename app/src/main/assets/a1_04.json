@@ -1,22 +1,24 @@
 {
-  "totalQuestions": 10,
+  "version": "1.0",
+  "subjectId": "a1_04",
   "topicName": "4. Akkusativ (Wen-Fall)",
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "a1_04_q001",
       "subjectId": "a1_04",
       "type": "multiple_choice",
-      "questionText": "\"Ich sehe ___ Mann auf der Strasse.\" – Welcher Artikel ist korrekt?",
+      "questionText": "\"Ich sehe ___ Mann auf der Straße.\" – Welcher Artikel ist korrekt?",
       "options": [
-        "A) der",
-        "B) den",
-        "C) dem",
-        "D) des"
+        "der",
+        "den",
+        "dem",
+        "des"
       ],
-      "correctAnswer": "B",
-      "explanation": "Akkusativ maskulin = 'den'. 'Ich sehe DEN Mann.' (Wen-Fall: der -> den).",
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: den Mann (nach 'sehen')",
       "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q002",
@@ -24,15 +26,15 @@
       "type": "multiple_choice",
       "questionText": "Welches Pronomen steht im Akkusativ? \"Er besucht ___ jeden Sonntag.\"",
       "options": [
-        "A) sie",
-        "B) ihr",
-        "C) ihre",
-        "D) ihnen"
+        "sie",
+        "ihr",
+        "ihre",
+        "ihnen"
       ],
-      "correctAnswer": "A",
-      "explanation": "'Sie' ist Akkusativ von 'sie' (feminin). 'Er besucht SIE jeden Sonntag.' (Wen besucht er? -> sie)",
-      "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "correctAnswer": "sie",
+      "explanation": "Akkusativ 3. Person Plural: sie (Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q003",
@@ -40,15 +42,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz verwendet den Akkusativ richtig?",
       "options": [
-        "A) Ich kaufe dem Buch.",
-        "B) Er sieht der Film.",
-        "C) Sie trinkt einen Tee.",
-        "D) Wir besuchen dem Freund."
+        "Ich kaufe dem Buch.",
+        "Er sieht der Film.",
+        "Sie trinkt einen Tee.",
+        "Wir besuchen dem Freund."
       ],
-      "correctAnswer": "C",
-      "explanation": "'Sie trinkt einen Tee.' ist korrekt — Akkusativ: einen (ein -> Akkusativ). A: 'dem Buch' (Dativ), B: 'der Film' (Nominativ), D: 'dem Freund' (Dativ).",
+      "correctAnswer": "Sie trinkt einen Tee.",
+      "explanation": "einen Tee (Akkusativ) - trinken braucht Akkusativ",
       "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q004",
@@ -56,15 +58,15 @@
       "type": "multiple_choice",
       "questionText": "\"Er liebt ___ Katze sehr.\" – Was fehlt?",
       "options": [
-        "A) der",
-        "B) die",
-        "C) das",
-        "D) den"
+        "der",
+        "die",
+        "das",
+        "den"
       ],
-      "correctAnswer": "B",
-      "explanation": "Akkusativ feminin = 'die'. 'Er liebt DIE Katze.' (Wen-Fall: die Katze).",
+      "correctAnswer": "die",
+      "explanation": "Akkusativ feminin: die Katze (lieben braucht Akkusativ)",
       "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q005",
@@ -72,15 +74,15 @@
       "type": "multiple_choice",
       "questionText": "Welches Wort steht im Akkusativ? \"Das Kind wirft ___ Ball.\"",
       "options": [
-        "A) der",
-        "B) dem",
-        "C) des",
-        "D) den"
+        "der",
+        "dem",
+        "des",
+        "den"
       ],
-      "correctAnswer": "D",
-      "explanation": "Akkusativ maskulin = 'den'. 'Das Kind wirft DEN Ball.' (Wen wirft das Kind? -> den Ball)",
+      "correctAnswer": "den",
+      "explanation": "Ball (maskulin) im Akkusativ → den Ball",
       "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q006",
@@ -88,15 +90,15 @@
       "type": "multiple_choice",
       "questionText": "\"Ich rufe ___ an.\" (mein Freund) – Welche Form ist korrekt?",
       "options": [
-        "A) meinen Freund",
-        "B) meinem Freund",
-        "C) mein Freund",
-        "D) meiner Freund"
+        "meinen Freund",
+        "meinem Freund",
+        "mein Freund",
+        "meiner Freund"
       ],
-      "correctAnswer": "A",
-      "explanation": "Akkusativ: 'meinen Freund' — mein (Possessivpronomen) wird im Akkusativ zu 'meinen' (maskulin). 'Ich rufe meinen Freund an.'",
-      "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "correctAnswer": "meinen Freund",
+      "explanation": "Akkusativ: meinen Freund (anrufen braucht Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q007",
@@ -104,15 +106,15 @@
       "type": "multiple_choice",
       "questionText": "Was fragt man im Akkusativ?",
       "options": [
-        "A) Wem?",
-        "B) Wessen?",
-        "C) Wen / Was?",
-        "D) Wo?"
+        "Wem?",
+        "Wessen?",
+        "Wen / Was?",
+        "Wo?"
       ],
-      "correctAnswer": "C",
-      "explanation": "Im Akkusativ fragt man: WEN oder WAS? (Wem? = Dativ, Wessen? = Genitiv, Wo? = Lokativ).",
+      "correctAnswer": "Wen / Was?",
+      "explanation": "Akkusativ fragt man mit Wen? oder Was?",
       "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q008",
@@ -120,15 +122,15 @@
       "type": "multiple_choice",
       "questionText": "\"Sie braucht ___ neuen Computer.\" – Was ist korrekt?",
       "options": [
-        "A) einen",
-        "B) einem",
-        "C) einer",
-        "D) ein"
+        "einen",
+        "einem",
+        "einer",
+        "ein"
       ],
-      "correctAnswer": "A",
-      "explanation": "Akkusativ maskulin = 'einen'. 'Sie braucht EINEN neuen Computer.' (Wen/Fall braucht sie? -> einen Computer)",
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ maskulin: einen neuen Computer",
       "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q009",
@@ -136,15 +138,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "A) Er kauft einen Apfel.",
-        "B) Wir sehen den Film.",
-        "C) Du rufst dem Arzt.",
-        "D) Ich trinke einen Saft."
+        "Er kauft einen Apfel.",
+        "Wir sehen den Film.",
+        "Du rufst dem Arzt.",
+        "Ich trinke einen Saft."
       ],
-      "correctAnswer": "C",
-      "explanation": "'Du rufst dem Arzt.' ist falsch -> Korrekt: 'Du rufst DEN Arzt.' (Akkusativ, nicht Dativ).",
-      "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "correctAnswer": "Du rufst dem Arzt.",
+      "explanation": "Richtig: Du rufst den Arzt (anrufen braucht Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q010",
@@ -152,15 +154,175 @@
       "type": "multiple_choice",
       "questionText": "\"Er hat ___ Schwester besucht.\" – Was fehlt?",
       "options": [
-        "A) seiner",
-        "B) seine",
-        "C) seinen",
-        "D) seinem"
+        "seiner",
+        "seine",
+        "seinen",
+        "seinem"
       ],
-      "correctAnswer": "B",
-      "explanation": "Akkusativ feminin = 'seine'. 'Er hat SEINE Schwester besucht.' (Wen hat er besucht? -> seine Schwester)",
+      "correctAnswer": "seine",
+      "explanation": "Akkusativ feminin: seine Schwester",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q011",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Ich kaufe ___ Computer.\" – Welcher Artikel ist korrekt?",
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "ein"
+      ],
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ Sg: einen Computer (kaufen)",
       "difficulty": "easy",
-      "topicName": "4. Akkusativ (Wen-Fall)"
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q012",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Wir kennen ___ schon.\" – Was passt? (die Leute)",
+      "options": [
+        "sie",
+        "ihnen",
+        "ihr",
+        "euch"
+      ],
+      "correctAnswer": "sie",
+      "explanation": "Akkusativ Plural: kennen + sie (wir kennen sie)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q013",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Er liest ___ jeden Tag.\" – Welches Demonstrativpronomen? (Buch)",
+      "options": [
+        "dieses",
+        "diesem",
+        "dieser",
+        "der"
+      ],
+      "correctAnswer": "dieses",
+      "explanation": "Akkusativ neutral: dieses Buch (jeden Tag)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q014",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Sie hat ___ gestohlen.\" – Was fehlt? (das Geld)",
+      "options": [
+        "es",
+        "ihn",
+        "ihm",
+        "sein"
+      ],
+      "correctAnswer": "es",
+      "explanation": "Akkusativ neutral: es (das Geld)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q015",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Ich interessiere mich für ___.\" – Was passt? (die Musik)",
+      "options": [
+        "sie",
+        "ihr",
+        "ihm",
+        "ihnen"
+      ],
+      "correctAnswer": "sie",
+      "explanation": "sich interessieren für + Akkusativ: für sie",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q016",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Er trinkt ___ am Tag.\" – Welche Menge? (Wasser)",
+      "options": [
+        "das Wasser",
+        "dem Wasser",
+        "den Wasser",
+        "ein Wasser"
+      ],
+      "correctAnswer": "das Wasser",
+      "explanation": "Akkusativ neutral: trinkt das Wasser",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q017",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
+      "options": [
+        "Ich sehe den Mann.",
+        "Er kauft ein Auto.",
+        "Sie nimmt ein Apfel.",
+        "Wir brauchen ein Ticket."
+      ],
+      "correctAnswer": "Sie nimmt ein Apfel.",
+      "explanation": "Richtig: Sie nimmt einen Apfel (Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q018",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Sie trifft ___ in der Stadt.\" – Wen? (ihre Freundin)",
+      "options": [
+        "ihre Freundin",
+        "ihrer Freundin",
+        "ihrer Freundin",
+        "ihre Freundin"
+      ],
+      "correctAnswer": "ihre Freundin",
+      "explanation": "Akkusativ feminin: ihre Freundin (treffen)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q019",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Das Kind wirft ___ in den Mülleimer.\" – Was? (der Ball)",
+      "options": [
+        "der Ball",
+        "den Ball",
+        "dem Ball",
+        "des Balls"
+      ],
+      "correctAnswer": "den Ball",
+      "explanation": "Akkusativ maskulin: den Ball (werfen)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q020",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "\"Ich habe ___ gestern gekauft.\" – Was? (die Schuhe)",
+      "options": [
+        "sie",
+        "ihnen",
+        "der",
+        "die Schuhe"
+      ],
+      "correctAnswer": "die Schuhe",
+      "explanation": "Akkusativ Plural: die Schuhe (kaufen)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     }
   ]
 }

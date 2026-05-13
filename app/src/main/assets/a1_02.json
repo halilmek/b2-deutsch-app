@@ -1,22 +1,24 @@
 {
-  "totalQuestions": 10,
+  "version": "1.0",
+  "subjectId": "a1_02",
   "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)",
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "a1_02_q001",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "Welcher Artikel ist korrekt? \"___ Hund meiner Nachbarin ist sehr gross.\"",
+      "questionText": "Welcher Artikel ist korrekt? \"___ Hund meiner Nachbarin ist sehr groß.\"",
       "options": [
-        "A) Das",
-        "B) Die",
-        "C) Der",
-        "D) Den"
+        "Das",
+        "Die",
+        "Der",
+        "Den"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Der Hund' — Hund ist maskulin (der). 'Der Hund meiner Nachbarin ist sehr gross.'",
+      "correctAnswer": "Der",
+      "explanation": "Hund ist maskulin (der), im Nominativ",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q002",
@@ -24,47 +26,47 @@
       "type": "multiple_choice",
       "questionText": "Was ist die richtige Pluralform von \"das Kind\"?",
       "options": [
-        "A) die Kinds",
-        "B) die Kindes",
-        "C) die Kinder",
-        "D) die Kindere"
+        "die Kinds",
+        "die Kindes",
+        "die Kinder",
+        "die Kindere"
       ],
-      "correctAnswer": "C",
-      "explanation": "Das Kind -> die Kinder (Umlaut a -> ie). Die Pluralform ist 'die Kinder'.",
+      "correctAnswer": "die Kinder",
+      "explanation": "das Kind → die Kinder (Umlaut + kein -e)",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q003",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "Welcher Artikel gehoert zu \"Fenster\"?",
+      "questionText": "Welcher Artikel gehört zu \"Fenster\"?",
       "options": [
-        "A) der",
-        "B) die",
-        "C) das",
-        "D) den"
+        "der",
+        "die",
+        "das",
+        "den"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Das Fenster' — Fenster ist Neutrum. Es heisst: das Fenster, nicht der oder die Fenster.",
+      "correctAnswer": "das",
+      "explanation": "Fenster ist neutral (das)",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q004",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "\"___ Aepfel sind frisch.\" – Welcher Artikel fehlt hier?",
+      "questionText": "\"___ Äpfel sind frisch.\" – Welcher Artikel fehlt hier?",
       "options": [
-        "A) Das",
-        "B) Der",
-        "C) Die",
-        "D) Ein"
+        "Das",
+        "Der",
+        "Die",
+        "Ein"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Die Aepfel' — Aepfel ( Plural von Apfel) ist feminin in der Pluralform. 'Die Aepfel sind frisch.'",
+      "correctAnswer": "Die",
+      "explanation": "Äpfel ist Plural → die Äpfel (Nominativ)",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q005",
@@ -72,31 +74,31 @@
       "type": "multiple_choice",
       "questionText": "Welche Pluralform ist FALSCH?",
       "options": [
-        "A) das Buch -> die Buecher",
-        "B) die Frau -> die Frauen",
-        "C) der Mann -> die Maenner",
-        "D) das Haus -> die Hauser"
+        "das Buch → die Bücher",
+        "die Frau → die Frauen",
+        "der Mann → die Männe",
+        "das Haus → die Häuser"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Der Mann' -> Plural: 'die Maenner' (NICHT 'die Maenne'). Maenner hat ae + Doppel-n, nicht ae-e.",
-      "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "correctAnswer": "der Mann → die Männe",
+      "explanation": "Richtig: der Mann → die Männer (Umlaut a→ä)",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q006",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "\"___ Lehrerin erklaert ___ Aufgabe sehr gut.\" – Was fehlt?",
+      "questionText": "\"___ Lehrerin erklärt ___ Aufgabe sehr gut.\" – Was fehlt?",
       "options": [
-        "A) Der / das",
-        "B) Die / die",
-        "C) Das / der",
-        "D) Die / der"
+        "Der / das",
+        "Die / die",
+        "Das / der",
+        "Die / der"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Die Lehrerin erklaert die Aufgabe sehr gut.' — Lehrerin (feminin -> die), Aufgabe (feminin -> die).",
-      "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "correctAnswer": "Die / die",
+      "explanation": "Lehrerin (feminin) → die; Aufgabe (feminin) → die",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q007",
@@ -104,15 +106,15 @@
       "type": "multiple_choice",
       "questionText": "Was ist der Plural von \"die Stadt\"?",
       "options": [
-        "A) die Staedte",
-        "B) die Stadts",
-        "C) die Staedten",
-        "D) die Stadten"
+        "die Städte",
+        "die Stadts",
+        "die Städten",
+        "die Stadten"
       ],
-      "correctAnswer": "A",
-      "explanation": "Die Stadt -> die Staedte (Umlaut a -> ae). Plural: 'die Staedte'.",
+      "correctAnswer": "die Städte",
+      "explanation": "die Stadt → die Städte (Umlaut a→ä)",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q008",
@@ -120,15 +122,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz verwendet den Artikel richtig?",
       "options": [
-        "A) Das Mann liest ein Buch.",
-        "B) Der Auto ist neu.",
-        "C) Die Katze schlaeft.",
-        "D) Ein Hund ist bellen."
+        "Das Mann liest ein Buch.",
+        "Der Auto ist neu.",
+        "Die Katze schläft.",
+        "Ein Hund ist bellen."
       ],
-      "correctAnswer": "C",
-      "explanation": "'Die Katze schlaeft.' ist korrekt — Katze ist feminin (die). 'Das Mann' (falsch->der Mann), 'Der Auto' (falsch->das Auto), 'Ein Hund ist bellen' (falsch->bellt).",
+      "correctAnswer": "Die Katze schläft.",
+      "explanation": "Katze ist feminin → die Katze",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q009",
@@ -136,31 +138,191 @@
       "type": "multiple_choice",
       "questionText": "\"der Tisch\" – Welche Pluralform ist korrekt?",
       "options": [
-        "A) die Tische",
-        "B) die Tischer",
-        "C) die Tischt",
-        "D) die Tischen"
+        "die Tische",
+        "die Tischer",
+        "die Tischt",
+        "die Tischen"
       ],
-      "correctAnswer": "A",
-      "explanation": "Der Tisch -> die Tische (Normal Plural, kein Umlaut). Plural: 'die Tische'.",
+      "correctAnswer": "die Tische",
+      "explanation": "der Tisch → die Tische (kein Umlaut)",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q010",
       "subjectId": "a1_02",
       "type": "multiple_choice",
-      "questionText": "\"Ich kaufe ___ Brot und ___ Aepfel.\" – Was fehlt?",
+      "questionText": "\"Ich kaufe ___ Brot und ___ Äpfel.\" – Was fehlt?",
       "options": [
-        "A) eine / der",
-        "B) das / die",
-        "C) ein / die",
-        "D) der / das"
+        "eine / der",
+        "das / die",
+        "ein / die",
+        "der / das"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Ich kaufe ein Brot und die Aepfel.' — Brot (Neutrum, kein Artikel oder 'ein'), Aepfel (Plural -> 'die').",
+      "correctAnswer": "das / die",
+      "explanation": "Brot (neutral) → das; Äpfel (Plural) → die",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q011",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "\"___ Schuhe sind neu.\" – Welcher Artikel passt?",
+      "options": [
+        "Das",
+        "Der",
+        "Die",
+        "Ein"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Schuhe ist Plural → die Schuhe",
       "difficulty": "easy",
-      "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q012",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Plural von \"die Tür\"?",
+      "options": [
+        "die Türen",
+        "die Türe",
+        "die Türs",
+        "die Türen"
+      ],
+      "correctAnswer": "die Türen",
+      "explanation": "die Tür → die Türen (Umlaut ä)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q013",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "\"der Bahnhof\" – Welche Pluralform ist korrekt?",
+      "options": [
+        "die Bahnhöfe",
+        "die Bahnhofs",
+        "die Bahnhof",
+        "die Bahnhöfen"
+      ],
+      "correctAnswer": "die Bahnhöfe",
+      "explanation": "der Bahnhof → die Bahnhöfe (Umlaut)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q014",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
+      "options": [
+        "Die Lampe ist neu.",
+        "Ein Auto steht vor dem Haus.",
+        "Der Kinder spielen im Garten.",
+        "Das Haus ist groß."
+      ],
+      "correctAnswer": "Der Kinder spielen im Garten.",
+      "explanation": "Richtig: Die Kinder spielen (Kinder ist Plural)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q015",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "\"Ich brauche ___ Computer.\" – Welcher Artikel passt hier?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "einen"
+      ],
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ maskulin: einen Computer (brauchen)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q016",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Plural von \"das Buch\"?",
+      "options": [
+        "die Bücher",
+        "die Buchs",
+        "die Büchern",
+        "die Bücheren"
+      ],
+      "correctAnswer": "die Bücher",
+      "explanation": "das Buch → die Bücher (Umlaut o→ü)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q017",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "\"___ Foto ist sehr schön.\" – Welcher Artikel?",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
+      ],
+      "correctAnswer": "Das",
+      "explanation": "Foto ist neutral → das Foto",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q018",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort hat KEINEN Plural?",
+      "options": [
+        "die Lampe",
+        "das Fenster",
+        "die Luft",
+        "das Benzin"
+      ],
+      "correctAnswer": "das Benzin",
+      "explanation": "Benzin ist uncountable (Stoff), kein Plural",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q019",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "\"Er kauft ___ Hose und ___ Hemd.\" – Was fehlt?",
+      "options": [
+        "eine / ein",
+        "eine / ein",
+        "ein / eine",
+        "einen / ein"
+      ],
+      "correctAnswer": "eine / ein",
+      "explanation": "Hose (feminin) → eine; Hemd (neutral) → ein",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q020",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "\"die Frau\" – Welche Pluralform ist korrekt?",
+      "options": [
+        "die Frauen",
+        "die Fraue",
+        "die Frauens",
+        "die Frauenen"
+      ],
+      "correctAnswer": "die Frauen",
+      "explanation": "die Frau → die Frauen (kein Umlaut)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     }
   ]
 }

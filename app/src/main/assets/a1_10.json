@@ -1,166 +1,328 @@
 {
-  "totalQuestions": 10,
-  "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion",
+  "version": "1.0",
+  "subjectId": "a1_10",
+  "topicName": "10. Sätze bilden (Wortstellung)",
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "a1_10_q001",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Ich gehe davon aus, ________ wir das Ziel erreichen werden.",
+      "questionText": "Welche Wortstellung ist korrekt für einen deutschen Hauptsatz?",
       "options": [
-        "A) dass",
-        "B) weil",
-        "C) obwohl",
-        "D) wenn"
+        "Heute ich gehe ins Kino.",
+        "Ins Kino heute gehe ich.",
+        "Heute gehe ich ins Kino.",
+        "Gehe ich heute ins Kino."
       ],
-      "correctAnswer": "A",
-      "explanation": "Nebensatz mit 'dass': 'dass wir das Ziel erreichen werden' — dass-Klausel.",
-      "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "correctAnswer": "Heute gehe ich ins Kino.",
+      "explanation": "Position 1: Temporal (heute), Position 2: Verb, Position 3: Subjekt",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q002",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Er kam zu spät, ________ er den Wecker nicht gehört hatte.",
+      "questionText": "\"Er trinkt jeden Morgen Kaffee.\" – Welches Element steht auf Position 1?",
       "options": [
-        "A) da",
-        "B) damit",
-        "C) sodass",
-        "D) obgleich"
+        "Kaffee",
+        "jeden Morgen",
+        "Er",
+        "trinkt"
       ],
-      "correctAnswer": "A",
-      "explanation": "Kausal-adversativ: 'da er den Wecker nicht gehoert hatte' — da-Satz (Grund).",
-      "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "correctAnswer": "jeden Morgen",
+      "explanation": "Position 1 = Temporaladverbial: jeden Morgen",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q003",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "________ er krank war, ging er dennoch zur Arbeit.",
+      "questionText": "Wo steht das Verb in einem deutschen Hauptsatz?",
       "options": [
-        "A) Obwohl",
-        "B) Weil",
-        "C) Wenn",
-        "D) Da"
+        "Am Anfang",
+        "Am Ende",
+        "Immer auf Position 2",
+        "Nach dem Objekt"
       ],
-      "correctAnswer": "A",
-      "explanation": "Konzessiv: 'Obwohl er krank war...' — Obwohl-Satz.",
-      "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "correctAnswer": "Immer auf Position 2",
+      "explanation": "Im Hauptsatz: konjugiertes Verb auf Position 2",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q004",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Je mehr wir trainieren, ________ besser werden wir.",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "A) desto",
-        "B) umso",
-        "C) so",
-        "D) dann"
+        "Morgen kommt er.",
+        "Er kommt morgen.",
+        "Kommt er morgen.",
+        "Er morgen kommt."
       ],
-      "correctAnswer": "A",
-      "explanation": "Korrektur: 'Je mehr ... desto besser' — Je-desto Komparativ.",
-      "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "correctAnswer": "Er morgen kommt.",
+      "explanation": "Richtige Wortstellung: Er kommt morgen (Verb muss auf Pos. 2)",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q005",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Er fragte mich, ________ ich ihm bei der Übersetzung helfen könne.",
+      "questionText": "\"Ich ___ gestern zum Supermarkt ___.\" – Richtige Perfektstellung?",
       "options": [
-        "A) ob",
-        "B) dass",
-        "C) wie",
-        "D) wann"
+        "bin / gegangen",
+        "bin gegangen / zum Supermarkt",
+        "habe / gegangen",
+        "habe gegangen / zum"
       ],
-      "correctAnswer": "A",
-      "explanation": "Indirekte Frage: 'ob ich ihm helfen koennte' — ob-Satz.",
+      "correctAnswer": "bin / gegangen",
+      "explanation": "Perfekt mit sein: ist gegangen; TEKAMOLO: Zeit, Grund, Modal, Ort",
       "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q006",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Anstatt zu arbeiten, ________ er den ganzen Tag im Internet.",
+      "questionText": "In einem Nebensatz (weil) steht das Verb...",
       "options": [
-        "A) surft",
-        "B) surfen",
-        "C) gesurft",
-        "D) surfe"
+        "auf Position 2",
+        "am Ende",
+        "am Anfang",
+        "vor dem Subjekt"
       ],
-      "correctAnswer": "A",
-      "explanation": "Anstatt zu: 'Anstatt zu arbeiten, surft er...' — Infinitivgruppe mit Anstatt.",
-      "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "correctAnswer": "am Ende",
+      "explanation": "In Nebensätzen: Verb am Ende (weil er geht, weil er ging)",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q007",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Es ist wichtig, ________ man sich regelmäßig Pausen gönnt.",
+      "questionText": "Welcher Satz mit \"weil\" ist korrekt?",
       "options": [
-        "A) dass",
-        "B) damit",
-        "C) wenn",
-        "D) ob"
+        "Ich bleibe zu Hause, weil es regnet.",
+        "Ich bleibe zu Hause, weil regnet es.",
+        "Weil regnet es, ich bleibe zu Hause.",
+        "Ich bleibe, weil es zu Hause regnet."
       ],
-      "correctAnswer": "A",
-      "explanation": "Imperativ: 'dass man sich regelmaessig Pausen goennt' — Normalsatz mit dass.",
-      "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "correctAnswer": "Ich bleibe zu Hause, weil es regnet.",
+      "explanation": "weil-Satz: Verb am Ende; Subjekt vor Verb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q008",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "________ ich Zeit hätte, würde ich gerne mitkommen.",
+      "questionText": "Wo steht das Modalverb im Hauptsatz?",
       "options": [
-        "A) Wenn",
-        "B) Da",
-        "C) Weil",
-        "D) Obwohl"
+        "Am Ende",
+        "Auf Position 1",
+        "Auf Position 2",
+        "Nach dem Infinitiv"
       ],
-      "correctAnswer": "A",
-      "explanation": "Irrealer Konditionalsatz: 'Wenn ich Zeit haette...' — Konjunktiv II.",
-      "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "correctAnswer": "Auf Position 2",
+      "explanation": "Modalverb ersetzt konjugierte Verb auf Position 2",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q009",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Er spricht so gut Deutsch, ________ man ihn für einen Muttersprachler halten könnte.",
+      "questionText": "\"Manchmal ___ er ___ Musik.\" – Richtige Wortstellung?",
       "options": [
-        "A) dass",
-        "B) damit",
-        "C) als",
-        "D) wie"
+        "hört / laut",
+        "laut / hört",
+        "hört er / laut Musik",
+        "er / laut hört"
       ],
-      "correctAnswer": "A",
-      "explanation": "Modalsatz: 'so gut Deutsch, dass man ihn fuer einen Muttersprachler halten koennte' — Folgesatz.",
+      "correctAnswer": "hört / laut",
+      "explanation": "Manchmal (Pos 1) + er (Pos 3) + hört (Pos 2) + laut (Angabe) + Musik",
       "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q010",
       "subjectId": "a1_10",
       "type": "multiple_choice",
-      "questionText": "Er hat das Haus verlassen, ________ sich zu verabschieden.",
+      "questionText": "Welcher Satz ist grammatisch korrekt?",
       "options": [
-        "A) ohne",
-        "B) statt",
-        "C) um",
-        "D) anstatt"
+        "Er hat gestern das Buch gelesen.",
+        "Er gestern hat gelesen das Buch.",
+        "Gestern er hat das Buch gelesen.",
+        "Das Buch hat gelesen er gestern."
       ],
-      "correctAnswer": "A",
-      "explanation": "Partizipialkonstruktion: 'ohne sich zu verabschieden' — Infinitiv mit ohne.",
+      "correctAnswer": "Er hat gestern das Buch gelesen.",
+      "explanation": "Richtige Stellung: Subjekt + Hilfsverb + Temporal + Objekt + Partizip",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q011",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "\"___ er nach Hause, ___ er müde war.\" – Welche Konjunktion?",
+      "options": [
+        "Weil / weil",
+        "Als / als",
+        "Wenn / wenn",
+        "Dass / dass"
+      ],
+      "correctAnswer": "Als / als",
+      "explanation": "Als = zeitlicher Nebensatz (einmalige Vergangenheit)",
       "difficulty": "medium",
-      "topicName": "10. Saetze bilden (Wortstellung) – Fokus: Nebensaetze & Inversion"
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q012",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortstellung ist im Nebensatz korrekt?",
+      "options": [
+        "...dass er geht nach Hause",
+        "...dass er nach Hause geht",
+        "...dass nach Hause er geht",
+        "...dass geht nach Hause er"
+      ],
+      "correctAnswer": "...dass er nach Hause geht",
+      "explanation": "Im Nebensatz: Subjekt + Temporal + Ort + Verb am Ende",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q013",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "\"Er ist krank, ___ er nicht kommen kann.\" – Welche Konjunktion?",
+      "options": [
+        "aber",
+        "denn",
+        "weil",
+        "dass"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "weil = Grund; Verb am Ende im Nebensatz",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q014",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "\"Wenn es regnet, ___ ich zu Hause.\" – Was fehlt?",
+      "options": [
+        "bleibe",
+        "bleibst",
+        "bleibt",
+        "bleiben"
+      ],
+      "correctAnswer": "bleibe",
+      "explanation": "wenn-Satz (Bedingung): ich bleibe (Position 2)",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q015",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz hat die FALSCHE Wortstellung?",
+      "options": [
+        "Ich lese ein Buch.",
+        "Er kommt morgen.",
+        "Morgen er kommt.",
+        "Wir lernen Deutsch."
+      ],
+      "correctAnswer": "Morgen er kommt.",
+      "explanation": "Richtig: Er kommt morgen oder Morgen kommt er",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q016",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "\"___ die Prüfung vorbei ist, lernt er jeden Tag.\" – Welches Wort fehlt?",
+      "options": [
+        "Bis",
+        "Nachdem",
+        "Während",
+        "Wenn"
+      ],
+      "correctAnswer": "Bis",
+      "explanation": "Bis = zeitlich; die Prüfung vorbei ist (Ende der Handlung)",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q017",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "\"Nicht nur ___ er die Prüfung, ___ er hat auch einen Job gefunden.\"",
+      "options": [
+        "hat bestanden / sondern",
+        "bestand / aber",
+        "besteht / sondern auch",
+        "hatten / sondern"
+      ],
+      "correctAnswer": "hat bestanden / sondern",
+      "explanation": "Nicht nur... sondern auch: hat bestanden + hat gefunden",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q018",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortstellung ist bei WENN-Sätzen korrekt?",
+      "options": [
+        "Wenn kommt er nach Hause.",
+        "Wenn er kommt nach Hause.",
+        "Wenn er nach Hause kommt.",
+        "Wenn nach Hause kommt er."
+      ],
+      "correctAnswer": "Wenn er nach Hause kommt.",
+      "explanation": "Im wenn-Satz: wenn + Subjekt + Ort + Verb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q019",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "\"Er ist müde, ___ er hat lange gearbeitet.\" – Welche Wortstellung ist korrekt?",
+      "options": [
+        "denn hat er",
+        "denn er hat",
+        "hat er denn",
+        "er hat denn"
+      ],
+      "correctAnswer": "denn er hat",
+      "explanation": "denn leitet keinen Nebensatz ein: Normalstellung",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q020",
+      "subjectId": "a1_10",
+      "type": "multiple_choice",
+      "questionText": "\"Am Wochenende ___ wir oft ___.\" – Richtige Wortstellung?",
+      "options": [
+        "fahren / ins Kino",
+        "ins Kino / fahren",
+        "fahren ins Kino / wir",
+        "wir / fahren ins Kino"
+      ],
+      "correctAnswer": "fahren / ins Kino",
+      "explanation": "Am Wochenende (Pos1) + wir (Pos3) + fahren (Pos2) + ins Kino",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     }
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "totalQuestions": 10,
+  "version": "1.0",
+  "subjectId": "a1_05",
   "topicName": "5. Dativ (Wem-Fall)",
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "a1_05_q001",
@@ -8,15 +10,15 @@
       "type": "multiple_choice",
       "questionText": "\"Ich gebe ___ Kind das Buch.\" – Welcher Artikel ist korrekt?",
       "options": [
-        "A) den",
-        "B) das",
-        "C) dem",
-        "D) die"
+        "den",
+        "das",
+        "dem",
+        "die"
       ],
-      "correctAnswer": "C",
-      "explanation": "Dativ maskulin = 'dem'. 'Ich gebe DEM Kind das Buch.' (Wem-Fall: dem Kind).",
+      "correctAnswer": "dem",
+      "explanation": "Dativ: dem Kind (geben braucht Dativ für Empfänger)",
       "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q002",
@@ -24,15 +26,15 @@
       "type": "multiple_choice",
       "questionText": "Welches Pronomen steht im Dativ? \"Er hilft ___ Nachbarin oft.\"",
       "options": [
-        "A) sie",
-        "B) ihnen",
-        "C) ihr",
-        "D) ihre"
+        "sie",
+        "ihnen",
+        "ihr",
+        "ihre"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Ihr' ist Dativ feminin. 'Er hilft IHR Nachbarin.' (Wem hilft er? -> ihr).",
-      "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "correctAnswer": "ihr",
+      "explanation": "Dativ 3. Person feminin: ihr (helfen braucht Dativ)",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q003",
@@ -40,15 +42,15 @@
       "type": "multiple_choice",
       "questionText": "\"Mit ___ fährst du in den Urlaub?\" – Was fehlt?",
       "options": [
-        "A) wer",
-        "B) wen",
-        "C) wem",
-        "D) wessen"
+        "wer",
+        "wen",
+        "wem",
+        "wessen"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Mit wem fährst du...' — 'Wem' fragt nach dem Dativ (Wem-Fall).",
+      "correctAnswer": "wem",
+      "explanation": "Mit wem? → Dativ Frage (mit + Dativ)",
       "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q004",
@@ -56,15 +58,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz ist grammatisch korrekt?",
       "options": [
-        "A) Er dankt seinem Vater.",
-        "B) Sie hilft ihren Mutter.",
-        "C) Ich schreibe meinem Freundin.",
-        "D) Wir folgen den Chef."
+        "Er dankt seinem Vater.",
+        "Sie hilft ihren Mutter.",
+        "Ich schreibe meinem Freundin.",
+        "Wir folgen den Chef."
       ],
-      "correctAnswer": "A",
-      "explanation": "'Er dankt seinem Vater.' ist korrekt. B: 'ihren Mutter' (falsch->seiner Mutter), C: 'meinem Freundin' (falsch->meiner Freundin), D: 'den Chef' (Akkusativ, braucht Dativ: dem Chef).",
-      "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "correctAnswer": "Er dankt seinem Vater.",
+      "explanation": "danken + Dativ: seinem Vater",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q005",
@@ -72,31 +74,31 @@
       "type": "multiple_choice",
       "questionText": "\"Sie schenkt ___ Bruder ein Buch.\" – Was fehlt?",
       "options": [
-        "A) ihren",
-        "B) ihrem",
-        "C) ihre",
-        "D) ihrer"
+        "ihren",
+        "ihrem",
+        "ihre",
+        "ihrer"
       ],
-      "correctAnswer": "B",
-      "explanation": "Dativ maskulin = 'ihrem'. 'Sie schenkt IHREM Bruder ein Buch.' (Wem schenkt sie? -> ihrem Bruder).",
-      "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "correctAnswer": "ihrem",
+      "explanation": "Dativ maskulin: ihrem Bruder (schenken + Dativ)",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q006",
       "subjectId": "a1_05",
       "type": "multiple_choice",
-      "questionText": "Welche Praeposition steht immer mit dem Dativ?",
+      "questionText": "Welche Präposition steht immer mit dem Dativ?",
       "options": [
-        "A) fuer",
-        "B) durch",
-        "C) mit",
-        "D) ohne"
+        "für",
+        "durch",
+        "mit",
+        "ohne"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Mit' steht immer mit Dativ. 'Mit wem?' — Mit DEM Freund, MIT DER Frau.",
+      "correctAnswer": "mit",
+      "explanation": "mit verlangt immer Dativ (mit dem Auto, mit ihr)",
       "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q007",
@@ -104,15 +106,15 @@
       "type": "multiple_choice",
       "questionText": "\"Er wohnt bei ___ Eltern.\" – Was ist korrekt?",
       "options": [
-        "A) sein",
-        "B) seine",
-        "C) seinen",
-        "D) seinem"
+        "sein",
+        "seine",
+        "seinen",
+        "seinem"
       ],
-      "correctAnswer": "C",
-      "explanation": "Dativ Plural = 'seinen'. 'Er wohnt bei SEINEN Eltern.' (bei + Dativ).",
-      "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "correctAnswer": "seinem",
+      "explanation": "Dativ: bei seinem Eltern (Eltern ist Plural)",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q008",
@@ -120,31 +122,31 @@
       "type": "multiple_choice",
       "questionText": "Welche Form steht im Dativ Plural?",
       "options": [
-        "A) die Kinder",
-        "B) den Kindern",
-        "C) der Kinder",
-        "D) des Kindern"
+        "die Kinder",
+        "den Kindern",
+        "der Kinder",
+        "des Kindern"
       ],
-      "correctAnswer": "B",
-      "explanation": "Dativ Plural: 'den Kindern'. Im Dativ Plural addiert man '-n' an den Nomen. 'bei den Kindern', 'mit den Kindern'.",
+      "correctAnswer": "den Kindern",
+      "explanation": "Dativ Plural: den Kindern (immer -n Endung)",
       "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q009",
       "subjectId": "a1_05",
       "type": "multiple_choice",
-      "questionText": "\"Das Buch gehoert ___ Lehrerin.\" – Was fehlt?",
+      "questionText": "\"Das Buch gehört ___ Lehrerin.\" – Was fehlt?",
       "options": [
-        "A) den",
-        "B) der",
-        "C) die",
-        "D) dem"
+        "den",
+        "der",
+        "die",
+        "dem"
       ],
-      "correctAnswer": "B",
-      "explanation": "Dativ feminin = 'der'. 'Das Buch gehoert DER Lehrerin.' (Wem gehoert es? -> der Lehrerin).",
+      "correctAnswer": "der",
+      "explanation": "Dativ feminin: der Lehrerin (gehören braucht Dativ)",
       "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "topicName": "Dativ (Wem-Fall)"
     },
     {
       "id": "a1_05_q010",
@@ -152,15 +154,175 @@
       "type": "multiple_choice",
       "questionText": "\"Er hilft ___ alten Dame.\" – Welcher Artikel fehlt?",
       "options": [
-        "A) die",
-        "B) den",
-        "C) der",
-        "D) das"
+        "die",
+        "den",
+        "der",
+        "das"
       ],
-      "correctAnswer": "C",
-      "explanation": "Dativ feminin = 'der'. 'Er hilft DER alten Dame.' (Wem hilft er? -> der alten Dame). 'Alte' ist Adjektiv, aber die Dame bleibt feminin.",
+      "correctAnswer": "der",
+      "explanation": "Dativ feminin: der alten Dame (helfen + Dativ)",
       "difficulty": "easy",
-      "topicName": "5. Dativ (Wem-Fall)"
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q011",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Ich gebe ___ die Schlüssel.\" – Was fehlt? (mein Freund)",
+      "options": [
+        "meinen Freund",
+        "meinem Freund",
+        "mein Freund",
+        "meiner Freund"
+      ],
+      "correctAnswer": "meinem Freund",
+      "explanation": "Dativ: meinem Freund (geben braucht Dativ)",
+      "difficulty": "easy",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q012",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Wir helfen ___ immer.\" – Welches Pronomen? (die alte Frau)",
+      "options": [
+        "sie",
+        "ihr",
+        "ihre",
+        "ihnen"
+      ],
+      "correctAnswer": "ihr",
+      "explanation": "Dativ feminin: ihr (helfen braucht Dativ)",
+      "difficulty": "easy",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q013",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Er antwortet ___ auf Deutsch.\" – Was fehlt? (die Frage)",
+      "options": [
+        "der Frage",
+        "die Frage",
+        "den Fragen",
+        "dem Frage"
+      ],
+      "correctAnswer": "der Frage",
+      "explanation": "Dativ feminin: auf die Frage → antworten auf + Dativ",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q014",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Die Eltern kaufen ___ ein neues Fahrrad.\" – Wem? (die Kinder)",
+      "options": [
+        "die Kinder",
+        "den Kindern",
+        "der Kinder",
+        "des Kindern"
+      ],
+      "correctAnswer": "den Kindern",
+      "explanation": "Dativ Plural: den Kindern (kaufen für)",
+      "difficulty": "easy",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q015",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Ich danke ___ herzlich.\" – Wen? (der Professor)",
+      "options": [
+        "der Professor",
+        "den Professor",
+        "dem Professor",
+        "des Professors"
+      ],
+      "correctAnswer": "dem Professor",
+      "explanation": "Dativ maskulin: dem Professor (danken + Dativ)",
+      "difficulty": "easy",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q016",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Sie sitzt ___ in der Ecke.\" – Wo? (der Stuhl)",
+      "options": [
+        "auf dem Stuhl",
+        "in dem Stuhl",
+        "vor dem Stuhl",
+        "unter dem Stuhl"
+      ],
+      "correctAnswer": "auf dem Stuhl",
+      "explanation": "auf dem Stuhl (Sitzgelegenheit) → Dativ",
+      "difficulty": "easy",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q017",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Das Buch gehört ___.\" – Wem? (ich)",
+      "options": [
+        "mir",
+        "mich",
+        "mein",
+        "meiner"
+      ],
+      "correctAnswer": "mir",
+      "explanation": "Dativ 1. Person: mir (gehören braucht Dativ)",
+      "difficulty": "easy",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q018",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"Er ist ___ begegnet.\" – Wem? (der Kollege)",
+      "options": [
+        "der Kollege",
+        "den Kollegen",
+        "dem Kollegen",
+        "des Kollegen"
+      ],
+      "correctAnswer": "dem Kollegen",
+      "explanation": "Dativ maskulin: dem Kollegen (begegnen + Dativ)",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q019",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "\"___ du mit ___ ins Kino gegangen?\" – Richtig ergänzt?",
+      "options": [
+        "Bist / ihr",
+        "Hast / ihnen",
+        "Seid / euch",
+        "Bist / ihm"
+      ],
+      "correctAnswer": "Seid / euch",
+      "explanation": "gehen (sein) + mit euch (Dativ Plural)",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
+    },
+    {
+      "id": "a1_05_q020",
+      "subjectId": "a1_05",
+      "type": "multiple_choice",
+      "questionText": "Welche Präposition braucht IMMER Dativ?",
+      "options": [
+        "aus",
+        "bei",
+        "mit",
+        "in (Wechsel)"
+      ],
+      "correctAnswer": "aus",
+      "explanation": "aus verlangt immer Dativ: aus dem Haus",
+      "difficulty": "medium",
+      "topicName": "Dativ (Wem-Fall)"
     }
   ]
 }

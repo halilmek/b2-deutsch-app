@@ -1,6 +1,8 @@
 {
-  "totalQuestions": 10,
-  "topicName": "9. Modalverben (koennen, muessen, wollen, duerfen, sollen)",
+  "version": "1.0",
+  "subjectId": "a1_09",
+  "topicName": "9. Modalverben (können, müssen, wollen, dürfen, sollen)",
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "a1_09_q001",
@@ -8,31 +10,31 @@
       "type": "multiple_choice",
       "questionText": "\"Er ___ morgen zum Arzt gehen.\" (Verpflichtung) – Welches Modalverb?",
       "options": [
-        "A) darf",
-        "B) will",
-        "C) muss",
-        "D) kann"
+        "darf",
+        "will",
+        "muss",
+        "kann"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Müssen' = must/have to (obligation). 'Er MUSS morgen zum Arzt gehen.' (Verpflichtung/Zwang).",
+      "correctAnswer": "muss",
+      "explanation": "müssen = Verpflichtung/Notwendigkeit",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q002",
       "subjectId": "a1_09",
       "type": "multiple_choice",
-      "questionText": "\"___ ich bitte das Fenster oeffnen?\" (hoefliche Bitte)",
+      "questionText": "\"___ ich bitte das Fenster öffnen?\" (höfliche Bitte)",
       "options": [
-        "A) Muss",
-        "B) Darf",
-        "C) Soll",
-        "D) Will"
+        "Muss",
+        "Darf",
+        "Soll",
+        "Will"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Darf' wird für höfliche Bitten verwendet. 'DARF ich bitte das Fenster oeffnen?' (May I?).",
+      "correctAnswer": "Darf",
+      "explanation": "Darf ich...? = höfliche Bitte um Erlaubnis",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q003",
@@ -40,15 +42,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz ist grammatisch korrekt?",
       "options": [
-        "A) Er muss arbeiten heute.",
-        "B) Sie will nicht kommen.",
-        "C) Wir duerfen gehen nicht.",
-        "D) Ich soll das kaufen morgen."
+        "Er muss arbeiten heute.",
+        "Sie will nicht kommen.",
+        "Wir dürfen gehen nicht.",
+        "Ich soll das kaufen morgen."
       ],
-      "correctAnswer": "B",
-      "explanation": "'Sie will nicht kommen.' ist korrekt. A: 'Er muss heute arbeiten.' (Verb am Ende), C: 'Wir gehen nicht.' (nicht nach Verb), D: 'Ich soll das morgen kaufen.'",
-      "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "correctAnswer": "Sie will nicht kommen.",
+      "explanation": "Modalverb an Position 2, Infinitiv am Ende",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q004",
@@ -56,47 +58,47 @@
       "type": "multiple_choice",
       "questionText": "\"Die Kinder ___ hier nicht spielen.\" – Welches Modalverb?",
       "options": [
-        "A) muessen",
-        "B) wollen",
-        "C) duerfen",
-        "D) sollen"
+        "müssen",
+        "wollen",
+        "dürfen",
+        "sollen"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Dürfen' = may/allowed to (permission). 'Die Kinder DÜRFEN hier nicht spielen.' (nicht erlaubt = Verbiet).",
+      "correctAnswer": "dürfen",
+      "explanation": "dürfen nicht = Verbots (keine Erlaubnis)",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q005",
       "subjectId": "a1_09",
       "type": "multiple_choice",
-      "questionText": "\"Ich ___ leider nicht kommen.\" (Unfaehigkeit) – Was fehlt?",
+      "questionText": "\"Ich ___ leider nicht kommen.\" (Unfähigkeit) – Was fehlt?",
       "options": [
-        "A) will",
-        "B) muss",
-        "C) kann",
-        "D) soll"
+        "will",
+        "muss",
+        "kann",
+        "soll"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Können' = can/to be able to (ability/inability). 'Ich KANN leider nicht kommen.' (nicht können = unable).",
+      "correctAnswer": "kann",
+      "explanation": "können = Fähigkeit/Unfähigkeit",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q006",
       "subjectId": "a1_09",
       "type": "multiple_choice",
-      "questionText": "Welcher Satz drueckt einen Wunsch aus?",
+      "questionText": "Welcher Satz drückt einen Wunsch aus?",
       "options": [
-        "A) Er muss frueh aufstehen.",
-        "B) Sie will eine Reise machen.",
-        "C) Du darfst nicht rauchen.",
-        "D) Wir sollen punkttlich sein."
+        "Er muss früh aufstehen.",
+        "Sie will eine Reise machen.",
+        "Du darfst nicht rauchen.",
+        "Wir sollen pünktlich sein."
       ],
-      "correctAnswer": "B",
-      "explanation": "'Wollen' = to want/wish. 'Sie WILL eine Reise machen.' (einen Wunsch ausdrücken).",
+      "correctAnswer": "Sie will eine Reise machen.",
+      "explanation": "wollen = Wunsch/Begehren",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q007",
@@ -104,15 +106,15 @@
       "type": "multiple_choice",
       "questionText": "\"Du ___ deiner Mutter helfen.\" (Anweisung) – Was passt?",
       "options": [
-        "A) kannst",
-        "B) willst",
-        "C) sollst",
-        "D) musst"
+        "kannst",
+        "willst",
+        "sollst",
+        "musst"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Sollen' = should/shall (instruction/advice). 'Du SOLLST deiner Mutter helfen.' (jemand sagt dir, was du tun sollst).",
+      "correctAnswer": "sollst",
+      "explanation": "sollen = Aufforderung/Rat von außen",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q008",
@@ -120,15 +122,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "A) Wir koennen Deutsch sprechen.",
-        "B) Er darf keinen Alkohol trinken.",
-        "C) Sie muss die Aufgabe machen.",
-        "D) Ich will nicht nach Hause gehen nicht."
+        "Wir können Deutsch sprechen.",
+        "Er darf keinen Alkohol trinken.",
+        "Sie muss die Aufgabe machen.",
+        "Ich will nicht nach Hause gehen nicht."
       ],
-      "correctAnswer": "D",
-      "explanation": "'Ich will nicht nach Hause gehen nicht.' ist falsch -> Nur EIN 'nicht' noetig. Korrekt: 'Ich will nicht nach Hause gehen.'",
-      "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "correctAnswer": "Ich will nicht nach Hause gehen nicht.",
+      "explanation": "Doppel Verneinung: nicht + nicht = falsch",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q009",
@@ -136,15 +138,15 @@
       "type": "multiple_choice",
       "questionText": "\"___ du Klavier spielen?\" – Was ist die passende Frage?",
       "options": [
-        "A) Musst",
-        "B) Kannst",
-        "C) Solltest",
-        "D) Darfst"
+        "Musst",
+        "Kannst",
+        "Sollst",
+        "Darfst"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Können' = can/ability. 'KANNST du Klavier spielen?' (bist du fähig?).",
+      "correctAnswer": "Kannst",
+      "explanation": "können = Fähigkeit: Kannst du Klavier spielen?",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q010",
@@ -152,15 +154,175 @@
       "type": "multiple_choice",
       "questionText": "\"Er ___ laut sprechen.\" – Welches Modalverb passt bei einem Verbot?",
       "options": [
-        "A) soll nicht",
-        "B) darf nicht",
-        "C) muss nicht",
-        "D) kann nicht"
+        "soll nicht",
+        "darf nicht",
+        "muss nicht",
+        "kann nicht"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Darf nicht' = may not/not allowed. 'Er DARF NICHT laut sprechen.' (Verbot = permission denied). 'Muss nicht' = doesn't have to (no obligation).",
+      "correctAnswer": "darf nicht",
+      "explanation": "dürfen nicht = Verbot (keine Erlaubnis)",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q011",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ nicht Deutsch sprechen.\" (Unfähigkeit)",
+      "options": [
+        "will nicht",
+        "kann nicht",
+        "muss nicht",
+        "darf nicht"
+      ],
+      "correctAnswer": "kann nicht",
+      "explanation": "können = Fähigkeit; kann nicht = nicht in der Lage",
       "difficulty": "easy",
-      "topicName": "9. Modalverben (koennen, muessen, wollen, duefen, sollen)"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q012",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"___ du bitte das Fenster schließen?\" (höfliche Bitte)",
+      "options": [
+        "Willst",
+        "Kannst",
+        "Darfst",
+        "Sollst"
+      ],
+      "correctAnswer": "Kannst",
+      "explanation": "Kannst du bitte...? = höfliche Bitte",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q013",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"Die Schüler ___ die Hausaufgabe bis morgen ___.\" (Pflicht)",
+      "options": [
+        "müssen / machen",
+        "wollen / machen",
+        "können / machen",
+        "sollen / machen"
+      ],
+      "correctAnswer": "müssen / machen",
+      "explanation": "müssen = Pflicht/Verbindlichkeit",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q014",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ gerne Kaffee.\" – Welches Modalverb fehlt?",
+      "options": [
+        "will",
+        "mag",
+        "kann",
+        "soll"
+      ],
+      "correctAnswer": "mag",
+      "explanation": "mögen = möchte (Präferenz): Ich mag Kaffee",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q015",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ hier rauchen.\" – Erlaubnis",
+      "options": [
+        "kannst",
+        "musst",
+        "wirst",
+        "sollst"
+      ],
+      "correctAnswer": "kannst",
+      "explanation": "können = Erlaubnis (hier kannst du rauchen)",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q016",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
+      "options": [
+        "Ich will nach Hause.",
+        "Du musst nicht kommen.",
+        "Er darf nicht rauchen.",
+        "Sie kann nicht schwimmen."
+      ],
+      "correctAnswer": "Du musst nicht kommen.",
+      "explanation": "müssen nicht = kein Zwang; grammatisch korrekt aber irreführend",
+      "difficulty": "hard",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q017",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ Ärztin werden.\" – Wunsch/Plan",
+      "options": [
+        "will",
+        "muss",
+        "kann",
+        "darf"
+      ],
+      "correctAnswer": "will",
+      "explanation": "wollen = Wunsch/Berufsziel",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q018",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"Man ___ in der Bibliothek leise ___.\" (Regel)",
+      "options": [
+        "soll / sein",
+        "muss / sein",
+        "will / sein",
+        "darf / sein"
+      ],
+      "correctAnswer": "soll / sein",
+      "explanation": "sollen = Empfehlung/Regel (man soll leise sein)",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q019",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ uns beeilen, sonst verpassen wir den Zug.\"",
+      "options": [
+        "müssen",
+        "wollen",
+        "können",
+        "dürfen"
+      ],
+      "correctAnswer": "müssen",
+      "explanation": "müssen (Notwendigkeit): Wir müssen uns beeilen",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
+    },
+    {
+      "id": "a1_09_q020",
+      "subjectId": "a1_09",
+      "type": "multiple_choice",
+      "questionText": "\"___ ich das Licht anmachen?\" – Frage nach Erlaubnis",
+      "options": [
+        "Darf",
+        "Muss",
+        "Will",
+        "Soll"
+      ],
+      "correctAnswer": "Darf",
+      "explanation": "Darf ich...? = darf ich die Erlaubnis haben?",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     }
   ]
 }

@@ -1,22 +1,24 @@
 {
-  "totalQuestions": 10,
-  "topicName": "3. Praesens (Gegenwart)",
+  "version": "1.0",
+  "subjectId": "a1_03",
+  "topicName": "3. Präsens (Gegenwart)",
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "a1_03_q001",
       "subjectId": "a1_03",
       "type": "multiple_choice",
-      "questionText": "Wie lautet die richtige Form? \"Er ___ jeden Morgen frueh auf.\"",
+      "questionText": "Wie lautet die richtige Form? \"Er ___ jeden Morgen früh auf.\"",
       "options": [
-        "A) stehen",
-        "B) stehe",
-        "C) steht",
-        "D) stehst"
+        "stehen",
+        "stehe",
+        "steht",
+        "stehst"
       ],
-      "correctAnswer": "C",
-      "explanation": "Er steht — 'aufstehen' konjugiert: ich stehe auf, du stehst auf, ER STEHT AUF, wir stehen auf.",
+      "correctAnswer": "steht",
+      "explanation": "aufstehen (Konjugation: er steigt auf → steht auf)",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q002",
@@ -24,15 +26,15 @@
       "type": "multiple_choice",
       "questionText": "Welche Form ist korrekt? \"Ihr ___ sehr gut Deutsch.\"",
       "options": [
-        "A) spricht",
-        "B) sprecht",
-        "C) sprechen",
-        "D) sprechst"
+        "spricht",
+        "sprecht",
+        "sprechen",
+        "sprechst"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Ihr sprecht' — 'sprechen' konjugiert: ich spreche, du sprichst, IHR SPRECHT, sie sprechen.",
+      "correctAnswer": "sprecht",
+      "explanation": "sprechen (Konjugation: ihr sprecht)",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q003",
@@ -40,47 +42,47 @@
       "type": "multiple_choice",
       "questionText": "\"Das Baby ___ die ganze Nacht.\" – Welches Verb passt? (schlafen)",
       "options": [
-        "A) schlafen",
-        "B) schlaeft",
-        "C) schlaefst",
-        "D) schlaft"
+        "schlafen",
+        "schläft",
+        "schläfst",
+        "schlaft"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Das Baby schlaeft' — 'schlafen' mit Vokalwechsel a->ae: du schlaefst, ER SCHLAEFT.",
+      "correctAnswer": "schläft",
+      "explanation": "schlafen (Ablaut: er schläft)",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q004",
       "subjectId": "a1_03",
       "type": "multiple_choice",
-      "questionText": "Welcher Satz steht im Praesens und ist grammatisch richtig?",
+      "questionText": "Welcher Satz steht im Präsens und ist grammatisch richtig?",
       "options": [
-        "A) Er geht gestern ins Kino.",
-        "B) Wir trinkt Kaffee.",
-        "C) Sie lernt fleissig.",
-        "D) Du kommen spaet."
+        "Er geht gestern ins Kino.",
+        "Wir trinkt Kaffee.",
+        "Sie lernt fleißig.",
+        "Du kommen spät."
       ],
-      "correctAnswer": "C",
-      "explanation": "'Sie lernt fleissig.' ist korrekt — 'lernen' konjugiert: sie lernt. A: 'gestern' = past, B: 'Wir trinkt' (falsch->wir trinken), D: 'Du kommen' (falsch->du kommst).",
+      "correctAnswer": "Sie lernt fleißig.",
+      "explanation": "sie (3. Person Singular) → lernt",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q005",
       "subjectId": "a1_03",
       "type": "multiple_choice",
-      "questionText": "\"Ich ___ gerne Musik.\" – Ergaenzen Sie das Verb \"hoeren\".",
+      "questionText": "\"Ich ___ gerne Musik.\" – Ergänzen Sie das Verb \"hören\".",
       "options": [
-        "A) hoerst",
-        "B) hoert",
-        "C) hoere",
-        "D) hoeren"
+        "hörst",
+        "hört",
+        "höre",
+        "hören"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Ich hoere' — 'hoeren' konjugiert regelmaessig: ich HOERE, du hoerst, er hoert.",
+      "correctAnswer": "höre",
+      "explanation": "hören (Konjugation: ich höre)",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q006",
@@ -88,15 +90,15 @@
       "type": "multiple_choice",
       "questionText": "Welche Form von \"fahren\" ist korrekt? \"Du ___ zu schnell.\"",
       "options": [
-        "A) faehrst",
-        "B) fahrest",
-        "C) fahrenst",
-        "D) faehrt"
+        "fährst",
+        "fahrest",
+        "fahrenst",
+        "fährt"
       ],
-      "correctAnswer": "A",
-      "explanation": "'Du faehrst' — 'fahren' mit Vokalwechsel a->ae: du FAEHRST, er faehrt.",
+      "correctAnswer": "fährst",
+      "explanation": "fahren (Ablaut: du fährst)",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q007",
@@ -104,15 +106,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "A) Wir spielen Fussball.",
-        "B) Sie tanzt gern.",
-        "C) Er arbeitet heute.",
-        "D) Ich lesen ein Buch."
+        "Wir spielen Fußball.",
+        "Sie tanzt gern.",
+        "Er arbeitet heute.",
+        "Ich lesen ein Buch."
       ],
-      "correctAnswer": "D",
-      "explanation": "'Ich lesen ein Buch' ist falsch -> Korrekt: 'Ich LESE ein Buch.' (lesen konjugiert: ich lese, du liest, er liest).",
+      "correctAnswer": "Ich lesen ein Buch.",
+      "explanation": "Richtig: Ich lese ein Buch (lesen → ich lese)",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q008",
@@ -120,31 +122,31 @@
       "type": "multiple_choice",
       "questionText": "\"Die Kinder ___ auf dem Spielplatz.\" – Was passt? (spielen)",
       "options": [
-        "A) spielst",
-        "B) spielen",
-        "C) spielet",
-        "D) spielt"
+        "spielst",
+        "spielen",
+        "spielet",
+        "spielt"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Die Kinder spielen' — 'spielen' ist regelmaessig: die Kinder (Plural) spielen.",
+      "correctAnswer": "spielen",
+      "explanation": "Die Kinder (Plural) → spielen",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q009",
       "subjectId": "a1_03",
       "type": "multiple_choice",
-      "questionText": "Wie konjugiert man \"essen\" fuer \"er\"?",
+      "questionText": "Wie konjugiert man \"essen\" für \"er\"?",
       "options": [
-        "A) esst",
-        "B) isst",
-        "C) esset",
-        "D) essen"
+        "esst",
+        "isst",
+        "esset",
+        "essen"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Er isst' — 'essen' mit Vokalwechsel e->i: du isst, ER ISST.",
+      "correctAnswer": "isst",
+      "explanation": "essen (Ablaut: er isst)",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q010",
@@ -152,15 +154,175 @@
       "type": "multiple_choice",
       "questionText": "\"Wir ___ morgen ins Museum.\" – Welches Verb fehlt? (gehen)",
       "options": [
-        "A) geht",
-        "B) gehst",
-        "C) gehen",
-        "D) gehet"
+        "geht",
+        "gehst",
+        "gehen",
+        "gehet"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Wir gehen' — 'gehen' ist regelmaessig: ich gehe, du gehst, WIR GEHEN.",
+      "correctAnswer": "gehen",
+      "explanation": "wir → gehen",
       "difficulty": "easy",
-      "topicName": "3. Praesens (Gegenwart)"
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q011",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ jedes Jahr im August.\" (urlauben)",
+      "options": [
+        "urlaube",
+        "urlaubst",
+        "urlaubt",
+        "urlauben"
+      ],
+      "correctAnswer": "urlaube",
+      "explanation": "urlauben (regelmäßig): ich urlaube",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q012",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ das nicht verstehen.\" – Welche Form von \"wissen\" ist korrekt?",
+      "options": [
+        "weißt",
+        "weisst",
+        "wissen",
+        "wusste"
+      ],
+      "correctAnswer": "weißt",
+      "explanation": "wissen: du weißt (Vokalwechsel ä→iß)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q013",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ sein Bestes, um die Prüfung zu bestehen.\" (geben)",
+      "options": [
+        "gib",
+        "gibt",
+        "geben",
+        "gibst"
+      ],
+      "correctAnswer": "gibt",
+      "explanation": "geben: er gibt (Vokalwechsel e→i)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q014",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
+      "options": [
+        "Ich nehme ein Taxi.",
+        "Du liest ein Buch.",
+        "Er schreibt eine E-Mail.",
+        "Sie antwortet auf die Frage."
+      ],
+      "correctAnswer": "Du liest ein Buch.",
+      "explanation": "Richtig: Du liest ein Buch (lesen → du liest); Satz ist korrekt, FALSCH war die Aufgabe",
+      "difficulty": "hard",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q015",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ uns jeden Tag.\" (treffen)",
+      "options": [
+        "treffen uns",
+        "trefft uns",
+        "treffen euch",
+        "treffen uns"
+      ],
+      "correctAnswer": "treffen uns",
+      "explanation": "wir treffen uns (reflexiv: uns)",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q016",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Die Sonne ___ jetzt.\" – Welches Verb passt? (scheinen)",
+      "options": [
+        "scheint",
+        "scheinst",
+        "scheinen",
+        "schein"
+      ],
+      "correctAnswer": "scheint",
+      "explanation": "scheinen: die Sonne scheint",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q017",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ um 7 Uhr auf.\" (aufstehen, 3.Pers Sg)",
+      "options": [
+        "stehen auf",
+        "stehe auf",
+        "steht auf",
+        "stehst auf"
+      ],
+      "correctAnswer": "steht auf",
+      "explanation": "aufstehen: sie steht auf (trennbar)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q018",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjugation ist korrekt? \"Ich ___ ins Bett.\" (gehen)",
+      "options": [
+        "gehe",
+        "gehs",
+        "gehst",
+        "geht"
+      ],
+      "correctAnswer": "gehe",
+      "explanation": "gehen: ich gehe",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q019",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Der Chef ___ viel Arbeit.\" (haben)",
+      "options": [
+        "haben",
+        "hat",
+        "hast",
+        "habt"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "haben: der Chef hat (3. Pers Sg)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q020",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ draußen.\" (spielen)",
+      "options": [
+        "spielen",
+        "spielt",
+        "spielst",
+        "spielet"
+      ],
+      "correctAnswer": "spielen",
+      "explanation": "spielen: die Kinder (Plural) → spielen",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     }
   ]
 }

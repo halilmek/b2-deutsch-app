@@ -1,6 +1,8 @@
 {
-  "totalQuestions": 10,
+  "version": "1.0",
+  "subjectId": "a1_08",
   "topicName": "8. Perfekt (haben/sein + Partizip II)",
+  "totalQuestions": 20,
   "questions": [
     {
       "id": "a1_08_q001",
@@ -8,15 +10,15 @@
       "type": "multiple_choice",
       "questionText": "\"Er ___ gestern ins Kino ___.\" – Welche Form ist korrekt?",
       "options": [
-        "A) hat / gehen",
-        "B) ist / gegangen",
-        "C) hat / gegangen",
-        "D) ist / geht"
+        "hat / gehen",
+        "ist / gegangen",
+        "hat / gegangen",
+        "ist / geht"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Gehen' bildet Perfekt mit SEIN. 'Er IST gestern ins Kino gegangen.' (Bewegungsverben: sein).",
+      "correctAnswer": "ist / gegangen",
+      "explanation": "gehen → Perfekt mit sein: ist gegangen",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q002",
@@ -24,15 +26,15 @@
       "type": "multiple_choice",
       "questionText": "Welches Verb bildet das Perfekt mit \"sein\"?",
       "options": [
-        "A) kaufen",
-        "B) schlafen",
-        "C) fahren",
-        "D) essen"
+        "kaufen",
+        "schlafen",
+        "fahren",
+        "essen"
       ],
-      "correctAnswer": "C",
-      "explanation": "'Fahren' bildet Perfekt mit SEIN (Bewegungsverben). 'Er ist gefahren.' Kaufen, schlafen, essen -> Perfekt mit HABEN.",
+      "correctAnswer": "fahren",
+      "explanation": "fahren → ist gefahren (Bewegung/Veränderung)",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q003",
@@ -40,15 +42,15 @@
       "type": "multiple_choice",
       "questionText": "\"Wir ___ das Buch ___.\" (lesen) – Was fehlt?",
       "options": [
-        "A) sind / gelesen",
-        "B) haben / gelesen",
-        "C) haben / geliest",
-        "D) sind / gelest"
+        "sind / gelesen",
+        "haben / gelesen",
+        "haben / geliest",
+        "sind / gelest"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Lesen' bildet Perfekt mit HABEN. 'Wir HABEN das Buch gelesen.' Partizip II: 'gelesen' (regelmaessig = ge + lesen + t).",
+      "correctAnswer": "haben / gelesen",
+      "explanation": "lesen → Perfekt mit haben: haben gelesen",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q004",
@@ -56,15 +58,15 @@
       "type": "multiple_choice",
       "questionText": "Welches Partizip II ist korrekt?",
       "options": [
-        "A) gespringen",
-        "B) getanzt",
-        "C) geschwommen",
-        "D) gegebt"
+        "gespringen",
+        "getanzt",
+        "geschwimmt",
+        "gegebt"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Getanzt' — 'tanzen' ist regelmaessig: ge + tanz + t = getanzt. A: 'gesprungen' (sein), C: 'geschwommen' (sein), D: 'gegeben' (unregelmaessig).",
+      "correctAnswer": "getanzt",
+      "explanation": "tanzen → hat getanzt (regelmäßig → ge-tanzt)",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q005",
@@ -72,15 +74,15 @@
       "type": "multiple_choice",
       "questionText": "\"Das Kind ___ sehr viel ___.\" (schlafen)",
       "options": [
-        "A) hat / geschlafen",
-        "B) ist / geschlafen",
-        "C) hat / schlaft",
-        "D) ist / schlafen"
+        "hat / geschlafen",
+        "ist / geschlafen",
+        "hat / schlaft",
+        "ist / schlafen"
       ],
-      "correctAnswer": "A",
-      "explanation": "'Schlafen' bildet Perfekt mit HABEN. 'Das Kind HAT sehr viel geschlafen.' (intransitive but does not show movement = haben).",
+      "correctAnswer": "hat / geschlafen",
+      "explanation": "schlafen → Perfekt mit haben: hat geschlafen",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q006",
@@ -88,15 +90,15 @@
       "type": "multiple_choice",
       "questionText": "Welcher Satz im Perfekt ist FALSCH?",
       "options": [
-        "A) Ich habe gegessen.",
-        "B) Er ist gelaufen.",
-        "C) Sie hat getrunken.",
-        "D) Wir sind gekauft."
+        "Ich habe gegessen.",
+        "Er ist gelaufen.",
+        "Sie hat getrunken.",
+        "Wir sind gekauft."
       ],
-      "correctAnswer": "D",
-      "explanation": "'Wir sind gekauft' ist falsch -> Korrekt: 'Wir HABEN gekauft.' (kaufen = haben). 'Laufen' kann mit sein (movement) oder haben (sport) perfekt bilden.",
-      "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "correctAnswer": "Wir sind gekauft.",
+      "explanation": "kaufen → Perfekt mit haben: Wir haben gekauft",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q007",
@@ -104,15 +106,15 @@
       "type": "multiple_choice",
       "questionText": "\"Sie ___ nach Hause ___.\" (gehen)",
       "options": [
-        "A) hat / gegangen",
-        "B) ist / gegangen",
-        "C) ist / geht",
-        "D) hat / geht"
+        "hat / gegangen",
+        "ist / gegangen",
+        "ist / geht",
+        "hat / geht"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Gehen' bildet Perfekt mit SEIN (Bewegungsverben). 'Sie IST nach Hause gegangen.'",
+      "correctAnswer": "ist / gegangen",
+      "explanation": "gehen → ist gegangen (Richtungswechsel)",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q008",
@@ -120,15 +122,15 @@
       "type": "multiple_choice",
       "questionText": "Was ist das Partizip II von \"schreiben\"?",
       "options": [
-        "A) geschreibt",
-        "B) geschrieben",
-        "C) schrieb",
-        "D) schreibt"
+        "geschreibt",
+        "geschrieben",
+        "schrieb",
+        "schreibt"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Geschrieben' — 'schreiben' ist stark (unregelmaessig): hat geschrieben. Partizip: ge + schrieb + en -> geschrieben.",
+      "correctAnswer": "geschrieben",
+      "explanation": "schreiben → hat geschrieben (unregelmäßig)",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q009",
@@ -136,31 +138,191 @@
       "type": "multiple_choice",
       "questionText": "\"Ich ___ das schon ___.\" (sehen)",
       "options": [
-        "A) bin / gesehen",
-        "B) habe / gesehen",
-        "C) habe / gesieht",
-        "D) bin / sieh"
+        "bin / gesehen",
+        "habe / gesehen",
+        "habe / gesieht",
+        "bin / sieh"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Sehen' bildet Perfekt mit HABEN. 'Ich HABE das schon gesehen.' Partizip II: ge + seh + en -> gesehen (stark).",
+      "correctAnswer": "habe / gesehen",
+      "explanation": "sehen → hat gesehen (unregelmäßig)",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q010",
       "subjectId": "a1_08",
       "type": "multiple_choice",
-      "questionText": "\"Er ___ frueh ___.\" (aufstehen) – Perfekt?",
+      "questionText": "\"Er ___ früh ___.\" (aufstehen) – Perfekt?",
       "options": [
-        "A) hat / aufgestanden",
-        "B) ist / aufgestanden",
-        "C) hat / aufstanden",
-        "D) ist / aufsteht"
+        "hat / aufgestanden",
+        "ist / aufgestanden",
+        "hat / aufstanden",
+        "ist / aufsteht"
       ],
-      "correctAnswer": "B",
-      "explanation": "'Aufstehen' ist ein Bewegungsverb -> Perfekt mit SEIN. 'Er IST frueh aufgestanden.' Trennbares Verb: auf + gestanden.",
+      "correctAnswer": "ist / aufgestanden",
+      "explanation": "aufstehen → ist aufgestanden (trennbar + sein)",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q011",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ gestern einen Film ___.\" (schauen)",
+      "options": [
+        "haben / geschaut",
+        "sind / geschaut",
+        "haben / schauen",
+        "sind / schauen"
+      ],
+      "correctAnswer": "haben / geschaut",
+      "explanation": "schauen → Perfekt mit haben: haben geschaut",
       "difficulty": "easy",
-      "topicName": "8. Perfekt (haben/sein + Partizip II)"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q012",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Das Auto ___ repariert ___ worden.\" – Was fehlt?",
+      "options": [
+        "ist / worden",
+        "hat / worden",
+        "wird / worden",
+        "war / worden"
+      ],
+      "correctAnswer": "ist / worden",
+      "explanation": "werden (Passiv) → ist worden; Zustandspassiv",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q013",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ die Hausaufgabe schon ___.\" (machen)",
+      "options": [
+        "habe / gemacht",
+        "bin / gemacht",
+        "habe / machen",
+        "habe / gemachen"
+      ],
+      "correctAnswer": "habe / gemacht",
+      "explanation": "machen → Perfekt mit haben: habe gemacht",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q014",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ ins Bett ___.\" (gehen)",
+      "options": [
+        "sind / gegangen",
+        "haben / gegangen",
+        "sind / gehen",
+        "sind / gegange"
+      ],
+      "correctAnswer": "sind / gegangen",
+      "explanation": "gehen → ist gegangen (Richtungsveränderung)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q015",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ die Wahrheit ___.\" (sagen)",
+      "options": [
+        "hat / gesagt",
+        "ist / gesagt",
+        "hat / sagen",
+        "haben / gesagt"
+      ],
+      "correctAnswer": "hat / gesagt",
+      "explanation": "sagen → Perfekt mit haben: hat gesagt",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q016",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ seinen Führerschein ___.\" (bekommen)",
+      "options": [
+        "hat / bekommen",
+        "ist / bekommen",
+        "hat / bekommen",
+        "ist / bekommen"
+      ],
+      "correctAnswer": "hat / bekommen",
+      "explanation": "bekommen → Perfekt mit haben: hat bekommen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q017",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ um 6 Uhr ___.\" (aufstehen)",
+      "options": [
+        "bin / aufgestanden",
+        "habe / aufgestanden",
+        "bin / aufstehen",
+        "habe / aufgestanden"
+      ],
+      "correctAnswer": "bin / aufgestanden",
+      "explanation": "aufstehen → ist aufgestanden (trennbar + sein)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q018",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ eine Reise ___.\" (machen)",
+      "options": [
+        "haben / gemacht",
+        "sind / gemacht",
+        "haben / machen",
+        "sind / gemacht"
+      ],
+      "correctAnswer": "haben / gemacht",
+      "explanation": "machen → Perfekt mit haben: haben gemacht",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q019",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Das Flugzeug ___ pünktlich ___.\" (ankommen)",
+      "options": [
+        "ist / angekommen",
+        "hat / angekommen",
+        "ist / ankomen",
+        "hat / angekommen"
+      ],
+      "correctAnswer": "ist / angekommen",
+      "explanation": "ankommen → ist angekommen (Bewegung)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a1_08_q020",
+      "subjectId": "a1_08",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ zu viel ___.\" (essen)",
+      "options": [
+        "hast / gegessen",
+        "bist / gegessen",
+        "hast / essen",
+        "hast / geessen"
+      ],
+      "correctAnswer": "hast / gegessen",
+      "explanation": "essen → hast gegessen (unregelmäßig)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     }
   ]
 }
