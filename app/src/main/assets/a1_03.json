@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_03",
   "topicName": "3. Präsens (Gegenwart)",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "questions": [
     {
       "id": "a1_03_q001",
@@ -641,6 +641,166 @@
       ],
       "correctAnswer": "spielen",
       "explanation": "spielen ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q051",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Normalerweise _____ ich um 7 Uhr auf, aber heute _____ ich erst um 8, weil ich krank bin.",
+      "options": [
+        "stehe / stehe",
+        "stehe / stehe auf",
+        "stehe auf / stehe auf",
+        "aufstehe / aufstehe"
+      ],
+      "correctAnswer": "stehe auf / stehe auf",
+      "explanation": "aufstehen: ich stehe auf (trennbares Verb). Beide Male gleich: stehe auf.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q052",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Der Zug nach Berlin _____ um 10:15 von Gleis 7.",
+      "options": [
+        "fahrt",
+        "fährt",
+        "fahrtt",
+        "fahrt ab"
+      ],
+      "correctAnswer": "fährt",
+      "explanation": "fahren → der Zug fährt (3. Person Singular mit Umlaut).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q053",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Er _____ immer so laut, dass die Nachbarn sich beschweren.",
+      "options": [
+        "sprecht",
+        "spricht",
+        "spreche",
+        "sprecht"
+      ],
+      "correctAnswer": "spricht",
+      "explanation": "sprechen → er spricht (3. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q054",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Warum _____ du ständig an die Vergangenheit? Das _____ keinen Sinn.",
+      "options": [
+        "denkst / macht",
+        "denkst / ergibt",
+        "denkst nach / hat",
+        "überlegst / gibt"
+      ],
+      "correctAnswer": "denkst / ergibt",
+      "explanation": "denken → du denkst; ergeben = machen keinen Sinn.",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q055",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Frau Schmidt, _____ Sie heute Nachmittag zwischen 14 und 15 Uhr Zeit für ein kurzes Gespräch?",
+      "options": [
+        "haben",
+        "habt",
+        "hast",
+        "hat"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "haben → Sie haben (formelle Anrede, 3. Person Plural Konjugation).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q056",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Jedes Jahr _____ wir eine Spendenaktion für das örtliche Tierheim.",
+      "options": [
+        "organisiert",
+        "organisiere",
+        "organisieren",
+        "organisiert ihr"
+      ],
+      "correctAnswer": "organisieren",
+      "explanation": "organisieren → wir organisieren (1. Person Plural).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q057",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Das Kind _____ nicht allein die Treppe hinunter, weil es noch zu klein ist.",
+      "options": [
+        "traut sich",
+        "traut",
+        "getraut sich",
+        "sich traut"
+      ],
+      "correctAnswer": "traut sich",
+      "explanation": "sich trauen (reflexiv): das Kind traut sich nicht (traut sich nicht).",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q058",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Meine Kollegin _____ Kaffee eigentlich schwarz, aber heute _____ sie Milch und Zucker.",
+      "options": [
+        "trinkt / nimmt",
+        "trinkt / nimmt zu sich",
+        "trinken / nehmen",
+        "trinkst / nimmst"
+      ],
+      "correctAnswer": "trinkt / nimmt",
+      "explanation": "trinkt (3. Person) + nimmt (3. Person).",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q059",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ jeden Abend bis 22 Uhr im Fitnessstudio, oder?",
+      "options": [
+        "seid trainieren",
+        "trainiert",
+        "trainieren",
+        "seid"
+      ],
+      "correctAnswer": "trainiert",
+      "explanation": "trainieren → ihr trainiert (2. Person Plural).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q060",
+      "subjectId": "a1_03",
+      "type": "multiple_choice",
+      "questionText": "Die Sonne _____ im Osten auf und im Westen unter – das ist ein Naturgesetz.",
+      "options": [
+        "gesteht",
+        "steht",
+        "geht",
+        "läuft"
+      ],
+      "correctAnswer": "geht",
+      "explanation": "aufgehen = aufgehen (Die Sonne geht auf / unter).",
       "difficulty": "easy",
       "topicName": "Präsens (Gegenwart)"
     }
