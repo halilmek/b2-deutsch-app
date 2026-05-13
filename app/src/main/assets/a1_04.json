@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_04",
   "topicName": "4. Akkusativ (Wen-Fall)",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "questions": [
     {
       "id": "a1_04_q001",
@@ -642,6 +642,166 @@
       "correctAnswer": "die",
       "explanation": "die ist hier die richtige Antwort.",
       "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q051",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Den ganzen Tag über habe ich _____ nicht gesehen.",
+      "options": [
+        "der Chef",
+        "den Chef",
+        "dem Chef",
+        "des Chefs"
+      ],
+      "correctAnswer": "den Chef",
+      "explanation": "Akkusativ: habe ich nicht gesehen (wen?) = den Chef.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q052",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Wenn du _____ einmal triffst, sag ihm bitte, dass er mich anrufen soll.",
+      "options": [
+        "deinen Bruder",
+        "deinem Bruder",
+        "deines Bruders",
+        "dein Bruder"
+      ],
+      "correctAnswer": "deinen Bruder",
+      "explanation": "Akkusativ: wen triffst du? = deinen Bruder (Akkusativ maskulin).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q053",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "In diesem Unternehmen schätzt man _____ Eigeninitiative besonders.",
+      "options": [
+        "die",
+        "der",
+        "den",
+        "das"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die Eigeninitiative (schätzt man = wen?).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q054",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Können Sie bitte _____ neuen Termin für die Besprechung festlegen?",
+      "options": [
+        "einen",
+        "einem",
+        "eines",
+        "ein"
+      ],
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ maskulin: einen neuen Termin (festlegen = Akkusativ).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q055",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du _____ gestern nicht nach seiner Meinung gefragt?",
+      "options": [
+        "der Experte",
+        "den Experten",
+        "dem Experten",
+        "des Experten"
+      ],
+      "correctAnswer": "den Experten",
+      "explanation": "Akkusativ: wen hast du gefragt? = den Experten (maskulin mit -en Endung).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q056",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ vergessen, eine wichtige Datei anzuhängen.",
+      "options": [
+        "den Anhang",
+        "der Anhang",
+        "dem Anhang",
+        "des Anhangs"
+      ],
+      "correctAnswer": "den Anhang",
+      "explanation": "Akkusativ: hat vergessen (was?) = den Anhang.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q057",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Der Professor bat _____ um eine Verlängerung der Abgabefrist.",
+      "options": [
+        "seine Studenten",
+        "seinen Studenten",
+        "seinem Studenten",
+        "seines Studenten"
+      ],
+      "correctAnswer": "seinen Studenten",
+      "explanation": "Akkusativ Plural: bat wen? = seine Studenten → Akkusativ = seinen Studenten.",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q058",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Ohne _____ wären wir aufgeschmissen gewesen.",
+      "options": [
+        "eure Hilfe",
+        "eurer Hilfe",
+        "eurem Hilfe",
+        "euren Hilfe"
+      ],
+      "correctAnswer": "eure Hilfe",
+      "explanation": "Akkusativ: ohne was? = eure Hilfe (Feminin, kein Artikel).",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q059",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Er beschuldigte _____ des Betrugs, konnte aber keine Beweise vorlegen.",
+      "options": [
+        "seinen Nachbarn",
+        "sein Nachbar",
+        "seinem Nachbarn",
+        "seines Nachbarn"
+      ],
+      "correctAnswer": "seinen Nachbarn",
+      "explanation": "Akkusativ maskulin: beschuldigte wen? = seinen Nachbarn (des Betrugs = Genitiv).",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q060",
+      "subjectId": "a1_04",
+      "type": "multiple_choice",
+      "questionText": "Selbst _____ größten Optimismus kann die Situation nicht retten.",
+      "options": [
+        "den",
+        "der",
+        "dem",
+        "des"
+      ],
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: selbst den größten Optimismus (Akussativ nach 'selbst').",
+      "difficulty": "medium",
       "topicName": "Akkusativ (Wen-Fall)"
     }
   ]
