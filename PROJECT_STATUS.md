@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-07 19:04 UTC
+**Last Updated:** 2026-05-13 12:07 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -35,6 +35,36 @@
 | 21 | b2_21 | Relativsätze im Genitiv | 100 | 10 | ⚠️ Placeholder |
 | 22 | b2_22 | Konjunktiv I in der indirekten Rede | 100 | 10 | ⚠️ Placeholder |
 | 23 | b2_23 | Konjunktiv II in irrealen Vergleichssätzen | 100 | 10 | ⚠️ Placeholder |
+
+---
+
+## 📋 A1 MODULE CONTENT (10 Topics × 30 Questions = 300 Total)
+
+| # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
+|---|----------|-----------|-----------|-----------|----------------|
+| 1 | a1_01 | Verben konjugieren (sein, haben, werden) | 30 | 3 | ✅ Complete |
+| 2 | a1_02 | Nomen und Artikel (der/die/das + Pluralformen) | 30 | 3 | ✅ Complete |
+| 3 | a1_03 | Präsens (Gegenwart) | 30 | 3 | ✅ Complete |
+| 4 | a1_04 | Akkusativ (Wen-Fall) | 30 | 3 | ✅ Complete |
+| 5 | a1_05 | Dativ (Wem-Fall) | 30 | 3 | ✅ Complete |
+| 6 | a1_06 | Präpositionen (in, auf, an, mit, nach...) | 30 | 3 | ✅ Complete |
+| 7 | a1_07 | Verben mit Präpositionen (warten auf, denken an...) | 30 | 3 | ✅ Complete |
+| 8 | a1_08 | Perfekt (haben/sein + Partizip II) | 30 | 3 | ✅ Complete |
+| 9 | a1_09 | Modalverben (können, müssen, wollen, dürfen, sollen) | 30 | 3 | ✅ Complete |
+| 10 | a1_10 | Sätze bilden (Wortstellung) | 30 | 3 | ✅ Complete |
+
+---
+
+## 🔄 CURRENT SESSION (2026-05-13) — A1 EXPANSION SESSION
+
+### 2026-05-13 11:50 — A1 EXPANDED: 20 → 30 questions per topic (ALL 10 TOPICS)
+- **Commit:** `308bbe8` — "A1: Add Q21-Q30 to all 10 topics (30 questions per topic)"
+- **GitHub:** Pushed ✅
+- **Change:** Added Q21-Q30 to each of a1_01–a1_10 (10 new questions per topic)
+- **Total A1:** 300 questions (10 topics × 30 questions)
+- **Quiz count:** 3 quizzes per topic (10 questions each)
+- **Topics expanded:** Verben konjugieren, Nomen+Artikel, Präsens, Akkusativ, Dativ, Präpositionen, Verben mit Präpositionen, Perfekt, Modalverben, Sätze bilden
+- **Firebase:** ⚠️ Pending sync (run from local machine)
 
 ---
 
