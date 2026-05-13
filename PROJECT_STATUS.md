@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-13 18:22 UTC
+**Last Updated:** 2026-05-13 18:27 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -43,7 +43,7 @@
 | # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
 |---|----------|-----------|-----------|-----------|----------------|
 | 1 | a1_01 | Verben konjugieren (sein, haben, werden) | 60 | 6 | ✅ Complete |
-| 2 | a1_02 | Nomen und Artikel (der/die/das + Pluralformen) | 40 | 4 | ✅ Complete |
+| 2 | a1_02 | Nomen und Artikel (der/die/das + Pluralformen) | 50 | 5 | ✅ Complete |
 | 3 | a1_03 | Präsens (Gegenwart) | 40 | 4 | ✅ Complete |
 | 4 | a1_04 | Akkusativ (Wen-Fall) | 40 | 4 | ✅ Complete |
 | 5 | a1_05 | Dativ (Wem-Fall) | 40 | 4 | ✅ Complete |
@@ -52,6 +52,12 @@
 | 8 | a1_08 | Perfekt (haben/sein + Partizip II) | 40 | 4 | ✅ Complete |
 | 9 | a1_09 | Modalverben (können, müssen, wollen, dürfen, sollen) | 40 | 4 | ✅ Complete |
 | 10 | a1_10 | Sätze bilden (Wortstellung) | 40 | 4 | ✅ Complete |
+
+---
+
+### 2026-05-13 18:27 — a1_02: Added Q51-Q60 (10 noun/article questions)
+- **Commit:** `0c034fb`
+- **Topic:** Nomen und Artikel — now 50 questions, 5 quizzes
 
 ---
 
