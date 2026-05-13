@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_01",
   "topicName": "1. Verben konjugieren (sein, haben, werden)",
-  "totalQuestions": 20,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "a1_01_q001",
@@ -321,6 +321,166 @@
       ],
       "correctAnswer": "ist / lernt",
       "explanation": "ist (Zustand) + lernt (laufende Handlung)",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q021",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Mein Bruder ___ jetzt in München studieren.\" – Welche Form von \"werden\" ist korrekt?",
+      "options": [
+        "wird",
+        "wirds",
+        "werdet",
+        "worden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "werden (werden → er wird): 3. Person Singular",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q022",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ Hunger.\" – Welches Verb passt?",
+      "options": [
+        "sind",
+        "haben",
+        "werden",
+        "seid"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "haben (haben → die Kinder haben): Hunger haben",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q023",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"___ wir nicht zu spät zur Party kommen?\" – Ergänzen Sie das richtige Verb.",
+      "options": [
+        "Sind",
+        "Haben",
+        "Werden",
+        "Sein"
+      ],
+      "correctAnswer": "Werden",
+      "explanation": "werden (werden → werden wir): Sorge/Befürchtung",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q024",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch FALSCH?",
+      "options": [
+        "Ihr seid in der Schule.",
+        "Er hat viel Geduld.",
+        "Sie werden ein Arzt.",
+        "Wir ist müde."
+      ],
+      "correctAnswer": "Wir ist müde.",
+      "explanation": "wir → sind, nicht ist ( Plural!)",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q025",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ krank, deshalb gehe ich nicht zur Arbeit.\" – Was fehlt?",
+      "options": [
+        "haben",
+        "bin",
+        "wird",
+        "bist"
+      ],
+      "correctAnswer": "bin",
+      "explanation": "sein (sein → ich bin): 1. Person Singular",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q026",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Die Bücher ___ auf dem Tisch.\" – Konjugieren Sie \"sein\".",
+      "options": [
+        "ist",
+        "sind",
+        "seid",
+        "sindet"
+      ],
+      "correctAnswer": "sind",
+      "explanation": "sein (sein → die Bücher sind): Plural",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q027",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ Recht, das war eine gute Idee.\" – Welche Form ist korrekt?",
+      "options": [
+        "haben",
+        "hast",
+        "hattest",
+        "hat"
+      ],
+      "correctAnswer": "hast",
+      "explanation": "haben (haben → du hast): Recht haben",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q028",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Was ___ mit dir los? Du siehst so traurig aus.\"",
+      "options": [
+        "ist",
+        "hast",
+        "bist",
+        "seid"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "sein (sein → was ist): Was ist los?",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q029",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Die Schüler ___ am Montag eine Prüfung.\" – Ergänzen Sie das Verb.",
+      "options": [
+        "haben eine",
+        "habt eine",
+        "hat eine",
+        "haben ein"
+      ],
+      "correctAnswer": "haben eine",
+      "explanation": "haben (haben → die Schüler haben): 3. Person Plural",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q030",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "\"Nina ___很漂亮, aber sie ___ nicht gut Deutsch.\" – Welche Verben passen?",
+      "options": [
+        "ist / spricht",
+        "hat / spricht",
+        "wird / spricht",
+        "bin / sprecht"
+      ],
+      "correctAnswer": "ist / spricht",
+      "explanation": "sein für Zustand + sprechen für Sprache",
       "difficulty": "medium",
       "topicName": "Verben konjugieren (sein, haben, werden)"
     }

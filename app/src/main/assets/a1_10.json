@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_10",
   "topicName": "10. Sätze bilden (Wortstellung)",
-  "totalQuestions": 20,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "a1_10_q001",
@@ -323,6 +323,166 @@
       "explanation": "Am Wochenende (Pos1) + wir (Pos3) + fahren (Pos2) + ins Kino",
       "difficulty": "medium",
       "topicName": "Sätze bilden (Wortstellung)"
+    },
+    {
+      "id": "a1_10_q021",
+      "type": "multiple_choice",
+      "questionText": "\"Am Morgen ich trinke Kaffee.\" – Was ist die richtige Wortstellung?",
+      "options": [
+        "Am Morgen trinke ich Kaffee.",
+        "Ich am Morgen trinke Kaffee.",
+        "Trinke ich am Morgen Kaffee.",
+        "Am ich Morgen trinke Kaffee."
+      ],
+      "correctAnswer": "Am Morgen trinke ich Kaffee.",
+      "explanation": "Zeitangabe zuerst, dann Verb, dann Subjekt",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q022",
+      "type": "multiple_choice",
+      "questionText": "\"Gestern ich bin ins Kino gegangen.\" – Korrigieren Sie.",
+      "options": [
+        "Gestern bin ich ins Kino gegangen.",
+        "Ich bin gestern ins Kino gegangen.",
+        "Gestern gegangen bin ich ins Kino.",
+        "Ins Kino ich bin gegangen gestern."
+      ],
+      "correctAnswer": "Gestern bin ich ins Kino gegangen.",
+      "explanation": "Temporal zuerst, dann konjugiertes Verb, dann Subjekt",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q023",
+      "type": "multiple_choice",
+      "questionText": "\"Jeden Tag ich lese ein Buch.\" – Richtige Wortstellung?",
+      "options": [
+        "Jeden Tag lese ich ein Buch.",
+        "Ich lese jeden Tag ein Buch.",
+        "Ein Buch jeden Tag ich lese.",
+        "Lesen jeden Tag ich ein Buch."
+      ],
+      "correctAnswer": "Ich lese jeden Tag ein Buch.",
+      "explanation": "Subjekt + Verb zuerst, dann Zeitangabe, dann Objekt",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q024",
+      "type": "multiple_choice",
+      "questionText": "\"Nicht ich verstehe die Frage.\" – Korrigieren Sie.",
+      "options": [
+        "Ich verstehe die Frage nicht.",
+        "Nicht verstehe ich die Frage.",
+        "Ich nicht verstehe die Frage.",
+        "Verstehe ich nicht die Frage."
+      ],
+      "correctAnswer": "Ich verstehe die Frage nicht.",
+      "explanation": "Verb zuerst, dann Subjekt, Negation am Ende",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q025",
+      "type": "multiple_choice",
+      "questionText": "\"Heute Morgen ich habe schnell gefrühstückt.\" – Richtig?",
+      "options": [
+        "Heute Morgen habe ich schnell gefrühstückt.",
+        "Ich habe heute Morgen schnell gefrühstückt.",
+        "Schnell gefrühstückt habe ich heute Morgen.",
+        "Heute ich habe Morgen schnell gefrühstückt."
+      ],
+      "correctAnswer": "Ich habe heute Morgen schnell gefrühstückt.",
+      "explanation": "Subjekt + Verb (habe) zuerst, dann Zeitangaben",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q026",
+      "type": "multiple_choice",
+      "questionText": "\"Sehr gut sie singt.\" – Korrigieren Sie.",
+      "options": [
+        "Sie singt sehr gut.",
+        "Sehr sie gut singt.",
+        "Singt sehr gut sie.",
+        "Gut sehr sie singt."
+      ],
+      "correctAnswer": "Sie singt sehr gut.",
+      "explanation": "Subjekt + Verb, dann Adverb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q027",
+      "type": "multiple_choice",
+      "questionText": "\"Morgen ich werde arbeiten.\" – Richtige Wortstellung?",
+      "options": [
+        "Morgen werde ich arbeiten.",
+        "Ich werde morgen arbeiten.",
+        "Werden ich morgen arbeiten.",
+        "Morgen arbeiten werde ich."
+      ],
+      "correctAnswer": "Ich werde morgen arbeiten.",
+      "explanation": "Subjekt + Hilfsverb, dann Zeitangabe, dann Vollverb",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q028",
+      "type": "multiple_choice",
+      "questionText": "\"Der Mann schnell läuft.\" – Korrigieren Sie.",
+      "options": [
+        "Der Mann läuft schnell.",
+        "Schnell läuft der Mann.",
+        "Läuft der Mann schnell.",
+        "Der schnell Mann läuft."
+      ],
+      "correctAnswer": "Der Mann läuft schnell.",
+      "explanation": "Subjekt + Verb, dann Adverb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q029",
+      "type": "multiple_choice",
+      "questionText": "\"Am Abend wir kochen zusammen.\" – Richtige Wortstellung?",
+      "options": [
+        "Am Abend kochen wir zusammen.",
+        "Wir kochen am Abend zusammen.",
+        "Zusammen am Abend wir kochen.",
+        "Kochen wir am Abend zusammen."
+      ],
+      "correctAnswer": "Wir kochen am Abend zusammen.",
+      "explanation": "Subjekt + Verb zuerst, dann Zeitangabe, dann Adverb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
+    },
+    {
+      "id": "a1_10_q030",
+      "type": "multiple_choice",
+      "questionText": "\"Jetzt ich muss gehen.\" – Korrigieren Sie.",
+      "options": [
+        "Jetzt muss ich gehen.",
+        "Ich jetzt muss gehen.",
+        "Muss ich jetzt gehen.",
+        "Gehen jetzt ich muss."
+      ],
+      "correctAnswer": "Jetzt muss ich gehen.",
+      "explanation": "Temporal zuerst, dann Modalverb, dann Subjekt",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     }
   ]
 }

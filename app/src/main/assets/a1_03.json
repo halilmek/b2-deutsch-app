@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_03",
   "topicName": "3. Präsens (Gegenwart)",
-  "totalQuestions": 20,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "a1_03_q001",
@@ -323,6 +323,166 @@
       "explanation": "spielen: die Kinder (Plural) → spielen",
       "difficulty": "easy",
       "topicName": "Präsens (Gegenwart)"
+    },
+    {
+      "id": "a1_03_q021",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ jeden Morgen um 7 Uhr auf.\"",
+      "options": [
+        "stehe",
+        "stehst",
+        "steht",
+        "stehen"
+      ],
+      "correctAnswer": "stehe",
+      "explanation": "aufstehen: ich stehe auf",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q022",
+      "type": "multiple_choice",
+      "questionText": "\"___ du gern Kaffee?\" – Konjugieren Sie \"trinken\".",
+      "options": [
+        "Trinkst",
+        "Trinkt",
+        "Trinke",
+        "Trinken"
+      ],
+      "correctAnswer": "Trinkst",
+      "explanation": "trinken → du trinkst",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q023",
+      "type": "multiple_choice",
+      "questionText": "\"Die Sonne ___ am Morgen.\" – Welches Verb?",
+      "options": [
+        "scheint",
+        "scheinst",
+        "scheint",
+        "scheinen"
+      ],
+      "correctAnswer": "scheint",
+      "explanation": "scheinen → die Sonne scheint",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q024",
+      "type": "multiple_choice",
+      "questionText": "\"Meine Mutter ___ in einem Krankenhaus.\"",
+      "options": [
+        "arbeitet",
+        "arbeitest",
+        "arbeite",
+        "arbeiten"
+      ],
+      "correctAnswer": "arbeitet",
+      "explanation": "arbeiten → sie arbeitet",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q025",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ am Abend fern.\" – Was fehlt?",
+      "options": [
+        "sehe",
+        "siehst",
+        "sehen",
+        "seht"
+      ],
+      "correctAnswer": "sehen",
+      "explanation": "fernsehen → wir sehen fern",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q026",
+      "type": "multiple_choice",
+      "questionText": "\"Ihr ___ gut Deutsch.\" – Konjugieren Sie \"sprechen\".",
+      "options": [
+        "spreche",
+        "sprichst",
+        "sprecht",
+        "spricht"
+      ],
+      "correctAnswer": "sprecht",
+      "explanation": "sprechen → ihr sprecht",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q027",
+      "type": "multiple_choice",
+      "questionText": "\"Der Zug ___ um 10 Uhr ab.\" – Welche Form?",
+      "options": [
+        "fährt",
+        "fährst",
+        "fahren",
+        "fahre"
+      ],
+      "correctAnswer": "fährt",
+      "explanation": "fahren → der Zug fährt ab",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q028",
+      "type": "multiple_choice",
+      "questionText": "\"Was ___ du beruflich?\" – Konjugieren Sie \"machen\".",
+      "options": [
+        "mache",
+        "machst",
+        "macht",
+        "machen"
+      ],
+      "correctAnswer": "machst",
+      "explanation": "machen → du machst",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q029",
+      "type": "multiple_choice",
+      "questionText": "\"Mein Freund ___ Musik.\" – Konjugieren Sie \"hören\".",
+      "options": [
+        "höre",
+        "hörst",
+        "hört",
+        "hören"
+      ],
+      "correctAnswer": "hört",
+      "explanation": "hören → er hört",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
+    },
+    {
+      "id": "a1_03_q030",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist im Präsens FALSCH?",
+      "options": [
+        "Ich gehe zur Schule.",
+        "Er läuft schnell.",
+        "Sie haben viel Zeit.",
+        "Wir machten einen Fehler."
+      ],
+      "correctAnswer": "Wir machten einen Fehler.",
+      "explanation": "machten = Präteritum, nicht Präsens",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     }
   ]
 }

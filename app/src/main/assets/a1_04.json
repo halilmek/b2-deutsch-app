@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_04",
   "topicName": "4. Akkusativ (Wen-Fall)",
-  "totalQuestions": 20,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "a1_04_q001",
@@ -323,6 +323,166 @@
       "explanation": "Akkusativ Plural: die Schuhe (kaufen)",
       "difficulty": "easy",
       "topicName": "Akkusativ (Wen-Fall)"
+    },
+    {
+      "id": "a1_04_q021",
+      "type": "multiple_choice",
+      "questionText": "\"Ich sehe ___ Mann.\" – Welcher Artikel im Akkusativ?",
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "ein"
+      ],
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: den Mann",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q022",
+      "type": "multiple_choice",
+      "questionText": "\"Wir kaufen ___ Haus.\" – Akkusativ?",
+      "options": [
+        "eine",
+        "einen",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "ein",
+      "explanation": "Akkusativ Neutrum: ein Haus",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q023",
+      "type": "multiple_choice",
+      "questionText": "\"Die Katze fängt ___ Maus.\" – Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die Maus",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q024",
+      "type": "multiple_choice",
+      "questionText": "\"Ich lese ___ Buch.\" – Welcher Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "das",
+      "explanation": "Akkusativ Neutrum: das Buch",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q025",
+      "type": "multiple_choice",
+      "questionText": "\"Er trinkt ___ Kaffee.\" – Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "einen"
+      ],
+      "correctAnswer": "den",
+      "explanation": "Kaffee = maskulin, Akkusativ: den Kaffee",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q026",
+      "type": "multiple_choice",
+      "questionText": "\"Sie kauft ___ Kleid.\" – Akkusativ?",
+      "options": [
+        "eine",
+        "einen",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "ein",
+      "explanation": "Kleid = Neutrum, Akkusativ: ein Kleid",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q027",
+      "type": "multiple_choice",
+      "questionText": "\"Ich kenne ___ Frau.\" – Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die Frau",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q028",
+      "type": "multiple_choice",
+      "questionText": "\"Wir brauchen ___ Tasche.\" – Akkusativ?",
+      "options": [
+        "eine",
+        "einen",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "eine",
+      "explanation": "Tasche = feminin, Akkusativ: eine Tasche",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q029",
+      "type": "multiple_choice",
+      "questionText": "\"___ Junge liest ein Buch.\" – Nominativ?",
+      "options": [
+        "Der",
+        "Den",
+        "Dem",
+        "Ein"
+      ],
+      "correctAnswer": "Der",
+      "explanation": "Nominativ: der Junge",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q030",
+      "type": "multiple_choice",
+      "questionText": "\"Die Mutter liebt ___ Kind.\" – Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "das",
+      "explanation": "Kind = Neutrum, Akkusativ: das Kind",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
     }
   ]
 }

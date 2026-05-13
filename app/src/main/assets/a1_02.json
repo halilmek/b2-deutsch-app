@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_02",
   "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)",
-  "totalQuestions": 20,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "a1_02_q001",
@@ -323,6 +323,166 @@
       "explanation": "die Frau → die Frauen (kein Umlaut)",
       "difficulty": "easy",
       "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q021",
+      "type": "multiple_choice",
+      "questionText": "Welcher Artikel passt? \"___ Computer\"",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
+      ],
+      "correctAnswer": "Der",
+      "explanation": "Computer = der (maskulin)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q022",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder spielen mit ___ Ball.\" – Welcher Artikel?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "einem"
+      ],
+      "correctAnswer": "einem",
+      "explanation": "Dativ: mit + Dativ = mit einem Ball",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q023",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist korrekt? \"Ich brauche ___ Tasche.\"",
+      "options": [
+        "einen",
+        "eine",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "eine",
+      "explanation": "Tasche = feminin, Akkusativ = eine",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q024",
+      "type": "multiple_choice",
+      "questionText": "\"___ Frauen arbeiten hier.\" – Welcher Artikel?",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Frauen = Plural, die Frauen",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q025",
+      "type": "multiple_choice",
+      "questionText": "Was ist die Pluralform von \"Kind\"?",
+      "options": [
+        "die Kind",
+        "die Kinder",
+        "die Kindes",
+        "die Kinider"
+      ],
+      "correctAnswer": "die Kinder",
+      "explanation": "Kind → Kinder (Umlaut!)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q026",
+      "type": "multiple_choice",
+      "questionText": "\"Ich kaufe ___ neue Hose.\" – Welcher Artikel?",
+      "options": [
+        "eine",
+        "einen",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "eine",
+      "explanation": "Hose = feminin, Akkusativ = eine",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q027",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch FALSCH?",
+      "options": [
+        "Der Hund läuft schnell.",
+        "Die Katze trinkt Wasser.",
+        "Ein Buch liegt auf dem Tisch.",
+        "Ich habe ein neue Tasche."
+      ],
+      "correctAnswer": "Ich habe ein neue Tasche.",
+      "explanation": "eine neue Tasche (feminin braucht \"eine\")",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q028",
+      "type": "multiple_choice",
+      "questionText": "\"___ Männer sind heute im Büro.\" – Welcher Artikel?",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Männer = Plural = die Männer",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q029",
+      "type": "multiple_choice",
+      "questionText": "Was ist die Pluralform von \"Haus\"?",
+      "options": [
+        "die Hauses",
+        "die Häuser",
+        "die Hauss",
+        "die Haue"
+      ],
+      "correctAnswer": "die Häuser",
+      "explanation": "Haus → Häuser (Umlaut + -er)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q030",
+      "type": "multiple_choice",
+      "questionText": "\"___ Idee ist sehr gut!\" – Welcher Artikel?",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Idee = feminin, Nominativ = die",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
     }
   ]
 }
