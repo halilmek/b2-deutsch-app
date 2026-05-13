@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_01",
   "topicName": "1. Verben konjugieren (sein, haben, werden)",
-  "totalQuestions": 40,
+  "totalQuestions": 50,
   "questions": [
     {
       "id": "a1_01_q001",
@@ -642,6 +642,166 @@
       "type": "multiple_choice",
       "explanation": "Werdet ist hier die richtige Antwort.",
       "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q041",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich letztes Jahr mehr Zeit gehabt _____, _____ ich öfter verreist.",
+      "options": [
+        "hätte / wäre",
+        "hatte / wäre",
+        "hätte / würde",
+        "hatte / wurde"
+      ],
+      "correctAnswer": "hätte / würde",
+      "explanation": "Irrealer Satz (Konjunktiv II): hätte + würde — wenn ich mehr Zeit gehabt hätte, würde ich öfter verreisen.",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q042",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Die Firma _____ in den letzten zehn Jahren stark gewachsen, aber früher _____ sie kleiner.",
+      "options": [
+        "ist / war",
+        "hat / ist gewesen",
+        "wurde / ist",
+        "hat / war"
+      ],
+      "correctAnswer": "ist / war",
+      "explanation": "ist gewachsen (Perfekt mit sein für Wachstum) + war (Präteritum für früher).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q043",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Was _____ du eigentlich von Beruf? – Früher _____ ich Koch, jetzt _____ ich Rentner.",
+      "options": [
+        "wirst / war / bin",
+        "bist / war / bin",
+        "bist / wurde / werde",
+        "wirst / bin / war"
+      ],
+      "correctAnswer": "bist / war / bin",
+      "explanation": "bist (Präsens) / war (Präteritum) / bin (Präsens) — klarer Zeitbezug.",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q044",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich morgen krank _____, _____ ich nicht an der Konferenz teilnehmen können.",
+      "options": [
+        "bin / werde",
+        "sein werde / kann",
+        "bin / kann",
+        "sein würde / werde"
+      ],
+      "correctAnswer": "bin / werde",
+      "explanation": "Bedingungssatz (Konjunktiv II): wenn ich morgen krank bin, werde ich nicht teilnehmen können.",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q045",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ gestern nicht im Büro, wo _____ ihr?",
+      "options": [
+        "seid / wart",
+        "wart / seid",
+        "seid / waret",
+        "wart / wart"
+      ],
+      "correctAnswer": "wart / seid",
+      "explanation": "wart (Präteritum von sein) + seid (Präsens von sein) — zwei verschiedene Zeiten.",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q046",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Meine Schwester _____ gerade Ärztin; vorher _____ sie Apothekerin.",
+      "options": [
+        "wird / war",
+        "ist / ist gewesen",
+        "wird / ist",
+        "ist / war"
+      ],
+      "correctAnswer": "wird / war",
+      "explanation": "wird (werden → wird Ärztin gerade) + war (Präteritum von sein für vorher).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q047",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Die Straßen _____ heute Morgen sehr glatt, weil es über Nacht geschneit _____.",
+      "options": [
+        "waren / ist",
+        "sind / hat",
+        "waren / hatte",
+        "sind / war"
+      ],
+      "correctAnswer": "waren / ist",
+      "explanation": "waren (Präteritum für Vergangenheit) + ist (Perfekt mit sein für schneien).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q048",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Was _____ aus deinem Bruder? – Er _____ Ingenieur und _____ bald nach Kanada ziehen.",
+      "options": [
+        "wurde / ist / wird",
+        "ist / ist / möchte",
+        "wird / ist / wird",
+        "wird / wird / ist"
+      ],
+      "correctAnswer": "wird / ist / wird",
+      "explanation": "wird (Präsens von werden) + ist (Zustand) + wird (Zukunft).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q049",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Wenn du früher aufgestanden _____, _____ du den Zug nicht verpasst.",
+      "options": [
+        "wärst / hättest",
+        "bist / hast",
+        "wärest / würdest",
+        "warst / hättest"
+      ],
+      "correctAnswer": "wärst / hättest",
+      "explanation": "Irrealer Satz (Konjunktiv II): wärst (wenn du aufgestanden wärst) + hättest (hättest den Zug nicht verpasst).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q050",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ drei verschiedene Optionen _____; am Ende _____ wir uns für die zweite.",
+      "options": [
+        "haben / gehabt / haben",
+        "sind / gewesen / sind",
+        "haben / gehabt / sind",
+        "sind / geworden / haben"
+      ],
+      "correctAnswer": "haben / gehabt / haben",
+      "explanation": "haben (Präsens) + gehabt (Partizip II von haben) + haben (Präsens).",
+      "difficulty": "medium",
       "topicName": "Verben konjugieren (sein, haben, werden)"
     }
   ]
