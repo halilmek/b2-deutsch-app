@@ -2,7 +2,7 @@
   "version": "1.0",
   "subjectId": "a1_01",
   "topicName": "1. Verben konjugieren (sein, haben, werden)",
-  "totalQuestions": 50,
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_01_q001",
@@ -801,6 +801,166 @@
       ],
       "correctAnswer": "haben / gehabt / haben",
       "explanation": "haben (Präsens) + gehabt (Partizip II von haben) + haben (Präsens).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q051",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit _____, würde ich dich öfter besuchen.",
+      "options": [
+        "bin",
+        "habe",
+        "hätte",
+        "werde"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "Irrealer Satz mit Konjunktiv II: wenn ich mehr Zeit hätte (hätte = Konjunktiv II von haben).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q052",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Seit letztem Jahr _____ er sich sehr verändert.",
+      "options": [
+        "ist",
+        "hat",
+        "wird",
+        "war"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Perfekt mit sein bei reflexivem Verb (sich verändern, Zustandsänderung).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q053",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Nächste Woche _____ wir die Prüfung hoffentlich bestanden haben.",
+      "options": [
+        "sind",
+        "haben",
+        "werden",
+        "sein"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Futur II: werden + Partizip II + haben (werden bestanden haben).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q054",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Es _____ kalt gestern Abend, deshalb blieben wir zu Hause.",
+      "options": [
+        "hat",
+        "ist",
+        "war",
+        "wurde"
+      ],
+      "correctAnswer": "war",
+      "explanation": "Präteritum: gestern Abend = Wartezeit, also war (Präteritum von sein).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q055",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "_____ du schon einmal in Berlin gewesen?",
+      "options": [
+        "Hast",
+        "Bist",
+        "Wirst",
+        "Warst"
+      ],
+      "correctAnswer": "Bist",
+      "explanation": "Perfekt mit sein bei Bewegung/Stadt (in Berlin gewesen sein).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q056",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _____ sehr müde, nachdem sie den ganzen Tag gespielt hatten.",
+      "options": [
+        "haben",
+        "sind",
+        "waren",
+        "wurden"
+      ],
+      "correctAnswer": "waren",
+      "explanation": "Plusquamperfekt: nach dem Spielen → waren müde (vor einer anderen Vergangenheit).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q057",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Wenn das Wetter morgen schön _____, machen wir einen Ausflug.",
+      "options": [
+        "ist",
+        "hat",
+        "wird",
+        "sei"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Bedingungssatz mit werden: wenn das Wetter schön wird (Zukunft).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q058",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ seit drei Jahren verheiratet und sehr glücklich.",
+      "options": [
+        "hat",
+        "ist",
+        "wird",
+        "war"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Zustandsbeschreibung mit sein + seit (seit drei Jahren = seit/dauer).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q059",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ mir sicher, dass er die Aufgabe schaffen wird.",
+      "options": [
+        "bin",
+        "habe",
+        "werde",
+        "sei"
+      ],
+      "correctAnswer": "bin",
+      "explanation": "Ich bin mir sicher (sein + Dativ Reflexivpronomen).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
+    },
+    {
+      "id": "a1_01_q060",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "questionText": "Was _____ du, wenn du an meiner Stelle wärst?",
+      "options": [
+        "bist",
+        "hast",
+        "würdest",
+        "wirst"
+      ],
+      "correctAnswer": "würdest",
+      "explanation": "Konjunktiv II in irrealem Bedingungssatz: wenn du an meiner Stelle wärst, was würdest du tun?",
       "difficulty": "medium",
       "topicName": "Verben konjugieren (sein, haben, werden)"
     }
