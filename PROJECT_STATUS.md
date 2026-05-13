@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-13 12:07 UTC
+**Last Updated:** 2026-05-13 13:08 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -38,20 +38,31 @@
 
 ---
 
-## 📋 A1 MODULE CONTENT (10 Topics × 30 Questions = 300 Total)
+## 📋 A1 MODULE CONTENT (10 Topics × 40 Questions = 400 Total)
 
 | # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
 |---|----------|-----------|-----------|-----------|----------------|
-| 1 | a1_01 | Verben konjugieren (sein, haben, werden) | 30 | 3 | ✅ Complete |
-| 2 | a1_02 | Nomen und Artikel (der/die/das + Pluralformen) | 30 | 3 | ✅ Complete |
-| 3 | a1_03 | Präsens (Gegenwart) | 30 | 3 | ✅ Complete |
-| 4 | a1_04 | Akkusativ (Wen-Fall) | 30 | 3 | ✅ Complete |
-| 5 | a1_05 | Dativ (Wem-Fall) | 30 | 3 | ✅ Complete |
-| 6 | a1_06 | Präpositionen (in, auf, an, mit, nach...) | 30 | 3 | ✅ Complete |
-| 7 | a1_07 | Verben mit Präpositionen (warten auf, denken an...) | 30 | 3 | ✅ Complete |
-| 8 | a1_08 | Perfekt (haben/sein + Partizip II) | 30 | 3 | ✅ Complete |
-| 9 | a1_09 | Modalverben (können, müssen, wollen, dürfen, sollen) | 30 | 3 | ✅ Complete |
-| 10 | a1_10 | Sätze bilden (Wortstellung) | 30 | 3 | ✅ Complete |
+| 1 | a1_01 | Verben konjugieren (sein, haben, werden) | 40 | 4 | ✅ Complete |
+| 2 | a1_02 | Nomen und Artikel (der/die/das + Pluralformen) | 40 | 4 | ✅ Complete |
+| 3 | a1_03 | Präsens (Gegenwart) | 40 | 4 | ✅ Complete |
+| 4 | a1_04 | Akkusativ (Wen-Fall) | 40 | 4 | ✅ Complete |
+| 5 | a1_05 | Dativ (Wem-Fall) | 40 | 4 | ✅ Complete |
+| 6 | a1_06 | Präpositionen (in, auf, an, mit, nach...) | 40 | 4 | ✅ Complete |
+| 7 | a1_07 | Verben mit Präpositionen (warten auf, denken an...) | 40 | 4 | ✅ Complete |
+| 8 | a1_08 | Perfekt (haben/sein + Partizip II) | 40 | 4 | ✅ Complete |
+| 9 | a1_09 | Modalverben (können, müssen, wollen, dürfen, sollen) | 40 | 4 | ✅ Complete |
+| 10 | a1_10 | Sätze bilden (Wortstellung) | 40 | 4 | ✅ Complete |
+
+---
+
+### 2026-05-13 13:08 — A1 EXPANDED AGAIN: 30 → 40 questions per topic (ALL 10 TOPICS)
+- **Commit:** `ffc4418` — "A1: Add Q31-Q40 to all 10 topics (40 questions per topic, Halil's new batch)"
+- **GitHub:** Pushed ✅
+- **Change:** Added Halil's numbered Q31-Q40 batch to each of a1_01–a1_10 (10 new questions per topic)
+- **Total A1:** 400 questions (10 topics × 40 questions)
+- **Quiz count:** 4 quizzes per topic (10 questions each)
+- **Answers:** Verified against Halil's answer key
+- **Firebase:** ⚠️ Pending sync
 
 ---
 
