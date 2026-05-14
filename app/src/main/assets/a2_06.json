@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "subjectId": "a2_06",
+  "topicName": "Reflexive Verben",
+  "totalQuestions": 20,
+  "description": "Reflexive Verben — Dönüşlü Fiiller\n\nDönüşlü fiiller (sich + fiil), A2 seviyesinde çok karşılaşılan bir konudur. Nesne olarak kendi kendine işaret eden bir zamir (sich) kullanırlar.\n\n1. AKKUSATİV dönüşlü fiiller:\n- sich erholen (dinlenmek)\n- sich verletzen (yaralanmak)\n- sich entscheiden (karar vermek)\n- sich erkundigen (bilgi almak)\n- sich einigen (uzlaşmak)\n\n2. DÂTİV dönüşlü fiiller:\n- sich ärgern (kızmak)\n- sich Sorgen machen (endişelenmek)\n- sich etwas überlegen (düşünmek)\n- sich etwas vornehmen (niyet etmek)\n- sich etwas gönnen (kendine şey yapmak istememek)\n\n3. HANGı KASUS?\nİngilizce'de dönüşlü fiiller genellikle Akkusativ alır, ama Almanca'da bazı fiiller Dativ alır. Bu ezberlenmesi gereken bir konudur.\n\nA2'DE ÖNEMLİ REFLEKSİV FİİLLER:\n- sich erinnern an (Akk) — hatırlamak\n- sich freuen über (Akk) — sevinmek\n- sich beschweren über (Akk) — şikayet etmek\n- sich hüten vor (Dat) — sakınmak\n- sich einsetzen für (Akk) — savunmak\n- sich bewerben um (Akk) — başvurmak\n- sich vertraut machen mit (Dat) — aşina olmak\n- sich schämen für (Akk) — utanmak",
+  "tips": [
+    {
+      "title": "Akkusativ veya Dativ? — Fark",
+      "content": "Dönüşlü fiillerde nesne olarak hangi durum kullanılır?\nAKKUSATİV alanlar:\n- Ich erhole mich. (Dinleniyorum)\n- Er verletzt sich am Knie. (Kendini yaraladı)\n- Wir einigen uns auf einen Kompromiss.\n\nDÂTİV alanlar:\n- Ich mache mir Sorgen. (Endişeliyorum)\n- Sie ärgert sich über die Lautstärke. (Kızıyor)\n- Er legt sich hin. (yatıyor, kendini yatırma)",
+      "icon": "akk_dat"
+    },
+    {
+      "title": "sich erholen / sich verletzen — Akkusativ",
+      "content": "sich erholen (dinlenmek) — Akkusativ:\n- Ich muss mich erholen.\n- Nach der Krankheit hat er sich gut erholt.\n\nsich verletzen (yaralanmak) — Akkusativ:\n- Er hat sich am Knie verletzt.\n- Sie hat sich bei dem Unfall schwer verletzt.",
+      "icon": "erholen"
+    },
+    {
+      "title": "sich ärgern / sich Sorgen machen — Dativ",
+      "content": "sich ärgern (kızmak, sinirlenmek) — Dativ:\n- Ich ärgere mich über die Lösung. (-über Akkusativ!\n- Er ärgert sich über seinen Chef.\n\nsich Sorgen machen (endişelenmek) — Dativ:\n- Ich mache mir Sorgen um dich.\n- Mach dir keine Sorgen!",
+      "icon": "argern"
+    },
+    {
+      "title": "sich entscheiden / sich einigen — Akkusativ",
+      "content": "sich entscheiden für (Akkusativ) — bir şeyi seçmek:\n- Ich habe mich für das Angebot entschieden.\n\nsich einigen auf (Akkusativ) — uzlaşmak:\n- Wir konnten uns auf einen Kompromiss einigen.\n- Die Parteien einigen sich auf einen neuen Plan.",
+      "icon": "entscheiden"
+    },
+    {
+      "title": "sich bewerben um / sich einsetzen für — Akkusativ",
+      "content": "sich bewerben um (Akkusativ) — başvurmak:\n- Sie bewirbt sich um die Stelle.\n- Er hat sich um den Job beworben.\n\nsich einsetzen für (Akkusativ) — savunmak:\n- Die Ministerin setzt sich für die Reform ein.\n- Wir setzen uns für Fairness ein.",
+      "icon": "bewerben"
+    },
+    {
+      "title": "sich überlegen / sich vornehmen — Dativ",
+      "content": "sich etwas überlegen (Dativ) — düşünmek, üzerinde durmak:\n- Ich habe mir die Sache überlegt.\n- Du solltest es dir gut überlegen.\n\nsich etwas vornehmen (Dativ) — niyet etmek:\n- Ich habe mir vorgenommen, mehr zu lesen.\n- Er hat sich vorgenommen, früher aufzustehen.",
+      "icon": "vornehmen"
+    },
+    {
+      "title": "sich erinnern an / sich freuen über — Akkusativ",
+      "content": "sich erinnern an (Akkusativ) — hatırlamak:\n- Ich erinnere mich an den Tag.\n- Er konnte sich an nichts erinnern.\n\nsich freuen über (Akkusativ) — olmuş şeye sevinmek:\n- Wir freuen uns über das Geschenk.\n- Sie freut sich über die Nachricht.",
+      "icon": "erinnern"
+    },
+    {
+      "title": "sich beschweren über / sich hüten vor — Akkusativ/Dativ",
+      "content": "sich beschweren über (Akkusativ) — şikayet etmek:\n- Er beschwert sich über die Nachbarn.\n- Sie hat sich über den Lärm beschwert.\n\nsich hüten vor (Dativ) — sakınmak:\n- Man muss sich vor der Kälte hüten.\n- Hüte dich vor Betrügern!",
+      "icon": "beschweren"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a2_06_q001",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Ich muss ______ unbedingt merken, dass ich den Termin morgen absagen muss.",
+      "options": [
+        "mich",
+        "mir",
+        "sich",
+        "dir"
+      ],
+      "correctAnswer": "mir",
+      "explanation": "sich merken (Dativ) = akılda tutmak. Bir şeyi aklında tutmak için Dativ kullanılır. sich merken = hatırlamak değil!",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q002",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Hast du ______ schon ______ den neuen Arbeitsvertrag erkundigt?",
+      "options": [
+        "dich / über",
+        "dir / nach",
+        "dich / nach",
+        "dir / über"
+      ],
+      "correctAnswer": "dich / nach",
+      "explanation": "sich erkundigen nach (Akkusativ) = bir şey hakkında bilgi almak. Hast du dich nach dem Vertrag erkundigt?",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q003",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Wir konnten ______ während der Verhandlungen leider nicht auf einen Kompromiss ______.",
+      "options": [
+        "uns / einigen",
+        "sich / einigen",
+        "uns / einig sein",
+        "euch / einigen"
+      ],
+      "correctAnswer": "uns / einigen",
+      "explanation": "sich einigen auf (Akkusativ) = uzlaşmak. Wir konnten uns auf einen Kompromiss nicht einigen.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q004",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Er hat ______ bei dem Sturz vom Fahrrad schwer ______ am Knie.",
+      "options": [
+        "sich / verletzen",
+        "ihm / verletzt",
+        "sich / verletzt",
+        "ihn / verletzte"
+      ],
+      "correctAnswer": "sich / verletzt",
+      "explanation": "sich verletzen (Akkusativ) = yaralanmak. Dönüşlü fiil olduğundan Akkusativ zamiri kullanılır. Er hat sich am Knie verletzt.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q005",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Du solltest ______ öfter mal eine Auszeit vom stressigen Alltag ______.",
+      "options": [
+        "dich / gönnen",
+        "dir / gönnen",
+        "sich / gönnen",
+        "euch / gönnen"
+      ],
+      "correctAnswer": "dir / gönnen",
+      "explanation": "sich (Dativ) etwas gönnen = kendine bir şeyi yapmak istememek/vermek. Du solltest dir eine Auszeit gönnen.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q006",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Die Ministerin ______ ______ für eine radikale Reform des Bildungssystems ______.",
+      "options": [
+        "setzt / sich / ein",
+        "setzt / ihr / ein",
+        "hat / sich / eingesetzt",
+        "A ve C seçeneklerinin ikisi de dilbilgisel olarak mümkün"
+      ],
+      "correctAnswer": "A ve C seçeneklerinin ikisi de dilbilgisel olarak mümkün",
+      "explanation": "sich einsetzen für (Akkusativ) hem Präsens (çalışıyor) hem Perfekt (çalıştı) olabilir. Aşağıdaki yapılar doğru: Die Ministerin setzt sich für...ein. / Die Ministerin hat sich für...eingesetzt.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q007",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Ich kann ______ einfach nicht ______ diese extreme Kälte gewöhnen.",
+      "options": [
+        "mich / an",
+        "mir / an",
+        "mich / auf",
+        "mir / auf"
+      ],
+      "correctAnswer": "mich / an",
+      "explanation": "sich gewöhnen an (Akkusativ) = bir şeye alışmak. Ich kann mich an diese Kälte nicht gewöhnen.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q008",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Hast du ______ eigentlich schon ______ die Einladung bedankt?",
+      "options": [
+        "dich / für",
+        "dir / für",
+        "dich / über",
+        "dir / über"
+      ],
+      "correctAnswer": "dich / für",
+      "explanation": "sich bedanken für (Akkusativ) = teşekkür etmek. Hast du dich für die Einladung bedankt?",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q009",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Wir ______ ______ sehr ______ die positiven Rückmeldungen unserer Kunden.",
+      "options": [
+        "freuen / uns / über",
+        "freuen / uns / auf",
+        "freuen / sich / über",
+        "freuen / sich / an"
+      ],
+      "correctAnswer": "freuen / uns / über",
+      "explanation": "sich freuen über (Akkusativ) = olmuş bir şeye sevinmek. Wir freuen uns über die positiven Rückmeldungen.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q010",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Bitte ______ ______ beim Aussteigen aus dem Zug vor der Lücke zwischen Bahnsteig und Zug.",
+      "options": [
+        "hüte / dich",
+        "hüten / Sie / sich",
+        "hütet / euch",
+        "hebe / dich"
+      ],
+      "correctAnswer": "hüten / Sie / sich",
+      "explanation": "sich hüten vor (Dativ) = bir şeyden sakınmak/korunmak. Formel: Hüten Sie sich vor der Lücke!",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q011",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Er ______ ______ ständig ______ die lauten Nachbarn, aber nichts ändert sich.",
+      "options": [
+        "beschwert / sich / über",
+        "beklagt / ihm / über",
+        "beschwert / sich / an",
+        "beklagt / sich / gegen"
+      ],
+      "correctAnswer": "beschwert / sich / über",
+      "explanation": "sich beschweren über (Akkusativ) = şikayet etmek. Er beschwert sich über die lauten Nachbarn.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q012",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Du musst ______ gut ______, bevor du eine so wichtige Entscheidung triffst.",
+      "options": [
+        "dich / überlegen",
+        "dir / überlegen",
+        "sich / überlegen",
+        "euch / überlegen"
+      ],
+      "correctAnswer": "dir / überlegen",
+      "explanation": "sich (Dativ) etwas überlegen = bir şeyi düşünmek, üzerinde enine boyuna durmak. Du musst es dir gut überlegen.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q013",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Ich ______ ______ große Sorgen um die zukünftige Entwicklung der Weltwirtschaft.",
+      "options": [
+        "mache / mich",
+        "mache / mir",
+        "fühle / mich",
+        "sorge / sich"
+      ],
+      "correctAnswer": "mache / mir",
+      "explanation": "sich (Dativ) Sorgen machen = endişelenmek. Almanca'da kalıp ifade: Ich mache mir Sorgen. (= Endişeliyorum)",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q014",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Habt ihr ______ schon ______ das neue Verfahren vertraut gemacht?",
+      "options": [
+        "euch / mit",
+        "euch / an",
+        "sich / mit",
+        "uns / an"
+      ],
+      "correctAnswer": "euch / mit",
+      "explanation": "sich vertraut machen mit (Dativ) = bir şeye aşina olmak. Habt ihr euch schon mit dem neuen Verfahren vertraut gemacht?",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q015",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Der Zeuge ______ ______ ______ den Tathergang kaum noch.",
+      "options": [
+        "erinnert / sich / an",
+        "erinnert / ihn / an",
+        "besinnt / sich / auf",
+        "A ve C seçeneklerinin ikisi de doğru"
+      ],
+      "correctAnswer": "A ve C seçeneklerinin ikisi de doğru",
+      "explanation": "sich erinnern an (Akkusativ) ve sich besinnen auf (Akkusativ) her ikisi de hatırlamak anlamında kullanılabilir. Der Zeuge erinnert sich an den Tathergang. / Der Zeuge besinnt sich auf den Tathergang.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q016",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Sie ______ ______ für die Stelle als Marketing-Assistentin.",
+      "options": [
+        "bewirbt / sich",
+        "bewirbt / ihr",
+        "bewerbt / sich",
+        "bewerbt / ihr"
+      ],
+      "correctAnswer": "bewirbt / sich",
+      "explanation": "sich bewerben um (Akkusativ) = başvurmak. e-i değişimi: er/sie/es bewirbt (Präsens). Sie bewirbt sich um die Stelle.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q017",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Ich habe ______ vorgenommen, ab nächster Woche regelmäßig Sport zu treiben.",
+      "options": [
+        "mich",
+        "mir",
+        "uns",
+        "sich"
+      ],
+      "correctAnswer": "mir",
+      "explanation": "sich (Dativ) etwas vornehmen = bir şeyi yapmaya niyetlenmek. Ich habe mir vorgenommen, Sport zu treiben.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q018",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Er ______ ______ ______ die schwierige Situation seiner Kollegen.",
+      "options": [
+        "schämt / sich / für",
+        "schämt / sich / wegen",
+        "geniert / sich / für",
+        "A ve C doğru"
+      ],
+      "correctAnswer": "A ve C doğru",
+      "explanation": "sich schämen für (Akkusativ) = birinden/bir şeyden dolayı utanmak. sich genieren für da aynı anlamda kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q019",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Wir ______ ______ ganz ______ deine Unterstützung beim Umzug.",
+      "options": [
+        "verlassen / uns / auf",
+        "verlassen / uns / an",
+        "verlassen / sich / auf",
+        "verlassen / euch / auf"
+      ],
+      "correctAnswer": "verlassen / uns / auf",
+      "explanation": "sich verlassen auf (Akkusativ) = güvenmek. Wir verlassen uns ganz auf deine Unterstützung.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    },
+    {
+      "id": "a2_06_q020",
+      "subjectId": "a2_06",
+      "type": "multiple_choice",
+      "text": "Er ______ ______ oft ______ der Richtigkeit seiner eigenen Aussagen.",
+      "options": [
+        "zweifelt / sich / an",
+        "täuscht / sich / in",
+        "irrt / sich / bei",
+        "B ve C doğru"
+      ],
+      "correctAnswer": "B ve C doğru",
+      "explanation": "sich täuschen in (Dativ) = bir konuda yanılmak ve sich irren bei (Dativ) = bir konuda/atfta yanılmak. Beide correct.",
+      "difficulty": "medium",
+      "topicName": "Reflexive Verben"
+    }
+  ]
+}
