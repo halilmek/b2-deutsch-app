@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-14 07:20 UTC
+**Last Updated:** 2026-05-14 07:25 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -61,7 +61,7 @@
 |---|----------|-----------|-----------|-----------|----------------|
 | 1 | a2_01 | Präteritum (war, hatte, machte) | 20 | 2 | ✅ Complete |
 | 2 | a2_02 | Perfekt (haben/sein + Partizip II) | 20 | 2 | ✅ Complete |
-| 3 | a2_03 | Verben mit Präpositionen (AC) | 0 | 0 | ⚠️ Placeholder |
+| 3 | a2_03 | Verben mit Präpositionen (AC) | 20 | 2 | ✅ Complete |
 | 4 | a2_04 | Wechselpräpositionen | 0 | 0 | ⚠️ Placeholder |
 | 5 | a2_05 | Nebensätze (dass, ob, weil, wenn, als) | 0 | 0 | ⚠️ Placeholder |
 | 6 | a2_06 | Reflexive Verben | 0 | 0 | ⚠️ Placeholder |
