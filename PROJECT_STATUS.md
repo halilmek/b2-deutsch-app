@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-14 07:57 UTC
+**Last Updated:** 2026-05-14 08:04 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -67,7 +67,7 @@
 | 6 | a2_06 | Reflexive Verben | 20 | 2 | ✅ Complete |
 | 7 | a2_07 | Imperativ | 20 | 2 | ✅ Complete |
 | 8 | a2_08 | Plusquamperfekt | 20 | 2 | ✅ Complete |
-| 9 | a2_09 | Relativsätze | 0 | 0 | ⚠️ Placeholder |
+| 9 | a2_09 | Relativsätze | 20 | 2 | ✅ Complete |
 | 10 | a2_10 | (missing from list) | 0 | 0 | ⚠️ Placeholder |
 
 ### 2026-05-14 07:20 — a2_02: Add 20 Perfekt questions ✅ (Halil's batch)
