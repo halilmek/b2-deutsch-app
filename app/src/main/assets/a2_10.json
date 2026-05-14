@@ -3,47 +3,47 @@
   "subjectId": "a2_10",
   "topicName": "Konjunktionen",
   "totalQuestions": 20,
-  "description": "Konjunktionen — Bağlaçlar\n\nKonjunktionen (bağlaçlar) cümleleri veya cümlecikleri birbirine bağlamak için kullanılır. İki ana grup vardır:\n\n1. COORDINATING KONJUNKTIONEN (Eşittleme Bağlaçları):\nund, aber, oder, denn, sondern, doch, либо\n\n2. SUBORDINATING KONJUNKTIONEN (Cümlecik Bağlaçları):\ndass, ob, weil, wenn, als, damit, obwohl, damit\n\nCOSTUM (Koşul)/ADVERSATIVE (Karşıt):\n- UND: ve, aynı zamanda\n- ABER: ama, fakat\n- ODER: veya\n- DENN: çünkü, zira (sebep)\n- SONDERN: aksine (ama birincisi değil)\n\nSUBORDINATING:\n- WEIL: çünkü (her zaman yüklem en sonda)\n- OBWOHL: rağmen (her ne kadar)\n- DAMIT: bunun için, amacıyla\n- WENN: eğer (koşul) / her zaman (zaman)\n- ALS: when (geçmiştekitekil an)\n- BIS: until (kadar)\n- DAMIT: so that / in order that",
+  "description": "Konjunktionen — Bağlaçlar\n\nKonjunktionen (bağlaçlar) cümleleri birbirine bağlamak için kullanılır. İki ana grup:\n\n1. KOORDINIERENDE (Eşittleme):\n- UND, ABER, ODER, DENN, SONDERN\n- ENTWEDER...ODER (ya...ya da)\n- SOWOHL...ALS AUCH (hem...hem de)\n- NICHT NUR...SONDERN AUCH\n- WEDER...NOCH (ne...ne de)\n- ZWAR...ABER (gerçi...ama)\n\n2. SUBORDINIERENDE (Cümlecik):\n- WEIL, DA, OBWOHL, TROTZDEM\n- DASS, OB, WENN, ALS, BIS\n- DAMIT, UM...ZU, DAMIT...NICHT\n- JE...DESTO/UMSO (ne kadar...o kadar)\n\nWANN? Nerede? Yüklem cümlede nerede?\n- Koordinierende: ikisi de aynı cümlede (UND, ABER, ODER)\n- Subordinierende: yan cümle yaratır, yüklem sonra gelir",
   "tips": [
     {
-      "title": "und, aber, oder, denn — Koordinierende",
-      "content": "und: ve, aynı zamanda\n- Ich lernte und arbeitete gleichzeitig.\n\naber: ama, fakat (zürçlü)\n- Er war müde, aber er arbeitete weiter.\n\noder: veya\n- Willst du Tee oder Kaffee?\n\ndenn: çünkü (sebep, yüklem değişmez)\n- Ich blieb zu Hause, denn es regnete.",
-      "icon": "coord"
+      "title": "zwar / aber — Gerçi...Ama",
+      "content": "zwar...aber = gerçi...ama (kabul et + karşıt)\n- Er ist ZWAR intelligent, ABER er lernt wenig.\n(Gerçi zeki ama az çalışıyor.)\n- Das Buch ist ZWAR interessant, ABER zu lang.\n(Gerçi ilginç ama çok uzun.)",
+      "icon": "zwar"
     },
     {
-      "title": "weil, obwohl, damit — Nebensätze",
-      "content": "WEIL: çünkü (her zaman yüklem en sonda!)\n- Ich bin müde, WEIL ich lange gearbeitet habe.\n\nOBWOHL: rağmen, her ne kadar\n- OBWOHL es regnete, sind wir nach draussen gegangen.\n\nDAMIT: bunun için, amacıyla (birlikte damit)\n- Ich lerne Deutsch, DAMIT ich einen Job finde.",
-      "icon": "subord"
+      "title": "je ... desto / umso — Ne kadar...O kadar",
+      "content": "JE + karşılaştırma, DESTO/UMSO + sonuç:\n- JE mehr man lernt, DESTO sicherer fühlt man sich.\n- JE schneller fährt er, UMSO gefährlicher wird es.\n\nHer iki yapı da doğru: desto = umso\nDESTO/UMSO her zaman JE'ye bağlı!",
+      "icon": "je"
     },
     {
-      "title": "wenn vs als — Zaman Bağlaçları",
-      "content": "WENN:\n- gelecek zaman için: WENN ich Zeit habe, komme ich.\n- genel gerçekler için: WENN es regnet, wird die Straße nass.\n\nALS:\n- geçmiştekitekil an: ALS ich jung war, lebten wir in Berlin.\n- bir kez olan olay: ALS ich nach Hause kam, kochte meine Mutter.\n\nKısa hatırlatma: ALS = geçmiş tekil, WENN = gelecek veya genel",
-      "icon": "wenn"
+      "title": "entweder / oder — Yaşıyor Ya Da",
+      "content": "ENTWEDER...ODER = ya...ya da (birini seç)\n- Entweder du kommst mit, oder du bleibst zu Hause.\n- Entweder fährst du mit dem Zug oder mit dem Bus.\n\nODER de tek başına \"veya\" anlamında kullanılabilir.",
+      "icon": "entweder"
     },
     {
-      "title": "sondern vs aber — Aynı Değil",
-      "content": "SONDERN = aksine (bir önceki olumsuzu düzeltir)\n- Er ist nicht faul, SONDERN er ist nur müde.\n  (Faul değil, sadece yorgun.)\n\nABER = ama (karşıt görüş)\n- Er ist müde, ABER er arbeitet weiter.\n  (Yorgun ama çalışmaya devam ediyor.)\n\nDikkat: SONDERN sadece NICHT...SONDERN yapısında kullanılır!",
-      "icon": "sondern"
+      "title": "sowohl / als auch — Hem...Hem De",
+      "content": "SOWOHL...ALS AUCH = hem...hem de (ikisi de)\n- Er spricht sowohl Deutsch als auch Englisch.\n- Das ist sowohl günstig ALS AUCH qualitätshoch.\n\nHer iki durumu da belirtir.",
+      "icon": "sowohl"
     },
     {
-      "title": "damit — Amacını Bildirme",
-      "content": "DAMIT = so that / in order that\nBirlikte kullanır: damit + Konjunktiv II veya damit + Präsens\n\n- Ich spare Geld, DAMIT ich ein Auto kaufen kann.\n  (Araba alabilmem için para biriktiriyorum.)\n- Sie lernte, DAMIT sie die Prüfung bestehen könnte.\n  (Sınavı geçebilmesi için çalıştı.)\n\ndamit'den sonra her zaman yüklem en sonda!",
-      "icon": "damit"
+      "title": "nicht nur / sondern auch — Sadece Değil, Aynı Zamanda",
+      "content": "NICHT NUR...SONDERN AUCH = sadece değil, aynı zamanda\n- Wir haben nicht nur das Hotel gebucht, sondern auch die Flüge.\n- Er ist nicht nur intelligent, sondern auch fleißig.\n\nSONDERN = aksine (ama sadece değil anlamında)",
+      "icon": "nicht"
     },
     {
-      "title": "dass vs ob — Nesne Cümlecikleri",
-      "content": "DASS = görüş bildirir (ki)\n- Ich finde, DASS er Recht hat.\n  (Onun haklı olduğunu düşünüyorum.)\n\nOB = belirsizlik/soru (mi)\n- Ich weiş nicht, OB er kommt.\n  (Gelip gelmeyeceğini bilmiyorum.)\n\nHer ikisinde de yüklem en sonda!",
-      "icon": "dass"
+      "title": "weder / noch — Ne...Ne De",
+      "content": "WEDER...NOCH = ne...ne de (ikisini de reddetme)\n- Er spricht weder Deutsch noch Englisch.\n- Ich habe weder Lust auf Pizza noch auf Pasta.\n\nOlumsuzluk ifade eder: ikisini de yapmadı.",
+      "icon": "weder"
     },
     {
-      "title": "bevor, nachdem, bis, seit — Zaman",
-      "content": "BEVOR (-önce): Sözdizimi değişmez\n- BEVOR ich gehe, rufe ich an.\n\nNACHDEM (-ğden sonra): Plusquamperfekt kullanılır genellikle\n- NACHDEM er gegessen hatte, rauchte er.\n\nBIS (kadar):\n- Warte BIS ich komme.\n\nSEIT (-önden beri):\n- SEIT ich hier wohne, kenne ich ihn.",
-      "icon": "zeit"
+      "title": "obwohl / trotzdem — Rağmen / Buna Rağmen",
+      "content": "OBWOHL = rağmen (yan cümle, fiil sonrada)\n- OBWOHL er krank war, ging er zur Arbeit.\n\nTROTZDEM = buna rağmen (zarf, fiil öncesinde)\n- Er war krank, TROTZDEM ging er zur Arbeit.\n\nHer ikisi de \"rağmen\" anlamında ama farklı pozisyon!",
+      "icon": "obwohl"
     },
     {
-      "title": "Koşul ve Sebep Bağlaçları — Tablo",
-      "content": "│ BAĞLAÇ │ TÜR │ ÖRNEK\n│ UND │ Eşitleme │ und\n│ ABER │ Karşıt │ aber\n│ ODER │ Alternatif │ oder\n│ DENN │ Sebep │ denn\n│ SONDERN │ Düzeltme │ sondern\n│ WEIL │ Sebep │ weil\n│ OBWOHL │ Karşıt │ obwohl\n│ WENN │ Koşul │ wenn\n│ ALS │ Zaman │ als",
-      "icon": "table"
+      "title": "da / weil — Çünkü (Sebep)",
+      "content": "DA = çünkü (cümle başında daha sık)\n- DA es regnete, blieben wir zu Hause.\n\nWEIL = çünkü (her zaman yüklem sonrada)\n- Wir blieben zu Hause, WEIL es regnete.\n\nDA resmi ve yazılı dilde daha yaygın.",
+      "icon": "da"
     }
   ],
   "questions": [
@@ -51,321 +51,321 @@
       "id": "a2_10_q001",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Ich bin nicht nach draussen gegangen, ______ es geregnet hat.",
       "options": [
-        "weil",
-        "obwohl",
-        "und",
-        "sondern"
+        "zwar / aber",
+        "entweder / oder",
+        "sowohl / als auch",
+        "weder / noch"
       ],
-      "correctAnswer": "weil",
-      "explanation": "weil = çünkü (sebep). Dışarı çıkmadım çünkü yağdı. Sebep cümlesi.",
+      "correctAnswer": "zwar / aber",
+      "explanation": "zwar...aber = gerçi...ama. Kabul edip karşıtı söylüyor.Intelligent ama disiplin eksik.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Er ist ______ sehr intelligent, ______ leider mangelt es ihm oft an Disziplin."
     },
     {
       "id": "a2_10_q002",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Er ist nicht faul, ______ er hat nur zu viel zu tun.",
       "options": [
-        "aber",
-        "und",
-        "sondern",
-        "oder"
+        "umso",
+        "desto",
+        "so",
+        "A ve B doğru"
       ],
-      "correctAnswer": "sondern",
-      "explanation": "nicht...sondern = aksine. Faul değil, sadece çok işi var. NICHT...SONDERN yapısı.",
+      "correctAnswer": "A ve B doğru",
+      "explanation": "JE...DESTO ve JE...UMSO her ikisi de doğru. Ne kadar çok çalışsan, o kadar güvenli hissedersin.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Je mehr man für die Prüfung lernt, ______ sicherer fühlt man sich am Prüfungstag."
     },
     {
       "id": "a2_10_q003",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Ich lerne Deutsch, ______ ich in Deutschland studieren kann.",
       "options": [
-        "dass",
-        "damit",
-        "weil",
-        "obwohl"
+        "deshalb",
+        "wegen",
+        "da",
+        "trotzdem"
       ],
-      "correctAnswer": "damit",
-      "explanation": "damit = bunun için, amacıyla. Almanya'da okuyabilmem için Almanca öğreniyorum.",
+      "correctAnswer": "da",
+      "explanation": "da = çünkü (sebep). Cümle başında olduğindan DA tercih edilir. Yağdığı için yapamadık.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Wir konnten den Ausflug nicht machen, ______ es den ganzen Tag in Strömen geregnet hat."
     },
     {
       "id": "a2_10_q004",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Sie ist nach Hause gegangen, ______ die Party noch nicht vorbei war.",
       "options": [
-        "obwohl",
-        "weil",
-        "und",
-        "denn"
+        "Obwohl",
+        "Trotzdem",
+        "Deswegen",
+        "Damit"
       ],
-      "correctAnswer": "obwohl",
-      "explanation": "obwohl = rağmen, her ne kadar. Parti bitmemiş olmasına rağmen eve gitti.",
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl = rağmen (her ne kadar). Hastaydı ama yine de işe gitti. Fiil cümle sonunda.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "______ er krank war, ging er zur Arbeit, um den wichtigen Termin nicht zu verpassen."
     },
     {
       "id": "a2_10_q005",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Er sprach so leise, ______ niemand ihn hören konnte.",
       "options": [
-        "dass",
-        "als",
-        "ob",
-        "und"
+        "nicht nur / sondern auch",
+        "entweder / oder",
+        "sowohl / als auch",
+        "weder / noch"
       ],
-      "correctAnswer": "dass",
-      "explanation": "so...dass = o kadar...ki. Kimse duyamadı. Sonuç bildiren yapı.",
+      "correctAnswer": "entweder / oder",
+      "explanation": "entweder...oder = ya...ya da (iki seçenekten biri). Tren ya da otobüs — her ikisi de aynı süre.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Du kannst ______ mit dem Zug fahren, ______ du nimmst den Bus; beides dauert gleich lang."
     },
     {
       "id": "a2_10_q006",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Meinst du, ______ er morgen kommt?",
       "options": [
-        "dass",
-        "weil",
-        "ob",
-        "wenn"
+        "trotzdem",
+        "obwohl",
+        "dennoch",
+        "deswegen"
       ],
-      "correctAnswer": "ob",
-      "explanation": "ob = mi? (dolaylı soru). Gelecek mi bilmiyorum. Sorgulayan cümle.",
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl = rağmen. Az çalışmış olmasına rağmen geçti. Fiil sonrada olduğindan obwohl gerekli.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Er hat die Prüfung bestanden, ______ er kaum gelernt hatte."
     },
     {
       "id": "a2_10_q007",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Ich nehme ein Taxi, ______ ich den Zug verpasst habe.",
       "options": [
-        "weil",
-        "und",
-        "aber",
-        "oder"
+        "sowohl / als auch",
+        "zwar / aber",
+        "entweder / oder",
+        "weder / noch"
       ],
-      "correctAnswer": "weil",
-      "explanation": "weil = çünkü. Treni kaçırdığım için taksi alıyorum. Sebep.",
+      "correctAnswer": "sowohl / als auch",
+      "explanation": "sowohl...als auch = hem...hem de (her ikisi de). Hem işverenler hem işçiler için avantajlı.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Das neue Gesetz ist ______ für Arbeitgeber ______ für Arbeitnehmer von großem Vorteil."
     },
     {
       "id": "a2_10_q008",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Er ist sehr intelligent, ______ er lernt sehr wenig.",
       "options": [
-        "aber",
-        "und",
-        "sondern",
-        "oder"
+        "deshalb",
+        "weil",
+        "obwohl",
+        "dennoch"
       ],
-      "correctAnswer": "aber",
-      "explanation": "aber = ama, fakat. Zeki ama az çalışıyor. Karşıtlık.",
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb = bu yüzden (fiil hemen arkasından). Tıkanıklıktı, bu yüzden 2 saat geç kaldık.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Der Stau war extrem lang, ______ kamen wir erst mit zwei Stunden Verspätung an."
     },
     {
       "id": "a2_10_q009",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Sie wartete, ______ er endlich ankam.",
       "options": [
-        "bis",
-        "wenn",
-        "als",
-        "damit"
+        "nicht nur / sondern auch",
+        "weder / noch",
+        "entweder / oder",
+        "zwar / aber"
       ],
-      "correctAnswer": "bis",
-      "explanation": "bis = kadar, ta ki. Sonunda gelene kadar bekledi.",
+      "correctAnswer": "nicht nur / sondern auch",
+      "explanation": "nicht nur...sondern auch = sadece değil, aynı zamanda. Hem otel hem uçağ rezerve ettik.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Wir haben ______ das Hotel gebucht ______ die Flüge reserviert; wir sind also startklar."
     },
     {
       "id": "a2_10_q010",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Er ist älter, ______ er aussieht.",
       "options": [
-        "als",
-        "wie",
-        "ob",
-        "und"
+        "Obwohl",
+        "Trotzdem",
+        "Weil",
+        "Damit"
       ],
-      "correctAnswer": "wie",
-      "explanation": "wie = gibi, çok daha. O göründüğünden daha yaşlı. Karşılaştırma için wie kullanılır.",
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl = rağmen (cümle başında). Koş-tu ama yetişemedim. Fiil son cümlede olmalı.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "______ ich mich beeilt habe, habe ich den Zug knapp verpasst."
     },
     {
       "id": "a2_10_q011",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Ich werde dich begleiten, ______ du es willst oder nicht.",
       "options": [
-        "ob",
-        "obwohl",
-        "und",
-        "denn"
+        "sowohl / als auch",
+        "weder / noch",
+        "nicht nur / sondern auch",
+        "zwar / aber"
       ],
-      "correctAnswer": "ob",
-      "explanation": "ob...oder not = ister...ister not, olsun olmasın. Sen istesen de istemesen de.",
+      "correctAnswer": "weder / noch",
+      "explanation": "weder...noch = ne...ne de (olumsuz, her ikisini de reddetme). Ne Almanca ne İngilizce konuşuyor.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Er spricht ______ Deutsch ______ Englisch, was seine Jobsuche im Ausland erschwert."
     },
     {
       "id": "a2_10_q012",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Sie hat mir geholfen, ______ ich ihr dankbar bin.",
       "options": [
-        "deshalb",
-        "denn",
+        "obwohl",
         "weil",
-        "ob"
+        "folglich",
+        "dennoch"
       ],
-      "correctAnswer": "denn",
-      "explanation": "denn = çünkü (kısa sebep). Ama yüklem sondan once gelmez! Denn ciddi bir bağlaç değil.",
+      "correctAnswer": "folglich",
+      "explanation": "folglich = sonuç olarak, bu nedenle. Kazanmak istediği için her gün çok saat antrenman yaptı.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Er wollte unbedingt gewinnen, ______ trainierte er jeden Tag mehrere Stunden."
     },
     {
       "id": "a2_10_q013",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Er kam nach Hause, ______ er müede war.",
       "options": [
-        "als",
-        "wenn",
+        "trotzdem",
+        "obwohl",
         "weil",
-        "ob"
+        "deswegen"
       ],
-      "correctAnswer": "als",
-      "explanation": "als = when (geçmiş tekil an). Eve geldiğinde yorgundu.",
+      "correctAnswer": "trotzdem",
+      "explanation": "trotzdem = buna rağmen. Kötü hava olmasına rağmen yine de yürüyüşe çıktık.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Das Wetter war schlecht, ______ haben wir uns für einen Spaziergang entschieden."
     },
     {
       "id": "a2_10_q014",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Das ist alles, ______ ich dir erzählen wollte.",
       "options": [
-        "was",
-        "dass",
-        "als",
-        "und"
+        "dass / um",
+        "damit / um",
+        "dass / damit",
+        "wenn / um"
       ],
-      "correctAnswer": "was",
-      "explanation": "was = allah (belgisiz). Anlatmak istediğim her şey bu.",
+      "correctAnswer": "dass / um",
+      "explanation": "dass (nesne cümlesi) + um...zu (amaç cümlesi). Düzensiz hareket etmek önemli, sağlıklı kalmak için.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Es ist wichtig, ______ man sich regelmäßig bewegt, ______ gesund zu bleiben."
     },
     {
       "id": "a2_10_q015",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Sie ging früh ins Bett, ______ sie krank war.",
       "options": [
-        "denn",
-        "und",
-        "oder",
-        "sondern"
+        "Umso / desto",
+        "Je / desto",
+        "Je / umso",
+        "A ve C doğru"
       ],
-      "correctAnswer": "denn",
-      "explanation": "denn = çünkü (sebep). Erken yattı çünkü hastaydı.",
+      "correctAnswer": "A ve C doğru",
+      "explanation": "JE...DESTO ve JE...UMSO her ikisi de doğru. Ne kadar çok spor yaparsan, o kadar fit olursun.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "______ man mehr Sport treibt, ______ fitter wird man."
     },
     {
       "id": "a2_10_q016",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Er tat so, ______ er alles wüsste.",
       "options": [
-        "als",
-        "ob",
-        "wie",
-        "dass"
+        "nicht nur / sondern auch",
+        "zwar / aber",
+        "weder / noch",
+        "entweder / oder"
       ],
-      "correctAnswer": "als",
-      "explanation": "so tun als ob = çalışmak. Sanki her şeyi biliyormuş gibi davranıyordu.",
+      "correctAnswer": "nicht nur / sondern auch",
+      "explanation": "nicht nur...sondern auch = sadece değil, aynı zamanda. Teşekkür etmekle kalmadı, hemen de karşılık verdi.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Er hat sich ______ für die Hilfe bedankt, ______ er hat sich sofort revanchiert."
     },
     {
       "id": "a2_10_q017",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Ich muss lernen, ______ die Prüfung nicht zu schwer wird.",
       "options": [
+        "damit",
+        "um",
         "dass",
-        "weil",
-        "obwohl",
-        "und"
+        "weil"
       ],
-      "correctAnswer": "dass",
-      "explanation": "dass = ki (olumsuz sonuç). Sınav çok zor olmasın diye çalışmam gerekiyor.",
+      "correctAnswer": "damit",
+      "explanation": "damit = bunun için, amacıyla. Özne her iki cümlede de aynı olduğundan UM...ZU de denebilirdi ama DAMIT daha resmi.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Wir müssen die Umwelt schützen, ______ die kommenden Generationen eine Zukunft haben."
     },
     {
       "id": "a2_10_q018",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Du kannst kommen, ______ du willst.",
       "options": [
-        "wenn",
-        "als",
-        "damit",
-        "denn"
+        "obwohl",
+        "trotzdem",
+        "dennoch",
+        "weil"
       ],
-      "correctAnswer": "wenn",
-      "explanation": "wenn = eğer / olsun olmasın. Gelmek istiyosan gelebilirsin. Koşul anlamında.",
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl = rağmen. Nitelikleri tam karşılamamasına rağmen işi aldı.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Er hat den Job bekommen, ______ er die nötigen Qualifikationen nicht ganz erfüllte."
     },
     {
       "id": "a2_10_q019",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Er ist nicht nur clever, ______ auch sehr fleissig.",
       "options": [
-        "und",
-        "aber",
-        "sondern",
-        "oder"
+        "sowohl / als auch",
+        "weder / noch",
+        "entweder / oder",
+        "nicht nur / sondern auch"
       ],
-      "correctAnswer": "sondern",
-      "explanation": "nicht nur...sondern auch = sadece değil...aynı zamanda. Clever değil sadece, aynı zamanda çalışkan.",
+      "correctAnswer": "weder / noch",
+      "explanation": "weder...noch = ne...ne de (ikisini de reddetme). Ne pizza ne makarna istiyorum.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Ich habe ______ Lust auf Pizza ______ auf Pasta; lass uns lieber etwas anderes essen."
     },
     {
       "id": "a2_10_q020",
       "subjectId": "a2_10",
       "type": "multiple_choice",
-      "text": "Ich bin sicher, ______ er morgen kommt.",
       "options": [
-        "dass",
-        "ob",
-        "als",
-        "weil"
+        "trotzdem",
+        "obwohl",
+        "dennoch",
+        "A ve C doğru"
       ],
-      "correctAnswer": "dass",
-      "explanation": "dass = ki. Eminim ki yarın gelecek. Görüş bildiren cümle.",
+      "correctAnswer": "A ve C doğru",
+      "explanation": "trotzdem ve dennoch her ikisi de \"yine de / buna rağmen\" anlamında kullanılabilir. Mükemmel zengin ama yine de küçük bir dairede yaşıyor.",
       "difficulty": "medium",
-      "topicName": "Konjunktionen"
+      "topicName": "Konjunktionen",
+      "questionText": "Er ist sehr reich, ______ lebt er in einer sehr kleinen, bescheidenen Wohnung."
     }
   ]
 }
