@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "subjectId": "a2_08",
+  "topicName": "Plusquamperfekt",
+  "totalQuestions": 20,
+  "description": "Plusquamperfekt — Önceki Geçmiş Zaman (Past Perfect)\n\nPlusquamperfekt, geçmişte bir olaydan DAHA ÖNCE gerçekleşen olayları ifade eder. İngilizce'deki Past Perfect (\"had done\") ile benzerdir.\n\nYAPİ:\nsein fiiliyle: war/warst/waren/waret + Partizip II\nhaben fiiliyle: hatte/hattest/hatten/hattt + Partizip II\n\nKULLANIM:\n1. NACHDEM cümlesinde (past perfect after past):\nNachdem er gegangen war, begann die Besprechung.\n(Gitti, sonra toplantı başladı)\n\n2. ALREADY (artık):\nDer Zug war bereits abgefahren. (henüz ayrılmıştı)\n\n3. GEWUSST/BEKANNT (bilinen geçmiş):\nIch wusste, dass er es schon getanot hatte.\n\nsein veya haben?\n- sein: hareket/durum değişikliği (gehen, kommen, fahren, sterben, bleiben, werden, passieren)\n- haben: diğer tüm durumlar\n- Istisnalar: bleiben → war geblieben, werden → war geworden",
+  "tips": [
+    {
+      "title": "Kural: Nachdem → Plusquamperfekt + Präteritum",
+      "content": "NACHDEM yapısında şöyle bir zaman uyumu vardır:\nNACHDEM cümlesi → Plusquamperfekt (daha önce bitmiş)\nHauptatz (ANA cümle) → Präteritum (sonra olan)\n\n- Nachdem er angekommen WAR, rief er an. (varmıştı, sonra aradı)\n- Nachdem sie gelernt HATTE, legte sie sich hin. (çalışmıştı, sonra yattı)\n\nİngilizce: \"After he had arrived, he called.\"",
+      "icon": "nachdem"
+    },
+    {
+      "title": "war oder hatte? — Sein/Have Ayımı",
+      "content": "SEİN ile (hareket/durum değişikliği):\n- gehen, kommen, fahren, laufen, reisen\n- bleiben, werden, passieren, sterben\n- aufstehen, einschlafen, fliehen, ankommen\n\nHABEN ile (diğerleri):\n- machen, sagen, sehen, hören\n- lernen, arbeiten, studieren\n- alle dönüşlü fiiller (immer haben!)\n\nÖrnek: Er war gegangen. Sie hatte gelernt.",
+      "icon": "sein_haben"
+    },
+    {
+      "title": "Bekannte Yapılar — already, before, just",
+      "content": "Plusquamperfekt'in üçtemel gösterge işareti:\n- ALREADY: Der Zug war bereits abgefahren.\n- BEFORE: Sie fragte, ob er es schon gemacht hatte.\n- JUST (gerade): Er hatte es kaum gesagt, da...\n\nBunlar genellikle Nachdem veya als ile kullanılır.",
+      "icon": "already"
+    },
+    {
+      "title": "Zamir Zamir Örtuşmesi — hatte/hattest/hatten",
+      "content": "hatte — ich/er/sie/man\nhattest — du\nhatten — wir/Sie/sie (wir/Sie/sie)\n\nwar — ich/er/sie/man\nwarst — du\nwaren — wir/Sie/sie\nwart — ihr",
+      "icon": "conjugation"
+    },
+    {
+      "title": "Dönüşlü Fiiller — Hep haben",
+      "content": "Dönüşlü fiiller DAIMA haben ile çekilir:\n- sich treffen → hatte sich getroffen\n- sich trennen → hatten sich getrennt\n- sich erinnern → hatte sich erinnert\n- sich beschweren → hatte sich beschwert\n\nAma dikkat! \"sich legen\" → hatte sich gelegt (haben!)\nGeçişli \"sich legen\" istisnası var, ama genel kural haben.",
+      "icon": "reflex"
+    },
+    {
+      "title": "Passiv Plusquamperfekt — war + worden",
+      "content": "Passiv Plusquamperfekt:\nwar + Partizip II + worden\n\n- Das Projekt war abgeschlossen worden.\n- Die Arbeit war erledigt worden.\n- Er wurde gefragt worden sein. (Präteritum + worden)\n\nB2'de sık karşılaşılan bir yapıdır.",
+      "icon": "passive"
+    },
+    {
+      "title": "Als, Nachdem, Bevor — Zaman Bağlaçları",
+      "content": "ALS: önceki tekil geçmiş an:\n- Als er kam, war sie schon gegangen.\n\nNACHDEM: bir olay diğerinden önce:\n- Nachdem er gegessen hatte, rauchte er.\n\nBEVOR: -önce:\n- Bevor er kam, hatte ich alles vorbereitet.\n\nBEVOR'da Hauptatz genellikle Präteritum olur.",
+      "icon": "connectors"
+    },
+    {
+      "title": "Plusquamperfekt vs Präteritum — Fark",
+      "content": "Präteritum: geçmişte genel anlatım\n- Gestern las ich ein Buch. (düz anlatım)\n\nPlusquamperfekt: geçmişte önceki olay\n- Nachdem ich das Buch gelesen hatte, legte ich mich hin.\n\nKısacası: Präteritum = geçmiş, Plusquamperfekt = \"geçmişin de geçmişi\"",
+      "icon": "diff"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a2_08_q001",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Nachdem er die schwierige Prüfung ______, fühlte er sich endlich erleichtert.",
+      "options": [
+        "hat bestanden",
+        "bestanden hatte",
+        "bestand",
+        "bestanden hätte"
+      ],
+      "correctAnswer": "bestanden hatte",
+      "explanation": "Nachdem + Plusquamperfekt → Hauptatz Präteritum. Er hatte bestanden, dann fühlte er sich erleichtert.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q002",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Wir kamen zu spät zum Bahnhof; der Zug ______ bereits fünf Minuten vorher ______.",
+      "options": [
+        "ist / abgefahren",
+        "war / abgefahren",
+        "hatte / abgefahren",
+        "war / abfahren"
+      ],
+      "correctAnswer": "war / abgefahren",
+      "explanation": "abfahren (hareket, yer değiştirme) → sein → war abgefahren. Tren var, biz geç kaldık.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q003",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Bevor sie nach Deutschland auswanderte, ______ sie jahrelang intensiv Deutsch ______.",
+      "options": [
+        "hat / gelernt",
+        "hatte / gelernt",
+        "war / gelernt",
+        "hätte / gelernt"
+      ],
+      "correctAnswer": "hatte / gelernt",
+      "explanation": "lernen → haben → hatte gelernt. Gitmeden önce uzun yıllar çalışmıştı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q004",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Als die Polizei eintraf, ______ die Einbrecher bereits über alle Berge ______.",
+      "options": [
+        "waren / geflohen",
+        "sind / geflohen",
+        "hatten / geflohen",
+        "waren / entflocht"
+      ],
+      "correctAnswer": "waren / geflohen",
+      "explanation": "fliehen (kaçmak) → sein → waren geflohen. Polis geldiğinde çürükler kaçmıştı bile.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q005",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Er erkannte den Fehler erst, nachdem er das Dokument schon ______ ______.",
+      "options": [
+        "hat / abgeschickt",
+        "hatte / abgeschickt",
+        "war / abgeschickt",
+        "hatte / abschicken"
+      ],
+      "correctAnswer": "hatte / abgeschickt",
+      "explanation": "abschicken → haben → hatte abgeschickt. Hata anlaşıldığında belge çoktan gönderilmişti.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q006",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Das Unternehmen musste Insolvenz anmelden, weil die Umsätze jahrelang ______ ______.",
+      "options": [
+        "waren / gesunken",
+        "sind / gesunken",
+        "hatten / gesunken",
+        "waren / gesenkt"
+      ],
+      "correctAnswer": "waren / gesunken",
+      "explanation": "sinken (düşmek, azalmak) → sein → waren gesunken. Şirket iflas etti çünkü üretimler uzun süre düşmüştü.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q007",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Ich wusste sofort, dass ich diesen Mann schon einmal irgendwo ______ ______.",
+      "options": [
+        "habe / gesehen",
+        "war / gesehen",
+        "hatte / gesehen",
+        "hätte / gesehen"
+      ],
+      "correctAnswer": "hatte / gesehen",
+      "explanation": "sehen → haben → hatte gesehen. Daha önce görmüştüm ama hatırlayamadım.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q008",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Nachdem die Delegation in Berlin ______, begann sofort die Konferenz.",
+      "options": [
+        "angekommen war",
+        "angekommen ist",
+        "ankam",
+        "ankommt"
+      ],
+      "correctAnswer": "angekommen war",
+      "explanation": "Nachdem + Plusquamperfekt. ankommen → sein → war angekommen. Varıştıktan sonra konferans başladı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q009",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Sie war sehr müde, denn sie ______ in der Nacht zuvor kaum ______.",
+      "options": [
+        "hat / geschlafen",
+        "war / geschlafen",
+        "hatte / geschlafen",
+        "hätte / geschlafen"
+      ],
+      "correctAnswer": "hatte / geschlafen",
+      "explanation": "schlafen → haben → hatte geschlafen. Uyku uyuyamamıştı, bu yüzden yorgun.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q010",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "______ du den Bericht bereits ______ ______, bevor der Chef danach fragte?",
+      "options": [
+        "Hast / beendet",
+        "Hattest / beendet",
+        "Warst / beendet",
+        "Hättest / beendet"
+      ],
+      "correctAnswer": "Hattest / beendet",
+      "explanation": "beenden → haben → hattest beendet. Şef sormadan önce bitirmiş miydin?",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q011",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Das Haus stand leer, da die Besitzer bereits im Vorjahr ______ ______.",
+      "options": [
+        "sind / ausgezogen",
+        "waren / ausgezogen",
+        "hatten / ausgezogen",
+        "waren / ausziehen"
+      ],
+      "correctAnswer": "waren / ausgezogen",
+      "explanation": "ausziehen (taşınmak) → sein → waren ausgezogen. Ev boştu çünkü sahipler yıl içinde taşınmıştı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q012",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Er bedauerte es sehr, dass er die Einladung ______ ______.",
+      "options": [
+        "hat / abgelehnt",
+        "hatte / abgelehnt",
+        "war / abgelehnt",
+        "hätte / abgelehnt"
+      ],
+      "correctAnswer": "hatte / abgelehnt",
+      "explanation": "ablehnen → haben → hatte abgelehnt. Pişman olmadan önce daveti reddetmişti.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q013",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Nachdem der Sturm sich ______, begannen die Aufräumarbeiten.",
+      "options": [
+        "gelegt hatte",
+        "gelegt hat",
+        "legte",
+        "gelegt hätte"
+      ],
+      "correctAnswer": "gelegt hatte",
+      "explanation": "sich legen (dinmek, sakinleşmek) → haben → hatte sich gelegt. Fırtına dinekten sonra temizlik başladı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q014",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Wir wussten nicht, dass sie sich schon vor Monaten ______ ______.",
+      "options": [
+        "haben / getrennt",
+        "hatten / getrennt",
+        "waren / getrennt",
+        "sind / getrennt"
+      ],
+      "correctAnswer": "hatten / getrennt",
+      "explanation": "sich trennen → dönüşlü → daima haben → hatten sich getrennt. Aylar önce ayrılmışlardı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q015",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Bevor der neue CEO kam, ______ die Firma eine völlig andere Strategie ______.",
+      "options": [
+        "hat / verfolgt",
+        "hatte / verfolgt",
+        "war / verfolgt",
+        "hätte / verfolgt"
+      ],
+      "correctAnswer": "hatte / verfolgt",
+      "explanation": "verfolgen (izlemek, takip etmek) → haben → hatte verfolgt. Yeni CEO gelmeden önce tamamen farklı bir strateji izliyorlardı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q016",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Sobald er die Nachricht ______ ______, rief er sofort seine Anwältin an.",
+      "options": [
+        "hat / erhalten",
+        "hatte / erhalten",
+        "war / erhalten",
+        "erhielt"
+      ],
+      "correctAnswer": "hatte / erhalten",
+      "explanation": "erhalten (almak) → haben → hatte erhalten. Haberi alır almaz avukatını aradı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q017",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Die Straße war glatt, weil es in der Nacht zuvor gefroren ______.",
+      "options": [
+        "hat",
+        "war",
+        "hatte",
+        "ist"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "frieren (donmak) → doğa olayları için haben tercih edilir → hatte gefroren. Gece donmuştu, yol kaygandı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q018",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Er konnte die Frage nicht beantworten, da er den Text nicht aufmerksam ______ ______.",
+      "options": [
+        "hat / gelesen",
+        "hatte / gelesen",
+        "war / gelesen",
+        "hätte / gelesen"
+      ],
+      "correctAnswer": "hatte / gelesen",
+      "explanation": "lesen → haben → hatte gelesen. Metni dikkatli okumadığı için soruyu cevaplayamadı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q019",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Nachdem das Projekt erfolgreich ______ ______, feierte das gesamte Team.",
+      "options": [
+        "abgeschlossen war",
+        "abgeschlossen wurde",
+        "abgeschlossen worden war",
+        "abgeschlossen worden ist"
+      ],
+      "correctAnswer": "abgeschlossen worden war",
+      "explanation": "Passiv Plusquamperfekt: war + worden + Partizip II. Projekt başarıyla tamamlanmıştı, sonra takım kutladı.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "a2_08_q020",
+      "subjectId": "a2_08",
+      "type": "multiple_choice",
+      "text": "Er war schockiert, weil jemand sein Auto ______ ______.",
+      "options": [
+        "hat / gestohlen",
+        "war / gestohlen",
+        "hatte / gestohlen",
+        "hätte / gestohlen"
+      ],
+      "correctAnswer": "hatte / gestohlen",
+      "explanation": "stehlen (çalmak) → haben → hatte gestohlen. Şoş olduğu için biri onu çalmıştı. Şoğtan sonra şok.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    }
+  ]
+}
