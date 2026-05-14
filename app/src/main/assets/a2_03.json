@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "subjectId": "a2_03",
+  "topicName": "Verben mit Präpositionen (AC)",
+  "totalQuestions": 20,
+  "description": "Verben mit Präpositionen — Fiiller ve Prepozisyonlar\n\nAlmanca'da birçok fiil belirli bir prepozisyon gerektirir. Fiil + prepozisyon kombinasyonu her zaman belirli bir durum (Kasus) gerektirir: Dativ veya Akkusativ.\n\n1. DATIV gerektiren prepozisyonlu fiiller:\n- leiden unter (Dativ) — muzdarip olmak\n- beruhen auf (Dativ) — dayanmak, temellenmek\n- abhängen von (Dativ) — bağlı olmak\n- sich sehnen nach (Dativ) — özlemek, hasret kalmak\n- mangeln an (Dativ) — eksikliği olmak\n- zweifeln an (Dativ) — şüphe etmek\n- auffordern zu (Dativ) — davet etmek, teştvik etmek\n\n2. AKKUSATIV gerektiren prepozisyonlu fiiller:\n- sich anpassen an (Akkusativ) — ayak uydurmak\n- einwilligen in (Akkusativ) — razı olmak\n- protestieren gegen (Akkusativ) — karşı протест etmek\n- sich vorbereiten auf (Akkusativ) — hazırlanmak\n- sich entscheiden für (Akkusativ) — karar vermek\n- sich erinnern an (Akkusativ) — hatırlamak\n- sich verlassen auf (Akkusativ) — güvenmek\n- sich einsetzen für (Akkusativ) — savunmak",
+  "tips": [
+    {
+      "title": "Dativ Fiilleri — leiden unter, mangeln an",
+      "content": "leiden unter + Dativ: Sie leidet unter dem Stress.\nmangeln an + Dativ: Es mangelt an Zeit.\nzweifeln an + Dativ: Er zweifelt an der Lösung.\nabhängen von + Dativ: Der Erfolg hängt von dir ab.\nsich sehnen nach + Dativ: Ich sehne mich nach Ruhe.",
+      "icon": "dativ"
+    },
+    {
+      "title": "Akkusativ Fiilleri — sich erinnern, sich entscheiden",
+      "content": "sich erinnern an + Akkusativ: Ich erinnere mich an den Tag.\nsich entscheiden für + Akkusativ: Wir entscheiden uns für das Angebot.\nsich beklagen über + Akkusativ: Er beklagt sich über den Lärm.\nprotestieren gegen + Akkusativ: Die Bürger protestieren gegen die Entscheidung.",
+      "icon": "akkusativ"
+    },
+    {
+      "title": "sich anpassen an + Akkusativ",
+      "content": "sich anpassen = ayak uydurmak, uyum sağlamak → her zaman Akkusativ:\n- Wir müssen uns an die neuen Bedingungen anpassen.\n- Die Firma passt sich dem Markt an.\nDikkat: 'anpassen an' derken Akkusativ kullanılır.",
+      "icon": "anpassen"
+    },
+    {
+      "title": "sich vorbereiten auf + Akkusativ",
+      "content": "sich vorbereiten auf = hazırlanmak → her zaman Akkusativ:\n- Das Team bereitet sich auf die Prüfung vor.\nYanlış: sich vorbereiten für (yanlış!) → doğru: sich vorbereiten auf",
+      "icon": "vorbereiten"
+    },
+    {
+      "title": "sich erinnern an + Akkusativ",
+      "content": "sich erinnern an = hatırlamak → her zaman Akkusativ:\n- Ich erinnere mich an unser erstes Treffen.\n- Er konnte sich nicht an den Namen erinnern.\nYanlış: sich erinnern auf (yanlış!)",
+      "icon": "erinnern"
+    },
+    {
+      "title": "sich verlassen auf + Akkusativ",
+      "content": "sich verlassen auf = güvenmek → her zaman Akkusativ:\n- Ich verlasse mich voll auf deine Hilfe.\n- Du kannst dich auf mich verlassen.",
+      "icon": "verlassen"
+    },
+    {
+      "title": "auffordern zu + Dativ",
+      "content": "auffordern zu = davet etmek, teştvik etmek → Dativ:\n- Der Professor fordert die Studenten zum kritischen Denken auf.\n- Sie fordert ihn zur Rede auf.",
+      "icon": "auffordern"
+    },
+    {
+      "title": "sich einsetzen für + Akkusativ",
+      "content": "sich einsetzen für = savunmak, çaba göstermek → Akkusativ:\n- Die Ministerin setzt sich für die Umwelt ein.\n- Wir setzen uns für Frieden ein.\nYanlış: sich einsetzen an (yanlış!)",
+      "icon": "einsetzen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a2_03_q001",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Viele Menschen leiden heutzutage ______ großem Zeitdruck am Arbeitsplatz.",
+      "options": [
+        "an",
+        "unter",
+        "über",
+        "vor"
+      ],
+      "correctAnswer": "unter",
+      "explanation": "leiden unter + Dativ (dış bir etkenden muzdarip olmak). Unter großem Zeitdruck = büyük zaman baskısından muzdarip.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q002",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Der Erfolg des Projekts beruht ______ einer engen Zusammenarbeit aller Abteilungen.",
+      "options": [
+        "auf",
+        "in",
+        "aus",
+        "über"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "beruhen auf + Dativ (bir şeye dayanmak, temellenmek). Projenin başarısı tüm departmanların yakın işbirliğine dayanıyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q003",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Wir müssen uns ______ die neuen Gegebenheiten am Markt anpassen.",
+      "options": [
+        "zu",
+        "an",
+        "auf",
+        "mit"
+      ],
+      "correctAnswer": "an",
+      "explanation": "sich anpassen an + Akkusativ (ayakkab uydurmak). Piyasadaki yeni koşullara ayak uydurmamız gerekiyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q004",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Er zögerte lange, bevor er ______ die riskante Investition einwilligte.",
+      "options": [
+        "in",
+        "für",
+        "zu",
+        "mit"
+      ],
+      "correctAnswer": "in",
+      "explanation": "einwilligen in + Akkusativ (razı olmak). Riskli yatırıma razı olmadan önce uzun süre tereddüt etti.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q005",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Die Bürger protestieren lautstark ______ die geplante Erhöhung der Parkgebühren.",
+      "options": [
+        "für",
+        "gegen",
+        "über",
+        "wegen"
+      ],
+      "correctAnswer": "gegen",
+      "explanation": "protestieren gegen + Akkusativ (karşı протест etmek). Vatandaşlar park üretlerinin artırılmasına karşı протест ediyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q006",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Ich möchte dich ______ die Gefahren aufmerksam machen, die diese Reise birgt.",
+      "options": [
+        "auf",
+        "über",
+        "an",
+        "für"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "aufmerksam machen auf + Akkusativ (dikkatini çekmek). Bu yolculuğun tehlikelerine dikkatini çekmek istiyorum.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q007",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Der Redner beschränkte sich ______ die wichtigsten Punkte der Reform.",
+      "options": [
+        "an",
+        "auf",
+        "zu",
+        "in"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "sich beschränken auf + Akkusativ (sınırlı kalmak). Konuşmacı kendini reformun en önemli noktalarıyla sınırladı.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q008",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Die Ergebnisse der Studie weichen deutlich ______ den Erwartungen ab.",
+      "options": [
+        "von",
+        "aus",
+        "mit",
+        "zu"
+      ],
+      "correctAnswer": "von",
+      "explanation": "abweichen von + Dativ (sapmak, farklılık göstermek). Çalışmanın sonuçları beklentilerden belirgin şekilde sapıyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q009",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Wir sehnen uns alle ______ einem erholsamen Urlaub am Meer.",
+      "options": [
+        "an",
+        "nach",
+        "auf",
+        "für"
+      ],
+      "correctAnswer": "nach",
+      "explanation": "sich sehnen nach + Dativ (özlemek, hasret kalmak). Hepimiz denizde dinlendirici bir tatil özlüyoruz.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q010",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Der Professor fordert die Studenten ______ kritischem Denken auf.",
+      "options": [
+        "nach",
+        "zu",
+        "von",
+        "an"
+      ],
+      "correctAnswer": "zu",
+      "explanation": "auffordern zu + Dativ (davet etmek, teştvik etmek). Profesör öğrencileri eleştirel düşünmeye teştvik ediyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q011",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Bitte halten Sie sich ______ die geltenden Sicherheitsvorschriften.",
+      "options": [
+        "auf",
+        "an",
+        "zu",
+        "mit"
+      ],
+      "correctAnswer": "an",
+      "explanation": "sich halten an + Akkusativ (kurala uymak). Lütfen geçerli güvenlik düzelemelerine uyun.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q012",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Der Erfolg hängt im Wesentlichen ______ deiner Motivation ab.",
+      "options": [
+        "von",
+        "an",
+        "auf",
+        "mit"
+      ],
+      "correctAnswer": "von",
+      "explanation": "abhängen von + Dativ (bağlı olmak). Başarı esasen senin motivasyonuna bağlı.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q013",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Er beklagt sich ständig ______ seinen anstrengenden Chef.",
+      "options": [
+        "über",
+        "von",
+        "an",
+        "wegen"
+      ],
+      "correctAnswer": "über",
+      "explanation": "sich beklagen über + Akkusativ (şikayet etmek). O sürekli yorucu şefi hakkında şikayet ediyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q014",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Das Team bereitet sich intensiv ______ die kommende Europameisterschaft vor.",
+      "options": [
+        "für",
+        "auf",
+        "zu",
+        "an"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "sich vorbereiten auf + Akkusativ (hazırlanmak). Takım yoğun şekilde yaklaşan Avrupa Şampiyonası'na hazırlanıyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q015",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Es mangelt dem Projekt leider ______ finanziellen Mitteln.",
+      "options": [
+        "an",
+        "von",
+        "aus",
+        "in"
+      ],
+      "correctAnswer": "an",
+      "explanation": "mangeln an + Dativ (eksikliği olmak). Maalesef projede finansal kaynak eksikliği var.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q016",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Wir haben uns ______ die Reise nach Japan entschieden.",
+      "options": [
+        "für",
+        "zu",
+        "auf",
+        "über"
+      ],
+      "correctAnswer": "für",
+      "explanation": "sich entscheiden für + Akkusativ (karar vermek). Japonya'ya seyahat konusunda karar verdik.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q017",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Der Zeuge konnte sich kaum ______ das Gesicht des Täters erinnern.",
+      "options": [
+        "an",
+        "auf",
+        "über",
+        "in"
+      ],
+      "correctAnswer": "an",
+      "explanation": "sich erinnern an + Akkusativ (hatırlamak). Tanık, failin yüzünü neredeyse hatırlayamıyordu.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q018",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Ich verlasse mich voll und ganz ______ deine Zusage.",
+      "options": [
+        "an",
+        "auf",
+        "zu",
+        "in"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "sich verlassen auf + Akkusativ (güvenmek). Senin sözüne tamamen güveniyorum.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q019",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Die Ministerin setzt sich ______ eine stärkere Förderung der erneuerbaren Energien ein.",
+      "options": [
+        "für",
+        "zu",
+        "gegen",
+        "auf"
+      ],
+      "correctAnswer": "für",
+      "explanation": "sich einsetzen für + Akkusativ (savunmak, çaba göstermek). Bakan, yenilenebilir enerjilerin daha güçlü desteklenmesi için çaba gösteriyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    },
+    {
+      "id": "a2_03_q020",
+      "subjectId": "a2_03",
+      "type": "multiple_choice",
+      "text": "Er zweifelt oft ______ der Richtigkeit seiner eigenen Entscheidungen.",
+      "options": [
+        "an",
+        "über",
+        "in",
+        "von"
+      ],
+      "correctAnswer": "an",
+      "explanation": "zweifeln an + Dativ (şüphe etmek). O sıklıkla kendi kararlarının doğruluğundan şüphe ediyor.",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (AC)"
+    }
+  ]
+}
