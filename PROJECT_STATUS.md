@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-13 19:28 UTC
+**Last Updated:** 2026-05-14 06:50 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -26,15 +26,15 @@
 | 12 | b2_12 | Konjunktiv II mit Modalverben | 120 | 12 | ✅ Complete |
 | 13 | b2_13 | Pronomen: einander | 100 | 10 | ✅ Complete |
 | 14 | b2_14 | Weiterführende Nebensätze | 100 | 10 | ✅ Complete |
-| 15 | b2_15 | Präpositionen mit Genitiv | 100 | 10 | ⚠️ Placeholder |
-| 16 | b2_16 | je und desto/umso + Komparativ | 100 | 10 | ⚠️ Placeholder |
-| 17 | b2_17 | Nomen-Verb-Verbindungen | 100 | 10 | ⚠️ Placeholder |
-| 18 | b2_18 | Folgen ausdrücken | 100 | 10 | ⚠️ Placeholder |
-| 19 | b2_19 | Ausdrücke mit Präpositionen | 100 | 10 | ⚠️ Placeholder |
-| 20 | b2_20 | Irreale Konditionalsätze | 100 | 10 | ⚠️ Placeholder |
-| 21 | b2_21 | Relativsätze im Genitiv | 100 | 10 | ⚠️ Placeholder |
-| 22 | b2_22 | Konjunktiv I in der indirekten Rede | 100 | 10 | ⚠️ Placeholder |
-| 23 | b2_23 | Konjunktiv II in irrealen Vergleichssätzen | 100 | 10 | ⚠️ Placeholder |
+| 15 | b2_15 | Präpositionen mit Genitiv | 100 | 10 | ✅ Complete |
+| 16 | b2_16 | je und desto/umso + Komparativ | 100 | 10 | ✅ Complete |
+| 17 | b2_17 | Nomen-Verb-Verbindungen | 100 | 10 | ✅ Complete |
+| 18 | b2_18 | Folgen ausdrücken | 100 | 10 | ✅ Complete |
+| 19 | b2_19 | Ausdrücke mit Präpositionen | 100 | 10 | ✅ Complete |
+| 20 | b2_20 | Irreale Konditionalsätze | 100 | 10 | ✅ Complete |
+| 21 | b2_21 | Relativsätze im Genitiv | 100 | 10 | ✅ Complete |
+| 22 | b2_22 | Konjunktiv I in der indirekten Rede | 100 | 10 | ✅ Complete |
+| 23 | b2_23 | Konjunktiv II in irrealen Vergleichssätzen | 100 | 10 | ✅ Complete |
 
 ---
 
@@ -304,21 +304,17 @@ node scripts/import_and_sync.js b2_08 b2_09 b2_10 b2_11 b2_12 b2_13
 ## 📋 REMAINING WORK
 
 ### Firestore Sync (Priority)
-- [ ] Sync all newly completed topics to Firestore (b2_08 through b2_14)
+- [ ] Sync all newly completed B2 topics to Firestore (b2_15 through b2_23 — all complete ✅)
+- [ ] Sync A1 topics to Firestore
 
-### Topics Needing Content (9 remaining)
-- b2_15 Präpositionen mit Genitiv — placeholder
-- b2_16 je und desto/umso + Komparativ — placeholder
-- b2_17 Nomen-Verb-Verbindungen — placeholder
-- b2_18 Folgen ausdrücken — placeholder
-- b2_19 Ausdrücke mit Präpositionen — placeholder
-- b2_20 Irreale Konditionalsätze — placeholder
-- b2_21 Relativsätze im Genitiv — placeholder
-- b2_22 Konjunktiv I in der indirekten Rede — placeholder
-- b2_23 Konjunktiv II in irrealen Vergleichssätzen — placeholder
+### Topics Needing Content (A2, B1, C1, C2)
+- A2: a2_02 through a2_10 — placeholders
+- B1: placeholders
+- C1: placeholders
+- C2: under construction
 
 ### Topic with Partial Content
-- b2_02 — 50 questions in questionBank but NO topic entry (wont show in app until topic entry added)
+- b2_02 — 50 questions in questionBank but NO topic entry (won't show in app until topic entry added)
 
 ---
 
