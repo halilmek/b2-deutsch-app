@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "subjectId": "a2_05",
+  "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+  "totalQuestions": 20,
+  "description": "Nebensätze — Yan Cümlecikler (Bağlaçlar)\n\nAlmanca'da yan cümlecikler özel bağlaçlarla başlayan alt cümlelerdir. Bunlar cümlenin anlamını genişletir ve farklı ilişkiler kurar.\n\n1. DASS — nesne cümleciği (bilgi ifadesi):\nIch finde, DASS er Recht hat. (Şart bildirmeden görüş bildirme)\nEs ist wichtig, DASS alle informiert werden.\n\n2. OB — belirsizlik cümleciği (soru kelimesi olmadan dolaylı soru):\nIch weiş nicht, OB er kommt. (Geliyor mu bilmiyorum)\nSie fragt sich, OB das stimmt.\n\n3. WENN — şart/time cümleciği:\nWENN es regnet, bleibe ich zu Hause. (şart)\nWENN ich Zeit habe, komme ich vorbei. (genel şart)\n\n4. ALS — tekil geçmiş olay (bir kez gerçekleşen):\nALS ich jung war, lebten wir in Berlin. (geçmiştek tekil an)\nALS ich nach Hause kam, kochte meine Mutter.\n\n5. WEIL/DA — sebep cümleciği:\nWEIL er krank war, konnte er nicht kommen.\nDA er müde war, ging er früh ins Bett.\n\nKısak özet:\n- DASS = görüş/bilgi, OB = belirsizlik/soru, WENN = şart/genel,\n- ALS = geçmiş tekil an, WEIL/DA = sebep",
+  "tips": [
+    {
+      "title": "DASS — Nesne Cümleciği",
+      "content": "DASS görüş ve bilgi bildirir:\n- Ich finde, DASS er Recht hat.\n- Es ist wichtig, DASS alle informiert werden.\n- Wir wurden informiert, DASS die Verhandlungen unterbrochen wurden.\n\nTürkçe: \"...duydum ki\", \"...biliyorum ki\", \"...görüşüm bu ki\"",
+      "icon": "dass"
+    },
+    {
+      "title": "OB — Dolaylı Soru (Evet/Hayır)",
+      "content": "OB soru kelimesi olmadan dolaylı soru sorar:\n- Ich bin mir nicht sicher, OB er kommt.\n- Sie bezweifeln, OB die Maßnahmen ausreichen.\n- Wir müssen prüfen, OB alle Voraussetzungen erfüllt sind.\n\nTürkçe: \"...mi diye\" soru kalıbı",
+      "icon": "ob"
+    },
+    {
+      "title": "WENN — Şart veya Genel Durum",
+      "content": "WENN hem şart hem de genel zaman için:\n- WENN man sich nicht bewirbt, hat man keine Chance. (genel şart)\n- WENN die Sonne untergeht, wird es kühler. (her zaman olan)\n- WENN es regnet, bleibe ich zu Hause. (şart)\n\nDikkat: WENN + Präsens = gelecek veya genel\nALS + Präteritum = geçmiş tekil",
+      "icon": "wenn"
+    },
+    {
+      "title": "ALS — Geçmiş Tekil An",
+      "content": "ALS geçmişte tek bir kez gerçekleşen olay:\n- ALS ich ein Kind war, lebten wir in den Bergen.\n- ALS ich suchte, stieß ich auf einen Brief.\n- ALS die Sonne unterging, wurde es kühler.\n\nKarşıtı: WENN geçmişte tekrarlanan veya gelecek şart için:\n- ALS ich in Berlin war, habe ich dich besucht. (tek an)\n- WENN ich Zeit hatte, kam ich vorbei. (tekrarlanan)",
+      "icon": "als"
+    },
+    {
+      "title": "WEIL/DA — Sebep",
+      "content": "WEIL ve DA (üst cümlece bağlı olmayan) sebep:\n- WEIL die Nachfrage steigt, investiert die Firma.\n- DA er krank war, konnte er nicht kommen.\n\nDA cümle başında daha yaygın ve daha resmi.\nTürkçe: \"çünkü\", \"zira\"",
+      "icon": "weil"
+    },
+    {
+      "title": "WANN / WENN Farkı",
+      "content": "WANN = ne zaman? (soru kelimesi)\nWENN = eğer / her zaman / olduğundan\n\n- WANN kommst du? (soru)\n- WENN du kommst, rufe mich an. (şart)\n- WENN es regnet, ist die Straße nass. (genel)\n- ALS ich kam, war er weg. (geçmiş tekil an)",
+      "icon": "wann"
+    },
+    {
+      "title": "Bağlaçlarda Sözcük Sırası",
+      "content": "Nebensatz'ta yüklem en sonda:\nHauptatz: Ich weiş nicht,\nNebensatz: ...ob er kommt.\n→ yüklem (kommt) en sonda!\n\n- Ich bin sicher, DASS er kommt. (kommt sonunda)\n- Ich frag mich, OB er kommt. (kommt sonunda)\n- ALS ich kam, war er weg. (war + war/en sonunda)",
+      "icon": "wortstellung"
+    },
+    {
+      "title": "warum? — Neden Sormacı",
+      "content": "warum (neden?) B2'de weil yerine:\n- Er konnte nicht erklären, WARUM er sich entschieden hat.\nwarum = why = neden?\nÇoğ zaman \"WEIL\" yerine kullanılır.\nTürkçe: \"Neden?\" sorusuna cevap",
+      "icon": "warum"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a2_05_q001",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Wir wurden darüber informiert, ______ die Verhandlungen aufgrund technischer Probleme unterbrochen werden mussten.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "dass = bilgi ifadesi. Bizim haberimiz oldu ki müzakereler kesintiye uğradi. Info vermek için dass kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q002",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Ich bin mir nicht ganz sicher, ______ der neue Zeitplan tatsächlich bis Ende des Monats realisierbar ist.",
+      "options": [
+        "dass",
+        "als",
+        "ob",
+        "weil"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "ob = belirsizlik. Emin değilim ki... (Gelebilir mi bilmiyorum). OB dolaylı soru için kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q003",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ ich gestern im Archiv nach den alten Unterlagen suchte, stieß ich auf einen interessanten Brief.",
+      "options": [
+        "wenn",
+        "als",
+        "weil",
+        "dass"
+      ],
+      "correctAnswer": "als",
+      "explanation": "als = geçmiş tekil an. Arşivde aradığımda bir mektup buldum. Geçmişte tek bir kez olan olay için als.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q004",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Es ist für das Unternehmen von großer Bedeutung, ______ alle Mitarbeiter über die Sicherheitsvorschriften aufgeklärt werden.",
+      "options": [
+        "ob",
+        "wenn",
+        "dass",
+        "als"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "dass = \"önemli olan budur ki...\" yapısı. Tüm çalışanların bilgilendirilmesi önemli.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q005",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ man die wirtschaftliche Lage betrachtet, scheint eine Zinserhöhung unumgänglich zu sein.",
+      "options": [
+        "wenn",
+        "als",
+        "ob",
+        "dass"
+      ],
+      "correctAnswer": "wenn",
+      "explanation": "wenn = genel durum tespiti. İktisadi durumu düşündüğümüzde... (her zaman geçerli bir gözlem).",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q006",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Der Chef fragte mich heute Morgen, ______ ich den Bericht bereits fertiggestellt hätte.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "ob = dolaylı soru (Evet/Hayır). Patron raporu bitirip bitirmediğimi sordu. ob ile soru cümlesi.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q007",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ die Nachfrage nach Elektroautos stetig steigt, investiert die Firma massiv in neue Batterietechnologien.",
+      "options": [
+        "als",
+        "ob",
+        "wenn",
+        "da"
+      ],
+      "correctAnswer": "da",
+      "explanation": "da/weil = sebep. Elektrikli araba talebi arttığı için firma yatırım yapıyor. Da cümle başında daha yaygın.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q008",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Erinnerst du dich noch daran, ______ wir uns zum ersten Mal in Berlin getroffen haben?",
+      "options": [
+        "wenn",
+        "als",
+        "dass",
+        "ob"
+      ],
+      "correctAnswer": "als",
+      "explanation": "als = geçmişte belirli bir an. Berlin'de ilk kez ne zaman buluştuğumuzu hatırlıyor musun?",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q009",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ es zu weiteren Verzögerungen kommen sollte, müssen wir den Liefertermin leider verschieben.",
+      "options": [
+        "dass",
+        "als",
+        "wenn",
+        "ob"
+      ],
+      "correctAnswer": "wenn",
+      "explanation": "wenn = şart/olasılık. Daha fazla gecikme olursa... (geleceğe yönelik olasılık şartı).",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q010",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Viele Experten bezweifeln, ______ die getroffenen Maßnahmen ausreichen werden, um die Krise zu bewältigen.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "ob = şüphe/belirsizlik. Uzmanlar tedbirlerin yeterli olup olmayacağını doute ediyorlar.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q011",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ ich ein Kind war, verbrachten wir jeden Sommer in den Bergen.",
+      "options": [
+        "wenn",
+        "als",
+        "da",
+        "dass"
+      ],
+      "correctAnswer": "als",
+      "explanation": "als = geçmiş uzun süre (çocukluk dönemi). Bir çocuktum, her yaz dağlarda geçiriyorduk.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q012",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Der Erfolg hängt maßgeblich davon ab, ______ das Team unter Druck effektiv zusammenarbeitet.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "abhängen von + ob = başlı olup olmadığına. Takım etkin çalışıyor mu yoksa çalışmıyor mu?",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q013",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ man sich nicht rechtzeitig bewirbt, hat man kaum Chancen auf einen Studienplatz.",
+      "options": [
+        "als",
+        "dass",
+        "wenn",
+        "ob"
+      ],
+      "correctAnswer": "wenn",
+      "explanation": "wenn = genel geçer şart/kural. Zamanında başvurmazsan, şansın az. (evrensel şart).",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q014",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Es ist allgemein bekannt, ______ regelmäßige Bewegung die mentale Gesundheit fördert.",
+      "options": [
+        "ob",
+        "weil",
+        "dass",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "dass = bilinen bir gerçek. Düzensiz hareketin mental sağlığı desteklediği bilinen bir gerçek.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q015",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ die Sonne unterging, wurde es in den engen Gassen der Altstadt merklich kühler.",
+      "options": [
+        "wenn",
+        "als",
+        "dass",
+        "ob"
+      ],
+      "correctAnswer": "als",
+      "explanation": "als = geçmiş tekil an. Güneş battığında (o anda) eski sokaklarda belirgin şekilde serinledi.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q016",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Er konnte mir nicht genau erklären, ______ er sich für diesen speziellen Karriereweg entschieden hat.",
+      "options": [
+        "ob",
+        "dass",
+        "warum",
+        "als"
+      ],
+      "correctAnswer": "warum",
+      "explanation": "warum = neden? sebep sorusu. B2'de sebep sorusu için warum kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q017",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ man die Statistik genauer analysiert, erkennt man einen deutlichen Trend.",
+      "options": [
+        "wenn",
+        "als",
+        "dass",
+        "ob"
+      ],
+      "correctAnswer": "wenn",
+      "explanation": "wenn = yöntem/şart bildirme. İstatistikleri daha dikkatli analiz ederseniz... (genel gözlem).",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q018",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Ich bezweifle sehr, ______ er die Prüfung ohne zusätzliche Hilfe bestanden hätte.",
+      "options": [
+        "dass",
+        "ob",
+        "als",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "bezweifeln + dass = şüphe. O ek yardım olmadan sınavı geçtiğinden şüpheliyim. bezweifeln genelde dass ile kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q019",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "Wir müssen prüfen, ______ alle Voraussetzungen für die staatliche Förderung erfüllt sind.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "prüfen + ob = kontrol etme. Tüm gerekliliklerin karşılanıp karşılanmadığını kontrol etmeliyiz.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    },
+    {
+      "id": "a2_05_q020",
+      "subjectId": "a2_05",
+      "type": "multiple_choice",
+      "text": "______ ich das letzte Mal in Paris war, hat es ununterbrochen geregnet.",
+      "options": [
+        "wenn",
+        "als",
+        "da",
+        "ob"
+      ],
+      "correctAnswer": "als",
+      "explanation": "als = geçmiş belirli bir an. En son Paris'te olduğumda (o seferde) durmaksızın yağmur yağdı.",
+      "difficulty": "medium",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)"
+    }
+  ]
+}
