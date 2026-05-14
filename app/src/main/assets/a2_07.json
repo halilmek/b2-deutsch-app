@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "subjectId": "a2_07",
+  "topicName": "Imperativ",
+  "totalQuestions": 20,
+  "description": "Imperativ — Emir Kipi / Emir Şekilleri\n\nImperatif, birine bir şey yapmasını söyleme veya yapmasını isteme şeklidir. Almanca'da üç farklı kişi için üç farklı imperatif formu vardır.\n\n1. DU-FORM (Duzun):\n- regelmäßig fiiller: lernen → Lern! (tekil -e eki)\n- zorunsuz çekimli fiiller: geben → Gib! (e → i)\n- sein: sei! (düzensiz)\n- haben: hab! (düzensiz)\n\n2. IHR-FORM (İyiler):\n- Tüm fiiller için: seid!, macht!, gebt!, lest!\n\n3. SIE-FORM (Resmi):\n- Tüm fiiller için: Fahren Sie! Kommen Sie! Lesen Sie!\n\n4. WIR-FORM (Birlikte):\n- seien wir!, machen wir!, gehen wir!\n\nDU-FORM ipuçları:\n- -e düşmesi: sagen → Sag! (lütfen yerine)\n- e → i: helfen → Hilf! geben → Gib!\n- e → ie: sehen → Sieh!\n- Dönüşlü fiiller: çoğu zaman DU-formda Akkusativ zamiri kullanılır",
+  "tips": [
+    {
+      "title": "Sie-Form (Resmi) — Her Fiil için Aynı",
+      "content": "Sie-formu en kolayıdır — tüm fiiller aynı şekilde çekilir:\n- Fahren Sie langsam!\n- Lesen Sie den Text bitte durch!\n- Prüfen Sie den Vertrag!\n\nYapı: Fiil + Sie (fiil en sonrada)\nHücrete: Prüfen + Sie = Prüfen Sie!",
+      "icon": "sie"
+    },
+    {
+      "title": "Du-Form — -e eki ve e→i değişimi",
+      "content": "Düzensiz fiillerde e-kaybı:\n- lesen → LIES! (e → ie)\n- helfen → HILF! (e → i)\n- geben → GIB! (e → i)\n- sehen → SIEH! (e → ie)\n\nDüzensiz fiillerde -e kaybı:\n- sagen → SAG! (-e kalkar)\n- machen → MACH! (-e kalkar)\n- arbeiten → ARBEIT! (-e kalır: arbei+en)",
+      "icon": "du"
+    },
+    {
+      "title": "Ihr-Form — Kolay, Fiilin Normal Hali + t",
+      "content": "Ihr-formu fiilin normal çekiminden ibarettir:\n- ihr macht → MACHT!\n- ihr lest → LEST!\n- ihr seid → SEID! (sein istisna)\n- ihr helft → HELFT! (helfen istisna: e → i)",
+      "icon": "ihr"
+    },
+    {
+      "title": "Wir-Form — Birlikte Yapalım",
+      "content": "Wir-formu nadir kullanılır ve normal fiil formu + wir:\n- seien wir!\n- machen wir!\n- gehen wir!\n\nGenellikle bir teklif veya birlikte yapma çağrısı.",
+      "icon": "wir"
+    },
+    {
+      "title": "Sein ve Haben — Özel Düzensizlikler",
+      "content": "sein — özel DU-form:\n- du bist → SEI! (değil: BIS!)\n- ihr seid → SEID!\n- wir sind → SEIEN!\n\nhaben — özel DU-form:\n- du hast → HAB! (değil: HAST!)\n- ihr habt → HABT!",
+      "icon": "sein"
+    },
+    {
+      "title": "Trennbare Fiiller — Ayrılma Kuralı",
+      "content": "Ayrılabilir (trennbar) fiillerde prefix ayrılır:\n- auf/machen → Mach auf! (değil: Machen Sie auf!)\n- durch/lesen → Lesen Sie durch!\n- vor/bereiten → Bereitet vor! (ihr)\n\nKural: DU/SIE/IHR + prefix ayrılmaz, yüklem ayrılır!",
+      "icon": "trenn"
+    },
+    {
+      "title": "Dönüşlü Fiillerde Zamir",
+      "content": "DU-formda dönüşlü fiiller Akkusativ zamiri alır:\n- Setz dich hin!\n- Mach dir keine Sorgen!\n- Freu dich nicht zu früh!\n\nSIE-formda sich kullanılır:\n- Setzen Sie sich!\n- Machen Sie sich keine Sorgen!",
+      "icon": "reflex"
+    },
+    {
+      "title": "Kalıplaşmış Imperatif İfadeleri",
+      "content": "Bazı fiiller kalıplaşmış ifadelerde:\n- Folge leisten! (uy! — itaat)\n- Nimm Platz! (otur!)\n- Gib mir Bescheid! (haber ver!)\n- Mach mit! (katıl!)\n- Kopf hoch! (morale yüksek tut!)\n- Komm schon! (gel artık!)",
+      "icon": "fixed"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a2_07_q001",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "Herr Müller, ______ Sie bitte die Gültigkeit des Vertrages, bevor Sie unterschreiben!",
+      "options": [
+        "prüfen",
+        "prüft",
+        "prüfen",
+        "prüfst"
+      ],
+      "correctAnswer": "prüfen",
+      "explanation": "Sie-Form (resmi) → prüfen Sie! Herr Müller'e hitap ediliyor, resmi form gerekli.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q002",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ mir bitte sofort Bescheid, falls sich die Pläne ändern sollten!",
+      "options": [
+        "Geben",
+        "Gib",
+        "Gebt",
+        "Gibe"
+      ],
+      "correctAnswer": "Gib",
+      "explanation": "geben → DU-form → Gib! (e→i değişimi zorunlu, -e eklenmez). Gib mir Bescheid!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q003",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ wir doch erst einmal die Fakten, bevor wir eine voreilige Entscheidung treffen.",
+      "options": [
+        "Analysieren",
+        "Analysiert",
+        "Analysiere",
+        "Analysiertet"
+      ],
+      "correctAnswer": "Analysieren",
+      "explanation": "wir-Formu → Analysieren wir! (birlikte yapalım). Bir teklif veya öneri yapılıyor.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q004",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ dich nicht über Dinge, die du sowieso nicht ändern kannst!",
+      "options": [
+        "Beschwer",
+        "Beschwerst",
+        "Beschwert",
+        "Beschweren"
+      ],
+      "correctAnswer": "Beschwer",
+      "explanation": "sich beschweren → DU-form → Beschwer dich! (dönüşlü fiil + Akkusativ dich). -e kalkar.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q005",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "Kinder, ______ bitte leise! Der Vater muss sich konzentrieren.",
+      "options": [
+        "seid",
+        "seien",
+        "bist",
+        "sind"
+      ],
+      "correctAnswer": "seid",
+      "explanation": "Kinder = çoğul hitap → IHR-formu → seid! (sein fiilinin ihr çekimi). Seid leise! = Sessiz olun!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q006",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ Sie sich bitte den Termin für die nächste Sitzung im Kalender ______!",
+      "options": [
+        "Merk / -",
+        "Merken / vor",
+        "Merken / an",
+        "Merken / -"
+      ],
+      "correctAnswer": "Merken / -",
+      "explanation": "sich etwas merken (Dativ) → Sie-Form → Merken Sie sich! (im Kalender). Trennbare fiil değil.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q007",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ dich nicht so sehr auf die Meinung anderer, sondern vertrau deinem Instinkt!",
+      "options": [
+        "Verlass",
+        "Verlasse",
+        "Verlässt",
+        "A ve B doğru"
+      ],
+      "correctAnswer": "A ve B doğru",
+      "explanation": "sich verlassen auf → DU-form: Verlass dich! veya Verlasse dich! (İkisi de doğru, -e opsiyonel).",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q008",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ Sie bitte die Unterlagen bis spätestens Freitag an die Personalabteilung!",
+      "options": [
+        "Sende",
+        "Sendet",
+        "Senden",
+        "Sandte"
+      ],
+      "correctAnswer": "Senden",
+      "explanation": "senden (düzensiz) → Sie-Form → Senden Sie! (e→e olur, özel DU-form yok). Sandte = Präteritum!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q009",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ wir mutig und gehen wir dieses Risiko gemeinsam ein!",
+      "options": [
+        "Seid",
+        "Sind",
+        "Seien",
+        "Seist"
+      ],
+      "correctAnswer": "Seien",
+      "explanation": "wir-formu → seien wir! (sein fiilinin wir çekimi). Birlikte cesaretli olalım!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q010",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ mir doch bitte mal kurz bei dieser komplizierten Tabelle!",
+      "options": [
+        "Helfe",
+        "Hilf",
+        "Helft",
+        "Hilfst"
+      ],
+      "correctAnswer": "Hilf",
+      "explanation": "helfen (e→i) → DU-form → Hilf mir! (e→i zorunlu). Helfe = Präsens!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q011",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ euch gut ______, bevor ihr die Bergwanderung antretet!",
+      "options": [
+        "Bereitet / vor",
+        "Bereite / vor",
+        "Bereiten / vor",
+        "Vorbereitet / -"
+      ],
+      "correctAnswer": "Bereitet / vor",
+      "explanation": "vor/bereiten (trennbar) → IHR-formu → Bereitet euch vor! Berg yürüyüşünden önce hazırlanın.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q012",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ Sie bitte den Anweisungen des Sicherheitspersonals Folge!",
+      "options": [
+        "Leisten",
+        "Leiste",
+        "Leistet",
+        "Leisteten"
+      ],
+      "correctAnswer": "Leisten",
+      "explanation": "Folge leisten! = uy! (itaat kalıbı). Leisten Sie Folge! = Resmi imperatif formu.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q013",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ mir doch mal den Gefallen und hör mir einen Moment zu!",
+      "options": [
+        "Tu",
+        "Tue",
+        "Tut",
+        "A ve B doğru"
+      ],
+      "correctAnswer": "A ve B doğru",
+      "explanation": "tun → DU-form: Tu mir den Gefallen! veya Tue mich! (İkisi de doğru). tun düzensiz fiil değil ama bu kalıpta her iki şekil de kabul edilir.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q014",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ Sie sich bitte nicht, mich bei weiteren Fragen zu kontaktieren.",
+      "options": [
+        "Zögert",
+        "Zögere",
+        "Zögern",
+        "Zögertet"
+      ],
+      "correctAnswer": "Zögern",
+      "explanation": "zögern (tereddüt etmek) → Sie-Form → Zögern Sie! Sie-Form normal fiil + Sie.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q015",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ nicht so ungeduldig! Alles braucht seine Zeit.",
+      "options": [
+        "Sei",
+        "Bist",
+        "Seien",
+        "Seid"
+      ],
+      "correctAnswer": "Sei",
+      "explanation": "sein → DU-form → Sei! (değil: Bist!). Ungeduldig olma! = Sabırlı ol!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q016",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ Sie bitte den Text ______ und korrigieren Sie die Fehler.",
+      "options": [
+        "Lest / durch",
+        "Lesen / durch",
+        "Lies / durch",
+        "Lasen / durch"
+      ],
+      "correctAnswer": "Lesen / durch",
+      "explanation": "durch/lesen (trennbar) → Sie-Form → Lesen Sie durch! Metni üstten geçin ve hataları düzeltin.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q017",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ euch mal vor, wir hätten im Lotto gewonnen!",
+      "options": [
+        "Stellt",
+        "Stelle",
+        "Stellen",
+        "Stellst"
+      ],
+      "correctAnswer": "Stellt",
+      "explanation": "sich etwas vor/stellen → IHR-formu → Stellt euch vor! (hayal edin). Trennbar fiil: vor/stellen.",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q018",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ Sie sich bitte ______ die geltenden Brandschutzbestimmungen!",
+      "options": [
+        "Halten / an",
+        "Haltet / an",
+        "Halte / an",
+        "Hält / an"
+      ],
+      "correctAnswer": "Halten / an",
+      "explanation": "sich halten an (trennbar, Akkusativ) → Sie-Form → Halten Sie sich an! Yangın güvenliği kurallarına uyun!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q019",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ wir die Hoffnung nicht auf, auch wenn es schwierig wird.",
+      "options": [
+        "Geben",
+        "Gebt",
+        "Gebet",
+        "Gaben"
+      ],
+      "correctAnswer": "Geben",
+      "explanation": "auf/geben (trennbar) → wir-formu → Geben wir die Hoffnung nicht auf! Birlikte Vazgeçmeyelim!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    },
+    {
+      "id": "a2_07_q020",
+      "subjectId": "a2_07",
+      "type": "multiple_choice",
+      "text": "______ du erst einmal deine Hausaufgaben, bevor du fernsiehst!",
+      "options": [
+        "Mach",
+        "Mache",
+        "Macht",
+        "A ve B doğru"
+      ],
+      "correctAnswer": "A ve B doğru",
+      "explanation": "machen → DU-form: Mach! veya Mache! (İkisi de doğru, -e opsiyonel). Ev ödevini yap, sonra TV izle!",
+      "difficulty": "medium",
+      "topicName": "Imperativ"
+    }
+  ]
+}
