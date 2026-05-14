@@ -1,0 +1,371 @@
+{
+  "version": "1.0",
+  "subjectId": "a2_02",
+  "topicName": "Perfekt (haben/sein + Partizip II)",
+  "totalQuestions": 20,
+  "description": "Perfekt, Geçmiş Zamanın Hikayesi\n\nPerfekt, günlük hayatta en sık kullanılan geçmiş zaman biçimidir. İki bileşenden oluşur: yardımcı fiil (haben veya sein) + Partizip II.\n\n1. HABBEN + PARTİZİP II → Geçişli fiiller (Akkusativ nesne alanlar), dönüşlü fiiller, bazı geçişsiz fiiller\n\n2. SEİN + PARTİZİP II → Hareket/durum değişikliği ifade eden geçişsiz fiiller (yer değiştirme, başlama, bitirme, değişim)\n\nÖnemli Kurallar:\n• ayrılabilir fiiller (trennbar): zerbrochen, abgeflogen → Partizip II'de \"ge\" ortada kalır\n• ayrılamaz fiiller (untrennbar): ver-, er-, ent-, be- → prefix Partizip II'ye girmez\n\nPerfekt with SEİN (Hareket/Durum Değişikliği):\n• gehen, kommen, laufen, fliegen, fahren, umziehen, bleiben, werden, einschlafen, passieren, gelingen, scheitern\n\nPerfekt with HABBEN (All others):\n• Tüm geçişli fiiller (nesne alanlar)\n• Dönüşlü fiiller (sich freuen, sich treffen, sich verletzen)\n• İstisna: spazieren gehen, schwimmen gehen → SEİN",
+  "tips": [
+    {
+      "title": "haben veya sein? — Kural #1",
+      "content": "Fiil bir nesne (Akkusativ) alıyorsa → HABBEN. Ich habe die Vase zerbrochen. (Ben vazoyu kırdım.)\n\nFiil hareket veya durum değişikliği ifade ediyorsa → SEİN.\nDer Patient ist schnell genesen. (Hasta hızla iyileşti.)",
+      "icon": "haben_sein"
+    },
+    {
+      "title": "haben veya sein? — İstisnalar",
+      "content": "İstisna fiiller SEİN ile: bleiben → ist geblieben, werden → ist geworden.\nspazieren gehen → ist spazieren gegangen, schwimmen gehen → ist schwimmen gegangen",
+      "icon": "sein_ausnahmen"
+    },
+    {
+      "title": "Ayrılabilir vs Ayrılamaz Fiiller",
+      "content": "Ayrılabilir (trennbar): prefix ayrılır → Partizip II'de 'ge' ortada: ausgebreitet, hochgeschreckt, abgeflogen.\n\nAyrılamaz (untrennbar): ver-, er-, zer- → 'ge' yok: vernommen, zerbrochen, verletzt.",
+      "icon": "trennbar"
+    },
+    {
+      "title": "Dönüşlü Fiiller — haben kullanılır",
+      "content": "sich freuen, sich treffen, sich verletzen → daima HABBEN:\n• Ich habe mich mit Freunden getroffen.\n• Er hat sich am Bein verletzt.",
+      "icon": "sich"
+    },
+    {
+      "title": "Düzensiz Fiilerin Partizip II'si",
+      "content": "Bazı fiillerin Partizip II'si düzensizdir:\n• werden → ist geworden\n• erkennen → hat erkannt\n• scheitern → ist gescheitert\n• geschehen → ist geschehen",
+      "icon": "irregular"
+    },
+    {
+      "title": "sein + Partizip II: Durum Değişikliği",
+      "content": "Aşağıdaki fiiller daima SEİN ile:\n• erblassen (rengi solmak) → ist erblasst\n• sterben → ist gestorben\n• ertrinken → ist ertrunken\n• erkranken → ist erkrankt",
+      "icon": "zustand"
+    },
+    {
+      "title": "Perfekt in Negatif Cümlelerde",
+      "content": "Negatif: kein / nicht kullanımı:\n• Er hat das Buch nicht gelesen.\n• Ich habe ihn nie gesehen.\n• Sie hat sich nicht getraut.",
+      "icon": "negativ"
+    },
+    {
+      "title": "Sorularda Perfekt",
+      "content": "Was ist passiert?\n• Was hast du gemacht?\n• Wann hast du ihn getroffen?\n• Wie lange bist du geblieben?",
+      "icon": "fragen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a2_02_q001",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Der Patient ______ nach der schweren Operation glücklicherweise schnell ______.",
+      "options": [
+        "hat / genesen",
+        "ist / genesen",
+        "ist / genossen",
+        "hat / genas"
+      ],
+      "correctAnswer": "ist / genesen",
+      "explanation": "genesen (iyileşmek) = durum değişikliği → sein kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q002",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Die Polizei ______ den Zeugen ausführlich zu dem Vorfall ______.",
+      "options": [
+        "ist / vernommen",
+        "hat / vernehmen",
+        "hat / vernommen",
+        "ist / verneht"
+      ],
+      "correctAnswer": "hat / vernommen",
+      "explanation": "vernehmen (sorgulamak) = geçişli fiil, Dativ/Akkusativ nesne alır → haben kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q003",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Was ______ in der Zwischenzeit eigentlich ______?",
+      "options": [
+        "hat / geschehen",
+        "ist / geschieht",
+        "ist / geschehen",
+        "hat / geschah"
+      ],
+      "correctAnswer": "ist / geschehen",
+      "explanation": "geschehen (olmak, vuku bulmak) = daima sein ile kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q004",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Die Preise für Rohstoffe ______ im letzten Quartal drastisch ______.",
+      "options": [
+        "sind / gesunken",
+        "haben / gesunken",
+        "sind / gesenkt",
+        "haben / gesenkt"
+      ],
+      "correctAnswer": "sind / gesunken",
+      "explanation": "sinken (düşmek) = geçişsiz fiil, yer değiştirme → sein ile Partizip II.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q005",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Er ______ die alte Vase aus Versehen ______.",
+      "options": [
+        "ist / zerbrochen",
+        "hat / zerbrechen",
+        "hat / zerbrochen",
+        "ist / zerbrechte"
+      ],
+      "correctAnswer": "hat / zerbrochen",
+      "explanation": "zerbrechen (kırmak) = geçişli fiil, Akkusativ nesne var → haben kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q006",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Wir ______ gestern den ganzen Abend über dieses Thema ______.",
+      "options": [
+        "sind / gestritten",
+        "haben / gestreitet",
+        "haben / gestritten",
+        "sind / gestreitet"
+      ],
+      "correctAnswer": "haben / gestritten",
+      "explanation": "streiten (tartışmak) = daima haben ile kullanılır. İstisna!",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q007",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Das Flugzeug ______ trotz des starken Nebels pünktlich ______.",
+      "options": [
+        "ist / abgeflogen",
+        "hat / abgeflogen",
+        "ist / abfliegt",
+        "hat / abgeflogt"
+      ],
+      "correctAnswer": "ist / abgeflogen",
+      "explanation": "abfliegen (havalanmak) = yer değiştirme → sein. Trennbar: 'ge' ortada.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q008",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Der Politiker ______ den Vorwurf entschieden ______.",
+      "options": [
+        "ist / widersprochen",
+        "hat / widersprochen",
+        "hat / widersprechen",
+        "ist / widersprecht"
+      ],
+      "correctAnswer": "hat / widersprechen",
+      "explanation": "widersprechen (itiraz etmek) + Dativ = geçişli fiil → haben.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q009",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Ich ______ heute Morgen völlig ______ und habe den Bus verpasst.",
+      "options": [
+        "bin / verschlafen",
+        "habe / verschlafen",
+        "habe / verschlaft",
+        "bin / verschlaft"
+      ],
+      "correctAnswer": "habe / verschlafen",
+      "explanation": "verschlafen (uyuya kalmak) = istisna! Düzensiz ama haben ile kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q010",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Das Unternehmen ______ seine Strategie grundlegend ______.",
+      "options": [
+        "ist / überdenkt",
+        "hat / überdacht",
+        "ist / überdacht",
+        "hat / überdenkt"
+      ],
+      "correctAnswer": "hat / überdacht",
+      "explanation": "überdenken (yeniden değerlendirmek) = geçişli fiil → haben. Ayrılamaz: überdacht.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q011",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Er ______ mir gegenüber sein Wort nicht ______.",
+      "options": [
+        "ist / gehalten",
+        "hat / gehaltet",
+        "hat / gehalten",
+        "ist / gehaltet"
+      ],
+      "correctAnswer": "hat / gehalten",
+      "explanation": "ein Versprechen halten = geçişli fiil → haben. Düzensiz: gehalten.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q012",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Die Wanderer ______ stundenlang durch den dichten Wald ______.",
+      "options": [
+        "sind / geirrt",
+        "haben / geirrt",
+        "haben / geirrten",
+        "sind / geirrten"
+      ],
+      "correctAnswer": "sind / geirrt",
+      "explanation": "irren (dolaşmak) = yer değiştirme → sein tercih edilir.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q013",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Der Junge ______ vor Schreck völlig ______.",
+      "options": [
+        "hat / erblasst",
+        "ist / erblasst",
+        "hat / erbleicht",
+        "ist / erbleicht"
+      ],
+      "correctAnswer": "ist / erblasst",
+      "explanation": "erblassen (rengi solmak) = durum değişikliği → sein.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q014",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Der Mechaniker ______ den Fehler am Motor sofort ______.",
+      "options": [
+        "hat / erkannt",
+        "ist / erkannt",
+        "hat / erkennet",
+        "ist / erkennt"
+      ],
+      "correctAnswer": "hat / erkannt",
+      "explanation": "erkennen (tanımak) = geçişli fiil → haben. Ayrılamaz: er- + ge yok.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q015",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Meine Großeltern ______ vor zwei Jahren in eine kleinere Wohnung ______.",
+      "options": [
+        "haben / umgezogen",
+        "sind / umgezogen",
+        "haben / umgezieht",
+        "sind / umgezieht"
+      ],
+      "correctAnswer": "sind / umgezogen",
+      "explanation": "umziehen (taşınmak) = yer değiştirme → sein. Trennbar: umgezogen.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q016",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Er ______ sich bei dem Unfall schwer am Bein ______.",
+      "options": [
+        "ist / verletzt",
+        "hat / verletzt",
+        "hat / verletzten",
+        "ist / verletzten"
+      ],
+      "correctAnswer": "hat / verletzt",
+      "explanation": "sich verletzen = dönüşlü fiil → daima haben. İngilizce 'get injured' değil!.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q017",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Die Verhandlungen ______ leider völlig ______.",
+      "options": [
+        "sind / gescheitert",
+        "haben / gescheitert",
+        "sind / geschietered",
+        "haben / geschietered"
+      ],
+      "correctAnswer": "ist / gescheitert",
+      "explanation": "scheitern (başarısız olmak) = daima sein. Durum değişikliği.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q018",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Ich ______ mich gestern Abend mit meinen alten Schulfreunden ______.",
+      "options": [
+        "bin / getroffen",
+        "habe / getroffen",
+        "bin / trefft",
+        "habe / getrefft"
+      ],
+      "correctAnswer": "habe / getroffen",
+      "explanation": "sich treffen (buluşmak) = dönüşlü fiil → daima haben.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q019",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Das Feuer ______ sich rasend schnell im ganzen Gebäude ______.",
+      "options": [
+        "hat / ausgebreitet",
+        "ist / ausgebreitet",
+        "hat / ausbreitet",
+        "ist / ausbreitet"
+      ],
+      "correctAnswer": "hat / ausgebreitet",
+      "explanation": "sich ausbreiten (yayılmak) = dönüşlü fiil → daima haben.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    },
+    {
+      "id": "a2_02_q020",
+      "subjectId": "a2_02",
+      "type": "multiple_choice",
+      "text": "Er ______ plötzlich aus dem Schlaf ______.",
+      "options": [
+        "hat / hochgeschreckt",
+        "ist / hochgeschreckt",
+        "hat / hochschreckt",
+        "ist / hochschreckt"
+      ],
+      "correctAnswer": "ist / hochgeschreckt",
+      "explanation": "hochschrecken (sıçramak) = durum değişikliği → sein. Trennbar.",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
+    }
+  ]
+}
