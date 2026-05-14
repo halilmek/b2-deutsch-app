@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-14 06:50 UTC
+**Last Updated:** 2026-05-14 07:20 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -59,8 +59,8 @@
 
 | # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
 |---|----------|-----------|-----------|-----------|----------------|
-| 1 | a2_01 | Präteritum (war, hatte, machte) | 20 | 2 | ✅ New (Halil's B2 test) |
-| 2 | a2_02 | Perfekt (haben/sein + Partizip II) | 0 | 0 | ⚠️ Placeholder |
+| 1 | a2_01 | Präteritum (war, hatte, machte) | 20 | 2 | ✅ Complete |
+| 2 | a2_02 | Perfekt (haben/sein + Partizip II) | 20 | 2 | ✅ Complete |
 | 3 | a2_03 | Verben mit Präpositionen (AC) | 0 | 0 | ⚠️ Placeholder |
 | 4 | a2_04 | Wechselpräpositionen | 0 | 0 | ⚠️ Placeholder |
 | 5 | a2_05 | Nebensätze (dass, ob, weil, wenn, als) | 0 | 0 | ⚠️ Placeholder |
@@ -70,10 +70,12 @@
 | 9 | a2_09 | Relativsätze | 0 | 0 | ⚠️ Placeholder |
 | 10 | a2_10 | (missing from list) | 0 | 0 | ⚠️ Placeholder |
 
-### 2026-05-13 19:28 — a2_01: Added 20 Präteritum questions (Halil's B2 level test)
-- **Commit:** `74d4fd0`
-- **Topic:** Präteritum — 20 questions, 2 quizzes
-- **Source:** Halil's B2 test (Präteritum Testi)
+### 2026-05-14 07:20 — a2_02: Add 20 Perfekt questions ✅ (Halil's batch)
+- **Commit:** `8985816` — "a2_02: Add 20 Perfekt questions (haben/sein + Partizip II)"
+- **GitHub:** Pushed ✅
+- **Topic:** Perfekt — 20 questions, 2 quizzes (Halil's Perfekt Test)
+- **Content:** 8 Lerntipps (haben/sein rules, trennbar/untrennbar, dönüşlü fiiller, istisnalar)
+- **Next:** a2_03 Verben mit Präpositionen
 
 
 
