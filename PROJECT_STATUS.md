@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-14 08:04 UTC
+**Last Updated:** 2026-05-14 08:09 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -68,7 +68,7 @@
 | 7 | a2_07 | Imperativ | 20 | 2 | ✅ Complete |
 | 8 | a2_08 | Plusquamperfekt | 20 | 2 | ✅ Complete |
 | 9 | a2_09 | Relativsätze | 20 | 2 | ✅ Complete |
-| 10 | a2_10 | (missing from list) | 0 | 0 | ⚠️ Placeholder |
+| 10 | a2_10 | Konjunktionen | 20 | 2 | ✅ Complete |
 
 ### 2026-05-14 07:20 — a2_02: Add 20 Perfekt questions ✅ (Halil's batch)
 - **Commit:** `8985816` — "a2_02: Add 20 Perfekt questions (haben/sein + Partizip II)"
