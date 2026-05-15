@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-14 09:14 UTC
+**Last Updated:** 2026-05-15 21:28 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -59,16 +59,26 @@
 
 | # | subjectId | Topic Name | Questions | QuizCount | Content Quality |
 |---|----------|-----------|-----------|-----------|----------------|
-| 1 | a2_01 | Präteritum (war, hatte, machte) | 20 | 2 | ✅ Complete |
-| 2 | a2_02 | Perfekt (haben/sein + Partizip II) | 20 | 2 | ✅ Complete |
-| 3 | a2_03 | Verben mit Präpositionen (AC) | 20 | 2 | ✅ Complete |
-| 4 | a2_04 | Wechselpräpositionen | 20 | 2 | ✅ Complete |
-| 5 | a2_05 | Nebensätze (dass, ob, weil, wenn, als) | 20 | 2 | ✅ Complete |
-| 6 | a2_06 | Reflexive Verben | 20 | 2 | ✅ Complete |
-| 7 | a2_07 | Imperativ | 20 | 2 | ✅ Complete |
-| 8 | a2_08 | Plusquamperfekt | 20 | 2 | ✅ Complete |
-| 9 | a2_09 | Relativsätze | 20 | 2 | ✅ Complete |
-| 10 | a2_10 | Konjunktionen | 20 | 2 | ✅ Complete |
+| 1 | a2_01 | Präteritum (war, hatte, machte) | 40 | 4 | ✅ Complete |
+| 2 | a2_02 | Perfekt (haben/sein + Partizip II) | 40 | 4 | ✅ Complete |
+| 3 | a2_03 | Verben mit Präpositionen (AC) | 40 | 4 | ✅ Complete |
+| 4 | a2_04 | Wechselpräpositionen | 40 | 4 | ✅ Complete |
+| 5 | a2_05 | Nebensätze (dass, ob, weil, wenn, als) | 40 | 4 | ✅ Complete |
+| 6 | a2_06 | Reflexive Verben | 40 | 4 | ✅ Complete |
+| 7 | a2_07 | Imperativ | 60 | 6 | ✅ Complete |
+| 8 | a2_08 | Plusquamperfekt | 60 | 6 | ✅ Complete |
+| 9 | a2_09 | Relativsätze | 60 | 6 | ✅ Complete |
+| 10 | a2_10 | Konjunktionen | 60 | 6 | ✅ Complete |
+
+**A2 Total: 480 questions across 10 topics**
+
+### 2026-05-15 21:28 — A2: Expanded Imperativ + Plusquamperfekt to 60 questions each
+- **Commit:** `4ad0238`
+- **Topics:** a2_07 Imperativ (40→60), a2_08 Plusquamperfekt (40→60)
+- **Added:** 20 new questions each (q041-q060)
+- **GitHub:** Pushed ✅
+- **A2 Total now: 480 questions across all 10 topics**
+- **Next:** Sync a2_01–a2_10 to Firebase, then commit PROJECT_STATUS.md
 
 ### 2026-05-14 07:20 — a2_02: Add 20 Perfekt questions ✅ (Halil's batch)
 - **Commit:** `8985816` — "a2_02: Add 20 Perfekt questions (haben/sein + Partizip II)"
