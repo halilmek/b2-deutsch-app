@@ -3,8 +3,8 @@
 Use this template to fill in all 10 B1 topics. For each topic:
 - Copy the JSON structure
 - Fill in `questionText`, `options`, `correctAnswer`, `explanation`, `difficulty`
-- Leave `id` as `"AUTO"` — it will be auto-generated later
-- Set `source` to identify which AI app generated this batch
+- Leave `id` as `"AUTO"` — I will auto-generate IDs later
+- The AI fills only the question content — no extra fields
 
 **5 AI apps → 2 topics each → merge → push to GitHub**
 
@@ -19,7 +19,7 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Nebensätze",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Nebensätze (subordinate clauses) here.",
+  "description": "Write B1-level English description of Nebensätze here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
     "Example: The verb always goes to the END of a subordinate clause"
@@ -27,12 +27,11 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-1",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
       "correctAnswer": "Correct answer",
-      "explanation": "English explanation — why this answer is correct and others are wrong",
+      "explanation": "English explanation — why this answer is correct",
       "difficulty": "easy"
     }
   ]
@@ -58,7 +57,6 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-1",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -81,7 +79,7 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Passiv",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Passiv (passive voice) here.",
+  "description": "Write B1-level English description of Passiv here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
     "Example: Passive is formed with werden + Partizip II"
@@ -89,7 +87,6 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-2",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -112,15 +109,14 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Modalverben im Konjunktiv II",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Modalverben in Konjunktiv II here.",
+  "description": "Write B1-level English description here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
-    "Example: könnte, müsste, würde, dürfte are the key Konjunktiv II modal forms"
+    "Example: könnte, müsste, würde, dürfte are the key forms"
   ],
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-2",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -143,15 +139,14 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Nominalisierung",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Nominalisierung here.",
+  "description": "Write B1-level English description here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
-    "Example: Verb stems become nouns with -ung suffix (machen → die Durchführung)"
+    "Example: machen → die Durchführung"
   ],
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-3",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -174,15 +169,14 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Relativsätze im Genitiv",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Relativsätze im Genitiv here.",
+  "description": "Write B1-level English description here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
-    "Example: dessen (masc/neut) and deren (fem/pl) show possession in relative clauses"
+    "Example: dessen (masc/neut) and deren (fem/pl) show possession"
   ],
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-3",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -205,7 +199,7 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Konnektoren",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Konnektoren here.",
+  "description": "Write B1-level English description here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
     "Example: deshalb, trotzdem, allerdings are coordinating connectors"
@@ -213,7 +207,6 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-4",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -236,15 +229,14 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Perfekt und Präteritum",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Perfekt vs Präteritum here.",
+  "description": "Write B1-level English description here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
-    "Example: Perfekt is used in spoken German; Präteritum is preferred in writing for sein, haben, and modals"
+    "Example: Perfekt is spoken German; Präteritum is preferred in writing for sein, haben, and modals"
   ],
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-4",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -267,7 +259,7 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Verben mit festen Präpositionen",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Verben mit festen Präpositionen here.",
+  "description": "Write B1-level English description here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
     "Example: sich erinnern an (+A), bestehen aus (+D), abhängen von (+D)"
@@ -275,7 +267,6 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-5",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -289,7 +280,7 @@ Use this template to fill in all 10 B1 topics. For each topic:
 
 ---
 
-## b1_10 — Partizip I und II als Adjektiv (100 questions)
+## b1_10 — Partizipien als Adjektive (100 questions)
 
 ```json
 {
@@ -298,7 +289,7 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "topicName": "Partizipien als Adjektive",
   "level": "B1",
   "totalQuestions": 100,
-  "description": "Write B1-level English description of Partizipien als Adjektive here.",
+  "description": "Write B1-level English description here.",
   "tips": [
     "Write 5-10 B1-level tips in English",
     "Example: Partizip I (-end) shows ongoing action; Partizip II (-t/-en) shows completed or passive"
@@ -306,7 +297,6 @@ Use this template to fill in all 10 B1 topics. For each topic:
   "questions": [
     {
       "id": "AUTO",
-      "source": "AI-5",
       "type": "multiple_choice",
       "questionText": "German question with ____ blanks",
       "options": ["Correct answer", "Wrong B", "Wrong C", "Wrong D"],
@@ -320,26 +310,15 @@ Use this template to fill in all 10 B1 topics. For each topic:
 
 ---
 
-## After all 5 AIs return their JSON:
+## How it works
 
-Run this script to:
-1. Replace `"id": "AUTO"` with sequential `"b1_XX_q001"` ... `"b1_XX_q100"`
-2. Merge all topics into individual `.json` files
+**For each AI**, you give it 2 topics. The AI only fills:
+- `questionText` — German
+- `options` — 4 German choices
+- `correctAnswer` — exact German text of the correct option
+- `explanation` — English
+- `difficulty` — easy / medium / hard
 
-```python
-#!/usr/bin/env python3
-"""Auto-generate question IDs and create final B1 JSON files."""
-import json, os
+**You send me the result** → I replace `"AUTO"` with `b1_XX_q001` … `b1_XX_q100`, create individual JSON files, and push to GitHub.
 
-BASE = "/home/node/.openclaw/workspace/b2-deutsch-app/assets"
-# (adjust BASE to wherever your merged template file is)
-
-TEMPLATE_FILE = "B1_merged_template.json"  # you paste all AI results here
-
-# ... (full script below)
-```
-
-**Updated fields:**
-- `id` → set to `"AUTO"` — AI doesn't touch it, script generates later
-- `source` → which AI app generated the question (for tracking)
-- AI fills: `questionText`, `options`, `correctAnswer`, `explanation`, `difficulty`
+That's it. No `sourceId`, no `originalId`, no extra metadata — just clean questions.
