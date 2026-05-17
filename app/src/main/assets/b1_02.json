@@ -3,7 +3,7 @@
   "subjectId": "b1_02",
   "topicName": "Konjunktiv II",
   "level": "B1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Konjunktiv II (K-II) is used to express hypotheses, wishes, politeness, unreal conditions, and indirect speech. It has two main tenses: present K-II (wäre, hätte, würde, könnte, müsste) for unreal present/future situations, and past K-II (hätte/wäre + Partizip II) for unfulfilled past events.\n\nKey forms:\n- wäre — Konjunktiv II of sein. The most common form for conditions and wishes. Mandatory after 'als ob' and 'als' for unreal comparisons.\n- hätte — Konjunktiv II of haben. Used for conditions about possession or actions. Past form: hätte + Partizip II.\n- würde + Infinitiv — Standard K-II construction for weak (regular) full verbs. NEVER used with modal verbs — use the modal itself in K-II instead (könnte, müsste, etc.).\n- könnte — K-II of können. Used for polite requests and possibility. Remember: 'würde können' is incorrect.\n- müsste — K-II of müssen. Expresses an unmet obligation: ought to / should (but does not).\n- K-II Vergangenheit: hätte/wäre + Partizip II. Choose hätte for haben-verbs, wäre for sein-verbs.\n- Mischkonditionalsatz: if-clause uses K-II Plusquamperfekt; main clause uses K-II Präsens — past condition with present result.\n- Passiv K-II: wäre + Partizip II + worden. 'werden' takes sein as auxiliary in K-II, NOT haben.",
   "tips": [
     "wäre — Konjunktiv II of sein. Used for unreal conditions/wishes about states of being. After 'als ob' or 'als' for unreal comparisons, K-II of sein is mandatory: 'Er tut so, als wäre er der Chef.'",
@@ -857,6 +857,286 @@
       "correctAnswer": "würdest",
       "explanation": "'Würdest du tun' is the standard Konjunktiv II structure for hypothetical questions.",
       "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q061",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit ____, ____ ich öfter ins Kino gehen.",
+      "options": [
+        "hätte / würde",
+        "hatte / werde",
+        "habe / will",
+        "hätte / wäre"
+      ],
+      "correctAnswer": "hätte / würde",
+      "explanation": "'hätte' (Konjunktiv II of haben) + 'würde gehen' (conditional) — If I had more time, I would go to the cinema more often.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q062",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ so gerne mit dir kommen, aber ich muss noch arbeiten.",
+      "options": [
+        "würde",
+        "wäre",
+        "hätte",
+        "könnte"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'würde kommen' is implied — I would really like to come with you, but I have to work.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q063",
+      "type": "multiple_choice",
+      "questionText": "____ ich doch reich! Dann ____ ich mir ein Haus am Meer kaufen.",
+      "options": [
+        "Wäre / würde",
+        "Hätte / könnte",
+        "Würde / wäre",
+        "Könnte / hätte"
+      ],
+      "correctAnswer": "Wäre / würde",
+      "explanation": "'wäre' (Konjunktiv II of sein) for wish — If only I were rich! Then I would buy a house by the sea.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q064",
+      "type": "multiple_choice",
+      "questionText": "Du ____ wirklich mehr auf deine Gesundheit achten.",
+      "options": [
+        "hättest",
+        "wärest",
+        "solltest",
+        "könntest"
+      ],
+      "correctAnswer": "solltest",
+      "explanation": "'sollte' (Konjunktiv II of sollen) gives a gentle advice — You really should pay more attention to your health.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q065",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich du ____, ____ ich sofort zum Arzt gehen.",
+      "options": [
+        "wäre / würde",
+        "wäre / hätte",
+        "würde / wäre",
+        "hätte / könnte"
+      ],
+      "correctAnswer": "wäre / würde",
+      "explanation": "'wäre' for condition (If I were you) + 'würde gehen' — standard advice structure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q066",
+      "type": "multiple_choice",
+      "questionText": "Er ____ den Zug erreichen, wenn er früher losgefahren ____.",
+      "options": [
+        "könnte / wäre",
+        "kann / ist",
+        "könnte / würde",
+        "konnte / war"
+      ],
+      "correctAnswer": "könnte / wäre",
+      "explanation": "'könnte' (conditional ability) + 'wäre' (past subjunctive) — He could have caught the train if he had left earlier.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q067",
+      "type": "multiple_choice",
+      "questionText": "Man ____ in dieser Stadt besser ohne Auto leben können, wenn die öffentlichen Verkehrsmittel zuverlässiger ____.",
+      "options": [
+        "könnte / wären",
+        "würde / hätten",
+        "könnte / hätten",
+        "müsste / wären"
+      ],
+      "correctAnswer": "könnte / wären",
+      "explanation": "'könnte' (ability) + 'wären' (condition) — One could live better without a car if public transport were more reliable.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q068",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ____ ich die Prüfung nie bestanden.",
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "könnte"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'hätte bestanden' — Without your help, I would never have passed the exam (irreal past).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q069",
+      "type": "multiple_choice",
+      "questionText": "____ du mir bitte das Salz reichen?",
+      "options": [
+        "Würdest",
+        "Könntest",
+        "Hättest",
+        "Wärest"
+      ],
+      "correctAnswer": "Könntest",
+      "explanation": "'Könntest' is a polite request — Could you please pass me the salt?",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q070",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ früher ankommen, wenn der Verkehr nicht so schlimm ____.",
+      "options": [
+        "würden / wäre",
+        "hätten / würde",
+        "wären / wäre",
+        "könnten / wäre"
+      ],
+      "correctAnswer": "würden / wäre",
+      "explanation": "'würden ankommen' (conditional) + 'wäre' (condition) — We would arrive earlier if the traffic weren't so bad.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q071",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ gestern ins Kino gehen, aber ich hatte keine Zeit.",
+      "options": [
+        "würde",
+        "wollte",
+        "hätte",
+        "wäre"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'würde gehen' — I would have gone to the cinema yesterday, but I had no time. (Implied unreal past)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q072",
+      "type": "multiple_choice",
+      "questionText": "Wenn er sich mehr angestrengt ____, ____ er die Stelle bekommen.",
+      "options": [
+        "hätte / hätte",
+        "würde / würde",
+        "wäre / hätte",
+        "hätte / würde"
+      ],
+      "correctAnswer": "hätte / würde",
+      "explanation": "'hätte angestrengt' and 'würde bekommen' — If he had tried harder, he would have gotten the job. (Past irreal)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q073",
+      "type": "multiple_choice",
+      "questionText": "Du ____ wirklich lauter sprechen. Ich verstehe dich kaum.",
+      "options": [
+        "könntest",
+        "müsstest",
+        "würdest",
+        "wärest"
+      ],
+      "correctAnswer": "müsstest",
+      "explanation": "'müsstest' (Konjunktiv II of müssen) — You really should speak louder (mild obligation).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q074",
+      "type": "multiple_choice",
+      "questionText": "____ ich nur mehr Geduld!",
+      "options": [
+        "Hätte",
+        "Wäre",
+        "Würde",
+        "Könnte"
+      ],
+      "correctAnswer": "Hätte",
+      "explanation": "'Hätte' — If only I had more patience! (Wish without 'wenn')",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q075",
+      "type": "multiple_choice",
+      "questionText": "Sie spricht so leise, als ob sie Angst ____.",
+      "options": [
+        "hätte",
+        "würde",
+        "wäre",
+        "könnte"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'als ob sie Angst hätte' — as if she were afraid. (Konjunktiv II after 'als ob')",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q076",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich einen fließenden Englischkurs anbieten ____, ____ du teilnehmen?",
+      "options": [
+        "würde / würdest",
+        "hätte / hättest",
+        "könnte / könntest",
+        "wäre / wärest"
+      ],
+      "correctAnswer": "würde / würdest",
+      "explanation": "'würde anbieten' + 'würdest teilnehmen' — If I were to offer a fluent English course, would you take part?",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q077",
+      "type": "multiple_choice",
+      "questionText": "Er benimmt sich, als ____ er der Chef.",
+      "options": [
+        "wäre",
+        "hätte",
+        "würde",
+        "könnte"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "'als wäre er der Chef' — as if he were the boss.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q078",
+      "type": "multiple_choice",
+      "questionText": "Man ____ unbedingt mehr für den Umweltschutz tun.",
+      "options": [
+        "sollte",
+        "könnte",
+        "müsste",
+        "würde"
+      ],
+      "correctAnswer": "sollte",
+      "explanation": "'sollte' (Konjunktiv II of sollen) — One really should do more for environmental protection.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q079",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich die Wahl ____, ____ ich in eine kleinere Stadt ziehen.",
+      "options": [
+        "hätte / würde",
+        "wäre / hätte",
+        "könnte / wäre",
+        "würde / könnte"
+      ],
+      "correctAnswer": "hätte / würde",
+      "explanation": "'hätte' (if I had the choice) + 'würde ziehen' — I would move to a smaller town.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q080",
+      "type": "multiple_choice",
+      "questionText": "Es ____ schön, wenn du mich morgen vom Bahnhof abholen ____.",
+      "options": [
+        "wäre / könntest",
+        "würde / hättest",
+        "hätte / würdest",
+        "könnte / wärest"
+      ],
+      "correctAnswer": "wäre / könntest",
+      "explanation": "'wäre schön' (it would be nice) + 'könntest' (if you could pick me up).",
+      "difficulty": "medium"
     }
   ]
 }
