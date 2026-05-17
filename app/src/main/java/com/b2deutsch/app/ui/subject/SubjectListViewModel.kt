@@ -692,7 +692,7 @@ class SubjectListViewModel @Inject constructor(
         Subject(
             id = "b1_08",
             level = "B1",
-            name = "8. Perfekt und Präteritum (对比和使用场景)",
+            name = "8. Perfekt und Präteritum",
             nameShort = "Perfekt vs Präteritum",
             description = "Unterschied zwischen Perfekt und Präteritum: Perfekt wird im Alltag und in der gesprochenen Sprache verwendet. Präteritum wird in der Schriftsprache, in Nachrichten und in formellen Texten verwendet.",
             category = Constants.Categories.GRAMMAR,
