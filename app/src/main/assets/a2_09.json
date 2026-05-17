@@ -3,7 +3,7 @@
   "subjectId": "a2_09",
   "topicName": "Relativsätze",
   "level": "A2",
-  "totalQuestions": 100,
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "a2_09_q001",
@@ -2004,8 +2004,408 @@
       "correctAnswer": "deren",
       "explanation": "deren — Genitive, plural. Whose performances improved? → deren (the students' performances). 'Deren' agrees with the antecedent in gender and number (plural = feminine form 'deren') and shows possession.",
       "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q101",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe keine Zeit, die Unterlagen ________.",
+      "options": [
+        "zu prüfen",
+        "geprüft",
+        "prüfend",
+        "geprüft werden"
+      ],
+      "correctAnswer": "zu prüfen",
+      "explanation": "Infinitiv mit zu: 'Ich habe keine Zeit, die Unterlagen zu prüfen.' The infinitive construction is used after nouns like 'Zeit', 'Möglichkeit', ' Lust'. Alternative: 'um ... zu prüfen' — 'Ich habe keine Zeit, um die Unterlagen zu prüfen.'",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q102",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist der Erste, ________ das Ziel erreicht hat.",
+      "options": [
+        "der",
+        "das",
+        "welche",
+        "wer"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine. 'Er ist der Erste' (Superlativ as noun) → the relative clause after superlative nouns uses 'der/die/das' as the relative pronoun, followed by the verb. The structure is: der Erste, der ... erreicht hat.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q103",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht, ________ gestern erstellt wurde, liegt vor.",
+      "options": [
+        "der",
+        "dem",
+        "dessen",
+        "was"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine (refers to 'der Bericht'). This is a Passiv Relativsatz: 'der Bericht, der gestern erstellt wurde'. The relative pronoun 'der' is the subject of the passive clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q104",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung, ________ getroffen worden war, war endgültig.",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "welche"
+      ],
+      "correctAnswer": "die",
+      "explanation": "die — Nominativ, feminine (refers to 'die Entscheidung'). Plusquamperfekt Passiv: 'hatte getroffen werden sollen' → 'worden war' (shortened). The relative pronoun is the subject of the passive clause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q105",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Unterlagen, ________ zu prüfen sind, liegen auf dem Tisch.",
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "deren"
+      ],
+      "correctAnswer": "die",
+      "explanation": "die — Nominativ/Akkusativ, plural. Infinitiv mit zu + Passiv: 'Die Unterlagen, die zu prüfen sind' (the documents that need to be checked). The relative pronoun 'die' is the subject of the passive infinitive clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q106",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ________ ich gestern ________, war sehr interessant.",
+      "options": [
+        "habe / gelesen",
+        "hat / gelesen worden",
+        "wurde / gelesen",
+        "wird / gelesen"
+      ],
+      "correctAnswer": "habe / gelesen",
+      "explanation": "habe / gelesen — Aktiv Präteritum. The relative clause 'das ich gestern gelesen habe' is in Perfekt Aktiv. Note: 'das Buch' is the object (Akkusativ) of 'gelesen habe' — wait, in Perfekt with 'haben', the participle is at the end but the object position depends on the verb. Here: 'ein Buch lesen' → Akkusativ → 'das Buch' → correct.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q107",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studie, ________ Ergebnisse vielversprechend ________, wurde bereits veröffentlicht.",
+      "options": [
+        "deren / sind",
+        "dessen / ist",
+        "die / sind",
+        "deren / sei"
+      ],
+      "correctAnswer": "deren / sind",
+      "explanation": "deren / sind — Genitive, plural (refers to 'die Studie'). 'Deren' agrees with 'Studie' (feminine singular) in gender, but in genitive the form is the same for feminine/plural: deren. The relative clause uses Konjunktiv I ('seien' would be the Konjunktiv I form, but 'sind' shows the Indiektiv is also possible in written German).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q108",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Mann, ________ ich helfe, ist krank.",
+      "options": [
+        "den",
+        "dem",
+        "der",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The verb 'helfen' requires Dativ (helfen + Dativ). 'Der Mann' in Dativ is 'dem'. Common trap: learners often use Akkusativ 'den' because they confuse 'helfen' with verbs that take Akkusativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q109",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ________ ich lese, ist sehr spannend.",
+      "options": [
+        "das",
+        "was",
+        "der",
+        "dem"
+      ],
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter. 'Das Buch' is the object of 'lesen' (Akkusativ verb). Common trap: learners sometimes use 'was' for all neuter nouns, but 'was' is only used after indefinite pronouns (alles, etwas, nichts) or superlatives — NOT after definite nouns like 'das Buch'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q110",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, ________ du sagst, wird als Geheimnis behandelt.",
+      "options": [
+        "was",
+        "das",
+        "es",
+        "wer"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After the indefinite pronoun 'Alles', the relative pronoun 'was' is always used. This is a fixed rule. Common trap: using 'das' instead of 'was' after 'Alles', 'Etwas', 'Nichts'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q111",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ________ Produkte weltweit bekannt ________, ist sehr erfolgreich.",
+      "options": [
+        "deren / sind",
+        "dessen / ist",
+        "die / ist",
+        "deren / ist"
+      ],
+      "correctAnswer": "deren / sind",
+      "explanation": "deren / sind — Genitive, feminine. 'Die Firma' (feminine) in genitive is 'deren'. The verb 'sind' agrees with 'Produkte' (plural). Common trap: confusing 'dessen' (masculine/neuter) with 'deren' (feminine/plural).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q112",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Grund, ________ er gefahren ist, ist unbekannt.",
+      "options": [
+        "warum",
+        "aus dem",
+        "aus dem / weil",
+        "woran"
+      ],
+      "correctAnswer": "warum",
+      "explanation": "warum — 'the reason why he left'. The relative adverb 'warum' (= warum = why) is specifically used for 'Grund' (reason). Alternative: 'aus dem Grund' or 'weshalb'. Common trap: using 'auf dem' or 'in dem' — but 'Grund' is used with 'wofür', 'warum', 'aus dem Grund', NOT 'auf dem'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q113",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, ________ ich mich gewandt habe, hat mir geholfen.",
+      "options": [
+        "an die",
+        "die",
+        "der",
+        "deren"
+      ],
+      "correctAnswer": "an die",
+      "explanation": "an die — Akkusativ, feminine. The verb 'sich wenden an + Akkusativ' (to turn to) requires Akkusativ for the person. 'An die Kollegin' → 'an die'. Common trap: using 'die' without the preposition 'an'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q114",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ________ Eltern ich kenne, wohnt neben uns.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "die"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, neuter (refers to 'das Kind'). Whose parents? → dessen. Common trap: confusing 'dessen' (masculine/neuter) with 'deren' (feminine/plural). 'Das Kind' (neuter) → dessen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q115",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Kollege, mit ________ ich das Projekt besprochen habe, ist im Meeting.",
+      "options": [
+        "dem",
+        "der",
+        "den",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The preposition 'mit' requires Dativ. 'Der Kollege' in Dativ is 'dem'. Common trap: using 'der' (Nominativ) without considering the preposition's case requirement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q116",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Schüler, ________ die Hausaufgaben korrigiert ________, haben gute Noten.",
+      "options": [
+        "deren / worden sind",
+        "die / worden ist",
+        "denen / worden sind",
+        "deren / worden ist"
+      ],
+      "correctAnswer": "deren / worden sind",
+      "explanation": "deren / worden sind — Genitive, plural + Passiv. 'Deren' refers to 'die Schüler' (plural genitive). 'Korrigiert worden sind' = have been corrected (Perfekt Passiv). Common trap: using 'die' (nominative) instead of 'deren' (genitive).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q117",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, __________________, spricht vier Sprachen.",
+      "options": [
+        "deren Mann Arzt ist",
+        "dessen Mann Arzt ist",
+        "der Mann Arzt ist",
+        "sie Mann Arzt hat"
+      ],
+      "correctAnswer": "deren Mann Arzt ist",
+      "explanation": "deren Mann Arzt ist — Genitive, feminine. 'Die Frau' (feminine) in genitive is 'deren'. The man's doctor is... wait: 'deren Mann' = 'the woman's husband' (her husband). Whose husband? → deren. The structure: Die Frau, deren Mann Arzt ist (the woman whose husband is a doctor).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q118",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt, an ________ wir arbeiten, ist sehr interessant.",
+      "options": [
+        "dem",
+        "das",
+        "der",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, neuter. The verb 'arbeiten an + Dativ' requires Dativ. 'Das Projekt' in Dativ is 'dem' → 'an dem wir arbeiten'. Note: in colloquial German, 'woan' is sometimes used but is not standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q119",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Aufgabe, __________________, muss bis Freitag abgeschlossen werden.",
+      "options": [
+        "die ich zu erledigen habe",
+        "der ich zu erledigen habe",
+        "dem ich zu erledigen habe",
+        "worüber ich zu erledigen habe"
+      ],
+      "correctAnswer": "die ich zu erledigen habe",
+      "explanation": "die ich zu erledigen habe — Akkusativ, feminine. Infinitiv mit zu after a noun of task/work: 'die Aufgabe zu erledigen' (the task to complete). 'Die Aufgabe' (feminine) in Akkusativ is 'die'. The modal construction 'zu erledigen habe' = have to complete.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q120",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand, ________ ich vertraue, hat mich enttäuscht.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine (after 'Niemand', which is grammatically masculine). The verb 'vertrauen' requires Dativ. Note: 'Niemand' takes the relative pronoun corresponding to its grammatical gender (masculine), even though it refers to no person in particular.",
+      "difficulty": "hard"
     }
   ],
   "description": "Relativsätze (relative clauses) are subordinate clauses that describe or provide additional information about a noun (antecedent). The relative pronoun replaces the noun and must agree with it in gender, number, and case — while the case is also determined by the preposition or verb inside the relative clause.",
-  "tips": "KEY RULES:\n1. Determine the case in 3 steps:\n   Step 1: Identify the antecedent's gender and number (der, die, das; die plural).\n   Step 2: Find the role of the relative clause (verb with preposition, or just the relative pronoun as subject/object).\n   Step 3: Combine: the relative pronoun takes the case from its role inside the clause, but matches gender/number of the antecedent.\n\n2. Relative Pronouns by Case:\n   - Nominativ: der / die / das / die (plural)\n   - Akkusativ: den / die / das / die (plural)\n   - Dativ: dem / der / dem / denen (plural)\n   - Genitiv: dessen / deren / dessen / deren (plural)\n\n3. Preposition + Relative Pronoun: The preposition determines the case, the antecedent determines gender/number.\n   Example: warten auf + Akkusativ → Der Bus, auf den ich warte (der Bus = maskulin, auf + Akkusativ = den).\n\n4. 'was' after indefinite pronouns: After Alles, Etwas, Nichts, and superlatives (das Schönste), use 'was'.\n   Example: Alles, was ich weiß, ist Geheimnis.\n\n5. 'wo(r)-' compounds: After indefinite antecedents (das, alles, nichts, etwas), use wo(r)- + preposition.\n   Example: Er hat mir geholfen, wofür ich ihm danke.\n   ⚠️ Do NOT use wo(r)- for people!\n   Correct: Der Mann, auf den ich warte. ❌ NOT: Der Mann, worauf ich warte.\n\n6. Genitive: dessen (masculine/neuter) and deren (feminine/plural) show possession.\n   Example: Die Frau, deren Auto gestohlen wurde, hat Anzeige erstattet.\n\nCOMMON TRAPS:\n- Confusing Dativ and Akkusativ with two-way prepositions (an, auf, in, über, unter, vor): always check the verb's requirement.\n- Using 'wo-' for people: wo- is ONLY for things, abstract concepts, or the entire previous clause.\n- Mixing up 'dessen' and 'deren': dessen = masculine/neuter singular; deren = feminine/plural.\n- Forgetting that 'denen' is the only plural form in Dativ (not 'die').\n- After superlatives: always use 'was', never 'das' or 'der/die/das'."
+  "tips": "KEY RULES:\n1. Determine the case in 3 steps:\n   Step 1: Identify the antecedent's gender and number (der, die, das; die plural).\n   Step 2: Find the role of the relative clause (verb with preposition, or just the relative pronoun as subject/object).\n   Step 3: Combine: the relative pronoun takes the case from its role inside the clause, but matches gender/number of the antecedent.\n\n2. Relative Pronouns by Case:\n   - Nominativ: der / die / das / die (plural)\n   - Akkusativ: den / die / das / die (plural)\n   - Dativ: dem / der / dem / denen (plural)\n   - Genitiv: dessen / deren / dessen / deren (plural)\n\n3. Preposition + Relative Pronoun: The preposition determines the case, the antecedent determines gender/number.\n   Example: warten auf + Akkusativ → Der Bus, auf den ich warte (der Bus = maskulin, auf + Akkusativ = den).\n\n4. 'was' after indefinite pronouns: After Alles, Etwas, Nichts, and superlatives (das Schönste), use 'was'.\n   Example: Alles, was ich weiß, ist Geheimnis.\n\n5. 'wo(r)-' compounds: After indefinite antecedents (das, alles, nichts, etwas), use wo(r)- + preposition.\n   Example: Er hat mir geholfen, wofür ich ihm danke.\n   ⚠️ Do NOT use wo(r)- for people!\n   Correct: Der Mann, auf den ich warte. ❌ NOT: Der Mann, worauf ich warte.\n\n6. Genitive: dessen (masculine/neuter) and deren (feminine/plural) show possession.\n   Example: Die Frau, deren Auto gestohlen wurde, hat Anzeige erstattet.\n\n7. Relativsätze + Infinitiv mit zu: After nouns like Zeit, Möglichkeit, Aufgabe, use 'zu + Infinitiv'.\n   Example: Ich habe keine Zeit, die Unterlagen zu prüfen. / Die Unterlagen, die ich zu prüfen habe.\n\n8. Passiv in Relativsätzen: The participle is placed at the end.\n   Example: Der Bericht, der gestern erstellt wurde, liegt vor.\n   Plusquamperfekt Passiv: Die Entscheidung, die getroffen worden war...\n\nCOMMON TRAPS:\n- Confusing Dativ and Akkusativ with two-way prepositions (an, auf, in, über, unter, vor): always check the verb's requirement.\n- Using 'wo-' for people: wo- is ONLY for things, abstract concepts, or the entire previous clause.\n- Mixing up 'dessen' and 'deren': dessen = masculine/neuter singular; deren = feminine/plural.\n- Forgetting that 'denen' is the only plural form in Dativ (not 'die').\n- After superlatives: always use 'was', never 'das' or 'der/die/das'.\n- After 'Niemand': use masculine forms (dem, den, der) even though it refers to no specific person.\n- For 'Grund' (reason): use 'warum', 'weshalb', or 'aus dem Grund' — NOT 'auf dem'.\n- After definite nouns (das Buch): use 'das', NOT 'was'. 'was' is only for indefinite pronouns.\n- The verb 'helfen' takes Dativ: 'Der Mann, dem ich helfe...' (NOT 'den').\n- The verb 'vertrauen' takes Dativ: 'Der Mann, dem ich vertraue...' (NOT 'den')."
 }
