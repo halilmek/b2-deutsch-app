@@ -52,9 +52,11 @@ class SubjectDetailFragment : Fragment() {
         Log.d("SubjectDetail", "🎬 setupUI — subjectName=$subjectName")
         binding.tvSubjectTitle.text = subjectName
 
-        // Back button
+        // Back button — pass level to preserve in SubjectList
         binding.btnBack.setOnClickListener {
-            Log.d("SubjectDetail", "🔙 Back pressed")
+            val bundle = Bundle().apply {
+                putString("level", subjectLevel)
+            }
             findNavController().navigateUp()
         }
 

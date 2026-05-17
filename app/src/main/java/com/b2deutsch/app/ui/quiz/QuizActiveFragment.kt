@@ -228,6 +228,7 @@ class QuizActiveFragment : Fragment() {
                 val bundle = Bundle().apply {
                     putString("quizId", arguments?.getString("quizId"))
                     putString("subjectId", arguments?.getString("subjectId"))
+                    putString("level", arguments?.getString("level") ?: "B2")
                     putInt("score", it.score)
                     putBoolean("passed", it.passed)
                     putInt("correct", it.correctAnswers)

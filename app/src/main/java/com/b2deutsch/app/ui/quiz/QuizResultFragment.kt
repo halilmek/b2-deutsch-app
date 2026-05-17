@@ -81,7 +81,11 @@ class QuizResultFragment : Fragment() {
         }
 
         binding.btnBackToSubjects.setOnClickListener {
-            findNavController().navigate(R.id.action_result_to_subjectList)
+            val level = arguments?.getString("level") ?: "B2"
+            val bundle = Bundle().apply {
+                putString("level", level)
+            }
+            findNavController().navigate(R.id.action_result_to_subjectList, bundle)
         }
     }
 
