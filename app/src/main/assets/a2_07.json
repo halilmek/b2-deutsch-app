@@ -3,7 +3,7 @@
   "subjectId": "a2_07",
   "topicName": "Imperativ",
   "level": "A2",
-  "totalQuestions": 100,
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "a2_07_q001",
@@ -2003,6 +2003,406 @@
       ],
       "correctAnswer": "Treffen wir uns!",
       "explanation": "wir-form of reflexive verb 'sich treffen': 'Treffen wir uns!' (Let's meet!). For ihr: 'Trefft euch!'. For Sie: 'Treffen Sie sich!'. For du: 'Triff dich!' (but 'sich treffen' is more common for du too).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_07_q101",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie doch bitte etwas leiser sprechen, damit die anderen Gäste nicht gestört ________!",
+      "options": [
+        "Würden / werden",
+        "Werden / werden",
+        "Würden / würden",
+        "Werden / würden"
+      ],
+      "correctAnswer": "Würden / werden",
+      "explanation": "Polite request with Konjunktiv II: 'Würden Sie...sprechen?' (Would you please speak...). Passive infinitive: 'gestört werden' (to be disturbed). The sentence means: Would you please speak a bit more quietly so that the other guests aren't disturbed?",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_07_q102",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir uns doch endlich ________ dieser sinnlosen Diskussion!",
+      "options": [
+        "Beeilen / mit",
+        "Beeilen wir / mit",
+        "Beeilen wir uns / mit",
+        "Beeilen uns / über"
+      ],
+      "correctAnswer": "Beeilen wir uns / mit",
+      "explanation": "Reflexive wir-Imperativ: 'Beeilen wir uns mit...' (Let's hurry up with...). The verb 'sich beeilen' (to hurry) is reflexive. For wir-form: verb stem + 'wir uns'. The preposition 'mit' goes with 'sich beeilen mit' (to hurry with something).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_07_q103",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ dich nicht ________ von solchen Gerüchten verunsichern!",
+      "options": [
+        "Lass /",
+        "Lasse /",
+        "Lasst /",
+        "Lassen /"
+      ],
+      "correctAnswer": "Lass /",
+      "explanation": "'Lass' + Infinitive (Ersatzinfinitiv): 'Lass dich nicht verunsichern!' (Don't let yourself be unsettled by such rumors!). The du-Imperativ of 'lassen' is 'lass' (irregular, NOT 'lasse'). The pattern: lassen + Infinitive (not past participle).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q104",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie sich bitte ________, dass alle Unterlagen vollständig sind, bevor Sie den Antrag absenden!",
+      "options": [
+        "Vergewissern / davon",
+        "Vergewissern Sie sich / davon",
+        "Vergewissern Sie / darüber",
+        "Vergewissern Sie sich / darüber"
+      ],
+      "correctAnswer": "Vergewissern Sie sich / davon",
+      "explanation": "Reflexive Sie-Imperativ + 'davon': 'Vergewissern Sie sich davon, dass...' (Please make sure that...). The verb 'sich vergewissern' (to make sure) takes the pronominal adverb 'davon' with a 'dass' clause. For wir: 'Vergewissern wir uns davon, dass...'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q105",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir doch endlich ________, was eigentlich passiert ist!",
+      "options": [
+        "Überlegen / uns",
+        "Überlegen wir uns /",
+        "Überlegen wir uns /",
+        "Überlegen uns /"
+      ],
+      "correctAnswer": "Überlegen wir uns /",
+      "explanation": "Reflexive wir-Imperativ: 'Überlegen wir uns...' (Let's think about...). The verb 'sich überlegen' (to think about/consider) is reflexive. Wir-form: verb stem + 'wir uns' (pronoun after verb). No preposition needed with 'überlegen' in this context.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_07_q106",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ ihr euch bitte ________, pünktlich zu erscheinen!",
+      "options": [
+        "Bemüht / darum",
+        "Bemüht euch / darum",
+        "Bemüht euch / dafür",
+        "Bemüht / dafür"
+      ],
+      "correctAnswer": "Bemüht euch / darum",
+      "explanation": "Reflexive ihr-Imperativ + 'darum': 'Bemüht euch darum...' (Make an effort to...). The verb 'sich bemühen' (to make an effort) takes the preposition 'um' + accusative → 'sich bemühen um'. The pronominal adverb is 'darum'. For Sie: 'Bemühen Sie sich darum...'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q107",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie doch nicht so ________, als ob Sie nichts wüssten!",
+      "options": [
+        "Tun /",
+        "Tu /",
+        "Tut /",
+        "Tuen /"
+      ],
+      "correctAnswer": "Tun /",
+      "explanation": "Sie-Imperativ of 'tun': 'Tun Sie nicht so...' (Don't act as if...). The phrase 'so tun als ob' (to act as if) uses the Sie-Imperativ of 'tun'. The 'als ob' clause requires Konjunktiv II: 'als ob Sie nichts wüssten' (as if you didn't know anything).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q108",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir uns doch ________, dass wir diese Chance nicht ungenutzt lassen!",
+      "options": [
+        "Einigen / darauf",
+        "Einigen wir uns / darauf",
+        "Einigen wir / darauf",
+        "Einigen uns / darauf"
+      ],
+      "correctAnswer": "Einigen wir uns / darauf",
+      "explanation": "Reflexive wir-Imperativ + 'darauf': 'Einigen wir uns darauf...' (Let's agree on the fact that...). The verb 'sich einigen auf' (to agree on) takes the preposition 'auf' + accusative → 'sich einigen auf'. The pronominal adverb is 'darauf'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q109",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ dich bloß nicht ________ von ihm aus der Ruhe bringen!",
+      "options": [
+        "Lass /",
+        "Lasse /",
+        "Lasst /",
+        "Lassen /"
+      ],
+      "correctAnswer": "Lass /",
+      "explanation": "'Lass' + Infinitive: 'Lass dich nicht von ihm aus der Ruhe bringen!' (Don't let him disturb your peace!). The du-Imperativ of 'lassen' is 'lass'. The construction: lassen + Infinitive (not past participle) = to let/allow something to happen. 'Aus der Ruhe bringen' = to unsettle/disturb.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q110",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie bitte ________, ob der Termin noch besteht!",
+      "options": [
+        "Vergewissern Sie sich /",
+        "Vergewissern Sie /",
+        "Vergewissern /",
+        "Vergewissern Sie sich davon /"
+      ],
+      "correctAnswer": "Vergewissern Sie sich /",
+      "explanation": "Reflexive Sie-Imperativ: 'Vergewissern Sie sich, ob...' (Please make sure whether...). The verb 'sich vergewissern' (to make sure) can take an 'ob' clause (whether). With an 'ob' clause, no pronominal adverb ('davon') is needed — only with 'dass' clauses.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q111",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir doch einfach ________, was der nächste Schritt sein könnte!",
+      "options": [
+        "Überlegen /",
+        "Überlegen wir /",
+        "Überlegen wir uns /",
+        "Überlegen uns /"
+      ],
+      "correctAnswer": "Überlegen wir uns /",
+      "explanation": "Reflexive wir-Imperativ: 'Überlegen wir uns...' (Let's simply think about what the next step could be). The verb 'sich überlegen' (to consider/think about) is reflexive. Wir-form: 'Überlegen wir uns!'. The 'was' clause is the object of 'sich überlegen'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_07_q112",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ ihr euch doch mal ________, wie das alles enden soll!",
+      "options": [
+        "Fragt /",
+        "Fragt euch /",
+        "Fragt euch / darüber",
+        "Fragt / darüber"
+      ],
+      "correctAnswer": "Fragt euch /",
+      "explanation": "Reflexive ihr-Imperativ: 'Fragt euch...' (Ask yourselves...). The verb 'sich fragen' (to wonder/ask oneself) is reflexive. Ihr-form: 'Fragt euch, wie...' The 'wie' clause is the object. No preposition needed with 'sich fragen'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q113",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie sich bitte nicht ________, wenn Sie Fragen haben!",
+      "options": [
+        "Zögern /",
+        "Zögern Sie /",
+        "Zögern Sie sich /",
+        "Zögern Sie / sich"
+      ],
+      "correctAnswer": "Zögern Sie /",
+      "explanation": "'Zögern' is NOT reflexive! Sie-Imperativ: 'Zögern Sie nicht...' (Don't hesitate...). Many learners incorrectly add 'sich' because 'zögern' SOUNDS like it might be reflexive, but it is a regular verb without reflexive pronoun.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q114",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir doch mal ________, ob das wirklich notwendig ist!",
+      "options": [
+        "Prüfen /",
+        "Prüfen wir /",
+        "Prüfen wir uns /",
+        "Prüfen uns /"
+      ],
+      "correctAnswer": "Prüfen wir /",
+      "explanation": "'Prüfen' is NOT reflexive! Wir-Imperativ: 'Prüfen wir...' (Let's check whether...). The verb 'prüfen' (to check/test) is a regular transitive verb without reflexive pronoun. 'Ob' introduces an indirect question.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q115",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ dich doch nicht ________ von solchen Kleinigkeiten stressen!",
+      "options": [
+        "Lass /",
+        "Lasse /",
+        "Lasst /",
+        "Lassen /"
+      ],
+      "correctAnswer": "Lass /",
+      "explanation": "'Lass' + Infinitive: 'Lass dich nicht von solchen Kleinigkeiten stressen!' (Don't let yourself be stressed by such small things!). The du-Imperativ of 'lassen' is 'lass' (irregular). Pattern: lassen + Infinitive (Ersatzinfinitiv), not past participle.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q116",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie doch bitte ________, dass alle Teilnehmer rechtzeitig informiert ________!",
+      "options": [
+        "Sorgen Sie dafür / werden",
+        "Sorgen Sie / werden",
+        "Sorgen Sie dafür / würden",
+        "Sorgen dafür / werden"
+      ],
+      "correctAnswer": "Sorgen Sie dafür / werden",
+      "explanation": "Sie-Imperativ + 'dafür sorgen' + passive: 'Sorgen Sie dafür, dass alle Teilnehmer rechtzeitig informiert werden!' (Please make sure that all participants are informed in time!). The verb 'sorgen für' requires the pronominal adverb 'dafür'. The 'dass' clause uses Passiv Präsens.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q117",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir uns doch ________, dass wir unser Ziel nicht aus den Augen verlieren!",
+      "options": [
+        "Vergewissern /",
+        "Vergewissern wir uns /",
+        "Vergewissern wir /",
+        "Vergewissern uns /"
+      ],
+      "correctAnswer": "Vergewissern wir uns /",
+      "explanation": "Reflexive wir-Imperativ: 'Vergewissern wir uns, dass...' (Let's make sure that...). The verb 'sich vergewissern' (to make sure) is reflexive. Wir-form: 'Vergewissern wir uns!' With a 'dass' clause, 'davon' is used: 'Vergewissern wir uns davon, dass...'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q118",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ ihr euch bitte ________, die Unterlagen bis Freitag einzureichen!",
+      "options": [
+        "Bemüht / darum",
+        "Bemüht euch / darum",
+        "Bemüht euch / dafür",
+        "Bemüht / dafür"
+      ],
+      "correctAnswer": "Bemüht euch / darum",
+      "explanation": "Reflexive ihr-Imperativ + 'darum': 'Bemüht euch darum...' (Make an effort to submit the documents by Friday!). The verb 'sich bemühen um' (to make an effort for) takes the preposition 'um' → 'darum' in pronominal form. Sie: 'Bemühen Sie sich darum...'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q119",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie doch nicht so, als ________ Sie keine andere Wahl ________!",
+      "options": [
+        "Tun / hätten /",
+        "Tu / hättest /",
+        "Tut / hättet /",
+        "Tuen / haben /"
+      ],
+      "correctAnswer": "Tun / hätten /",
+      "explanation": "Sie-Imperativ of 'tun' + Konjunktiv II: 'Tun Sie nicht so, als hätten Sie keine andere Wahl!' (Don't act as if you had no other choice!). The phrase 'so tun als ob' uses Konjunktiv II in the 'als ob' clause. 'Hätten' is Konjunktiv II of 'haben'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_07_q120",
+      "subjectId": "a2_07",
+      "topicId": "a2_07",
+      "topicName": "Imperativ",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir doch mal ________, wie wir das Problem gemeinsam lösen können!",
+      "options": [
+        "Überlegen /",
+        "Überlegen wir /",
+        "Überlegen wir uns /",
+        "Überlegen uns /"
+      ],
+      "correctAnswer": "Überlegen wir uns /",
+      "explanation": "Reflexive wir-Imperativ: 'Überlegen wir uns...' (Let's think about how we can solve the problem together!). The verb 'sich überlegen' (to consider) is reflexive. Wir-form: 'Überlegen wir uns!' The 'wie' clause is the object of the reflexive verb.",
       "difficulty": "medium"
     }
   ],
