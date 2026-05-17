@@ -3,7 +3,7 @@
   "subjectId": "b1_01",
   "topicName": "Nebensätze",
   "level": "B1",
-  "totalQuestions": 60,
+  "totalQuestions": 76,
   "description": "Nebensätze (subordinate clauses) are dependent clauses that cannot stand alone and must be attached to a main clause. They are introduced by subordinating conjunctions: dass (content clause), ob (indirect yes/no question), weil (reason/because), obwohl (concession/although), damit (purpose/so that), bevor (before), als (when — single past event), wenn (when — repeated/habitual or conditional). The verb in a Nebensatz always goes to the END of the clause.\n\nKey distinction: obwohl (although) expresses a contrast where the outcome contradicts expectation. Damit is used when the subject changes (purpose with different subject); when the subject stays the same, um...zu is preferred. Weil and denn are often confused — weil requires the verb at the end in written German, while denn keeps normal word order (verb in position 2).",
   "tips": [
     "dass — Content clause (İçerik cümlesi): verb goes to the end. If placed at the beginning, separated by comma. Subjects can differ between main and subordinate clause.",
@@ -857,6 +857,230 @@
       "correctAnswer": "ob",
       "explanation": "'Ob' is required because the speaker is uncertain about a yes/no situation.",
       "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q061",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ihn nicht wiedererkannt, ____ er sich so sehr verändert hatte.",
+      "options": [
+        "als",
+        "obwohl",
+        "weil",
+        "damit"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' gives the reason for not recognizing him — he had changed a lot.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q062",
+      "type": "multiple_choice",
+      "questionText": "____ sie schon hundertmal davor gewarnt worden war, hat sie wieder denselben Fehler gemacht.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Bevor"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contrast: she made the same mistake despite being warned many times.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q063",
+      "type": "multiple_choice",
+      "questionText": "Können Sie mir sagen, ____ dieser Zug nach Berlin fährt?",
+      "options": [
+        "dass",
+        "weil",
+        "ob",
+        "als"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is used for indirect yes/no questions (whether this train goes to Berlin).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q064",
+      "type": "multiple_choice",
+      "questionText": "Er hat das Licht angemacht, ____ er besser lesen konnte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "bevor"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses purpose: so that he could read better.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q065",
+      "type": "multiple_choice",
+      "questionText": "____ ich nach Hause kam, klingelte das Telefon.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Ob"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for a single past event (when I came home, the phone rang).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q066",
+      "type": "multiple_choice",
+      "questionText": "____ du das nächste Mal in Berlin bist, kannst du mich gern besuchen.",
+      "options": [
+        "Als",
+        "Bevor",
+        "Wenn",
+        "Obwohl"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' refers to a future or repeated event (next time you are in Berlin).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q067",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ____ er die Wahrheit gesagt hat oder nicht.",
+      "options": [
+        "dass",
+        "ob",
+        "als",
+        "weil"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is needed for an indirect alternative question (whether he told the truth or not).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q068",
+      "type": "multiple_choice",
+      "questionText": "Der Vortrag wurde sehr anschaulich erklärt, ____ viele Zuhörer keine Fachleute waren.",
+      "options": [
+        "obwohl",
+        "weil",
+        "als",
+        "damit"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' shows contrast: the lecture was clear even though many listeners were not experts.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q069",
+      "type": "multiple_choice",
+      "questionText": "Wir sollten uns beeilen, ____ der Zug abfährt.",
+      "options": [
+        "bevor",
+        "damit",
+        "obwohl",
+        "als"
+      ],
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' expresses time sequence: we should hurry before the train leaves.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q070",
+      "type": "multiple_choice",
+      "questionText": "Er gab mir einen Tipp, ____ ich die Prüfung besser bestehen würde.",
+      "options": [
+        "weil",
+        "als",
+        "damit",
+        "ob"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' indicates purpose: so that I would pass the exam better.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q071",
+      "type": "multiple_choice",
+      "questionText": "Ich habe erst gemerkt, ____ ich meinen Geldbeutel vergessen hatte, ____ ich bezahlen wollte.",
+      "options": [
+        "dass / als",
+        "ob / wenn",
+        "weil / bevor",
+        "damit / obwohl"
+      ],
+      "correctAnswer": "dass / als",
+      "explanation": "First gap: 'dass' for a fact (that I had forgotten my wallet). Second gap: 'als' for a single past event (when I wanted to pay).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q072",
+      "type": "multiple_choice",
+      "questionText": "____ du ihn damals gefragt hast, war er sehr überrascht.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Ob",
+        "Bevor"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "'Als' refers to a specific point in the past (when you asked him back then). 'Wenn' would be incorrect for a one-time past event.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q073",
+      "type": "multiple_choice",
+      "questionText": "Du sollst zuerst die Hausaufgaben machen, ____ du fernsehen darfst.",
+      "options": [
+        "bevor",
+        "damit",
+        "obwohl",
+        "als"
+      ],
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' expresses temporal order: first homework, then TV.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q074",
+      "type": "multiple_choice",
+      "questionText": "Es ist wichtig, ____ du pünktlich kommst.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'Dass' introduces a noun clause (that you arrive on time).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q075",
+      "type": "multiple_choice",
+      "questionText": "____ du ihn triffst, sag ihm bitte, dass ich anrufen werde.",
+      "options": [
+        "Als",
+        "Wenn",
+        "Bevor",
+        "Ob"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' for a future or repeated condition (whenever/if you meet him).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q076",
+      "type": "multiple_choice",
+      "questionText": "Ich frage mich, ____ er wohl recht haben mag.",
+      "options": [
+        "dass",
+        "ob",
+        "als",
+        "damit"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' introduces an indirect question (I wonder whether he might be right).",
+      "difficulty": "medium"
     }
   ]
 }
