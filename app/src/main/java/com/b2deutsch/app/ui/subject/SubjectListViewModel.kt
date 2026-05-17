@@ -37,7 +37,7 @@ class SubjectListViewModel @Inject constructor(
     private val _selectedSubject = MutableLiveData<Subject?>()
     val selectedSubject: LiveData<Subject?> = _selectedSubject
 
-    private fun loadSubjectsForLevel(level: String) {
+    fun loadSubjectsForLevel(level: String) {
         viewModelScope.launch {
             _isLoading.value = true
 
