@@ -3,7 +3,7 @@
   "subjectId": "b1_03",
   "topicName": "Passiv",
   "level": "B1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "German Passive (Passiv) shifts focus from the agent to the action or its result. Two main types: Vorgangspassiv (process passive) using werden + Partizip II, and Zustandspassiv (state passive) using sein + Partizip II. Passive alternatives include sich lassen + Infinitiv, sein + zu + Infinitiv, and -bar/-lich/-ig adjectives.\n\nKey structures:\n- Vorgangspassiv Prasens: wird/werden + P.II — ongoing or habitual action. Agent optional with 'von + Dativ'.\n- Vorgangspassiv Prateritum: wurde/wurden + P.II — completed past action. Most common in written German.\n- Vorgangspassiv Perfekt: ist/sind + P.II + geworden — WRONG! Use: ist/sind + P.II + worden (NOT geworden).\n- Vorgangspassiv Plusquamperfekt: war/waren + P.II + worden — action completed before another past event.\n- Vorgangspassiv Futur I: wird + P.II + werden — 'werden' appears twice (conjugated + infinitive).\n- Zustandspassiv: ist/war + P.II WITHOUT worden — describes a resulting state, NOT an action.\n- Unpersonliches Passiv: Es wird + P.II — intransitive verbs only; 'Es' drops when another element leads.\n- Modalverb + Passiv: Modalverb + P.II + werden — 'werden' stays as infinitive. Perfekt: P.II + worden sein.\n- Passiv Indirekte Rede: Konjunktiv I of sein (sei/seien) + P.II + worden — for reported passive speech.",
   "tips": [
     "Vorgangspassiv Prasens: wird + Partizip II — 'Das Haus wird gebaut.' (ongoing action). Agent: 'von + Dativ' (von dem Arbeiter).",
@@ -857,6 +857,286 @@
       "correctAnswer": "können",
       "explanation": "Passive with modal verbs uses the modal as the conjugated verb.",
       "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q081",
+      "type": "multiple_choice",
+      "questionText": "Die Altstadt ____ jedes Jahr von tausenden Touristen besucht.",
+      "options": [
+        "wird",
+        "ist",
+        "wurde",
+        "wird worden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Present tense passive (Vorgangspassiv): 'wird besucht' — The old town is visited by thousands of tourists every year.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q082",
+      "type": "multiple_choice",
+      "questionText": "Der Brief ____ gestern endlich abgeschickt.",
+      "options": [
+        "ist",
+        "wird",
+        "wurde",
+        "worden ist"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Simple past passive (Prateritum Passiv): 'wurde abgeschickt' — The letter was finally sent yesterday.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q083",
+      "type": "multiple_choice",
+      "questionText": "Das Essen ____ bereits zubereitet ____.",
+      "options": [
+        "ist / worden",
+        "wurde / werden",
+        "wird / gewesen",
+        "hat / geworden"
+      ],
+      "correctAnswer": "ist / worden",
+      "explanation": "Present perfect passive (Perfekt Passiv): 'ist zubereitet worden' — The food has already been prepared.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q084",
+      "type": "multiple_choice",
+      "questionText": "Die Tür ____ geschlossen. Man kann sie nicht öffnen.",
+      "options": [
+        "ist",
+        "wird",
+        "wurde",
+        "sein"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Zustandspassiv (static passive): 'ist geschlossen' — The door is closed (state result).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q085",
+      "type": "multiple_choice",
+      "questionText": "Dieser Text ____ in drei Sprachen übersetzt werden können.",
+      "options": [
+        "kann",
+        "muss",
+        "wird",
+        "ist"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "Passive with modal verb: 'kann ubersetzt werden' — This text can be translated into three languages.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q086",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt ____ bis nächste Woche fertiggestellt sein.",
+      "options": [
+        "wird",
+        "muss",
+        "kann",
+        "soll"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "Passive with 'mussen' (obligation): 'muss fertiggestellt sein' — The project must be finished by next week.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q087",
+      "type": "multiple_choice",
+      "questionText": "In dieser Fabrik ____ rund um die Uhr gearbeitet.",
+      "options": [
+        "wird",
+        "ist",
+        "hat",
+        "wurde"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Impersonal passive (no direct object): 'Es wird gearbeitet' (here without 'es' because of inverted order) — Work is done around the clock in this factory.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q088",
+      "type": "multiple_choice",
+      "questionText": "Der Täter ____ von der Polizei noch nicht gefasst ____.",
+      "options": [
+        "hat / worden",
+        "ist / worden",
+        "wurde / worden",
+        "wird / gewesen"
+      ],
+      "correctAnswer": "ist / worden",
+      "explanation": "Present perfect passive: 'ist gefasst worden' — The perpetrator has not been caught yet by the police.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q089",
+      "type": "multiple_choice",
+      "questionText": "Die Brücke ____ im letzten Jahr zerstört, aber jetzt ____ sie schon wieder aufgebaut.",
+      "options": [
+        "wurde / wird",
+        "ist / wurde",
+        "wird / ist",
+        "wurde / ist"
+      ],
+      "correctAnswer": "wurde / wird",
+      "explanation": "First past passive (wurde zerstort), then present passive (wird aufgebaut) — The bridge was destroyed last year, but it is already being rebuilt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q090",
+      "type": "multiple_choice",
+      "questionText": "Der Brief ____ geschrieben, aber noch nicht verschickt.",
+      "options": [
+        "ist",
+        "wird",
+        "wurde",
+        "hat"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Zustandspassiv: 'ist geschrieben' — The letter is written (but not yet sent), describing the state.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q091",
+      "type": "multiple_choice",
+      "questionText": "Man ____ ihm bei der Arbeit helfen. (Replace 'man' with passive)",
+      "options": [
+        "Es wird ihm geholfen",
+        "Er wird ihm geholfen",
+        "Ihm wird geholfen",
+        "Ihm ist geholfen"
+      ],
+      "correctAnswer": "Ihm wird geholfen",
+      "explanation": "Impersonal passive with dative object: 'Ihm wird geholfen' (no 'es' needed when the dative object comes first) — He is helped with the work.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q092",
+      "type": "multiple_choice",
+      "questionText": "Das Problem ____ leider nicht rechtzeitig gelöst werden können.",
+      "options": [
+        "kann",
+        "hat",
+        "ist",
+        "wird"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "Passive with modal in present: 'kann ... gelost werden' — The problem unfortunately cannot be solved in time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q093",
+      "type": "multiple_choice",
+      "questionText": "Das Haus ____ schon letztes Jahr verkauft ____.",
+      "options": [
+        "wurde / worden",
+        "ist / geworden",
+        "hat / geworden",
+        "war / worden"
+      ],
+      "correctAnswer": "war / worden",
+      "explanation": "Past perfect passive (Plusquamperfekt Passiv): 'war verkauft worden' — The house had already been sold last year.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q094",
+      "type": "multiple_choice",
+      "questionText": "Dieses Buch ____ sich leicht lesen. (Alternative passive)",
+      "options": [
+        "lasst",
+        "ist",
+        "wird",
+        "kann"
+      ],
+      "correctAnswer": "lasst",
+      "explanation": "'sich lassen + Infinitiv' as a passive alternative: 'lasst sich leicht lesen' — This book can be read easily / is easy to read.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q095",
+      "type": "multiple_choice",
+      "questionText": "Im Wartezimmer ____ nicht geraucht werden.",
+      "options": [
+        "darf",
+        "kann",
+        "muss",
+        "soll"
+      ],
+      "correctAnswer": "darf",
+      "explanation": "Passive with modal 'durfen' expressing prohibition: 'darf nicht geraucht werden' — Smoking is not allowed in the waiting room.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q096",
+      "type": "multiple_choice",
+      "questionText": "Als das Feuer entdeckt wurde, ____ die Feuerwehr schon alarmiert ____.",
+      "options": [
+        "ist / worden",
+        "wurde / worden",
+        "war / worden",
+        "hatte / worden"
+      ],
+      "correctAnswer": "war / worden",
+      "explanation": "Past perfect passive (Plusquamperfekt Passiv): 'war alarmiert worden' — When the fire was discovered, the fire brigade had already been alerted.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q097",
+      "type": "multiple_choice",
+      "questionText": "Die Bewerbung ____ bis morgen eingereicht sein.",
+      "options": [
+        "muss",
+        "kann",
+        "soll",
+        "wird"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "Passive with 'mussen' expressing deadline obligation: 'muss eingereicht sein' — The application must be submitted by tomorrow.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q098",
+      "type": "multiple_choice",
+      "questionText": "Nach dem Konzert ____ lauter Applaus ____.",
+      "options": [
+        "wurde / geklatscht",
+        "ist / geklatscht worden",
+        "wurde / klatschen",
+        "hat / geklatscht"
+      ],
+      "correctAnswer": "wurde / geklatscht",
+      "explanation": "Impersonal passive in simple past: 'Es wurde geklatscht' (here without 'es') — After the concert, loud applause was heard / people clapped loudly.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q099",
+      "type": "multiple_choice",
+      "questionText": "Darüber ____ noch diskutiert werden müssen.",
+      "options": [
+        "muss",
+        "wird",
+        "hat",
+        "kann"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Future passive (Futur Passiv): 'wird diskutiert werden mussen' — That will have to be discussed further.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q100",
+      "type": "multiple_choice",
+      "questionText": "Alle Fenster ____ geöffnet, weil es so stickig war.",
+      "options": [
+        "waren",
+        "wurden",
+        "sind",
+        "hatten"
+      ],
+      "correctAnswer": "waren",
+      "explanation": "Zustandspassiv in past tense: 'waren geoffnet' — All windows were open (state) because it was so stuffy.",
+      "difficulty": "medium"
     }
   ]
 }
