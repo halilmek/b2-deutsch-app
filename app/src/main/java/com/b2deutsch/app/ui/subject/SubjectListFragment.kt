@@ -78,12 +78,13 @@ class SubjectListFragment : Fragment() {
                 findNavController().navigate(R.id.action_subjectList_to_quizActive, bundle)
             } else {
                 // Navigate to subject detail (grammar flow)
+                val bundle = Bundle().apply {
+                    putString("subjectId", subject.id)
+                    putString("subjectName", subject.name)
+                    putString("level", currentLevel)
+                }
                 findNavController().navigate(
-                    SubjectListFragmentDirections.actionSubjectListToSubjectDetail(
-                        subjectId = subject.id,
-                        subjectName = subject.name,
-                        level = currentLevel
-                    )
+                    R.id.action_subjectList_to_subjectDetail, bundle
                 )
             }
         }

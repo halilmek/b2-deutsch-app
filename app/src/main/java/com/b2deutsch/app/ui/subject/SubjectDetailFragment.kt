@@ -65,6 +65,7 @@ class SubjectDetailFragment : Fragment() {
             val bundle = Bundle().apply {
                 putString("quizId", "${subjectId}_quiz_1")
                 putString("subjectId", subjectId)
+                putString("level", subjectLevel)
             }
             Log.d("SubjectDetail", "🎮 Starting quiz for subjectId=$subjectId")
             findNavController().navigate(R.id.action_subjectDetail_to_quizActive, bundle)
