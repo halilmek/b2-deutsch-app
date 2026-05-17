@@ -3,7 +3,7 @@
   "subjectId": "a2_05",
   "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
   "level": "A2",
-  "totalQuestions": 100,
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "a2_05_q001",
@@ -2004,6 +2004,406 @@
       "correctAnswer": "weil",
       "explanation": "'weil' (because) gives the reason for not being able to sleep. Being nervous is the cause. 'Als' would be wrong because it cannot express a current/recent reason. 'Dass' and 'ob' don't fit the semantic structure.",
       "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q101",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler betonte, ________ die Ergebnisse der Studie noch nicht endgültig ________ ________ .",
+      "options": [
+        "dass / seien",
+        "ob / sind",
+        "dass / sind",
+        "ob / wären"
+      ],
+      "correctAnswer": "dass / seien",
+      "explanation": "dass + Konjunktiv I (indirect speech): The scientist emphasized that the results have not yet been finalized. 'betonen' (to emphasize) in indirect speech requires Konjunktiv I: seien. 'ob' would be wrong because this is a statement, not a question.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q102",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ er gestern Abend angerufen ________ ________, ________ ich ihm die Neuigkeit erzählen ________ ________ ________ .",
+      "options": [
+        "Wenn / hätte / hätte / können",
+        "Als / hätte / hätte / können",
+        "Wenn / hat / hätte / können",
+        "Als / hätte / habe / können"
+      ],
+      "correctAnswer": "Wenn / hätte / hätte / können",
+      "explanation": "wenn + Konjunktiv II (past unreal condition): If he had called yesterday evening, I would have been able to tell him the news. This is a hypothetical past condition — the call did NOT happen. Pattern: wenn + Plusquamperfekt Konjunktiv II, hätte + Partizip + können.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q103",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ________ ich die Einladung annehmen ________ ________ .",
+      "options": [
+        "dass / soll",
+        "ob / soll",
+        "ob / sollte",
+        "dass / würde"
+      ],
+      "correctAnswer": "ob / sollte",
+      "explanation": "ob + Konjunktiv II (uncertainty): I'm not sure whether I should accept the invitation. 'unsicher' (uncertain) requires 'ob'. The Konjunktiv II 'sollte' expresses polite uncertainty about the right course of action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q104",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ die Firma letztes Jahr in finanzielle Schwierigkeiten ________ ________ ________, musste sie mehrere Standorte schließen.",
+      "options": [
+        "Weil / geraten ist",
+        "Wenn / geraten wäre",
+        "Als / geraten war",
+        "Weil / geraten war"
+      ],
+      "correctAnswer": "Weil / geraten war",
+      "explanation": "weil + Plusquamperfekt (past reason): Because the company had gotten into financial difficulties last year, it had to close several locations. 'geraten in' (to get into) takes sein. Plusquamperfekt shows the difficulty came BEFORE the closing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q105",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Er behauptete, ________ er den Vertrag niemals unterschrieben ________ ________ .",
+      "options": [
+        "dass / habe",
+        "ob / hätte",
+        "dass / hätte",
+        "ob / habe"
+      ],
+      "correctAnswer": "dass / hätte",
+      "explanation": "dass + Konjunktiv II (denial + indirect speech): He claimed that he had never signed the contract. 'behaupten' (to claim) uses Konjunktiv I or II in indirect speech. Since 'hätte' is distinct from Präteritum, Konjunktiv II is used here for emphasis on the denial.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q106",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ ich zum ersten Mal nach Berlin ________ ________ ________, war ich von der Architektur begeistert.",
+      "options": [
+        "Wenn / gefahren bin",
+        "Als / gefahren bin",
+        "Wenn / gefahren war",
+        "Als / gefahren war"
+      ],
+      "correctAnswer": "Als / gefahren bin",
+      "explanation": "als + Perfekt (single past event): When I traveled to Berlin for the first time, I was enthusiastic about the architecture. 'als' is used for a specific one-time moment in the past. The Perfekt with 'sein' is used because 'fahren' involves movement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q107",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Die Kundin beschwerte sich, ________ die Lieferung viel zu spät ________ ________ und beschädigt ________ ________ .",
+      "options": [
+        "dass / angekommen sei / gewesen sei",
+        "ob / angekommen ist / gewesen ist",
+        "dass / angekommen ist / gewesen ist",
+        "ob / angekommen wäre / gewesen wäre"
+      ],
+      "correctAnswer": "dass / angekommen sei / gewesen sei",
+      "explanation": "dass + Konjunktiv I (complaint + indirect speech): The customer complained that the delivery had arrived much too late and had been damaged. 'sich beschweren' (to complain) in indirect speech uses Konjunktiv I: angekommen sei, gewesen sei.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q108",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ du regelmäßig Sport treibst, ________ du dich langfristig gesünder ________ ________ .",
+      "options": [
+        "Wenn / wirst / fühlen",
+        "Wenn / fühlst / werden",
+        "Als / wirst / fühlen",
+        "Weil / fühlst / werden"
+      ],
+      "correctAnswer": "Wenn / wirst / fühlen",
+      "explanation": "wenn + Präsens (future condition): If you exercise regularly, you will feel healthier in the long run. This is a present/future conditional — the condition comes FIRST, then the result. Verb order: wenn-clause has verb-final, then main clause has normal order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q109",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge gab an, ________ er den Unfallhergang genau beobachten ________ ________ .",
+      "options": [
+        "dass / konnte",
+        "ob / könne",
+        "dass / könne",
+        "ob / könnte"
+      ],
+      "correctAnswer": "dass / könne",
+      "explanation": "dass + Konjunktiv I (witness statement + indirect speech): The witness stated that he was able to observe the accident precisely. 'angeben' (to state) in indirect speech uses Konjunktiv I. Since 'können' → 'könne' is distinct from Präteritum, it is the correct Konjunktiv I form.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q110",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ die Regierung die Steuern erhöhen ________ ________, ________ viele Bürger mit Protesten reagieren.",
+      "options": [
+        "Wenn / wird / werden",
+        "Wenn / sollte / würden",
+        "Als / würde / werden",
+        "Weil / sollte / würden"
+      ],
+      "correctAnswer": "Wenn / sollte / würden",
+      "explanation": "wenn + Konjunktiv II (hypothetical future condition): If the government should raise taxes, many citizens would respond with protests. 'sollte' expresses a potential future event. 'würden' in the main clause expresses the hypothetical reaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q111",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Ich erinnere mich noch genau, ________ wir uns zum ersten Mal ________ ________ ________ .",
+      "options": [
+        "dass / getroffen haben",
+        "ob / getroffen haben",
+        "als / getroffen haben",
+        "wenn / getroffen haben"
+      ],
+      "correctAnswer": "als / getroffen haben",
+      "explanation": "als + Perfekt (specific moment in the past): I still remember exactly when we met for the first time. 'als' is used for a specific, one-time moment in the past. 'wenn' would be wrong because 'wenn' is for conditions or repeated events.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q112",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Es ist wichtig, ________ man vor einer Entscheidung alle verfügbaren Informationen ________ ________ .",
+      "options": [
+        "dass / berücksichtigt",
+        "ob / berücksichtigt",
+        "dass / berücksichtigen würde",
+        "ob / berücksichtigen sollte"
+      ],
+      "correctAnswer": "dass / berücksichtigt",
+      "explanation": "dass + Präsens (general recommendation): It is important that one considers all available information before making a decision. This is a general statement/recommendation, not a question, so 'dass' is correct. Verb-final: man berücksichtigt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q113",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ er die Warnungen ignoriert ________ ________, ________ der Unfall vielleicht vermieden ________ ________ ________ ________ .",
+      "options": [
+        "Wenn / hat / wäre / werden",
+        "Wenn / hätte / wäre / werden können",
+        "Als / hätte / wäre / werden können",
+        "Weil / hat / wäre / werden können"
+      ],
+      "correctAnswer": "Wenn / hätte / wäre / werden können",
+      "explanation": "wenn + Plusquamperfekt Konjunktiv II + Passiv (past unreal condition + passive): If he had ignored the warnings, the accident might have been avoided. This is a past hypothetical — the warnings were NOT ignored. Passive: wurde vermieden → wäre vermieden worden → wäre werden können.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q114",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Die Studie zeigt, ________ Menschen, die regelmäßig meditieren, weniger unter Stress ________ ________ .",
+      "options": [
+        "dass / leiden",
+        "ob / leiden",
+        "dass / leiden würden",
+        "ob / leiden würden"
+      ],
+      "correctAnswer": "dass / leiden",
+      "explanation": "dass + Präsens (scientific general statement): The study shows that people who meditate regularly suffer less from stress. This is a general scientific fact, not a question, so 'dass' is correct. Verb-final: weniger unter Stress leiden.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q115",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ ich damals die Möglichkeit ________ ________ ________ ________, ________ ich sie sofort ________ ________ .",
+      "options": [
+        "Wenn / gehabt / hätte / hätte",
+        "Als / gehabt / hätte / hätte",
+        "Wenn / habe / habe / hätte",
+        "Weil / gehabt / hätte / hätte"
+      ],
+      "correctAnswer": "Wenn / gehabt / hätte / hätte",
+      "explanation": "wenn + Plusquamperfekt Konjunktiv II (past unreal condition): If I had had the opportunity back then, I would have used it immediately. This is a past hypothetical — the opportunity was NOT available. Both clauses use Konjunktiv II.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q116",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Man kann nie genau vorhersagen, ________ das Projekt erfolgreich ________ ________ ________ .",
+      "options": [
+        "dass / sein wird",
+        "ob / sein wird",
+        "dass / gewesen sein wird",
+        "ob / gewesen sein würde"
+      ],
+      "correctAnswer": "ob / sein wird",
+      "explanation": "ob + Futur I (future uncertainty): One can never predict exactly whether the project will be successful. This is about a future outcome that is uncertain, not a certainty, so 'ob' is correct. 'dass' would imply certainty about the future, which is impossible.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q117",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ die Konferenz verschoben ________ ________ ________ ________, wurden alle Teilnehmer rechtzeitig informiert.",
+      "options": [
+        "Weil / worden war",
+        "Wenn / worden wäre",
+        "Als / worden ist",
+        "Dass / worden war"
+      ],
+      "correctAnswer": "Weil / worden war",
+      "explanation": "weil + Passiv Plusquamperfekt (past reason + passive): Because the conference had been postponed, all participants were informed in time. The conference being postponed is the REASON for informing participants. 'worden war' is Plusquamperfekt Passiv of 'werden'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q118",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Er fragte sich, ________ es sinnvoll ________ ________ ________, noch länger auf eine Antwort ________ ________ .",
+      "options": [
+        "ob / sei / zu warten",
+        "dass / wäre / warten",
+        "ob / wäre / zu warten",
+        "dass / sei / warten"
+      ],
+      "correctAnswer": "ob / wäre / zu warten",
+      "explanation": "ob + Konjunktiv II + Infinitiv mit zu (doubt + subordinate clause): He wondered whether it would make sense to wait any longer for an answer. 'sich fragen' (to wonder) requires 'ob'. The construction: ob + Konjunktiv II + wäre + zu + Infinitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q119",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ man früh genug mit der Vorbereitung ________ ________ ________, ________ die Prüfung problemlos ________ ________ ________ ________ .",
+      "options": [
+        "Wenn / beginnt / kann / bestanden werden",
+        "Wenn / beginnen würde / könnte / bestanden werden",
+        "Als / beginnt / kann / bestanden werden",
+        "Weil / beginnen würde / könnte / bestanden werden"
+      ],
+      "correctAnswer": "Wenn / beginnen würde / könnte / bestanden werden",
+      "explanation": "wenn + Konjunktiv II + Passiv (hypothetical condition + passive): If one were to start preparing early enough, the exam could be passed without problems. Konjunktiv II 'würde' softens the hypothetical. Passive: könnte bestanden werden.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q120",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Experte warnte davor, ________ man die Risiken dieser Technologie unterschätzen ________ ________ .",
+      "options": [
+        "dass / dürfe",
+        "ob / dürfte",
+        "dass / würde",
+        "ob / dürfe"
+      ],
+      "correctAnswer": "dass / dürfe",
+      "explanation": "dass + Konjunktiv I (warning + indirect speech): The expert warned that one should not underestimate the risks of this technology. 'warnen davor, dass' requires a subordinate clause with 'dass'. In indirect speech, 'dürfen' → 'dürfe' (Konjunktiv I).",
+      "difficulty": "hard"
     }
   ],
   "description": "Nebensätze (Subordinate Clauses) — A2 Level: A subordinate clause (Nebensatz) is a clause that cannot stand alone and depends on a main clause. German subordinate clauses are connected by conjunctions (dass, ob, weil, wenn, als, da) and feature verb-final word order.",
