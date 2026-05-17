@@ -3,7 +3,7 @@
   "subjectId": "b1_02",
   "topicName": "Konjunktiv II",
   "level": "B1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Konjunktiv II (subjunctive mood II) is used to express hypotheses, wishes, politeness, unreal conditions, and indirect speech. It has two main forms: present Konjunktiv II (wäre, hätte, würde, könnte, müsste, dürfte) for unreal present/future conditions, and past Konjunktiv II (wäre/gewesen, hätte/gehabt, würde/geworden) for unreal past conditions. Key uses: irreale Bedingungssätze (unreal conditional sentences), Höfliche Bitten (polite requests), Wünsche (wishes), Vergleichssätze (comparisons with als ob/als wenn).",
   "tips": [
     "Present Konjunktiv II of sein: ich wäre, du wärst, er wäre, wir wären, ihr wärt, sie wären.",
@@ -22,7 +22,12 @@
       "id": "b1_02_q001",
       "type": "multiple_choice",
       "questionText": "Wenn ich gestern rechtzeitig am Bahnhof gewesen ____, ____ ich den letzten Zug nach Köln nicht verpasst.",
-      "options": ["wäre / hätte", "hätte / wäre", "wäre / wäre", "hätte / hätte"],
+      "options": [
+        "wäre / hätte",
+        "hätte / wäre",
+        "wäre / wäre",
+        "hätte / hätte"
+      ],
       "correctAnswer": "wäre / hätte",
       "explanation": "This is an unreal conditional sentence in the past (Irrealer Konditionalsatz der Vergangenheit). The first part uses 'sein' in Konjunktiv II Past (wäre) because 'gehen' uses sein as its auxiliary verb. The second part uses 'haben' in Konjunktiv II Past (hätte) because 'verpassen' takes haben as its auxiliary verb.",
       "difficulty": "medium"
@@ -31,7 +36,12 @@
       "id": "b1_02_q002",
       "type": "multiple_choice",
       "questionText": "An deiner Stelle ____ ich den Arbeitsvertrag nicht unterschrieben, ohne die Klauseln vorher genau zu prüfen.",
-      "options": ["würde", "hätte", "wäre", "müsste"],
+      "options": [
+        "würde",
+        "hätte",
+        "wäre",
+        "müsste"
+      ],
       "correctAnswer": "hätte",
       "explanation": "'An deiner Stelle' (in your place) introduces an unfulfilled advice or condition in the past. Since the action of signing (unterschreiben) is completed in the past and takes haben, the correct Konjunktiv II past form is hätte.",
       "difficulty": "easy"
@@ -40,7 +50,12 @@
       "id": "b1_02_q003",
       "type": "multiple_choice",
       "questionText": "Es sieht fast so aus, als ____ der Chef heute überhaupt keine Zeit für das Mitarbeitergespräch.",
-      "options": ["hat", "hätte", "habe", "hätte gehabt"],
+      "options": [
+        "hat",
+        "hätte",
+        "habe",
+        "hätte gehabt"
+      ],
       "correctAnswer": "hätte",
       "explanation": "The structure 'Es sieht so aus, als...' (it looks as if...) triggers an unreal comparison, which requires Konjunktiv II. Since it refers to a present situation, hätte is the correct choice.",
       "difficulty": "easy"
@@ -49,7 +64,12 @@
       "id": "b1_02_q004",
       "type": "multiple_choice",
       "questionText": "____ du mir doch bloß früher Bescheid gesagt! Dann hätten wir dieses Problem leicht vermeiden können.",
-      "options": ["Wärest", "Würdest", "Hättest", "Könntest"],
+      "options": [
+        "Wärest",
+        "Würdest",
+        "Hättest",
+        "Könntest"
+      ],
       "correctAnswer": "Hättest",
       "explanation": "This is an unreal wish sentence in the past (Irrealer Wunschsatz). It starts with the verb, uses the particle 'doch bloß', and requires hätte because the past expression 'Bescheid sagen' uses the auxiliary verb haben.",
       "difficulty": "medium"
@@ -58,7 +78,12 @@
       "id": "b1_02_q005",
       "type": "multiple_choice",
       "questionText": "Wenn das Budget für das Marketingprojekt größer ____, ____ wir eine internationale Kampagne starten.",
-      "options": ["wäre / würden", "hätte / könnten", "wäre / könnten", "würde / hätten"],
+      "options": [
+        "wäre / würden",
+        "hätte / könnten",
+        "wäre / könnten",
+        "würde / hätten"
+      ],
       "correctAnswer": "wäre / könnten",
       "explanation": "'Wenn das Budget größer wäre...' (If the budget were bigger...) uses wäre for the state of being. The second part expresses a hypothetical ability or possibility in the present, which is best captured by könnten (we could start).",
       "difficulty": "medium"
@@ -67,7 +92,12 @@
       "id": "b1_02_q006",
       "type": "multiple_choice",
       "questionText": "Der Bericht ist voller Fehler. Er ____ vor der Abgabe gründlicher Korrektur gelesen werden müssen.",
-      "options": ["hätte", "wäre", "würde", "könnte"],
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "könnte"
+      ],
       "correctAnswer": "hätte",
       "explanation": "This is a complex B2 structure: Konjunktiv II of a modal verb in the past with a passive voice (Passiv mit Modalverb in der Vergangenheit). The structure requires hätte + Infinitiv Passiv + Infinitiv Modalverb (hätte... gelesen werden müssen).",
       "difficulty": "hard"
@@ -76,7 +106,12 @@
       "id": "b1_02_q007",
       "type": "multiple_choice",
       "questionText": "Wir haben das Ziel verfehlt. Es ____ viel besser gewesen, wenn wir von Anfang an eine klare Strategie verfolgt hätten.",
-      "options": ["hätte", "wäre", "würde", "dürfte"],
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "dürfte"
+      ],
       "correctAnswer": "wäre",
       "explanation": "The phrase 'Es ist besser' (It is better) becomes 'Es wäre besser gewesen' (It would have been better) in the past tense Konjunktiv II because the copula verb sein is used.",
       "difficulty": "easy"
@@ -85,7 +120,12 @@
       "id": "b1_02_q008",
       "type": "multiple_choice",
       "questionText": "____ Sie so freundlich sein, mir die aktuellen Buchungszahlen per E-Mail zuzusenden?",
-      "options": ["Hätten", "Wären", "Würden", "Könnten"],
+      "options": [
+        "Hätten",
+        "Wären",
+        "Würden",
+        "Könnten"
+      ],
       "correctAnswer": "Wären",
       "explanation": "This is a fixed, highly polite business formula in German: 'Wären Sie so freundlich...' (Would you be so kind as to...). While würden or könnten can express politeness, they do not match the adjective phrase 'so freundlich'.",
       "difficulty": "medium"
@@ -94,7 +134,12 @@
       "id": "b1_02_q009",
       "type": "multiple_choice",
       "questionText": "Ich ____ mich sehr freuen, wenn Sie nächste Woche an unserer Konferenz teilnehmen könnten.",
-      "options": ["hätte", "wäre", "würde", "müsste"],
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "müsste"
+      ],
       "correctAnswer": "würde",
       "explanation": "For most full verbs like 'freuen', Konjunktiv II in the present is formed using the würde + infinitive construction (ich würde mich freuen).",
       "difficulty": "easy"
@@ -103,7 +148,12 @@
       "id": "b1_02_q010",
       "type": "multiple_choice",
       "questionText": "Wenn der Server nicht abgestürzt ____, ____ die Daten gestern automatisch gesichert worden.",
-      "options": ["wäre / wären", "hätte / hätten", "wäre / hätten", "hätte / wären"],
+      "options": [
+        "wäre / wären",
+        "hätte / hätten",
+        "wäre / hätten",
+        "hätte / wären"
+      ],
       "correctAnswer": "wäre / wären",
       "explanation": "This is a past tense, passive voice conditional sentence. 'Der Server ist abgestürzt' becomes wäre abgestürzt. 'Die Daten sind gesichert worden' (Passive Past) becomes wären gesichert worden in Konjunktiv II.",
       "difficulty": "hard"
@@ -112,7 +162,12 @@
       "id": "b1_02_q011",
       "type": "multiple_choice",
       "questionText": "Es ist schon fast Mitternacht. Es ____ wirklich an der Zeit, dass wir nach Hause gehen.",
-      "options": ["hätte", "wäre", "würde", "könnte"],
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "könnte"
+      ],
       "correctAnswer": "wäre",
       "explanation": "The idiomatic expression 'Es ist an der Zeit' (It is high time) shifts to 'Es wäre an der Zeit' (It would be high time) to express an urgent hypothetical necessity or suggestion.",
       "difficulty": "easy"
@@ -121,7 +176,12 @@
       "id": "b1_02_q012",
       "type": "multiple_choice",
       "questionText": "Ohne deine großartige Unterstützung ____ wir das Projekt niemals so schnell zu Ende gebracht.",
-      "options": ["wären", "würden", "hätten", "könnten"],
+      "options": [
+        "wären",
+        "würden",
+        "hätten",
+        "könnten"
+      ],
       "correctAnswer": "hätten",
       "explanation": "'Etwas zu Ende bringen' (to bring something to an end) takes the auxiliary verb haben. In the unfulfilled past context implied by 'Ohne deine Unterstützung' (Without your support), it requires hätten.",
       "difficulty": "medium"
@@ -130,7 +190,12 @@
       "id": "b1_02_q013",
       "type": "multiple_choice",
       "questionText": "____ ich mehr Zeit investiert, hätte ich das B2-Zertifikat sicherlich beim ersten Mal bestanden.",
-      "options": ["Wenn", "Hätte", "Wäre", "Würde"],
+      "options": [
+        "Wenn",
+        "Hätte",
+        "Wäre",
+        "Würde"
+      ],
       "correctAnswer": "Hätte",
       "explanation": "This is a conditional clause without 'wenn' (wenn-los). The verb is moved to position 1. Since 'Zeit investieren' takes haben, it must start with Hätte.",
       "difficulty": "medium"
@@ -139,7 +204,12 @@
       "id": "b1_02_q014",
       "type": "multiple_choice",
       "questionText": "Sie tut so, als ____ sie alles über die neue Softwareentwicklung genauestens ____.",
-      "options": ["wüsste / ---", "würde / wissen", "hätte / gewusst", "wissen / würde"],
+      "options": [
+        "wüsste / ---",
+        "würde / wissen",
+        "hätte / gewusst",
+        "wissen / würde"
+      ],
       "correctAnswer": "wüsste / ---",
       "explanation": "'Sie tut so, als...' introduces an unreal comparison. If 'als' is used without 'ob', the conjugated Konjunktiv II verb must immediately follow 'als'. Wüsste (Konjunktiv II of wissen) fits perfectly here in position 2 of the clause.",
       "difficulty": "hard"
@@ -148,7 +218,12 @@
       "id": "b1_02_q015",
       "type": "multiple_choice",
       "questionText": "Das Auto war viel zu teuer. ____ es weniger gekostet, ____ ich es sofort gekauft.",
-      "options": ["Wäre / würde", "Hätte / hätte", "Hätte / würde", "Wäre / hätte"],
+      "options": [
+        "Wäre / würde",
+        "Hätte / hätte",
+        "Hätte / würde",
+        "Wäre / hätte"
+      ],
       "correctAnswer": "Hätte / hätte",
       "explanation": "Both actions are in the past and use haben as their auxiliary verb ('kosten' → hat gekostet; 'kaufen' → hat gekauft). Thus, both require hätte in this inverted conditional structure.",
       "difficulty": "medium"
@@ -157,7 +232,12 @@
       "id": "b1_02_q016",
       "type": "multiple_choice",
       "questionText": "Es ____ mir leid, aber ich muss Ihnen mitteilen, dass wir Ihre Bewerbung nicht berücksichtigen können.",
-      "options": ["hätte", "wäre", "täte", "würde"],
+      "options": [
+        "hätte",
+        "wäre",
+        "täte",
+        "würde"
+      ],
       "correctAnswer": "täte",
       "explanation": "'Es tut mir leid' (I'm sorry) can be softened formally using the Konjunktiv II form of tun, which is täte ('Es täte mir leid...'). It sounds more diplomatic in formal rejections.",
       "difficulty": "medium"
@@ -166,7 +246,12 @@
       "id": "b1_02_q017",
       "type": "multiple_choice",
       "questionText": "Wenn ich die Wahrheit über den Vorfall gewusst hätte, ____ ich ganz anders reagiert.",
-      "options": ["wäre", "hätte", "würde", "könnte"],
+      "options": [
+        "wäre",
+        "hätte",
+        "würde",
+        "könnte"
+      ],
       "correctAnswer": "hätte",
       "explanation": "The main clause of an unfulfilled past condition requires Konjunktiv II past. Since 'reagieren' forms its perfect tense with haben (ich habe reagiert), it becomes hätte ich reagiert.",
       "difficulty": "easy"
@@ -175,7 +260,12 @@
       "id": "b1_02_q018",
       "type": "multiple_choice",
       "questionText": "Der Kunde verlangt sofort eine Antwort. ____ es Ihnen möglich, das Dokument bis 14 Uhr fertigzustellen?",
-      "options": ["Hätte", "Würde", "Wäre", "Könnte"],
+      "options": [
+        "Hätte",
+        "Würde",
+        "Wäre",
+        "Könnte"
+      ],
       "correctAnswer": "Wäre",
       "explanation": "'Ist es Ihnen möglich...?' (Is it possible for you...?) is shifted to the highly polite Konjunktiv II present form: 'Wäre es Ihnen möglich...?' (Would it be possible for you...?).",
       "difficulty": "easy"
@@ -184,7 +274,12 @@
       "id": "b1_02_q019",
       "type": "multiple_choice",
       "questionText": "Fast ____ es zu einem schweren Unfall gekommen, weil die Straße extrem spiegelglatt war.",
-      "options": ["hätte", "wäre", "würde", "sollte"],
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "sollte"
+      ],
       "correctAnswer": "wäre",
       "explanation": "The word 'Fast' (almost/nearly) combined with Konjunktiv II past denotes an event that was very close to happening but didn't. Since 'kommen' takes sein, we use wäre (Fast wäre es gekommen...).",
       "difficulty": "hard"
@@ -193,9 +288,294 @@
       "id": "b1_02_q020",
       "type": "multiple_choice",
       "questionText": "Wenn ich das Problem nicht alleine lösen ____, ____ ich meinen Kollegen um Hilfe bitten müssen.",
-      "options": ["könnte / hätte", "könnte / würde", "müsste / hätte", "hätte gekonnt / hätte"],
+      "options": [
+        "könnte / hätte",
+        "könnte / würde",
+        "müsste / hätte",
+        "hätte gekonnt / hätte"
+      ],
       "correctAnswer": "könnte / hätte",
       "explanation": "The first clause refers to a hypothetical present/general condition using the modal verb können in Konjunktiv II (könnte). The second part is a past modal structure expressing what would have been mandatory: hätte... bitten müssen (double infinitive construction).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q021",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit ____, würde ich ein Buch schreiben.",
+      "options": [
+        "hätte",
+        "habe",
+        "wäre",
+        "hatte"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II of 'haben' → 'hätte'. This is an unreal conditional (Typ II) referring to the present. The speaker does not actually have more time.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q022",
+      "type": "multiple_choice",
+      "questionText": "An deiner Stelle ____ ich sofort zum Arzt gehen.",
+      "options": [
+        "wäre",
+        "würde",
+        "hätte",
+        "könnte"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'würde + Infinitiv' is the standard Konjunktiv II construction for advice/recommendations with regular verbs. 'An deiner Stelle' (if I were in your position) triggers Konjunktiv II.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q023",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ eigentlich früher aufstehen, aber sie schläft immer zu lange.",
+      "options": [
+        "müsste",
+        "muss",
+        "musste",
+        "könnte"
+      ],
+      "correctAnswer": "müsste",
+      "explanation": "Konjunktiv II of 'müssen' → 'müsste'. Expresses an unmet obligation — she should/ought to get up earlier, but doesn't.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q024",
+      "type": "multiple_choice",
+      "questionText": "Wenn er nicht krank ____, käme er zur Party.",
+      "options": [
+        "wäre",
+        "ist",
+        "war",
+        "hätte"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II of 'sein' → 'wäre'. Unreal present condition: he is actually ill, so he won't come.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q025",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ gerne ins Kino gehen, aber ich habe kein Geld.",
+      "options": [
+        "würde",
+        "werde",
+        "wäre",
+        "hätte"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'würde + Infinitiv' expresses an unfulfilled wish in the present. The obstacle (no money) is stated with 'aber'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q026",
+      "type": "multiple_choice",
+      "questionText": "____ du mir bitte helfen? Ich verstehe diese Aufgabe nicht.",
+      "options": [
+        "Könntest",
+        "Kannst",
+        "Konntest",
+        "Würdest"
+      ],
+      "correctAnswer": "Könntest",
+      "explanation": "Konjunktiv II of 'können' → 'könntest'. Used for polite requests. More formal and courteous than 'Kannst du …?'",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q027",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir ein größeres Auto ____, könnten wir alle mitfahren.",
+      "options": [
+        "hätten",
+        "haben",
+        "hatten",
+        "wären"
+      ],
+      "correctAnswer": "hätten",
+      "explanation": "Konjunktiv II of 'haben' → 'hätten'. Unreal present condition: they don't actually have a bigger car.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q028",
+      "type": "multiple_choice",
+      "questionText": "Er tut so, als ob er alles ____ — dabei hat er keine Ahnung.",
+      "options": [
+        "wüsste",
+        "weiß",
+        "wusste",
+        "würde wissen"
+      ],
+      "correctAnswer": "wüsste",
+      "explanation": "After 'als ob', Konjunktiv II is mandatory. 'wissen' → Konjunktiv II: 'wüsste'. The construction describes an unreal/pretended situation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q029",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich damals besser Englisch gesprochen ____, hätte ich den Job bekommen.",
+      "options": [
+        "hätte",
+        "habe",
+        "hatte",
+        "wäre"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "Past unreal conditional (Konjunktiv II Vergangenheit): 'gesprochen hätte' = Konjunktiv II Plusquamperfekt of 'sprechen'. The speaker did not speak good English at the time.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q030",
+      "type": "multiple_choice",
+      "questionText": "Ich wünschte, ich ____ damals nicht so viel gearbeitet.",
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "hatte"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'Ich wünschte' + Konjunktiv II. 'nicht gearbeitet hätte' = Konjunktiv II Vergangenheit of 'arbeiten' (past unreal wish). The speaker regrets working too much.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q031",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie den Zug nicht verpasst ____, wäre sie pünktlich angekommen.",
+      "options": [
+        "hätte",
+        "wäre",
+        "hatte",
+        "habe"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'verpasst hätte' = Konjunktiv II Plusquamperfekt of 'verpassen' (haben-verb). Unreal past condition: she did miss the train.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q032",
+      "type": "multiple_choice",
+      "questionText": "Es ____ schön, wenn wir uns öfter sehen könnten.",
+      "options": [
+        "wäre",
+        "würde",
+        "hätte",
+        "werde"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II of 'sein' → 'wäre'. Used to express a wish/hypothetical. 'Es wäre schön, wenn …' is a fixed polite/wishful structure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q033",
+      "type": "multiple_choice",
+      "questionText": "Er benimmt sich, als ____ er der Chef des Unternehmens.",
+      "options": [
+        "wäre",
+        "ist",
+        "war",
+        "würde sein"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "'als' (without 'ob') also triggers Konjunktiv II for unreal comparisons. Konjunktiv II of 'sein' → 'wäre'. He is NOT the boss.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q034",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ____ ich das Projekt nie abgeschlossen.",
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "hatte"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'Ohne + Akkusativ' triggers Konjunktiv II in the main clause. 'abgeschlossen hätte' = Konjunktiv II Vergangenheit of 'abschließen'. The project was completed thanks to the help.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q035",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ mir eigentlich mehr Urlaub wünschen, aber mein Chef erlaubt es nicht.",
+      "options": [
+        "würde",
+        "werde",
+        "wäre",
+        "könnte"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'würde + Infinitiv' for unfulfilled wish with a regular verb ('wünschen'). The 'aber'-clause explains the real-world obstacle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q036",
+      "type": "multiple_choice",
+      "questionText": "Wenn du früher aufgestanden ____, ____ wir den Flug nicht verpasst.",
+      "options": [
+        "wärst / hätten",
+        "hättest / wären",
+        "wärst / wären",
+        "hättest / hätten"
+      ],
+      "correctAnswer": "hättest / hätten",
+      "explanation": "'aufgestanden hättest' = Konjunktiv II Plusquamperfekt of 'aufstehen' (haben-auxiliary in Konjunktiv II). 'verpasst hätten' = Konjunktiv II Plusquamperfekt of 'verpassen'. Both are unreal past conditions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q037",
+      "type": "multiple_choice",
+      "questionText": "Sie sprach so laut, als ob der andere am anderen Ende der Welt ____ und nicht im selben Zimmer.",
+      "options": [
+        "wäre",
+        "sei",
+        "ist",
+        "werde"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "After 'als ob', Konjunktiv II is required in B2+ formal writing. 'sein' → 'wäre'. (Konjunktiv I 'sei' is used for indirect speech, not for unreal 'als ob' comparisons.)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q038",
+      "type": "multiple_choice",
+      "questionText": "Wäre er rechtzeitig zum Arzt gegangen, ____ die Krankheit wahrscheinlich früher erkannt ____.",
+      "options": [
+        "wäre / worden",
+        "hätte / worden",
+        "würde / sein",
+        "wäre / sein"
+      ],
+      "correctAnswer": "wäre / worden",
+      "explanation": "Passive in Konjunktiv II Vergangenheit: 'erkannt worden wäre' = Konjunktiv II of Vorgangspassiv Perfekt. 'werden' uses 'sein' as auxiliary → 'wäre … worden'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q039",
+      "type": "multiple_choice",
+      "questionText": "Ich wünschte, man ____ in dieser Stadt besser mit dem Fahrrad fahren ____.",
+      "options": [
+        "könnte / –",
+        "würde / können",
+        "hätte / gekonnt",
+        "müsste / –"
+      ],
+      "correctAnswer": "könnte / –",
+      "explanation": "Modal verb 'können' in Konjunktiv II → 'könnte'. With modal verbs, 'würde + Infinitiv' is NOT used. No second element is needed; 'könnte … fahren' is the complete construction (Modalverb + Infinitiv).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q040",
+      "type": "multiple_choice",
+      "questionText": "Hätte sie die Warnung ernst genommen, ____ sie jetzt nicht in dieser schwierigen Situation.",
+      "options": [
+        "wäre",
+        "würde sein",
+        "wäre gewesen",
+        "hätte"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "Mixed conditional: past unreal condition (Plusquamperfekt Konjunktiv II in 'wenn/hätte'-clause) + present result. The main clause uses present Konjunktiv II of 'sein' → 'wäre', since the result is described at the present moment.",
       "difficulty": "hard"
     }
   ]
