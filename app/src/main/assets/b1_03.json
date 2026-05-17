@@ -3,7 +3,7 @@
   "subjectId": "b1_03",
   "topicName": "Passiv",
   "level": "B1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "German Passive (Passiv) shifts focus from the agent to the action or its result. Two main types: Vorgangspassiv (process passive) using werden + Partizip II, and Zustandspassiv (state passive) using sein + Partizip II. Passive alternatives include sich lassen + Infinitiv, sein + zu + Infinitiv, and -bar/-lich/-ig adjectives.\n\nKey structures:\n- Vorgangspassiv Prasens: wird/werden + P.II — ongoing or habitual action. Agent optional with 'von + Dativ'.\n- Vorgangspassiv Prateritum: wurde/wurden + P.II — completed past action. Most common in written German.\n- Vorgangspassiv Perfekt: ist/sind + P.II + geworden — WRONG! Use: ist/sind + P.II + worden (NOT geworden).\n- Vorgangspassiv Plusquamperfekt: war/waren + P.II + worden — action completed before another past event.\n- Vorgangspassiv Futur I: wird + P.II + werden — 'werden' appears twice (conjugated + infinitive).\n- Zustandspassiv: ist/war + P.II WITHOUT worden — describes a resulting state, NOT an action.\n- Unpersonliches Passiv: Es wird + P.II — intransitive verbs only; 'Es' drops when another element leads.\n- Modalverb + Passiv: Modalverb + P.II + werden — 'werden' stays as infinitive. Perfekt: P.II + worden sein.\n- Passiv Indirekte Rede: Konjunktiv I of sein (sei/seien) + P.II + worden — for reported passive speech.",
   "tips": [
     "Vorgangspassiv Prasens: wird + Partizip II — 'Das Haus wird gebaut.' (ongoing action). Agent: 'von + Dativ' (von dem Arbeiter).",
@@ -18,6 +18,286 @@
     "Passiv Indirekte Rede (Konjunktiv I): sei + P.II + worden / seien + P.II + worden. Used to report passive statements formally: 'Er sagte, die Steuer sei erhoht worden.'"
   ],
   "questions": [
+    {
+      "id": "b1_03_q001",
+      "type": "multiple_choice",
+      "questionText": "Das Formular ____ jeden Tag von den Mitarbeitern ausgefüllt.",
+      "options": [
+        "wird",
+        "ist",
+        "hat",
+        "wurde"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Vorgangspassiv Prasens: 'werden + Partizip II'. The action of filling out the form is ongoing/habitual. 'ist' would indicate Zustandspassiv (a state), not an action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q002",
+      "type": "multiple_choice",
+      "questionText": "Das Paket ____ gestern vom Postboten gebracht ____.",
+      "options": [
+        "wurde / –",
+        "ist / worden",
+        "wurde / worden",
+        "wird / –"
+      ],
+      "correctAnswer": "wurde / –",
+      "explanation": "Vorgangspassiv Prateritum: 'wurde + Partizip II'. No second element needed — 'worden' is only used in Perfekt ('ist … worden'). Prateritum passive = wurde + Partizip II.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q003",
+      "type": "multiple_choice",
+      "questionText": "Die Tür ____ bereits geschlossen — man kann nicht mehr eintreten.",
+      "options": [
+        "wird",
+        "wurde",
+        "ist",
+        "worden"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Zustandspassiv: 'sein + Partizip II' describes a resulting state. The door is (currently) closed — focus is on the state, not the action of closing it.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q004",
+      "type": "multiple_choice",
+      "questionText": "In dieser Fabrik ____ täglich Hunderte von Autos produziert.",
+      "options": [
+        "werden",
+        "sind",
+        "haben",
+        "wurden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Vorgangspassiv Prasens with plural subject 'Hunderte von Autos'. Plural → 'werden' (not 'wird'). Habitual/ongoing process.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q005",
+      "type": "multiple_choice",
+      "questionText": "Der Brief ____ von der Sekretärin getippt worden.",
+      "options": [
+        "hat",
+        "wurde",
+        "ist",
+        "wird"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Vorgangspassiv Perfekt: 'sein + Partizip II + worden'. The auxiliary for Perfekt passive is always 'sein', not 'haben'. 'worden' (not 'geworden') is the Partizip II of 'werden' in passive constructions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q006",
+      "type": "multiple_choice",
+      "questionText": "Das neue Gesetz ____ nächste Woche vom Parlament verabschiedet.",
+      "options": [
+        "wird",
+        "ist",
+        "wurde",
+        "werden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Vorgangspassiv Futur I (or Prasens with future time reference): 'wird + Partizip II'. 'nachste Woche' signals a future event. Singular subject → 'wird'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q007",
+      "type": "multiple_choice",
+      "questionText": "Hier ____ nicht geraucht!",
+      "options": [
+        "wird",
+        "ist",
+        "hat",
+        "werden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Unpersonliches Passiv (impersonal passive) with no grammatical subject. 'Es wird hier nicht geraucht' → with 'hier' in front position, 'es' is dropped. 'wird' is the only correct auxiliary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q008",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt ____ bis Ende des Jahres abgeschlossen worden ____.",
+      "options": [
+        "wird / sein",
+        "ist / –",
+        "wird / –",
+        "ist / worden"
+      ],
+      "correctAnswer": "wird / sein",
+      "explanation": "Vorgangspassiv Futur II (passive future perfect): 'wird + Partizip II + worden sein'. Expresses that an action will have been completed by a future point. Formula: wird … Partizip II … worden sein.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q009",
+      "type": "multiple_choice",
+      "questionText": "Den Kindern ____ erklärt, wie man sich in der Schule verhält.",
+      "options": [
+        "wird",
+        "werden",
+        "ist",
+        "wurden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Passive with a Dativ object: 'Den Kindern' is Dativ, not the grammatical subject. The real subject is implied ('es'), so the verb stays singular: 'wird erklart'. This is a common B2 trap — Dativ objects never become the subject in German passive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q010",
+      "type": "multiple_choice",
+      "questionText": "Das Haus ____ 1990 gebaut und ____ seitdem gut gepflegt.",
+      "options": [
+        "wurde / wird",
+        "wurde / ist",
+        "wird / wurde",
+        "ist / wird"
+      ],
+      "correctAnswer": "wurde / ist",
+      "explanation": "Two different passive types: 'wurde gebaut' = Vorgangspassiv Prateritum (the building action in the past). 'ist … gepflegt' = Zustandspassiv Prasens (the current state of being maintained). Both must match their time/type.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q011",
+      "type": "multiple_choice",
+      "questionText": "In der Konferenz ____ lange über das neue Konzept diskutiert.",
+      "options": [
+        "wurde",
+        "ist",
+        "wird",
+        "hat"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Impersonal Vorgangspassiv Prateritum with an intransitive verb ('diskutieren'). Intransitive verbs can only form impersonal passive. No subject → 'wurde diskutiert'. Past context requires Prateritum.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q012",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge berichtete, dass der Verdächtige von der Polizei verhört ____ ____.",
+      "options": [
+        "worden war",
+        "wurde",
+        "worden ist",
+        "geworden war"
+      ],
+      "correctAnswer": "worden war",
+      "explanation": "Passive Plusquamperfekt in a subordinate clause: 'war + Partizip II + worden'. Used for an action completed before another past action (narrative sequence). 'geworden' is wrong — only 'worden' is used in passive constructions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q013",
+      "type": "multiple_choice",
+      "questionText": "Die Aufgaben können bis morgen ____ werden.",
+      "options": [
+        "erledigt",
+        "erledigen",
+        "erledigt sein",
+        "erledigen werden"
+      ],
+      "correctAnswer": "erledigt",
+      "explanation": "Modal verb + Vorgangspassiv: 'konnen + Partizip II + werden'. The formula is: Modalverb + Partizip II + werden (infinitive). 'erledigt werden' is the passive infinitive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q014",
+      "type": "multiple_choice",
+      "questionText": "Das Angebot ____ von unserem Team sorgfältig geprüft worden, bevor wir zustimmten.",
+      "options": [
+        "war",
+        "hatte",
+        "wurde",
+        "ist"
+      ],
+      "correctAnswer": "war",
+      "explanation": "Passive Plusquamperfekt: 'war + Partizip II + worden'. The checking was completed before the agreement (another past event). The auxiliary is 'sein' (→ 'war'), never 'haben', in Perfekt/Plusquamperfekt passive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q015",
+      "type": "multiple_choice",
+      "questionText": "Es ____ gehofft, dass die Verhandlungen bald erfolgreich abgeschlossen werden.",
+      "options": [
+        "wird",
+        "ist",
+        "wurde",
+        "werden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Impersonal passive with 'hoffen': 'Es wird gehofft, dass …'. The 'es' here is a placeholder subject; verb stays singular. Prasens context → 'wird'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q016",
+      "type": "multiple_choice",
+      "questionText": "Die Maschine soll sofort repariert ____ ____.",
+      "options": [
+        "werden / –",
+        "sein / –",
+        "worden / sein",
+        "werden / worden"
+      ],
+      "correctAnswer": "werden / –",
+      "explanation": "Modalverb (soll) + Vorgangspassiv Infinitiv: 'soll + Partizip II + werden'. The passive infinitive of 'reparieren' is 'repariert werden'. No extra element is added. Compare: Perfekt passive = 'repariert worden sein'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q017",
+      "type": "multiple_choice",
+      "questionText": "Zum Zeitpunkt des Unfalls ____ die Straße gerade ausgebessert.",
+      "options": [
+        "wurde",
+        "wird",
+        "war",
+        "worden"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "'gerade' signals an ongoing action at a specific past moment → Vorgangspassiv Prateritum ('wurde … ausgebessert'), not Zustandspassiv ('war'). 'war ausgebessert' would mean it was already in a repaired state.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q018",
+      "type": "multiple_choice",
+      "questionText": "In dem Bericht heißt es, das Budget ____ bereits vollständig aufgebraucht worden ____.",
+      "options": [
+        "sei / –",
+        "ist / –",
+        "wäre / –",
+        "sei / sein"
+      ],
+      "correctAnswer": "sei / –",
+      "explanation": "Indirect speech (indirekte Rede) with Konjunktiv I: 'sei … aufgebraucht worden'. Perfekt passive in indirect speech uses Konjunktiv I of 'sein' → 'sei'. Konjunktiv II 'ware' is used when K-I is indistinguishable from indicative, which is not the case here.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q019",
+      "type": "multiple_choice",
+      "questionText": "Das Konzept hätte früher entwickelt werden ____, wenn mehr Ressourcen vorhanden gewesen wären.",
+      "options": [
+        "sollen",
+        "müssen",
+        "können",
+        "dürfen"
+      ],
+      "correctAnswer": "können",
+      "explanation": "Konjunktiv II Vergangenheit + Passiv + Modalverb: 'hatte … entwickelt werden konnen'. The Infinitiv II of the modal in passive: 'entwickelt werden konnen'. 'konnen' expresses possibility (it would have been possible to develop it). 'sollen/mussen/durfen' change the meaning and don't fit the context.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q020",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag ____ unterschrieben ____ sein, bevor die Lieferung erfolgen kann.",
+      "options": [
+        "muss / worden",
+        "soll / geworden",
+        "muss / geworden",
+        "wird / worden"
+      ],
+      "correctAnswer": "muss / worden",
+      "explanation": "Modalverb + Passiv Perfekt Infinitiv: 'muss + Partizip II + worden sein'. This expresses a necessity about a completed passive action: 'the contract must have been signed'. Formula: Modalverb + Partizip II + worden sein. 'geworden' is always wrong in passive constructions.",
+      "difficulty": "hard"
+    },
     {
       "id": "b1_03_q041",
       "type": "multiple_choice",
