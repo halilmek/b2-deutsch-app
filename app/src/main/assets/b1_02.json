@@ -3,7 +3,7 @@
   "subjectId": "b1_02",
   "topicName": "Konjunktiv II",
   "level": "B1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Konjunktiv II (K-II) is used to express hypotheses, wishes, politeness, unreal conditions, and indirect speech. It has two main tenses: present K-II (wäre, hätte, würde, könnte, müsste) for unreal present/future situations, and past K-II (hätte/wäre + Partizip II) for unfulfilled past events.\n\nKey forms:\n- wäre — Konjunktiv II of sein. The most common form for conditions and wishes. Mandatory after 'als ob' and 'als' for unreal comparisons.\n- hätte — Konjunktiv II of haben. Used for conditions about possession or actions. Past form: hätte + Partizip II.\n- würde + Infinitiv — Standard K-II construction for weak (regular) full verbs. NEVER used with modal verbs — use the modal itself in K-II instead (könnte, müsste, etc.).\n- könnte — K-II of können. Used for polite requests and possibility. Remember: 'würde können' is incorrect.\n- müsste — K-II of müssen. Expresses an unmet obligation: ought to / should (but does not).\n- K-II Vergangenheit: hätte/wäre + Partizip II. Choose hätte for haben-verbs, wäre for sein-verbs.\n- Mischkonditionalsatz: if-clause uses K-II Plusquamperfekt; main clause uses K-II Präsens — past condition with present result.\n- Passiv K-II: wäre + Partizip II + worden. 'werden' takes sein as auxiliary in K-II, NOT haben.",
   "tips": [
     "wäre — Konjunktiv II of sein. Used for unreal conditions/wishes about states of being. After 'als ob' or 'als' for unreal comparisons, K-II of sein is mandatory: 'Er tut so, als wäre er der Chef.'",
@@ -576,6 +576,286 @@
       ],
       "correctAnswer": "wäre",
       "explanation": "Mixed conditional: past unreal condition (Plusquamperfekt Konjunktiv II in 'wenn/hätte'-clause) + present result. The main clause uses present Konjunktiv II of 'sein' → 'wäre', since the result is described at the present moment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q041",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit hätte, ____ ich öfter Sport treiben.",
+      "options": [
+        "werde",
+        "würde",
+        "war",
+        "muss"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'Würde' is used in Konjunktiv II to express a hypothetical action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q042",
+      "type": "multiple_choice",
+      "questionText": "An deiner Stelle ____ ich sofort mit dem Chef sprechen.",
+      "options": [
+        "würde",
+        "werde",
+        "müsste",
+        "könnte"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'Würde ich' is commonly used to give advice in hypothetical situations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q043",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie reich wäre, ____ sie um die Welt reisen.",
+      "options": [
+        "könnte",
+        "muss",
+        "hatte",
+        "ist"
+      ],
+      "correctAnswer": "könnte",
+      "explanation": "'Könnte' expresses possibility in an unreal condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q044",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ gern ein Glas Wasser, bitte.",
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "müsste"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'Ich hätte gern...' is a polite Konjunktiv II request.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q045",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ____ ich die Prüfung nicht bestanden.",
+      "options": [
+        "würde",
+        "hätte",
+        "wäre",
+        "könnte"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'Hätte' is required for an unreal past situation with Perfekt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q046",
+      "type": "multiple_choice",
+      "questionText": "Wenn das Wetter besser wäre, ____ wir heute grillen.",
+      "options": [
+        "hatten",
+        "könnten",
+        "müssten",
+        "wären"
+      ],
+      "correctAnswer": "könnten",
+      "explanation": "'Könnten' expresses a possible action under a condition.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q047",
+      "type": "multiple_choice",
+      "questionText": "Er tut so, als ____ er alles wissen.",
+      "options": [
+        "wird",
+        "könnte",
+        "wüsste",
+        "musste"
+      ],
+      "correctAnswer": "wüsste",
+      "explanation": "'Als ob/als' constructions often use Konjunktiv II.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q048",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich du ____, würde ich diese Stelle annehmen.",
+      "options": [
+        "bin",
+        "wäre",
+        "hätte",
+        "würde"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "'Wenn ich du wäre' is the standard hypothetical expression.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q049",
+      "type": "multiple_choice",
+      "questionText": "Man ____ viel Energie sparen, wenn alle öffentliche Verkehrsmittel nutzen würden.",
+      "options": [
+        "könnte",
+        "musste",
+        "wäre",
+        "hatte"
+      ],
+      "correctAnswer": "könnte",
+      "explanation": "'Könnte' expresses hypothetical possibility.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q050",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ dir geholfen, wenn du mich angerufen hättest.",
+      "options": [
+        "wäre",
+        "hätte",
+        "würde",
+        "könnte"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Vergangenheit uses 'hätte + Partizip II'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q051",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ früher gekommen, aber ihr Zug hatte Verspätung.",
+      "options": [
+        "wäre",
+        "würde",
+        "hätte",
+        "könnte"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "'Wäre gekommen' is used with verbs of movement in unreal past situations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q052",
+      "type": "multiple_choice",
+      "questionText": "Du ____ mehr schlafen, wenn du dich ständig müde fühlst.",
+      "options": [
+        "könntest",
+        "müsstest",
+        "wärst",
+        "hättest"
+      ],
+      "correctAnswer": "müsstest",
+      "explanation": "'Müsstest' expresses strong advice or necessity hypothetically.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q053",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir früher losgefahren wären, ____ wir den Zug noch erreicht.",
+      "options": [
+        "hätten",
+        "wären",
+        "würden",
+        "müssten"
+      ],
+      "correctAnswer": "hätten",
+      "explanation": "Unreal past conditions use 'hätten + Partizip II'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q054",
+      "type": "multiple_choice",
+      "questionText": "An seiner Stelle ____ ich mich bei allen entschuldigen.",
+      "options": [
+        "hätte",
+        "müsste",
+        "würde",
+        "wäre"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'Würde ich' is commonly used for hypothetical personal reactions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q055",
+      "type": "multiple_choice",
+      "questionText": "Ohne moderne Technologie ____ viele Unternehmen heute nicht konkurrenzfähig.",
+      "options": [
+        "wären",
+        "hätten",
+        "könnten",
+        "würden"
+      ],
+      "correctAnswer": "wären",
+      "explanation": "'Wären' describes a hypothetical state.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q056",
+      "type": "multiple_choice",
+      "questionText": "Wenn er besser Deutsch sprechen könnte, ____ er die Stelle bekommen.",
+      "options": [
+        "hatte",
+        "würde",
+        "wäre",
+        "müsste"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'Würde bekommen' expresses a hypothetical result.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q057",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ niemals gedacht, dass die Aufgabe so schwierig sein würde.",
+      "options": [
+        "wäre",
+        "hätte",
+        "könnte",
+        "müsste"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "'Hätte gedacht' is the correct Konjunktiv II past form.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q058",
+      "type": "multiple_choice",
+      "questionText": "Wenn die Regierung schneller reagiert hätte, ____ die Krise vielleicht kleiner geblieben.",
+      "options": [
+        "hätte",
+        "wäre",
+        "würde",
+        "könnte"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "'Wäre geblieben' is correct because 'bleiben' forms Perfekt with 'sein'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q059",
+      "type": "multiple_choice",
+      "questionText": "Er ____ erfolgreicher, wenn er mehr Geduld hätte.",
+      "options": [
+        "könnte",
+        "hätte",
+        "wäre",
+        "müsste"
+      ],
+      "correctAnswer": "wäre",
+      "explanation": "'Wäre' expresses a hypothetical state or condition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q060",
+      "type": "multiple_choice",
+      "questionText": "Was ____ du tun, wenn du plötzlich eine Million Euro gewinnen würdest?",
+      "options": [
+        "hättest",
+        "würdest",
+        "wärst",
+        "müsstest"
+      ],
+      "correctAnswer": "würdest",
+      "explanation": "'Würdest du tun' is the standard Konjunktiv II structure for hypothetical questions.",
       "difficulty": "hard"
     }
   ]
