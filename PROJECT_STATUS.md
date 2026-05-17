@@ -46,7 +46,7 @@
 | # | subjectId | Topic Name | Questions | Content Quality |
 |---|----------|-----------|-----------|----------------|
 | 1 | b1_01 | Nebensätze | 100 | ✅ Complete |
-| 2 | b1_02 | Konjunktiv II | 20 | 🔄 In Progress (20/100 questions added) |
+| 2 | b1_02 | Konjunktiv II | 100 | ✅ Complete |
 | 3 | b1_03 | Passiv | 0 | ⬜ Pending |
 | 4 | b1_04 | Modalverben im Konjunktiv II | 0 | ⬜ Pending |
 | 5 | b1_05 | Nominalisierung | 0 | ⬜ Pending |
@@ -56,7 +56,7 @@
 | 9 | b1_09 | Verben mit festen Präpositionen | 0 | ⬜ Pending |
 | 10 | b1_10 | Partizipien als Adjektive | 0 | ⬜ Pending |
 
-**B1 Total: 176 questions (target: 1,000)**
+**B1 Total: 276 questions (target: 1,000)**
 
 ### B2 Module ✅
 | # | subjectId | Topic Name | Questions | Content Quality |
