@@ -3,7 +3,7 @@
   "subjectId": "a2_10",
   "topicName": "Konjunktionen",
   "level": "A2",
-  "totalQuestions": 100,
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "a2_10_q001",
@@ -2004,6 +2004,406 @@
       "correctAnswer": "obwohl",
       "explanation": "obwohl — 'regardless of whether'. The umbrella is carried even when it is NOT raining — a contradictory behavior that obwohl captures perfectly.",
       "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q101",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ er sehr müde war, ________ er die Präsentation bis zum Ende durchgezogen, ________ er sich anschließend sofort ins Bett gelegt hat.",
+      "options": [
+        "Obwohl / hat / und",
+        "Weil / hat / sodass",
+        "Obwohl / hat / sodass",
+        "Weil / hätte / und"
+      ],
+      "correctAnswer": "Obwohl / hat / sodass",
+      "explanation": "obwohl — contrast conjunction ('although'); hat — main clause verb; sodass — consequence conjunction ('so that'). Structure: subordinate clause (obwohl + verb-end) + main clause + consequence clause (sodass + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q102",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt war ________ technisch anspruchsvoll ________ zeitlich sehr eng geplant, ________ es dennoch erfolgreich abgeschlossen werden konnte.",
+      "options": [
+        "sowohl / als auch / obwohl",
+        "weder / noch / sodass",
+        "zwar / aber / trotzdem",
+        "entweder / oder / damit"
+      ],
+      "correctAnswer": "zwar / aber / trotzdem",
+      "explanation": "zwar ... aber — partial contrast ('although ... but'); trotzdem — contrast adverb (comes before verb in main clause). Structure: zwar + adjective, aber + condition, trotzdem + result.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q103",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ die Firma in finanzielle Schwierigkeiten geraten war, ________ sie mehrere Standorte schließen müssen, ________ die Mitarbeiter frühzeitig informiert wurden.",
+      "options": [
+        "Weil / hatte / bevor",
+        "Nachdem / hatte / damit",
+        "Da / hatte / sodass",
+        "Obwohl / hätte / während"
+      ],
+      "correctAnswer": "Da / hatte / sodass",
+      "explanation": "da — causal conjunction ('because'), preferred at beginning of sentence; hatte — Plusquamperfekt for earlier past; sodass — consequence conjunction ('so that'). Structure: reason (da + verb-end) + result (hatten + verb-end) + consequence (sodass + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q104",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man kann ________ mit dem Zug ________ mit dem Bus dorthin fahren; ________ dauert die Reise mit dem Zug deutlich kürzer.",
+      "options": [
+        "sowohl / als auch / jedoch",
+        "entweder / oder / allerdings",
+        "weder / noch / deshalb",
+        "zwar / aber / trotzdem"
+      ],
+      "correctAnswer": "entweder / oder / allerdings",
+      "explanation": "entweder ... oder — 'either ... or' (choice between two options); allerdings — contrast adverb ('however') used to introduce an unexpected contrast after the semicolon.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q105",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ er die Warnungen ignoriert hatte, ________ der Unfall vielleicht vermieden werden können, ________ er die Hinweise ernst genommen ________ ________.",
+      "options": [
+        "Wenn / hätte / wenn / hätte",
+        "Wenn / wäre / wenn / hätte",
+        "Hätte / wäre / wenn / hätte",
+        "Wenn / wäre / als / hat"
+      ],
+      "correctAnswer": "Wenn / wäre / wenn / hätte",
+      "explanation": "Konjunktiv II conditional structure: Wenn + Plusquamperfekt Konjunktiv II, hätte + Partizip, wenn + Plusquamperfekt Konjunktiv II, hätte. 'If he had ignored the warnings, the accident could have been avoided, if he had taken the warnings seriously.'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q106",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung fiel nicht nur ________ schnell, ________ auch ohne ausreichende Beratung, ________ viele Mitarbeiter unzufrieden waren.",
+      "options": [
+        "sehr / sondern / sodass",
+        "zu / aber / weil",
+        "besonders / sondern auch / weswegen",
+        "besonders / sondern / sodass"
+      ],
+      "correctAnswer": "besonders / sondern / sodass",
+      "explanation": "nicht nur ... sondern — 'not only ... but also' (emphasis + addition); besonders — 'particularly' before sondern; sodass — consequence conjunction ('so that'). The decision was not only fast but also without consultation, resulting in employee dissatisfaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q107",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie den Vertrag unterschreiben, ________ Sie sich unbedingt ________ den genauen Konditionen informieren, ________ es später zu Missverständnissen kommt.",
+      "options": [
+        "Bevor / sollten / über / damit",
+        "Nachdem / müssen / mit / weil",
+        "Wenn / könnten / über / obwohl",
+        "Während / sollten / bei / sodass"
+      ],
+      "correctAnswer": "Bevor / sollten / über / damit",
+      "explanation": "bevor — temporal conjunction ('before'); sollten — modal verb in Konjunktiv II for formal advice; über — preposition for 'about' the conditions; damit — purpose conjunction ('so that'). Formal B2 structure: 'Before signing, you should inform yourself about the exact conditions, so that misunderstandings do not occur later.'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q108",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat ________ das Angebot angenommen ________ es abgelehnt, ________ er sich noch nicht entscheiden konnte.",
+      "options": [
+        "weder / noch / weil",
+        "sowohl / als auch / obwohl",
+        "entweder / oder / da",
+        "zwar / aber / weil"
+      ],
+      "correctAnswer": "weder / noch / weil",
+      "explanation": "weder ... noch — 'neither ... nor' (rejects both options); weil — causal conjunction ('because'). He has neither accepted nor rejected the offer, because he could not decide yet.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q109",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ das Wetter schlecht war, ________ die Veranstaltung im Freien stattgefunden, ________ alle Teilnehmer mit Regenjacken erschienen waren.",
+      "options": [
+        "Obwohl / hat / da",
+        "Weil / hat / obwohl",
+        "Obwohl / hätte / wenn",
+        "Da / hat / sodass"
+      ],
+      "correctAnswer": "Obwohl / hat / da",
+      "explanation": "obwohl — contrast conjunction ('although'); hat — main clause verb; da — causal conjunction ('because') explaining why participants came prepared. Structure: contrast (obwohl) + main clause + reason (da + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q110",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die neue Software ist ________ benutzerfreundlich ________ effizient, ________ sie sich schnell im Unternehmen durchgesetzt hat.",
+      "options": [
+        "sowohl / als auch / sodass",
+        "weder / noch / weil",
+        "zwar / aber / obwohl",
+        "entweder / oder / damit"
+      ],
+      "correctAnswer": "sowohl / als auch / sodass",
+      "explanation": "sowohl ... als auch — 'both ... and' (connects two positive qualities); sodass — consequence conjunction ('so that'). The software is both user-friendly and efficient, so it quickly established itself in the company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q111",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ man früh genug mit der Vorbereitung beginnt, ________ die Prüfung problemlos bestanden werden, ________ man sich zusätzlich noch intensiver damit beschäftigt.",
+      "options": [
+        "Wenn / kann / falls",
+        "Wenn / könnte / wenn",
+        "Falls / kann / obwohl",
+        "Sofern / könnte / falls"
+      ],
+      "correctAnswer": "Wenn / könnte / wenn",
+      "explanation": "wenn — conditional conjunction ('if'); könnte — Konjunktiv II for passive possibility ('could be passed'); wenn — second conditional clause. Structure: condition (wenn + verb-end) + result (könnte + verb-end) + additional condition (wenn + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q112",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat ________ die Einladung angenommen ________ abgesagt, ________ sie noch nicht weiß, ob sie an dem Tag Zeit hat.",
+      "options": [
+        "weder / noch / weil",
+        "sowohl / als auch / obwohl",
+        "weder / noch / da",
+        "entweder / oder / weil"
+      ],
+      "correctAnswer": "entweder / oder / weil",
+      "explanation": "entweder ... oder — 'either ... or' (choice, not yet made); weil — causal conjunction ('because'). The key: 'She has either accepted OR not accepted the invitation, because...' (Either/or implies uncertainty about which choice was made).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q113",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ der Chef die Maßnahmen angekündigt hatte, ________ die Mitarbeiter bereits darüber informiert, ________ es Gerüchte gab.",
+      "options": [
+        "Bevor / waren / weil",
+        "Nachdem / waren / obwohl",
+        "Als / hatten / da",
+        "Während / hatten / sodass"
+      ],
+      "correctAnswer": "Nachdem / waren / obwohl",
+      "explanation": "nachdem — temporal conjunction ('after') — the announcement came first; hatten — Plusquamperfekt ('had been informed' — completed before the main event); obwohl — contrast conjunction ('although') — contradiction: despite being informed, rumors existed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q114",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Meeting wurde ________ verschoben ________ abgesagt, ________ der Projektleiter erkrankt war.",
+      "options": [
+        "sowohl / als auch / weil",
+        "entweder / oder / obwohl",
+        "nicht nur / sondern auch / da",
+        "weder / noch / weil"
+      ],
+      "correctAnswer": "nicht nur / sondern auch / da",
+      "explanation": "nicht nur ... sondern auch — 'not only ... but also' (adds a second action); da — causal conjunction ('because'). The meeting was not only postponed but also cancelled, because the project leader fell ill.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q115",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie Fragen haben, ________ Sie sich jederzeit ________ die Hotline wenden, ________ Ihnen schnell geholfen wird.",
+      "options": [
+        "Wenn / können / an / damit",
+        "Falls / sollten / an / sodass",
+        "Obwohl / müssen / bei / weil",
+        "Wenn / dürfen / über / obwohl"
+      ],
+      "correctAnswer": "Falls / sollten / an / sodass",
+      "explanation": "falls — conditional conjunction ('if / in case') for formal requests; sollten — Konjunktiv II for polite recommendation; an — preposition ('to' the hotline); sodass — purpose conjunction ('so that'). Formal polite B2 structure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q116",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist ________ ein erfahrener Mitarbeiter ________ ein zuverlässiger Kollege, ________ er im Team sehr geschätzt wird.",
+      "options": [
+        "sowohl / als auch / sodass",
+        "zwar / aber / weil",
+        "weder / noch / obwohl",
+        "entweder / oder / da"
+      ],
+      "correctAnswer": "sowohl / als auch / sodass",
+      "explanation": "sowohl ... als auch — 'both ... and' (connects two positive qualities: experienced AND reliable); sodass — consequence conjunction ('so that'). He is both an experienced employee and a reliable colleague, so he is highly valued in the team.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q117",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ die Studie vielversprechende Ergebnisse geliefert hat, ________ weitere Forschungen notwendig, ________ die Langzeitwirkungen noch nicht bekannt sind.",
+      "options": [
+        "Obwohl / sind / weil",
+        "Weil / sind / obwohl",
+        "Obwohl / wären / wenn",
+        "Da / sind / sodass"
+      ],
+      "correctAnswer": "Obwohl / sind / weil",
+      "explanation": "obwohl — contrast conjunction ('although'); sind — present plural for current necessity; weil — causal conjunction ('because') explaining why further research is needed. Although the study showed promising results, further research is necessary because the long-term effects are not yet known.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q118",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man sollte ________ zu optimistisch ________ zu pessimistisch sein, ________ man eine realistische Einschätzung der Situation treffen kann.",
+      "options": [
+        "weder / noch / damit",
+        "sowohl / als auch / weil",
+        "entweder / oder / obwohl",
+        "zwar / aber / sodass"
+      ],
+      "correctAnswer": "weder / noch / damit",
+      "explanation": "weder ... noch — 'neither ... nor' (rejecting both extremes: not too optimistic NOR too pessimistic); damit — purpose conjunction ('so that / in order that'). Neither too optimistic nor too pessimistic, so that one can make a realistic assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q119",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ der Antrag vollständig ausgefüllt ist, ________ er bearbeitet werden, ________ es zu Verzögerungen kommt.",
+      "options": [
+        "Wenn / kann / damit",
+        "Nur wenn / kann / sonst",
+        "Obwohl / muss / weil",
+        "Falls / sollte / obwohl"
+      ],
+      "correctAnswer": "Nur wenn / kann / sonst",
+      "explanation": "nur wenn — conditional conjunction with emphasis ('only if'); kann — modal verb for possibility; sonst — contrast conjunction ('otherwise / if not') indicating what happens if the condition is not met. Only if the application is fully completed can it be processed, otherwise delays occur.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q120",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz findet ________ in Präsenz ________ online statt, ________ alle Teilnehmer flexibel teilnehmen können.",
+      "options": [
+        "sowohl / als auch / damit",
+        "entweder / oder / weil",
+        "weder / noch / obwohl",
+        "zwar / aber / sodass"
+      ],
+      "correctAnswer": "sowohl / als auch / damit",
+      "explanation": "sowohl ... als auch — 'both ... and' (the conference takes place both in-person AND online); damit — purpose conjunction ('so that'). Both options are available, so that all participants can participate flexibly.",
+      "difficulty": "medium"
     }
   ],
   "description": "Konjunktionen (conjunctions) are words that connect clauses or sentences. In German, they are divided into two main groups: coordinating conjunctions (nebenordnend) and subordinating conjunctions (unterordnend). The key difference lies in word order: in subordinate clauses, the verb moves to the end of the clause.",
