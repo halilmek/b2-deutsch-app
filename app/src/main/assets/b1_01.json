@@ -3,7 +3,7 @@
   "subjectId": "b1_01",
   "topicName": "Nebensätze",
   "level": "B1",
-  "totalQuestions": 76,
+  "totalQuestions": 100,
   "description": "Nebensätze (subordinate clauses) are dependent clauses that cannot stand alone and must be attached to a main clause. They are introduced by subordinating conjunctions: dass (content clause), ob (indirect yes/no question), weil (reason/because), obwohl (concession/although), damit (purpose/so that), bevor (before), als (when — single past event), wenn (when — repeated/habitual or conditional). The verb in a Nebensatz always goes to the END of the clause.\n\nKey distinction: obwohl (although) expresses a contrast where the outcome contradicts expectation. Damit is used when the subject changes (purpose with different subject); when the subject stays the same, um...zu is preferred. Weil and denn are often confused — weil requires the verb at the end in written German, while denn keeps normal word order (verb in position 2).",
   "tips": [
     "dass — Content clause (İçerik cümlesi): verb goes to the end. If placed at the beginning, separated by comma. Subjects can differ between main and subordinate clause.",
@@ -1080,6 +1080,342 @@
       ],
       "correctAnswer": "ob",
       "explanation": "'Ob' introduces an indirect question (I wonder whether he might be right).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q077",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ____ er morgen zur Party kommen wird.",
+      "options": [
+        "dass",
+        "ob",
+        "wenn",
+        "weil"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is used to express indirect yes/no questions or uncertainty. 'Dass' introduces a statement of fact, while 'ob' expresses doubt or possibility.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q078",
+      "type": "multiple_choice",
+      "questionText": "____ es gestern geregnet hat, sind wir spazieren gegangen.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Bevor"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a concessive clause (despite the fact that). The main clause shows an action that happened contrary to expectation, which requires a concessive conjunction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q079",
+      "type": "multiple_choice",
+      "questionText": "Er lernt jeden Tag Deutsch, ____ er die B2-Prüfung besteht.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces a final clause expressing purpose. The subject of both clauses can differ, which distinguishes it from 'um...zu' constructions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q080",
+      "type": "multiple_choice",
+      "questionText": "____ ich Kind war, habe ich oft im Garten gespielt.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Seit"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for single past events or periods in the past. 'Wenn' is used for repeated past events or present/future conditions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q081",
+      "type": "multiple_choice",
+      "questionText": "Sie hat das Fenster geschlossen, ____ es nicht so laut ist.",
+      "options": [
+        "weil",
+        "damit",
+        "obwohl",
+        "dass"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "This is a final clause expressing purpose. 'Damit' is used when the subjects of the main and subordinate clauses differ, and it requires the verb at the end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q082",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß, ____ du mir helfen kannst, aber ich schaffe es alleine.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'Dass' introduces a subordinate clause stating a known fact. Here, the speaker acknowledges the fact that the listener can help, making 'dass' the correct choice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q083",
+      "type": "multiple_choice",
+      "questionText": "____ du die Unterlagen vorbereitest, kann ich schon mit der Präsentation beginnen.",
+      "options": [
+        "Bevor",
+        "Während",
+        "Nachdem",
+        "Als"
+      ],
+      "correctAnswer": "Während",
+      "explanation": "'Während' expresses simultaneity (while). The actions in both clauses happen at the same time, which requires a temporal conjunction indicating parallel actions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q084",
+      "type": "multiple_choice",
+      "questionText": "Er hat den Job angenommen, ____ das Gehalt niedriger war als erwartet.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "This is a concessive clause. Despite the lower salary (unexpected condition), he accepted the job. 'Obwohl' expresses this contrast between expectation and reality.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q085",
+      "type": "multiple_choice",
+      "questionText": "Kannst du mir sagen, ____ der nächste Zug nach München abfährt?",
+      "options": [
+        "dass",
+        "ob",
+        "wann",
+        "weil"
+      ],
+      "correctAnswer": "wann",
+      "explanation": "This is an indirect question asking about time. 'Wann' is the appropriate interrogative for time-related indirect questions in subordinate clauses.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q086",
+      "type": "multiple_choice",
+      "questionText": "____ er die Nachricht erhalten hatte, rief er sofort an.",
+      "options": [
+        "Nachdem",
+        "Bevor",
+        "Während",
+        "Als"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' introduces a temporal clause where the action in the subordinate clause happens before the main clause. The past perfect tense in the subordinate clause confirms this sequence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q087",
+      "type": "multiple_choice",
+      "questionText": "Ich gehe nicht zur Arbeit, ____ ich krank bin.",
+      "options": [
+        "weil",
+        "denn",
+        "obwohl",
+        "damit"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' introduces a causal subordinate clause with verb-final word order. 'Denn' also expresses cause but is a coordinating conjunction and does not change word order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q088",
+      "type": "multiple_choice",
+      "questionText": "____ du mich früher gefragt hättest, hätte ich dir geholfen.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Ob"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "This is a conditional clause in Konjunktiv II expressing an unreal past condition. 'Wenn' is used for hypothetical situations, while 'als' refers to actual past events.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q089",
+      "type": "multiple_choice",
+      "questionText": "Sie spart jeden Monat Geld, ____ sie sich nächstes Jahr ein Auto kaufen kann.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "This final clause expresses purpose with different subjects in main and subordinate clauses. 'Damit' requires the modal verb 'kann' at the end in subordinate clause structure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q090",
+      "type": "multiple_choice",
+      "questionText": "____ er sehr müde war, hat er noch bis Mitternacht gearbeitet.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Bevor"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "This concessive clause shows contrast: despite being tired, he continued working. 'Obwohl' introduces unexpected results, while 'weil' would indicate cause and effect.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q091",
+      "type": "multiple_choice",
+      "questionText": "Ich erinnere mich daran, ____ wir zum ersten Mal getroffen haben.",
+      "options": [
+        "als",
+        "wenn",
+        "bevor",
+        "nachdem"
+      ],
+      "correctAnswer": "als",
+      "explanation": "'Als' refers to a specific point in the past (the first meeting). For unique past events, 'als' is required, not 'wenn', which is used for repeated or hypothetical situations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q092",
+      "type": "multiple_choice",
+      "questionText": "____ der Chef die Entscheidung noch nicht getroffen hat, können wir nicht mit der Umsetzung beginnen.",
+      "options": [
+        "Obwohl",
+        "Da",
+        "Damit",
+        "Bevor"
+      ],
+      "correctAnswer": "Da",
+      "explanation": "'Da' introduces a causal clause similar to 'weil', but is often used when the reason is already known or provides background information. It's more formal and common in written German.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q093",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder spielten im Garten, ____ die Eltern drinnen das Essen zubereiteten.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Während",
+        "Nachdem"
+      ],
+      "correctAnswer": "Während",
+      "explanation": "'Während' expresses simultaneity — both actions happened at the same time. The parents prepared food while the children played outside.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q094",
+      "type": "multiple_choice",
+      "questionText": "____ wir den Vertrag gelesen hatten, haben wir ihn unterschrieben.",
+      "options": [
+        "Bevor",
+        "Nachdem",
+        "Während",
+        "Als"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' indicates that one action was completed before another began. Signing happened after reading — sequential order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q095",
+      "type": "multiple_choice",
+      "questionText": "Sie hat den Termin verschoben, ____ sie mehr Zeit für die Vorbereitung hätte.",
+      "options": [
+        "weil",
+        "damit",
+        "obwohl",
+        "bevor"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "This final clause with Konjunktiv II ('hätte') expresses a purpose with an element of uncertainty or politeness. 'Damit' + Konjunktiv II is a sophisticated B2 structure for nuanced purpose statements.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q096",
+      "type": "multiple_choice",
+      "questionText": "____ er schon dreimal angerufen hat, meldet sie sich immer noch nicht.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Bevor"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "This concessive clause with present perfect tense emphasizes the contrast between repeated attempts and the unexpected result. 'Obwohl' with perfect tense is a complex B2 structure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q097",
+      "type": "multiple_choice",
+      "questionText": "____ die Prüfung schwer ist, bin ich zuversichtlich, dass ich sie bestehe.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Bevor"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "This concessive clause shows contrast between the difficulty of the exam and the speaker's confidence. At B2 level, recognizing the logical relationship between clauses is crucial.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q098",
+      "type": "multiple_choice",
+      "questionText": "Niemand konnte erklären, ____ der Computer sich plötzlich ausgeschaltet hatte.",
+      "options": [
+        "weil",
+        "ob",
+        "wann",
+        "bevor"
+      ],
+      "correctAnswer": "wann",
+      "explanation": "'Wann' is the appropriate interrogative for time-related indirect questions in subordinate clauses. 'Wann' asks 'when' — the reason/cause is being questioned.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q099",
+      "type": "multiple_choice",
+      "questionText": "Ich warte hier, ____ du fertig bist.",
+      "options": [
+        "weil",
+        "bevor",
+        "damit",
+        "wenn"
+      ],
+      "correctAnswer": "wenn",
+      "explanation": "'Wenn' introduces a conditional clause — I'll wait here IF you are finished. The condition must be met for the main action to resolve.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q100",
+      "type": "multiple_choice",
+      "questionText": "____ alle Gäste angekommen waren, haben wir mit dem Essen angefangen.",
+      "options": [
+        "Bevor",
+        "Als",
+        "Nachdem",
+        "Wenn"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' shows that the main clause (we started eating) happened AFTER the subordinate clause was completed (all guests arrived).",
       "difficulty": "medium"
     }
   ]
