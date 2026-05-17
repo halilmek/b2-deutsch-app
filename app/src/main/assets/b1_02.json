@@ -3,7 +3,7 @@
   "subjectId": "b1_02",
   "topicName": "Konjunktiv II",
   "level": "B1",
-  "totalQuestions": 80,
+  "totalQuestions": 100,
   "description": "Konjunktiv II (K-II) is used to express hypotheses, wishes, politeness, unreal conditions, and indirect speech. It has two main tenses: present K-II (wäre, hätte, würde, könnte, müsste) for unreal present/future situations, and past K-II (hätte/wäre + Partizip II) for unfulfilled past events.\n\nKey forms:\n- wäre — Konjunktiv II of sein. The most common form for conditions and wishes. Mandatory after 'als ob' and 'als' for unreal comparisons.\n- hätte — Konjunktiv II of haben. Used for conditions about possession or actions. Past form: hätte + Partizip II.\n- würde + Infinitiv — Standard K-II construction for weak (regular) full verbs. NEVER used with modal verbs — use the modal itself in K-II instead (könnte, müsste, etc.).\n- könnte — K-II of können. Used for polite requests and possibility. Remember: 'würde können' is incorrect.\n- müsste — K-II of müssen. Expresses an unmet obligation: ought to / should (but does not).\n- K-II Vergangenheit: hätte/wäre + Partizip II. Choose hätte for haben-verbs, wäre for sein-verbs.\n- Mischkonditionalsatz: if-clause uses K-II Plusquamperfekt; main clause uses K-II Präsens — past condition with present result.\n- Passiv K-II: wäre + Partizip II + worden. 'werden' takes sein as auxiliary in K-II, NOT haben.",
   "tips": [
     "wäre — Konjunktiv II of sein. Used for unreal conditions/wishes about states of being. After 'als ob' or 'als' for unreal comparisons, K-II of sein is mandatory: 'Er tut so, als wäre er der Chef.'",
@@ -1137,6 +1137,286 @@
       "correctAnswer": "wäre / könntest",
       "explanation": "'wäre schön' (it would be nice) + 'könntest' (if you could pick me up).",
       "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q081",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit ____, würde ich dich gerne besuchen.",
+      "options": [
+        "hätte",
+        "habe",
+        "hatte",
+        "haben würde"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "In hypothetical 'wenn' clauses, Konjunktiv II 'hätte' is used to express an unreal present condition. 'Habe' is indicative, 'hatte' is simple past, and 'haben würde' is redundant with 'würde' in the main clause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q082",
+      "type": "multiple_choice",
+      "questionText": "Könntest du mir bitte ____ Salz reichen?",
+      "options": [
+        "das",
+        "dem",
+        "den",
+        "des"
+      ],
+      "correctAnswer": "das",
+      "explanation": "This tests polite requests using 'könntest' (Konjunktiv II of 'können'). The article 'das' is correct for neuter accusative 'Salz'. The Konjunktiv II form makes the request more polite than 'kannst'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q083",
+      "type": "multiple_choice",
+      "questionText": "An deiner Stelle ____ ich mir einen Anwalt nehmen.",
+      "options": [
+        "würde",
+        "werde",
+        "würdest",
+        "wirst"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "For giving advice, 'würde + infinitive' is the standard B2 structure. The subject is 'ich', so 'würde' (not 'würdest') is correct. This expresses a hypothetical recommendation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q084",
+      "type": "multiple_choice",
+      "questionText": "Wenn er früher aufgestanden wäre, ____ er den Zug nicht verpasst.",
+      "options": [
+        "hätte",
+        "hatte",
+        "habe",
+        "haben würde"
+      ],
+      "correctAnswer": "hätte",
+      "explanation": "This is a past unreal conditional (Type III). Both clauses use Konjunktiv II: 'wäre aufgestanden' (subordinate) and 'hätte verpasst' (main). 'Hätte' forms the past perfect subjunctive with the past participle.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q085",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ gerne kommen, aber ich habe leider keine Zeit.",
+      "options": [
+        "würde",
+        "werde",
+        "würdest",
+        "wirst"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "'Würde + infinitive' expresses a hypothetical desire in the present. The contrast with 'aber ich habe keine Zeit' confirms this is an unreal wish. 'Werden' forms would be future tense, not subjunctive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q086",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich du wäre, ____ ich nicht so viel Kaffee trinken.",
+      "options": [
+        "würde",
+        "werde",
+        "würdest",
+        "wirst"
+      ],
+      "correctAnswer": "würde",
+      "explanation": "After 'Wenn ich du wäre' (fixed Konjunktiv II expression), the main clause uses 'würde + infinitive' for advice. Subject is 'ich', so 'würde' is correct, not 'würdest' (which would match 'du').",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_02_q087",
+      "type": "multiple_choice",
+      "questionText": "Sie tut so, ____ sie nichts von dem Problem gewusst ____.",
+      "options": [
+        "als ob / hätte",
+        "wie / hat",
+        "als / hätte",
+        "ob / habe"
+      ],
+      "correctAnswer": "als ob / hätte",
+      "explanation": "'Als ob' introduces an unreal comparison requiring Konjunktiv II. The past perfect subjunctive 'hätte gewusst' is needed because the 'not knowing' occurred before the main clause action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q088",
+      "type": "multiple_choice",
+      "questionText": "____ du mir helfen, wenn ich dich darum ____?",
+      "options": [
+        "Würdest / bitten würde",
+        "Wirst / bitten werde",
+        "Würdest / bitten würdest",
+        "Würdest / bitten würde"
+      ],
+      "correctAnswer": "Würdest / bitten würde",
+      "explanation": "This is a polite conditional question. 'Würdest' (main clause) + 'bitten würde' (subordinate 'wenn' clause, verb final). Note: 'wenn' is omitted, so the subordinate clause verb moves to position 1, but 'würde' stays at end due to double infinitive structure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q089",
+      "type": "multiple_choice",
+      "questionText": "Wenn er mehr gelernt ____, ____ er die Prüfung bestanden.",
+      "options": [
+        "hätte / hätte",
+        "hatte / hatte",
+        "habe / habe",
+        "haben würde / haben würde"
+      ],
+      "correctAnswer": "hätte / hätte",
+      "explanation": "Past unreal conditional requires Konjunktiv II in both clauses: 'hätte gelernt' (subordinate) and 'hätte bestanden' (main). This Type III conditional expresses regret about a past situation that cannot be changed.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q090",
+      "type": "multiple_choice",
+      "questionText": "Ich wünschte, ich ____ mehr über dieses Thema ____.",
+      "options": [
+        "wüsste / Bescheid",
+        "weiß / Bescheid",
+        "wusste / Bescheid",
+        "wissen würde / Bescheid"
+      ],
+      "correctAnswer": "wüsste / Bescheid",
+      "explanation": "After 'Ich wünschte', Konjunktiv II 'wüsste' (from 'wissen') expresses an unreal present wish. 'Bescheid wissen' is a fixed phrase. Traditional Konjunktiv II forms like 'wüsste' are preferred over 'würde wissen' for common verbs at B2 level.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q091",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich das gewusst ____, ____ ich anders gehandelt.",
+      "options": [
+        "hätte / hätte",
+        "hatte / hatte",
+        "habe / habe",
+        "haben würde / haben würde"
+      ],
+      "correctAnswer": "hätte / hätte",
+      "explanation": "This is a classic Type III conditional (past unreal). Both clauses require past perfect subjunctive: 'hätte gewusst' and 'hätte gehandelt'. This structure expresses regret or hypothetical past outcomes.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q092",
+      "type": "multiple_choice",
+      "questionText": "Er sieht so aus, ____ er die ganze Nacht nicht geschlafen ____.",
+      "options": [
+        "als ob / hätte",
+        "wie / hat",
+        "als / hat",
+        "ob / habe"
+      ],
+      "correctAnswer": "als ob / hätte",
+      "explanation": "'Als ob' requires Konjunktiv II for unreal comparisons. The past perfect 'hätte geschlafen' indicates the action (not sleeping) occurred before the present observation. This is a sophisticated B2 temporal-subjunctive combination.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q093",
+      "type": "multiple_choice",
+      "questionText": "____ es nicht so kalt ____, würden wir im Garten grillen.",
+      "options": [
+        "Wenn / wäre",
+        "Wenn / ist",
+        "Falls / ist",
+        "Ob / wäre"
+      ],
+      "correctAnswer": "Wenn / wäre",
+      "explanation": "Present unreal conditional (Type II): 'Wenn' + Konjunktiv II 'wäre' in subordinate clause, 'würden + infinitive' in main clause. 'Falls' is possible but less common for hypotheticals; 'ob' introduces indirect questions, not conditionals.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q094",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie mich gefragt ____, ____ ich ihr gerne geholfen.",
+      "options": [
+        "hätte / hätte",
+        "hatte / hatte",
+        "habe / habe",
+        "haben würde / haben würde"
+      ],
+      "correctAnswer": "hätte / hätte",
+      "explanation": "Past unreal conditional: 'hätte gefragt' (subordinate) and 'hätte geholfen' (main). The context implies she didn't ask, so the help didn't happen. This Type III structure is essential for B2 narrative and reflective language.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_02_q095",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich gestern Zeit gehabt ____, ____ ich zur Party gekommen, aber heute ____ ich leider arbeiten.",
+      "options": [
+        "hätte / wäre / müsste",
+        "hatte / war / muss",
+        "habe / bin / muss",
+        "haben würde / sein würde / müsste"
+      ],
+      "correctAnswer": "hätte / wäre / müsste",
+      "explanation": "Mixed conditional: past condition ('hätte gehabt') with past result ('wäre gekommen') + present reality ('muss/müsste'). 'Müsste' (Konjunktiv II) softens the statement, showing nuance. This complex temporal layering is a hallmark of B2 proficiency.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q096",
+      "type": "multiple_choice",
+      "questionText": "An seiner Stelle ____ das Projekt schon längst abgeschlossen ____.",
+      "options": [
+        "wäre / worden",
+        "wurde / werden",
+        "würde / werden",
+        "wäre / werden"
+      ],
+      "correctAnswer": "wäre / worden",
+      "explanation": "Passive voice in Konjunktiv II past: 'wäre abgeschlossen worden'. This combines subjunctive ('wäre'), past participle ('abgeschlossen'), and passive auxiliary ('worden'). B2 learners must master passive subjunctive for formal and academic contexts.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q097",
+      "type": "multiple_choice",
+      "questionText": "Wenn er nicht so schüchtern ____, ____ er sich viel öfter zu Wort ____.",
+      "options": [
+        "wäre / würde / melden",
+        "ist / wird / melden",
+        "wäre / würde / gemeldet",
+        "wäre / hätte / gemeldet"
+      ],
+      "correctAnswer": "wäre / würde / melden",
+      "explanation": "Present unreal conditional with separable verb: 'wäre' (Konjunktiv II of 'sein') + 'würde...melden' (würde + infinitive of 'sich melden'). Separable prefix 'mel-' stays attached in infinitive form after 'würde'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q098",
+      "type": "multiple_choice",
+      "questionText": "____ ich früher Bescheid gewusst ____, ____ ich die Reise nicht gebucht ____.",
+      "options": [
+        "Hätte / hätte / hätte",
+        "Hatte / hatte / hatte",
+        "Habe / habe / habe",
+        "Haben würde / haben würde / haben würde"
+      ],
+      "correctAnswer": "Hätte / hätte / hätte",
+      "explanation": "Past unreal conditional with omitted 'wenn': 'Hätte ich...gewusst' (inverted word order) + 'hätte...gebucht'. Three instances of 'hätte' form the past perfect subjunctive across clauses. Omission of 'wenn' with verb-first subordinate clause is advanced B2 syntax.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q099",
+      "type": "multiple_choice",
+      "questionText": "Selbst wenn er mich darum ____, ____ ich ihm das Geld nicht leihen ____.",
+      "options": [
+        "bitten würde / würde / können",
+        "bitten würde / würde / gekonnt",
+        "gebeten hätte / hätte / können",
+        "bitten würde / hätte / können"
+      ],
+      "correctAnswer": "bitten würde / würde / können",
+      "explanation": "'Selbst wenn' (even if) + present hypothetical: 'bitten würde' (subordinate) + 'würde...können' (main). Modal verb 'können' remains in infinitive after 'würde'. This structure expresses strong hypothetical refusal with nuance.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_02_q100",
+      "type": "multiple_choice",
+      "questionText": "Wenn das Projekt erfolgreich ____, ____ die Firma neue Mitarbeiter ____ müssen.",
+      "options": [
+        "gewesen wäre / hätte / einstellen",
+        "gewesen war / hatte / einstellen",
+        "gewesen ist / hat / einstellen",
+        "gewesen wäre / würde / einstellen müssen"
+      ],
+      "correctAnswer": "gewesen wäre / hätte / einstellen",
+      "explanation": "Past unreal conditional with modal verb: 'gewesen wäre' (past subjunctive of 'sein') + 'hätte...einstellen müssen' (hätte + infinitive + modal infinitive). The double infinitive construction ('einstellen müssen') after 'hätte' is a complex B2 structure for hypothetical past obligations.",
+      "difficulty": "hard"
     }
   ]
 }
