@@ -3,7 +3,7 @@
   "subjectId": "b1_01",
   "topicName": "Nebensätze",
   "level": "B1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Nebensätze (subordinate clauses) are dependent clauses that cannot stand alone and must be attached to a main clause. They are introduced by subordinating conjunctions: dass (content clause), ob (indirect yes/no question), weil (reason/because), obwohl (concession/although), damit (purpose/so that), bevor (before), als (when — single past event), wenn (when — repeated/habitual or conditional). The verb in a Nebensatz always goes to the END of the clause.\n\nKey distinction: obwohl (although) expresses a contrast where the outcome contradicts expectation. Damit is used when the subject changes (purpose with different subject); when the subject stays the same, um...zu is preferred. Weil and denn are often confused — weil requires the verb at the end in written German, while denn keeps normal word order (verb in position 2).",
   "tips": [
     "dass — Content clause (İçerik cümlesi): verb goes to the end. If placed at the beginning, separated by comma. Subjects can differ between main and subordinate clause.",
@@ -22,7 +22,12 @@
       "id": "b1_01_q001",
       "type": "multiple_choice",
       "questionText": "Wir müssen die Unterlagen heute noch einreichen, ____ wir die Frist auf keinen Fall verpassen wollen.",
-      "options": ["obwohl", "weil", "damit", "bevor"],
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "bevor"
+      ],
       "correctAnswer": "weil",
       "explanation": "The sentence expresses a reason (causal clause). 'Weil' (because) introduces the reason why the documents must be submitted today. 'Damit' would require a different sentence structure or express a purpose, but here the underlying motive/reason is stated.",
       "difficulty": "easy"
@@ -31,7 +36,12 @@
       "id": "b1_01_q002",
       "type": "multiple_choice",
       "questionText": "Herr Müller arbeitet bis spät in die Nacht, ____ er schreckliche Kopfschmerzen hat.",
-      "options": ["weil", "dass", "obwohl", "wenn"],
+      "options": [
+        "weil",
+        "dass",
+        "obwohl",
+        "wenn"
+      ],
       "correctAnswer": "obwohl",
       "explanation": "This is a concessive clause showing a contrast or contradiction. 'Obwohl' (although/even though) explains that he works late despite having a terrible headache.",
       "difficulty": "easy"
@@ -40,7 +50,12 @@
       "id": "b1_01_q003",
       "type": "multiple_choice",
       "questionText": "Bitte geben Sie mir Bescheid, ____ das neue Projekt nächste Woche endgültig startet.",
-      "options": ["ob", "als", "damit", "obwohl"],
+      "options": [
+        "ob",
+        "als",
+        "damit",
+        "obwohl"
+      ],
       "correctAnswer": "ob",
       "explanation": "The verb 'Bescheid geben' (to let someone know) introduces an indirect question here. 'Ob' means 'whether' or 'if' (in the sense of whether or not it starts).",
       "difficulty": "medium"
@@ -49,7 +64,12 @@
       "id": "b1_01_q004",
       "type": "multiple_choice",
       "questionText": "____ ich gestern am Bahnhof ankam, war der Zug nach Berlin leider schon abgefahren.",
-      "options": ["Wenn", "Als", "Bevor", "Weil"],
+      "options": [
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Weil"
+      ],
       "correctAnswer": "Als",
       "explanation": "'Als' is used for a single, completed event in the past ('when'). 'Wenn' would be used for present/future or repeated past events.",
       "difficulty": "medium"
@@ -58,7 +78,12 @@
       "id": "b1_01_q005",
       "type": "multiple_choice",
       "questionText": "Der Abteilungsleiter wiederholte die Anweisungen mehrmals, ____ alle Mitarbeiter den Ablauf genau verstehen.",
-      "options": ["dass", "weil", "damit", "wenn"],
+      "options": [
+        "dass",
+        "weil",
+        "damit",
+        "wenn"
+      ],
       "correctAnswer": "damit",
       "explanation": "This sentence expresses a purpose or goal (final clause). 'Damit' means 'so that' or 'in order that' the employees understand the process.",
       "difficulty": "medium"
@@ -67,7 +92,12 @@
       "id": "b1_01_q006",
       "type": "multiple_choice",
       "questionText": "____ man eine wichtige geschäftliche Entscheidung trifft, sollte man alle Risiken sorgfältig abwägen.",
-      "options": ["Bevor", "Als", "Dass", "Ob"],
+      "options": [
+        "Bevor",
+        "Als",
+        "Dass",
+        "Ob"
+      ],
       "correctAnswer": "Bevor",
       "explanation": "'Bevor' means 'before'. Chronologically, weighing the risks must happen prior to making the important business decision.",
       "difficulty": "medium"
@@ -76,7 +106,12 @@
       "id": "b1_01_q007",
       "type": "multiple_choice",
       "questionText": "Der Dozent war sich nicht ganz sicher, ____ alle Studenten die Hausaufgabe verstanden hatten.",
-      "options": ["dass", "ob", "weil", "als"],
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "als"
+      ],
       "correctAnswer": "ob",
       "explanation": "'Sich sicher sein' in the negative ('war sich nicht ganz sicher') triggers an indirect question, thus requiring 'ob' (whether/if).",
       "difficulty": "medium"
@@ -85,7 +120,12 @@
       "id": "b1_01_q008",
       "type": "multiple_choice",
       "questionText": "Es ist absolut notwendig, ____ Sie die Sicherheitsbestimmungen am Arbeitsplatz strikt einhalten.",
-      "options": ["damit", "weil", "dass", "ob"],
+      "options": [
+        "damit",
+        "weil",
+        "dass",
+        "ob"
+      ],
       "correctAnswer": "dass",
       "explanation": "The adjective phrase 'Es ist notwendig' introduces a noun clause (Objektsatz) specifying what is necessary, which is triggered by 'dass' (that).",
       "difficulty": "easy"
@@ -94,7 +134,12 @@
       "id": "b1_01_q009",
       "type": "multiple_choice",
       "questionText": "____ ich in die Schweiz reise, besuche ich jedes Mal meine Großeltern in Zürich.",
-      "options": ["Als", "Bevor", "Wenn", "Obwohl"],
+      "options": [
+        "Als",
+        "Bevor",
+        "Wenn",
+        "Obwohl"
+      ],
       "correctAnswer": "Wenn",
       "explanation": "The phrase 'jedes Mal' (every time) indicates a repeated action. For repeated actions in the past, present, or future, 'wenn' (whenever/when) must be used instead of 'als'.",
       "difficulty": "hard"
@@ -103,7 +148,12 @@
       "id": "b1_01_q010",
       "type": "multiple_choice",
       "questionText": "Wir haben den Vertrag unterschrieben, ____ wir mit einigen Klauseln nicht ganz zufrieden waren.",
-      "options": ["weil", "obwohl", "damit", "dass"],
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "dass"
+      ],
       "correctAnswer": "obwohl",
       "explanation": "'Obwohl' (although) introduces a concession. They signed the contract despite not being completely satisfied with some clauses.",
       "difficulty": "easy"
@@ -112,7 +162,12 @@
       "id": "b1_01_q011",
       "type": "multiple_choice",
       "questionText": "Er spart seit Monaten Geld, ____ er sich Ende des Jahres ein neues Auto kaufen kann.",
-      "options": ["weil", "damit", "dass", "wenn"],
+      "options": [
+        "weil",
+        "damit",
+        "dass",
+        "wenn"
+      ],
       "correctAnswer": "damit",
       "explanation": "The action of saving money has a specific goal or intention. 'Damit' (so that) introduces this intention/purpose clause.",
       "difficulty": "medium"
@@ -121,7 +176,12 @@
       "id": "b1_01_q012",
       "type": "multiple_choice",
       "questionText": "Erinnerst du dich noch daran, ____ wir uns das erste Mal im Sprachkurs getroffen haben?",
-      "options": ["wenn", "als", "ob", "dass"],
+      "options": [
+        "wenn",
+        "als",
+        "ob",
+        "dass"
+      ],
       "correctAnswer": "als",
       "explanation": "This refers to a single, specific event in the past ('the first time we met'). Therefore, 'als' (when) is the correct temporal conjunction.",
       "difficulty": "hard"
@@ -130,7 +190,12 @@
       "id": "b1_01_q013",
       "type": "multiple_choice",
       "questionText": "____ Sie Fragen zu Ihrer Abrechnung haben, wenden Sie sich bitte direkt an die Buchhaltung.",
-      "options": ["Als", "Ob", "Wenn", "Dass"],
+      "options": [
+        "Als",
+        "Ob",
+        "Wenn",
+        "Dass"
+      ],
       "correctAnswer": "Wenn",
       "explanation": "This is a conditional sentence. 'Wenn' means 'if' in this context: If you have questions, please contact accounting.",
       "difficulty": "easy"
@@ -139,7 +204,12 @@
       "id": "b1_01_q014",
       "type": "multiple_choice",
       "questionText": "Er schaltete den Computer aus, ____ er das Büro verließ.",
-      "options": ["bevor", "als", "wenn", "damit"],
+      "options": [
+        "bevor",
+        "als",
+        "wenn",
+        "damit"
+      ],
       "correctAnswer": "bevor",
       "explanation": "'Bevor' (before) indicates that turning off the computer happened prior to leaving the office.",
       "difficulty": "medium"
@@ -148,7 +218,12 @@
       "id": "b1_01_q015",
       "type": "multiple_choice",
       "questionText": "Die Firma investiert viel in Fortbildungen, ____ die Mitarbeiter auf dem neuesten Stand bleiben.",
-      "options": ["weil", "dass", "damit", "obwohl"],
+      "options": [
+        "weil",
+        "dass",
+        "damit",
+        "obwohl"
+      ],
       "correctAnswer": "damit",
       "explanation": "The investment has the purpose/goal of keeping employees up to date. 'Damit' means 'so that'.",
       "difficulty": "medium"
@@ -157,7 +232,12 @@
       "id": "b1_01_q016",
       "type": "multiple_choice",
       "questionText": "Niemand im Büro wusste genau, ____ der Chef der Gehaltserhöhung bereits zugestimmt hatte.",
-      "options": ["ob", "dass", "weil", "obwohl"],
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "obwohl"
+      ],
       "correctAnswer": "ob",
       "explanation": "'Niemand wusste genau' implies uncertainty and introduces an indirect question, which requires 'ob' (whether/if).",
       "difficulty": "medium"
@@ -166,7 +246,12 @@
       "id": "b1_01_q017",
       "type": "multiple_choice",
       "questionText": "____ es in Strömen regnete, gingen die Touristen ohne Regenschirme in der Altstadt spazieren.",
-      "options": ["Weil", "Obwohl", "Wenn", "Als"],
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Wenn",
+        "Als"
+      ],
       "correctAnswer": "Obwohl",
       "explanation": "This represents an unexpected counter-fact or concession. 'Obwohl' (although) it was pouring rain, they walked without umbrellas.",
       "difficulty": "easy"
@@ -175,7 +260,12 @@
       "id": "b1_01_q018",
       "type": "multiple_choice",
       "questionText": "Ich gehe fest davon aus, ____ wir das Projekt bis zum vereinbarten Termin erfolgreich abschließen werden.",
-      "options": ["damit", "ob", "dass", "wenn"],
+      "options": [
+        "damit",
+        "ob",
+        "dass",
+        "wenn"
+      ],
       "correctAnswer": "dass",
       "explanation": "The prepositional verb phrase 'davon ausgehen' anticipates a subordinate noun clause introduced by 'dass' (that).",
       "difficulty": "medium"
@@ -184,7 +274,12 @@
       "id": "b1_01_q019",
       "type": "multiple_choice",
       "questionText": "____ ich ein Kind war, spielten wir im Sommer immer bis spät abends draußen auf der Straße.",
-      "options": ["Wenn", "Als", "Bevor", "Obwohl"],
+      "options": [
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Obwohl"
+      ],
       "correctAnswer": "Als",
       "explanation": "Being a child ('ich ein Kind war') describes a single, continuous period of time in the past. Therefore, 'als' is used — not 'wenn', which would indicate repeated or future events.",
       "difficulty": "hard"
@@ -193,7 +288,12 @@
       "id": "b1_01_q020",
       "type": "multiple_choice",
       "questionText": "Können Sie mir sagen, ____ der nächste Zug nach Frankfurt Verspätung hat?",
-      "options": ["dass", "ob", "weil", "als"],
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "als"
+      ],
       "correctAnswer": "ob",
       "explanation": "'Können Sie mir sagen...' introduces an indirect polite question, asking 'whether' (ob) the train is delayed.",
       "difficulty": "easy"
@@ -202,7 +302,12 @@
       "id": "b1_01_q021",
       "type": "multiple_choice",
       "questionText": "Ich weiß nicht, ____ er morgen kommen kann.",
-      "options": ["dass", "ob", "weil", "damit"],
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "damit"
+      ],
       "correctAnswer": "ob",
       "explanation": "'Ob' introduces an indirect yes/no question. The speaker is uncertain whether he can come tomorrow.",
       "difficulty": "easy"
@@ -211,7 +316,12 @@
       "id": "b1_01_q022",
       "type": "multiple_choice",
       "questionText": "Sie hat mir gesagt, ____ sie keine Zeit hat.",
-      "options": ["ob", "damit", "dass", "obwohl"],
+      "options": [
+        "ob",
+        "damit",
+        "dass",
+        "obwohl"
+      ],
       "correctAnswer": "dass",
       "explanation": "'Dass' introduces an indirect statement (reported speech). It reports what she said — that she has no time.",
       "difficulty": "easy"
@@ -220,7 +330,12 @@
       "id": "b1_01_q023",
       "type": "multiple_choice",
       "questionText": "Er lernt Deutsch, ____ er in Deutschland arbeiten will.",
-      "options": ["obwohl", "bevor", "wenn", "weil"],
+      "options": [
+        "obwohl",
+        "bevor",
+        "wenn",
+        "weil"
+      ],
       "correctAnswer": "weil",
       "explanation": "'Weil' introduces a causal clause giving the reason for an action. Verb goes to the end.",
       "difficulty": "easy"
@@ -229,7 +344,12 @@
       "id": "b1_01_q024",
       "type": "multiple_choice",
       "questionText": "____ es regnet, nehme ich einen Regenschirm mit.",
-      "options": ["Bevor", "Wenn", "Damit", "Obwohl"],
+      "options": [
+        "Bevor",
+        "Wenn",
+        "Damit",
+        "Obwohl"
+      ],
       "correctAnswer": "Wenn",
       "explanation": "'Wenn' expresses a conditional/temporal relationship. When the 'wenn'-clause begins the sentence, the main clause verb follows immediately (inversion).",
       "difficulty": "easy"
@@ -238,7 +358,12 @@
       "id": "b1_01_q025",
       "type": "multiple_choice",
       "questionText": "Ich dusche mich, ____ ich frühstücke.",
-      "options": ["als", "wenn", "bevor", "obwohl"],
+      "options": [
+        "als",
+        "wenn",
+        "bevor",
+        "obwohl"
+      ],
       "correctAnswer": "bevor",
       "explanation": "'Bevor' indicates that one action happens before another. Here: first the shower, then breakfast.",
       "difficulty": "easy"
@@ -247,7 +372,12 @@
       "id": "b1_01_q026",
       "type": "multiple_choice",
       "questionText": "____ ich ein Kind war, liebte ich Schokolade.",
-      "options": ["Wenn", "Als", "Bevor", "Dass"],
+      "options": [
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Dass"
+      ],
       "correctAnswer": "Als",
       "explanation": "'Als' is used for a single completed event or period in the past. 'Wenn' would imply repeated/habitual past events.",
       "difficulty": "easy"
@@ -256,7 +386,12 @@
       "id": "b1_01_q027",
       "type": "multiple_choice",
       "questionText": "Er schreibt eine SMS, ____ seine Mutter nicht alleine wartet.",
-      "options": ["weil", "obwohl", "damit", "bevor"],
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
+      ],
       "correctAnswer": "damit",
       "explanation": "'Damit' expresses a purpose/intention where the subject of main and subordinate clause is different. Goal: so that his mother does not wait alone.",
       "difficulty": "easy"
@@ -265,7 +400,12 @@
       "id": "b1_01_q028",
       "type": "multiple_choice",
       "questionText": "Sie ist zur Arbeit gegangen, ____ sie hohes Fieber hatte.",
-      "options": ["weil", "damit", "als", "obwohl"],
+      "options": [
+        "weil",
+        "damit",
+        "als",
+        "obwohl"
+      ],
       "correctAnswer": "obwohl",
       "explanation": "'Obwohl' introduces a concessive clause — an unexpected contrast. Despite having a high fever, she went to work.",
       "difficulty": "medium"
@@ -274,7 +414,12 @@
       "id": "b1_01_q029",
       "type": "multiple_choice",
       "questionText": "Ich frage mich, ____ er die Wahrheit gesagt hat.",
-      "options": ["dass", "damit", "ob", "als"],
+      "options": [
+        "dass",
+        "damit",
+        "ob",
+        "als"
+      ],
       "correctAnswer": "ob",
       "explanation": "'Ob' introduces an indirect yes/no question. The speaker wonders whether he told the truth.",
       "difficulty": "medium"
@@ -283,7 +428,12 @@
       "id": "b1_01_q030",
       "type": "multiple_choice",
       "questionText": "Der Arzt empfiehlt, ____ der Patient täglich spazieren geht.",
-      "options": ["ob", "damit", "weil", "dass"],
+      "options": [
+        "ob",
+        "damit",
+        "weil",
+        "dass"
+      ],
       "correctAnswer": "dass",
       "explanation": "'Dass' follows verbs of recommending, thinking, or saying to introduce a subordinate content clause.",
       "difficulty": "medium"
@@ -292,7 +442,12 @@
       "id": "b1_01_q031",
       "type": "multiple_choice",
       "questionText": "____ ich gestern das Büro verlassen hatte, rief mein Chef an.",
-      "options": ["Als", "Wenn", "Bevor", "Damit"],
+      "options": [
+        "Als",
+        "Wenn",
+        "Bevor",
+        "Damit"
+      ],
       "correctAnswer": "Als",
       "explanation": "'Als' with Plusquamperfekt (had left) sets a completed past action before another past event. 'Wenn' would be used for repeated/habitual events.",
       "difficulty": "medium"
@@ -301,7 +456,12 @@
       "id": "b1_01_q032",
       "type": "multiple_choice",
       "questionText": "Wir müssen leise sein, ____ das Baby schlafen kann.",
-      "options": ["weil", "obwohl", "bevor", "damit"],
+      "options": [
+        "weil",
+        "obwohl",
+        "bevor",
+        "damit"
+      ],
       "correctAnswer": "damit",
       "explanation": "'Damit' expresses purpose when subjects differ (we / the baby). Goal: so the baby can sleep.",
       "difficulty": "medium"
@@ -310,7 +470,12 @@
       "id": "b1_01_q033",
       "type": "multiple_choice",
       "questionText": "Es ist wichtig, ____ man regelmäßig Sport treibt.",
-      "options": ["ob", "weil", "damit", "dass"],
+      "options": [
+        "ob",
+        "weil",
+        "damit",
+        "dass"
+      ],
       "correctAnswer": "dass",
       "explanation": "After impersonal constructions like 'Es ist wichtig', 'dass' introduces the content/subject clause.",
       "difficulty": "medium"
@@ -319,7 +484,12 @@
       "id": "b1_01_q034",
       "type": "multiple_choice",
       "questionText": "____ er jeden Tag trainiert, hat er den Wettkampf nicht gewonnen.",
-      "options": ["Damit", "Weil", "Obwohl", "Dass"],
+      "options": [
+        "Damit",
+        "Weil",
+        "Obwohl",
+        "Dass"
+      ],
       "correctAnswer": "Obwohl",
       "explanation": "'Obwohl' expresses a concessive relationship — a contrast between the training every day and the unexpected loss at the competition.",
       "difficulty": "medium"
@@ -328,7 +498,12 @@
       "id": "b1_01_q035",
       "type": "multiple_choice",
       "questionText": "Sie rief ihre Freundin an, ____ sie ihr die Neuigkeit mitteilen wollte.",
-      "options": ["damit", "obwohl", "weil", "bevor"],
+      "options": [
+        "damit",
+        "obwohl",
+        "weil",
+        "bevor"
+      ],
       "correctAnswer": "weil",
       "explanation": "'Weil' gives the reason/cause for calling. The reason: she wanted to share the news.",
       "difficulty": "medium"
@@ -337,7 +512,12 @@
       "id": "b1_01_q036",
       "type": "multiple_choice",
       "questionText": "Ich war sehr überrascht, ____ er die Prüfung bestanden hat, ____ er kaum gelernt hatte.",
-      "options": ["dass / obwohl", "ob / weil", "weil / obwohl", "dass / damit"],
+      "options": [
+        "dass / obwohl",
+        "ob / weil",
+        "weil / obwohl",
+        "dass / damit"
+      ],
       "correctAnswer": "dass / obwohl",
       "explanation": "'Dass' introduces a content clause after 'überrascht sein'. 'Obwohl' introduces the concessive clause explaining why it was surprising — he barely studied.",
       "difficulty": "hard"
@@ -346,7 +526,12 @@
       "id": "b1_01_q037",
       "type": "multiple_choice",
       "questionText": "Der Lehrer erklärt die Aufgabe noch einmal, ____ alle Schüler sie verstehen können.",
-      "options": ["weil", "obwohl", "damit", "wenn"],
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "wenn"
+      ],
       "correctAnswer": "damit",
       "explanation": "'Damit' expresses purpose with different subjects (the teacher / the students). The teacher's goal is for all students to understand.",
       "difficulty": "hard"
@@ -355,7 +540,12 @@
       "id": "b1_01_q038",
       "type": "multiple_choice",
       "questionText": "Früher, ____ ich jung war, bin ich jeden Sommer ans Meer gefahren.",
-      "options": ["wenn", "als", "bevor", "obwohl"],
+      "options": [
+        "wenn",
+        "als",
+        "bevor",
+        "obwohl"
+      ],
       "correctAnswer": "wenn",
       "explanation": "With 'früher' (formerly) indicating habitual/repeated past events, 'wenn' is correct — not 'als'. 'Als' is for a single/unique past event.",
       "difficulty": "hard"
@@ -364,7 +554,12 @@
       "id": "b1_01_q039",
       "type": "multiple_choice",
       "questionText": "Man weiß nicht genau, ____ die Wirtschaft sich erholen wird.",
-      "options": ["dass", "ob", "damit", "als"],
+      "options": [
+        "dass",
+        "ob",
+        "damit",
+        "als"
+      ],
       "correctAnswer": "ob",
       "explanation": "'Ob' introduces an indirect yes/no question embedded after a verb of knowing/uncertainty. The uncertainty is whether the economy will recover.",
       "difficulty": "hard"
@@ -373,9 +568,294 @@
       "id": "b1_01_q040",
       "type": "multiple_choice",
       "questionText": "Sie hat das Projekt abgeschlossen, ____ ihr jemand geholfen hatte, und ____ sie es präsentierte, bedankte sie sich bei ihrem Team.",
-      "options": ["bevor / nachdem", "obwohl / damit", "weil / als", "damit / obwohl"],
+      "options": [
+        "bevor / nachdem",
+        "obwohl / damit",
+        "weil / als",
+        "damit / obwohl"
+      ],
       "correctAnswer": "weil / als",
       "explanation": "'Weil' gives the reason she finished (someone had helped her). 'Als' introduces a unique completed past event (before she presented), triggering verb-final order.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q041",
+      "type": "multiple_choice",
+      "questionText": "Ich wusste nicht, ____ der Zug wegen des Streiks ausfällt.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "damit"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'Dass' is used to introduce a factual subordinate clause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q042",
+      "type": "multiple_choice",
+      "questionText": "Kannst du mir sagen, ____ du morgen Zeit hast?",
+      "options": [
+        "obwohl",
+        "weil",
+        "ob",
+        "damit"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is used for indirect yes/no questions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q043",
+      "type": "multiple_choice",
+      "questionText": "Er blieb zu Hause, ____ er starke Kopfschmerzen hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "bevor",
+        "als"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' expresses a reason or cause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q044",
+      "type": "multiple_choice",
+      "questionText": "____ sie sehr müde war, arbeitete sie bis Mitternacht weiter.",
+      "options": [
+        "Damit",
+        "Bevor",
+        "Obwohl",
+        "Wenn"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a contrast or contradiction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q045",
+      "type": "multiple_choice",
+      "questionText": "Ich lerne jeden Tag Deutsch, ____ ich die B2-Prüfung bestehe.",
+      "options": [
+        "damit",
+        "obwohl",
+        "als",
+        "ob"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses purpose or intention.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q046",
+      "type": "multiple_choice",
+      "questionText": "Bitte ruf mich an, ____ du das Haus verlässt.",
+      "options": [
+        "obwohl",
+        "bevor",
+        "wenn",
+        "weil"
+      ],
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' means 'before' and introduces an action happening earlier.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q047",
+      "type": "multiple_choice",
+      "questionText": "____ ich ein Kind war, spielte ich oft im Garten.",
+      "options": [
+        "Wenn",
+        "Obwohl",
+        "Als",
+        "Damit"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for single events or states in the past.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q048",
+      "type": "multiple_choice",
+      "questionText": "____ du regelmäßig trainierst, wirst du fitter.",
+      "options": [
+        "Wenn",
+        "Obwohl",
+        "Dass",
+        "Bevor"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' is used for conditions or repeated situations.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q049",
+      "type": "multiple_choice",
+      "questionText": "Die Professorin erklärte ausführlich, ____ die neue Methode funktioniert.",
+      "options": [
+        "ob",
+        "damit",
+        "wie",
+        "dass"
+      ],
+      "correctAnswer": "wie",
+      "explanation": "'Wie' fits because the sentence asks about the manner in which something works.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q050",
+      "type": "multiple_choice",
+      "questionText": "____ die Straßen nass waren, fuhr er besonders vorsichtig.",
+      "options": [
+        "Damit",
+        "Weil",
+        "Obwohl",
+        "Ob"
+      ],
+      "correctAnswer": "Weil",
+      "explanation": "'Weil' gives the reason for careful driving.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q051",
+      "type": "multiple_choice",
+      "questionText": "Niemand wusste, ____ die Konferenz abgesagt worden war.",
+      "options": [
+        "bevor",
+        "obwohl",
+        "warum",
+        "damit"
+      ],
+      "correctAnswer": "warum",
+      "explanation": "'Warum' introduces an indirect question asking for a reason.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q052",
+      "type": "multiple_choice",
+      "questionText": "____ er die Nachricht gelesen hatte, antwortete er sofort.",
+      "options": [
+        "Als",
+        "Wenn",
+        "Damit",
+        "Ob"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "'Als' is correct for a single completed event in the past.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q053",
+      "type": "multiple_choice",
+      "questionText": "Sie sparte monatelang Geld, ____ sie sich ein neues Auto kaufen konnte.",
+      "options": [
+        "obwohl",
+        "damit",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses the purpose of saving money.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q054",
+      "type": "multiple_choice",
+      "questionText": "____ der Chef im Büro ist, arbeitet jeder konzentrierter.",
+      "options": [
+        "Wenn",
+        "Obwohl",
+        "Dass",
+        "Bevor"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' describes a repeated condition or situation.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q055",
+      "type": "multiple_choice",
+      "questionText": "Er fragte mich, ____ ich schon einmal in Österreich gewesen sei.",
+      "options": [
+        "weil",
+        "ob",
+        "obwohl",
+        "bevor"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' introduces an indirect yes/no question in reported speech.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q056",
+      "type": "multiple_choice",
+      "questionText": "____ die Aufgabe kompliziert erschien, konnte sie sie schnell lösen.",
+      "options": [
+        "Weil",
+        "Damit",
+        "Obwohl",
+        "Wenn"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' shows contrast between appearance and reality.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q057",
+      "type": "multiple_choice",
+      "questionText": "Der Student schrieb alles auf, ____ er keine wichtigen Informationen vergessen würde.",
+      "options": [
+        "obwohl",
+        "damit",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' explains the purpose of writing everything down.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q058",
+      "type": "multiple_choice",
+      "questionText": "____ ich gestern nach Hause kam, schliefen bereits alle.",
+      "options": [
+        "Wenn",
+        "Damit",
+        "Als",
+        "Ob"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for a one-time event in the past.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q059",
+      "type": "multiple_choice",
+      "questionText": "Die Firma investiert viel Geld, ____ sie international konkurrenzfähig bleibt.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "ob"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses the goal of remaining competitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q060",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ____ die Bewerbung rechtzeitig angekommen ist.",
+      "options": [
+        "obwohl",
+        "ob",
+        "als",
+        "weil"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is required because the speaker is uncertain about a yes/no situation.",
       "difficulty": "hard"
     }
   ]
