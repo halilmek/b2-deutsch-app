@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "subjectId": "b1_03",
+  "topicName": "Passiv",
+  "level": "B1",
+  "totalQuestions": 20,
+  "description": "German Passive (Passiv) voice shifts the focus from the agent to the action or result. There are two main forms: Vorgangspassiv (process passive) using werden + Partizip II, and Zustandspassiv (state passive) using sein + Partizip II. Passive alternatives include: sich lassen + Infinitiv, sein + zu + Infinitiv, -bar/-lich/-ig adjectives, and modal verb + Passiv structures.",
+  "tips": [
+    "Vorgangspassiv (process passive): werden + Partizip II — 'Das Haus wird gebaut.' (The house is being built.)",
+    "Zustandspassiv (state passive): sein + Partizip II — 'Das Haus ist gebaut.' (The house is built / in a built state.)",
+    "Perfekt Passiv: ist + Partizip II + worden — 'Das Haus ist gebaut worden.' (The house has been built.)",
+    "Plusquamperfekt Passiv: war + Partizip II + worden — 'Das Haus war gebaut worden.' (The house had been built.)",
+    "Präteritum Passiv: wurde + Partizip II — 'Das Haus wurde gebaut.' (The house was built.)",
+    "Futur I Passiv: wird + Partizip II + werden — 'Das Haus wird gebaut werden.' (The house will be built.)",
+    "Passiv mit Modalverb: Modalverb + Partizip II + werden — 'Das Haus muss gebaut werden.'",
+    "sich lassen + Infinitiv: passive meaning, active infinitive — 'Das lässt sich leicht lösen.' (= kann gelöst werden)",
+    "sein + zu + Infinitiv: obligation/possibility — 'Das ist leicht zu lösen.' (= kann leicht gelöst werden)",
+    "Adjective with -bar/-lich/-ig: passive alternative — 'lesbar' (= kann gelesen werden), 'verständlich' (= kann verstanden werden)"
+  ],
+  "questions": [
+    {
+      "id": "b1_03_q041",
+      "type": "multiple_choice",
+      "questionText": "Die vertraulichen Dokumente ____ bis morgen Abend dringend unterschrieben ____.",
+      "options": [
+        "müssen / werden",
+        "haben / zu werden",
+        "werden / müssen",
+        "müssen / worden"
+      ],
+      "correctAnswer": "müssen / werden",
+      "explanation": "This is a standard Passive voice with a modal verb in the present tense (Passiv mit Modalverb im Präsens). The structure requires: Modalverb (conjugated) + Partizip II + werden.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q042",
+      "type": "multiple_choice",
+      "questionText": "Der Fehler im System ____ leider erst nach der Veröffentlichung des Updates ____.",
+      "options": [
+        "wurde / entdeckt",
+        "ist / entdeckt worden",
+        "war / entdecken",
+        "wurde / entdecken"
+      ],
+      "correctAnswer": "wurde / entdeckt",
+      "explanation": "The sentence requires the Präteritum Passiv form because it describes a completed action in the past. The structure ist wurde (past tense of werden) + Partizip II (entdeckt). Option B is also grammatically correct for Perfekt Passiv, but option A represents the standard written narrative form (Präteritum) commonly expected in B2 contexts for singular historic past events.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q043",
+      "type": "multiple_choice",
+      "questionText": "Dieses komplizierte mathematische Problem lässt sich nicht so einfach ____.",
+      "options": [
+        "gelöst werden",
+        "lösen",
+        "gelöst",
+        "zu lösen"
+      ],
+      "correctAnswer": "lösen",
+      "explanation": "The structure 'sich lassen + Infinitiv' is a Passive Alternative (Passiversatzform). It carries a passive meaning equivalent to 'kann gelöst werden' (can be solved). It strictly requires the active infinitive form of the verb.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q044",
+      "type": "multiple_choice",
+      "questionText": "Das neue Firmengebäude ____ bereits komplett ____, sodass die Mitarbeiter morgen einziehen können.",
+      "options": [
+        "wird / einrichten",
+        "ist / eingerichtet",
+        "hat / eingerichtet",
+        "wird / eingerichtet werden"
+      ],
+      "correctAnswer": "ist / eingerichtet",
+      "explanation": "This sentence requires the Zustandspassiv (State Passive) because it describes a completed state or result that exists in the present, not an ongoing action. The formula is sein + Partizip II (ist eingerichtet).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q045",
+      "type": "multiple_choice",
+      "questionText": "Es ____ am Sonntag in den meisten deutschen Städten nicht ____.",
+      "options": [
+        "wird / gearbeitet",
+        "wird / arbeiten",
+        "ist / gearbeitet werden",
+        "hat / gearbeitet"
+      ],
+      "correctAnswer": "wird / gearbeitet",
+      "explanation": "This is a subjectless passive construction (Subjektloses Passiv), commonly used in German with intransitive verbs to describe a general activity or custom. 'Es' acts as a placeholder at the beginning of the sentence: Es wird gearbeitet.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q046",
+      "type": "multiple_choice",
+      "questionText": "Die Serverprobleme ____ gestern vom IT-Support innerhalb weniger Minuten ____.",
+      "options": [
+        "wurden / gelöst werden",
+        "sind / gelöst worden",
+        "hatten / gelöst",
+        "waren / gelöst worden"
+      ],
+      "correctAnswer": "sind / gelöst worden",
+      "explanation": "This is the Perfekt Passiv form (sein + Partizip II + worden). Since the time indicator is 'gestern' (yesterday), the past action is described using the spoken past/conversational perfect form. Option D (Plusquamperfekt) would require a reference to another past action.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q047",
+      "type": "multiple_choice",
+      "questionText": "Die alten Verträge sind bis zum Ende des Geschäftsjahres von allen Partnern ____.",
+      "options": [
+        "zu kündigen",
+        "gekündigt werden",
+        "kündigen lassen",
+        "gekündigt zu werden"
+      ],
+      "correctAnswer": "zu kündigen",
+      "explanation": "The structure 'sein + zu + Infinitiv' is another passive alternative (Passiversatzform). It expresses an obligation or necessity equivalent to 'müssen + Passiv' (müssen gekündigt werden).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q048",
+      "type": "multiple_choice",
+      "questionText": "Bevor das Produkt auf den Markt kam, ____ es monatelang von Experten ____.",
+      "options": [
+        "wurde / getestet",
+        "war / getestet worden",
+        "ist / getestet worden",
+        "wird / getestet werden"
+      ],
+      "correctAnswer": "war / getestet worden",
+      "explanation": "This sentence requires the Plusquamperfekt Passiv (Past Perfect Passive) due to the time conjunction 'bevor'. The action in the subordinate clause is in the Präteritum (kam), so the action that happened even earlier in the passive voice must be in the Plusquamperfekt (war... getestet worden).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q049",
+      "type": "multiple_choice",
+      "questionText": "Die Hausordnung ist für alle Mieter im Gebäude absolut ____.",
+      "options": [
+        "einzuhalten",
+        "einzuhaltbar",
+        "zu einhalten",
+        "eingehalten zu werden"
+      ],
+      "correctAnswer": "einzuhalten",
+      "explanation": "This uses the 'sein + zu + Infinitiv' structure as a passive substitute. Since 'einhalten' is a separable verb, the 'zu' must be placed between the prefix and the root verb (einzuhalten).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q050",
+      "type": "multiple_choice",
+      "questionText": "Dem verletzten Fußgänger musste sofort am Unfallort geholfen ____.",
+      "options": [
+        "worden",
+        "werden",
+        "zu werden",
+        "sein"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "This is a passive construction with a modal verb in the past tense (Präteritum des Modalverbs + Passiv). The structure ist musste + Partizip II (geholfen) + werden. Note that 'helfen' takes a dative object (dem Fußgänger), which remains in the dative case in the passive voice.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q051",
+      "type": "multiple_choice",
+      "questionText": "Diese Handschrift ist so undeutlich, dass sie fast gar nicht zu ____ ist.",
+      "options": [
+        "gelesen",
+        "lesen",
+        "lesen werden",
+        "lesbar"
+      ],
+      "correctAnswer": "lesen",
+      "explanation": "This tests the 'sein + zu + Infinitiv' structure expressing capability or possibility ('kann gelesen werden'). The infinitive form 'lesen' is required after 'zu'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q052",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht hätte eigentlich schon am Freitagabend eingereicht ____.",
+      "options": [
+        "werden müssen",
+        "gemusst werden",
+        "worden müssen",
+        "werden gemusst"
+      ],
+      "correctAnswer": "werden müssen",
+      "explanation": "This is a high-level B2 structure: Konjunktiv II of a modal verb in the past tense combined with the passive voice. The fixed structure ist hätte + Partizip II + werden + müssen (double infinitive at the end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q053",
+      "type": "multiple_choice",
+      "questionText": "Die Fehler, ____ während der Testphase gemacht wurden, konnten schnell korrigiert werden.",
+      "options": [
+        "von denen",
+        "durch die",
+        "die",
+        "mit denen"
+      ],
+      "correctAnswer": "die",
+      "explanation": "This is a combination of a relative clause and a passive construction. The relative pronoun 'die' acts as the subject of the passive relative clause (die gemacht wurden — which were made).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q054",
+      "type": "multiple_choice",
+      "questionText": "Das Paket ____ vermutlich erst im Laufe der nächsten Woche ____.",
+      "options": [
+        "wird / zugestellt werden",
+        "wird / zugestellt worden",
+        "ist / zugestellt werden",
+        "hat / zugestellt werden"
+      ],
+      "correctAnswer": "wird / zugestellt werden",
+      "explanation": "This sentence expresses an action in the future passive voice (Futur I Passiv). The structure requires werden (conjugated for future) + Partizip II (zugestellt) + werden (passive infinitive marker).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q055",
+      "type": "multiple_choice",
+      "questionText": "Die alte Industriehalle wird derzeit zu einem modernen Kulturzentrum ____.",
+      "options": [
+        "umgebaut",
+        "umzubauen",
+        "umgebaut werden",
+        "umbauen"
+      ],
+      "correctAnswer": "umgebaut",
+      "explanation": "The signal word 'derzeit' (currently) indicates an ongoing action in the Present Passive (Präsens Passiv). The structure ist wird + Partizip II (umgebaut).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q056",
+      "type": "multiple_choice",
+      "questionText": "Man konnte die medizinischen Instrumente kaum noch verwenden, weil sie nicht steril ____.",
+      "options": [
+        "wurden",
+        "worden waren",
+        "waren",
+        "geworden sind"
+      ],
+      "correctAnswer": "waren",
+      "explanation": "The sentence requires a state description in the past (Zustandspassiv im Präteritum). The instruments were not in a sterile state. The structure for Zustandspassiv in the past ist waren + adjective/Partizip II.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q057",
+      "type": "multiple_choice",
+      "questionText": "Viele wichtige Fragen ____ während der gestrigen Konferenz überhaupt nicht ____.",
+      "options": [
+        "wurden / besprochen",
+        "sind / besprochen",
+        "hatten / besprochen werden",
+        "wurden / besprechen"
+      ],
+      "correctAnswer": "wurden / besprochen",
+      "explanation": "This is the Präteritum Passiv form for plural subjects. 'Viele wichtige Fragen' is plural, requiring wurden + Partizip II (besprochen).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q058",
+      "type": "multiple_choice",
+      "questionText": "Die neue Steuerreform soll bereits ab dem 1. Januar rechtlich ____.",
+      "options": [
+        "eingeführt werden",
+        "einführen lassen",
+        "eingeführt worden sein",
+        "einzuführen sein"
+      ],
+      "correctAnswer": "eingeführt werden",
+      "explanation": "This sentence uses a modal verb (soll) combined with the present passive infinitive (eingeführt werden). It describes an objective plan or mandate for the future.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q059",
+      "type": "multiple_choice",
+      "questionText": "Seine Argumente waren absolut unlogisch und somit überhaupt nicht ____.",
+      "options": [
+        "nachzuvollziehen",
+        "nachvollzogen werden",
+        "nachvollziehbar",
+        "nachvollziehen lassen"
+      ],
+      "correctAnswer": "nachvollziehbar",
+      "explanation": "The suffix '-bar' added to a verb root creates an adjective that serves as a Passive Alternative (Passiversatzform), meaning 'capable of being X'. 'Nachvollziehbar' means 'comprehensible' / 'capable of being understood'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q060",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Straßen komplett vom Schnee ____, konnte der Verkehr wieder normal fließen.",
+      "options": [
+        "befreit worden waren",
+        "befreit werden",
+        "befreit worden sind",
+        "befreit waren"
+      ],
+      "correctAnswer": "befreit worden waren",
+      "explanation": "The conjunction 'nachdem' dictates a sequence of tenses (Zeitenfolge). Since the main clause is in the Präteritum (konnte), the prior action in the passive voice must be in the Plusquamperfekt Passiv (befreit worden waren).",
+      "difficulty": "hard"
+    }
+  ]
+}
