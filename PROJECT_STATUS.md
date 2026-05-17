@@ -56,7 +56,7 @@
 | 9 | b1_09 | Verben mit festen Präpositionen | 0 | ⬜ Pending |
 | 10 | b1_10 | Partizipien als Adjektive | 0 | ⬜ Pending |
 
-**B1 Total: 296 questions (target: 1,000)**
+**B1 Total: 376 questions (target: 1,000)**
 
 ### B2 Module ✅
 | # | subjectId | Topic Name | Questions | Content Quality |
