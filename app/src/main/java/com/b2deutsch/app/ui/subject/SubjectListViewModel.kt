@@ -1,5 +1,7 @@
 package com.b2deutsch.app.ui.subject
 
+import android.app.Application
+import android.content.Context
 import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
@@ -12,12 +14,15 @@ import com.b2deutsch.app.data.repository.UserRepository
 import com.b2deutsch.app.util.Constants
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import org.json.JSONObject
+import java.io.InputStreamReader
 import javax.inject.Inject
 
 @HiltViewModel
 class SubjectListViewModel @Inject constructor(
     private val contentRepository: ContentRepository,
-    private val userRepository: UserRepository
+    private val userRepository: UserRepository,
+    private val application: Application
 ) : ViewModel() {
 
     private val _subjects = MutableLiveData<List<Subject>>()
@@ -32,29 +37,21 @@ class SubjectListViewModel @Inject constructor(
     private val _selectedSubject = MutableLiveData<Subject?>()
     val selectedSubject: LiveData<Subject?> = _selectedSubject
 
-    fun loadSubjectsForLevel(level: String) {
-        Log.d("SubjectListVM", "📥 loadSubjectsForLevel($level) called")
+    private fun loadSubjectsForLevel(level: String) {
         viewModelScope.launch {
             _isLoading.value = true
 
-            // Get all subjects for this level
-            Log.d("SubjectListVM", "🔍 Fetching subjects from repository for level=$level")
+            // Try repository first, fall back to reading from JSON files
             contentRepository.getSubjectsByLevel(level)
                 .onSuccess { subjectList ->
-                    Log.d("SubjectListVM", "✅ Repository returned ${subjectList.size} subjects")
                     _subjects.value = subjectList
                 }
-                .onFailure { ex ->
-                    Log.w("SubjectListVM", "❌ Repository failed: ${ex.message}, falling back to defaults")
-                    // Fall back to default subjects
-                    _subjects.value = getDefaultSubjects(level)
+                .onFailure {
+                    // Fall back: read description/tips from JSON files and merge into default subjects
+                    _subjects.value = getDefaultSubjectsFromJson(level)
                 }
 
-            Log.d("SubjectListVM", "📤 Setting _subjects with getDefaultSubjects($level) = ${getDefaultSubjects(level).size} subjects")
-
-            // Load progress for each subject
             loadProgressForSubjects(level)
-
             _isLoading.value = false
         }
     }
@@ -130,6 +127,38 @@ class SubjectListViewModel @Inject constructor(
             "C1" -> getC1Subjects()
             "C2" -> getC2Subjects()
             else -> getB2Subjects()
+        }
+    }
+
+    /**
+     * Build subject list reading description/tips from JSON files.
+     * Falls back to getDefaultSubjects() for topics without JSON.
+     */
+    private fun getDefaultSubjectsFromJson(level: String): List<Subject> {
+        val defaults = getDefaultSubjects(level)
+        return defaults.map { subject ->
+            try {
+                val fileName = "${subject.id}.json"
+                val jsonText = application.assets.open(fileName).use { inputStream ->
+                    InputStreamReader(inputStream).readText()
+                }
+                val json = JSONObject(jsonText)
+                val description = json.optString("description", subject.description)
+                val tipsArray = json.optJSONArray("tips")
+                val tips = if (tipsArray != null) {
+                    (0 until tipsArray.length()).map { tipsArray.getString(it) }
+                } else {
+                    subject.tips
+                }
+                subject.copy(
+                    name = json.optString("topicName", subject.name),
+                    description = description,
+                    tips = tips
+                )
+            } catch (e: Exception) {
+                // No JSON file for this subject — use default
+                subject
+            }
         }
     }
 

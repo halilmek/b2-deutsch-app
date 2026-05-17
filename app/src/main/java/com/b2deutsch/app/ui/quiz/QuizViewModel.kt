@@ -233,6 +233,18 @@ class QuizViewModel @Inject constructor(
 
     private fun getSubjectTitle(subjectId: String): String {
         val titles = mapOf(
+            // A2 topics
+            "a2_01" to "1. Präteritum",
+            "a2_02" to "2. Perfekt",
+            "a2_03" to "3. Verben mit Präpositionen",
+            "a2_04" to "4. Wechselpräpositionen",
+            "a2_05" to "5. Nebensätze",
+            "a2_06" to "6. Reflexive Verben",
+            "a2_07" to "7. Imperativ",
+            "a2_08" to "8. Plusquamperfekt",
+            "a2_09" to "9. Relativsätze",
+            "a2_10" to "10. Konjunktionen",
+            // B2 topics
             "b2_01" to "1. Konnektoren",
             "b2_02" to "2. Verben und Ergänzungen",
             "b2_03" to "3. Verben und Ergänzungen",
