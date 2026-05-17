@@ -3,7 +3,7 @@
   "subjectId": "b1_03",
   "topicName": "Passiv",
   "level": "B1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "German Passive (Passiv) shifts focus from the agent to the action or its result. Two main types: Vorgangspassiv (process passive) using werden + Partizip II, and Zustandspassiv (state passive) using sein + Partizip II. Passive alternatives include sich lassen + Infinitiv, sein + zu + Infinitiv, and -bar/-lich/-ig adjectives.\n\nKey structures:\n- Vorgangspassiv Prasens: wird/werden + P.II — ongoing or habitual action. Agent optional with 'von + Dativ'.\n- Vorgangspassiv Prateritum: wurde/wurden + P.II — completed past action. Most common in written German.\n- Vorgangspassiv Perfekt: ist/sind + P.II + geworden — WRONG! Use: ist/sind + P.II + worden (NOT geworden).\n- Vorgangspassiv Plusquamperfekt: war/waren + P.II + worden — action completed before another past event.\n- Vorgangspassiv Futur I: wird + P.II + werden — 'werden' appears twice (conjugated + infinitive).\n- Zustandspassiv: ist/war + P.II WITHOUT worden — describes a resulting state, NOT an action.\n- Unpersonliches Passiv: Es wird + P.II — intransitive verbs only; 'Es' drops when another element leads.\n- Modalverb + Passiv: Modalverb + P.II + werden — 'werden' stays as infinitive. Perfekt: P.II + worden sein.\n- Passiv Indirekte Rede: Konjunktiv I of sein (sei/seien) + P.II + worden — for reported passive speech.",
   "tips": [
     "Vorgangspassiv Prasens: wird + Partizip II — 'Das Haus wird gebaut.' (ongoing action). Agent: 'von + Dativ' (von dem Arbeiter).",
@@ -576,6 +576,286 @@
       ],
       "correctAnswer": "befreit worden waren",
       "explanation": "The conjunction 'nachdem' dictates a sequence of tenses (Zeitenfolge). Since the main clause is in the Präteritum (konnte), the prior action in the passive voice must be in the Plusquamperfekt Passiv (befreit worden waren).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q061",
+      "type": "multiple_choice",
+      "questionText": "Das neue Museum ____ nächstes Jahr eröffnet.",
+      "options": [
+        "wird",
+        "wurde",
+        "ist",
+        "hat"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Future/passive meaning in Prasens passive uses 'wird + Partizip II'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q062",
+      "type": "multiple_choice",
+      "questionText": "Die E-Mails ____ jeden Morgen vom Sekretariat beantwortet.",
+      "options": [
+        "werden",
+        "wurden",
+        "sind",
+        "haben"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Passive voice in Prasens uses 'werden + Partizip II'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q063",
+      "type": "multiple_choice",
+      "questionText": "Das Fenster ____ gestern repariert.",
+      "options": [
+        "wird",
+        "wurde",
+        "worden",
+        "werden"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Passive in Prateritum uses 'wurde + Partizip II'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q064",
+      "type": "multiple_choice",
+      "questionText": "Viele wichtige Informationen ____ im Internet veröffentlicht.",
+      "options": [
+        "werden",
+        "haben",
+        "sind",
+        "wurden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Prasens passive is formed with 'werden'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q065",
+      "type": "multiple_choice",
+      "questionText": "Die Patienten ____ von erfahrenen Ärzten untersucht.",
+      "options": [
+        "werden",
+        "haben",
+        "wurden",
+        "sind"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "The sentence requires present passive voice.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q066",
+      "type": "multiple_choice",
+      "questionText": "Das Problem konnte schnell ____ werden.",
+      "options": [
+        "lösen",
+        "gelöst",
+        "gelöstet",
+        "gelösen"
+      ],
+      "correctAnswer": "gelöst",
+      "explanation": "Modal verbs with passive use 'Partizip II + werden'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q067",
+      "type": "multiple_choice",
+      "questionText": "Die Straße ____ wegen der Bauarbeiten gesperrt worden.",
+      "options": [
+        "ist",
+        "hat",
+        "wurde",
+        "wird"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Perfekt passive is formed with 'ist + Partizip II + worden'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q068",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag ____ bereits unterschrieben worden.",
+      "options": [
+        "sind",
+        "ist",
+        "wurde",
+        "werden"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "This is Perfekt passive.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q069",
+      "type": "multiple_choice",
+      "questionText": "Im Kurs ____ nur Deutsch gesprochen.",
+      "options": [
+        "wird",
+        "wurde",
+        "ist",
+        "hat"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Impersonal passive uses singular 'wird'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q070",
+      "type": "multiple_choice",
+      "questionText": "Die Präsentation musste noch einmal ____ werden.",
+      "options": [
+        "vorbereiten",
+        "vorbereitet",
+        "vorbereitetet",
+        "vorbereitete"
+      ],
+      "correctAnswer": "vorbereitet",
+      "explanation": "Passive with modal verbs requires Partizip II.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q071",
+      "type": "multiple_choice",
+      "questionText": "Früher ____ viele Briefe per Hand geschrieben.",
+      "options": [
+        "werden",
+        "wurden",
+        "sind",
+        "haben"
+      ],
+      "correctAnswer": "wurden",
+      "explanation": "Prateritum passive describes repeated actions in the past.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q072",
+      "type": "multiple_choice",
+      "questionText": "Der Täter konnte trotz intensiver Ermittlungen nicht ____.",
+      "options": [
+        "finden",
+        "gefunden werden",
+        "gefunden geworden",
+        "gefunden sein"
+      ],
+      "correctAnswer": "gefunden werden",
+      "explanation": "Modal passive structure: 'Partizip II + werden'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q073",
+      "type": "multiple_choice",
+      "questionText": "Bis Ende des Jahres ____ das Projekt abgeschlossen worden sein.",
+      "options": [
+        "wird",
+        "wurde",
+        "ist",
+        "werden"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Futur II passive uses 'wird + Partizip II + worden sein'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q074",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Dokumente geprüft worden waren, ____ sie unterschrieben.",
+      "options": [
+        "werden",
+        "wurden",
+        "sind",
+        "haben"
+      ],
+      "correctAnswer": "wurden",
+      "explanation": "The action happened after another completed passive action in the past.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q075",
+      "type": "multiple_choice",
+      "questionText": "Die neuen Regeln ____ nächste Woche eingeführt werden.",
+      "options": [
+        "sollen",
+        "sollen werden",
+        "sollen worden",
+        "sollen sein"
+      ],
+      "correctAnswer": "sollen",
+      "explanation": "Passive with modal verbs: 'sollen + Partizip II + werden'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q076",
+      "type": "multiple_choice",
+      "questionText": "Während der Konferenz ____ keine privaten Gespräche geführt werden.",
+      "options": [
+        "dürfen",
+        "dürfen nicht",
+        "werden nicht",
+        "sind nicht"
+      ],
+      "correctAnswer": "dürfen nicht",
+      "explanation": "Modal verb + passive expresses prohibition.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q077",
+      "type": "multiple_choice",
+      "questionText": "Das historische Gebäude ____ seit Jahren restauriert.",
+      "options": [
+        "wird",
+        "wurde",
+        "ist",
+        "hat"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Ongoing passive process in the present uses 'wird'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q078",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung hätte früher ____ müssen.",
+      "options": [
+        "treffen",
+        "getroffen werden",
+        "getroffen worden",
+        "getroffen sein"
+      ],
+      "correctAnswer": "getroffen werden",
+      "explanation": "Konjunktiv II passive with modal verbs requires 'Partizip II + werden'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q079",
+      "type": "multiple_choice",
+      "questionText": "Alle Teilnehmer wurden gebeten, ihre Handys ____.",
+      "options": [
+        "ausschalten",
+        "auszuschalten",
+        "ausgeschaltet",
+        "auszuschalteten"
+      ],
+      "correctAnswer": "auszuschalten",
+      "explanation": "After 'jemanden bitten', the infinitive with 'zu' is required.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q080",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse der Studie ____ erst morgen veröffentlicht werden können.",
+      "options": [
+        "werden",
+        "können",
+        "sollen",
+        "müssten"
+      ],
+      "correctAnswer": "können",
+      "explanation": "Passive with modal verbs uses the modal as the conjugated verb.",
       "difficulty": "hard"
     }
   ]
