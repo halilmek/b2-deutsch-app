@@ -3,7 +3,7 @@
   "subjectId": "b1_08",
   "topicName": "Perfekt und Präteritum",
   "level": "B1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Perfekt und Präteritum — the two past tenses in German. Perfekt = haben/sein + Partizip II, used in spoken German and informal writing. Präteritum = simple past, preferred in formal written German (narratives, newspapers, literature). Key decisions: auxiliary choice (haben vs sein), Partizip II formation (weak/strong/mixed), register consistency (don't mix Perfekt and Präteritum in formal writing), Plusquamperfekt (haben/sein + Partizip II), and indirect speech with Konjunktiv I.",
   "tips": [
     "Perfekt vs Präteritum register: spoken/informal → Perfekt (Ich habe gemacht). Formal writing (narratives, newspapers) → Präteritum throughout (Ich machte). Never mix both in the same formal text.",
@@ -297,6 +297,286 @@
       ],
       "correctAnswer": "hatte / erkannt / ausgeschöpft worden waren / war",
       "explanation": "Complex nested Plusquamperfekt: 'hatte erkannt' (Plusquamperfekt of 'erkennen', transitive → haben). The embedded 'dass'-clause contains Plusquamperfekt Passiv: 'ausgeschöpft worden waren' (sein + Partizip II + worden — passive Plusquamperfekt). Main clause: 'war … bereit' (Präteritum of 'sein'). Three temporal layers: readiness (Präteritum) ← recognizing (Plusquamperfekt) ← options being exhausted (Passive Plusquamperfekt, even further back). This is the highest-complexity B2 past tense structure."
+    },
+    {
+      "id": "b1_08_q021",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Als die Polizei den Tatort erreichte, ____ der mutmaßliche Täter bereits unbemerkt durch das Hoffenster ____.",
+      "options": [
+        "war / entflohen",
+        "hatte / entflieht",
+        "ist / entflieht",
+        "hatte / entflohen"
+      ],
+      "correctAnswer": "war / entflohen",
+      "explanation": "The verb 'entfliehen' (to escape) is a strong verb indicating a change of position/movement, requiring 'sein' as the auxiliary verb. In a past narrative context with 'Als...', Plusquamperfekt ('war entflohen') is used to show an action completed before another past action."
+    },
+    {
+      "id": "b1_08_q022",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die kleine Katze ____ heftig, als der laute Lastwagen plötzlich direkt vor dem Gartentor hupte.",
+      "options": [
+        "erschrak",
+        "erschreckte",
+        "erschrocken ist",
+        "erschreckt hatte"
+      ],
+      "correctAnswer": "erschrak",
+      "explanation": "When 'erschrecken' is intransitive (meaning 'to be frightened / startled'), it is a strong verb: erschrecken - erschrak - ist erschrocken. Since it is a sudden action in a narrative past sequence, the Präteritum 'erschrak' is correct."
+    },
+    {
+      "id": "b1_08_q023",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wer hat das kostbare Ölgemälde gestern so schief an die Wohnzimmerwand ____?",
+      "options": [
+        "gehangen",
+        "gehängt",
+        "hangen",
+        "gehängt haben"
+      ],
+      "correctAnswer": "gehängt",
+      "explanation": "The verb 'hängen' has two forms. When it is transitive (with an accusative object, indicating an action: 'to hang something up'), it is regular/weak: hängen - hängte - hat gehängt. The intransitive version (state of hanging) is strong: hängen - hing - hat gehangen."
+    },
+    {
+      "id": "b1_08_q024",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Nach langen Diskussionen ____ der Stadtrat schließlich den klugen Vorschlag der Opposition ____.",
+      "options": [
+        "nahm / an",
+        "nehme / an",
+        "nimmt / an",
+        "nimmte / an"
+      ],
+      "correctAnswer": "nahm / an",
+      "explanation": "The separable strong verb 'annehmen' (to accept/adopt) has the past tense forms: annehmen - nahm an - hat angenommen. 'Nahm... an' is the correct 3rd person singular in Präteritum."
+    },
+    {
+      "id": "b1_08_q025",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der geschickte Handwerker ____ das stumpfe Küchenmesser auf einem speziellen Schleifstein wieder scharf.",
+      "options": [
+        "schleifte",
+        "schlifft",
+        "schleiften",
+        "schliff"
+      ],
+      "correctAnswer": "schliff",
+      "explanation": "The verb 'schleifen' (to grind/sharpen an object) is strong: schleifen - schliff - hat geschliffen. Therefore, 'schliff' is the correct 3rd person singular Präteritum form. (The weak 'schleifte' exists but means to drag something on the ground)."
+    },
+    {
+      "id": "b1_08_q026",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "In den vergangenen Monaten ____ der Goldpreis aufgrund der weltweiten Wirtschaftskrise kontinuierlich ____.",
+      "options": [
+        "ist / gestiegen",
+        "hat / gesteigt",
+        "ist / gesteigt",
+        "hat / gestiegen"
+      ],
+      "correctAnswer": "ist / gestiegen",
+      "explanation": "The strong verb 'steigen' (to rise/increase) indicates a change of state/measurement and is strictly intransitive, meaning it forms its Perfekt tense with the auxiliary verb 'sein' + 'gestiegen'."
+    },
+    {
+      "id": "b1_08_q027",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der fesselnde Kriminalroman ____ mich so sehr, dass ich das Buch die ganze Nacht nicht aus der Hand legen konnte.",
+      "options": [
+        "ergriff",
+        "ergreifte",
+        "ergriffen hat",
+        "ergriffte"
+      ],
+      "correctAnswer": "ergriff",
+      "explanation": "The strong verb 'ergreifen' (to grip/move emotionally) follows the vowel pattern (ei-i-i): ergreifen - ergriff - hat ergriffen. For the narrative style, the Präteritum form 'ergriff' is required."
+    },
+    {
+      "id": "b1_08_q028",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ stundenlang durch den tief verschneiten Winterwald ____, bevor wir endlich die Hütte erreichten.",
+      "options": [
+        "sind / gewandert",
+        "haben / gewandert",
+        "waren / gewandert",
+        "hatten / gewandert"
+      ],
+      "correctAnswer": "sind / gewandert",
+      "explanation": "The verb 'wandern' (to hike) indicates a directional movement or a continuous physical locomotion from A to B, which dictates the auxiliary verb 'sein' in the Perfekt tense."
+    },
+    {
+      "id": "b1_08_q029",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der unhöfliche Gast ____ wütend aus dem Konferenzraum und knallte die schwere Holztür hinter sich zu.",
+      "options": [
+        "rannte",
+        "rennt",
+        "rennte",
+        "gerannt ist"
+      ],
+      "correctAnswer": "rannte",
+      "explanation": "'Rennen' is a mixed verb (shows a vowel change but uses regular weak endings): rennen - rannte - ist gerannt. The singular 3rd person Präteritum form matches the subsequent past tense narrative 'knallte'."
+    },
+    {
+      "id": "b1_08_q030",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das dicke Eis auf dem Gebirgssee ____ im warmen Frühlingssonnenschein innerhalb weniger Tage vollständig ____.",
+      "options": [
+        "ist / geschmolzen",
+        "hat / geschmolzen",
+        "ist / geschmelzt",
+        "hat / geschmelzt"
+      ],
+      "correctAnswer": "ist / geschmolzen",
+      "explanation": "The verb 'schmelzen' (to melt) is a strong verb indicating a change of physical state. Its past participle is 'geschmolzen' and it uses the auxiliary verb 'sein'."
+    },
+    {
+      "id": "b1_08_q031",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der erfahrene Redner ____ das Publikum mit seinen visionären Ideen sofort in seinen Bann.",
+      "options": [
+        "zog",
+        "ziehte",
+        "gezogen hat",
+        "zug"
+      ],
+      "correctAnswer": "zog",
+      "explanation": "The idiom is 'jemanden in seinen Bann ziehen' (to captivate someone). The strong verb 'ziehen' forms its Präteritum as 'zog' (ziehen - zog - hat gezogen)."
+    },
+    {
+      "id": "b1_08_q032",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Niemand ____ im Voraus ____, dass das innovative Start-up so schnell globale Erfolge feiern würde.",
+      "options": [
+        "hatte / geahnt",
+        "war / geahnt",
+        "hatte / geahnen",
+        "wurde / geahnt"
+      ],
+      "correctAnswer": "hatte / geahnt",
+      "explanation": "'Ahnen' (to sense/anticipate) is a regular weak verb: ahnen - ahnte - hat geahnt. In this sentence, the action of anticipating happened before the past celebration of success, necessitating the Plusquamperfekt 'hatte geahnt'."
+    },
+    {
+      "id": "b1_08_q033",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die gestresste Mutter ____ das schlafende Baby vorsichtig in das weiche Gitterbett.",
+      "options": [
+        "legte",
+        "lag",
+        "lüg",
+        "gelegt hat"
+      ],
+      "correctAnswer": "legte",
+      "explanation": "This targets the classic trap pair: 'legen' vs. 'liegen'. 'Legen' is transitive (requires an accusative object, showing an action) and is weak: legen - legte - hat gelegt. 'Liegen' is intransitive (shows position/state) and is strong: liegen - lag - hat gelegen."
+    },
+    {
+      "id": "b1_08_q034",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Gestern Abend ____ wir gemütlich am lodernden Kaminfeuer und tranken einen edlen Rotwein.",
+      "options": [
+        "saßen",
+        "setzten",
+        "gesessen haben",
+        "saß"
+      ],
+      "correctAnswer": "saßen",
+      "explanation": "This tests 'sitzen' (intransitive, state) vs. 'setzen' (transitive, action). The sentence describes a state of sitting, requiring 'sitzen'. Its strong Präteritum plural form (1st/3rd person) is 'saßen' (sitzen - saß - hat gesessen)."
+    },
+    {
+      "id": "b1_08_q035",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die unvorsichtige Wanderin ____ im nassen Schlamm aus und brach sich dabei den linken Knöchel.",
+      "options": [
+        "glitt",
+        "gleitete",
+        "ausgleitete",
+        "ist ausgeglitten"
+      ],
+      "correctAnswer": "glitt",
+      "explanation": "The separable strong verb 'ausgleiten' (to slip) follows the (ei-i-i) pattern: ausgleiten - glitt aus - ist ausgeglitten. Since the second part of the sentence uses Präteritum ('brach'), the first blank must be the Präteritum prefix-split form 'glitt... aus'."
+    },
+    {
+      "id": "b1_08_q036",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Kapitän ____ das große Containerschiff sicher durch die stürmische Meerenge ____.",
+      "options": [
+        "hat / gesteuert",
+        "ist / gesteuert",
+        "hat / gestiert",
+        "wurde / gesteuert"
+      ],
+      "correctAnswer": "hat / gesteuert",
+      "explanation": "Although 'steuern' involves movement, it is used transitively here with a direct accusative object ('das große Containerschiff'). Transitive verbs always build their Perfekt form using the auxiliary verb 'haben'."
+    },
+    {
+      "id": "b1_08_q037",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der alte König ____ ____, übernahm sein ältester Sohn die Regierungsgeschäfte des Landes.",
+      "options": [
+        "gestorben war",
+        "gestorben hatte",
+        "starb",
+        "ist gestorben"
+      ],
+      "correctAnswer": "gestorben war",
+      "explanation": "'Sterben' (to die) marks a definitive change of state, forming its perfect tenses with 'sein'. The conjunction 'nachdem' demands the Plusquamperfekt ('war gestorben') to show completion prior to the main clause Präteritum verb 'übernahm'."
+    },
+    {
+      "id": "b1_08_q038",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Kerze auf dem Geburtstagstisch ____ stundenlang ruhig vor sich hin, bis sie schließlich ganz erlosch.",
+      "options": [
+        "brannte",
+        "brennta",
+        "gebrannt hat",
+        "brannt"
+      ],
+      "correctAnswer": "brannte",
+      "explanation": "'Brennen' (to burn) is a mixed verb: brennen - bannte - hat gebrannt. The continuous state in a narrative past sequence requires the Präteritum form 'brannte'."
+    },
+    {
+      "id": "b1_08_q039",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Duft von frisch gebackenem Kuchen ____ sofort meine wunderbaren Kindheitserinnerungen wieder ____.",
+      "options": [
+        "rief / wach",
+        "rufte / wach",
+        "hat / wachgerufen",
+        "riefe / wach"
+      ],
+      "correctAnswer": "rief / wach",
+      "explanation": "The separable strong verb 'wachrufen' (to evoke/awaken memories) conjugates based on 'rufen' (rufen - rief - hat gerufen). In Präteritum, it splits into 'rief... wach'."
+    },
+    {
+      "id": "b1_08_q040",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Warum ____ du mir die Wahrheit verschwiegen, als ich dich gestern danach ____?",
+      "options": [
+        "hast / fragte",
+        "hattest / fragte",
+        "hast / gefragt habe",
+        "bist / fragte"
+      ],
+      "correctAnswer": "hast / fragte",
+      "explanation": "This sentence mixes a spoken perfect question ('Warum hast du... verschwiegen') with a temporal background subordinate clause in Präteritum ('als ich dich gestern danach fragte'). 'Verschweigen' is transitive and requires 'haben'."
     }
   ]
 }
