@@ -3,7 +3,7 @@
   "subjectId": "b1_07",
   "topicName": "Konnektoren",
   "level": "B1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Konnektoren (connectors) are words and phrases that link clauses and sentences. They include coordinating conjunctions (und, aber, oder, denn, sondern), subordinating conjunctions (weil, obwohl, damit, bevor), adverbial connectors (deshalb, trotzdem, jednak, außerdem), and two-part connectors (einerseits/andererseits, zwar/aber, sowohl/als auch). B2 level requires precision in choosing the semantically correct connector and mastering the word order effects each type triggers.",
   "tips": [
     "Subordinating conjunctions (weil, obwohl, damit, bevor, nachdem, während) → verb goes to the END of the clause (verb-final). Coordinating conjunctions (und, aber, oder, denn, sondern) → normal word order in the following clause.",
@@ -297,6 +297,266 @@
       ],
       "correctAnswer": "obwohl / dass",
       "explanation": "'Obwohl' introduces the concessive clause; within that clause, a further subordinate 'dass'-clause reports the content of the experts' warning: 'obwohl … gewarnt hatten, dass sie … sei'. Note 'sei' = Konjunktiv I in indirect speech inside the embedded clause. This double embedding (obwohl + dass + K-I) represents the highest B2 syntactic complexity."
+    },
+    {
+      "questionText": "Wir müssen die Produktionskosten drastisch senken, ____ wird das Unternehmen Ende des Jahres Insolvenz anmelden müssen.",
+      "options": [
+        "andernfalls",
+        "obwohl",
+        "folglich",
+        "sodass"
+      ],
+      "correctAnswer": "andernfalls",
+      "explanation": "The context requires a connector meaning 'otherwise' to show the negative consequence of not acting. 'Andernfalls' is a conjunctive adverb that triggers inversion (verb 'wird' comes directly after it).",
+      "difficulty": "medium",
+      "id": "b1_07_q021"
+    },
+    {
+      "questionText": "____ mehr Fachkräfte wir für dieses anspruchsvolle IT-Projekt einstellen, ____ schneller können wir die Software auf den Markt bringen.",
+      "options": [
+        "Je / umso",
+        "Je / desto mehr",
+        "Desto / je",
+        "Umso / desto"
+      ],
+      "correctAnswer": "Je / umso",
+      "explanation": "'JE... umso' (or 'je... desto') is a proportional connector. 'Je' introduces the subordinate clause (verb at the end), and 'umso/desto' introduces the main clause, triggering immediate verb inversion ('können wir').",
+      "difficulty": "easy",
+      "id": "b1_07_q022"
+    },
+    {
+      "questionText": "Der neue Mitarbeiter hat die schwierige Aufgabe ohne jede Hilfe gelöst, ____ der Abteilungsleiter ihm Unterstützung versprochen hatte.",
+      "options": [
+        "obgleich",
+        "trotzdem",
+        "deshalb",
+        "demnach"
+      ],
+      "correctAnswer": "obgleich",
+      "explanation": "The clause requires a subordinating concession connector ('although') because the verb 'hatte' sits at the very end. 'Obgleich' is a higher-level synonym of 'obwohl'. 'Trotzdem' would mean 'nevertheless' and require main clause word order.",
+      "difficulty": "medium",
+      "id": "b1_07_q023"
+    },
+    {
+      "questionText": "Er hat nicht einmal genug Geld für die monatliche Miete, ____ für eine zweiwöchige Urlaubsreise nach Japan.",
+      "options": [
+        "geschweige denn",
+        "geschweige",
+        "sondern auch",
+        "nicht nur"
+      ],
+      "correctAnswer": "geschweige denn",
+      "explanation": "The idiomatic expression 'geschweige denn' means 'let alone' or 'not to mention'. It is used after a negative statement to emphasize that the next option is even more impossible.",
+      "difficulty": "hard",
+      "id": "b1_07_q024"
+    },
+    {
+      "questionText": "Die Geschäftsführung hat die Budgets gekürzt. ____ müssen wir alle geplanten Marketingkampagnen vorerst stoppen.",
+      "options": [
+        "Infolgedessen",
+        "Infolge",
+        "Sodass",
+        "Weshalb"
+      ],
+      "correctAnswer": "Infolgedessen",
+      "explanation": "The sentence requires a conjunctive adverb meaning 'as a result / consequently'. 'Infolgedessen' occupies position 1, followed directly by the conjugated verb 'müssen'. 'Infolge' is a preposition requiring a noun in the genitive, and 'sodass' introduces a subordinate clause.",
+      "difficulty": "medium",
+      "id": "b1_07_q025"
+    },
+    {
+      "questionText": "Die Verhandlungen waren äußerst zäh, ____ konnte am späten Abend doch noch eine Einigung erzielt werden.",
+      "options": [
+        "gleichwohl",
+        "wogegen",
+        "demzufolge",
+        "daher"
+      ],
+      "correctAnswer": "gleichwohl",
+      "explanation": "'Gleichwohl' is an advanced, formal C1/B2 concessive adverb meaning 'nevertheless / yet'. It fits perfectly because it contrasts the tough negotiations with the eventual success and triggers inversion ('konnte... eine Einigung erzielt werden').",
+      "difficulty": "hard",
+      "id": "b1_07_q026"
+    },
+    {
+      "questionText": "Sie hat die anspruchsvolle B2-Prüfung fehlerfrei bestanden, ____ sie sich kaum darauf vorbereitet hatte.",
+      "options": [
+        "wohingegen",
+        "zumal",
+        "obschon",
+        "trotz"
+      ],
+      "correctAnswer": "obschon",
+      "explanation": "'Obschon' is a formal subordinating conjunction meaning 'although' (synonym to 'obwohl' / 'obgleich'). It introduces a subordinate clause with the verb 'hatte' at the end. 'Wohingegen' is used for direct contrast ('whereas').",
+      "difficulty": "hard",
+      "id": "b1_07_q027"
+    },
+    {
+      "questionText": "____ wir pünktlich Feierabend machen können, müssen alle Berichte bis 15:00 Uhr vollständig vorliegen.",
+      "options": [
+        "Damit",
+        "Um",
+        "Sodass",
+        "Zwecks"
+      ],
+      "correctAnswer": "Damit",
+      "explanation": "This is a final (purpose) clause with its verb 'können' at the end. Because the subject 'wir' is explicitly named, 'um... zu' cannot be used. 'Damit' is the correct subordinating conjunction.",
+      "difficulty": "easy",
+      "id": "b1_07_q028"
+    },
+    {
+      "questionText": "Das Gesetz wurde gestern im Bundestag beschlossen und tritt ____ am ersten Januar des kommenden Jahres in Kraft.",
+      "options": [
+        "demnach",
+        "nachdem",
+        "obzwar",
+        "folglich dessen"
+      ],
+      "correctAnswer": "demnach",
+      "explanation": "'Demnach' is a logical connector meaning 'accordingly / therefore / thus'. It functions here as an adverb within the main clause. 'Nachdem' is temporal and requires a subordinate verb position.",
+      "difficulty": "medium",
+      "id": "b1_07_q029"
+    },
+    {
+      "questionText": "Wir sollten den Vertrag jetzt unterschreiben, ____ wir es später bereuen, diese einmalige Chance verpasst zu haben.",
+      "options": [
+        "nicht dass",
+        "es sei denn",
+        "ohne dass",
+        "anstatt dass"
+      ],
+      "correctAnswer": "nicht dass",
+      "explanation": "The idiomatic fixed expression 'nicht dass' + subordinate clause is used here in the colloquial/expressive sense of 'lest' or 'for fear that' (...lest we regret it later). It functions as a warning connector.",
+      "difficulty": "hard",
+      "id": "b1_07_q030"
+    },
+    {
+      "questionText": "Die Sanierung des alten Gebäudes ist ____ extrem kostspielig, ____ sie bringt langfristig eine enorme Energieeinsparung.",
+      "options": [
+        "zwar / aber",
+        "entweder / oder",
+        "weder / noch",
+        "nicht nur / aber auch"
+      ],
+      "correctAnswer": "zwar / aber",
+      "explanation": "The sentence weighs a negative point (expensive) against a positive point (energy saving). The concessive connector pair 'zwar... aber' (indeed... but) perfectly matches this counter-balancing context.",
+      "difficulty": "easy",
+      "id": "b1_07_q031"
+    },
+    {
+      "questionText": "Die ältere Dame überquerte die viel befahrene Straße, ____ auf den dichten Berufsverkehr zu achten.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "ohne dass",
+        "um nicht"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "This requires an infinitive clause structure because of 'zu achten' at the end. 'Ohne... zu' translates to 'without doing something'. Since the underlying subject is the same as the main clause, 'ohne dass' (subordinate clause) is incorrect.",
+      "difficulty": "medium",
+      "id": "b1_07_q032"
+    },
+    {
+      "questionText": "Die Bundesstraße muss komplett gesperrt werden, ____ die Schäden am Asphalt repariert werden können.",
+      "options": [
+        "auf dass",
+        "sodass",
+        "indem",
+        "dadurch dass"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "This expresses a consecutive outcome (so that / with the result that). 'Sodass' introduces the subordinate clause containing the result of the road closure.",
+      "difficulty": "easy",
+      "id": "b1_07_q033"
+    },
+    {
+      "questionText": "Der Verdächtige schwieg während der gesamten Vernehmung, ____ seine Schuld quasi einzugestehen.",
+      "options": [
+        "um",
+        "ohne",
+        "als um",
+        "anstatt"
+      ],
+      "correctAnswer": "um",
+      "explanation": "In this specific stylistic context, 'um... zu' acts not as a goal, but as a consecutive infinitive clause expressing an unintended or logical outcome ('..., thereby practically admitting his guilt').",
+      "difficulty": "hard",
+      "id": "b1_07_q034"
+    },
+    {
+      "questionText": "Man kann die Reichweite des Elektroautos erheblich vergrößern, ____ man vorausschauend fährt und unnötiges Bremsen vermeidet.",
+      "options": [
+        "indem",
+        "dadurch",
+        "sodass",
+        "falls"
+      ],
+      "correctAnswer": "indem",
+      "explanation": "This is a modal clause answering 'how' something is achieved. 'Indem' is the subordinating conjunction used to describe the method or means.",
+      "difficulty": "medium",
+      "id": "b1_07_q035"
+    },
+    {
+      "questionText": "Wir werden den Ausflug wie geplant durchführen, ____ es fängt am Morgen wie aus Kübeln an zu regnen.",
+      "options": [
+        "es sei denn",
+        "außer wenn",
+        "andernfalls",
+        "ausgenommen"
+      ],
+      "correctAnswer": "es sei denn",
+      "explanation": "'Es sei denn' means 'unless'. When followed by a clause without 'dass', it unexpectedly maintains standard main clause word order (verb 'fängt' in position 2), which perfectly aligns with the given phrase.",
+      "difficulty": "hard",
+      "id": "b1_07_q036"
+    },
+    {
+      "questionText": "In Großstädten nutzen immer mehr Menschen das Fahrrad, ____ auf dem Land weiterhin das Auto dominiert.",
+      "options": [
+        "wohingegen",
+        "währenddem",
+        "jedoch",
+        "trotzdem"
+      ],
+      "correctAnswer": "wohingegen",
+      "explanation": "'Wohingegen' is an adversative subordinating conjunction used to contrast two completely opposing realities ('whereas / while on the other hand'). The verb 'dominiert' is pushed to the end.",
+      "difficulty": "medium",
+      "id": "b1_07_q037"
+    },
+    {
+      "questionText": "Der Patient darf die Klinik auf eigenen Wunsch verlassen, ____ er sich der gesundheitlichen Risiken vollkommen bewusst ist.",
+      "options": [
+        "vorausgesetzt",
+        "sofern",
+        "falls",
+        "wenn"
+      ],
+      "correctAnswer": "sofern",
+      "explanation": "Both 'sofern' and 'vorausgesetzt (dass)' mean 'provided that'. However, 'vorausgesetzt' would require 'dass' here to function as a subordinating conjunction with this exact placement. Therefore, 'sofern' is the correct conditional connector.",
+      "difficulty": "hard",
+      "id": "b1_07_q038"
+    },
+    {
+      "questionText": "Viele Arbeitnehmer arbeiten auch im Krankheitsfall von zu Hause aus, ____ die Genesung massiv verzögert wird.",
+      "options": [
+        "wodurch",
+        "weshalb",
+        "damit",
+        "darum"
+      ],
+      "correctAnswer": "wodurch",
+      "explanation": "This requires a relative connector representing a whole previous clause statement ('by means of which / as a result of which'). 'Wodurch' introduces this non-personal modal/consecutive effect correctly.",
+      "difficulty": "medium",
+      "id": "b1_07_q039"
+    },
+    {
+      "questionText": "Ich kann Ihnen diese Investition nicht empfehlen, ____ ich die aktuelle Marktlage für viel zu instabil halte.",
+      "options": [
+        "zumal",
+        "weil ja",
+        "denn",
+        "wegen"
+      ],
+      "correctAnswer": "zumal",
+      "explanation": "'Zumal' is an advanced causal subordinating conjunction that means 'especially since / particularly because'. It adds a primary driving reason to a statement and sends the verb 'halte' to the end.",
+      "difficulty": "hard",
+      "id": "b1_07_q040"
     }
   ]
 }
