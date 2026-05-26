@@ -1,0 +1,301 @@
+{
+  "version": "1.0",
+  "subjectId": "b1_09",
+  "topicName": "Verben mit festen Präpositionen",
+  "level": "B1",
+  "totalQuestions": 20,
+  "description": "Verbs with fixed prepositions in German — selecting the correct preposition and case, forming prepositional objects with da(r)- compounds, using wo(r)- question forms, and applying these structures in complex sentence contexts including subordinate clauses and indirect speech.",
+  "tips": [
+    "Common verb-preposition combinations with Akkusativ: sich freuen auf (look forward to), hoffen auf, sich bewerben um, sich erinnern an, denken an, bestehen auf (Dativ), reagieren auf, sich konzentrieren auf, verzichten auf.",
+    "Common verb-preposition combinations with Dativ: sich freuen über, träumen von, diskutieren über (Akk), zweifeln an (Dativ), bestehen auf (Dativ), liegen an (Dativ), leiden unter, leiden an, sich gewöhnen an (Akk), sich sehnen nach, helfen bei, abhängen von.",
+    "da(r)- compounds: Replace 'an + das/es' → 'daran'; 'von + etwas' → 'davon'; 'auf + etwas' → 'darauf'; 'über + etwas' → 'darüber'. Use when referring back to a previously mentioned thing/concept, not a person.",
+    "wo(r)- question words: 'Wovon?' for 'von etwas', 'Worauf?' for 'auf etwas', 'Woran?' for 'an etwas', 'Womit?' for 'mit etwas'. For people: 'Von wem?', 'Mit wem?', etc.",
+    "Case after 'an': some verbs take 'an + Akkusativ' (sich erinnern an, denken an, sich gewöhnen an), others take 'an + Dativ' (zweifeln an, leiden an). This is a key B2 precision point.",
+    "Verbs with 'auf + Dativ' (rare): bestehen auf, leiden auf (archaic/rare). Most 'auf' verb combinations take Akkusativ: sich freuen auf, hoffen auf, sich konzentrieren auf, reagieren auf.",
+    "Sich freuen auf (+ Akk) = look forward to (future); sich freuen über (+ Akk) = be pleased about (current/completed). 'Hat sich auf die Stelle gefreut' = anticipated the job (future). 'Hat sich über die Stelle gefreut' = was pleased about it (past/current).",
+    "Sich verlassen auf (+ Akk) = to rely on. Confusable with 'abhängen von' (+ Dat). 'Verlassen auf' is active reliance; 'abhängen von' is passive dependency.",
+    "Double prepositional structures: some sentences require two different fixed prepositions. Check each verb-prep combination independently: 'Es kommt darauf an, ob man mit den Kollegen gut zusammenarbeiten kann.' → 'ankommen auf' + 'zusammenarbeiten mit'."
+  ],
+  "questions": [
+    {
+      "id": "b1_09_q001",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ich freue mich sehr ____ deinen Besuch.",
+      "options": [
+        "auf",
+        "über",
+        "für",
+        "an"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Sich freuen auf' (+ Akkusativ) = to look forward to something in the future. 'Sich freuen über' (+ Akkusativ) = to be happy/pleased about something that has already happened or is current. Since a visit is anticipated here, 'auf' is correct."
+    },
+    {
+      "id": "b1_09_q002",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich bei seinem Chef ____ eine Gehaltserhöhung beworben.",
+      "options": [
+        "um",
+        "für",
+        "nach",
+        "über"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Sich bewerben um' (+ Akkusativ) = to apply for something. 'Um' is the fixed preposition with this verb. 'Sich bewerben bei' (+ Dativ) = to apply at/to a company — the 'bei' part is a separate complement indicating the employer, not the fixed prepositional object."
+    },
+    {
+      "id": "b1_09_q003",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin beschäftigt sich ____ ihrer Masterarbeit ____ dem Thema Klimawandel.",
+      "options": [
+        "in / mit",
+        "bei / über",
+        "in / über",
+        "mit / –"
+      ],
+      "correctAnswer": "mit / –",
+      "explanation": "'Sich beschäftigen mit' (+ Dativ) = to occupy oneself with / deal with a topic. 'In ihrer Masterarbeit' is a locative phrase (in her thesis), not part of the fixed preposition structure. The fixed prep is 'mit': 'beschäftigt sich … mit dem Thema'."
+    },
+    {
+      "id": "b1_09_q004",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Kannst du mir ____ dem Problem helfen?",
+      "options": [
+        "bei",
+        "mit",
+        "an",
+        "für"
+      ],
+      "correctAnswer": "bei",
+      "explanation": "'Helfen bei' (+ Dativ) = to help with something (a task, problem, or activity). 'Helfen mit' is non-standard in this context. Note: 'jemandem helfen' (Dativ of person) + 'bei etwas' (Dativ of thing) — both are Dativ, but 'bei' is the fixed preposition for the prepositional object."
+    },
+    {
+      "id": "b1_09_q005",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie träumt ____ einer langen Reise nach Japan.",
+      "options": [
+        "von",
+        "über",
+        "an",
+        "nach"
+      ],
+      "correctAnswer": "von",
+      "explanation": "'Träumen von' (+ Dativ) = to dream of/about something. 'Von' is the fixed preposition. 'Nach' is a directional preposition used with 'fahren/gehen' to countries/cities, not with 'träumen'."
+    },
+    {
+      "id": "b1_09_q006",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wir haben lange ____ dem besten Weg diskutiert.",
+      "options": [
+        "über",
+        "von",
+        "mit",
+        "für"
+      ],
+      "correctAnswer": "über",
+      "explanation": "'Diskutieren über' (+ Akkusativ) = to discuss something. 'Über' is the fixed preposition. Note: 'über' with Akkusativ, not Dativ. 'Über dem Weg' would be Dativ (location: above the path) — a different meaning entirely."
+    },
+    {
+      "id": "b1_09_q007",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er erinnert sich nicht mehr ____ unseren ersten Treffen.",
+      "options": [
+        "an",
+        "über",
+        "von",
+        "auf"
+      ],
+      "correctAnswer": "an",
+      "explanation": "'Sich erinnern an' (+ Akkusativ) = to remember something/someone. 'An' is the fixed preposition, always with Akkusativ. 'Von' could be confused with 'erzählen von' — a different verb. 'An unserem ersten Treffen' (Dativ) would be a location meaning, not the object of 'erinnern'."
+    },
+    {
+      "id": "b1_09_q008",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftlerin zweifelt ____ der Richtigkeit der Ergebnisse.",
+      "options": [
+        "an",
+        "über",
+        "auf",
+        "gegen"
+      ],
+      "correctAnswer": "an",
+      "explanation": "'Zweifeln an' (+ Dativ) = to doubt something, to have doubts about. 'An' is fixed with Dativ here — contrast with 'erinnern an' which takes Akkusativ. The case difference between verbs with 'an' is a key B2 precision point: zweifeln an + Dativ, erinnern an + Akkusativ, glauben an + Akkusativ."
+    },
+    {
+      "id": "b1_09_q009",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Direktor bestand ____ einer sofortigen Antwort.",
+      "options": [
+        "auf",
+        "an",
+        "für",
+        "bei"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Bestehen auf' (+ Dativ) = to insist on something. 'Auf' is fixed with Dativ. Note the case: 'auf einer Antwort' (Dativ) — contrast with 'sich freuen auf' (Akkusativ) and 'hoffen auf' (Akkusativ). 'Bestehen auf' is one of the few 'auf + Dativ' verb-prep combinations."
+    },
+    {
+      "id": "b1_09_q010",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich lange ____ seine Entscheidung gewöhnt und denkt nun nicht mehr ____.",
+      "options": [
+        "an / daran",
+        "auf / daran",
+        "an / darauf",
+        "bei / davon"
+      ],
+      "correctAnswer": "an / daran",
+      "explanation": "'Sich gewöhnen an' (+ Akkusativ) = to get used to. 'Denken an' (+ Akkusativ) = to think about. The da(r)-compound 'daran' replaces 'an + es/das' when referring back to a thing/concept. Both verbs share 'an + Akkusativ', and 'daran' is the correct pronominal adverb for both."
+    },
+    {
+      "id": "b1_09_q011",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Team verlässt sich vollständig ____ die Kompetenz der Projektleiterin.",
+      "options": [
+        "auf",
+        "an",
+        "bei",
+        "von"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Sich verlassen auf' (+ Akkusativ) = to rely/depend on someone or something. 'Auf' is fixed with Akkusativ. A common confusion: 'abhängen von' (to depend on) uses 'von + Dativ'. These two near-synonyms have different prepositions — a classic B2 distinction."
+    },
+    {
+      "id": "b1_09_q012",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ hängt der Erfolg des Projekts hauptsächlich ab?",
+      "options": [
+        "Wovon",
+        "Worauf",
+        "Woran",
+        "Womit"
+      ],
+      "correctAnswer": "Wovon",
+      "explanation": "'Abhängen von' (+ Dativ) = to depend on. The question word for a prepositional object with a thing/concept uses the wo(r)- compound: 'von + was' → 'wovon'. 'Worauf' would be for verbs with 'auf + Akkusativ'. Wo(r)- compounds are used when the object is not a person; for people, use 'von wem'."
+    },
+    {
+      "id": "b1_09_q013",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Behörde hat die Genehmigung ____ den Bau des neuen Gebäudes abgelehnt.",
+      "options": [
+        "für",
+        "zu",
+        "auf",
+        "von"
+      ],
+      "correctAnswer": "für",
+      "explanation": "'Ablehnen' in the sense of refusing/rejecting a permit uses 'für' when linked to a specific purpose or project: 'die Genehmigung für etwas ablehnen'. Note: 'sich bewerben um eine Genehmigung' (apply for a permit) vs. 'die Genehmigung für etwas' — the preposition depends on the noun-verb combination, a B2 precision skill."
+    },
+    {
+      "id": "b1_09_q014",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er hat mir erzählt, dass er sich sehr ____ seine neue Stelle gefreut hat, aber gleichzeitig ____ seinen alten Kollegen vermisst.",
+      "options": [
+        "auf / nach",
+        "über / nach",
+        "auf / von",
+        "über / um"
+      ],
+      "correctAnswer": "über / nach",
+      "explanation": "'Sich freuen über' (+ Akkusativ) = to be pleased about something current/completed (he already has the new job). 'Sich sehnen nach' (+ Dativ) = to miss/long for — 'nach' is the fixed preposition. 'Sich freuen auf' would mean anticipating the job (future), which contradicts 'hat … gefreut' (completed past)."
+    },
+    {
+      "id": "b1_09_q015",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung muss endlich ____ den steigenden Energiekosten reagieren.",
+      "options": [
+        "auf",
+        "gegen",
+        "zu",
+        "mit"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Reagieren auf' (+ Akkusativ) = to react/respond to. 'Auf' is the fixed preposition with Akkusativ. 'Auf die steigenden Energiekosten' — despite the Dativ-looking form, 'auf' here governs Akkusativ: 'auf die … Kosten' (Akkusativ plural). Confusing 'auf + Akk' vs. 'auf + Dat' is a key B2 error."
+    },
+    {
+      "id": "b1_09_q016",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es kommt vor allem ____ an, ob man ____ den Kollegen gut zusammenarbeiten kann.",
+      "options": [
+        "darauf / mit",
+        "daran / mit",
+        "davon / bei",
+        "darauf / bei"
+      ],
+      "correctAnswer": "darauf / mit",
+      "explanation": "'Ankommen auf' (+ Akkusativ) = to depend on, to be what matters. The da(r)-compound 'darauf' stands in for the 'ob'-clause that follows. 'Zusammenarbeiten mit' (+ Dativ) = to collaborate with. Two different fixed prepositions in one sentence — each must be correct independently. 'Es kommt darauf an, ob …' is a fixed B2 expression."
+    },
+    {
+      "id": "b1_09_q017",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Expertin wurde gefragt, ____ sie ihre Forschung hauptsächlich konzentriere und ____ ihre Schlussfolgerungen basieren.",
+      "options": [
+        "worauf / worauf",
+        "woran / worauf",
+        "worauf / worauf",
+        "woran / woran"
+      ],
+      "correctAnswer": "worauf / worauf",
+      "explanation": "'Sich konzentrieren auf' (+ Akkusativ) = to focus on → question word: 'worauf'. 'Basieren auf' (+ Dativ) = to be based on → also uses 'auf', but with Dativ: 'auf etwas (Dativ) basieren'. The question word 'worauf' covers both 'auf + Akkusativ' and 'auf + Dativ' in indirect questions — the wo(r)- form does not distinguish case. Both are 'worauf'."
+    },
+    {
+      "id": "b1_09_q018",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Obwohl sie ____ dem Projekt beteiligt war, wollte sie sich nicht ____ die Ergebnisse verantworten.",
+      "options": [
+        "an / für",
+        "bei / für",
+        "an / über",
+        "für / bei"
+      ],
+      "correctAnswer": "an / für",
+      "explanation": "'Beteiligt sein an' (+ Dativ) = to be involved in. 'Sich verantworten für' (+ Akkusativ) = to be accountable for, to answer for. Two different fixed prepositions: 'an + Dativ' and 'für + Akkusativ'. 'Bei' is wrong — 'bei' can mean 'at/with' but is not the fixed preposition for 'beteiligt sein'."
+    },
+    {
+      "id": "b1_09_q019",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Anwalt riet seinem Mandanten ____, ____ weiteren Aussagen ____ verzichten und ____ seinen Rechten ____ bestehen.",
+      "options": [
+        "dazu / auf / zu / auf / zu",
+        "davon / auf / zu / auf / zu",
+        "dazu / für / – / auf / –",
+        "davon / auf / – / auf / –"
+      ],
+      "correctAnswer": "davon / auf / zu / auf / zu",
+      "explanation": "'Raten von etwas ab' → the adverb here is 'davon' + 'abraten' (to advise against). 'Verzichten auf' (+ Akkusativ) = to waive/forgo → infinitive construction: 'auf … zu verzichten'. 'Bestehen auf' (+ Dativ) = to insist on → infinitive: 'auf … zu bestehen'. The full structure: 'riet … davon ab, auf … zu verzichten und auf … zu bestehen' — two parallel infinitive clauses with fixed prepositions."
+    },
+    {
+      "id": "b1_09_q020",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es ist bezeichnend, ____ die Verantwortlichen nicht einmal ____ den Vorwürfen geäußert haben, obwohl man allgemein ____ einer Stellungnahme gerechnet hatte.",
+      "options": [
+        "dass / zu / mit",
+        "dass / zu / auf",
+        "ob / über / mit",
+        "dass / über / auf"
+      ],
+      "correctAnswer": "dass / zu / mit",
+      "explanation": "Three structures in one sentence: (1) 'Es ist bezeichnend, dass …' — 'dass' introduces a content clause after an impersonal construction. (2) 'Sich äußern zu' (+ Dativ) = to comment on, to speak about (a topic) — 'zu den Vorwürfen'. (3) 'Rechnen mit' (+ Dativ) = to expect/reckon with → 'mit einer Stellungnahme gerechnet'. All three must be correct simultaneously — the hallmark of a B2+ complex sentence task."
+    }
+  ]
+}
