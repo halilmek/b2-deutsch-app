@@ -3,7 +3,7 @@
   "subjectId": "b1_05",
   "topicName": "Nominalisierung",
   "level": "B1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Nominalisierung (nominalization) is the process of converting verbs, adjectives, and other word classes into nouns in German. This includes: nominalized infinitives (das Lesen), -ung nouns (die Lösung), -heit/-keit nouns (die Freiheit/die MögLichkeit), -tion/-sion nouns (die Organisation), and adjective nominalizations (das Neue, der Bekannte). Key skills: choosing the correct article/gender, forming compound nouns, using nominalizations in formal written register, and applying the correct case (Genitiv/Dativ) after prepositions.",
   "tips": [
     "Nominalized infinitive: das + Verb stem + -en → das Lesen, das Schreiben, das Analysieren. Always neuter (das), always singular.",
@@ -297,6 +297,286 @@
       ],
       "correctAnswer": "der Komplexität",
       "explanation": "'Sich bewusst sein' (to be aware of) takes a Genitiv object. The nominalization 'die Komplexität' (complexity) — formed from the adjective 'komplex' with the suffix '-ität' (a productive B2+ nominalization pattern) — becomes Genitiv: 'der Komplexität'. The '-ität' suffix always produces feminine nouns."
+    },
+    {
+      "questionText": "____ muss die Produktion angepasst werden.",
+      "options": [
+        "Aufgrund der gestiegenen Kosten",
+        "Wegen Kosten die gestiegen sind",
+        "Da gestiegene Kosten",
+        "Trotz der Kostensteigerung"
+      ],
+      "correctAnswer": "Aufgrund der gestiegenen Kosten",
+      "explanation": "Causal clause 'weil...' is nominalized using 'aufgrund' + genitive. The participle 'gestiegenen' takes weak declension after the definite article, which is standard in formal B2 writing.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q021"
+    },
+    {
+      "questionText": "____ fand das Festival statt.",
+      "options": [
+        "Trotz des schlechten Wetters",
+        "Obwohl schlechtes Wetter",
+        "Wegen dem schlechten Wetter",
+        "Bei schlechtem Wetter"
+      ],
+      "correctAnswer": "Trotz des schlechten Wetters",
+      "explanation": "Concessive clause 'obwohl...' is transformed using 'trotz' + genitive. The adjective 'schlechten' follows weak declension after the definite article in genitive neuter.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q022"
+    },
+    {
+      "questionText": "____ wurden die Unterlagen verteilt.",
+      "options": [
+        "Vor Beginn der Konferenz",
+        "Bevor Beginn der Konferenz",
+        "Während dem Konferenzbeginn",
+        "Nach der Konferenz begann"
+      ],
+      "correctAnswer": "Vor Beginn der Konferenz",
+      "explanation": "Temporal clause 'bevor...' is nominalized with 'vor' + nominalized infinitive. In formal administrative German, the article is typically omitted in fixed temporal phrases.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q023"
+    },
+    {
+      "questionText": "____ führen die Firmen zu Preiserhöhungen.",
+      "options": [
+        "Bei steigender Nachfrage",
+        "Wenn steigende Nachfrage",
+        "Trotz steigender Nachfrage",
+        "Aufgrund Nachfrage steigend"
+      ],
+      "correctAnswer": "Bei steigender Nachfrage",
+      "explanation": "Conditional clause 'wenn...' is nominalized using 'bei' + dative. 'Steigender' is a nominalized present participle in dative feminine, a common B2 structure for expressing conditions formally.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q024"
+    },
+    {
+      "questionText": "____ unterzeichneten beide Parteien den Vertrag.",
+      "options": [
+        "Nach Abschluss der Verhandlungen",
+        "Nachdem Abschluss der Verhandlungen",
+        "Während des Abschlusses der Verhandlungen",
+        "Bevor die Verhandlungen abgeschlossen"
+      ],
+      "correctAnswer": "Nach Abschluss der Verhandlungen",
+      "explanation": "Temporal 'nachdem...' is replaced by 'nach' + nominalized action noun. The genitive 'der Verhandlungen' correctly shows the object of the nominalized verb.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q025"
+    },
+    {
+      "questionText": "____ ermöglicht die Einhaltung der Fristen.",
+      "options": [
+        "Die effiziente Arbeitsweise der Mitarbeiter",
+        "Weil Mitarbeiter effizient arbeiten",
+        "Durch effizient arbeiten Mitarbeiter",
+        "Mitarbeiter arbeiten effizient"
+      ],
+      "correctAnswer": "Die effiziente Arbeitsweise der Mitarbeiter",
+      "explanation": "Consecutive/result clause is nominalized into a subject phrase. 'effizient arbeiten' becomes 'effiziente Arbeitsweise', maintaining causality while shifting to formal register.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q026"
+    },
+    {
+      "questionText": "____ führte zum Nichtbestehen der Prüfung.",
+      "options": [
+        "Seine ungenügende Vorbereitung",
+        "Wegen er lernte zu wenig",
+        "Da er wenig gelernt hatte",
+        "Sein Lernen war ungenügend"
+      ],
+      "correctAnswer": "Seine ungenügende Vorbereitung",
+      "explanation": "Causal clause is transformed into a noun phrase acting as subject. 'zu wenig gelernt' is formally expressed as 'ungenügende Vorbereitung', a standard B2 lexical substitution.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q027"
+    },
+    {
+      "questionText": "____ ist ein zentrales Thema.",
+      "options": [
+        "Die Senkung des Energieverbrauchs",
+        "Wie der Energieverbrauch gesenkt werden kann",
+        "Dass man den Energieverbrauch senkt",
+        "Energieverbrauch senken"
+      ],
+      "correctAnswer": "Die Senkung des Energieverbrauchs",
+      "explanation": "Indirect question/infinitive phrase is nominalized using action noun + genitive object. This structure is highly typical in academic and technical B2 German.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q028"
+    },
+    {
+      "questionText": "Die Fahrzeugkontrollen dienen ____.",
+      "options": [
+        "der Gewährleistung der Sicherheit",
+        "um Sicherheit zu gewährleisten",
+        "dass Sicherheit gewährleistet wird",
+        "zur Sicherheit gewährleisten"
+      ],
+      "correctAnswer": "der Gewährleistung der Sicherheit",
+      "explanation": "Final clause 'um...zu' is nominalized with 'dienen der' + genitive. The double genitive construction is grammatically correct and marks high-level formal proficiency.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q029"
+    },
+    {
+      "questionText": "____ steigen die Steuereinnahmen.",
+      "options": [
+        "Trotz schrumpfender Wirtschaft",
+        "Obwohl die Wirtschaft schrumpft",
+        "Während der Wirtschaft schrumpft",
+        "Bei geschrumpfter Wirtschaft"
+      ],
+      "correctAnswer": "Trotz schrumpfender Wirtschaft",
+      "explanation": "Concessive clause is nominalized with 'trotz' + genitive. Without an article, the nominalized participle 'schrumpfender' takes a strong genitive feminine ending (-er).",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q030"
+    },
+    {
+      "questionText": "____ erforderte eine Neuberechnung der Kosten.",
+      "options": [
+        "Die Verzögerung des Projekts",
+        "Weil das Projekt verzögert wurde",
+        "Dass das Projekt verzögert wird",
+        "Projekts Verzögerung"
+      ],
+      "correctAnswer": "Die Verzögerung des Projekts",
+      "explanation": "Causal passive clause is transformed into a subject noun phrase + genitive. B2 tests recognition of how passive verbs become action nouns in formal reporting.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q031"
+    },
+    {
+      "questionText": "Die Investition in neue Technologien dient ____.",
+      "options": [
+        "der Aufrechterhaltung der Wettbewerbsfähigkeit",
+        "um wettbewerbsfähig zu bleiben",
+        "dass sie wettbewerbsfähig bleibt",
+        "zur Wettbewerbsfähigkeit bleiben"
+      ],
+      "correctAnswer": "der Aufrechterhaltung der Wettbewerbsfähigkeit",
+      "explanation": "Final clause 'damit...' is nominalized using 'dienen der' + double genitive. This replaces a subordinate clause with a compact, formal noun phrase structure.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q032"
+    },
+    {
+      "questionText": "____ garantiert die Sicherheit der Software.",
+      "options": [
+        "Die regelmäßige Aktualisierung der Daten",
+        "Wenn Daten regelmäßig aktualisiert werden",
+        "Durch regelmäßig aktualisierte Daten",
+        "Dass man Daten aktualisiert"
+      ],
+      "correctAnswer": "Die regelmäßige Aktualisierung der Daten",
+      "explanation": "Conditional clause is nominalized into a complex subject. 'regelmäßig aktualisiert' becomes 'regelmäßige Aktualisierung', testing adjective-to-noun conversion with genitive object.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q033"
+    },
+    {
+      "questionText": "____ wird von den Ärzten empfohlen.",
+      "options": [
+        "Das regelmäßige Sporttreiben",
+        "Regelmäßig Sport zu treiben",
+        "Dass man Sport treibt",
+        "Sport treiben regelmäßig"
+      ],
+      "correctAnswer": "Das regelmäßige Sporttreiben",
+      "explanation": "Infinitive construction is nominalized using 'das' + nominalized verb phrase. The adjective 'regelmäßige' takes nominal declension, a standard B2 transformation pattern.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "id": "b1_05_q034"
+    },
+    {
+      "questionText": "____ veranlasst die Hersteller zur Produktionserweiterung.",
+      "options": [
+        "Die steigende Nachfrage nach Elektrofahrzeugen",
+        "Weil die Nachfrage nach Elektrofahrzeugen zunimmt",
+        "Dass Elektrofahrzeuge nachgefragt werden",
+        "Nachfragezunahme der Elektrofahrzeuge"
+      ],
+      "correctAnswer": "Die steigende Nachfrage nach Elektrofahrzeugen",
+      "explanation": "Causal clause with prepositional verb is nominalized into a subject phrase. The preposition 'nach' is preserved, demonstrating accurate mapping of verbal to nominal syntax.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q035"
+    },
+    {
+      "questionText": "____ erfordert eine sorgfältige Abwägung der Risiken.",
+      "options": [
+        "Die Entscheidungsfindung",
+        "Bevor man entscheidet",
+        "Dass man eine Entscheidung trifft",
+        "Entscheidung treffen"
+      ],
+      "correctAnswer": "Die Entscheidungsfindung",
+      "explanation": "Temporal clause is nominalized into a standard compound noun. B2/C1 expects recognition of institutionalized nominal compounds that replace full temporal clauses in formal contexts.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q036"
+    },
+    {
+      "questionText": "____ führte zum Verbindungsabbruch.",
+      "options": [
+        "Die Serverüberlastung",
+        "Weil der Server überlastet war",
+        "Dass der Server überlastet ist",
+        "Server war überlastet"
+      ],
+      "correctAnswer": "Die Serverüberlastung",
+      "explanation": "Causal clause is compressed into a technical compound noun. Recognizing and forming bureaucratic/IT nominal compounds is a key B2 formal writing skill.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q037"
+    },
+    {
+      "questionText": "____ blieb die Heizungsanlage ausgeschaltet.",
+      "options": [
+        "Trotz sinkender Temperaturen",
+        "Obwohl sinkende Temperaturen",
+        "Wegen der gesunkenen Temperaturen",
+        "Bei fallender Temperatur"
+      ],
+      "correctAnswer": "Trotz sinkender Temperaturen",
+      "explanation": "Concessive plural clause uses 'trotz' + genitive. Zero-article plural genitive requires strong adjective endings (-er for 'sinkender'), testing precise declension in nominal style.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q038"
+    },
+    {
+      "questionText": "____ führte zu keiner Verbesserung der Lage.",
+      "options": [
+        "Trotz der ergriffenen Maßnahmen",
+        "Obwohl Maßnahmen ergriffen wurden",
+        "Wegen der ergriffenen Maßnahmen",
+        "Maßnahmen wurden ergriffen"
+      ],
+      "correctAnswer": "Trotz der ergriffenen Maßnahmen",
+      "explanation": "Concessive passive clause is nominalized with 'trotz' + genitive. The past participle 'ergriffenen' functions as an adjective with weak declension after the definite article.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q039"
+    },
+    {
+      "questionText": "____ können hohe Strafen nach sich ziehen.",
+      "options": [
+        "Die Nichtbeachtung der Vorschriften",
+        "Wenn Vorschriften nicht beachtet werden",
+        "Dass man Vorschriften nicht beachtet",
+        "Vorschriften nicht beachtet werden"
+      ],
+      "correctAnswer": "Die Nichtbeachtung der Vorschriften",
+      "explanation": "Conditional passive is transformed using negative nominalization 'Nichtbeachtung' + genitive. This advanced structure is typical in legal, administrative, and academic B2/C1 German.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q040"
     }
   ]
 }
