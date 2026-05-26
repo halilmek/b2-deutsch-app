@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "subjectId": "b1_06",
+  "topicName": "Relativsätze im Genitiv",
+  "level": "B1",
+  "totalQuestions": 20,
+  "description": "Relativsätze im Genitiv (genitive relative clauses) use dessen/deren to replace a noun's Genitiv attribute. dessen = masculine/neuter singular antecedent; deren = feminine singular/plural antecedent. The relative pronoun is always uninflected and precedes the noun it replaces. Used in formal B2 written German to avoid repetition of Genitiv nouns.",
+  "tips": [
+    "dessen vs deren: dessen = masculine/neuter singular (der Mann → dessen Auto); deren = feminine singular/plural (die Frau → deren Tochter; die Kinder → deren Schule).",
+    "Relative pronoun is UNINFLECTED: dessen and deren never change regardless of case, number, or gender. They always stay the same form.",
+    "Preposition + Relativpronomen + Noun: stay together as a unit. The preposition does NOT merge with the relative pronoun. → an dessen Fassade, für deren Arbeit, in deren Lebensrealität.",
+    "Verb inside the relative clause does NOT agree with dessen/deren — it agrees with the noun that follows the relative pronoun. → der Mann, dessen Romane weltbekannt sind (Romane is plural, so 'sind').",
+    "Singular/Plural mismatch: The noun inside the relative clause can be singular even when the antecedent is plural: die Länder, deren Wirtschaft stark ist (each country has one economy).",
+    "After prepositions: preposition + dessen/deren + noun. The preposition governs the noun inside the clause, NOT the relative pronoun. → für deren Arbeit (für governs Arbeit, Akkusativ — but deren stays Genitiv form).",
+    "dessen/deren acts like a Genitiv determiner: adjective after it takes strong/mixed declension → dessen kulturelles Erbe, deren neues Auto.",
+    "Common B2 structures: Passive in relative clause (deren Produkte exportiert werden), Reflexive (dessen Umsatz sich verdreifacht hat), Nominalized infinitive (dessen Rücktritt gefordert wird).",
+    "Genitiv attribute replacement: replaces repeated Genitiv noun to avoid redundancy → Der Mann. Seine Frau arbeitet hier. → Der Mann, dessen Frau hier arbeitet.",
+    "Word order: Relativpronomen + (preposition) + noun + verb → dessen, deren + [noun] + [rest of clause]"
+  ],
+  "questions": [
+    {
+      "id": "b1_06_q001",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Mann, ____ Auto gestern gestohlen wurde.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "der"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'der Mann' is masculine singular. The relative pronoun replacing a Genitiv attribute of a masculine/neuter noun is 'dessen'. It modifies 'Auto' (whose car). 'deren' is for feminine/plural antecedents."
+    },
+    {
+      "id": "b1_06_q002",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ____ Tochter ich kenne, arbeitet als Ärztin.",
+      "options": [
+        "deren",
+        "dessen",
+        "die",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Die Frau' is feminine singular. The Genitiv relative pronoun for feminine antecedents is 'deren'. It replaces 'ihr' in 'ihre Tochter' → 'deren Tochter' (whose daughter)."
+    },
+    {
+      "id": "b1_06_q003",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ____ Eltern im Ausland leben, besucht eine Internatsschule.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "das"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "'Das Kind' is neuter singular. The Genitiv relative pronoun for neuter antecedents is 'dessen' — same form as masculine. It replaces 'seine' in 'seine Eltern' → 'dessen Eltern'."
+    },
+    {
+      "id": "b1_06_q004",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten, ____ Prüfungsergebnisse noch ausstehen, müssen warten.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Die Studenten' is plural (any gender). The Genitiv relative pronoun for plural antecedents is 'deren' — same form as feminine singular. It replaces 'ihre' in 'ihre Prüfungsergebnisse'."
+    },
+    {
+      "id": "b1_06_q005",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Schriftsteller, ____ Romane weltweit bekannt sind, hält heute eine Lesung.",
+      "options": [
+        "dessen",
+        "deren",
+        "der",
+        "dem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Masculine antecedent 'der Schriftsteller' → Genitiv relative pronoun 'dessen'. It modifies 'Romane' (whose novels). The verb 'sind' agrees with 'Romane' (plural), not with 'dessen'."
+    },
+    {
+      "id": "b1_06_q006",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ____ Produkte international exportiert werden, sitzt in München.",
+      "options": [
+        "deren",
+        "dessen",
+        "die",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Die Firma' is feminine singular → Genitiv relative pronoun 'deren'. The relative clause is also in passive voice ('exportiert werden'), which is a common B2 combination."
+    },
+    {
+      "id": "b1_06_q007",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ich habe einen Kollegen, ____ Meinung ich sehr schätze.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "'Einen Kollegen' → masculine antecedent → 'dessen'. 'Meinung' is the object of 'schätzen' (Akkusativ), but the relative pronoun 'dessen' marks the Genitiv relationship (whose opinion), not the case of 'Meinung' in the main clause."
+    },
+    {
+      "id": "b1_06_q008",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen, ____ Umsatz sich in den letzten Jahren verdreifacht hat, plant eine Expansion.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "das"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "'Das Unternehmen' is neuter → 'dessen'. The reflexive verb 'sich verdreifachen' in the relative clause is a B2 complexity — the relative pronoun still refers to the Genitiv attribute, regardless of the verb type in the clause."
+    },
+    {
+      "id": "b1_06_q009",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Länder, ____ Wirtschaft stark von Tourismus abhängt, wurden von der Krise hart getroffen.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'die Länder' → 'deren'. Note: 'Wirtschaft' is singular even though the antecedent is plural — each country has one economy. The relative pronoun 'deren' here signals Genitiv attribution (whose economy)."
+    },
+    {
+      "id": "b1_06_q010",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker, ____ Rücktritt seit Wochen gefordert wird, gab gestern eine Pressekonferenz.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "der"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Masculine antecedent 'der Politiker' → 'dessen'. The relative clause contains a passive construction ('gefordert wird') with a nominalized infinitive ('Rücktritt' = resignation). This combination of Genitiv relative clause + passive is typical of B2 newspaper language."
+    },
+    {
+      "id": "b1_06_q011",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Gebäude, an ____ Fassade noch gearbeitet wird, soll nächstes Jahr eröffnet werden.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "das"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Neuter antecedent 'das Gebäude' → 'dessen'. When a preposition precedes the Genitiv relative pronoun, the structure is: Präposition + dessen/deren + Noun. Here: 'an dessen Fassade' (on whose facade). The preposition does NOT merge with 'dessen/deren'."
+    },
+    {
+      "id": "b1_06_q012",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Organisation, für ____ Arbeit sie sich jahrelang engagiert hatte, verlieh ihr einen Preis.",
+      "options": [
+        "deren",
+        "dessen",
+        "die",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Feminine antecedent 'die Organisation' → 'deren'. Prepositional Genitiv relative clause: 'für deren Arbeit' (for whose work). The preposition 'für' governs Akkusativ, but here it modifies 'Arbeit', not the relative pronoun — 'deren' is always uninflected after a preposition."
+    },
+    {
+      "id": "b1_06_q013",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ist ein Forscher, ____ Theorien zwar umstritten sind, aber dennoch großen Einfluss haben.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "der"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Masculine antecedent 'ein Forscher' → 'dessen'. The relative clause here has a concessive structure ('zwar … aber dennoch'), which is a B2 sentence complexity. The Genitiv relative pronoun form is unaffected by the internal clause structure."
+    },
+    {
+      "id": "b1_06_q014",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Maßnahmen, ____ Wirksamkeit von Experten bezweifelt wird, sollen dennoch umgesetzt werden.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'die Maßnahmen' → 'deren'. The noun 'Wirksamkeit' is singular (effectiveness of the measures), but 'deren' still takes the plural form because it refers to the plural antecedent. This singular/plural mismatch is a classic B2 confusion point."
+    },
+    {
+      "id": "b1_06_q015",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ist eine Situation, mit ____ Folgen wir noch lange zu kämpfen haben werden.",
+      "options": [
+        "deren",
+        "dessen",
+        "der",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Feminine antecedent 'eine Situation' → 'deren'. Prepositional structure: 'mit deren Folgen' (with whose consequences). 'mit' governs Dativ, but it modifies 'Folgen' here — 'deren' itself remains in Genitiv relative pronoun form and is not declined further."
+    },
+    {
+      "id": "b1_06_q016",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag, über ____ Bedingungen seit Monaten verhandelt worden war, wurde schließlich unterzeichnet.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Masculine antecedent 'der Vertrag' → 'dessen'. Complex structure: preposition 'über' + 'dessen Bedingungen' + passive Plusquamperfekt ('verhandelt worden war'). The Genitiv relative pronoun is unaffected by the tense or voice of the clause."
+    },
+    {
+      "id": "b1_06_q017",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Technologien, ____ Potenzial noch nicht vollständig ausgeschöpft worden ist, könnten die Energiewende beschleunigen.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'die Technologien' → 'deren'. The relative clause contains a passive perfect ('ausgeschöpft worden ist') with a modal nuance from 'noch nicht vollständig'. The subject of the passive clause is 'Potenzial' (singular), while 'deren' refers to the plural antecedent — a B2+ distinction."
+    },
+    {
+      "id": "b1_06_q018",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Phänomen, ____ Ursachen trotz intensiver Forschung noch weitgehend ungeklärt sind, beschäftigt Wissenschaftler weltweit.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "das"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Neuter antecedent 'das Phänomen' → 'dessen'. The relative clause has a complex predicate: 'noch weitgehend ungeklärt sind' (are still largely unexplained). 'Ursachen' (causes, plural) is the subject of the relative clause, agreeing with 'sind', while 'dessen' marks the Genitiv link to 'Phänomen'."
+    },
+    {
+      "id": "b1_06_q019",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es gibt Bevölkerungsgruppen, in ____ Lebensrealität strukturelle Benachteiligungen tief verankert sind.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'Bevölkerungsgruppen' → 'deren'. Prepositional genitive relative clause: 'in deren Lebensrealität' (in whose lived reality). 'in' governs Dativ for location, but here 'deren' is in Genitiv position modifying 'Lebensrealität' — the preposition governs 'Lebensrealität', not 'deren'. This nested structure is a hallmark of academic/journalistic B2+ German."
+    },
+    {
+      "id": "b1_06_q020",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Epoche, ____ kulturelles Erbe bis heute in Architektur und Sprache sichtbar ist, wird als Barock bezeichnet.",
+      "options": [
+        "deren",
+        "dessen",
+        "der",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Feminine antecedent 'die Epoche' → 'deren'. The relative clause features a nominalized adjective 'das kulturelle Erbe' as the subject, modified by 'deren'. Note: 'deren kulturelles Erbe' — the adjective 'kulturelles' takes mixed/strong declension after 'deren' (which acts like a Genitiv determiner). This adjective declension after 'dessen/deren' is a key B2 writing skill."
+    }
+  ]
+}
