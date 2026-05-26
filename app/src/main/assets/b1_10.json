@@ -3,7 +3,7 @@
   "subjectId": "b1_10",
   "topicName": "Partizipien als Adjektive",
   "level": "B1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Partizip I and Partizip II as adjectives in German — Partizip I (Present Participle) for ongoing/active actions and Partizip II (Past Participle) for completed passive actions. Gerundiv (zu + Partizip I) for passive necessity. Adjective endings must match article/noun case and number. Key: strong vs weak endings, mixed endings after indefinite articles, and the distinction between Partizip I (active, ongoing) vs. Partizip II (passive, completed or resulting state).",
   "tips": [
     "Partizip I (Present Participle): verb stem + -d (lachen → lachend, brennen → brennend). Expresses active, ongoing, or simultaneous action. 'Der brennende Baum' = the tree that is burning right now. Used for ongoing states.",
@@ -297,6 +297,286 @@
       "correctAnswer": "zu hütenden",
       "explanation": "Gerundiv: 'zu hütenden' (must be guarded). Passive obligation — the secrets must be guarded. After 'Die' (plural) → weak '-en'.",
       "id": "b1_10_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Mann wartet schon seit einer Stunde am Bahnhof.",
+      "options": [
+        "lesende",
+        "gelesene",
+        "lesen",
+        "gelesen"
+      ],
+      "correctAnswer": "lesende",
+      "explanation": "Partizip I of 'lesen' (lesend = reading). The man is currently reading — active ongoing action. After 'Der' (nominative masc) → weak ending '-e'.",
+      "id": "b1_10_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Nachricht hat alle sehr überrascht.",
+      "options": [
+        "überraschende",
+        "überraschte",
+        "überraschend",
+        "überraschen"
+      ],
+      "correctAnswer": "überraschende",
+      "explanation": "Partizip I of 'überraschen' (überraschend = surprising). The message itself causes surprise (active triggering effect). After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ Kind spielt im Garten.",
+      "options": [
+        "lachende",
+        "gelachtes",
+        "lachend",
+        "gelacht"
+      ],
+      "correctAnswer": "lachende",
+      "explanation": "Partizip I of 'lachen' (lachend = laughing). The child is currently laughing — active ongoing action. After 'Das' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Fenster wurden gestern geputzt.",
+      "options": [
+        "geöffneten",
+        "öffnenden",
+        "geöffnet",
+        "öffnend"
+      ],
+      "correctAnswer": "geöffneten",
+      "explanation": "Partizip II of 'öffnen' (geöffnet = opened). The windows were opened and are in that state. After 'Die' (accusative plural) → weak '-en'.",
+      "id": "b1_10_q024"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Studenten arbeiten konzentriert an ihren Projekten.",
+      "options": [
+        "studierenden",
+        "studierte",
+        "studiert",
+        "studierend"
+      ],
+      "correctAnswer": "studierenden",
+      "explanation": "Partizip I of 'studieren' (studierend = studying). The students are currently studying — active ongoing. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q025"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Tür lässt sich nicht öffnen.",
+      "options": [
+        "geschlossene",
+        "schließende",
+        "geschlossen",
+        "schließend"
+      ],
+      "correctAnswer": "geschlossene",
+      "explanation": "Partizip II of 'schließen' (geschlossen = closed). The door is in a closed state — result of completed action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q026"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Diskussion dauerte mehrere Stunden.",
+      "options": [
+        "diskutierende",
+        "diskutierte",
+        "diskutierend",
+        "diskutiert"
+      ],
+      "correctAnswer": "diskutierende",
+      "explanation": "Partizip I of 'diskutieren' (diskutierend = discussing). The discussion was ongoing for hours — active, simultaneous action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q027"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Maschine wurde gestern repariert.",
+      "options": [
+        "reparierende",
+        "reparierte",
+        "reparierend",
+        "repariert"
+      ],
+      "correctAnswer": "reparierte",
+      "explanation": "Partizip II of 'reparieren' (repariert = repaired). The machine was repaired (completed passive action). After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q028"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Hund läuft durch den Park.",
+      "options": [
+        "bellende",
+        "gebellte",
+        "bellen",
+        "gebellend"
+      ],
+      "correctAnswer": "bellende",
+      "explanation": "Partizip I of 'bellen' (bellend = barking). The dog is actively barking right now. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q029"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ E-Mail wurde sofort beantwortet.",
+      "options": [
+        "schreibende",
+        "geschriebene",
+        "schreibend",
+        "geschrieben"
+      ],
+      "correctAnswer": "geschriebene",
+      "explanation": "Partizip II of 'schreiben' (geschrieben = written). The email was written and then answered — completed passive action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Kinder spielen im Hof Fußball.",
+      "options": [
+        "spielenden",
+        "gespielten",
+        "spielend",
+        "gespielt"
+      ],
+      "correctAnswer": "spielenden",
+      "explanation": "Partizip I of 'spielen' (spielend = playing). The children are currently playing — active ongoing action. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q031"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Fenster wurden nach dem Sturm beschädigt.",
+      "options": [
+        "zerstörenden",
+        "zerstörte",
+        "zerstört",
+        "zerstörend"
+      ],
+      "correctAnswer": "zerstörten",
+      "explanation": "Partizip II of 'zerstören' (zerstört = destroyed). The windows were destroyed by the storm (completed passive action). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q032"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Schüler meldet sich ständig im Unterricht.",
+      "options": [
+        "meldende",
+        "gemeldete",
+        "meldend",
+        "gemeldet"
+      ],
+      "correctAnswer": "meldende",
+      "explanation": "Partizip I of 'melden' (meldend = raising hand/reporting). The student is actively and repeatedly raising his hand — ongoing habitual action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Probleme wurden schnell gelöst.",
+      "options": [
+        "lösenden",
+        "gelösten",
+        "lösend",
+        "gelöst"
+      ],
+      "correctAnswer": "gelösten",
+      "explanation": "Partizip II of 'lösen' (gelöst = solved). The problems have been solved (completed passive action). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q034"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Musik war im ganzen Gebäude zu hören.",
+      "options": [
+        "spielende",
+        "gespielte",
+        "spielend",
+        "gespielt"
+      ],
+      "correctAnswer": "spielende",
+      "explanation": "Partizip I of 'spielen' (spielend = playing). Music was playing throughout the building — active ongoing action during the observation. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q035"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Türen bleiben während der Prüfung geschlossen.",
+      "options": [
+        "öffnenden",
+        "geöffneten",
+        "öffnend",
+        "geöffnet"
+      ],
+      "correctAnswer": "geöffneten",
+      "explanation": "Partizip II of 'öffnen' (geöffnet = opened). The doors are in an open state (the action of opening has been completed). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q036"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Professor erklärt die Grammatik sehr klar.",
+      "options": [
+        "erklärende",
+        "erklärte",
+        "erklärend",
+        "erklärt"
+      ],
+      "correctAnswer": "erklärende",
+      "explanation": "Partizip I of 'erklären' (erklärend = explaining). The professor is currently explaining — active ongoing action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q037"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Arbeit wurde gestern abgeschlossen.",
+      "options": [
+        "arbeitende",
+        "gearbeitete",
+        "arbeitend",
+        "gearbeitet"
+      ],
+      "correctAnswer": "gearbeitete",
+      "explanation": "Partizip II of 'arbeiten' (gearbeitet = worked on). The work was completed yesterday (completed passive action). 'Arbeitend' would mean actively working, which doesn't fit the completed context.",
+      "id": "b1_10_q038"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Lösung wurde von allen akzeptiert.",
+      "options": [
+        "lösende",
+        "gelöste",
+        "lösend",
+        "gelöst"
+      ],
+      "correctAnswer": "gelöste",
+      "explanation": "Partizip II of 'lösen' (gelöst = solved). The solution was found and accepted by everyone (completed passive action). 'Lösende' would mean the solution is actively solving something.",
+      "id": "b1_10_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Verkehr verursacht jeden Morgen Staus.",
+      "options": [
+        "fließende",
+        "geflossene",
+        "fließend",
+        "geflossen"
+      ],
+      "correctAnswer": "fließende",
+      "explanation": "Partizip I of 'fließen' (fließend = flowing). Traffic is actively flowing/moving every morning — ongoing active process. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q040"
     }
   ]
 }
