@@ -244,6 +244,17 @@ class QuizViewModel @Inject constructor(
             "a2_08" to "8. Plusquamperfekt",
             "a2_09" to "9. Relativsätze",
             "a2_10" to "10. Konjunktionen",
+            // B1 topics
+            "b1_01" to "1. Nebensätze",
+            "b1_02" to "2. Konjunktiv II",
+            "b1_03" to "3. Präpositionen",
+            "b1_04" to "4. Modalverben im Konjunktiv II",
+            "b1_05" to "5. Nominalisierung",
+            "b1_06" to "6. Relativsätze im Genitiv",
+            "b1_07" to "7. Konnektoren",
+            "b1_08" to "8. Perfekt und Präteritum",
+            "b1_09" to "9. Verben mit festen Präpositionen",
+            "b1_10" to "10. Partizipien als Adjektive",
             // B2 topics
             "b2_01" to "1. Konnektoren",
             "b2_02" to "2. Verben und Ergänzungen",
