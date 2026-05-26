@@ -3,7 +3,7 @@
   "subjectId": "c1_01",
   "topicName": "Nominalstil & Verbalstil",
   "level": "C1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Nominalstil & Verbalstil — transforming between nominal and verbal sentence styles in German. Nominalstil (noun-based style) uses nominalized infinitives, noun-preposition combinations, and Funktionsverbgefüge for formal/academic writing. Verbalstil (verb-based style) uses full clauses with conjunctions. Key: converting subordinate clauses to noun phrases (weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ), nominalizing verbs correctly, and using appropriate C1-level connectors.",
   "tips": [
     "Nominalstil transformations: weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ, wenn/falls -> bei + Dativ, obwohl -> trotz + Genitiv, indem -> unter + Dativ, ohne zu -> ohne + Akkusativ, anstatt zu -> statt + Genitiv, infolge -> infolge + Genitiv.",
@@ -297,6 +297,286 @@
       "correctAnswer": "einer eventuellen Durchführung",
       "explanation": "'Bevor... werden können' (temporal + conditional) -> 'vor einer eventuellen Durchführung'. 'Eventuell' captures the modal meaning of possibility ('können'). Dative after 'vor'.",
       "id": "c1_01_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Umsetzung des Projekts erfolgt durch die ____ der zuständigen Abteilung.",
+      "options": [
+        "Durchführung",
+        "durchgeführt wird",
+        "durchführen",
+        "wird durchgeführt"
+      ],
+      "correctAnswer": "Durchführung",
+      "explanation": "Pure Nominalstil: 'Durchführung' is the nominalized noun replacing the verbal phrase. This is a classic Nominalstil filler — nouns where verbs could be used.",
+      "id": "c1_01_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Firma strebt eine ____ der Produktionskosten an.",
+      "options": [
+        "Senkung",
+        "senken",
+        "gesenkt wird",
+        "zu senken"
+      ],
+      "correctAnswer": "Senkung",
+      "explanation": "'Senkung' (noun) replaces 'die Produktionskosten senken'. Nominalstil: verb phrases become nouns with suffixes like -ung, -tion, -ung.",
+      "id": "c1_01_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Ergebnisse erfolgt nach Abschluss der Studie.",
+      "options": [
+        "Auswertung",
+        "auswerten",
+        "ausgewertet wird",
+        "wird ausgewertet"
+      ],
+      "correctAnswer": "Auswertung",
+      "explanation": "'Auswertung' replaces 'die Ergebnisse auswerten'. The suffix -ung turns the verb into a feminine noun.",
+      "id": "c1_01_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Zur ____ der Daten ist eine sorgfältige Analyse notwendig.",
+      "options": [
+        "Interpretation",
+        "interpretieren",
+        "interpretiert wird",
+        "wird interpretiert"
+      ],
+      "correctAnswer": "Interpretation",
+      "explanation": "'Zur Interpretation der Daten' — 'Interpretation' replaces 'die Daten interpretieren'. Note 'zur' = 'zu + der' (Dat).",
+      "id": "c1_01_q024"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Mitarbeiter wird regelmäßig überprüft.",
+      "options": [
+        "Motivation",
+        "motivieren",
+        "motiviert wird",
+        "wird motiviert"
+      ],
+      "correctAnswer": "Motivation",
+      "explanation": "'Die Motivation der Mitarbeiter' replaces 'die Mitarbeiter motivieren'. Note: 'Motivation' (not 'Motivierung') is the correct high-register noun.",
+      "id": "c1_01_q025"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Regeln ist in diesem Fall nicht vorgesehen.",
+      "options": [
+        "Änderung",
+        "ändern",
+        "geändert wird",
+        "wird geändert"
+      ],
+      "correctAnswer": "Änderung",
+      "explanation": "'Änderung' replaces 'die Regeln ändern'. The -ung suffix is extremely productive in Nominalstil.",
+      "id": "c1_01_q026"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Vorschriften führte zu erheblichen Diskussionen.",
+      "options": [
+        "Einführung",
+        "einführen",
+        "eingeführt wird",
+        "wird eingeführt"
+      ],
+      "correctAnswer": "Einführung",
+      "explanation": "'Die Einführung der Vorschriften' replaces 'die Vorschriften einführen'. 'Einführung' is the standard C1 noun for 'introduction/implementation'.",
+      "id": "c1_01_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Durch die ____ des Programms konnten Fehler reduziert werden.",
+      "options": [
+        "Optimierung",
+        "optimieren",
+        "optimiert wird",
+        "wird optimiert"
+      ],
+      "correctAnswer": "Optimierung",
+      "explanation": "'Die Optimierung des Programms' replaces 'das Programm optimieren'. -Optimierung is a common C1 nominalization pattern.",
+      "id": "c1_01_q028"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Infrastruktur ist dringend erforderlich.",
+      "options": [
+        "Modernisierung",
+        "modernisieren",
+        "modernisiert wird",
+        "wird modernisiert"
+      ],
+      "correctAnswer": "Modernisierung",
+      "explanation": "'Die Modernisierung der Infrastruktur' replaces 'die Infrastruktur modernisieren'. C1 register requires the noun form.",
+      "id": "c1_01_q029"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Ergebnisse wurde gestern veröffentlicht.",
+      "options": [
+        "Zusammenfassung",
+        "zusammenfassen",
+        "zusammengefasst wird",
+        "wird zusammengefasst"
+      ],
+      "correctAnswer": "Zusammenfassung",
+      "explanation": "'Die Zusammenfassung der Ergebnisse' replaces 'die Ergebnisse zusammenfassen'. Common C1 nominalization.",
+      "id": "c1_01_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Sicherheitsmaßnahmen hat höchste Priorität.",
+      "options": [
+        "Überprüfung",
+        "überprüfen",
+        "überprüft wird",
+        "wird überprüft"
+      ],
+      "correctAnswer": "Überprüfung",
+      "explanation": "'Die Überprüfung der Sicherheitsmaßnahmen' replaces 'die Sicherheitsmaßnahmen überprüfen'.",
+      "id": "c1_01_q031"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Prozesse erfolgt digital.",
+      "options": [
+        "Automatisierung",
+        "automatisieren",
+        "automatisiert wird",
+        "wird automatisiert"
+      ],
+      "correctAnswer": "Automatisierung",
+      "explanation": "'Die Automatisierung der Prozesse' replaces 'die Prozesse automatisieren'. -isierung suffix for turning verbs into nouns.",
+      "id": "c1_01_q032"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Zur ____ der Kommunikation wurden neue Systeme eingeführt.",
+      "options": [
+        "Verbesserung",
+        "verbessern",
+        "verbessert wird",
+        "wird verbessert"
+      ],
+      "correctAnswer": "Verbesserung",
+      "explanation": "'Zur Verbesserung der Kommunikation' (zu + Dat: 'Verbesserung') replaces 'die Kommunikation verbessern'.",
+      "id": "c1_01_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Zusammenarbeit ist entscheidend für den Erfolg.",
+      "options": [
+        "Förderung",
+        "fördern",
+        "gefördert wird",
+        "wird gefördert"
+      ],
+      "correctAnswer": "Förderung",
+      "explanation": "'Die Förderung der Zusammenarbeit' replaces 'die Zusammenarbeit fördern'. -Förderung is a common C1 noun.",
+      "id": "c1_01_q034"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Daten zeigt klare Trends.",
+      "options": [
+        "Auswertung",
+        "auswerten",
+        "ausgewertet wird",
+        "wird ausgewertet"
+      ],
+      "correctAnswer": "Auswertung",
+      "explanation": "'Eine Auswertung der Daten' replaces 'die Daten auswerten'. -Auswertung is standard in formal/academic German.",
+      "id": "c1_01_q035"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Berichts erfolgt monatlich.",
+      "options": [
+        "Erstellung",
+        "erstellen",
+        "erstellt wird",
+        "wird erstellt"
+      ],
+      "correctAnswer": "Erstellung",
+      "explanation": "'Die Erstellung des Berichts' replaces 'der Bericht wird erstellt / den Bericht erstellen'.",
+      "id": "c1_01_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Zur ____ der Qualität sind regelmäßige Kontrollen notwendig.",
+      "options": [
+        "Sicherung",
+        "sichern",
+        "gesichert wird",
+        "wird gesichert"
+      ],
+      "correctAnswer": "Sicherung",
+      "explanation": "'Zur Sicherung der Qualität' (zu + Dat) replaces 'die Qualität sichern'. -Sicherung is a common C1 nominalization.",
+      "id": "c1_01_q037"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Ergebnisse wurde sorgfältig dokumentiert.",
+      "options": [
+        "Präsentation",
+        "präsentieren",
+        "präsentiert wird",
+        "wird präsentiert"
+      ],
+      "correctAnswer": "Präsentation",
+      "explanation": "'Die Präsentation der Ergebnisse' replaces 'die Ergebnisse präsentieren'. -Präsentation is a standard academic noun.",
+      "id": "c1_01_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Vorschläge ist noch nicht erfolgt.",
+      "options": [
+        "Bewertung",
+        "bewerten",
+        "bewertet wird",
+        "wird bewertet"
+      ],
+      "correctAnswer": "Bewertung",
+      "explanation": "'Eine Bewertung der Vorschläge' replaces 'die Vorschläge bewerten'. 'Erfolgen' (to take place/happen) is used with nouns: 'eine Bewertung ist erfolgt'.",
+      "id": "c1_01_q039"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Systems wurde erfolgreich abgeschlossen.",
+      "options": [
+        "Einrichtung",
+        "einrichten",
+        "eingerichtet wird",
+        "wird eingerichtet"
+      ],
+      "correctAnswer": "Einrichtung",
+      "explanation": "'Die Einrichtung des Systems' replaces 'das System einrichten'. 'Erfolgen' pairs with nouns: 'die Einrichtung wurde abgeschlossen'.",
+      "id": "c1_01_q040"
     }
   ]
 }
