@@ -95,7 +95,7 @@
 |-------|--------|-----------|-------|
 | a1_01–a1_10 | ⚠️ 600 qs (not 1,000) | ✅ Done? | Discrepancy — may need re-sync |
 | a2_01–a2_10 | ✅ (1,210 qs) | ⚠️ Pending | Run sync from local machine |
-| b1_01–b1_03 | ✅ (301 qs) | ⚠️ Pending | Run sync from local machine |
+| b1_01–b1_04 | ✅ (401 qs) | ⚠️ Pending | Run sync from local machine |
 | b2_01–b2_23 | ✅ (2,321 qs) | ⚠️ Partial | Some topics may need sync |
 
 ### Firestore sync commands (run from local machine):
