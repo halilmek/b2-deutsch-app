@@ -54,9 +54,9 @@
 | 7 | b1_07 | Konnektoren | 100 | ✅ Complete |
 | 8 | b1_08 | Perfekt und Präteritum | 100 | ✅ Complete |
 | 9 | b1_09 | Verben mit festen Präpositionen | 100 | ✅ Complete |
-| 10 | b1_10 | Partizipien als Adjektive | 0 | ⬜ Pending |
+| 10 | b1_10 | Partizipien als Adjektive | 20 | 🔄 In Progress (q001–q020 added 2026-05-26) |
 
-**B1 Total: 901 questions (target: 1,000)**
+**B1 Total: 921 questions (target: 1,000)**
 
 ### B2 Module ✅
 | # | subjectId | Topic Name | Questions | Content Quality |
@@ -97,7 +97,8 @@
 | a2_01–a2_10 | ✅ (1,210 qs) | ⚠️ Pending | Run sync from local machine |
 | b1_01–b1_07 | ✅ (701 qs)
 | b1_08 | ✅ Perfekt und Präteritum (100 qs) |
-| b1_09 | ✅ Verben mit festen Präpositionen (100 qs) | | ⚠️ Pending | Run sync from local machine |
+| b1_09 | ✅ Verben mit festen Präpositionen (100 qs) |
+| b1_10 | 🔄 Partizipien als Adjektive (20 qs) | | ⚠️ Pending | Run sync from local machine |
 | b2_01–b2_23 | ✅ (2,321 qs) | ⚠️ Partial | Some topics may need sync |
 
 ### Firestore sync commands (run from local machine):
@@ -109,7 +110,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-a
 node scripts/import_and_sync.js a2_01 a2_02 a2_03 a2_04 a2_05 a2_06 a2_07 a2_08 a2_09 a2_10
 
 # Sync B1
-node scripts/import_and_sync.js b1_01 b1_02 b1_03 b1_04 b1_05 b1_06 b1_07 b1_08 b1_09
+node scripts/import_and_sync.js b1_01 b1_02 b1_03 b1_04 b1_05 b1_06 b1_07 b1_08 b1_09 b1_10
 
 # Sync B2 remaining
 node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 b2_17
@@ -130,7 +131,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 7 | Konnektoren | 100 | 100 | ✅ Complete |
 | 8 | Perfekt und Präteritum | 100 | 100 | ✅ Complete |
 | 9 | Verben mit festen Präpositionen | 100 | 100 | ✅ Complete |
-| 10 | Partizipien als Adjektive | 100 | 0 | ⬜ Pending |
+| 10 | Partizipien als Adjektive | 100 | 20 | 🔄 In Progress |
 
 ---
 
@@ -187,7 +188,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 1. **A1 Discrepancy:** Project status reported 1,000 A1 questions but files only have 600. Need to verify if questions were removed or status was never updated.
 
-2. **Next Priority:** B1 module b1_10 (100 questions needed to reach 1,000)
+2. **Next Priority:** B1 module b1_10 (80 more questions needed)
 
 3. **B2 Descriptions:** Several B2 JSON files show "MISSING" description — should verify all have proper Turkish/English descriptions.
 
@@ -204,4 +205,4 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-05-26 12:03 UTC_
+_Last updated: 2026-05-26 12:16 UTC_

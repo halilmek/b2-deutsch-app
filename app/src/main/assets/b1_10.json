@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "subjectId": "b1_10",
+  "topicName": "Partizipien als Adjektive",
+  "level": "B1",
+  "totalQuestions": 20,
+  "description": "Partizip I and Partizip II as adjectives in German — Partizip I (Present Participle) for ongoing/active actions and Partizip II (Past Participle) for completed passive actions. Gerundiv (zu + Partizip I) for passive necessity. Adjective endings must match article/noun case and number. Key: strong vs weak endings, mixed endings after indefinite articles, and the distinction between Partizip I (active, ongoing) vs. Partizip II (passive, completed or resulting state).",
+  "tips": [
+    "Partizip I (Present Participle): verb stem + -d (lachen → lachend, brennen → brennend). Expresses active, ongoing, or simultaneous action. 'Der brennende Baum' = the tree that is burning right now. Used for ongoing states.",
+    "Partizip II (Past Participle): ge- + stem + -t/-en. With haben auxiliary → transitive/reflexive verbs: 'der geladene Zeuge' (the witness who has been summoned). With sein → intransitive change-of-state verbs: 'der entlaufene Hund' (the dog that ran away).",
+    "Gerundiv (zu + Partizip I): passive necessity/ obligation. 'Die zu lösenden Aufgaben' = the tasks that must be solved. Only used with transitive verbs that have an accusative object.",
+    "Adjective endings after definite articles (der/die/das/die pl.): weak endings -e (masc nom), -en (masc/dat/gen/acc), -e (fem nom/acc), -en (fem dat/gen), -en (neut dat/acc). After indefinite articles (ein/ein/eine): mixed endings: -er (masc nom), -en (masc acc), -e (fem nom/acc), -es (neut nom/acc), -en (fem dat/gen, neut dat).",
+    "Partizip I vs Partizip II: Partizip I = thing doing the action (active, ongoing): 'der lesende Student' (the student who is reading). Partizip II = thing having action done to it (passive, completed): 'der gelesene Roman' (the novel that has been read).",
+    "Transitive vs intransitive Partizip II: transitive verbs (arbeiten, schreiben, lesen) → Partizip II as adjective: 'der geschriebene Brief'. Intransitive change-of-state verbs with 'sein' (laufen, fallen, sterben) → 'der gefallene Soldat' (the soldier who fell).",
+    "Separable verbs: Partizip II drops 'ge-' when prefix is inseparable (be-, er-, ver-, zer-, ent-, emp-, ge-, miss-): 'das getroffene Kind' (from treffen) vs. 'das erzählte Märchen' (from erzählen, but 'erzählen' is separable → 'das erzählte Märchen' actually uses regular弱化... wait: 'erzählen' is separable → Partizip II = 'erzählt' (no ge-). Inseparable: 'das versprochene' (from versprechen).",
+    "Separable prefix verbs: Partizip II keeps 'ge-' when prefix is separable (zurück-, vor-, an-, auf-): 'das angekommene Paket' (from ankommen), 'das vorgelegte Dokument' (from vorlegen).",
+    "Negative participles: un- prefix before Partizip I or II: 'die ungedruckten Dokumente' (the unprinted documents), 'ein unerwartetes Ereignis' (an unexpected event).",
+    "Noun-adjective agreement: 'mit brennenden Augen' (dative plural), 'in dem gefährlichen Wald' (dative masculine), 'die aufregende Geschichte' (accusative feminine). Always match article case and number."
+  ],
+  "questions": [
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Feuerwehr konnte alle Personen aus dem ____ Wohnhaus rechtzeitig evakuieren.",
+      "options": [
+        "brennenden",
+        "gebrannten",
+        "brennendem",
+        "brennende"
+      ],
+      "correctAnswer": "brennenden",
+      "explanation": "Partizip I of 'brennen' (brennend = burning) — the house is actively on fire right now. After 'dem' (dative neuter singular), weak ending '-en'. 'Gebrannt' would be past/passive meaning, which doesn't fit.",
+      "id": "b1_10_q001"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Bericht des Kriminalkommissars warf völlig neue Fragen zum Tathergang auf.",
+      "options": [
+        "vorgelegte",
+        "vorliegende",
+        "vorzulegende",
+        "vorgelegten"
+      ],
+      "correctAnswer": "vorgelegte",
+      "explanation": "Partizip II of 'vorlegen' (vorgelegt = submitted/presented). The report has been submitted (completed passive action). After 'Der' (nominative masculine singular), weak ending '-e'. 'Vorliegende' would mean existing/laying, but 'vorlegen' = to present/submit.",
+      "id": "b1_10_q002"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Aufgaben müssen bis spätestens Freitagabend vollständig auf der Lernplattform hochgeladen werden.",
+      "options": [
+        "zu lösenden",
+        "gelösten",
+        "lösenden",
+        "zu gelösten"
+      ],
+      "correctAnswer": "zu lösenden",
+      "explanation": "Gerundiv: 'zu + Partizip I' expresses passive necessity (tasks that must be solved). 'Die Aufgaben' (plural) + weak ending '-en': 'zu lösenden Aufgaben'.",
+      "id": "b1_10_q003"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Mit ____ Herzen wartete die junge Schauspielerin hinter den Kulissen auf ihren großen Auftritt.",
+      "options": [
+        "klopfendem",
+        "geklopftem",
+        "klopfenden",
+        "klopfendes"
+      ],
+      "correctAnswer": "klopfendem",
+      "explanation": "Partizip I of 'klopfen' (klopfend = knocking/throbbing) — the heart is actively beating in that moment. 'Mit' (dat) + 'Herzen' (dat neut singular) → strong ending '-em'.",
+      "id": "b1_10_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Auf dem Schreibtisch des Managers lagen stapelweise die ____ Dokumente der vergangenen Woche.",
+      "options": [
+        "ungedruckten",
+        "ungedruckter",
+        "ungedruckte",
+        "undruckenden"
+      ],
+      "correctAnswer": "ungedruckten",
+      "explanation": "Partizip II of 'drucken' with negative 'un-': ungedruckt (not printed). After 'die' (plural) → weak ending '-en': 'die ungedruckten Dokumente'.",
+      "id": "b1_10_q005"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Geräusch aus dem Keller erschreckte die Bewohner des alten Hauses mitten in der Nacht.",
+      "options": [
+        "anhaltendes",
+        "angehaltenes",
+        "anhaltende",
+        "anhaltenden"
+      ],
+      "correctAnswer": "anhaltendes",
+      "explanation": "Partizip I of 'anhalten' (anhaltend = lasting/continuous) — the noise is ongoing. After 'Ein' (nominative neuter singular) → mixed ending '-es'.",
+      "id": "b1_10_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Zeuge weigerte sich vor Gericht beharrlich, eine detaillierte Aussage zu machen.",
+      "options": [
+        "geladene",
+        "ladende",
+        "zu ladende",
+        "geladenen"
+      ],
+      "correctAnswer": "geladene",
+      "explanation": "Partizip II of 'laden' (geladen = summoned/invited by court). The witness has been officially summoned (completed passive action). After 'Der' (nominative masc) → weak ending '-e'.",
+      "id": "b1_10_q007"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Kosten für die Sanierung der Altbauwohnung übersteigen unser geplantes Budget bei Weitem.",
+      "options": [
+        "entstehenden",
+        "entstandenen",
+        "entstandene",
+        "entstehende"
+      ],
+      "correctAnswer": "entstehenden",
+      "explanation": "Partizip I of 'entstehen' (entstehend = emerging/arising). The costs are developing/arising now, not already completed. After 'Die' (plural) → weak ending '-en'.",
+      "id": "b1_10_q008"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nach dem heftigen Streit blickte er mich mit weit ____ Augen völlig fassungslos an.",
+      "options": [
+        "aufgerissenen",
+        "aufreißenden",
+        "aufgerissene",
+        "aufgerissenem"
+      ],
+      "correctAnswer": "aufgerissenen",
+      "explanation": "Partizip II of 'aufreißen' (aufgerissen = torn open/wide). The eyes are in a static state of being wide open (result of completed action). 'Mit' (dat) + no article (dat plural) → strong ending '-en'.",
+      "id": "b1_10_q009"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es handelt sich hierbei um ein vom Bundesministerium streng ____ Forschungsvorhaben.",
+      "options": [
+        "gefördertes",
+        "förderndes",
+        "geförderte",
+        "zu förderndes"
+      ],
+      "correctAnswer": "gefördertes",
+      "explanation": "Partizip II of 'fördern' (gefördert = funded/sponsored). The project is being funded by the ministry (passive effect from external agent 'vom Bundesministerium'). After 'ein' (accusative neuter) → mixed '-es'.",
+      "id": "b1_10_q010"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Trotz stundenlanger Suche konnte der ____ Hund des Nachbarn noch nicht wiedergefunden werden.",
+      "options": [
+        "entlaufene",
+        "entlaufende",
+        "entlaufenen",
+        "entlaufe"
+      ],
+      "correctAnswer": "entlaufene",
+      "explanation": "Partizip II of 'entlaufen' (entlaufen = run away). With 'sein' auxiliary verbs, Partizip II describes a change-of-state result. The dog has run away and is still missing. After 'der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q011"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Kind saß stundenlang fasziniert vor dem Aquarium und beobachtete die ____ Fische.",
+      "options": [
+        "vorbeischwimmenden",
+        "vorbeigeschwommenen",
+        "vorbeischwimmende",
+        "vorbeizuschwimmenden"
+      ],
+      "correctAnswer": "vorbeischwimmenden",
+      "explanation": "Partizip I of 'vorbeischwimmen' (vorbeischwimmend = swimming past) — active, simultaneous action. The fishes are swimming past as the child watches. After 'die' (accusative plural) → weak '-en'.",
+      "id": "b1_10_q012"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Fehler im Quellcode führte dazu, dass die gesamte Software plötzlich abstürzte.",
+      "options": [
+        "übersehener",
+        "übersehender",
+        "übergesehener",
+        "übersehene"
+      ],
+      "correctAnswer": "übersehener",
+      "explanation": "Partizip II of 'übersehen' (übersehen = overlooked). The error was overlooked in the past (passive completed outcome). After 'Ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q013"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ gesetzlichen Vorgaben müssen von allen Betrieben zwingend eingehalten werden.",
+      "options": [
+        "bestehenden",
+        "bestandenen",
+        "bestehende",
+        "zubestehenden"
+      ],
+      "correctAnswer": "bestehenden",
+      "explanation": "Partizip I of 'bestehen' (bestehend = existing/current). The regulations currently exist and are in force. After 'Die' (plural) → weak '-en'.",
+      "id": "b1_10_q014"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das ist ein absolut unvorhersehbarer, völlig ____ Vorfall, mit dem niemand gerechnet hat.",
+      "options": [
+        "überraschender",
+        "überraschter",
+        "überraschenden",
+        "überraschte"
+      ],
+      "correctAnswer": "überraschender",
+      "explanation": "Partizip I of 'überraschen' (überraschend = surprising). The event itself causes surprise (active triggering effect). 'Überrascht' would mean the event feels surprised — nonsense. After 'ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q015"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Bundesregierung sucht nach einer für alle Beteiligten ____ Lösung der Energiekrise.",
+      "options": [
+        "befriedigenden",
+        "befriedigten",
+        "befriedigende",
+        "befriedigendem"
+      ],
+      "correctAnswer": "befriedigenden",
+      "explanation": "Partizip I of 'befriedigen' (befriedigend = satisfying). The solution needs to satisfy all parties — active, creative effect. 'Nach' (dat) + 'einer' (dat fem) → weak '-en'.",
+      "id": "b1_10_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Hinter der alten Scheune stapelten sich meterhoch die Holzscheite des ____ Baumes.",
+      "options": [
+        "gefällten",
+        "fallenden",
+        "gefälltenen",
+        "gefallenen"
+      ],
+      "correctAnswer": "gefällten",
+      "explanation": "Partizip II of 'fällen' (gefällt = deliberately cut down). The tree was cut down by someone (transitive passive). 'Gefallen' would be from 'fallen' (to fall on its own). 'Des' (genitive masc) → weak '-en'.",
+      "id": "b1_10_q017"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Mit ____ Augen starrte der übermüdete Programmierer um vier Uhr morgens auf den Bildschirm.",
+      "options": [
+        "brennenden",
+        "gebrannten",
+        "brennendem",
+        "brennende"
+      ],
+      "correctAnswer": "brennenden",
+      "explanation": "Partizip I of 'brennen' (brennend = burning). Eyes burning from strain — active ongoing state in present moment. 'Mit' (dat) + no article (dat plural) → strong ending '-en'.",
+      "id": "b1_10_q018"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ein von der Marketingabteilung hervorragend ____ Konzept brachte uns letztendlich den Großauftrag ein.",
+      "options": [
+        "ausgearbeitetes",
+        "ausarbeitendes",
+        "ausgearbeitete",
+        "zu ausarbeitendes"
+      ],
+      "correctAnswer": "ausgearbeitetes",
+      "explanation": "Partizip II of 'ausarbeiten' (ausgearbeitet = worked out/developed). The concept was developed by the marketing department (passive effect from external agent). 'Ausarbeiten' is separable → Partizip II = 'ausgearbeitet' (keeps ge-). After 'Ein' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die streng ____ Geheimnisse der Forschungsabteilung dürfen unter keinen Umständen an die Öffentlichkeit gelangen.",
+      "options": [
+        "zu hütenden",
+        "gehüteten",
+        "hütenden",
+        "zu hütende"
+      ],
+      "correctAnswer": "zu hütenden",
+      "explanation": "Gerundiv: 'zu hütenden' (must be guarded). Passive obligation — the secrets must be guarded. After 'Die' (plural) → weak '-en'.",
+      "id": "b1_10_q020"
+    }
+  ]
+}
