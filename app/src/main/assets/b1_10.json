@@ -3,7 +3,7 @@
   "subjectId": "b1_10",
   "topicName": "Partizipien als Adjektive",
   "level": "B1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Partizip I and Partizip II as adjectives in German — Partizip I (Present Participle) for ongoing/active actions and Partizip II (Past Participle) for completed passive actions. Gerundiv (zu + Partizip I) for passive necessity. Adjective endings must match article/noun case and number. Key: strong vs weak endings, mixed endings after indefinite articles, and the distinction between Partizip I (active, ongoing) vs. Partizip II (passive, completed or resulting state).",
   "tips": [
     "Partizip I (Present Participle): verb stem + -d (lachen → lachend, brennen → brennend). Expresses active, ongoing, or simultaneous action. 'Der brennende Baum' = the tree that is burning right now. Used for ongoing states.",
@@ -577,6 +577,286 @@
       "correctAnswer": "fließende",
       "explanation": "Partizip I of 'fließen' (fließend = flowing). Traffic is actively flowing/moving every morning — ongoing active process. After 'Der' (nominative masc) → weak '-e'.",
       "id": "b1_10_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Hund bellte die ganze Nacht laut und störte die Nachbarschaft.",
+      "options": [
+        "bellende",
+        "bellten",
+        "bellte",
+        "bellender"
+      ],
+      "correctAnswer": "bellende",
+      "explanation": "Partizip I of 'bellen' (bellend = barking). The dog was actively barking all night — ongoing active action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Fenster wurden nach dem Unwetter sofort vom Handwerker repariert.",
+      "options": [
+        "zerbrochenen",
+        "zerbrochene",
+        "zerbrechenden",
+        "zerbrochen"
+      ],
+      "correctAnswer": "zerbrochenen",
+      "explanation": "Partizip II of 'zerbrechen' (zerbrochen = broken). The windows are in a broken state from the storm — completed passive result. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ Wasser dampfte über der heißen Herdplatte und füllte die Küche mit Feuchtigkeit.",
+      "options": [
+        "kochende",
+        "gekochte",
+        "kochendem",
+        "gekocht"
+      ],
+      "correctAnswer": "kochende",
+      "explanation": "Partizip I of 'kochen' (kochend = boiling). The water is actively boiling — ongoing active process. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Vertrag ist ab dem ersten nächsten Monats rechtsgültig.",
+      "options": [
+        "unterzeichnete",
+        "unterzeichnende",
+        "unterzeichnen",
+        "unterzeichnet"
+      ],
+      "correctAnswer": "unterzeichnete",
+      "explanation": "Partizip II of 'unterzeichnen' (unterzeichnet = signed). The contract has been signed and is now legally binding — completed passive action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Entscheidung wurde vom Vorstand einstimmig und ohne Gegenstimme getroffen.",
+      "options": [
+        "lang erwartete",
+        "lang erwartenden",
+        "lang erwarteter",
+        "lang erwartet"
+      ],
+      "correctAnswer": "lang erwartete",
+      "explanation": "Extended Partizip II attribute with adverb 'lang'. The decision that was long awaited has been made — completed passive. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die an der Fachkonferenz ____ Wissenschaftler reisten aus fünf verschiedenen Kontinenten an.",
+      "options": [
+        "teilnehmenden",
+        "teilgenommenen",
+        "teilnehmende",
+        "teilnehmen"
+      ],
+      "correctAnswer": "teilnehmenden",
+      "explanation": "Partizip I of 'teilnehmen' (teilnehmend = participating). The scientists were actively participating at the conference — ongoing action. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der von der örtlichen Polizei ____ Verdächtige wurde noch am selben Abend vor Gericht gestellt.",
+      "options": [
+        "festgenommene",
+        "festnehmende",
+        "festgenommen",
+        "festzunehmen"
+      ],
+      "correctAnswer": "festgenommene",
+      "explanation": "Partizip II of 'festnehmen' (festgenommen = arrested). The suspect was arrested by the police (passive from external agent 'von der örtlichen Polizei'). After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q047"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die noch ____ technischen Probleme müssen bis zum Projektdeadline vollständig behoben werden.",
+      "options": [
+        "zu lösenden",
+        "zu lösende",
+        "lösenden",
+        "gelösten"
+      ],
+      "correctAnswer": "zu lösenden",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu lösenden = that must be solved). Passive necessity — the problems must be solved before the deadline. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die von den Kindern versehentlich ____ Glasscherben wurden vorsichtig vom Boden aufgesammelt.",
+      "options": [
+        "zerbrochenen",
+        "zerbrechenden",
+        "zerbrochene",
+        "zerbrechen"
+      ],
+      "correctAnswer": "zerbrochenen",
+      "explanation": "Partizip II of 'zerbrechen' (zerbrochen = broken). The glass shards were broken by the children (passive with agent 'von den Kindern'). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der intensiv ____ Professor hielt einen dreistündigen Vortrag über Quantenphysik.",
+      "options": [
+        "forschende",
+        "forschenden",
+        "geforschte",
+        "forscht"
+      ],
+      "correctAnswer": "forschende",
+      "explanation": "Partizip I of 'forschen' (forschend = researching). The professor is actively researching intensively — ongoing action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die fristgerecht ____ Bewerbungsunterlagen wurden dem Prüfungsausschuss digital übermittelt.",
+      "options": [
+        "eingereichten",
+        "einreichen",
+        "eingereicht",
+        "einreichenden"
+      ],
+      "correctAnswer": "eingereichten",
+      "explanation": "Partizip II of 'einreichen' (eingereicht = submitted). Separable verb keeps 'ge-' after prefix. The documents were submitted on time (completed passive). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q051"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Es handelt sich um eine für Anfänger leicht ____ Programmieraufgabe.",
+      "options": [
+        "zu bewältigende",
+        "zu bewältigenden",
+        "bewältigende",
+        "bewältigte"
+      ],
+      "correctAnswer": "zu bewältigende",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu bewältigende = that can be managed). Passive possibility — the task is manageable for beginners. After 'eine' (accusative fem) → weak '-e'.",
+      "id": "b1_10_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der von der unabhängigen Kommission ____ Gesetzesentwurf wurde einstimmig angenommen.",
+      "options": [
+        "sorgfältig ausgearbeitete",
+        "sorgfältig ausarbeitende",
+        "sorgfältig ausgearbeiteter",
+        "sorgfältig ausgearbeiteten"
+      ],
+      "correctAnswer": "sorgfältig ausgearbeitete",
+      "explanation": "Extended Partizip II with adverb modifier (sorgfältig ausgearbeitet = carefully developed). The draft was developed by the commission and then adopted. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die sich rasant ____ Entwicklung der KI-Technologie erfordert neue ethische Richtlinien.",
+      "options": [
+        "vollziehende",
+        "vollzogene",
+        "vollziehenden",
+        "vollzieht"
+      ],
+      "correctAnswer": "vollziehende",
+      "explanation": "'Sich vollziehen' = to take place/progress (intransitive). Partizip I for the ongoing, rapidly progressing development. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die nicht länger ____ Missstände im Unternehmen müssen umgehend vom Vorstand adressiert werden.",
+      "options": [
+        "zu ignorierenden",
+        "zu ignorierende",
+        "ignorierenden",
+        "ignorierten"
+      ],
+      "correctAnswer": "zu ignorierende",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu ignorierende = that must no longer be ignored). The misconduct can no longer be ignored — passive necessity. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q055"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die auf der Autobahn panisch ____ Fahrzeuge wurden sofort auf eine Umleitungsstrecke geführt.",
+      "options": [
+        "stehenden",
+        "standenen",
+        "stehende",
+        "gestandenen"
+      ],
+      "correctAnswer": "stehenden",
+      "explanation": "Partizip I of 'stehen' (stehenden = standing/stopped). Vehicles standing on the highway in panic — intransitive verb of position used in Partizip I for ongoing state. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der mit modernster Sensorik ____ Produktionsbetrieb steigerte seine Effizienz um 30 Prozent.",
+      "options": [
+        "ausgestattete",
+        "ausstattende",
+        "ausgestattet",
+        "auszustattender"
+      ],
+      "correctAnswer": "ausgestattete",
+      "explanation": "Partizip II of 'ausstatten' (ausgestattet = equipped). The production facility has been equipped with state-of-the-art sensors — completed passive state. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die das Experiment erfolgreich ____ Forscher veröffentlichten die Daten in einer renommierten Fachzeitschrift.",
+      "options": [
+        "durchführenden",
+        "durchgeführten",
+        "durchführt",
+        "durchzuführenden"
+      ],
+      "correctAnswer": "durchführenden",
+      "explanation": "Partizip I of 'durchführen' (durchführend = carrying out). The researchers who successfully carried out the experiment — active ongoing. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die im Rahmen der Abschlussprüfung ____ Aufgaben erforderten konzentriertes und methodisches Arbeiten.",
+      "options": [
+        "zu bearbeitenden",
+        "zu bearbeitende",
+        "bearbeitenden",
+        "bearbeiteten"
+      ],
+      "correctAnswer": "zu bearbeitenden",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu bearbeitenden = that must be processed). The tasks that must be worked on during the final exam — passive necessity. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die von den Anwohnern subjektiv ____ Lärmbelästigung führte zu zahlreichen Beschwerden beim Ordnungsamt.",
+      "options": [
+        "wahrgenommene",
+        "wahrnehmende",
+        "wahrgenommenen",
+        "wahrnehmenden"
+      ],
+      "correctAnswer": "wahrgenommene",
+      "explanation": "Partizip II of 'wahrnehmen' (wahrgenommen = perceived/experienced). The noise disturbance as perceived by the residents — passive psychological perception. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q060"
     }
   ]
 }
