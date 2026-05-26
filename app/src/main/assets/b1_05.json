@@ -3,7 +3,7 @@
   "subjectId": "b1_05",
   "topicName": "Nominalisierung",
   "level": "B1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Nominalisierung (nominalization) is the process of converting verbs, adjectives, and other word classes into nouns in German. This includes: nominalized infinitives (das Lesen), -ung nouns (die Lösung), -heit/-keit nouns (die Freiheit/die MögLichkeit), -tion/-sion nouns (die Organisation), and adjective nominalizations (das Neue, der Bekannte). Key skills: choosing the correct article/gender, forming compound nouns, using nominalizations in formal written register, and applying the correct case (Genitiv/Dativ) after prepositions.",
   "tips": [
     "Nominalized infinitive: das + Verb stem + -en → das Lesen, das Schreiben, das Analysieren. Always neuter (das), always singular.",
@@ -577,6 +577,266 @@
       "difficulty": "hard",
       "type": "multiple_choice",
       "id": "b1_05_q040"
+    },
+    {
+      "questionText": "Verbal: Weil die Benzinpreise unerwartet stark gestiegen sind, nutzen viele Pendler nun die Bahn. -> Nominal: _______________ nutzen viele Pendler nun die Bahn.",
+      "options": [
+        "Wegen des unerwarteten starken Anstiegs der Benzinpreise",
+        "Wegen des unerwartet starken Anstiegs der Benzinpreise",
+        "Trotz dem unerwarteten starken Anstieg der Benzinpreise",
+        "Durch den unerwartet starken Anstieg der Benzinpreise"
+      ],
+      "correctAnswer": "Wegen des unerwartet starken Anstiegs der Benzinpreise",
+      "explanation": "The causal clause with 'weil' is replaced by the preposition 'wegen' + Genitive. 'Unerwartet' functions as an adverb modifying the adjective 'starken', so it remains uninflected. 'Anstieg' is masculine, requiring 'des ... Anstiegs'.",
+      "difficulty": "hard",
+      "id": "b1_05_q041"
+    },
+    {
+      "questionText": "Verbal: Bevor das neue Software-Update installiert wird, müssen alle Daten gesichert werden. -> Nominal: _______________ müssen alle Daten gesichert werden.",
+      "options": [
+        "Nach der Installation des neuen Software-Updates",
+        "Vor dem Installieren des neuen Software-Updates",
+        "Vor der Installation des neuen Software-Updates",
+        "Bis zur Installation des neuen Software-Updates"
+      ],
+      "correctAnswer": "Vor der Installation des neuen Software-Updates",
+      "explanation": "'Bevor' (before) expresses priority in time and translates nominalized into the preposition 'vor' + Dative. The noun derived from 'installieren' is feminine: 'die Installation'. Thus: 'Vor der Installation...'.",
+      "difficulty": "medium",
+      "id": "b1_05_q042"
+    },
+    {
+      "questionText": "Verbal: Obwohl das Wetter extrem schlecht war, wurde das Open-Air-Konzert nicht abgesagt. -> Nominal: _______________ wurde das Open-Air-Konzert nicht abgesagt.",
+      "options": [
+        "Wegen des extrem schlechten Wetters",
+        "Infolge extrem schlechten Wetters",
+        "Trotz des extrem schlechten Wetters",
+        "Ungeachtet dem extrem schlechten Wetters"
+      ],
+      "correctAnswer": "Trotz des extrem schlechten Wetters",
+      "explanation": "A concessive clause introduced by 'obwohl' (although) translates into the nominal structure using 'trotz' + Genitive. 'Das Wetter' becomes 'des extrem schlechten Wetters'.",
+      "difficulty": "easy",
+      "id": "b1_05_q043"
+    },
+    {
+      "questionText": "Verbal: Wenn man die Verträge rechtzeitig kündigt, kann man zusätzliche Kosten vermeiden. -> Nominal: _______________ kann man zusätzliche Kosten vermeiden.",
+      "options": [
+        "Bei rechtzeitiger Kündigung der Verträge",
+        "Mit rechtzeitiger Kündigung der Verträge",
+        "Durch rechtzeitige Kündigung der Verträge",
+        "Im Falle rechtzeitigen Kündigens der Verträge"
+      ],
+      "correctAnswer": "Bei rechtzeitiger Kündigung der Verträge",
+      "explanation": "A conditional clause ('wenn') is standardly nominalized using the preposition 'bei' + Dative. 'Die Kündigung' is feminine, so it becomes 'bei rechtzeitiger Kündigung'. 'Durch' expresses a method/means rather than a condition.",
+      "difficulty": "medium",
+      "id": "b1_05_q044"
+    },
+    {
+      "questionText": "Verbal: Seitdem die neue Geschäftsführerin das Unternehmen leitet, sind die Umsätze gestiegen. -> Nominal: _______________ sind die Umsätze gestiegen.",
+      "options": [
+        "Seit der Leitung des Unternehmens durch die neue Geschäftsführerin",
+        "Seit dem Leiten des Unternehmens von der neuen Geschäftsführerin",
+        "Während der Leitung des Unternehmens durch die neue Geschäftsführerin",
+        "Seit die neue Geschäftsführerin das Unternehmen leitet"
+      ],
+      "correctAnswer": "Seit der Leitung des Unternehmens durch die neue Geschäftsführerin",
+      "explanation": "'Seitdem' translates to the preposition 'seit' + Dative. The active subject of the action ('die Geschäftsführerin') is integrated into the nominal phrase using 'durch' + Accusative. 'Die Leitung' is feminine, yielding 'seit der Leitung'.",
+      "difficulty": "hard",
+      "id": "b1_05_q045"
+    },
+    {
+      "questionText": "Wählen Sie die korrekte Nominalisierung für das Verb 'sich beschweren': Das Einreichen einer _______________ beim Kundenservice brachte schnellen Erfolg.",
+      "options": [
+        "Beschwerlichkeit",
+        "Beschwerde",
+        "Beschwerung",
+        "Beschwerheit"
+      ],
+      "correctAnswer": "Beschwerde",
+      "explanation": "The correct noun derived from the reflexive verb 'sich beschweren' (to complain) is 'die Beschwerde'. 'Beschwerlichkeit' means hardship or difficulty.",
+      "difficulty": "easy",
+      "id": "b1_05_q046"
+    },
+    {
+      "questionText": "Verbal: Man kann die Produktivität steigern, indem man modernere Maschinen einsetzt. -> Nominal: _______________ kann die Produktivität gesteigert werden.",
+      "options": [
+        "Beim Einsatz modernerer Maschinen",
+        "Durch den Einsatz modernerer Maschinen",
+        "Mit dem Einsetzen von moderneren Maschinen",
+        "Infolge des Einsatzes modernerer Maschinen"
+      ],
+      "correctAnswer": "Durch den Einsatz modernerer Maschinen",
+      "explanation": "An instrumental clause introduced by 'indem' (by doing X) is nominalized with the preposition 'durch' + Accusative to display the mechanism/means. 'Der Einsatz' is masculine, so 'durch den Einsatz'.",
+      "difficulty": "medium",
+      "id": "b1_05_q047"
+    },
+    {
+      "questionText": "Verbal: Während die Mitarbeiter streikten, stand die Produktion in der Fabrik komplett still. -> Nominal: _______________ stand die Produktion in der Fabrik komplett still.",
+      "options": [
+        "Während dem Streik der Mitarbeiter",
+        "Während des Streiks der Mitarbeiter",
+        "Trotz des Streiks der Mitarbeiter",
+        "Bei dem Streik der Mitarbeiter"
+      ],
+      "correctAnswer": "Während des Streiks der Mitarbeiter",
+      "explanation": "The temporal conjunction 'während' turns into the preposition 'während', which requires the Genitive case in high-level standard German. 'Der Streik' becomes 'des Streiks'.",
+      "difficulty": "easy",
+      "id": "b1_05_q048"
+    },
+    {
+      "questionText": "Verbal: Damit die Sicherheit am Arbeitsplatz gewährleistet wird, wurden neue Richtlinien eingeführt. -> Nominal: _______________ wurden neue Richtlinien eingeführt.",
+      "options": [
+        "Zur Gewährleistung der Sicherheit am Arbeitsplatz",
+        "Für die Gewährleistung der Sicherheit am Arbeitsplatz",
+        "Wegen der Gewährleistung der Sicherheit am Arbeitsplatz",
+        "Um die Sicherheit am Arbeitsplatz zu gewährleisten"
+      ],
+      "correctAnswer": "Zur Gewährleistung der Sicherheit am Arbeitsplatz",
+      "explanation": "A final clause expressing intention ('damit') is converted using the preposition 'zu' + Dative (often merged into 'zur' for feminine nouns). 'Gewährleistung' is feminine, so 'zu + der = zur Gewährleistung'.",
+      "difficulty": "medium",
+      "id": "b1_05_q049"
+    },
+    {
+      "questionText": "Verbal: Sobald der Vertrag unterschrieben ist, erhalten Sie eine Kopie per Mail. -> Nominal: _______________ erhalten Sie eine Kopie per Mail.",
+      "options": [
+        "Gleich nach Unterzeichnung des Vertrages",
+        "Unmittelbar nach der Unterzeichnung des Vertrages",
+        "Bis zur Unterzeichnung des Vertrages",
+        "Während der Unterzeichnung des Vertrages"
+      ],
+      "correctAnswer": "Unmittelbar nach der Unterzeichnung des Vertrages",
+      "explanation": "'Sobald' indicates immediate succession in the past/future. The nominal equivalent is 'unmittelbar nach' (immediately after) + Dative. 'Die Unterzeichnung' is feminine, resulting in 'nach der Unterzeichnung'.",
+      "difficulty": "hard",
+      "id": "b1_05_q050"
+    },
+    {
+      "questionText": "Verbal: Wählen Sie das korrekte Nomen-Verb-Paar bzw. die korrekte Suffix-Nominalisierung für 'tolerieren': Die Geschäftsführung fordert mehr _______________ gegenüber neuen Arbeitsmethoden.",
+      "options": [
+        "Toleranz",
+        "Tolerierung",
+        "Toleranzigkeit",
+        "Toleration"
+      ],
+      "correctAnswer": "Toleranz",
+      "explanation": "While 'Tolerierung' exists as a nominalized action meaning 'the act of tolerating something reluctantly', the standard B2/C1 noun representing the quality or mindset of tolerance required in this sentence context is 'die Toleranz'.",
+      "difficulty": "medium",
+      "id": "b1_05_q051"
+    },
+    {
+      "questionText": "Verbal: Als die Berliner Mauer im Jahr 1989 fiel, feierten Millionen von Menschen. -> Nominal: _______________ feierten Millionen von Menschen.",
+      "options": [
+        "Beim Fall der Berliner Mauer im Jahr 1989",
+        "Während des Fallens der Berliner Mauer im Jahr 1989",
+        "Beim Einsturz der Berliner Mauer im Jahr 1989",
+        "Anlässlich des Falls der Berliner Mauer im Jahr 1989"
+      ],
+      "correctAnswer": "Beim Fall der Berliner Mauer im Jahr 1989",
+      "explanation": "A unique, singular past event introduced by 'als' is translated using 'bei' + Dative ('bei + dem = beim'). The noun for a historical event like this is 'der Fall' (the fall), hence 'beim Fall'.",
+      "difficulty": "hard",
+      "id": "b1_05_q052"
+    },
+    {
+      "questionText": "Verbal: Weil der Kollege dauerhaft abwesend ist, muss das Team Überstunden machen. -> Nominal: _______________ muss das Team Überstunden machen.",
+      "options": [
+        "Wegen der dauerhaften Abwesenheit des Kollegen",
+        "Wegen des dauerhaften Abwesendseins vom Kollegen",
+        "Aufgrund der dauernd Abwesenheit des Kollegen",
+        "Infolge der dauerhaften Abwesung des Kollegen"
+      ],
+      "correctAnswer": "Wegen der dauerhaften Abwesenheit des Kollegen",
+      "explanation": "The adjective 'abwesend' turns into the noun 'die Abwesenheit'. 'Weil' changes to 'wegen' + Genitive. Since 'Abwesenheit' is feminine, it becomes 'Wegen der dauerhaften Abwesenheit'.",
+      "difficulty": "easy",
+      "id": "b1_05_q053"
+    },
+    {
+      "questionText": "Verbal: Bevor wir eine endgültige Entscheidung treffen können, müssen wir die Marktlage genau analysieren. -> Nominal: _______________ müssen wir die Marktlage genau analysieren.",
+      "options": [
+        "Vor dem Treffen einer endgültigen Entscheidung",
+        "Vor einer endgültigen Entscheidungstreffung",
+        "Vor dem Treffen von einer endgültigen Entscheidung",
+        "Vor dem Treffen zu einer endgültigen Entscheidung"
+      ],
+      "correctAnswer": "Vor dem Treffen einer endgültigen Entscheidung",
+      "explanation": "This targets the nominalization of a functional verb construction ('eine Entscheidung treffen'). 'Treffen' is nominalized to a neuter noun 'das Treffen', followed by a Genitive object: 'Vor dem Treffen einer endgültigen Entscheidung'.",
+      "difficulty": "hard",
+      "id": "b1_05_q054"
+    },
+    {
+      "questionText": "Verbal: Solange das Projekt nicht offiziell genehmigt ist, dürfen keine Gelder fließen. -> Nominal: _______________ dürfen keine Gelder fließen.",
+      "options": [
+        "Bis zur offiziellen Genehmigung des Projekts",
+        "Während der offiziellen Genehmigung des Projekts",
+        "Mithilfe der offiziellen Genehmigung des Projekts",
+        "Infolge der offiziellen Genehmigung des Projekts"
+      ],
+      "correctAnswer": "Bis zur offiziellen Genehmigung des Projekts",
+      "explanation": "'Solange ... nicht' expresses a limitation up to a specific point in time when an action finally occurs. The nominal equivalent for this timeframe limitation is 'bis zu' + Dative. 'Die Genehmigung' is feminine -> 'bis zur'.",
+      "difficulty": "hard",
+      "id": "b1_05_q055"
+    },
+    {
+      "questionText": "Wie lautet die korrekte Nominalisierung des Satzteils 'Kunden umfassend beraten'? Die Bank legt großen Wert auf eine _______________.",
+      "options": [
+        "umfassende Beratenheit der Kunden",
+        "umfassende Beratung der Kunden",
+        "umfassende Kundenberatung",
+        "Kunden umfassende Beratung"
+      ],
+      "correctAnswer": "umfassende Beratung der Kunden",
+      "explanation": "While 'umfassende Kundenberatung' is a legitimate compound word in general German, the grammatically equivalent structural nominalization of the phrase 'Kunden umfassend beraten' transforms the verb into 'die Beratung' accompanied by a Genitive attribute ('der Kunden').",
+      "difficulty": "medium",
+      "id": "b1_05_q056"
+    },
+    {
+      "questionText": "Verbal: Da die Nachfrage nach Elektroautos massiv zurückgegangen ist, drosseln viele Hersteller die Produktion. -> Nominal: _______________ drosseln viele Hersteller die Produktion.",
+      "options": [
+        "Wegen des massiven Rückgangs der Nachfrage nach Elektroautos",
+        "Durch den massiven Rückgang der Nachfrage nach Elektroautos",
+        "Infolge des massiv Rückgangs der Nachfrage nach Elektroautos",
+        "Wegen dem massiven Rückgang der Nachfrage nach Elektroautos"
+      ],
+      "correctAnswer": "Wegen des massiven Rückgangs der Nachfrage nach Elektroautos",
+      "explanation": "'Da' is a causal conjunction requiring 'wegen' + Genitive. 'Der Rückgang' is masculine, turning into 'des massiven Rückgangs'. Option D uses Dative, which is colloquial and incorrect in formal B2 written grammar examinations.",
+      "difficulty": "medium",
+      "id": "b1_05_q057"
+    },
+    {
+      "questionText": "Verbal: Wie der Wetterdienst vorhersagt, kommt es am Wochenende zu schweren Stürmen. -> Nominal: _______________ kommt es am Wochenende zu schweren Stürmen.",
+      "options": [
+        "Laut der Vorhersage des Wetterdienstes",
+        "Nach der Vorhersage vom Wetterdienst",
+        "Gemäß der Vorhersage des Wetterdienstes",
+        "In Übereinstimmung mit der Vorhersage des Wetterdienstes"
+      ],
+      "correctAnswer": "Laut der Vorhersage des Wetterdienstes",
+      "explanation": "A modal clause of reference introduced by 'wie' (as predicted by...) is nominalized using the preposition 'laut' + Genitive. Therefore, 'Laut der Vorhersage des Wetterdienstes' is the standard ideal form.",
+      "difficulty": "hard",
+      "id": "b1_05_q058"
+    },
+    {
+      "questionText": "Verbal: Man darf die Laborräume nur betreten, wenn man Schutzkleidung trägt. -> Nominal: Das Betreten der Laborräume ist nur _______________ gestattet.",
+      "options": [
+        "durch Tragen von Schutzkleidung",
+        "beim Tragen von Schutzkleidung",
+        "unter Tragen von Schutzkleidung",
+        "mit dem Tragen von Schutzkleidung"
+      ],
+      "correctAnswer": "unter Tragen von Schutzkleidung",
+      "explanation": "A condition or modal restriction associated with an ongoing accompaniment ('wenn man X trägt') is often nominalized with the preposition 'unter' + Dative. Thus, 'unter Tragen von...' is the premium B2/C1 phrasing.",
+      "difficulty": "hard",
+      "id": "b1_05_q059"
+    },
+    {
+      "questionText": "Verbal: Nachdem die Verhandlungen erfolgreich abgeschlossen worden waren, gaben die Parteien eine Pressekonferenz. -> Nominal: _______________ gaben die Parteien eine Pressekonferenz.",
+      "options": [
+        "Nach dem erfolgreichen Abschluss der Verhandlungen",
+        "Nach erfolgreichem Abschließen von den Verhandlungen",
+        "Vor dem erfolgreichen Abschluss der Verhandlungen",
+        "Nachdem erfolgreichen Abschluss der Verhandlungen"
+      ],
+      "correctAnswer": "Nach dem erfolgreichen Abschluss der Verhandlungen",
+      "explanation": "'Nachdem' (after) indicates past anteriority and translates into 'nach' + Dative. 'Der Abschluss' is masculine, turning into 'nach dem erfolgreichen Abschluss'.",
+      "difficulty": "medium",
+      "id": "b1_05_q060"
     }
   ]
 }
