@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "subjectId": "c1_01",
+  "topicName": "Nominalstil & Verbalstil",
+  "level": "C1",
+  "totalQuestions": 20,
+  "description": "Nominalstil & Verbalstil — transforming between nominal and verbal sentence styles in German. Nominalstil (noun-based style) uses nominalized infinitives, noun-preposition combinations, and Funktionsverbgefüge for formal/academic writing. Verbalstil (verb-based style) uses full clauses with conjunctions. Key: converting subordinate clauses to noun phrases (weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ), nominalizing verbs correctly, and using appropriate C1-level connectors.",
+  "tips": [
+    "Nominalstil transformations: weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ, wenn/falls -> bei + Dativ, obwohl -> trotz + Genitiv, indem -> unter + Dativ, ohne zu -> ohne + Akkusativ, anstatt zu -> statt + Genitiv, infolge -> infolge + Genitiv.",
+    "Funktionsverbgefüge (FVG): Kritik ueben an (+ Dat), zur Anwendung bringen, in Kraft treten, zur Entscheidung gelangen, unter Beweis stellen, zur Sprache bringen, einer Loesung zufuehren, zur Einsicht gelangen, Aufnahme finden, in Betrieb nehmen.",
+    "Nominalization: machen -> durchfuehren/die Durchfuehrung; entscheiden -> die Entscheidung; erhoehen -> die Erhoehung; anwenden -> die Anwendung; veraendern -> die Veraenderung; planen -> die Planung.",
+    "Genitive attributes with nominalizations: die Durchfuehrung des Projekts, wegen des starken Anstiegs der Preise, nach der Unterzeichnung des Vertrags.",
+    "Verbalstil connectors and their nominal equivalents: obwohl -> trotz (+ Genitiv), weil -> wegen (+ Genitiv), damit -> zu (+ Dativ), nachdem -> nach (+ Dativ), waehrend -> bei (+ Dativ), wenn/falls -> bei (+ Dativ).",
+    "Funktionsverbgefüge for C1: Ruege erteilen, eine Pruefung ablegen, zur Verfuegung stehen/stellen, in Anspruch nehmen, zur Kenntnis nehmen, ausser Acht lassen, Beachtung schenken, zur Sprache kommen, in Betracht ziehen.",
+    "Je... desto -> mit zunehmendem/abnehmendem: Je mehr er lernte, desto klueger wurde er -> Mit zunehmendem Lernen wurde er klueger.",
+    "Mangels, zwecks, anlaesslich, hinsichtlich, infolge, trotz, waehrend, ausserhalb, innerhalb, bezueglich -> all require Genitive case.",
+    "Laut can take Genitive or Dative: laut des Berichts / laut dem Bericht. Both are acceptable in C1 formal German.",
+    "Adjective endings on nominalized infinitives: das Lesen (nom), beim Lesen (dat), zum Lesen (acc), nach dem Lesen (dat) -- no extra endings on infinitive noun itself."
+  ],
+  "questions": [
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Verwandelst du diesen Satz in den Nominalstil? 'Weil die Preise stark gestiegen sind, protestieren die Bürger.' -> 'Wegen ____ protestieren die Bürger.'",
+      "options": [
+        "des starken Anstiegs der Preise",
+        "den starken Anstieg der Preise",
+        "des stark steigenden Preises",
+        "dem starken Anstieg der Preise"
+      ],
+      "correctAnswer": "des starken Anstiegs der Preise",
+      "explanation": "The causal conjunction 'weil' becomes the genitive preposition 'wegen'. 'Die Preise steigen stark' -> 'des starken Anstiegs der Preise' (Genitiv).",
+      "id": "c1_01_q001"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche verbale Entsprechung passt am besten zu: 'Nach der Unterzeichnung des Vertrags...'",
+      "options": [
+        "Nachdem der Vertrag unterzeichnet worden war...",
+        "Nachdem man den Vertrag unterzeichnen wird...",
+        "Bevor der Vertrag unterzeichnet wurde...",
+        "Obwohl der Vertrag unterzeichnet worden ist..."
+      ],
+      "correctAnswer": "Nachdem der Vertrag unterzeichnet worden war...",
+      "explanation": "'Nach' indicates sequence (after). In verbal style, 'nachdem' requires Plusquamperfekt in the subordinate clause to show completion before the main clause action.",
+      "id": "c1_01_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie: 'Trotz des anhaltenden Regens fand das Open-Air-Konzert statt.' -> '____ es ununterbrochen regnete, fand das Open-Air-Konzert statt.'",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Während",
+        "Insofern"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "The concessive preposition 'trotz' (despite) translates to the concessive conjunction 'obwohl' (although) in verbal style.",
+      "id": "c1_01_q003"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie im Nominalstil: 'Wenn man die Daten gründlich analysiert, lassen sich Fehler vermeiden.' -> 'Bei ____ lassen sich Fehler vermeiden.'",
+      "options": [
+        "gründlicher Analyse der Daten",
+        "gründliche Analysierung der Daten",
+        "einer gründlichen Analysierung von Daten",
+        "der gründlichen Daten zu analysieren"
+      ],
+      "correctAnswer": "gründlicher Analyse der Daten",
+      "explanation": "'Wenn' (conditional) -> 'bei' + Dativ. 'Gründlich analysieren' -> 'gründlicher Analyse' (Dat fem, no article, adj ending '-er'). Object in Genitive: 'der Daten'.",
+      "id": "c1_01_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche nominale Variante drückt Finalität aus? 'Damit die Mitarbeiter optimal geschult werden, investiert die Firma in Fortbildungen.' -> '____ investiert die Firma in Fortbildungen.'",
+      "options": [
+        "Zur optimalen Schulung der Mitarbeiter",
+        "Wegen der optimalen Schulung der Mitarbeiter",
+        "Bei optimaler Schulung der Mitarbeiter",
+        "Hinsichtlich der optimalen Schulung der Mitarbeiter"
+      ],
+      "correctAnswer": "Zur optimalen Schulung der Mitarbeiter",
+      "explanation": "'Damit' (so that) -> 'zu' + Dativ ('zur' = zu + der). 'Die Mitarbeiter optimal schulen' -> 'zur optimalen Schulung der Mitarbeiter'.",
+      "id": "c1_01_q005"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die korrekte Nominalisierung: 'Das Unternehmen expandiert in den asiatischen Markt, wodurch neue Arbeitsplätze entstehen.' -> 'Durch ____ des Unternehmens in den asiatischen Markt entstehen neue Arbeitsplätze.'",
+      "options": [
+        "die Expansion",
+        "das Expandieren",
+        "die Expandierung",
+        "den Expansionskurs"
+      ],
+      "correctAnswer": "die Expansion",
+      "explanation": "'Die Expansion' is the preferred high-register C1 noun for 'expandieren'. 'Das Expandieren' is grammatically possible but less elegant.",
+      "id": "c1_01_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte verbale Transformation von: 'Zwecks Aufklärung des Sachverhalts wurden Zeugen verhört.'?",
+      "options": [
+        "Damit der Sachverhalt aufgeklärt wird, wurden Zeugen verhört.",
+        "Weil der Sachverhalt aufgeklärt werden musste, wurden Zeugen verhört.",
+        "Indem man den Sachverhalt aufklärte, wurden Zeugen verhört.",
+        "Obgleich man den Sachverhalt aufklärte, wurden Zeugen verhört."
+      ],
+      "correctAnswer": "Damit der Sachverhalt aufgeklärt wird, wurden Zeugen verhört.",
+      "explanation": "'Zwecks' (for the purpose of) -> 'damit' + subordinate clause expressing intent. 'Aufklärung' (noun) -> 'aufgeklärt wird' (verb).",
+      "id": "c1_01_q007"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie das Nomen-Verb-Gefüge: 'Wir müssen dieses Problem bald ____.'",
+      "options": [
+        "einer Lösung zuführen",
+        "in Vergessenheit geraten",
+        "Unterstützung finden",
+        "zur Sprache bringen"
+      ],
+      "correctAnswer": "einer Lösung zuführen",
+      "explanation": "'Einer Lösung zuführen' (FVG) = to bring something to a solution / resolve. 'Zur Sprache bringen' = to bring up for discussion, not to solve.",
+      "id": "c1_01_q008"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie: 'Unter Berücksichtigung der neuen Sicherheitsvorschriften wurde der Plan geändert.'",
+      "options": [
+        "Indem man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert.",
+        "Obwohl man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert.",
+        "Während die neuen Sicherheitsvorschriften berücksichtigt wurden, wurde der Plan geändert.",
+        "Sodass man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert."
+      ],
+      "correctAnswer": "Indem man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert.",
+      "explanation": "'Unter Berücksichtigung von...' (modal: by taking into account) -> 'indem' + modal subordinate clause. 'Indem' expresses the method by which something was done.",
+      "id": "c1_01_q009"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein typisches Beispiel für bürokratischen Nominalstil?",
+      "options": [
+        "Die Genehmigung des Antrags erfolgt nach der Überprüfung der Dokumente.",
+        "Wenn wir die Dokumente geprüft haben, genehmigen wir Ihren Antrag.",
+        "Wir prüfen Ihre Dokumente und genehmigen dann den Antrag.",
+        "Nachdem die Dokumente geprüft wurden, kann der Antrag genehmigt werden."
+      ],
+      "correctAnswer": "Die Genehmigung des Antrags erfolgt nach der Überprüfung der Dokumente.",
+      "explanation": "Pure nominal style: no active verb constructions. Only nouns ('Genehmigung', 'Überprüfung') combined with weak functional verbs ('erfolgt').",
+      "id": "c1_01_q010"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Verwandeln Sie in den Nominalstil: 'Solange das Projekt nicht offiziell genehmigt ist, dürfen keine Gelder fließen.' -> 'Bis ____ des Projekts dürfen keine Gelder fließen.'",
+      "options": [
+        "zur offiziellen Genehmigung",
+        "wegen der offiziellen Genehmigung",
+        "vor der offiziellen Genehmigung",
+        "mit offizieller Genehmigung"
+      ],
+      "correctAnswer": "zur offiziellen Genehmigung",
+      "explanation": "'Solange... nicht' (temporal limit) -> 'bis zur' + Dativ. 'Das Projekt genehmigen' -> 'zur Genehmigung des Projekts'.",
+      "id": "c1_01_q011"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die korrekte verbale Version von: 'Mangels finanzieller Mittel musste das Forschungsprojekt eingestellt werden.'",
+      "options": [
+        "Da es an finanziellen Mitteln mangelte, musste das Forschungsprojekt eingestellt werden.",
+        "Obwohl finanzielle Mittel vorhanden waren, musste das Forschungsprojekt eingestellt werden.",
+        "Indem finanzielle Mittel eingespart wurden, musste das Forschungsprojekt eingestellt werden.",
+        "Sollte es an finanziellen Mitteln mangeln, muss das Forschungsprojekt eingestellt werden."
+      ],
+      "correctAnswer": "Da es an finanziellen Mitteln mangelte, musste das Forschungsprojekt eingestellt werden.",
+      "explanation": "'Mangels' (causal, due to lack of) -> 'da' + 'mangeln an + Dativ'. 'Es mangelte an finanziellen Mitteln' = there was a lack of financial resources.",
+      "id": "c1_01_q012"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher nominale Ausdruck passt zu: 'Wie die Bundesregierung gestern mitteilte...'",
+      "options": [
+        "Laut gestriger Mitteilung der Bundesregierung...",
+        "Infolge der gestrigen Mitteilung der Bundesregierung...",
+        "Trotz gestriger Mitteilung der Bundesregierung...",
+        "Hinsichtlich gestriger Mitteilung der Bundesregierung..."
+      ],
+      "correctAnswer": "Laut gestriger Mitteilung der Bundesregierung...",
+      "explanation": "'Wie... mitteilte' (source attribution) -> 'laut' + Genitiv. 'Gestrig' is a C1 adjective meaning 'of yesterday' used in formal registers.",
+      "id": "c1_01_q013"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Nominalisieren Sie: 'Falls Sie Fragen haben sollten, wenden Sie sich an die Zentrale.' -> '____ wenden Sie sich an die Zentrale.'",
+      "options": [
+        "Bei etwaigen Fragen",
+        "Wegen auftretender Fragen",
+        "Mit fraglichen Angelegenheiten",
+        "Im Falle des Fragens"
+      ],
+      "correctAnswer": "Bei etwaigen Fragen",
+      "explanation": "'Falls' (conditional) -> 'bei' + Dativ. 'Sollten' (possibility) -> 'etwaig' (C1 adjective = possible/potential). 'Etwaigen' is the C1 elegant form.",
+      "id": "c1_01_q014"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist im fehlerfreien Nominalstil verfasst?",
+      "options": [
+        "Durch das kontinuierliche Sinken der Geburtenrate kommt es zur Überalterung der Gesellschaft.",
+        "Durch das kontinuierlich Gesinke der Geburtenrate kommt es zur Überalterung der Gesellschaft.",
+        "Wegen kontinuierlich gesunkenen Geburtenraten kommt es zur Überalterung der Gesellschaft.",
+        "Infolge sinkender Geburtenrate kontinuierlich kommt es zur Überalterung der Gesellschaft."
+      ],
+      "correctAnswer": "Durch das kontinuierliche Sinken der Geburtenrate kommt es zur Überalterung der Gesellschaft.",
+      "explanation": "'Das Sinken' (nominalized infinitive) with adjective 'kontinuierliche' and genitive attribute 'der Geburtenrate' — all correct.",
+      "id": "c1_01_q015"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Setzen Sie in den Verbalstil um: 'Mit zunehmendem Alter lässt das Gedächtnis nach.' -> '____ man älter wird, desto mehr lässt das Gedächtnis nach.'",
+      "options": [
+        "Je",
+        "Als",
+        "Wenn",
+        "Sowie"
+      ],
+      "correctAnswer": "Je",
+      "explanation": "'Mit zunehmendem Alter' (proportional development) -> 'Je... desto' structure. 'Je' introduces the comparative subordinate clause, 'desto' introduces the result.",
+      "id": "c1_01_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie: 'Der Minister lehnte eine Stellungnahme ab, ohne die Dokumente gelesen zu haben.' -> 'Der Minister lehnte eine Stellungnahme ____ ab.'",
+      "options": [
+        "ohne vorherige Lektüre der Dokumente",
+        "ohne die Dokumente zu lesen",
+        "trotz des Lesens der Dokumente",
+        "mangels des Lesens der Dokumente"
+      ],
+      "correctAnswer": "ohne vorherige Lektüre der Dokumente",
+      "explanation": "'Ohne... gelesen zu haben' (missing prior action) -> 'ohne vorherige Lektüre' (Genitiv: 'der Dokumente'). 'Lektüre' is C1-level vocabulary for 'reading/thorough perusal'.",
+      "id": "c1_01_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktion ersetzt 'Entgegen den Erwartungen aller Experten...' im Verbalstil?",
+      "options": [
+        "Obwohl alle Experten etwas anderes erwartet hatten, ...",
+        "Weil alle Experten damit rechneten, ...",
+        "Indem alle Experten das erwarteten, ...",
+        "Sofern alle Experten das erwartet hätten, ..."
+      ],
+      "correctAnswer": "Obwohl alle Experten etwas anderes erwartet hatten, ...",
+      "explanation": "'Entgegen' (concessive) -> 'obwohl'. Plusquamperfekt ('erwartet hatten') reflects that expectations existed before the outcome they contradicted.",
+      "id": "c1_01_q018"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Verb durch ein Nomen-Verb-Gefüge: 'Der Professor kritisierte die Methode scharf.' -> 'Der Professor ____ an der Methode.'",
+      "options": [
+        "übte scharfe Kritik",
+        "brachte scharfe Kritik",
+        "setzte scharfe Kritik vor",
+        "machte scharfe Kritik"
+      ],
+      "correctAnswer": "übte scharfe Kritik",
+      "explanation": "FVG: 'Kritik üben an' (+ Dativ). This is the standard C1 collocation for 'to criticize'. 'Scharfe Kritik üben' adds emphasis.",
+      "id": "c1_01_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bringen Sie in den Nominalstil: 'Bevor die Reformen durchgeführt werden können, muss das Parlament zustimmen.' -> 'Vor ____ der Reformen ist die Zustimmung des Parlaments erforderlich.'",
+      "options": [
+        "einer eventuellen Durchführung",
+        "der Durchführung können",
+        "dem Durchführenmüssen",
+        "des Durchführens"
+      ],
+      "correctAnswer": "einer eventuellen Durchführung",
+      "explanation": "'Bevor... werden können' (temporal + conditional) -> 'vor einer eventuellen Durchführung'. 'Eventuell' captures the modal meaning of possibility ('können'). Dative after 'vor'.",
+      "id": "c1_01_q020"
+    }
+  ]
+}

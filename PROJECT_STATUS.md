@@ -110,7 +110,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-a
 node scripts/import_and_sync.js a2_01 a2_02 a2_03 a2_04 a2_05 a2_06 a2_07 a2_08 a2_09 a2_10
 
 # Sync B1
-node scripts/import_and_sync.js b1_01 b1_02 b1_03 b1_04 b1_05 b1_06 b1_07 b1_08 b1_09 b1_10
+node scripts/import_and_sync.js b1_01 b1_02 b1_03 b1_04 b1_05 b1_06 b1_07 b1_08 b1_09 b1_10 c1_01
 
 # Sync B2 remaining
 node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 b2_17
@@ -184,6 +184,16 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 
 ---
+## C1 Module Progress
+
+| # | ID | Topic | Questions | Status |
+|---|----|-------|-----------|--------|
+| 1 | c1_01 | Nominalstil & Verbalstil | 20 | 🔄 In Progress (q001–q020 added 2026-05-26) |
+
+**C1 Total: 20 questions (target: 1,000)**
+
+---
+
 ## 🚨 OPEN ITEMS
 
 1. **A1 Discrepancy:** Project status reported 1,000 A1 questions but files only have 600. Need to verify if questions were removed or status was never updated.
@@ -205,4 +215,4 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-05-26 12:23 UTC_
+_Last updated: 2026-05-26 17:26 UTC_
