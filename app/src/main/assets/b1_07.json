@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "subjectId": "b1_07",
+  "topicName": "Konnektoren",
+  "level": "B1",
+  "totalQuestions": 20,
+  "description": "Konnektoren (connectors) are words and phrases that link clauses and sentences. They include coordinating conjunctions (und, aber, oder, denn, sondern), subordinating conjunctions (weil, obwohl, damit, bevor), adverbial connectors (deshalb, trotzdem, jednak, außerdem), and two-part connectors (einerseits/andererseits, zwar/aber, sowohl/als auch). B2 level requires precision in choosing the semantically correct connector and mastering the word order effects each type triggers.",
+  "tips": [
+    "Subordinating conjunctions (weil, obwohl, damit, bevor, nachdem, während) → verb goes to the END of the clause (verb-final). Coordinating conjunctions (und, aber, oder, denn, sondern) → normal word order in the following clause.",
+    "Adverbial connectors (deshalb, daher, trotzdem, allerdings, dennoch, außerdem, dabei) → trigger INVERSION (verb before subject) when starting a main clause.",
+    "Weil vs Denn: both express reason, but 'weil' is subordinating (verb-final) and 'denn' is coordinating (normal word order).",
+    "Obwohl vs Aber: 'obwohl' (although) is subordinating (verb-final); 'aber' (but) is coordinating (normal order). Don't confuse: obwohl + verb-final, aber + normal order.",
+    "Sodass (so that) → consecutive clause expressing result/consequence, verb-final. Damit (in order that) → purpose clause, verb-final, subject in both clauses usually same.",
+    "Sondern: only used AFTER a negation to correct/contrast. Nicht A, sondern B. 'Aber' expresses simple contrast without requiring prior negation.",
+    "Zwar … aber (it's true that … but) → two-part concessive connector. Zwar can start a main clause (verb follows) or be inside a clause (verb stays at end).",
+    "Einerseits … andererseits → two-part connector for contrasting aspects. Triggers inversion when starting a clause.",
+    "Deshalb/daher → express consequence/result (therefore). Trigger inversion. Weill → express reason. Don't mix up: wenn/Da + consequence = deshalb.",
+    "Two-part connectors: sowohl … als auch (both … and), weder … noch (neither … nor), entweder … oder (either … or) — all are coordinating and maintain normal word order in the following clause."
+  ],
+  "questions": [
+    {
+      "id": "b1_07_q001",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hat viel gearbeitet, ____ er hat die Prüfung nicht bestanden.",
+      "options": [
+        "trotzdem",
+        "obwohl",
+        "dennoch",
+        "jedoch"
+      ],
+      "correctAnswer": "trotzdem",
+      "explanation": "'Trotzdem' is an adverbial connector (Konjunktionaladverb) that causes inversion: subject follows the verb. After a comma it starts a new main clause: 'er hat … → trotzdem hat er …'. However, when placed after the comma mid-sentence without inversion as here, 'trotzdem' fits. 'Obwohl' is a subordinating conjunction requiring verb-final word order and cannot connect two main clauses this way."
+    },
+    {
+      "id": "b1_07_q002",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ich lerne Deutsch, ____ ich in Deutschland studieren möchte.",
+      "options": [
+        "weil",
+        "denn",
+        "deshalb",
+        "daher"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' is a subordinating conjunction (Subjunktor) — verb goes to the end of the clause. 'Denn' is a coordinating conjunction that does NOT change word order, but the sentence structure here (comma + clause with modal) fits 'weil' better. 'Deshalb/daher' are adverbial connectors meaning 'therefore' — they express result, not reason."
+    },
+    {
+      "id": "b1_07_q003",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie ist krank, ____ kommt sie heute nicht ins Büro.",
+      "options": [
+        "deshalb",
+        "weil",
+        "obwohl",
+        "damit"
+      ],
+      "correctAnswer": "deshalb",
+      "explanation": "'Deshalb' (therefore/that's why) is an adverbial connector expressing consequence. It triggers inversion: 'deshalb kommt sie …'. The reason is stated first (she is ill), then the result follows. 'Weil' would require verb-final order and introduces a reason clause, not a result clause."
+    },
+    {
+      "id": "b1_07_q004",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wir können ins Kino gehen ____ zu Hause einen Film schauen.",
+      "options": [
+        "oder",
+        "sondern",
+        "aber",
+        "doch"
+      ],
+      "correctAnswer": "oder",
+      "explanation": "'Oder' (or) connects two alternatives. 'Sondern' is used after a negation to contrast (not A but rather B). 'Aber/doch' express contrast, not alternation. Here no negation precedes, so 'sondern' is ruled out."
+    },
+    {
+      "id": "b1_07_q005",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ist nicht müde, ____ er will einfach nicht aufstehen.",
+      "options": [
+        "sondern",
+        "aber",
+        "denn",
+        "jedoch"
+      ],
+      "correctAnswer": "sondern",
+      "explanation": "'Sondern' follows a negation ('nicht müde') to introduce a contrasting correction: not A, but rather B. 'Aber' also expresses contrast but without the correction nuance and does not require prior negation. This 'nicht … sondern' structure is a core B2 connector distinction."
+    },
+    {
+      "id": "b1_07_q006",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Meeting dauert lange, ____ wir können pünktlich gehen.",
+      "options": [
+        "aber",
+        "sondern",
+        "weil",
+        "damit"
+      ],
+      "correctAnswer": "aber",
+      "explanation": "'Aber' (but) is a coordinating conjunction expressing contrast without inversion — it sits between two main clauses and word order in the second clause stays normal (subject-verb). 'Sondern' requires prior negation, which is absent here."
+    },
+    {
+      "id": "b1_07_q007",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ich trinke keinen Kaffee, ____ ich trinke lieber Tee.",
+      "options": [
+        "sondern",
+        "aber",
+        "doch",
+        "jedoch"
+      ],
+      "correctAnswer": "sondern",
+      "explanation": "After 'keinen Kaffee' (negation with 'kein-'), 'sondern' introduces the corrective alternative: not coffee, but rather tea. This is the classic 'nicht/kein … sondern' construction. 'Aber' could express contrast but lacks the corrective replacement meaning."
+    },
+    {
+      "id": "b1_07_q008",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt wurde abgeschlossen, ____ wurden neue Herausforderungen sichtbar.",
+      "options": [
+        "dabei",
+        "obwohl",
+        "weil",
+        "damit"
+      ],
+      "correctAnswer": "dabei",
+      "explanation": "'Dabei' as an adverbial connector means 'in the process / at the same time'. It triggers inversion and adds a simultaneous or accompanying circumstance: while completing the project, new challenges became visible. This nuanced use of 'dabei' is typical of B2 written registers."
+    },
+    {
+      "id": "b1_07_q009",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ er intensiv trainierte, verbesserte sich seine Leistung kaum.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Nachdem"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' (although) introduces a concessive clause — the training didn't produce the expected improvement, creating a contrast. Verb goes to the end: 'obwohl er … trainierte'. When the subordinate clause leads, the main clause begins with the verb (inversion): 'verbesserte sich seine Leistung'."
+    },
+    {
+      "id": "b1_07_q010",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie sprach sehr leise, ____ ihre Zuhörer sie kaum verstehen konnten.",
+      "options": [
+        "sodass",
+        "damit",
+        "obwohl",
+        "weil"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' (so that / with the result that) introduces a consecutive clause describing an unintended consequence. Verb goes to the end. Contrast with 'damit' (in order that), which expresses an intended purpose with a different subject. Here the quiet speaking was not intentional — it resulted in listeners struggling."
+    },
+    {
+      "id": "b1_07_q011",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Stelle bekommen, ____ er keine Berufserfahrung hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "sodass",
+        "falls"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' (although/even though) introduces a concessive subordinate clause. Getting the job despite lacking experience is the unexpected concession. 'Weil' would mean because of lacking experience — the opposite logical relationship."
+    },
+    {
+      "id": "b1_07_q012",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen früh aufbrechen, ____ wir den letzten Zug noch erwischen.",
+      "options": [
+        "damit",
+        "sodass",
+        "weil",
+        "obwohl"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' (so that / in order that) expresses purpose when the subjects of the two clauses differ or the action is intentional. Here: leaving early is intentional with the goal of catching the train. 'Sodass' would express an unintended consequence, not a planned goal."
+    },
+    {
+      "id": "b1_07_q013",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Einerseits ist die Stelle gut bezahlt, ____ sind die Arbeitsbedingungen sehr belastend.",
+      "options": [
+        "andererseits",
+        "außerdem",
+        "deshalb",
+        "trotzdem"
+      ],
+      "correctAnswer": "andererseits",
+      "explanation": "'Einerseits … andererseits' (on one hand … on the other hand) is a two-part connector presenting two contrasting aspects. It is an adverbial connector triggering inversion: 'andererseits sind die Arbeitsbedingungen …'. This paired structure is essential B2 argumentation vocabulary."
+    },
+    {
+      "id": "b1_07_q014",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Angebot klingt verlockend. ____ sollte man das Kleingedruckte sorgfältig lesen.",
+      "options": [
+        "Dennoch",
+        "Obwohl",
+        "Weil",
+        "Sodass"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "'Dennoch' (nevertheless/nonetheless) is an adverbial connector expressing concession between two independent sentences. It triggers inversion: 'Dennoch sollte man …'. It is more formal than 'trotzdem' and typical of written B2 argumentation. 'Obwohl' cannot start an independent main clause."
+    },
+    {
+      "id": "b1_07_q015",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Kosten gestiegen sind, ____ hat die Nachfrage nicht nachgelassen.",
+      "options": [
+        "Obwohl / –",
+        "Zwar / aber",
+        "Einerseits / andererseits",
+        "Sowohl / als auch"
+      ],
+      "correctAnswer": "Zwar / aber",
+      "explanation": "'Zwar … aber' (it's true that … but) is a two-part connector for concessive contrast within connected clauses. 'Zwar' can begin a main clause or subordinate clause; 'aber' begins the contrasting main clause. Word order after 'zwar' in first position: verb follows immediately (inversion). A very common B2 written register structure."
+    },
+    {
+      "id": "b1_07_q016",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das neue System ist effizienter. ____ sind die Schulungskosten erheblich gestiegen, ____ viele Mitarbeiter überfordert wirken.",
+      "options": [
+        "Allerdings / sodass",
+        "Obwohl / damit",
+        "Dennoch / weil",
+        "Jedoch / obwohl"
+      ],
+      "correctAnswer": "Allerdings / sodass",
+      "explanation": "'Allerdings' (however/admittedly) is a formal adverbial connector signalling a limiting concession — it triggers inversion. 'Sodass' then introduces the consecutive result clause (costs rose, resulting in employees seeming overwhelmed). This two-connector chain (concession → consequence) is a hallmark of complex B2 argumentative writing."
+    },
+    {
+      "id": "b1_07_q017",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen scheiterten, ____ beide Parteien monatelang verhandelt hatten, ____ man zunächst Einigkeit erwartet hatte.",
+      "options": [
+        "obwohl / und",
+        "weil / sodass",
+        "damit / aber",
+        "falls / dennoch"
+      ],
+      "correctAnswer": "obwohl / und",
+      "explanation": "'Obwohl' introduces the concessive subordinate clause (despite months of negotiation). 'Und' then adds a second parallel subordinate clause ('und man … erwartet hatte') — two subordinate clauses joined by 'und' sharing the same matrix clause. This stacked subordinate clause structure is B2+ syntactic complexity."
+    },
+    {
+      "id": "b1_07_q018",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht zeigt, dass ____ die Emissionen gesunken sind, ____ der Gesamtausstoß weiterhin zu hoch bleibt.",
+      "options": [
+        "zwar / aber",
+        "weil / deshalb",
+        "obwohl / trotzdem",
+        "entweder / oder"
+      ],
+      "correctAnswer": "zwar / aber",
+      "explanation": "'Zwar … aber' inside a 'dass'-clause: 'dass zwar … gesunken sind, aber … bleibt'. Both clauses are embedded under 'dass', making this a complex nested structure. 'Zwar' does not trigger inversion when inside a subordinate clause — verb stays at the end of each clause. This is an advanced B2+ written register pattern."
+    },
+    {
+      "id": "b1_07_q019",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet sehr hart. ____ gelingt es ihm nicht, die Erwartungen seiner Vorgesetzten zu erfüllen, ____ er beginnt, an sich zu zweifeln.",
+      "options": [
+        "Dennoch / sodass",
+        "Obwohl / damit",
+        "Deshalb / weil",
+        "Außerdem / falls"
+      ],
+      "correctAnswer": "Dennoch / sodass",
+      "explanation": "'Dennoch' (nevertheless) begins the second sentence with inversion, expressing that despite hard work, expectations are not met. 'Sodass' then introduces the resulting psychological consequence (he begins to doubt himself). This chain — concession (dennoch) → result (sodass) — across sentence boundaries is a sophisticated B2 connector pattern."
+    },
+    {
+      "id": "b1_07_q020",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Reform wurde verabschiedet, ____ zahlreiche Experten gewarnt hatten, ____ sie in der Praxis kaum umsetzbar sei.",
+      "options": [
+        "obwohl / dass",
+        "weil / ob",
+        "damit / dass",
+        "sodass / weil"
+      ],
+      "correctAnswer": "obwohl / dass",
+      "explanation": "'Obwohl' introduces the concessive clause; within that clause, a further subordinate 'dass'-clause reports the content of the experts' warning: 'obwohl … gewarnt hatten, dass sie … sei'. Note 'sei' = Konjunktiv I in indirect speech inside the embedded clause. This double embedding (obwohl + dass + K-I) represents the highest B2 syntactic complexity."
+    }
+  ]
+}
