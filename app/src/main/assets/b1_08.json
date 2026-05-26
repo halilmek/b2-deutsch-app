@@ -3,19 +3,19 @@
   "subjectId": "b1_08",
   "topicName": "Perfekt und Präteritum",
   "level": "B1",
-  "totalQuestions": 40,
-  "description": "Perfekt und Präteritum — the two past tenses in German. Perfekt = haben/sein + Partizip II, used in spoken German and informal writing. Präteritum = simple past, preferred in formal written German (narratives, newspapers, literature). Key decisions: auxiliary choice (haben vs sein), Partizip II formation (weak/strong/mixed), register consistency (don't mix Perfekt and Präteritum in formal writing), Plusquamperfekt (haben/sein + Partizip II), and indirect speech with Konjunktiv I.",
+  "totalQuestions": 60,
+  "description": "Perfekt vs. Präteritum — the two past tenses in German. Perfekt = haben/sein + Partizip II, used in spoken German and informal writing. Präteritum = simple past, preferred in formal written German (narratives, literature, newspapers). The choice is primarily stylistic, not based on timeline. Key decisions: auxiliary choice (haben vs sein), Partizip II formation (weak/strong/mixed), register consistency, Plusquamperfekt for past-before-past, and Konjunktiv I in indirect speech. B2 exams test complex auxiliary selection (transitive movement verbs use haben), twin verb traps (hängen, erschrecken, legen/liegen), and mixed verb conjugations (brennen, nennen, rennen, wenden).",
   "tips": [
-    "Perfekt vs Präteritum register: spoken/informal → Perfekt (Ich habe gemacht). Formal writing (narratives, newspapers) → Präteritum throughout (Ich machte). Never mix both in the same formal text.",
-    "Auxiliary choice: haben = transitive verbs, reflexive verbs, non-motion intransitive verbs (arbeiten, spielen, machen). sein = motion verbs (gehen, fahren), change of state (werden, sterben, einschlafen), verbs with geographical motion (reisen, wandern).",
-    "Partizip II: weak verbs → ge- + stem + -t (gemacht, gearbeitet). Strong verbs → ge- + irregular stem + -en (gegangen, getroffen). Mixed verbs → ge- + stem change + -t (gedacht, gekannt). inseparable prefix verbs → no ge- (besucht, verstanden, erzählt).",
-    "Plusquamperfekt: had done → war/sein + Partizip II. Used for past-before-past in narratives. After 'nachdem' → Plusquamperfekt in the earlier clause, simple past/Perfekt in the later clause.",
-    "Konjunktiv I in indirect speech: Perfekt K-I = habe/habe + Partizip II. Used after reporting verbs (sagte, berichtete, teilte mit) to express reported speech formally.",
-    "Als ob/as if → Konjunktiv II: Präteritum K-II (hätte, wäre, wüsste) for unreal present conditions. K-II Vergangenheit (hätte gemacht, wäre gegangen) for unreal past.",
-    "Passive in past tenses: Präteritum Passiv = wurde + Partizip II. Perfekt Passiv = ist + Partizip II + worden. Plusquamperfekt Passiv = war + Partizip II + worden.",
-    "'Kaum … als/da' → Plusquamperfekt in the kaum-clause, Präteritum in the main clause: Kaum war er eingeschlafen, begann es zu regnen.",
-    "Mixed auxiliaries in one sentence: When coordinating two verbs with different auxiliaries, use both: 'Er ist aufgestanden und hat das Zimmer verlassen.' Never use one auxiliary for both.",
-    "Strong vs weak Partizip II traps: erleiden → erlitten (NOT gelitten); beginnen → begonnen (NOT begonnen with ge-); verlassen → verlassen (no ge-); anrufen → angerufen."
+    "Perfekt (spoken/informal) vs Präteritum (formal written): conversations/emails → Perfekt; formal reports/essays/narratives → Präteritum. Never mix both in the same formal text.",
+    "Auxiliary choice: haben = transitive verbs, reflexive verbs, non-motion intransitive verbs. sein = motion verbs (gehen, fahren), change of state (werden, sterben, schmelzen), geographical motion (reisen, wandern).",
+    "Transitive movement loophole: even movement verbs take haben when they have an accusative object. 'Der Kapitän hat das Schiff durch die Meerenge gesteuert' (transitive) vs. 'Er ist nach Hause gefahren' (intransitive).",
+    "Twin verbs (weak vs. strong): hängen (transitive = hängte/gehängt) vs. hängen (intransitive = hing/gehangen); erschrecken (transitive = erschreckte/erschreckt) vs. erschrecken (intransitive = erschrak/erschrocken); legen (weak) vs. liegen (strong); setzen (weak) vs. sitzen (strong).",
+    "Mischverben (mixed verbs) — stem vowel changes + weak endings: brennen → er brannte / hat gebrannt; nennen → er nannte / hat genannt; rennen → er rannte / ist gerannt; wenden → er wandte/wendete / hat gewandt/gewendet.",
+    "Plusquamperfekt: war/hatte + Partizip II for past-before-past. After 'nachdem' → Plusquamperfekt in the earlier clause, Präteritum in the later: 'Nachdem der König gestorben war, übernahm sein Sohn die Macht.'",
+    "Konjunktiv I in indirect speech: Perfekt K-I = habe/habe + Partizip II. Used after reporting verbs (sagte, berichtete) to express reported speech formally.",
+    "Konjunktiv II with 'als ob': K-II Präteritum for unreal present (hätte, wäre); K-II Vergangenheit for unreal past (hätte gemacht, wäre gegangen).",
+    "Double infinitive (Ersatzinfinitiv): modal + main verb in Perfekt → Partizip II replaced by double infinitive at end: 'Er hat das nicht machen wollen' (not 'gemacht gewollt').",
+    "Strong verb traps: erleiden → erlitten (NOT gelitten); schmelzen → ist geschmolzen; beginnen → hat begonnen; steigen → ist gestiegen; entfliehen → ist entflohen; ausgleiten → ist ausgeglitten."
   ],
   "questions": [
     {
@@ -577,6 +577,286 @@
       ],
       "correctAnswer": "hast / fragte",
       "explanation": "This sentence mixes a spoken perfect question ('Warum hast du... verschwiegen') with a temporal background subordinate clause in Präteritum ('als ich dich gestern danach fragte'). 'Verschweigen' is transitive and requires 'haben'."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ging zur Arbeit, ____ er starke Kopfschmerzen hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "sodass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' introduces a concessive clause expressing contrast — despite having a headache, he went to work.",
+      "id": "b1_08_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Sitzung wurde verschoben, ____ mehrere Teilnehmer krank waren.",
+      "options": [
+        "obwohl",
+        "damit",
+        "weil",
+        "während"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' introduces the reason (cause) for postponing the meeting — several participants were ill.",
+      "id": "b1_08_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie spricht leise, ____ niemand gestört wird.",
+      "options": [
+        "obwohl",
+        "damit",
+        "während",
+        "trotzdem"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces a purpose clause (final clause) — she speaks quietly in order that no one is disturbed.",
+      "id": "b1_08_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ er wenig Erfahrung hatte, bekam er die Stelle.",
+      "options": [
+        "Weil",
+        "Während",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a concession — despite having little experience, he got the job.",
+      "id": "b1_08_q044"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Straßen waren vereist, ____ viele Unfälle passierten.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces a consequence/result — the roads were icy, so many accidents happened.",
+      "id": "b1_08_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Regierung neue Maßnahmen eingeführt hat, bleibt die Situation schwierig.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Falls"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a concession — although the government has introduced new measures, the situation remains difficult.",
+      "id": "b1_08_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er trainiert täglich, ____ seine Leistung kontinuierlich zu verbessern.",
+      "options": [
+        "um",
+        "obwohl",
+        "denn",
+        "während"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — he trains daily in order to continuously improve his performance. 'Um ... zu' always triggers verb-final position and requires a clause with a different subject.",
+      "id": "b1_08_q047"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie blieb ruhig, ____ sie innerlich sehr nervös war.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "sobald"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' correctly introduces a contrast — she stayed calm although she was very nervous inside.",
+      "id": "b1_08_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ der Zug Verspätung hatte, erreichten wir den Anschluss noch rechtzeitig.",
+      "options": [
+        "Während",
+        "Falls",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces concession — despite the train being delayed, we still caught our connection in time.",
+      "id": "b1_08_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Firma investiert viel Geld in Forschung, ____ wettbewerbsfähig zu bleiben.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "um",
+        "trotz"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses intention or goal — the company invests heavily in research to stay competitive.",
+      "id": "b1_08_q050"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er kündigte seinen Job, ____ er noch keine neue Stelle gefunden hatte.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "seitdem"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' expresses an unexpected contrast — he quit his job even though he hadn't found a new one yet.",
+      "id": "b1_08_q051"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Temperaturen weiter steigen, müssen neue Maßnahmen ergriffen werden.",
+      "options": [
+        "Falls",
+        "Obwohl",
+        "Während",
+        "Damit"
+      ],
+      "correctAnswer": "Falls",
+      "explanation": "'Falls' introduces a conditional clause — if temperatures continue to rise, new measures must be taken. Falls is more hypothetical than 'wenn'.",
+      "id": "b1_08_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Präsentation war schlecht vorbereitet, ____ das Publikum schnell das Interesse verlor.",
+      "options": [
+        "obwohl",
+        "sodass",
+        "damit",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces the result of poor preparation — the presentation was poorly prepared, so the audience quickly lost interest.",
+      "id": "b1_08_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ er regelmäßig Sport treibt, fühlt er sich oft erschöpft.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Sobald"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses a contradiction — although he exercises regularly, he often feels exhausted.",
+      "id": "b1_08_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie überprüfte die Daten mehrmals, ____ mögliche Fehler zu vermeiden.",
+      "options": [
+        "um",
+        "obwohl",
+        "denn",
+        "während"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — she checked the data several times to avoid possible errors.",
+      "id": "b1_08_q055"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Nachfrage gestiegen ist, kann das Unternehmen nicht schneller produzieren.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Sobald",
+        "Während"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contrast — although demand has risen, the company cannot produce faster.",
+      "id": "b1_08_q056"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er machte sich Notizen, ____ er später nichts vergessen würde.",
+      "options": [
+        "obwohl",
+        "damit",
+        "seitdem",
+        "falls"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces purpose — he took notes so that he wouldn't forget anything later.",
+      "id": "b1_08_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Experten gewarnt hatten, wurden keine Sicherheitsmaßnahmen getroffen.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Nachdem",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contradiction — although the experts had warned, no safety measures were taken.",
+      "id": "b1_08_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen dauerten länger als erwartet, ____ beide Seiten eine Einigung erzielen wollten.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "während"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' gives the reason — the negotiations lasted longer than expected because both sides wanted to reach an agreement.",
+      "id": "b1_08_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ er die Unterlagen gründlich gelesen hatte, unterschrieb er den Vertrag.",
+      "options": [
+        "Nachdem",
+        "Obwohl",
+        "Während",
+        "Damit"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' introduces a completed action before another past action — after he had thoroughly read the documents, he signed the contract.",
+      "id": "b1_08_q060"
     }
   ]
 }
