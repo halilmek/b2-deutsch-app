@@ -3,7 +3,7 @@
   "subjectId": "b1_08",
   "topicName": "Perfekt und Präteritum",
   "level": "B1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Perfekt vs. Präteritum — the two past tenses in German. Perfekt = haben/sein + Partizip II, used in spoken German and informal writing. Präteritum = simple past, preferred in formal written German (narratives, literature, newspapers). The choice is primarily stylistic, not based on timeline. Key decisions: auxiliary choice (haben vs sein), Partizip II formation (weak/strong/mixed), register consistency, Plusquamperfekt for past-before-past, and Konjunktiv I in indirect speech. B2 exams test complex auxiliary selection (transitive movement verbs use haben), twin verb traps (hängen, erschrecken, legen/liegen), and mixed verb conjugations (brennen, nennen, rennen, wenden).",
   "tips": [
     "Perfekt (spoken/informal) vs Präteritum (formal written): conversations/emails → Perfekt; formal reports/essays/narratives → Präteritum. Never mix both in the same formal text.",
@@ -857,6 +857,286 @@
       "correctAnswer": "Nachdem",
       "explanation": "'Nachdem' introduces a completed action before another past action — after he had thoroughly read the documents, he signed the contract.",
       "id": "b1_08_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ ich einen interessanten Vortrag über künstliche Intelligenz gehört.",
+      "options": [
+        "habe",
+        "hatte",
+        "bin",
+        "war"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "The verb 'hören' is a transitive weak verb → Perfekt with 'haben': 'habe gehört'. The sentence describes a completed past action in spoken style.",
+      "id": "b1_08_q061"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Als wir ankamen, ____ das Konzert bereits begonnen.",
+      "options": [
+        "hat",
+        "war",
+        "hatte",
+        "ist"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "Plusquamperfekt is needed because the concert had already begun before the speakers arrived. 'Beginnen' as a change-of-state verb typically uses 'sein', but here 'hatte begonnen' reflects the written narrative register with 'hatte' used for 'beginnen' in Plusquamperfekt contexts.",
+      "id": "b1_08_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Früher ____ mein Großvater jeden Morgen um fünf Uhr auf.",
+      "options": [
+        "steht",
+        "stand",
+        "hat gestanden",
+        "ist gestanden"
+      ],
+      "correctAnswer": "stand",
+      "explanation": "Präteritum is used for repeated past actions in written/formal German. 'Aufstehen' is a change-of-state verb → 'stand … auf' in Präteritum (not 'hat gestanden' — that would be Perfekt).",
+      "id": "b1_08_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ lange nach einer Lösung gesucht, aber nichts gefunden.",
+      "options": [
+        "sind",
+        "haben",
+        "waren",
+        "hatten"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "'Suchen' is a transitive weak verb → Perfekt with 'haben': 'haben gesucht'. The conjunction 'aber' introduces a main clause contrast.",
+      "id": "b1_08_q064"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie die E-Mail gelesen hatte, ____ sie sofort geantwortet.",
+      "options": [
+        "hat",
+        "ist",
+        "war",
+        "wurde"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "The second action (answering) follows the Plusquamperfekt 'gelesen hatte' in the 'nachdem'-clause. The Perfekt 'hat geantwortet' is correct for the main clause action that follows.",
+      "id": "b1_08_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Während seines Studiums ____ er in einer kleinen Wohnung in Berlin.",
+      "options": [
+        "hat gewohnt",
+        "wohnte",
+        "ist gewohnt",
+        "war gewohnt"
+      ],
+      "correctAnswer": "wohnte",
+      "explanation": "Präteritum of 'wohnen' is 'wohnte'. The sentence describes a continuous past situation in a narrative context — Präteritum is appropriate for written German.",
+      "id": "b1_08_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ sich über die schlechten Nachrichten sehr geärgert.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "hatte"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "Reflexive verbs always form Perfekt with 'haben': 'hat sich geärgert'. 'Sich ärgern über' (+ Akkusativ) = to be annoyed about something.",
+      "id": "b1_08_q067"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vor zwei Jahren ____ wir nach Kanada gezogen.",
+      "options": [
+        "haben",
+        "sind",
+        "waren",
+        "hatten"
+      ],
+      "correctAnswer": "sind",
+      "explanation": "'Ziehen' (to move to a place) expresses directed motion → Perfekt with 'sein': 'sind gezogen'. This contrasts with 'umziehen' (to move house) which can use either depending on meaning.",
+      "id": "b1_08_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler ____ zahlreiche Artikel veröffentlicht.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "wurde"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Veröffentlichen' is a transitive weak verb → Perfekt with 'haben': 'hat veröffentlicht'. Even though it involves an intellectual activity, 'veröffentlichen' is not a motion verb.",
+      "id": "b1_08_q069"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Als Kind ____ ich Angst vor Gewittern.",
+      "options": [
+        "habe gehabt",
+        "hatte",
+        "bin gewesen",
+        "war gehabt"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "Präteritum of 'haben' for repeated past states in narrative context: 'hatte' (not Perfekt 'habe gehabt'). 'Angst haben vor' = to be afraid of.",
+      "id": "b1_08_q070"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bis Mitternacht ____ die Gäste bereits nach Hause gegangen.",
+      "options": [
+        "waren",
+        "sind",
+        "haben",
+        "hatten"
+      ],
+      "correctAnswer": "waren",
+      "explanation": "Plusquamperfekt of 'gehen' (directed motion → sein): 'waren gegangen'. The temporal phrase 'bis Mitternacht' signals an action completed before a past reference point.",
+      "id": "b1_08_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Letzte Woche ____ das Unternehmen seine neue Strategie vorgestellt.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "wurde"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Vorstellen' (to present/introduce) is a transitive weak verb → Perfekt with 'haben': 'hat vorgestellt'. Contrast with 'sich vorstellen' (to imagine oneself) which is reflexive.",
+      "id": "b1_08_q072"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bevor er den Vertrag unterschrieb, ____ er ihn gründlich gelesen.",
+      "options": [
+        "hat",
+        "war",
+        "hatte",
+        "ist"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'Bevor' signals that the reading (Perfekt/Plusquamperfekt of 'lesen' = 'hat gelesen') happened before the signing (Präteritum 'unterschrieb'). Because the main clause is in Präteritum, the prior action uses Plusquamperfekt: 'hatte gelesen'.",
+      "id": "b1_08_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Früher ____ die Menschen ohne Internet kommunizieren.",
+      "options": [
+        "haben",
+        "konnten",
+        "gekonnt",
+        "sind"
+      ],
+      "correctAnswer": "konnten",
+      "explanation": "Modal verbs are typically used in Präteritum (not Perfekt) in written German: 'konnten' (Präteritum of 'können'). The Perfekt form 'haben gekonnt' is possible in spoken German but less common in narrative/formal contexts.",
+      "id": "b1_08_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz ____ wegen technischer Probleme später begonnen.",
+      "options": [
+        "hat",
+        "ist",
+        "war",
+        "hatte"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Beginnen' in spoken German can use 'haben' as an alternative auxiliary in Perfekt when focusing on the event rather than the change of state: 'hat begonnen'. In formal written German, 'ist begonnen' would be preferred.",
+      "id": "b1_08_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Zug abgefahren war, ____ wir ein Taxi genommen.",
+      "options": [
+        "haben",
+        "hatten",
+        "sind",
+        "waren"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "The 'nachdem' clause uses Plusquamperfekt ('war abgefahren'). The main clause action (taking a taxi) follows and is correctly in Perfekt: 'haben ein Taxi genommen'.",
+      "id": "b1_08_q076"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ gestern den ganzen Tag an ihrem Bericht gearbeitet.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "hatte"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Arbeiten' is a non-motion verb → Perfekt with 'haben': 'hat gearbeitet'. 'Den ganzen Tag' confirms a duration, not a change of state.",
+      "id": "b1_08_q077"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im Jahr 2010 ____ er seine eigene Firma.",
+      "options": [
+        "gegründet",
+        "gründete",
+        "hat gegründet",
+        "ist gegründet"
+      ],
+      "correctAnswer": "gründete",
+      "explanation": "Präteritum is used in written narratives about historical events: 'gründete' (Präteritum of 'gründen'). 'Gegründet' (without context) could be Partizip II, 'hat gegründet' is Perfekt.",
+      "id": "b1_08_q078"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ überrascht, dass niemand die Wahrheit gesagt hatte.",
+      "options": [
+        "haben",
+        "waren",
+        "sind gewesen",
+        "hatten"
+      ],
+      "correctAnswer": "waren",
+      "explanation": "Präteritum of 'sein' (waren) for describing a past state in narrative German. 'Überrascht sein' = to be surprised. The subordinate clause uses Plusquamperfekt ('hatte gesagt') showing the lying happened before the surprise.",
+      "id": "b1_08_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Diskussion beendet worden war, ____ alle Teilnehmer den Raum verlassen.",
+      "options": [
+        "haben",
+        "waren",
+        "sind",
+        "hatten"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "'Verlassen' is a transitive verb → Perfekt with 'haben': 'haben den Raum verlassen'. The 'nachdem'-clause uses Plusquamperfekt Passiv ('war beendet worden'), and the main clause follows with Perfekt of the active verb.",
+      "id": "b1_08_q080"
     }
   ]
 }
