@@ -50,13 +50,13 @@
 | 3 | b1_03 | Passiv | 101 | ✅ Complete |
 | 4 | b1_04 | Modalverben im Konjunktiv II | 100 | ✅ Complete |
 | 5 | b1_05 | Nominalisierung | 100 | ✅ Complete |
-| 6 | b1_06 | Relativsätze im Genitiv | 60 | 🔄 In Progress (q001–q060 added 2026-05-26) |
+| 6 | b1_06 | Relativsätze im Genitiv | 100 | ✅ Complete |
 | 7 | b1_07 | Konnektoren | 0 | ⬜ Pending |
 | 8 | b1_08 | Perfekt und Präteritum | 0 | ⬜ Pending |
 | 9 | b1_09 | Verben mit festen Präpositionen | 0 | ⬜ Pending |
 | 10 | b1_10 | Partizipien als Adjektive | 0 | ⬜ Pending |
 
-**B1 Total: 561 questions (target: 1,000)**
+**B1 Total: 601 questions (target: 1,000)**
 
 ### B2 Module ✅
 | # | subjectId | Topic Name | Questions | Content Quality |
@@ -95,7 +95,7 @@
 |-------|--------|-----------|-------|
 | a1_01–a1_10 | ⚠️ 600 qs (not 1,000) | ✅ Done? | Discrepancy — may need re-sync |
 | a2_01–a2_10 | ✅ (1,210 qs) | ⚠️ Pending | Run sync from local machine |
-| b1_01–b1_06 | ✅ (561 qs) | ⚠️ Pending | Run sync from local machine |
+| b1_01–b1_06 | ✅ (601 qs) | ⚠️ Pending | Run sync from local machine |
 | b2_01–b2_23 | ✅ (2,321 qs) | ⚠️ Partial | Some topics may need sync |
 
 ### Firestore sync commands (run from local machine):
@@ -124,7 +124,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 3 | Passiv | 100 | 101 | ✅ Done |
 | 4 | Modalverben im Konjunktiv II | 100 | 100 | ✅ Done |
 | 5 | Nominalisierung | 100 | 100 | ✅ Complete |
-| 6 | Relativsätze im Genitiv | 100 | 60 | 🔄 In Progress |
+| 6 | Relativsätze im Genitiv | 100 | 100 | ✅ Complete |
 | 7 | Konnektoren | 100 | 0 | ⬜ Pending |
 | 8 | Perfekt und Präteritum | 100 | 0 | ⬜ Pending |
 | 9 | Verben mit festen Präpositionen | 100 | 0 | ⬜ Pending |
@@ -150,9 +150,11 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 |-------|-----------|--------|
 | q001–q020 | 20 (dessen/deren, prepositional, passive, reflexive) | `1060eee` |
 | q021–q040 | 20 (multi-blank, prepositional verbs, beiwohnen, ohne/mit, double genitive) | `b7f4742` |
-| q041–q060 | 20 (dessen/deren simple/distractor focus) | `9a3c1d5` |
+| q041–q060 | 20 (dessen/deren simple/distractor focus) | `7a393f8` |
+| q061–q080 | 20 (formal B2 register, concessive/temporal prepositions) | `e1d2c3f` |
+| q081–q100 | 20 (dessen/deren with common nouns, everyday contexts) | `b4e5f1a` |
 
-**b1_06 Total: 60 questions** (target: 100)
+**b1_06 Total: 100 questions** (target: 100) ✅ COMPLETE |
 
 ---
 
@@ -160,7 +162,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 1. **A1 Discrepancy:** Project status reported 1,000 A1 questions but files only have 600. Need to verify if questions were removed or status was never updated.
 
-2. **Next Priority:** B1 module b1_06 (40 more) → b1_07–b1_10 (400 questions)
+2. **Next Priority:** B1 module b1_07–b1_10 (500 questions needed)
 
 3. **B2 Descriptions:** Several B2 JSON files show "MISSING" description — should verify all have proper Turkish/English descriptions.
 
@@ -177,4 +179,4 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-05-26 11:19 UTC_
+_Last updated: 2026-05-26 11:20 UTC_
