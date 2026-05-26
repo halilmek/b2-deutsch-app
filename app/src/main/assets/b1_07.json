@@ -3,7 +3,7 @@
   "subjectId": "b1_07",
   "topicName": "Konnektoren",
   "level": "B1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Konnektoren (connectors) are words and phrases that link clauses and sentences. They include coordinating conjunctions (und, aber, oder, denn, sondern), subordinating conjunctions (weil, obwohl, damit, bevor), adverbial connectors (deshalb, trotzdem, jednak, außerdem), and two-part connectors (einerseits/andererseits, zwar/aber, sowohl/als auch). B2 level requires precision in choosing the semantically correct connector and mastering the word order effects each type triggers.",
   "tips": [
     "Subordinating conjunctions (weil, obwohl, damit, bevor, nachdem, während) → verb goes to the END of the clause (verb-final). Coordinating conjunctions (und, aber, oder, denn, sondern) → normal word order in the following clause.",
@@ -557,6 +557,266 @@
       "explanation": "'Zumal' is an advanced causal subordinating conjunction that means 'especially since / particularly because'. It adds a primary driving reason to a statement and sends the verb 'halte' to the end.",
       "difficulty": "hard",
       "id": "b1_07_q040"
+    },
+    {
+      "questionText": "Er ging zur Arbeit, ____ er starke Kopfschmerzen hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "sodass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "The sentence expresses contrast — he went to work despite having a headache. 'Obwohl' (although) is the correct subordinating conjunction for concession.",
+      "difficulty": "easy",
+      "id": "b1_07_q041"
+    },
+    {
+      "questionText": "Die Sitzung wurde verschoben, ____ mehrere Teilnehmer krank waren.",
+      "options": [
+        "obwohl",
+        "damit",
+        "weil",
+        "während"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' introduces the reason for postponing the meeting — several participants were ill. 'Weil' is a subordinating conjunction requiring verb-final word order.",
+      "difficulty": "easy",
+      "id": "b1_07_q042"
+    },
+    {
+      "questionText": "Sie spricht leise, ____ niemand gestört wird.",
+      "options": [
+        "obwohl",
+        "damit",
+        "während",
+        "trotzdem"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' (so that / in order that) expresses purpose — she speaks quietly with the intention that no one is disturbed.",
+      "difficulty": "easy",
+      "id": "b1_07_q043"
+    },
+    {
+      "questionText": "____ er wenig Erfahrung hatte, bekam er die Stelle.",
+      "options": [
+        "Weil",
+        "Während",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "The sentence shows contradiction — he got the job despite having little experience. 'Obwohl' introduces the concessive clause.",
+      "difficulty": "easy",
+      "id": "b1_07_q044"
+    },
+    {
+      "questionText": "Die Straßen waren vereist, ____ viele Unfälle passierten.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces a consecutive clause expressing result — the icy roads caused many accidents as a consequence.",
+      "difficulty": "medium",
+      "id": "b1_07_q045"
+    },
+    {
+      "questionText": "____ die Regierung neue Maßnahmen eingeführt hat, bleibt die Situation schwierig.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Falls"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "The sentence expresses contrast between new government measures and the continuing difficult situation. 'Obwohl' is the concessive conjunction.",
+      "difficulty": "medium",
+      "id": "b1_07_q046"
+    },
+    {
+      "questionText": "Er trainiert täglich, ____ seine Leistung kontinuierlich zu verbessern.",
+      "options": [
+        "um",
+        "obwohl",
+        "denn",
+        "während"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — he trains daily in order to continuously improve his performance.",
+      "difficulty": "medium",
+      "id": "b1_07_q047"
+    },
+    {
+      "questionText": "Sie blieb ruhig, ____ sie innerlich sehr nervös war.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "sobald"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' correctly introduces a contrast — she stayed calm although she was very nervous inside.",
+      "difficulty": "medium",
+      "id": "b1_07_q048"
+    },
+    {
+      "questionText": "____ der Zug Verspätung hatte, erreichten wir den Anschluss noch rechtzeitig.",
+      "options": [
+        "Während",
+        "Falls",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "The sentence contrasts the train delay with still catching the connection in time. 'Obwohl' introduces the concession.",
+      "difficulty": "medium",
+      "id": "b1_07_q049"
+    },
+    {
+      "questionText": "Die Firma investiert viel Geld in Forschung, ____ wettbewerbsfähig zu bleiben.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "um",
+        "trotz"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses intention or goal — the company invests to remain competitive.",
+      "difficulty": "medium",
+      "id": "b1_07_q050"
+    },
+    {
+      "questionText": "Er kündigte seinen Job, ____ er noch keine neue Stelle gefunden hatte.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "seitdem"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' expresses an unexpected contrast — he quit despite not having found a new job yet.",
+      "difficulty": "hard",
+      "id": "b1_07_q051"
+    },
+    {
+      "questionText": "____ die Temperaturen weiter steigen, müssen neue Maßnahmen ergriffen werden.",
+      "options": [
+        "Falls",
+        "Obwohl",
+        "Während",
+        "Damit"
+      ],
+      "correctAnswer": "Falls",
+      "explanation": "'Falls' introduces a conditional clause — if temperatures continue to rise, new measures must be taken.",
+      "difficulty": "hard",
+      "id": "b1_07_q052"
+    },
+    {
+      "questionText": "Die Präsentation war schlecht vorbereitet, ____ das Publikum schnell das Interesse verlor.",
+      "options": [
+        "obwohl",
+        "sodass",
+        "damit",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces the result of the poorly prepared presentation — the audience quickly lost interest.",
+      "difficulty": "hard",
+      "id": "b1_07_q053"
+    },
+    {
+      "questionText": "____ er regelmäßig Sport treibt, fühlt er sich oft erschöpft.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Sobald"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses a contradiction — despite exercising regularly, he often feels exhausted.",
+      "difficulty": "hard",
+      "id": "b1_07_q054"
+    },
+    {
+      "questionText": "Sie überprüfte die Daten mehrmals, ____ mögliche Fehler zu vermeiden.",
+      "options": [
+        "um",
+        "obwohl",
+        "denn",
+        "während"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — she checked the data multiple times in order to avoid possible errors.",
+      "difficulty": "hard",
+      "id": "b1_07_q055"
+    },
+    {
+      "questionText": "____ die Nachfrage gestiegen ist, kann das Unternehmen nicht schneller produzieren.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Sobald",
+        "Während"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contrast — despite increased demand, the company cannot produce faster.",
+      "difficulty": "hard",
+      "id": "b1_07_q056"
+    },
+    {
+      "questionText": "Er machte sich Notizen, ____ er später nichts vergessen würde.",
+      "options": [
+        "obwohl",
+        "damit",
+        "seitdem",
+        "falls"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces the purpose clause — he made notes so that he wouldn't forget anything later.",
+      "difficulty": "medium",
+      "id": "b1_07_q057"
+    },
+    {
+      "questionText": "____ die Experten gewarnt hatten, wurden keine Sicherheitsmaßnahmen getroffen.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Nachdem",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' shows contradiction — despite expert warnings, no safety measures were taken.",
+      "difficulty": "hard",
+      "id": "b1_07_q058"
+    },
+    {
+      "questionText": "Die Verhandlungen dauerten länger als erwartet, ____ beide Seiten eine Einigung erzielen wollten.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "während"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' gives the reason — the negotiations lasted longer because both sides wanted to reach an agreement.",
+      "difficulty": "hard",
+      "id": "b1_07_q059"
+    },
+    {
+      "questionText": "____ er die Unterlagen gründlich gelesen hatte, unterschrieb er den Vertrag.",
+      "options": [
+        "Nachdem",
+        "Obwohl",
+        "Während",
+        "Damit"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' introduces an action completed before another past action — after reading the documents thoroughly, he signed the contract.",
+      "difficulty": "hard",
+      "id": "b1_07_q060"
     }
   ]
 }
