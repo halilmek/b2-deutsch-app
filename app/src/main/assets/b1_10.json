@@ -3,7 +3,7 @@
   "subjectId": "b1_10",
   "topicName": "Partizipien als Adjektive",
   "level": "B1",
-  "totalQuestions": 80,
+  "totalQuestions": 100,
   "description": "Partizip I and Partizip II as adjectives in German — B2 level. Partizip I (verb stem + -d) = active, ongoing, simultaneous action (das brennende Haus = house burning now). Partizip II (ge- + stem + -t/-en) = passive, completed, or resulting state (das gebrannte Haus = house that was burned). Gerundiv (zu + Partizip I) replaces passive relative clauses with müssen/können (Die zu lösenden Aufgaben = tasks that must be solved). Key: adjective endings must match article/noun case and number. Transitive vs intransitive exception: intransitive sein-verbs (entlaufen, einschlafen, sterben, schmelzen) use Partizip II with past-active meaning. Partizip I vs II distinction determines whether the noun performs or receives the action.",
   "tips": [
     "Partizip I (Present Participle): verb stem + -d (brennen → brennend, lesen → lesend, schwimmen → schwimmend). Meaning: active, ongoing, simultaneous action. 'Das brennende Haus' = the house is actively burning right now.",
@@ -1137,6 +1137,286 @@
       "correctAnswer": "forschende",
       "explanation": "Partizip I of 'forschen' (forschend = researching). The scientist is actively researching — ongoing action. After 'Der' (nominative masc) → weak '-e'.",
       "id": "b1_10_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das _____ Kind schläft noch.",
+      "options": [
+        "schlafende",
+        "geschlafene",
+        "schlafende",
+        "schläfende"
+      ],
+      "correctAnswer": "schlafende",
+      "explanation": "Partizip I of 'schlafen' (schlafend = sleeping). The child is currently sleeping — active ongoing action. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Briefe lagen auf dem Schreibtisch.",
+      "options": [
+        "geschriebenen",
+        "schreibenden",
+        "geschriebene",
+        "schreibende"
+      ],
+      "correctAnswer": "geschriebenen",
+      "explanation": "Partizip II of 'schreiben' (geschrieben = written). The letters were written (completed passive action). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q082"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Zeuge konnte keine Aussage machen.",
+      "options": [
+        "eingeschüchterte",
+        "einschüchternde",
+        "einschüchternden",
+        "eingeschüchterte"
+      ],
+      "correctAnswer": "eingeschüchterte",
+      "explanation": "Partizip II of 'einschüchtern' (eingeschüchtert = intimidated). The witness was intimidated (completed passive action). After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q083"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Ergebnisse der Studie wurden veröffentlicht.",
+      "options": [
+        "überraschenden",
+        "überraschten",
+        "überraschenden",
+        "überraschten"
+      ],
+      "correctAnswer": "überraschenden",
+      "explanation": "Partizip I of 'überraschen' (überraschend = surprising). The results themselves are surprising — active causing effect. After 'Die' (nominative plural) → weak '-en'. Contrast: 'die überraschten Forscher' (researchers who feel surprised).",
+      "id": "b1_10_q084"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In dem _____ Bericht fehlten entscheidende Informationen.",
+      "options": [
+        "gefälschten",
+        "fälschenden",
+        "gefälschende",
+        "fälschten"
+      ],
+      "correctAnswer": "gefälschten",
+      "explanation": "Partizip II of 'fälschen' (gefälscht = forged/falsified). The report was forged (completed passive action). 'Dem Bericht' (dative masc) → weak '-en'.",
+      "id": "b1_10_q085"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Verhandlungen zwischen den Parteien scheiterten erneut.",
+      "options": [
+        "andauernden",
+        "angedauerten",
+        "andauernde",
+        "gedauerten"
+      ],
+      "correctAnswer": "andauernden",
+      "explanation": "Partizip I of 'andauern' (andauernd = ongoing). Separable verb, Partizip I retains the full form. The negotiations are actively ongoing — not completed. 'Den Verhandlungen' (dative plural) → weak '-en'.",
+      "id": "b1_10_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das _____ Medikament zeigte kaum Wirkung.",
+      "options": [
+        "verdünnte",
+        "verdünnende",
+        "verdünnte",
+        "verdünnten"
+      ],
+      "correctAnswer": "verdünnte",
+      "explanation": "Partizip II of 'verdünnen' (verdünnt = diluted). The medicine has been diluted — completed passive state. 'Das Medikament' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q087"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Blick des Lehrers machte die Schüler nervös.",
+      "options": [
+        "durchdringende",
+        "durchdringte",
+        "durchgedrungene",
+        "durchdrungene"
+      ],
+      "correctAnswer": "durchdringende",
+      "explanation": "Partizip I of 'durchdringen' (durchdringend = piercing). The look is actively piercing — a characterising quality. 'Der Blick' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q088"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie trug ein _____ Kleid zur Feier.",
+      "options": [
+        "gebügeltes",
+        "bügelndes",
+        "gebügeltes",
+        "gebügelnd"
+      ],
+      "correctAnswer": "gebügeltes",
+      "explanation": "Partizip II of 'bügeln' (gebügelt = ironed). The dress was ironed (completed passive). 'Ein Kleid' (accusative neuter) → mixed '-es'.",
+      "id": "b1_10_q089"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Stille im Raum war kaum auszuhalten.",
+      "options": [
+        "bedrückende",
+        "bedrückte",
+        "bedrückten",
+        "bedrückendes"
+      ],
+      "correctAnswer": "bedrückende",
+      "explanation": "Partizip I of 'bedrücken' (bedrückend = oppressive). The silence itself causes an oppressive feeling — active triggering effect. 'Die Stille' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Angeklagte schwieg die gesamte Verhandlung.",
+      "options": [
+        "angeklagte",
+        "anklagende",
+        "angeklagene",
+        "anklagenden"
+      ],
+      "correctAnswer": "angeklagte",
+      "explanation": "Partizip II of 'anklagen' (angeklagt = accused). The defendant was accused (completed passive). 'Der Angeklagte' (nominative masc) → weak '-e'. 'Anklagend' would mean he is accusing others.",
+      "id": "b1_10_q091"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Forderungen der Gewerkschaft wurden abgelehnt.",
+      "options": [
+        "weitreichenden",
+        "weitgereichten",
+        "weitreichende",
+        "weitgereichte"
+      ],
+      "correctAnswer": "weitreichenden",
+      "explanation": "'Weitreichend' is a lexicalised Partizip I adjective meaning 'far-reaching'. Used as pure attributive adjective. 'Die Forderungen' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q092"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ein _____ Lächeln huschte über sein Gesicht.",
+      "options": [
+        "verkniffenes",
+        "verkniffendes",
+        "verkneifendes",
+        "verkniffende"
+      ],
+      "correctAnswer": "verkniffenes",
+      "explanation": "Partizip II of 'verkneifen' (verkniffen = tight-lipped/pinched). A lexicalised Partizip II adjective. 'Ein Lächeln' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q093"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Wunden des Unfallfahrers wurden sofort versorgt.",
+      "options": [
+        "verletzten",
+        "verletzenden",
+        "verletzende",
+        "verletzte"
+      ],
+      "correctAnswer": "verletzten",
+      "explanation": "Partizip II of 'verletzen' (verletzt = injured). The wounds were caused by the accident (completed passive state). 'Den Wunden' (dative plural) → weak '-en'.",
+      "id": "b1_10_q094"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das war ein _____ Kommentar, der viele verstimmte.",
+      "options": [
+        "verletzender",
+        "verletzten",
+        "verletzter",
+        "verletzenden"
+      ],
+      "correctAnswer": "verletzender",
+      "explanation": "Partizip I of 'verletzen' (verletzend = hurtful). The comment actively causes hurt — it is described by its effect. 'Ein Kommentar' (nominative masc) → mixed '-er'. Contrast: 'verletzte Gefühle' (feelings that were hurt — passive).",
+      "id": "b1_10_q095"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Bevölkerung litt unter der langen Dürreperiode.",
+      "options": [
+        "erschöpfte",
+        "erschöpfende",
+        "erschöpften",
+        "erschöpfende"
+      ],
+      "correctAnswer": "erschöpfte",
+      "explanation": "Partizip II of 'erschöpfen' (erschöpft = exhausted). The population was exhausted — they received the action (completed passive). 'Die Bevölkerung' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Trotz des _____ Protests der Bürger wurde das Projekt genehmigt.",
+      "options": [
+        "anhaltenden",
+        "angehaltenen",
+        "anhalten",
+        "anhaltende"
+      ],
+      "correctAnswer": "anhaltenden",
+      "explanation": "Partizip I of 'anhalten' (anhaltend = persistent/ongoing). The protest is ongoing — not completed. 'Des Protests' (genitive masc) → weak '-en'.",
+      "id": "b1_10_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In einer _____ Atmosphäre fanden die Gespräche statt.",
+      "options": [
+        "aufgeladenen",
+        "aufladenden",
+        "geladenen",
+        "aufladene"
+      ],
+      "correctAnswer": "aufgeladenen",
+      "explanation": "Partizip II of 'aufladen' (aufgeladen = charged). Lexicalised use meaning 'charged/tense atmosphere'. 'Einer Atmosphäre' (dative fem) → weak '-en'.",
+      "id": "b1_10_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Ton in der Diskussion störte viele Teilnehmer.",
+      "options": [
+        "verschärfte",
+        "verschärfende",
+        "verschärften",
+        "verschärfendem"
+      ],
+      "correctAnswer": "verschärfte",
+      "explanation": "Partizip II of 'verschärfen' (verschärft = intensified/hardened). The tone had been intensified — completed passive state. 'Der Ton' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Rede des _____ Politikers hinterließ einen bleibenden Eindruck.",
+      "options": [
+        "zurückgetretenen",
+        "zurücktretenden",
+        "zurückgetretene",
+        "zurückgetretener"
+      ],
+      "correctAnswer": "zurückgetretenen",
+      "explanation": "Partizip II of 'zurücktreten' (zurückgetreten = resigned). Separable verb — Partizip II = 'zurückgetreten' (ge- inserted between prefix and verb). The politician has already resigned (completed). 'Des Politikers' (genitive masc) → weak '-en'.",
+      "id": "b1_10_q100"
     }
   ]
 }

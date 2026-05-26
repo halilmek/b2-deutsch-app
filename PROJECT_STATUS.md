@@ -54,9 +54,9 @@
 | 7 | b1_07 | Konnektoren | 100 | ✅ Complete |
 | 8 | b1_08 | Perfekt und Präteritum | 100 | ✅ Complete |
 | 9 | b1_09 | Verben mit festen Präpositionen | 100 | ✅ Complete |
-| 10 | b1_10 | Partizipien als Adjektive | 80 | 🔄 In Progress (q001–q080 added 2026-05-26) |
+| 10 | b1_10 | Partizipien als Adjektive | 100 | ✅ Complete |
 
-**B1 Total: 981 questions (target: 1,000)**
+**B1 Total: 1,001 questions (target: 1,000) 🎉**
 
 ### B2 Module ✅
 | # | subjectId | Topic Name | Questions | Content Quality |
@@ -98,7 +98,7 @@
 | b1_01–b1_07 | ✅ (701 qs)
 | b1_08 | ✅ Perfekt und Präteritum (100 qs) |
 | b1_09 | ✅ Verben mit festen Präpositionen (100 qs) |
-| b1_10 | 🔄 Partizipien als Adjektive (80 qs) | | ⚠️ Pending | Run sync from local machine |
+| b1_10 | ✅ Partizipien als Adjektive (100 qs) | | ⚠️ Pending | Run sync from local machine |
 | b2_01–b2_23 | ✅ (2,321 qs) | ⚠️ Partial | Some topics may need sync |
 
 ### Firestore sync commands (run from local machine):
@@ -131,7 +131,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 7 | Konnektoren | 100 | 100 | ✅ Complete |
 | 8 | Perfekt und Präteritum | 100 | 100 | ✅ Complete |
 | 9 | Verben mit festen Präpositionen | 100 | 100 | ✅ Complete |
-| 10 | Partizipien als Adjektive | 100 | 80 | 🔄 In Progress |
+| 10 | Partizipien als Adjektive | 100 | 100 | ✅ Complete |
 
 ---
 
@@ -205,4 +205,4 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-05-26 12:20 UTC_
+_Last updated: 2026-05-26 12:23 UTC_
