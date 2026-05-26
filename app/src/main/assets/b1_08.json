@@ -3,7 +3,7 @@
   "subjectId": "b1_08",
   "topicName": "Perfekt und Präteritum",
   "level": "B1",
-  "totalQuestions": 80,
+  "totalQuestions": 100,
   "description": "Perfekt vs. Präteritum — the two past tenses in German. Perfekt = haben/sein + Partizip II, used in spoken German and informal writing. Präteritum = simple past, preferred in formal written German (narratives, literature, newspapers). The choice is primarily stylistic, not based on timeline. Key decisions: auxiliary choice (haben vs sein), Partizip II formation (weak/strong/mixed), register consistency, Plusquamperfekt for past-before-past, and Konjunktiv I in indirect speech. B2 exams test complex auxiliary selection (transitive movement verbs use haben), twin verb traps (hängen, erschrecken, legen/liegen), and mixed verb conjugations (brennen, nennen, rennen, wenden).",
   "tips": [
     "Perfekt (spoken/informal) vs Präteritum (formal written): conversations/emails → Perfekt; formal reports/essays/narratives → Präteritum. Never mix both in the same formal text.",
@@ -1137,6 +1137,286 @@
       "correctAnswer": "haben",
       "explanation": "'Verlassen' is a transitive verb → Perfekt with 'haben': 'haben den Raum verlassen'. The 'nachdem'-clause uses Plusquamperfekt Passiv ('war beendet worden'), and the main clause follows with Perfekt of the active verb.",
       "id": "b1_08_q080"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Als ich gestern nach Hause kam, ____ meine Mutter schon das Abendessen.",
+      "options": [
+        "hatte gekocht",
+        "kochte",
+        "hat gekocht",
+        "ist gekocht"
+      ],
+      "correctAnswer": "hatte gekocht",
+      "explanation": "Plusquamperfekt is required — mother's cooking happened before the speaker arrived home. 'Kochen' is a non-motion verb → 'haben': 'hatte gekocht'. The past-before-past sequence is correctly marked by 'als' + Präteritum main clause.",
+      "id": "b1_08_q081"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ ich den ganzen Tag im Büro.",
+      "options": [
+        "habe gesessen",
+        "saß",
+        "bin gesessen",
+        "setzte"
+      ],
+      "correctAnswer": "saß",
+      "explanation": "'Sitzen' (intransitive, state) uses Präteritum 'saß' in written/formal narrative for past duration. 'Habe gesessen' is possible in spoken German but 'saß' is the standard narrative form here.",
+      "id": "b1_08_q082"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ mir gestern seine neue Wohnung ____.",
+      "options": [
+        "ist / gezeigt",
+        "hat / gezeigt",
+        "wurde / gezeigt",
+        "hat / zeigen"
+      ],
+      "correctAnswer": "hat / gezeigt",
+      "explanation": "'Zeigen' (to show someone something) is a transitive verb → Perfekt with 'haben': 'hat … gezeigt'. The personal object 'mir' (Dativ) confirms the transitive use.",
+      "id": "b1_08_q083"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ du schon einmal in München ____?",
+      "options": [
+        "Hast / gelebt",
+        "Warst / gelebt",
+        "Bist / gelebt",
+        "Hast / gewohnt"
+      ],
+      "correctAnswer": "Bist / gelebt",
+      "explanation": "'Leben' (to live somewhere) expresses a state/location → Perfekt with 'sein': 'bin gelebt'. 'Gewohnt' (to be accustomed) is a different verb entirely.",
+      "id": "b1_08_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Letztes Jahr ____ ich nach Berlin ____.",
+      "options": [
+        "habe / gereist",
+        "bin / gereist",
+        "hat / gereist",
+        "war / gereist"
+      ],
+      "correctAnswer": "bin / gereist",
+      "explanation": "'Reisen' (to travel) expresses directed motion → Perfekt with 'sein': 'bin gereist'. The destination 'nach Berlin' confirms motion.",
+      "id": "b1_08_q085"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ den ganzen Abend fern, obwohl er hätte lernen sollen.",
+      "options": [
+        "hatte gesehen",
+        "sah",
+        "hat gesehen",
+        "ist gesehen"
+      ],
+      "correctAnswer": "hat gesehen",
+      "explanation": "'Fernsehen' (to watch TV) is a non-motion verb → Perfekt with 'haben': 'hat ferngesehen' or 'hat gesehen' in colloquial contraction. The concessive clause 'obwohl er hätte lernen sollen' uses Konjunktiv II of 'sollen'.",
+      "id": "b1_08_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Als Kind ____ ich jeden Sommer bei meinen Großeltern.",
+      "options": [
+        "habe verbracht",
+        "verbrachte",
+        "bin verbracht",
+        "hatte verbracht"
+      ],
+      "correctAnswer": "verbrachte",
+      "explanation": "'Verbringen' (to spend time) is a weak verb → Präteritum 'verbrachte' for repeated/habitual past actions in narrative context. 'Habe verbracht' would be Perfekt.",
+      "id": "b1_08_q087"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ es mir versprochen, aber dann ____ er es vergessen.",
+      "options": [
+        "hat / hat",
+        "hatte / hatte",
+        "hat / hatte",
+        "war / ist"
+      ],
+      "correctAnswer": "hat / hatte",
+      "explanation": "'Hat versprochen' (Perfekt — recent promise) then 'hatte vergessen' (Plusquamperfekt — forgetting happened before the reference point in the past). Two different past tenses in one sentence showing temporal sequence.",
+      "id": "b1_08_q088"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wann ____ du deinen Führerschein ____?",
+      "options": [
+        "bist / gemacht",
+        "hattest / gemacht",
+        "hast / gemacht",
+        "warst / gemacht"
+      ],
+      "correctAnswer": "hast / gemacht",
+      "explanation": "'Führerschein machen' is a transitive verb phrase → Perfekt with 'haben': 'hast gemacht'. 'Machen' never uses 'sein'.",
+      "id": "b1_08_q089"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ ihn seit Jahren nicht ____.",
+      "options": [
+        "habe / getroffen",
+        "bin / getroffen",
+        "hatte / getroffen",
+        "war / getroffen"
+      ],
+      "correctAnswer": "habe / getroffen",
+      "explanation": "'Treffen' (to meet someone) is a transitive verb → Perfekt with 'haben': 'habe getroffen'. 'Seit Jahren' indicates a duration up to now, making Perfekt appropriate.",
+      "id": "b1_08_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vor dem Essen ____ wir uns die Hände ____.",
+      "options": [
+        "haben / gewaschen",
+        "hatten / gewaschen",
+        "sind / gewaschen",
+        "wurden / gewaschen"
+      ],
+      "correctAnswer": "haben / gewaschen",
+      "explanation": "'Waschen' (transitive — washing hands) → Perfekt with 'haben': 'haben die Hände gewaschen'. Reflexive 'sich die Hände waschen' still uses 'haben'.",
+      "id": "b1_08_q091"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Kind ____ schnell ____, nachdem es ins Bett gebracht worden war.",
+      "options": [
+        "ist / eingeschlafen",
+        "hat / eingeschlafen",
+        "wurde / eingeschlafen",
+        "hatte / eingeschlafen"
+      ],
+      "correctAnswer": "ist / eingeschlafen",
+      "explanation": "'Einschlafen' (to fall asleep) = change of state → Perfekt with 'sein': 'ist eingeschlafen'. The 'nachdem'-clause uses Plusquamperfekt Passiv ('war gebracht worden'), the main clause uses Perfekt of the intransitive change-of-state verb.",
+      "id": "b1_08_q092"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ es den ganzen Tag.",
+      "options": [
+        "hat geregnet",
+        "regnete",
+        "ist geregnet",
+        "war geregnet"
+      ],
+      "correctAnswer": "regnete",
+      "explanation": "Impersonal verbs like 'regnen' use Präteritum 'regnete' in written narrative German. In spoken German, 'hat geregnet' is also common. Since this is a past narrative statement, Präteritum 'regnete' is the better choice.",
+      "id": "b1_08_q093"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ es nicht ____, weil er zu müde war.",
+      "options": [
+        "hat / gekonnt",
+        "ist / gekonnt",
+        "hatte / gekonnt",
+        "wurde / gekonnt"
+      ],
+      "correctAnswer": "hat / gekonnt",
+      "explanation": "Modal verb 'können' in Perfekt when standing alone (no double infinitive) uses 'haben': 'hat gekonnt'. Here the modal has no other main verb, so Partizip II 'gekonnt' is used directly.",
+      "id": "b1_08_q094"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ____ du gestern Abend um zehn Uhr ____?",
+      "options": [
+        "hattest / gemacht",
+        "hast / gemacht",
+        "warst / gemacht",
+        "bist / gemacht"
+      ],
+      "correctAnswer": "hast / gemacht",
+      "explanation": "Perfekt is natural in spoken German for a specific past time question. 'Machen' → 'hast gemacht'. 'Hattest gemacht' would be Plusquamperfekt, which doesn't match 'gestern Abend um zehn Uhr' as a past reference point.",
+      "id": "b1_08_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Römer ____ vor über 2000 Jahren eine mächtige Stadt ____.",
+      "options": [
+        "haben / gegründet",
+        "hatten / gegründet",
+        "wurden / gegründet",
+        "sind / gegründet"
+      ],
+      "correctAnswer": "hatten / gegründet",
+      "explanation": "Historical narrative in Präteritum context with 'vor über 2000 Jahren' uses Plusquamperfekt to reference an even more distant past event within the historical frame. 'Die Römer hatten … gegründet' shows the founding as anterior to the narrative moment. Präteritum 'gründeten' would also be correct but is not among the options.",
+      "id": "b1_08_q096"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ schon oft darüber nachgedacht.",
+      "options": [
+        "hatte",
+        "habe",
+        "bin",
+        "war"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Perfekt of 'nachdenken' (to think about) → 'habe nachgedacht'. 'Nachdenken über' (+ Akkusativ) = to think seriously about something. 'Schon oft' indicates repeated experience leading to the present.",
+      "id": "b1_08_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bevor er die Prüfung bestand, ____ er drei Monate lang intensiv ____.",
+      "options": [
+        "hat / gelernt",
+        "hatte / gelernt",
+        "ist / gelernt",
+        "wurde / gelernt"
+      ],
+      "correctAnswer": "hatte / gelernt",
+      "explanation": "'Bevor' signals the earlier action → Plusquamperfekt of 'lernen': 'hatte … gelernt'. The main clause uses Präteritum 'bestand'. Three months of intensive study happened before passing the exam.",
+      "id": "b1_08_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ eine Stunde im Wartezimmer ____.",
+      "options": [
+        "ist / gesessen",
+        "hat / gesessen",
+        "hatte / gesessen",
+        "war / gesessen"
+      ],
+      "correctAnswer": "hat / gesessen",
+      "explanation": "'Sitzen' (intransitive, describing a state) uses 'haben' in standard German Perfekt: 'hat gesessen'. While some Southern/Austrian dialects use 'sein', the standard B2 exam convention is 'hat gesessen' for the Perfekt of 'sitzen'.",
+      "id": "b1_08_q099"
+    },
+    {
+      "id": "b1_08_q100",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er das Angebot ____ ____, ____ er es sofort angenommen.",
+      "options": [
+        "hatte / erhalten / hatte",
+        "hat / erhalten / hat",
+        "hatte / erhalten / hat",
+        "war / erhalten / war"
+      ],
+      "correctAnswer": "hatte / erhalten / hat",
+      "explanation": "'Nachdem' requires Plusquamperfekt in the earlier clause: 'hatte erhalten' (Perfekt of 'erhalten', transitive → haben). The main clause follows with Perfekt: 'hat angenommen'. This structure shows the receiving happened before the accepting in past narrative."
     }
   ]
 }
