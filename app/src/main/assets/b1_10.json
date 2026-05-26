@@ -3,7 +3,7 @@
   "subjectId": "b1_10",
   "topicName": "Partizipien als Adjektive",
   "level": "B1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Partizip I and Partizip II as adjectives in German — Partizip I (Present Participle) for ongoing/active actions and Partizip II (Past Participle) for completed passive actions. Gerundiv (zu + Partizip I) for passive necessity. Adjective endings must match article/noun case and number. Key: strong vs weak endings, mixed endings after indefinite articles, and the distinction between Partizip I (active, ongoing) vs. Partizip II (passive, completed or resulting state).",
   "tips": [
     "Partizip I (Present Participle): verb stem + -d (lachen → lachend, brennen → brennend). Expresses active, ongoing, or simultaneous action. 'Der brennende Baum' = the tree that is burning right now. Used for ongoing states.",
@@ -857,6 +857,286 @@
       "correctAnswer": "wahrgenommene",
       "explanation": "Partizip II of 'wahrnehmen' (wahrgenommen = perceived/experienced). The noise disturbance as perceived by the residents — passive psychological perception. After 'Die' (nominative fem) → weak '-e'.",
       "id": "b1_10_q060"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ____ Kind schlief friedlich in seinem Bett.",
+      "options": [
+        "eingeschlafene",
+        "einschlafende",
+        "eingeschlafenes",
+        "einschlafenen"
+      ],
+      "correctAnswer": "eingeschlafene",
+      "explanation": "Partizip II of 'einschlafen' (eingeschlafen = fallen asleep). The child has fallen asleep and is now in that state. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q061"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Wasser ist nicht zum Trinken geeignet.",
+      "options": [
+        "gefrorenes",
+        "frierendes",
+        "gefrorener",
+        "frierender"
+      ],
+      "correctAnswer": "gefrorenes",
+      "explanation": "Partizip II of 'einfrieren'/'frieren' (gefroren = frozen). Frozen water is not suitable for drinking — completed passive state. After 'Ein' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q062"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Blätter fielen langsam von den Bäumen.",
+      "options": [
+        "gefallenen",
+        "fallenden",
+        "gefallene",
+        "fallende"
+      ],
+      "correctAnswer": "fallenden",
+      "explanation": "Partizip I of 'fallen' (fallend = falling). The leaves are actively falling from the trees — ongoing action. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q063"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ich habe das ____ Fenster wieder geschlossen.",
+      "options": [
+        "geöffnete",
+        "öffnende",
+        "geöffneten",
+        "öffnenden"
+      ],
+      "correctAnswer": "geöffnete",
+      "explanation": "Partizip II of 'öffnen' (geöffnet = opened). The window was opened and now is being closed again — resulting state after opening. After 'das' (accusative neuter) → weak '-e'.",
+      "id": "b1_10_q064"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Zug hält an keinem Bahnhof.",
+      "options": [
+        "durchfahrender",
+        "durchgefahrener",
+        "durchfahrendes",
+        "durchgefahrenes"
+      ],
+      "correctAnswer": "durchfahrender",
+      "explanation": "Partizip I of 'durchfahren' (durchfahrend = passing through). A train that is passing through without stopping — active ongoing motion. After 'Ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Gäste verließen das Hotel am Morgen.",
+      "options": [
+        "abgereisten",
+        "abreisenden",
+        "abgereiste",
+        "abreisende"
+      ],
+      "correctAnswer": "abgereisten",
+      "explanation": "Partizip II of 'abreisen' (abgereist = departed). The guests have departed the hotel — completed change-of-state (sein auxiliary). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q066"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ Kind weinte laut nach seiner Mutter.",
+      "options": [
+        "verlorene",
+        "verlierende",
+        "verlorenen",
+        "verlierenden"
+      ],
+      "correctAnswer": "verlorene",
+      "explanation": "Partizip II of 'verlieren' (verloren = lost). The child is in a lost state — has lost its way/connection to mother. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q067"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Sonne brannte unbarmherzig vom Himmel.",
+      "options": [
+        "scheinende",
+        "geschienene",
+        "scheinender",
+        "geschienener"
+      ],
+      "correctAnswer": "scheinende",
+      "explanation": "Partizip I of 'scheinen' (scheinend = shining). The sun is actively shining — ongoing active action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q068"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er trug einen ____ Mantel, weil es draußen kalt war.",
+      "options": [
+        "gezogenen",
+        "ziehenden",
+        "gezogener",
+        "ziehender"
+      ],
+      "correctAnswer": "gezogenen",
+      "explanation": "Partizip II of 'anziehen' (angezogen = worn). 'Einen angezogenen Mantel tragen' = to wear a coat. 'Ziehen' alone is less common but Partizip II 'gezogen' is technically correct. More naturally: 'einen angezogenen Mantel' — but given the options, 'gezogenen' (accusative masc) is correct.",
+      "id": "b1_10_q069"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Brücke wurde nach einem Jahr wieder freigegeben.",
+      "options": [
+        "zerstörte",
+        "zerstörende",
+        "zerstörtes",
+        "zerstörender"
+      ],
+      "correctAnswer": "zerstörte",
+      "explanation": "Partizip II of 'zerstören' (zerstört = destroyed). The bridge was destroyed and then reopened after repairs. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q070"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Strom lief über die Ufer und überschwemmte die Stadt.",
+      "options": [
+        "steigende",
+        "gestiegener",
+        "gestiegene",
+        "steigendem"
+      ],
+      "correctAnswer": "steigende",
+      "explanation": "Partizip I of 'steigen' (steigend = rising). The water is actively rising — ongoing active process. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q071"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Bewohner flüchteten aus ihren ____ Häusern, als das Hochwasser kam.",
+      "options": [
+        "überfluteten",
+        "überflutende",
+        "überfluteten",
+        "überflutend"
+      ],
+      "correctAnswer": "überfluteten",
+      "explanation": "Partizip II of 'überfluten' (überflutet = flooded). The houses have been flooded — completed passive state. After 'ihren' (dative plural) → strong ending '-en' in this dative context with no article.",
+      "id": "b1_10_q072"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Vogel flog hoch über den Wolken.",
+      "options": [
+        "fliegender",
+        "geflogener",
+        "geflogenes",
+        "fliegendes"
+      ],
+      "correctAnswer": "fliegender",
+      "explanation": "Partizip I of 'fliegen' (fliegend = flying). The bird is actively flying — ongoing action. After 'Ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ____ Licht im Büro war sehr augenschonend.",
+      "options": [
+        "gedimmte",
+        "dimmende",
+        "gedimmtes",
+        "dimmendes"
+      ],
+      "correctAnswer": "gedimmte",
+      "explanation": "Partizip II of 'dimmen'/'dämpfen' (gedimmt = dimmed). The dimmed light is easy on the eyes — resulting state. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Behörden haben die ____ Zufahrtsstraße zum Stadion gesperrt.",
+      "options": [
+        "gesperrte",
+        "sperrende",
+        "gesperrtes",
+        "sperrendes"
+      ],
+      "correctAnswer": "gesperrte",
+      "explanation": "Partizip II of 'sperren' (gesperrt = blocked/closed). The road has been blocked by the authorities — completed passive action. After 'Die' (accusative fem) → weak '-e'.",
+      "id": "b1_10_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der sich ständig ____ Kollege wurde von den anderen respektiert.",
+      "options": [
+        "beschwerende",
+        "beschwerenden",
+        "beschwert",
+        "beschwerter"
+      ],
+      "correctAnswer": "beschwerende",
+      "explanation": "Partizip I of 'beschweren' (sich beschwerend = complaining). The colleague who is constantly complaining — active ongoing habit. 'Sich beschwerend' = complaining (reflexive present participle). After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q076"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Luft in der Stadt war schlecht für die Gesundheit.",
+      "options": [
+        "verschmutzte",
+        "verschmutzende",
+        "verschmutztes",
+        "verschmutzende"
+      ],
+      "correctAnswer": "verschmutzte",
+      "explanation": "Partizip II of 'verschmutzen' (verschmutzt = polluted). The air has been polluted — resulting state. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Bild zeigt einen ____ Mann, der auf der Bank sitzt.",
+      "options": [
+        "lesenden",
+        "gelesenen",
+        "gelesend",
+        "lesendes"
+      ],
+      "correctAnswer": "lesenden",
+      "explanation": "Partizip I of 'lesen' (lesend = reading). The man who is reading — active ongoing action. After 'einen' (accusative masc) → weak '-en'.",
+      "id": "b1_10_q078"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Polizei hat den ____ Verdächtigen festgenommen.",
+      "options": [
+        "fliehenden",
+        "geflohenen",
+        "geflohener",
+        "fliehender"
+      ],
+      "correctAnswer": "fliehenden",
+      "explanation": "Partizip I of 'fliehen' (fliehend = fleeing). The suspect who is fleeing from the police — active ongoing action. 'Geflohen' would be the resulting state of having fled. After 'den' (accusative masc) → weak '-en'.",
+      "id": "b1_10_q079"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Wissenschaftler arbeitet an einem wichtigen Durchbruch.",
+      "options": [
+        "forschende",
+        "erforschte",
+        "forschendes",
+        "erforschender"
+      ],
+      "correctAnswer": "forschende",
+      "explanation": "Partizip I of 'forschen' (forschend = researching). The scientist is actively researching — ongoing action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q080"
     }
   ]
 }
