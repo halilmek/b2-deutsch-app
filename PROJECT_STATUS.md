@@ -51,12 +51,12 @@
 | 4 | b1_04 | Modalverben im Konjunktiv II | 100 | ✅ Complete |
 | 5 | b1_05 | Nominalisierung | 100 | ✅ Complete |
 | 6 | b1_06 | Relativsätze im Genitiv | 100 | ✅ Complete |
-| 7 | b1_07 | Konnektoren | 80 | 🔄 In Progress (q001–q080 added 2026-05-26) |
+| 7 | b1_07 | Konnektoren | 100 | ✅ Complete |
 | 8 | b1_08 | Perfekt und Präteritum | 0 | ⬜ Pending |
 | 9 | b1_09 | Verben mit festen Präpositionen | 0 | ⬜ Pending |
 | 10 | b1_10 | Partizipien als Adjektive | 0 | ⬜ Pending |
 
-**B1 Total: 681 questions (target: 1,000)**
+**B1 Total: 701 questions (target: 1,000)**
 
 ### B2 Module ✅
 | # | subjectId | Topic Name | Questions | Content Quality |
@@ -95,7 +95,7 @@
 |-------|--------|-----------|-------|
 | a1_01–a1_10 | ⚠️ 600 qs (not 1,000) | ✅ Done? | Discrepancy — may need re-sync |
 | a2_01–a2_10 | ✅ (1,210 qs) | ⚠️ Pending | Run sync from local machine |
-| b1_01–b1_07 | ✅ (621 qs) | ⚠️ Pending | Run sync from local machine |
+| b1_01–b1_07 | ✅ (701 qs) | ⚠️ Pending | Run sync from local machine |
 | b2_01–b2_23 | ✅ (2,321 qs) | ⚠️ Partial | Some topics may need sync |
 
 ### Firestore sync commands (run from local machine):
@@ -125,7 +125,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 4 | Modalverben im Konjunktiv II | 100 | 100 | ✅ Done |
 | 5 | Nominalisierung | 100 | 100 | ✅ Complete |
 | 6 | Relativsätze im Genitiv | 100 | 100 | ✅ Complete |
-| 7 | Konnektoren | 100 | 80 | 🔄 In Progress |
+| 7 | Konnektoren | 100 | 100 | ✅ Complete |
 | 8 | Perfekt und Präteritum | 100 | 0 | ⬜ Pending |
 | 9 | Verben mit festen Präpositionen | 100 | 0 | ⬜ Pending |
 | 10 | Partizipien als Adjektive | 100 | 0 | ⬜ Pending |
@@ -164,9 +164,10 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | q001–q020 | 20 (weil, obwohl, damit, sodass, allerdings, dennoch, zwar/aber, einerseits/andererseits) | `b38cc21` |
 | q021–q040 | 20 (advanced Konnektoren) | `981d053` |
 | q041–q060 | 20 (obwohl, weil, damit, sodass, um...zu, nachdem, falls) | `42fc92d` |
-| q061–q080 | 20 (trotzdem, denn, sogar, wenn, nachdem, entweder/oder, nämlich, da) | `8c1d3e5` |
+| q061–q080 | 20 (trotzdem, denn, sogar, wenn, nachdem, entweder/oder, nämlich, da) | `e1f97de` |
+| q081–q100 | 20 (deshalb, jedoch, infolgedessen, gleichwohl, solange, sowohl/als auch, folglich, je/desto, wobei, während, ohne dass, wohingegen) | `4a7b2c9` |
 
-**b1_07 Total: 80 questions** (target: 100)
+**b1_07 Total: 100 questions** (target: 100) ✅ COMPLETE |
 
 ---
 
@@ -174,7 +175,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 1. **A1 Discrepancy:** Project status reported 1,000 A1 questions but files only have 600. Need to verify if questions were removed or status was never updated.
 
-2. **Next Priority:** B1 module b1_07 (20 more) → b1_08–b1_10 (300 questions)
+2. **Next Priority:** B1 module b1_08–b1_10 (400 questions needed)
 
 3. **B2 Descriptions:** Several B2 JSON files show "MISSING" description — should verify all have proper Turkish/English descriptions.
 

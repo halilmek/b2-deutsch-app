@@ -3,19 +3,19 @@
   "subjectId": "b1_07",
   "topicName": "Konnektoren",
   "level": "B1",
-  "totalQuestions": 80,
-  "description": "Konnektoren (connectors) are words and phrases that link clauses and sentences. They include coordinating conjunctions (und, aber, oder, denn, sondern), subordinating conjunctions (weil, obwohl, damit, bevor), adverbial connectors (deshalb, trotzdem, jednak, außerdem), and two-part connectors (einerseits/andererseits, zwar/aber, sowohl/als auch). B2 level requires precision in choosing the semantically correct connector and mastering the word order effects each type triggers.",
+  "totalQuestions": 100,
+  "description": "Konnektoren & Satzstellung (connectors and word order) at B2 level require not only vocabulary accuracy but also understanding how each connector determines sentence structure. Four groups: (1) Subjunktionen (obwohl, weil, damit, sodass, obgleich, obschon, zumal, sofern) — verb goes to the END of the clause; (2) Konjunktionaladverbien (deshalb, trotzdem, allerdings, gleichwohl, infolgedessen, andernfalls, folglich, demnach, azonach) — trigger INVERSION (verb before subject); (3) Zweiteilige Konnektoren (zwar/aber, einerseits/andererseits, sowohl/als auch, entweder/oder, weder/noch, je/umso, nicht nur/sondern auch) — paired structures balancing contrasts, alternatives, correlations; (4) Standard-Konjunktionen (und, aber, denn, sondern, oder) — no word order change. Mastering connectors is essential for B2 argumentative and academic writing.",
   "tips": [
-    "Subordinating conjunctions (weil, obwohl, damit, bevor, nachdem, während) → verb goes to the END of the clause (verb-final). Coordinating conjunctions (und, aber, oder, denn, sondern) → normal word order in the following clause.",
-    "Adverbial connectors (deshalb, daher, trotzdem, allerdings, dennoch, außerdem, dabei) → trigger INVERSION (verb before subject) when starting a main clause.",
-    "Weil vs Denn: both express reason, but 'weil' is subordinating (verb-final) and 'denn' is coordinating (normal word order).",
-    "Obwohl vs Aber: 'obwohl' (although) is subordinating (verb-final); 'aber' (but) is coordinating (normal order). Don't confuse: obwohl + verb-final, aber + normal order.",
-    "Sodass (so that) → consecutive clause expressing result/consequence, verb-final. Damit (in order that) → purpose clause, verb-final, subject in both clauses usually same.",
-    "Sondern: only used AFTER a negation to correct/contrast. Nicht A, sondern B. 'Aber' expresses simple contrast without requiring prior negation.",
-    "Zwar … aber (it's true that … but) → two-part concessive connector. Zwar can start a main clause (verb follows) or be inside a clause (verb stays at end).",
-    "Einerseits … andererseits → two-part connector for contrasting aspects. Triggers inversion when starting a clause.",
-    "Deshalb/daher → express consequence/result (therefore). Trigger inversion. Weill → express reason. Don't mix up: wenn/Da + consequence = deshalb.",
-    "Two-part connectors: sowohl … als auch (both … and), weder … noch (neither … nor), entweder … oder (either … or) — all are coordinating and maintain normal word order in the following clause."
+    "Group 1 (Subjunktionen) → verb goes to END: weil, obwohl, damit, sodass, obgleich, obschon, zumal, sofern, während, bevor, nachdem, bis, damit, indem, ohne dass, anstatt dass, falls, sobald, solange.",
+    "Group 2 (Konjunktionaladverbien) → trigger INVERSION: deshalb, daher, trotzdem, allerdings, dennoch, infolgedessen, andernfalls, folglich, demnach, gleichwohl, azonaban — connector in Position 1, verb in Position 2.",
+    "Group 3 (Zweiteilige Konnektoren): zwar/aber (concession), einerseits/andererseits (contrast), sowohl/als auch (addition), entweder/oder (alternation), weder/noch (negation), je/umso/desto (proportional), nicht nur/sondern auch (addition).",
+    "Group 4 (Standard-Konjunktionen): und, aber, denn, sondern, oder — no word order change (Position 0). Exception: es sei denn (unless) maintains standard order even when introducing a clause.",
+    "Ohne zu vs Ohne dass: Same subject → infinitive construction (ohne... zu / anstatt... zu). Different subjects → subordinate clause (ohne dass / anstatt dass).",
+    "Geschweige denn: requires a negative anchor in the first clause (nicht, kein, nicht einmal). → Er hat nicht einmal Geld für die Miete, geschweige denn für Urlaub.",
+    "Infolge vs Infolgedessen: Infolge is a preposition + Genitiv (Infolge des Regens). Infolgedessen is an adverb starting a clause (Infolgedessen fiel das Spiel aus).",
+    "Je... umso/desto: Je-clause is subordinate (verb-final); umso/desto-clause triggers inversion. → Je mehr wir einstellen, umso schneller können wir liefern.",
+    "Word order after connector: subordinating conjunctions (weil, obwohl, damit) → verb at end; adverbial connectors (deshalb, trotzdem) → inversion; coordinating conjunctions (denn, aber) → normal order.",
+    "Zumal is a high-register causal subordinating conjunction (verb-final) used to emphasize the most important reason. Use it instead of weil/da to sound more academic and sophisticated."
   ],
   "questions": [
     {
@@ -1077,6 +1077,266 @@
       "explanation": "Wenn is used for conditional clauses. Falls is more hypothetical, sofern more formal/positive condition. Here 'wenn' is the most natural choice.",
       "difficulty": "medium",
       "id": "b1_07_q080"
+    },
+    {
+      "questionText": "Die Straße war gesperrt, ____ mussten wir einen großen Umweg fahren.",
+      "options": [
+        "deshalb",
+        "weil",
+        "obwohl",
+        "damit"
+      ],
+      "correctAnswer": "deshalb",
+      "explanation": "Deshalb is an adverbial connector expressing logical consequence. It requires verb-second word order in the following clause, unlike subordinating conjunctions that trigger verb-final order.",
+      "difficulty": "easy",
+      "id": "b1_07_q081"
+    },
+    {
+      "questionText": "____ das Wetter schlecht war, haben wir den Ausflug nicht abgesagt.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Deshalb",
+        "Damit"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl introduces a concessive subordinate clause, indicating a contrast between expectation and reality. It triggers verb-final word order for the conjugated verb.",
+      "difficulty": "easy",
+      "id": "b1_07_q082"
+    },
+    {
+      "questionText": "____ du pünktlich bist, können wir den Film von Anfang an sehen.",
+      "options": [
+        "Wenn",
+        "Obwohl",
+        "Weil",
+        "Während"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn introduces a conditional clause setting a requirement for the main clause action. It requires verb-final word order in the subordinate clause.",
+      "difficulty": "easy",
+      "id": "b1_07_q083"
+    },
+    {
+      "questionText": "Er hat die Prüfung bestanden, ____ hat er sofort mit dem Masterstudium begonnen.",
+      "options": [
+        "danach",
+        "bevor",
+        "während",
+        "sobald"
+      ],
+      "correctAnswer": "danach",
+      "explanation": "Danach is a temporal adverbial connector requiring verb-second word order. The other options are subordinating conjunctions that would force verb-final order, which does not match the given structure.",
+      "difficulty": "easy",
+      "id": "b1_07_q084"
+    },
+    {
+      "questionText": "____ er sehr talentiert ist, ____ fehlt ihm die Disziplin.",
+      "options": [
+        "Zwar ... aber",
+        "Sowohl ... als auch",
+        "Je ... desto",
+        "Entweder ... oder"
+      ],
+      "correctAnswer": "Zwar ... aber",
+      "explanation": "Zwar... aber expresses a concessive relationship by acknowledging a positive fact before introducing a contrasting drawback. It is a standard two-part connector in formal German.",
+      "difficulty": "easy",
+      "id": "b1_07_q085"
+    },
+    {
+      "questionText": "Die Kosten sind stark gestiegen, ____ wird das Budget für nächstes Jahr gekürzt.",
+      "options": [
+        "infolgedessen",
+        "weil",
+        "obwohl",
+        "falls"
+      ],
+      "correctAnswer": "infolgedessen",
+      "explanation": "Infolgedessen is a formal consequential connector requiring verb-second order. Because the blank is followed by a main clause structure (verb immediately after the comma), only an adverbial connector fits.",
+      "difficulty": "medium",
+      "id": "b1_07_q086"
+    },
+    {
+      "questionText": "____ alle Unterlagen vollständig sind, kann die Bearbeitung beginnen.",
+      "options": [
+        "Sofern",
+        "Trotzdem",
+        "Während",
+        "Demnach"
+      ],
+      "correctAnswer": "Sofern",
+      "explanation": "Sofern is a formal conditional connector meaning provided that or if. It introduces a subordinate clause with verb-final order and implies a strict prerequisite.",
+      "difficulty": "medium",
+      "id": "b1_07_q087"
+    },
+    {
+      "questionText": "Die Investition war riskant, ____ hat sie sich langfristig ausgezahlt.",
+      "options": [
+        "gleichwohl",
+        "weil",
+        "indem",
+        "sofern"
+      ],
+      "correctAnswer": "gleichwohl",
+      "explanation": "Gleichwohl is a formal concessive adverb meaning nevertheless or still. It requires verb-second order and contrasts the initial risk with the eventual positive outcome.",
+      "difficulty": "medium",
+      "id": "b1_07_q088"
+    },
+    {
+      "questionText": "____ die Verhandlungen andauerten, wurde kein vorläufiges Ergebnis verkündet.",
+      "options": [
+        "Solange",
+        "Sobald",
+        "Nachdem",
+        "Bevor"
+      ],
+      "correctAnswer": "Solange",
+      "explanation": "Solange expresses simultaneity over a duration (as long as). It fits the context of ongoing negotiations preventing an announcement and triggers verb-final word order.",
+      "difficulty": "medium",
+      "id": "b1_07_q089"
+    },
+    {
+      "questionText": "Das Projekt ist ____ technisch innovativ, ____ wirtschaftlich sinnvoll.",
+      "options": [
+        "sowohl ... als auch",
+        "weder ... noch",
+        "zwar ... aber",
+        "entweder ... oder"
+      ],
+      "correctAnswer": "sowohl ... als auch",
+      "explanation": "Sowohl... als auch adds two positive, equally important attributes without contrast. It is frequently used in formal project evaluations and academic descriptions.",
+      "difficulty": "medium",
+      "id": "b1_07_q090"
+    },
+    {
+      "questionText": "Die Nachfrage übertraf das Angebot, ____ stiegen die Preise kontinuierlich an.",
+      "options": [
+        "folglich",
+        "obwohl",
+        "weil",
+        "indem"
+      ],
+      "correctAnswer": "folglich",
+      "explanation": "Folglich indicates a logical consequence and requires verb-second word order. It is more formal than deshalb and common in economic or analytical contexts.",
+      "difficulty": "medium",
+      "id": "b1_07_q091"
+    },
+    {
+      "questionText": "Die Maßnahme ist nur dann wirksam, ____ sie konsequent umgesetzt wird.",
+      "options": [
+        "wenn",
+        "solange",
+        "obwohl",
+        "damit"
+      ],
+      "correctAnswer": "wenn",
+      "explanation": "Wenn completes the correlative conditional structure nur dann... wenn. This pairing emphasizes a necessary condition and triggers verb-final order in the subordinate clause.",
+      "difficulty": "medium",
+      "id": "b1_07_q092"
+    },
+    {
+      "questionText": "Die neue Software ist praktikabel, ____ sie die bestehenden Schnittstellen nicht vollständig unterstützt.",
+      "options": [
+        "insofern als",
+        "obwohl",
+        "während",
+        "sofern"
+      ],
+      "correctAnswer": "insofern als",
+      "explanation": "Insofern als means in that or to the extent that. It specifies the precise respect in which the main clause holds true and introduces a subordinate clause with verb-final order.",
+      "difficulty": "hard",
+      "id": "b1_07_q093"
+    },
+    {
+      "questionText": "____ früher die Entscheidungen getroffen werden, ____ größer ist der Spielraum für Anpassungen.",
+      "options": [
+        "Je ... desto",
+        "Sowohl ... als auch",
+        "Zwar ... aber",
+        "Entweder ... oder"
+      ],
+      "correctAnswer": "Je ... desto",
+      "explanation": "Je... desto links two comparative clauses proportionally. The first clause uses verb-final order after the comparative adverb, while the second clause uses verb-second order.",
+      "difficulty": "hard",
+      "id": "b1_07_q094"
+    },
+    {
+      "questionText": "Die Strategie setzt auf kurzfristige Gewinne, ____ werden langfristige Nachhaltigkeitsziele vernachlässigt.",
+      "options": [
+        "hingegen",
+        "weil",
+        "damit",
+        "sofern"
+      ],
+      "correctAnswer": "hingegen",
+      "explanation": "Hingegen is an adversative adverbial connector meaning however or in contrast. It requires verb-second order and highlights a direct contrast between two strategic priorities.",
+      "difficulty": "hard",
+      "id": "b1_07_q095"
+    },
+    {
+      "questionText": "Die Maßnahme ist nur dann wirksam, ____ sie von allen Beteiligten unterstützt wird, ____ ist sie zum Scheitern verurteilt.",
+      "options": [
+        "wenn ... ansonsten",
+        "weil ... deshalb",
+        "obwohl ... jedoch",
+        "damit ... trotzdem"
+      ],
+      "correctAnswer": "wenn ... ansonsten",
+      "explanation": "This structure pairs a conditional clause with a negative consequence. Ansonsten acts as a conjunctive adverb requiring verb-second order, contrasting the fulfilled condition with the negative outcome.",
+      "difficulty": "hard",
+      "id": "b1_07_q096"
+    },
+    {
+      "questionText": "____ der hohen Investitionssumme wurde das Projekt nicht abgelehnt, ____ die erwarteten Renditen unsicher waren.",
+      "options": [
+        "Trotz ... obwohl",
+        "Wegen ... weil",
+        "Anstatt ... dass",
+        "Infolge ... während"
+      ],
+      "correctAnswer": "Trotz ... obwohl",
+      "explanation": "Trotz governs a genitive noun phrase, while obwohl introduces a full subordinate clause with verb-final order. This tests the ability to combine prepositional and clausal connectors logically.",
+      "difficulty": "hard",
+      "id": "b1_07_q097"
+    },
+    {
+      "questionText": "Die Maßnahmen wurden ergriffen, ____ die Ursachen des Problems beseitigt wurden.",
+      "options": [
+        "ohne dass",
+        "anstatt dass",
+        "sofern",
+        "während"
+      ],
+      "correctAnswer": "ohne dass",
+      "explanation": "Ohne dass introduces a negative accompanying circumstance. It requires verb-final order and implies that the main action occurred despite the absence of the subordinate action.",
+      "difficulty": "hard",
+      "id": "b1_07_q098"
+    },
+    {
+      "questionText": "Die Nordregion verzeichnet ein starkes Wirtschaftswachstum, ____ stagniert die Entwicklung im Süden des Landes.",
+      "options": [
+        "wohingegen",
+        "weil",
+        "damit",
+        "sofern"
+      ],
+      "correctAnswer": "wohingegen",
+      "explanation": "Wohingegen is a formal comparative-adversative connector meaning whereas or while. It introduces a main clause with verb-second order, contrasting two parallel regional situations.",
+      "difficulty": "hard",
+      "id": "b1_07_q099"
+    },
+    {
+      "questionText": "____ die gesetzlichen Vorgaben strikt eingehalten wurden, ____ kam es zu erheblichen Verzögerungen im Produktionsablauf.",
+      "options": [
+        "Zwar ... jedoch",
+        "Sowohl ... als auch",
+        "Entweder ... oder",
+        "Weder ... noch"
+      ],
+      "correctAnswer": "Zwar ... jedoch",
+      "explanation": "Zwar... jedoch expresses concession in formal writing. Zwar acknowledges a fact in the first clause, while jedoch introduces a contrasting main clause requiring verb-second order.",
+      "difficulty": "hard",
+      "id": "b1_07_q100"
     }
   ]
 }
