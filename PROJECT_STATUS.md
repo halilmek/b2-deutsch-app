@@ -188,9 +188,9 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 | # | ID | Topic | Questions | Status |
 |---|----|-------|-----------|--------|
-| 1 | c1_01 | Nominalstil & Verbalstil | 40 | 🔄 In Progress (q001–q040 added 2026-05-26) |
+| 1 | c1_01 | Nominalstil & Verbalstil | 60 | 🔄 In Progress (q001–q060 added 2026-05-26) |
 
-**C1 Total: 40 questions (target: 1,000)**
+**C1 Total: 60 questions (target: 1,000)**
 
 ---
 
@@ -215,4 +215,4 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-05-26 17:29 UTC_
+_Last updated: 2026-05-26 17:30 UTC_

@@ -3,7 +3,7 @@
   "subjectId": "c1_01",
   "topicName": "Nominalstil & Verbalstil",
   "level": "C1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Nominalstil & Verbalstil — transforming between nominal and verbal sentence styles in German. Nominalstil (noun-based style) uses nominalized infinitives, noun-preposition combinations, and Funktionsverbgefüge for formal/academic writing. Verbalstil (verb-based style) uses full clauses with conjunctions. Key: converting subordinate clauses to noun phrases (weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ), nominalizing verbs correctly, and using appropriate C1-level connectors.",
   "tips": [
     "Nominalstil transformations: weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ, wenn/falls -> bei + Dativ, obwohl -> trotz + Genitiv, indem -> unter + Dativ, ohne zu -> ohne + Akkusativ, anstatt zu -> statt + Genitiv, infolge -> infolge + Genitiv.",
@@ -577,6 +577,286 @@
       "correctAnswer": "Einrichtung",
       "explanation": "'Die Einrichtung des Systems' replaces 'das System einrichten'. 'Erfolgen' pairs with nouns: 'die Einrichtung wurde abgeschlossen'.",
       "id": "c1_01_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ des Berichts ist sehr sachlich und nominal geprägt.",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Satzbau",
+        "Konjunktiv"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil refers to a style heavy on nouns and noun phrases, often used in official or technical reports. Verbalstil is more verb-based and dynamic.",
+      "id": "c1_01_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz steht im Verbalstil?",
+      "options": [
+        "Die Durchführung der Maßnahme erfolgt morgen.",
+        "Zur Durchführung der Maßnahme kommt es morgen.",
+        "Die Maßnahme wird morgen durchgeführt.",
+        "Die Maßnahme findet morgen ihre Durchführung."
+      ],
+      "correctAnswer": "Die Maßnahme wird morgen durchgeführt.",
+      "explanation": "Finite verb ('wird durchgeführt') with passive verbal construction — typical Verbalstil. The others use nominalized nouns.",
+      "id": "c1_01_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Anmeldefrist führt zum Ausschluss vom Wettbewerb.",
+      "options": [
+        "verspätete Anmeldung",
+        "sich verspäten",
+        "wenn man sich verspätet",
+        "dass die Anmeldung verspätet ist"
+      ],
+      "correctAnswer": "verspätete Anmeldung",
+      "explanation": "A nominal phrase with adjective attribute ('verspätete Anmeldung') is characteristic of Nominalstil. The others contain verbs or clauses.",
+      "id": "c1_01_q043"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein typisches Beispiel für Nominalstil?",
+      "options": [
+        "Nachdem er angekommen war, begann er sofort mit der Arbeit.",
+        "Nach seiner Ankunft begann er sofort mit der Arbeit.",
+        "Er kam an und begann sofort zu arbeiten.",
+        "Sobald er ankam, begann er die Arbeit."
+      ],
+      "correctAnswer": "Nach seiner Ankunft begann er sofort mit der Arbeit.",
+      "explanation": "'Nach seiner Ankunft' is a nominal prepositional phrase replacing a temporal clause ('Nachdem er angekommen war'). This reduces verbs and increases nouns.",
+      "id": "c1_01_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ wird häufig in Gesetzen, Verträgen und Behördenbriefen verwendet.",
+      "options": [
+        "Der Verbalstil",
+        "Der Nominalstil",
+        "Der Imperativ",
+        "Die indirekte Rede"
+      ],
+      "correctAnswer": "Der Nominalstil",
+      "explanation": "Nominalstil is common in legal and administrative texts because it sounds precise, objective, and timeless.",
+      "id": "c1_01_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie ins Verbale um: 'Bei Nichtbeachtung der Hinweise erfolgt der Ausschluss.'",
+      "options": [
+        "Wenn Sie die Hinweise nicht beachten, werden Sie ausgeschlossen.",
+        "Nichtbeachtung führt zum Ausschluss.",
+        "Bei Missachtung Ausschluss.",
+        "Ohne Beachtung Ausschluss."
+      ],
+      "correctAnswer": "Wenn Sie die Hinweise nicht beachten, werden Sie ausgeschlossen.",
+      "explanation": "Replaces the noun 'Nichtbeachtung' with the verb 'nicht beachten' and 'Ausschluss' with passive 'werden ausgeschlossen' — clear Verbalstil.",
+      "id": "c1_01_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortgruppe ist ein Signal für Nominalstil?",
+      "options": [
+        "weil, dass, obwohl",
+        "unter Berücksichtigung von, in Bezug auf",
+        "laufen, springen, denken",
+        "sehr, ziemlich, extrem"
+      ],
+      "correctAnswer": "unter Berücksichtigung von, in Bezug auf",
+      "explanation": "Prepositional phrases with nominalizations are typical Nominalstil signals. Conjunctions and verbs signal Verbalstil.",
+      "id": "c1_01_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ wirkt oft dichter, abstrakter und informationsverdichteter.",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Konjunktiv",
+        "Präteritum"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil packs information into noun phrases, making sentences denser and more abstract than Verbalstil.",
+      "id": "c1_01_q048"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie den Verbalstil durch Nominalstil: 'Weil er sich gut vorbereitet hat, bestand er die Prüfung.'",
+      "options": [
+        "Durch gute Vorbereitung bestand er die Prüfung.",
+        "Er bestand die Prüfung aufgrund seiner guten Vorbereitung.",
+        "Seine gute Vorbereitung führte zum Bestehen der Prüfung.",
+        "Alle drei Antworten sind nominale Umformungen."
+      ],
+      "correctAnswer": "Alle drei Antworten sind nominale Umformungen.",
+      "explanation": "All three replace the causal clause with noun-based structures: 'Durch gute Vorbereitung', 'aufgrund seiner guten Vorbereitung', 'Seine gute Vorbereitung'. All are valid Nominalstil transformations.",
+      "id": "c1_01_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält einen nominalisierten Infinitiv?",
+      "options": [
+        "Das Laufen fällt ihm leicht.",
+        "Er läuft jeden Tag.",
+        "Er ist am Laufen.",
+        "Beim Laufen denkt er nach."
+      ],
+      "correctAnswer": "Das Laufen fällt ihm leicht.",
+      "explanation": "'Das Laufen' is a nominalized infinitive (neutral article + verb infinitive capitalized) — characteristic Nominalstil.",
+      "id": "c1_01_q050"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vom Verbalstil zum Nominalstil: 'Die Firma stellt die Produktion ein, weil die Kosten gestiegen sind.'",
+      "options": [
+        "Die Firma stellt wegen gestiegener Kosten die Produktion ein.",
+        "Die Firma beendet die Produktion bei steigenden Kosten.",
+        "Die Einstellung der Produktion erfolgt aufgrund des Kostenanstiegs.",
+        "Kostensteigerung bedingt Produktionseinstellung."
+      ],
+      "correctAnswer": "Die Einstellung der Produktion erfolgt aufgrund des Kostenanstiegs.",
+      "explanation": "Fully nominalized: 'Einstellung' instead of 'stellt ein', 'Kostenanstiegs' instead of 'Kosten gestiegen sind', no finite verb in the causal clause.",
+      "id": "c1_01_q051"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage über Nominalstil ist falsch?",
+      "options": [
+        "Er verwendet viele Hauptwörter.",
+        "Er ist typisch für persönliche Briefe.",
+        "Er reduziert Nebensätze.",
+        "Er kommt oft in wissenschaftlichen Texten vor."
+      ],
+      "correctAnswer": "Er ist typisch für persönliche Briefe.",
+      "explanation": "Personal letters use Verbalstil (more verb-based, personal, dynamic). Nominalstil is typical of academic, official, and technical texts.",
+      "id": "c1_01_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie nominal: 'Bevor man eine Entscheidung trifft, sollte man alle Fakten prüfen.'",
+      "options": [
+        "Vor einer Entscheidungsfindung ist eine Faktenprüfung ratsam.",
+        "Man sollte vor Entscheidungen alle Fakten prüfen.",
+        "Prüfe Fakten vor Entscheidungen.",
+        "Vor dem Entscheiden sollte geprüft werden."
+      ],
+      "correctAnswer": "Vor einer Entscheidungsfindung ist eine Faktenprüfung ratsam.",
+      "explanation": "'Bevor man eine Entscheidung trifft' -> 'Vor einer Entscheidungsfindung'; 'alle Fakten prüfen' -> 'eine Faktenprüfung'. Full nominalization.",
+      "id": "c1_01_q053"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz steht im reinen Nominalstil?",
+      "options": [
+        "Der Antrag auf Verlängerung der Frist wurde abgelehnt.",
+        "Man lehnte den Antrag ab, die Frist zu verlängern.",
+        "Die Fristverlängerung wurde nicht genehmigt.",
+        "Sie haben den Verlängerungsantrag abgelehnt."
+      ],
+      "correctAnswer": "Die Fristverlängerung wurde nicht genehmigt.",
+      "explanation": "'Fristverlängerung' is a compound noun; no verb except passive 'wurde genehmigt' — highly nominalized.",
+      "id": "c1_01_q054"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ ist lebendiger, handlungsorientierter und persönlicher.",
+      "options": [
+        "Nominalstil",
+        "Verbalstil",
+        "Nominalisierung",
+        "Nominalphrase"
+      ],
+      "correctAnswer": "Verbalstil",
+      "explanation": "Verbalstil uses active verbs and personal forms, making texts more dynamic, vivid, and personal compared to Nominalstil.",
+      "id": "c1_01_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung ist falsch? Original: 'Weil das Wetter schlecht war, fiel das Spiel aus.'",
+      "options": [
+        "Wegen des schlechten Wetters fiel das Spiel aus.",
+        "Das Spiel fiel aufgrund der schlechten Wetterlage aus.",
+        "Das Ausfallen des Spiels geschah wegen dem schlechten Wetter.",
+        "Schlechtes Wetter verursachte Spielausfall."
+      ],
+      "correctAnswer": "Das Ausfallen des Spiels geschah wegen dem schlechten Wetter.",
+      "explanation": "'Wegen dem' is wrong — standard is 'wegen des' (Genitiv). Also 'geschah' with 'Ausfallen' is unnatural. This is the incorrect transformation.",
+      "id": "c1_01_q056"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Erkennen Sie den Stil: 'Nach Erhalt Ihrer Zahlung senden wir Ihnen die Ware zu.'",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Gemischter Stil",
+        "Imperativstil"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "'Nach Erhalt Ihrer Zahlung' is a nominal phrase (Erhalt + Genitive) instead of a temporal clause like 'Nachdem wir Ihre Zahlung erhalten haben'.",
+      "id": "c1_01_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vom Nominal- zum Verbalstil: 'Die sofortige Räumung des Gebäudes wurde angeordnet.'",
+      "options": [
+        "Man ordnete an, dass das Gebäude sofort geräumt werden soll.",
+        "Das Gebäude wurde sofort geräumt.",
+        "Die Anordnung der sofortigen Räumung erfolgte.",
+        "Es gab eine Räumungsanordnung."
+      ],
+      "correctAnswer": "Man ordnete an, dass das Gebäude sofort geräumt werden soll.",
+      "explanation": "Replaces 'Räumung' with 'geräumt werden' and 'Anordnung' with 'ordnete an' — clear Verbalstil with subordinate clause.",
+      "id": "c1_01_q058"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Signalwort leitet oft einen Nominalstil ein?",
+      "options": [
+        "dass",
+        "weil",
+        "aufgrund",
+        "bevor"
+      ],
+      "correctAnswer": "aufgrund",
+      "explanation": "'Aufgrund' is a preposition requiring a noun phrase (Genitiv), typical for Nominalstil. 'Dass', 'weil', 'bevor' introduce clauses with verbs.",
+      "id": "c1_01_q059"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Warum wird Nominalstil in wissenschaftlichen Arbeiten geschätzt?",
+      "options": [
+        "Er ist emotionaler.",
+        "Er ist subjektiver.",
+        "Er wirkt objektiver und abstrakter.",
+        "Er ist kürzer und einfacher."
+      ],
+      "correctAnswer": "Er wirkt objektiver und abstrakter.",
+      "explanation": "Nominalstil removes personal and temporal references, creating an objective, timeless tone — ideal for academic writing.",
+      "id": "c1_01_q060"
     }
   ]
 }
