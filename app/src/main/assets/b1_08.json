@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "subjectId": "b1_08",
+  "topicName": "Perfekt und Präteritum",
+  "level": "B1",
+  "totalQuestions": 20,
+  "description": "Perfekt und Präteritum — the two past tenses in German. Perfekt = haben/sein + Partizip II, used in spoken German and informal writing. Präteritum = simple past, preferred in formal written German (narratives, newspapers, literature). Key decisions: auxiliary choice (haben vs sein), Partizip II formation (weak/strong/mixed), register consistency (don't mix Perfekt and Präteritum in formal writing), Plusquamperfekt (haben/sein + Partizip II), and indirect speech with Konjunktiv I.",
+  "tips": [
+    "Perfekt vs Präteritum register: spoken/informal → Perfekt (Ich habe gemacht). Formal writing (narratives, newspapers) → Präteritum throughout (Ich machte). Never mix both in the same formal text.",
+    "Auxiliary choice: haben = transitive verbs, reflexive verbs, non-motion intransitive verbs (arbeiten, spielen, machen). sein = motion verbs (gehen, fahren), change of state (werden, sterben, einschlafen), verbs with geographical motion (reisen, wandern).",
+    "Partizip II: weak verbs → ge- + stem + -t (gemacht, gearbeitet). Strong verbs → ge- + irregular stem + -en (gegangen, getroffen). Mixed verbs → ge- + stem change + -t (gedacht, gekannt). inseparable prefix verbs → no ge- (besucht, verstanden, erzählt).",
+    "Plusquamperfekt: had done → war/sein + Partizip II. Used for past-before-past in narratives. After 'nachdem' → Plusquamperfekt in the earlier clause, simple past/Perfekt in the later clause.",
+    "Konjunktiv I in indirect speech: Perfekt K-I = habe/habe + Partizip II. Used after reporting verbs (sagte, berichtete, teilte mit) to express reported speech formally.",
+    "Als ob/as if → Konjunktiv II: Präteritum K-II (hätte, wäre, wüsste) for unreal present conditions. K-II Vergangenheit (hätte gemacht, wäre gegangen) for unreal past.",
+    "Passive in past tenses: Präteritum Passiv = wurde + Partizip II. Perfekt Passiv = ist + Partizip II + worden. Plusquamperfekt Passiv = war + Partizip II + worden.",
+    "'Kaum … als/da' → Plusquamperfekt in the kaum-clause, Präteritum in the main clause: Kaum war er eingeschlafen, begann es zu regnen.",
+    "Mixed auxiliaries in one sentence: When coordinating two verbs with different auxiliaries, use both: 'Er ist aufgestanden und hat das Zimmer verlassen.' Never use one auxiliary for both.",
+    "Strong vs weak Partizip II traps: erleiden → erlitten (NOT gelitten); beginnen → begonnen (NOT begonnen with ge-); verlassen → verlassen (no ge-); anrufen → angerufen."
+  ],
+  "questions": [
+    {
+      "id": "b1_08_q001",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ ich meinen alten Freund zufällig in der Stadt ____.",
+      "options": [
+        "habe / getroffen",
+        "bin / getroffen",
+        "habe / treffen",
+        "hatte / getroffen"
+      ],
+      "correctAnswer": "habe / getroffen",
+      "explanation": "'Treffen' (to meet) is a transitive verb taking a direct object — it uses 'haben' as its Perfekt auxiliary. Partizip II: 'getroffen' (strong verb, vowel change e→o). 'Bin' is incorrect because 'treffen' does not express motion or a change of state."
+    },
+    {
+      "id": "b1_08_q002",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Als Kind ____ wir jeden Sommer ans Meer ____.",
+      "options": [
+        "sind / gefahren",
+        "haben / gefahren",
+        "sind / fahren",
+        "wurden / gefahren"
+      ],
+      "correctAnswer": "sind / gefahren",
+      "explanation": "'Fahren' (to travel/drive) expresses directed motion → Perfekt auxiliary 'sein'. Partizip II: 'gefahren'. 'Haben / gefahren' is a common error. Note: 'wurden / gefahren' would be Vorgangspassiv Präteritum — a completely different construction."
+    },
+    {
+      "id": "b1_08_q003",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Roman ____ im 19. Jahrhundert und ____ die Geschichte einer adeligen Familie.",
+      "options": [
+        "erschien / erzählte",
+        "erschien / hat erzählt",
+        "ist erschienen / erzählte",
+        "erschien / erzählt"
+      ],
+      "correctAnswer": "erschien / erzählte",
+      "explanation": "In written narrative (literary/formal register), Präteritum is strongly preferred throughout: 'erschien' (Präteritum of 'erscheinen') and 'erzählte' (Präteritum of 'erzählen'). Mixing Präteritum and Perfekt within a narrative ('erschien / hat erzählt') is a register error typical of B2 candidates."
+    },
+    {
+      "id": "b1_08_q004",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ____ draußen gespielt, bis es dunkel ____.",
+      "options": [
+        "haben / wurde",
+        "sind / wurde",
+        "haben / war",
+        "haben / wurde"
+      ],
+      "correctAnswer": "haben / wurde",
+      "explanation": "'Spielen' is a non-motion verb → Perfekt with 'haben': 'haben … gespielt'. The second clause uses 'wurde' (Präteritum of 'werden') for the change of state (it got dark). Mixing Perfekt and Präteritum in spoken/informal German is acceptable; 'war' would imply a pre-existing state rather than a change."
+    },
+    {
+      "id": "b1_08_q005",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Letztes Jahr ____ sie ihren Job ____ und eine eigene Firma ____.",
+      "options": [
+        "hat / gekündigt / gegründet",
+        "ist / gekündigt / gegründet",
+        "hat / gekündigt / gründet",
+        "hat / kündigen / gründen"
+      ],
+      "correctAnswer": "hat / gekündigt / gegründet",
+      "explanation": "Both 'kündigen' and 'gründen' are weak transitive verbs → Perfekt with 'haben'. Partizip II: 'ge-' + stem + '-t': 'gekündigt', 'gegründet'. 'Ist' is incorrect for both verbs. Coordinating two past events with a single auxiliary ('hat … gekündigt und [hat] … gegründet') is standard B2 sentence structure."
+    },
+    {
+      "id": "b1_08_q006",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ____ plötzlich aufgestanden und ____ das Zimmer verlassen.",
+      "options": [
+        "ist / hat",
+        "hat / ist",
+        "ist / ist",
+        "hat / hat"
+      ],
+      "correctAnswer": "ist / hat",
+      "explanation": "'Aufstehen' = change of position → Perfekt with 'sein': 'ist aufgestanden'. 'Verlassen' = transitive verb with Akkusativ object ('das Zimmer') → Perfekt with 'haben': 'hat … verlassen'. Two different auxiliaries in one coordinated sentence is a classic B2 challenge."
+    },
+    {
+      "id": "b1_08_q007",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Konzert ____ drei Stunden und ____ alle Zuschauer begeistert.",
+      "options": [
+        "dauerte / begeisterte",
+        "hat gedauert / begeisterte",
+        "dauerte / hat begeistert",
+        "ist gedauert / hat begeistert"
+      ],
+      "correctAnswer": "dauerte / begeisterte",
+      "explanation": "For a formal written description of a completed event, Präteritum is preferred: 'dauerte' and 'begeisterte'. 'Dauern' never takes 'sein'; 'ist gedauert' is always wrong. Consistent use of Präteritum throughout a written account is a B2 register skill."
+    },
+    {
+      "id": "b1_08_q008",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie die Unterlagen ____ ____, schickte sie die E-Mail ab.",
+      "options": [
+        "hatte / geprüft",
+        "hat / geprüft",
+        "war / geprüft",
+        "hatte / geprüfen"
+      ],
+      "correctAnswer": "hatte / geprüft",
+      "explanation": "'Nachdem' with Plusquamperfekt expresses a completed action before another past action (Vorzeitigkeit). 'Prüfen' is transitive → auxiliary 'haben' → Plusquamperfekt: 'hatte geprüft'. The main clause uses Präteritum ('schickte … ab') — this Plusquamperfekt + Präteritum pairing after 'nachdem' is essential B2 grammar."
+    },
+    {
+      "id": "b1_08_q009",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Als wir ankamen, ____ die anderen Gäste bereits ____.",
+      "options": [
+        "waren / gegangen",
+        "haben / gegangen",
+        "sind / gegangen",
+        "hatten / gegangen"
+      ],
+      "correctAnswer": "waren / gegangen",
+      "explanation": "Plusquamperfekt expresses that the guests had already left before the speakers arrived. 'Gehen' = directed motion → auxiliary 'sein' → Plusquamperfekt: 'waren gegangen'. 'Hatten gegangen' is a common error — 'gehen' always uses 'sein', not 'haben'."
+    },
+    {
+      "id": "b1_08_q010",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ den ganzen Tag gearbeitet, aber er ____ nichts Produktives ____.",
+      "options": [
+        "hatte / hatte / geleistet",
+        "hat / hat / geleistet",
+        "hatte / hat / leisten",
+        "war / hatte / geleistet"
+      ],
+      "correctAnswer": "hatte / hatte / geleistet",
+      "explanation": "Both clauses are in Plusquamperfekt — describing two past actions that both occurred before the narrative reference point. 'Arbeiten' and 'leisten' are both transitive/non-motion verbs → 'haben' auxiliary → 'hatte … gearbeitet' and 'hatte … geleistet'. 'War' is wrong for 'arbeiten'."
+    },
+    {
+      "id": "b1_08_q011",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler ____ jahrelang an dem Projekt ____, bevor er endlich einen Durchbruch ____.",
+      "options": [
+        "hatte / gearbeitet / erzielte",
+        "hat / gearbeitet / erzielte",
+        "hatte / gearbeitet / erzielen",
+        "war / gearbeitet / erzielte"
+      ],
+      "correctAnswer": "hatte / gearbeitet / erzielte",
+      "explanation": "Plusquamperfekt ('hatte gearbeitet') for the action that preceded the breakthrough, then Präteritum ('erzielte') for the breakthrough itself. 'Arbeiten' uses 'haben' in Perfekt/Plusquamperfekt. This Plusquamperfekt + 'bevor' + Präteritum structure is a key B2 narrative pattern."
+    },
+    {
+      "id": "b1_08_q012",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen ____ gescheitert, weil keine der Parteien ____ nachgeben ____.",
+      "options": [
+        "waren / wollte / –",
+        "haben / wollten / –",
+        "sind / wollte / –",
+        "waren / hatte / wollen"
+      ],
+      "correctAnswer": "waren / wollte / –",
+      "explanation": "'Scheitern' is an intransitive verb expressing a change of state → Perfekt/Plusquamperfekt with 'sein': 'waren gescheitert'. 'Die Verhandlungen' are plural but the subject of the 'weil'-clause is 'keine der Parteien' (singular — none of the parties) → 'wollte' (singular). No extra element after 'wollen' in simple past context."
+    },
+    {
+      "id": "b1_08_q013",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ erst ____, nachdem sie ihre Eltern noch einmal ____ ____.",
+      "options": [
+        "ist / abgereist / hatte / angerufen",
+        "hat / abgereist / hatte / angerufen",
+        "ist / abgereist / hat / angerufen",
+        "war / abgereist / hatte / angerufen"
+      ],
+      "correctAnswer": "ist / abgereist / hatte / angerufen",
+      "explanation": "Main clause: Perfekt of 'abreisen' (change of location → 'sein'): 'ist abgereist'. Subordinate 'nachdem'-clause: Plusquamperfekt of 'anrufen' (transitive → 'haben'): 'hatte angerufen'. The sequence: calling happened first (Plusquamperfekt), departure happened after (Perfekt). This mixed Perfekt/Plusquamperfekt with 'nachdem' is standard B2."
+    },
+    {
+      "id": "b1_08_q014",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen ____ im letzten Quartal erhebliche Verluste ____ und ____ daraufhin mehrere Mitarbeiter ____.",
+      "options": [
+        "hatte / erlitten / hatte / entlassen",
+        "hat / erlitten / hat / entlassen",
+        "hatte / gelitten / hatte / entlassen",
+        "ist / erlitten / hat / entlassen"
+      ],
+      "correctAnswer": "hatte / erlitten / hatte / entlassen",
+      "explanation": "Both verbs in Plusquamperfekt for background narrative context. 'Erleiden' (to suffer/incur) is a strong verb: Partizip II 'erlitten' (not 'gelitten' — that's 'leiden'). 'Entlassen' is a strong verb with inseparable prefix: Partizip II 'entlassen' (no 'ge-'). Both use 'haben'. Distinguishing 'erleiden' vs. 'leiden' is a precise B2 vocabulary-grammar intersection."
+    },
+    {
+      "id": "b1_08_q015",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Kaum ____ die Sitzung ____, ____ sich ein heftiger Streit ____.",
+      "options": [
+        "hatte / begonnen / entwickelte / –",
+        "war / begonnen / entwickelte / –",
+        "hatte / begonnen / entwickelt / –",
+        "hatte / begonnen / hatte / entwickelt"
+      ],
+      "correctAnswer": "hatte / begonnen / entwickelte / –",
+      "explanation": "'Kaum … als/da' (scarcely … when) triggers Plusquamperfekt in the 'kaum'-clause and Präteritum in the main clause. 'Beginnen' = intransitive change of state → 'sein' might seem right, but 'beginnen' can use 'haben' when no object is present AND in written/narrative register. Here 'hatte begonnen' is the established written-register form. 'Entwickeln' (reflexive) → Präteritum: 'entwickelte sich'."
+    },
+    {
+      "id": "b1_08_q016",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Obwohl er ____ ____, dass etwas schiefgelaufen ____, schwieg er.",
+      "options": [
+        "hatte / bemerkt / war",
+        "hat / bemerkt / ist",
+        "hatte / bemerken / war",
+        "war / bemerkt / hatte"
+      ],
+      "correctAnswer": "hatte / bemerkt / war",
+      "explanation": "Main clause Präteritum ('schwieg') with embedded Plusquamperfekt subordinate clauses. 'Bemerken' is transitive → 'haben': 'hatte bemerkt'. 'Schiefgehen' = motion/change of state → 'sein': 'war schiefgelaufen'. The entire 'obwohl'-clause is set before 'schwieg', so Plusquamperfekt is correct for both embedded verbs."
+    },
+    {
+      "id": "b1_08_q017",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge berichtete, er ____ den Verdächtigen noch nie zuvor ____ und ____ ihn auch an jenem Abend nicht ____.",
+      "options": [
+        "hatte / gesehen / hatte / gekannt",
+        "habe / gesehen / habe / gekannt",
+        "hätte / gesehen / hätte / gekannt",
+        "hatte / sehen / hatte / kennen"
+      ],
+      "correctAnswer": "habe / gesehen / habe / gekannt",
+      "explanation": "Indirect speech (indirekte Rede) with a past-tense reporting verb ('berichtete'). Despite the past reporting verb, Konjunktiv I is used in formal written indirect speech: 'habe gesehen' and 'habe gekannt' (K-I Perfekt). 'Hätte' would be K-II — only used when K-I is identical to indicative. This K-I Perfekt in indirect speech is a critical B2 written register skill."
+    },
+    {
+      "id": "b1_08_q018",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Seitdem das Gesetz ____ ____, ____ die Anzahl der Beschwerden stetig ____.",
+      "options": [
+        "war / eingeführt worden / ist / gestiegen",
+        "wurde / eingeführt / ist / gestiegen",
+        "war / eingeführt worden / hat / gestiegen",
+        "ist / eingeführt worden / ist / gestiegen"
+      ],
+      "correctAnswer": "war / eingeführt worden / ist / gestiegen",
+      "explanation": "'Seitdem' with Plusquamperfekt Passiv in the subordinate clause ('war eingeführt worden') and Perfekt in the main clause ('ist gestiegen') — 'seitdem' with Plusquamperfekt + Perfekt expresses that since a completed past event, an ongoing result has followed. 'Steigen' = change of state → 'sein'. Passive Plusquamperfekt: 'war + Partizip II + worden' (not 'geworden')."
+    },
+    {
+      "id": "b1_08_q019",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er tat so, als ob er nichts ____ ____ und als ob man ihn zu Unrecht ____.",
+      "options": [
+        "hätte / gewusst / beschuldigte",
+        "hätte / gewusst / beschuldigte",
+        "hatte / gewusst / beschuldigte",
+        "habe / gewusst / beschuldigte"
+      ],
+      "correctAnswer": "hätte / gewusst / beschuldigte",
+      "explanation": "'Als ob' requires Konjunktiv II. K-II Vergangenheit of 'wissen': 'hätte gewusst' (wissen = mixed verb: Partizip II 'gewusst'). The second 'als ob'-clause uses Präteritum indicative 'beschuldigte' — in colloquial usage, the second parallel clause can drop the K-II marker when the unreal framing is already established. This nuanced register choice is B2+ awareness."
+    },
+    {
+      "id": "b1_08_q020",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Erst als man ____ ____, dass alle Möglichkeiten ____ ____ ____, ____ man bereit, über einen Kompromiss nachzudenken.",
+      "options": [
+        "hatte / erkannt / ausgeschöpft worden waren / war",
+        "hat / erkannt / ausgeschöpft worden sind / ist",
+        "hatte / erkennen / ausgeschöpft worden waren / war",
+        "hatte / erkannt / ausgeschöpft worden wären / war"
+      ],
+      "correctAnswer": "hatte / erkannt / ausgeschöpft worden waren / war",
+      "explanation": "Complex nested Plusquamperfekt: 'hatte erkannt' (Plusquamperfekt of 'erkennen', transitive → haben). The embedded 'dass'-clause contains Plusquamperfekt Passiv: 'ausgeschöpft worden waren' (sein + Partizip II + worden — passive Plusquamperfekt). Main clause: 'war … bereit' (Präteritum of 'sein'). Three temporal layers: readiness (Präteritum) ← recognizing (Plusquamperfekt) ← options being exhausted (Passive Plusquamperfekt, even further back). This is the highest-complexity B2 past tense structure."
+    }
+  ]
+}
