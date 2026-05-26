@@ -1,0 +1,302 @@
+{
+  "version": "1.0",
+  "subjectId": "b1_05",
+  "topicName": "Nominalisierung",
+  "level": "B1",
+  "totalQuestions": 20,
+  "description": "Nominalisierung (nominalization) is the process of converting verbs, adjectives, and other word classes into nouns in German. This includes: nominalized infinitives (das Lesen), -ung nouns (die Lösung), -heit/-keit nouns (die Freiheit/die MögLichkeit), -tion/-sion nouns (die Organisation), and adjective nominalizations (das Neue, der Bekannte). Key skills: choosing the correct article/gender, forming compound nouns, using nominalizations in formal written register, and applying the correct case (Genitiv/Dativ) after prepositions.",
+  "tips": [
+    "Nominalized infinitive: das + Verb stem + -en → das Lesen, das Schreiben, das Analysieren. Always neuter (das), always singular.",
+    "-ung suffix: verb → feminine noun → die Lösung (from lösen), die Einstellung (from einstellen), die Verlängerung (from verlängern). Strongly preferred in formal/business German.",
+    "-heit suffix: adjective → feminine noun → die Freiheit (frei), die Gesundheit (gesund), die Möglichkeit (möglich). Used for abstract concepts.",
+    "-keit suffix: adjective → feminine noun → die Möglichkeit (möglich), die Einsamkeit (einsam). Similar to -heit, often used with adjectives ending in -lich, -ig, -sam.",
+    "Genitiv after prepositions: 'trotz' (Genitiv) → trotz der Niederlage; 'wegen' (Genitiv) → wegen der Verzögerung; 'statt' (Genitiv) → statt des Streitens.",
+    "Preposition + nominalized infinitive phrase: statt des Aufgebens (Genitiv preposition + nominalized infinitive in Genitiv). Compare: statt aufzugeben (infinitive clause — also correct).",
+    "Two coordinated nominalizations: das Erkennen und Lösen (both nominative, shared 'das'). When dependent on Genitiv preposition: des Erkennens und Lösens.",
+    "Adjective before nominalized infinitive: das rasche Reagieren — adjective takes weak declension after 'das' → -e ending.",
+    "Genitiv complement after nouns: die Notwendigkeit der Modernisierung, die Bedeutung des nachhaltigen Wirtschaftens. Adjective takes Genitiv weak ending -en.",
+    "Im Hinblick auf + Akkusativ: das vermehrte Auftreten (Akkusativ neuter -e weak ending) + Genitiv dependent noun: resistenter Keime."
+  ],
+  "questions": [
+    {
+      "id": "b1_05_q001",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ der Aufgabe hat länger gedauert als erwartet.",
+      "options": [
+        "Lösen",
+        "Löserei",
+        "Gelöstheit",
+        "Lösung"
+      ],
+      "correctAnswer": "Lösen",
+      "explanation": "The nominalized infinitive 'das Lösen' (the solving) is a neuter noun formed directly from the verb 'lösen'. It refers to the process/act of solving. 'Lösung' means the result/solution, not the act — which changes the meaning here."
+    },
+    {
+      "id": "b1_05_q002",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Statt ____ könnte man auch einen Kompromiss finden.",
+      "options": [
+        "zu streiten",
+        "des Streitens",
+        "der Streit",
+        "dem Streiten"
+      ],
+      "correctAnswer": "des Streitens",
+      "explanation": "'Statt' (instead of) is a preposition that governs the Genitiv case. The nominalized infinitive 'das Streiten' → Genitiv: 'des Streitens'. 'zu streiten' is an infinitive clause, not a nominalization, and cannot follow 'statt' directly."
+    },
+    {
+      "id": "b1_05_q003",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der neuen Mitarbeiter findet nächste Woche statt.",
+      "options": [
+        "Einstellerei",
+        "Eingestellt",
+        "Einstellung",
+        "Einstellen"
+      ],
+      "correctAnswer": "Einstellung",
+      "explanation": "'Die Einstellung' is the standard nominalization of 'einstellen' using the suffix '-ung' (feminine). In formal/business German, '-ung' nominalizations are preferred over infinitive nominalizations. Here it refers to the hiring/onboarding event."
+    },
+    {
+      "id": "b1_05_q004",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ der Kinder im Park macht Freude.",
+      "options": [
+        "Gelache",
+        "Lachen",
+        "Gelächter",
+        "Lächeln"
+      ],
+      "correctAnswer": "Lachen",
+      "explanation": "The nominalized infinitive 'das Lachen' (the laughing/laughter) refers to the general act or sound of laughing. 'Gelächter' is also a valid noun but means loud/burst of laughter and changes the nuance. 'Gelache' (with Ge- prefix) can carry a negative connotation."
+    },
+    {
+      "id": "b1_05_q005",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Trotz ____ blieb das Team motiviert.",
+      "options": [
+        "der Niederlage",
+        "die Niederlage",
+        "der Niederlagen",
+        "dem Verlieren"
+      ],
+      "correctAnswer": "der Niederlage",
+      "explanation": "'Trotz' (despite) governs the Genitiv case. 'Die Niederlage' (the defeat) → Genitiv singular: 'der Niederlage'. 'dem Verlieren' uses Dativ, which is incorrect after 'trotz' in standard written German."
+    },
+    {
+      "id": "b1_05_q006",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ von Daten ist in vielen Berufen unverzichtbar.",
+      "options": [
+        "Analysierung",
+        "Analysieren",
+        "Analyse",
+        "Analytik"
+      ],
+      "correctAnswer": "Analysieren",
+      "explanation": "The nominalized infinitive 'das Analysieren' (the analyzing) describes the ongoing process. 'Analysierung' is not a standard German word. 'Analyse' is a valid noun but means the analysis (result), not the act of analyzing."
+    },
+    {
+      "id": "b1_05_q007",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Vertrags wurde von beiden Seiten unterzeichnet.",
+      "options": [
+        "Verlängerung",
+        "Verlängern",
+        "Verlängerei",
+        "Verlängernis"
+      ],
+      "correctAnswer": "Verlängerung",
+      "explanation": "'Die Verlängerung' (the extension/renewal) is the standard '-ung' nominalization of 'verlängern'. In formal written German, '-ung' nominalizations are strongly preferred in bureaucratic and legal contexts. '-nis' and '-ei' are not used with this verb."
+    },
+    {
+      "id": "b1_05_q008",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wegen ____ des Projekts mussten alle Pläne verschoben werden.",
+      "options": [
+        "der Verzögerung",
+        "die Verzögerung",
+        "dem Verzögern",
+        "das Verzögern"
+      ],
+      "correctAnswer": "der Verzögerung",
+      "explanation": "'Wegen' (because of) governs Genitiv. 'Die Verzögerung' → Genitiv: 'der Verzögerung'. The phrase 'wegen des Projekts' is already in Genitiv; the nominalization must also be in Genitiv. 'dem Verzögern' uses Dativ — incorrect after 'wegen' in written German."
+    },
+    {
+      "id": "b1_05_q009",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ____ der Aufgaben an die Teammitglieder ist eine wichtige Führungskompetenz.",
+      "options": [
+        "Delegierung",
+        "Delegieren",
+        "Delegation",
+        "Delegat"
+      ],
+      "correctAnswer": "Delegation",
+      "explanation": "'Die Delegation' is the preferred nominalization in the management/business register for 'delegieren'. While 'das Delegieren' is grammatically correct, 'Delegation' is the established noun used in formal contexts. 'Delegierung' is non-standard and rarely used."
+    },
+    {
+      "id": "b1_05_q010",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Durch ____ konnte das Unternehmen seine Kosten erheblich senken.",
+      "options": [
+        "das Optimieren der Prozesse",
+        "die Optimiererei der Prozesse",
+        "optimierende Prozesse",
+        "optimiert die Prozesse"
+      ],
+      "correctAnswer": "das Optimieren der Prozesse",
+      "explanation": "'Durch' (through/by) requires a noun phrase. 'Das Optimieren der Prozesse' is a nominalized infinitive phrase acting as the object of 'durch'. This structure (Präposition + nominalized infinitive + Genitiv object) is a key B2 written-register pattern."
+    },
+    {
+      "id": "b1_05_q011",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Anstatt ____ schlug er eine alternative Lösung vor.",
+      "options": [
+        "des Aufgebens",
+        "aufzugeben",
+        "dem Aufgeben",
+        "das Aufgeben"
+      ],
+      "correctAnswer": "des Aufgebens",
+      "explanation": "'Anstatt' (instead of) is a Genitiv preposition. The nominalized infinitive 'das Aufgeben' → Genitiv: 'des Aufgebens'. Note: 'anstatt aufzugeben' (with infinitive clause) is also correct German, but the question asks for the nominalization form."
+    },
+    {
+      "id": "b1_05_q012",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ____ und ____ von Konflikten gehört zu den wichtigsten Managementfähigkeiten.",
+      "options": [
+        "Erkennen / Lösen",
+        "Erkennens / Lösens",
+        "Erkennung / Lösung",
+        "Erkannt / Gelöst"
+      ],
+      "correctAnswer": "Erkennen / Lösen",
+      "explanation": "When two nominalized infinitives are coordinated as subject with 'und', they both take the nominative form: 'das Erkennen und Lösen'. Only the first 'das' is needed. Genitiv forms ('Erkennens/Lösens') would be needed after a Genitiv preposition, not as subject."
+    },
+    {
+      "id": "b1_05_q013",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im Bericht wird auf die Notwendigkeit ____ der Infrastruktur hingewiesen.",
+      "options": [
+        "der Modernisierung",
+        "des Modernisierens",
+        "zu modernisieren",
+        "modernisiert"
+      ],
+      "correctAnswer": "der Modernisierung",
+      "explanation": "After 'die Notwendigkeit' (the necessity), a Genitiv complement is required. 'Die Modernisierung' (modernization) → Genitiv: 'der Modernisierung'. The '-ung' form is standard in formal/official language. 'des Modernisierens' is grammatically possible but marked as colloquial."
+    },
+    {
+      "id": "b1_05_q014",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das rasche ____ auf Krisen ist entscheidend für den Erfolg von Einsatzkräften.",
+      "options": [
+        "Reagieren",
+        "Reaktion",
+        "Reagierung",
+        "Reaktionär"
+      ],
+      "correctAnswer": "Reagieren",
+      "explanation": "'Das rasche Reagieren' (the rapid reacting) uses a nominalized infinitive modified by an adjective ('rasche'). The adjective takes weak declension after 'das' → 'rasch-e'. 'Reaktion' is also a valid noun but 'rasche Reaktion' would need 'die', not 'das', changing the article."
+    },
+    {
+      "id": "b1_05_q015",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Trotz aller Bemühungen scheiterte ____ eines gemeinsamen Kompromisses.",
+      "options": [
+        "das Finden",
+        "die Findung",
+        "dem Finden",
+        "des Findens"
+      ],
+      "correctAnswer": "das Finden",
+      "explanation": "'Scheiterte' (failed) requires a nominative subject. 'Das Finden eines gemeinsamen Kompromisses' acts as the subject of the sentence. The nominalized infinitive 'das Finden' is nominative. 'des Findens' is Genitiv and cannot be the subject."
+    },
+    {
+      "id": "b1_05_q016",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Vorstand betonte die Bedeutung ____ in allen Bereichen des Unternehmens.",
+      "options": [
+        "des nachhaltigen Wirtschaftens",
+        "nachhaltig wirtschaften",
+        "das nachhaltige Wirtschaften",
+        "nachhaltiger Wirtschaftung"
+      ],
+      "correctAnswer": "des nachhaltigen Wirtschaftens",
+      "explanation": "'Die Bedeutung' (the significance) takes a Genitiv complement. Nominalized infinitive in Genitiv: 'des + adjective (Genitiv weak: -en) + Verb-en + -s' → 'des nachhaltigen Wirtschaftens'. The adjective 'nachhaltig' takes the Genitiv weak ending '-en' after the definite article 'des'."
+    },
+    {
+      "id": "b1_05_q017",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Durch ____ wurden erhebliche Fortschritte in der Forschung erzielt.",
+      "options": [
+        "das konsequente Vorantreiben interdisziplinärer Zusammenarbeit",
+        "konsequentes Vorantreiben der interdisziplinären Zusammenarbeit",
+        "konsequent voranzutreiben interdisziplinäre Zusammenarbeit",
+        "die konsequente Vorantreibung interdisziplinärer Zusammenarbeit"
+      ],
+      "correctAnswer": "das konsequente Vorantreiben interdisziplinärer Zusammenarbeit",
+      "explanation": "After 'durch' (Akkusativ), the nominalized infinitive takes 'das' + adjective weak ending (-e in Akkusativ neuter): 'das konsequente Vorantreiben'. The dependent noun 'Zusammenarbeit' becomes Genitiv: 'interdisziplinärer Zusammenarbeit'. 'Vorantreibung' is not a standard German word."
+    },
+    {
+      "id": "b1_05_q018",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Im Hinblick auf ____ wurden neue Richtlinien erlassen.",
+      "options": [
+        "das vermehrte Auftreten resistenter Keime",
+        "dem vermehrten Auftreten resistenter Keime",
+        "des vermehrten Auftretens resistenter Keime",
+        "die vermehrte Auftrittshäufigkeit resistenter Keime"
+      ],
+      "correctAnswer": "das vermehrte Auftreten resistenter Keime",
+      "explanation": "'Im Hinblick auf' (with regard to) governs Akkusativ. Nominalized infinitive: 'das + adjective (Akk. neuter weak: -e) + Infinitiv' → 'das vermehrte Auftreten'. Dependent noun 'Keime' → Genitiv: 'resistenter Keime'. 'des Auftretens' would be Genitiv, not Akkusativ."
+    },
+    {
+      "id": "b1_05_q019",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Herausforderung besteht im ____ unterschiedlicher Interessen ohne Qualitätsverlust.",
+      "options": [
+        "Ausbalancieren",
+        "Ausbalancierung",
+        "ausbalancierten",
+        "Ausbalanciertheit"
+      ],
+      "correctAnswer": "Ausbalancieren",
+      "explanation": "'Im' = 'in + dem' (Dativ). Nominalized infinitive in Dativ: 'im + Infinitiv (no article change for neuter Dativ in this fixed 'im + Nominalisierung' construction)' → 'im Ausbalancieren'. This is a high-frequency B2 formal pattern: 'bestehen in + Dativ nominalized infinitive'. '-ierung' and '-heit' suffixes are non-standard here."
+    },
+    {
+      "id": "b1_05_q020",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Obwohl man sich ____ des Problems bewusst war, fehlte es an konkreten Maßnahmen.",
+      "options": [
+        "der Komplexität",
+        "die Komplexität",
+        "dem Komplex",
+        "das Komplexe"
+      ],
+      "correctAnswer": "der Komplexität",
+      "explanation": "'Sich bewusst sein' (to be aware of) takes a Genitiv object. The nominalization 'die Komplexität' (complexity) — formed from the adjective 'komplex' with the suffix '-ität' (a productive B2+ nominalization pattern) — becomes Genitiv: 'der Komplexität'. The '-ität' suffix always produces feminine nouns."
+    }
+  ]
+}
