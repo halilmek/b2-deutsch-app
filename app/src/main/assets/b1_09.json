@@ -3,7 +3,7 @@
   "subjectId": "b1_09",
   "topicName": "Verben mit festen Präpositionen",
   "level": "B1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Verbs with fixed prepositions in German — selecting the correct preposition and case, forming prepositional objects with da(r)- compounds, using wo(r)- question forms, and applying these structures in complex sentence contexts including subordinate clauses and indirect speech.",
   "tips": [
     "Common verb-preposition combinations with Akkusativ: sich freuen auf (look forward to), hoffen auf, sich bewerben um, sich erinnern an, denken an, bestehen auf (Dativ), reagieren auf, sich konzentrieren auf, verzichten auf.",
@@ -576,6 +576,286 @@
       "correctAnswer": "mit",
       "explanation": "'Zögern mit' (+ Dativ) = to delay/hesitate with an action. 'Mit dem Abschluss des Vertrages zögern' means to delay concluding the contract. Same as question 164.",
       "id": "b1_09_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Viele Studenten interessieren sich ____ künstliche Intelligenz.",
+      "options": [
+        "für",
+        "an",
+        "über",
+        "auf"
+      ],
+      "correctAnswer": "für",
+      "explanation": "'Sich interessieren für' (+ Akkusativ) = to be interested in something. 'Für' is the fixed preposition with this verb.",
+      "id": "b1_09_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich lange ____ seine Prüfung vorbereitet.",
+      "options": [
+        "für",
+        "auf",
+        "über",
+        "an"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Sich vorbereiten auf' (+ Akkusativ) = to prepare for something. 'Auf seine Prüfung vorbereiten' — the exam is the target of preparation.",
+      "id": "b1_09_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter beschwerten sich ____ die schlechten Arbeitsbedingungen.",
+      "options": [
+        "für",
+        "gegen",
+        "über",
+        "an"
+      ],
+      "correctAnswer": "über",
+      "explanation": "'Sich beschweren über' (+ Akkusativ) = to complain about something. Note: 'sich beschweren bei' (+ Dativ) for the person: 'sich beim Chef beschweren'.",
+      "id": "b1_09_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Kannst du dich noch ____ unseren ersten Urlaub erinnern?",
+      "options": [
+        "an",
+        "auf",
+        "für",
+        "mit"
+      ],
+      "correctAnswer": "an",
+      "explanation": "'Sich erinnern an' (+ Akkusativ) = to remember something. 'An unseren ersten Urlaub' — the thing remembered takes Akkusativ.",
+      "id": "b1_09_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wir warten schon seit einer Stunde ____ den Zug.",
+      "options": [
+        "an",
+        "auf",
+        "für",
+        "über"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Warten auf' (+ Akkusativ) = to wait for something. 'Auf den Zug warten' — the train is the awaited object.",
+      "id": "b1_09_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er träumt schon lange ____ einem Leben am Meer.",
+      "options": [
+        "an",
+        "für",
+        "von",
+        "über"
+      ],
+      "correctAnswer": "von",
+      "explanation": "'Träumen von' (+ Dativ) = to dream of/about something. The longing is directed toward a life by the sea — 'von einem Leben am Meer'.",
+      "id": "b1_09_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftler arbeiten derzeit ____ einer neuen Methode.",
+      "options": [
+        "auf",
+        "an",
+        "für",
+        "gegen"
+      ],
+      "correctAnswer": "an",
+      "explanation": "'Arbeiten an' (+ Dativ) = to work on / be working on something. 'An einer neuen Methode arbeiten' — the method is the object of ongoing work.",
+      "id": "b1_09_q047"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Niemand hat ____ den plötzlichen Erfolg gerechnet.",
+      "options": [
+        "an",
+        "mit",
+        "über",
+        "auf"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "'Mit etwas rechnen' (+ Dativ) = to expect / reckon with something. 'Mit dem Erfolg rechnen' means to anticipate/expect success.",
+      "id": "b1_09_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie zweifelt ____ der Ehrlichkeit ihres Kollegen.",
+      "options": [
+        "für",
+        "an",
+        "mit",
+        "über"
+      ],
+      "correctAnswer": "an",
+      "explanation": "'Zweifeln an' (+ Dativ) = to doubt something. 'An der Ehrlichkeit zweifeln' — unlike 'sich erinnern an' which takes Akkusativ, 'zweifeln an' takes Dativ.",
+      "id": "b1_09_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Professor wies ____ die Bedeutung genauer Datenanalyse hin.",
+      "options": [
+        "auf",
+        "an",
+        "über",
+        "für"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Hinweisen auf' (+ Akkusativ) = to point to / draw attention to. The separable verb 'hinweisen' (wies hin → hat hingewiesen) takes 'auf'.",
+      "id": "b1_09_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Viele junge Menschen leiden heutzutage ____ Stress.",
+      "options": [
+        "über",
+        "an",
+        "unter",
+        "für"
+      ],
+      "correctAnswer": "unter",
+      "explanation": "'Leiden unter' (+ Dativ) = to suffer from / under something negative. 'Unter Stress leiden' — stress as an ongoing burden.",
+      "id": "b1_09_q051"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Kunden protestierten ____ die Preiserhöhung.",
+      "options": [
+        "gegen",
+        "für",
+        "an",
+        "über"
+      ],
+      "correctAnswer": "gegen",
+      "explanation": "'Protestieren gegen' (+ Akkusativ) = to protest against something. The opposition is directed against the price increase.",
+      "id": "b1_09_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er verfügt ____ ausgezeichnete Sprachkenntnisse.",
+      "options": [
+        "an",
+        "über",
+        "für",
+        "mit"
+      ],
+      "correctAnswer": "über",
+      "explanation": "'Verfügen über' (+ Akkusativ) = to have / possess something (skills, resources). 'Über ausgezeichnete Sprachkenntnisse verfügen' — to possess excellent language skills.",
+      "id": "b1_09_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Journalistin beschäftigte sich intensiv ____ den politischen Entwicklungen.",
+      "options": [
+        "für",
+        "mit",
+        "an",
+        "über"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "'Sich beschäftigen mit' (+ Dativ) = to deal with / occupy oneself with a topic. 'Sich mit den politischen Entwicklungen beschäftigen' — the topic of study.",
+      "id": "b1_09_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Viele Experten warnen ____ den Folgen des Klimawandels.",
+      "options": [
+        "vor",
+        "gegen",
+        "an",
+        "für"
+      ],
+      "correctAnswer": "vor",
+      "explanation": "'Warnen vor' (+ Dativ) = to warn against / about something dangerous. 'Vor den Folgen des Klimawandels warnen' — warning about the consequences.",
+      "id": "b1_09_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie konnte sich nicht ____ die neuen Arbeitszeiten gewöhnen.",
+      "options": [
+        "an",
+        "auf",
+        "für",
+        "mit"
+      ],
+      "correctAnswer": "an",
+      "explanation": "'Sich gewöhnen an' (+ Akkusativ) = to get used to something. The new working hours are the target of adaptation.",
+      "id": "b1_09_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Autor setzte sich kritisch ____ der modernen Gesellschaft auseinander.",
+      "options": [
+        "mit",
+        "über",
+        "für",
+        "gegen"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "'Sich auseinandersetzen mit' (+ Dativ) = to engage critically with / examine closely. 'Sich kritisch mit der modernen Gesellschaft auseinandersetzen' — examining society in depth.",
+      "id": "b1_09_q057"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer baten ____ weitere Informationen zum Projekt.",
+      "options": [
+        "für",
+        "um",
+        "an",
+        "über"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Bitten um' (+ Akkusativ) = to ask for something. 'Um weitere Informationen bitten' — the thing asked for takes Akkusativ.",
+      "id": "b1_09_q058"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er entschuldigte sich ____ sein unhöfliches Verhalten.",
+      "options": [
+        "für",
+        "gegen",
+        "an",
+        "mit"
+      ],
+      "correctAnswer": "für",
+      "explanation": "'Sich entschuldigen für' (+ Akkusativ) = to apologize for something. The behavior is the reason for the apology.",
+      "id": "b1_09_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher konzentrieren sich derzeit ____ erneuerbare Energien.",
+      "options": [
+        "auf",
+        "an",
+        "für",
+        "über"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "'Sich konzentrieren auf' (+ Akkusativ) = to focus on something. 'Sich auf erneuerbare Energien konzentrieren' — renewable energy as the focus of research.",
+      "id": "b1_09_q060"
     }
   ]
 }
