@@ -3,7 +3,7 @@
   "subjectId": "b1_07",
   "topicName": "Konnektoren",
   "level": "B1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Konnektoren (connectors) are words and phrases that link clauses and sentences. They include coordinating conjunctions (und, aber, oder, denn, sondern), subordinating conjunctions (weil, obwohl, damit, bevor), adverbial connectors (deshalb, trotzdem, jednak, außerdem), and two-part connectors (einerseits/andererseits, zwar/aber, sowohl/als auch). B2 level requires precision in choosing the semantically correct connector and mastering the word order effects each type triggers.",
   "tips": [
     "Subordinating conjunctions (weil, obwohl, damit, bevor, nachdem, während) → verb goes to the END of the clause (verb-final). Coordinating conjunctions (und, aber, oder, denn, sondern) → normal word order in the following clause.",
@@ -817,6 +817,266 @@
       "explanation": "'Nachdem' introduces an action completed before another past action — after reading the documents thoroughly, he signed the contract.",
       "difficulty": "hard",
       "id": "b1_07_q060"
+    },
+    {
+      "questionText": "Er hat lange studiert, ____ hat er die Prüfung nicht bestanden.",
+      "options": [
+        "trotzdem",
+        "obwohl",
+        "weil",
+        "denn"
+      ],
+      "correctAnswer": "trotzdem",
+      "explanation": "Trotzdem is a conjunctive adverb (position 0 or 1) meaning 'nevertheless'. It contrasts two main clauses. Obwohl would require subordinate clause word order.",
+      "difficulty": "medium",
+      "id": "b1_07_q061"
+    },
+    {
+      "questionText": "____ er krank war, kam er zur Arbeit.",
+      "options": [
+        "Trotzdem",
+        "Obwohl",
+        "Weil",
+        "Denn"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl introduces a subordinate clause (verb at the end) meaning 'although'.",
+      "difficulty": "easy",
+      "id": "b1_07_q062"
+    },
+    {
+      "questionText": "Ich helfe dir, ____ du mir später auch hilfst.",
+      "options": [
+        "wenn",
+        "als",
+        "sofern",
+        "obwohl"
+      ],
+      "correctAnswer": "sofern",
+      "explanation": "Sofern means 'provided that' and introduces a conditional subordinate clause. It is more formal than 'wenn' for conditions.",
+      "difficulty": "hard",
+      "id": "b1_07_q063"
+    },
+    {
+      "questionText": "____ du dich beeilst, wirst du den Zug verpassen.",
+      "options": [
+        "Selbst wenn",
+        "Wenn",
+        "Falls",
+        "Sofern"
+      ],
+      "correctAnswer": "Selbst wenn",
+      "explanation": "Selbst wenn means 'even if' and expresses a strong concession. The main clause is negative (verpassen).",
+      "difficulty": "hard",
+      "id": "b1_07_q064"
+    },
+    {
+      "questionText": "Sie hat den Job bekommen, ____ sie wenig Berufserfahrung hat.",
+      "options": [
+        "trotz",
+        "trotzdem",
+        "obwohl",
+        "nämlich"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces a subordinate clause (verb at end: hat) meaning 'although'.",
+      "difficulty": "easy",
+      "id": "b1_07_q065"
+    },
+    {
+      "questionText": "Er ist nicht nur intelligent, ____ auch sehr fleißig.",
+      "options": [
+        "aber",
+        "sondern",
+        "denn",
+        "doch"
+      ],
+      "correctAnswer": "sondern",
+      "explanation": "Sondern is used after a negative clause (nicht nur) to introduce a contrasting positive addition: 'but rather'.",
+      "difficulty": "medium",
+      "id": "b1_07_q066"
+    },
+    {
+      "questionText": "Ich möchte Deutsch lernen, ____ ich in Berlin studieren will.",
+      "options": [
+        "denn",
+        "weil",
+        "nämlich",
+        "deshalb"
+      ],
+      "correctAnswer": "denn",
+      "explanation": "Denn introduces a main clause (verb position 2) giving a reason. It is more formal than 'weil' in some contexts, but here 'weil' is not an option and 'denn' fits.",
+      "difficulty": "medium",
+      "id": "b1_07_q067"
+    },
+    {
+      "questionText": "____ des schlechten Wetters fiel das Picknick aus.",
+      "options": [
+        "Wegen",
+        "Aufgrund",
+        "Trotz",
+        "Dank"
+      ],
+      "correctAnswer": "Wegen",
+      "explanation": "Wegen is a preposition (not a conjunction) but often tested as a connector. It takes genitive (des Wetters) and means 'because of'.",
+      "difficulty": "hard",
+      "id": "b1_07_q068"
+    },
+    {
+      "questionText": "Sie arbeitet viel, ____ sie eine Beförderung anstrebt.",
+      "options": [
+        "nämlich",
+        "denn",
+        "weil",
+        "deshalb"
+      ],
+      "correctAnswer": "denn",
+      "explanation": "Denn connects two main clauses with a reason. Nämlich would be placed after the subject in the second clause.",
+      "difficulty": "hard",
+      "id": "b1_07_q069"
+    },
+    {
+      "questionText": "____ du schon mal in Japan warst, kannst du mir etwas empfehlen?",
+      "options": [
+        "Da",
+        "Weil",
+        "Denn",
+        "Obwohl"
+      ],
+      "correctAnswer": "Da",
+      "explanation": "Da introduces a subordinate clause with a reason, often when the reason is already known to the listener. It sounds more natural here than 'weil'.",
+      "difficulty": "hard",
+      "id": "b1_07_q070"
+    },
+    {
+      "questionText": "Er hat das Fenster geöffnet, ____ er frische Luft hereinlassen wollte.",
+      "options": [
+        "denn",
+        "nämlich",
+        "um",
+        "damit"
+      ],
+      "correctAnswer": "denn",
+      "explanation": "Denn introduces a main clause explaining the reason (verb position 2: wollte). 'Um' would require 'zu' + infinitive, 'damit' requires subordinate clause with different subject.",
+      "difficulty": "hard",
+      "id": "b1_07_q071"
+    },
+    {
+      "questionText": "____ der Chef kommt, verhalten sich alle leiser.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Wann",
+        "Ob"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn is used for repeated or general time (whenever). Als is for a single past event, which doesn't fit here.",
+      "difficulty": "medium",
+      "id": "b1_07_q072"
+    },
+    {
+      "questionText": "____ wir angekommen waren, begann das Konzert.",
+      "options": [
+        "Wenn",
+        "Nachdem",
+        "Bevor",
+        "Während"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "Nachdem introduces a temporal clause meaning 'after'. The action in the main clause happens after the subordinate clause. Plusquamperfekt (waren angekommen) is typical.",
+      "difficulty": "medium",
+      "id": "b1_07_q073"
+    },
+    {
+      "questionText": "Du musst dich entscheiden, ____ für das eine ____ für das andere.",
+      "options": [
+        "entweder / oder",
+        "weder / noch",
+        "sowohl / als auch",
+        "nicht nur / sondern auch"
+      ],
+      "correctAnswer": "entweder / oder",
+      "explanation": "Entweder...oder means 'either...or' and presents two mutually exclusive options.",
+      "difficulty": "easy",
+      "id": "b1_07_q074"
+    },
+    {
+      "questionText": "____ des hohen Preises kaufte er das Auto trotzdem.",
+      "options": [
+        "Wegen",
+        "Aufgrund",
+        "Trotz",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Trotz",
+      "explanation": "Trotz is a preposition requiring genitive (des Preises) meaning 'despite'. Trotzdem is an adverb and cannot take a noun object.",
+      "difficulty": "hard",
+      "id": "b1_07_q075"
+    },
+    {
+      "questionText": "Ich rufe dich an, ____ ich zu Hause bin.",
+      "options": [
+        "als",
+        "sobald",
+        "bevor",
+        "bis"
+      ],
+      "correctAnswer": "sobald",
+      "explanation": "Sobald means 'as soon as' and indicates an immediate temporal sequence. The action in the main clause happens right after the subordinate clause.",
+      "difficulty": "medium",
+      "id": "b1_07_q076"
+    },
+    {
+      "questionText": "____ du deine Hausaufgaben gemacht hast, darfst du fernsehen.",
+      "options": [
+        "Wann",
+        "Wenn",
+        "Als",
+        "Ob"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn here means 'whenever' or 'if', introducing a condition. Not a single past event, so 'als' is wrong.",
+      "difficulty": "medium",
+      "id": "b1_07_q077"
+    },
+    {
+      "questionText": "Er ist sehr sportlich, ____ spielt er Tennis und Fußball.",
+      "options": [
+        "z.B.",
+        "nämlich",
+        "also",
+        "deshalb"
+      ],
+      "correctAnswer": "nämlich",
+      "explanation": "Nämlich (position after the verb) explains or gives a reason: 'that is to say'. It is placed directly after the verb in the clause.",
+      "difficulty": "hard",
+      "id": "b1_07_q078"
+    },
+    {
+      "questionText": "Er trat die Reise nicht an, ____ er krank geworden war.",
+      "options": [
+        "wegen",
+        "nämlich",
+        "und zwar",
+        "denn"
+      ],
+      "correctAnswer": "denn",
+      "explanation": "Denn introduces a main clause (verb position 2: war) explaining the reason. 'Und zwar' specifies, 'nämlich' would need different word order.",
+      "difficulty": "hard",
+      "id": "b1_07_q079"
+    },
+    {
+      "questionText": "____ du dich nicht beeilst, verpasst du den Bus.",
+      "options": [
+        "Falls",
+        "Wenn",
+        "Sofern",
+        "Wann"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn is used for conditional clauses. Falls is more hypothetical, sofern more formal/positive condition. Here 'wenn' is the most natural choice.",
+      "difficulty": "medium",
+      "id": "b1_07_q080"
     }
   ]
 }
