@@ -95,7 +95,7 @@
 |-------|--------|-----------|-------|
 | a1_01–a1_10 | ⚠️ 600 qs (not 1,000) | ✅ Done? | Discrepancy — may need re-sync |
 | a2_01–a2_10 | ✅ (1,210 qs) | ⚠️ Pending | Run sync from local machine |
-| b1_01–b1_05 | ✅ (421 qs) | ⚠️ Pending | Run sync from local machine |
+| b1_01–b1_05 | ✅ (501 qs) | ⚠️ Pending | Run sync from local machine |
 | b2_01–b2_23 | ✅ (2,321 qs) | ⚠️ Partial | Some topics may need sync |
 
 ### Firestore sync commands (run from local machine):
@@ -107,7 +107,7 @@ export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-a
 node scripts/import_and_sync.js a2_01 a2_02 a2_03 a2_04 a2_05 a2_06 a2_07 a2_08 a2_09 a2_10
 
 # Sync B1
-node scripts/import_and_sync.js b1_01 b1_02 b1_03 b1_04
+node scripts/import_and_sync.js b1_01 b1_02 b1_03 b1_04 b1_05
 
 # Sync B2 remaining
 node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 b2_17
