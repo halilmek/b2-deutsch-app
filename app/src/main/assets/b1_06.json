@@ -3,7 +3,7 @@
   "subjectId": "b1_06",
   "topicName": "Relativsätze im Genitiv",
   "level": "B1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Relativsätze im Genitiv (genitive relative clauses) use dessen/deren to replace a noun's Genitiv attribute. dessen = masculine/neuter singular antecedent; deren = feminine singular/plural antecedent. The relative pronoun is always uninflected and precedes the noun it replaces. Used in formal B2 written German to avoid repetition of Genitiv nouns.",
   "tips": [
     "dessen vs deren: dessen = masculine/neuter singular (der Mann → dessen Auto); deren = feminine singular/plural (die Frau → deren Tochter; die Kinder → deren Schule).",
@@ -297,6 +297,266 @@
       ],
       "correctAnswer": "deren",
       "explanation": "Feminine antecedent 'die Epoche' → 'deren'. The relative clause features a nominalized adjective 'das kulturelle Erbe' as the subject, modified by 'deren'. Note: 'deren kulturelles Erbe' — the adjective 'kulturelles' takes mixed/strong declension after 'deren' (which acts like a Genitiv determiner). This adjective declension after 'dessen/deren' is a key B2 writing skill."
+    },
+    {
+      "questionText": "Dort drüben steht der Kollege, ____ Abteilung im vergangenen Monat die besten Verkaufszahlen erzielt hat.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem seine",
+        "welchem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The reference word is 'der Kollege' (masculine singular). The relative pronoun in the genitive case modifying 'Abteilung' must therefore be 'dessen'.",
+      "difficulty": "easy",
+      "id": "b1_06_q021"
+    },
+    {
+      "questionText": "Die Architektin, ____ innovativen Entwürfe weltweit ausgezeichnet wurden, leitet das neue Bauprojekt.",
+      "options": [
+        "dessen",
+        "deren",
+        "welcher",
+        "derer"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The reference word is 'Die Architektin' (feminine singular). The genitive relative pronoun for a feminine singular antecedent is 'deren'. Note that the following noun 'Entwürfe' drops its article.",
+      "difficulty": "easy",
+      "id": "b1_06_q022"
+    },
+    {
+      "questionText": "Wir betreuen momentan drei internationale Start-ups, ____ wirtschaftliche Entwicklung wir genau beobachten.",
+      "options": [
+        "dessen",
+        "denen",
+        "deren",
+        "derer"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The reference word is 'Start-ups' (plural). The genitive relative pronoun for plural antecedents is 'deren'. It functions as the possessive modifier for 'wirtschaftliche Entwicklung'.",
+      "difficulty": "medium",
+      "id": "b1_06_q023"
+    },
+    {
+      "questionText": "Das Unternehmen, ____ Gründer gestern im Fernsehen interviewt wurde, expandiert nun nach Asien.",
+      "options": [
+        "dessen",
+        "deren",
+        "welches",
+        "dem sein"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The reference word is 'Das Unternehmen' (neuter singular). The genitive relative pronoun for neuter singular nouns is 'dessen'.",
+      "difficulty": "easy",
+      "id": "b1_06_q024"
+    },
+    {
+      "questionText": "Dort sehen Sie die Studentinnen, ____ wissenschaftliche Arbeiten auf der Konferenz vorgestellt werden.",
+      "options": [
+        "derer",
+        "deren",
+        "dessen",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent is 'die Studentinnen' (plural). Plural genitive relative pronoun is 'deren'. Do not confuse it with 'derer', which is a demonstrative pronoun, not a relative pronoun.",
+      "difficulty": "medium",
+      "id": "b1_06_q025"
+    },
+    {
+      "questionText": "Gestern traf ich den Rechtsanwalt, ____ Unterstützung ich den erfolgreichen Prozessausgang zu verdanken habe.",
+      "options": [
+        "mit dessen",
+        "durch dessen",
+        "wegen dessen",
+        "dessen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The verb phrase 'jemandem etwas zu verdanken haben' translates to owing something to someone. The genitive relative pronoun 'dessen' modifies 'Unterstützung' (whose support I have to thank...). No preposition is needed before 'dessen' to fulfill this underlying syntactic relation.",
+      "difficulty": "hard",
+      "id": "b1_06_q026"
+    },
+    {
+      "questionText": "Das ist der ältere Patient, ____ Gesundheitszustand sich im Laufe der Nacht drastisch verschlechtert hat.",
+      "options": [
+        "dessen",
+        "deren",
+        "welchem sein",
+        "des"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The reference word is 'der ältere Patient' (masculine singular). The possessive relation to 'Gesundheitszustand' requires the masculine genitive relative pronoun 'dessen'.",
+      "difficulty": "easy",
+      "id": "b1_06_q027"
+    },
+    {
+      "questionText": "Wir besuchten die historische Altstadt, ____ enge Gassen einen ganz besonderen Charme versprühen.",
+      "options": [
+        "deren",
+        "dessen",
+        "derer",
+        "in deren"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent is 'die historische Altstadt' (feminine singular). The genitive relative pronoun is 'deren'. Option D ('in deren') would require a different clause structure, but here 'enge Gassen' is simply the subject of the relative clause.",
+      "difficulty": "medium",
+      "id": "b1_06_q028"
+    },
+    {
+      "questionText": "Der Abteilungsleiter, ____ Anweisungen trotz ____ Heftigkeit ignoriert wurden, forderte eine offizielle Erklärung.",
+      "options": [
+        "dessen / ihrer",
+        "deren / seiner",
+        "dessen / seiner",
+        "dessen / --"
+      ],
+      "correctAnswer": "dessen / --",
+      "explanation": "The noun 'Anweisungen' belongs to 'der Abteilungsleiter' (hence 'dessen Anweisungen'). In German relative clauses, you do not add an extra possessive pronoun before or after the noun that follows the genitive relative pronoun. Therefore, the second slot remains empty.",
+      "difficulty": "hard",
+      "id": "b1_06_q029"
+    },
+    {
+      "questionText": "Das Forschungslabor, ____ finanzielle Mittel vollständig gestrichen wurden, muss nun leider schließen.",
+      "options": [
+        "deren",
+        "dessen",
+        "welches",
+        "dem seine"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is 'Das Forschungslabor' (neuter singular). Neuter singular tracking in the genitive case requires the relative pronoun 'dessen'.",
+      "difficulty": "medium",
+      "id": "b1_06_q030"
+    },
+    {
+      "questionText": "Frau Müller ist eine engagierte Vorgesetzte, ____ fachlichen Rat ich mich immer zu einhundert Prozent verlassen kann.",
+      "options": [
+        "auf deren",
+        "auf dessen",
+        "an deren",
+        "deren"
+      ],
+      "correctAnswer": "auf deren",
+      "explanation": "The prepositional verb is 'sich verlassen auf + Akkusativ' (to rely on). The antecedent is 'Frau Müller' (feminine). Therefore, the preposition 'auf' must precede the feminine genitive relative pronoun 'deren' modifying 'fachlichen Rat'.",
+      "difficulty": "hard",
+      "id": "b1_06_q031"
+    },
+    {
+      "questionText": "Dort drüben sehen Sie die Musiker, ____ großartiges Konzert wir letzte Woche beigewohnt haben.",
+      "options": [
+        "deren / --",
+        "zu deren",
+        "dessen",
+        "an deren"
+      ],
+      "correctAnswer": "deren / --",
+      "explanation": "The verb 'beiwohnen' (to attend/witness) takes a direct dative object ('wir haben dem Konzert beigewohnt'). The antecedent is plural ('die Musiker' -> 'deren'). No preposition is required before the pronoun because 'beiwohnen' does not use a preposition.",
+      "difficulty": "hard",
+      "id": "b1_06_q032"
+    },
+    {
+      "questionText": "Der schüchterne Junge, ____ Eltern ich gestern beim Elternabend gesprochen habe, hat enorme Fortschritte gemacht.",
+      "options": [
+        "mit dessen",
+        "mit deren",
+        "über dessen",
+        "von dessen"
+      ],
+      "correctAnswer": "mit dessen",
+      "explanation": "The verb is 'sprechen mit + Dativ' (to talk with). The antecedent is 'Der schüchterne Junge' (masculine singular), which mandates the genitive relative pronoun 'dessen'. Thus, 'mit dessen Eltern' (with whose parents) is the correct choice.",
+      "difficulty": "medium",
+      "id": "b1_06_q033"
+    },
+    {
+      "questionText": "Die Zeugen, ____ widersprüchliche Aussagen die Polizei verwirrten, mussten erneut verhört werden.",
+      "options": [
+        "derer",
+        "dessen",
+        "deren",
+        "durch deren"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The reference word is 'Die Zeugen' (plural). The possessive modification for 'widersprüchliche Aussagen' requires the plural genitive relative pronoun 'deren'.",
+      "difficulty": "easy",
+      "id": "b1_06_q034"
+    },
+    {
+      "questionText": "Das ist das kleine Dorf, ____ Einwohner ____ heftigen Hochwassers evakuiert werden mussten.",
+      "options": [
+        "dessen / wegen des",
+        "deren / aufgrund von",
+        "dessen / während dem",
+        "dessen / infolge"
+      ],
+      "correctAnswer": "dessen / wegen des",
+      "explanation": "The antecedent is 'Das kleine Dorf' (neuter singular -> 'dessen Einwohner'). The second blank requires a causal preposition with genitive to handle 'heftigen Hochwassers', making 'wegen des' the ideal fit.",
+      "difficulty": "hard",
+      "id": "b1_06_q035"
+    },
+    {
+      "questionText": "Der Autor, ____ neuesten Kriminalroman ich gerade mit großer Begeisterung lese, gibt morgen eine Autogrammstunde.",
+      "options": [
+        "den",
+        "dessen",
+        "deren",
+        "welchen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is 'Der Autor' (masculine singular). Since it describes a possessive relationship ('whose newest crime novel'), the genitive form 'dessen' must be used.",
+      "difficulty": "easy",
+      "id": "b1_06_q036"
+    },
+    {
+      "questionText": "Die beiden Dozenten, ____ Unterstützung ____ das anspruchsvolle Forschungsprojekt scheitern würde, sind heute nicht da.",
+      "options": [
+        "ohne deren / --",
+        "mit deren / --",
+        "ohne dessen / --",
+        "deren / ohne"
+      ],
+      "correctAnswer": "ohne deren / --",
+      "explanation": "The reference noun is plural ('Die beiden Dozenten' -> 'deren'). The conditional meaning implies that without their support, the project would fail. The preposition 'ohne' takes the Akkusativ, but it directly precedes the relative pronoun: 'ohne deren Unterstützung'.",
+      "difficulty": "hard",
+      "id": "b1_06_q037"
+    },
+    {
+      "questionText": "Das Waisenkind, ____ rührende Lebensgeschichte viele Menschen tief bewegte, hat ein neues Zuhause gefunden.",
+      "options": [
+        "deren",
+        "dem seine",
+        "dessen",
+        "welches"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is 'Das Waisenkind'. Grammatically, 'Kind' is neuter singular, so it strictly demands the neuter genitive relative pronoun 'dessen', despite the natural biological gender of the individual child being unknown or feminine.",
+      "difficulty": "medium",
+      "id": "b1_06_q038"
+    },
+    {
+      "questionText": "Die Professorin, ____ Vorlesung ____ wir gestern vorzeitig verlassen haben, gilt als sehr streng.",
+      "options": [
+        "deren / --",
+        "dessen / --",
+        "aus deren / --",
+        "deren / die"
+      ],
+      "correctAnswer": "deren / --",
+      "explanation": "The antecedent is 'Die Professorin' (feminine -> 'deren Vorlesung'). The verb is 'verlassen' which takes a direct accusative object ('wir haben die Vorlesung verlassen'). Thus, 'deren Vorlesung' acts directly as the accusative object inside the relative clause without any extra articles or prepositions.",
+      "difficulty": "hard",
+      "id": "b1_06_q039"
+    },
+    {
+      "questionText": "Es gibt Situationen, ____ Bewältigung man sich absolute Ruhe und Konzentration bewahren muss.",
+      "options": [
+        "in deren",
+        "bei deren",
+        "deren",
+        "an deren"
+      ],
+      "correctAnswer": "bei deren",
+      "explanation": "The antecedent is 'Situationen' (plural -> 'deren'). The nominal context requires a preposition to state when or during what action you must keep calm. The fixed idiom is 'bei der Bewältigung von etwas' (while coping with something), leading to 'bei deren Bewältigung'.",
+      "difficulty": "hard",
+      "id": "b1_06_q040"
     }
   ]
 }
