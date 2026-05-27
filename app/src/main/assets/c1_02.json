@@ -3,7 +3,7 @@
   "subjectId": "c1_02",
   "topicName": "Indirekte Rede & Konjunktiv I",
   "level": "C1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Indirekte Rede & Konjunktiv I - Konjunktiv I is used in German to report what someone said (indirect speech). Key forms: er sage, er habe/hatte gesagt, er sei/wäre gewesen. Konjunktiv II (würde + infinitive) is also used in indirect speech, especially in news reporting. Konjunktiv I is typical in journalism, academic writing, and formal reports. Accusative + infinitive (Aci): 'Er sagte ihn gekommen zu sein'.",
   "tips": [
     "Konjunktiv I conjugations: ich spreche, du sprechest, er spreche, wir sprechen, ihr sprecht, Sie sprechen (for weak verbs Konjunktiv I = Präsens Indikativ; for strong verbs endings change: er komme, er gehe, er nehme).",
@@ -849,6 +849,286 @@
       "correctAnswer": "werde",
       "explanation": "Future reflexive statements in indirect speech use 'werde' + reflexive infinitive to preserve the intended action.",
       "id": "c1_02_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'er hat'?",
+      "options": [
+        "er hätte",
+        "er habe",
+        "er hatte",
+        "er hat"
+      ],
+      "correctAnswer": "er habe",
+      "explanation": "The Konjunktiv I of 'haben' in 3rd person singular is 'er habe'. 'Er hätte' is Konjunktiv II, 'er hatte' is Präteritum, and 'er hat' is Indikativ.",
+      "id": "c1_02_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'sie ist'?",
+      "options": [
+        "sie wäre",
+        "sie war",
+        "sie sei",
+        "sie ist"
+      ],
+      "correctAnswer": "sie sei",
+      "explanation": "'Sein' in Konjunktiv I, 3rd person singular, is 'sei'. 'Wäre' is Konjunktiv II, 'war' is Präteritum, and 'ist' is Indikativ Präsens.",
+      "id": "c1_02_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie in indirekte Rede um: Er sagte: 'Ich bin müde.'",
+      "options": [
+        "Er sagte, dass er müde ist.",
+        "Er sagte, er sei müde.",
+        "Er sagte, er wäre müde.",
+        "Er sagte, dass er müde war."
+      ],
+      "correctAnswer": "Er sagte, er sei müde.",
+      "explanation": "In indirect speech (indirekte Rede), the verb changes to Konjunktiv I: 'bin' → 'sei'. The conjunction 'dass' is optional; without it, the verb-second word order is kept.",
+      "id": "c1_02_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'sie gehen'?",
+      "options": [
+        "sie gingen",
+        "sie würden gehen",
+        "sie gehen",
+        "sie gehen (= gleich wie Indikativ)"
+      ],
+      "correctAnswer": "sie gehen (= gleich wie Indikativ)",
+      "explanation": "In the 3rd person plural, Konjunktiv I of regular verbs is identical to Indikativ Präsens (sie gehen). In such cases, Konjunktiv II or 'würde + Infinitiv' is used instead to make the indirect speech clear.",
+      "id": "c1_02_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wozu dient der Konjunktiv I hauptsächlich?",
+      "options": [
+        "Um irreale Bedingungen auszudrücken",
+        "Um höfliche Bitten zu formulieren",
+        "Um indirekte Rede wiederzugeben",
+        "Um die Vergangenheit zu beschreiben"
+      ],
+      "correctAnswer": "Um indirekte Rede wiederzugeben",
+      "explanation": "Konjunktiv I is primarily used in written German to report what someone else has said (indirect speech). Konjunktiv II is used for unreal conditions and polite requests.",
+      "id": "c1_02_q065"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie in indirekte Rede um: Die Ärztin sagte: 'Der Patient braucht Ruhe.'",
+      "options": [
+        "Die Ärztin sagte, der Patient brauche Ruhe.",
+        "Die Ärztin sagte, der Patient bräuchte Ruhe.",
+        "Die Ärztin sagte, dass der Patient Ruhe braucht.",
+        "Die Ärztin sagte, der Patient hätte Ruhe gebraucht."
+      ],
+      "correctAnswer": "Die Ärztin sagte, der Patient brauche Ruhe.",
+      "explanation": "'Brauchen' in Konjunktiv I, 3rd person singular, is 'brauche'. 'Bräuchte' is Konjunktiv II and would imply doubting. The Indikativ form 'braucht' is not used in formal indirect speech.",
+      "id": "c1_02_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wann verwendet man Konjunktiv II statt Konjunktiv I in der indirekten Rede?",
+      "options": [
+        "Immer, wenn das Verb regelmäßig ist",
+        "Wenn die Konjunktiv-I-Form identisch mit dem Indikativ ist",
+        "Wenn der Sprecher der Aussage zustimmt",
+        "Nur bei Modalverben"
+      ],
+      "correctAnswer": "Wenn die Konjunktiv-I-Form identisch mit dem Indikativ ist",
+      "explanation": "When Konjunktiv I forms are identical to the Indikativ (e.g. 'sie gehen', 'wir kommen'), Konjunktiv II is used to clearly signal indirect speech and avoid ambiguity.",
+      "id": "c1_02_q067"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um in indirekte Rede: Der Minister erklärte: 'Wir haben alle Maßnahmen ergriffen.'",
+      "options": [
+        "Der Minister erklärte, sie hätten alle Maßnahmen ergriffen.",
+        "Der Minister erklärte, wir haben alle Maßnahmen ergriffen.",
+        "Der Minister erklärte, wir hätten alle Maßnahmen ergriffen.",
+        "Der Minister erklärte, dass sie alle Maßnahmen ergreifen."
+      ],
+      "correctAnswer": "Der Minister erklärte, sie hätten alle Maßnahmen ergriffen.",
+      "explanation": "Konjunktiv I of 'haben' in 1st person plural ('wir haben') is identical to Indikativ, so Konjunktiv II 'hätten' is used. The pronoun also changes from 'wir' to 'sie' when reporting another person's speech.",
+      "id": "c1_02_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt? Die Sprecherin berichtete, die Verhandlungen ____ gescheitert.",
+      "options": [
+        "sind",
+        "waren",
+        "seien",
+        "wären"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "'Sein' in Konjunktiv I, 3rd person plural, is 'seien'. This is the correct form for indirect speech in the Perfekt tense (seien + Partizip II = Konjunktiv I Perfekt).",
+      "id": "c1_02_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: Er sagte: 'Ich werde morgen anrufen.'",
+      "options": [
+        "Er sagte, er werde morgen anrufen.",
+        "Er sagte, er würde morgen anrufen.",
+        "Er sagte, er rufe morgen an.",
+        "Er sagte, er wird morgen anrufen."
+      ],
+      "correctAnswer": "Er sagte, er werde morgen anrufen.",
+      "explanation": "Konjunktiv I of 'werden' in 3rd person singular is 'werde'. This is used to report future statements in indirect speech. 'Würde' (Konjunktiv II) is an alternative but 'werde' is preferred in formal/written German.",
+      "id": "c1_02_q070"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz gibt eine Frage korrekt in indirekter Rede wieder? Direkt: 'Wann kommt der Zug an?'",
+      "options": [
+        "Er fragte, wann der Zug ankomme.",
+        "Er fragte, wann kommt der Zug an.",
+        "Er fragte, ob der Zug ankomme.",
+        "Er fragte, wann der Zug ankam."
+      ],
+      "correctAnswer": "Er fragte, wann der Zug ankomme.",
+      "explanation": "Indirect questions with a question word ('wann', 'wo', 'wie') retain the question word and use verb-final word order with Konjunktiv I. No question mark is used.",
+      "id": "c1_02_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie die Ja/Nein-Frage in indirekte Rede um: 'Hast du die E-Mail gelesen?'",
+      "options": [
+        "Er fragte, ob ich die E-Mail gelesen habe.",
+        "Er fragte, ob ich die E-Mail gelesen hätte.",
+        "Er fragte, ob ich die E-Mail lese.",
+        "Er fragte, habe ich die E-Mail gelesen."
+      ],
+      "correctAnswer": "Er fragte, ob ich die E-Mail gelesen hätte.",
+      "explanation": "Yes/no questions in indirect speech use 'ob' as conjunction. Since 'habe' (Konjunktiv I Perfekt of 'haben' in 1st person singular) is identical to Indikativ, Konjunktiv II 'hätte' is preferred.",
+      "id": "c1_02_q072"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'er kann'?",
+      "options": [
+        "er könnte",
+        "er kann",
+        "er kenne",
+        "er könne"
+      ],
+      "correctAnswer": "er könne",
+      "explanation": "Konjunktiv I of the modal verb 'können' in 3rd person singular is 'könne'. 'Könnte' is Konjunktiv II. Konjunktiv I of modals is formed from the infinitive stem without umlaut.",
+      "id": "c1_02_q073"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: Der Zeuge sagte: 'Ich habe nichts gesehen und weiß auch nichts.'",
+      "options": [
+        "Der Zeuge sagte, er habe nichts gesehen und wisse auch nichts.",
+        "Der Zeuge sagte, er hätte nichts gesehen und wüsste auch nichts.",
+        "Der Zeuge sagte, er hat nichts gesehen und weiß auch nichts.",
+        "Der Zeuge sagte, er habe nichts gesehen und wüsste auch nichts."
+      ],
+      "correctAnswer": "Der Zeuge sagte, er habe nichts gesehen und wisse auch nichts.",
+      "explanation": "'Habe gesehen' is Konjunktiv I Perfekt (correct). 'Wisse' is Konjunktiv I of 'wissen' (3rd person singular). Both are distinct from Indikativ, so Konjunktiv I is used throughout without switching to Konjunktiv II.",
+      "id": "c1_02_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem Stilregister wird Konjunktiv I in der indirekten Rede bevorzugt verwendet?",
+      "options": [
+        "In der gesprochenen Umgangssprache",
+        "In Kinderbüchern und einfachen Texten",
+        "In Nachrichtentexten, wissenschaftlichen und offiziellen Texten",
+        "Nur in literarischen Werken des 18. Jahrhunderts"
+      ],
+      "correctAnswer": "In Nachrichtentexten, wissenschaftlichen und offiziellen Texten",
+      "explanation": "Konjunktiv I is the standard form for indirect speech in formal written German — newspapers, academic writing, and official reports. In spoken everyday German, Konjunktiv II or 'dass' + Indikativ is more common.",
+      "id": "c1_02_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um: Die Forscherin berichtete: 'Unsere Ergebnisse widerlegen die bisherige Theorie vollständig.'",
+      "options": [
+        "Die Forscherin berichtete, ihre Ergebnisse widerlegten die bisherige Theorie vollständig.",
+        "Die Forscherin berichtete, ihre Ergebnisse widerlegen die bisherige Theorie vollständig.",
+        "Die Forscherin berichtete, ihre Ergebnisse hätten die bisherige Theorie vollständig widerlegt.",
+        "Die Forscherin berichtete, ihre Ergebnisse würden die bisherige Theorie vollständig widerlegen."
+      ],
+      "correctAnswer": "Die Forscherin berichtete, ihre Ergebnisse widerlegten die bisherige Theorie vollständig.",
+      "explanation": "Konjunktiv I of 'widerlegen' in 3rd person plural ('sie widerlegen') is identical to Indikativ, so Konjunktiv II 'widerlegten' is used. The pronoun shifts from 'unsere' to 'ihre'.",
+      "id": "c1_02_q076"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage zur indirekten Rede ist FALSCH?",
+      "options": [
+        "Bei indirekter Rede ohne 'dass' bleibt die Verbzweitstellung erhalten.",
+        "Konjunktiv I signalisiert, dass der Sprecher die Aussage nicht selbst bestätigt.",
+        "Bei indirekter Rede muss immer 'dass' verwendet werden.",
+        "Pronomen und Possessivartikel ändern sich je nach Sprecher."
+      ],
+      "correctAnswer": "Bei indirekter Rede muss immer 'dass' verwendet werden.",
+      "explanation": "'Dass' is optional in indirect speech. Without it, the verb stays in second position (verb-second word order). Both constructions are correct: 'Er sagte, er sei krank' and 'Er sagte, dass er krank sei'.",
+      "id": "c1_02_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie den Imperativ in indirekte Rede um: Der Arzt sagte: 'Nehmen Sie die Tabletten dreimal täglich!'",
+      "options": [
+        "Der Arzt sagte, sie sollen die Tabletten dreimal täglich nehmen.",
+        "Der Arzt sagte, ich solle die Tabletten dreimal täglich nehmen.",
+        "Der Arzt sagte mir, ich solle die Tabletten dreimal täglich nehmen.",
+        "Der Arzt sagte, nehmen Sie die Tabletten dreimal täglich."
+      ],
+      "correctAnswer": "Der Arzt sagte mir, ich solle die Tabletten dreimal täglich nehmen.",
+      "explanation": "Imperatives in indirect speech are reported using 'sollen' in Konjunktiv I ('solle'). The indirect object 'mir' clarifies who the instruction was directed at, and the pronoun shifts to 'ich' from the patient's perspective.",
+      "id": "c1_02_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bestimmen Sie die Zeitform: 'Der Sprecher erklärte, die Verhandlungen hätten bereits begonnen.'",
+      "options": [
+        "Konjunktiv I Präsens",
+        "Konjunktiv II Präsens",
+        "Konjunktiv II Perfekt",
+        "Konjunktiv I Perfekt"
+      ],
+      "correctAnswer": "Konjunktiv II Perfekt",
+      "explanation": "'Hätten begonnen' = Konjunktiv II ('hätten') + Partizip II ('begonnen'). Since Konjunktiv I Perfekt of 'haben' is identical to Indikativ, Konjunktiv II Perfekt is used instead to avoid ambiguity.",
+      "id": "c1_02_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung in indirekte Rede ist in einem Zeitungsartikel stilistisch am korrektesten? Direkt: Der Politiker sagte: 'Wir werden die Steuern senken.'",
+      "options": [
+        "Der Politiker sagte, dass sie die Steuern senken werden.",
+        "Der Politiker sagte, sie würden die Steuern senken.",
+        "Der Politiker sagte, sie werden die Steuern senken.",
+        "Der Politiker sagte, sie wollen die Steuern senken."
+      ],
+      "correctAnswer": "Der Politiker sagte, sie würden die Steuern senken.",
+      "explanation": "Konjunktiv I of 'werden' in 3rd person plural ('sie werden') is identical to Indikativ, so Konjunktiv II 'würden' is the correct and stylistically appropriate choice in journalism.",
+      "id": "c1_02_q080"
     }
   ]
 }
