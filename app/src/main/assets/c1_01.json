@@ -3,7 +3,7 @@
   "subjectId": "c1_01",
   "topicName": "Nominalstil & Verbalstil",
   "level": "C1",
-  "totalQuestions": 60,
+  "totalQuestions": 87,
   "description": "Nominalstil & Verbalstil — transforming between nominal and verbal sentence styles in German. Nominalstil (noun-based style) uses nominalized infinitives, noun-preposition combinations, and Funktionsverbgefüge for formal/academic writing. Verbalstil (verb-based style) uses full clauses with conjunctions. Key: converting subordinate clauses to noun phrases (weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ), nominalizing verbs correctly, and using appropriate C1-level connectors.",
   "tips": [
     "Nominalstil transformations: weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ, wenn/falls -> bei + Dativ, obwohl -> trotz + Genitiv, indem -> unter + Dativ, ohne zu -> ohne + Akkusativ, anstatt zu -> statt + Genitiv, infolge -> infolge + Genitiv.",
@@ -857,6 +857,384 @@
       "correctAnswer": "Er wirkt objektiver und abstrakter.",
       "explanation": "Nominalstil removes personal and temporal references, creating an objective, timeless tone — ideal for academic writing.",
       "id": "c1_01_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie den Verbalstil in Nominalstil um: „Man muss das Problem sofort lösen.\"",
+      "options": [
+        "Das Problem muss sofort gelöst werden.",
+        "Die sofortige Lösung des Problems ist notwendig.",
+        "Es ist notwendig, das Problem zu lösen.",
+        "Das Problem soll gelöst sein."
+      ],
+      "correctAnswer": "Die sofortige Lösung des Problems ist notwendig.",
+      "explanation": "Nominalstil: verb 'lösen' -> noun 'Lösung', adverb 'sofort' -> adjective 'sofortig'. The sentence is restructured around the noun phrase.",
+      "id": "c1_01_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein typisches Beispiel für Nominalstil?",
+      "options": [
+        "Er hat den Antrag schnell eingereicht.",
+        "Die schnelle Einreichung des Antrags erfolgte durch ihn.",
+        "Er reichte den Antrag schnell ein.",
+        "Er wollte den Antrag einreichen."
+      ],
+      "correctAnswer": "Die schnelle Einreichung des Antrags erfolgte durch ihn.",
+      "explanation": "Nominal style: abstract nouns (Einreichung) derived from verbs, combined with genitive attributes. The other sentences use verbs as the core action.",
+      "id": "c1_01_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie in Verbalstil um: „Die Durchführung des Experiments ist geplant.\"",
+      "options": [
+        "Das Experiment ist durchgeführt worden.",
+        "Das Experiment soll durchgeführt werden.",
+        "Die Planung des Experiments findet statt.",
+        "Man plant, das Experiment durchzuführen."
+      ],
+      "correctAnswer": "Man plant, das Experiment durchzuführen.",
+      "explanation": "'Durchführung' (noun) -> 'durchführen' (verb), 'ist geplant' -> 'plant'. Verbal style prefers active constructions with conjugated verbs.",
+      "id": "c1_01_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "„Die Regierung hat ____ der neuen Regelungen beschlossen.\" – Welches Nomen passt im Nominalstil?",
+      "options": [
+        "die Einführung",
+        "eingeführt",
+        "einzuführen",
+        "die Einführlichkeit"
+      ],
+      "correctAnswer": "die Einführung",
+      "explanation": "'Einführung' is the nominalization of 'einführen'. It fits grammatically as an accusative object. 'Einführlichkeit' does not exist.",
+      "id": "c1_01_q064"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung in Nominalstil ist korrekt? „Die Behörde überprüft regelmäßig die Sicherheitsvorkehrungen.\"",
+      "options": [
+        "Die regelmäßige Überprüfung der Sicherheitsvorkehrungen durch die Behörde findet statt.",
+        "Die Behörde überprüft die Sicherheitsvorkehrungen in Regelmäßigkeit.",
+        "Die Überprüfung erfolgt durch die Behörde regelmäßig.",
+        "Die Sicherheitsvorkehrungen werden regelmäßig geprüft."
+      ],
+      "correctAnswer": "Die regelmäßige Überprüfung der Sicherheitsvorkehrungen durch die Behörde findet statt.",
+      "explanation": "Verb 'überprüft' -> noun 'Überprüfung', subject -> 'durch'+agent phrase, adverb 'regelmäßig' -> adjective 'regelmäßige'.",
+      "id": "c1_01_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein typisches Merkmal des Nominalstils in formellen Texten?",
+      "options": [
+        "Viele Modalverben und kurze Sätze",
+        "Häufige Verwendung des Konjunktivs II",
+        "Abstrakte Substantive mit Genitivattributen statt Verben",
+        "Direkte Anrede der Leser in der Du-Form"
+      ],
+      "correctAnswer": "Abstrakte Substantive mit Genitivattributen statt Verben",
+      "explanation": "Nominal style uses abstract nouns (often from verbs) with genitive attributes. Typical in academic, legal, and official German texts.",
+      "id": "c1_01_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um: „Die Bürger protestierten lautstark gegen die Kürzungen.\" → Nominalstil",
+      "options": [
+        "Der laute Protest der Bürger gegen die Kürzungen fand statt.",
+        "Die Bürger haben einen Protest gemacht.",
+        "Gegen die Kürzungen haben die Bürger lautstark protestiert.",
+        "Der Protest war laut von den Bürgern."
+      ],
+      "correctAnswer": "Der laute Protest der Bürger gegen die Kürzungen fand statt.",
+      "explanation": "'Protestierten' -> 'Protest' (noun), 'lautstark' -> 'laut' (adjective), subject -> genitive 'der Bürger'. Typical nominalization pattern.",
+      "id": "c1_01_q067"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz gehört zum Verbalstil?",
+      "options": [
+        "Die Verabschiedung des Gesetzes erfolgte nach langer Diskussion.",
+        "Nach langer Diskussion wurde das Gesetz verabschiedet.",
+        "Die lange Diskussion führte zur Gesetzesverabschiedung.",
+        "Der Abschluss der Diskussion über das Gesetz war abzusehen."
+      ],
+      "correctAnswer": "Nach langer Diskussion wurde das Gesetz verabschiedet.",
+      "explanation": "Verbal style uses conjugated verbs ('wurde verabschiedet') as the core. The others use nominalizations.",
+      "id": "c1_01_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "„____ des Antrags auf Fördermittel ist bis Ende März möglich.\" – Ergänzen Sie das passende Nomen.",
+      "options": [
+        "Zu beantragen",
+        "Die Beantragung",
+        "Beantragt",
+        "Das Beantragtsein"
+      ],
+      "correctAnswer": "Die Beantragung",
+      "explanation": "'Beantragung' is the nominalization of 'beantragen'. It functions as the subject. 'Das Beantragtsein' is not standard German.",
+      "id": "c1_01_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage über Nominalstil ist FALSCH?",
+      "options": [
+        "Er ist typisch für Wissenschaft, Recht und Verwaltung.",
+        "Er enthält häufig Ableitungen auf -ung, -heit, -keit, -tion.",
+        "Er macht Texte lebendiger und persönlicher.",
+        "Er kann zu schwer verständlichen Sätzen führen."
+      ],
+      "correctAnswer": "Er macht Texte lebendiger und persönlicher.",
+      "explanation": "Nominal style tends to make texts more formal and impersonal — the opposite of lively and personal.",
+      "id": "c1_01_q070"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie in Verbalstil um: „Eine Verbesserung der Qualität ist durch den Einsatz neuer Technologien möglich.\"",
+      "options": [
+        "Die Qualität ist verbessert durch Technologien.",
+        "Die Qualität kann durch den Einsatz neuer Technologien verbessert werden.",
+        "Neue Technologien verbessern die Qualitätsverbesserung.",
+        "Der Einsatz von Technologien verbessert Qualitäten."
+      ],
+      "correctAnswer": "Die Qualität kann durch den Einsatz neuer Technologien verbessert werden.",
+      "explanation": "'Verbesserung' -> 'verbessert werden', 'ist möglich' -> 'kann ... werden'. The verbal form expresses the same idea with a conjugated verb.",
+      "id": "c1_01_q071"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Nominalstil-Konstruktion ist in diesem Satz enthalten? „Im Zuge der Digitalisierung des Bildungswesens kommt es zu einer Neuausrichtung pädagogischer Konzepte.\"",
+      "options": [
+        "Nur ein Genitivattribut",
+        "Eine Präpositionalphrase als Adverbial und zwei Nominalphrasen mit Genitivattribut",
+        "Ein Infinitiv als Subjekt",
+        "Eine Passivkonstruktion mit Modalverb"
+      ],
+      "correctAnswer": "Eine Präpositionalphrase als Adverbial und zwei Nominalphrasen mit Genitivattribut",
+      "explanation": "'Im Zuge der Digitalisierung' = prepositional adverbial; 'der Digitalisierung des Bildungswesens' and 'einer Neuausrichtung pädagogischer Konzepte' = nominal phrases with genitive attributes. Classic nominal style stacking.",
+      "id": "c1_01_q072"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie vollständig in Nominalstil um: „Nachdem die Kommission den Bericht analysiert hatte, stellte sie fest, dass Maßnahmen ergriffen werden müssen.\"",
+      "options": [
+        "Die Kommission analysierte den Bericht und stellte Maßnahmen fest.",
+        "Nach der Analyse des Berichts durch die Kommission ergab sich die Notwendigkeit der Ergreifung von Maßnahmen.",
+        "Die Kommission hatte den Bericht analysiert und Maßnahmen ergriffen.",
+        "Nach der Analyse wurden Maßnahmen von der Kommission ergriffen."
+      ],
+      "correctAnswer": "Nach der Analyse des Berichts durch die Kommission ergab sich die Notwendigkeit der Ergreifung von Maßnahmen.",
+      "explanation": "Every verb converted to a noun: 'analysiert hatte' -> 'Analyse', 'stellte fest' -> 'ergab sich', 'müssen ergriffen werden' -> 'Notwendigkeit der Ergreifung'. Hallmark of dense nominal style.",
+      "id": "c1_01_q073"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem Texttyp ist Verbalstil in der Regel NICHT angemessen?",
+      "options": [
+        "Persönlicher Brief an einen Freund",
+        "Mündliche Präsentation für ein breites Publikum",
+        "Gesetzestext oder behördliche Verordnung",
+        "Reisebericht in einem Magazin"
+      ],
+      "correctAnswer": "Gesetzestext oder behördliche Verordnung",
+      "explanation": "Legal texts and official regulations conventionally use Nominalstil for precision and formality.",
+      "id": "c1_01_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung von Verbalstil zu Nominalstil ist FEHLERHAFT?",
+      "options": [
+        "„Er scheiterte\" → „Sein Scheitern\"",
+        "„Sie entschied sich\" → „Ihre Entscheidung\"",
+        "„Es wurde diskutiert\" → „Die Diskutierung\"",
+        "„Man verhandelte\" → „Die Verhandlung\""
+      ],
+      "correctAnswer": "„Es wurde diskutiert\" → „Die Diskutierung\"",
+      "explanation": "'Diskutierung' is not a valid German noun. The correct nominalization of 'diskutieren' is 'die Diskussion'. Not all verbs form nouns with '-ung'.",
+      "id": "c1_01_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "„Die ____ des Vertrags ____ nach mehrwöchigen Verhandlungen.\" – Welche Kombination ergibt korrekten Nominalstil?",
+      "options": [
+        "Unterzeichnung / erfolgte",
+        "Unterzeichnen / war",
+        "Unterzeichnungsweise / fand statt",
+        "Unterzeichnung / unterzeichnete"
+      ],
+      "correctAnswer": "Unterzeichnung / erfolgte",
+      "explanation": "'Die Unterzeichnung des Vertrags erfolgte' — 'Unterzeichnung' is correct, and 'erfolgte' is a typical Funktionsverb in nominal style.",
+      "id": "c1_01_q076"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein „Funktionsverbgefüge\" im Nominalstil?",
+      "options": [
+        "Eine Verbform, die nur im Passiv vorkommt",
+        "Eine Verbindung aus einem bedeutungsschwachen Verb und einem Nomen (z.B. „in Frage stellen\")",
+        "Ein Verb, das nur mit Modalverben kombiniert wird",
+        "Ein Nomen, das immer mit dem Genitiv steht"
+      ],
+      "correctAnswer": "Eine Verbindung aus einem bedeutungsschwachen Verb und einem Nomen (z.B. „in Frage stellen\")",
+      "explanation": "Funktionsverbgefüge combines a semantically weak verb with a noun to express an action — key feature of German nominal style.",
+      "id": "c1_01_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie in Verbalstil um: „Eine Einigung zwischen den Parteien kam trotz intensiver Verhandlungen nicht zustande.\"",
+      "options": [
+        "Die Parteien einigten sich trotz intensiver Verhandlungen nicht.",
+        "Die Einigung der Parteien war nicht möglich trotz Verhandlungen.",
+        "Die Parteien haben keine intensive Verhandlung geführt.",
+        "Es kam zwischen den Parteien zu keiner Einigung."
+      ],
+      "correctAnswer": "Die Parteien einigten sich trotz intensiver Verhandlungen nicht.",
+      "explanation": "'Einigung' -> 'einigten sich', 'kam nicht zustande' -> 'nicht'. The reflexive verb 'sich einigen' replaces the nominal construction.",
+      "id": "c1_01_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält KEIN Funktionsverbgefüge?",
+      "options": [
+        "Das Projekt kommt zur Durchführung.",
+        "Die Idee findet Anwendung in der Praxis.",
+        "Der Forscher stellte eine neue Theorie auf.",
+        "Der Antrag gelangt zur Bearbeitung."
+      ],
+      "correctAnswer": "Der Forscher stellte eine neue Theorie auf.",
+      "explanation": "'Eine Theorie aufstellen' is a separable verb (Trennbares Verb), not a Funktionsverbgefüge. The others are all support verb constructions.",
+      "id": "c1_01_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage beschreibt am besten den Unterschied zwischen Nominal- und Verbalstil im Deutschen?",
+      "options": [
+        "Nominalstil ist immer falsch, Verbalstil ist immer richtig.",
+        "Verbalstil ist präziser und eignet sich besser für Fachtexte als Nominalstil.",
+        "Nominalstil verdichtet Informationen durch Substantivierungen, während Verbalstil Handlungen durch konjugierte Verben ausdrückt.",
+        "Nominalstil und Verbalstil sind bedeutungsgleich und austauschbar in allen Kontexten."
+      ],
+      "correctAnswer": "Nominalstil verdichtet Informationen durch Substantivierungen, während Verbalstil Handlungen durch konjugierte Verben ausdrückt.",
+      "explanation": "Core distinction: nominal style compresses information into noun phrases; verbal style expresses actions dynamically through conjugated verbs. Neither is universally better — context determines appropriateness.",
+      "id": "c1_01_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was kennzeichnet den Nominalstil im Deutschen?",
+      "options": [
+        "Er verwendet überwiegend Verben und persönliche Pronomen.",
+        "Er bevorzugt Substantive, Nominalphrasen und passive Konstruktionen.",
+        "Er ist typisch für Alltagsgespräche und erzählende Texte.",
+        "Er vermeidet abstrakte Begriffe und Fachterminologie."
+      ],
+      "correctAnswer": "Er bevorzugt Substantive, Nominalphrasen und passive Konstruktionen.",
+      "explanation": "Nominalstil is characterized by a preference for nouns over verbs, complex noun phrases, passive voice, and abstract terminology, making it typical for formal, administrative, and academic texts.",
+      "id": "c1_01_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Stil wird häufig in der deutschen Verwaltungs- und Amtssprache verwendet?",
+      "options": [
+        "Verbalstil",
+        "Umgangssprachlicher Stil",
+        "Nominalstil",
+        "Erzählender Stil"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil is frequently found in German administrative and official language because it conveys precision, formality, and objectivity, as seen in phrases like 'Aufgrund der Nichteinreichung der Unterlagen erfolgt die Ablehnung des Antrags'.",
+      "id": "c1_01_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Hauptvorteil des Verbalstils?",
+      "options": [
+        "Er wirkt besonders formell und distanziert.",
+        "Er ermöglicht eine höhere Informationsdichte pro Satz.",
+        "Er verbessert die Verständlichkeit und den Lesefluss.",
+        "Er vermeidet persönliche Ansprache vollständig."
+      ],
+      "correctAnswer": "Er verbessert die Verständlichkeit und den Lesefluss.",
+      "explanation": "Verbalstil uses verbs to describe actions directly, making sentences more dynamic, easier to understand, and more pleasant to read, which is ideal for everyday communication and narrative texts.",
+      "id": "c1_01_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Transformation ist typisch für die Umwandlung von Verbalstil in Nominalstil?",
+      "options": [
+        "Verben werden durch Adjektive ersetzt.",
+        "Verben werden in Substantive umgewandelt (z. B. 'analysieren' → 'die Analyse').",
+        "Substantive werden in Verben umgewandelt.",
+        "Präpositionen werden durch Konjunktionen ersetzt."
+      ],
+      "correctAnswer": "Verben werden in Substantive umgewandelt (z. B. 'analysieren' → 'die Analyse').",
+      "explanation": "A core transformation rule for creating Nominalstil is nominalizing verbs—turning action words into nouns (e.g., 'analysieren' becomes 'die Analyse'), which increases formality and density.",
+      "id": "c1_01_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Stil vermeidet persönliche Pronomen wie 'wir', 'ich' oder 'man'?",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Umgangssprachlicher Stil",
+        "Poetischer Stil"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil avoids personal pronouns to create distance and formality, preferring impersonal constructions like 'es erfolgt...' or 'die Durchführung...'.",
+      "id": "c1_01_q085"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein typisches Merkmal des Verbalstils?",
+      "options": [
+        "Häufige Verwendung von Partizipialattributen",
+        "Komplexe Präpositionalgefüge",
+        "Aktive Verbformen und persönliche Ansprache",
+        "Abstrakte Nominalphrasen ohne klare Handlungsträger"
+      ],
+      "correctAnswer": "Aktive Verbformen und persönliche Ansprache",
+      "explanation": "Verbalstil is characterized by active verb forms and personal pronouns, making the text more direct, dynamic, and reader-friendly.",
+      "id": "c1_01_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Nominalstil-Variante von: 'Wir haben die Daten ausgewertet.'?",
+      "options": [
+        "Die Daten wurden von uns ausgewertet.",
+        "Die Auswertung der Daten wurde durchgeführt.",
+        "Wir führten eine Datenauswertung durch.",
+        "Es erfolgte eine Auswertung durch uns der Daten."
+      ],
+      "correctAnswer": "Die Auswertung der Daten wurde durchgeführt.",
+      "explanation": "In Nominalstil, the verb 'auswerten' is nominalized to 'die Auswertung', personal pronouns are removed, and passive voice is often used to create a formal, impersonal tone.",
+      "id": "c1_01_q087"
     }
   ]
 }
