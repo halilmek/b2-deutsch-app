@@ -42,6 +42,7 @@ class QuizResultFragment : Fragment() {
         val subjectId = arguments?.getString("subjectId")
 
         binding.tvScore.text = "$score%"
+        binding.tvResultHeader.text = subjectId?.uppercase() ?: "Quiz Results"
         binding.tvCorrectCount.text = "$correct / $total correct answers"
 
         if (passed) {

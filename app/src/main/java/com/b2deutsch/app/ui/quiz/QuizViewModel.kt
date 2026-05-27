@@ -278,7 +278,9 @@ class QuizViewModel @Inject constructor(
             "b2_20" to "19. Irreale Konditionalsätze",
             "b2_21" to "20. Relativsätze im Genitiv",
             "b2_22" to "21. Konjunktiv I in der indirekten Rede",
-            "b2_23" to "22. Konjunktiv II in irrealen Vergleichssätze"
+            "b2_23" to "22. Konjunktiv II in irrealen Vergleichssätze",
+            // C1 topics
+            "c1_01" to "Nominalstil & Verbalstil"
         )
         return titles[subjectId] ?: subjectId
     }
