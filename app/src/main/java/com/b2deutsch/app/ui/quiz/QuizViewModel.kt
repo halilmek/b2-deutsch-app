@@ -281,7 +281,8 @@ class QuizViewModel @Inject constructor(
             "b2_23" to "22. Konjunktiv II in irrealen Vergleichssätze",
             // C1 topics
             "c1_01" to "Nominalstil & Verbalstil",
-            "c1_02" to "Indirekte Rede & Konjunktiv I"
+            "c1_02" to "Indirekte Rede & Konjunktiv I",
+            "c1_03" to "Passiversatzformen"
         )
         return titles[subjectId] ?: subjectId
     }
