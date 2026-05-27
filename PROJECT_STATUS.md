@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-26 09:45 UTC
+**Last Updated:** 2026-05-27 10:24 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -188,9 +188,9 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 | # | ID | Topic | Questions | Status |
 |---|----|-------|-----------|--------|
-| 1 | c1_01 | Nominalstil & Verbalstil | 60 | 🔄 In Progress (q001–q060 added 2026-05-26) |
+| 1 | c1_01 | Nominalstil & Verbalstil | 127 | 🔄 In Progress (q001–q127 added 2026-05-27) |
 
-**C1 Total: 60 questions (target: 1,000)**
+**C1 Total: 127 questions (target: 1,000)**
 
 ---
 
@@ -215,4 +215,4 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-05-26 17:30 UTC_
+_Last updated: 2026-05-26 17:31 UTC_
