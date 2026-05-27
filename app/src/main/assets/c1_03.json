@@ -3,7 +3,7 @@
   "subjectId": "c1_03",
   "topicName": "Passiversatzformen",
   "level": "C1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Passiversatzformen — At C1 level, relying solely on Vorgangspassiv (werden + Partizip II) makes your text sound repetitive. Passiversatzformen are semantically passive (subject undergoes the action) but use active verbs, adjectives, or fixed expressions. The three core structures are: (1) 'sein + zu + Infinitiv' — replaces können (possibility) or müssen (necessity); (2) 'sich lassen + Infinitiv' — replaces können exclusively (possibility); (3) adjectives in -bar/-lich — turn action into capability adjective (e.g., 'ist lesbar' = kann gelesen werden). Advanced C1 forms: Das Gerundiv ('die noch zu prüfenden Dokumente') as adjectives before nouns with passive necessity meaning; Passiv-Funktionsverbgefüge (noun-verb combinations like 'steht zur Diskussion', 'findet Anwendung', 'stößt auf Kritik') replacing passive verbs in formal/official German. Key trap: 'Das Auto ist zu reparieren' = passive (car needs fixing); 'Ich habe das Auto zu reparieren' = active (I must fix the car). Exam tip: Mix forms across paragraphs to demonstrate full syntactic control.",
   "tips": [
     "'sein + zu + Infinitiv' is the ultimate C1 structure: 'Die Ergebnisse sind einzusehen' = können (possibility) or 'Die Regeln sind zu beachten' = müssen (necessity). Always use the INFINITIVE, not the past participle.",
@@ -574,6 +574,286 @@
       "correctAnswer": "auszufuellen",
       "explanation": "'Sein + zu + Infinitiv' is frequently used in official and academic German.",
       "id": "c1_03_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform entspricht dem Satz: 'Das Problem kann geloest werden.'?",
+      "options": [
+        "Das Problem ist loesbar.",
+        "Das Problem loest sich.",
+        "Das Problem wird geloest.",
+        "Das Problem hat sich geloest."
+      ],
+      "correctAnswer": "Das Problem ist loesbar.",
+      "explanation": "The suffix '-bar' creates an adjective that expresses possibility, functioning as a passive alternative: 'kann geloest werden' -> 'ist loesbar'. This is a common C1-level Passiversatzform.",
+      "id": "c1_03_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform mit 'sich lassen' fuer: 'Der Text kann uebersetzt werden.'?",
+      "options": [
+        "Der Text laesst sich uebersetzen.",
+        "Der Text laesst sich zu uebersetzen.",
+        "Der Text wird sich uebersetzen lassen.",
+        "Der Text sich laesst uebersetzen."
+      ],
+      "correctAnswer": "Der Text laesst sich uebersetzen.",
+      "explanation": "The construction 'sich lassen + Infinitiv' is a standard Passiversatzform expressing possibility. The reflexive pronoun 'sich' follows the conjugated verb 'laesst', and the infinitive comes at the end.",
+      "id": "c1_03_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist eine Passiversatzform mit 'sein + zu + Infinitiv'?",
+      "options": [
+        "Die Aufgabe ist zu erledigen.",
+        "Die Aufgabe wird erledigt.",
+        "Die Aufgabe laesst sich erledigen.",
+        "Die Aufgabe ist erledigt worden."
+      ],
+      "correctAnswer": "Die Aufgabe ist zu erledigen.",
+      "explanation": "The structure 'sein + zu + Infinitiv' expresses necessity or possibility and functions as a passive alternative: 'muss/kann erledigt werden' -> 'ist zu erledigen'.",
+      "id": "c1_03_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet die Passiversatzform: 'Das ist nicht zu uebersehen.'?",
+      "options": [
+        "Das kann nicht uebersehen werden.",
+        "Das wird nicht uebersehen.",
+        "Das hat man nicht uebersehen.",
+        "Das ueber sieht man nicht."
+      ],
+      "correctAnswer": "Das kann nicht uebersehen werden.",
+      "explanation": "'Sein + zu + Infinitiv' with negation expresses impossibility in passive meaning: 'ist nicht zu uebersehen' = 'kann nicht uebersehen werden' (cannot be overlooked).",
+      "id": "c1_03_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektiv mit der Endung '-bar' ist eine korrekte Passiversatzform fuer 'kann repariert werden'?",
+      "options": [
+        "reparierbar",
+        "reparatlich",
+        "reparabel",
+        "reparierend"
+      ],
+      "correctAnswer": "reparierbar",
+      "explanation": "The suffix '-bar' attaches to verb stems to form adjectives expressing possibility: 'reparieren' -> 'reparierbar' (= kann repariert werden). This is a productive and common Passiversatzform.",
+      "id": "c1_03_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform mit 'bekommen/erhalten/kriegen' fuer: 'Ihm wurde das Buch geschenkt.'?",
+      "options": [
+        "Er bekam das Buch geschenkt.",
+        "Er bekam das Buch zu schenken.",
+        "Das Buch bekam er geschenkt werden.",
+        "Er wurde das Buch geschenkt bekommen."
+      ],
+      "correctAnswer": "Er bekam das Buch geschenkt.",
+      "explanation": "The 'bekommen/erhalten/kriegen + Partizip II' construction shifts focus to the recipient and serves as a passive alternative, especially with verbs of giving or telling.",
+      "id": "c1_03_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform ist stilistisch am neutralsten fuer wissenschaftliche Texte?",
+      "options": [
+        "Man kann die Daten analysieren.",
+        "Die Daten lassen sich analysieren.",
+        "Die Daten sind zu analysieren.",
+        "Die Daten koennen analysiert werden."
+      ],
+      "correctAnswer": "Die Daten lassen sich analysieren.",
+      "explanation": "'sich lassen + Infinitiv' is particularly valued in academic German for its neutral, objective tone without personal pronouns or explicit passive markers.",
+      "id": "c1_03_q047"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Transformiere in eine Passiversatzform: 'Die Vorschriften muessen eingehalten werden.'",
+      "options": [
+        "Die Vorschriften sind einzuhalten.",
+        "Die Vorschriften halten sich ein.",
+        "Die Vorschriften sind eingehalten worden.",
+        "Die Vorschriften lassen sich einhalten."
+      ],
+      "correctAnswer": "Die Vorschriften sind einzuhalten.",
+      "explanation": "For passive with modal 'muessen', the Passiversatzform 'sein + zu + Infinitiv' expresses necessity: 'muessen eingehalten werden' -> 'sind einzuhalten'. The prefix 'ein-' is inserted between 'zu' and the stem.",
+      "id": "c1_03_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt eine fehlerhafte Passiversatzform?",
+      "options": [
+        "Das Problem ist loesbar.",
+        "Das Problem laesst sich loesen.",
+        "Das Problem ist zu loesen.",
+        "Das Problem laesst zu loesen sich."
+      ],
+      "correctAnswer": "Das Problem laesst zu loesen sich.",
+      "explanation": "This sentence has incorrect word order. In 'sich lassen + Infinitiv' constructions, 'sich' immediately follows the conjugated verb, and the infinitive comes at the end: 'laesst sich loesen'.",
+      "id": "c1_03_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform fuer den modalen Passivsatz: 'Hier darf nicht geparkt werden.'?",
+      "options": [
+        "Hier ist nicht zu parken.",
+        "Hier laesst sich nicht parken.",
+        "Hier ist nicht parkbar.",
+        "Hier bekommt man nicht geparkt."
+      ],
+      "correctAnswer": "Hier ist nicht zu parken.",
+      "explanation": "Prohibitive passive with 'duerfen' ('darf nicht geparkt werden') is commonly replaced by 'sein + zu + Infinitiv' with negation: 'ist nicht zu parken', expressing that parking is not permitted.",
+      "id": "c1_03_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform passt am besten in: 'Diese Methode ____ in der Forschung haeufig ____.' (anwenden)?",
+      "options": [
+        "laesst sich ... anwenden",
+        "ist ... anzuwenden",
+        "wird ... angewendet",
+        "ist ... anwendbar"
+      ],
+      "correctAnswer": "laesst sich ... anwenden",
+      "explanation": "'laesst sich anwenden' best expresses general possibility/feasibility in a neutral, academic tone - typical for describing methodological applicability in research contexts.",
+      "id": "c1_03_q051"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man: 'Die Ergebnisse koennen veroeffentlicht werden.' in zwei verschiedene Passiversatzformen?",
+      "options": [
+        "Die Ergebnisse sind veroeffentlichbar. / Die Ergebnisse lassen sich veroeffentlichen.",
+        "Die Ergebnisse werden veroeffentlichbar. / Die Ergebnisse sind zu veroeffentlichen.",
+        "Die Ergebnisse haben sich veroeffentlichen lassen. / Die Ergebnisse sind veroeffentlichend.",
+        "Die Ergebnisse bekommen veroeffentlicht. / Die Ergebnisse lassen veroeffentlichbar sich."
+      ],
+      "correctAnswer": "Die Ergebnisse sind veroeffentlichbar. / Die Ergebnisse lassen sich veroeffentlichen.",
+      "explanation": "Two valid Passiversatzformen for 'koennen + Partizip II' are: (1) adjective with '-bar' ('veroeffentlichbar') and (2) 'sich lassen + Infinitiv'. Both express possibility without using the passive voice directly.",
+      "id": "c1_03_q052"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform druckt eine Notwendigkeit aus, nicht nur eine Moeglichkeit?",
+      "options": [
+        "Das ist machbar.",
+        "Das laesst sich machen.",
+        "Das ist zu machen.",
+        "Das ist gemacht worden."
+      ],
+      "correctAnswer": "Das ist zu machen.",
+      "explanation": "'Sein + zu + Infinitiv' can express either possibility or necessity depending on context, but often implies obligation ('muss gemacht werden'). In contrast, '-bar' adjectives and 'sich lassen' primarily express possibility.",
+      "id": "c1_03_q053"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform mit 'sein + Adjektiv' fuer: 'Es ist erforderlich, dass die Unterlagen eingereicht werden.'?",
+      "options": [
+        "Die Unterlagen sind einzureichen.",
+        "Die Unterlagen reichen sich ein.",
+        "Die Unterlagen sind eingereicht worden.",
+        "Die Unterlagen lassen sich einreichen."
+      ],
+      "correctAnswer": "Die Unterlagen sind einzureichen.",
+      "explanation": "When a passive clause is embedded under 'es ist erforderlich/naetig/wichtig', it can be condensed into 'sein + zu + Infinitiv': 'dass ... eingereicht werden' -> 'sind einzureichen'.",
+      "id": "c1_03_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber die Passiversatzform 'man + Aktiv' ist korrekt?",
+      "options": [
+        "Sie ist stilistisch neutral und in allen Textsorten gleich geeignet.",
+        "Sie vermeidet das Passiv, kann aber durch die unbestimmte Bezugsperson 'man' weniger praezise wirken.",
+        "Sie ist ausschliesslich fuer umgangssprachliche Texte reserviert.",
+        "Sie erfordert immer die Verwendung des Konjunktivs."
+      ],
+      "correctAnswer": "Sie vermeidet das Passiv, kann aber durch die unbestimmte Bezugsperson 'man' weniger praezise wirken.",
+      "explanation": "While 'man + Aktiv' avoids passive constructions, the indefinite pronoun 'man' can introduce ambiguity about agency. At C1 level, learners should recognize this stylistic trade-off.",
+      "id": "c1_03_q055"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die stilistisch anspruchsvollste Passiversatzform fuer einen wissenschaftlichen Abstract: 'Die Hypothese kann durch das Experiment ueberprueft werden.'?",
+      "options": [
+        "Die Hypothese laesst sich durch das Experiment ueberpruefen.",
+        "Man kann die Hypothese durch das Experiment ueberpruefen.",
+        "Die Hypothese ist durch das Experiment zu ueberpruefen.",
+        "Die Hypothese ist ueberpruefbar durch das Experiment."
+      ],
+      "correctAnswer": "Die Hypothese laesst sich durch das Experiment ueberpruefen.",
+      "explanation": "In academic writing, 'sich lassen + Infinitiv' is preferred for its objectivity, conciseness, and avoidance of both passive voice and indefinite pronouns.",
+      "id": "c1_03_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform ist grammatikalisch korrekt, aber stilistisch unueblich oder veraltet?",
+      "options": [
+        "Das Buch ist lesbar.",
+        "Das Buch laesst sich lesen.",
+        "Das Buch ist zu lesen.",
+        "Das Buch wird gelesen werden koennen."
+      ],
+      "correctAnswer": "Das Buch ist zu lesen.",
+      "explanation": "While grammatically correct, 'ist zu lesen' can sound formal or archaic in everyday contexts. 'laesst sich lesen' or 'ist lesbar' are often preferred for naturalness, though 'sein + zu + Infinitiv' remains standard in legal or administrative texts.",
+      "id": "c1_03_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man einen Passivsatz mit trennbarem Verb in die 'sein + zu + Infinitiv'-Form? 'Die Anlagen muessen abgeschaltet werden.'",
+      "options": [
+        "Die Anlagen sind abzuschalten.",
+        "Die Anlagen sind abzuschaltet.",
+        "Die Anlagen sind zu abschalten.",
+        "Die Anlagen lassen sich abgeschaltet."
+      ],
+      "correctAnswer": "Die Anlagen sind abzuschalten.",
+      "explanation": "With separable verbs in 'sein + zu + Infinitiv' constructions, the prefix is reattached and 'zu' is inserted between prefix and stem: 'abschalten' -> 'abzuschalten'. This is a frequent C1-level grammatical challenge.",
+      "id": "c1_03_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform erlaubt die praeziseste Unterscheidung zwischen Moeglichkeit und Notwendigkeit im Kontext: 'Die Daten ____ noch validiert ____.'?",
+      "options": [
+        "koennen ... werden (Passiv) / sind ... zu validieren (Notwendigkeit)",
+        "lassen sich ... validieren (Moeglichkeit) / sind ... zu validieren (Notwendigkeit)",
+        "sind ... validierbar (Moeglichkeit) / muessen ... validiert werden (Notwendigkeit)",
+        "Alle oben genannten Kombinationen ermoeglichen die Unterscheidung."
+      ],
+      "correctAnswer": "Alle oben genannten Kombinationen ermoeglichen die Unterscheidung.",
+      "explanation": "C1-level stylistic competence includes selecting the appropriate Passiversatzform based on intended meaning: 'sich lassen'/'-bar' for possibility, 'sein + zu' for necessity.",
+      "id": "c1_03_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie demonstriert fortgeschrittene Beherrschung von Passiversatzformen in einem C1-Pruefungstext?",
+      "options": [
+        "Ausschliessliche Verwendung einer einzigen Passiversatzform fuer Konsistenz.",
+        "Gezielte Variation zwischen Passiv und verschiedenen Passiversatzformen je nach Fokus, Register und Aussageabsicht.",
+        "Vermeidung aller Passivkonstruktionen zugunsten von Aktivsaetzen mit 'man'.",
+        "Nutzung nur der einfachsten Formen wie '-bar'-Adjektive fuer maximale Verstaendlichkeit."
+      ],
+      "correctAnswer": "Gezielte Variation zwischen Passiv und verschiedenen Passiversatzformen je nach Fokus, Register und Aussageabsicht.",
+      "explanation": "At C1 level, examiners expect stylistic flexibility: choosing between passive and its alternatives based on whether the focus is on the action, the agent, feasibility, or obligation. Strategic variation demonstrates advanced grammatical and rhetorical control.",
+      "id": "c1_03_q060"
     }
   ]
 }
