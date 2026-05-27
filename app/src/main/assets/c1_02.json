@@ -3,7 +3,7 @@
   "subjectId": "c1_02",
   "topicName": "Indirekte Rede & Konjunktiv I",
   "level": "C1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Indirekte Rede & Konjunktiv I - Konjunktiv I is used in German to report what someone said (indirect speech). Key forms: er sage, er habe/hatte gesagt, er sei/wäre gewesen. Konjunktiv II (würde + infinitive) is also used in indirect speech, especially in news reporting. Konjunktiv I is typical in journalism, academic writing, and formal reports. Accusative + infinitive (Aci): 'Er sagte ihn gekommen zu sein'.",
   "tips": [
     "Konjunktiv I conjugations: ich spreche, du sprechest, er spreche, wir sprechen, ihr sprecht, Sie sprechen (for weak verbs Konjunktiv I = Präsens Indikativ; for strong verbs endings change: er komme, er gehe, er nehme).",
@@ -289,6 +289,286 @@
       "correctAnswer": "Konsequenter Einsatz von Konjunktiv I in der indirekten Rede, mit Konjunktiv II bei Mehrdeutigkeit.",
       "explanation": "Professional German journalism uses Konjunktiv I systematically in reported speech to maintain objectivity and distance. Switching to Konjunktiv II when forms are ambiguous demonstrates advanced stylistic control expected at C1 level.",
       "id": "c1_02_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Sprecher sagte, er ____ morgen an der Konferenz teil.",
+      "options": [
+        "nehme",
+        "nimmt",
+        "nähme",
+        "genommen habe"
+      ],
+      "correctAnswer": "nehme",
+      "explanation": "Konjunktiv I is used in indirect speech to report statements neutrally.",
+      "id": "c1_02_q021"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Journalistin berichtete, der Minister ____ keine weiteren Kommentare abgeben.",
+      "options": [
+        "werde",
+        "wird",
+        "würde",
+        "worden sei"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future statements in indirect speech often use 'werde' in Konjunktiv I.",
+      "id": "c1_02_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er behauptete, er ____ die Unterlagen bereits abgeschickt.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Perfect tense in indirect speech uses Konjunktiv I auxiliary forms like 'habe'.",
+      "id": "c1_02_q023"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Experten erklärten, die Situation ____ sich bald verbessern.",
+      "options": [
+        "werde",
+        "würde",
+        "wird",
+        "verbessere"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Indirect future statements require Konjunktiv I with 'werde'.",
+      "id": "c1_02_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie sagte, sie ____ mit dem Ergebnis nicht zufrieden.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "gewesen sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "The verb 'sein' changes to 'sei' in Konjunktiv I.",
+      "id": "c1_02_q025"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge erklärte, er ____ den Täter nicht erkennen können.",
+      "options": [
+        "habe",
+        "hatte",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Indirect speech in the perfect tense uses Konjunktiv I forms.",
+      "id": "c1_02_q026"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter teilten mit, sie ____ nächste Woche im Homeoffice arbeiten.",
+      "options": [
+        "würden",
+        "werden",
+        "arbeiteten",
+        "arbeiteten würden"
+      ],
+      "correctAnswer": "würden",
+      "explanation": "Konjunktiv II with 'würden' is often used when Konjunktiv I sounds identical to indicative.",
+      "id": "c1_02_q027"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er meinte, die Entscheidung ____ bereits getroffen worden.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "worde"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Passive perfect constructions in indirect speech use 'sei ... worden'.",
+      "id": "c1_02_q028"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Professorin sagte, die Studenten ____ die Aufgabe bis Freitag abgeben.",
+      "options": [
+        "müssten",
+        "müssen",
+        "mussten",
+        "müssten haben"
+      ],
+      "correctAnswer": "müssten",
+      "explanation": "Konjunktiv II is used here because the Konjunktiv I form would be identical to indicative.",
+      "id": "c1_02_q029"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er erklärte, er ____ keine Zeit für ein weiteres Gespräch.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Indirect speech requires Konjunktiv I where possible.",
+      "id": "c1_02_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Politikerin betonte, man ____ dringend neue Maßnahmen ergreifen.",
+      "options": [
+        "müsse",
+        "muss",
+        "musste",
+        "müsste"
+      ],
+      "correctAnswer": "müsse",
+      "explanation": "The modal verb appears in Konjunktiv I as 'müsse'.",
+      "id": "c1_02_q031"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Sprecher behauptete, das Unternehmen ____ niemals gegen das Gesetz verstoßen.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Perfect tense in indirect speech uses Konjunktiv I auxiliary verbs.",
+      "id": "c1_02_q032"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie erklärte, die Ergebnisse ____ noch überprüft werden.",
+      "options": [
+        "müssten",
+        "müssen",
+        "mussten",
+        "müssten worden"
+      ],
+      "correctAnswer": "müssten",
+      "explanation": "Konjunktiv II is used because Konjunktiv I would sound identical to indicative.",
+      "id": "c1_02_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt sagte, der Patient ____ sich ausreichend erholen.",
+      "options": [
+        "solle",
+        "soll",
+        "sollte",
+        "hätte sollen"
+      ],
+      "correctAnswer": "solle",
+      "explanation": "The modal verb 'sollen' becomes 'solle' in Konjunktiv I.",
+      "id": "c1_02_q034"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Zeitung schrieb, die Regierung ____ eine Reform geplant.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Indirect speech in reported writing typically uses Konjunktiv I.",
+      "id": "c1_02_q035"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er behauptete, er ____ von den Problemen nichts gewusst.",
+      "options": [
+        "habe",
+        "hatte",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Konjunktiv I perfect tense is formed with 'habe' + participle.",
+      "id": "c1_02_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher erklärten, die Daten ____ eindeutig interpretiert werden.",
+      "options": [
+        "könnten",
+        "können",
+        "konnten",
+        "könnten haben"
+      ],
+      "correctAnswer": "könnten",
+      "explanation": "Konjunktiv II is used to avoid ambiguity with indicative forms.",
+      "id": "c1_02_q037"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie sagte, ihr Bruder ____ derzeit im Ausland.",
+      "options": [
+        "arbeite",
+        "arbeitet",
+        "arbeitete",
+        "habe gearbeitet"
+      ],
+      "correctAnswer": "arbeite",
+      "explanation": "The verb 'arbeiten' changes to 'arbeite' in Konjunktiv I.",
+      "id": "c1_02_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Reporter berichtete, der Unfall ____ durch einen technischen Defekt verursacht worden.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "worden sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Passive perfect indirect speech uses 'sei ... worden'.",
+      "id": "c1_02_q039"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin meinte, sie ____ die Prüfung ohne Probleme bestehen.",
+      "options": [
+        "werde",
+        "würde",
+        "wird",
+        "bestünde"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future meaning in indirect speech is expressed with 'werde'.",
+      "id": "c1_02_q040"
     }
   ]
 }
