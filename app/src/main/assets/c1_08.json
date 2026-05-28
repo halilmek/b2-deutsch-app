@@ -3,16 +3,20 @@
   "subjectId": "c1_08",
   "level": "C1",
   "totalQuestions": 60,
-  "description": "C1 Konnektoren & Satzverknuepfung.\n\nKANNEKTOR-TYPEN:\n- Kausal: weil, da, denn, deshalb, deswegen, darum, infolgedessen, demnach\n- Konzessiv: obwohl, obgleich, obgleich, obzwar, wenngleich, obgleich, obwhr, trotzdem, dennoch, allerdings, zumal\n- Final: damit, um ... zu, auf dass, damit\n- Temporal: als, wenn, waehrend, bevor, nachdem, sobald, solange, seit\n- Konditional: wenn, falls, sofern, es sei denn, andernfalls\n- Konsekutiv: sodass, so ... dass, demnach, infolgedessen\n- Modal: indem, dadurch dass, ohne ... zu, anstatt ... zu\n- Adversativ: aber, jedoch, waehrend, wohingegen, dagegen\n- Proportional: je ... desto, je ... umso\n- Additv: ausserdem, zudem, ueberdies, sowohl ... als auch, nicht nur ... sondern auch\n\nWORTSTELLUNG (C1 CRITICAL):\n- Subordinating conjunctions (weil, obwohl, damit, etc.) -> Verb at END\n- Coordinating conjunctions (denn, aber, oder) -> V2 normal order\n- Connector adverbs (deshalb, jedoch, leider) -> Verb in Position 2\n- Nebensatz after fronted subordinate clause -> V2 in main clause",
+  "description": "Konnektoren & Satzverknuepfung (C1)\n\n=== 1. DREI TYPEN VON KONNEKTOREN ===\n\nGRUPPE 1: KOORDINIERENDE KONJUNKTIONEN (Position 0)\nPosition 0 = keine Verbverschiebung. Subjekt in Pos.1, Verb in Pos.2.\nBeispiele: aber, denn, und, sondern, oder, allein, doch\nBeispiel: Das Projekt war teuer, doch es hat sich gelohnt.\n\nGRUPPE 2: SUBJUNKTIONEN (Nebensatz: Verb am Ende)\nDiese Konjunktionen senden das konjugierte Verb an das Satzende.\nC1-Beispiele: obgleich, obschon, wenngleich, sofern, wohingegen, indem,\n              sodass, auf dass, obwohl, damit, weil, da\nBeispiel: Wir muessen die Massnahmen verschaerfen, sofern die Zahlen steigen.\n\nGRUPPE 3: ADVERBIELLE KONNEKTOREN (Position 1)\nPosition 1 in ihrem Satzteil -> Inversion: Verb sofort in Position 2.\nC1-Beispiele: infolgedessen, andernfalls, demnach, jedoch, vielmehr,\n              allerdings, dennoch, trotzdem, uebrigens\nBeispiel: Die Testergebnisse waren negativ; demnach hat sich der Verdacht\n          nicht bestaetigt.\n\n=== 2. LOGISCHE BEZIEHUNGEN (C1) ===\n\nKONZESSIV (Gegensatz / Trotz):\n- obgleich / obschon / wenngleich (Formell, Nebensatz)\n  -> Obgleich es heftige Proteste gab, setzte die Regierung die Reform durch.\n- jedoch / dessen ungeachtet (Adverb, Position 1 -> Inversion)\n  -> Es gab heftige Proteste; die Regierung setzte die Reform jedoch durch.\n- ungeachtet + Genitiv (Prueposition, formell)\n- nichtsdestotrotz (gehobener Adversativadverb)\n\nBEDINGUNG / ALTERNATIVE (Wenn / Sonst):\n- sofern (Nebensatz, Provided that)\n  -> Ich helfe Ihnen gerne, sofern meine eigenen Aufgaben nicht leiden.\n- andernfalls (Adverb, Otherwise, Position 1)\n  -> Sie muessen bezahlen, andernfalls wird Ihre Anmeldung geloescht.\n\nADVERSATIV (Direkter Vergleich):\n- wohingegen (Nebensatz, Whereas/While)\n  -> Der Oekonom rechnet mit Erholung, wohingegen viele Haendler skeptisch bleiben.\n- waehrend (Nebensatz,同期/gleichzeitig)\n- vielmehr (Adverb, Korrektur, logische Wendung)\n  -> Die erste Hypothese ist widerlegt; vielmehr stuetzt sich dos neue Modell...\n\n=== 3. GRAMMATISCHE MASTERCLASSES ===\n\nALS OB / ALS + Konjunktiv II (irrealer Vergleich):\nA) Er tat so, als ob er von den Plaenen nichts gewusst haette.\n   -> als ob: Verb am Ende\nB) Er tat so, als haette er von den Plaenen nichts gewusst.\n   -> als allein: Verb sofort in Position 2! (TRAP! Verb folgt DIRECTLY auf als)\n   \nPROPORTIONAL: je ... desto / umso\nStruktur: Je + Adjektiv + Nebensatz (Verb am Ende),\n          desto/umso + Adjektiv + Verb in Pos.2 + Subjekt\n-> Je komplexer die Aufgaben werden, desto strukturierter muessen wir vorgehen.\n\nES SEI DENN (dass):\n- es sei denn, (ohne dass): Position 0 = HAUPTSATZ-Wortfolge!\n  -> Ich gehe morgen wandern, es sei denn, das Wetter schlaegt um.\n- es sei denn, dass: Nebensatz -> Verb am Ende\n\nTIPP: Variiere zwischen Konjunktion (weil), Adverb (deshalb) und\n      Nomen + Genitiv/Prueposition (wegen/deshalb).\n      Das zeigt strukturelle Flexibilitaet auf C1-Niveau.",
   "tips": [
-    "Weil = Verb am ENDE; denn = V2 Wortfolge (normal order)",
-    "Obwohl und wenngleich = concessive; wenngleich is more formal",
-    "Zwar ... aber = contrast concession; nicht nur ... sondern auch = additive contrast",
-    "Sodass = consecutive (Folge/Ergebnis); damit = final (Zweck)",
-    "Indem = modal clause (HOW to achieve something); um ... zu = same subject infinitive",
-    "Ohne ... zu + Infinitiv = expected action did NOT happen",
-    "Weder ... noch = double negation (neither ... nor)",
-    "Je ... desto = proportional correlation (the more ... the more)"
+    "Koordinierende Konjunktionen (aber, denn, und, oder, doch) = Position 0 = KEINE Verbverschiebung",
+    "Subjunktionen (weil, obwohl, damit, indem, sodass) = Verb am ENDE des Nebensatzes",
+    "Adverbielle Konnektoren (deshalb, jedoch, dennoch, demnach) = Position 1 = INVERSION (Verb in Pos.2)",
+    "obgleich / obschon / wenngleich = formell-konzessiv; obwohl = neutral",
+    "sofern = sofern (Provided that) = formelle Bedingung; andernfalls = Otherwise",
+    "ALS bei irrealem Vergleich: OHNE 'ob' -> Verb SOFORT nach als in Position 2! (als haette er...)",
+    "Je ... desto = proportional: Je-Nebensatz (Verb am Ende) + desto-Satz (Adjektiv + Verb zuerst)",
+    "es sei denn ohne 'dass' = HAUPTSATZ-Wortfolge (normales V2)!",
+    "Ungeachtet + Genitiv = formell-konzessiv; nichtsdestotrotz = gehobener Adversativadverb",
+    "Abwechslung zeigen: Konjunktion WEIL vs. Adverb DESHALB vs. Nomen WEGEN (+ Genitiv)",
+    "Bei semicola trennen: Nebensatz + ; + Hauptsatz mit Adverb in Pos.1 klingt akademisch",
+    "Indem =Modalverbindung (HOW): beide Saetze gleiches Subjekt; um ... zu = Final (= damit)"
   ],
   "questions": [
     {
