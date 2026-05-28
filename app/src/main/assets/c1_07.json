@@ -1,0 +1,859 @@
+{
+  "topicName": "Wortbildung: Komposita & Derivation",
+  "subjectId": "c1_07",
+  "level": "C1",
+  "totalQuestions": 60,
+  "description": "In this topic you will practice advanced German word formation.\n\nKOMPOSITA (compounds): Determinative, possessive (Bahuvrihi), copulative.\nFugenelemente: -s-, -es-, -en- (historical genitive links).\nDERIVATION: prefixes (ver-, ent-, er-, be-, un-), suffixes (-heit, -keit, -schaft, -ung, -er, -los, -bar, -haft, -lich).\nKONVERSION: zero-derivation without affix (lachen -> das Lachen).\nKURZWORTBILDUNG: clipping (Universitaet -> Uni).",
+  "tips": [
+    "In compounds the last word (Grundwort) determines gender and meaning",
+    "un- negates adjectives; ver-/ent-/er-/be- are verbal prefixes",
+    "-heit and -keit are variants: -heit for consonants, -keit for -el/-ler endings",
+    "-los = without, -reich = rich in, -voll = full of",
+    "-bar added to verb stems = capable of being X-ed (lesbar)",
+    "Fugenelemente (-s-, -es-) often reflect historical genitive forms",
+    "Konversion = word class change without affix: lachen -> das Lachen",
+    "Bahuvrihi (possessive compounds) describe by characteristic: Rotkappchen = one with red cap"
+  ],
+  "questions": [
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet das Kompositum Handschuh?",
+      "options": [
+        "Ein Schuh fuer die Hand",
+        "Ein Kleidungsstueck fuer die Hand",
+        "Ein Werkzeug fuer die Hand",
+        "Ein Handtuch aus Leder"
+      ],
+      "correctAnswer": "Ein Kleidungsstueck fuer die Hand",
+      "explanation": "Handschuh = Hand + Schuh, but semantically it means glove. Compound meaning is not always transparent.",
+      "id": "c1_07_q001"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein Kompositum mit dem Grundwort -arbeit?",
+      "options": [
+        "Arbeitslos",
+        "Hausarbeit",
+        "Arbeitgeber",
+        "Bearbeitung"
+      ],
+      "correctAnswer": "Hausarbeit",
+      "explanation": "Hausarbeit = Haus + Arbeit. The Grundwort (head word) is the last element.",
+      "id": "c1_07_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Vorsilbe (Praefix) macht aus dem Adjektiv moeglich das Gegenteil?",
+      "options": [
+        "ver-",
+        "ent-",
+        "un-",
+        "miss-"
+      ],
+      "correctAnswer": "un-",
+      "explanation": "un- is the standard negating prefix for adjectives: unmoeglich = impossible.",
+      "id": "c1_07_q003"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix wird verwendet, um aus dem Verb lehren ein Nomen fuer eine Person zu bilden? -> der ____",
+      "options": [
+        "Lehrung",
+        "Lehrei",
+        "Lehrer",
+        "Lehrnis"
+      ],
+      "correctAnswer": "Lehrer",
+      "explanation": "-er forms agent nouns from verbs: lehren -> Lehrer (teacher).",
+      "id": "c1_07_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Woerter ist durch das Suffix -heit gebildet worden?",
+      "options": [
+        "Freiheit",
+        "Freundschaft",
+        "Freundlichkeit",
+        "Befreiung"
+      ],
+      "correctAnswer": "Freiheit",
+      "explanation": "Freiheit = frei + -heit. -heit forms abstract nouns from adjectives; -schaft forms collective nouns.",
+      "id": "c1_07_q005"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie das passende Kompositum: Die Stadtverwaltung hat einen neuen ____ fuer Radfahrer eingerichtet.",
+      "options": [
+        "Fahrradstreifen",
+        "Radfahrstreifen",
+        "Streifenfahrrad",
+        "Fahrtradstreifen"
+      ],
+      "correctAnswer": "Radfahrstreifen",
+      "explanation": "Radfahrstreifen = Radfahrer + Streifen. German compounds are head-final.",
+      "id": "c1_07_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort enthaelt ein Praefix mit einer trennbaren Bedeutung (trennbares Verb)?",
+      "options": [
+        "verstehen",
+        "ankommen",
+        "besuchen",
+        "erkennen"
+      ],
+      "correctAnswer": "ankommen",
+      "explanation": "Ankommen is separable: er kommt an. ver-, be-, er- are inseparable.",
+      "id": "c1_07_q007"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat das Praefix ver- im Wort verreisen?",
+      "options": [
+        "Es druckt eine Verneinung aus",
+        "Es druckt eine Bewegung weg von einem Ort aus",
+        "Es druckt eine Wiederholung aus",
+        "Es druckt eine Verstaerkung aus"
+      ],
+      "correctAnswer": "Es druckt eine Bewegung weg von einem Ort aus",
+      "explanation": "ver- in verreisen indicates movement away: to travel away.",
+      "id": "c1_07_q008"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix bildet ein Adjektiv mit der Bedeutung ohne etwas? -> Er ist voellig ____ (ohne Hoffnung).",
+      "options": [
+        "hoffnungsreich",
+        "hoffnungslos",
+        "hoffnungsvoll",
+        "hoffnungsmäßig"
+      ],
+      "correctAnswer": "hoffnungslos",
+      "explanation": "-los means without: hoffnungslos = without hope (hopeless).",
+      "id": "c1_07_q009"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement fehlt im Kompositum Arbeit____vertrag?",
+      "options": [
+        "-s-",
+        "-en-",
+        "-e-",
+        "kein Fugenelement"
+      ],
+      "correctAnswer": "-s-",
+      "explanation": "Arbeitsvertrag uses the Fugenelement -s-. Fugenelemente connect compound parts.",
+      "id": "c1_07_q010"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist eine Ableitung (Derivation) und kein Kompositum?",
+      "options": [
+        "Tischdecke",
+        "Sonnenschein",
+        "Freundlichkeit",
+        "Kopfschmerzen"
+      ],
+      "correctAnswer": "Freundlichkeit",
+      "explanation": "Freundlichkeit = Freund -> freundlich (-lich) -> Freundlichkeit (-keit). The others are compounds.",
+      "id": "c1_07_q011"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Praefix ent- in enttaeuschen druckt aus, dass ____.",
+      "options": [
+        "eine Handlung verstaerkt wird",
+        "eine Erwartung nicht erfuellt wird / etwas aufgehoben wird",
+        "etwas wiederholt wird",
+        "eine Bewegung beginnt"
+      ],
+      "correctAnswer": "eine Erwartung nicht erfuellt wird / etwas aufgehoben wird",
+      "explanation": "Ent- signals reversal/removal. Enttäuschen = to disappoint.",
+      "id": "c1_07_q012"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum ist semantisch ein Bahuvrihi (Possessivkompositum)?",
+      "options": [
+        "Tischbein",
+        "Rotkaeppchen",
+        "Waschmaschine",
+        "Buchregal"
+      ],
+      "correctAnswer": "Rotkaeppchen",
+      "explanation": "Bahuvrihi = one with red cap (possessive). Rotkaeppchen describes the girl by her characteristic.",
+      "id": "c1_07_q013"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortbildung ist korrekt fuer das Verb analysieren -> Nomen des Vorgangs?",
+      "options": [
+        "Analysist",
+        "Analysierung",
+        "Analyse",
+        "Analysat"
+      ],
+      "correctAnswer": "Analyse",
+      "explanation": "Verbs in -ieren drop -ieren: analysieren -> Analyse.",
+      "id": "c1_07_q014"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort enthaelt das Suffix -bar mit passiver Bedeutung (= kann getan werden)?",
+      "options": [
+        "offenbar",
+        "nachbar",
+        "lesbar",
+        "sonderbar"
+      ],
+      "correctAnswer": "lesbar",
+      "explanation": "-bar added to a verb stem = capable of being X-ed: lesbar = can be read.",
+      "id": "c1_07_q015"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie nennt man die Wortbildung, bei der ein neues Wort durch Kuerzung eines bestehenden entsteht?",
+      "options": [
+        "Derivation",
+        "Konversion",
+        "Kurzwortbildung (Kuerzung)",
+        "Komposition"
+      ],
+      "correctAnswer": "Kurzwortbildung (Kuerzung)",
+      "explanation": "Kurzwortbildung (clipping) shortens an existing word: Universitaet -> Uni.",
+      "id": "c1_07_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem der folgenden Woerter liegt eine Konversion vor - also ein Wortartenwechsel ohne Affix?",
+      "options": [
+        "Freundschaft",
+        "das Lachen",
+        "lesbar",
+        "Arbeitslosigkeit"
+      ],
+      "correctAnswer": "das Lachen",
+      "explanation": "Konversion = word class change without affix: lachen -> das Lachen.",
+      "id": "c1_07_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix veraendert die Bedeutung des Verbs schreiben so, dass es falsch schreiben bedeutet?",
+      "options": [
+        "ver-",
+        "ueber-",
+        "um-",
+        "ab-"
+      ],
+      "correctAnswer": "ver-",
+      "explanation": "Verschreiben = to write incorrectly. ver- indicates an erroneous action.",
+      "id": "c1_07_q018"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein Beispiel fuer ein Determinativkompositum, bei dem das Bestimmungswort den Zweck angibt?",
+      "options": [
+        "Tischbein",
+        "Kuechenwaage",
+        "Rotkohl",
+        "Grossmutter"
+      ],
+      "correctAnswer": "Kuechenwaage",
+      "explanation": "In Kuechenwaage (kitchen scale), Kuechen- specifies the purpose of the Grundwort Waage.",
+      "id": "c1_07_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Komposita enthaelt ein Fugenelement, das historisch einem Genitiv entspricht?",
+      "options": [
+        "Tischdecke",
+        "Hundeleine",
+        "Tageslicht",
+        "Blumenstrauß"
+      ],
+      "correctAnswer": "Tageslicht",
+      "explanation": "Tageslicht = Tag + -es- + Licht. -es- reflects the old genitive form of Tag.",
+      "id": "c1_07_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ploetzliche ____ der Preise ueberraschte viele Kunden.",
+      "options": [
+        "Erhoehung",
+        "Erhoeher",
+        "Erhoehbarkeit",
+        "Erloehnis"
+      ],
+      "correctAnswer": "Erhoehung",
+      "explanation": "Erhohung = noun from erhoen (to increase).",
+      "id": "c1_07_q021"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen investiert stark in die ____ neuer Technologien.",
+      "options": [
+        "Weiterentwicklung",
+        "Weiterentwickler",
+        "Entwickelungslos",
+        "Entwickelbarkeit"
+      ],
+      "correctAnswer": "Weiterentwicklung",
+      "explanation": "Weiterentwicklung = further development.",
+      "id": "c1_07_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Projekts dauerte laenger als erwartet.",
+      "options": [
+        "Durchfuehrung",
+        "Durchfuehrnis",
+        "Durchfuehrerung",
+        "Fuehrbarkeit"
+      ],
+      "correctAnswer": "Durchfuehrung",
+      "explanation": "Durchfuehrung = standard nominalization of durchfuehren.",
+      "id": "c1_07_q023"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Viele Arbeitnehmer wuenschen sich mehr ____ am Arbeitsplatz.",
+      "options": [
+        "Selbststaendigkeit",
+        "Selbststaenden",
+        "Selbststaendigheit",
+        "Selbstung"
+      ],
+      "correctAnswer": "Selbststaendigkeit",
+      "explanation": "-keit forms abstract nouns from adjectives.",
+      "id": "c1_07_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die neue ____ sorgt fuer mehr Verkehrssicherheit.",
+      "options": [
+        "Strassenbeleuchtung",
+        "Strassenlichtung",
+        "Strassenhellung",
+        "Beleuchtbarkeit"
+      ],
+      "correctAnswer": "Strassenbeleuchtung",
+      "explanation": "Strassenbeleuchtung = street lighting.",
+      "id": "c1_07_q025"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Seine ____ gegenueber Kritik beeindruckte alle Kollegen.",
+      "options": [
+        "Gelassenheit",
+        "Gelassigkeit",
+        "Gelassung",
+        "Gelassenbar"
+      ],
+      "correctAnswer": "Gelassenheit",
+      "explanation": "-heit forms nouns expressing qualities or states.",
+      "id": "c1_07_q026"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Daten muss sorgfaeltig erfolgen.",
+      "options": [
+        "Verarbeitung",
+        "Verarbeitnis",
+        "Bearbeitkeit",
+        "Verarbeitbarkeit"
+      ],
+      "correctAnswer": "Verarbeitung",
+      "explanation": "Verarbeitung = nominalization of verarbeiten.",
+      "id": "c1_07_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen legt großen Wert auf ____.",
+      "options": [
+        "Kundenzufriedenheit",
+        "Kundenzufriedung",
+        "Zufriedenbarkeit",
+        "Kundenglueckheit"
+      ],
+      "correctAnswer": "Kundenzufriedenheit",
+      "explanation": "Kundenzufriedenheit = customer satisfaction.",
+      "id": "c1_07_q028"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Gebaeudes wurde 2024 abgeschlossen.",
+      "options": [
+        "Renovierung",
+        "Renovierheit",
+        "Renovierbarkeit",
+        "Renoviertung"
+      ],
+      "correctAnswer": "Renovierung",
+      "explanation": "-ung forms nouns from verbs; Renovierung = renovation.",
+      "id": "c1_07_q029"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sein Verhalten zeugte von großer ____.",
+      "options": [
+        "Verantwortungslosigkeit",
+        "Verantwortungheit",
+        "Verantwortbarigkeit",
+        "Verantwortlichkeitung"
+      ],
+      "correctAnswer": "Verantwortungslosigkeit",
+      "explanation": "-losigkeit = absence of a quality (irresponsibility).",
+      "id": "c1_07_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Umwelt hat hoechste Prioritaet.",
+      "options": [
+        "Schutzmassnahme",
+        "Schutzigkeit",
+        "Schuetzbarkeit",
+        "Beschuetzungheit"
+      ],
+      "correctAnswer": "Schutzmassnahme",
+      "explanation": "Schutzmassnahme = protective measure.",
+      "id": "c1_07_q031"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ zwischen den Abteilungen funktionierte hervorragend.",
+      "options": [
+        "Zusammenarbeit",
+        "Zusammenarbeitung",
+        "Arbeitssamkeit",
+        "Kooperierung"
+      ],
+      "correctAnswer": "Zusammenarbeit",
+      "explanation": "Zusammenarbeit = collaboration / teamwork.",
+      "id": "c1_07_q032"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Systems verursacht hohe Kosten.",
+      "options": [
+        "Wartung",
+        "Wartigkeit",
+        "Wartbarkeit",
+        "Gewartung"
+      ],
+      "correctAnswer": "Wartung",
+      "explanation": "Wartung = maintenance, derived from warten.",
+      "id": "c1_07_q033"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er bewies außergewoehnliche ____ in schwierigen Situationen.",
+      "options": [
+        "Belastbarkeit",
+        "Belastungheit",
+        "Belastsamkeit",
+        "Belastungslosigkeit"
+      ],
+      "correctAnswer": "Belastbarkeit",
+      "explanation": "-barkeit = capability/resilience; Belastbarkeit = resilience.",
+      "id": "c1_07_q034"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Forschungsergebnisse erfolgte online.",
+      "options": [
+        "Veroeffentlichung",
+        "Veroeffentlichtheit",
+        "Oeffnungsbarkeit",
+        "Publizierungkeit"
+      ],
+      "correctAnswer": "Veroeffentlichung",
+      "explanation": "Veroeffentlichung = publication, from veroeffentlichen.",
+      "id": "c1_07_q035"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen leiden unter zunehmender ____.",
+      "options": [
+        "Arbeitslosigkeit",
+        "Arbeitsbarkeit",
+        "Arbeitsung",
+        "Arbeitsfreiheitigkeit"
+      ],
+      "correctAnswer": "Arbeitslosigkeit",
+      "explanation": "-losigkeit = lack of; Arbeitslosigkeit = unemployment.",
+      "id": "c1_07_q036"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Teilnehmer wurde sorgfaeltig ueberprueft.",
+      "options": [
+        "Anwesenheit",
+        "Anwesung",
+        "Anwesbarkeit",
+        "Anwesigkeit"
+      ],
+      "correctAnswer": "Anwesenheit",
+      "explanation": "Anwesenheit = presence, formed with -heit.",
+      "id": "c1_07_q037"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen foerdert die ____ seiner Mitarbeiter.",
+      "options": [
+        "Eigenverantwortung",
+        "Eigenverantwortlichkeitung",
+        "Verantwortungskeit",
+        "Selbstverantwortbar"
+      ],
+      "correctAnswer": "Eigenverantwortung",
+      "explanation": "Eigenverantwortung = personal responsibility.",
+      "id": "c1_07_q038"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Informationen dauerte mehrere Stunden.",
+      "options": [
+        "Datenauswertung",
+        "Datenauswertigkeit",
+        "Auswertsamkeit",
+        "Informationswertung"
+      ],
+      "correctAnswer": "Datenauswertung",
+      "explanation": "Datenauswertung = data analysis/evaluation.",
+      "id": "c1_07_q039"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ihre ____ machte sie zu einer beliebten Fuehrungskraft.",
+      "options": [
+        "Freundlichkeit",
+        "Freundsamtkeit",
+        "Freundhaftung",
+        "Freundung"
+      ],
+      "correctAnswer": "Freundlichkeit",
+      "explanation": "-keit creates abstract nouns from adjectives; Freundlichkeit = friendliness.",
+      "id": "c1_07_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Wortbildung unterscheidet hauptsaechlich zwischen ____ und Derivation.",
+      "options": [
+        "Flexion",
+        "Komposition",
+        "Reduplikation",
+        "Konversion"
+      ],
+      "correctAnswer": "Komposition",
+      "explanation": "Two main types: Komposition (compounds) and Derivation (affixes).",
+      "id": "c1_07_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Kompositum?",
+      "options": [
+        "Ein Wort mit Praefix",
+        "Ein Wort aus zwei oder mehr eigenstaendigen Woertern",
+        "Ein abgeleitetes Wort",
+        "Ein Wort mit Suffix"
+      ],
+      "correctAnswer": "Ein Wort aus zwei oder mehr eigenstaendigen Woertern",
+      "explanation": "A Kompositum combines at least two independent words.",
+      "id": "c1_07_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein Determinativkompositum?",
+      "options": [
+        "das Singen",
+        "der Schreibtisch",
+        "die Schoenheit",
+        "das Rotkaeppchen"
+      ],
+      "correctAnswer": "der Schreibtisch",
+      "explanation": "Schreibtisch: Schreib- (determinant) modifies Tisch (basic word).",
+      "id": "c1_07_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie das Kompositum: der ____ + die Pflanze -> die ____",
+      "options": [
+        "Zimmer; Zimmerpflanze",
+        "Zimmers; Zimmerpflanze",
+        "Zimmern; Zimmerpflanze",
+        "Zimmeres; Zimmerpflanze"
+      ],
+      "correctAnswer": "Zimmer; Zimmerpflanze",
+      "explanation": "Compounds use the base form of the first word: Zimmer + Pflanze = Zimmerpflanze.",
+      "id": "c1_07_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist das Grundwort im Kompositum Autobahn?",
+      "options": [
+        "Auto",
+        "Bahn",
+        "beide",
+        "keins"
+      ],
+      "correctAnswer": "Bahn",
+      "explanation": "The Grundwort (basic word) is the last element: Bahn. Auto is the Bestimmungswort.",
+      "id": "c1_07_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenlautelement ist hier korrekt: der Staat + der Anwalt -> der ____",
+      "options": [
+        "Staatanwalt",
+        "Staatesanwalt",
+        "Staatsanwalt",
+        "Staatanwalt"
+      ],
+      "correctAnswer": "Staatsanwalt",
+      "explanation": "Staat + s + Anwalt = Staatsanwalt (prosecutor). Fugen-s is required.",
+      "id": "c1_07_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: die Liebe + der Brief -> der ____",
+      "options": [
+        "Liebesbrief",
+        "Liebenbrief",
+        "Liebsbrief",
+        "Liebeabrief"
+      ],
+      "correctAnswer": "Liebesbrief",
+      "explanation": "Liebe + s + Brief = Liebesbrief. Nouns in -e add -s- as Fugenelement.",
+      "id": "c1_07_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Bei der Derivation wird ein ____ an ein Basiswort angehaengt.",
+      "options": [
+        "Affix",
+        "Kompositum",
+        "Fugenelement",
+        "Stamm"
+      ],
+      "correctAnswer": "Affix",
+      "explanation": "Derivation adds affixes (prefixes or suffixes) to a base word.",
+      "id": "c1_07_q048"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist eine Derivation (Ableitung)?",
+      "options": [
+        "Tischlampe",
+        "Lehrbuch",
+        "Fahrkarte",
+        "Schoenheit"
+      ],
+      "correctAnswer": "Schoenheit",
+      "explanation": "Schoenheit = schoen + -heit. The others are compounds (two free morphemes).",
+      "id": "c1_07_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Suffix -ung bildet hauptsaechlich ____ aus Verben.",
+      "options": [
+        "Adjektive",
+        "Substantive",
+        "Verben",
+        "Adverbien"
+      ],
+      "correctAnswer": "Substantive",
+      "explanation": "-ung derives nouns from verbs: pruefen -> Pruefung.",
+      "id": "c1_07_q050"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie die Derivation: krank + ____ = die Krankheit",
+      "options": [
+        "-keit",
+        "-heit",
+        "-nis",
+        "-tum"
+      ],
+      "correctAnswer": "-heit",
+      "explanation": "krank + -heit = Krankheit.",
+      "id": "c1_07_q051"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix druckt eine negative Bedeutung aus (Gegenteil)?",
+      "options": [
+        "ver-",
+        "be-",
+        "un-",
+        "er-"
+      ],
+      "correctAnswer": "un-",
+      "explanation": "un- negates adjectives: unmoeglich, unbekannt.",
+      "id": "c1_07_q052"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Bilden Sie das passende Kompositum: die Tuer + der Schluessel -> ____",
+      "options": [
+        "der Tuerschluessel",
+        "die Tuerschluessel",
+        "das Tuerschluessel",
+        "den Tuerschluessel"
+      ],
+      "correctAnswer": "der Tuerschluessel",
+      "explanation": "Gender follows the Grundwort: der Schluessel -> der Tuerschluessel.",
+      "id": "c1_07_q053"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet der Rauchmelder woertlich (Kompositionsanalyse)?",
+      "options": [
+        "jemand, der Rauch meldet",
+        "ein Geraet, das Rauch meldet",
+        "Rauch, der meldet",
+        "ein Melder fuer Rauch"
+      ],
+      "correctAnswer": "ein Geraet, das Rauch meldet",
+      "explanation": "Rauchmelder = Rauch + Melder (from melden). A device that detects smoke.",
+      "id": "c1_07_q054"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie das Verbderivat: Lauf + ____ = laufen",
+      "options": [
+        "-en",
+        "-ieren",
+        "-eln",
+        "-ern"
+      ],
+      "correctAnswer": "-en",
+      "explanation": "Many verbs add -en: Lauf -> laufen.",
+      "id": "c1_07_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort enthaelt ein Praefix, das eine Trennung oder Entfernung anzeigt?",
+      "options": [
+        "bekommen",
+        "entlassen",
+        "verlieren",
+        "zerbrechen"
+      ],
+      "correctAnswer": "entlassen",
+      "explanation": "ent- indicates removal: entlassen = to dismiss/release.",
+      "id": "c1_07_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Kopulativkompositum?",
+      "options": [
+        "Hausaufgabe",
+        "schwarz-weiss",
+        "Hochhaus",
+        "Liebesbrief"
+      ],
+      "correctAnswer": "schwarz-weiss",
+      "explanation": "Kopulativkomposita (dvandva) combine two equal elements: schwarz-weiss. Both parts have equal status.",
+      "id": "c1_07_q057"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Bilden Sie das Adjektiv: der Riese + -haft -> ____",
+      "options": [
+        "riesig",
+        "riesenhaft",
+        "rieshaft",
+        "rieselhaft"
+      ],
+      "correctAnswer": "riesenhaft",
+      "explanation": "-haft derives adjectives from nouns: Riese -> riesenhaft (gigantic). Note linking -en-.",
+      "id": "c1_07_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Woerter ist KEIN Kompositum?",
+      "options": [
+        "Eingang",
+        "Arbeitszimmer",
+        "Kindergarten",
+        "Muttertag"
+      ],
+      "correctAnswer": "Eingang",
+      "explanation": "Eingang (entry) is arguably derived. Kinder garten and Muttertag are clear compounds.",
+      "id": "c1_07_q059"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie: Das Suffix -los bildet ____ mit der Bedeutung ohne.",
+      "options": [
+        "Substantive",
+        "Adjektive",
+        "Verben",
+        "Adverbien"
+      ],
+      "correctAnswer": "Adjektive",
+      "explanation": "-los derives adjectives meaning without: hoffnungslos (hopeless), arbeitslos (unemployed).",
+      "id": "c1_07_q060"
+    }
+  ]
+}
