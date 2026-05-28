@@ -3,7 +3,7 @@
   "subjectId": "c1_03",
   "topicName": "Passiversatzformen",
   "level": "C1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Passiversatzformen — At C1 level, relying solely on Vorgangspassiv (werden + Partizip II) makes your text sound repetitive. Passiversatzformen are semantically passive (subject undergoes the action) but use active verbs, adjectives, or fixed expressions. The three core structures are: (1) 'sein + zu + Infinitiv' — replaces können (possibility) or müssen (necessity); (2) 'sich lassen + Infinitiv' — replaces können exclusively (possibility); (3) adjectives in -bar/-lich — turn action into capability adjective (e.g., 'ist lesbar' = kann gelesen werden). Advanced C1 forms: Das Gerundiv ('die noch zu prüfenden Dokumente') as adjectives before nouns with passive necessity meaning; Passiv-Funktionsverbgefüge (noun-verb combinations like 'steht zur Diskussion', 'findet Anwendung', 'stößt auf Kritik') replacing passive verbs in formal/official German. Key trap: 'Das Auto ist zu reparieren' = passive (car needs fixing); 'Ich habe das Auto zu reparieren' = active (I must fix the car). Exam tip: Mix forms across paragraphs to demonstrate full syntactic control.",
   "tips": [
     "'sein + zu + Infinitiv' is the ultimate C1 structure: 'Die Ergebnisse sind einzusehen' = können (possibility) or 'Die Regeln sind zu beachten' = müssen (necessity). Always use the INFINITIVE, not the past participle.",
@@ -854,6 +854,286 @@
       "correctAnswer": "Gezielte Variation zwischen Passiv und verschiedenen Passiversatzformen je nach Fokus, Register und Aussageabsicht.",
       "explanation": "At C1 level, examiners expect stylistic flexibility: choosing between passive and its alternatives based on whether the focus is on the action, the agent, feasibility, or obligation. Strategic variation demonstrates advanced grammatical and rhetorical control.",
       "id": "c1_03_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie die Passiversatzform mit der Bedeutung 'kann geloest werden': Dieses mathematische Problem ist durchaus ____.",
+      "options": [
+        "loesbar",
+        "loeslich",
+        "zu loesen",
+        "geloest"
+      ],
+      "correctAnswer": "loesbar",
+      "explanation": "The suffix '-bar' combined with a verb stem expresses a passive possibility ('kann ... werden'). 'Loeslich' means soluble (e.g., sugar in water), so 'loesbar' is the correct choice for a problem.",
+      "id": "c1_03_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie im Passiversatz um: 'Der Antrag muss schnell bearbeitet werden.' -> 'Der Antrag ____ schnell ____.'",
+      "options": [
+        "ist ... zu bearbeiten",
+        "hat ... zu bearbeiten",
+        "laesst sich ... bearbeiten",
+        "wird ... bearbeiten"
+      ],
+      "correctAnswer": "ist ... zu bearbeiten",
+      "explanation": "The construction 'sein + zu + Infinitive' carries a passive meaning that can express either necessity ('muessen') or possibility ('koennen'). In this context, it perfectly replaces 'muss bearbeitet werden'.",
+      "id": "c1_03_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Struktur druckt eine Passiv-Moeglichkeit aus? 'Die alte Handschrift ____ kaum noch ____.' (Bedeutung: kann kaum noch gelesen werden)",
+      "options": [
+        "laesst sich ... lesen",
+        "laesst ... lesen",
+        "ist ... lesen",
+        "hat sich ... zu lesen"
+      ],
+      "correctAnswer": "laesst sich ... lesen",
+      "explanation": "'sich lassen + Infinitive' is a very common passive substitute expressing possibility ('kann ... werden'). It always requires the reflexive pronoun 'sich'.",
+      "id": "c1_03_q063"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv durch ein Nomen-Verb-Gefuege: 'Das neue Gesetz wird momentan von den Experten diskutiert.' -> 'Das neue Gesetz steht momentan ____.'",
+      "options": [
+        "zur Diskussion",
+        "unter Diskussion",
+        "in Diskussion",
+        "zur Debatte stehen"
+      ],
+      "correctAnswer": "zur Diskussion",
+      "explanation": "The Funktionsverbgefuege 'zur Diskussion stehen' has a passive meaning: 'to be discussed' (wird diskutiert).",
+      "id": "c1_03_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektiv ersetzt den Passivsatz korrekt? 'Diese Pilze koennen nicht gegessen werden; sie sind giftig.' -> 'Diese Pilze sind ____.'",
+      "options": [
+        "ungeniessbar",
+        "unessbar",
+        "essbar",
+        "nicht esserlich"
+      ],
+      "correctAnswer": "ungeniessbar",
+      "explanation": "While 'essbar' means edible, 'ungeniessbar' is the standard, sophisticated C1 term meaning inedible or unfit for consumption.",
+      "id": "c1_03_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die korrekte Transformation fuer: 'Man darf diese Warnung nicht ignorieren.'",
+      "options": [
+        "Diese Warnung ist nicht zu ignorieren.",
+        "Diese Warnung hat nicht zu ignorieren.",
+        "Diese Warnung laesst sich nicht ignorieren.",
+        "Diese Warnung darf sich nicht ignorieren lassen."
+      ],
+      "correctAnswer": "Diese Warnung ist nicht zu ignorieren.",
+      "explanation": "'sein + zu + Infinitive' acts as a passive substitute for 'muessen', 'sollen', or 'duerfen' (prohibition when negated).",
+      "id": "c1_03_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie den Satz mit einem passiven Adjektiv auf C1-Niveau: 'Ein Fehler, der nicht verziehen werden kann, ist ein ____ Fehler.'",
+      "options": [
+        "unverzeihlicher",
+        "unverzeihbarer",
+        "nicht verzeihender",
+        "unverzeihtlicher"
+      ],
+      "correctAnswer": "unverzeihlicher",
+      "explanation": "Some verbs form their passive capability adjective with the suffix '-lich' instead of '-bar'. 'Verzeihen' turns into 'unverzeihlich' (unforgivable/unpardonable).",
+      "id": "c1_03_q067"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Nomen-Verb-Gefuege hat eine PASSIVE Bedeutung? 'Der Plan wurde schliesslich ____.'",
+      "options": [
+        "zur Ausfuehrung gebracht",
+        "zur Ausfuehrung kommen",
+        "in Ausfuehrung setzen",
+        "Ausfuehrung finden"
+      ],
+      "correctAnswer": "zur Ausfuehrung gebracht",
+      "explanation": "'Etwas zur Ausfuehrung bringen' functions as a passive functional verb construction equivalent to 'wurde ausgefuehrt', with the subject undergoing the action rather than performing it.",
+      "id": "c1_03_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Pronomen ersetzt das Passiv im folgenden Satz? 'Hier ____ es sich gut arbeiten.' (Bedeutung: Hier kann gut gearbeitet werden.)",
+      "options": [
+        "laesst",
+        "gibt",
+        "macht",
+        "tut"
+      ],
+      "correctAnswer": "laesst",
+      "explanation": "The phrase 'Hier laesst es sich gut leben/arbeiten' is an idiomatic impersonal passive substitute structure meaning 'One can work well here'.",
+      "id": "c1_03_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie das passende Verbgefuege: 'Die neuen Richtlinien muessen unbedingt ____.' (Bedeutung: muessen angewendet werden)",
+      "options": [
+        "zur Anwendung kommen",
+        "zur Anwendung bringen",
+        "in Anwendung stehen",
+        "Anwendung finden"
+      ],
+      "correctAnswer": "zur Anwendung kommen",
+      "explanation": "'Zur Anwendung kommen' is a passive functional verb chain meaning 'to be applied/used'. Coupled with 'muessen', it means 'must be applied'. 'Anwendung finden' is also passive but 'kommen' is highly idiomatic here.",
+      "id": "c1_03_q070"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie ins Aktiv/Passiversatz mit 'man': 'Es wurde festgestellt, dass...' -> '____ stellte fest, dass...'",
+      "options": [
+        "Man",
+        "Es",
+        "Jemand",
+        "Niemand"
+      ],
+      "correctAnswer": "Man",
+      "explanation": "Using the indefinite pronoun 'man' with an active verb is a classic way to bypass the passive voice while keeping the agent generalized.",
+      "id": "c1_03_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet diese Konstruktion? 'Die Ergebnisse der Studie sind im Anhang einzusehen.'",
+      "options": [
+        "Die Ergebnisse koennen im Anhang eingesehen werden.",
+        "Die Ergebnisse muessen im Anhang eingesehen werden.",
+        "Man hat die Ergebnisse im Anhang eingesehen.",
+        "Die Ergebnisse duerfen im Anhang nicht eingesehen werden."
+      ],
+      "correctAnswer": "Die Ergebnisse koennen im Anhang eingesehen werden.",
+      "explanation": "'Sein + zu + Infinitiv' expresses option/possibility ('koennen') when the context implies availability, rather than a strict obligation.",
+      "id": "c1_03_q072"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist KEINE gueltige Passiversatzform fuer 'Das Auto kann repariert werden.'?",
+      "options": [
+        "Das Auto hat zu reparieren.",
+        "Das Auto laesst sich reparieren.",
+        "Das Auto ist reparabel.",
+        "Das Auto ist zu reparieren."
+      ],
+      "correctAnswer": "Das Auto hat zu reparieren.",
+      "explanation": "The structure 'haben + zu + Infinitive' has an ACTIVE meaning (expressing obligation of the subject, e.g., 'Ich habe viel zu tun'). It cannot function as a passive substitute.",
+      "id": "c1_03_q073"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie elegant im C1-Stil: 'Das Problem konnte nicht geloest werden, weil Geld fehlte.' -> 'Das Problem erwies sich ____, weil Geld fehlte.'",
+      "options": [
+        "als unloesbar",
+        "als unloeslich",
+        "zu unloesen",
+        "wie unloesbar"
+      ],
+      "correctAnswer": "als unloesbar",
+      "explanation": "The phrase 'sich erweisen als + Adjektiv' combined with a passive adjective ending in '-bar' creates a sophisticated academic construction.",
+      "id": "c1_03_q074"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie die Luecke: 'Die Kuendigungsfristen sind unbedingt ____.' (Bedeutung: muessen beachtet werden)",
+      "options": [
+        "einzuhalten",
+        "einzuhaltende",
+        "zu einhalten",
+        "eingehalten zu werden"
+      ],
+      "correctAnswer": "einzuhalten",
+      "explanation": "For separable verbs in the 'sein + zu + Infinitiv' structure, the 'zu' is placed between the prefix and the verb root ('ein-zu-halten').",
+      "id": "c1_03_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Nomen-Verb-Gefuege ersetzt den Passivsatz: 'Der Vorfall wird im Geheimen untersucht.' -> 'Der Vorfall befindet sich ____.'",
+      "options": [
+        "in der Untersuchung",
+        "unter Untersuchung",
+        "zur Untersuchung",
+        "bei der Untersuchung"
+      ],
+      "correctAnswer": "in der Untersuchung",
+      "explanation": "The structure 'sich in der Untersuchung befinden' is a high-level passive substitute indicating that an action is currently ongoing (wird untersucht).",
+      "id": "c1_03_q076"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Bringen Sie das reflexive Passiv in die richtige Form: 'Solche Fehler ____.' (Bedeutung: Solche Fehler werden haeufig gemacht/wiederholen sich von selbst.)",
+      "options": [
+        "haeufen sich",
+        "lassen sich haeufen",
+        "sind zu haeufen",
+        "haeufen"
+      ],
+      "correctAnswer": "haeufen sich",
+      "explanation": "Certain reflexive verbs carry an intrinsic passive meaning where the subject is not acting, but experiencing the action ('etwas haeuft sich' = something accumulates / happens often).",
+      "id": "c1_03_q077"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz druckt eine unbedingte Pflicht (Passiv) aus?",
+      "options": [
+        "Die Sicherheitsvorschriften sind strikt zu befolgen.",
+        "Die Sicherheitsvorschriften lassen sich strikt befolgen.",
+        "Die Sicherheitsvorschriften sind strikt befolgbar.",
+        "Die Sicherheitsvorschriften koennen befolgt werden."
+      ],
+      "correctAnswer": "Die Sicherheitsvorschriften sind strikt zu befolgen.",
+      "explanation": "While 'lassen sich' and '-bar' express possibility, 'Sein + zu + Infinitiv' combined with an adverb like 'strikt' emphasizes an absolute obligation (muessen).",
+      "id": "c1_03_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv durch das Gerundiv: 'Die Dokumente, die noch geprueft werden muessen, liegen auf dem Tisch.' -> 'Die ____ Dokumente liegen auf dem Tisch.'",
+      "options": [
+        "noch zu pruefenden",
+        "noch geprueften",
+        "noch zu pruefende",
+        "pruefenden"
+      ],
+      "correctAnswer": "noch zu pruefenden",
+      "explanation": "The Gerundiv ('zu' + Partizip I used as an adjective) has a passive necessity meaning. Since it modifies 'Dokumente' (plural, nominative with definite article 'die'), it needs the adjective ending '-en'.",
+      "id": "c1_03_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Finden Sie den grammatikalisch falschen Passiversatz:",
+      "options": [
+        "Der Text ist unleserlich.",
+        "Das Buch liest sich sehr spannend.",
+        "Der Patient hat sofort zu operieren.",
+        "Das Fenster laesst sich nicht oeffnen."
+      ],
+      "correctAnswer": "Der Patient hat sofort zu operieren.",
+      "explanation": "'Der Patient hat sofort zu operieren' is wrong because 'haben + zu' is active. It would mean the patient must perform surgery on someone else. The correct passive replacement would be 'Der Patient ist sofort zu operieren'.",
+      "id": "c1_03_q080"
     }
   ]
 }
