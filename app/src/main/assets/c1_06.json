@@ -3,7 +3,7 @@
   "subjectId": "c1_06",
   "topicName": "Modalverben im C1-Kontext",
   "level": "C1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Modalverben im subjektiven Gebrauch und Konjunktiv II — At C1 level, modal verbs (müssen, können, dürfen, sollen, wollen, mögen) expand far beyond basic objective meanings to express subjective attitudes: rumors, claims, and degrees of certainty. The core distinction is epistemic (degrees of certainty/ca. 90% müssen, ca. 70% dürfte, ca. 50% können/mag/könnte) vs. deontic (obligation, permission). Subjective modals use present tense form + Infinitiv Perfekt (Partizip II + haben/sein) to express present assumption about past events. Journalistic German uses 'sollen' for hearsay/rumors (fremde Behauptung) and 'wollen' for self-claims met with skepticism. Unfulfilled past obligations use Konjunktiv II of auxiliary + double infinitive at clause end ('du hättest kommen müssen'). Critical C1 skill: subordinate clause word order — the conjugated auxiliary (hat/wird) moves BEFORE the double infinitive block, not after.",
   "tips": [
     "Epistemic probability scale: müssen (~90%, strong evidence, 'Er muss im Büro sein'), dürfte (~70%, cautious estimate, 'Das dürfte schwierig werden'), können/könnte (~50%, open possibility), mag (~30%, vague concession).",
@@ -577,6 +577,286 @@
       "correctAnswer": "Das mag sein, aber ich bin anderer Meinung.",
       "explanation": "'Das mag sein' is a fixed C1 expression where 'mögen' concedes epistemic possibility ('That may be true'), often used to acknowledge an opposing view before presenting a counterargument. This pragmatic function is distinct from expressing preference or desire.",
       "id": "c1_06_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Du ____ die Tür abschliessen, bevor du gehst.",
+      "options": [
+        "musst",
+        "darfst",
+        "magst",
+        "kannst"
+      ],
+      "correctAnswer": "musst",
+      "explanation": "'Muessen' expresses obligation or necessity.",
+      "id": "c1_06_q041"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ schon zu Hause sein, denn das Licht brennt.",
+      "options": [
+        "muss",
+        "darf",
+        "soll",
+        "mag"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "Here 'muss' expresses a logical assumption or strong probability based on evidence.",
+      "id": "c1_06_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Man ____ während der Pruefung keine Handys benutzen.",
+      "options": [
+        "darf",
+        "muss",
+        "kann",
+        "mag"
+      ],
+      "correctAnswer": "darf",
+      "explanation": "'Nicht duerfen' expresses prohibition.",
+      "id": "c1_06_q043"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ gestern sehr beschaeftigt gewesen sein.",
+      "options": [
+        "muss",
+        "kann",
+        "mag",
+        "will"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "'Muss gewesen sein' expresses a strong assumption about the past — subjective epistemic use of 'muessen'.",
+      "id": "c1_06_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Du ____ heute frueher gehen, wenn du moechtest.",
+      "options": [
+        "darfst",
+        "musst",
+        "sollst",
+        "magst"
+      ],
+      "correctAnswer": "darfst",
+      "explanation": "'DuERfen' is used to give permission in the du-form.",
+      "id": "c1_06_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ angeblich drei Sprachen fliessend sprechen.",
+      "options": [
+        "soll",
+        "muss",
+        "mag",
+        "darf"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'Sollen' can express reported information or hearsay — subjective use to report third-party claims.",
+      "id": "c1_06_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ____ durchaus moeglich sein.",
+      "options": [
+        "kann",
+        "muss",
+        "will",
+        "darf"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "'Kann' expresses possibility or epistemic openness.",
+      "id": "c1_06_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Du ____ mehr Wasser trinken; das waere gesuender.",
+      "options": [
+        "solltest",
+        "musst",
+        "willst",
+        "magst"
+      ],
+      "correctAnswer": "solltest",
+      "explanation": "'Sollten' is the standard advisory form for recommendations and polite advice.",
+      "id": "c1_06_q048"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ die Wahrheit gesagt haben, aber sicher bin ich nicht.",
+      "options": [
+        "mag",
+        "muss",
+        "soll",
+        "will"
+      ],
+      "correctAnswer": "mag",
+      "explanation": "'Mag' expresses a weak assumption or possibility — concessive epistemic use in C1.",
+      "id": "c1_06_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer ____ ihre Ergebnisse bis Freitag einreichen.",
+      "options": [
+        "muessen",
+        "duerfen",
+        "moegen",
+        "wollen"
+      ],
+      "correctAnswer": "muessen",
+      "explanation": "'Muessen' expresses obligation or necessity in formal/regulatory contexts.",
+      "id": "c1_06_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ sich weigern, daran teilzunehmen.",
+      "options": [
+        "will",
+        "muss",
+        "darf",
+        "mag"
+      ],
+      "correctAnswer": "will",
+      "explanation": "'Wollen' in this context expresses intention or determination.",
+      "id": "c1_06_q051"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter ____ morgen besser werden.",
+      "options": [
+        "soll",
+        "muss",
+        "mag",
+        "will"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'Sollen' is used for reported forecasts, expectations, or predictions from third-party sources.",
+      "id": "c1_06_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ die Nachricht uebersehen haben, anders kann ich es mir nicht erklaeren.",
+      "options": [
+        "muss",
+        "darf",
+        "will",
+        "soll"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "'Muss ... haben' (epistemic Perfekt) expresses a logical conclusion about a past event.",
+      "id": "c1_06_q053"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Du ____ ruhig ehrlich sein; niemand wird dich verurteilen.",
+      "options": [
+        "kannst",
+        "musst",
+        "willst",
+        "magst"
+      ],
+      "correctAnswer": "kannst",
+      "explanation": "'Kannst' expresses possibility, permission, or gentle encouragement here.",
+      "id": "c1_06_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ frueher sehr reich gewesen sein.",
+      "options": [
+        "soll",
+        "darf",
+        "will",
+        "muss"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'Soll ... gewesen sein' expresses reported information or hearsay — a third-party claim.",
+      "id": "c1_06_q055"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Niemand ____ den Raum ohne Erlaubnis betreten.",
+      "options": [
+        "darf",
+        "muss",
+        "mag",
+        "kann"
+      ],
+      "correctAnswer": "darf",
+      "explanation": "'Nicht duerfen' indicates strict prohibition in formal/regulatory contexts.",
+      "id": "c1_06_q056"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse ____ sich noch aendern.",
+      "options": [
+        "koennen",
+        "muessen",
+        "wollen",
+        "sollen"
+      ],
+      "correctAnswer": "koennen",
+      "explanation": "'Koennen' expresses possibility or potential for change.",
+      "id": "c1_06_q057"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Du ____ dich nicht so aufregen; alles wird gut.",
+      "options": [
+        "musst",
+        "darfst",
+        "willst",
+        "magst"
+      ],
+      "correctAnswer": "musst",
+      "explanation": "'Du musst dich nicht aufregen' means 'you don't need to get upset' — negation of necessity, not obligation.",
+      "id": "c1_06_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ die ganze Nacht gearbeitet haben, so muede wie er aussieht.",
+      "options": [
+        "muss",
+        "mag",
+        "soll",
+        "darf"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "'Muss gearbeitet haben' expresses a strong logical conclusion about the past based on visible evidence (epistemic Perfekt).",
+      "id": "c1_06_q059"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ ihre Meinung jederzeit aendern, wenn sie moechte.",
+      "options": [
+        "kann",
+        "muss",
+        "soll",
+        "mag"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "'Kann' expresses ability or personal possibility in polite contexts.",
+      "id": "c1_06_q060"
     }
   ]
 }
