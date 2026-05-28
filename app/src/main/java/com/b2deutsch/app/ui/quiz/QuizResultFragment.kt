@@ -258,7 +258,8 @@ class QuizResultFragment : Fragment() {
             "c1_04" to "Funktionsverbgefüge",
             "c1_05" to "Partizipialattribute & Relativsatzformen",
             "c1_06" to "Modalverben im C1-Kontext",
-            "c1_07" to "Wortbildung: Komposita & Derivation"
+            "c1_07" to "Wortbildung: Komposita & Derivation",
+            "c1_08" to "Konnektoren & Satzverknuepfung (C1)"
         )
         return titles[subjectId] ?: subjectId.uppercase()
     }
