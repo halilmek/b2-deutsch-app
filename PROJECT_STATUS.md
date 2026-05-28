@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-28 11:53 UTC
+**Last Updated:** 2026-05-28 11:56 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -191,9 +191,9 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 1 | c1_01 | Nominalstil & Verbalstil | 127 | 🔄 In Progress (q001–q127 added 2026-05-27) |
 | 2 | c1_02 | Indirekte Rede & Konjunktiv I | 100 | ✅ Complete (q001–q100 added 2026-05-27) |
 | 3 | c1_03 | Passiversatzformen | 100 | ✅ Complete (q001–q100 added 2026-05-27) |
-| 4 | c1_04 | Funktionsverbgefüge | 40 | 🔄 In Progress (q001–q040 added 2026-05-28) |
+| 4 | c1_04 | Funktionsverbgefüge | 80 | 🔄 In Progress (q001–q080 added 2026-05-28) |
 
-**C1 Total: 367 questions (target: 2,000)**
+**C1 Total: 407 questions (target: 2,000)**
 
 ---
 

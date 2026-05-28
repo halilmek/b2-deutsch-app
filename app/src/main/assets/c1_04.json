@@ -3,16 +3,17 @@
   "subjectId": "c1_04",
   "topicName": "Funktionsverbgefüge",
   "level": "C1",
-  "totalQuestions": 40,
-  "description": "Funktionsverbgefüge (FVG) — Funktionsverb structures are fixed verb+noun phrases where the verb loses its independent meaning and combines with a noun to express a verbal concept. Unlike full verbs, they emphasize the result or state rather than the action itself. At C1 level, FVGs are essential for academic, formal, and journalistic German (e.g., 'zur Anwendung kommen', 'Kritik üben an', 'eine Entscheidung treffen'). They create a more sophisticated, impersonal tone and are essential for writing essays, making arguments, and understanding formal texts. Learners must distinguish between correct and incorrect verb collocations, recognize the passive-like meaning of some FVGs (inchoative, resultative), and produce grammatically correct sentences in context.",
+  "totalQuestions": 80,
+  "description": "Funktionsverbgefüge (FVG) — Funktionsverb structures are fixed verb+noun phrases where the verb loses its independent meaning and combines with a noun to express a verbal concept. In these structures, the noun carries the semantic weight while the verb acts purely as a grammatical engine. At C1 level, FVGs are essential for academic and professional German (Bildungssprache) and form the backbone of the Schriftlicher Ausdruck. They exist in systematic active/passive pairs (e.g., 'zur Anwendung bringen' = active vs. 'zur Anwendung kommen' = passive) and causative pairs using bringen/versetzen to show an external cause of a state change. Key categories: (1) State verbs — stehen, sein (durative, ongoing condition: 'unter Druck stehen'); (2) Inchoative verbs — treten, geraten, kommen (moment a new state begins: 'in Kraft treten', 'in Panik geraten'); (3) Causative verbs — bringen, versetzen (someone forces a change: 'in Aufregung versetzen'). Precise preposition+case is mandatory — wrong preposition breaks the idiom. Register awareness: formal FVGs ('eine Entscheidung treffen') vs. colloquial alternatives ('Entscheidung machen' is incorrect). Balance is key: mix simple verbs for narrative flow with FVGs for formal conclusions and academic emphasis.",
   "tips": [
-    "FVGs are fixed collocations — the verb is NOT interchangeable! 'Kritik üben an' uses 'üben', NOT 'machen' or 'tun'. Memorize the whole phrase.",
-    "Passive-like FVGs (inchoative/resultative): 'zur Anwendung kommen' (to be applied), 'zur Debatte stehen' (to be under debate), 'in Kraft treten' (to come into force). These have a passive meaning without passive form.",
-    "Causative FVGs: use 'jemanden into a state bringen/versetzen'. Example: 'jemanden in Bereitschaft versetzen' (to put on alert), 'jemanden ins Grübeln bringen' (to make someone worry).",
-    "Most common FVG verbs: machen, treffen, fällen, stellen, nehmen, bringen, schließen, kommen, stehen, finden, geben.",
-    "Watch for register: 'Anerkennung finden' (formal) vs 'Anerkennung ernten' (colloquial). C1 essays prefer formal FVGs.",
-    "Some FVGs require a specific preposition: 'Rücksicht nehmen auf' (+Akk), 'in Verbindung treten mit' (+Dat/Akk), 'zur Sprache bringen' (no preposition needed in the noun part).",
-    "Wrong collocations to avoid: 'einen Antrag *bringen' (wrong, should be 'stellen'), 'eine Entscheidung *machen' (wrong, should be 'treffen' or 'fällen')."
+    "Active vs. Passive pairs: Use bringen/stellen/setzen for the agentive/active form and kommen/stehen/geraten for the passive/non-agentive form. Example: 'zur Sprache bringen' (active: agent brings topic up) vs. 'zur Sprache kommen' (passive: topic comes up on its own). Same core noun, shifted perspective.",
+    "Causative FVGs: Use bringen/versetzen to show someone forced a change of state on something/someone. Example: 'jemanden in Aufregung versetzen' (to throw someone into turmoil), 'jemanden ins Grübeln bringen' (to make someone start worrying). Compare with the durative: 'in Aufregung sein' (to be in turmoil).",
+    "Inchoative (beginning-of-state): treten, geraten, kommen mark the exact moment a new state begins. 'in Kraft treten' (law comes into force), 'in Panik geraten' (to suddenly panic), 'zu Wort kommen' (to get permission to speak).",
+    "State/durative FVGs: stehen, sein describe an ongoing condition. 'unter Druck stehen' (to be under pressure), 'im Bau sein' (to be under construction), 'zur Debatte stehen' (to be under debate).",
+    "C1 high-tier idioms to impress examiners: 'jemanden/etwas Lügen strafen' (prove wrong), 'einer Sache Abhilfe schaffen' (remedy a problem), 'einem Irrtum aufsitzen' (be completely mistaken), 'etwas in Erwägung ziehen' (carefully consider).",
+    "CRITICAL: Preposition + case is fixed for each FVG. 'Kritik üben an' (+Dativ), 'Rücksicht nehmen auf' (+Akk), 'in Kenntnis setzen' (+Akk). Wrong preposition or case = broken idiom — always memorize the whole phrase.",
+    "Register trap: 'eine Entscheidung *machen' is INCORRECT. Say 'eine Entscheidung treffen' or 'fällen'. 'einen Antrag *bringen' is wrong — say 'einen Antrag stellen'. Use formal FVGs in essays; simple verbs (entscheiden, kritisieren) for narrative flow.",
+    "Balance is key: Overcrowding text with FVGs sounds clinical and stiff. Use FVGs for major turning points, academic theses, formal conclusions. Use simple verbs for smooth, fast-moving narrative."
   ],
   "questions": [
     {
@@ -574,6 +575,546 @@
       "correctAnswer": "Der Arzt brachte den Patienten zur Untersuchung.",
       "explanation": "'zur Untersuchung bringen' is an FVG meaning 'to examine'. It's more formal/official than 'untersuchen'.",
       "id": "c1_04_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag tritt morgen in ____.",
+      "options": [
+        "Kraft",
+        "Macht",
+        "Wirkung",
+        "Bedeutung"
+      ],
+      "correctAnswer": "Kraft",
+      "explanation": "'In Kraft treten' is a fixed functional verb phrase meaning 'to come into effect'.",
+      "id": "c1_04_q041"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung wurde zur ____ gebracht.",
+      "options": [
+        "Ausführung",
+        "Handlung",
+        "Tat",
+        "Leistung"
+      ],
+      "correctAnswer": "Ausführung",
+      "explanation": "'Zur Ausführung bringen' means 'to carry out or execute'.",
+      "id": "c1_04_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er brachte seine Meinung deutlich zum ____.",
+      "options": [
+        "Ausdruck",
+        "Druck",
+        "Begriff",
+        "Hinweis"
+      ],
+      "correctAnswer": "Ausdruck",
+      "explanation": "'Zum Ausdruck bringen' means 'to express something'.",
+      "id": "c1_04_q043"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die neue Regelung findet ab sofort ____.",
+      "options": [
+        "Anwendung",
+        "Benutzung",
+        "Einsatz",
+        "Verwendung"
+      ],
+      "correctAnswer": "Anwendung",
+      "explanation": "'Anwendung finden' is a common functional verb phrase meaning 'to be applied'.",
+      "id": "c1_04_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Vorschlag stieß auf große ____.",
+      "options": [
+        "Kritik",
+        "Meinung",
+        "Sprache",
+        "Erklärung"
+      ],
+      "correctAnswer": "Kritik",
+      "explanation": "'Auf Kritik stoßen' means 'to encounter criticism'.",
+      "id": "c1_04_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Firma nahm an der Messe teil und kam mit vielen Kunden in ____.",
+      "options": [
+        "Kontakt",
+        "Verbindung",
+        "Beziehung",
+        "Diskussion"
+      ],
+      "correctAnswer": "Kontakt",
+      "explanation": "'In Kontakt kommen' means 'to get in touch'.",
+      "id": "c1_04_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse stehen im engen ____ mit der Studie.",
+      "options": [
+        "Zusammenhang",
+        "Kontakt",
+        "Verhältnis",
+        "Vergleich"
+      ],
+      "correctAnswer": "Zusammenhang",
+      "explanation": "'Im Zusammenhang stehen' means 'to be connected with'.",
+      "id": "c1_04_q047"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker zog seine Aussage in ____.",
+      "options": [
+        "Zweifel",
+        "Frage",
+        "Unsicherheit",
+        "Probleme"
+      ],
+      "correctAnswer": "Zweifel",
+      "explanation": "'In Zweifel ziehen' means 'to question something'.",
+      "id": "c1_04_q048"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Nach langen Diskussionen kam man zu einer ____.",
+      "options": [
+        "Entscheidung",
+        "Bestimmung",
+        "Überlegung",
+        "Aussage"
+      ],
+      "correctAnswer": "Entscheidung",
+      "explanation": "'Zu einer Entscheidung kommen' means 'to reach a decision'.",
+      "id": "c1_04_q049"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Vorfall wurde zur ____ gebracht.",
+      "options": [
+        "Anzeige",
+        "Meldung",
+        "Information",
+        "Erklärung"
+      ],
+      "correctAnswer": "Anzeige",
+      "explanation": "'Zur Anzeige bringen' means 'to report officially'.",
+      "id": "c1_04_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die neuen Maßnahmen kommen erst nächstes Jahr zur ____.",
+      "options": [
+        "Anwendung",
+        "Verwendung",
+        "Nutzung",
+        "Leistung"
+      ],
+      "correctAnswer": "Anwendung",
+      "explanation": "'Zur Anwendung kommen' means 'to be applied'.",
+      "id": "c1_04_q051"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er stellte dem Publikum eine interessante Theorie zur ____.",
+      "options": [
+        "Diskussion",
+        "Frage",
+        "Aussage",
+        "Überlegung"
+      ],
+      "correctAnswer": "Diskussion",
+      "explanation": "'Zur Diskussion stellen' means 'to present for discussion'.",
+      "id": "c1_04_q052"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Organisation leistete wichtige ____ zur Verbesserung der Situation.",
+      "options": [
+        "Beiträge",
+        "Arbeiten",
+        "Hilfen",
+        "Dienste"
+      ],
+      "correctAnswer": "Beiträge",
+      "explanation": "'Einen Beitrag leisten' means 'to contribute'.",
+      "id": "c1_04_q053"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen wurden zum ____ gebracht.",
+      "options": [
+        "Abschluss",
+        "Ende",
+        "Ziel",
+        "Resultat"
+      ],
+      "correctAnswer": "Abschluss",
+      "explanation": "'Zum Abschluss bringen' means 'to complete something'.",
+      "id": "c1_04_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler kam zu der ____ , dass weitere Forschung nötig sei.",
+      "options": [
+        "Erkenntnis",
+        "Kenntnis",
+        "Meinung",
+        "Information"
+      ],
+      "correctAnswer": "Erkenntnis",
+      "explanation": "'Zu der Erkenntnis kommen' means 'to realize or conclude'.",
+      "id": "c1_04_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Thema fand große ____ in den Medien.",
+      "options": [
+        "Beachtung",
+        "Aufmerksamkeit",
+        "Bedeutung",
+        "Wirkung"
+      ],
+      "correctAnswer": "Beachtung",
+      "explanation": "'Beachtung finden' means 'to receive attention'.",
+      "id": "c1_04_q056"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer führten intensive Gespräche und kamen zu keinem ____.",
+      "options": [
+        "Ergebnis",
+        "Ziel",
+        "Beschluss",
+        "Abschluss"
+      ],
+      "correctAnswer": "Ergebnis",
+      "explanation": "'Zu einem Ergebnis kommen' means 'to reach a result'.",
+      "id": "c1_04_q057"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die neuen Vorschriften treten nächsten Monat in ____.",
+      "options": [
+        "Kraft",
+        "Wirkung",
+        "Einfluss",
+        "Anwendung"
+      ],
+      "correctAnswer": "Kraft",
+      "explanation": "'In Kraft treten' is a fixed legal expression.",
+      "id": "c1_04_q058"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Verdächtige stand unter starkem ____.",
+      "options": [
+        "Druck",
+        "Stress",
+        "Einfluss",
+        "Problem"
+      ],
+      "correctAnswer": "Druck",
+      "explanation": "'Unter Druck stehen' is a common functional verb phrase.",
+      "id": "c1_04_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Kritik brachte ihn in große ____.",
+      "options": [
+        "Verlegenheit",
+        "Probleme",
+        "Unsicherheit",
+        "Schwierigkeiten"
+      ],
+      "correctAnswer": "Verlegenheit",
+      "explanation": "'In Verlegenheit bringen' means 'to embarrass someone'.",
+      "id": "c1_04_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Funktionsverbgefüge?",
+      "options": [
+        "Ein Verb, das nur im Passiv verwendet wird",
+        "Eine Verbindung aus einem bedeutungsschwachen Verb und einem Nomen, die gemeinsam eine Handlung ausdrücken",
+        "Ein zusammengesetztes Substantiv aus zwei Verben",
+        "Ein Modalverb mit Infinitiv"
+      ],
+      "correctAnswer": "Eine Verbindung aus einem bedeutungsschwachen Verb und einem Nomen, die gemeinsam eine Handlung ausdrücken",
+      "explanation": "A Funktionsverbgefüge (support verb construction) is a combination of a semantically weak verb (e.g. 'bringen', 'kommen', 'stehen') and a noun (often with a preposition) that together express an action. The verb alone carries little meaning; the noun provides the core content."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Beispiele ist ein Funktionsverbgefüge?",
+      "options": [
+        "Er schreibt einen Brief.",
+        "Sie bringt das Kind zur Schule.",
+        "Der Vorschlag kommt zur Abstimmung.",
+        "Wir haben das Problem gelöst."
+      ],
+      "correctAnswer": "Der Vorschlag kommt zur Abstimmung.",
+      "explanation": "'Zur Abstimmung kommen' is a Funktionsverbgefüge: the verb 'kommen' is semantically weak and the noun 'Abstimmung' carries the core meaning. It means 'to be voted on'. The other sentences use full-meaning verbs (schreiben, bringen, lösen)."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Vollverb durch ein Funktionsverbgefüge: Die Behörde entscheidet über den Antrag.",
+      "options": [
+        "Die Behörde macht eine Entscheidung über den Antrag.",
+        "Die Behörde trifft eine Entscheidung über den Antrag.",
+        "Die Behörde hat eine Entscheidung über den Antrag.",
+        "Die Behörde gibt eine Entscheidung über den Antrag."
+      ],
+      "correctAnswer": "Die Behörde trifft eine Entscheidung über den Antrag.",
+      "explanation": "'Eine Entscheidung treffen' is the standard Funktionsverbgefüge equivalent of 'entscheiden'. The verb 'treffen' is the support verb here."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb gehört zu dem Funktionsverbgefüge ____ Kritik?",
+      "options": [
+        "machen",
+        "üben",
+        "treffen",
+        "nehmen"
+      ],
+      "correctAnswer": "üben",
+      "explanation": "'Kritik üben' (to criticize) is the established Funktionsverbgefüge. The verb 'üben' is the correct support verb here. 'Kritik machen' or 'Kritik treffen' are not standard collocations in formal German."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet das Funktionsverbgefüge 'in Frage stellen'?",
+      "options": [
+        "Eine Frage stellen",
+        "Etwas anzweifeln oder infrage stellen",
+        "Eine Antwort geben",
+        "Etwas fragen wollen"
+      ],
+      "correctAnswer": "Etwas anzweifeln oder infrage stellen",
+      "explanation": "'In Frage stellen' means to question or cast doubt on something. It is a fixed Funktionsverbgefüge where 'stellen' is the support verb and 'Frage' provides the meaning."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie das passende Funktionsverbgefüge: Das neue Gesetz tritt am 1. Januar ____.",
+      "options": [
+        "in Kraft",
+        "in Frage",
+        "in Betrieb",
+        "in Anspruch"
+      ],
+      "correctAnswer": "in Kraft",
+      "explanation": "'In Kraft treten' means 'to come into force/effect' and is a standard Funktionsverbgefüge used for laws, regulations, and contracts."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Funktionsverbgefüge ersetzt das Verb 'berücksichtigen'?",
+      "options": [
+        "in Betracht ziehen",
+        "in Angriff nehmen",
+        "in Frage kommen",
+        "unter Druck setzen"
+      ],
+      "correctAnswer": "in Betracht ziehen",
+      "explanation": "'In Betracht ziehen' is the Funktionsverbgefüge equivalent of 'berücksichtigen' (to consider/take into account). 'In Angriff nehmen' means to tackle something, 'in Frage kommen' means to be a possibility, and 'unter Druck setzen' means to put pressure on someone."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Firma nimmt die Produktion ____. - Ergänzen Sie das richtige Nomen.",
+      "options": [
+        "in Angriff",
+        "in Kauf",
+        "zur Kenntnis",
+        "in Anspruch"
+      ],
+      "correctAnswer": "in Angriff",
+      "explanation": "'In Angriff nehmen' means 'to tackle / start working on something'. 'In Kauf nehmen' means to accept (a disadvantage), 'zur Kenntnis nehmen' means to take note of, 'in Anspruch nehmen' means to make use of."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Funktionsverbgefüge durch ein Vollverb: Der Zeuge steht unter Verdacht.",
+      "options": [
+        "Der Zeuge verdächtigt.",
+        "Der Zeuge wird verdächtigt.",
+        "Der Zeuge hat Verdacht.",
+        "Der Zeuge ist verdächtig geworden."
+      ],
+      "correctAnswer": "Der Zeuge wird verdächtigt.",
+      "explanation": "'Unter Verdacht stehen' is a Funktionsverbgefüge meaning 'to be suspected'. Its verb equivalent is the passive 'wird verdächtigt'."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden ist KEIN Funktionsverbgefüge?",
+      "options": [
+        "zur Verfügung stellen",
+        "Hilfe leisten",
+        "einen Spaziergang machen",
+        "das Haus renovieren"
+      ],
+      "correctAnswer": "das Haus renovieren",
+      "explanation": "'Das Haus renovieren' uses a full-meaning verb ('renovieren') with a direct object. The others are all FVG: the noun carries the core meaning and the verb is semantically weak."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist der bedeutungsähnliche Vollverb-Ausdruck für 'Einfluss nehmen auf'?",
+      "options": [
+        "einflüstern",
+        "beeinflussen",
+        "einwirken lassen",
+        "Einfluss haben"
+      ],
+      "correctAnswer": "beeinflussen",
+      "explanation": "'Einfluss nehmen auf' is a Funktionsverbgefüge meaning 'to influence'. Its direct verb equivalent is 'beeinflussen'."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter nehmen an der Schulung ____. - Welches Wort fehlt?",
+      "options": [
+        "teil",
+        "Platz",
+        "Abstand",
+        "Rücksicht"
+      ],
+      "correctAnswer": "teil",
+      "explanation": "'Teilnehmen an' (to participate in) is a separable verb that functions similarly to a Funktionsverbgefüge. 'Platz nehmen' means to take a seat, 'Abstand nehmen' means to refrain from, 'Rücksicht nehmen' means to show consideration."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Funktionsverbgefüge passt in den Satz? Der Konflikt kam ____.",
+      "options": [
+        "zur Sprache",
+        "in Kraft",
+        "zum Einsatz",
+        "unter Kontrolle"
+      ],
+      "correctAnswer": "zur Sprache",
+      "explanation": "'Zur Sprache kommen' means 'to be brought up / mentioned'. 'In Kraft kommen' is non-standard (correct is 'in Kraft treten'), 'zum Einsatz kommen' means to be deployed, 'unter Kontrolle kommen' = to come under control."
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie durch ein Funktionsverbgefüge: Die Polizei kontrolliert den Bereich.",
+      "options": [
+        "Die Polizei nimmt den Bereich unter Kontrolle.",
+        "Die Polizei bringt den Bereich unter Kontrolle.",
+        "Die Polizei setzt den Bereich unter Kontrolle.",
+        "Die Polizei stellt den Bereich unter Kontrolle."
+      ],
+      "correctAnswer": "Die Polizei bringt den Bereich unter Kontrolle.",
+      "explanation": "'Unter Kontrolle bringen' is the standard Funktionsverbgefüge for actively gaining control over something. 'Nehmen', 'setzen', and 'stellen' do not form standard collocations with 'unter Kontrolle' in this active sense."
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage über Funktionsverbgefüge ist RICHTIG?",
+      "options": [
+        "Sie können immer durch ein einfaches Vollverb ohne Bedeutungsverlust ersetzt werden.",
+        "Sie sind hauptsächlich in der gesprochenen Umgangssprache üblich.",
+        "Sie ermöglichen oft feinere Bedeutungsnuancen, z. B. Aspekt oder Kausalität, die das Vollverb nicht ausdrückt.",
+        "Das Funktionsverb trägt die Hauptbedeutung des Ausdrucks."
+      ],
+      "correctAnswer": "Sie ermöglichen oft feinere Bedeutungsnuancen, z. B. Aspekt oder Kausalität, die das Vollverb nicht ausdrückt.",
+      "explanation": "FVG often convey nuances that a single verb cannot — for example, they can signal the beginning of an action (inchoative aspect: 'in Brand geraten' vs. 'brennen'), a causative meaning, or a more formal register."
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Unterschied zwischen 'zum Einsatz kommen' und 'zum Einsatz bringen'?",
+      "options": [
+        "Kein Unterschied; beide sind bedeutungsgleich.",
+        "'kommen' drückt einen Zustand aus; 'bringen' drückt eine Bewegung aus.",
+        "'kommen' ist intransitiv (kein Verursacher); 'bringen' ist transitiv (jemand verursacht den Einsatz).",
+        "'bringen' wird nur im Passiv verwendet."
+      ],
+      "correctAnswer": "'kommen' ist intransitiv (kein Verursacher); 'bringen' ist transitiv (jemand verursacht den Einsatz).",
+      "explanation": "Key distinction in FVG pairs: 'zum Einsatz kommen' = to be deployed (intransitive, no agent), while 'zum Einsatz bringen' = to deploy something (transitive, agent causes the action)."
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Funktionsverbgefüge entspricht dem Vollverb 'beginnen' (inchoativer Aspekt)?",
+      "options": [
+        "in Brand stehen",
+        "in Brand geraten",
+        "in Brand setzen",
+        "in Brand bleiben"
+      ],
+      "correctAnswer": "in Brand geraten",
+      "explanation": "'In Brand geraten' expresses the beginning of a state (inchoative aspect). 'In Brand stehen' = to be on fire (ongoing state), 'in Brand setzen' = to set on fire (causative), 'in Brand bleiben' is not a standard FVG."
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungsführer ____ das Abkommen ____ Abschluss. - Welche Kombination bildet ein korrektes Funktionsverbgefüge?",
+      "options": [
+        "brachten / zum",
+        "kamen / zum",
+        "setzten / in",
+        "stellten / unter"
+      ],
+      "correctAnswer": "brachten / zum",
+      "explanation": "'Zum Abschluss bringen' means 'to conclude / bring to completion'. It is a transitive FVG where an agent brings something to its conclusion. 'Zum Abschluss kommen' would mean the conclusion happens on its own."
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bestimmen Sie die Funktion des Funktionsverbgefüges in diesem Satz: Das Projekt wurde in Angriff genommen. Welche grammatische Besonderheit liegt vor?",
+      "options": [
+        "Das Funktionsverbgefüge steht im Aktiv mit einem Modalverb.",
+        "Das Funktionsverbgefüge ist ins Passiv gesetzt worden; das Nomen bleibt unverändert.",
+        "Das Nomen 'Angriff' wird zum Verb 'angreifen' zurückgebildet.",
+        "Das Funktionsverbgefüge kann nicht passiviert werden."
+      ],
+      "correctAnswer": "Das Funktionsverbgefüge ist ins Passiv gesetzt worden; das Nomen bleibt unverändert.",
+      "explanation": "FVG can be passivized: 'in Angriff nehmen' (active) → 'in Angriff genommen werden' (passive). The noun ('Angriff') within the FVG remains unchanged — only the support verb is conjugated in the passive."
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält ein Funktionsverbgefüge, das einen kausativen Aspekt ausdrückt?",
+      "options": [
+        "Die Reform steht zur Debatte.",
+        "Die Moderatorin brachte das Thema zur Sprache.",
+        "Der Angeklagte geriet unter Verdacht.",
+        "Das Urteil kam zur Bekanntmachung."
+      ],
+      "correctAnswer": "Die Moderatorin brachte das Thema zur Sprache.",
+      "explanation": "'Zur Sprache bringen' is a causative FVG: the moderator (an agent) actively causes the topic to be mentioned. Compare with 'zur Sprache kommen' (non-causative: the topic comes up on its own). The other options all use non-causative FVG."
     }
   ]
 }
