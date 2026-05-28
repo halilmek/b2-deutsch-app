@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated:** 2026-05-28 12:33 UTC
+**Last Updated:** 2026-05-28 12:37 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -193,8 +193,9 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 3 | c1_03 | Passiversatzformen | 100 | ✅ Complete (q001–q100 added 2026-05-27) |
 | 4 | c1_04 | Funktionsverbgefüge | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
 | 5 | c1_05 | Partizipialattribute & Relativsatzformen | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
+| 6 | c1_06 | Modalverben im C1-Kontext | 20 | 🔄 In Progress (q001–q020 added 2026-05-28) |
 
-**C1 Total: 547 questions (target: 2,000)**
+**C1 Total: 567 questions (target: 2,000)**
 
 ---
 

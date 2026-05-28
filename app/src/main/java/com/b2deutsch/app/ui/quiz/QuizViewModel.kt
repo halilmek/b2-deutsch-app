@@ -284,7 +284,8 @@ class QuizViewModel @Inject constructor(
             "c1_02" to "Indirekte Rede & Konjunktiv I",
             "c1_03" to "Passiversatzformen",
             "c1_04" to "Funktionsverbgefüge",
-            "c1_05" to "Partizipialattribute & Relativsatzformen"
+            "c1_05" to "Partizipialattribute & Relativsatzformen",
+            "c1_06" to "Modalverben im C1-Kontext"
         )
         return titles[subjectId] ?: subjectId
     }
