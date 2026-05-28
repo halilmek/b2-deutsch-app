@@ -42,7 +42,7 @@ class QuizResultFragment : Fragment() {
         val subjectId = arguments?.getString("subjectId")
 
         binding.tvScore.text = "$score%"
-        binding.tvResultHeader.text = subjectId?.uppercase() ?: "Quiz Results"
+        binding.tvResultHeader.text = getSubjectTitle(subjectId)
         binding.tvCorrectCount.text = "$correct / $total correct answers"
 
         if (passed) {
@@ -200,6 +200,64 @@ class QuizResultFragment : Fragment() {
         card.addView(explanation)
         
         return card
+    }
+
+    private fun getSubjectTitle(subjectId: String?): String {
+        if (subjectId == null) return "Quiz Results"
+        val titles = mapOf(
+            // A2 topics
+            "a2_01" to "1. Präteritum",
+            "a2_02" to "2. Perfekt",
+            "a2_03" to "3. Verben mit Präpositionen",
+            "a2_04" to "4. Wechselpräpositionen",
+            "a2_05" to "5. Nebensätze",
+            "a2_06" to "6. Reflexive Verben",
+            "a2_07" to "7. Imperativ",
+            "a2_08" to "8. Plusquamperfekt",
+            "a2_09" to "9. Relativsätze",
+            "a2_10" to "10. Konjunktionen",
+            // B1 topics
+            "b1_01" to "1. Nebensätze",
+            "b1_02" to "2. Konjunktiv II",
+            "b1_03" to "3. Passiv",
+            "b1_04" to "4. Modalverben im Konjunktiv II",
+            "b1_05" to "5. Nominalisierung",
+            "b1_06" to "6. Relativsätze im Genitiv",
+            "b1_07" to "7. Konnektoren",
+            "b1_08" to "8. Perfekt und Präteritum",
+            "b1_09" to "9. Verben mit festen Präpositionen",
+            "b1_10" to "10. Partizipien als Adjektive",
+            // B2 topics
+            "b2_01" to "1. Konnektoren",
+            "b2_02" to "2. Verben und Ergänzungen",
+            "b2_03" to "3. Verben und Ergänzungen",
+            "b2_04" to "4. Zeitformen in der Vergangenheit",
+            "b2_05" to "5. Zeitformen der Zukunft",
+            "b2_06" to "6. Futur mit werden",
+            "b2_07" to "7. Angaben im Satz",
+            "b2_08" to "8. Verneinung mit nicht",
+            "b2_09" to "9. Negationswörter",
+            "b2_10" to "10. Passiv Präteritum",
+            "b2_11" to "11. Konjunktiv II der Vergangenheit",
+            "b2_12" to "12. Konjunktiv II mit Modalverben",
+            "b2_13" to "13. Pronomen: einander",
+            "b2_14" to "14. Weiterführende Nebensätze",
+            "b2_15" to "15. Präpositionen mit Genitiv",
+            "b2_16" to "16. je und desto/umso + Komparativ",
+            "b2_17" to "17. Nomen-Verb-Verbindungen",
+            "b2_18" to "18. Folgen ausdrücken",
+            "b2_19" to "19. Ausdrücke mit Präpositionen",
+            "b2_20" to "20. Irreale Konditionalsätze",
+            "b2_21" to "21. Relativsätze im Genitiv",
+            "b2_22" to "22. Konjunktiv I in der indirekten Rede",
+            "b2_23" to "23. Konjunktiv II in irrealen Vergleichssätze",
+            // C1 topics
+            "c1_01" to "Nominalstil & Verbalstil",
+            "c1_02" to "Indirekte Rede & Konjunktiv I",
+            "c1_03" to "Passiversatzformen",
+            "c1_04" to "Funktionsverbgefüge"
+        )
+        return titles[subjectId] ?: subjectId.uppercase()
     }
 
     override fun onDestroyView() {

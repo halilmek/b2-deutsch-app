@@ -282,7 +282,8 @@ class QuizViewModel @Inject constructor(
             // C1 topics
             "c1_01" to "Nominalstil & Verbalstil",
             "c1_02" to "Indirekte Rede & Konjunktiv I",
-            "c1_03" to "Passiversatzformen"
+            "c1_03" to "Passiversatzformen",
+            "c1_04" to "Funktionsverbgefüge"
         )
         return titles[subjectId] ?: subjectId
     }
