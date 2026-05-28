@@ -3,7 +3,7 @@
   "subjectId": "c1_04",
   "topicName": "Funktionsverbgefüge",
   "level": "C1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Funktionsverbgefüge (FVG) — Funktionsverb structures are fixed verb+noun phrases where the verb loses its independent meaning and combines with a noun to express a verbal concept. Unlike full verbs, they emphasize the result or state rather than the action itself. At C1 level, FVGs are essential for academic, formal, and journalistic German (e.g., 'zur Anwendung kommen', 'Kritik üben an', 'eine Entscheidung treffen'). They create a more sophisticated, impersonal tone and are essential for writing essays, making arguments, and understanding formal texts. Learners must distinguish between correct and incorrect verb collocations, recognize the passive-like meaning of some FVGs (inchoative, resultative), and produce grammatically correct sentences in context.",
   "tips": [
     "FVGs are fixed collocations — the verb is NOT interchangeable! 'Kritik üben an' uses 'üben', NOT 'machen' or 'tun'. Memorize the whole phrase.",
@@ -294,6 +294,286 @@
       "correctAnswer": "Die Maßnahme wird nicht diskutiert.",
       "explanation": "'Zur Debatte stehen' means 'to be open for discussion/debate'. Combined with a negation ('nicht zur Debatte stehen'), it implies that the option is completely off the table and will not be discussed.",
       "id": "c1_04_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ein Funktionsverbgefüge (FVG) besteht aus einem ____ und einem nominalen Ausdruck.",
+      "options": [
+        "funktionsschwachen Verb",
+        "Vollverb",
+        "Modalverb",
+        "Hilfsverb 'haben'"
+      ],
+      "correctAnswer": "funktionsschwachen Verb",
+      "explanation": "A Funktionsverbgefüge combines a semantically weak verb (like 'bringen', 'kommen', 'setzen') with a noun phrase, often a nominalized verb.",
+      "id": "c1_04_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden ist ein typisches Funktionsverbgefüge?",
+      "options": [
+        "einen Brief schreiben",
+        "zur Aufführung bringen",
+        "schnell laufen",
+        "das Haus bauen"
+      ],
+      "correctAnswer": "zur Aufführung bringen",
+      "explanation": "'zur Aufführung bringen' = to perform (literally 'to bring to performance'). The verb 'bringen' loses its full meaning and functions with the noun.",
+      "id": "c1_04_q022"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie: 'Er hat den Plan ____.'",
+      "options": [
+        "durchgeführt",
+        "zur Durchführung gebracht",
+        "in Durchführung genommen",
+        "auf die Durchführung gesetzt"
+      ],
+      "correctAnswer": "zur Durchführung gebracht",
+      "explanation": "'zur Durchführung bringen' is a common FVG meaning 'to carry out/implement'. The other options are not standard FVG collocations.",
+      "id": "c1_04_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Funktion haben Funktionsverbgefüge im Deutschen?",
+      "options": [
+        "Sie machen den Text emotionaler.",
+        "Sie machen den Satz nominaler und oft formeller.",
+        "Sie ersetzen immer das Passiv.",
+        "Sie werden nur in der Umgangssprache verwendet."
+      ],
+      "correctAnswer": "Sie machen den Satz nominaler und oft formeller.",
+      "explanation": "FVGs shift the meaning toward nominal style, often sounding more abstract, formal, or official than the corresponding full verb (e.g., 'zur Anwendung bringen' vs. 'anwenden').",
+      "id": "c1_04_q024"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb ist KEIN typisches Funktionsverb?",
+      "options": [
+        "bringen",
+        "kommen",
+        "schlagen",
+        "setzen"
+      ],
+      "correctAnswer": "schlagen",
+      "explanation": "Common function verbs in German are 'bringen', 'kommen', 'setzen', 'stellen', 'treten', 'geraten', 'ziehen'. 'schlagen' rarely appears in FVGs.",
+      "id": "c1_04_q025"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollständigen Sie: 'Das Projekt ____ zum Abschluss.'",
+      "options": [
+        "wird gebracht",
+        "kommt",
+        "ist",
+        "stellt sich"
+      ],
+      "correctAnswer": "kommt",
+      "explanation": "'zum Abschluss kommen' = to be completed/finished. This FVG uses 'kommen' as the function verb.",
+      "id": "c1_04_q026"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet 'etwas in Frage stellen'?",
+      "options": [
+        "eine Frage stellen",
+        "etwas anzweifeln / bezweifeln",
+        "etwas fragen",
+        "etwas beantworten"
+      ],
+      "correctAnswer": "etwas anzweifeln / bezweifeln",
+      "explanation": "'etwas in Frage stellen' is an FVG meaning 'to question something / to doubt something'. It's not literal (placing something into a question).",
+      "id": "c1_04_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Vollverb durch ein Funktionsverbgefüge: 'Sie beabsichtigt zu reisen.'",
+      "options": [
+        "Sie hat die Absicht zu reisen.",
+        "Sie ist in der Absicht zu reisen.",
+        "Sie setzt die Absicht zu reisen.",
+        "Sie bringt die Absicht zu reisen."
+      ],
+      "correctAnswer": "Sie hat die Absicht zu reisen.",
+      "explanation": "'die Absicht haben' + zu + Infinitive is the FVG for 'beabsichtigen'. This is a very common pattern with 'haben'.",
+      "id": "c1_04_q028"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Funktionsverbgefüge bedeutet 'to come to a decision'?",
+      "options": [
+        "eine Entscheidung bringen",
+        "eine Entscheidung setzen",
+        "eine Entscheidung fällen",
+        "eine Entscheidung treffen"
+      ],
+      "correctAnswer": "eine Entscheidung treffen",
+      "explanation": "'eine Entscheidung treffen' is the correct FVG for 'to make a decision'. 'treffen' is the function verb here.",
+      "id": "c1_04_q029"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollständigen Sie: 'Die Firma wurde ____ gesetzt.'",
+      "options": [
+        "in Kenntnis",
+        "außer Betrieb",
+        "unter Druck",
+        "auf Probe"
+      ],
+      "correctAnswer": "außer Betrieb",
+      "explanation": "'außer Betrieb setzen' = to decommission/take out of service. This is a fixed FVG with 'setzen'.",
+      "id": "c1_04_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Präposition kommt typischerweise in FVGs mit dem Verb 'bringen' vor?",
+      "options": [
+        "auf",
+        "in",
+        "unter",
+        "Alle drei sind möglich."
+      ],
+      "correctAnswer": "Alle drei sind möglich.",
+      "explanation": "'bringen' appears in many FVGs: 'auf den Punkt bringen', 'in Gefahr bringen', 'unter Kontrolle bringen' – all prepositions are possible.",
+      "id": "c1_04_q031"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "'in Anspruch nehmen' bedeutet:",
+      "options": [
+        "jemanden einladen",
+        "etwas nutzen/beanspruchen",
+        "etwas ablehnen",
+        "etwas bezahlen"
+      ],
+      "correctAnswer": "etwas nutzen/beanspruchen",
+      "explanation": "'in Anspruch nehmen' means 'to use/utilize' or 'to claim/take up' (e.g., time, resources, services).",
+      "id": "c1_04_q032"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie: 'Die Verhandlungen ____ zu einem positiven Ergebnis.'",
+      "options": [
+        "brachten",
+        "führten",
+        "kamen",
+        "stellten"
+      ],
+      "correctAnswer": "führten",
+      "explanation": "'zu einem Ergebnis führen' = to lead to a result. 'führen' is the function verb in this FVG.",
+      "id": "c1_04_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Funktionsverbgefüge ist synonym zu 'sich entscheiden'?",
+      "options": [
+        "eine Entscheidung haben",
+        "zur Entscheidung kommen",
+        "eine Entscheidung stellen",
+        "in Entscheidung treten"
+      ],
+      "correctAnswer": "zur Entscheidung kommen",
+      "explanation": "'zur Entscheidung kommen' means 'to come to a decision', synonymous with 'sich entscheiden'.",
+      "id": "c1_04_q034"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Unterschied zwischen 'jemanden in Kenntnis setzen' und 'jemanden informieren'?",
+      "options": [
+        "Kein Unterschied.",
+        "Ersteres ist formeller/behördlicher.",
+        "Ersteres ist umgangssprachlich.",
+        "Ersteres bedeutet 'falsch informieren'."
+      ],
+      "correctAnswer": "Ersteres ist formeller/behördlicher.",
+      "explanation": "'jemanden in Kenntnis setzen' is an FVG used in formal or official contexts, while 'informieren' is neutral.",
+      "id": "c1_04_q035"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollständigen Sie: 'Er ____ die Sache ins Lächerliche.'",
+      "options": [
+        "zieht",
+        "bringt",
+        "nimmt",
+        "tritt"
+      ],
+      "correctAnswer": "zieht",
+      "explanation": "'ins Lächerliche ziehen' = to ridicule/make fun of. This FVG uses 'ziehen' as the function verb.",
+      "id": "c1_04_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches FVG bedeutet 'to apply/use' im Sinne von 'etwas anwenden'?",
+      "options": [
+        "zum Einsatz bringen",
+        "in Gebrauch setzen",
+        "zur Anwendung bringen",
+        "Alle drei sind möglich."
+      ],
+      "correctAnswer": "Alle drei sind möglich.",
+      "explanation": "'zum Einsatz bringen', 'in Gebrauch setzen', and 'zur Anwendung bringen' all mean 'to apply/use' and are valid FVGs.",
+      "id": "c1_04_q037"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Erkennen Sie das Funktionsverbgefüge: 'Die Behörde hat das Gesetz in Kraft gesetzt.'",
+      "options": [
+        "Das Gesetz",
+        "Die Behörde",
+        "in Kraft gesetzt",
+        "hat das Gesetz"
+      ],
+      "correctAnswer": "in Kraft gesetzt",
+      "explanation": "'in Kraft setzen' is the FVG meaning 'to put into force/effect'. 'setzen' is the function verb.",
+      "id": "c1_04_q038"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält ein Funktionsverbgefüge?",
+      "options": [
+        "Der Hund läuft schnell.",
+        "Sie steht unter Verdacht.",
+        "Das Haus wird gebaut.",
+        "Ich lese ein Buch."
+      ],
+      "correctAnswer": "Sie steht unter Verdacht.",
+      "explanation": "'unter Verdacht stehen' = to be suspected. 'stehen' is the function verb, and the meaning is not literal (standing).",
+      "id": "c1_04_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um in ein Funktionsverbgefüge: 'Der Arzt untersuchte den Patienten.'",
+      "options": [
+        "Der Arzt brachte den Patienten zur Untersuchung.",
+        "Der Arzt stellte den Patienten unter Untersuchung.",
+        "Der Arzt zog den Patienten in Untersuchung.",
+        "Der Arzt nahm den Patienten in Untersuchung."
+      ],
+      "correctAnswer": "Der Arzt brachte den Patienten zur Untersuchung.",
+      "explanation": "'zur Untersuchung bringen' is an FVG meaning 'to examine'. It's more formal/official than 'untersuchen'.",
+      "id": "c1_04_q040"
     }
   ]
 }
