@@ -2,7 +2,7 @@
   "topicName": "Konnektoren & Satzverknuepfung (C1)",
   "subjectId": "c1_08",
   "level": "C1",
-  "totalQuestions": 80,
+  "totalQuestions": 100,
   "description": "Konnektoren & Satzverknuepfung (C1)\n\n=== 1. DREI TYPEN VON KONNEKTOREN ===\n\nGRUPPE 1: KOORDINIERENDE KONJUNKTIONEN (Position 0)\nPosition 0 = keine Verbverschiebung. Subjekt in Pos.1, Verb in Pos.2.\nBeispiele: aber, denn, und, sondern, oder, allein, doch\nBeispiel: Das Projekt war teuer, doch es hat sich gelohnt.\n\nGRUPPE 2: SUBJUNKTIONEN (Nebensatz: Verb am Ende)\nDiese Konjunktionen senden das konjugierte Verb an das Satzende.\nC1-Beispiele: obgleich, obschon, wenngleich, sofern, wohingegen, indem,\n              sodass, auf dass, obwohl, damit, weil, da\nBeispiel: Wir muessen die Massnahmen verschaerfen, sofern die Zahlen steigen.\n\nGRUPPE 3: ADVERBIELLE KONNEKTOREN (Position 1)\nPosition 1 in ihrem Satzteil -> Inversion: Verb sofort in Position 2.\nC1-Beispiele: infolgedessen, andernfalls, demnach, jedoch, vielmehr,\n              allerdings, dennoch, trotzdem, uebrigens\nBeispiel: Die Testergebnisse waren negativ; demnach hat sich der Verdacht\n          nicht bestaetigt.\n\n=== 2. LOGISCHE BEZIEHUNGEN (C1) ===\n\nKONZESSIV (Gegensatz / Trotz):\n- obgleich / obschon / wenngleich (Formell, Nebensatz)\n  -> Obgleich es heftige Proteste gab, setzte die Regierung die Reform durch.\n- jedoch / dessen ungeachtet (Adverb, Position 1 -> Inversion)\n  -> Es gab heftige Proteste; die Regierung setzte die Reform jedoch durch.\n- ungeachtet + Genitiv (Prueposition, formell)\n- nichtsdestotrotz (gehobener Adversativadverb)\n\nBEDINGUNG / ALTERNATIVE (Wenn / Sonst):\n- sofern (Nebensatz, Provided that)\n  -> Ich helfe Ihnen gerne, sofern meine eigenen Aufgaben nicht leiden.\n- andernfalls (Adverb, Otherwise, Position 1)\n  -> Sie muessen bezahlen, andernfalls wird Ihre Anmeldung geloescht.\n\nADVERSATIV (Direkter Vergleich):\n- wohingegen (Nebensatz, Whereas/While)\n  -> Der Oekonom rechnet mit Erholung, wohingegen viele Haendler skeptisch bleiben.\n- waehrend (Nebensatz,同期/gleichzeitig)\n- vielmehr (Adverb, Korrektur, logische Wendung)\n  -> Die erste Hypothese ist widerlegt; vielmehr stuetzt sich dos neue Modell...\n\n=== 3. GRAMMATISCHE MASTERCLASSES ===\n\nALS OB / ALS + Konjunktiv II (irrealer Vergleich):\nA) Er tat so, als ob er von den Plaenen nichts gewusst haette.\n   -> als ob: Verb am Ende\nB) Er tat so, als haette er von den Plaenen nichts gewusst.\n   -> als allein: Verb sofort in Position 2! (TRAP! Verb folgt DIRECTLY auf als)\n   \nPROPORTIONAL: je ... desto / umso\nStruktur: Je + Adjektiv + Nebensatz (Verb am Ende),\n          desto/umso + Adjektiv + Verb in Pos.2 + Subjekt\n-> Je komplexer die Aufgaben werden, desto strukturierter muessen wir vorgehen.\n\nES SEI DENN (dass):\n- es sei denn, (ohne dass): Position 0 = HAUPTSATZ-Wortfolge!\n  -> Ich gehe morgen wandern, es sei denn, das Wetter schlaegt um.\n- es sei denn, dass: Nebensatz -> Verb am Ende\n\nTIPP: Variiere zwischen Konjunktion (weil), Adverb (deshalb) und\n      Nomen + Genitiv/Prueposition (wegen/deshalb).\n      Das zeigt strukturelle Flexibilitaet auf C1-Niveau.",
   "tips": [
     "Koordinierende Konjunktionen (aber, denn, und, oder, doch) = Position 0 = KEINE Verbverschiebung",
@@ -1138,6 +1138,286 @@
       "correctAnswer": "sodass",
       "explanation": "Sodass introduces a consecutive result: demand was so high that additional products had to be manufactured.",
       "id": "c1_08_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor leitet einen kausalen Nebensatz ein (Grund)?",
+      "options": [
+        "obwohl",
+        "damit",
+        "weil",
+        "sodass"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "Weil introduces a causal subordinate clause (reason). Obwohl = concessive, damit = final, sodass = consecutive.",
+      "id": "c1_08_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Er spart viel Geld, ____ er sich ein neues Auto kaufen kann.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "sodass"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "Damit expresses purpose/intention (final clause): He saves money so that he can buy a new car.",
+      "id": "c1_08_q082"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor leitet einen Nebensatz mit Verb-Endstellung ein?",
+      "options": [
+        "weil",
+        "denn",
+        "deshalb",
+        "aber"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "Weil is a subordinating conjunction (Subjunktion) that pushes the conjugated verb to the end of the clause. Denn (coordinating) keeps V2 word order.",
+      "id": "c1_08_q083"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Sie ist sehr intelligent, ____ macht sie oft Fehler.",
+      "options": [
+        "trotzdem",
+        "weil",
+        "denn",
+        "da"
+      ],
+      "correctAnswer": "trotzdem",
+      "explanation": "Trotzdem is a conjunctive adverb meaning nevertheless, occupying position 1 and triggering V2 word order.",
+      "id": "c1_08_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktion druckt einen Gegensatz aus?",
+      "options": [
+        "waehrend",
+        "indem",
+        "falls",
+        "nachdem"
+      ],
+      "correctAnswer": "waehrend",
+      "explanation": "Waehrend expresses contrast (while/whereas) as well as simultaneity. Example: Er arbeitet, waehrend sie schlaeft.",
+      "id": "c1_08_q085"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Konjunktion indem gibt an, ____.",
+      "options": [
+        "den Grund",
+        "die Art und Weise / das Mittel",
+        "den Zeitpunkt",
+        "den Gegensatz"
+      ],
+      "correctAnswer": "die Art und Weise / das Mittel",
+      "explanation": "Indem introduces a manner or means clause (by doing something): Er reparierte das Auto, indem er die Batterie austauschte.",
+      "id": "c1_08_q086"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: ____ du dich entschuldigst, werde ich dir nicht verzeihen.",
+      "options": [
+        "Selbst wenn",
+        "Als ob",
+        "Sofern",
+        "Ohne dass"
+      ],
+      "correctAnswer": "Selbst wenn",
+      "explanation": "Selbst wenn (even if) expresses a strong concession: Even if you apologize, I won't forgive you.",
+      "id": "c1_08_q087"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor ist eine zweiteilige Konjunktion (Doppelkonjunktion)?",
+      "options": [
+        "obwohl",
+        "je ... desto",
+        "weil",
+        "damit"
+      ],
+      "correctAnswer": "je ... desto",
+      "explanation": "Je ... desto (the ... the) is a paired correlative conjunction for proportional comparisons.",
+      "id": "c1_08_q088"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ er krank war, ging er zur Arbeit.",
+      "options": [
+        "Trotz",
+        "Obwohl",
+        "Denn",
+        "Wegen"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl introduces a concessive clause (although): Although he was sick, he went to work.",
+      "id": "c1_08_q089"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor leitet einen Konditionalsatz (Bedingung) ein?",
+      "options": [
+        "falls",
+        "weil",
+        "sodass",
+        "bevor"
+      ],
+      "correctAnswer": "falls",
+      "explanation": "Falls (in case/if) introduces a conditional clause. More formal than wenn but equally correct.",
+      "id": "c1_08_q090"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Er kaufte das Buch, ____ er es schon kannte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "denn",
+        "so dass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl (although) expresses contrast: He bought the book although he already knew it.",
+      "id": "c1_08_q091"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Konjunktion sodass leitet einen ____ Satz ein.",
+      "options": [
+        "kausalen",
+        "konsekutiven (Folge)",
+        "finalen",
+        "konditionalen"
+      ],
+      "correctAnswer": "konsekutiven (Folge)",
+      "explanation": "Sodass (so that) introduces a consecutive clause expressing result or consequence.",
+      "id": "c1_08_q092"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortstellung folgt nach demnach im Hauptsatz?",
+      "options": [
+        "Verb an erster Stelle",
+        "Verb an zweiter Stelle",
+        "Verb am Ende",
+        "beliebig"
+      ],
+      "correctAnswer": "Verb an zweiter Stelle",
+      "explanation": "Deshalb/demnach are conjunctive adverbs in position 1, so the finite verb must be in second position: Es regnete, demnach fiel das Spiel aus.",
+      "id": "c1_08_q093"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ das Wetter schlecht war, blieben wir zu Hause.",
+      "options": [
+        "Trotz",
+        "Wegen",
+        "Da",
+        "Denn"
+      ],
+      "correctAnswer": "Da",
+      "explanation": "Da (since/because) introduces a causal subordinate clause with verb-final position.",
+      "id": "c1_08_q094"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Unterschied zwischen wenn und als in temporaler Bedeutung: ____ ich jung war, spielte ich Fussball.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Wann",
+        "Dass"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "Als is used for a single event or period in the past. Wenn is for repeated actions or present/future.",
+      "id": "c1_08_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor bedeutet ohne ... -ing (ohne dass)?",
+      "options": [
+        "indem",
+        "ohne dass",
+        "ausser dass",
+        "statt dass"
+      ],
+      "correctAnswer": "ohne dass",
+      "explanation": "Ohne dass introduces a negative circumstantial clause: Er ging, ohne dass jemand es merkte (He left without anyone noticing).",
+      "id": "c1_08_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ du die Wahrheit sagst, glaube ich dir nicht.",
+      "options": [
+        "Wenn",
+        "Falls",
+        "Selbst wenn",
+        "Ob"
+      ],
+      "correctAnswer": "Selbst wenn",
+      "explanation": "Selbst wenn (even if) expresses a strong concessive condition beyond regular wenn or falls.",
+      "id": "c1_08_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Konjunktion je nachdem wird oft mit ____ kombiniert.",
+      "options": [
+        "ob",
+        "dass",
+        "was",
+        "wie"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "Je nachdem, ob ... (depending on whether). Example: Je nachdem, ob es regnet, bleiben wir zu Hause oder gehen aus.",
+      "id": "c1_08_q098"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor ist eine Temporalkonjunktion?",
+      "options": [
+        "bevor",
+        "obwohl",
+        "damit",
+        "weil"
+      ],
+      "correctAnswer": "bevor",
+      "explanation": "Bevor (before) is a temporal conjunction. Obwohl = concessive, damit = final, weil = causal.",
+      "id": "c1_08_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: Er spricht drei Sprachen, ____ fliessend Deutsch.",
+      "options": [
+        "naemlich",
+        "und zwar",
+        "das heisst",
+        "Alle drei sind moeglich"
+      ],
+      "correctAnswer": "Alle drei sind moeglich",
+      "explanation": "Alle drei sind moeglich: naemlich, und zwar, and das heisst all specify or explain more precisely.",
+      "id": "c1_08_q100"
     }
   ]
 }
