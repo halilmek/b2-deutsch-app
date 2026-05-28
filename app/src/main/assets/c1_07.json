@@ -2,7 +2,7 @@
   "topicName": "Wortbildung: Komposita & Derivation",
   "subjectId": "c1_07",
   "level": "C1",
-  "totalQuestions": 60,
+  "totalQuestions": 100,
   "description": "Wortbildung — Komposita & Derivation (C1)\n\n=== 1. KOMPOSITA (COMPOUND WORDS) ===\n\nGERMAN RULE: The last word (Grundwort) determines everything — gender, declension, and core meaning.\n\ndie Wirtschaft (f) + die Krise (f) -> die Wirtschaftskrise\ndas Ausland (n) + der Aufenthalt (m) -> der Auslandsaufenthalt\n\nFUGENFORMEN (Linking Elements):\n- Nullfuge: no linking element (Unfall + Versicherung = Unfallversicherung)\n- \"-s-\" after: -ung, -heit, -keit, -schaft, -tat, -ion\n  -> Bedeutungslosigkeit, Wissenschaftsgemeinschaft\n- \"-en/-e\" after weak nouns (N-Deklination):\n  -> Studentenrat, Expertenmeinung\n\nTYPES OF COMPOSITA:\n- Determinativkompositum: modifier + head (Schreibtisch)\n- Possessivkompositum (Bahuvrihi): describes by characteristic\n  -> Rotkappchen = the one with the red cap\n- Kopulativkompositum: equal elements joined\n  -> schwarz-weiss, deutsch-englisch\n- Rektionskompositum: first element is governed by the second\n  -> Steuererklaerung (Erklaerung ueber Steuern)\n\n=== 2. DERIVATION — KEY PREFIXES ===\n\ner- (RESULTATIVE): achieve/obtain through effort\n  arbeiten -> erarbeiten, kaempfen -> erkaempfen\n\nver- (ERROR, reflexive): action done incorrectly\n  sich verhoeren (mishear), sich verrechnen (miscalculate),\n  sich verlaufen (get lost)\n\nent- (PRIVATIVE): removal/stripping away\n  entsalzen (remove salt), entmutigen (dishearten)\n\ndurch- (EXHAUSTIVE): thoroughly, from beginning to end\n  durcharbeiten (work through), durchdenken (contemplate fully)\n\nun- (NEGATION): negates adjectives\n  unmoglich, unbekannt, unfreundlich\n\nmiss- (ERROR): erroneous action\n  missverstehen (misunderstand), missbrauchen (misuse)\n\n=== 3. SUFFIXES ===\n\n-bar = capability passive (kann getan werden): lesbar, fuehlbar\n-widrig = opposition: gesetzwidrig, vertragswidrig\n-heit: frei -> Freiheit\n-keit: freundlich -> Freundlichkeit\n-schaft: Freund -> Freundschaft\n-ung: erklaeren -> Erklaerung\n-er: Nomen Agentis (person who does): Lehrer, Schwimmer\n-los: without: hoffnungslos, arbeitslos\n-reich: rich in: hilfreich\n-voll: full of: erfolgreich\n-los: without: hoffnungslos\n-ner: darier -> dauerhaft (sustained)\n-ner: dauer + haft -> dauerhaft (sustained)\n-bar: lesen -> lesbar (kann gelesen werden)\n-ner: dauer + haft -> dauerhaft (sustained)\n-bar: aendern -> aenderbar (can be changed)\n-ner: dauer + haft -> dauerhaft\n-los: hoffnungslos, arbeitslos\n\nFor Latin/French loanwords:\n-ant/-ent -> -anz/-enz: arrogant -> Arroganz, effizient -> Effizienz\n-el/-bel -> -itaet: flexibel -> Flexibilitaet\n\n=== 4. C1 EXAM STRATEGIES ===\n\nDeconstruct to Decode: Slice unfamiliar words backward. Find the Grundwort\n(last noun) for the core meaning, then peel back prefixes/Fugenelemente.\n\nAvoid Over-nominalization: Balance compound nouns with dynamic verbs.\nLong compounds look academic but make sentences unreadable if overused.\n\nKonversion: Word class change WITHOUT affix: das Lachen (from lachen)",
   "tips": [
     "Grundwort (last word) determines gender and meaning: die Wirtschaftskrise = crise (die Krise)",
@@ -854,6 +854,566 @@
       "correctAnswer": "Adjektive",
       "explanation": "-los derives adjectives meaning without: hoffnungslos (hopeless), arbeitslos (unemployed).",
       "id": "c1_07_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Prinzip bestimmt die Bedeutung und das Genus eines deutschen Kompositums?",
+      "options": [
+        "Das erste Glied (Grundwort) bestimmt Bedeutung und Genus.",
+        "Das letzte Glied (Grundwort) bestimmt Bedeutung und Genus.",
+        "Beide Glieder tragen gleichwertig zur Bedeutung bei.",
+        "Das Genus wird willkürlich vergeben."
+      ],
+      "correctAnswer": "Das letzte Glied (Grundwort) bestimmt Bedeutung und Genus.",
+      "explanation": "German compounds follow the right-headedness principle: the final element (Grundwort) determines the compound's grammatical gender and core semantic category.",
+      "id": "c1_07_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement ist im Kompositum 'Arbeits____zimmer' korrekt?",
+      "options": [
+        "Arbeitszimmer (mit -s-)",
+        "Arbeitzimmer (ohne Fugenelement)",
+        "Arbeitenzimmer (mit -en-)",
+        "Arbeitseszimmer (mit -es-)"
+      ],
+      "correctAnswer": "Arbeitszimmer (mit -s-)",
+      "explanation": "Many masculine and neuter nouns take Fugen-s: 'Arbeitsplatz', 'Arbeitszimmer', 'Arbeitszeit'.",
+      "id": "c1_07_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix bildet aus dem Adjektiv 'freundlich' ein Substantiv?",
+      "options": [
+        "-keit",
+        "-heit",
+        "-schaft",
+        "-tum"
+      ],
+      "correctAnswer": "-keit",
+      "explanation": "The suffix '-keit' nominalizes adjectives ending in -lich: 'freundlich' -> 'Freundlichkeit'.",
+      "id": "c1_07_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix veraendert die Valenz des Verbs 'decken' zu einem transitiven Verb?",
+      "options": [
+        "entdecken",
+        "bedecken",
+        "verdecken",
+        "zerdecken"
+      ],
+      "correctAnswer": "bedecken",
+      "explanation": "The prefix 'be-' transforms verbs into transitive verbs taking a direct accusative: 'decken' -> 'bedecken' (to cover something directly).",
+      "id": "c1_07_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum bedeutet 'ein Zimmer fuer Gaeste'?",
+      "options": [
+        "Gaestezimmer",
+        "Zimmergast",
+        "Gastzimmer",
+        "Zimmer fuer Gaeste"
+      ],
+      "correctAnswer": "Gaestezimmer",
+      "explanation": "Gaestezimmer = 'Zimmer fuer Gaeste'. Note the plural Fugenform 'Gaeste-' rather than singular 'Gast-'.",
+      "id": "c1_07_q065"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix bildet aus dem Verb 'lehren' eine Person, die eine Taetigkeit ausuebt?",
+      "options": [
+        "-er",
+        "-ling",
+        "-ner",
+        "-ant"
+      ],
+      "correctAnswer": "-er",
+      "explanation": "-er forms agent nouns from verbs: lehren -> Lehrer (teacher).",
+      "id": "c1_07_q066"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix druckt bei Verben oft eine negative oder entgegengesetzte Bedeutung aus?",
+      "options": [
+        "be-",
+        "ent-",
+        "er-",
+        "ver-"
+      ],
+      "correctAnswer": "ent-",
+      "explanation": "ent- indicates removal, reversal: 'fernen' -> 'entfernen', 'laden' -> 'entladen'.",
+      "id": "c1_07_q067"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet das korrekte Kompositum fuer 'die Art, wie man sich verhaelt'?",
+      "options": [
+        "Verhaltensweise",
+        "Weiseverhalten",
+        "Verhaltenweise",
+        "Verhaltensweise"
+      ],
+      "correctAnswer": "Verhaltensweise",
+      "explanation": "The compound combines 'Verhalten' + Fugen-s + 'Weise': Verhaltensweise = manner of behaving.",
+      "id": "c1_07_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Derivat ist semantisch und morphologisch korrekt aus 'moeglich' gebildet?",
+      "options": [
+        "Moeglichkeit",
+        "Moeglichung",
+        "Moeglichheit",
+        "Moeglichkeit"
+      ],
+      "correctAnswer": "Moeglichkeit",
+      "explanation": "Adjectives ending in -lich form abstract nouns with -keit: moeglich -> Moeglichkeit.",
+      "id": "c1_07_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum enthaelt ein korrektes Fugenelement? 'Bundes____kanzler'",
+      "options": [
+        "Bundeskanzler (ohne Fugenelement)",
+        "Bundeskanzler (mit -s-)",
+        "Bundeskanzler (mit -en-)",
+        "Bundeskanzler (mit -es-)"
+      ],
+      "correctAnswer": "Bundeskanzler (mit -s-)",
+      "explanation": "Bundeskanzler uses Fugen-s: Bundespraesident, Bundesland.",
+      "id": "c1_07_q070"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix-Suffix-Paar bildet aus dem Adjektiv 'gluecklich' ein Substantiv mit abstrakter Bedeutung?",
+      "options": [
+        "Be- + -ung: Beglueckung",
+        "Ver- + -heit: Verglueckheit",
+        "Glueck + -seligkeit: Glueckseligkeit",
+        "Un- + -keit: Ungluecklichkeit"
+      ],
+      "correctAnswer": "Un- + -keit: Ungluecklichkeit",
+      "explanation": "un- + glucklich + -keit = Ungluecklichkeit (unhappiness). Multi-step derivation is a C1 skill.",
+      "id": "c1_07_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum ist semantisch mehrdeutig und erfordert Kontext zur Interpretation?",
+      "options": [
+        "Kinderspielplatz",
+        "Hundehuette",
+        "Buchhandlung",
+        "Altpapiercontainer"
+      ],
+      "correctAnswer": "Buchhandlung",
+      "explanation": "Buchhandlung could mean 'bookstore' or 'the act of handling books'. Context determines the meaning.",
+      "id": "c1_07_q072"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Ableitung ist produktiv im modernen Deutsch zur Bildung von Substantiven aus Verben?",
+      "options": [
+        "-ung (z.B. 'Pruefung' von 'pruefen')",
+        "-sal (z.B. 'Schicksal' von 'schicken')",
+        "-tum (z.B. 'Eigentum' von 'eigen')",
+        "-nis (z.B. 'Erkenntnis' von 'erkennen')"
+      ],
+      "correctAnswer": "-ung (z.B. 'Pruefung' von 'pruefen')",
+      "explanation": "-ung is highly productive for forming nouns from verbs: pruefen -> Pruefung.",
+      "id": "c1_07_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektivsuffix druckt Passivitaet oder Moeglichkeit aus?",
+      "options": [
+        "-bar (z.B. 'lesbar')",
+        "-ig (z.B. 'staubig')",
+        "-isch (z.B. 'kindisch')",
+        "-sam (z.B. 'achtsam')"
+      ],
+      "correctAnswer": "-bar (z.B. 'lesbar')",
+      "explanation": "-bar added to verb stems = capable of being X-ed: lesbar = kann gelesen werden.",
+      "id": "c1_07_q074"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum demonstriert die korrekte Verwendung eines Plural-Fugenelements?",
+      "options": [
+        "Kinderbuch (nicht *Kindbuch)",
+        "Autobahn (nicht *Autenbahn)",
+        "Sonnenblume (nicht *Sonnblume)",
+        "Alle oben genannten"
+      ],
+      "correctAnswer": "Alle oben genannten",
+      "explanation": "Kinder- (plural), Sonnen- (plural of Sonne) are conventionalized Fugenformen.",
+      "id": "c1_07_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortbildung ist ein Beispiel fuer Konversion (Nullableitung)?",
+      "options": [
+        "das Laufen (vom Verb 'laufen')",
+        "der Laeufer (vom Verb 'laufen')",
+        "laeufig (vom Substantiv 'Lauf')",
+        "vorlaufen (vom Verb 'laufen')"
+      ],
+      "correctAnswer": "das Laufen (vom Verb 'laufen')",
+      "explanation": "Konversion = word class change without affix: laufen -> das Lachen.",
+      "id": "c1_07_q076"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches neoklassische Kompositum verwendet korrekte griechisch-lateinische Fugenelemente?",
+      "options": [
+        "Biodiversitaet (bio- + diversitas)",
+        "Klimawandel (Klima + Wandel)",
+        "Umweltschutz (Umwelt + Schutz)",
+        "Nachhaltigkeit (nachhaltig + -keit)"
+      ],
+      "correctAnswer": "Biodiversitaet (bio- + diversitas)",
+      "explanation": "Biodiversitaet combines Greek 'bio-' with Latin '-diversitas', using neoclassical linking vowel '-o-'.",
+      "id": "c1_07_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Ableitung zeigt einen semantischen Wandel durch Praefigierung? 'stehen' -> ____",
+      "options": [
+        "bestehen (existieren/pruefen bestehen)",
+        "gestehen (ein Gestacndnis ablegen)",
+        "verstehen (begreifen)",
+        "Alle oben genannten"
+      ],
+      "correctAnswer": "Alle oben genannten",
+      "explanation": "bestehen, gestehen, verstehen all radically change 'stehen' meaning through prefixation.",
+      "id": "c1_07_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie zeigt fortgeschrittene Kompetenz in der Wortbildung auf C1-Niveau?",
+      "options": [
+        "Ausschliessliche Verwendung einfacher, transparenter Komposita.",
+        "Gezielte Wahl zwischen germanischen und neoklassischen Affixen je nach Register.",
+        "Vermeidung aller Fugenelemente.",
+        "Nutzung nur produktiver Suffixe."
+      ],
+      "correctAnswer": "Gezielte Wahl zwischen germanischen und neoklassischen Affixen je nach Register.",
+      "explanation": "C1 learners strategically use Germanic affixes (-heit, -keit) vs neoclassical (-tion, -itaet) for register-appropriate precision.",
+      "id": "c1_07_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum ist morphologisch korrekt, aber semantisch ungewoehnlich oder ironisch?",
+      "options": [
+        "Fernweh (Gegenteil von Heimweh)",
+        "Kopfschmerztabletten",
+        "Handyhalterung",
+        "Taschenlampenbatterie"
+      ],
+      "correctAnswer": "Fernweh (Gegenteil von Heimweh)",
+      "explanation": "Fernweh (wanderlust/literally 'far-sorrow') follows standard compounding but is semantically marked - a C1-level pragmatic skill.",
+      "id": "c1_07_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das korrekte Fugenelement: Die Verhandlung____basis fuer den Vertrag steht fest.",
+      "options": [
+        "s",
+        "en",
+        "e",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Nouns ending in -ung (die Verhandlung) take Fugen-s: Verhandlungsbasis.",
+      "id": "c1_07_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix druckt eine Fehlentwicklung oder ein falsches Handeln aus? 'Er hat sich voellig ____.' (Bedeutung: Er ist in die falsche Richtung gelaufen.)",
+      "options": [
+        "verlaufen",
+        "zerlaufen",
+        "entlaufen",
+        "abgelaufen"
+      ],
+      "correctAnswer": "verlaufen",
+      "explanation": "ver- reflexive = error: sich verlaufen (get lost), sich verhoeren (mishear).",
+      "id": "c1_07_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie das korrekte Suffix fuer ein Abstraktum im wissenschaftlichen Kontext: Die Flexibel____ moderner Arbeitszeitmodelle ist ein grosser Vorteil.",
+      "options": [
+        "-itaet",
+        "-heit",
+        "-keit",
+        "-schaft"
+      ],
+      "correctAnswer": "-itaet",
+      "explanation": "Loanwords ending in -el/-bel form nouns with -itaet: flexibel -> Flexibilitaet.",
+      "id": "c1_07_q083"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement ist hier korrekt? 'Ein Treffen aller Regierungs____chefs wurde kurzfristig anberaumt.'",
+      "options": [
+        "s",
+        "er",
+        "en",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Compounds where first element is itself a compound: Regierungschef -> Regierungs(s)-chefs.",
+      "id": "c1_07_q084"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat das Praefix 'ent-' im folgenden Verb? 'Die Forscher mussten das Wasser vollstaendig ____salzen.'",
+      "options": [
+        "Die Entfernung oder Beseitigung einer Sache.",
+        "Der Beginn eines neuen Prozesses.",
+        "Die Verstaerkung einer Eigenschaft.",
+        "Eine fehlerhafte Handlung."
+      ],
+      "correctAnswer": "Die Entfernung oder Beseitigung einer Sache.",
+      "explanation": "ent- = privative: entsalzen (remove salt), entmutigen (dishearten).",
+      "id": "c1_07_q085"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das richtige Fugenelement: Das Student____parlament fordert Reformen.",
+      "options": [
+        "en",
+        "es",
+        "s",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "en",
+      "explanation": "Weak masculine nouns (N-Deklination) use their -en ending as Fugenelement: Studentenparlament.",
+      "id": "c1_07_q086"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektiv-Suffix druckt die Moeglichkeit aus, etwas zu tun? 'Dieses Problem ist absolut unloes____.'",
+      "options": [
+        "bar",
+        "haft",
+        "sam",
+        "lich"
+      ],
+      "correctAnswer": "bar",
+      "explanation": "-bar added to verb stems = capable of being X-ed: unloesbar (cannot be solved).",
+      "id": "c1_07_q087"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was bewirkt das Praefix 'zer-' bei Verben wie 'zerstoeren', 'zerbrechen' oder 'zerreissen'?",
+      "options": [
+        "Es druckt eine totale Trennung, Aufloesung oder Bescshaedigung in Teile aus.",
+        "Es signalisiert den zeitlichen Beginn einer Handlung.",
+        "Es kehrt die Bedeutung des Verbs in das Gegenteil um.",
+        "Es verleiht dem Verb eine rein reflexive Bedeutung."
+      ],
+      "correctAnswer": "Es druckt eine totale Trennung, Aufloesung oder Bescshaedigung in Teile aus.",
+      "explanation": "zer- = destruction/disintegration: zerstoeren, zerbrechen, zerreissen.",
+      "id": "c1_07_q088"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement verbindet diese beiden Nomen korrekt? 'Die Wirtschaft____krise traf das Land voellig unvorbereitet.'",
+      "options": [
+        "s",
+        "en",
+        "e",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Wirtschaft = die Wissenschaft (die Wirtschaftskie?) Wait: Wirtschafts-krise uses -s- after Wirtschaft. Feminine nouns use Fugen-s.",
+      "id": "c1_07_q089"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das passende Praefix: Durch ____produktion (Herstellung von zu vielen Guetern) sanken die Preise dramatisch.",
+      "options": [
+        "Ueber",
+        "Unter",
+        "Fehl",
+        "Miss"
+      ],
+      "correctAnswer": "Ueber",
+      "explanation": "Ueber- = excess: Ueberproduktion (overproduction), Ueberforderung.",
+      "id": "c1_07_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Finden Sie das grammatikalisch korrekte Kompositum fuer eine Versicherung, die Unfaelle abdeckt:",
+      "options": [
+        "Unfallversicherung",
+        "Unfaellesversicherung",
+        "Unfallsversicherung",
+        "Unfalleversicherung"
+      ],
+      "correctAnswer": "Unfallversicherung",
+      "explanation": "Nullfuge: no linking element between Unfall and Versicherung in standard German.",
+      "id": "c1_07_q091"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Nuance verleiht das Suffix '-widrig' einem Adjektiv? 'Sein Verhalten war absolut gesetz____.'",
+      "options": [
+        "widrig",
+        "maessig",
+        "getreu",
+        "voll"
+      ],
+      "correctAnswer": "widrig",
+      "explanation": "-widrig = against/contrary to: gesetzwidrig (illegal), vertragswidrig (breach of contract).",
+      "id": "c1_07_q092"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das nominale Derivationssuffix: Seine Arrog____ stiess bei den Kollegen auf Unverstaendnis.",
+      "options": [
+        "anz",
+        "enz",
+        "heit",
+        "ismus"
+      ],
+      "correctAnswer": "anz",
+      "explanation": "-ant -> -anz: arrogant -> Arroganz. Loanword pattern: effizient -> Effizienz.",
+      "id": "c1_07_q093"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verbpraefix druckt das Durchdringen oder die lueckenlose Bearbeitung aus? 'Der Richter hat die Akten tagelang ____arbeitet.'",
+      "options": [
+        "durch",
+        "er",
+        "ver",
+        "be"
+      ],
+      "correctAnswer": "durch",
+      "explanation": "durch- = thorough/exhaustive: durcharbeiten, durchdenken.",
+      "id": "c1_07_q094"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet das Praefix 'miss-' in Woertern wie 'Missachtung' oder 'Misserfolg'?",
+      "options": [
+        "Es verkehrt die positive Basisbedeutung ins Negative oder Gegenteil.",
+        "Es beschreibt eine zeitliche Vorzeitigkeit.",
+        "Es schwacht die Intensitaet des Wortes ab.",
+        "Es kennzeichnet eine raeumliche Trennung."
+      ],
+      "correctAnswer": "Es verkehrt die positive Basisbedeutung ins Negative oder Gegenteil.",
+      "explanation": "miss- = negative inversion: Missachtung, Misserfolg.",
+      "id": "c1_07_q095"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das korrekte Fugenelement: Die Wissenschaft____gemeinschaft sucht nach neuen Antworten.",
+      "options": [
+        "s",
+        "en",
+        "er",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Wissenschaft = die Wissenschaft; Fugen-s: Wissenschaftsgemeinschaft.",
+      "id": "c1_07_q096"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektivsuffix druckt das Fehlen oder den Mangel an einer Sache aus? 'Ihre Argumentation war voellig grund____.'",
+      "options": [
+        "los",
+        "arm",
+        "frei",
+        "leer"
+      ],
+      "correctAnswer": "los",
+      "explanation": "-los = without/lacking: grundlos (groundless), schlaflos (sleepless).",
+      "id": "c1_07_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie das grammatikalisch fehlerhafte Wortbildungsprodukt aus:",
+      "options": [
+        "Hilflosigkeit",
+        "Hilfsbereitschaft",
+        "Hilfenlosigkeit",
+        "Hilfestellung"
+      ],
+      "correctAnswer": "Hilfenlosigkeit",
+      "explanation": "Hilfenlosigkeit is incorrect. The correct form is Hilflosigkeit (from hilflos + -keit).",
+      "id": "c1_07_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Verbpraefix druckt das Erreichen eines Ziels durch Anstrengung aus? 'Sie hat sich den Titel hart ____arbeitet.'",
+      "options": [
+        "er",
+        "ver",
+        "zu",
+        "be"
+      ],
+      "correctAnswer": "er",
+      "explanation": "er- = resultative: erarbeiten (achieve through work), erkaempfen (win by fighting).",
+      "id": "c1_07_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Fugenelement: 'Im Alltag____leben lauern viele unerwartete Herausforderungen.'",
+      "options": [
+        "s",
+        "es",
+        "e",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "der Alltag (genitive: des Alltags) + das Leben = das Alltagsleben. Fugen-s from genitive.",
+      "id": "c1_07_q100"
     }
   ]
 }
