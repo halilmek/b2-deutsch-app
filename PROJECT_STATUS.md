@@ -190,9 +190,9 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 |---|----|-------|-----------|--------|
 | 1 | c1_01 | Nominalstil & Verbalstil | 127 | 🔄 In Progress (q001–q127 added 2026-05-27) |
 | 2 | c1_02 | Indirekte Rede & Konjunktiv I | 100 | ✅ Complete (q001–q100 added 2026-05-27) |
-| 3 | c1_03 | Passiversatzformen | 80 | ✅ Complete (q001–q080 added 2026-05-27) |
+| 3 | c1_03 | Passiversatzformen | 100 | ✅ Complete (q001–q100 added 2026-05-27) (q001–q080 added 2026-05-27) |
 
-**C1 Total: 307 questions (target: 2,000)**
+**C1 Total: 327 questions (target: 2,000)**
 
 ---
 
