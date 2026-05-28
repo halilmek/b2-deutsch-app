@@ -2,7 +2,7 @@
   "topicName": "Konnektoren & Satzverknuepfung (C1)",
   "subjectId": "c1_08",
   "level": "C1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "C1 Konnektoren & Satzverknuepfung.\n\nKANNEKTOR-TYPEN:\n- Kausal: weil, da, denn, deshalb, deswegen, darum, infolgedessen, demnach\n- Konzessiv: obwohl, obgleich, obgleich, obzwar, wenngleich, obgleich, obwhr, trotzdem, dennoch, allerdings, zumal\n- Final: damit, um ... zu, auf dass, damit\n- Temporal: als, wenn, waehrend, bevor, nachdem, sobald, solange, seit\n- Konditional: wenn, falls, sofern, es sei denn, andernfalls\n- Konsekutiv: sodass, so ... dass, demnach, infolgedessen\n- Modal: indem, dadurch dass, ohne ... zu, anstatt ... zu\n- Adversativ: aber, jedoch, waehrend, wohingegen, dagegen\n- Proportional: je ... desto, je ... umso\n- Additv: ausserdem, zudem, ueberdies, sowohl ... als auch, nicht nur ... sondern auch\n\nWORTSTELLUNG (C1 CRITICAL):\n- Subordinating conjunctions (weil, obwohl, damit, etc.) -> Verb at END\n- Coordinating conjunctions (denn, aber, oder) -> V2 normal order\n- Connector adverbs (deshalb, jedoch, leider) -> Verb in Position 2\n- Nebensatz after fronted subordinate clause -> V2 in main clause",
   "tips": [
     "Weil = Verb am ENDE; denn = V2 Wortfolge (normal order)",
@@ -574,6 +574,286 @@
       "correctAnswer": "als wolle",
       "explanation": "If als is used alone for unreal comparisons (without ob or wenn), the inflected Konjunktiv II (wolle) immediately follows als in position 2.",
       "id": "c1_08_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ der hohen Nachfrage wurde die Veranstaltung vorzeitig ausverkauft.",
+      "options": [
+        "Aufgrund",
+        "Trotz",
+        "Dennoch",
+        "Obwohl"
+      ],
+      "correctAnswer": "Aufgrund",
+      "explanation": "Aufgrund requires genitive case and formally expresses cause-and-effect. C1-level written German.",
+      "id": "c1_08_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Finanzierung war unsicher. ____, entschied sich das Gremium fuer die Umsetzung.",
+      "options": [
+        "Trotzdem",
+        "Weil",
+        "Obwohl",
+        "Damit"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem is a conjunctive adverb in position 1, triggering V2 word order. It cannot introduce a subordinate clause.",
+      "id": "c1_08_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er sprach leise, ____ alle ihn verstehen konnten.",
+      "options": [
+        "sodass",
+        "damit",
+        "obwohl",
+        "indem"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "Damit introduces a final clause (purpose), requiring verb-final position. Sodass expresses consequence.",
+      "id": "c1_08_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie ist ____ hochintelligent ____ ausgesprochen kreativ.",
+      "options": [
+        "nicht nur ... sondern auch",
+        "zwar ... aber",
+        "entweder ... oder",
+        "weder ... noch"
+      ],
+      "correctAnswer": "nicht nur ... sondern auch",
+      "explanation": "Nicht nur ... sondern auch adds and amplifies a second positive point. Both elements must be grammatically parallel.",
+      "id": "c1_08_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ er wenig Erfahrung hatte, meisterte er die Pruefung mit Bravour.",
+      "options": [
+        "Obwohl",
+        "Trotzdem",
+        "Jedoch",
+        "Demnach"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl is a subordinating conjunction introducing a concessive clause, triggering verb-final position.",
+      "id": "c1_08_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht ist umfassend, ____ die Schlussfolgerungen bleiben vage.",
+      "options": [
+        "dennoch",
+        "weil",
+        "obwohl",
+        "da"
+      ],
+      "correctAnswer": "dennoch",
+      "explanation": "Dennoch as adverbial connector occupies position 1, requiring V2 word order in the main clause after semicolon.",
+      "id": "c1_08_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die erste Theorie ist ueberholt; ____, erweist sich die zweite als plausibler.",
+      "options": [
+        "hingegen",
+        "obwohl",
+        "jedoch",
+        "dennoch"
+      ],
+      "correctAnswer": "hingegen",
+      "explanation": "Hingegen is a formal adversative connector used in academic writing for precise comparative framing.",
+      "id": "c1_08_q047"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Man kann die Effizienz steigern, ____ man veraltete Prozesse durch moderne Software ersetzt.",
+      "options": [
+        "indem",
+        "dadurch dass",
+        "durch",
+        "mittels"
+      ],
+      "correctAnswer": "indem",
+      "explanation": "Indem introduces a modal/instrumental subordinate clause describing the means or method of an action.",
+      "id": "c1_08_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Wirtschaftslage sich verschlechtert, steigen die Immobilienpreise weiter an.",
+      "options": [
+        "Auch wenn",
+        "Weil",
+        "Sobald",
+        "Indem"
+      ],
+      "correctAnswer": "Auch wenn",
+      "explanation": "Auch wenn (even if/although) expresses a stronger concession than obwohl, used when the hindrance fails to prevent the outcome.",
+      "id": "c1_08_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ des Fachkraeftemangels verlangsamt sich die Expansion spuerbar.",
+      "options": [
+        "Aufgrund",
+        "Trotz",
+        "Dank",
+        "Statt"
+      ],
+      "correctAnswer": "Aufgrund",
+      "explanation": "Aufgrund + genitive formally denotes causation in professional/administrative register.",
+      "id": "c1_08_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ du dich rechtzeitig anmeldest, ist eine Teilnahme nicht garantiert.",
+      "options": [
+        "Selbst wenn",
+        "Weil",
+        "Sobald",
+        "Damit"
+      ],
+      "correctAnswer": "Selbst wenn",
+      "explanation": "Selbst wenn introduces an extreme concession or hypothetical condition, requiring verb-final position.",
+      "id": "c1_08_q051"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Massnahme wurde ergriffen, ____ weitere Schaeoden verhindert werden.",
+      "options": [
+        "damit",
+        "sodass",
+        "indem",
+        "falls"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "Damit expresses intention/purpose (in order to). Sodass would indicate an automatic result.",
+      "id": "c1_08_q052"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ der oeffentlichen Kritik hielt der Minister an seiner Strategie fest.",
+      "options": [
+        "Ungeachtet",
+        "Wegen",
+        "Aufgrund",
+        "Dank"
+      ],
+      "correctAnswer": "Ungeachtet",
+      "explanation": "Ungeachtet (irrespective of/disregarding) + genitive is a formal concessive preposition typical of C1 legal/political discourse.",
+      "id": "c1_08_q053"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ aelter die Infrastruktur wird, ____ hoeher werden die Instandhaltungskosten.",
+      "options": [
+        "Je ... desto",
+        "So ... als",
+        "Mehr ... mehr",
+        "Wie ... so"
+      ],
+      "correctAnswer": "Je ... desto",
+      "explanation": "Je ... desto expresses proportional correlation. Both clauses require V2 word order and adjectives in comparative form.",
+      "id": "c1_08_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Studie liefert wertvolle Erkenntnisse, ____ die Ressourcen knapp sind, muss priorisiert werden.",
+      "options": [
+        "zumal",
+        "weil",
+        "obwohl",
+        "indem"
+      ],
+      "correctAnswer": "zumal",
+      "explanation": "Zumal (especially since/all the more so as) reinforces a causal clause, strengthening logical flow in argumentation.",
+      "id": "c1_08_q055"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ der anhaltenden Debatte wurde die Entscheidung ____ nicht revidiert.",
+      "options": [
+        "Ungeachtet ... nichtsdestotrotz",
+        "Trotz ... trotzdem",
+        "Angesichts ... dennoch",
+        "Wegen ... jedoch"
+      ],
+      "correctAnswer": "Ungeachtet ... nichtsdestotrotz",
+      "explanation": "Ungeachtet (formal concessive preposition) + nichtsdestotrotz (sophisticated adverb) demonstrates C1 register control.",
+      "id": "c1_08_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die erste Hypothese ist widerlegt; ____ stützt sich das neue Modell auf valide empirische Befunde.",
+      "options": [
+        "vielmehr",
+        "hingegen",
+        "trotzdem",
+        "allerdings"
+      ],
+      "correctAnswer": "vielmehr",
+      "explanation": "Vielmehr corrects a false premise and introduces a more accurate alternative. It signals a logical pivot in argumentation.",
+      "id": "c1_08_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Lieferketten unterbrochen sind, ____ muessen Produktionsziele nach unten korrigiert werden.",
+      "options": [
+        "Da ... daher",
+        "Obwohl ... trotzdem",
+        "Weil ... dennoch",
+        "Indem ... somit"
+      ],
+      "correctAnswer": "Da ... daher",
+      "explanation": "Da (causal subordinate, verb-final) + daher (consecutive main clause adverb, V2) cleanly separates cause and effect.",
+      "id": "c1_08_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ der Studie viel Aufmerksamkeit geschenkt wurde, blieben zentrale Erkenntnisse ____ unberuecksichtigt.",
+      "options": [
+        "Obwohl ... weitgehend",
+        "Weil ... voellig",
+        "Indem ... gaenzlich",
+        "Damit ... vollstaendig"
+      ],
+      "correctAnswer": "Obwohl ... weitgehend",
+      "explanation": "Obwohl + weitgehend tests concessive subordination with precise degree adverb modification: partial vs. absolute omission.",
+      "id": "c1_08_q059"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_08_q060",
+      "questionText": "Welches C1-Register kennzeichnet die Kombination aus einem Konzessivkonnektor und einem Adversativadverb?",
+      "options": [
+        "Formell-academisch",
+        "Umgangssprachlich",
+        "Alltagssprachlich",
+        "Dialektal"
+      ],
+      "correctAnswer": "Formell-academisch",
+      "explanation": "Die Kombination von konzessiven Subjunktionen (obwohl, obschon, wenngleich) mit Adversativadverbien (allerdings, nichtsdestotrotz, dennoch) gehoert in den formellen, akademischen oder administrativen Diskurs auf C1-Niveau."
     }
   ]
 }
