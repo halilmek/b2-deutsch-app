@@ -2,7 +2,7 @@
   "topicName": "Textkohäsion & Diskursmarker (C1)",
   "subjectId": "c1_10",
   "level": "C1",
-  "totalQuestions": 61,
+  "totalQuestions": 81,
   "description": "Textkohaesion & Diskursmarker (C1)\n\n=== TEXTKOHÄTION vs. TEXTKOHÄRENZ ===\nTextkohaesion: grammatische und sprachliche Mittel, die einen Text formal zusammenhalten\n(Pronomen, Konnektoren, Konjunktionen, lexikalische Wiederholung)\nTextkohaerenz: logische und semantische Einheit der Bedeutungsstruktur\n\n=== DISKURSMARKER-TYPEN ===\n\nKAUSAL (Folge/Ergebnis):\n- Deshalb, daher, folglich, infolgedessen, demnach, somit\n- Position 1 -> Verb in Position 2 (V2)\n- Saetze: Das Wetter war schlecht; deshalb blieben wir zu Hause.\n\nKONZESSIV (Gegensatz / Trotz):\n- Obwohl, obgleich, wenngleich (formell), obschon\n- Trotzdem, dennoch, allerdings, nichtsdestotrotz, gleichwohl, nichtsdestoweniger\n- Jedoch, hingegen (direkter Gegensatz)\n- Zwar ... aber (konzessives Muster)\n\nADDITIV (Hinzufuegung):\n- Ausserdem, zudem, ueberdies, darueber hinaus, ferner\n\nEXPLANATIV (Erklaerung):\n- Naemlich (steht NACH dem Verb, NICHT am Satzanfang!)\n\nTEMPORAL-STRUKTURELL (Ordnung):\n- Zunaechst, zuerst, erstens, anschliessend, dann, schliesslich, abschliessend\n\nKONTRASTIV-ADVERSATIV:\n- Einerseits ... andererseits (parallele Gegenueberstellung)\n- Wohingegen, wogegen, waehrend\n\n=== ANAPHORISCHE VERWEISE ===\n- Dieser, diese, dieses, jener, letztere\n- Letztere verweist auf das zuletzt genannte Nomen (anaphorisch)\n- Beispiel: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung.\n\n=== WICHTIGE REGELN ===\n- Naemlich: IMMER nach dem Verb, nie am Satzanfang\n- Zwar ... aber: zuerst z.B. Zwar hat er keine Erfahrung, aber er lernt schnell\n- Deshalb/Folglich: Position 1 -> V2\n- Jedoch/trotzdem: Position 1 -> V2\n- Jedoch: direkter Gegensatz; Trotzdem: trotz Bedingung/Erwartung\n- Folglich = formeller als deshalb; streng logische Schlussfolgerung\n- Also = umgangssprachlicher; kann auch zusammenfassen\n- Nichtsdestoweniger = gehobener als trotzdem (akademisch)",
   "tips": [
     "Textkohaesion = formale Verbindungsmittel; Textkohaerenz = logische Bedeutungsstruktur",
@@ -872,6 +872,286 @@
       "correctAnswer": "Die Rede zu strukturieren und Hoerer zu leiten",
       "explanation": "Discourse markers help organize speech, signal topic shifts, and guide the listener through the argument.",
       "id": "c1_10_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen gestalteten sich aeusserst schwierig, ____ konnte letztendlich ein Kompromiss erzielt werden.",
+      "options": [
+        "nichtsdestotrotz",
+        "folglich",
+        "zudem",
+        "demnach"
+      ],
+      "correctAnswer": "nichtsdestotrotz",
+      "explanation": "Nichtsdestotrotz means nevertheless: despite difficult negotiations, a compromise was reached.",
+      "id": "c1_10_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Klimawandel schreitet unaufhaltsam voran. ____ muessen politische Massnahmen weltweit drastisch verschaerft werden.",
+      "options": [
+        "Infolgedessen",
+        "Nichtsdestoweniger",
+        "Dessen ungeachtet",
+        "Freilich"
+      ],
+      "correctAnswer": "Infolgedessen",
+      "explanation": "Infolgedessen (consequently) logically links cause (climate change) to effect (political action required).",
+      "id": "c1_10_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen konnte seinen Gewinn im letzten Quartal steigern. ____ wurde die Kundenzufriedenheit erheblich verbessert.",
+      "options": [
+        "Darueber hinaus",
+        "Demgegenueber",
+        "Zwar",
+        "Stattdessen"
+      ],
+      "correctAnswer": "Darueber hinaus",
+      "explanation": "Darueber hinaus (furthermore/in addition) adds another positive development.",
+      "id": "c1_10_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Renovierung des historischen Gebaeudes ist sehr kostspielig, ____ sie fuer den Erhalt des Stadtbildes unerlaesslich ist.",
+      "options": [
+        "zumal",
+        "wohingegen",
+        "weshalb",
+        "sofern"
+      ],
+      "correctAnswer": "zumal",
+      "explanation": "Zumal (especially as/particularly since) provides a compelling reason justifying the high cost.",
+      "id": "c1_10_q065"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Viele Studenten klagen ueber die hohe Arbeitsbelastung, ____ andere das Pensum problemlos bewaeltigen.",
+      "options": [
+        "waehrend",
+        "indem",
+        "sodass",
+        "nachdem"
+      ],
+      "correctAnswer": "waehrend",
+      "explanation": "Waehrend acts as an adversarial connector (whereas) to contrast two different groups of students.",
+      "id": "c1_10_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Es gab heftige Proteste gegen das neue Gesetz; ____ trat es wie geplant am ersten Januar in Kraft.",
+      "options": [
+        "gleichwohl",
+        "mithin",
+        "demzufolge",
+        "hiernach"
+      ],
+      "correctAnswer": "gleichwohl",
+      "explanation": "Gleichwohl (nonetheless/yet) is a high-register concessive connector indicating protests did not stop the law.",
+      "id": "c1_10_q067"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Forschungsergebnisse sind noch nicht vollstaendig ausgereift. Es waere ____ verfrueht, jetzt schon von einer Sensation zu sprechen.",
+      "options": [
+        "mithin",
+        "allenfalls",
+        "hingegen",
+        "vielmehr"
+      ],
+      "correctAnswer": "mithin",
+      "explanation": "Mithin is a formal logical connector meaning consequently/therefore, signaling a direct logical deduction.",
+      "id": "c1_10_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Konzept klingt theoretisch schluessig. ____ zeigt die Praxis, dass die Umsetzung erhebliche Maengel aufweist.",
+      "options": [
+        "Demgegenueber",
+        "Inwieweit",
+        "Ebenso",
+        "Infolgedessen"
+      ],
+      "correctAnswer": "Demgegenueber",
+      "explanation": "Demgegenueber expresses contrast (on the other hand/by contrast), juxtaposing theory with practical failures.",
+      "id": "c1_10_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Pruefung nicht bestanden, ____ er sich wochenlang ohne Pause darauf vorbereitet hatte.",
+      "options": [
+        "wenngleich",
+        "sofern",
+        "weswegen",
+        "wobei"
+      ],
+      "correctAnswer": "wenngleich",
+      "explanation": "Wenngleich introduces a concessive subordinate clause (although/even though). Typical C1 academic cohesion.",
+      "id": "c1_10_q070"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Reform stiess auf breite Ablehnung, ____ sich die Regierung gezwungen sah, den Entwurf grundlegend zu ueberarbeiten.",
+      "options": [
+        "weshalb",
+        "wodurch",
+        "woraufhin",
+        "wogegen"
+      ],
+      "correctAnswer": "weshalb",
+      "explanation": "Weshalb acts as a relative causal conjunction (which is why) connecting rejection to the consequence.",
+      "id": "c1_10_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Einige Oekonomen warnen vor einer Inflation. ____ betonen andere Experten die Stabilitaet der Waehrung.",
+      "options": [
+        "Demgegenueber",
+        "Darueber hinaus",
+        "Folglich",
+        "Demnach"
+      ],
+      "correctAnswer": "Demgegenueber",
+      "explanation": "Demgegenueber establishes cohesion by explicitly contrasting opposing perspectives of two expert groups.",
+      "id": "c1_10_q072"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt scheiterte nicht am Budget, sondern ____ an der mangelhaften Kommunikation innerhalb des Teams.",
+      "options": [
+        "vielmehr",
+        "allerdings",
+        "hingegen",
+        "zwar"
+      ],
+      "correctAnswer": "vielmehr",
+      "explanation": "The pattern nicht... sondern vielmehr rejects one explanation and emphasizes a more accurate alternative.",
+      "id": "c1_10_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Autor konnte seine Thesen nicht ausreichend belegen, ____ die gesamte Studie in der Fachwelt stark kritisiert wurde.",
+      "options": [
+        "weswegen",
+        "wohingegen",
+        "obgleich",
+        "indem"
+      ],
+      "correctAnswer": "weswegen",
+      "explanation": "Weswegen is a relative causal connector (on account of which) connecting reason to consequence.",
+      "id": "c1_10_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die neuen Richtlinien sind strikt einzuhalten, ____ Ausnahmeregelungen im Vorfeld schriftlich genehmigt wurden.",
+      "options": [
+        "es sei denn,",
+        "unter der Bedingung,",
+        "vorausgesetzt dass",
+        "andernfalls"
+      ],
+      "correctAnswer": "es sei denn,",
+      "explanation": "Es sei denn (dass) introduces a restrictive condition or exception to an absolute rule (unless).",
+      "id": "c1_10_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Digitalisierung enorme Chancen bietet, birgt sie doch erhebliche Risiken fuer den Datenschutz.",
+      "options": [
+        "So",
+        "Wie",
+        "Obgleich",
+        "Wenngleich"
+      ],
+      "correctAnswer": "Wenngleich",
+      "explanation": "Wenngleich introduces a concessive clause at the beginning. The presence of doch pairs naturally with concessive structures.",
+      "id": "c1_10_q076"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Theorie ist hochkomplex. ____ verstaendlich hat der Professor sie in seiner Vorlesung zusammengefasst.",
+      "options": [
+        "Dessen ungeachtet",
+        "Nichtsdestoweniger",
+        "Gleichwohl",
+        "Dessenhalben"
+      ],
+      "correctAnswer": "Dessen ungeachtet",
+      "explanation": "Dessen ungeachtet (regardless of that) is a genitive-based pronominal adverb providing high-level cohesion.",
+      "id": "c1_10_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Man muss die Ursachen des Problems genau analysieren, ____ man wirksame Gegenmassnahmen einleiten kann.",
+      "options": [
+        "ehe",
+        "waehrend",
+        "indem",
+        "solange"
+      ],
+      "correctAnswer": "ehe",
+      "explanation": "Ehe is a sophisticated temporal conjunction meaning before. Analysis is a mandatory prerequisite to action.",
+      "id": "c1_10_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag ist rechtlich bindend. ____ Klauseln im Nachhinein veraendert werden, verliert er seine Gueltigkeit.",
+      "options": [
+        "Insofern",
+        "Sofern",
+        "Sollten",
+        "Falls"
+      ],
+      "correctAnswer": "Sollten",
+      "explanation": "An inverted conditional without wenn: Sollten places the verb at position 1 to introduce a hypothesis.",
+      "id": "c1_10_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ drastisch die Sparmassnahmen auch sein mogen, sie sind zur Rettung des Haushalts absolut alternativlos.",
+      "options": [
+        "So",
+        "Wie",
+        "Obwohl",
+        "Ungeachtet"
+      ],
+      "correctAnswer": "So",
+      "explanation": "So + Adjektiv + auch + mogen forms an advanced concessive construction: No matter how drastic...",
+      "id": "c1_10_q080"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Belegschaft stimmte den Kuerzungen zu, ____ einen drohenden Stellenabbau zu verhindern.",
+      "options": [
+        "um",
+        "anstatt",
+        "ohne",
+        "damit"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Um ... zu + Infinitiv expresses the goal/intention of the identical subject (Belegschaft ... zu verhindern).",
+      "id": "c1_10_q081"
     }
   ]
 }
