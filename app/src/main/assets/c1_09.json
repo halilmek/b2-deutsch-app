@@ -2,7 +2,7 @@
   "topicName": "Infinitiv- & Nebensatzkonstruktionen (C1)",
   "subjectId": "c1_09",
   "level": "C1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Infinitiv- und Nebensatzkonstruktionen (C1)\n\n=== INFINTIVKONSTRUKTIONEN ===\nUm ... zu + Infinitiv: Zweck (same subject)\nOhne ... zu + Infinitiv: Verneinung einer begleitenden Handlung\nAnstatt ... zu + Infinitiv: Alternative Handlung\nZu + Adjektiv + um ... zu: Grad, der eine Handlung verhindert (zu + Adjektiv + als dass)\n\n=== DAMIT vs. UM ... ZU ===\nUm ... zu: wenn beide Saetze dasselbe Subjekt haben\nDamit: wenn die Subjekte verschieden sind\nBeispiel: Er sprach langsam, DAMIT die Zuhörer ihn verstehen. (er ≠ Zuhörer)\n\n=== NEBENSATZKONJUNKTIONEN ===\nKausal: weil, da, denn\nKonzessiv: obwohl, obgleich, obschon, wenngleich, obwhr\nTemporal: als, wenn, waehrend, bevor, nachdem, sobald, solange, seitdem\nFinal: damit, um ... zu\nKonsekutiv: sodass, so ... dass\nKonditional: wenn, falls, sofern, es sei denn\nModal: indem, dadurch dass, ohne dass\n\n=== NOMINALSTIL-TRANSFORMATIONEN ===\nDa + Nebensatz -> Wegen + Genitiv\nObwohl + Nebensatz -> Trots + Genitiv / Ungeachtet + Genitiv\nWeil + Nebensatz -> Aufgrund + Genitiv\nWenn/Sobald + Nebensatz -> Partizip I / Nominalisierung\n\n=== ALS vs. WENN (Temporal) ===\nAls: einmaliges Ereignis in der Vergangenheit\nWenn: wiederholte Ereignisse oder Zukunft/Gegenwart\n\n=== BESONDERE KONSTRUKTIONEN ===\nAls ob / als + Konjunktiv II: irrealer Vergleich\nJe ... desto: proportionale Beziehung\nOhne dass: verschiedene Subjekte\nPartizip I als absolute Konstruktion (lesend, sehend)",
   "tips": [
     "Um ... zu: both clauses SAME subject. Damit: different subjects.",
@@ -298,6 +298,286 @@
       ],
       "correctAnswer": "Er empfahl ihr, dass sie das Buch zu lesen.",
       "explanation": "Dass and zu + Infinitiv cannot be combined. Either use dass + conjugated verb OR zu + Infinitiv. Mixing both is ungrammatical."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wann ist die Verwendung eines Infinitivs mit zu im Deutschen grammatikalisch zwingend?",
+      "options": [
+        "Nach den meisten Vollverben, Adjektiven und Substantiven",
+        "Ausschliesslich nach Modalverben",
+        "Immer im Perfekt mit Hilfsverben",
+        "Nur in Frage- und Ausrufesaetzen"
+      ],
+      "correctAnswer": "Nach den meisten Vollverben, Adjektiven und Substantiven",
+      "explanation": "Zu + Infinitiv is the default after most verbs (except modals, perception verbs, lassen), adjectives (leicht zu verstehen), and nouns (die Lust zu reisen).",
+      "id": "c1_09_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie korrekt: Er verliess den Raum, ____ sich zu verabschieden.",
+      "options": [
+        "ohne",
+        "statt",
+        "um",
+        "damit"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu expresses an accompanying circumstance that did not occur. Requires subject congruence between main and infinitive clause.",
+      "id": "c1_09_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Bedingung muss fuer die Verwendung von um ... zu erfuellt sein?",
+      "options": [
+        "Die Handlungen muessen in verschiedenen Zeitebenen stattfinden.",
+        "Das Subjekt des Haupt- und des Infinitivsatzes muss identisch sein.",
+        "Der Infinitiv muss immer verneint werden.",
+        "Es muss ein reflexives Verb im Haupt- und Nebensatz stehen."
+      ],
+      "correctAnswer": "Das Subjekt des Haupt- und des Infinitivsatzes muss identisch sein.",
+      "explanation": "Um ... zu indicates purpose and requires the same subject in both clauses. If subjects differ, damit must be used instead.",
+      "id": "c1_09_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wo wird zu bei einem trennbaren Verb im Infinitiv positioniert?",
+      "options": [
+        "Vor dem Praefix: zu abschliessen",
+        "Zwischen Praefix und Stamm: abzuschliessen",
+        "Nach dem Stamm: abschliessen zu",
+        "Es wird bei trennbaren Verben nicht verwendet."
+      ],
+      "correctAnswer": "Zwischen Praefix und Stamm: abzuschliessen",
+      "explanation": "In extended infinitive constructions, zu is inserted between the separable prefix and stem: abzuschliessen, aufzuraeumen, vorzubereiten.",
+      "id": "c1_09_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie wird der Infinitiv in Es ist wichtig, ____ korrekt verneint?",
+      "options": [
+        "nicht punktlich zu sein",
+        "punktlich nicht zu sein",
+        "zu nicht punktlich sein",
+        "nicht sein zu punktlich"
+      ],
+      "correctAnswer": "nicht punktlich zu sein",
+      "explanation": "Negation in infinitive clauses precedes the element it modifies. Nicht appears before adjectives, adverbs, or participles, directly before zu + infinitive.",
+      "id": "c1_09_q025"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ersetzt einen dass-Nebensatz korrekt, wenn das Subjekt identisch ist? Ich hoffe, dass ich bald abreise.",
+      "options": [
+        "Ich hoffe, bald abzureisen.",
+        "Ich hoffe, dass bald abzureisen.",
+        "Ich hoffe, bald abreise zu.",
+        "Ich hoffe auf, bald abzureisen."
+      ],
+      "correctAnswer": "Ich hoffe, bald abzureisen.",
+      "explanation": "Same-subject clauses prefer zu + Infinitiv, omitting dass and converting to infinitive. Concise and natural at C1 level.",
+      "id": "c1_09_q026"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb erfordert im Infinitivsatz KEIN zu?",
+      "options": [
+        "vergessen",
+        "versuchen",
+        "sehen",
+        "beginnen"
+      ],
+      "correctAnswer": "sehen",
+      "explanation": "Perception verbs (sehen, hoeren, fuehlen) and lassen take a bare infinitive in the acc.+infinitive construction: Ich sehe ihn kommen. Adding zu would be incorrect.",
+      "id": "c1_09_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie korrekt: Er arbeitet hart, ____ das Projekt rechtzeitig fertig zu stellen.",
+      "options": [
+        "um",
+        "damit",
+        "ohne",
+        "anstatt"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Purpose with identical subjects (er -> er) requires um ... zu. Damit would be incorrect due to subject congruence, though often misused.",
+      "id": "c1_09_q028"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber ohne dass vs. ohne ... zu ist korrekt?",
+      "options": [
+        "Ohne dass erfordert Subjektgleichheit; ohne ... zu erlaubt Subjektwechsel.",
+        "Ohne ... zu erfordert Subjektgleichheit; ohne dass erlaubt Subjektwechsel.",
+        "Beide Konstruktionen sind vollstaendig synonym und austauschbar.",
+        "Ohne dass wird nur in der gesprochenen Sprache verwendet."
+      ],
+      "correctAnswer": "Ohne ... zu erfordert Subjektgleichheit; ohne dass erlaubt Subjektwechsel.",
+      "explanation": "Ohne ... zu = same subject only. Ohne dass = different subjects, e.g., Er ging, ohne dass sie es bemerkte.",
+      "id": "c1_09_q029"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Praepositionalobjekt korrekt: Sie besteht darauf, ____ sofort informiert zu werden.",
+      "options": [
+        "dass sie",
+        "darauf, dass sie",
+        "darauf, sie",
+        "darauf, dass"
+      ],
+      "correctAnswer": "darauf, dass sie",
+      "explanation": "Verbs with prepositional objects (bestehen auf) require a da-compound (darauf) when followed by a subordinate clause. Comma after darauf is mandatory before dass-clause.",
+      "id": "c1_09_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Infinitivkonstruktion druckt eine passive Notwendigkeit aus?",
+      "options": [
+        "Das Dokument ist zu unterschreiben.",
+        "Das Dokument muss unterschrieben werden.",
+        "Beide A und B sind korrekt.",
+        "Keine der beiden ist grammatikalisch korrekt."
+      ],
+      "correctAnswer": "Beide A und B sind korrekt.",
+      "explanation": "Sein + zu + Infinitiv is a formal Passiversatzform equivalent to muessen + Passiv. Both express passive necessity at C1 register.",
+      "id": "c1_09_q031"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Infinitivform nach vergessen im Perfekt? Er hat vergessen, ____.",
+      "options": [
+        "die Tuer abzuschliessen",
+        "abzuschliessen die Tuer",
+        "die Tuer abgeschlosssen zu",
+        "die Tuer zu abgeschlossen"
+      ],
+      "correctAnswer": "die Tuer abzuschliessen",
+      "explanation": "Extended infinitive groups place objects before the infinitive. Separable verb: zu inserted between prefix and stem: abzuschliessen.",
+      "id": "c1_09_q032"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist im wissenschaftlichen Stil bevorzugt, um Kausalitaet auszudruecken, ohne Personalpronomen zu verwenden?",
+      "options": [
+        "Weil man die Daten analysiert, zeigt sich...",
+        "Aufgrund der Analyse der Daten zeigt sich...",
+        "Da die Daten analysiert wurden, zeigt sich...",
+        "Die Daten analysierend, zeigt sich..."
+      ],
+      "correctAnswer": "Aufgrund der Analyse der Daten zeigt sich...",
+      "explanation": "C1 academic writing favors nominalized causal constructions (Aufgrund + Genitiv) to avoid agentive phrasing and enhance objectivity.",
+      "id": "c1_09_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie korrekt: ____ die Entscheidung revidiert wird, muessen wir mit Konsequenzen rechnen.",
+      "options": [
+        "Falls",
+        "Ohne",
+        "Statt",
+        "Um"
+      ],
+      "correctAnswer": "Falls",
+      "explanation": "Falls introduces a conditional subordinate clause (verb-final), equivalent to wenn but with lower probability. Standard C1 conjunction for hypothetical scenarios.",
+      "id": "c1_09_q034"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Infinitivkonstruktion ist grammatikalisch korrekt, aber stilistisch veraltet oder umgangssprachlich?",
+      "options": [
+        "Ich habe Lust, ins Kino zu gehen.",
+        "Er versucht, das Problem zu loesen.",
+        "Sie faengt an, zu singen.",
+        "Sie faengt zu singen an."
+      ],
+      "correctAnswer": "Sie faengt zu singen an.",
+      "explanation": "Placing an after the infinitive (zu singen an) is grammatically possible but stylistically outdated. Modern German prefers Sie faengt an, zu singen.",
+      "id": "c1_09_q035"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man diesen Satz in einen erweiterten Infinitivsatz mit identischer Subjektbeziehung? Er weigerte sich, dass er die Verantwortung uebernimmt.",
+      "options": [
+        "Er weigerte sich, die Verantwortung zu uebernehmen.",
+        "Er weigerte sich, die Verantwortung uebernommen zu werden.",
+        "Er weigerte sich, dass die Verantwortung zu uebernehmen.",
+        "Er weigerte sich, die Verantwortung uebernehmen."
+      ],
+      "correctAnswer": "Er weigerte sich, die Verantwortung zu uebernehmen.",
+      "explanation": "sich weigern requires zu + Infinitiv when subject performs the action. Removing redundant dass-clause demonstrates C1 syntactic reduction.",
+      "id": "c1_09_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche semantische Nuance unterscheidet drohen zu von versprechen zu in der Infinitivkonstruktion?",
+      "options": [
+        "Beide drucken eine positive Erwartung aus.",
+        "Drohen zu impliziert eine negative Entwicklung; versprechen zu eine positive.",
+        "Versprechen zu erfordert immer ein direktes Objekt; drohen zu nicht.",
+        "Es gibt keinen Unterschied; sie sind austauschbar."
+      ],
+      "correctAnswer": "Drohen zu impliziert eine negative Entwicklung; versprechen zu eine positive.",
+      "explanation": "Drohen zu signals impending negative outcome (droht zu scheitern). Versprechen zu indicates promising positive trend (verspricht erfolgreich zu sein).",
+      "id": "c1_09_q037"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Identifizieren Sie den Satz mit fehlerhafter Komma-Setzung bei einer Infinitivgruppe.",
+      "options": [
+        "Er bat mich, ihm zu helfen.",
+        "Ohne lange zu ueberlegen, traf er eine Entscheidung.",
+        "Es ist wichtig die Daten regelmaessig zu sichern.",
+        "Sie hat vergessen, die E-Mail abzuschicken."
+      ],
+      "correctAnswer": "Es ist wichtig die Daten regelmaessig zu sichern.",
+      "explanation": "Extended infinitive groups introduced by es ist + Adjektiv/Nomen require a comma before zu. Missing comma is a frequent C1 exam trap.",
+      "id": "c1_09_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist korrekt, wenn das Infinitivsubjekt vom Hauptsatzsubjekt abweicht?",
+      "options": [
+        "Ich freue mich, dass du kommst.",
+        "Ich freue mich, dich zu kommen.",
+        "Ich freue mich, du zu kommen.",
+        "Ich freue mich, dass zu du kommen."
+      ],
+      "correctAnswer": "Ich freue mich, dass du kommst.",
+      "explanation": "When subjects differ (ich vs. du), an infinitive construction is impossible. A dass-clause must be used. Forcing zu here violates subject congruence rules.",
+      "id": "c1_09_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie demonstriert fortgeschrittene Kompetenz bei der Wahl zwischen Nebensatz und Infinitivkonstruktion?",
+      "options": [
+        "Immer den Infinitiv zu waehlen, da er kuerzer ist.",
+        "Den Nebensatz zu bevorzugen, um formellen Stil zu vermeiden.",
+        "Gezielt den Infinitiv bei Subjektgleichheit und Registerformalitaet zu nutzen, den Nebensatz bei Subjektwechsel, Betonung oder Klarheitsbedarf.",
+        "Beide Strukturen sind austauschbar; die Wahl ist rein subjektiv."
+      ],
+      "correctAnswer": "Gezielt den Infinitiv bei Subjektgleichheit und Registerformalitaet zu nutzen, den Nebensatz bei Subjektwechsel, Betonung oder Klarheitsbedarf.",
+      "explanation": "C1 mastery involves pragmatic flexibility: infinitives for conciseness/formality when subjects align; subordinate clauses for clarity, emphasis, or when grammatical constraints demand it.",
+      "id": "c1_09_q040"
     }
   ]
 }
