@@ -260,7 +260,8 @@ class QuizResultFragment : Fragment() {
             "c1_06" to "Modalverben im C1-Kontext",
             "c1_07" to "Wortbildung: Komposita & Derivation",
             "c1_08" to "Konnektoren & Satzverknuepfung (C1)",
-            "c1_09" to "Infinitiv- & Nebensatzkonstruktionen (C1)"
+            "c1_09" to "Infinitiv- & Nebensatzkonstruktionen (C1)",
+            "c1_10" to "Textkohaesion & Diskursmarker (C1)"
         )
         return titles[subjectId] ?: subjectId.uppercase()
     }

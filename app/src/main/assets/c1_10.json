@@ -1,0 +1,303 @@
+{
+  "topicName": "Textkohäsion & Diskursmarker (C1)",
+  "subjectId": "c1_10",
+  "level": "C1",
+  "totalQuestions": 20,
+  "description": "Textkohaesion & Diskursmarker (C1)\n\n=== TEXTKOHÄTION vs. TEXTKOHÄRENZ ===\nTextkohaesion: grammatische und sprachliche Mittel, die einen Text formal zusammenhalten\n(Pronomen, Konnektoren, Konjunktionen, lexikalische Wiederholung)\nTextkohaerenz: logische und semantische Einheit der Bedeutungsstruktur\n\n=== DISKURSMARKER-TYPEN ===\n\nKAUSAL (Folge/Ergebnis):\n- Deshalb, daher, folglich, infolgedessen, demnach, somit\n- Position 1 -> Verb in Position 2 (V2)\n- Saetze: Das Wetter war schlecht; deshalb blieben wir zu Hause.\n\nKONZESSIV (Gegensatz / Trotz):\n- Obwohl, obgleich, wenngleich (formell), obschon\n- Trotzdem, dennoch, allerdings, nichtsdestotrotz, gleichwohl, nichtsdestoweniger\n- Jedoch, hingegen (direkter Gegensatz)\n- Zwar ... aber (konzessives Muster)\n\nADDITIV (Hinzufuegung):\n- Ausserdem, zudem, ueberdies, darueber hinaus, ferner\n\nEXPLANATIV (Erklaerung):\n- Naemlich (steht NACH dem Verb, NICHT am Satzanfang!)\n\nTEMPORAL-STRUKTURELL (Ordnung):\n- Zunaechst, zuerst, erstens, anschliessend, dann, schliesslich, abschliessend\n\nKONTRASTIV-ADVERSATIV:\n- Einerseits ... andererseits (parallele Gegenueberstellung)\n- Wohingegen, wogegen, waehrend\n\n=== ANAPHORISCHE VERWEISE ===\n- Dieser, diese, dieses, jener, letztere\n- Letztere verweist auf das zuletzt genannte Nomen (anaphorisch)\n- Beispiel: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung.\n\n=== WICHTIGE REGELN ===\n- Naemlich: IMMER nach dem Verb, nie am Satzanfang\n- Zwar ... aber: zuerst z.B. Zwar hat er keine Erfahrung, aber er lernt schnell\n- Deshalb/Folglich: Position 1 -> V2\n- Jedoch/trotzdem: Position 1 -> V2\n- Jedoch: direkter Gegensatz; Trotzdem: trotz Bedingung/Erwartung\n- Folglich = formeller als deshalb; streng logische Schlussfolgerung\n- Also = umgangssprachlicher; kann auch zusammenfassen\n- Nichtsdestoweniger = gehobener als trotzdem (akademisch)",
+  "tips": [
+    "Textkohaesion = formale Verbindungsmittel; Textkohaerenz = logische Bedeutungsstruktur",
+    "Deshalb/Folglich/Daher: Position 1 -> Verb in Position 2 (V2)",
+    "Naemlich kommt NACH dem Verb, nie am Satzanfang!",
+    "Obwohl/obgleich/wenngleich = concessive Nebensaetze (Verb am Ende)",
+    "Zwar ... aber = konzessives Muster: Zwar + Verb, aber + Satz",
+    "Einerseits ... andererseits = parallele Gegenueberstellung (adversativer Kontrast)",
+    "Folglich = formeller als deshalb; strictly logical conclusion in academic texts",
+    "Also = umgangssprachlicher/conversational; kann auch zusammenfassen",
+    "Nichtsdestoweniger = gehobener als trotzdem (akademisch/juristisch)",
+    "Letztere = anaphorischer Verweis auf das zuletzt genannte Nomen",
+    "Zunaechst/erstens/anschliessend/abschliessend = Textstrukturierung",
+    "Darueber hinaus = additive connector, oft stärkere/eskalierende Information"
+  ],
+  "questions": [
+    {
+      "id": "c1_10_q001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Was versteht man unter Textkohaesion?",
+      "options": [
+        "Die inhaltliche Einheit und logische Bedeutungsstruktur eines Textes",
+        "Die grammatischen und sprachlichen Mittel, die einen Text formal zusammenhalten",
+        "Die Verwendung von Fremdwoertern in einem Text",
+        "Die aeussere Gliederung eines Textes in Absehnitte"
+      ],
+      "correctAnswer": "Die grammatischen und sprachlichen Mittel, die einen Text formal zusammenhalten",
+      "explanation": "Textkohaesion refers to grammatical and linguistic devices that formally connect text parts (pronouns, connectors, conjunctions, lexical repetition). Distinct from Textkohaerenz (logical/semantic unity)."
+    },
+    {
+      "id": "c1_10_q002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welcher Diskursmarker druckt eine Folge oder ein Ergebnis aus?",
+      "options": [
+        "obwohl",
+        "deshalb",
+        "hingegen",
+        "zunaechst"
+      ],
+      "correctAnswer": "deshalb",
+      "explanation": "Deshalb (therefore/that is why) is a causal connector expressing result/consequence. Obwohl = concessive, hingegen = adversative contrast, zunaechst = temporal (first)."
+    },
+    {
+      "id": "c1_10_q003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Ergaenzen Sie den passenden Diskursmarker: Das Wetter war schlecht. ____ haben wir den Ausflug genossen.",
+      "options": [
+        "Deshalb",
+        "Trotzdem",
+        "Ausserdem",
+        "Naemlich"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem (nevertheless/even so) is a concessive connector signalling an unexpected result despite bad weather. Deshalb = consequence, ausserdem = addition, naemlich = explanation."
+    },
+    {
+      "id": "c1_10_q004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welche Funktion hat der Diskursmarker ausserdem?",
+      "options": [
+        "Er druckt einen Gegensatz aus.",
+        "Er fuegt eine zusaetzliche Information hinzu.",
+        "Er leitet eine Schlussfolgerung ein.",
+        "Er beschreibt eine zeitliche Abfolge."
+      ],
+      "correctAnswer": "Er fuegt eine zusaetzliche Information hinzu.",
+      "explanation": "Ausserdem (moreover/in addition/furthermore) is an additive connector that adds further information without contradicting."
+    },
+    {
+      "id": "c1_10_q005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Ergaenzen Sie: Er ist sehr kompetent. ____ hat er kaum Erfahrung. (Gegensatz)",
+      "options": [
+        "Deshalb",
+        "Ausserdem",
+        "Allerdings",
+        "Naemlich"
+      ],
+      "correctAnswer": "Allerdings",
+      "explanation": "Allerdings (however/admittedly) introduces an adversative contrast or qualification, restricting the previous statement."
+    },
+    {
+      "id": "c1_10_q006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welcher Diskursmarker ordnet Argumente in einer Aufzaehlung? ____ moechte ich die Vorteile nennen, ____ die Nachteile.",
+      "options": [
+        "Naemlich / deshalb",
+        "Zunaechst / anschliessend",
+        "Trotzdem / ausserdem",
+        "Hingegen / obwohl"
+      ],
+      "correctAnswer": "Zunaechst / anschliessend",
+      "explanation": "Zunaechst (first/to begin) and anschliessend (then/subsequently) are temporal-structural markers organizing content sequentially."
+    },
+    {
+      "id": "c1_10_q007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Was ist der Unterschied zwischen jedoch und trotzdem?",
+      "options": [
+        "Es gibt keinen Unterschied.",
+        "Jedoch druckt direkten Gegensatz aus; trotzdem druckt aus, dass etwas trotz einer Bedingung geschieht.",
+        "Trotzdem wird nur in der gesprochenen Sprache verwendet.",
+        "Jedoch leitet immer einen Kausalsatz ein."
+      ],
+      "correctAnswer": "Jedoch druckt direkten Gegensatz aus; trotzdem druckt aus, dass etwas trotz einer Bedingung geschieht.",
+      "explanation": "Jedoch expresses direct contrast; trotzdem is concessive (despite obstacle/condition). Subtle but important in formal writing."
+    },
+    {
+      "id": "c1_10_q008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Ergaenzen Sie den richtigen Diskursmarker: Die Studie ist umfangreich. ____ fehlen wichtige Kontrollgruppen. (einschraenkend)",
+      "options": [
+        "Ausserdem",
+        "Deshalb",
+        "Dennoch",
+        "Allerdings"
+      ],
+      "correctAnswer": "Allerdings",
+      "explanation": "Allerdings introduces a limiting/qualifying statement — something granted but with an important shortcoming following."
+    },
+    {
+      "id": "c1_10_q009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welcher Diskursmarker erklaert oder praezisiert das Vorherige? Er kam nicht zur Besprechung – ____ hatte er einen wichtigen Termin.",
+      "options": [
+        "deshalb",
+        "naemlich",
+        "hingegen",
+        "dennoch"
+      ],
+      "correctAnswer": "naemlich",
+      "explanation": "Naemlich (namely/the reason being) introduces explanation/clarification. Always appears after the conjugated verb, never at the beginning."
+    },
+    {
+      "id": "c1_10_q010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welche Gruppe von Diskursmarkern dient zur Strukturierung eines Textes?",
+      "options": [
+        "deshalb, weil, da",
+        "erstens, darueber hinaus, abschliessend",
+        "obwohl, trotzdem, dennoch",
+        "naemlich, also, somit"
+      ],
+      "correctAnswer": "erstens, darueber hinaus, abschliessend",
+      "explanation": "Erstens, darueber hinaus, abschliessend are structural discourse markers organizing argument progression (beginning, development, conclusion)."
+    },
+    {
+      "id": "c1_10_q011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Ergaenzen Sie: Die Ergebnisse sind eindeutig. ____, lassen sich keine allgemeinen Schluesse ziehen. (konzessiv-einschraenkend)",
+      "options": [
+        "Daher",
+        "Nichtsdestotrotz",
+        "Gleichwohl",
+        "Folglich"
+      ],
+      "correctAnswer": "Gleichwohl",
+      "explanation": "Gleichwohl (nonetheless/yet) is a formal concessive connector expressing reservation despite clear results. More elevated than trotzdem."
+    },
+    {
+      "id": "c1_10_q012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Was ist die Funktion von darueber hinaus in einem Text?",
+      "options": [
+        "Einen Gegensatz einleiten",
+        "Eine zusaetzliche, oft staerkere Information hinzufuegen",
+        "Eine Schlussfolgerung ziehen",
+        "Eine Einschraenkung machen"
+      ],
+      "correctAnswer": "Eine zusaetzliche, oft staerkere Information hinzufuegen",
+      "explanation": "Darueber hinaus (furthermore/beyond that) adds a further — often escalating — point. Common in formal argumentation."
+    },
+    {
+      "id": "c1_10_q013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welcher Diskursmarker leitet eine Schlussfolgerung ein?",
+      "options": [
+        "hingegen",
+        "folglich",
+        "zwar",
+        "obgleich"
+      ],
+      "correctAnswer": "folglich",
+      "explanation": "Folglich (consequently/therefore/as a result) introduces a logical conclusion. More formal than deshalb in academic/argumentative texts."
+    },
+    {
+      "id": "c1_10_q014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Ergaenzen Sie: ____ die Kosten hoch sind, entschied sich das Unternehmen fuer die neue Technologie. (konzessiv)",
+      "options": [
+        "Da",
+        "Wenngleich",
+        "Sobald",
+        "Indem"
+      ],
+      "correctAnswer": "Wenngleich",
+      "explanation": "Wenngleich (even though/although) is a formal concessive conjunction. More elevated than obwohl in academic/legal writing."
+    },
+    {
+      "id": "c1_10_q015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Analysieren Sie die Kohaesionsfunktion: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung. Was leistet Letztere?",
+      "options": [
+        "Es leitet eine Schlussfolgerung ein.",
+        "Es ist ein anaphorischer Verweis, der auf die Massnahmen zurueckverweist.",
+        "Es druckt einen zeitlichen Bezug aus.",
+        "Es ist ein Diskursmarker fuer Einschraenkungen."
+      ],
+      "correctAnswer": "Es ist ein anaphorischer Verweis, der auf die Massnahmen zurueckverweist.",
+      "explanation": "Letztere (the latter) is an anaphoric reference referring back to the previously mentioned noun (die Massnahmen). Key cohesive device avoiding repetition."
+    },
+    {
+      "id": "c1_10_q016",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welcher Satz verwendet zwar ... aber korrekt als konzessives Diskursmuster?",
+      "options": [
+        "Zwar hat er keine Erfahrung, aber er lernt schnell.",
+        "Zwar er keine Erfahrung hat, aber er lernt schnell.",
+        "Er hat zwar keine Erfahrung, aber er lernt schnell.",
+        "Sowohl A als auch C sind korrekt."
+      ],
+      "correctAnswer": "Sowohl A als auch C sind korrekt.",
+      "explanation": "Zwar ... aber can be (A) Zwar + Verb-second, aber... OR (C) zwer as mid-clause adverb: Er hat zwar..., aber.... Both correct. B is wrong: zwer as sentence-opener requires V2."
+    },
+    {
+      "id": "c1_10_q017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Was ist der Unterschied zwischen also und folglich als Diskursmarker?",
+      "options": [
+        "Also ist umgangssprachlicher und kann auch zusammenfassend verwendet werden; folglich ist formeller und streng schlussfolgernd.",
+        "Also druckt Gegensatz aus; folglich druckt Hinzufuegung aus.",
+        "Folglich wird nur in gesprochener Sprache verwendet.",
+        "Beide sind vollstaendig bedeutungsgleich."
+      ],
+      "correctAnswer": "Also ist umgangssprachlicher und kann auch zusammenfassend verwendet werden; folglich ist formeller und streng schlussfolgernd.",
+      "explanation": "Also (so/thus) is more colloquial, can introduce conclusions and summaries. Folglich is strictly logical and formal, used to draw necessary conclusions from evidence."
+    },
+    {
+      "id": "c1_10_q018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welcher Diskursmarker passt am besten in einen wissenschaftlichen Text, um eine These zu relativieren? Die Theorie ist weitgehend anerkannt. ____ gibt es einzelne Kritikpunkte.",
+      "options": [
+        "Trotzdem",
+        "Nichtsdestoweniger",
+        "Deshalb",
+        "Ausserdem"
+      ],
+      "correctAnswer": "Nichtsdestoweniger",
+      "explanation": "Nichtsdestoweniger (nevertheless/nonsetheless) is a highly formal concessive connector typical of academic writing. More elevated than trotzdem."
+    },
+    {
+      "id": "c1_10_q019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Bestimmen Sie die Kohaesionsfunktion: Die Digitalisierung veraendert die Arbeitswelt grundlegend. Einerseits entstehen neue Berufsfelder, andererseits fallen traditionelle Taetigkeiten weg. Was leisten einerseits ... andererseits?",
+      "options": [
+        "Sie drucken eine zeitliche Abfolge aus.",
+        "Sie strukturieren einen adversativen Kontrast durch parallele Gegenueberstellung.",
+        "Sie leiten eine Kausalbeziehung ein.",
+        "Sie markieren eine Zusammenfassung des Vorherigen."
+      ],
+      "correctAnswer": "Sie strukturieren einen adversativen Kontrast durch parallele Gegenueberstellung.",
+      "explanation": "Einerseits ... andererseits creates a balanced parallel contrast between two opposing aspects. Key structural cohesion device in argumentative texts."
+    },
+    {
+      "id": "c1_10_q020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welcher der folgenden Saetze weist einen FEHLER in der Verwendung eines Diskursmarkers auf?",
+      "options": [
+        "Er ist sehr talentiert; dennoch fehlt ihm die noetige Disziplin.",
+        "Die Ergebnisse sind ueberzeugend. Folglich lassen sich eindeutige Schluesse ziehen.",
+        "Naemlich hat er den Vertrag unterschrieben, bevor er ihn las.",
+        "Zwar ist die Methode aufwendig, aber die Ergebnisse rechtfertigen den Aufwand."
+      ],
+      "correctAnswer": "Naemlich hat er den Vertrag unterschrieben, bevor er ihn las.",
+      "explanation": "Naemlich cannot stand at the beginning of a sentence — it must follow the conjugated verb: Er hat naemlich den Vertrag unterschrieben.... This is a very common error."
+    }
+  ]
+}
