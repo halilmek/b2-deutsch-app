@@ -3,7 +3,7 @@
   "subjectId": "c1_05",
   "topicName": "Partizipialattribute & Relativsatzformen",
   "level": "C1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Partizipialattribute und Relativsatzformen — At C1 level, one of the most effective ways to condense text, increase nominal complexity, and demonstrate academic writing competence is converting Relativsatze (relative clauses) into Partizipialattribute (extended participial attributes), and vice versa. The core choice between Partizip I and Partizip II depends on voice and temporality: Partizip I (Infinitive + -d) = active voice AND simultaneous action (Gleichzeitigkeit). Partizip II = (1) passive voice AND completed action for transitive verbs, or (2) active voice AND completed action ONLY for intransitive verbs forming their perfect with sein (e.g., ankommen, fallen, sterben). Advanced C1 structures include: Das Gerundiv (zu + Partizip I) replacing 'mussen/konnen + Passiv' to express necessity or possibility; and Partizip II + habend/seiend for active past completion where regular Partizip I would wrongly imply present time. Extended attributes follow a strict bracket structure: [Article + ALL modifiers (prepositions, adverbs, objects) + Participle with adjective ending + Noun]. Case rules for internal prepositional phrases must be preserved inside the attribute.",
   "tips": [
     "Partizip I vs. Partizip II: Partizip I (laufend) = active, simultaneous. Partizip II (gelaufen/geschrieben) = passive+completed OR active+completed with sein-verbs (ankommen, sterben, fallen). Choice determines meaning — wrong participle = wrong grammar.",
@@ -855,6 +855,286 @@
       "correctAnswer": "Das zu essende Kind schlaeft.",
       "explanation": "The Gerundiv has passive meaning. 'Das zu essende Kind' would mean 'the child that needs to be eaten', which is semantically nonsensical. It should be 'Das essende Kind' (active: the child that is currently eating).",
       "id": "c1_05_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Mann arbeitet seit Jahren in diesem Unternehmen.",
+      "options": [
+        "dort angestellte",
+        "dort angestellt",
+        "angestellt dort",
+        "dort anstellen"
+      ],
+      "correctAnswer": "dort angestellte",
+      "explanation": "Partizip I als Adjektiv muss korrekt dekliniert werden. 'Der dort angestellte Mann' — Partizip I mit Adjektivendung '-e' nach maskulinem Nominativ mit bestimmtem Artikel.",
+      "id": "c1_05_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten, ____ an dem Projekt teilnehmen, treffen sich heute Abend.",
+      "options": [
+        "die",
+        "deren",
+        "denen",
+        "welcher"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Das Relativpronomen bezieht sich auf 'Studenten' (Nominativ Plural). 'Die' ist die korrekte Form.",
+      "id": "c1_05_q062"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die gestern ____ Dokumente müssen sofort überprüft werden.",
+      "options": [
+        "eingereichten",
+        "eingereichte",
+        "einreichenden",
+        "eingereicht"
+      ],
+      "correctAnswer": "eingereichten",
+      "explanation": "Das Partizip II als Adjektiv muss mit dem Plural 'Dokumente' dekliniert werden. Nach dem bestimmten Artikel 'die' ist die Adjektivendung '-en'.",
+      "id": "c1_05_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ____ ich dir empfohlen habe, ist inzwischen ausverkauft.",
+      "options": [
+        "das",
+        "dem",
+        "dessen",
+        "den"
+      ],
+      "correctAnswer": "das",
+      "explanation": "Das Relativpronomen bezieht sich auf 'das Buch' im Akkusativ. 'Das' ist die korrekte Akkusativform.",
+      "id": "c1_05_q064"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die im Labor ____ Experimente führten zu neuen Erkenntnissen.",
+      "options": [
+        "durchgeführten",
+        "durchgeführt",
+        "durchführenden",
+        "durchgeführte"
+      ],
+      "correctAnswer": "durchgeführten",
+      "explanation": "Ein dekliniertes Partizip-Adjektiv wird vor dem Plural-Nomen benötigt. Nach 'die' im Nominativ Plural ist die Endung '-en'.",
+      "id": "c1_05_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, mit ____ ich gesprochen habe, ist Professorin.",
+      "options": [
+        "der",
+        "die",
+        "deren",
+        "denen"
+      ],
+      "correctAnswer": "der",
+      "explanation": "Die Präposition 'mit' erfordert den Dativ. 'Der' ist die Dativ-Form des Relativpronomens für feminin Singular.",
+      "id": "c1_05_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der auf dem Tisch ____ Brief gehört meinem Bruder.",
+      "options": [
+        "liegende",
+        "gelegen",
+        "liegend",
+        "gelegte"
+      ],
+      "correctAnswer": "liegende",
+      "explanation": "Partizip I wird als Adjektiv verwendet und muss dekliniert werden. 'Der liegende Brief' — Partizip I mit Endung '-e' nach maskulinem Nominativ.",
+      "id": "c1_05_q067"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegen, ____ Büros renoviert werden, arbeiten heute von zu Hause.",
+      "options": [
+        "deren",
+        "die",
+        "denen",
+        "welche"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Deren' drückt Besitz aus: die Kollegen, deren Büros renoviert werden. 'Deren' ist der Genitiv für Plural sowohl Maskulin als auch Feminin.",
+      "id": "c1_05_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die sorgfältig ____ Daten wurden veröffentlicht.",
+      "options": [
+        "analysierten",
+        "analysiert",
+        "analysierende",
+        "analysierte"
+      ],
+      "correctAnswer": "analysierten",
+      "explanation": "Das Partizip-Adjektiv muss mit dem Plural-Nomen 'Daten' übereinstimmen. Nach 'die' im Nominativ Plural ist die Adjektivendung '-en'.",
+      "id": "c1_05_q069"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Wissenschaftler, ____ Forschung international bekannt ist.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "'Dessen' ist das possessive Relativpronomen für maskuline und neutrale Nomen. Es zeigt Zugehörigkeit: 'dessen Forschung' = 'whose research'.",
+      "id": "c1_05_q070"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die neu ____ Vorschriften gelten ab sofort.",
+      "options": [
+        "eingeführten",
+        "eingeführt",
+        "einführenden",
+        "eingeführte"
+      ],
+      "correctAnswer": "eingeführten",
+      "explanation": "Das Plural-Nomen 'Vorschriften' erfordert ein dekliniertes Partizip-Adjektiv. Nach 'die' im Nominativ Plural ist die Endung '-en'.",
+      "id": "c1_05_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Student, ____ ich das Buch gegeben habe, studiert Medizin.",
+      "options": [
+        "dem",
+        "den",
+        "dessen",
+        "der"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "Das indirekte Objekt erfordert den Dativ. 'Dem' ist die Dativ-Form für maskulin Singular.",
+      "id": "c1_05_q072"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die während der Sitzung ____ Fragen blieben unbeantwortet.",
+      "options": [
+        "gestellten",
+        "gestellt",
+        "stellenden",
+        "gestellte"
+      ],
+      "correctAnswer": "gestellten",
+      "explanation": "Das Partizip-Adjektiv modifiziert das Plural-Nomen 'Fragen'. Nach 'die' im Nominativ Plural ist die Endung '-en'.",
+      "id": "c1_05_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, für ____ er arbeitet, expandiert international.",
+      "options": [
+        "die",
+        "der",
+        "deren",
+        "denen"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Die Präposition 'für' erfordert den Akkusativ. 'Die' ist die Akkusativ-Form für feminin Singular.",
+      "id": "c1_05_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die in Berlin ____ Konferenz war ein großer Erfolg.",
+      "options": [
+        "stattfindende",
+        "stattgefunden",
+        "stattfinden",
+        "stattgefundene"
+      ],
+      "correctAnswer": "stattfindende",
+      "explanation": "Partizip I beschreibt eine andauernde oder gleichzeitige Handlung. 'Die stattfindende Konferenz' — die Konferenz, die stattfindet.",
+      "id": "c1_05_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer, ____ Namen auf der Liste stehen, erhalten Zutritt.",
+      "options": [
+        "deren",
+        "die",
+        "denen",
+        "welchen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Deren' drückt Besitz im Relativsatz aus. 'Deren Namen' = 'whose names'. Korrekt für Nominativ Plural.",
+      "id": "c1_05_q076"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der kürzlich ____ Artikel sorgte für Diskussionen.",
+      "options": [
+        "veröffentlichte",
+        "veröffentlichten",
+        "veröffentlichend",
+        "veröffentlicht"
+      ],
+      "correctAnswer": "veröffentlichte",
+      "explanation": "Das Singular-Nomen 'Artikel' (maskulin) erfordert ein korrekt dekliniertes Partizip-Adjektiv. Nach 'der' ist die Endung '-e'.",
+      "id": "c1_05_q077"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Museum, in ____ die Ausstellung stattfindet, ist sehr bekannt.",
+      "options": [
+        "dem",
+        "das",
+        "dessen",
+        "den"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "Die Präposition 'in' erfordert hier den Dativ. 'Dem' ist die Dativ-Form für neutral Singular.",
+      "id": "c1_05_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die vom Direktor ____ Entscheidung wurde akzeptiert.",
+      "options": [
+        "getroffene",
+        "getroffenen",
+        "treffende",
+        "getroffen"
+      ],
+      "correctAnswer": "getroffene",
+      "explanation": "Das Partizip-Adjektiv muss mit dem femininen Singular-Nomen 'Entscheidung' übereinstimmen. Nach 'die' (Nominativ Singular Femininum) ist die Endung '-e'.",
+      "id": "c1_05_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter, an ____ Vorschlägen gearbeitet wurde, erhielten eine Prämie.",
+      "options": [
+        "deren",
+        "denen",
+        "die",
+        "welche"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'An deren Vorschlägen' ist die korrekte possessive Relativkonstruktion nach der Präposition. 'Deren' zeigt Zugehörigkeit (der Vorschläge).",
+      "id": "c1_05_q080"
     }
   ]
 }
