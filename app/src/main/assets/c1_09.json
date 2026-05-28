@@ -2,7 +2,7 @@
   "topicName": "Infinitiv- & Nebensatzkonstruktionen (C1)",
   "subjectId": "c1_09",
   "level": "C1",
-  "totalQuestions": 80,
+  "totalQuestions": 100,
   "description": "Infinitiv- und Nebensatzkonstruktionen (C1)\n\n=== INFINTIVKONSTRUKTIONEN ===\nUm ... zu + Infinitiv: Zweck (same subject)\nOhne ... zu + Infinitiv: Verneinung einer begleitenden Handlung\nAnstatt ... zu + Infinitiv: Alternative Handlung\nZu + Adjektiv + um ... zu: Grad, der eine Handlung verhindert (zu + Adjektiv + als dass)\n\n=== DAMIT vs. UM ... ZU ===\nUm ... zu: wenn beide Saetze dasselbe Subjekt haben\nDamit: wenn die Subjekte verschieden sind\nBeispiel: Er sprach langsam, DAMIT die Zuhörer ihn verstehen. (er ≠ Zuhörer)\n\n=== NEBENSATZKONJUNKTIONEN ===\nKausal: weil, da, denn\nKonzessiv: obwohl, obgleich, obschon, wenngleich, obwhr\nTemporal: als, wenn, waehrend, bevor, nachdem, sobald, solange, seitdem\nFinal: damit, um ... zu\nKonsekutiv: sodass, so ... dass\nKonditional: wenn, falls, sofern, es sei denn\nModal: indem, dadurch dass, ohne dass\n\n=== NOMINALSTIL-TRANSFORMATIONEN ===\nDa + Nebensatz -> Wegen + Genitiv\nObwohl + Nebensatz -> Trots + Genitiv / Ungeachtet + Genitiv\nWeil + Nebensatz -> Aufgrund + Genitiv\nWenn/Sobald + Nebensatz -> Partizip I / Nominalisierung\n\n=== ALS vs. WENN (Temporal) ===\nAls: einmaliges Ereignis in der Vergangenheit\nWenn: wiederholte Ereignisse oder Zukunft/Gegenwart\n\n=== BESONDERE KONSTRUKTIONEN ===\nAls ob / als + Konjunktiv II: irrealer Vergleich\nJe ... desto: proportionale Beziehung\nOhne dass: verschiedene Subjekte\nPartizip I als absolute Konstruktion (lesend, sehend)",
   "tips": [
     "Um ... zu: both clauses SAME subject. Damit: different subjects.",
@@ -1138,6 +1138,286 @@
       "correctAnswer": "Er lernt, um die schwierige Pruefung am Ende des Semesters zu bestehen.",
       "explanation": "Extended infinitive phrases include additional objects, adverbs, or prepositional phrases between um and zu. Characteristic of formal written German.",
       "id": "c1_09_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Es ist absolut unumgaenglich, ____ alle Sicherheitsbestimmungen vor Arbeitsbeginn verinnerlicht haben.",
+      "options": [
+        "dass Sie",
+        "damit Sie",
+        "um zu",
+        "ohne dass"
+      ],
+      "correctAnswer": "dass Sie",
+      "explanation": "Es ist unumgaenglich requires a dass-Satz with subject (Sie) because the subject of both clauses differs.",
+      "id": "c1_09_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung hat Massnahmen ergriffen, ____ die wirtschaftliche Rezession abzuwenden.",
+      "options": [
+        "um",
+        "damit",
+        "ohne",
+        "anstatt"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Um ... zu indicates purpose where subjects are identical (Die Regierung ... die Rezession abzuwenden).",
+      "id": "c1_09_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ging aus dem Meeting heraus, ____ von den neuen Ergebnissen Notiz zu nehmen.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "um",
+        "dadurch"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu means without doing something: ignoring the new results.",
+      "id": "c1_09_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Abteilungsleiter verliess das Buerro vorzeitig, ____ seine Mitarbeiter die dringenden Berichte noch fertigstellen mussten.",
+      "options": [
+        "obwohl",
+        "trotzdem",
+        "weil",
+        "waehrend"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces a concessive clause (although). Trotzdem is an adverb and cannot introduce a Nebensatz with verb at end.",
+      "id": "c1_09_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ man die rechtlichen Risiken im Vorfeld kalkuliert, laesst sich ein langwieriger Prozess vermeiden.",
+      "options": [
+        "Indem",
+        "Dadurch",
+        "Weil",
+        "Sodass"
+      ],
+      "correctAnswer": "Indem",
+      "explanation": "Indem introduces a modal clause explaining the means by which an action is accomplished (by calculating).",
+      "id": "c1_09_q085"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie kaufte sich das teure Fachbuch, ____ sie es fuer ihre Masterarbeit gar nicht zwingend benoetigte.",
+      "options": [
+        "obgleich",
+        "weshalb",
+        "wogegen",
+        "ungeachtet"
+      ],
+      "correctAnswer": "obgleich",
+      "explanation": "Obgleich is a higher-register synonym for obwohl (although), introducing a concessive clause at C1 level.",
+      "id": "c1_09_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Entscheidung getroffen, das Projekt fortzufuehren, ____ die Finanzierung keineswegs gesichert ist.",
+      "options": [
+        "wohingegen",
+        "wogegen",
+        "zumal",
+        "obwohl doch"
+      ],
+      "correctAnswer": "zumal",
+      "explanation": "Zumal is a causal conjunction meaning especially since, adding a weighty reason to the concessive context.",
+      "id": "c1_09_q087"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Dozent sprach so leise, ____ die Studenten in den hinteren Reihen kaum ein Wort verstehen konnten.",
+      "options": [
+        "sodass",
+        "damit",
+        "um",
+        "als dass"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "Sodass expresses a consecutive relationship (consequence/result). Als dass would require Konjunktiv II.",
+      "id": "c1_09_q088"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Bedingungen waren viel zu komplex, ____ ein Laie sie auf Anhieb haette durchschauen koennen.",
+      "options": [
+        "als dass",
+        "sodass",
+        "um zu",
+        "damit"
+      ],
+      "correctAnswer": "als dass",
+      "explanation": "Als dass is used with zu + adjective in main clause to express unreal consequence, accompanied by Konjunktiv II.",
+      "id": "c1_09_q089"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir verbleiben so, ____ die Vertraege bis Ende naechster Woche von beiden Parteien unterzeichnet vorliegen.",
+      "options": [
+        "dass",
+        "damit",
+        "wenn",
+        "um zu"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "So verbleiben, dass introduces a consecutive/final state clause describing how an agreement stands.",
+      "id": "c1_09_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ der Chef seine Zustimmung verweigert, muessen wir den gesamten Strategieplan verwerfen.",
+      "options": [
+        "Sollte",
+        "Falls",
+        "Wenn auch",
+        "Sofern"
+      ],
+      "correctAnswer": "Sollte",
+      "explanation": "An inverted conditional clause without wenn using Sollte (equivalent to Falls ... sollte).",
+      "id": "c1_09_q091"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie tat so, ____ sie von den internen Unstimmigkeiten in der Chefetage ueberhaupt nichts gewusst haette.",
+      "options": [
+        "als ob",
+        "als",
+        "wie wenn",
+        "als wenn"
+      ],
+      "correctAnswer": "als ob",
+      "explanation": "Als ob introduces a comparative unreal clause (as if) requiring verb at the very end.",
+      "id": "c1_09_q092"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ man die Komplexitaet dieser Grammatik unterschaetzt, schleichen sich im C1-Examen fatale Fehler ein.",
+      "options": [
+        "Je nachdem",
+        "Je eher",
+        "Insofern",
+        "Sofern"
+      ],
+      "correctAnswer": "Sofern",
+      "explanation": "Sofern acts as a formal conditional conjunction (provided that/in case that) introducing a restrictive condition.",
+      "id": "c1_09_q093"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er widmete sich ganz der Forschung, ____ seine Familie komplett zu vernachlaessigen.",
+      "options": [
+        "wobei er Gefahr lief,",
+        "ohne zu glauben,",
+        "um nicht zu sagen,",
+        "anstatt zu versuchen,"
+      ],
+      "correctAnswer": "wobei er Gefahr lief,",
+      "explanation": "Wobei er Gefahr lief, ... zu vernachlaessigen correctly embeds a subordinate idea alongside an infinitive construction.",
+      "id": "c1_09_q094"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Krise im letzten Quartal rechtzeitig abgewendet worden waere, stuende das Unternehmen heute besser da.",
+      "options": [
+        "Haette",
+        "Waere",
+        "Wenn",
+        "Falls"
+      ],
+      "correctAnswer": "Waere",
+      "explanation": "An omitted wenn conditional clause in past tense. Since the verb is passive, auxiliary waere occupies position 1: Waere die Krise ... abgewendet worden.",
+      "id": "c1_09_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es entspricht nicht unserer Philosophie, Investitionen zu taetigen, ____ deren langfristiger Nutzen nicht hinreichend belegt ist.",
+      "options": [
+        "solange",
+        "wofern",
+        "waehrend",
+        "indem"
+      ],
+      "correctAnswer": "solange",
+      "explanation": "Solange functions as a conditional-temporal conjunction meaning as long as, fitting the ongoing status of proof.",
+      "id": "c1_09_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ reichhaltig das Angebot an Weiterbildungskursen auch sein mag, letztlich zaehlt die Eigeninitiative des Angestellten.",
+      "options": [
+        "Wie",
+        "Obgleich",
+        "So",
+        "Ungeachtet"
+      ],
+      "correctAnswer": "So",
+      "explanation": "So + Adjektiv + auch + mag/sein forms an advanced concessive clause: No matter how rich the offer may be...",
+      "id": "c1_09_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es gibt keinerlei Anzeichen dafuer, ____ sich die weltwirtschaftliche Lage in den kommenden Monaten stabilisieren wird.",
+      "options": [
+        "dass",
+        "womit",
+        "ob",
+        "sodass"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "The noun Anzeichen takes a prepositional object dafuer, explicated by a content clause starting with dass.",
+      "id": "c1_09_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Antrag wurde abgelehnt, ____ mehrere Formfehler im Dokument ausgemacht worden waren.",
+      "options": [
+        "nachdem",
+        "seitdem",
+        "indem",
+        "als"
+      ],
+      "correctAnswer": "nachdem",
+      "explanation": "Nachdem requires Plusquamperfekt in subordinate (worden waren) and Praeteritum in main clause (wurde abgelehnt).",
+      "id": "c1_09_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Man sollte Konflikte offen ansprechen, ____ sie stillschweigend ueber Monate hinweg zu ertragen.",
+      "options": [
+        "anstatt",
+        "ohne",
+        "um",
+        "dadurch"
+      ],
+      "correctAnswer": "anstatt",
+      "explanation": "Anstatt ... zu represents an alternative infinitive construction: instead of enduring them silently.",
+      "id": "c1_09_q100"
     }
   ]
 }
