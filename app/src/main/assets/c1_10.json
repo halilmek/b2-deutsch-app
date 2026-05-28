@@ -2,7 +2,7 @@
   "topicName": "Textkohäsion & Diskursmarker (C1)",
   "subjectId": "c1_10",
   "level": "C1",
-  "totalQuestions": 40,
+  "totalQuestions": 61,
   "description": "Textkohaesion & Diskursmarker (C1)\n\n=== TEXTKOHÄTION vs. TEXTKOHÄRENZ ===\nTextkohaesion: grammatische und sprachliche Mittel, die einen Text formal zusammenhalten\n(Pronomen, Konnektoren, Konjunktionen, lexikalische Wiederholung)\nTextkohaerenz: logische und semantische Einheit der Bedeutungsstruktur\n\n=== DISKURSMARKER-TYPEN ===\n\nKAUSAL (Folge/Ergebnis):\n- Deshalb, daher, folglich, infolgedessen, demnach, somit\n- Position 1 -> Verb in Position 2 (V2)\n- Saetze: Das Wetter war schlecht; deshalb blieben wir zu Hause.\n\nKONZESSIV (Gegensatz / Trotz):\n- Obwohl, obgleich, wenngleich (formell), obschon\n- Trotzdem, dennoch, allerdings, nichtsdestotrotz, gleichwohl, nichtsdestoweniger\n- Jedoch, hingegen (direkter Gegensatz)\n- Zwar ... aber (konzessives Muster)\n\nADDITIV (Hinzufuegung):\n- Ausserdem, zudem, ueberdies, darueber hinaus, ferner\n\nEXPLANATIV (Erklaerung):\n- Naemlich (steht NACH dem Verb, NICHT am Satzanfang!)\n\nTEMPORAL-STRUKTURELL (Ordnung):\n- Zunaechst, zuerst, erstens, anschliessend, dann, schliesslich, abschliessend\n\nKONTRASTIV-ADVERSATIV:\n- Einerseits ... andererseits (parallele Gegenueberstellung)\n- Wohingegen, wogegen, waehrend\n\n=== ANAPHORISCHE VERWEISE ===\n- Dieser, diese, dieses, jener, letztere\n- Letztere verweist auf das zuletzt genannte Nomen (anaphorisch)\n- Beispiel: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung.\n\n=== WICHTIGE REGELN ===\n- Naemlich: IMMER nach dem Verb, nie am Satzanfang\n- Zwar ... aber: zuerst z.B. Zwar hat er keine Erfahrung, aber er lernt schnell\n- Deshalb/Folglich: Position 1 -> V2\n- Jedoch/trotzdem: Position 1 -> V2\n- Jedoch: direkter Gegensatz; Trotzdem: trotz Bedingung/Erwartung\n- Folglich = formeller als deshalb; streng logische Schlussfolgerung\n- Also = umgangssprachlicher; kann auch zusammenfassen\n- Nichtsdestoweniger = gehobener als trotzdem (akademisch)",
   "tips": [
     "Textkohaesion = formale Verbindungsmittel; Textkohaerenz = logische Bedeutungsstruktur",
@@ -578,6 +578,300 @@
       "correctAnswer": "Dennoch",
       "explanation": "Dennoch expresses contrast between difficulty (serious problems) and successful repair.",
       "id": "c1_10_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Textkohaesion bezieht sich auf die ____ Verknuepfung eines Textes.",
+      "options": [
+        "logische und grammatische",
+        "rein inhaltliche",
+        "stilistische",
+        "phonetische"
+      ],
+      "correctAnswer": "logische und grammatische",
+      "explanation": "Textkohaesion refers to grammatical and logical connections within a text using conjunctions, pronouns, and discourse markers.",
+      "id": "c1_10_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker signalisiert eine Zusammenfassung oder Schlussfolgerung?",
+      "options": [
+        "zunaechst",
+        "ausserdem",
+        "fazit",
+        "allerdings"
+      ],
+      "correctAnswer": "fazit",
+      "explanation": "Fazit (in conclusion/summary) introduces a concluding statement. Zunaechst is sequential, ausserdem additive, allerdings contrastive.",
+      "id": "c1_10_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Sie hat viel gelernt; ____ hat sie die Pruefung bestanden.",
+      "options": [
+        "dennoch",
+        "folglich",
+        "trotzdem",
+        "allerdings"
+      ],
+      "correctAnswer": "folglich",
+      "explanation": "Folglich expresses a logical conclusion: She studied hard, therefore she passed. The others express contrast/concession.",
+      "id": "c1_10_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker druckt einen Gegensatz oder eine Einschraenkung aus?",
+      "options": [
+        "ausserdem",
+        "somit",
+        "jedoch",
+        "beispielsweise"
+      ],
+      "correctAnswer": "jedoch",
+      "explanation": "Jedoch (however) is contrastive. Ausserdem is additive, somit conclusive, beispielsweise exemplary.",
+      "id": "c1_10_q044"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: Ich mag Kaffee. ____ trinke ich lieber Tee.",
+      "options": [
+        "Zudem",
+        "Deshalb",
+        "Dennoch",
+        "Ausserdem"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses contrast: I like coffee, nevertheless I prefer tea. Zudem/ausserdem would add similar information, not contrast.",
+      "id": "c1_10_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein typischer Diskursmarker zur Einleitung eines Beispiels?",
+      "options": [
+        "insbesondere",
+        "schliesslich",
+        "somit",
+        "daher"
+      ],
+      "correctAnswer": "insbesondere",
+      "explanation": "Insbesondere (particularly/especially) introduces a specific example or emphasis.",
+      "id": "c1_10_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ moechte ich drei Punkte ansprechen.",
+      "options": [
+        "Zusammenfassend",
+        "Abschliessend",
+        "Einleitend",
+        "Folglich"
+      ],
+      "correctAnswer": "Einleitend",
+      "explanation": "Einleitend (introductory) signals the beginning of a list or explanation. Abschliessend would be for conclusions.",
+      "id": "c1_10_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Verwendung von Pronomen wie dieser, jener oder letzterer dient der ____.",
+      "options": [
+        "Kohaesion",
+        "Kohaerenz",
+        "Interpunktion",
+        "Redundanz"
+      ],
+      "correctAnswer": "Kohaesion",
+      "explanation": "Pronouns create explicit grammatical links (cohesion) by referring back to previously mentioned nouns.",
+      "id": "c1_10_q048"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker zeigt eine Ursache-Wirkungs-Beziehung an?",
+      "options": [
+        "obwohl",
+        "naemlich",
+        "deshalb",
+        "trotzdem"
+      ],
+      "correctAnswer": "deshalb",
+      "explanation": "Deshalb (therefore) indicates a cause-effect relationship. Obwohl = concessive, naemlich = explanatory, trotzdem = contrastive.",
+      "id": "c1_10_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: Er ist sehr reich. ____ ist er nicht gluecklich.",
+      "options": [
+        "Trotzdem",
+        "Folglich",
+        "Deswegen",
+        "Somit"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem expresses contrast between wealth and lack of happiness. Folglich/Deswegen/Somit would imply logical consequence.",
+      "id": "c1_10_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt einen kohaesionsstiftenden Pro-Form-Ausdruck (Stellvertreter)?",
+      "options": [
+        "Das Wetter ist schoen.",
+        "Peter geht ins Kino. Das freut mich.",
+        "Schnell laufen ist gesund.",
+        "Hast du Zeit?"
+      ],
+      "correctAnswer": "Peter geht ins Kino. Das freut mich.",
+      "explanation": "Das refers back to the entire previous clause, creating cohesion without repetition.",
+      "id": "c1_10_q051"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie mit einem passenden Diskursmarker: Er hat nicht gelernt. ____ hat er die Pruefung bestanden.",
+      "options": [
+        "Deshalb",
+        "Trotzdem",
+        "Ausserdem",
+        "Zudem"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Contrast: He didn't study, nevertheless he passed. Trotzdem signals concession.",
+      "id": "c1_10_q052"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Unterschied zwischen dagegen und hingegen als Diskursmarker?",
+      "options": [
+        "Kein bedeutender Unterschied, beide sind kontrastierend.",
+        "Dagegen ist kausal, hingegen temporal.",
+        "Dagegen ist umgangssprachlich, hingegen formell.",
+        "Dagegen zeigt Opposition, hingegen Vergleich."
+      ],
+      "correctAnswer": "Kein bedeutender Unterschied, beide sind kontrastierend.",
+      "explanation": "Both dagegen and hingegen are contrastive discourse markers with no significant semantic difference.",
+      "id": "c1_10_q053"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker eignet sich, um einen neuen Aspekt hinzuzufuegen?",
+      "options": [
+        "allerdings",
+        "des Weiteren",
+        "dennoch",
+        "folglich"
+      ],
+      "correctAnswer": "des Weiteren",
+      "explanation": "Des Weiteren (furthermore/moreover) adds another point. The others express contrast or consequence.",
+      "id": "c1_10_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ der hohen Kosten wurde das Projekt genehmigt.",
+      "options": [
+        "Wegen",
+        "Trotz",
+        "Aufgrund",
+        "Durch"
+      ],
+      "correctAnswer": "Trotz",
+      "explanation": "Trotz + Genitiv (Trotz der hohen Kosten) expresses concession despite high costs. Wegen/Aufgrund express cause, not contrast.",
+      "id": "c1_10_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck leitet eine Umformulierung oder Klarstellung ein?",
+      "options": [
+        "also",
+        "im Gegensatz",
+        "zudem",
+        "folglich"
+      ],
+      "correctAnswer": "also",
+      "explanation": "Also (so/thus/in other words) can introduce a reformulation or clarification of what was just said.",
+      "id": "c1_10_q056"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Textkohaesion wird durch temporale Adverbien wie ____ unterstuetzt.",
+      "options": [
+        "folglich",
+        "zunaechst",
+        "demnach",
+        "naemlich"
+      ],
+      "correctAnswer": "zunaechst",
+      "explanation": "Zunaechst (firstly/at first) is a temporal adverb organizing the sequence of information, improving cohesion.",
+      "id": "c1_10_q057"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie den passenden Diskursmarker: Das Wetter war schlecht. ____ entschieden wir uns um.",
+      "options": [
+        "Deshalb",
+        "Trotzdem",
+        "Dennoch",
+        "Allerdings"
+      ],
+      "correctAnswer": "Deshalb",
+      "explanation": "Cause-effect: The weather was bad, therefore we changed our plans. Deshalb signals logical consequence.",
+      "id": "c1_10_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher dieser Ausdruecke ist ein Diskursmarker, der eine Einschraenkung oder Bedingung signalisiert?",
+      "options": [
+        "jedenfalls",
+        "vorausgesetzt dass",
+        "insgesamt",
+        "beispielsweise"
+      ],
+      "correctAnswer": "vorausgesetzt dass",
+      "explanation": "Vorausgesetzt dass (provided that) introduces a condition/restriction.",
+      "id": "c1_10_q059"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Ich habe keine Zeit. ____, es ist schon zu spaet.",
+      "options": [
+        "Ausserdem",
+        "Deshalb",
+        "Obwohl",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem (furthermore/besides) adds another supporting argument.",
+      "id": "c1_10_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist das Ziel von Diskursmarkern in gesprochener Sprache?",
+      "options": [
+        "Den Satz zu verlangern",
+        "Die Rede zu strukturieren und Hoerer zu leiten",
+        "Die Grammatik zu vereinfachen",
+        "Den Wortschatz zu reduzieren"
+      ],
+      "correctAnswer": "Die Rede zu strukturieren und Hoerer zu leiten",
+      "explanation": "Discourse markers help organize speech, signal topic shifts, and guide the listener through the argument.",
+      "id": "c1_10_q061"
     }
   ]
 }
