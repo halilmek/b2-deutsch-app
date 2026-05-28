@@ -1,0 +1,303 @@
+{
+  "topicName": "Infinitiv- & Nebensatzkonstruktionen (C1)",
+  "subjectId": "c1_09",
+  "level": "C1",
+  "totalQuestions": 20,
+  "description": "Infinitiv- und Nebensatzkonstruktionen (C1)\n\n=== INFINTIVKONSTRUKTIONEN ===\nUm ... zu + Infinitiv: Zweck (same subject)\nOhne ... zu + Infinitiv: Verneinung einer begleitenden Handlung\nAnstatt ... zu + Infinitiv: Alternative Handlung\nZu + Adjektiv + um ... zu: Grad, der eine Handlung verhindert (zu + Adjektiv + als dass)\n\n=== DAMIT vs. UM ... ZU ===\nUm ... zu: wenn beide Saetze dasselbe Subjekt haben\nDamit: wenn die Subjekte verschieden sind\nBeispiel: Er sprach langsam, DAMIT die Zuhörer ihn verstehen. (er ≠ Zuhörer)\n\n=== NEBENSATZKONJUNKTIONEN ===\nKausal: weil, da, denn\nKonzessiv: obwohl, obgleich, obschon, wenngleich, obwhr\nTemporal: als, wenn, waehrend, bevor, nachdem, sobald, solange, seitdem\nFinal: damit, um ... zu\nKonsekutiv: sodass, so ... dass\nKonditional: wenn, falls, sofern, es sei denn\nModal: indem, dadurch dass, ohne dass\n\n=== NOMINALSTIL-TRANSFORMATIONEN ===\nDa + Nebensatz -> Wegen + Genitiv\nObwohl + Nebensatz -> Trots + Genitiv / Ungeachtet + Genitiv\nWeil + Nebensatz -> Aufgrund + Genitiv\nWenn/Sobald + Nebensatz -> Partizip I / Nominalisierung\n\n=== ALS vs. WENN (Temporal) ===\nAls: einmaliges Ereignis in der Vergangenheit\nWenn: wiederholte Ereignisse oder Zukunft/Gegenwart\n\n=== BESONDERE KONSTRUKTIONEN ===\nAls ob / als + Konjunktiv II: irrealer Vergleich\nJe ... desto: proportionale Beziehung\nOhne dass: verschiedene Subjekte\nPartizip I als absolute Konstruktion (lesend, sehend)",
+  "tips": [
+    "Um ... zu: both clauses SAME subject. Damit: different subjects.",
+    "Ohne ... zu = without -ing (same subject). Ohne dass = without anyone (different subjects)",
+    "Obwohl -> concessive contrast (obgleich, wenngleich are more formal)",
+    "Als = single past event. Wenn = repeated or present/future.",
+    "Nachdem -> Plusquamperfekt in subordinate, Perfekt in main (tense shift)",
+    "Sodass = consecutive/result clause (Folge)",
+    "Zu + Adjektiv + um ... zu = too ... to (Er ist zu müde, um zu arbeiten)",
+    "Dass and zu cannot be combined in the same clause",
+    "Nominalstil: Da -> Wegen, Obwohl -> Trots, Weil -> Aufgrund + Genitiv",
+    "Partizip I replaces simultaneous clause: täglich lesend, ist er informiert",
+    "Sofern = formal conditional (provided that), more formal than wenn",
+    "Verben mit Infinitivkonstruktion: hoffen, versuchen, planen, versprechen, empfehlen"
+  ],
+  "questions": [
+    {
+      "id": "c1_09_q001",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welche Konjunktion leitet einen Kausalsatz ein?",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "falls"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "Weil introduces a causal subordinate clause (Kausalsatz), giving the reason. Obwohl = concessive, damit = final, falls = conditional."
+    },
+    {
+      "id": "c1_09_q002",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Wandeln Sie um: Er lernt Deutsch, weil er in Deutschland arbeiten moechte. -> Infinitivkonstruktion",
+      "options": [
+        "Er lernt Deutsch, um in Deutschland zu arbeiten.",
+        "Er lernt Deutsch, damit er in Deutschland arbeitet.",
+        "Er lernt Deutsch, ohne in Deutschland zu arbeiten.",
+        "Er lernt Deutsch, anstatt in Deutschland zu arbeiten."
+      ],
+      "correctAnswer": "Er lernt Deutsch, um in Deutschland zu arbeiten.",
+      "explanation": "Same subject (er) -> um ... zu + Infinitiv. Damit would require different subjects and a conjugated verb."
+    },
+    {
+      "id": "c1_09_q003",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welche Konjunktion leitet einen Konzessivsatz (Einraeumung) ein?",
+      "options": [
+        "weil",
+        "wenn",
+        "obwohl",
+        "sodass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces a concessive clause expressing contrast. Weil = causal, wenn = conditional/temporal, sodass = consecutive."
+    },
+    {
+      "id": "c1_09_q004",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Ergaenzen Sie die richtige Infinitivkonstruktion: Sie ging, ____ sich zu verabschieden.",
+      "options": [
+        "um",
+        "ohne",
+        "anstatt",
+        "damit"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu + Infinitiv expresses absence of an accompanying action (without saying goodbye). Um = purpose, anstatt = alternative action."
+    },
+    {
+      "id": "c1_09_q005",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welche Konstruktion ist korrekt? Er arbeitet hart, ____ die Pruefung zu bestehen.",
+      "options": [
+        "damit",
+        "um",
+        "ohne",
+        "obwohl"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Um ... zu + Infinitiv expresses purpose when both clauses share the same subject. Damit requires a full subordinate clause."
+    },
+    {
+      "id": "c1_09_q006",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Wann muss damit statt um ... zu verwendet werden?",
+      "options": [
+        "Wenn beide Saetze dasselbe Subjekt haben",
+        "Wenn die Subjekte der beiden Saetze verschieden sind",
+        "Wenn das Verb ein Modalverb ist",
+        "Nur in formellen Texten"
+      ],
+      "correctAnswer": "Wenn die Subjekte der beiden Saetze verschieden sind",
+      "explanation": "Damit is required when subjects differ. E.g. Er erklaert es, damit die Studierenden es verstehen (er ≠ Studierenden)."
+    },
+    {
+      "id": "c1_09_q007",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Wandeln Sie um: Obwohl er muede war, arbeitete er weiter. -> konzessive Infinitivkonstruktion",
+      "options": [
+        "Um muede zu sein, arbeitete er weiter.",
+        "Ohne muede zu sein, arbeitete er weiter.",
+        "Trotz seiner Muedigkeit arbeitete er weiter.",
+        "Anstatt muede zu sein, arbeitete er weiter."
+      ],
+      "correctAnswer": "Trotz seiner Muedigkeit arbeitete er weiter.",
+      "explanation": "Obwohl -> Trots + Genitiv (prepositional phrase). Ohne ... zu expresses absence of action, not concession."
+    },
+    {
+      "id": "c1_09_q008",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welcher Satz verwendet anstatt ... zu korrekt?",
+      "options": [
+        "Anstatt dass er lernte, ging er ins Kino.",
+        "Er ging ins Kino, anstatt zu lernen.",
+        "Er ging ins Kino, anstatt er lernend ist.",
+        "Anstatt zu lernen dass er, ging er ins Kino."
+      ],
+      "correctAnswer": "Er ging ins Kino, anstatt zu lernen.",
+      "explanation": "Anstatt ... zu + Infinitiv when both clauses share the same subject. The infinitive follows 'zu' at the end."
+    },
+    {
+      "id": "c1_09_q009",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Ergaenzen Sie die passende Konjunktion: ____ sie das Studium abgeschlossen hatte, fand sie sofort eine Stelle.",
+      "options": [
+        "Nachdem",
+        "Bevor",
+        "Waehrend",
+        "Seitdem"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "Nachdem introduces temporal sequence where the subordinate clause is completed before the main clause. Requires tense shift: Plusquamperfekt -> Perfekt."
+    },
+    {
+      "id": "c1_09_q010",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Was ist der Unterschied zwischen als und wenn in Temporalsaetzen?",
+      "options": [
+        "Es gibt keinen Unterschied; beide sind austauschbar.",
+        "Als wird fuer einmalige Ereignisse in der Vergangenheit verwendet; wenn fuer wiederholte oder zukuenftige Ereignisse.",
+        "Wenn wird nur in der Vergangenheit verwendet; als fuer die Zukunft.",
+        "Als leitet Konditionalsaetze ein; wenn leitet Temporalsaetze ein."
+      ],
+      "correctAnswer": "Als wird fuer einmalige Ereignisse in der Vergangenheit verwendet; wenn fuer wiederholte oder zukuenftige Ereignisse.",
+      "explanation": "Als = single unique past event. Wenn = repeated past or any future/present event. Classic C1 grammar distinction."
+    },
+    {
+      "id": "c1_09_q011",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Wandeln Sie um: Sie arbeitet sehr viel, sodass sie kaum Zeit fuer Familie hat. -> Infinitivkonstruktion oder Nominalphrase",
+      "options": [
+        "Sie arbeitet sehr viel, um kaum Zeit fuer die Familie zu haben.",
+        "Sie arbeitet so viel, ohne Zeit fuer die Familie zu haben.",
+        "Sie arbeitet sehr viel, was dazu fuehrt, dass sie kaum Zeit fuer die Familie hat.",
+        "Infolge ihrer intensiven Arbeit hat sie kaum Zeit fuer die Familie."
+      ],
+      "correctAnswer": "Infolge ihrer intensiven Arbeit hat sie kaum Zeit fuer die Familie.",
+      "explanation": "Sodass consecutive clause -> Infolge + Genitiv (Nominalstil). Um ... zu expresses purpose not result."
+    },
+    {
+      "id": "c1_09_q012",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welche Konjunktion leitet einen Konditionalsatz ein und ist formeller als wenn?",
+      "options": [
+        "obwohl",
+        "sofern",
+        "nachdem",
+        "sodass"
+      ],
+      "correctAnswer": "sofern",
+      "explanation": "Sofern (provided that/as long as) is more formal than wenn and commonly used in legal, academic, and official texts."
+    },
+    {
+      "id": "c1_09_q013",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Ergaenzen Sie: Er bestand die Pruefung, ____ er kaum gelernt hatte. (konzessiv / adversativ)",
+      "options": [
+        "weil",
+        "obwohl",
+        "sodass",
+        "nachdem"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl concessive: despite barely studying, he passed. Weil = reason, sodass = consequence, nachdem = temporal."
+    },
+    {
+      "id": "c1_09_q014",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welche Infinitivkonstruktion ersetzt korrekt: Er ist so beschaeftigt, dass er sich nicht melden kann.",
+      "options": [
+        "Er ist zu beschaeftigt, um sich zu melden.",
+        "Er ist beschaeftigt, ohne sich zu melden.",
+        "Er ist beschaeftigt, anstatt sich zu melden.",
+        "Er ist beschaeftigt, damit er sich nicht meldet."
+      ],
+      "correctAnswer": "Er ist zu beschaeftigt, um sich zu melden.",
+      "explanation": "So + Adjektiv + dass -> Zu + Adjektiv + um ... zu. Expresses too ... to: He is too busy to get in touch."
+    },
+    {
+      "id": "c1_09_q015",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Wandeln Sie um: Wenn man taeglich liest, verbessert man seinen Wortschatz. -> ohne man",
+      "options": [
+        "Taegliches Lesen verbessert den Wortschatz.",
+        "Um taeglich zu lesen, verbessert man den Wortschatz.",
+        "Ohne taeglich zu lesen, verbessert man den Wortschatz.",
+        "Nachdem man taeglich liest, verbessert man den Wortschatz."
+      ],
+      "correctAnswer": "Taegliches Lesen verbessert den Wortschatz.",
+      "explanation": "Impersonal 'man' clause -> nominalized infinitive as subject. Classic Nominalstil transformation."
+    },
+    {
+      "id": "c1_09_q016",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welcher Satz ist grammatisch korrekt?",
+      "options": [
+        "Er hofft, dass er die Stelle zu bekommen.",
+        "Er hofft, die Stelle zu bekommen.",
+        "Er hofft, um die Stelle zu bekommen.",
+        "Er hofft, ohne die Stelle zu bekommen."
+      ],
+      "correctAnswer": "Er hofft, die Stelle zu bekommen.",
+      "explanation": "Verbs like hoffen, versuchen, planen take zu + Infinitiv (same subject). Kein dass no conjunction needed."
+    },
+    {
+      "id": "c1_09_q017",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Wandeln Sie vollstaendig um: Da das Projekt fehlgeschlagen war, musste das Team neu anfangen. -> Nominalphrase mit Praeposition",
+      "options": [
+        "Wegen des Scheiterns des Projekts musste das Team neu anfangen.",
+        "Obwohl das Projekt fehlgeschlagen war, musste das Team neu anfangen.",
+        "Das Projekt war gescheitert, sodass das Team neu anfangen musste.",
+        "Um das Projekt zu retten, musste das Team neu anfangen."
+      ],
+      "correctAnswer": "Wegen des Scheiterns des Projekts musste das Team neu anfangen.",
+      "explanation": "Da + causal -> Wegen + Genitiv. Scheitern nominalized in genitive. Classic Nominalstil transformation."
+    },
+    {
+      "id": "c1_09_q018",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welche Aussage zu ohne dass vs. ohne ... zu ist FALSCH?",
+      "options": [
+        "Ohne dass wird verwendet, wenn die Subjekte beider Saetze verschieden sind.",
+        "Ohne ... zu erfordert dasselbe Subjekt in beiden Saetzen.",
+        "Ohne ... zu und ohne dass sind immer austauschbar.",
+        "Ohne dass enthaelt ein konjugiertes Verb im Nebensatz."
+      ],
+      "correctAnswer": "Ohne ... zu und ohne dass sind immer austauschbar.",
+      "explanation": "Ohne ... zu = same subject only. Ohne dass = different subjects. They are NOT always interchangeable."
+    },
+    {
+      "id": "c1_09_q019",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Formen Sie um: Er liest taeglich Zeitung, sodass er immer gut informiert ist. -> adversative/konsekutive Konstruktion mit Partizip",
+      "options": [
+        "Taeglich Zeitung lesend, ist er immer gut informiert.",
+        "Um taeglich Zeitung zu lesen, ist er gut informiert.",
+        "Obwohl er taeglich Zeitung liest, ist er gut informiert.",
+        "Nachdem er taeglich Zeitung gelesen hat, ist er gut informiert."
+      ],
+      "correctAnswer": "Taeglich Zeitung lesend, ist er immer gut informiert.",
+      "explanation": "Partizip I (lesend) replaces simultaneous/consecutive clause as absolute construction. Literary/formal C1 device."
+    },
+    {
+      "id": "c1_09_q020",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welcher Satz enthaelt einen FEHLER in der Infinitiv- oder Nebensatzkonstruktion?",
+      "options": [
+        "Sie bat ihn, ihr beim Umzug zu helfen.",
+        "Er versprach, punktlich zu kommen.",
+        "Wir freuen uns darauf, euch bald zu sehen.",
+        "Er empfahl ihr, dass sie das Buch zu lesen."
+      ],
+      "correctAnswer": "Er empfahl ihr, dass sie das Buch zu lesen.",
+      "explanation": "Dass and zu + Infinitiv cannot be combined. Either use dass + conjugated verb OR zu + Infinitiv. Mixing both is ungrammatical."
+    }
+  ]
+}
