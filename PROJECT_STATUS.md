@@ -197,10 +197,10 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 7 | c1_07 | Wortbildung: Komposita & Derivation | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
 | 8 | c1_08 | Konnektoren & Satzverknüpfung (C1) | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
 | 9 | c1_09 | Infinitiv- & Nebensatzkonstruktionen (C1) | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
-| 10 | c1_10 | Textkohaesion & Diskursmarker (C1) | 20 | 🔄 In Progress (q001–q020 added 2026-05-28) |
+| 10 | c1_10 | Textkohaesion & Diskursmarker (C1) | 40 | 🔄 In Progress (q001–q040 added 2026-05-28) |
  (q001–q100 added 2026-05-28) |
 
-**C1 Total: 967 questions (target: 2,000)**
+**C1 Total: 987 questions (target: 2,000)**
 
 ---
 
