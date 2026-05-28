@@ -255,7 +255,8 @@ class QuizResultFragment : Fragment() {
             "c1_01" to "Nominalstil & Verbalstil",
             "c1_02" to "Indirekte Rede & Konjunktiv I",
             "c1_03" to "Passiversatzformen",
-            "c1_04" to "Funktionsverbgefüge"
+            "c1_04" to "Funktionsverbgefüge",
+            "c1_05" to "Partizipialattribute & Relativsatzformen"
         )
         return titles[subjectId] ?: subjectId.uppercase()
     }
