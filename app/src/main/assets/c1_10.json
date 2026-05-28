@@ -2,7 +2,7 @@
   "topicName": "Textkohäsion & Diskursmarker (C1)",
   "subjectId": "c1_10",
   "level": "C1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "Textkohaesion & Diskursmarker (C1)\n\n=== TEXTKOHÄTION vs. TEXTKOHÄRENZ ===\nTextkohaesion: grammatische und sprachliche Mittel, die einen Text formal zusammenhalten\n(Pronomen, Konnektoren, Konjunktionen, lexikalische Wiederholung)\nTextkohaerenz: logische und semantische Einheit der Bedeutungsstruktur\n\n=== DISKURSMARKER-TYPEN ===\n\nKAUSAL (Folge/Ergebnis):\n- Deshalb, daher, folglich, infolgedessen, demnach, somit\n- Position 1 -> Verb in Position 2 (V2)\n- Saetze: Das Wetter war schlecht; deshalb blieben wir zu Hause.\n\nKONZESSIV (Gegensatz / Trotz):\n- Obwohl, obgleich, wenngleich (formell), obschon\n- Trotzdem, dennoch, allerdings, nichtsdestotrotz, gleichwohl, nichtsdestoweniger\n- Jedoch, hingegen (direkter Gegensatz)\n- Zwar ... aber (konzessives Muster)\n\nADDITIV (Hinzufuegung):\n- Ausserdem, zudem, ueberdies, darueber hinaus, ferner\n\nEXPLANATIV (Erklaerung):\n- Naemlich (steht NACH dem Verb, NICHT am Satzanfang!)\n\nTEMPORAL-STRUKTURELL (Ordnung):\n- Zunaechst, zuerst, erstens, anschliessend, dann, schliesslich, abschliessend\n\nKONTRASTIV-ADVERSATIV:\n- Einerseits ... andererseits (parallele Gegenueberstellung)\n- Wohingegen, wogegen, waehrend\n\n=== ANAPHORISCHE VERWEISE ===\n- Dieser, diese, dieses, jener, letztere\n- Letztere verweist auf das zuletzt genannte Nomen (anaphorisch)\n- Beispiel: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung.\n\n=== WICHTIGE REGELN ===\n- Naemlich: IMMER nach dem Verb, nie am Satzanfang\n- Zwar ... aber: zuerst z.B. Zwar hat er keine Erfahrung, aber er lernt schnell\n- Deshalb/Folglich: Position 1 -> V2\n- Jedoch/trotzdem: Position 1 -> V2\n- Jedoch: direkter Gegensatz; Trotzdem: trotz Bedingung/Erwartung\n- Folglich = formeller als deshalb; streng logische Schlussfolgerung\n- Also = umgangssprachlicher; kann auch zusammenfassen\n- Nichtsdestoweniger = gehobener als trotzdem (akademisch)",
   "tips": [
     "Textkohaesion = formale Verbindungsmittel; Textkohaerenz = logische Bedeutungsstruktur",
@@ -298,6 +298,286 @@
       ],
       "correctAnswer": "Naemlich hat er den Vertrag unterschrieben, bevor er ihn las.",
       "explanation": "Naemlich cannot stand at the beginning of a sentence — it must follow the conjugated verb: Er hat naemlich den Vertrag unterschrieben.... This is a very common error."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse waren ueberzeugend. ____ wurde das Projekt genehmigt.",
+      "options": [
+        "Daher",
+        "Dennoch",
+        "Obwohl",
+        "Waehrend"
+      ],
+      "correctAnswer": "Daher",
+      "explanation": "Daher expresses consequence/result.",
+      "id": "c1_10_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hatte wenig Erfahrung. ____ meisterte er die Aufgabe erfolgreich.",
+      "options": [
+        "Trotzdem",
+        "Deshalb",
+        "Ausserdem",
+        "Sodass"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem introduces contrast despite limited experience.",
+      "id": "c1_10_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Nachfrage steigt kontinuierlich. ____ plant das Unternehmen eine Erweiterung.",
+      "options": [
+        "Deshalb",
+        "Allerdings",
+        "Dennoch",
+        "Waehrenddessen"
+      ],
+      "correctAnswer": "Deshalb",
+      "explanation": "Deshalb expresses cause and effect (steigende Nachfrage -> Erweiterung).",
+      "id": "c1_10_q023"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Studie liefert interessante Ergebnisse. ____ sind weitere Untersuchungen notwendig.",
+      "options": [
+        "Dennoch",
+        "Daher",
+        "Zusaetzlich",
+        "Naemlich"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch introduces a contrast or limitation despite interesting results.",
+      "id": "c1_10_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Viele Teilnehmer erschienen verspaetet. ____ begann die Veranstaltung punktlich.",
+      "options": [
+        "Trotzdem",
+        "Deshalb",
+        "Ausserdem",
+        "Somit"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem indicates contrast to expectations (late arrivals but started on time).",
+      "id": "c1_10_q025"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Kosten wurden gesenkt. ____ konnte der Gewinn gesteigert werden.",
+      "options": [
+        "Dadurch",
+        "Allerdings",
+        "Trotzdem",
+        "Zwar"
+      ],
+      "correctAnswer": "Dadurch",
+      "explanation": "Dadurch expresses the result of a previous action (cost reduction -> profit increase).",
+      "id": "c1_10_q026"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er spricht mehrere Fremdsprachen. ____ hat er internationale Erfahrung.",
+      "options": [
+        "Ausserdem",
+        "Dennoch",
+        "Folglich",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem adds additional supporting information.",
+      "id": "c1_10_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Daten waren unvollstaendig. ____ konnte keine eindeutige Analyse durchgefuehrt werden.",
+      "options": [
+        "Folglich",
+        "Dennoch",
+        "Zusaetzlich",
+        "Einerseits"
+      ],
+      "correctAnswer": "Folglich",
+      "explanation": "Folglich introduces a logical consequence (incomplete data -> no clear analysis).",
+      "id": "c1_10_q028"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Situation ist kompliziert. ____ muessen wir schnell handeln.",
+      "options": [
+        "Dennoch",
+        "Ausserdem",
+        "Naemlich",
+        "Ebenso"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses contrast between complexity and urgency of action.",
+      "id": "c1_10_q029"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Unterlagen vergessen. ____ musste der Termin verschoben werden.",
+      "options": [
+        "Deshalb",
+        "Trotzdem",
+        "Allerdings",
+        "Waehrenddessen"
+      ],
+      "correctAnswer": "Deshalb",
+      "explanation": "Deshalb expresses a direct consequence (forgot documents -> rescheduled).",
+      "id": "c1_10_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Nachfrage sinkt. ____ bleibt das Unternehmen optimistisch.",
+      "options": [
+        "Dennoch",
+        "Daher",
+        "Somit",
+        "Ausserdem"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch introduces an unexpected contrast (sinking demand but optimistic).",
+      "id": "c1_10_q031"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forschungsergebnisse sind vielversprechend. ____ koennten neue Therapien entwickelt werden.",
+      "options": [
+        "Dadurch",
+        "Trotzdem",
+        "Allerdings",
+        "Naemlich"
+      ],
+      "correctAnswer": "Dadurch",
+      "explanation": "Dadurch links cause (promising results) with possible result (new therapies).",
+      "id": "c1_10_q032"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Praesentation war informativ. ____ war sie gut strukturiert.",
+      "options": [
+        "Ausserdem",
+        "Dennoch",
+        "Folglich",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem adds another positive aspect (informative AND well-structured).",
+      "id": "c1_10_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Produktionskosten steigen. ____ muessen Einsparungen vorgenommen werden.",
+      "options": [
+        "Daher",
+        "Trotzdem",
+        "Ebenso",
+        "Allerdings"
+      ],
+      "correctAnswer": "Daher",
+      "explanation": "Daher expresses logical consequence (rising costs -> savings needed).",
+      "id": "c1_10_q034"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er war schlecht vorbereitet. ____ bestand er die Pruefung.",
+      "options": [
+        "Trotzdem",
+        "Deshalb",
+        "Somit",
+        "Naemlich"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem signals an unexpected outcome (poor preparation but passed).",
+      "id": "c1_10_q035"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Analyse war sehr komplex. ____ dauerte sie mehrere Wochen.",
+      "options": [
+        "Daher",
+        "Dennoch",
+        "Zusaetzlich",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Daher",
+      "explanation": "Daher links complexity with the long duration (consequence).",
+      "id": "c1_10_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen expandiert international. ____ werden neue Mitarbeiter eingestellt.",
+      "options": [
+        "Ausserdem",
+        "Folglich",
+        "Trotzdem",
+        "Allerdings"
+      ],
+      "correctAnswer": "Folglich",
+      "explanation": "Folglich introduces a logical consequence (international expansion -> hiring).",
+      "id": "c1_10_q037"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse sind nicht eindeutig. ____ laesst sich keine sichere Schlussfolgerung ziehen.",
+      "options": [
+        "Daher",
+        "Ausserdem",
+        "Dennoch",
+        "Ebenso"
+      ],
+      "correctAnswer": "Daher",
+      "explanation": "Daher expresses consequence based on unclear results.",
+      "id": "c1_10_q038"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er verfuegt ueber umfangreiche Erfahrung. ____ kennt er den internationalen Markt sehr gut.",
+      "options": [
+        "Ausserdem",
+        "Dennoch",
+        "Trotzdem",
+        "Somit"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem adds supporting information (experience AND knows the market).",
+      "id": "c1_10_q039"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die technischen Probleme waren erheblich. ____ konnte das System repariert werden.",
+      "options": [
+        "Dennoch",
+        "Deshalb",
+        "Ausserdem",
+        "Folglich"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses contrast between difficulty (serious problems) and successful repair.",
+      "id": "c1_10_q040"
     }
   ]
 }
