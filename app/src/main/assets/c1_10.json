@@ -2,7 +2,7 @@
   "topicName": "Textkohäsion & Diskursmarker (C1)",
   "subjectId": "c1_10",
   "level": "C1",
-  "totalQuestions": 81,
+  "totalQuestions": 101,
   "description": "Textkohaesion & Diskursmarker (C1)\n\n=== TEXTKOHÄTION vs. TEXTKOHÄRENZ ===\nTextkohaesion: grammatische und sprachliche Mittel, die einen Text formal zusammenhalten\n(Pronomen, Konnektoren, Konjunktionen, lexikalische Wiederholung)\nTextkohaerenz: logische und semantische Einheit der Bedeutungsstruktur\n\n=== DISKURSMARKER-TYPEN ===\n\nKAUSAL (Folge/Ergebnis):\n- Deshalb, daher, folglich, infolgedessen, demnach, somit\n- Position 1 -> Verb in Position 2 (V2)\n- Saetze: Das Wetter war schlecht; deshalb blieben wir zu Hause.\n\nKONZESSIV (Gegensatz / Trotz):\n- Obwohl, obgleich, wenngleich (formell), obschon\n- Trotzdem, dennoch, allerdings, nichtsdestotrotz, gleichwohl, nichtsdestoweniger\n- Jedoch, hingegen (direkter Gegensatz)\n- Zwar ... aber (konzessives Muster)\n\nADDITIV (Hinzufuegung):\n- Ausserdem, zudem, ueberdies, darueber hinaus, ferner\n\nEXPLANATIV (Erklaerung):\n- Naemlich (steht NACH dem Verb, NICHT am Satzanfang!)\n\nTEMPORAL-STRUKTURELL (Ordnung):\n- Zunaechst, zuerst, erstens, anschliessend, dann, schliesslich, abschliessend\n\nKONTRASTIV-ADVERSATIV:\n- Einerseits ... andererseits (parallele Gegenueberstellung)\n- Wohingegen, wogegen, waehrend\n\n=== ANAPHORISCHE VERWEISE ===\n- Dieser, diese, dieses, jener, letztere\n- Letztere verweist auf das zuletzt genannte Nomen (anaphorisch)\n- Beispiel: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung.\n\n=== WICHTIGE REGELN ===\n- Naemlich: IMMER nach dem Verb, nie am Satzanfang\n- Zwar ... aber: zuerst z.B. Zwar hat er keine Erfahrung, aber er lernt schnell\n- Deshalb/Folglich: Position 1 -> V2\n- Jedoch/trotzdem: Position 1 -> V2\n- Jedoch: direkter Gegensatz; Trotzdem: trotz Bedingung/Erwartung\n- Folglich = formeller als deshalb; streng logische Schlussfolgerung\n- Also = umgangssprachlicher; kann auch zusammenfassen\n- Nichtsdestoweniger = gehobener als trotzdem (akademisch)",
   "tips": [
     "Textkohaesion = formale Verbindungsmittel; Textkohaerenz = logische Bedeutungsstruktur",
@@ -1152,6 +1152,286 @@
       "correctAnswer": "um",
       "explanation": "Um ... zu + Infinitiv expresses the goal/intention of the identical subject (Belegschaft ... zu verhindern).",
       "id": "c1_10_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker leitet typischerweise eine zusammenfassende Aussage ein?",
+      "options": [
+        "Zusammenfassend laesst sich festhalten, dass...",
+        "Im Gegensatz dazu...",
+        "Darueber hinaus...",
+        "Angesichts der Tatsache, dass..."
+      ],
+      "correctAnswer": "Zusammenfassend laesst sich festhalten, dass...",
+      "explanation": "This phrase is a standard metacommunicative marker signaling conclusion or summary in academic/formal texts.",
+      "id": "c1_10_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Pronomen dient der Textkohaesion durch Rueckverweis im Satz: Die Studie wurde 2023 veroeffentlicht. ____ Ergebnisse sind bahnbrechend.",
+      "options": [
+        "Diese",
+        "Jene",
+        "Solche",
+        "Welche"
+      ],
+      "correctAnswer": "Diese",
+      "explanation": "Demonstrative pronouns like diese create cohesion by referring back to previously mentioned entities (die Studie). Anaphoric reference is fundamental for C1 text coherence.",
+      "id": "c1_10_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck markiert einen argumentativen Gegensatz auf Diskursebene?",
+      "options": [
+        "allerdings",
+        "und",
+        "sodass",
+        "beispielsweise"
+      ],
+      "correctAnswer": "allerdings",
+      "explanation": "Allerdings functions as an adversative discourse marker, introducing a concession or counterpoint. Unlike coordinating aber, it occupies position 1 or 3 requiring V2.",
+      "id": "c1_10_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie den kohaesiven Marker: Die Massnahme war kostspielig. ____, erwies sie sich als effektiv.",
+      "options": [
+        "Dennoch",
+        "Folglich",
+        "Beispielsweise",
+        "Zunaechst"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses concessive cohesion, linking two clauses where the second contradicts an expectation. Essential for nuanced C1 argumentation.",
+      "id": "c1_10_q085"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker kuenndigt eine Praezisierung oder Erlaeuterung an?",
+      "options": [
+        "Genauer gesagt...",
+        "Im Grossen und Ganzen...",
+        "Letztendlich...",
+        "Grob vereinfacht..."
+      ],
+      "correctAnswer": "Genauer gesagt...",
+      "explanation": "This phrase signals elaboration or specification, guiding the reader to expect more detailed information. Metadiscursive cues are crucial for C1 reading and writing.",
+      "id": "c1_10_q086"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Substitutionsmittel foerdert die Textkohaesion, indem es Wiederholungen vermeidet?",
+      "options": [
+        "Synonyme (z.B. Fahrzeug statt Auto)",
+        "Identische Lexeme in jedem Satz",
+        "Ausschliessliche Verwendung von Pronomen",
+        "Vermeidung aller Referenzausdruecke"
+      ],
+      "correctAnswer": "Synonyme (z.B. Fahrzeug statt Auto)",
+      "explanation": "Lexical substitution using synonyms maintains reference while enhancing stylistic variety. Key C1 cohesion strategy to avoid monotony.",
+      "id": "c1_10_q087"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker leitet eine argumentative Steigerung ein?",
+      "options": [
+        "Darueber hinaus...",
+        "Im Gegensatz dazu...",
+        "Zusammenfassend...",
+        "Beispielsweise..."
+      ],
+      "correctAnswer": "Darueber hinaus...",
+      "explanation": "Darueber hinaus adds information of equal or greater weight, functioning as an additive discourse marker. Signals cumulative argumentation for complex positions.",
+      "id": "c1_10_q088"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie wird im Deutschen typischerweise ein neuer Textabschnitt eingeleitet, der eine Gegenposition einfuehrt?",
+      "options": [
+        "Einerseits muss bedacht werden, dass...",
+        "Zunaechst ist festzuhalten, dass...",
+        "Abschliessend laesst sich sagen, dass...",
+        "Im Folgenden wird erlaeutert, dass..."
+      ],
+      "correctAnswer": "Einerseits muss bedacht werden, dass...",
+      "explanation": "This phrase introduces one side of a dialectical argument, often paired with andererseits. Characteristic of balanced C1 argumentative texts.",
+      "id": "c1_10_q089"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker signalisiert eine logische Schlussfolgerung?",
+      "options": [
+        "Folglich",
+        "Beispielsweise",
+        "Vermoeglich",
+        "Gleichwohl"
+      ],
+      "correctAnswer": "Folglich",
+      "explanation": "Folglich is a formal inferential connector indicating that the following statement is a logical consequence of preceding arguments.",
+      "id": "c1_10_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie kohaesiv korrekt: Die Daten wurden erhoben. ____, erfolgte die statistische Auswertung.",
+      "options": [
+        "Anschliessend",
+        "Obwohl",
+        "Indem",
+        "Damit"
+      ],
+      "correctAnswer": "Anschliessend",
+      "explanation": "Temporal adverbs like anschliessend create chronological cohesion in procedural texts, guiding the reader through sequential steps.",
+      "id": "c1_10_q091"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck dient der expliziten Strukturierung eines laengeren Arguments?",
+      "options": [
+        "Zum einen ... zum anderen ...",
+        "Hin und wieder ...",
+        "Ab und zu ...",
+        "Mehr oder weniger ..."
+      ],
+      "correctAnswer": "Zum einen ... zum anderen ...",
+      "explanation": "This correlative discourse marker explicitly signals a two-part argument structure, enhancing text transparency.",
+      "id": "c1_10_q092"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Funktion hat der Marker indes im akademischen Diskurs?",
+      "options": [
+        "Er leitet eine einschraenkende oder kontrastierende Aussage ein.",
+        "Er druckt eine zeitliche Gleichzeitigkeit aus.",
+        "Er markiert eine abschliessende Bewertung.",
+        "Er kuenndigt ein Beispiel an."
+      ],
+      "correctAnswer": "Er leitet eine einschraenkende oder kontrastierende Aussage ein.",
+      "explanation": "Indes is a formal concessive/adversative marker meaning however/nevertheless. Register-appropriate use signals C1-level stylistic competence.",
+      "id": "c1_10_q093"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker ist am geeignetsten, um eine hypothetische Alternative im Diskurs einzufuehren?",
+      "options": [
+        "Angenommen, ...",
+        "Tatsaechlich, ...",
+        "Offensichtlich, ...",
+        "Zweifellos, ..."
+      ],
+      "correctAnswer": "Angenommen, ...",
+      "explanation": "Angenommen explicitly frames a hypothetical scenario for argumentative exploration. Crucial for C1-level counterfactual reasoning in essays.",
+      "id": "c1_10_q094"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Kohaesionsstrategie wird im Satz angewendet? Die neue Richtlinie wurde kritisiert. Diese Kritik war jedoch unbegruendet.",
+      "options": [
+        "Anaphorische Referenz mit Demonstrativpronomen",
+        "Kataphorische Referenz mit Relativpronomen",
+        "Elliptische Auslassung des Subjekts",
+        "Lexikalische Wiederholung ohne Variation"
+      ],
+      "correctAnswer": "Anaphorische Referenz mit Demonstrativpronomen",
+      "explanation": "Diese refers back to Kritik, creating anaphoric cohesion. Mastering such reference chains is essential for C1 textual coherence.",
+      "id": "c1_10_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker signalisiert eine argumentative Korrektur oder Praezisierung einer vorherigen Aussage?",
+      "options": [
+        "Vielmehr",
+        "Beispielsweise",
+        "Folglich",
+        "Zunaechst"
+      ],
+      "correctAnswer": "Vielmehr",
+      "explanation": "Vielmehr explicitly corrects or refines a preceding statement, signaling a logical pivot. Demonstrates advanced argumentative control expected in C1 writing.",
+      "id": "c1_10_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie wird im formalen Diskurs typischerweise ein Perspektivenwechsel markiert?",
+      "options": [
+        "Aus der Perspektive der Betroffenen betrachtet, ...",
+        "Man koennte meinen, dass ...",
+        "Es ist allgemein bekannt, dass ...",
+        "Zugegebenermassen ..."
+      ],
+      "correctAnswer": "Aus der Perspektive der Betroffenen betrachtet, ...",
+      "explanation": "This phrase explicitly signals a shift in viewpoint, a sophisticated discourse strategy for balanced argumentation demonstrating multi-perspective analysis.",
+      "id": "c1_10_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck dient der expliziten Markierung einer Argumentationsluecke oder Einschraenkung?",
+      "options": [
+        "Soweit ersichtlich, ...",
+        "Ohne Zweifel, ...",
+        "Zweifellos, ...",
+        "Selbstverstaendlich, ..."
+      ],
+      "correctAnswer": "Soweit ersichtlich, ...",
+      "explanation": "This hedging phrase acknowledges epistemic limitations, enhancing academic credibility. Strategic use of caution markers reflects C1 pragmatic competence.",
+      "id": "c1_10_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Kohaesionsstrategie verbindet diese Saetze am elegantesten? Die Studie hat methodische Schwaechen. Ihre Ergebnisse sind dennoch relevant.",
+      "options": [
+        "Trotz methodischer Schwaechen der Studie sind ihre Ergebnisse dennoch relevant.",
+        "Die Studie hat methodische Schwaechen, und ihre Ergebnisse sind relevant.",
+        "Weil die Studie methodische Schwaechen hat, sind ihre Ergebnisse relevant.",
+        "Die Studie hat methodische Schwaechen; ihre Ergebnisse sind relevant."
+      ],
+      "correctAnswer": "Trotz methodischer Schwaechen der Studie sind ihre Ergebnisse dennoch relevant.",
+      "explanation": "Trotz + Genitiv condenses two clauses into one, creating denser formal syntax. Syntactic integration is a hallmark of C1 textual sophistication.",
+      "id": "c1_10_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker ist im wissenschaftlichen Register am angemessensten, um eine vorlaeufige Schlussfolgerung einzuleiten?",
+      "options": [
+        "Vorlaeufig laesst sich festhalten, dass...",
+        "Auf jeden Fall ist klar, dass...",
+        "Es steht ausser Frage, dass...",
+        "Jeder weiss, dass..."
+      ],
+      "correctAnswer": "Vorlaeufig laesst sich festhalten, dass...",
+      "explanation": "Combines epistemic caution (vorlaeufig) with formal framing (laesst sich festhalten), reflecting academic humility and precision.",
+      "id": "c1_10_q100"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie demonstriert fortgeschrittene Kompetenz in der Verwendung von Diskursmarkern auf C1-Niveau?",
+      "options": [
+        "Ausschliessliche Verwendung einfacher Konnektoren wie und, aber, dann.",
+        "Gezielte Variation zwischen additiven, adversativen, kausalen und metakommunikativen Markern je nach argumentativer Funktion und Register.",
+        "Vermeidung aller Diskursmarker zugunsten impliziter Verknuepfung.",
+        "Nutzung nur der Marker, die in der Muttersprache des Lernenden existieren."
+      ],
+      "correctAnswer": "Gezielte Variation zwischen additiven, adversativen, kausalen und metakommunikativen Markern je nach argumentativer Funktion und Register.",
+      "explanation": "C1 proficiency includes pragmatic flexibility: selecting discourse markers not just for grammatical correctness but for rhetorical effect.",
+      "id": "c1_10_q101"
     }
   ]
 }
