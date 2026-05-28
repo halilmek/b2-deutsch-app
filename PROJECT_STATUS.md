@@ -194,8 +194,9 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | 4 | c1_04 | Funktionsverbgefüge | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
 | 5 | c1_05 | Partizipialattribute & Relativsatzformen | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
 | 6 | c1_06 | Modalverben im C1-Kontext | 100 | ✅ Complete (q001–q100 added 2026-05-28) |
+| 7 | c1_07 | Wortbildung: Komposita & Derivation | 60 | 🔄 In Progress (q001–q060 added 2026-05-28) |
 
-**C1 Total: 647 questions (target: 2,000)**
+**C1 Total: 707 questions (target: 2,000)**
 
 ---
 
