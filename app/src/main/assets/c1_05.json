@@ -3,7 +3,7 @@
   "subjectId": "c1_05",
   "topicName": "Partizipialattribute & Relativsatzformen",
   "level": "C1",
-  "totalQuestions": 40,
+  "totalQuestions": 60,
   "description": "Partizipialattribute und Relativsatzformen — At C1 level, one of the most effective ways to condense text, increase nominal complexity, and demonstrate academic writing competence is converting Relativsatze (relative clauses) into Partizipialattribute (extended participial attributes), and vice versa. The core choice between Partizip I and Partizip II depends on voice and temporality: Partizip I (Infinitive + -d) = active voice AND simultaneous action (Gleichzeitigkeit). Partizip II = (1) passive voice AND completed action for transitive verbs, or (2) active voice AND completed action ONLY for intransitive verbs forming their perfect with sein (e.g., ankommen, fallen, sterben). Advanced C1 structures include: Das Gerundiv (zu + Partizip I) replacing 'mussen/konnen + Passiv' to express necessity or possibility; and Partizip II + habend/seiend for active past completion where regular Partizip I would wrongly imply present time. Extended attributes follow a strict bracket structure: [Article + ALL modifiers (prepositions, adverbs, objects) + Participle with adjective ending + Noun]. Case rules for internal prepositional phrases must be preserved inside the attribute.",
   "tips": [
     "Partizip I vs. Partizip II: Partizip I (laufend) = active, simultaneous. Partizip II (gelaufen/geschrieben) = passive+completed OR active+completed with sein-verbs (ankommen, sterben, fallen). Choice determines meaning — wrong participle = wrong grammar.",
@@ -575,6 +575,286 @@
       "correctAnswer": "noch zu beruecksichtigenden",
       "explanation": "The phrase expresses future necessity ('factors that still need to be considered'), requiring 'zu + Partizip I' with passive meaning. 'Beruecksichtigenden' takes the ending '-en' for plural nominative after 'die'. The adverb 'noch' correctly precedes the infinitive construction.",
       "id": "c1_05_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Verwandeln Sie den Relativsatz in ein Partizipialattribut: 'Die Firma stellt Mitarbeiter ein, die fliessend Deutsch sprechen.' -> 'Die Firma stellt ____ Mitarbeiter ein.'",
+      "options": [
+        "fliessend Deutsch sprechenden",
+        "fliessend Deutsch gesprochene",
+        "fliessend Deutsch sprechende",
+        "Deutsch fliessend gesprochenen"
+      ],
+      "correctAnswer": "fliessend Deutsch sprechende",
+      "explanation": "The action is active and simultaneous, requiring Partizip I ('sprechend'). Since 'Mitarbeiter' is plural accusative with no article following the verb 'einstellen', the adjective/participle ending must be '-e'.",
+      "id": "c1_05_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Partizipialattribut (Passiv/Vorzeitigkeit): 'Das Gesetz, das im vergangenen Jahr ____ wurde, trat heute in Kraft.' -> 'Das im vergangenen Jahr ____ Gesetz trat heute in Kraft.'",
+      "options": [
+        "beschlossene",
+        "beschliesend",
+        "beschlossener",
+        "zu beschliessende"
+      ],
+      "correctAnswer": "beschlossene",
+      "explanation": "The relative clause is passive and completed in the past (vorzeitig). This requires Partizip II ('beschlossen'). It modifies 'Gesetz' (neuter singular nominative with the definite article 'das'), so the weak adjective ending is '-e'.",
+      "id": "c1_05_q042"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die richtige Form des erweiterten Partizipialattributs: Die ____ Massnahmen fuehrten schliesslich zum Erfolg.",
+      "options": [
+        "von der Regierung getroffenen",
+        "von der Regierung treffenden",
+        "durch die Regierung getroffen",
+        "von die Regierung getroffene"
+      ],
+      "correctAnswer": "von der Regierung getroffenen",
+      "explanation": "The relative clause equivalent would be 'Die Massnahmen, die von der Regierung getroffen wurden...'. Passive completion requires Partizip II ('getroffen'). Preposition 'von' requires dative ('der Regierung'). Plural nominative with definite article 'die' requires the adjective ending '-en'.",
+      "id": "c1_05_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie den Relativsatz durch ein Gerundiv (passive Noetwendigkeit): 'Projekte, die noch finanziert werden muessen, erhalten Vorrang.' -> '____ Projekte erhalten Vorrang.'",
+      "options": [
+        "Noch zu finanzierende",
+        "Noch finanzierte",
+        "Noch zu finanzierenden",
+        "Noch finanzierende"
+      ],
+      "correctAnswer": "Noch zu finanzierende",
+      "explanation": "Passive necessity ('muessen ... werden') is expressed via the Gerundiv ('zu' + Partizip I). 'Projekte' is plural nominative with no article, which triggers the strong adjective ending '-e'.",
+      "id": "c1_05_q044"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt? 'Der Professor lobte den Studenten, der seine Masterarbeit fehlerfrei verfasst hatte.' -> 'Der Professor lobte den seine Masterarbeit fehlerfrei ____ Studenten.'",
+      "options": [
+        "verfasst habenden",
+        "verfassenden",
+        "verfassten",
+        "zu verfassenden"
+      ],
+      "correctAnswer": "verfasst habenden",
+      "explanation": "The relative clause is active but completed in the past (vorzeitig / Plusquamperfekt). To express active past completion in a participial attribute, use past participle of main verb + Partizip I of auxiliary 'haben': 'verfasst habenden'. Modifies 'Studenten' (masculine accusative singular).",
+      "id": "c1_05_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Endung des Partizips: Trotz des stundenlang anhaltend____ Regens blieb die Stimmung gut.",
+      "options": [
+        "en",
+        "er",
+        "es",
+        "em"
+      ],
+      "correctAnswer": "en",
+      "explanation": "The active simultaneous Partizip I 'anhaltend' modifies 'Regens' (masculine genitive singular). Following the genitive preposition 'trotz' and the definite article element 'des', the weak adjective ending is '-en'.",
+      "id": "c1_05_q046"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Verwandeln Sie das Partizipialattribut in einen Relativsatz: 'Die im Labor gezeugt____ Pflanzen sind resistent gegen Schaedlinge.'",
+      "options": [
+        "Die Pflanzen, die im Labor gezeugt wurden, sind resistent...",
+        "Die Pflanzen, die das Labor zeugt, sind resistent...",
+        "Die Pflanzen, die im Labor zeugen muessen, sind resistent...",
+        "Die Pflanzen, die man im Labor zeugend sieht, sind resistent..."
+      ],
+      "correctAnswer": "Die Pflanzen, die im Labor gezeugt wurden, sind resistent...",
+      "explanation": "Partizip II ('gezeugt') used with a non-reflexive, transitive verb indicates a passive, completed action. Therefore it translates to a passive relative clause in the past.",
+      "id": "c1_05_q047"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Partizip passt? 'Ein seit Jahren un geloest____ Problem beschaeftigt die Wissenschaftler.'",
+      "options": [
+        "es",
+        "en",
+        "er",
+        "e"
+      ],
+      "correctAnswer": "es",
+      "explanation": "'Problem' is neuter singular nominative. Prefaced by the indefinite article 'ein', it requires the strong adjective ending '-es' on the Partizip II 'ungeloest'.",
+      "id": "c1_05_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das passende Gerundiv: Die vom Vorstand morgen ____ Richtlinien muessen von allen Mitarbeitern beachtet werden.",
+      "options": [
+        "zu beschliessenden",
+        "beschlossenen",
+        "zu beschliessende",
+        "beschliesend"
+      ],
+      "correctAnswer": "zu beschliessenden",
+      "explanation": "The time marker 'morgen' signals a future action that must happen, showing passive obligation. This requires the Gerundiv ('zu' + Partizip I). Modifying 'Richtlinien' (plural nominative with definite article 'die'), it takes the weak ending '-en'.",
+      "id": "c1_05_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie praezise: 'Der Zug, der um 14 Uhr auf Gleis 4 einfaehrt, hat 10 Minuten Verspaetung.' -> 'Der um 14 Uhr auf Gleis 4 ____ Zug hat 10 Minuten Verspaetung.'",
+      "options": [
+        "einfahrende",
+        "eingefahrene",
+        "einzufahrende",
+        "einfahrenden"
+      ],
+      "correctAnswer": "einfahrende",
+      "explanation": "Active, simultaneous, and current action requires Partizip I of 'einfahren' -> 'einfahrend'. Masculine singular nominative with definite article 'der' results in the ending '-e'.",
+      "id": "c1_05_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt ein grammatikalisch FEHLERFREIES erweitertes Attribut?",
+      "options": [
+        "Die auf dem Kongress heftig diskutierte These erwies sich als falsch.",
+        "Die auf dem Kongress heftig diskutiert These erwies sich als falsch.",
+        "Die heftig diskutierte auf dem Kongress These erwies sich als falsch.",
+        "Die These heftig auf dem Kongress diskutierte erwies sich als falsch."
+      ],
+      "correctAnswer": "Die auf dem Kongress heftig diskutierte These erwies sich als falsch.",
+      "explanation": "In an extended attribute block, all prepositional details and adverbs must stand between the article ('Die') and the participle ('diskutierte'), which immediately precedes the noun ('These').",
+      "id": "c1_05_q051"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die verbale Entsprechung von: 'Das am Boden liegende Buch gehoert mir.'?",
+      "options": [
+        "Das Buch, das auf dem Boden liegt, gehoert mir.",
+        "Das Buch, das auf den Boden gelegt wurde, gehoert mir.",
+        "Das Buch, das man auf den Boden legen muss, gehoert mir.",
+        "Das Buch, das auf dem Boden gelegen hat, gehoert mir."
+      ],
+      "correctAnswer": "Das Buch, das auf dem Boden liegt, gehoert mir.",
+      "explanation": "Partizip I ('liegend') denotes an active, progressive, or present state (simultaneous), which translates directly to the present tense indicative active relative clause.",
+      "id": "c1_05_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die komplexe Struktur (Aktiv + Vergangenheit): Die gestern Abend spaet ____ Gaeste schliefen bis zum Mittag.",
+      "options": [
+        "angekommenen",
+        "ankommenden",
+        "angekommen",
+        "ankommen habenden"
+      ],
+      "correctAnswer": "angekommenen",
+      "explanation": "The verb 'ankommen' is intransitive and forms its past tense with 'sein'. For intransitive verbs that indicate a change of state and pair with 'sein', the simple Partizip II ('angekommen') can be used as an attribute to express an active completed past action. Plural nominative weak ending is '-en'.",
+      "id": "c1_05_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie im Partizipialattribut um: 'Die Aufgaben, die von uns geloest werden koennen, sind ueberschaubar.' -> 'Die von uns ____ Aufgaben sind ueberschaubar.'",
+      "options": [
+        "zu loesenden",
+        "geloesten",
+        "loesbaren",
+        "loesenden"
+      ],
+      "correctAnswer": "zu loesenden",
+      "explanation": "A participle attribute construction representing passive possibility/necessity explicitly utilizes the Gerundiv structure ('zu' + Partizip I) -> 'zu loesenden'. Although 'loesbar' is an adjective with passive possibility, the Gerundiv is the correct participial form here.",
+      "id": "c1_05_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Finden Sie das fehlerhafte Partizipialattribut:",
+      "options": [
+        "Das gestern gekaufte Auto ist schon kaputt.",
+        "Die im Sterben liegende Tradition stirbt aus.",
+        "Der gestern den Dieb gefasst habende Polizist wurde geehrt.",
+        "Der den Dieb gefangene Polizist wurde geehrt."
+      ],
+      "correctAnswer": "Der den Dieb gefangene Polizist wurde geehrt.",
+      "explanation": "'Fangen' is a transitive active verb. Using Partizip II ('gefangene') as an attribute makes the phrase passive ('the policeman who was caught by the thief'). To keep it active past tense, write 'der den Dieb gefasst habende Polizist'.",
+      "id": "c1_05_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Endung fuer den Genitiv: Die Aufklaerung des vor zwei Wochen geschehen____ Unfalls dauert an.",
+      "options": [
+        "en",
+        "em",
+        "er",
+        "es"
+      ],
+      "correctAnswer": "en",
+      "explanation": "'Geschehen' is an intransitive state-change verb using 'sein', so its Partizip II acts as a past active attribute for 'Unfalls' (masculine genitive singular). Following 'des', the weak ending is '-en'.",
+      "id": "c1_05_q056"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was drueckt das Gerundiv in folgendem Satz aus? 'Die einzureichenden Unterlagen sind vollstaendig.'",
+      "options": [
+        "Die Unterlagen muessen eingereicht werden.",
+        "Die Unterlagen koennen eingereicht werden.",
+        "Die Unterlagen wurden bereits eingereicht.",
+        "Die Unterlagen duerfen nicht eingereicht werden."
+      ],
+      "correctAnswer": "Die Unterlagen muessen eingereicht werden.",
+      "explanation": "The Gerundiv ('zu' + Partizip I) primarily conveys an absolute duty or obligation (passive necessity) equivalent to 'muessen' or 'sollen'.",
+      "id": "c1_05_q057"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Luecke: Alle an der Konferenz ____ Experten stimmten dem Vorschlag zu.",
+      "options": [
+        "teilnehmenden",
+        "teilgenommenen",
+        "teilzunehmen",
+        "teilgenommen habenden"
+      ],
+      "correctAnswer": "teilnehmenden",
+      "explanation": "The relative clause is active and simultaneous ('Experten, die teilnehmen'). This calls for Partizip I ('teilnehmend') plus weak plural ending '-en'.",
+      "id": "c1_05_q058"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die korrekte Umwandlung in einen Relativsatz: 'Die von Forschern oft zitierte Studie enthaelt Fehler.'",
+      "options": [
+        "Die Studie, die von Forschern oft zitiert wird, enthaelt Fehler.",
+        "Die Studie, die Forscher oft zitierten, hatte Fehler.",
+        "Die Studie, die Forscher oft zitieren muessen, enthaelt Fehler.",
+        "Die Studie, die Forscher oft zitiert haben werden, enthaelt Fehler."
+      ],
+      "correctAnswer": "Die Studie, die von Forschern oft zitiert wird, enthaelt Fehler.",
+      "explanation": "Partizip II ('zitierte') paired with an ongoing adverbial ('oft') and an agent indicator ('von Forschern') represents a regular present or simple past passive relative clause ('zitiert wird' / 'zitiert wurde').",
+      "id": "c1_05_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist grammatikalisch unzulaessig?",
+      "options": [
+        "Das zu essende Kind schlaeft.",
+        "Das schlafende Kind im Bett ist suess.",
+        "Die zu lesenden Buecher liegen auf dem Tisch.",
+        "Die reparierte Uhr laeuft wieder einwandfrei."
+      ],
+      "correctAnswer": "Das zu essende Kind schlaeft.",
+      "explanation": "The Gerundiv has passive meaning. 'Das zu essende Kind' would mean 'the child that needs to be eaten', which is semantically nonsensical. It should be 'Das essende Kind' (active: the child that is currently eating).",
+      "id": "c1_05_q060"
     }
   ]
 }
