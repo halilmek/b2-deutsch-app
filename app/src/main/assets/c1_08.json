@@ -2,7 +2,7 @@
   "topicName": "Konnektoren & Satzverknuepfung (C1)",
   "subjectId": "c1_08",
   "level": "C1",
-  "totalQuestions": 60,
+  "totalQuestions": 80,
   "description": "Konnektoren & Satzverknuepfung (C1)\n\n=== 1. DREI TYPEN VON KONNEKTOREN ===\n\nGRUPPE 1: KOORDINIERENDE KONJUNKTIONEN (Position 0)\nPosition 0 = keine Verbverschiebung. Subjekt in Pos.1, Verb in Pos.2.\nBeispiele: aber, denn, und, sondern, oder, allein, doch\nBeispiel: Das Projekt war teuer, doch es hat sich gelohnt.\n\nGRUPPE 2: SUBJUNKTIONEN (Nebensatz: Verb am Ende)\nDiese Konjunktionen senden das konjugierte Verb an das Satzende.\nC1-Beispiele: obgleich, obschon, wenngleich, sofern, wohingegen, indem,\n              sodass, auf dass, obwohl, damit, weil, da\nBeispiel: Wir muessen die Massnahmen verschaerfen, sofern die Zahlen steigen.\n\nGRUPPE 3: ADVERBIELLE KONNEKTOREN (Position 1)\nPosition 1 in ihrem Satzteil -> Inversion: Verb sofort in Position 2.\nC1-Beispiele: infolgedessen, andernfalls, demnach, jedoch, vielmehr,\n              allerdings, dennoch, trotzdem, uebrigens\nBeispiel: Die Testergebnisse waren negativ; demnach hat sich der Verdacht\n          nicht bestaetigt.\n\n=== 2. LOGISCHE BEZIEHUNGEN (C1) ===\n\nKONZESSIV (Gegensatz / Trotz):\n- obgleich / obschon / wenngleich (Formell, Nebensatz)\n  -> Obgleich es heftige Proteste gab, setzte die Regierung die Reform durch.\n- jedoch / dessen ungeachtet (Adverb, Position 1 -> Inversion)\n  -> Es gab heftige Proteste; die Regierung setzte die Reform jedoch durch.\n- ungeachtet + Genitiv (Prueposition, formell)\n- nichtsdestotrotz (gehobener Adversativadverb)\n\nBEDINGUNG / ALTERNATIVE (Wenn / Sonst):\n- sofern (Nebensatz, Provided that)\n  -> Ich helfe Ihnen gerne, sofern meine eigenen Aufgaben nicht leiden.\n- andernfalls (Adverb, Otherwise, Position 1)\n  -> Sie muessen bezahlen, andernfalls wird Ihre Anmeldung geloescht.\n\nADVERSATIV (Direkter Vergleich):\n- wohingegen (Nebensatz, Whereas/While)\n  -> Der Oekonom rechnet mit Erholung, wohingegen viele Haendler skeptisch bleiben.\n- waehrend (Nebensatz,同期/gleichzeitig)\n- vielmehr (Adverb, Korrektur, logische Wendung)\n  -> Die erste Hypothese ist widerlegt; vielmehr stuetzt sich dos neue Modell...\n\n=== 3. GRAMMATISCHE MASTERCLASSES ===\n\nALS OB / ALS + Konjunktiv II (irrealer Vergleich):\nA) Er tat so, als ob er von den Plaenen nichts gewusst haette.\n   -> als ob: Verb am Ende\nB) Er tat so, als haette er von den Plaenen nichts gewusst.\n   -> als allein: Verb sofort in Position 2! (TRAP! Verb folgt DIRECTLY auf als)\n   \nPROPORTIONAL: je ... desto / umso\nStruktur: Je + Adjektiv + Nebensatz (Verb am Ende),\n          desto/umso + Adjektiv + Verb in Pos.2 + Subjekt\n-> Je komplexer die Aufgaben werden, desto strukturierter muessen wir vorgehen.\n\nES SEI DENN (dass):\n- es sei denn, (ohne dass): Position 0 = HAUPTSATZ-Wortfolge!\n  -> Ich gehe morgen wandern, es sei denn, das Wetter schlaegt um.\n- es sei denn, dass: Nebensatz -> Verb am Ende\n\nTIPP: Variiere zwischen Konjunktion (weil), Adverb (deshalb) und\n      Nomen + Genitiv/Prueposition (wegen/deshalb).\n      Das zeigt strukturelle Flexibilitaet auf C1-Niveau.",
   "tips": [
     "Koordinierende Konjunktionen (aber, denn, und, oder, doch) = Position 0 = KEINE Verbverschiebung",
@@ -858,6 +858,286 @@
       ],
       "correctAnswer": "Formell-academisch",
       "explanation": "Die Kombination von konzessiven Subjunktionen (obwohl, obschon, wenngleich) mit Adversativadverbien (allerdings, nichtsdestotrotz, dennoch) gehoert in den formellen, akademischen oder administrativen Diskurs auf C1-Niveau."
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ging zur Arbeit, ____ er krank war.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "sodass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces a concessive clause expressing contrast: going to work despite being sick.",
+      "id": "c1_08_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie lernte intensiv, ____ sie die Pruefung bestehen konnte.",
+      "options": [
+        "damit",
+        "obwohl",
+        "waehrend",
+        "denn"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "Damit introduces a final clause expressing purpose/intention (in order to). The study goal precedes the effort.",
+      "id": "c1_08_q062"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Strassen waren gesperrt, ____ der Verkehr umgeleitet werden musste.",
+      "options": [
+        "sodass",
+        "waehrend",
+        "ob",
+        "dennoch"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "Sodass introduces a consecutive clause expressing consequence/result. The blocked roads caused mandatory rerouting.",
+      "id": "c1_08_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ er viel Erfahrung hatte, bekam er die Stelle nicht.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Sobald",
+        "Damit"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl expresses concession: despite extensive experience, the position was not obtained.",
+      "id": "c1_08_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er blieb zu Hause, ____ das Wetter schlecht war.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "waehrend"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "Weil introduces a causal clause expressing reason. Staying home is caused by bad weather.",
+      "id": "c1_08_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Firma expandiert weiter, ____ die wirtschaftliche Lage schwierig ist.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sobald",
+        "indem"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces concession: the company expands despite the difficult economic situation.",
+      "id": "c1_08_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Praesentation vorbereitet wurde, ueberpruefte das Team die Daten erneut.",
+      "options": [
+        "Waehrend",
+        "Weil",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Waehrend",
+      "explanation": "Waehrend expresses simultaneity: while the presentation was being prepared, the team rechecked the data.",
+      "id": "c1_08_q067"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er sprach leise, ____ niemand gestoert wurde.",
+      "options": [
+        "damit",
+        "denn",
+        "obwohl",
+        "waehrend"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "Damit expresses intention: speaking quietly in order that no one would be disturbed.",
+      "id": "c1_08_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Nachfrage steigt, ____ die Preise erhoeht wurden.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "sobald"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl expresses concession: demand rises despite the prices being increased.",
+      "id": "c1_08_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Sitzung beendet war, verliessen alle den Raum.",
+      "options": [
+        "Nachdem",
+        "Waehrend",
+        "Obwohl",
+        "Damit"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "Nachdem indicates completed action before another: as soon as the session ended, everyone left the room.",
+      "id": "c1_08_q070"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er konnte nicht teilnehmen, ____ er keinen Urlaub bekommen hatte.",
+      "options": [
+        "da",
+        "obwohl",
+        "sodass",
+        "indem"
+      ],
+      "correctAnswer": "da",
+      "explanation": "Da is formal causal conjunction: because he did not get leave, he could not participate.",
+      "id": "c1_08_q071"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie verbesserte ihre Sprachkenntnisse, ____ sie taeglich uebte.",
+      "options": [
+        "indem",
+        "obwohl",
+        "sobald",
+        "dennoch"
+      ],
+      "correctAnswer": "indem",
+      "explanation": "Indem describes the method/means by which a result is achieved: by practicing daily she improved her language skills.",
+      "id": "c1_08_q072"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Ergebnisse ueberzeugend waren, wurde das Projekt gestoppt.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Nachdem",
+        "Damit"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl expresses concession: despite the convincing results, the project was stopped.",
+      "id": "c1_08_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter arbeiteten effizient, ____ das Projekt rechtzeitig abgeschlossen werden konnte.",
+      "options": [
+        "sodass",
+        "obwohl",
+        "da",
+        "waehrend"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "Sodass introduces a consecutive clause expressing result: efficient work enabled timely project completion.",
+      "id": "c1_08_q074"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ er die Nachricht erhalten hatte, reagierte er sofort.",
+      "options": [
+        "Sobald",
+        "Obwohl",
+        "Waehrend",
+        "Damit"
+      ],
+      "correctAnswer": "Sobald",
+      "explanation": "Sobald means as soon as: it introduces immediate temporal succession between two past actions.",
+      "id": "c1_08_q075"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz wurde verschoben, ____ mehrere Teilnehmer abgesagt hatten.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "indem"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "Weil introduces a causal clause: the conference was postponed because several participants had cancelled.",
+      "id": "c1_08_q076"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er bestand die Pruefung nicht, ____ er monatelang gelernt hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "sobald"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl expresses concession: despite months of studying, he did not pass the exam.",
+      "id": "c1_08_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Daten analysiert worden waren, konnte der Bericht erstellt werden.",
+      "options": [
+        "Nachdem",
+        "Waehrend",
+        "Indem",
+        "Obwohl"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "Nachdem introduces a temporal sequence: after the data had been analyzed, the report could be created.",
+      "id": "c1_08_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie konnte das Problem loesen, ____ sie verschiedene Methoden ausprobierte.",
+      "options": [
+        "indem",
+        "obwohl",
+        "sodass",
+        "da"
+      ],
+      "correctAnswer": "indem",
+      "explanation": "Indem describes the method: by trying different methods she was able to solve the problem.",
+      "id": "c1_08_q079"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Nachfrage war sehr hoch, ____ zusaetzliche Produkte hergestellt werden mussten.",
+      "options": [
+        "sodass",
+        "obwohl",
+        "waehrend",
+        "damit"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "Sodass introduces a consecutive result: demand was so high that additional products had to be manufactured.",
+      "id": "c1_08_q080"
     }
   ]
 }
