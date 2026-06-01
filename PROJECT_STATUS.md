@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated: 2026-05-28 19:51 UTC
+**Last Updated: 2026-06-01 17:18 UTC
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -17,7 +17,8 @@
 | B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **Total** | **6,180** | **~6,000** | ✅ |
+| **C2** | **20** | **~2,000** | **🔄 In Progress** |
+| **Total** | **6,200** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -129,6 +130,16 @@
 
 ---
 
+## 📋 C2 MODULE 🔄 (In Progress)
+
+| # | ID | Topic | Questions | Status |
+|---|----|-------|-----------|--------|
+| 1 | c2_01 | Nominalstil & Verbalstil | 20 | 🔄 In Progress (needs 80 more for 100) |
+
+**C2 Total: 20 questions (target: ~2,000)**
+
+---
+
 ## 📋 FIREBASE SYNC STATUS
 
 ### Pending syncs from local machine:
@@ -159,6 +170,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 4. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify
 5. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is
 6. **SubjectListViewModel.kt:** hardcodes topic names (c1_08 shows "Infinitivkonstruktionen") — needs app rebuild to fix
+7. **C2 started:** c2_01 added 20 questions (5 easy, 8 medium, 7 hard)
 
 ---
 
@@ -253,4 +265,13 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-05-28 19:51 UTC_
+### c2_01 Nominalstil & Verbalstil — Questions Added 🔄
+| Batch | Questions | Commit |
+|-------|-----------|--------|
+| q001-q020 | 20 (initial: 5 easy, 8 medium, 7 hard) | `e7986c5` |
+
+**c2_01 Total: 20 questions** (needs 80 more to reach 100) 🔄
+
+---
+
+_Last updated: 2026-06-01 17:18 UTC_
