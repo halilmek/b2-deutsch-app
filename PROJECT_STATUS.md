@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated: 2026-06-01 17:18 UTC
+**Last Updated: 2026-06-01 17:25 UTC**
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -265,7 +265,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-### c2_01 Nominalstil & Verbalstil — Questions Added 🔄
+### c2_01 Nominalstil & Verbalstil — Questions Added ✅
 | Batch | Questions | Commit |
 |-------|-----------|--------|
 | q001-q020 | 20 (initial: 5 easy, 8 medium, 7 hard) | `e7986c5` |
@@ -273,9 +273,10 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | q041-q060 | 20 (nominalstil definitions, FVG, genitive, Beamtendeutsch) | `b6d692b` |
 | q061-q080 | 20 (verb->noun transformations, Nominaldichte, akademische Verdichtung) | `72e599d` |
 | q081-q100 | 20 (nominalstil definitions, FVG, Nominalstil-Exzess, versteckte Nominalisierungen) | `1feaf6f` |
+| description/tips | updated: transformation blueprint, translation matrix, FVG combos | `35a27b0` |
 
 **c2_01 Total: 100 questions** ✅ COMPLETE
 
 ---
 
-_Last updated: 2026-06-01 17:18 UTC_
+_Last updated: 2026-06-01 17:25 UTC_
