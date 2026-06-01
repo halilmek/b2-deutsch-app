@@ -17,8 +17,8 @@
 | B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **C2** | **20** | **~2,000** | **🔄 In Progress** |
-| **Total** | **6,200** | **~8,000** | 🔄 In Progress |
+| **C2** | **40** | **~2,000** | **🔄 In Progress** |
+| **Total** | **6,220** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -134,9 +134,9 @@
 
 | # | ID | Topic | Questions | Status |
 |---|----|-------|-----------|--------|
-| 1 | c2_01 | Nominalstil & Verbalstil | 20 | 🔄 In Progress (needs 80 more for 100) |
+| 1 | c2_01 | Nominalstil & Verbalstil | 40 | 🔄 In Progress (needs 60 more for 100) |
 
-**C2 Total: 20 questions (target: ~2,000)**
+**C2 Total: 40 questions (target: ~2,000)**
 
 ---
 
@@ -170,7 +170,7 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 4. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify
 5. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is
 6. **SubjectListViewModel.kt:** hardcodes topic names (c1_08 shows "Infinitivkonstruktionen") — needs app rebuild to fix
-7. **C2 started:** c2_01 added 20 questions (5 easy, 8 medium, 7 hard)
+7. **C2 started:** c2_01 at 40 questions (q001-q040 added)
 
 ---
 
@@ -269,8 +269,9 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 | Batch | Questions | Commit |
 |-------|-----------|--------|
 | q001-q020 | 20 (initial: 5 easy, 8 medium, 7 hard) | `e7986c5` |
+| q021-q040 | 20 (verbal->nominal transformations, C2 level) | `80b31c4` |
 
-**c2_01 Total: 20 questions** (needs 80 more to reach 100) 🔄
+**c2_01 Total: 40 questions** (needs 60 more to reach 100) 🔄
 
 ---
 
