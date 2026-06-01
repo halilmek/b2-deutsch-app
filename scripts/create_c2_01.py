@@ -1,0 +1,313 @@
+import json
+
+questions = [
+    {
+        "difficulty": "easy",
+        "type": "multiple_choice",
+        "questionText": 'Was versteht man unter \u201eNominalstil\u201c in der deutschen Sprache?',
+        "options": [
+            "Einen Schreibstil, der vorwiegend Verben und Adjektive verwendet",
+            "Einen Schreibstil, der Substantive und Nominalphrasen bevorzugt und Verben oft nominalisiert",
+            "Einen Stil, der ausschliesslich in der Umgangssprache verwendet wird",
+            "Einen Stil, der auf Fremdwoerter verzichtet"
+        ],
+        "correctAnswer": "Einen Schreibstil, der Substantive und Nominalphrasen bevorzugt und Verben oft nominalisiert",
+        "explanation": "Nominalstil (nominal style) refers to a writing style that favors nouns and noun phrases, often turning verbs into nouns (nominalization). It is typical of academic, legal, and administrative German.",
+        "id": "c2_01_q001"
+    },
+    {
+        "difficulty": "easy",
+        "type": "multiple_choice",
+        "questionText": "Welche der folgenden Formulierungen ist ein Beispiel fuer Nominalstil?",
+        "options": [
+            "Die Forscher haben das Experiment durchgefuehrt.",
+            "Die Durchfuehrung des Experiments durch die Forscher erfolgte gestern.",
+            "Gestern fuehrten die Forscher das Experiment durch.",
+            "Das Experiment wurde von den Forschern durchgefuehrt."
+        ],
+        "correctAnswer": "Die Durchfuehrung des Experiments durch die Forscher erfolgte gestern.",
+        "explanation": "The nominal style version replaces the verb 'durchfuehren' with the nominalization 'Durchfuehrung' and uses the support verb 'erfolgen'. This is characteristic of academic writing.",
+        "id": "c2_01_q002"
+    },
+    {
+        "difficulty": "easy",
+        "type": "multiple_choice",
+        "questionText": 'Wie wird das Verb \u201eanalysieren\u201c im Nominalstil typischerweise ausgedrueckt?',
+        "options": [
+            "analysiert werden",
+            "die Analyse / eine Analyse vornehmen",
+            "analysierend vorgehen",
+            "zur Analyse bereit sein"
+        ],
+        "correctAnswer": "die Analyse / eine Analyse vornehmen",
+        "explanation": "'Analysieren' becomes 'die Analyse' (nominalization) combined with a support verb like 'vornehmen', 'durchfuehren', or 'erstellen'. This pattern is central to German nominal style.",
+        "id": "c2_01_q003"
+    },
+    {
+        "difficulty": "easy",
+        "type": "multiple_choice",
+        "questionText": "Welches Suffix wird am haeufigsten zur Bildung von Nominalisierungen aus Verben verwendet?",
+        "options": [
+            "-lich",
+            "-ung",
+            "-bar",
+            "-sam"
+        ],
+        "correctAnswer": "-ung",
+        "explanation": "The suffix '-ung' is the most productive suffix for nominalizing verbs in German, e.g., 'untersuchen' -> 'Untersuchung', 'entwickeln' -> 'Entwicklung', 'durchfuehren' -> 'Durchfuehrung'.",
+        "id": "c2_01_q004"
+    },
+    {
+        "difficulty": "easy",
+        "type": "multiple_choice",
+        "questionText": "In welchem texttypischen Kontext ist der Nominalstil am weitesten verbreitet?",
+        "options": [
+            "In literarischen Romanen und Kurzgeschichten",
+            "In alltaeglichen Gespraechen unter Freunden",
+            "In wissenschaftlichen Aufsaetzen, Gutachten und Behoerdentexten",
+            "In sozialen Medien und Chatverlaeufen"
+        ],
+        "correctAnswer": "In wissenschaftlichen Aufsaetzen, Gutachten und Behoerdentexten",
+        "explanation": "Nominal style is most common in academic papers, legal expert opinions, and administrative texts. It conveys objectivity, distance, and precision - core values of formal written German.",
+        "id": "c2_01_q005"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": 'Wandeln Sie den folgenden Satz in den Nominalstil um: \u201eDie Regierung hat beschlossen, die Steuern zu erhoehen.\u201d',
+        "options": [
+            "Die Regierung erhoeht die Steuern, weil sie es beschlossen hat.",
+            "Der Beschluss der Regierung zur Erhoehung der Steuern liegt vor.",
+            "Es wurde beschlossen, dass die Steuern erhoeht werden sollen.",
+            "Die Regierung beschloss einstimmig, die Steuern zu erhoehen."
+        ],
+        "correctAnswer": "Der Beschluss der Regierung zur Erhoehung der Steuern liegt vor.",
+        "explanation": "Both 'beschliessen' -> 'Beschluss' and 'erhoehen' -> 'Erhoehung' are nominalized. The result uses genitive chains typical of academic/administrative German nominal style.",
+        "id": "c2_01_q006"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": 'Welches sogenanntes \u201eFunktionsverbgefuege\u201c entspricht der Aussage \u201eMan muss die Ergebnisse berücksichtigen\u201c?',
+        "options": [
+            "Die Ergebnisse sind zu beruecksichtigen.",
+            "Die Beruecksichtigung der Ergebnisse ist erforderlich.",
+            "Man beruecksichtige die Ergebnisse.",
+            "Es ist beruecksichtigt worden, was die Ergebnisse zeigen."
+        ],
+        "correctAnswer": "Die Beruecksichtigung der Ergebnisse ist erforderlich.",
+        "explanation": "A 'Funktionsverbgefuege' (support verb construction) replaces a full verb with a nominalization + support verb/adjective. Here 'beruecksichtigen' -> 'Beruecksichtigung' combined with 'ist erforderlich' is the nominal style equivalent.",
+        "id": "c2_01_q007"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": 'Welche Funktion erfuellen Nominalphrasen mit Genitivattributen (z. B. \u201edie Auswertung der Daten\u201d) im akademischen Diskurs?',
+        "options": [
+            "Sie machen den Text umgangssprachlicher und persoenlicher.",
+            "Sie ermoeglichen eine verdichtete, unpersoenliche Darstellung komplexer Sachverhalte.",
+            "Sie ersetzen Konjunktionen und verbessern den Satzbau.",
+            "Sie dienen ausschliesslich der Betonung bestimmter Satzglieder."
+        ],
+        "correctAnswer": "Sie ermoeglichen eine verdichtete, unpersoenliche Darstellung komplexer Sachverhalte.",
+        "explanation": "Genitive attribute noun phrases allow writers to pack complex information into compact structures, creating the impersonal, dense, and precise register that academic discourse requires.",
+        "id": "c2_01_q008"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": "Welches der folgenden Woerter ist KEINE Nominalisierung eines Verbs?",
+        "options": [
+            "die Genehmigung",
+            "die Feststellung",
+            "die Freiheit",
+            "die Ueberpruefung"
+        ],
+        "correctAnswer": "die Freiheit",
+        "explanation": "'Freiheit' derives from the adjective 'frei' (via the suffix '-heit'), not from a verb. The others are nominalizations: 'genehmigen' -> 'Genehmigung', 'feststellen' -> 'Feststellung', 'ueberpruefen' -> 'Ueberpruefung'.",
+        "id": "c2_01_q009"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": 'Ergänzen Sie die Luecke im folgenden akademischen Satz: \u201eIm Rahmen der ____ wurden mehrere Hypothesen aufgestellt.\u201d',
+        "options": [
+            "Forschen",
+            "Forschungsarbeit",
+            "forschenden Taetigkeit des Teams",
+            "um zu forschen"
+        ],
+        "correctAnswer": "Forschungsarbeit",
+        "explanation": "'Forschungsarbeit' is a compound noun fitting the nominal register. The preposition 'im Rahmen' (within the framework of) is itself a typical nominal style phrase, requiring a noun to follow.",
+        "id": "c2_01_q010"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": "Welcher stilistische Nachteil wird dem Nominalstil haeufig vorgeworfen?",
+        "options": [
+            "Er ist zu emotional und subjektiv.",
+            "Er kann zu Schwerfaelligkeit und mangelnder Verstaendlichkeit fuehren.",
+            "Er wird von Muttersprachlern nicht akzeptiert.",
+            "Er ermoeglicht keine praezisen Aussagen."
+        ],
+        "correctAnswer": "Er kann zu Schwerfaelligkeit und mangelnder Verstaendlichkeit fuehren.",
+        "explanation": "Critics argue that excessive nominal style makes texts heavy and hard to read ('Schachtelsaetze', long genitive chains). Good academic writing balances clarity with precision, avoiding unnecessary nominalization.",
+        "id": "c2_01_q011"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": "Welche Konstruktion ist ein typisches Funktionsverbgefuege im Nominalstil?",
+        "options": [
+            "in Frage kommen",
+            "zur Anwendung bringen",
+            "auf Anhieb verstehen",
+            "ins Blaue hinein reden"
+        ],
+        "correctAnswer": "zur Anwendung bringen",
+        "explanation": "'Zur Anwendung bringen' is a classic Funktionsverbgefuege (support verb construction) that replaces 'anwenden'. It consists of a preposition + nominalization + support verb, a hallmark of nominal style.",
+        "id": "c2_01_q012"
+    },
+    {
+        "difficulty": "medium",
+        "type": "multiple_choice",
+        "questionText": "Welche der folgenden Praepositionalphrasen ist typisch fuer den nominalstilgepraegten akademischen Diskurs?",
+        "options": [
+            "wegen des Regens",
+            "im Hinblick auf die Ergebnisse der Untersuchung",
+            "neben dem Bahnhof",
+            "trotz seiner BemuEhungen"
+        ],
+        "correctAnswer": "im Hinblick auf die Ergebnisse der Untersuchung",
+        "explanation": "'Im Hinblick auf' is a prepositional phrase typical of formal academic writing. It is used to build long nominal chains and to frame arguments precisely, a key feature of nominal style.",
+        "id": "c2_01_q013"
+    },
+    {
+        "difficulty": "hard",
+        "type": "multiple_choice",
+        "questionText": 'Formen Sie den folgenden Satz vollstaendig in den Nominalstil um: \u201eWeil die Daten unvollstaendig waren, konnte man keine Schluesse ziehen.\u201d',
+        "options": [
+            "Die Unvollstaendigkeit der Daten verhinderte das Ziehen von Schluessen.",
+            "Da die Daten unvollstaendig waren, zog man keine Schluesse.",
+            "Wegen der Unvollstaendigkeit konnte niemand etwas schlussfolgern.",
+            "Man zog keine Schluesse, obwohl man es haette tun koennen."
+        ],
+        "correctAnswer": "Die Unvollstaendigkeit der Daten verhinderte das Ziehen von Schluessen.",
+        "explanation": "This version fully nominalizes the causal clause: 'unvollstaendig' -> 'Unvollstaendigkeit', 'Schluesse ziehen' -> 'das Ziehen von Schluessen'. The causal conjunction 'weil' is replaced by a nominal subject, classic academic nominal style.",
+        "id": "c2_01_q014"
+    },
+    {
+        "difficulty": "hard",
+        "type": "multiple_choice",
+        "questionText": 'Welche Aussage beschreibt den Unterschied zwischen \u201eNominalstil\u201c und \u201eVerbalstil\u201c am treffendsten?',
+        "options": [
+            "Der Nominalstil ist stets grammatikalisch falsch, der Verbalstil immer korrekt.",
+            "Der Verbalstil ist dynamisch und handlungsbetont, waehrend der Nominalstil statisch, verdichtet und unpersoenlich wirkt.",
+            "Im Nominalstil werden ausschliesslich Pronomen vermieden.",
+            "Der Verbalstil kommt nur in der gesprochenen Sprache vor."
+        ],
+        "correctAnswer": "Der Verbalstil ist dynamisch und handlungsbetont, waehrend der Nominalstil statisch, verdichtet und unpersoenlich wirkt.",
+        "explanation": "Verbal style emphasizes action and agency through verbs, making texts dynamic and personal. Nominal style abstracts and compresses information into noun phrases, creating an impersonal, objective tone suited to academic discourse.",
+        "id": "c2_01_q015"
+    },
+    {
+        "difficulty": "hard",
+        "type": "multiple_choice",
+        "questionText": 'Welches sprachliche Mittel ermoeglicht es im Nominalstil, die handelnde Person zu verschweigen?',
+        "options": [
+            'Die Verwendung von Modalverben wie \u201emüssen\u201c und \u201esollen\u201c',
+            "Die Nominalisierung in Verbindung mit Vorgangspassiv",
+            "Die Agenslosigkeit durch unpersoenliche Nominalkonstruktionen ohne Nennung des Urhebers",
+            'Der Einsatz von Konjunktionen wie \u201eobwohl\u201c und \u201ewaehrend\u201c'
+        ],
+        "correctAnswer": "Die Agenslosigkeit durch unpersoenliche Nominalkonstruktionen ohne Nennung des Urhebers",
+        "explanation": "One key function of nominal style in academic writing is 'Agenslosigkeit' (agentlessness): by turning a verb into a noun, the actor/agent is omitted entirely (e.g., 'Die Analyse zeigte...' vs. 'Die Forscher analysierten...'). This creates objectivity.",
+        "id": "c2_01_q016"
+    },
+    {
+        "difficulty": "hard",
+        "type": "multiple_choice",
+        "questionText": 'Identifizieren Sie die fehlerhafte Nominalisierung im folgenden Satz: \u201eDie Berücksichtichtigung der Ergebnisauswertung erfordert eine sorgfältige Überlegerei.\u201d',
+        "options": [
+            "Beruecksichtichtigung (Dopplung im Innern des Wortes)",
+            "Ergebnisauswertung (unuebliche Komposition)",
+            "Ueberlegerei (pejorative Bildung, stilistisch unangemessen im akademischen Kontext)",
+            "erfordert (falsches Vollverb im Nominalstil)"
+        ],
+        "correctAnswer": "Ueberlegerei (pejorative Bildung, stilistisch unangemessen im akademischen Kontext)",
+        "explanation": "'-erei' is a pejorative/ironic suffix in German (e.g., 'Schreiberei', 'Fragerei') that implies tedious or excessive activity. It is completely inappropriate in academic nominal style, where one would write 'Ueberlegung' instead.",
+        "id": "c2_01_q017"
+    },
+    {
+        "difficulty": "hard",
+        "type": "multiple_choice",
+        "questionText": 'Welche komplexe Nominalphrase entspricht dem Satz: \u201eMan sollte pruefen, ob die Methode angewendet werden kann.\u201d?',
+        "options": [
+            "Es ist zu pruefen, ob man die Methode anwenden sollte.",
+            "Die Ueberpruefbarkeit der Anwendbarkeit der Methode bedarf naeherer Untersuchung.",
+            "Man muss die Methode auf ihre Anwendbarkeit hin untersuchen.",
+            "Die Methode wird auf ihre moegliche Anwendbarkeit ueberprueft."
+        ],
+        "correctAnswer": "Die Ueberpruefbarkeit der Anwendbarkeit der Methode bedarf naeherer Untersuchung.",
+        "explanation": "This answer chains multiple nominalizations: 'pruefen' -> 'Ueberpruefbarkeit', 'anwenden' -> 'Anwendbarkeit'. The genitive chain 'der Anwendbarkeit der Methode' is a hallmark of C2-level nominal style density.",
+        "id": "c2_01_q018"
+    },
+    {
+        "difficulty": "hard",
+        "type": "multiple_choice",
+        "questionText": 'Ergänzen Sie den Lueckentext akademisch korrekt im Nominalstil: \u201e____ der methodischen Grundlagen ist Voraussetzung fuer eine valide Interpretation der Befunde.\u201d',
+        "options": [
+            "Das genaue Kennen",
+            "Die genaue Kenntnis",
+            "Genau zu kennen",
+            "Wer genau kennt"
+        ],
+        "correctAnswer": "Die genaue Kenntnis",
+        "explanation": "'Die genaue Kenntnis' is the correct nominal form of 'kennen'. 'Das genaue Kennen' (infinitive noun) is grammatically possible but stylistically weak at C2 level; 'Kenntnis' is the established nominal form used in academic discourse.",
+        "id": "c2_01_q019"
+    },
+    {
+        "difficulty": "hard",
+        "type": "multiple_choice",
+        "questionText": 'Welche der folgenden Aussagen ueber den Nominalstil im akademischen Diskurs ist FALSCH?',
+        "options": [
+            "Nominalisierungen ermoeglichen die Verdichtung von Informationen in kompakten Phrasen.",
+            "Der Nominalstil dient der Objektivierung und Depersonalisierung wissenschaftlicher Aussagen.",
+            "Ein uebermässiger Nominalstil gilt stilistisch stets als ideal und sollte ohne Einschraenkung angestrebt werden.",
+            'Funktionsverbgefuege wie \u201ezur Geltung bringen\u201c sind typische Merkmale des Nominalstils.'
+        ],
+        "correctAnswer": "Ein uebermässiger Nominalstil gilt stilistisch stets als ideal und sollte ohne Einschraenkung angestrebt werden.",
+        "explanation": "This is FALSE. While nominal style is valued in academic writing, excessive use is criticized for reducing readability and clarity. Style guides and linguists recommend balancing nominal and verbal elements for effective academic communication.",
+        "id": "c2_01_q020"
+    }
+]
+
+data = {
+    "version": "1.0",
+    "subjectId": "c2_01",
+    "topicName": "Nominalstil & Verbalstil",
+    "level": "C2",
+    "totalQuestions": len(questions),
+    "description": "Nominalstil & Verbalstil im akademischen Diskurs - This C2 topic focuses on advanced transformations between nominal and verbal styles in German academic writing. Students master complex nominalizations, Funktionsverbgefuege, genitive attribute chains, agentless constructions, and the balance between dense academic nominal style and readable verbal style.",
+    "tips": [
+        "Key nominalizations: analysieren -> die Analyse; durchfuehren -> die Durchfuehrung; entscheiden -> die Entscheidung; ueberpruefen -> die Ueberpruefung; anwenden -> die Anwendung.",
+        "Funktionsverbgefuege (C2): zur Anwendung bringen, in Betracht ziehen, zur Kenntnis nehmen, zur Geltung bringen, Beachtung schenken, in Frage stellen, zur Loesung bringen.",
+        "Genitive chains: die Durchfuehrung des Experiments; die Auswertung der Daten der Studie; die Ueberpruefung der Anwendbarkeit der Methode.",
+        "Nominalstil weaknesses: can become overly dense, creates 'Schachtelsaetze', reduces readability. Balance with verbal style for clarity.",
+        "Agentless constructions: 'Die Analyse ergab...' (no agent mentioned) vs 'Die Forscher analysierten...' - nominal style omits the actor.",
+        "C2 suffixes for nominalization: -ung (Analyse, Durchfuehrung), -heit (Freiheit, Klarheit), -keit (Moeglichkeit, Schwierigkeit), -schaft (Gemeinschaft, Wissenschaft).",
+        "Prepositional phrases in nominal style: im Hinblick auf, in Bezug auf, hinsichtlich, bezueglich, im Rahmen von, im Zuge von."
+    ],
+    "questions": questions
+}
+
+with open('app/src/main/assets/c2_01.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+
+print(f"Created c2_01.json with {len(questions)} questions (q001-q020)")
+print(f"Topic: {data['topicName']}")
+easy = sum(1 for q in questions if q['difficulty'] == 'easy')
+medium = sum(1 for q in questions if q['difficulty'] == 'medium')
+hard = sum(1 for q in questions if q['difficulty'] == 'hard')
+print(f"Difficulty breakdown: easy={easy}, medium={medium}, hard={hard}")
