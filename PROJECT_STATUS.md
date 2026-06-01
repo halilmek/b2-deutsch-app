@@ -17,8 +17,8 @@
 | B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **C2** | **200** | **~2,000** | **🔄 In Progress** |
-| **Total** | **6,380** | **~8,000** | 🔄 In Progress |
+| **C2** | **220** | **~2,000** | **🔄 In Progress** |
+| **Total** | **6,400** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -136,7 +136,7 @@
 |---|----|-------|-----------|--------|
 | 1 | c2_01 | Nominalstil & Verbalstil | 100 | ✅ Complete |
 
-**C2 Total: 200 questions (target: ~2,000)**
+**C2 Total: 220 questions (target: ~2,000)**
 
 ---
 
@@ -279,4 +279,4 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-06-01 18:55 UTC_
+_Last updated: 2026-06-01 19:05 UTC_
