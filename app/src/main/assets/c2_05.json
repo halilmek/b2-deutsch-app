@@ -618,7 +618,287 @@
       "correctAnswer": "Die Daten sind im Rahmen der Studie unter Berucksichtigung methodischer Einschrankungen nur eingeschrankt interpretierbar.",
       "explanation": "This option combines an advanced '-bar' construction with formal academic style and complex modification.",
       "id": "c2_05_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Struktur ist eine typische Passiversatzform im gehobenen Sprachstil?",
+      "options": [
+        "sich lassen + Infinitiv",
+        "mussen + Infinitiv",
+        "haben + Partizip II",
+        "werden + Infinitiv"
+      ],
+      "correctAnswer": "sich lassen + Infinitiv",
+      "explanation": "Sich lassen + Infinitiv is a standard formal replacement for konnen + Passiv, expressing objective feasibility without mentioning an agent, which aligns with academic neutrality.",
+      "id": "c2_05_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die gehobene Passiversatzform fur 'Die Daten konnen schnell analysiert werden.'?",
+      "options": [
+        "Die Daten lassen sich schnell analysieren.",
+        "Die Daten sind schnell analysiert zu werden.",
+        "Die Daten haben schnell analysiert.",
+        "Die Daten bleiben schnell analysieren."
+      ],
+      "correctAnswer": "Die Daten lassen sich schnell analysieren.",
+      "explanation": "Sich lassen + Infinitiv directly replaces konnen + Passiv in formal registers, maintaining the meaning of possibility while adopting a more concise, scholarly structure.",
+      "id": "c2_05_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was druckt die Konstruktion 'sein + zu + Infinitiv' aus?",
+      "options": [
+        "Eine Verpflichtung oder Notwendigkeit im Passiv",
+        "Eine abgeschlossene Handlung in der Vergangenheit",
+        "Eine simultane Handlung im Prasens",
+        "Eine hofliche Bitte im Konjunktiv"
+      ],
+      "correctAnswer": "Eine Verpflichtung oder Notwendigkeit im Passiv",
+      "explanation": "Sein + zu + Infinitiv conveys necessity or obligation with a passive meaning (e.g., 'Der Vertrag ist zu unterschreiben' = 'The contract must be signed'), frequently used in academic and legal texts.",
+      "id": "c2_05_q043"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform ist grammatikalisch und stilistisch korrekt?",
+      "options": [
+        "Die Akten gehoren vernichtet.",
+        "Die Akten gehoren vernichtet zu werden.",
+        "Die Akten gehoren zur Vernichtung.",
+        "Die Akten gehoren vernichtet worden."
+      ],
+      "correctAnswer": "Die Akten gehoren vernichtet.",
+      "explanation": "Gehoren + Partizip II is a fixed formal structure expressing necessity or authoritative obligation. It never combines with werden or zu.",
+      "id": "c2_05_q044"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wann wird 'haben + zu + Infinitiv' anstelle von 'sein + zu + Infinitiv' verwendet?",
+      "options": [
+        "Wenn das Subjekt der handelnde Agens ist",
+        "Wenn der Fokus auf dem Empfaenger der Handlung liegt",
+        "Wenn die Handlung unmoglich ist",
+        "Wenn die Handlung in der Zukunft liegt"
+      ],
+      "correctAnswer": "Wenn das Subjekt der handelnde Agens ist",
+      "explanation": "Haben + zu implies an active obligation borne by the subject ('Man muss...'), whereas sein + zu implies a passive necessity focusing on the object/action ('Es muss...').",
+      "id": "c2_05_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Erganzung vervollstandigt den Satz korrekt: 'Die abschliessende Bewertung ____ noch.'?",
+      "options": [
+        "bleibt abzuwarten",
+        "bleibt abwarten",
+        "bleibt abgewartet",
+        "bleibt zu abwarten"
+      ],
+      "correctAnswer": "bleibt abzuwarten",
+      "explanation": "Bleiben + zu + Infinitiv expresses something that is still pending or yet to be resolved, a common stylistic device in formal reporting.",
+      "id": "c2_05_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Partizipialkonstruktion als Passiversatz: 'Die Regeln, die beachtet werden mussen, sind streng.'?",
+      "options": [
+        "Die zu beachtenden Regeln sind streng.",
+        "Die beachteten Regeln sind streng.",
+        "Die zu beachtenden Regeln werden streng.",
+        "Die Regeln zu beachtet sind streng."
+      ],
+      "correctAnswer": "Die zu beachtenden Regeln sind streng.",
+      "explanation": "The attributive zu + Partizip I construction functions as a modal passive adjective, compactly replacing 'die beachtet werden mussen' in academic writing.",
+      "id": "c2_05_q047"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Warum ist 'sich lassen + Infinitiv' im akademischen Diskurs oft prasizer als 'konnen + Passiv'?",
+      "options": [
+        "Es betont die objektive Machbarkeit ohne impliziten Agens",
+        "Es druckt eine subjektive Meinung aus",
+        "Es erfordert immer ein Reflexivpronomen der 1. Person",
+        "Es ist ausschliesslich fur Vergangenheitsformen geeignet"
+      ],
+      "correctAnswer": "Es betont die objektive Machbarkeit ohne impliziten Agens",
+      "explanation": "Sich lassen foregrounds the feasibility of an action itself, removing any implication of who performs it, which aligns with the objectivity expected in C2 academic writing.",
+      "id": "c2_05_q048"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet die Passiversatzform 'sein + zu + Infinitiv' korrekt im gehobenen Stil?",
+      "options": [
+        "Die Ergebnisse sind kritisch zu hinterfragen.",
+        "Die Ergebnisse sind kritisch hinterfragt zu sein.",
+        "Die Ergebnisse sind zu kritisch hinterfragen.",
+        "Die Ergebnisse sind kritisch zu hinterfragt."
+      ],
+      "correctAnswer": "Die Ergebnisse sind kritisch zu hinterfragen.",
+      "explanation": "The structure requires sein + (adverb/adjective) + zu + infinitive. The infinitive remains in its base form at the end, preserving standard German syntax for this construction.",
+      "id": "c2_05_q049"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform ist im streng wissenschaftlichen Kontext am wenigsten angemessen?",
+      "options": [
+        "Die Probe ist zu untersuchen.",
+        "Der Antrag lasst sich nicht genehmigen.",
+        "Das Problem gehort gelost.",
+        "Die Daten wurden schnell analysiert."
+      ],
+      "correctAnswer": "Das Problem gehort gelost.",
+      "explanation": "Gehoren + Partizip II carries a bureaucratic or prescriptive tone. While grammatically valid, it is generally avoided in empirical academic prose in favor of ist zu losen or muss gelost werden.",
+      "id": "c2_05_q050"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion entspricht 'Die Aufgabe muss erledigt werden.' als Passiversatzform?",
+      "options": [
+        "Die Aufgabe ist zu erledigen.",
+        "Die Aufgabe hat erledigt.",
+        "Die Aufgabe lasst erledigen.",
+        "Die Aufgabe bleibt erledigt."
+      ],
+      "correctAnswer": "Die Aufgabe ist zu erledigen.",
+      "explanation": "Sein + zu + Infinitiv is the standard formal equivalent of mussen + Passiv, expressing necessity in a passive structure without auxiliary redundancy.",
+      "id": "c2_05_q051"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung ersetzt das Passiv 'Der Bericht wird gerade uberpruft.' angemessen im gehobenen Stil?",
+      "options": [
+        "Der Bericht befindet sich in Uberprufung.",
+        "Der Bericht ist zu uberprufen.",
+        "Der Bericht lasst sich uberprufen.",
+        "Der Bericht hat uberpruft."
+      ],
+      "correctAnswer": "Der Bericht befindet sich in Uberprufung.",
+      "explanation": "In + Nominalisierung + sein/befinden describes an ongoing state or process, serving as a stylistic alternative to the present passive while maintaining formal register.",
+      "id": "c2_05_q052"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Form: 'Diese Theorie lasst ____ nicht ohne weiteres widerlegen.'?",
+      "options": [
+        "sich",
+        "ihn",
+        "es",
+        "mich"
+      ],
+      "correctAnswer": "sich",
+      "explanation": "The construction always uses the reflexive pronoun sich (3rd person) regardless of the subject's gender or number, forming a fixed passive-like syntactic pattern.",
+      "id": "c2_05_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform druckt eine *noch ausstehende* Notwendigkeit aus, im Gegensatz zu einer allgemeinen Forderung?",
+      "options": [
+        "bleiben + zu + Infinitiv",
+        "sein + zu + Infinitiv",
+        "gehoren + Partizip II",
+        "sich lassen + Infinitiv"
+      ],
+      "correctAnswer": "bleiben + zu + Infinitiv",
+      "explanation": "Bleiben + zu specifically highlights that an action is pending, unresolved, or yet to be completed, adding a temporal nuance distinct from general obligation or possibility.",
+      "id": "c2_05_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man 'Die Hypothese sollte von allen Seiten gepruft werden.' in den gehobenen Nominalstil mit Passiversatz?",
+      "options": [
+        "Die Hypothese ist von allen Seiten zu prufen.",
+        "Die Hypothese lasst von allen Seiten prufen.",
+        "Die Hypothese gehort von allen Seiten gepruft.",
+        "Die Hypothese bleibt von allen Seiten prufend."
+      ],
+      "correctAnswer": "Die Hypothese ist von allen Seiten zu prufen.",
+      "explanation": "Sein + zu + Infinitiv correctly captures the modal passive meaning while maintaining formal academic register, precise syntax, and appropriate distance from the agent.",
+      "id": "c2_05_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt eine fehlerhafte Passiversatzkonstruktion?",
+      "options": [
+        "Die Unterlagen sind umgehend zu senden.",
+        "Die Entscheidung lasst sich nicht ruckgangig machen.",
+        "Die Akten gehoren vernichtet werden.",
+        "Die Methode ist leicht anzuwenden."
+      ],
+      "correctAnswer": "Die Akten gehoren vernichtet werden.",
+      "explanation": "Gehoren requires the bare past participle without werden. Adding werden creates grammatical redundancy and violates the fixed structure of this Passiversatzform.",
+      "id": "c2_05_q056"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche grammatische Funktion hat 'der zu lesende Text' im Satz?",
+      "options": [
+        "Ein Modaladjektiv mit Passivbedeutung",
+        "Ein substantivierter Infinitiv",
+        "Ein Passiv im Prateritum",
+        "Ein aktivischer Relativsatz"
+      ],
+      "correctAnswer": "Ein Modaladjektiv mit Passivbedeutung",
+      "explanation": "The zu + Partizip I construction functions adjectivally, conveying both passive and modal meaning equivalent to 'der Text, der gelesen werden muss'.",
+      "id": "c2_05_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem Kontext ist die Verwendung von 'gehoren + Partizip II' stilistisch akzeptabel?",
+      "options": [
+        "In behordlichen oder juristischen Anordnungen mit appellativem Charakter",
+        "In empirischen Forschungsergebnissen",
+        "In subjektiven Meinungsauserungen",
+        "In umgangssprachlichen Erzahlungen"
+      ],
+      "correctAnswer": "In behordlichen oder juristischen Anordnungen mit appellativem Charakter",
+      "explanation": "While generally avoided in strict academic prose, gehoren + Partizip II is standard in official, bureaucratic, or legal directives to express authoritative obligation.",
+      "id": "c2_05_q058"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Passiversatzform mit einem trennbaren Verb: 'Die Daten mussen aufbereitet werden.'?",
+      "options": [
+        "Die Daten sind aufzubereiten.",
+        "Die Daten sind zu aufbereiten.",
+        "Die Daten sind aufbereitet zu werden.",
+        "Die Daten sind aufbereitet worden."
+      ],
+      "correctAnswer": "Die Daten sind aufzubereiten.",
+      "explanation": "With separable verbs in this construction, zu is inserted between the prefix and the stem. The resulting compound remains a single word placed at the end of the clause.",
+      "id": "c2_05_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Warum bevorzugen Wissenschaftler oft 'sich lassen + Infinitiv' gegenuber dem Vorgangspassiv in Methodenteilen?",
+      "options": [
+        "Es suggeriert inhärente Machbarkeit ohne Fokus auf den Handelnden",
+        "Es ist grammatikalisch einfacher zu bilden",
+        "Es erfordert immer den Konjunktiv I",
+        "Es ist ausschliesslich fur Pluralformen vorgesehen"
+      ],
+      "correctAnswer": "Es suggeriert inhärente Machbarkeit ohne Fokus auf den Handelnden",
+      "explanation": "In methodology sections, sich lassen shifts focus from the researcher to the procedure's inherent feasibility, enhancing objectivity and reducing agent prominence, a hallmark of C2 academic style.",
+      "id": "c2_05_q060"
     }
   ],
-  "totalQuestions": 40
+  "totalQuestions": 60
 }
