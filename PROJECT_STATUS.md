@@ -17,8 +17,8 @@
 | B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **C2** | **440** | **~2,000** | **🔄 In Progress** |
-| **Total** | **6,620** | **~8,000** | 🔄 In Progress |
+| **C2** | **520** | **~2,000** | **🔄 In Progress** |
+| **Total** | **6,700** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -138,9 +138,9 @@
 | 2 | c2_02 | Erweiterte Konzessivstrukturen | 120 | ✅ Complete |
 | 3 | c2_03 | Konjunktiv I | 100 | ✅ Complete |
 | 4 | c2_04 | Komplexe Satzgefüge (3+ Ebenen) | 100 | ✅ Complete |
-| 5 | c2_05 | Passiversatzformen & Funktionale Verbkonstruktionen | 20 | 🔄 In Progress |
+| 5 | c2_05 | Passiversatzformen & Funktionale Verbkonstruktionen | 100 | ✅ Complete |
 
-**C2 Total: 440 questions (target: ~2,000)**
+**C2 Total: 520 questions (target: ~2,000) (target: ~2,000)**
 
 **C2 Total: 420 questions (target: ~2,000)**
 
