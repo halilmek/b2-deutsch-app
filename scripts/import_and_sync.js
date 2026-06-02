@@ -6,15 +6,15 @@
  *
  * Usage:
  *   node scripts/import_and_sync.js                    # push all topics
- *   node scripts/import_and_sync.js b2_04             # push specific topic
- *   node scripts/import_and_sync.js b2_04 b2_05     # push multiple topics
+ *   node scripts/import_and_sync.js c2_04             # push specific topic
+ *   node scripts/import_and_sync.js c2_04 c2_05       # push multiple topics
  *
  * Prerequisites:
  *   npm install firebase-admin
  *   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
  *
  * What it does:
- *   1. Reads local b2_XX.json from app/src/main/assets/
+ *   1. Reads local JSON from app/src/main/assets/ (a1_XX, b1_XX, c2_XX, etc.)
  *   2. Updates version number for that topic in Firestore
  *   3. Pushes updated JSON file to GitHub assets
  *   4. Users get the update within 7 days (or on next app open if forced)
@@ -55,11 +55,11 @@ const FIELD = admin.firestore.FieldValue;
 // GITHUB HELPERS
 // ============================================================
 
-function githubGet(path) {
+function githubGet(gitPath) {
   return new Promise((resolve, reject) => {
     const req = https.request({
       hostname: 'api.github.com',
-      path: '/repos/' + REPO + '/contents/' + path,
+      path: '/repos/' + REPO + '/contents/' + gitPath,
       method: 'GET',
       headers: { 'Authorization': 'token ' + GITHUB_TOKEN, 'User-Agent': 'B2DeutschImport', 'Accept': 'application/json' }
     }, res => {
@@ -75,7 +75,7 @@ function githubGet(path) {
   });
 }
 
-function githubPut(path, content, sha, message) {
+function githubPut(gitPath, content, sha, message) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
       message: message,
@@ -85,7 +85,7 @@ function githubPut(path, content, sha, message) {
     });
     const req = https.request({
       hostname: 'api.github.com',
-      path: '/repos/' + REPO + '/contents/' + path,
+      path: '/repos/' + REPO + '/contents/' + gitPath,
       method: 'PUT',
       headers: { 'Authorization': 'token ' + GITHUB_TOKEN, 'User-Agent': 'B2DeutschImport', 'Content-Type': 'application/json' }
     }, res => {
@@ -104,15 +104,20 @@ function githubPut(path, content, sha, message) {
 // ============================================================
 
 async function updateFirestoreTopic(data) {
-  const subjectId = data.subjectId; // e.g. "b2_04"
-  const docId = subjectId; // doc ID matches subjectId
+  const subjectId = data.subjectId; // e.g. "c2_04"
+  const docId = subjectId;
+
+  // Derive module and level from subjectId prefix (e.g. "c2" -> "C2", "b1" -> "B1")
+  const prefix = subjectId.replace(/_.*/, '').toUpperCase(); // "c2" -> "C2"
+  const moduleMap = { A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B2', C1: 'C1', C2: 'C2' };
+  const level = moduleMap[prefix] || prefix;
 
   // Build questions array for Firestore
   const questions = data.questions.map(q => ({
     id: q.id,
     subjectId: q.subjectId || subjectId,
-    module: 'B2',
-    topicNumber: subjectId.replace('b2_0', '').replace('b2_', '') + '. Topic',
+    module: level,
+    topicNumber: subjectId.replace(/^[a-z]+_[0-9]+/, '') + '. Topic',
     topicName: q.topicName || data.topicName,
     type: q.type || 'multiple_choice',
     questionText: q.questionText,
@@ -120,7 +125,7 @@ async function updateFirestoreTopic(data) {
     correctAnswer: q.correctAnswer,
     explanation: q.explanation || '',
     difficulty: q.difficulty || 'medium',
-    level: 'B2'
+    level: level
   }));
 
   // Get current version, increment
@@ -131,7 +136,7 @@ async function updateFirestoreTopic(data) {
   const docData = {
     id: docId,
     subjectId: subjectId,
-    module: 'B2',
+    module: level,
     topicName: data.topicName,
     totalQuestions: data.totalQuestions,
     version: newVersion,
@@ -177,16 +182,16 @@ async function pushTopic(subjectId) {
 
   // Step 1: Push to GitHub assets
   console.log(`  🔄 Pushing to GitHub...`);
-  const githubPath = 'app/src/main/assets/' + fileName;
-  const currentSHA = await githubGet(githubPath).then(r => r.sha).catch(() => null);
+  const gitPath = 'app/src/main/assets/' + fileName;
+  const currentSHA = await githubGet(gitPath).then(r => r.sha).catch(() => null);
 
   if (!currentSHA) {
-    console.log(`  ❌ Could not get SHA for ${githubPath}`);
+    console.log(`  ❌ Could not get SHA for ${gitPath}`);
     return;
   }
 
   const newContent = JSON.stringify(data, null, 2);
-  const gitResult = await githubPut(githubPath, newContent, currentSHA, `Update ${subjectId}: ${data.topicName} (${data.totalQuestions} questions)`);
+  const gitResult = await githubPut(gitPath, newContent, currentSHA, `Update ${subjectId}: ${data.topicName} (${data.totalQuestions} questions)`);
 
   if (gitResult.status === 200) {
     console.log(`  ✅ GitHub: ${fileName} updated`);
@@ -217,9 +222,9 @@ async function main() {
   const args = process.argv.slice(2);
 
   if (args.length === 0) {
-    // Push all b2_XX.json files
+    // Push all topic files across all levels
     const files = fs.readdirSync(ASSETS_DIR)
-      .filter(f => f.match(/^b2_0[1-9]\.json$/) || f.match(/^b2_[12][0-9]\.json$/))
+      .filter(f => f.match(/^(a1|a2|b1|b2|c1|c2)_[0-9]+\.json$/i))
       .sort();
 
     console.log(`\n🚀 Syncing ALL ${files.length} topics to GitHub + Firestore...\n`);
@@ -231,7 +236,7 @@ async function main() {
 
     console.log(`\n🎉 All ${files.length} topics synced!`);
   } else {
-    // Push specific topics
+    // Push specific topics (handles c1_XX, c2_XX, b2_XX, etc.)
     for (const subjectId of args) {
       await pushTopic(subjectId);
     }
