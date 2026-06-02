@@ -1,0 +1,1424 @@
+{
+  "version": "1.0",
+  "subjectId": "c2_04",
+  "topicName": "Komplexe Satzgefuge (3+ Ebenen)",
+  "level": "C2",
+  "totalQuestions": 100,
+  "description": "Komplexe Satzgefuge (3+ Ebenen) im akademischen und formellen Diskurs - C2 level multi-level complex sentence structures. This topic covers: recognition and production of 3-, 4-, and 5-level nested clauses; subclause types (temporal, causal, conditional, concessive, relative, object, indirect speech); verb position rules at each nesting level (verb-final, verb-second, verb-first); attributive relative clauses across multiple embedding levels; Konjunktiv I in embedded indirect speech within multi-level sentences; the Ersatzregel (substitution) applied in deep embedding contexts; fixed academic idioms and concessive frames (es sei denn, selbst wenn, so... auch, mag... auch); and strategic tips for untangling and constructing complex sentence architectures at C2 level exam.",
+  "tips": [
+    "Level Identification Strategy: When facing a complex sentence, first identify the MAIN CLAUSE verb. Then work backward: What type of subclause is occupying Position 1? (Concessive — Obwohl, temporal — Nachdem, conditional — Falls). Each level adds its own verb-final constraint.",
+    "Relative Clauses as Attribute: Relative clauses can nest inside other relative clauses. Always ask: Which noun does this relative clause modify? 'Die Dokumente, die zur Verurteilung gefuhrt hatten, gefalscht waren' — the relative clause 'die... gefuhrt hatten' modifies 'Dokumente', and the whole noun phrase is the subject of 'bewiesen worden war'.",
+    "Verb Position by Clause Type: Nebensatz (subordinate) → Verb at END. Hauptsatz (main clause) → Verb in POSITION 2 (or Position 1 for questions/imperatives). When a subclause opens the sentence, the main clause verb still occupies Position 2 relative to the opening block.",
+    "Konjunktiv I in Deep Embedding: When indirect speech appears inside a multi-level clause, Konjunktiv I marks the reported content. 'Er konne...' inside a relative clause 'von dem man annahm' still follows standard Konjunktiv I formation rules regardless of embedding depth.",
+    "The 'Es Sei Denn' Rule: 'Es sei denn' introduces a restrictive condition with MAIN-CLAUSE word order (verb second): '...eingestellt werden, es sei denn, man findet alternative Geldgeber.' Notice 'man findet' NOT 'man findet' with verb at end.",
+    "Passive in Nested Clauses: Zustandspassiv (sein + Partizip II) vs Vorgangspassiv (werden + Partizip II). In 'wenn die erste Phase... abgeschlossen ist' — 'ist abgeschlossen' = state, no 'werden'. In 'werden vermieden' — Vorgangspassiv with explicit 'werden'.",
+    "Conditional-Concessive Hybrids: 'selbst wenn', 'selbst wenn... sollte', 'und wenn... sollte' introduce concessive conditionals. 'Selbst wenn' keeps verb at end inside the subclause. 'Und wenn... sollte' can trigger verb-first inversion in the main clause.",
+    "C2 Exam Tip — The Extraction Method: For multi-level sentences, extract the MAIN CLAUSE first. Then identify each subclause as a discrete block. Finally, determine what fills each slot. Practice: 'Erst nachdem bewiesen worden war, dass die Dokumente... → MAIN: ____ das Gericht das Verfahren komplett neu auf.'",
+    "C2 Exam Tip — Prepositional Verbs in Relative Clauses: When a relative clause is based on a prepositional verb (spekulieren uber, ausgehen von, bestehen aus), the relative pronoun must reflect the preposition + case. 'Die Entlassungen, uber die spekuliert wurde' — 'uber die' because 'spekulieren uber + Akkusativ'.",
+    "Word Order Without 'Dass': When 'dass' is omitted in embedded clauses, verb-second order applies. This is common in deeply nested structures where the matrix clause drops the conjunction to avoid three 'dass' words in a row.",
+    "Adjective Agreement in Relative Clauses: Inside relative clauses, predicate adjectives take the case of their noun. 'Jene Qualifikationen, die fur das Projekt unabdingbar sind' — 'unabdingbar' remains uninflected because it follows 'sind' (no case demand on the predicative adjective).",
+    "The 'So... Auch' Concessive Frame: 'So schwierig sich das im Einzelnen auch gestalten mag' — 'so + adjective + auch + subject +...+ mag' is a fixed high-register concessive structure. The verb 'mag' comes at the end of the subclause, not 'gestalten mag'."
+  ],
+  "questions": [
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Obwohl der Bericht belegt, dass die Emissionen sinken, ____ der Experte, dass weitere Schritte notig seien, um das Klimaziel zu erreichen.",
+      "options": [
+        "betont",
+        "betonte",
+        "betonen",
+        "wird betont"
+      ],
+      "correctAnswer": "betont",
+      "explanation": "This structure has 3 levels: Main clause ('[Obwohl...] betont der Experte...'), a 1st-degree concessive subclause ('Obwohl der Bericht belegt'), and a 2nd-degree object clause ('dass die Emissionen sinken'). The main clause verb must be in Position 1 relative to the opening subclause block, matching the singular subject 'der Experte'.",
+      "id": "c2_04_q001"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Gesetz, das gestern verabschiedet wurde, tritt erst in Kraft, wenn alle Richtlinien, die die Kommission ____, vollstandig umgesetzt sind.",
+      "options": [
+        "erarbeitet hat",
+        "erarbeitet haben",
+        "erarbeiten",
+        "erarbeitet hatte"
+      ],
+      "correctAnswer": "erarbeitet hat",
+      "explanation": "This nested structure contains a main clause broken by an attributive relative clause ('Das Gesetz [...] tritt erst in Kraft'), a temporal conditional subclause ('wenn alle Richtlinien [...] vollstandig umgesetzt sind'), and an embedded 3rd-level relative clause modifying 'Richtlinien'. The subject of this deepest clause is 'die Kommission' (singular), requiring 'erarbeitet hat'.",
+      "id": "c2_04_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Da der Patient angab, dass sich die Symptome verschlimmert ____, nachdem er die Tabletten abgesetzt hatte, wurde eine neue Untersuchung angeordnet.",
+      "options": [
+        "hatten",
+        "haben",
+        "hatte",
+        "wurden"
+      ],
+      "correctAnswer": "hatten",
+      "explanation": "Level 1: Main clause ('wurde eine neue Untersuchung angeordnet'). Level 2: Causal subclause ('Da der Patient angab...'). Level 3: Indirect speech object clause ('dass sich die Symptome verschlimmert hatten'). Level 4: Temporal subclause ('nachdem er die Tabletten abgesetzt hatte'). 'Symptome' is plural, requiring 'hatten' (Konjunktiv II substitute for ambiguity).",
+      "id": "c2_04_q003"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wir mussen verhindern, dass Missverstandnisse entstehen, ____ man die Vertage nicht praziz formuliert, bevor sie unterzeichnet werden.",
+      "options": [
+        "indem",
+        "dadurch",
+        "weil",
+        "obgleich"
+      ],
+      "correctAnswer": "indem",
+      "explanation": "The architecture involves a main clause ('Wir mussen verhindern'), a primary object clause ('dass Missverstandnisse entstehen'), a modal 3rd-level subclause ('indem man die Vertage nicht praziz formuliert'), and a temporal 4th-level subclause ('bevor sie unterzeichnet werden'). 'Indem' provides the correct modal vehicle for how the action develops.",
+      "id": "c2_04_q004"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die These, ____ der Autor in seinem neuesten Buch ausgeht, besagt, dass Markte sich selbst regulieren, sofern keine staatlichen Eingriffe erfolgen.",
+      "options": [
+        "von der",
+        "worauf",
+        "wovon",
+        "deren"
+      ],
+      "correctAnswer": "von der",
+      "explanation": "The main sentence is 'Die These [...] besagt [...]'. Level 2 is an integrated relative clause ('von der der Autor... ausgeht' based on 'ausgehen von'). Level 3 is a object clause ('dass Markte sich selbst regulieren'), and Level 4 is a conditional clause ('sofern keine staatlichen Eingriffe erfolgen'). 'Von der' correctly references the feminine noun 'These'.",
+      "id": "c2_04_q005"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Falls der Vorstand entscheidet, dass das Budget gekurzt wird, obwohl die Abteilungen bereits signalisiert haben, dass sie finanzielle Engpasse ____, droht ein Streik.",
+      "options": [
+        "befurchten",
+        "befurchteten",
+        "befurchtet hatten",
+        "befurchtet haben"
+      ],
+      "correctAnswer": "befurchten",
+      "explanation": "A deeply layered complex sentence: Conditional link ('Falls der Vorstand entscheidet... droht ein Streik'), breaking into an object clause ('dass das Budget gekurzt wird'), cascading into a concessive clause ('obwohl die Abteilungen bereits signalisiert haben'), and finishing with a 4th-level object clause requiring indicative present plural 'befurchten' to match 'sie' (die Abteilungen).",
+      "id": "c2_04_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Es bleibt abzuwarten, inwieweit sich die Reformen, die mit viel Aufwand initiiert wurden, bewahren, wenn die erste Phase des Ubergangs erst einmal ____ ist.",
+      "options": [
+        "abgeschlossen",
+        "abschliessen",
+        "abzuschliessen",
+        "abgeschlossen haben"
+      ],
+      "correctAnswer": "abgeschlossen",
+      "explanation": "Level 1: Main clause frame ('Es bleibt abzuwarten'). Level 2: Interrogative object clause ('inwieweit sich die Reformen [...] bewahren'). Level 3: Nested relative clause ('die mit viel Aufwand initiiert wurden'). Level 4: Conditional/temporal clause ('wenn die erste Phase [...] erst einmal abgeschlossen ist'). The slot requires the past participle 'abgeschlossen' to complete the Zustandspassiv.",
+      "id": "c2_04_q007"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Professor hob hervor, dass jene Studierenden, ____ Hausarbeiten plagiierte Passagen enthielten, ohne Ausnahme exmatrikuliert wurden, sobald der Nachweis erbracht sei.",
+      "options": [
+        "deren",
+        "welcher",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Level 1: Main sentence ('Der Professor hob hervor'). Level 2: Object clause ('dass jene Studierenden [...] ohne Ausnahme exmatrikuliert wurden'). Level 3: Interposed relative clause acting as genitive attribute ('deren Hausarbeiten...'). Level 4: Temporal conditional clause ('sobald der Nachweis erbracht sei'). 'Deren' is the correct relative genitive plural modifier for 'Studierenden'.",
+      "id": "c2_04_q008"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Niemand konnte ahnen, dass das Projekt, das anfangs so vielversprechend aussah, scheitern ____, weil wesentliche Ressourcen fehlten, die man zuvor nicht einkalkuliert hatte.",
+      "options": [
+        "wurde",
+        "werde",
+        "werdet",
+        "sei"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "This complex framework cascades past 4 levels: Main clause -> primary object clause broken by a relative clause -> causal clause -> final modifying relative clause. Because the main sentence frame anchors in the past ('konnte ahnen'), the past future/hypothetical expression within indirect structures shifts down to 'wurde' or 'werde' depending on mood markers; 'wurde' represents standard subjective expectation alignment in past narratives.",
+      "id": "c2_04_q009"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Methode erlaubt es, Datenstrome in Echtzeit zu analysieren, sodass Verzogerungen, die sonst den Produktionsprozess lahmlegen konnten, ganzlich ____ werden.",
+      "options": [
+        "vermieden",
+        "vermeiden",
+        "vermeidet",
+        "vermisst"
+      ],
+      "correctAnswer": "vermieden",
+      "explanation": "Level 1: Main clause with infinitive clause ('Die Methode erlaubt es, Datenstrome... zu analysieren'). Level 2: Consecutive clause ('sodass Verzogerungen [...] ganzlich vermieden werden'). Level 3: Relative clause nested into the consecutive system ('die sonst den Produktionsprozess lahmlegen konnten'). 'Vermieden' completes the passive voice construction ('werden' is at the end).",
+      "id": "c2_04_q010"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Dass die Massnahme fehlschlug, liegt daran, dass man versaumte, das Personal ausreichend zu schulen, bevor das System, das Milliarden gekostet hatte, ____ wurde.",
+      "options": [
+        "implementiert",
+        "implementieren",
+        "implementierte",
+        "implementiert worden"
+      ],
+      "correctAnswer": "implementiert",
+      "explanation": "This multi-tiered sentence starts with a subject clause ('Dass die Massnahme fehlschlug'), moves to the main matrix clause ('liegt daran'), goes to a prepositional object clause ('dass man versaumte...'), expands into an infinitive clause ('das Personal ausreichend zu schulen'), drops into a temporal clause ('bevor das System [...] wurde'), which encapsulates a relative clause ('das Milliarden gekostet hatte'). The passive voice requires the past participle 'implementiert'.",
+      "id": "c2_04_q011"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir setzen voraus, dass Bewerber, selbst wenn sie uber keine langjahrige Berufserfahrung verfugen, zumindest jene Qualifikationen mitbringen, die fur das Projekt ____ sind.",
+      "options": [
+        "unabdingbar",
+        "unabdingbare",
+        "unabdingbaren",
+        "unabdingbarsten"
+      ],
+      "correctAnswer": "unabdingbar",
+      "explanation": "Main clause -> Object clause ('dass Bewerber [...] zumindest jene Qualifikationen mitbringen') -> Concessive insertion clause ('selbst wenn sie... verfugen') -> Relative clause ('die fur das Projekt unabdingbar sind'). The predicate adjective inside the relative clause ('sind') remains uninflected: 'unabdingbar'.",
+      "id": "c2_04_q012"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es ist absolut unbegreiflich, wie man behaupten kann, das Problem ____ gelost, wahrend die Betroffenen noch immer unter den direkten Folgen leiden.",
+      "options": [
+        "sei",
+        "ware",
+        "ist",
+        "werde"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Level 1: Main clause. Level 2: Interrogative object clause ('wie man behaupten kann'). Level 3: Reported indirect speech clause ('das Problem sei gelost'). Level 4: Adversative clause ('wahrend die Betroffenen... leiden'). Konjunktiv I 'sei' is the correct formal marker for reporting an external claim within nested clauses.",
+      "id": "c2_04_q013"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher fanden heraus, dass jener Wirkstoff, von dem man annahm, er ____ das Krebswachstum hemmen, in Wahrheit wirkungslos bleibt, sofern er isoliert verabreicht wird.",
+      "options": [
+        "konne",
+        "konnte",
+        "kann",
+        "konnte"
+      ],
+      "correctAnswer": "konne",
+      "explanation": "This extremely complex 5-level setup scales from Main clause -> Object clause ('dass jener Wirkstoff [...] in Wahrheit wirkungslos bleibt') -> Relative clause ('von dem man annahm') -> Nested dependent indirect speech clause ('er konne das Krebswachstum hemmen') -> Conditional boundary clause ('sofern er isoliert verabreicht wird'). 'Konne' represents the formal 3rd-person singular Konjunktiv I modal marker.",
+      "id": "c2_04_q014"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Erst nachdem bewiesen worden war, dass die Dokumente, die zur Verurteilung gefuhrt hatten, gefalscht waren, ____ das Gericht das Verfahren komplett neu auf.",
+      "options": [
+        "rollte",
+        "rollten",
+        "wurde gerollt",
+        "aufgerollt"
+      ],
+      "correctAnswer": "rollte",
+      "explanation": "The entire opening block down to 'waren' is a complex temporal subclause structure acting as position 1 modifier ahead of the main sentence. Temporal clause ('Erst nachdem bewiesen worden war') -> Subject clause ('dass die Dokumente [...] gefalscht waren') -> Relative clause ('die zur Verurteilung gefuhrt hatten'). The main clause must start immediately with the verb matching singular 'das Gericht': 'rollte... auf'.",
+      "id": "c2_04_q015"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Unter den gegebenen Umstanden ist es ratsam, das Verfahren so lange auszusetzen, bis geklart ist, wer fur den Schaden aufkommt, falls die Versicherung eine Regulierung ____.",
+      "options": [
+        "ablehnt",
+        "ablehne",
+        "ablehnen sollte",
+        "abzulehnen hat"
+      ],
+      "correctAnswer": "ablehnt",
+      "explanation": "Main clause -> Infinitive clause ('das Verfahren so lange auszusetzen') -> Temporal target clause ('bis geklart ist') -> Indirect question clause ('wer fur den Schaden aufkommt') -> Conditional clause ('falls die Versicherung eine Regulierung ablehnt'). Inside factual hypotheticals built inside real-world legal steps, the standard indicative present 'ablehnt' fits the baseline conditional layer best.",
+      "id": "c2_04_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Obgleich die Geschaftsfuhrung versicherte, alles zu tun, um den Standort zu retten, blieb unklar, wann jene Entlassungen, ____ bereits seit Monaten spekuliert wurde, umgesetzt werden.",
+      "options": [
+        "uber die",
+        "wovon",
+        "woruber",
+        "von denen"
+      ],
+      "correctAnswer": "uber die",
+      "explanation": "Level 1: Multi-clause pairing. Left wing contains a concessive clause ('Obgleich die Geschaftsfuhrung versicherte...') with nested infinitive structures. Right wing holds the main structure ('blieb unklar'), descending into an indirect question clause ('wann jene Entlassungen [...] umgesetzt werden'), which splits across a relative clause operating with the prepositional verb 'spekulieren uber' + accusative. Therefore, 'uber die' is correct.",
+      "id": "c2_04_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Man geht davon aus, dass, wenn die Inflation im gleichen Maße voranschreitet, wie es im vergangenen Quartal der Fall war, drastische Sparmaßnahmen unumganglich ____.",
+      "options": [
+        "werden",
+        "wurden",
+        "seien",
+        "worden sind"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "This features a nested conditional clause splitting an object clause immediately after its introductory conjunction ('dass, wenn... voranschreitet, [...] drastische Sparmaßnahmen unumganglich werden'). Level 4 includes a comparative clause ('wie es im vergangenen Quartal der Fall war'). The verb 'werden' completes the main verb-final layer of the 'dass'-clause matrix matching the plural subject 'Sparmaßnahmen'.",
+      "id": "c2_04_q018"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es steht auξr Frage, dass jene Projekte, die nicht hinreichend finanziert sind, eingestellt werden mussen, ____ man rechtzeitig alternative Geldgeber findet, was jedoch unwahrscheinlich ist.",
+      "options": [
+        "es sei denn,",
+        "sofern",
+        "vorausgesetzt dass",
+        "ohne dass"
+      ],
+      "correctAnswer": "es sei denn,",
+      "explanation": "Level 1: Main clause expression. Level 2: Object clause ('dass jene Projekte [...] eingestellt werden mussen'). Level 3: Embedded relative clause ('die nicht hinreichend finanziert sind'). Level 4: Restrictive/negative conditional clause initialized via 'es sei denn, [main-clause syntax order: man findet...]'. Level 5: Commenting relative clause ('was jedoch unwahrscheinlich ist'). 'Es sei denn' perfectly matches the normal clause order ('man findet') that follows it.",
+      "id": "c2_04_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Redner verlie das Podium nicht, ohne nochmals darauf hinzuweisen, dass die Krise nur bewaltigt werden kann, wenn alle Akteure an einem Strang ziehen, ____ schwierig sich das im Einzelnen auch gestalten mag.",
+      "options": [
+        "wie",
+        "so",
+        "obgleich",
+        "wiewohl"
+      ],
+      "correctAnswer": "so",
+      "explanation": "Main clause -> Prepositional infinitive clause ('ohne nochmals darauf hinzuweisen') -> Object clause ('dass die Krise nur bewaltigt werden kann') -> Conditional clause ('wenn alle Akteure an einem Strang ziehen') -> Advanced concessive clause ('so schwierig sich das... auch gestalten mag'). The concessive frame requires 'so + adjective... auch... mag'.",
+      "id": "c2_04_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die grammatikalisch korrekte Fortsetzung: 'Der Forscher erklarte, dass die Ergebnisse, ____ , die bisherige Theorie infrage stellten.'",
+      "options": [
+        "die im vergangenen Jahr erhoben worden waren",
+        "die waren im vergangenen Jahr erhoben worden",
+        "welche wurden im vergangenen Jahr erhoben",
+        "dass sie im vergangenen Jahr erhoben wurden"
+      ],
+      "correctAnswer": "die im vergangenen Jahr erhoben worden waren",
+      "explanation": "A relative clause must maintain correct subordinate clause word order. This creates a nested clause structure.",
+      "id": "c2_04_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt drei Verschachtelungsebenen?",
+      "options": [
+        "Ich weiss, dass er kommt.",
+        "Ich glaube, dass sie sagte, dass er kommt.",
+        "Ich denke, dass er morgen kommt, weil er Zeit hat.",
+        "Er kommt, obwohl er mude ist."
+      ],
+      "correctAnswer": "Ich glaube, dass sie sagte, dass er kommt.",
+      "explanation": "The sentence contains a main clause and two nested subordinate clauses, creating three levels.",
+      "id": "c2_04_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergansen Sie: 'Die Studie, die zeigt, dass Menschen, ____ , bessere Ergebnisse erzielen, wurde veroffentlicht.'",
+      "options": [
+        "die regelmaessig uben",
+        "uben regelmaessig",
+        "dass sie regelmaessig uben",
+        "regelmaessig ubend"
+      ],
+      "correctAnswer": "die regelmaessig uben",
+      "explanation": "A relative clause inside another subordinate structure is required.",
+      "id": "c2_04_q023"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz weist die hoogste syntaktische Komplexitat auf?",
+      "options": [
+        "Obwohl es regnete, gingen wir spazieren.",
+        "Ich glaube, dass er recht hat.",
+        "Die Autorin betont, dass die These, die bereits fruher kritisiert worden war, weiterhin relevant sei.",
+        "Wir blieben zu Hause."
+      ],
+      "correctAnswer": "Die Autorin betont, dass die These, die bereits fruher kritisiert worden war, weiterhin relevant sei.",
+      "explanation": "The sentence combines indirect speech and a relative clause embedded within a subordinate clause.",
+      "id": "c2_04_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Bindewort leitet typischerweise eine zusatzliche Verschachtelungsebene ein?",
+      "options": [
+        "dass",
+        "und",
+        "oder",
+        "aber"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'Dass' frequently introduces subordinate clauses and deeper sentence embedding.",
+      "id": "c2_04_q025"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstandigen Sie den Satz: 'Die Untersuchung ergab, dass die Teilnehmer, die angegeben hatten, ____ , signifikant bessere Werte erreichten.'",
+      "options": [
+        "dass sie taglich trainierten",
+        "sie trainierten taglich",
+        "taglich trainierend",
+        "haben taglich trainiert"
+      ],
+      "correctAnswer": "dass sie taglich trainierten",
+      "explanation": "A subordinate clause embedded inside a relative clause creates an additional syntactic layer.",
+      "id": "c2_04_q026"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt Hauptsatz + Nebensatz + Relativsatz + weiterer Nebensatz?",
+      "options": [
+        "Ich weiss, dass er kommt.",
+        "Die Autorin schreibt, dass die Theorie, die viele Experten ablehnen, problematisch sei.",
+        "Der Autor erklart, dass die Theorie, die besagt, dass Wissen konstruiert werde, weiterhin Einfluss habe.",
+        "Obwohl er mude war, arbeitete er weiter."
+      ],
+      "correctAnswer": "Der Autor erklart, dass die Theorie, die besagt, dass Wissen konstruiert werde, weiterhin Einfluss habe.",
+      "explanation": "The sentence contains four hierarchical levels: main clause, dass-clause, relative clause, and nested dass-clause.",
+      "id": "c2_04_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante ist stilistisch am ehesten C2-Niveau?",
+      "options": [
+        "Er sagte, dass die Studie wichtig ist.",
+        "Er sagte, die Studie sei wichtig.",
+        "Er sagte, dass die Studie, die kurzlich veroffentlicht wurde, wichtig sei.",
+        "Die Studie ist wichtig."
+      ],
+      "correctAnswer": "Er sagte, dass die Studie, die kurzlich veroffentlicht wurde, wichtig sei.",
+      "explanation": "The combination of indirect speech and a relative clause increases syntactic sophistication.",
+      "id": "c2_04_q028"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Einfugung ergibt die tiefste Verschachtelung? 'Die Theorie, ____ , wurde kontrovers diskutiert.'",
+      "options": [
+        "die bekannt ist",
+        "die besagt, dass Sprache, die sozial gepragt wird, Identitat formt",
+        "die umstritten ist",
+        "die interessant erscheint"
+      ],
+      "correctAnswer": "die besagt, dass Sprache, die sozial gepragt wird, Identitat formt",
+      "explanation": "This option contains a relative clause, a dass-clause, and another relative clause.",
+      "id": "c2_04_q029"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt mindestens vier syntaktische Ebenen?",
+      "options": [
+        "Ich glaube, dass er kommt.",
+        "Die Studie zeigt, dass Menschen lernen.",
+        "Der Bericht legt nahe, dass die Annahme, die auf der Hypothese beruht, dass soziale Faktoren entscheidend seien, uberpruft werden musse.",
+        "Obwohl er krank war, arbeitete er."
+      ],
+      "correctAnswer": "Der Bericht legt nahe, dass die Annahme, die auf der Hypothese beruht, dass soziale Faktoren entscheidend seien, uberpruft werden musse.",
+      "explanation": "The sentence contains a main clause, a dass-clause, a relative clause, and another embedded dass-clause.",
+      "id": "c2_04_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion erhont die Komplexitat eines Satzgefuges am starksten?",
+      "options": [
+        "Ein einfaches Adjektiv",
+        "Eine Aufzahlung",
+        "Ein eingebetteter Relativsatz innerhalb eines Nebensatzes",
+        "Ein einzelnes Adverb"
+      ],
+      "correctAnswer": "Ein eingebetteter Relativsatz innerhalb eines Nebensatzes",
+      "explanation": "Nested subordinate structures create additional syntactic levels.",
+      "id": "c2_04_q031"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergansen Sie: 'Die Autorin argumentiert, dass die These, die darauf basiert, ____ , uberarbeitet werden musse.'",
+      "options": [
+        "dass Wissen objektiv sei",
+        "Wissen objektiv ist",
+        "objektives Wissen",
+        "Wissen sei objektiv"
+      ],
+      "correctAnswer": "dass Wissen objektiv sei",
+      "explanation": "The embedded dass-clause creates another layer of subordination.",
+      "id": "c2_04_q032"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz zeigt die typische C2-Struktur akademischer Texte?",
+      "options": [
+        "Die Studie ist neu.",
+        "Die Studie zeigt neue Ergebnisse.",
+        "Die Studie, die auf Daten basiert, zeigt neue Ergebnisse.",
+        "Die Studie, die auf Daten basiert, die uber mehrere Jahre erhoben wurden, zeigt Ergebnisse, die bisherige Annahmen infrage stellen."
+      ],
+      "correctAnswer": "Die Studie, die auf Daten basiert, die uber mehrere Jahre erhoben wurden, zeigt Ergebnisse, die bisherige Annahmen infrage stellen.",
+      "explanation": "Multiple relative clauses create a highly complex sentence structure.",
+      "id": "c2_04_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante enthalt eine Relativsatzverschachtelung?",
+      "options": [
+        "Die Studie wurde veroffentlicht.",
+        "Die Studie, die veroffentlicht wurde, erhielt Aufmerksamkeit.",
+        "Die Studie, die Ergebnisse enthalt, die ueberraschend sind, erhielt Aufmerksamkeit.",
+        "Die Studie erhielt Aufmerksamkeit."
+      ],
+      "correctAnswer": "Die Studie, die Ergebnisse enthalt, die ueberraschend sind, erhielt Aufmerksamkeit.",
+      "explanation": "A relative clause is embedded within another relative clause.",
+      "id": "c2_04_q034"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung ist grammatikalisch korrekt?",
+      "options": [
+        "Der Autor meint, dass die Theorie, die besagt, dass Wissen sozial konstruiert wird, relevant sei.",
+        "Der Autor meint, die Theorie, die besagt, Wissen sozial konstruiert wird, relevant sei.",
+        "Der Autor meint, dass die Theorie, die besagt Wissen sozial konstruiert wird, relevant sei.",
+        "Der Autor meint, dass die Theorie besagt, dass Wissen sozial konstruiert wird, die relevant sei."
+      ],
+      "correctAnswer": "Der Autor meint, dass die Theorie, die besagt, dass Wissen sozial konstruiert wird, relevant sei.",
+      "explanation": "All nested clauses are correctly introduced and ordered.",
+      "id": "c2_04_q035"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Satzstruktur enthalt die meisten Hierarchieebenen?",
+      "options": [
+        "Hauptsatz + Nebensatz",
+        "Hauptsatz + Relativsatz",
+        "Hauptsatz + Nebensatz + Relativsatz + Nebensatz",
+        "Zwei Hauptsaetze"
+      ],
+      "correctAnswer": "Hauptsatz + Nebensatz + Relativsatz + Nebensatz",
+      "explanation": "This structure creates the deepest clause hierarchy among the options.",
+      "id": "c2_04_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forschenden stellten fest, dass die Personen, die glaubten, ____ , haeufiger Risiken eingingen.",
+      "options": [
+        "dass sie die Situation kontrollieren konnten",
+        "sie konnten die Situation kontrollieren",
+        "kontrollierend die Situation",
+        "die Situation kontrollieren konnten sie"
+      ],
+      "correctAnswer": "dass sie die Situation kontrollieren konnten",
+      "explanation": "An embedded dass-clause within a relative clause creates an advanced sentence structure.",
+      "id": "c2_04_q037"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage uber komplexe Satzgefuge ist korrekt?",
+      "options": [
+        "Sie enthalten ausschliesslich Hauptsaetze.",
+        "Sie bestehen aus mindestens drei hierarchischen Ebenen.",
+        "Sie enthalten niemals Relativsatze.",
+        "Sie vermeiden Nebensaetze."
+      ],
+      "correctAnswer": "Sie bestehen aus mindestens drei hierarchischen Ebenen.",
+      "explanation": "Complex sentence structures at C2 level typically involve multiple levels of embedding.",
+      "id": "c2_04_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante entspricht dem hoechsten akademischen Stilniveau?",
+      "options": [
+        "Die Ergebnisse sind interessant.",
+        "Die Ergebnisse, die interessant sind, wurden veroffentlicht.",
+        "Die Ergebnisse, die auf Daten beruhen, die im Rahmen einer Langzeitstudie erhoben wurden, bestatigen Annahmen, die bislang umstritten waren.",
+        "Die Ergebnisse wurden veroffentlicht."
+      ],
+      "correctAnswer": "Die Ergebnisse, die auf Daten beruhen, die im Rahmen einer Langzeitstudie erhoben wurden, bestatigen Annahmen, die bislang umstritten waren.",
+      "explanation": "Several embedded relative clauses create a highly sophisticated C2-level structure.",
+      "id": "c2_04_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt die groesste Anzahl von Nebensaetzen?",
+      "options": [
+        "Ich glaube, dass er kommt.",
+        "Die Studie zeigt, dass Lernen wichtig ist.",
+        "Der Autor behauptet, dass die Theorie, die auf Annahmen beruht, die wiederum auf Beobachtungen basieren, uberarbeitet werden musse.",
+        "Er kam, obwohl es regnete."
+      ],
+      "correctAnswer": "Der Autor behauptet, dass die Theorie, die auf Annahmen beruht, die wiederum auf Beobachtungen basieren, uberarbeitet werden musse.",
+      "explanation": "This sentence contains a dass-clause and multiple nested relative clauses, resulting in the highest degree of subordination.",
+      "id": "c2_04_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ein komplexes Satzgefuge mit drei oder mehr Ebenen besteht aus ____.",
+      "options": [
+        "mindestens drei Hauptsatzen",
+        "einem Hauptsatz und mindestens zwei Nebensatzen in unterschiedlicher Hierarchie",
+        "lauter Nebensatzen ohne Hauptsatz",
+        "drei Infinitivgruppen"
+      ],
+      "correctAnswer": "einem Hauptsatz und mindestens zwei Nebensatzen in unterschiedlicher Hierarchie",
+      "explanation": "Complex sentence structures with 3+ levels contain one main clause and at least two subordinate clauses embedded at different levels.",
+      "id": "c2_04_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt drei Ebenen (HS + NS + NS)?",
+      "options": [
+        "Er kam, weil er Zeit hatte.",
+        "Ich denke, dass er weiss, wo das Buch ist.",
+        "Er ging nach Hause und schlief ein.",
+        "Das Wetter ist schön, aber kalt."
+      ],
+      "correctAnswer": "Ich denke, dass er weiss, wo das Buch ist.",
+      "explanation": "Main clause (Ich denke) + dass-clause (dass er weiss) + wo-clause (wo das Buch ist) = three levels.",
+      "id": "c2_04_q042"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Im Satz 'Der Professor, der behauptete, dass die Theorie, die seit Jahren galt, falsch sei, wurde kritisiert' – wie viele Satzebenen liegen vor?",
+      "options": [
+        "zwei",
+        "drei",
+        "vier",
+        "funf"
+      ],
+      "correctAnswer": "vier",
+      "explanation": "Main clause (Der Professor wurde kritisiert) + Relativsatz (der behauptete) + dass-Satz (dass die Theorie falsch sei) + weiterer Relativsatz (die seit Jahren galt) = four levels.",
+      "id": "c2_04_q043"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktion leitet typischerweise die tiefste Nebensatzebene in einem komplexen Satzgefuge ein?",
+      "options": [
+        "weil",
+        "dass",
+        "obwohl",
+        "nachdem"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'Dass' often introduces content clauses that can themselves contain further embedded clauses.",
+      "id": "c2_04_q044"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein typisches Problem bei mehrfach eingebetteten Nebensatzen im Deutschen?",
+      "options": [
+        "Sie haben immer den Konjunktiv I.",
+        "Die Verbklammer kann extrem weit auseinander treten.",
+        "Sie erlauben kein Passiv.",
+        "Sie durfen keine Modalverben enthalten."
+      ],
+      "correctAnswer": "Die Verbklammer kann extrem weit auseinander treten.",
+      "explanation": "In complex embeddings, the finite verb may be placed very far from the auxiliary or particle.",
+      "id": "c2_04_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ man weiss, dass die These, die er aufstellte, falsch war, sollte man sie nicht zitieren.",
+      "options": [
+        "Wenn",
+        "Obwohl",
+        "Da",
+        "Weil"
+      ],
+      "correctAnswer": "Da",
+      "explanation": "'Da' introduces a causal clause at the highest level; inside it there are two further embeddings.",
+      "id": "c2_04_q046"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie nennt man den Effekt, wenn mehrere Nebensatze ineinander verschachtelt sind?",
+      "options": [
+        "Parataxe",
+        "Hypotaxe",
+        "Inkrustation",
+        "Ellipse"
+      ],
+      "correctAnswer": "Hypotaxe",
+      "explanation": "Hypotaxis is the technical term for subordinating clauses hierarchically.",
+      "id": "c2_04_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz hat die tiefste Verschachtelungstiefe?",
+      "options": [
+        "Ich glaube, dass er sagt, dass sie kommt.",
+        "Er kam, weil es regnete.",
+        "Das Buch, das ich las, war gut.",
+        "Sie ist klug, obwohl sie jung ist."
+      ],
+      "correctAnswer": "Ich glaube, dass er sagt, dass sie kommt.",
+      "explanation": "Main clause + dass (Ebene 2) + dass (Ebene 3) = three levels of embedding.",
+      "id": "c2_04_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im akademischen Deutsch werden komplexe Satzgefuge mit drei oder mehr Ebenen besonders haufig verwendet, um ____.",
+      "options": [
+        "emotionale Wirkung zu erzielen",
+        "logische Abhangigkeiten und Argumentationsschichten prasize darzustellen",
+        "den Text zu verkurzen",
+        "Leser zu unterhalten"
+      ],
+      "correctAnswer": "logische Abhangigkeiten und Argumentationsschichten prasize darzustellen",
+      "explanation": "Complex embeddings show hierarchical logical relations in scholarly arguments.",
+      "id": "c2_04_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein stilistisches Risiko von sehr tief verschachtelten Satzen (4+ Ebenen)?",
+      "options": [
+        "Sie sind immer falsch.",
+        "Sie erschweren das Textverstandnis erheblich.",
+        "Sie gelten als umgangssprachlich.",
+        "Sie erfordern den Konjunktiv I."
+      ],
+      "correctAnswer": "Sie erschweren das Textverstandnis erheblich.",
+      "explanation": "Deeply nested sentences can become incomprehensible; good academic writing often breaks them up.",
+      "id": "c2_04_q050"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Im Satz 'Die Annahme, dass die Faktoren, die das Ergebnis beeinflussen, kontrolliert werden mussen, wurde widerlegt' – der Relativsatz 'die das Ergebnis beeinflussen' steht auf welcher Ebene?",
+      "options": [
+        "Ebene 1 (unter dem Hauptsatz)",
+        "Ebene 2 (unter dem dass-Satz)",
+        "Ebene 3 (innerhalb des Relativsatzes zu 'Faktoren')",
+        "Hauptsatzebene"
+      ],
+      "correctAnswer": "Ebene 3 (innerhalb des Relativsatzes zu 'Faktoren')",
+      "explanation": "Main clause → dass-clause (Ebene 2) → Relativsatz zu 'Faktoren' (Ebene 3).",
+      "id": "c2_04_q051"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb steht im Deutschen bei mehrfacher Einbettung am Ende des Satzes?",
+      "options": [
+        "Das finite Verb des Hauptsatzes",
+        "Das finite Verb des tiefsten Nebensatzes",
+        "Das finite Verb des hochsten Nebensatzes",
+        "Alle finiten Verben stehen am Ende."
+      ],
+      "correctAnswer": "Das finite Verb des tiefsten Nebensatzes",
+      "explanation": "In final position, the verb of the most deeply embedded clause appears last in German subordinate clauses.",
+      "id": "c2_04_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Phanomen tritt bei drei oder mehr Ebenen oft auf, wenn der Nebensatz mit 'dass' beginnt?",
+      "options": [
+        "Auslassung des 'dass'",
+        "Konjunktiv II statt I",
+        "Verb-Erst-Stellung im Nebensatz",
+        "mehrere Verben am Satzende (Verb-Kaskade)"
+      ],
+      "correctAnswer": "mehrere Verben am Satzende (Verb-Kaskade)",
+      "explanation": "Multiple infinitives or participles pile up at the end: '..., dass er hatte kommen konnen mussen'.",
+      "id": "c2_04_q053"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Eine Alternative zu sehr tief verschachtelten Satzgefugen im akademischen Stil ist ____.",
+      "options": [
+        "die Nutzung von mehr Hauptsatzen (Parataxe)",
+        "die Vermeidung von Nominalstil",
+        "die Verwendung von mehr Adverbien",
+        "der reine Konjunktiv II"
+      ],
+      "correctAnswer": "die Nutzung von mehr Hauptsatzen (Parataxe)",
+      "explanation": "Breaking down complex embeddings into shorter main clauses improves clarity.",
+      "id": "c2_04_q054"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist korrekt und hat drei Ebenen?",
+      "options": [
+        "Er fragte, ob sie wusste, warum er kam.",
+        "Er fragte ob sie wusste warum er kam.",
+        "Er fragte, ob sie wusste, warum er kam, aber sie antwortete nicht.",
+        "Ob sie wusste, warum er kam."
+      ],
+      "correctAnswer": "Er fragte, ob sie wusste, warum er kam.",
+      "explanation": "Main clause (Er fragte) + ob-clause (ob sie wusste) + warum-clause (warum er kam) = three levels.",
+      "id": "c2_04_q055"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet 'Satzgefuge' im Gegensatz zu 'Satzreihe'?",
+      "options": [
+        "Satzgefuge enthalt nur Hauptsatze, Satzreihe Nebensatze.",
+        "Satzgefuge hat mindestens einen Nebensatz, Satzreihe verbindet Hauptsatze.",
+        "Satzgefuge ist kurzer als eine Satzreihe.",
+        "Satzgefuge verwendet immer Konjunktiv I."
+      ],
+      "correctAnswer": "Satzgefuge hat mindestens einen Nebensatz, Satzreihe verbindet Hauptsatze.",
+      "explanation": "Satzgefuge = complex sentence with subordination; Satzreihe = compound sentence with coordination.",
+      "id": "c2_04_q056"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "In der Analyse komplexer Satze mit drei Ebenen spricht man von 'Einbettungstiefe'. Welcher Satz hat Einbettungstiefe 3?",
+      "options": [
+        "Hans sagt, dass Maria weiss, dass Peter kommt.",
+        "Hans und Maria kommen.",
+        "Hans kommt, weil Maria ihn einladt.",
+        "Hans, der Maria liebt, ist froh."
+      ],
+      "correctAnswer": "Hans sagt, dass Maria weiss, dass Peter kommt.",
+      "explanation": "Main clause (Hans sagt) → dass1 (Maria weiss) → dass2 (Peter kommt) = embedding depth 3.",
+      "id": "c2_04_q057"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktion leitet auf der zweiten Ebene keinen vollstandigen Nebensatz ein?",
+      "options": [
+        "weil",
+        "dass",
+        "um ... zu",
+        "obwohl"
+      ],
+      "correctAnswer": "um ... zu",
+      "explanation": "'Um ... zu' introduces an infinitive clause, not a finite subordinate clause, but can count as a level in extended models.",
+      "id": "c2_04_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Im Satz 'Dass er behauptete, dass sie die Wahrheit sagte, obwohl er sie nicht kannte, uberraschte alle' – wie viele Ebenen zahlt man?",
+      "options": [
+        "drei",
+        "vier",
+        "funf",
+        "sechs"
+      ],
+      "correctAnswer": "vier",
+      "explanation": "Hauptsatz (uberraschte alle) → dass-Satz (Ebene 2: Dass er behauptete) → dass-Satz (Ebene 3: dass sie die Wahrheit sagte) → obwohl-Satz (Ebene 4: obwohl er sie nicht kannte).",
+      "id": "c2_04_q059"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "C2-Lernende sollten bei mehrfach eingebetteten Satzen besonders auf ____ achten.",
+      "options": [
+        "die Reihung der Konnektoren",
+        "die korrekte Verwendung des bestimmten Artikels",
+        "die Satzklammer und Verbendstellung",
+        "die Vermeidung von Nominalisierungen"
+      ],
+      "correctAnswer": "die Satzklammer und Verbendstellung",
+      "explanation": "In complex embeddings, correct placement of verbs and the frame (Satzklammer) is crucial for grammaticality.",
+      "id": "c2_04_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Teil des Satzes 'Obwohl die Studie vielversprechende Ansatze zeigte, die von mehreren Expertengruppen bestatigt wurden, blieb die Finanzierung aus, da das Budget bereits ausgescopft war.' ist der Hauptsatz?",
+      "options": [
+        "blieb die Finanzierung aus",
+        "Obwohl die Studie vielversprechende Ansatze zeigte",
+        "da das Budget bereits ausgescopft war",
+        "die von mehreren Expertengruppen bestatigt wurden"
+      ],
+      "correctAnswer": "blieb die Finanzierung aus",
+      "explanation": "In German complex sentences, the main clause carries the core assertion and typically follows verb-second or inversion rules. Despite multiple embedded subordinate clauses, 'blieb die Finanzierung aus' is the independent main clause containing the finite verb in position 2.",
+      "id": "c2_04_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "In einem mehrstufigen Satzgefuge steht das finite Verb des tiefsten Nebensatzes grundsatlich an ____ Stelle.",
+      "options": [
+        "der zweiten",
+        "der letzten",
+        "der dritten",
+        "der ersten"
+      ],
+      "correctAnswer": "der letzten",
+      "explanation": "Regardless of embedding depth, German subordinate clauses strictly follow verb-final word order. The conjugated verb always moves to the absolute end of the subordinate clause, even when multiple Nebensatze are nested.",
+      "id": "c2_04_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie viele Kommas benotigt der korrekte Satz: 'Die Ergebnisse obwohl sie vorlaufig waren wurden publiziert nachdem die Peer-Review abgeschlossen war.'?",
+      "options": [
+        "kein Komma",
+        "zwei",
+        "drei",
+        "vier"
+      ],
+      "correctAnswer": "drei",
+      "explanation": "Each subordinate clause must be delimited by commas. 'obwohl sie vorlaufig waren' requires commas before and after it, and 'nachdem die Peer-Review abgeschlossen war' requires a comma before it. Total: three commas.",
+      "id": "c2_04_q063"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktion vervollstandigt den Satz logisch: 'Das Modell wurde angepasst, ____ die Parameter instabil blieben, ____ die Simulation fehlschlug.'?",
+      "options": [
+        "weil ... sodass",
+        "wenn ... damit",
+        "obwohl ... jedoch",
+        "falls ... indem"
+      ],
+      "correctAnswer": "weil ... sodass",
+      "explanation": "This creates a coherent causal-resultative chain: 'weil' introduces the cause (unstable parameters), and 'sodass' introduces the direct consequence (simulation failure). This structure is standard in academic C2 writing.",
+      "id": "c2_04_q064"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz demonstriert die korrekte Inversion nach einem vorangestellten, mehrstufigen Nebensatzgefuge?",
+      "options": [
+        "Nachdem die Forscher, die das Experiment initiiert hatten, die Ergebnisse publizierten, die von unabhangigen Stellen gepruft worden waren, wurde die Theorie akzeptiert.",
+        "Nachdem die Forscher, die das Experiment initiiert hatten, die Ergebnisse publizierten, die von unabhangigen Stellen gepruft worden waren, die Theorie wurde akzeptiert.",
+        "Nachdem die Forscher, die das Experiment initiiert hatten, die Ergebnisse publizierten, die von unabhangigen Stellen gepruft worden waren, akzeptiert die Theorie wurde.",
+        "Die Theorie wurde akzeptiert, nachdem die Forscher, die das Experiment initiiert hatten, die Ergebnisse publizierten, die von unabhangigen Stellen gepruft worden waren."
+      ],
+      "correctAnswer": "Nachdem die Forscher, die das Experiment initiiert hatten, die Ergebnisse publizierten, die von unabhangigen Stellen gepruft worden waren, wurde die Theorie akzeptiert.",
+      "explanation": "When a subordinate clause complex occupies position 1, the main clause must begin with the finite verb (inversion rule). The first option correctly places 'wurde' at position 1 after the comma.",
+      "id": "c2_04_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im Satz 'Der Ansatz, den die Arbeitsgruppe entwickelte, nachdem sie die Quellen gesichtet hatte, die sich mit fruheren Modellen befassten, erwies sich als robust.' bezieht sich das Relativpronomen 'die' auf _____.",
+      "options": [
+        "die Arbeitsgruppe",
+        "die Quellen",
+        "fruhere Modelle",
+        "den Ansatz"
+      ],
+      "correctAnswer": "die Quellen",
+      "explanation": "In nested relative clauses, the relative pronoun agrees in gender/number with the nearest logical antecedent. 'Die' (feminine plural) refers to 'die Quellen' (feminine plural), maintaining syntactic clarity across three embedding levels.",
+      "id": "c2_04_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Kombination vervollstandigt den Satz korrekt und stilistisch angemessen: '____ die Regierung, die den Vorschlag eingereicht hatte, die Bedenken ____ ignorierte, die von Experten geauessert wurden, scheiterte das Projekt.'?",
+      "options": [
+        "Obwohl ... bewusst",
+        "Weil ... ganzlich",
+        "Wenn ... teilweise",
+        "Damit ... vollstandig"
+      ],
+      "correctAnswer": "Obwohl ... bewusst",
+      "explanation": "'Obwohl' establishes the concessive framework for the main clause 'scheiterte das Projekt'. 'Bewusst' logically modifies 'ignorierte', indicating intentional disregard. The structure maintains proper subordination and academic register.",
+      "id": "c2_04_q067"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage zur Kommatierung in mehrstufigen Satzgefugen ist korrekt?",
+      "options": [
+        "Nur der Hauptsatz und der erste Nebensatz werden durch Komma getrennt.",
+        "Jede Nebensatzebene muss durch Kommas vom uebergeordneten Satzteil abgegrenzt werden.",
+        "Kommas sind bei Konjunktionen wie 'dass' oder 'ob' optional.",
+        "Einschuebe wie 'namlich' oder 'also' ersetzen Kommas in komplexen Satzen."
+      ],
+      "correctAnswer": "Jede Nebensatzebene muss durch Kommas vom uebergeordneten Satzteil abgegrenzt werden.",
+      "explanation": "German punctuation rules mandate comma separation for every subordinate clause, regardless of embedding depth. This ensures syntactic boundaries remain clear in multi-level structures.",
+      "id": "c2_04_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Fortsetzung: 'Es ist unbestritten, dass die Methode, die urspruenglich fur physikalische Systeme entwickelt wurde, die unter extremen Bedingungen getestet worden waren, ____.'?",
+      "options": [
+        "sie in der Biologie anwendbar ist.",
+        "in der Biologie anwendbar ist.",
+        "anwendbar in der Biologie ist.",
+        "ist in der Biologie anwendbar."
+      ],
+      "correctAnswer": "in der Biologie anwendbar ist.",
+      "explanation": "The nested relative clauses end before the final verb position. 'ist' must occupy the absolute final position of the 'dass'-clause, with the predicate adjective 'anwendbar' preceding it.",
+      "id": "c2_04_q069"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz transformiert die indirekte Rede korrekt in ein 3-stufiges Gefuge: 'Der Autor schreibt: Das Paradigma, das wir etabliert haben, nachdem die Vorstudien abgeschlossen waren, wird kontrovers diskutiert.'?",
+      "options": [
+        "Der Autor schreibt, dass das Paradigma, das sie etabliert hatten, nachdem die Vorstudien abgeschlossen gewesen waren, kontrovers diskutiert werde.",
+        "Der Autor schreibt, dass das Paradigma, das sie etabliert haben, nachdem die Vorstudien abgeschlossen wurden, kontrovers diskutiert wird.",
+        "Der Autor schreibt, das Paradigma, das sie etabliert hatten, nachdem die Vorstudien abgeschlossen waren, werde kontrovers diskutiert.",
+        "Der Autor schreibt, das Paradigma, welches sie etabliert haben, nachdem die Vorstudien abgeschlossen seien, diskutiert kontrovers werden."
+      ],
+      "correctAnswer": "Der Autor schreibt, dass das Paradigma, das sie etabliert hatten, nachdem die Vorstudien abgeschlossen gewesen waren, kontrovers diskutiert werde.",
+      "explanation": "In formal academic reporting, Konjunktiv I is preferred ('werde'), with Konjunktiv II substitution ('hatten', 'gewesen waren') where forms collide with indicative. This maintains clear indirect speech marking across three nested levels.",
+      "id": "c2_04_q070"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Struktur vermeidet am effektivsten die typische C2-Falle des 'Satzungetuems' bei 3+ Ebenen?",
+      "options": [
+        "Verwendung von Partizipialkonstruktionen zur Reduzierung von Nebensatzen",
+        "Einfugen zusatzlicher Relativpronomen zur Prasizierung",
+        "Verkettung aller Kausal- und Konzessivangaben in einem Hauptsatz",
+        "Weglassen aller Kommas zur Steigerung der Lesegeschwindigkeit"
+      ],
+      "correctAnswer": "Verwendung von Partizipialkonstruktionen zur Reduzierung von Nebensatzen",
+      "explanation": "C2 stylistic competence requires balancing complexity with readability. Participle constructions (e.g., 'unter Berucksichtigung der...' instead of 'weil man... berucksichtigt') compress information without creating unreadable clause chains.",
+      "id": "c2_04_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im Satz 'Die Theorie, die der Professor verteidigte, obwohl die Kritiker, die sie rezensiert hatten, erhebliche methodische Mangel festgestellt hatten, blieb in der Diskussion umstritten.' bezieht sich 'sie' auf _____.",
+      "options": [
+        "die Theorie",
+        "die Kritiker",
+        "erhebliche methodische Mangel",
+        "die Diskussion"
+      ],
+      "correctAnswer": "die Theorie",
+      "explanation": "The pronoun 'sie' (feminine singular) refers to 'die Theorie'. In nested structures, pronoun resolution relies on gender/number agreement and logical proximity to the action 'rezensiert hatten' (reviewed).",
+      "id": "c2_04_q072"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz zeigt eine korrekte, aber stilistisch unangemessene Uberkomplexitat fur einen wissenschaftlichen Text?",
+      "options": [
+        "Die Studie, deren Ergebnisse, die auf einer kleinen Stichprobe basierten, die nicht reprasentativ war, veroffentlicht wurden, loste eine Debatte aus.",
+        "Die Studie wurde veroffentlicht, obwohl ihre Ergebnisse auf einer nicht reprasentativen Stichprobe basierten, was eine Debatte ausloste.",
+        "Basierend auf nicht reprasentativen Ergebnissen wurde die Studie veroffentlicht und loste eine Debatte aus.",
+        "Die Veroffentlichung der Studie loste eine Debatte aus, da ihre Ergebnisse auf einer kleinen, nicht reprasentativen Stichprobe beruhten."
+      ],
+      "correctAnswer": "Die Studie, deren Ergebnisse, die auf einer kleinen Stichprobe basierten, die nicht reprasentativ war, veroffentlicht wurden, loste eine Debatte aus.",
+      "explanation": "This sentence stacks three relative clauses ('deren Ergebnisse', 'die auf... basierten', 'die nicht... war') with nested genitives and passive constructions, creating an opaque 'Schachtelsatz' that violates C2 readability standards despite grammatical correctness.",
+      "id": "c2_04_q073"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie wird das finite Verb im Satzgefuge 'Es bleibt abzuwarten, ____ die Kommission, die den Bericht gepruft hat, die Empfehlungen, die von den Experten formuliert wurden, ____.' korrekt positioniert?",
+      "options": [
+        "ob ... annimmt",
+        "dass ... annimmt",
+        "ob ... wird angenommen",
+        "dass ... angenommen werden"
+      ],
+      "correctAnswer": "ob ... annimmt",
+      "explanation": "The sentence expresses uncertainty, requiring 'ob' (whether). The main clause of the embedded structure ends with the finite verb 'annimmt' in final position, correctly closing the relative clause chain and the 'ob'-clause.",
+      "id": "c2_04_q074"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktion leitet die tiefste Ebene in 'Die Politik muss reagieren, bevor die Krisen, die sich verscharfen, die Systeme, die darauf aufbauen, ____.' ein?",
+      "options": [
+        "uberlasten",
+        "uberlastet werden",
+        "wurden uberlastet",
+        "uberlasten werden"
+      ],
+      "correctAnswer": "uberlasten",
+      "explanation": "The relative clause 'die darauf aufbauen' modifies 'Systeme'. The verb 'uberlasten' (active, plural to match 'Systeme') occupies the final position of the innermost subordinate clause, completing the syntactic chain correctly.",
+      "id": "c2_04_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz demonstriert korrekte Bezugswortauflosung ohne Ambiguitat in einem 3-stufigen Gefuge?",
+      "options": [
+        "Der Direktor, der das Gutachten, das von der Kommission erstellt wurde, die er selbst berufen hatte, unterzeichnete, trat zuruck.",
+        "Der Direktor unterzeichnete das Gutachten der Kommission, die er selbst berufen hatte, und trat daraufhin zuruck.",
+        "Das Gutachten, das die Kommission erstellte, die der Direktor berief, wurde von ihm unterzeichnet, woraufhin er zurucktrat.",
+        "Er trat zuruck, nachdem er das Gutachten unterzeichnet hatte, das die Kommission erstellt hatte, die er berufen hatte."
+      ],
+      "correctAnswer": "Der Direktor unterzeichnete das Gutachten der Kommission, die er selbst berufen hatte, und trat daraufhin zuruck.",
+      "explanation": "C2 style prioritizes clarity in reference resolution. Option 2 breaks the chain into coordinated main clauses, eliminating ambiguous pronoun attachment ('die') while preserving logical sequence and academic tone.",
+      "id": "c2_04_q076"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im Satz 'Die Analyse, die zeigte, dass die Modelle, die auf linearen Annahmen basierten, die Realitat nicht abbilden konnten, wurde verworfen.' steht das Verb 'wurde' an ____ Stelle des Gesamtsatzes.",
+      "options": [
+        "der letzten",
+        "der zweiten",
+        "der dritten",
+        "der ersten"
+      ],
+      "correctAnswer": "der zweiten",
+      "explanation": "'Die Analyse' is position 1. The entire 'die zeigte, dass...' complex is an embedded relative clause acting as an attributive modifier. The main finite verb 'wurde' correctly occupies position 2, following standard German V2 rule.",
+      "id": "c2_04_q077"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Transformation erhalt die Bedeutung, verbessert aber die Lesbarkeit eines überkomplexen Satzes?",
+      "options": [
+        "Ersetzung aller Konjunktionen durch Semikola",
+        "Auflosung in zwei Hauptsatze mit expliziten Kohasionsmitteln",
+        "Verwendung des Passivs in allen Nebensatzen",
+        "Streichung aller Relativsatze zugunsten von Adjektiven"
+      ],
+      "correctAnswer": "Auflosung in zwei Hauptsatze mit expliziten Kohasionsmitteln",
+      "explanation": "Academic writing at C2 level requires balancing syntactic sophistication with clarity. Breaking a 3+ level structure into coordinated main clauses linked by explicit connectors (daher, infolgedessen, dennoch) preserves meaning while reducing cognitive load.",
+      "id": "c2_04_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt eine syntaktische Inkonsistenz in der Verbklammer eines 3-stufigen Gefuges?",
+      "options": [
+        "Es ist fraglich, ob die Massnahme, die beschlossen wurde, die Auswirkungen, die beforchtet worden waren, verhindern kann.",
+        "Es ist fraglich, ob die Massnahme, die beschlossen wurde, die Auswirkungen, die beforchtet worden waren, kann verhindern.",
+        "Es ist fraglich, ob die Massnahme, die beschlossen worden ist, die Auswirkungen, die beforchtet wurden, verhindern wird.",
+        "Es ist fraglich, ob die Massnahme, die man beschlossen hat, die Auswirkungen, die man beforchtet hatte, wird verhindern konnen."
+      ],
+      "correctAnswer": "Es ist fraglich, ob die Massnahme, die beschlossen wurde, die Auswirkungen, die beforchtet worden waren, kann verhindern.",
+      "explanation": "In German subordinate clauses, the finite verb must occupy the final position. 'kann verhindern' violates verb-final order. The correct form would place 'kann' at the absolute end: '...verhindern kann.'",
+      "id": "c2_04_q079"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage zur Kommatierung bei nachgestellten Relativsatzen in komplexen Gefugen ist korrekt?",
+      "options": [
+        "Nachgestellte Relativsatze werden nie durch Komma abgetrennt.",
+        "Jeder nachgestellte Relativsatz muss durch Komma vom Bezugswort getrennt werden.",
+        "Kommas sind nur erforderlich, wenn der Relativsatz nicht essential ist.",
+        "Nachgestellte Relativsatze erfordern ein Semikolon zur Abgrenzung."
+      ],
+      "correctAnswer": "Jeder nachgestellte Relativsatz muss durch Komma vom Bezugswort getrennt werden.",
+      "explanation": "German grammar mandates comma separation for all subordinate clauses, including restrictive and non-restrictive relative clauses. This rule applies regardless of embedding depth or semantic necessity.",
+      "id": "c2_04_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wahlen Sie die grammatisch korrekte Variante mit drei Satzebenen:",
+      "options": [
+        "Er sagte, dass er hofft, dass sie kommt.",
+        "Er sagte, dass er hoffte, dass sie kommen wurde.",
+        "Er sagte, dass er hoffte, dass sie kam.",
+        "Er sagte, dass er hoffen wurde, dass sie kommt."
+      ],
+      "correctAnswer": "Er sagte, dass er hoffte, dass sie kommen wurde.",
+      "explanation": "In indirect speech with a past reporting verb ('sagte'), the embedded clause requires consistent tense backshift. 'hoffte' (past) governs the inner clause, which uses Konjunktiv II ('wurden kommen') for reported indirect speech — correct across all three levels.",
+      "id": "c2_04_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist stilistisch und grammatisch korrekt?",
+      "options": [
+        "Das Buch, das der Mann, der gestern kam, mitbrachte, war interessant.",
+        "Das Buch, das der Mann mitbrachte, der gestern kam, war interessant.",
+        "Das Buch war interessant, das der Mann, der gestern kam, mitbrachte.",
+        "Der Mann, der gestern kam, das Buch mitbrachte, das interessant war."
+      ],
+      "correctAnswer": "Das Buch, das der Mann, der gestern kam, mitbrachte, war interessant.",
+      "explanation": "This sentence has three levels: main clause (Das Buch … war interessant), relative clause (das der Mann … mitbrachte), and embedded relative clause (der gestern kam). The structure is grammatically correct even though nested relative clauses are stylistically heavy — this is a hallmark of C2-level German.",
+      "id": "c2_04_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Erganzen Sie die Lucke: 'Obwohl er wusste, dass der Zeuge log, ____ er nichts sagen.'",
+      "options": [
+        "konnte",
+        "kann",
+        "konnte",
+        "hatte gekonnt"
+      ],
+      "correctAnswer": "konnte",
+      "explanation": "'Obwohl' introduces a concessive subordinate clause. The main clause is in the past tense narrative context ('wusste'), so 'konnte' (simple past of 'konnen') is the correct and consistent choice. The sentence has three levels: main -> obwohl-clause -> dass-clause.",
+      "id": "c2_04_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante verbindet drei Ebenen korrekt mit Infinitivkonstruktion?",
+      "options": [
+        "Sie bat ihn, ihr zu helfen, das Problem zu losen.",
+        "Sie bat ihn zu helfen ihr, das Problem losen.",
+        "Sie bat, dass er ihr hilft, das Problem zu losen.",
+        "Sie bat ihn, ihr helfen, um das Problem zu losen."
+      ],
+      "correctAnswer": "Sie bat ihn, ihr zu helfen, das Problem zu losen.",
+      "explanation": "'bitten + Akkusativ + zu-Infinitiv' is the correct construction. The first infinitive phrase 'ihr zu helfen' embeds a second 'das Problem zu losen', creating three syntactic levels. This structure is grammatically impeccable and natural in formal German.",
+      "id": "c2_04_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet den Konjunktiv I korrekt in der indirekten Rede mit drei Ebenen?",
+      "options": [
+        "Er berichtete, die Ministerin habe erklart, die Lage sei kritisch.",
+        "Er berichtete, die Ministerin hatte erklart, die Lage ware kritisch.",
+        "Er berichtete, die Ministerin erklarte, die Lage ist kritisch.",
+        "Er berichtete, dass die Ministerin erklart hat, dass die Lage kritisch war."
+      ],
+      "correctAnswer": "Er berichtete, die Ministerin habe erklart, die Lage sei kritisch.",
+      "explanation": "Konjunktiv I ('habe erklart', 'sei kritisch') is the standard form for indirect reported speech in written German. The three levels are: reporting verb (berichtete) -> inner report (habe erklart) -> reported content (sei kritisch). This is the most register-appropriate form.",
+      "id": "c2_04_q085"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante ist grammatisch korrekt und stilistisch angemessen fur C2-Niveau?",
+      "options": [
+        "Vorausgesetzt, dass du weisst, was du tust, ware es moglich, dass man dich beauftragt.",
+        "Vorausgesetzt, du weisst, was du tust, ware es moglich, dich zu beauftragen.",
+        "Vorausgesetzt dass du weisst was du tust ware es moglich dich zu beauftragen.",
+        "Wenn vorausgesetzt wird, dass du weisst, was du tust, dann konnte man dich beauftragen."
+      ],
+      "correctAnswer": "Vorausgesetzt, du weisst, was du tust, ware es moglich, dich zu beauftragen.",
+      "explanation": "'Vorausgesetzt' used as a conjunction (without 'dass') creates a compact conditional. The three levels are: conditional clause -> embedded 'was'-clause -> main clause with infinitive construction. This is the most economical and stylistically elevated form.",
+      "id": "c2_04_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Erganzen Sie: 'Je mehr er versuchte zu verstehen, ____ die Zusammenhange ihm erschienen.'",
+      "options": [
+        "desto komplizierter",
+        "umso mehr kompliziert",
+        "desto mehr kompliziert",
+        "umso komplizierter"
+      ],
+      "correctAnswer": "desto komplizierter",
+      "explanation": "The 'je … desto/umso' comparative construction requires a comparative adjective. Both 'desto' and 'umso' are correct, but the adjective must be in comparative form ('komplizierter'), not 'mehr kompliziert'. Here 'desto komplizierter' is the standard written form.",
+      "id": "c2_04_q087"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch korrekt und enthalt eine Partizipialkonstruktion als eine der drei Ebenen?",
+      "options": [
+        "Die Studie, von Experten jahrelang durchgefuhrt worden, zeigte, dass die Hypothese, die aufgestellt wurde, falsch war.",
+        "Die jahrelang von Experten durchgefuhrte Studie zeigte, dass die aufgestellte Hypothese falsch gewesen war.",
+        "Die Studie, die von Experten jahrelang durchfuhrte, zeigte, dass die Hypothese falsch war.",
+        "Die jahrelang von Experten durchfuhrende Studie zeigte, dass die Hypothese falsch war."
+      ],
+      "correctAnswer": "Die jahrelang von Experten durchgefuhrte Studie zeigte, dass die aufgestellte Hypothese falsch gewesen war.",
+      "explanation": "Extended participial attributes ('die jahrelang von Experten durchgefuhrte Studie', 'die aufgestellte Hypothese') compress relative clauses into noun phrases — a hallmark of elevated German. The past perfect in the embedded clause ('falsch gewesen war') correctly marks anteriority.",
+      "id": "c2_04_q088"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante gibt den folgenden Gedanken mit korrekter Satzstruktur in drei Ebenen wieder? (Idee: Der Redner glaubte, dass seine Zuhorer nicht verstanden hatten, warum die Reform notwendig war.)",
+      "options": [
+        "Der Redner glaubte, dass seine Zuhorer nicht verstanden hatten, warum die Reform notwendig war.",
+        "Der Redner glaubte, seine Zuhorer hatten nicht verstanden, warum die Reform notwendig sei.",
+        "Der Redner dachte, dass seine Zuhorer nicht verstehen, warum die Reform notwendig ist.",
+        "Der Redner glaubte, dass seine Zuhorer nicht verstehen wurden, warum die Reform notwendig ware."
+      ],
+      "correctAnswer": "Der Redner glaubte, seine Zuhorer hatten nicht verstanden, warum die Reform notwendig sei.",
+      "explanation": "This version uses indirect speech consistently: 'glaubte' triggers Konjunktiv II ('hatten nicht verstanden') for the inner clause and Konjunktiv I ('sei') for the deepest level. This maintains the register and tense logic across all three levels — the hallmark of C2-level complex sentence structures.",
+      "id": "c2_04_q089"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt eine korrekte dreigliedrige Konzessivkonstruktion?",
+      "options": [
+        "Obwohl bekannt war, dass das Projekt scheitern konnte, wurde beschlossen, es fortzufuhren.",
+        "Obwohl es bekannt war, dass das Projekt scheitern konnte, hat man es beschlossen fortzufuhren.",
+        "Auch wenn bekannt gewesen ware, dass das Projekt scheitern wurde, wurde es fortzufuhren beschlossen.",
+        "Obwohl dass bekannt war, das Projekt konnte scheitern, hat man es fortgefuhrt."
+      ],
+      "correctAnswer": "Obwohl bekannt war, dass das Projekt scheitern konnte, wurde beschlossen, es fortzufuhren.",
+      "explanation": "Three levels: concessive clause (obwohl … war) -> embedded dass-clause (dass das Projekt scheitern konnte) -> main clause with infinitive (wurde beschlossen, es fortzufuhren). All verb positions, modal usage, and punctuation are correct.",
+      "id": "c2_04_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Erganzen Sie korrekt: 'Es ist kaum zu glauben, dass jemand, ____ so erfahren ist, einen solchen Fehler macht.'",
+      "options": [
+        "der",
+        "welcher",
+        "wer",
+        "dessen"
+      ],
+      "correctAnswer": "der",
+      "explanation": "A restrictive relative clause modifying 'jemand' (indefinite pronoun, masculine reference) requires the relative pronoun 'der'. 'Welcher' is grammatically possible but more archaic and unusual here. 'Wer' would start a new clause, not embed one. 'Dessen' indicates genitive, which doesn't fit.",
+      "id": "c2_04_q091"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante formuliert einen korrekten dreigliedrigen Kausalsatz mit 'zumal'?",
+      "options": [
+        "Er zogerte, zumal er wusste, dass seine Aussage Konsequenzen haben wurde.",
+        "Er zogerte, zumal dass er wusste, dass seine Aussage Konsequenzen hatte.",
+        "Er zogerte zumal, weil er wusste, dass seine Aussage Konsequenzen hatte.",
+        "Er zogerte, da zumal er wusste, dass die Konsequenzen ernst waren."
+      ],
+      "correctAnswer": "Er zogerte, zumal er wusste, dass seine Aussage Konsequenzen haben wurde.",
+      "explanation": "'Zumal' is a causal/concessive conjunction meaning 'especially since / all the more because.' It directly introduces a subordinate clause without 'dass'. Three levels: main clause -> zumal-clause -> dass-clause. The Konjunktiv II in the deepest clause reflects indirect reported reasoning.",
+      "id": "c2_04_q092"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch und stilistisch auf C2-Niveau korrekt?",
+      "options": [
+        "Ware ihm bewusst gewesen, was er damit auslosen wurde, hatte er davon abgesehen, die Rede zu halten, die das Land spaltete.",
+        "Wenn ihm bewusst gewesen ware, was er auslosen wurde damit, hatte er davon abgesehen, die Rede, die das Land spaltete, zu halten.",
+        "Hatte er gewusst, was er auslosen wird, wurde er die Rede nicht halten, die das Land spaltete.",
+        "Ware er sich bewusst, was er damit auslost, hatte er die Rede nicht zu halten begonnen."
+      ],
+      "correctAnswer": "Ware ihm bewusst gewesen, was er damit auslosen wurde, hatte er davon abgesehen, die Rede zu halten, die das Land spaltete.",
+      "explanation": "This uses an inverted conditional ('Ware … gewesen' = 'Wenn es ihm bewusst gewesen ware'), embedding a 'was'-clause and a zu-Infinitiv with a trailing relative clause. Four levels total. Tense consistency (Konjunktiv II throughout) and verb-final positions are all correct. The word order is natural and elevated.",
+      "id": "c2_04_q093"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung ist fur eine wissenschaftliche Abhandlung stilistisch und grammatisch am geeignetsten?",
+      "options": [
+        "Man kann sagen, dass die Tatsache, dass Sprache soziale Realitat konstruiert, durch viele Studien bewiesen worden ist.",
+        "Es lasst sich feststellen, dass die von zahlreichen Studien belegte Annahme, Sprache konstruiere soziale Realitat, als gesichert gilt.",
+        "Es ist bekannt, dass Sprache soziale Realitat konstruiert, was durch Studien bewiesen wurde.",
+        "Dadurch, dass Sprache soziale Realitat konstruiert, was Studien beweisen, gilt dies als Tatsache."
+      ],
+      "correctAnswer": "Es lasst sich feststellen, dass die von zahlreichen Studien belegte Annahme, Sprache konstruiere soziale Realitat, als gesichert gilt.",
+      "explanation": "This sentence uses: (1) impersonal 'es lasst sich' for academic objectivity, (2) an extended participial attribute ('die von zahlreichen Studien belegte Annahme'), (3) an appositive Konjunktiv I clause ('Sprache konstruiere') — the hallmark of embedded indirect content in academic German. Four layered levels with no redundancy.",
+      "id": "c2_04_q094"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Erganzen Sie das fehlende Element korrekt: 'Der Umstand, ____ die Verhandlungen, die wochenlang gefuhrt worden waren, ergebnislos abgebrochen wurden, uberraschte niemanden.'",
+      "options": [
+        "dass",
+        "weil",
+        "obwohl",
+        "wonach"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'Der Umstand' is a nominalized clause head that requires a 'dass'-clause as its complement ('Der Umstand, dass …'). The structure has four levels: main clause subject (Der Umstand) -> dass-clause -> embedded relative clause (die … gefuhrt worden waren) -> predicate. 'Weil', 'obwohl', and 'wonach' create semantic or syntactic incompatibilities here.",
+      "id": "c2_04_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Version ist die grammatisch und rhetorisch uberzeugendste fur eine akademische Analyse?",
+      "options": [
+        "Indem man bedenkt, dass die Ergebnisse, die erzielt wurden, auf Methoden basieren, die umstritten sind, muss man sie kritisch betrachten.",
+        "Bedenkt man, dass die erzielten Ergebnisse auf umstrittenen Methoden basieren, sind sie mit kritischer Vorsicht zu rezipieren.",
+        "Wenn man bedenkt, dass die Ergebnisse, die erzielt worden sind, auf Methoden basieren, die umstritten sein konnten, sollte man sie kritisch betrachten.",
+        "Da man bedenken muss, dass die Ergebnisse auf Methoden basieren, die umstritten sind, muss man sie kritisch betrachten."
+      ],
+      "correctAnswer": "Bedenkt man, dass die erzielten Ergebnisse auf umstrittenen Methoden basieren, sind sie mit kritischer Vorsicht zu rezipieren.",
+      "explanation": "The inverted conditional 'Bedenkt man' is an elegant academic construction. Participial attributes ('die erzielten Ergebnisse', 'umstrittenen Methoden') compress relative clauses. The modal passive 'sind … zu rezipieren' is the formal equivalent of 'mussen rezipiert werden'. The result is a compact, three-level sentence with high register consistency.",
+      "id": "c2_04_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz mit 'ohne dass' und drei Ebenen ist grammatisch korrekt?",
+      "options": [
+        "Er unterschrieb den Vertrag, ohne dass er wusste, was die Klauseln, die er enthielt, bedeuteten.",
+        "Er unterschrieb den Vertrag, ohne zu wissen, was die enthaltenen Klauseln bedeuteten.",
+        "Er unterschrieb den Vertrag ohne zu wissen was die Klauseln bedeuteten die er enthielt.",
+        "Er unterschrieb den Vertrag, ohne dass er die Klauseln, die drin waren, verstand."
+      ],
+      "correctAnswer": "Er unterschrieb den Vertrag, ohne zu wissen, was die enthaltenen Klauseln bedeuteten.",
+      "explanation": "'Ohne zu wissen' (same subject as main clause) is more economical than 'ohne dass' (different subject). Three levels: main clause -> 'ohne zu'-infinitive -> embedded 'was'-clause. The participial attribute 'die enthaltenen Klauseln' further elevates the style. Punctuation and word order are both correct.",
+      "id": "c2_04_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante formuliert korrekt eine dreigliedrige Finalkonstruktion (Zweck/Absicht) auf C2-Niveau?",
+      "options": [
+        "Er trainierte taglich, um fit genug zu sein, damit er am Wettkampf, der im Herbst stattfinden sollte, teilnehmen konnte.",
+        "Er trainierte taglich, damit er fit genug sein wurde, um am Wettkampf im Herbst teilzunehmen.",
+        "Er trainierte taglich, um fit zu sein, damit am Herbstwettkampf teilzunehmen.",
+        "Er trainierte taglich, um damit fit zu sein, damit er den Wettkampf im Herbst gewinnen wird."
+      ],
+      "correctAnswer": "Er trainierte taglich, damit er fit genug sein wurde, um am Wettkampf im Herbst teilzunehmen.",
+      "explanation": "Three levels: main clause -> 'damit'-clause (purpose, different subject implied or same) -> 'um zu'-infinitive (purpose, same subject). This avoids redundancy ('um … damit' mixing is awkward) and maintains grammatical consistency. 'Sein wurde' correctly handles the future in past context.",
+      "id": "c2_04_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz nutzt korrekt ein dreigliedriges Satzgefuge mit Relativsatz, indirekter Frage und Infinitivkonstruktion?",
+      "options": [
+        "Der Anwalt, den sie beauftragt hatten, erklarte, wie der Paragraf, um den es ging, auszulegen sei.",
+        "Der Anwalt, den sie beauftragten, erklarte, wie der Paragraf, um den es geht, ausgelegt werden soll.",
+        "Der Anwalt, der beauftragt war, erklarte, wie man den Paragraf, um den es ging, auslegen solle.",
+        "Der beauftragte Anwalt erklarte, wie der betroffene Paragraf auszulegen sei."
+      ],
+      "correctAnswer": "Der Anwalt, den sie beauftragt hatten, erklarte, wie der Paragraf, um den es ging, auszulegen sei.",
+      "explanation": "Four levels: main clause -> relative clause ('den sie beauftragt hatten') -> indirect question ('wie … auszulegen sei') -> embedded relative clause ('um den es ging'). The modal infinitive passive 'auszulegen sei' (Konjunktiv I) is the most elevated and precise form for reported legal explanation.",
+      "id": "c2_04_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung zeigt das hochste C2-Niveau durch korrekte Verschachtelung von Neben-, Relativ- und Infinitivsatz?",
+      "options": [
+        "Dass der Plan, den er so sorgfaltig ausgearbeitet hatte, scheitern wurde, hatte er nie gedacht.",
+        "Dass der Plan scheitern wurde, den er so sorgfaltig ausgearbeitet hatte, hatte er nie gedacht.",
+        "Er hatte nie gedacht, dass der Plan scheitern wurde, den er so sorgfaltig ausgearbeitet hatte.",
+        "Er hatte nie gedacht, dass der Plan, den er so sorgfaltig ausgearbeitet hatte, scheitern wurde."
+      ],
+      "correctAnswer": "Dass der Plan, den er so sorgfaltig ausgearbeitet hatte, scheitern wurde, hatte er nie gedacht.",
+      "explanation": "Fronting the 'dass'-clause for emphasis is a sophisticated rhetorical device. The relative clause ('den er so sorgfaltig ausgearbeitet hatte') is correctly embedded within the 'dass'-clause, modifying 'der Plan'. The Konjunktiv II ('scheitern wurde', 'hatte … gedacht') is consistent. This structure — with four levels — exemplifies C2 mastery of complex clause embedding and inversion.",
+      "id": "c2_04_q100"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated: 2026-06-01 17:25 UTC**
+**Last Updated: 2026-06-02 17:36 UTC**
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -17,8 +17,8 @@
 | B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **C2** | **220** | **~2,000** | **🔄 In Progress** |
-| **Total** | **6,400** | **~8,000** | 🔄 In Progress |
+| **C2** | **320** | **~2,000** | **🔄 In Progress** |
+| **Total** | **6,500** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -135,6 +135,11 @@
 | # | ID | Topic | Questions | Status |
 |---|----|-------|-----------|--------|
 | 1 | c2_01 | Nominalstil & Verbalstil | 100 | ✅ Complete |
+| 2 | c2_02 | Erweiterte Konzessivstrukturen | 120 | ✅ Complete |
+| 3 | c2_03 | Konjunktiv I | 100 | ✅ Complete |
+| 4 | c2_04 | Komplexe Satzgefüge (3+ Ebenen) | 100 | ✅ Complete |
+
+**C2 Total: 320 questions (target: ~2,000)**
 
 **C2 Total: 220 questions (target: ~2,000)**
 
