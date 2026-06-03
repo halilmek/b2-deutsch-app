@@ -17,8 +17,8 @@
 | B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **C2** | **540** | **~2,000** | **🔄 In Progress** |
-| **Total** | **6,720** | **~8,000** | 🔄 In Progress |
+| **C2** | **680** | **~2,000** | **🔄 In Progress** |
+| **Total** | **6,860** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -136,18 +136,12 @@
 |---|----|-------|-----------|--------|
 | 1 | c2_01 | Nominalstil & Verbalstil | 100 | ✅ Complete |
 | 2 | c2_02 | Erweiterte Konzessivstrukturen | 120 | ✅ Complete |
-| 3 | c2_03 | Konjunktiv I | 100 | ✅ Complete |
+| 3 | c2_03 | Konjunktiv I | 180 | ✅ Complete (extended from 100) |
 | 4 | c2_04 | Komplexe Satzgefüge (3+ Ebenen) | 100 | ✅ Complete |
 | 5 | c2_05 | Passiversatzformen & Funktionale Verbkonstruktionen | 100 | ✅ Complete |
-| 6 | c2_06 | Funktionsverbgefuge | 20 | 🔄 In Progress |
+| 6 | c2_06 | Funktionsverbgefuge | 80 | 🔄 In Progress |
 
-**C2 Total: 540 questions (target: ~2,000)**
-
-**C2 Total: 520 questions (target: ~2,000) (target: ~2,000)**
-
-**C2 Total: 420 questions (target: ~2,000)**
-
-**C2 Total: 220 questions (target: ~2,000)**
+**C2 Total: 680 questions (target: ~2,000)**
 
 ---
 
