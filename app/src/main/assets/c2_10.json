@@ -333,7 +333,327 @@
       "explanation": "Aristotle: Logos=reason through evidence/facts; Ethos=speaker credibility/moral character; Pathos=audience emotions/values. C2 requires integration of all three.",
       "difficulty": "hard",
       "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q021",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die ____ Strategie zielt darauf ab, die eigene Argumentation durch den Verweis auf wissenschaftliche Autoritaeten zu stuetzen.",
+      "options": [
+        "Ad-hominem",
+        "Autoritaetsargumentative",
+        "Emotionalisierende",
+        "Induktive"
+      ],
+      "correctAnswer": "Autoritaetsargumentative",
+      "explanation": "This strategy uses the reputation of experts or studies to validate a claim.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q022",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Ein ____ Argument fuehrt von Einzelfaellen zu einer allgemeinen Regel oder Theorie.",
+      "options": [
+        "deduktives",
+        "induktives",
+        "kausales",
+        "analogisierendes"
+      ],
+      "correctAnswer": "induktives",
+      "explanation": "Inductive reasoning builds general conclusions from specific observations.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q023",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die Strategie der ____ versucht, das Gegenargument durch eine extreme Verzerrung ins Laecherliche zu ziehen.",
+      "options": [
+        "Reductio ad absurdum",
+        "Falschen Dilemmas",
+        "Strohmann-Taktik",
+        "Analogieschlusses"
+      ],
+      "correctAnswer": "Strohmann-Taktik",
+      "explanation": "The straw man tactic involves misrepresenting an opponent's position to make it easier to attack.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q024",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "____ Argumente setzen eine logische Ableitung vom Allgemeinen auf das Spezielle voraus.",
+      "options": [
+        "Induktive",
+        "Deduktive",
+        "Empirische",
+        "Normative"
+      ],
+      "correctAnswer": "Deduktive",
+      "explanation": "Deductive reasoning starts with a general premise to reach a specific, necessary conclusion.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q025",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Bei der ____ wird die Aufmerksamkeit von der eigentlichen Fragestellung auf die Person des Gegners gelenkt.",
+      "options": [
+        "Ad-hominem-Argumentation",
+        "Kausalargumentation",
+        "Analogisierung",
+        "Glaubwuerdigkeitsstrategie"
+      ],
+      "correctAnswer": "Ad-hominem-Argumentation",
+      "explanation": "Ad hominem attacks the person instead of the argument itself.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q026",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die ____ Strategie stellt zwei Alternativen als die einzigen Moeglichkeiten dar, obwohl weitere Optionen existieren.",
+      "options": [
+        "Dilemma-Verkuerzung",
+        "Falsches Dilemma",
+        "Polarisierungsstrategie",
+        "Vereinfachungstaktik"
+      ],
+      "correctAnswer": "Falsches Dilemma",
+      "explanation": "The false dilemma creates a binary choice where it is not warranted.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q027",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Durch die ____ des Themas wird versucht, eine komplexe Problematik auf eine einfache Ursache-Wirkung-Beziehung zu reduzieren.",
+      "options": [
+        "Komplexitaetsreduktion",
+        "Kausalattribuierung",
+        "Syllogistik",
+        "Verallgemeinerung"
+      ],
+      "correctAnswer": "Komplexitaetsreduktion",
+      "explanation": "Reducing complexity is a common strategy to make arguments more accessible or emotionally persuasive.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q028",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die ____ nutzt eine Aehnlichkeit zwischen zwei Sachverhalten, um eine Schlussfolgerung fuer den einen aus dem anderen zu ziehen.",
+      "options": [
+        "Analogie",
+        "Antithese",
+        "Parallele",
+        "Synthese"
+      ],
+      "correctAnswer": "Analogie",
+      "explanation": "Analogical arguments rely on structural similarities between different cases.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q029",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Eine ____ Strategie versucht, den Gegner durch die Aufforderung zur Selbstkorrektur in die Defensive zu drängen.",
+      "options": [
+        "Reflexive",
+        "Provokative",
+        "Dialektische",
+        "Normative"
+      ],
+      "correctAnswer": "Reflexive",
+      "explanation": "Reflexive argumentation forces the opponent to examine their own consistency.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q030",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die Methode des ____ besteht darin, ein Argument durch das Aufzeigen von logischen Widerspruechen unhaltbar zu machen.",
+      "options": [
+        "Elenchus",
+        "Syllogismus",
+        "Postulats",
+        "Praemisse"
+      ],
+      "correctAnswer": "Elenchus",
+      "explanation": "Elenchus (or Socratic questioning) reveals inconsistencies in the interlocutor's position.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q031",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Bei einem ____ Argument stuetzt man sich auf die Gueltigkeit allgemeiner ethischer Prinzipien.",
+      "options": [
+        "normativen",
+        "deskriptiven",
+        "empirischen",
+        "statistischen"
+      ],
+      "correctAnswer": "normativen",
+      "explanation": "Normative arguments focus on what 'ought' to be, based on values or ethics.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q032",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "____ zielen darauf ab, durch die Verwendung von Zahlen und Daten eine scheinbare Objektivitaet zu erzeugen.",
+      "options": [
+        "Statistische Argumente",
+        "Analytische Argumente",
+        "Ethische Argumente",
+        "Metaphorische Argumente"
+      ],
+      "correctAnswer": "Statistische Argumente",
+      "explanation": "Statistical arguments use data to claim scientific validity.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q033",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die Strategie der ____ bedeutet, eine Behauptung durch die Darstellung als 'allgemein bekannt' zu legitimieren.",
+      "options": [
+        "Appellierung an den Common Sense",
+        "Etablierung eines Konsens",
+        "Autoritaetsbehauptung",
+        "Wahrheitsbegruendung"
+      ],
+      "correctAnswer": "Appellierung an den Common Sense",
+      "explanation": "This appeals to shared, taken-for-granted knowledge to avoid further justification.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q034",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die ____ Technik unterstellt dem Gegenueber eine geheime Absicht, um dessen Argumente zu diskreditieren.",
+      "options": [
+        "Intensionsunterstellung",
+        "Motivunterstellung",
+        "Untergrabungstechnik",
+        "Subjektivierung"
+      ],
+      "correctAnswer": "Motivunterstellung",
+      "explanation": "Attributing ulterior motives is a way to invalidate the opponent's stated arguments.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q035",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Das ____ ist eine Schlussform, bei der aus zwei Praemissen eine logische Konsequenz gezogen wird.",
+      "options": [
+        "Syllogismus",
+        "Dilemma",
+        "Paradoxon",
+        "Postulat"
+      ],
+      "correctAnswer": "Syllogismus",
+      "explanation": "A syllogism is the basic structure of deductive logic: premise A + premise B = conclusion.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q036",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Bei der ____ wird die eigene Position als moderater Mittelweg zwischen zwei extremen Standpunkten dargestellt.",
+      "options": [
+        "Goldene-Mitte-Strategie",
+        "Synthese-Taktik",
+        "Konsensstrategie",
+        "Relativierung"
+      ],
+      "correctAnswer": "Goldene-Mitte-Strategie",
+      "explanation": "Framing one's view as the balanced 'golden mean' is a common rhetorical tactic.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q037",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die Strategie der ____ dient dazu, durch die Einordnung eines Begriffs in einen bestimmten emotionalen Kontext eine positive oder negative Bewertung vorzugeben.",
+      "options": [
+        "Framing",
+        "Suggestivfrage",
+        "Nuancierung",
+        "Semantische Ueberladung"
+      ],
+      "correctAnswer": "Framing",
+      "explanation": "Framing shapes the interpretation of information by context.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q038",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Eine ____ Argumentation verweist auf die historische Entwicklung, um den aktuellen Status quo zu erklaeren.",
+      "options": [
+        "genetische",
+        "chronologische",
+        "lineare",
+        "teleologische"
+      ],
+      "correctAnswer": "genetische",
+      "explanation": "A genetic argument explains a phenomenon by its origin or historical development.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q039",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die ____ dient dazu, den Gegner durch gezielte Fragen in eine gedankliche Sackgasse zu fuehren.",
+      "options": [
+        "Suggestivfragetechnik",
+        "Sokratische Methode",
+        "Interrogationsstrategie",
+        "Diskursblockade"
+      ],
+      "correctAnswer": "Sokratische Methode",
+      "explanation": "The Socratic method uses questioning to lead the interlocutor to recognize their own errors.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_10_q040",
+      "subjectId": "c2_10",
+      "topicName": "Argumentationsstrategien",
+      "questionText": "Die ____ zielt darauf ab, die Angst des Publikums zu nutzen, um eine bestimmte politische Massnahme zu rechtfertigen.",
+      "options": [
+        "Angstinduktion",
+        "Sicherheitsrhetorik",
+        "Mobilisierungsstrategie",
+        "Emotionalisierungsstrategie"
+      ],
+      "correctAnswer": "Angstinduktion",
+      "explanation": "Inducing fear is an effective, albeit manipulative, rhetorical strategy.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
     }
   ],
-  "totalQuestions": 20
+  "totalQuestions": 40
 }
