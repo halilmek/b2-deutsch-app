@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated: 2026-06-03 16:00 UTC**
+**Last Updated: 2026-06-03 16:07 UTC**
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -17,8 +17,8 @@
 | B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **C2** | **800** | **~2,000** | **🔄 In Progress** |
-| **Total** | **6,980** | **~8,000** | 🔄 In Progress |
+| **C2** | **820** | **~2,000** | **🔄 In Progress** |
+| **Total** | **7,000** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -140,7 +140,7 @@
 | 4 | c2_04 | Komplexe Satzgefüge (3+ Ebenen) | 100 | ✅ Complete |
 | 5 | c2_05 | Passiversatzformen & Funktionale Verbkonstruktionen | 100 | ✅ Complete |
 | 6 | c2_06 | Funktionsverbgefuge | 100 | ✅ Complete (extended from 80) |
-| 7 | c2_07 | Erweiterte Konditionalstrukturen | 20 | 🔄 In Progress |
+| 7 | c2_07 | Erweiterte Konditionalstrukturen | 40 | 🔄 In Progress |
 
 **C2 Total: 800 questions (target: ~2,000)**
 
