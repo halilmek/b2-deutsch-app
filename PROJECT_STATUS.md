@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated: 2026-06-03 19:15 UTC**
+**Last Updated: 2026-06-03 19:25 UTC**
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -18,7 +18,7 @@
 | B2 | 2,321 | ~2,000 | ✅ Complete |
 | **C1** | **1,048** | **2,000** | **🔄 In Progress** |
 | **C2** | **900** | **~2,000** | **🔄 In Progress** |
-| **Total** | **7,540** | **~8,000** | 🔄 In Progress |
+| **Total** | **7,560** | **~8,000** | 🔄 In Progress |
 
 ---
 
@@ -144,9 +144,9 @@
 | 8 | c2_08 | Finale/Modale Nebensatzkonstruktionen | 100 | ✅ Complete |
 | 9 | c2_09 | Wissenschaftliche Diskursmarker | 100 | ✅ Complete |
 | 10 | c2_10 | Argumentationsstrategien | 100 | ✅ Complete |
-| 11 | c2_11 | Nominalkomposita & Fachterminologie | 60 | 🔄 In Progress | 🔄 In Progress |
+| 11 | c2_11 | Nominalkomposita & Fachterminologie | 80 | 🔄 In Progress | 🔄 In Progress |
 
-**C2 Total: 1,260 questions (target: ~2,000)**
+**C2 Total: 1,280 questions (target: ~2,000)**
 
 ---
 
