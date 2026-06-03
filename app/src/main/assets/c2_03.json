@@ -3,7 +3,7 @@
   "subjectId": "c2_03",
   "topicName": "Konjunktiv I",
   "level": "C2",
-  "totalQuestions": 100,
+  "totalQuestions": 180,
   "description": "Konjunktiv I im akademischen und formellen Diskurs — C2 level mastery for neutral, distanced reporting of speech and thoughts. This topic covers: the 3 golden rules of Konjunktiv I formation (stem + endings, substitution rule for ambiguous forms, the \"sein\" exception); Konjunktiv I in indirect speech (indirekte Rede) — tense transformations (Present → Konjunktiv I Present, Past/Perfect/Plusquamperfekt → Konjunktiv I Perfect, Future → Konjunktiv I Future with werden); functional uses in academic discourse: indirect speech for source citation, instructions/prescriptions (Heischesatz) in scientific contexts, and formal fixed idioms (Es sei betont, Gott sei Dank); the substitution rule (Ersatzregel): when Konjunktiv I coincides with the indicative (e.g., sie haben, wir kommen), use Konjunktiv II as substitute (sie hätten, wir kämen); word order with and without 'dass'; epistemic distancing function in academic/legal/expert writing; the distinction between Konjunktiv I and Konjunktiv II in reported speech; strategic exam tips for C2: using Konjunktiv I as a \"neutrality weapon,\" avoiding overuse of würde + infinitive, distinguishing sollen from wollen in legal reporting, and recognizing Konjunktiv I forms of modal verbs (müsse, könne, dürfe, solle).",
   "tips": [
     "Rule A — The Endings: Konjunktiv I is formed from the infinitive stem + endings: -e (ich), -est (du), -e (er/sie/es), -en (wir/sie/Sie), -et (ihr), -en (sie/Sie). The er/sie/es form (stem + -e) is the C2 superstar — er mache, er habe, er komme, er sei. The wir/sie plural forms are identical to indicative, requiring the substitution rule (Rule B).",
@@ -1419,6 +1419,1126 @@
       "correctAnswer": "Der Konjunktiv I kann nur in Satzen mit einleitendem dass verwendet werden.",
       "explanation": "This is FALSE. Konjunktiv I can appear both with and without 'dass'. When 'dass' is omitted, the reported clause uses main-clause word order (verb second): 'Der Autor erklart, die Methode sei valide.'",
       "id": "c2_03_q100"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Sprecher erklarte, die Bundesregierung ____ die steuerlichen Entlastungen zeitnah umsetzen.",
+      "options": [
+        "werde",
+        "wird",
+        "wurde",
+        "werden"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "In indirect speech (Konjunktiv I), the 3rd person singular of 'werden' is 'werde'. 'Wird' is Indicative, and 'wurde' is Konjunktiv II (which is only used if Konjunktiv I is identical to the Indicative form).",
+      "id": "c2_03_q101"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Laut dem aktuellen Forschungsbericht ____ die Infektionszahlen seit Wochen kontinuierlich.",
+      "options": [
+        "sinken",
+        "sanken",
+        "boten",
+        "gesunken seien"
+      ],
+      "correctAnswer": "sanken",
+      "explanation": "The 3rd person plural Konjunktiv I of 'sinken' is 'sinken', which is identical to the Indicative present tense. Therefore, to avoid ambiguity in formal academic German, you must substitute it with the Konjunktiv II form, which is 'sanken'.",
+      "id": "c2_03_q102"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Man nehme an, die Stichprobe ____ ein reprasentatives Abbild der Bevolkerung dar.",
+      "options": [
+        "stelle",
+        "stellt",
+        "stunde",
+        "aufstelle"
+      ],
+      "correctAnswer": "stelle",
+      "explanation": "This is a concessive/presuppositional use of Konjunktiv I ('Man nehme an, dass...'), frequently used in academic hypotheses. The 3rd person singular Konjunktiv I of the separable verb 'darstellen' is 'stelle... dar'.",
+      "id": "c2_03_q103"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Es ____ an dieser Stelle ausdrucklich betont, dass die Ergebnisse vorlaufiger Natur sind.",
+      "options": [
+        "sei",
+        "ware",
+        "ist",
+        "werde"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "This expresses a demand or an instruction in academic syntax (an optative/jussive Konjunktiv I). 'Es sei betont' translates to 'Let it be emphasized' or 'It should be emphasized'.",
+      "id": "c2_03_q104"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Klager behaupten, sie ____ rechtzeitig uber die Risiken des Finanzprodukts aufgeklart worden.",
+      "options": [
+        "seien",
+        "sind",
+        "waren",
+        "haben"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "For the passive voice in the past tense within indirect speech, the 3rd person plural Konjunktiv I of the auxiliary 'sein' is required, which is 'seien'.",
+      "id": "c2_03_q105"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge gab zu Protokoll, er ____ den Unfallort unmittelbar nach dem Aufprall verlassen.",
+      "options": [
+        "habe",
+        "hatte",
+        "hat",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "The past tense in indirect speech is constructed using the Konjunktiv I form of the auxiliary verb + past participle. Since 'verlassen' here takes 'haben' in active perfect tense, the correct 3rd person singular Konjunktiv I is 'habe'.",
+      "id": "c2_03_q106"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Autorinnen betonen, das neue Verfahren ____ weitaus praxisere Daten als das herkommliche.",
+      "options": [
+        "liefere",
+        "liefert",
+        "lieferte",
+        "geliefert habe"
+      ],
+      "correctAnswer": "liefere",
+      "explanation": "The 3rd person singular present tense in Konjunktiv I is formed by adding '-e' to the verb stem ('liefer-' + '-e' = 'liefere'). It signals that this is a reported claim from the authors.",
+      "id": "c2_03_q107"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Kritiker bemangeln, die Verantwortlichen ____ die Komplexitat der Systemumstellung unterschatzt.",
+      "options": [
+        "hatten",
+        "haben",
+        "habe",
+        "seien"
+      ],
+      "correctAnswer": "hatten",
+      "explanation": "The 3rd person plural Konjunktiv I ('haben') is identical to the indicative present tense. Therefore, you must substitute it with the Konjunktiv II form, which is 'hatten', to clearly mark indirect speech.",
+      "id": "c2_03_q108"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "In der Einleitung wird gefordert: Jedem Burger ____ uneingeschrankter Zugang zu Bildung gewahrt werden.",
+      "options": [
+        "musse",
+        "muss",
+        "muste",
+        "solle"
+      ],
+      "correctAnswer": "musse",
+      "explanation": "When reporting a requirement or a must-condition via indirect discourse, the modal verb 'mussen' shifts to its 3rd person singular Konjunktiv I form, which is 'musse'.",
+      "id": "c2_03_q109"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Gericht stellte fest, dass die Beschwerdefuhrer nicht ausreichend gehort worden ____.",
+      "options": [
+        "seien",
+        "sind",
+        "waren",
+        "wurden"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "Even inside a subordinate clause introduced by 'dass', academic legal style uses Konjunktiv I ('seien') for indirect assertions or findings to maintain objective distance.",
+      "id": "c2_03_q110"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Opposition warf dem Minister vor, er ____ die Unwahrheit gesagt.",
+      "options": [
+        "habe",
+        "hatte",
+        "hat",
+        "werde"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "The accusation is reported objectively in indirect speech. The 3rd person singular present perfect auxiliary in Konjunktiv I is 'habe'. Use of 'hatte' (Konjunktiv II) would imply that the speaker explicitly doubts the minister or thinks it's strictly counterfactual, which changes the neutrality.",
+      "id": "c2_03_q111"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ gemerkt, dass dieser Parameter fur das Endresultat vollig irrelevant ist.",
+      "options": [
+        "Es sei",
+        "Es werde",
+        "Es ware",
+        "Man hat"
+      ],
+      "correctAnswer": "Es sei",
+      "explanation": "The fixed academic idiom 'Es sei angemerkt / Es sei gemerkt' (Let it be noted) uses the jussive Konjunktiv I of 'sein' followed by a past participle.",
+      "id": "c2_03_q112"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Gutachter kamen zu dem Schluss, das Gebaude ____ akut einsturzgefahrdet.",
+      "options": [
+        "sei",
+        "ware",
+        "ist",
+        "werde"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "The 3rd person singular of 'sein' in Konjunktiv I is 'sei'. It is the most common form in academic summaries of expert assessments.",
+      "id": "c2_03_q113"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Aus dem Protokoll geht hervor, die Delegierten ____ sich auf keinen gemeinsamen Kompromiss einigen konnen.",
+      "options": [
+        "hatten",
+        "haben",
+        "seien",
+        "konnten"
+      ],
+      "correctAnswer": "hatten",
+      "explanation": "This structure requires the past tense of a modal verb in indirect speech with double infinitive ('einigen konnen'). The standard Konjunktiv I plural 'haben' is identical to the indicative, requiring the substitution to Konjunktiv II: 'hatten'.",
+      "id": "c2_03_q114"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Verteidigung pladiert dafur, dem Angeklagten ____ mildernde Umstande zugestanden.",
+      "options": [
+        "werden",
+        "wurden",
+        "seien",
+        "worden"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "This is a passive demand voice structure ('dass dem Angeklagten mildernde Umstande zugestanden werden'). Since it is 3rd person plural, the Konjunktiv I form is 'werden'. Even though it looks identical to the indicative present plural, it functions as a formal hortative statement in legal claims.",
+      "id": "c2_03_q115"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Kanzler liess verkunden, er ____ den Staatsbesuch aufgrund akuter Terminkonflikte absagen.",
+      "options": [
+        "musse",
+        "muste",
+        "habe",
+        "werde"
+      ],
+      "correctAnswer": "musse",
+      "explanation": "The phrase indicates an external obligation or necessity reported through an official announcement. 'Musse' is the precise 3rd person singular Konjunktiv I form of 'mussen'.",
+      "id": "c2_03_q116"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Man ____ die Gleichung nach x auf, um den kritischen Schwellenwert zu berechnen.",
+      "options": [
+        "lose",
+        "lost",
+        "loste",
+        "wurde losen"
+      ],
+      "correctAnswer": "lose",
+      "explanation": "This showcases an instruction or mathematical prescription in scientific texts. The 3rd person singular Konjunktiv I 'lose' translates roughly to 'Let one solve the equation...'.",
+      "id": "c2_03_q117"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Pramisse besagt, alle Korper ____ im Vakuum gleich schnell zu Boden.",
+      "options": [
+        "fielen",
+        "fallen",
+        "fallen warden",
+        "gefallen seien"
+      ],
+      "correctAnswer": "fielen",
+      "explanation": "For the 3rd person plural present tense of 'fallen' in indirect speech, Konjunktiv I ('fallen') is identical to the indicative. Thus, the Konjunktiv II form 'fielen' must be deployed as a substitute to mark the indirect status.",
+      "id": "c2_03_q118"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Philosophie des Stoizismus fordert, der Mensch ____ sich von externen Affekten frei machen.",
+      "options": [
+        "solle",
+        "sollte",
+        "musse",
+        "wolle"
+      ],
+      "correctAnswer": "solle",
+      "explanation": "When reporting a philosophical or moral recommendation/demand ('sollen'), academic texts prefer the 3rd person singular Konjunktiv I form, which is 'solle'.",
+      "id": "c2_03_q119"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es ____ dahingestellt, inwieweit diese Hypothese empirisch uberprufbar ist.",
+      "options": [
+        "bleibe",
+        "bleibt",
+        "bliebe",
+        "ist geblieben"
+      ],
+      "correctAnswer": "bleibe",
+      "explanation": "The fixed academic idiom 'Es bleibe dahingestellt' (It remains to be seen / It may be left open) utilizes Konjunktiv I to express a formal suspension of judgment.",
+      "id": "c2_03_q120"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler erklarte, die Ergebnisse ____ eindeutig.",
+      "options": [
+        "sind",
+        "seien",
+        "waren",
+        "waren"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "In indirect speech (indirekte Rede), Konjunktiv I is preferred. 'seien' is the Konjunktiv I form of 'sein'.",
+      "id": "c2_03_q121"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Autorin betonte, die Studie ____ auf einer umfangreichen Datengrundlage.",
+      "options": [
+        "basiert",
+        "basiere",
+        "basierte",
+        "wurde basieren"
+      ],
+      "correctAnswer": "basiere",
+      "explanation": "Konjunktiv I is used to report statements neutrally in academic texts.",
+      "id": "c2_03_q122"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht stellt fest, die Massnahmen ____ bereits Wirkung gezeigt.",
+      "options": [
+        "haben",
+        "hatten",
+        "hatten gehabt",
+        "hatten gezeigt"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "For plural subjects, Konjunktiv I of 'haben' is 'haben', which coincides with the indicative form.",
+      "id": "c2_03_q123"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Expertin erklarte, die neuen Richtlinien ____ ab sofort.",
+      "options": [
+        "gelten",
+        "gulten",
+        "gelten warden",
+        "galten"
+      ],
+      "correctAnswer": "gelten",
+      "explanation": "The Konjunktiv I form of 'gelten' is identical to the indicative plural form.",
+      "id": "c2_03_q124"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Minister erklarte, man ____ die Reform zeitnah umsetzen.",
+      "options": [
+        "wird",
+        "werde",
+        "wurde",
+        "wurde werden"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "'werde' is the Konjunktiv I form of 'werden' and is frequently used in reported speech.",
+      "id": "c2_03_q125"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Forscherin behauptete, die Methode ____ zuverlasssigere Ergebnisse als bisherige Verfahren.",
+      "options": [
+        "liefert",
+        "liefere",
+        "lieferte",
+        "wurde liefern"
+      ],
+      "correctAnswer": "liefere",
+      "explanation": "Konjunktiv I marks distance from the reported claim.",
+      "id": "c2_03_q126"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Artikel berichtet, die Zahl der Teilnehmenden ____ kontinuierlich gestiegen.",
+      "options": [
+        "ist",
+        "sei",
+        "ware",
+        "sei gewesen"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "'sei gestiegen' is the correct Konjunktiv I perfect construction.",
+      "id": "c2_03_q127"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Autoren fuhren aus, die Ergebnisse ____ die bisherige Theorie.",
+      "options": [
+        "bestatigen",
+        "bestatigten",
+        "bestatigen warden",
+        "bestatiget"
+      ],
+      "correctAnswer": "bestatigen",
+      "explanation": "For plural subjects, Konjunktiv I often looks identical to the indicative.",
+      "id": "c2_03_q128"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge erklarte, er ____ den Vorfall nicht beobachtet.",
+      "options": [
+        "hat",
+        "habe",
+        "hatte",
+        "hatte"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "'habe' is the Konjunktiv I form used in indirect speech.",
+      "id": "c2_03_q129"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Untersuchung kommt zu dem Schluss, die Hypothese ____ nicht haltbar.",
+      "options": [
+        "ist",
+        "sei",
+        "ware",
+        "gewesen sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Academic reports frequently use Konjunktiv I after reporting verbs.",
+      "id": "c2_03_q130"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante entspricht dem formellen wissenschaftlichen Stil?",
+      "options": [
+        "Die Autorin sagt, dass die Ergebnisse richtig sind.",
+        "Die Autorin sagt, die Ergebnisse seien richtig.",
+        "Die Autorin sagte, die Ergebnisse waren richtig.",
+        "Die Autorin meint, die Ergebnisse warden richtig sein."
+      ],
+      "correctAnswer": "Die Autorin sagt, die Ergebnisse seien richtig.",
+      "explanation": "Konjunktiv I is preferred in formal academic reporting.",
+      "id": "c2_03_q131"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht verweist darauf, die Massnahmen ____ bereits im Vorjahr beschlossen worden.",
+      "options": [
+        "sind",
+        "seien",
+        "waren",
+        "wurden"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "'seien beschlossen worden' is the correct passive Konjunktiv I construction.",
+      "id": "c2_03_q132"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Pressemitteilung erklart, die Verhandlungen ____ erfolgreich verlaufen.",
+      "options": [
+        "sind",
+        "seien",
+        "waren",
+        "waren"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "Konjunktiv I perfect is formed with 'seien' + Partizip II.",
+      "id": "c2_03_q133"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet Konjunktiv I korrekt?",
+      "options": [
+        "Der Forscher erklarte, die Ergebnisse waren signifikant.",
+        "Der Forscher erklarte, die Ergebnisse seien signifikant.",
+        "Der Forscher erklarte, die Ergebnisse wurden signifikant.",
+        "Der Forscher erklarte, die Ergebnisse warden signifikant sein."
+      ],
+      "correctAnswer": "Der Forscher erklarte, die Ergebnisse seien signifikant.",
+      "explanation": "Konjunktiv I ('seien') is the standard choice for indirect speech.",
+      "id": "c2_03_q134"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Gutachterin schrieb, die Daten ____ erneut ausgewertet werden.",
+      "options": [
+        "mussen",
+        "mussten",
+        "muste",
+        "gemusst hat"
+      ],
+      "correctAnswer": "mussen",
+      "explanation": "The plural Konjunktiv I form of 'mussen' is identical to the indicative.",
+      "id": "c2_03_q135"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Autor argumentiert, die bisherigen Modelle ____ den Sachverhalt nicht angemessen.",
+      "options": [
+        "erklaren",
+        "erklaraten",
+        "erklaren warden",
+        "erklareten"
+      ],
+      "correctAnswer": "erklaren",
+      "explanation": "Plural Konjunktiv I frequently coincides with the indicative form.",
+      "id": "c2_03_q136"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Sprecherin erklarte, die Regierung ____ alle Optionen gepruft.",
+      "options": [
+        "hat",
+        "habe",
+        "hatte",
+        "hat"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Konjunktiv I preserves neutrality toward the reported statement.",
+      "id": "c2_03_q137"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung ist fur wissenschaftliche Literatur am typischsten?",
+      "options": [
+        "Der Autor meint, die Theorie ist gultig.",
+        "Der Autor zufolge ist die Theorie gultig.",
+        "Der Autor vertritt die Auffassung, die Theorie sei gultig.",
+        "Der Autor sagte, die Theorie ware gultig."
+      ],
+      "correctAnswer": "Der Autor vertritt die Auffassung, die Theorie sei gultig.",
+      "explanation": "This combines formal reporting language with Konjunktiv I.",
+      "id": "c2_03_q138"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht kommt zu dem Ergebnis, die beobachteten Effekte ____ statistisch signifikant gewesen.",
+      "options": [
+        "sind",
+        "seien",
+        "waren",
+        "waren"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "'seien gewesen' is the Konjunktiv I perfect form of 'sein'.",
+      "id": "c2_03_q139"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage uber den akademischen Gebrauch des Konjunktivs I ist korrekt?",
+      "options": [
+        "Er wird hauptsachlich fur irreale Bedingungen verwendet.",
+        "Er dient vor allem der neutralen Wiedergabe fremder Aussagen.",
+        "Er ersetzt grundsatzlich den Indikativ in Nebensatzen.",
+        "Er wird nur in journalistischen Texten verwendet."
+      ],
+      "correctAnswer": "Er dient vor allem der neutralen Wiedergabe fremder Aussagen.",
+      "explanation": "The primary function of Konjunktiv I in academic and formal contexts is neutral reported speech.",
+      "id": "c2_03_q140"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist die Hauptfunktion des Konjunktiv I im akademischen und formellen Deutsch?",
+      "options": [
+        "Die Ausdruck von Hoflichkeit in direkten Anfragen",
+        "Die Wiedergabe von indirekter Rede ohne eigene Positionierung",
+        "Die Bildung von hypothetischen Konditionalsatzen",
+        "Die Verstarkung von imperativen Aussagen"
+      ],
+      "correctAnswer": "Die Wiedergabe von indirekter Rede ohne eigene Positionierung",
+      "explanation": "Konjunktiv I is primarily used in formal/academic German to report speech or claims indirectly (indirekte Rede), allowing the writer to maintain neutrality and distance from the reported content.",
+      "id": "c2_03_q141"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie wird der Konjunktiv I fur regulare Verben in der 3. Person Singular gebildet?",
+      "options": [
+        "Infinitivstamm + -t (er macht)",
+        "Infinitivstamm + -e (er mache)",
+        "Prateritumstamm + -e (er machte)",
+        "Infinitiv + -n (er machen)"
+      ],
+      "correctAnswer": "Infinitivstamm + -e (er mache)",
+      "explanation": "For regular verbs, Konjunktiv I 3rd person singular is formed by adding -e to the infinitive stem (e.g., machen er mache, sagen er sage).",
+      "id": "c2_03_q142"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'sein' in der 3. Person Singular?",
+      "options": [
+        "er ist",
+        "er ware",
+        "er sei",
+        "er seiend"
+      ],
+      "correctAnswer": "er sei",
+      "explanation": "The verb sein has irregular Konjunktiv I forms: ich sei, du seiest, er sei, wir seien, ihr seiet, sie seien. 'Er sei' is the most frequently used form in academic indirect speech.",
+      "id": "c2_03_q143"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wann wird im Indirekten Rede der Konjunktiv II anstelle des Konjunktiv I verwendet?",
+      "options": [
+        "Immer, wenn der Satz verneint ist",
+        "Wenn die Konjunktiv-I-Form mit der Indikativform identisch ist",
+        "Ausschliesslich bei Modalverben",
+        "Nur in der Vergangenheit"
+      ],
+      "correctAnswer": "Wenn die Konjunktiv-I-Form mit der Indikativform identisch ist",
+      "explanation": "When Konjunktiv I forms are identical to indicative forms (e.g., wir machen), Konjunktiv II (wir machten) or wird + infinitive is used to maintain the subjunctive marking and avoid ambiguity.",
+      "id": "c2_03_q144"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet der Satz 'Er sagt: Ich habe die Daten analysiert.' in korrekter indirekter Rede mit Konjunktiv I?",
+      "options": [
+        "Er sagt, er hat die Daten analysiert.",
+        "Er sagt, er habe die Daten analysiert.",
+        "Er sagt, er hatte die Daten analysiert.",
+        "Er sagt, er werde die Daten analysiert haben."
+      ],
+      "correctAnswer": "Er sagt, er habe die Daten analysiert.",
+      "explanation": "In indirect speech, present perfect 'habe analysiert' becomes Konjunktiv I perfect: 'er habe analysiert'. The reporting verb 'sagt' remains indicative while the reported content uses Konjunktiv I.",
+      "id": "c2_03_q145"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der korrekte Konjunktiv I von 'konnen' in der 3. Person Singular?",
+      "options": [
+        "er kann",
+        "er konne",
+        "er konnte",
+        "er gekonnt"
+      ],
+      "correctAnswer": "er konne",
+      "explanation": "Modal verbs form Konjunktiv I by adding -e to the stem: konnen er konne, mussen er musse, sollen er solle. These forms are distinct from indicative and frequently used in academic reporting.",
+      "id": "c2_03_q146"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb leitet typischerweise einen Konjunktiv-I-Bericht in wissenschaftlichen Texten ein?",
+      "options": [
+        "glauben",
+        "behaupten",
+        "fuhlen",
+        "wollen"
+      ],
+      "correctAnswer": "behaupten",
+      "explanation": "Verbs of reporting and claiming (behaupten, erklaren, mitteilen, betonen, darlegen) typically introduce indirect speech with Konjunktiv I in academic writing to maintain objectivity.",
+      "id": "c2_03_q147"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie wird der Futursatz 'Er wird die Studie veroffentlichen' in indirekter Rede mit Konjunktiv I transformiert?",
+      "options": [
+        "Er werde die Studie veroffentlichen.",
+        "Er wurde die Studie veroffentlichen.",
+        "Er werde die Studie veroffentlicht haben.",
+        "Er werde die Studie zu veroffentlichen."
+      ],
+      "correctAnswer": "Er werde die Studie veroffentlichen.",
+      "explanation": "Future tense in indirect speech uses Konjunktiv I of werden + infinitive: 'er werde veroffentlichen'. This preserves the future meaning while marking the content as reported.",
+      "id": "c2_03_q148"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte indirekte Rede mit Konjunktiv I fur: 'Der Forscher erklarte: Die Ergebnisse konnten auf einen systematischen Fehler hinweisen.'?",
+      "options": [
+        "Der Forscher erklarte, die Ergebnisse konnten auf einen systematischen Fehler hinweisen.",
+        "Der Forscher erklarte, die Ergebnisse konnten auf einen systematischen Fehler hingewiesen haben.",
+        "Der Forscher erklarte, die Ergebnisse konnten auf einen systematischen Fehler hinweisen konnen.",
+        "Der Forscher erklarte, die Ergebnisse warden auf einen systematischen Fehler hinweisen."
+      ],
+      "correctAnswer": "Der Forscher erklarte, die Ergebnisse konnten auf einen systematischen Fehler hinweisen.",
+      "explanation": "When the original direct speech already contains Konjunktiv II (konnten), it is typically retained in indirect speech for modal verbs to preserve the hypothetical nuance. Konjunktiv I forms of modals are rare in practice.",
+      "id": "c2_03_q149"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie wird der Passivsatz 'Die Probe wird im Labor untersucht' in indirekter Rede mit Konjunktiv I wiedergegeben?",
+      "options": [
+        "Die Probe werde im Labor untersucht.",
+        "Die Probe wurde im Labor untersucht.",
+        "Die Probe sei im Labor untersucht worden.",
+        "Die Probe werde im Labor untersucht worden."
+      ],
+      "correctAnswer": "Die Probe werde im Labor untersucht.",
+      "explanation": "Present passive in indirect speech uses Konjunktiv I of werden + past participle: 'werde untersucht'. This maintains both passive voice and subjunctive marking for reported content.",
+      "id": "c2_03_q150"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Warum wird im Satz 'Sie sagen, sie machen die Experimente morgen' oft Konjunktiv II verwendet statt Konjunktiv I?",
+      "options": [
+        "Weil Konjunktiv I bei 'sie machen' mit dem Indikativ identisch ist",
+        "Weil Konjunktiv I bei Pluralformen nicht existiert",
+        "Weil Konjunktiv II hoeflicher klingt",
+        "Weil der Satz in der Vergangenheit steht"
+      ],
+      "correctAnswer": "Weil Konjunktiv I bei 'sie machen' mit dem Indikativ identisch ist",
+      "explanation": "For plural forms (wir/sie machen), Konjunktiv I is identical to indicative. To maintain clear subjunctive marking, Konjunktiv II (sie machten) or wird + infinitive is substituted.",
+      "id": "c2_03_q151"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung ist im akademischen Kontext stilistisch am angemessensten?",
+      "options": [
+        "Muller (2023) sagt, dass seine Theorie stimmt.",
+        "Muller (2023) sagt, dass seine Theorie stimme.",
+        "Muller (2023) behauptet, seine Theorie stimme.",
+        "Muller (2023) behauptet, dass seine Theorie stimmen wurde."
+      ],
+      "correctAnswer": "Muller (2023) behauptet, seine Theorie stimme.",
+      "explanation": "Academic German prefers formal reporting verbs (behaupten) + Konjunktiv I without 'dass' for conciseness. The subjunctive 'stimme' signals reported content while maintaining scholarly distance.",
+      "id": "c2_03_q152"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'haben' in der 3. Person Singular?",
+      "options": [
+        "er hat",
+        "er habe",
+        "er hatte",
+        "er hab"
+      ],
+      "correctAnswer": "er habe",
+      "explanation": "The verb haben forms Konjunktiv I regularly: ich habe, du habest, er habe, etc. 'Er habe' is frequently used in indirect speech for reported possession or perfect tense constructions.",
+      "id": "c2_03_q153"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die indirekte Rede von 'Er wird kommen' mit Konjunktiv I?",
+      "options": [
+        "Er werde kommen.",
+        "Er wurde kommen.",
+        "Er werde gekommen sein.",
+        "Er werde zu kommen."
+      ],
+      "correctAnswer": "Er werde kommen.",
+      "explanation": "Future tense indirect speech uses Konjunktiv I of werden + infinitive: 'er werde kommen'. This is the standard form for reporting future claims in formal German.",
+      "id": "c2_03_q154"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktiv-I-Form ist korrekt fur 'wir' bei dem Verb 'untersuchen'?",
+      "options": [
+        "wir untersuchen",
+        "wir untersuchten",
+        "wir untersuchen warden",
+        "wir untersuchten"
+      ],
+      "correctAnswer": "wir untersuchen",
+      "explanation": "For 'wir', Konjunktiv I of regular verbs is identical to indicative (wir untersuchen). When ambiguity arises, Konjunktiv II (wir untersuchten) or wird + infinitive may be used for clarity.",
+      "id": "c2_03_q155"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie wird eine mehrstufige indirekte Rede korrekt mit Konjunktiv I formuliert: 'Er sagt, sie habe erklarit, sie ____ die Daten noch nicht ausgewertet.'?",
+      "options": [
+        "habe",
+        "hatte",
+        "werde",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "In nested indirect speech, each reported clause maintains Konjunktiv I where possible. Perfect tense 'habe ausgewertet' remains in Konjunktiv I perfect even in embedded clauses for consistency.",
+      "id": "c2_03_q156"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt eine korrekte Konjunktiv-I-Form zur Kennzeichnung indirekter Rede?",
+      "options": [
+        "Die Studie zeigt, dass das Verfahren effektiv ist.",
+        "Die Studie zeigt, dass das Verfahren effektiv sei.",
+        "Die Studie zeigt, dass das Verfahren effektiv ware.",
+        "Die Studie zeigt, dass das Verfahren effektiv sein wird."
+      ],
+      "correctAnswer": "Die Studie zeigt, dass das Verfahren effektiv sei.",
+      "explanation": "When reporting findings without endorsing them, Konjunktiv I ('sei') signals that the effectiveness claim originates from the study, not the current writer. This maintains academic neutrality.",
+      "id": "c2_03_q157"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie wird eine Frage in indirekter Rede mit Konjunktiv I formuliert: 'Er fragt: Haben die Teilnehmer die Einwilligung gegeben?'?",
+      "options": [
+        "Er fragt, ob die Teilnehmer die Einwilligung gegeben haben.",
+        "Er fragt, ob die Teilnehmer die Einwilligung gegeben hatten.",
+        "Er fragt, ob die Teilnehmer die Einwilligung gegeben habe.",
+        "Er fragt, ob die Teilnehmer die Einwilligung geben warden."
+      ],
+      "correctAnswer": "Er fragt, ob die Teilnehmer die Einwilligung gegeben habe.",
+      "explanation": "Yes/no questions in indirect speech use 'ob' + Konjunktiv I. For plural 'sie', Konjunktiv I perfect 'habe gegeben' is used; though identical to indicative, context clarifies the subjunctive function.",
+      "id": "c2_03_q158"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie wird die Verneinung in indirekter Rede mit Konjunktiv I korrekt ausgedruckt: 'Sie betont: Wir haben die Hypothese nicht bestatigt.'?",
+      "options": [
+        "Sie betont, sie haben die Hypothese nicht bestatigt.",
+        "Sie betont, sie hatten die Hypothese nicht bestatigt.",
+        "Sie betont, sie habe die Hypothese nicht bestatigt.",
+        "Sie betont, sie werde die Hypothese nicht bestatigen."
+      ],
+      "correctAnswer": "Sie betont, sie habe die Hypothese nicht bestatigt.",
+      "explanation": "Negation in indirect speech follows the same Konjunktiv I rules: 'haben' becomes 'habe' (3rd person singular representative), and 'nicht' retains its position before the past participle.",
+      "id": "c2_03_q159"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage zur stilistischen Verwendung von Konjunktiv I in wissenschaftlichen Arbeiten ist korrekt?",
+      "options": [
+        "Konjunktiv I sollte in allen Satzen verwendet werden, um formell zu wirken.",
+        "Konjunktiv I wird selektiv eingesetzt, um fremde Aussagen von eigenen Positionen zu trennen.",
+        "Konjunktiv I ist in empirischen Studien verboten, da er Unsicherheit suggeriert.",
+        "Konjunktiv I wird ausschliesslich in der Einleitung verwendet."
+      ],
+      "correctAnswer": "Konjunktiv I wird selektiv eingesetzt, um fremde Aussagen von eigenen Positionen zu trennen.",
+      "explanation": "C2 academic writing requires strategic use of Konjunktiv I: employed to report others' claims while using indicative for one's own findings. Overuse creates distance; underuse blurs attribution.",
+      "id": "c2_03_q160"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Konjunktiv I wird im akademischen Diskurs hauptsachlich fur ____ verwendet.",
+      "options": [
+        "irreale Wunsche",
+        "die indirekte Rede (Zitatform)",
+        "hofliche Bitten",
+        "wiederholte Handlungen in der Vergangenheit"
+      ],
+      "correctAnswer": "die indirekte Rede (Zitatform)",
+      "explanation": "Konjunktiv I is the primary mood for indirect speech in German, especially in academic writing and journalism.",
+      "id": "c2_03_q161"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Verbform steht im Konjunktiv I Prasens fur 'er sagt'?",
+      "options": [
+        "er sagte",
+        "er sage",
+        "er sagte",
+        "er hatte gesagt"
+      ],
+      "correctAnswer": "er sage",
+      "explanation": "'Er sage' is Konjunktiv I Prasens of 'sagen'.",
+      "id": "c2_03_q162"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler behauptet, die Theorie ____ korrekt.",
+      "options": [
+        "sei",
+        "ist",
+        "ware",
+        "wird"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Indirect speech in academic context demands Konjunktiv I: 'sei' instead of 'ist'.",
+      "id": "c2_03_q163"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wenn Konjunktiv I und Indikativ formal identisch sind, weicht man aus auf ____.",
+      "options": [
+        "Konjunktiv II",
+        "Prateritum",
+        "Perfekt",
+        "Futur I"
+      ],
+      "correctAnswer": "Konjunktiv II",
+      "explanation": "When Konjunktiv I matches the indicative (e.g., 'sie haben'), Konjunktiv II ('sie hatten') is used for clarity.",
+      "id": "c2_03_q164"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "In einem Zeitungsartikel steht: 'Der Minister erklarte, die Lage ____ unter Kontrolle.' Welche Form ist korrekt?",
+      "options": [
+        "ist",
+        "ware",
+        "sei",
+        "wird sein"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Standard indirect speech after 'erklarte' requires Konjunktiv I: 'sei'.",
+      "id": "c2_03_q165"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet den Konjunktiv I korrekt fur die indirekte Rede?",
+      "options": [
+        "Er sagte mir, er kommt morgen.",
+        "Er sagte mir, er kame morgen.",
+        "Er sagte mir, er komme morgen.",
+        "Er sagte mir, er ist morgen gekommen."
+      ],
+      "correctAnswer": "Er sagte mir, er komme morgen.",
+      "explanation": "'Komme' is Konjunktiv I Prasens of 'kommen' in indirect speech.",
+      "id": "c2_03_q166"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Forscherin betont, dass die Daten ____ eindeutig.",
+      "options": [
+        "sind",
+        "seien",
+        "waren",
+        "waren"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "'Dass' + indirekte Rede requires Konjunktiv I: 'seien' (3rd person plural).",
+      "id": "c2_03_q167"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist Konjunktiv I von 'sie (Pl.) gehen'?",
+      "options": [
+        "sie gehen",
+        "sie gingen",
+        "sie warden gehen",
+        "sie gegangen sind"
+      ],
+      "correctAnswer": "sie gehen",
+      "explanation": "Konjunktiv I often looks like the infinitive: 'sie gehen' (but context shows it's subjunctive).",
+      "id": "c2_03_q168"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im akademischen Deutsch wird der Konjunktiv I besonders haufig in ____ verwendet.",
+      "options": [
+        "Methodenteilen",
+        "Literaturzitaten und Paraphrasen",
+        "Danksagungen",
+        "Fussnoten mit Kommentaren"
+      ],
+      "correctAnswer": "Literaturzitaten und Paraphrasen",
+      "explanation": "Konjunktiv I marks reported views of authors in citations and paraphrases (e.g., 'Smith (2020) argumentiert, dass ... sei').",
+      "id": "c2_03_q169"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wenn der Konjunktiv I nicht eindeutig ist (z. B. 'sie haben'), verwendet man stattdessen oft ____.",
+      "options": [
+        "die Umschreibung mit 'wurde'",
+        "das Passiv",
+        "den Konjunktiv II (hatten)",
+        "das Futur I"
+      ],
+      "correctAnswer": "den Konjunktiv II (hatten)",
+      "explanation": "To avoid ambiguity, Konjunktiv II ('sie hatten') replaces unclear Konjunktiv I forms.",
+      "id": "c2_03_q170"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Im Satz 'Er berichtet, dass er ____ keine Zeit' ist die korrekte Konjunktiv-I-Form von 'haben'.",
+      "options": [
+        "hat",
+        "habe",
+        "hatte",
+        "wurde haben"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "'Er habe' is Konjunktiv I Prasens of 'haben' in indirect speech.",
+      "id": "c2_03_q171"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz zeigt eine korrekte Ausweichform wegen formaler Ubereinstimmung?",
+      "options": [
+        "Er sagt, sie gehen nach Hause.",
+        "Er sagt, sie gingen nach Hause.",
+        "Er sagt, sie warden nach Hause gehen.",
+        "Er sagt, sie sind nach Hause gegangen."
+      ],
+      "correctAnswer": "Er sagt, sie gingen nach Hause.",
+      "explanation": "'Sie gehen' (Konj. I) = 'sie gehen' (Indikativ), so 'sie gingen' (Konj. II) is used instead.",
+      "id": "c2_03_q172"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Konjunktiv I des Verbs 'sein' in der 1. Person Singular lautet:",
+      "options": [
+        "ich bin",
+        "ich sei",
+        "ich ware",
+        "ich wurde sein"
+      ],
+      "correctAnswer": "ich sei",
+      "explanation": "'Ich sei' is Konjunktiv I Prasens of 'sein'.",
+      "id": "c2_03_q173"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "In der indirekten Rede wird der Konjunktiv I im akademischen Stil bevorzugt, weil er ____.",
+      "options": [
+        "emotionale Distanz schafft",
+        "Neutralitat und Distanz zur Aussage des Autors signalisiert",
+        "die Handlung als abgeschlossen markiert",
+        "die Hoflichkeit verstarkt"
+      ],
+      "correctAnswer": "Neutralitat und Distanz zur Aussage des Autors signalisiert",
+      "explanation": "Konjunktiv I shows the writer is reporting someone else's view without endorsing it.",
+      "id": "c2_03_q174"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Kritisiert wird der Konjunktiv I manchmal, weil er ____.",
+      "options": [
+        "zu umgangssprachlich wirkt",
+        "in vielen Formen mit dem Indikativ zusammenfallt",
+        "keine Vergangenheitsformen hat",
+        "nur fur irreale Bedingungen taugt"
+      ],
+      "correctAnswer": "in vielen Formen mit dem Indikativ zusammenfallt",
+      "explanation": "The ambiguity (e.g., 'sie haben') is a well-known weakness of Konjunktiv I in German.",
+      "id": "c2_03_q175"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Funktion hat der Konjunktiv I im folgenden Satz? 'Manet schreibt, die Farbe ____ das primare Gestaltungsmittel.'",
+      "options": [
+        "Irrealer Wunsch",
+        "Indirekte Rede",
+        "Hoflichkeitsform",
+        "Generalisierung"
+      ],
+      "correctAnswer": "Indirekte Rede",
+      "explanation": "'Sei' (implied) marks indirect citation of Manet's statement.",
+      "id": "c2_03_q176"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Im akademischen Diskurs wird der Konjunktiv I auch in ____ verwendet, um eine Aussage zu problematisieren.",
+      "options": [
+        "rhetorischen Fragen",
+        "theseartigen Satzen ohne einleitendes Verb",
+        "Fussnotenappellen",
+        "direkten Zitaten in Anfuhrungszeichen"
+      ],
+      "correctAnswer": "theseartigen Satzen ohne einleitendes Verb",
+      "explanation": "Sometimes Konjunktiv I appears in 'als ob' contexts or hypothetical theses (e.g., 'Dies sei hier kritisch zu prufen.').",
+      "id": "c2_03_q177"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er (schreibt): 'Die Ergebnisse sind signifikant.' — Indirekte Rede: Er schreibt, die Ergebnisse ____ signifikant.",
+      "options": [
+        "sind",
+        "seien",
+        "waren",
+        "waren"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "Konjunktiv I 'seien' for 3rd person plural indirect speech.",
+      "id": "c2_03_q178"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb hat im Konjunktiv I Prasens eine Sonderform, die sich stark vom Indikativ unterscheidet?",
+      "options": [
+        "gehen",
+        "sein",
+        "werden",
+        "lachen"
+      ],
+      "correctAnswer": "sein",
+      "explanation": "'Sein' (ich sei, du seiest, er sei) is uniquely distinct; most verbs match the infinitive.",
+      "id": "c2_03_q179"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In der indirekten Rede fur die Vergangenheit verwendet der akademische Stil bevorzugt:",
+      "options": [
+        "Konjunktiv I Perfekt",
+        "Konjunktiv II Prateritum",
+        "Konjunktiv I Prasens",
+        "Indikativ Perfekt"
+      ],
+      "correctAnswer": "Konjunktiv I Perfekt",
+      "explanation": "For past events in indirect speech: Konjunktiv I Perfekt (e.g., 'er habe gesagt').",
+      "id": "c2_03_q180"
     }
   ]
 }
