@@ -1180,7 +1180,327 @@
       "correctAnswer": "einen Antrag stellen",
       "explanation": "'Einen Antrag stellen' (to file an application) is ubiquitous in official and administrative German.",
       "id": "c2_06_q080"
+    },
+    {
+      "id": "c2_06_q081",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Was ist ein Funktionsverbgefuege (FVG)?",
+      "options": [
+        "Ein Verb, das allein als Vollverb eine vollstaendige Aussage macht",
+        "Eine Verbindung aus einem bedeutungsarmen Verb und einem Nomen, die gemeinsam die Funktion eines Vollverbs uebernehmen",
+        "Ein zusammengesetztes Nomen aus zwei Substantiven",
+        "Ein Modalverb in Kombination mit einem Infinitiv"
+      ],
+      "correctAnswer": "Eine Verbindung aus einem bedeutungsarmen Verb und einem Nomen, die gemeinsam die Funktion eines Vollverbs uebernehmen",
+      "explanation": "A Funktionsverbgefuege (support verb construction) consists of a semantically light verb (Funktionsverb) combined with a noun (often a nominalization), together expressing what a single full verb would otherwise convey.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q082",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welches der folgenden Paare ist ein typisches Funktionsverbgefuege und sein Vollverb-Aequivalent?",
+      "options": [
+        "in Kraft treten- kraftvoll werden",
+        "zur Kenntnis nehmen - kenntnisreich sein",
+        "in Frage stellen - bezweifeln",
+        "unter Druck setzen - drucken lernen"
+      ],
+      "correctAnswer": "in Frage stellen - bezweifeln",
+      "explanation": "'In Frage stellen' (to call into question) is the FVG equivalent of 'bezweifeln'. Only the third pair is correctly matched.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q083",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welches Verb ist ein typisches Funktionsverb in deutschen FVG?",
+      "options": [
+        "schlafen",
+        "bringen",
+        "essen",
+        "wachsen"
+      ],
+      "correctAnswer": "bringen",
+      "explanation": "'Bringen' is one of the core Funktionsverben in German, forming constructions such as 'zur Anwendung bringen', 'zum Ausdruck bringen', 'in Einklang bringen', 'zur Geltung bringen'. Other typical Funktionsverben include 'kommen', 'stehen', 'stellen', 'nehmen', 'setzen', 'treten', 'gelangen', and 'finden'.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q084",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Was bedeutet das Funktionsverbgefuege \"zur Anwendung kommen\"?",
+      "options": [
+        "anwenden",
+        "angewendet werden",
+        "anwenden wollen",
+        "zur Anwendung fehlen"
+      ],
+      "correctAnswer": "angewendet werden",
+      "explanation": "'Zur Anwendung kommen' is the passive-equivalent FVG of 'anwenden'. FVG with 'kommen' typically express a passive or inchoative meaning: the subject undergoes the action rather than performing it.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q085",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "In welchem Texttyp sind Funktionsverbgefuege besonders haeufig anzutreffen?",
+      "options": [
+        "In Kinderbuechern und Maerchen",
+        "In informellen WhatsApp-Nachrichten",
+        "In Gesetzestexten, Vertraegen und behoerdlichen Schreiben",
+        "In lyrischen Gedichten"
+      ],
+      "correctAnswer": "In Gesetzestexten, Vertraegen und behoerdlichen Schreiben",
+      "explanation": "FVG are a hallmark of formal, legal, and administrative language. Legal texts and official correspondence rely heavily on FVG as standardized formulations.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q086",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Ergänzen Sie das Funktionsverbgefuege: \"Das Gericht brachte das Urteil zur ____.\"",
+      "options": [
+        "Kenntnis",
+        "Verkuendung",
+        "Anwendung",
+        "Sprache"
+      ],
+      "correctAnswer": "Verkuendung",
+      "explanation": "'Zur Verkuendung bringen' (to pronounce / to announce officially) is the correct legal FVG here. 'Zur Kenntnis bringen' = to inform; 'zur Anwendung bringen' = to apply; 'zur Sprache bringen' = to bring up a topic.",
+      "difficulty": "easy",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q087",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welches Vollverb entspricht dem FVG \"eine Entscheidung treffen\"?",
+      "options": [
+        "entschlagen",
+        "entscheiden",
+        "beschliessen oder entscheiden",
+        "treffen"
+      ],
+      "correctAnswer": "beschliessen oder entscheiden",
+      "explanation": "'Eine Entscheidung treffen' is the FVG equivalent of 'entscheiden' or 'beschliessen'. The Funktionsverb 'treffen' here is semantically light (it does not mean 'to hit' or 'to meet'). Both are accepted full-verb equivalents.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q088",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Was ist der Unterschied zwischen 'einen Antrag stellen' und 'einen Antrag einreichen'?",
+      "options": [
+        "'Einen Antrag stellen' ist ein FVG; 'einen Antrag einreichen' ist ein Vollverb mit Objekt - beide bedeuten dasselbe im formellen Kontext.",
+        "'Einen Antrag stellen' bedeutet, einen Antrag abzulehnen.",
+        "'Einen Antrag einreichen' ist umgangssprachlich; 'stellen' ist korrekt.",
+        "Nur 'stellen' ist juristisch korrekt; 'einreichen' ist ein Grammatikfehler."
+      ],
+      "correctAnswer": "'Einen Antrag stellen' ist ein FVG; 'einen Antrag einreichen' ist ein Vollverb mit Objekt - beide bedeuten dasselbe im formellen Kontext.",
+      "explanation": "'Einen Antrag stellen' is the classic FVG (stellen = Funktionsverb). 'Einen Antrag einreichen' uses 'einreichen' as a full verb. Both are correct in formal/legal contexts.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q089",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welches Funktionsverbgefuege kann 'informieren' ersetzen?",
+      "options": [
+        "in Kenntnis setzen",
+        "unter Kenntnis bringen",
+        "zur Kenntnis kommen",
+        "mit Kenntnis stehen"
+      ],
+      "correctAnswer": "in Kenntnis setzen",
+      "explanation": "'In Kenntnis setzen' (to inform / to notify) is the established FVG for 'informieren'. 'Zur Kenntnis nehmen' means 'to take note of', not 'to inform'. The other options are not established FVG.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q090",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Ergänzen Sie den formellen Satz: \"Die Behoerde hat gegen den Bescheid Einspruch ____.\"",
+      "options": [
+        "gestellt",
+        "erhoben",
+        "genommen",
+        "gebracht"
+      ],
+      "correctAnswer": "erhoben",
+      "explanation": "'Einspruch erheben' (to lodge an objection / to appeal) is the fixed legal FVG. Other legal FVG with 'erheben': 'Klage erheben', 'Anklage erheben', 'Beschwerde erheben'. 'Stellen', 'nehmen', and 'bringen' do not collocate with 'Einspruch'.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q091",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welches FVG drueckt aktive Handlung aus, welches eine passiv-aehnliche Bedeutung? 'zur Geltung bringen' / 'zur Geltung kommen'",
+      "options": [
+        "Beide druecken passive Bedeutung aus.",
+        "'zur Geltung bringen' = aktiv (etwas durchsetzen); 'zur Geltung kommen' = passiv-aehnlich (zur Wirkung gelangen)",
+        "'zur Geltung kommen' = aktiv; 'zur Geltung bringen' = passiv",
+        "Beide druecken aktive Bedeutung aus."
+      ],
+      "correctAnswer": "'zur Geltung bringen' = aktiv (etwas durchsetzen); 'zur Geltung kommen' = passiv-aehnlich (zur Wirkung gelangen)",
+      "explanation": "FVG with 'bringen' are active/causative; FVG with 'kommen' are inchoative/passive-like. This parallel structure is a systematic feature of formal German FVG.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q092",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welcher Satz enthaelt ein korrekt verwendetes juristisches Funktionsverbgefuege?",
+      "options": [
+        "Der Anwalt hat die Klage erhoben.",
+        "Der Anwalt hat die Klage gemacht.",
+        "Der Anwalt hat die Klage gesagt.",
+        "Der Anwalt hat die Klage gehabt."
+      ],
+      "correctAnswer": "Der Anwalt hat die Klage erhoben.",
+      "explanation": "'Klage erheben' is a fixed legal FVG meaning 'to file a lawsuit'. 'Erheben' is the established Funktionsverb. 'Machen', 'sagen', and 'haben' are not Funktionsverben for 'Klage' and produce non-standard results.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q093",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Ergänzen Sie den juristischen Satz: \"Das Gesetz tritt am 1. Januar in ____.\"",
+      "options": [
+        "Geltung",
+        "Kraft",
+        "Wirkung",
+        "Anwendung"
+      ],
+      "correctAnswer": "Kraft",
+      "explanation": "'In Kraft treten' (to come into force) is the standard legal FVG for legislation entering into force. It is among the most frequently used FVG in German legal language.",
+      "difficulty": "medium",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q094",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welches ist das korrekte Funktionsverbgefuege fuer 'beruecksichtigen' im juristisch-formellen Register?",
+      "options": [
+        "in Beruecksichtigung nehmen",
+        "Beruecksichtigung finden",
+        "zur Beruecksichtigung kommen",
+        "mit Beruecksichtigung bringen"
+      ],
+      "correctAnswer": "Beruecksichtigung finden",
+      "explanation": "'Beruecksichtigung finden' is the correct formal/legal FVG for 'beruecksichtigt werden' (to be taken into consideration). 'Finden' is a productive Funktionsverb: 'Anwendung finden', 'Erwaehung finden', 'Beruecksichtigung finden'.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q095",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Ergänzen Sie den Vertagssatz: \"Die Vertraege kommen ueberein, dass strittige Punkte einer guetlichen Einigung ____ sollen.\"",
+      "options": [
+        "zugefuehrt werden",
+        "zugefuehrt bekommen",
+        "zugefuehrt nehmen",
+        "in Zufuehrung kommen"
+      ],
+      "correctAnswer": "zugefuehrt werden",
+      "explanation": "'Einer guetlichen Einigung zugefuehrt werden' (to be brought to an amicable resolution) is a formal legal passive construction. 'Zufuehren' (to lead/bring to) functions as the support verb.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q096",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welche stilistische Kritik wird an einem uebermueßigen Gebrauch von Funktionsverbgefuegen in Rechtstexten geaeuert?",
+      "options": [
+        "FVG sind grammatikalisch inkorrekt und sollten vermieden werden.",
+        "FVG sind zu kurz und liefern zu wenig Information.",
+        "FVG koennen Texte aufblahten, Handelnde verschleiern und die Verstaendlichkeit fuer Laien erheblich reduzieren.",
+        "FVG sind ausschließlich in der Umgangssprache verbreitet und wirken in Rechtstexten deplatziert."
+      ],
+      "correctAnswer": "FVG koennen Texte aufblahten, Handelnde verschleiern und die Verstaendlichkeit fuer Laien erheblich reduzieren.",
+      "explanation": "Excessive FVG use creates 'Buerokratendeutsch' (bureaucratic German): they inflate sentence length, obscure agency, and reduce accessibility for non-specialists.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q097",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welches FVG ist das korrekte formelle Aequivalent zu 'etwas beschleunigen'?",
+      "options": [
+        "in Beschleunigung bringen",
+        "Beschleunigung erfahren",
+        "einer Beschleunigung zufuehren",
+        "unter Beschleunigung stellen"
+      ],
+      "correctAnswer": "einer Beschleunigung zufuehren",
+      "explanation": "'Einer Beschleunigung zufuehren' follows the formal FVG pattern: dative article + nominalization + 'zufuehren'. This is a productive pattern in official language: 'einer Loesung zufuehren', 'einer Klarung zufuehren', 'einer Pruefung zufuehren'.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q098",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Analysieren Sie: \"Der Vorstand hat Beschluss gefasst, das Verfahren zum Abschluss zu bringen und alle Beteiligten in Kenntnis zu setzen.\" Welche Ausdruecke sind FVG?",
+      "options": [
+        "Nur 'Beschluss fassen' ist ein FVG; die anderen Ausdruecke sind Vollverben.",
+        "'Beschluss fassen', 'zum Abschluss bringen' und 'in Kenntnis setzen' sind alle drei Funktionsverbgefuege.",
+        "'Zum Abschluss bringen' und 'in Kenntnis setzen' sind FVG; 'Beschluss fassen' ist ein idiomatischer Ausdruck.",
+        "Keiner der Ausdruecke ist ein Funktionsverbgefuege."
+      ],
+      "correctAnswer": "'Beschluss fassen', 'zum Abschluss bringen' und 'in Kenntnis setzen' sind alle drei Funktionsverbgefuege.",
+      "explanation": "All three are FVG: (1) 'Beschluss fassen' = 'beschliessen'; (2) 'zum Abschluss bringen' = 'abschliessen/beenden'; (3) 'in Kenntnis setzen' = 'informieren'. This sentence is a typical example of FVG-dense formal administrative German.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q099",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welcher Satz verwendet das Funktionsverbgefuege 'in Anspruch nehmen' korrekt im rechtlichen Sinne?",
+      "options": [
+        "Der Klager nahm das Gericht in Anspruch, weil er keine Zeit hatte.",
+        "Der Beklagte nahm sein Recht auf rechtliches Gehoer in Anspruch.",
+        "Das Gericht nahm die Zeugen in Anspruch, damit sie schwiegen.",
+        "Der Richter nahm das Urteil in Anspruch."
+      ],
+      "correctAnswer": "Der Beklagte nahm sein Recht auf rechtliches Gehoer in Anspruch.",
+      "explanation": "'In Anspruch nehmen' in legal language means 'to exercise / to invoke a right or service'. Correct usage is with rights, entitlements, or services as the object: 'ein Recht in Anspruch nehmen', 'Hilfe in Anspruch nehmen'.",
+      "difficulty": "hard",
+      "type": "multiple_choice"
+    },
+    {
+      "id": "c2_06_q100",
+      "subjectId": "c2_06",
+      "topicName": "Funktionsverbgefuge",
+      "questionText": "Welche der folgenden Aussagen ueber Funktionsverbgefuege ist FALSCH?",
+      "options": [
+        "FVG bestehen aus einem semantisch abgeschwaechten Verb und einem nominalen Element, das den eigentlichen Handlungsinhalt traegt.",
+        "FVG mit \"kommen\" druecken oft eine passiv-aehnliche oder inchoative Bedeutung aus, FVG mit \"bringen\" eher eine aktiv-kausative.",
+        "Alle Funktionsverbgefuege sind vollstaendig durch ein einziges Vollverb ersetzbar, ohne dass ein Bedeutungsunterschied entsteht.",
+        "FVG erlauben durch das nominale Element eine attributive Erweiterung, die bei einem einfachen Vollverb nicht moeglich waere."
+      ],
+      "correctAnswer": "Alle Funktionsverbgefuege sind vollstaendig durch ein einziges Vollverb ersetzbar, ohne dass ein Bedeutungsunterschied entsteht.",
+      "explanation": "This is FALSE. FVG are not always perfectly interchangeable with full verbs. They carry additional nuances: aspectual distinctions, register formality, agent visibility, and attributive expandability (e.g., 'eine endgueltige Entscheidung treffen' vs. *'endgueltig entscheiden').",
+      "difficulty": "hard",
+      "type": "multiple_choice"
     }
   ],
-  "totalQuestions": 80
+  "totalQuestions": 100
 }
