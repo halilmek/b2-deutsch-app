@@ -93,28 +93,32 @@ class HomeFragment : Fragment() {
             findNavController().navigate(R.id.action_home_to_subjectList, bundle)
         }
 
-        // Writing card - goes to SubjectList with writing filter
+        // Writing card - real Writing screen (still a draft UI, but an honest one -
+        // previously this routed through the fake SubjectList "writing" category,
+        // whose quiz IDs don't correspond to any real quiz content)
         binding.cardWriting.setOnClickListener {
-            val bundle = Bundle().apply {
-                putString("level", "B2")
-                putString("category", "writing")
-            }
-            findNavController().navigate(R.id.action_home_to_subjectList, bundle)
+            findNavController().navigate(R.id.action_home_to_writing)
         }
 
-        // Speaking card - premium only
+        // Speaking card - premium only, real Speaking screen
         binding.cardSpeaking.setOnClickListener {
             val user = homeViewModel.currentUser.value
             val isPremium = user?.subscriptionTier == "premium"
             if (isPremium) {
-                val bundle = Bundle().apply {
-                    putString("level", "B2")
-                    putString("category", "speaking")
-                }
-                findNavController().navigate(R.id.action_home_to_subjectList, bundle)
+                findNavController().navigate(R.id.action_home_to_speaking)
             } else {
                 Toast.makeText(requireContext(), "Speaking practice requires Premium ✨", Toast.LENGTH_SHORT).show()
             }
+        }
+
+        // Vocabulary card - was not reachable from Home at all before this fix
+        binding.cardVocabulary.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_vocabulary)
+        }
+
+        // Lessons card - was not reachable from Home at all before this fix
+        binding.cardLessons.setOnClickListener {
+            findNavController().navigate(R.id.action_home_to_lessons)
         }
     }
 

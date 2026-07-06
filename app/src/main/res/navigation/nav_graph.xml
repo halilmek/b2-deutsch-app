@@ -53,6 +53,22 @@
             app:destination="@id/examsFragment" />
 
         <action
+            android:id="@+id/action_home_to_lessons"
+            app:destination="@id/lessonsFragment" />
+
+        <action
+            android:id="@+id/action_home_to_vocabulary"
+            app:destination="@id/vocabularyFragment" />
+
+        <action
+            android:id="@+id/action_home_to_writing"
+            app:destination="@id/writingFragment" />
+
+        <action
+            android:id="@+id/action_home_to_speaking"
+            app:destination="@id/speakingFragment" />
+
+        <action
             android:id="@+id/action_home_to_login"
             app:destination="@id/loginFragment"
             app:popUpTo="@id/homeFragment"
