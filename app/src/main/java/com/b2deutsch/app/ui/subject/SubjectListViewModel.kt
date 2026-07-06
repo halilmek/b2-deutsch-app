@@ -1154,6 +1154,28 @@ class SubjectListViewModel @Inject constructor(
             iconEmoji = "📝",
             order = 10,
             quizCount = 0
+        ),
+        Subject(
+            id = "c2_11",
+            level = "C2",
+            name = "11. Nominalkomposita & Fachterminologie",
+            nameShort = "Nominalkomposita",
+            description = "Nominalkomposita & Fachterminologie: Dekonstruktion komplexer Komposita, Fugenelemente, Rektionskomposita. Fortgeschrittene Wortbildungsprozesse und fachsprachliche Kompetenz.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 11,
+            quizCount = 0
+        ),
+        Subject(
+            id = "c2_12",
+            level = "C2",
+            name = "12. Modalpartikeln im gehobenen Sprachgebrauch",
+            nameShort = "Modalpartikeln",
+            description = "Modalpartikeln (Abtönungspartikeln): ja, doch, eben/halt, wohl, schon, ruhig, mal, denn, aber. Erkennung ihrer pragmatischen Funktion und Register-Bewusstsein für formelles Schreiben.",
+            category = Constants.Categories.GRAMMAR,
+            iconEmoji = "📝",
+            order = 12,
+            quizCount = 0
         )
     )
 

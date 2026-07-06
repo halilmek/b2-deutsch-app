@@ -1,6 +1,6 @@
 # B2 Deutsch App — PROJECT STATUS
 
-**Last Updated: 2026-06-03 19:35 UTC**
+**Last Updated: 2026-07-06 (verified against live Firestore + local assets by Claude Code)**
 **GitHub:** https://github.com/halilmek/b2-deutsch-app
 **Firebase:** b2-deutsch-app
 **Local App Path (Halil's machine):** `/Users/halilozturk/b2-deutsch-app`
@@ -10,19 +10,29 @@
 
 ## 📋 OVERALL PROGRESS SUMMARY
 
-| Module | Questions | Target | Status |
-|--------|-----------|--------|--------|
-| A1 | 600 | 1,000 | ⚠️ Needs Review (600 in files, reported 1,000) |
-| A2 | 1,210 | ~1,000 | ✅ Complete |
-| B1 | 1,001 | 1,000 | ✅ Complete (target reached 🎉) |
-| B2 | 2,321 | ~2,000 | ✅ Complete |
-| **C1** | **1,048** | **2,000** | **🔄 In Progress** |
-| **C2** | **900** | **~2,000** | **🔄 In Progress** |
-| **Total** | **7,580** | **~8,000** | 🔄 In Progress |
+**Two numbers matter here and they legitimately differ — see "Firestore Reality Check" below.**
+`Local` = topics/questions bundled as JSON in `app/src/main/assets/` (git source of truth, what ships in the APK).
+`Firestore` = topics live in the `grammarQuizBank` collection (used when Firestore fetch succeeds; app falls back to Local on failure).
+
+| Module | Local Topics | Local Questions | Firestore Topics | Firestore Questions | Target |
+|--------|-------------|-----------------|-------------------|----------------------|--------|
+| A1 | 10 | 600 | 15 | 1,500 | 1,000 |
+| A2 | 10 | 1,210 | 15 | 1,500 | ~1,000 |
+| B1 | 10 | 1,001 | 15 | 1,500 | 1,000 |
+| B2 | 24 | 2,321 | 23 | 2,260 | ~2,000 |
+| C1 | 10 | 1,028 | 15 | 1,500 | 2,000 |
+| **C2** | **12** | **1,240** | **0** | **0** | **~2,000** |
+| **Total (local)** | **76** | **7,400** | | | **~8,000** |
+
+**Resolved (previously flagged as open, verified 2026-07-06):**
+- A1 "600 vs 1,000" discrepancy: not a bug — 10 local topics × 60 questions = 600 is simply what exists in the repo; the "1,000" was a stale target number, not an actual count.
+- A2/B1 Firestore sync: **done, and then some** — Firestore's `grammarQuizBank` has 15 topics × 100 q each for A1/A2/B1/C1 (topics `_11` through `_15`), i.e. more than what's in this git repo.
+
+**New finding — content exists ONLY in Firestore, not in git, for A1/A2/B1/C1 topics `_11`–`_15`:** these 5 extra topics per level (20 topics, ~2,000 questions total) have no corresponding local JSON file and no git history. If Firestore data is ever lost/corrupted, this content has no backup. Recommend exporting `grammarQuizBank` docs for `*_11` through `*_15` back into `app/src/main/assets/` and committing them.
 
 ---
 
-## 📋 A1 MODULE ⚠️ (Needs Review)
+## 📋 A1 MODULE ✅
 
 | # | subjectId | Topic Name | Questions | Status |
 |---|----------|-----------|-----------|--------|
@@ -144,43 +154,33 @@
 | 8 | c2_08 | Finale/Modale Nebensatzkonstruktionen | 100 | ✅ Complete |
 | 9 | c2_09 | Wissenschaftliche Diskursmarker | 100 | ✅ Complete |
 | 10 | c2_10 | Argumentationsstrategien | 100 | ✅ Complete |
-| 11 | c2_11 | Nominalkomposita & Fachterminologie | 100 | ✅ Complete | 🔄 In Progress |
+| 11 | c2_11 | Nominalkomposita & Fachterminologie | 100 | ✅ Complete (was missing from app's C2 subject list — fixed 2026-07-06) |
+| 12 | c2_12 | Modalpartikeln im gehobenen Sprachgebrauch | 20 | 🔄 In Progress (initial batch; extend to 100 in next session) |
 
-**C2 Total: 1,300 questions (target: ~2,000)**
+**C2 Total: 1,240 questions (target: ~2,000). Not yet synced to Firestore at all (0 docs in `grammarQuizBank` for c2_*) — currently served entirely via bundled local assets + the hardcoded fallback subject list, same as it's always been for C2.**
 
 ---
 
 ## 📋 FIREBASE SYNC STATUS
 
-### Pending syncs from local machine:
-```bash
-cd /Users/halilozturk/b2-deutsch-app && git pull origin main
-export GOOGLE_APPLICATION_CREDENTIALS="/Users/halilozturk/Documents/b2-deutsch-app-firebase-adminsdk-fbsvc-4aa25c0ca2.json"
+**Live app reads grammar questions from the `grammarQuizBank` Firestore collection** (`FirebaseDataSource.getGrammarQuestionsBySubject`), with `Question` docs shaped as `{ id, subjectId, level, questionText, options: "opt1|opt2|opt3|opt4" (pipe-delimited STRING, not array), correctAnswer, difficulty, type }` — notably **no `explanation` field**.
 
-# Sync all pending C1 topics
-node scripts/import_and_sync.js c1_04 c1_06 c1_07 c1_08 c1_09 c1_10
+**⚠️ `scripts/import_and_sync.js` writes to the WRONG collection.** It pushes to `moduleQuizQuestions`, which nothing in the app reads. Running it does not actually update what users see via Firestore — it only updates the GitHub-hosted asset file (and only for topics that already exist on GitHub; it can't create brand-new topic files, since it fetches a SHA first). Treat any "synced via import_and_sync.js" claim as GitHub-only, not Firestore-verified, until this script is fixed to target `grammarQuizBank` with the correct doc shape.
 
-# Sync A2 (pending)
-node scripts/import_and_sync.js a2_01 a2_02 a2_03 a2_04 a2_05 a2_06 a2_07 a2_08 a2_09 a2_10
-
-# Sync B1 (all topics)
-node scripts/import_and_sync.js b1_01 b1_02 b1_03 b1_04 b1_05 b1_06 b1_07 b1_08 b1_09 b1_10
-
-# Sync B2 (remaining)
-node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 b2_17
-```
+**⚠️ Likely silent bug:** because `grammarQuizBank` docs have no `explanation` field, any level whose Firestore fetch succeeds (currently A1/A2/B1/B2/C1 — anything except C2) probably shows blank/missing answer explanations in the quiz results screen (SUBJ-007 / READ-007 in PRODUCT_BACKLOG.md claim this is ✅ Done). C2 is unaffected only because Firestore has zero C2 topics, so it always falls back to the local JSON (which does have `explanation`). Worth a dedicated investigation session — not fixed here, out of scope for the C2 content task.
 
 ---
 
 ## 🚨 OPEN ITEMS
 
-1. **A1 Discrepancy:** 600 questions in files, status reported 1,000 — needs investigation
-2. **A2 sync:** 1,210 questions pending upload to Firestore
-3. **B1 sync:** 1,001 questions pending upload to Firestore
-4. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify
-5. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is
-6. **SubjectListViewModel.kt:** hardcodes topic names (c1_08 shows "Infinitivkonstruktionen") — needs app rebuild to fix
-7. **C2 started:** c2_01 COMPLETE at 100 questions (q001-q100)
+1. **C2 sync to Firestore:** 0 of 1,240 C2 questions are in `grammarQuizBank`. Needs a script that writes directly to that collection in the real schema (see above), not `import_and_sync.js`.
+2. **`import_and_sync.js` targets the wrong collection** (`moduleQuizQuestions` instead of `grammarQuizBank`) and can only update pre-existing GitHub files — needs a rewrite before it's trusted again.
+3. **Missing `explanation` field in `grammarQuizBank`:** likely breaks the "see why an answer was wrong" feature for every level except C2. Needs investigation + backfill.
+4. **20 topics (`_11`–`_15` for A1/A2/B1/C1) exist only in Firestore, not in git** — no local JSON, no version history, no backup. Should be exported back into `app/src/main/assets/` and committed.
+5. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify (unverified this session).
+6. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is (unverified this session).
+7. **`SubjectListViewModel.kt` topic-name drift:** confirmed three different names exist for `c1_08` across local JSON (`topicName`), the Firestore `topics` collection (`name`), and the hardcoded Kotlin fallback list (`name`/`nameShort`) — none of the three match. This is a real, unfixed naming-consistency bug (not just the c1_08 case previously noted); needs a full audit across c1_01–c1_10 and c2_01–c2_12, ideally with one of the three sources picked as ground truth.
+8. **c2_12 (Modalpartikeln):** only 20/100 questions written this session. Continue with q021–q100 in 20-question batches, following the existing pattern (see `scripts/create_c2_12.py`).
 
 ---
 
@@ -289,4 +289,14 @@ node scripts/import_and_sync.js b2_09 b2_10 b2_11 b2_12 b2_13 b2_14 b2_15 b2_16 
 
 ---
 
-_Last updated: 2026-06-01 19:05 UTC_
+### c2_12 Modalpartikeln im gehobenen Sprachgebrauch — Questions Added 🔄
+| Batch | Questions | Commit |
+|-------|-----------|--------|
+| q001–q020 | 20 (ja/doch/eben/halt/wohl/schon/ruhig/mal/denn/aber, register awareness) | `scripts/create_c2_12.py` |
+
+**c2_12 Total: 20 questions (target: 100)** 🔄 In Progress
+**Also fixed:** `SubjectListViewModel.kt` `getC2Subjects()` was missing both `c2_11` and `c2_12` entries — c2_11 (100 questions, already existed) was invisible in the app before this fix.
+
+---
+
+_Last updated: 2026-07-06_
