@@ -312,10 +312,17 @@ class FirebaseDataSource @Inject constructor(
     // which subjects exist per level. Adding a topic there (via
     // scripts/import_and_sync.js) makes it appear in the app with no code change -
     // see SubjectListViewModel.kt, which was previously a hardcoded per-level list.
+    //
+    // This is the GRAMMAR topic list specifically (SubjectListFragment's "Themen"
+    // screen, its only caller) - filtered to type == "grammar" so that other
+    // planned-but-unbuilt topic types (e.g. "reading" placeholders like
+    // b2_reading_01..12, which have textCount/quizCount 0 and no matching content
+    // anywhere) don't leak into it and show up as dead ends with no quiz.
     suspend fun getSubjectsByLevel(level: String): Result<List<Subject>> {
         return try {
             val snapshot = firestore.collection("topics")
                 .whereEqualTo("level", level)
+                .whereEqualTo("type", "grammar")
                 .get()
                 .await()
 
