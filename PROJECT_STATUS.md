@@ -183,7 +183,20 @@ Output: `content/grammar/<subjectId>.json` (81 files, reshaped to match the asse
 
 **🚨🚨 CRITICAL — 2026-07-06, Step 2 work: `grammarQuizBank` B2 content is systemically contaminated with a duplicated placeholder question.** While dry-running the fixed sync script (`node scripts/import_and_sync.js --dry-run`), 21 of 23 B2 topics (`b2_03` through `b2_23`) were found to share the **exact same question as `q001`**: `"___ ich in Deutschland ankam, konnte ich kein Deutsch."` (a temporal-clause/Konnektoren question). `b2_07`, `b2_08`, and `b2_09` additionally share the identical `q002` too. This means real B2 users hitting Firestore today are very likely seeing this same off-topic question repeated across most B2 quizzes, regardless of what the quiz claims to be about (e.g. `b2_09` is supposed to be "Negationswörter" but its `q001`/`q002` are about temporal clauses, not negation). Verified directly against raw Firestore docs, not a script artifact.
 
-This is a different, larger-scope problem than the "no `explanation` field" or "96 broken `correctAnswer`" findings above — it looks like whatever process originally populated `grammarQuizBank` for B2 seeded a shared template block across nearly every topic. **STOPPED before executing any real (write) Firestore sync** — running the fixed `import_and_sync.js` for real right now could make this worse: for topics where local `content/grammar/<id>.json` uses a disjoint ID range from what's already in Firestore (confirmed for `b2_07`, `b2_08` — local IDs start at `_q101`, Firestore has unrelated `_q001`-`_q100ish`), a real sync would *add* correct content alongside the existing contaminated content rather than replace it, doubling the topic's question count with a mix of right and wrong questions. Needs a human decision on remediation strategy before any B2 write happens. A1/A2/B1/C1/C2 dry-run results look clean by comparison (no repeated-question pattern found) and are not affected by this specific finding.
+This is a different, larger-scope problem than the "no `explanation` field" or "96 broken `correctAnswer`" findings above — it looks like whatever process originally populated `grammarQuizBank` for B2 seeded a shared template block across nearly every topic. **B2 remains completely untouched in Firestore** — the real sync (see below) was deliberately run for A1/A2/B1/C1/C2 only. B2 needs a human decision on remediation strategy before any write happens there (e.g. per-topic: does local `content/grammar/b2_XX.json` win outright, does Firestore need a targeted cleanup pass, or something else).
+
+**✅ 2026-07-06: real sync executed for A1/A2/B1/C1/C2 (user-approved, B2 excluded).** Ran `node scripts/import_and_sync.js` (no `--dry-run`) for all 71 non-B2 topics. Verified directly against Firestore afterward:
+
+| Level | Firestore Topics | Firestore Questions (before → after) |
+|-------|------------------|----------------------------------------|
+| A1 | 15 | 1,500 → 1,500 (unchanged, already matched) |
+| A2 | 15 | 1,500 → 1,710 |
+| B1 | 15 | 1,500 → 1,521 |
+| B2 | 21 | 2,260 → 2,260 (untouched, as intended) |
+| C1 | 15 | 1,500 → 1,528 |
+| **C2** | **0 → 12** | **0 → 1,240** (first time C2 has ever existed in Firestore) |
+
+`topics` collection grew from 95 → 107 docs (12 new C2 topic docs). C2 is now live in Firestore for the first time — Open Item #1 below is resolved.
 
 **Also found, smaller:** the `topics` collection doc for `c1_11` has a corrupted `name` field: `"Sentiments污染物"` (garbled English/Chinese mix). Not investigated further — flagged for whoever looks at the `topics` collection next.
 
@@ -191,17 +204,18 @@ This is a different, larger-scope problem than the "no `explanation` field" or "
 
 ## 🚨 OPEN ITEMS
 
-1. **C2 sync to Firestore:** 0 of 1,240 C2 questions are in `grammarQuizBank`. `import_and_sync.js` is now fixed and dry-run-verified safe for C2 specifically (Firestore has 0 existing C2 docs, so sync is purely additive, no collision risk) — **awaiting user go-ahead to execute the real write**, held back only because it was bundled with the same run that surfaced the B2 contamination finding below.
-2. ~~`import_and_sync.js` targets the wrong collection~~ **✅ CODE FIXED 2026-07-06** — rewritten to read `content/grammar/*.json` and write `grammarQuizBank` with the correct doc shape, plus a `--dry-run` flag. Verified via dry-run against all 95 local topics. **Not yet run for real anywhere** — see the B2 contamination finding above; needs a per-topic decision, not a blanket "sync everything" run.
-2b. **NEW — B2 `grammarQuizBank` content is contaminated with a duplicated placeholder question across 21/23 topics.** See "FIREBASE SYNC STATUS" above for full detail. Blocks any real (write) sync of B2 until a human decides the remediation strategy (e.g. per-topic: does local `content/grammar/b2_XX.json` win outright, does Firestore need a targeted cleanup pass, or something else).
-3. **Missing `explanation` field in `grammarQuizBank`:** likely breaks the "see why an answer was wrong" feature for every level except C2. Needs investigation + backfill. **(Step 3, planned.)**
-4. ~~20 topics (`_11`–`_15` for A1/A2/B1/C1) exist only in Firestore, not in git~~ **✅ RESOLVED 2026-07-06** — exported to `content/grammar/*.json` and `content/firestore_backup/*.json` via `scripts/export_firestore_content.js` (Step 1).
-5. **NEW — 96 multiple-choice + 45 fill-blank questions in `grammarQuizBank` have a `correctAnswer` not present in their own `options`** (systematic — 1/topic for A2/B1/B2, 3/topic for C1, 0 for A1). Real users cannot answer these correctly. Discovered while validating the Step 1 backup; user decided (2026-07-06) to log this and handle it as a separate future task rather than block steps 2–5 on it.
-6. **`FirebaseDataSource.getSubjectsByLevel()` is hardcoded to always `Result.failure(...)`** — the `topics` Firestore collection (95 docs) is never actually read; `SubjectListViewModel`'s hardcoded per-level lists are the *only* source for the subject list, always, not a fallback. Root cause of the c2_11-invisible bug from last session, and the reason Step 4 (kill hardcoded topic lists) is needed. **(Step 4, planned.)**
-7. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify (unverified this session).
-8. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is (unverified this session).
-9. **`SubjectListViewModel.kt` topic-name drift:** confirmed three different names exist for `c1_08` across local JSON (`topicName`), the Firestore `topics` collection (`name`), and the hardcoded Kotlin fallback list (`name`/`nameShort`) — none of the three match. This is a real, unfixed naming-consistency bug (not just the c1_08 case previously noted); needs a full audit across c1_01–c1_10 and c2_01–c2_12, ideally with one of the three sources picked as ground truth.
-10. **c2_12 (Modalpartikeln):** only 20/100 questions written this session. Continue with q021–q100 in 20-question batches, following the existing pattern (see `scripts/create_c2_12.py`). **Blocked until Step 5 (steps 1-4 must land first per explicit user instruction).**
+1. ~~C2 sync to Firestore~~ **✅ RESOLVED 2026-07-06** — all 1,240 C2 questions across 12 topics are now live in `grammarQuizBank`.
+2. ~~`import_and_sync.js` targets the wrong collection~~ **✅ RESOLVED 2026-07-06** — rewritten to read `content/grammar/*.json` and write `grammarQuizBank` correctly, plus a `--dry-run` flag. Executed for real for A1/A2/B1/C1/C2 (71 topics), verified against Firestore.
+3. **B2 `grammarQuizBank` content is contaminated with a duplicated placeholder question across 21/23 topics.** See "FIREBASE SYNC STATUS" above. Deliberately left untouched by the Step 2 sync run. Blocks any real (write) sync of B2 until a human decides the remediation strategy.
+4. **Missing `explanation` field in `grammarQuizBank`:** likely breaks the "see why an answer was wrong" feature for every level except C2. Needs investigation + backfill. **(Step 3, in progress.)**
+5. ~~20 topics (`_11`–`_15` for A1/A2/B1/C1) exist only in Firestore, not in git~~ **✅ RESOLVED 2026-07-06** — exported to `content/grammar/*.json` and `content/firestore_backup/*.json` via `scripts/export_firestore_content.js` (Step 1).
+6. **96 multiple-choice + 45 fill-blank questions in `grammarQuizBank` have a `correctAnswer` not present in their own `options`** (systematic — 1/topic for A2/B1/B2, 3/topic for C1, 0 for A1). Real users cannot answer these correctly. Discovered while validating the Step 1 backup; user decided (2026-07-06) to log this and handle it as a separate future task.
+7. **`FirebaseDataSource.getSubjectsByLevel()` is hardcoded to always `Result.failure(...)`** — the `topics` Firestore collection (107 docs) is never actually read; `SubjectListViewModel`'s hardcoded per-level lists are the *only* source for the subject list, always, not a fallback. Root cause of the c2_11-invisible bug from last session, and the reason Step 4 (kill hardcoded topic lists) is needed. **(Step 4, planned.)**
+8. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify (unverified this session).
+9. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is (unverified this session).
+10. **`SubjectListViewModel.kt` topic-name drift:** confirmed three different names exist for `c1_08` across local JSON (`topicName`), the Firestore `topics` collection (`name`), and the hardcoded Kotlin fallback list (`name`/`nameShort`) — none of the three match. This is a real, unfixed naming-consistency bug (not just the c1_08 case previously noted); needs a full audit across c1_01–c1_10 and c2_01–c2_12, ideally with one of the three sources picked as ground truth.
+11. **`topics/c1_11` has a corrupted `name` field** (`"Sentiments污染物"`, garbled English/Chinese mix). Not investigated further.
+12. **c2_12 (Modalpartikeln):** only 20/100 questions written last session. Continue with q021–q100 in 20-question batches, following the existing pattern (see `scripts/create_c2_12.py`). **Blocked until Step 5 (steps 1-4 must land first per explicit user instruction).**
 
 ---
 
