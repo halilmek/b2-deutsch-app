@@ -11,8 +11,8 @@
 ## 📋 OVERALL PROGRESS SUMMARY
 
 **Two numbers matter here and they legitimately differ — see "Firestore Reality Check" below.**
-`Local` = topics/questions bundled as JSON in `app/src/main/assets/` (git source of truth, what ships in the APK).
-`Firestore` = topics live in the `grammarQuizBank` collection (used when Firestore fetch succeeds; app falls back to Local on failure).
+`Local` = topics/questions bundled as JSON in `app/src/main/assets/` (what ships in the APK).
+`Firestore` = topics live in the `grammarQuizBank` collection, read via `FirebaseDataSource.getGrammarQuestionsBySubject` for quiz questions. **Correction from last session:** the *subject/topic list itself* (`getSubjectsByLevel`) is hardcoded in `FirebaseDataSource.kt` to always `Result.failure(...)` — it is not "used when Firestore succeeds, falls back otherwise," it **never** queries Firestore. The hardcoded per-level lists in `SubjectListViewModel.kt` are the only path, always. See Open Item on `SubjectListViewModel` below (Step 4 in progress).
 
 | Module | Local Topics | Local Questions | Firestore Topics | Firestore Questions | Target |
 |--------|-------------|-----------------|-------------------|----------------------|--------|
@@ -28,7 +28,19 @@
 - A1 "600 vs 1,000" discrepancy: not a bug — 10 local topics × 60 questions = 600 is simply what exists in the repo; the "1,000" was a stale target number, not an actual count.
 - A2/B1 Firestore sync: **done, and then some** — Firestore's `grammarQuizBank` has 15 topics × 100 q each for A1/A2/B1/C1 (topics `_11` through `_15`), i.e. more than what's in this git repo.
 
-**New finding — content exists ONLY in Firestore, not in git, for A1/A2/B1/C1 topics `_11`–`_15`:** these 5 extra topics per level (20 topics, ~2,000 questions total) have no corresponding local JSON file and no git history. If Firestore data is ever lost/corrupted, this content has no backup. Recommend exporting `grammarQuizBank` docs for `*_11` through `*_15` back into `app/src/main/assets/` and committing them.
+**✅ RESOLVED 2026-07-06 (Step 1 of data-integrity fix): Firestore content backed up into git.** `scripts/export_firestore_content.js` exported every non-user Firestore collection into `content/`. Verified counts exactly matched expectations:
+
+| Level | Topics | Questions | Missing locally (no `app/src/main/assets` file) |
+|-------|--------|-----------|--------------------------------------------------|
+| A1 | 15 | 1,500 | a1_11–a1_15 |
+| A2 | 15 | 1,500 | a2_11–a2_15 |
+| B1 | 15 | 1,500 | b1_11–b1_15 |
+| B2 | 21 | 2,260 | (none) |
+| C1 | 15 | 1,500 | c1_11–c1_15 |
+
+Output: `content/grammar/<subjectId>.json` (81 files, reshaped to match the asset-file schema — array `options`, `topicName` from the `topics` collection where available). These imported files have empty `description`/`tips`/`explanation` (not stored in Firestore) and are marked `_importedFromFirestore: true, _needsContentReview: true` — **they are a safety-net backup, not reviewed content, and should not silently replace an asset file.** Also backed up as raw dumps: `content/firestore_backup/{levels,moduleQuizQuestions,readings,themes,topics}.json` (`quizBank`/`lessons`/`quizzes`/`vocabulary`/`readingPassages`/`listeningExercises` collections don't currently exist in Firestore — nothing to back up there). User-data collections (`users`, `userProgress`, `writingSubmissions`, `speakingSessions`) were deliberately excluded — this is a content backup, not a PII export.
+
+**🚨 NEW FINDING while validating the backup — broken content already live in production:** 96 multiple-choice questions (+45 fill_blank) in `grammarQuizBank` have a `correctAnswer` that is not among their own `options` — e.g. `a2_01_q018`: options `["gut","besser","am besten","gute"]`, correctAnswer `"beste"` (not offered). Verified against the raw Firestore doc directly, not an export-script artifact. Pattern is systematic, not random: **A1 clean (0)**, **A2/B1/B2: exactly 1 broken question per topic**, **C1: exactly 3 per topic** — the identical question/options text repeating verbatim across unrelated topics suggests a template/placeholder got seeded into a fixed slot when `grammarQuizBank` was originally populated, not scattered human content errors. Real users hitting these questions cannot answer correctly no matter what they pick. **Not fixed — logged as Open Item, decided by user to handle as a separate future task, not blocking steps 2–5.**
 
 ---
 
@@ -173,14 +185,16 @@
 
 ## 🚨 OPEN ITEMS
 
-1. **C2 sync to Firestore:** 0 of 1,240 C2 questions are in `grammarQuizBank`. Needs a script that writes directly to that collection in the real schema (see above), not `import_and_sync.js`.
-2. **`import_and_sync.js` targets the wrong collection** (`moduleQuizQuestions` instead of `grammarQuizBank`) and can only update pre-existing GitHub files — needs a rewrite before it's trusted again.
-3. **Missing `explanation` field in `grammarQuizBank`:** likely breaks the "see why an answer was wrong" feature for every level except C2. Needs investigation + backfill.
-4. **20 topics (`_11`–`_15` for A1/A2/B1/C1) exist only in Firestore, not in git** — no local JSON, no version history, no backup. Should be exported back into `app/src/main/assets/` and committed.
-5. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify (unverified this session).
-6. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is (unverified this session).
-7. **`SubjectListViewModel.kt` topic-name drift:** confirmed three different names exist for `c1_08` across local JSON (`topicName`), the Firestore `topics` collection (`name`), and the hardcoded Kotlin fallback list (`name`/`nameShort`) — none of the three match. This is a real, unfixed naming-consistency bug (not just the c1_08 case previously noted); needs a full audit across c1_01–c1_10 and c2_01–c2_12, ideally with one of the three sources picked as ground truth.
-8. **c2_12 (Modalpartikeln):** only 20/100 questions written this session. Continue with q021–q100 in 20-question batches, following the existing pattern (see `scripts/create_c2_12.py`).
+1. **C2 sync to Firestore:** 0 of 1,240 C2 questions are in `grammarQuizBank`. Needs a script that writes directly to that collection in the real schema (see above), not `import_and_sync.js`. **(Step 2, in progress.)**
+2. **`import_and_sync.js` targets the wrong collection** (`moduleQuizQuestions` instead of `grammarQuizBank`) and can only update pre-existing GitHub files — needs a rewrite before it's trusted again. **(Step 2, in progress.)**
+3. **Missing `explanation` field in `grammarQuizBank`:** likely breaks the "see why an answer was wrong" feature for every level except C2. Needs investigation + backfill. **(Step 3, planned.)**
+4. ~~20 topics (`_11`–`_15` for A1/A2/B1/C1) exist only in Firestore, not in git~~ **✅ RESOLVED 2026-07-06** — exported to `content/grammar/*.json` and `content/firestore_backup/*.json` via `scripts/export_firestore_content.js` (Step 1).
+5. **NEW — 96 multiple-choice + 45 fill-blank questions in `grammarQuizBank` have a `correctAnswer` not present in their own `options`** (systematic — 1/topic for A2/B1/B2, 3/topic for C1, 0 for A1). Real users cannot answer these correctly. Discovered while validating the Step 1 backup; user decided (2026-07-06) to log this and handle it as a separate future task rather than block steps 2–5 on it.
+6. **`FirebaseDataSource.getSubjectsByLevel()` is hardcoded to always `Result.failure(...)`** — the `topics` Firestore collection (95 docs) is never actually read; `SubjectListViewModel`'s hardcoded per-level lists are the *only* source for the subject list, always, not a fallback. Root cause of the c2_11-invisible bug from last session, and the reason Step 4 (kill hardcoded topic lists) is needed. **(Step 4, planned.)**
+7. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify (unverified this session).
+8. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is (unverified this session).
+9. **`SubjectListViewModel.kt` topic-name drift:** confirmed three different names exist for `c1_08` across local JSON (`topicName`), the Firestore `topics` collection (`name`), and the hardcoded Kotlin fallback list (`name`/`nameShort`) — none of the three match. This is a real, unfixed naming-consistency bug (not just the c1_08 case previously noted); needs a full audit across c1_01–c1_10 and c2_01–c2_12, ideally with one of the three sources picked as ground truth.
+10. **c2_12 (Modalpartikeln):** only 20/100 questions written this session. Continue with q021–q100 in 20-question batches, following the existing pattern (see `scripts/create_c2_12.py`). **Blocked until Step 5 (steps 1-4 must land first per explicit user instruction).**
 
 ---
 
