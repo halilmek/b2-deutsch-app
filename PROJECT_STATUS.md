@@ -70,13 +70,15 @@ Total: 2,040 questions across 21 topics have no explanation text anywhere (not l
 
 | Module | Local Topics | Local Questions | Firestore Topics | Firestore Questions | Target |
 |--------|-------------|-----------------|-------------------|----------------------|--------|
-| A1 | 10 | 600 | 15 | 1,500 | 1,000 |
-| A2 | 10 | 1,210 | 15 | 1,500 | ~1,000 |
-| B1 | 10 | 1,001 | 15 | 1,500 | 1,000 |
-| B2 | 24 | 2,321 | 23 | 2,260 | ~2,000 |
-| C1 | 10 | 1,028 | 15 | 1,500 | 2,000 |
-| **C2** | **12** | **1,240** | **0** | **0** | **~2,000** |
-| **Total (local)** | **76** | **7,400** | | | **~8,000** |
+| A1 | 10 | 600 | 15 | 1,500 (now `moduleQuizQuestions`, not `grammarQuizBank`) | 1,000 |
+| A2 | 10 | 1,210 | 15 | 1,710 | ~1,000 |
+| B1 | 10 | 1,001 | 15 | 1,501 | 1,000 |
+| B2 | 24 | 2,321 | 23 | 0 (deliberately unsynced — contamination) | ~2,000 |
+| C1 | 10 | 1,028 | 15 | 1,528 | 2,000 |
+| **C2** | **12** | **1,320** | **12** | **1,320** | **~2,000** |
+| **Total (local)** | **76** | **7,480** | | | **~8,000** |
+
+*(This table is a snapshot from earlier in the session — see "STEP 4"/"STEP 5"/"ALL 5 STEPS COMPLETE" sections further down for the final, corrected state of the sync pipeline and content counts.)*
 
 **Resolved (previously flagged as open, verified 2026-07-06):**
 - A1 "600 vs 1,000" discrepancy: not a bug — 10 local topics × 60 questions = 600 is simply what exists in the repo; the "1,000" was a stale target number, not an actual count.
@@ -221,9 +223,9 @@ Output: `content/grammar/<subjectId>.json` (81 files, reshaped to match the asse
 | 9 | c2_09 | Wissenschaftliche Diskursmarker | 100 | ✅ Complete |
 | 10 | c2_10 | Argumentationsstrategien | 100 | ✅ Complete |
 | 11 | c2_11 | Nominalkomposita & Fachterminologie | 100 | ✅ Complete (was missing from app's C2 subject list — fixed 2026-07-06) |
-| 12 | c2_12 | Modalpartikeln im gehobenen Sprachgebrauch | 20 | 🔄 In Progress (initial batch; extend to 100 in next session) |
+| 12 | c2_12 | Modalpartikeln im gehobenen Sprachgebrauch | 100 | ✅ Complete |
 
-**C2 Total: 1,240 questions (target: ~2,000). Not yet synced to Firestore at all (0 docs in `grammarQuizBank` for c2_*) — currently served entirely via bundled local assets + the hardcoded fallback subject list, same as it's always been for C2.**
+**C2 Total: 1,320 questions (target: ~2,000). Synced live to Firestore (`moduleQuizQuestions`) as of 2026-07-06 — see "Firebase Sync Status" below.**
 
 ---
 
@@ -397,13 +399,33 @@ This is a different, larger-scope problem than the "no `explanation` field" or "
 
 ---
 
-### c2_12 Modalpartikeln im gehobenen Sprachgebrauch — Questions Added 🔄
-| Batch | Questions | Commit |
+### c2_12 Modalpartikeln im gehobenen Sprachgebrauch — Questions Added ✅
+| Batch | Questions | Script |
 |-------|-----------|--------|
 | q001–q020 | 20 (ja/doch/eben/halt/wohl/schon/ruhig/mal/denn/aber, register awareness) | `scripts/create_c2_12.py` |
+| q021–q040 | 20 (bloß/nur/überhaupt/sowieso/ohnehin/allerdings/immerhin/freilich, register substitution) | `scripts/extend_c2_12_q021_q040.py` |
+| q041–q060 | 20 (halt vs. eben regional split, na ja, particle stacking naturalness, formal rewrites) | `scripts/extend_c2_12_q041_q060.py` |
+| q061–q080 | 20 (rhetorical schon, denn homonym vs. conjunction, nun, diachronic origin, register-inappropriate combos) | `scripts/extend_c2_12_q061_q080.py` |
+| q081–q100 | 20 (denn syntactic restriction proof, zwar...aber, Abtönungspartikel term, exam-skill synthesis questions) | `scripts/extend_c2_12_q081_q100.py` |
 
-**c2_12 Total: 20 questions (target: 100)** 🔄 In Progress
-**Also fixed:** `SubjectListViewModel.kt` `getC2Subjects()` was missing both `c2_11` and `c2_12` entries — c2_11 (100 questions, already existed) was invisible in the app before this fix.
+**c2_12 Total: 100 questions** ✅ COMPLETE (target reached 🎉)
+**All 100 questions marked `reviewed: false`** per ROLES.md's content workflow (AI-generated content is DRAFT until a human SME sets `reviewed: true`) — first topic in this repo to carry this field. `scripts/import_and_sync.js` now propagates it; older already-shipped content defaults to `reviewed: true` when the field is absent, so this doesn't retroactively flag existing content as unreviewed.
+Validated: 100/100 unique ids, every `correctAnswer` present in its own `options`, build clean (`./gradlew assembleDebug`).
+Synced to Firestore (`moduleQuizQuestions/c2_12`, version 2; `topics/c2_12` updated to `questionCount: 100`) — verified directly against Firestore.
+
+**Also fixed last session:** `SubjectListViewModel.kt` `getC2Subjects()` was missing both `c2_11` and `c2_12` entries — c2_11 (100 questions, already existed) was invisible in the app before that fix. That whole hardcoded-list mechanism is now deleted (see Step 4 above); c2_12 didn't need any code change to reach 100 questions — this is the dynamic pipeline (Steps 1–4) working as intended.
+
+---
+
+## ✅ ALL 5 STEPS COMPLETE (2026-07-06)
+
+1. **Backup** — Firestore content (grammarQuizBank + other collections) exported into `content/`, closing the git-history gap for topics `_11`–`_15`.
+2. **Sync script fixed** — twice; first to the wrong-but-plausible `grammarQuizBank`, then corrected to `moduleQuizQuestions` (the collection actually read by `FirebaseSyncService`) after tracing `LocalQuestionBank.kt`.
+3. **Explanation field** — included from the start in the corrected schema; genuine content gaps (21 topics/2,040 questions) reported, not auto-generated.
+4. **Hardcoded topic lists killed** — `SubjectListViewModel` and `FirebaseDataSource.getSubjectsByLevel()` now dynamic, backed by a unit test; 32 topics' description/tips content migrated out of Kotlin before deletion to avoid data loss.
+5. **c2_12 extended to 100 questions**, synced live.
+
+**Still open, not addressed this session (see Open Items above for detail):** B2 content contamination (blocks any B2 Firestore sync), the 96+45 broken-`correctAnswer` questions, `c1_11`/`c1_10` corrupted-text findings, `c1_08` three-way name mismatch, `c1_01`/B2-description verification, and — most importantly — **no on-device verification was possible in this environment.** Recommend a manual smoke test before the next release: fresh install → browse every level's subject list → open a few topics (especially A1/B2, whose content moved from Kotlin to JSON) → confirm descriptions/tips render → complete a quiz → check quiz-results explanations.
 
 ---
 

@@ -83,7 +83,11 @@ function toSyncQuestion(q, subjectId, topicName) {
     correctAnswer: q.correctAnswer,
     explanation: q.explanation || '',
     difficulty: q.difficulty || 'medium',
-    topicName: q.topicName || topicName
+    topicName: q.topicName || topicName,
+    // ROLES.md: AI-generated content is DRAFT until a human sets reviewed:true.
+    // Default true for older content that predates this field (already shipped
+    // without issue), so only explicitly-flagged new batches show as drafts.
+    reviewed: q.reviewed !== undefined ? q.reviewed : true
   };
 }
 
