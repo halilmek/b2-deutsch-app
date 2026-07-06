@@ -1504,5 +1504,13 @@
       "difficulty": "easy",
       "topicName": "Angaben im Satz"
     }
+  ],
+  "description": "Angaben sind Satzglieder, die zusätzliche Informationen geben — sie antworten auf Fragen wie Wann? Wo? Warum? Wie? In German, Angaben follow the TEKAMO order when multiple ones are combined.\n\nTEKAMO — Four Main Types of Angaben:\n• TE (Temporal) — Wann? — morgen, gestern, oft\n• KA (Kausal) — Warum? — wegen des Wetters, deshalb\n• MO (Modal) — Wie? — schnell, leider, gern\n• LO (Lokal) — Wo/Wohin/Woher? — in Berlin, nach Hause\n\nSentence Position Rules (TEKAMO Order):\nWhen multiple Angaben appear together: TE → KA → MO → LO\nExample: Ich fahre morgen (TE) wegen der Arbeit (KA) mit dem Zug (MO) nach Munchen (LO).\n\nBeispiele:\n• 'Am Montag werde ich in Berlin einen Test schreiben.' (TE + LO)\n• 'Wegen der Krankheit konnte ich nicht kommen.' (KA only)\n• 'Sie hat gestern im Bro schnell gegessen.' (TE + LO + MO)",
+  "tips": [
+    "TEKAMO order: Temporal -> Kausal -> Modal -> Lokal",
+    "Position 1: usually temporal information (Wann?)",
+    "Position 2: Subject/Object",
+    "Position 3+: other Angaben in TEKAMO order",
+    "LO (Wo/Wohin/Woher) can also appear at the end of the sentence"
   ]
 }

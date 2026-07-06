@@ -131,6 +131,18 @@ async function applyTopic(plan, newVersion) {
     questions: plan.questions
   };
   await db.collection(COLLECTION).doc(plan.subjectId).set(docData);
+
+  // Keep the `topics` collection accurate - this is what
+  // FirebaseDataSource.getSubjectsByLevel() reads to build the subject list
+  // dynamically (no hardcoded per-level lists in the app anymore).
+  const level = plan.subjectId.split('_')[0].toUpperCase();
+  await db.collection('topics').doc(plan.subjectId).set({
+    id: plan.subjectId,
+    level,
+    name: plan.topicName,
+    type: 'grammar',
+    questionCount: plan.questions.length
+  });
 }
 
 async function main() {

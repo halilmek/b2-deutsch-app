@@ -308,10 +308,38 @@ class FirebaseDataSource @Inject constructor(
     }
 
     // ============ SUBJECTS ============
-    // Subjects are generated locally in SubjectListViewModel.getDefaultSubjects()
-    // This method can be used when subjects are stored in Firestore
+    // Level-agnostic: the "topics" collection is the single source of truth for
+    // which subjects exist per level. Adding a topic there (via
+    // scripts/import_and_sync.js) makes it appear in the app with no code change -
+    // see SubjectListViewModel.kt, which was previously a hardcoded per-level list.
     suspend fun getSubjectsByLevel(level: String): Result<List<Subject>> {
-        return Result.failure(Exception("Subjects loaded from local defaults"))
+        return try {
+            val snapshot = firestore.collection("topics")
+                .whereEqualTo("level", level)
+                .get()
+                .await()
+
+            val subjects = snapshot.documents.mapNotNull { doc ->
+                val name = doc.getString("name") ?: return@mapNotNull null
+                buildSubjectFromTopicMeta(
+                    TopicMeta(
+                        id = doc.id,
+                        level = level,
+                        name = name,
+                        type = doc.getString("type"),
+                        questionCount = doc.getLong("questionCount")
+                    )
+                )
+            }.sortedBy { it.order }
+
+            if (subjects.isEmpty()) {
+                Result.failure(Exception("No topics found in Firestore for level $level"))
+            } else {
+                Result.success(subjects)
+            }
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
     }
 
     suspend fun getSubject(subjectId: String): Result<Subject> {
