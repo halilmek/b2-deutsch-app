@@ -8,6 +8,28 @@
 
 ---
 
+## 🚨🚨🚨 CORRECTION — 2026-07-06, discovered during Step 3: neither Firestore collection is actually live
+
+**Everything below in "FIREBASE SYNC STATUS" about `grammarQuizBank` being what real users see is WRONG.** Tracing the quiz-results "hide explanation when absent" UI logic led to `LocalQuestionBank.kt`, and a full audit of every file read/write call site in that class shows:
+
+- `LocalQuestionBank.getQuestionDetails()` — the function that actually supplies question text/options/answer/explanation to the running quiz — reads **exclusively** from `context.assets.open("$subjectId.json")`, i.e. the JSON bundled into the APK at build time. It never touches Firestore or any synced cache.
+- `FirebaseSyncService` downloads Firestore collection **`moduleQuizQuestions`** (not `grammarQuizBank`) and calls `LocalQuestionBank.updateTopicFromFirebase()`, which writes a `"${subjectId}_fb.json"` file to internal storage via `context.openFileOutput(...)`.
+- There is **no `context.openFileInput(...)` call anywhere in `LocalQuestionBank.kt`.** The `_fb.json` file that Firebase sync writes is never read back by anything. It's write-only, dead on arrival.
+- `ContentRepository.getGrammarQuestionsBySubject()` (which reads `grammarQuizBank`) has **zero callers** anywhere in the ViewModel/Fragment layer — also dead code, never invoked.
+
+**Net effect: question content for real users is 100% determined by whatever is bundled in the currently-installed APK (`app/src/main/assets/*.json`), baked in at the last Play Store release. Neither `grammarQuizBank` nor `moduleQuizQuestions` has any live effect on what users see, regardless of what's in either collection.** The only way to actually change content for real users is a new APK release with updated asset files.
+
+**Consequences for this session's work:**
+- Step 1 (backing up Firestore content into `content/`) is still valid and valuable — it's a legitimate data-loss-prevention measure regardless of whether the data is currently wired up to the running app.
+- Step 2 "fixed" `import_and_sync.js` to write to `grammarQuizBank` instead of `moduleQuizQuestions` — but per the above, `moduleQuizQuestions` was actually the collection `FirebaseSyncService` *reads*, even though nothing downstream of that read has any effect either (the read-back is dead too). So Step 2's real-write execution (A1/A2/B1/C1/C2 → `grammarQuizBank`) had **zero effect on real users** — not because it was wrong to fix the collection-name bug, but because neither collection currently reaches a user's screen.
+- Step 3 (backfilling `explanation` into Firestore) was about to repeat the same mistake — writing to a collection with no live path to users. **Stopped before doing any of that work.**
+- The B2 content-contamination finding (duplicated placeholder question across 21/23 topics in `grammarQuizBank`) is **not currently affecting real users** either, by the same logic — though it would matter the moment anyone wires up a Firestore-backed content path (or if `grammarQuizBank` was populated by copying from a different source than intended, it's still worth fixing before it becomes live).
+- Step 4 (kill hardcoded topic lists) is a **separate, still-valid concern** — that's about the *subject/topic list* (`SubjectListViewModel`'s hardcoded `getC1Subjects()` etc., and `FirebaseDataSource.getSubjectsByLevel()` always failing), not question *content*. The c2_11-invisible bug fixed last session was real and confirmed by that separate code path.
+
+**Not yet answered — needs a product/architecture decision, not something to improvise:** is the intended design (a) ship all content via APK releases only, and treat Firestore + `FirebaseSyncService` as vestigial/half-built and either finish wiring it up or remove it; or (b) actually wire `LocalQuestionBank` to read the synced `_fb.json` file (or `grammarQuizBank` directly) so Firestore content updates reach users without a new release, as `ARCHITECTURE.md` and the old sync script's own docstring ("Users will receive updates when they open the app within 7 days max") both suggest was the original intent.
+
+---
+
 ## 📋 OVERALL PROGRESS SUMMARY
 
 **Two numbers matter here and they legitimately differ — see "Firestore Reality Check" below.**
