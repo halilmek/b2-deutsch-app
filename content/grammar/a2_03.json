@@ -1,1553 +1,2020 @@
 {
+  "version": "1.0",
   "subjectId": "a2_03",
-  "topicName": "Dativ und Akkusativ",
+  "topicName": "Verben mit Präpositionen",
   "level": "A2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "a2_03_q001",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_001",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen leiden heutzutage ______ großem Zeitdruck am Arbeitsplatz.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "an",
+        "unter",
+        "über",
+        "vor"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "unter",
+      "explanation": "leiden unter + Dativ — 'to suffer from' (from an external factor).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q002",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich ___ dir helfen.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_002",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Erfolg des Projekts beruht ______ einer engen Zusammenarbeit aller Abteilungen.",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "auf",
+        "in",
+        "aus",
+        "über"
       ],
-      "correctAnswer": "kann",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "beruhen auf + Dativ — 'Dayanmak/temellenmek'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q003",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ du mit mir kommen?",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_003",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen uns ______ die neuen Gegebenheiten am Markt anpassen.",
       "options": [
-        "Kannst",
-        "Kann",
-        "Können",
-        "Konntest"
+        "zu",
+        "an",
+        "auf",
+        "mit"
       ],
-      "correctAnswer": "Kannst",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "sich anpassen an + Akkusativ — 'to adapt to / to adjust to'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q004",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ___ schon in München.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_004",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er zögerte lange, bevor er ______ die riskante Investition einwilligte.",
       "options": [
-        "war",
-        "ist",
-        "hat",
-        "wird"
+        "in",
+        "für",
+        "zu",
+        "mit"
       ],
-      "correctAnswer": "war",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "in",
+      "explanation": "einwilligen in + Akkusativ — 'to agree to / to consent to'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q005",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_005",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Bürger protestieren lautstark ______ die geplante Erhöhung der Parkgebühren.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "für",
+        "gegen",
+        "über",
+        "wegen"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "gegen",
+      "explanation": "protestieren gegen + Akkusativ — 'to protest against'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q006",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_006",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich möchte dich ______ die Gefahren aufmerksam machen, die diese Reise birgt.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "auf",
+        "über",
+        "an",
+        "für"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "aufmerksam machen auf + Akkusativ — 'to draw attention to'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q007",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_007",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Redner beschränkte sich ______ die wichtigsten Punkte der Reform.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "an",
+        "auf",
+        "zu",
+        "in"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "sich beschränken auf + Akkusativ — 'to be limited to / to restrict oneself to'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q008",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_008",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse der Studie weichen deutlich ______ den Erwartungen ab.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "von",
+        "aus",
+        "mit",
+        "zu"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "von",
+      "explanation": "abweichen von + Dativ — 'to deviate from / to differ from'.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_03_q009",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_009",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir sehnen uns alle ______ einem erholsamen Urlaub am Meer.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "an",
+        "nach",
+        "auf",
+        "für"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nach",
+      "explanation": "sich sehnen nach + Dativ — 'Özlemek/hasret kalmak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q010",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_010",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Professor fordert die Studenten ______ kritischem Denken auf.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "nach",
+        "zu",
+        "von",
+        "an"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "zu",
+      "explanation": "auffordern zu + Dativ — 'to call upon / to encourage / to invite'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q011",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_011",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bitte halten Sie sich ______ die geltenden Sicherheitsvorschriften.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "auf",
+        "an",
+        "zu",
+        "mit"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "sich halten an + Akkusativ — 'to stick to / to follow' (fixed expression).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q012",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_012",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Erfolg hängt im Wesentlichen ______ deiner Motivation ab.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "von",
+        "an",
+        "auf",
+        "mit"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "von",
+      "explanation": "abhängen von + Dativ — 'to depend on'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q013",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_013",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er beklagt sich ständig ______ seinen anstrengenden Chef.",
       "options": [
-        "hat / gegangen",
-        "ist / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "über",
+        "von",
+        "an",
+        "wegen"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "über",
+      "explanation": "sich beklagen über + Akkusativ — 'to complain about'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q014",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_014",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Team bereitet sich intensiv ______ die kommende Europameisterschaft vor.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "für",
+        "auf",
+        "zu",
+        "an"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "sich vorbereiten auf + Akkusativ — 'to prepare for'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q015",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_015",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es mangelt dem Projekt leider ______ finanziellen Mitteln.",
       "options": [
-        "kochen",
-        "kocht",
-        "gekocht",
-        "kochte"
+        "an",
+        "von",
+        "aus",
+        "in"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "mangeln an + Dativ — 'to lack something'.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_03_q016",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_016",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben uns ______ die Reise nach Japan entschieden.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "für",
+        "zu",
+        "auf",
+        "über"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "für",
+      "explanation": "sich entscheiden für + Akkusativ — 'Karar vermek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q017",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_017",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge konnte sich kaum ______ das Gesicht des Täters erinnern.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "an",
+        "auf",
+        "über",
+        "in"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "sich erinnern an + Akkusativ — 'to remember / to recall'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q018",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_018",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich verlasse mich voll und ganz ______ deine Zusage.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "an",
+        "auf",
+        "zu",
+        "in"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "sich verlassen auf + Akkusativ — 'Güvenmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q019",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_019",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Ministerin setzt sich ______ eine stärkere Förderung der erneuerbaren Energien ein.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "für",
+        "zu",
+        "gegen",
+        "auf"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "für",
+      "explanation": "sich einsetzen für + Akkusativ — 'to advocate for / to work for / to support'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q020",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_020",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er zweifelt oft ______ der Richtigkeit seiner eigenen Entscheidungen.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "an",
+        "über",
+        "in",
+        "von"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "zweifeln an + Dativ — 'to doubt / to have doubts about'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q021",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_021",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung muss sich _______ den steigenden Energiekosten auseinandersetzen.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "mit",
+        "über",
+        "an",
+        "für"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "mit",
+      "explanation": "sich auseinandersetzen mit + Dativ.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q022",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_022",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Vorstand besteht _______ zwölf Mitgliedern aus verschiedenen Fachbereichen.",
       "options": [
-        "bei",
-        "auf",
-        "nach",
-        "von"
+        "von",
+        "aus",
+        "mit",
+        "durch"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "aus",
+      "explanation": "bestehen aus + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q023",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_023",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Bürger zweifeln _______ der Wirksamkeit der neuen Maßnahmen.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "über",
+        "von",
+        "an",
+        "mit"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "zweifeln an + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q024",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_024",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Expertin wies ausdrücklich _______ die Risiken des Projekts hin.",
       "options": [
-        "gefahren",
-        "gefahren",
-        "gefahre",
-        "fährt"
+        "auf",
+        "über",
+        "an",
+        "zu"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "hinweisen auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q025",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_025",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich _______ Jahren _______ einer Karriere im Ausland geträumt.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "seit / von",
+        "vor / über",
+        "seit / über",
+        "für / von"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "seit / über",
+      "explanation": "seit Jahren / träumen von + Dativ.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_03_q026",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_026",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma verzichtet _______ unnötige Ausgaben, um wettbewerbsfähig zu bleiben.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "über",
+        "auf",
+        "von",
+        "mit"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "verzichten auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q027",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_027",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Abgeordnete appellierte _______ die Bevölkerung, mehr Verantwortung zu übernehmen.",
       "options": [
-        "habt / gesehen",
-        "hat / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "an",
+        "für",
+        "zu",
+        "über"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "appellieren an + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q028",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_028",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat sich intensiv _______ den Verhandlungen vorbereitet.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "über",
+        "auf",
+        "für",
+        "zu"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "sich vorbereiten auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q029",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_029",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der neue Kollege erinnert mich sehr stark _______ meinen ehemaligen Lehrer.",
       "options": [
-        "von / übertönt",
-        "vor / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "über",
+        "auf",
+        "von",
+        "an"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "erinnern an + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q030",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Die Aufgabe ist ___ zu ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_030",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Forschungsgruppe beschäftigt sich _______ den Auswirkungen des Klimawandels auf die Artenvielfalt.",
       "options": [
-        "schwer / lösen",
-        "schwerer / lösen",
-        "am schwersten / lösen",
-        "schwere / gelöst"
+        "über",
+        "mit",
+        "an",
+        "von"
       ],
-      "correctAnswer": "schwer / lösen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "mit",
+      "explanation": "sich beschäftigen mit + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q031",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_031",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich freue mich sehr _______, dass du an der Konferenz teilnimmst.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "auf",
+        "von",
+        "an"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "sich freuen über + Akkusativ — 'to be happy about' (something that happened).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q032",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_032",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Journalist fragte den Minister, _______ er sich _______ den Vorwürfen äußern wolle.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob / zu",
+        "dass / über",
+        "ob / über",
+        "wenn / an"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ob / über",
+      "explanation": "ob (indirect question) + sich äußern über + Akkusativ — 'to express an opinion on'.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_03_q033",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_033",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen hat lange _______ einer Kooperation mit dem Konkurrenten gezögert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mit",
+        "vor",
+        "über",
+        "an"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "vor",
+      "explanation": "zögern vor + Dativ.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q034",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_034",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Bevölkerung leidet _______ den Folgen der jahrelangen Trockenheit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von",
+        "über",
+        "unter",
+        "an"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "unter",
+      "explanation": "leiden unter + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q035",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_035",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er bestand _______, dass alle Unterlagen bis Freitag eingereicht werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "über",
+        "darauf",
+        "daran"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "darauf",
+      "explanation": "bestehen darauf — when the object is a clause, a Pronominaladverb is used.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_03_q036",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_036",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen uns _______ einigen, welche Strategie am besten geeignet ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "an",
+        "mit",
+        "darüber"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "sich einigen über + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q037",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_037",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Professorin sprach _______ ihrer langjährigen Erfahrung in der Entwicklungsforschung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "von",
+        "mit",
+        "an"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "von",
+      "explanation": "sprechen von + Dativ — 'to speak of' (personal experience).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q038",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_038",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge konnte sich _______ den genauen Ablauf der Ereignisse nicht mehr erinnern.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "an",
+        "auf",
+        "von"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "sich erinnern an + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q039",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_039",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich _______ die Entscheidung seines Vorgesetzten beschwert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "über",
+        "auf",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "sich beschweren über + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q040",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen (AC)",
+      "sourceId": "manual",
+      "originalId": "manual_040",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studierenden wurden gebeten, sich _______ zu bewerben, _______ sie interessiert sind.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "darauf / wofür",
+        "dafür / worüber",
+        "darauf / was",
+        "dafür / woran"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "darauf / wofür",
+      "explanation": "sich bewerben darauf / wofür – Präpositionaladverb + Relativpronomen.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_03_q041",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Nach\" braucht immer den Dativ.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_041",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Studenten interessieren sich ______ internationale Politik.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "für",
+        "auf",
+        "über"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "für",
+      "explanation": "sich interessieren für + Akkusativ — 'to be interested in'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q042",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Im Perfekt sagt man \"ich habe gesehen\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_042",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Erfolg des Projekts hängt stark ______ der Finanzierung ab.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "über",
+        "von",
+        "mit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "von",
+      "explanation": "abhängen von + Dativ — 'to depend on'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q043",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Oder\" verbindet zwei Hauptsätze.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_043",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen dringend ______ die neuen Ergebnisse sprechen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "mit",
+        "an",
+        "von"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "sprechen über + Akkusativ — 'to talk about'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q044",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Denn\" leitet einen Nebensatz ein.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_044",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer warteten lange ______ den Beginn der Konferenz.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "auf",
+        "für",
+        "gegen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "auf",
+      "explanation": "warten auf + Akkusativ — 'Beklemek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q045",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Wegen\" braucht den Dativ.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_045",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich nie wirklich ______ klassische Musik interessiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "an",
+        "für",
+        "mit"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "für",
+      "explanation": "sich interessieren für + Akkusativ — 'to be interested in'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q046",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Im Präteritum: \"ich war\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_046",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftlerin arbeitet derzeit ______ einem wichtigen Forschungsprojekt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "an",
+        "über",
+        "für"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "arbeiten an + Dativ — 'to work on'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q047",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Das gefällt mir\" braucht den Dativ.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_047",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Warum beschwerst du dich ständig ______ deine Kollegen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "an",
+        "für",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "sich beschweren über + Akkusativ — 'to complain about'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q048",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Ob\" leitet einen Nebensatz ein.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_048",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung basiert ______ aktuellen Daten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "in",
+        "an",
+        "mit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "auf",
+      "explanation": "basieren auf + Dativ — 'Dayanmak/temellenmek'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q049",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Am\" wird bei Wochentagen verwendet.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_049",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Bürger protestierten ______ die neuen Maßnahmen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "gegen",
+        "an",
+        "von"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "gegen",
+      "explanation": "protestieren gegen + Akkusativ — 'to protest against / to object to'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q050",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Zur\" ist die Kurzform von \"zu der\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_050",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er träumt schon seit Jahren ______ einer Karriere im Ausland.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "auf",
+        "von",
+        "für"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "von",
+      "explanation": "träumen von + Dativ — 'Hayal etmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q051",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_051",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma spezialisiert sich ______ nachhaltige Technologien.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "über",
+        "an",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "auf",
+      "explanation": "sich spezialisieren auf + Akkusativ — 'to specialize in'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q052",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_052",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir danken Ihnen herzlich ______ Ihre Unterstützung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "mit",
+        "für",
+        "über"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "für",
+      "explanation": "danken für + Akkusativ — 'to thank for'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q053",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_053",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Journalistin berichtete ausführlich ______ den Vorfall.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "über",
+        "an",
+        "gegen",
+        "für"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "berichten über + Akkusativ — 'to report on / to give an account of'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q054",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_054",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er leidet seit Jahren ______ starken Rückenschmerzen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "unter",
+        "gegen",
+        "über"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "unter",
+      "explanation": "leiden unter + Dativ — 'to suffer from'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q055",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_055",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder nahmen begeistert ______ dem Wettbewerb teil.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "an",
+        "über",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "teilnehmen an + Dativ — 'to participate in / to take part in'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q056",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_056",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen zweifeln ______ der Ehrlichkeit des Politikers.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "an",
+        "für",
+        "über"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "zweifeln an + Dativ — 'to doubt / to have doubts about'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q057",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_057",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich erinnere mich noch gut ______ unser erstes Treffen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "auf",
+        "über",
+        "für"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "sich erinnern an + Akkusativ — 'to remember / to recall'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q058",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_058",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Autor setzt sich intensiv ______ sozialen Themen auseinander.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "mit",
+        "auf",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "mit",
+      "explanation": "sich auseinandersetzen mit + Dativ — 'to deal with / to examine / to engage with'.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_03_q059",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_059",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Jugendlichen engagieren sich aktiv ______ den Umweltschutz.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "für",
+        "über",
+        "an",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "für",
+      "explanation": "sich engagieren für + Akkusativ — 'to support / to work for / to be engaged in'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q060",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_060",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand rechnete ______ einer so schnellen Lösung.",
       "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a2_03_q061",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Gestern ___ ich ins Kino ___",
-      "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q062",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich ___ dir helfen ___",
-      "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
-      ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q063",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ du mit mir ___?",
-      "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
-      ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q064",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ___ schon in München ___",
-      "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
-      ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q065",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich habe ___ Ferien ___",
-      "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
-      ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q066",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das Buch ___ mir ___",
-      "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
-      ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q067",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
-      "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q068",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ dem Wetter bin ich froh.",
-      "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
-      ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q069",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ist ___ dem Chef.",
-      "options": [
-        "bei",
         "mit",
-        "von",
-        "zu"
-      ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q070",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
-      "options": [
-        "für",
-        "an",
         "auf",
+        "an",
         "über"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q071",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
-      "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
-      ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q072",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das ist ___ als das.",
-      "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
-      ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q073",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ___ gestern ins Büro ___",
-      "options": [
-        "ist / gegangen",
-        "hat / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q074",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ du schon ___ ?",
-      "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
-      ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q075",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Die Suppe ist ___",
-      "options": [
-        "gekocht",
-        "kochen",
-        "kocht",
-        "kochte"
-      ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q076",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ___ sich über die Nachricht.",
-      "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
-      ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q077",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
-      "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
-      ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q078",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das ist die ___ Lösung.",
-      "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
-      ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q079",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er spricht ___ als ich.",
-      "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
-      ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_03_q080",
-      "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Sie ist die ___ von allen.",
-      "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
-      ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "mit",
+      "explanation": "rechnen mit + Dativ — 'Hesaplamak/beklemek'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_03_q081",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich freue mich schon sehr _____ das Konzert am Wochenende.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "auf",
+        "uber",
+        "an",
+        "fur"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "sich freuen auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q082",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Woran denkst du gerade? - Ich denke _____ unsere letzte Reise.",
       "options": [
+        "an",
         "auf",
-        "bei",
-        "nach",
+        "uber",
         "von"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "an",
+      "explanation": "denken an + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q083",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele junge Leute interessieren sich _____ soziale Netzwerke.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "fur",
+        "uber",
+        "an",
+        "auf"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "fur",
+      "explanation": "sich interessieren fur + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q084",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich endlich _____ den Larm in der Großstadt gewohnt.",
       "options": [
-        "gefahren",
-        "fahren",
-        "fahre",
-        "fährt"
+        "an",
+        "auf",
+        "um",
+        "uber"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "an",
+      "explanation": "sich gewöhnen an + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q085",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Worauf wartest du? - Ich warte _____ den Bus.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "auf",
+        "an",
+        "nach",
+        "fur"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "warten auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q086",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat sich _____ ihrem Freund geärgert, weil er zu spat kam.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "uber",
+        "auf",
+        "an",
+        "mit"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "uber",
+      "explanation": "sich argern uber + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q087",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt kummert sich gut _____ seine Patienten.",
       "options": [
-        "hat / gesehen",
-        "habt / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "um",
+        "uber",
+        "auf",
+        "fur"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "um",
+      "explanation": "sich kummern um + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q088",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich leide _____ starken Kopfschmerzen seit Tagen.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "unter",
+        "uber",
+        "an",
+        "von"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "an",
+      "explanation": "leiden an + Dativ (Krankheit).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q089",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben lange _____ einer Lösung fur das Problem gesucht.",
       "options": [
-        "vor / übertönt",
-        "von / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "nach",
+        "auf",
+        "uber",
+        "um"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "nach",
+      "explanation": "suchen nach + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q090",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Daran kann ich mich nicht mehr erinnern. - Worauf beziehst du dich? - Ich beziehe mich _____ deine gestrige Aussage.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "auf",
+        "an",
+        "uber",
+        "bei"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "sich beziehen auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q091",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma besteht _____ qualifizierten Mitarbeitern.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "auf",
+        "aus",
+        "in",
+        "von"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "aus",
+      "explanation": "bestehen aus + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q092",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du mich nicht _____ deine Probleme informiert?",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "uber",
+        "von",
+        "auf",
+        "fur"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "uber",
+      "explanation": "informieren uber + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q093",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Touristen traumen _____ einer Reise nach Neuseeland.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "von",
+        "uber",
+        "an",
+        "auf"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "von",
+      "explanation": "traumen von + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q094",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich halte nichts _____ dieses Angebot; es ist zu teuer.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "von",
+        "uber",
+        "auf",
+        "fur"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "von",
+      "explanation": "halten von + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q095",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht basiert _____ aktuellen Statistiken.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "auf",
+        "an",
+        "uber",
+        "in"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "basieren auf + Dativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q096",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Daruber habe ich gar nicht nachgedacht. - Woruber sprecht ihr gerade? - Wir sprechen _____ die neuen Regeln.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "uber",
+        "auf",
+        "an",
+        "von"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "uber",
+      "explanation": "sprechen uber + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q097",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Student entschuldigte sich _____ sein unhöfliches Verhalten.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "fur",
+        "uber",
+        "wegen",
+        "von"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "fur",
+      "explanation": "sich entschuldigen fur + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q098",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen uns _____ eine schwierige Prufung vorbereiten.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "auf",
+        "fur",
+        "an",
+        "uber"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "sich vorbereiten auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q099",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wie reagiert der Korper _____ bestimmte Medikamente?",
       "options": [
-        "für",
-        "an",
         "auf",
-        "über"
+        "an",
+        "uber",
+        "zu"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "reagieren auf + Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_03_q100",
       "subjectId": "a2_03",
-      "topicName": "Dativ und Akkusativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es kommt _____ deine Entscheidung an.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "auf",
+        "an",
+        "bei",
+        "von"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "es kommt auf + Akkusativ an.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q081",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich freue mich schon ________ dem Urlaub, den wir nächsten Monat machen werden.",
+      "options": [
+        "auf",
+        "über",
+        "für",
+        "mit"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "sich freuen auf + Akkusativ (future events): I am already looking forward to the vacation we will take next month. 'sich freuen auf' is used for future events/anticipation. 'sich freuen über' would be for something already received/happened.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q082",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kannst du dich noch ________ erinnern, wo wir das letzte Mal gewesen sind?",
+      "options": [
+        "an das Restaurant",
+        "an dem Restaurant",
+        "über das Restaurant",
+        "für das Restaurant"
+      ],
+      "correctAnswer": "an das Restaurant",
+      "explanation": "sich erinnern an + Akkusativ: Can you still remember WHERE we were the last time? 'sich erinnern an' (to remember) always takes Akkusativ. The question asks about a specific place.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q083",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Worauf wartest du eigentlich schon so lange?",
+      "options": [
+        "Ich warte auf den Bus.",
+        "Ich warte dem Bus.",
+        "Ich warte über den Bus.",
+        "Ich warte mit dem Bus."
+      ],
+      "correctAnswer": "Ich warte auf den Bus.",
+      "explanation": "warten auf + Akkusativ (to wait for): What are you actually waiting for so long? 'warten auf' always takes Akkusativ. The Pronominaladverb 'worauf' replaces 'auf was/etwas'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q084",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Chef besteht ________ einer pünktlichen Abgabe des Berichts.",
+      "options": [
+        "auf",
+        "an",
+        "bei",
+        "mit"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "bestehen auf + Dativ (to insist on): The boss insists on the timely submission of the report. 'bestehen auf' always takes Dativ, expressing insistence on something.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q085",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat sich endlich ________ ihren Ex-Freund versöhnt.",
+      "options": [
+        "mit",
+        "zu",
+        "über",
+        "für"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "sich versöhnen mit + Dativ (to reconcile with): She has finally reconciled with her ex-boyfriend. 'sich versöhnen mit' (to make up with) always takes Dativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q086",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ was für ein Thema hast du dich in der Diskussion beteiligt?",
+      "options": [
+        "An",
+        "Bei",
+        "Über",
+        "Mit"
+      ],
+      "correctAnswer": "An",
+      "explanation": "sich beteiligen an + Dativ (to participate in): At what topic did you participate in the discussion? 'sich beteiligen an' always takes Dativ. The question 'wobei?' asks for the topic.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q087",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er interessiert sich sehr ________ Politik und liest täglich Nachrichten.",
+      "options": [
+        "für",
+        "an",
+        "über",
+        "mit"
+      ],
+      "correctAnswer": "für",
+      "explanation": "sich interessieren für + Akkusativ (to be interested in): He is very interested in politics and reads news daily. 'sich interessieren für' always takes Akkusativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q088",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen uns dringend ________ dem neuen Projekt beschäftigen.",
+      "options": [
+        "mit",
+        "über",
+        "für",
+        "an"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "sich beschäftigen mit + Dativ (to deal with): We urgently need to deal with the new project. 'sich beschäftigen mit' always takes Dativ, meaning to occupy oneself with something.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q089",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Hast du schon ________ den Termin morgen Nachmittag gedacht?",
+      "options": [
+        "an",
+        "über",
+        "für",
+        "bei"
+      ],
+      "correctAnswer": "an",
+      "explanation": "denken an + Akkusativ (to think about): Have you already thought about the appointment tomorrow afternoon? 'denken an' (to think about / to have in mind) always takes Akkusativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q090",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten beschwerten sich ________ der schlechten Organisation der Prüfung.",
+      "options": [
+        "über",
+        "bei",
+        "mit",
+        "an"
+      ],
+      "correctAnswer": "über",
+      "explanation": "sich beschweren über + Akkusativ (to complain about): The students complained about the poor organization of the exam. 'sich beschweren über' always takes Akkusativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q091",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wofür interessierst du dich am meisten?",
+      "options": [
+        "Ich interessiere mich für klassische Musik.",
+        "Ich interessiere mich über klassische Musik.",
+        "Ich interessiere mich mit klassischer Musik.",
+        "Ich interessiere mich an klassische Musik."
+      ],
+      "correctAnswer": "Ich interessiere mich für klassische Musik.",
+      "explanation": "sich interessieren für + Akkusativ: What are you most interested in? Classical music. 'sich interessieren für' always takes Akkusativ. The Pronominaladverb 'wofür' replaces 'für was/etwas'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q092",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich ________ seine Entscheidung noch nicht ________ ________ .",
+      "options": [
+        "für / entschieden / entschließen",
+        "über / entschieden / entschließen",
+        "zu / entschieden / entschließen",
+        "an / entschieden / entschließen"
+      ],
+      "correctAnswer": "für / entschieden / entschließen",
+      "explanation": "sich entscheiden für + Akkusativ (to decide on / to make a decision about): He has not yet made a decision about his decision. 'sich entscheiden für' means to decide in favor of something.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q093",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ kann ich mich bei dir bedanken?",
+      "options": [
+        "Wofür",
+        "Womit",
+        "Worüber",
+        "Worauf"
+      ],
+      "correctAnswer": "Wofür",
+      "explanation": "sich bedanken für + Akkusativ (to thank for): For what can I thank you? 'sich bedanken für' always takes Akkusativ. The Pronominaladverb 'wofür' replaces 'für was/etwas'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q094",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie träumt schon lange ________ einer Reise nach Japan.",
+      "options": [
+        "von",
+        "über",
+        "für",
+        "zu"
+      ],
+      "correctAnswer": "von",
+      "explanation": "träumen von + Dativ (to dream of): She has been dreaming of a trip to Japan for a long time. 'träumen von' always takes Dativ, expressing longing or fantasizing about something.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q095",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt warnt die Patienten ________ den Risiken dieser Behandlung.",
+      "options": [
+        "vor",
+        "über",
+        "bei",
+        "mit"
+      ],
+      "correctAnswer": "vor",
+      "explanation": "warnen vor + Dativ (to warn about): The doctor warns the patients about the risks of this treatment. 'warnen vor' always takes Dativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q096",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe mich ________ ihm getroffen, um das Problem zu besprechen.",
+      "options": [
+        "mit",
+        "bei",
+        "zu",
+        "an"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "sich treffen mit + Dativ (to meet with): I met with him to discuss the problem. 'sich treffen mit' always takes Dativ, indicating meeting with someone.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q097",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Woran denkst du gerade?",
+      "options": [
+        "Ich denke an meine Familie.",
+        "Ich denke über meine Familie.",
+        "Ich denke mit meiner Familie.",
+        "Ich denke für meine Familie."
+      ],
+      "correctAnswer": "Ich denke an meine Familie.",
+      "explanation": "denken an + Akkusativ (to think about): What are you thinking about right now? My family. 'denken an' always takes Akkusativ. The Pronominaladverb 'woran' replaces 'an was/ wen'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q098",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es hängt ________ dir, ob wir das Projekt rechtzeitig abschließen können.",
+      "options": [
+        "von",
+        "an",
+        "bei",
+        "mit"
+      ],
+      "correctAnswer": "von",
+      "explanation": "abhängen von + Dativ (to depend on): It depends on you whether we can finish the project on time. 'abhängen von' (to depend on) always takes Dativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q099",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat sich ________ der Prüfung sehr gut vorbereitet.",
+      "options": [
+        "auf",
+        "für",
+        "über",
+        "zu"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "sich vorbereiten auf + Akkusativ (to prepare for): She prepared very well for the exam. 'sich vorbereiten auf' always takes Akkusativ, expressing preparation for a future event.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_03_q100",
+      "subjectId": "a2_03",
+      "topicId": "a2_03",
+      "topicName": "Verben mit Präpositionen",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Womit hast du das Problem ________ ________?",
+      "options": [
+        "gelöst / Ich habe es mit Geduld gelöst.",
+        "gelöst / Ich habe es über Geduld gelöst.",
+        "gelöst / Ich habe es für Geduld gelöst.",
+        "gelöst / Ich habe es an Geduld gelöst."
+      ],
+      "correctAnswer": "gelöst / Ich habe es mit Geduld gelöst.",
+      "explanation": "lösen mit + Dativ (to solve with / by means of): How did you solve the problem? I solved it with patience. 'mit + Dativ' indicates the means/instrument used to accomplish something.",
+      "difficulty": "easy"
     }
   ],
-  "totalQuestions": 100
+  "description": "Certain German verbs require specific prepositions, which then govern either the Akkusativ (accusative) or Dativ (dative) case. The preposition is fixed — it cannot be changed — and the meaning of the verb often changes with the preposition. AKKUSATIV prepositions: an, auf, in, über, unter, vor, zwischen, hinter, neben, vor, wider. DATIV prepositions: aus, bei, mit, nach, seit, von, zu. Common verb-preposition combinations include: denken an (+A), warten auf (+A), sprechen über (+A), sich freuen auf (+A / anticipation) vs. sich freuen über (+A / existing thing), helfen bei (+D), bestehen aus (+D), träumen von (+D).",
+  "tips": [
+    "Each verb requires a specific preposition — this is fixed and must be memorized (denken an, nicht denken auf).",
+    "Prepositions governing Akkusativ (wohin?): an, auf, in, über, unter, vor, zwischen, hinter, neben, gegen, ohne, wider.",
+    "Prepositions governing Dativ (wo?): aus, bei, mit, nach, seit, von, zu, gegenüber, außer, statt, trotz.",
+    "Wechselpräpositionen (an, auf, in, über, unter, vor, zwischen, hinter): Akkusativ = wohin? Dativ = wo?",
+    "Some verbs change meaning with different prepositions: sich freuen auf (+A) = looking forward to vs. sich freuen über (+A) = happy about.",
+    "After prepositions, use the appropriate case (Akkusativ or Dativ) for the pronoun/article.",
+    "Common combinations: denken an (+A), erinnern an (+A), glauben an (+A), warten auf (+A), sprechen über (+A), helfen bei (+D), bestehen aus (+D), träumen von (+D).",
+    "Nouns following prepositions never change their article form — only the adjective/demonstrative preceding the noun changes."
+  ]
 }

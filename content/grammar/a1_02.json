@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_02",
-  "topicName": "Nominativ",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "2. Nomen und Artikel (der/die/das + Pluralformen)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_02_q001",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Artikel ist korrekt? \"___ Hund meiner Nachbarin ist sehr groß.\"",
+      "options": [
+        "Das",
+        "Die",
+        "Der",
+        "Den"
+      ],
+      "correctAnswer": "Der",
+      "explanation": "Hund ist maskulin (der), im Nominativ",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q002",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Was ist die richtige Pluralform von \"das Kind\"?",
+      "options": [
+        "die Kinds",
+        "die Kindes",
+        "die Kinder",
+        "die Kindere"
+      ],
+      "correctAnswer": "die Kinder",
+      "explanation": "das Kind → die Kinder (Umlaut + kein -e)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q003",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "Welcher Artikel gehört zu \"Fenster\"?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "das",
+      "explanation": "Fenster ist neutral (das)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
+    },
+    {
+      "id": "a1_02_q004",
+      "subjectId": "a1_02",
+      "type": "multiple_choice",
+      "questionText": "\"___ Äpfel sind frisch.\" – Welcher Artikel fehlt hier?",
       "options": [
         "Das",
         "Der",
         "Die",
         "Ein"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "Die",
+      "explanation": "Äpfel ist Plural → die Äpfel (Nominativ)",
       "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q002",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q003",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ du das?",
-      "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q004",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q005",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Welche Pluralform ist FALSCH?",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "das Buch → die Bücher",
+        "die Frau → die Frauen",
+        "der Mann → die Männe",
+        "das Haus → die Häuser"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
+      "correctAnswer": "der Mann → die Männe",
+      "explanation": "Richtig: der Mann → die Männer (Umlaut a→ä)",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q006",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "\"___ Lehrerin erklärt ___ Aufgabe sehr gut.\" – Was fehlt?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "Der / das",
+        "Die / die",
+        "Das / der",
+        "Die / der"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Die / die",
+      "explanation": "Lehrerin (feminin) → die; Aufgabe (feminin) → die",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q007",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Plural von \"die Stadt\"?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "die Städte",
+        "die Stadts",
+        "die Städten",
+        "die Stadten"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "die Städte",
+      "explanation": "die Stadt → die Städte (Umlaut a→ä)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q008",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet den Artikel richtig?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "Das Mann liest ein Buch.",
+        "Der Auto ist neu.",
+        "Die Katze schläft.",
+        "Ein Hund ist bellen."
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Die Katze schläft.",
+      "explanation": "Katze ist feminin → die Katze",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q009",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "\"der Tisch\" – Welche Pluralform ist korrekt?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "die Tische",
+        "die Tischer",
+        "die Tischt",
+        "die Tischen"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "die Tische",
+      "explanation": "der Tisch → die Tische (kein Umlaut)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q010",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich kaufe ___ Brot und ___ Äpfel.\" – Was fehlt?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "eine / der",
+        "das / die",
+        "ein / die",
+        "der / das"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "das / die",
+      "explanation": "Brot (neutral) → das; Äpfel (Plural) → die",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q011",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"___ Schuhe sind neu.\" – Welcher Artikel passt?",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "Das",
+        "Der",
+        "Die",
+        "Ein"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Die",
+      "explanation": "Schuhe ist Plural → die Schuhe",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q012",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Plural von \"die Tür\"?",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "die Türen",
+        "die Türe",
+        "die Türs",
+        "die Türen"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "die Türen",
+      "explanation": "die Tür → die Türen (Umlaut ä)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q013",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"der Bahnhof\" – Welche Pluralform ist korrekt?",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "die Bahnhöfe",
+        "die Bahnhofs",
+        "die Bahnhof",
+        "die Bahnhöfen"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "die Bahnhöfe",
+      "explanation": "der Bahnhof → die Bahnhöfe (Umlaut)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q014",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "Die Lampe ist neu.",
+        "Ein Auto steht vor dem Haus.",
+        "Der Kinder spielen im Garten.",
+        "Das Haus ist groß."
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Der Kinder spielen im Garten.",
+      "explanation": "Richtig: Die Kinder spielen (Kinder ist Plural)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q015",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich brauche ___ Computer.\" – Welcher Artikel passt hier?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "der",
+        "die",
+        "das",
+        "einen"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ maskulin: einen Computer (brauchen)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q016",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Plural von \"das Buch\"?",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "die Bücher",
+        "die Buchs",
+        "die Büchern",
+        "die Bücheren"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
+      "correctAnswer": "die Bücher",
+      "explanation": "das Buch → die Bücher (Umlaut o→ü)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q017",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"___ Foto ist sehr schön.\" – Welcher Artikel?",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Das",
+      "explanation": "Foto ist neutral → das Foto",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q018",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort hat KEINEN Plural?",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "die Lampe",
+        "das Fenster",
+        "die Luft",
+        "das Benzin"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "das Benzin",
+      "explanation": "Benzin ist uncountable (Stoff), kein Plural",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q019",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Er kauft ___ Hose und ___ Hemd.\" – Was fehlt?",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "eine / ein",
+        "eine / ein",
+        "ein / eine",
+        "einen / ein"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "eine / ein",
+      "explanation": "Hose (feminin) → eine; Hemd (neutral) → ein",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q020",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"die Frau\" – Welche Pluralform ist korrekt?",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "die Frauen",
+        "die Fraue",
+        "die Frauens",
+        "die Frauenen"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "die Frauen",
+      "explanation": "die Frau → die Frauen (kein Umlaut)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q021",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Artikel passt? \"___ Computer\"",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Der",
+      "explanation": "Computer = der (maskulin)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
     },
     {
       "id": "a1_02_q022",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ heißeße ich Anna.",
-      "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
-      ],
-      "correctAnswer": "Ich",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q023",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q024",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q025",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q026",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q027",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q028",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_02_q029",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder spielen mit ___ Ball.\" – Welcher Artikel?",
       "options": [
         "der",
         "die",
         "das",
-        "ein"
+        "einem"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
+      "correctAnswer": "einem",
+      "explanation": "Dativ: mit + Dativ = mit einem Ball",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q023",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist korrekt? \"Ich brauche ___ Tasche.\"",
+      "options": [
+        "einen",
+        "eine",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "eine",
+      "explanation": "Tasche = feminin, Akkusativ = eine",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q024",
+      "type": "multiple_choice",
+      "questionText": "\"___ Frauen arbeiten hier.\" – Welcher Artikel?",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Frauen = Plural, die Frauen",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q025",
+      "type": "multiple_choice",
+      "questionText": "Was ist die Pluralform von \"Kind\"?",
+      "options": [
+        "die Kind",
+        "die Kinder",
+        "die Kindes",
+        "die Kinider"
+      ],
+      "correctAnswer": "die Kinder",
+      "explanation": "Kind → Kinder (Umlaut!)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q026",
+      "type": "multiple_choice",
+      "questionText": "\"Ich kaufe ___ neue Hose.\" – Welcher Artikel?",
+      "options": [
+        "eine",
+        "einen",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "eine",
+      "explanation": "Hose = feminin, Akkusativ = eine",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q027",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch FALSCH?",
+      "options": [
+        "Der Hund läuft schnell.",
+        "Die Katze trinkt Wasser.",
+        "Ein Buch liegt auf dem Tisch.",
+        "Ich habe ein neue Tasche."
+      ],
+      "correctAnswer": "Ich habe ein neue Tasche.",
+      "explanation": "eine neue Tasche (feminin braucht \"eine\")",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q028",
+      "type": "multiple_choice",
+      "questionText": "\"___ Männer sind heute im Büro.\" – Welcher Artikel?",
+      "options": [
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
+      ],
+      "correctAnswer": "Die",
+      "explanation": "Männer = Plural = die Männer",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
+    },
+    {
+      "id": "a1_02_q029",
+      "type": "multiple_choice",
+      "questionText": "Was ist die Pluralform von \"Haus\"?",
+      "options": [
+        "die Hauses",
+        "die Häuser",
+        "die Hauss",
+        "die Haue"
+      ],
+      "correctAnswer": "die Häuser",
+      "explanation": "Haus → Häuser (Umlaut + -er)",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
     },
     {
       "id": "a1_02_q030",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "\"___ Idee ist sehr gut!\" – Welcher Artikel?",
       "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
+        "Der",
+        "Die",
+        "Das",
+        "Ein"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Die",
+      "explanation": "Idee = feminin, Nominativ = die",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)",
+      "subjectId": "a1_02"
     },
     {
       "id": "a1_02_q031",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "___ Auto vor dem Haus gehört meinem Vater.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Der",
+        "Die",
+        "Das",
+        "Den"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "Das",
+      "explanation": "Das ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q032",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Ich sehe viele ___ im Garten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Katze",
+        "Katzen",
+        "Katzes",
+        "Katzenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Katzen",
+      "explanation": "Katzen ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q033",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "___ Lehrer erklärt die Grammatik.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Das",
+        "Die",
+        "Der",
+        "Den"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Der",
+      "explanation": "Der ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q034",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Wir kaufen ___ Brot und ___ Milch.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "das / die",
+        "der / das",
+        "die / das",
+        "den / die"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "das / die",
+      "explanation": "das / die ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q035",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Die ___ spielen draußen Fußball.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Kind",
+        "Kindes",
+        "Kinder",
+        "Kinders"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Kinder",
+      "explanation": "Kinder ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q036",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "___ Lampe ist kaputt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Der",
+        "Das",
+        "Die",
+        "Den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Die",
+      "explanation": "Die ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q037",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Ich brauche einen ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Tisch",
+        "Tische",
+        "Tischen",
+        "Tischer"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "Tisch",
+      "explanation": "Tisch ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q038",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Im Zoo gibt es viele ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Tier",
+        "Tieren",
+        "Tiere",
+        "Tieres"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Tiere",
+      "explanation": "Tiere ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q039",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "___ Fenster ist offen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Der",
+        "Die",
+        "Das",
+        "Dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Das",
+      "explanation": "Das ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q040",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Die ___ sind interessant.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Buch",
+        "Bücher",
+        "Bucher",
+        "Buches"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "Bücher",
+      "explanation": "Bücher ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q041",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q042",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q043",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q044",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q045",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q046",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q047",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q048",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q049",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_02_q050",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q051",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "_____ Wissen über diese Technologie ist ziemlich begrenzt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Der",
+        "Die",
+        "Das",
+        "Den"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Das",
+      "explanation": "Wissen = Neutrum (das Wissen), Nominativ.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q052",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Kennst du _____ neuen Mitarbeiterinnen aus der Buchhaltung?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "den",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Plural: die neuen Mitarbeiterinnen (Frauen = Plural).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q053",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "In vielen Ländern sind _____ Staatsschulden in den letzten Jahren gestiegen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "die",
+        "das",
+        "den"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "Staatsschulden = Plural (die Staatsschulden), Nominativ Plural.",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q054",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Trotz _____ starken Regens kamen fast alle Gäste pünktlich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dem",
+        "des",
+        "den",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "des",
+      "explanation": "Genitiv nach trotz (trotz + Genitiv): des starken Regens.",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q055",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Welche _____ dieser beiden Lösungsansätze ist effizienter – der erste oder der zweite?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von",
+        "aus",
+        "bei",
+        "nach"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "von",
+      "explanation": "welche von diesen beiden (von + Dativ).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q056",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Die meisten Leute unterschätzen _____ Gefahren des Rauchens.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "das",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Plural: die Gefahren des Rauchens (Gefahren = feminin Plural).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q057",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Der Geschmack _____ alten Weines war außergewöhnlich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "- (null Artikel)",
+        "eines",
+        "des",
+        "dem"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "des",
+      "explanation": "Genitiv: der Geschmack des alten Weines (Wein = maskulin).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q058",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "_____ neu entwickelten Softwarelösungen werden nächste Woche vorgestellt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die",
+        "Der",
+        "Das",
+        "Den"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "Die",
+      "explanation": "Nominativ Plural: die neu entwickelten Softwarelösungen.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q059",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Ich habe nichts gegen _____ Vorschläge meines Kollegen, aber sie sind zu teuer.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "den",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Plural: gegen die Vorschläge (Vorschläge = maskulin Plural).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q060",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Wir gedenken _____ Opfern des Krieges jedes Jahr am Volkstrauertag.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "den",
+        "des"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "der",
+      "explanation": "Dativ Plural: wir gedenken der Opfer (den Opfern = Dativ).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q061",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Buch.",
+      "type": "multiple_choice",
+      "questionText": "_____ Informationen, die du mir gegeben hast, waren sehr hilfreich.",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "Der",
+        "Die",
+        "Das",
+        "Dem"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "Die",
+      "explanation": "Nominativ Plural: die Informationen (Feminin Plural von Information).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q062",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Trotz _____ schlechten Wetters gingen wir spazieren.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "des",
+        "dem",
+        "den",
+        "die"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
+      "correctAnswer": "des",
+      "explanation": "Genitiv nach trotz: trotz des schlechten Wetters.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q063",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Sie hat mir bei _____ Entscheidung geholfen.",
       "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
+        "der",
+        "dem",
+        "die",
+        "das"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "der",
+      "explanation": "Dativ Feminin: bei der Entscheidung (Entscheidung = feminin).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q064",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "_____ Kinder von nebenan spielen jeden Tag im Garten.",
       "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
+        "Der",
+        "Die",
+        "Das",
+        "Den"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "Die",
+      "explanation": "Nominativ Plural: die Kinder (Kinder = Plural).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q065",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Er interessiert sich für _____ Politik anderer Länder.",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "der",
+        "die",
+        "das",
+        "dem"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: für die Politik (interessiert sich für + Akkusativ).",
+      "difficulty": "easy",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q066",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Wegen _____ starken Regens wurde das Spiel abgesagt.",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "des",
+        "dem",
+        "den",
+        "die"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "des",
+      "explanation": "Genitiv nach wegen: wegen des starken Regens (Regen = maskulin).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q067",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "_____ Buch, das ich letzte Woche gekauft habe, ist schon kaputt.",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "Der",
+        "Die",
+        "Das",
+        "Dem"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "Das",
+      "explanation": "Nominativ Neutrum: das Buch (Buch = Neutrum).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q068",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Sie spricht fließend _____ Sprachen: Deutsch, Englisch und Französisch.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "drei",
+        "dreier",
+        "dreien",
+        "dreis"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "drei",
+      "explanation": "Kein Artikel bei Zahlenangabe: drei Sprachen (drei als Adjektiv ohne Endung).",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q069",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "_____ meisten Menschen bevorzugen _____ warme Wetter im Sommer.",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "Die / das",
+        "Der / die",
+        "Das / der",
+        "Den / dem"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Die / das",
+      "explanation": "Die meisten (Nominativ Plural) + das warme Wetter (Akkusativ Neutrum).",
+      "difficulty": "medium",
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     },
     {
       "id": "a1_02_q070",
       "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q071",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q072",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q073",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q074",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q075",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q076",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Du ___ das nicht.",
-      "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
-      ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q077",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q078",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q079",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q080",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q081",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q082",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q083",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q084",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q085",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q086",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q087",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q088",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "Hast du _____ neuen Film schon gesehen?",
       "options": [
         "der",
         "die",
         "das",
-        "ein"
+        "den"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: hast du (wen?) den neuen Film gesehen.",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q089",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q090",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q091",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q092",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q093",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q094",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q095",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q096",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q097",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q098",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q099",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_02_q100",
-      "subjectId": "a1_02",
-      "topicName": "Nominativ",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Nomen und Artikel (der/die/das + Pluralformen)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_10",
-  "topicName": "Modalverben: können, müssen, wollen",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "10. Sätze bilden (Wortstellung)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_10_q001",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortstellung ist korrekt für einen deutschen Hauptsatz?",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "Heute ich gehe ins Kino.",
+        "Ins Kino heute gehe ich.",
+        "Heute gehe ich ins Kino.",
+        "Gehe ich heute ins Kino."
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "Heute gehe ich ins Kino.",
+      "explanation": "Position 1: Temporal (heute), Position 2: Verb, Position 3: Subjekt",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q002",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Er trinkt jeden Morgen Kaffee.\" – Welches Element steht auf Position 1?",
       "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
+        "Kaffee",
+        "jeden Morgen",
+        "Er",
+        "trinkt"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "jeden Morgen",
+      "explanation": "Position 1 = Temporaladverbial: jeden Morgen",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q003",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Wo steht das Verb in einem deutschen Hauptsatz?",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "Am Anfang",
+        "Am Ende",
+        "Immer auf Position 2",
+        "Nach dem Objekt"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Immer auf Position 2",
+      "explanation": "Im Hauptsatz: konjugiertes Verb auf Position 2",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q004",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "Morgen kommt er.",
+        "Er kommt morgen.",
+        "Kommt er morgen.",
+        "Er morgen kommt."
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "Er morgen kommt.",
+      "explanation": "Richtige Wortstellung: Er kommt morgen (Verb muss auf Pos. 2)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q005",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ gestern zum Supermarkt ___.\" – Richtige Perfektstellung?",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "bin / gegangen",
+        "bin gegangen / zum Supermarkt",
+        "habe / gegangen",
+        "habe gegangen / zum"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
+      "correctAnswer": "bin / gegangen",
+      "explanation": "Perfekt mit sein: ist gegangen; TEKAMOLO: Zeit, Grund, Modal, Ort",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q006",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "In einem Nebensatz (weil) steht das Verb...",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "auf Position 2",
+        "am Ende",
+        "am Anfang",
+        "vor dem Subjekt"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "am Ende",
+      "explanation": "In Nebensätzen: Verb am Ende (weil er geht, weil er ging)",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q007",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz mit \"weil\" ist korrekt?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "Ich bleibe zu Hause, weil es regnet.",
+        "Ich bleibe zu Hause, weil regnet es.",
+        "Weil regnet es, ich bleibe zu Hause.",
+        "Ich bleibe, weil es zu Hause regnet."
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "Ich bleibe zu Hause, weil es regnet.",
+      "explanation": "weil-Satz: Verb am Ende; Subjekt vor Verb",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q008",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Wo steht das Modalverb im Hauptsatz?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "Am Ende",
+        "Auf Position 1",
+        "Auf Position 2",
+        "Nach dem Infinitiv"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Auf Position 2",
+      "explanation": "Modalverb ersetzt konjugierte Verb auf Position 2",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q009",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "\"Manchmal ___ er ___ Musik.\" – Richtige Wortstellung?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "hört / laut",
+        "laut / hört",
+        "hört er / laut Musik",
+        "er / laut hört"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hört / laut",
+      "explanation": "Manchmal (Pos 1) + er (Pos 3) + hört (Pos 2) + laut (Angabe) + Musik",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q010",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch korrekt?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "Er hat gestern das Buch gelesen.",
+        "Er gestern hat gelesen das Buch.",
+        "Gestern er hat das Buch gelesen.",
+        "Das Buch hat gelesen er gestern."
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
+      "correctAnswer": "Er hat gestern das Buch gelesen.",
+      "explanation": "Richtige Stellung: Subjekt + Hilfsverb + Temporal + Objekt + Partizip",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q011",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"___ er nach Hause, ___ er müde war.\" – Welche Konjunktion?",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "Weil / weil",
+        "Als / als",
+        "Wenn / wenn",
+        "Dass / dass"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
+      "correctAnswer": "Als / als",
+      "explanation": "Als = zeitlicher Nebensatz (einmalige Vergangenheit)",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q012",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortstellung ist im Nebensatz korrekt?",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "...dass er geht nach Hause",
+        "...dass er nach Hause geht",
+        "...dass nach Hause er geht",
+        "...dass geht nach Hause er"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "...dass er nach Hause geht",
+      "explanation": "Im Nebensatz: Subjekt + Temporal + Ort + Verb am Ende",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q013",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ist krank, ___ er nicht kommen kann.\" – Welche Konjunktion?",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "aber",
+        "denn",
+        "weil",
+        "dass"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "weil",
+      "explanation": "weil = Grund; Verb am Ende im Nebensatz",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q014",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "\"Wenn es regnet, ___ ich zu Hause.\" – Was fehlt?",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "bleibe",
+        "bleibst",
+        "bleibt",
+        "bleiben"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "bleibe",
+      "explanation": "wenn-Satz (Bedingung): ich bleibe (Position 2)",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q015",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz hat die FALSCHE Wortstellung?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "Ich lese ein Buch.",
+        "Er kommt morgen.",
+        "Morgen er kommt.",
+        "Wir lernen Deutsch."
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Morgen er kommt.",
+      "explanation": "Richtig: Er kommt morgen oder Morgen kommt er",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q016",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "\"___ die Prüfung vorbei ist, lernt er jeden Tag.\" – Welches Wort fehlt?",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "Bis",
+        "Nachdem",
+        "Während",
+        "Wenn"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Bis",
+      "explanation": "Bis = zeitlich; die Prüfung vorbei ist (Ende der Handlung)",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q017",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Nicht nur ___ er die Prüfung, ___ er hat auch einen Job gefunden.\"",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "hat bestanden / sondern",
+        "bestand / aber",
+        "besteht / sondern auch",
+        "hatten / sondern"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
+      "correctAnswer": "hat bestanden / sondern",
+      "explanation": "Nicht nur... sondern auch: hat bestanden + hat gefunden",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q018",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortstellung ist bei WENN-Sätzen korrekt?",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "Wenn kommt er nach Hause.",
+        "Wenn er kommt nach Hause.",
+        "Wenn er nach Hause kommt.",
+        "Wenn nach Hause kommt er."
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wenn er nach Hause kommt.",
+      "explanation": "Im wenn-Satz: wenn + Subjekt + Ort + Verb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q019",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ist müde, ___ er hat lange gearbeitet.\" – Welche Wortstellung ist korrekt?",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "denn hat er",
+        "denn er hat",
+        "hat er denn",
+        "er hat denn"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "denn er hat",
+      "explanation": "denn leitet keinen Nebensatz ein: Normalstellung",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q020",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Am Wochenende ___ wir oft ___.\" – Richtige Wortstellung?",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "fahren / ins Kino",
+        "ins Kino / fahren",
+        "fahren ins Kino / wir",
+        "wir / fahren ins Kino"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
+      "correctAnswer": "fahren / ins Kino",
+      "explanation": "Am Wochenende (Pos1) + wir (Pos3) + fahren (Pos2) + ins Kino",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q021",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Am Morgen ich trinke Kaffee.\" – Was ist die richtige Wortstellung?",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "Am Morgen trinke ich Kaffee.",
+        "Ich am Morgen trinke Kaffee.",
+        "Trinke ich am Morgen Kaffee.",
+        "Am ich Morgen trinke Kaffee."
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Am Morgen trinke ich Kaffee.",
+      "explanation": "Zeitangabe zuerst, dann Verb, dann Subjekt",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q022",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ heißeße ich Anna.",
+      "type": "multiple_choice",
+      "questionText": "\"Gestern ich bin ins Kino gegangen.\" – Korrigieren Sie.",
       "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
+        "Gestern bin ich ins Kino gegangen.",
+        "Ich bin gestern ins Kino gegangen.",
+        "Gestern gegangen bin ich ins Kino.",
+        "Ins Kino ich bin gegangen gestern."
       ],
-      "correctAnswer": "Ich",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Gestern bin ich ins Kino gegangen.",
+      "explanation": "Temporal zuerst, dann konjugiertes Verb, dann Subjekt",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q023",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Wir ___ in Berlin.",
+      "type": "multiple_choice",
+      "questionText": "\"Jeden Tag ich lese ein Buch.\" – Richtige Wortstellung?",
       "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
+        "Jeden Tag lese ich ein Buch.",
+        "Ich lese jeden Tag ein Buch.",
+        "Ein Buch jeden Tag ich lese.",
+        "Lesen jeden Tag ich ein Buch."
       ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Ich lese jeden Tag ein Buch.",
+      "explanation": "Subjekt + Verb zuerst, dann Zeitangabe, dann Objekt",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q024",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ___ ein Haus.",
+      "type": "multiple_choice",
+      "questionText": "\"Nicht ich verstehe die Frage.\" – Korrigieren Sie.",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "Ich verstehe die Frage nicht.",
+        "Nicht verstehe ich die Frage.",
+        "Ich nicht verstehe die Frage.",
+        "Verstehe ich nicht die Frage."
       ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Ich verstehe die Frage nicht.",
+      "explanation": "Verb zuerst, dann Subjekt, Negation am Ende",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q025",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich ___ eine Frage.",
+      "type": "multiple_choice",
+      "questionText": "\"Heute Morgen ich habe schnell gefrühstückt.\" – Richtig?",
       "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
+        "Heute Morgen habe ich schnell gefrühstückt.",
+        "Ich habe heute Morgen schnell gefrühstückt.",
+        "Schnell gefrühstückt habe ich heute Morgen.",
+        "Heute ich habe Morgen schnell gefrühstückt."
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Ich habe heute Morgen schnell gefrühstückt.",
+      "explanation": "Subjekt + Verb (habe) zuerst, dann Zeitangaben",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q026",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Du ___ sehr nett.",
+      "type": "multiple_choice",
+      "questionText": "\"Sehr gut sie singt.\" – Korrigieren Sie.",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "Sie singt sehr gut.",
+        "Sehr sie gut singt.",
+        "Singt sehr gut sie.",
+        "Gut sehr sie singt."
       ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Sie singt sehr gut.",
+      "explanation": "Subjekt + Verb, dann Adverb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q027",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ das Buch.",
+      "type": "multiple_choice",
+      "questionText": "\"Morgen ich werde arbeiten.\" – Richtige Wortstellung?",
       "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
+        "Morgen werde ich arbeiten.",
+        "Ich werde morgen arbeiten.",
+        "Werden ich morgen arbeiten.",
+        "Morgen arbeiten werde ich."
       ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Ich werde morgen arbeiten.",
+      "explanation": "Subjekt + Hilfsverb, dann Zeitangabe, dann Vollverb",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q028",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ ist das?",
+      "type": "multiple_choice",
+      "questionText": "\"Der Mann schnell läuft.\" – Korrigieren Sie.",
       "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
+        "Der Mann läuft schnell.",
+        "Schnell läuft der Mann.",
+        "Läuft der Mann schnell.",
+        "Der schnell Mann läuft."
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
+      "correctAnswer": "Der Mann läuft schnell.",
+      "explanation": "Subjekt + Verb, dann Adverb",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q029",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"Am Abend wir kochen zusammen.\" – Richtige Wortstellung?",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "Am Abend kochen wir zusammen.",
+        "Wir kochen am Abend zusammen.",
+        "Zusammen am Abend wir kochen.",
+        "Kochen wir am Abend zusammen."
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Wir kochen am Abend zusammen.",
+      "explanation": "Subjekt + Verb zuerst, dann Zeitangabe, dann Adverb",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q030",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "\"Jetzt ich muss gehen.\" – Korrigieren Sie.",
       "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
+        "Jetzt muss ich gehen.",
+        "Ich jetzt muss gehen.",
+        "Muss ich jetzt gehen.",
+        "Gehen jetzt ich muss."
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Jetzt muss ich gehen.",
+      "explanation": "Temporal zuerst, dann Modalverb, dann Subjekt",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)",
+      "subjectId": "a1_10"
     },
     {
       "id": "a1_10_q031",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Morgen ___ ich nach Berlin.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "fahre",
+        "ich fahre",
+        "fahre ich",
+        "ich"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "fahre",
+      "explanation": "fahre ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q032",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Weil es regnet, ___ wir zu Hause.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bleiben",
+        "wir bleiben",
+        "bleiben wir",
+        "wir"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wir bleiben",
+      "explanation": "wir bleiben ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q033",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Heute ___ er keine Zeit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "er hat",
+        "hat er",
+        "haben"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "hat ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q034",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß, dass sie morgen ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "kommt",
+        "kommen",
+        "gekommen",
+        "kam"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "kommt",
+      "explanation": "kommt ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q035",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Am Wochenende ___ wir Fußball.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "spielen",
+        "wir spielen",
+        "spielen wir",
+        "gespielt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "spielen wir",
+      "explanation": "spielen wir ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q036",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Warum ___ du so spät?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "kommst",
+        "du kommst",
+        "kommen",
+        "gekommen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "kommst",
+      "explanation": "kommst ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q037",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Er sagt, dass er keine Zeit ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "haben",
+        "hatte",
+        "ist"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "hat",
+      "explanation": "hat ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q038",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Gestern ___ ich sehr müde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "war",
+        "ich war",
+        "war ich",
+        "bin"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "war",
+      "explanation": "war ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q039",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Im Sommer ___ viele Leute ans Meer.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "fahren",
+        "fährt",
+        "fahrene",
+        "gefahren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "fahren",
+      "explanation": "fahren ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q040",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich Zeit habe, ___ ich dich an.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "rufe",
+        "ich rufe",
+        "rufe ich",
+        "angerufen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "rufe",
+      "explanation": "rufe ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q041",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q042",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q043",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q044",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q045",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q046",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q047",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q048",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q049",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_10_q050",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q051",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie den korrekten Satz:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Weil heute regnet es, bleibe ich zu Hause.",
+        "Weil es regnet heute, bleibe ich zu Hause.",
+        "Weil es heute regnet, bleibe ich zu Hause.",
+        "Weil heute es regnet, bleibe ich zu Hause."
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Weil es heute regnet, bleibe ich zu Hause.",
+      "explanation": "Nebensatz: weil + Subjekt + Verb an 2. Stelle (es regnet) → Hauptsatz mit Verb an 1. Stelle.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q052",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die richtige Satzstellung:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn ich Zeit habe, ich besuche dich morgen.",
+        "Wenn ich Zeit habe, besuche ich dich morgen.",
+        "Wenn ich Zeit habe, besuchen morgen ich dich.",
+        "Wenn ich habe Zeit, ich besuche dich morgen."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Wenn ich Zeit habe, besuche ich dich morgen.",
+      "explanation": "Nebensatz (wenn) → Verb am Ende, Hauptsatz → Verb an 1. Stelle: besuche ich.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q053",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Der Chef fragt, …",
       "options": [
-        "Richtig",
-        "Falsch"
+        "… ob du den Bericht fertig hast.",
+        "… ob hast du den Bericht fertig.",
+        "… ob du hast den Bericht fertig.",
+        "… ob du den Bericht fertig hast du."
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "… ob du den Bericht fertig hast.",
+      "explanation": "Indirekte Frage mit ob → normale Wortstellung: Subjekt (du) + Verb (hast).",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q054",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Richtig ist:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Nach dem Essen habe ich kurz geschlafen und dann ich habe weitergearbeitet.",
+        "Nach dem Essen habe ich kurz geschlafen und dann habe ich weitergearbeitet.",
+        "Nach dem Essen habe ich kurz geschlafen und dann weitergearbeitet habe ich.",
+        "Nach dem Essen ich kurz geschlafen habe und dann habe ich weitergearbeitet."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Nach dem Essen habe ich kurz geschlafen und dann habe ich weitergearbeitet.",
+      "explanation": "Hauptsatz mit Verb 1. Stelle nach 'und': dann + Verb + Subjekt (habe ich).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q055",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Kein Fehler in der Wortstellung:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Kannst du mir sagen, wann fährt der letzte Bus?",
+        "Kannst du mir sagen, wann der letzte Bus fährt?",
+        "Kannst du mir sagen, der letzte Bus wann fährt?",
+        "Kannst du mir sagen, wann fährt der letzte Bus ab?"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Kannst du mir sagen, wann der letzte Bus fährt?",
+      "explanation": "Indirekte W-Frage (wann): Subjekt vor Verb im Nebensatz (der letzte Bus fährt).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q056",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatikalisch korrekt?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Ich weiß nicht, ob kommt er heute.",
+        "Ich weiß nicht, ob er heute kommt.",
+        "Ich weiß nicht, er kommt heute ob.",
+        "Ich weiß nicht, heute kommt er ob."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Ich weiß nicht, ob er heute kommt.",
+      "explanation": "Indirekte Frage mit ob: Subjekt (er) vor Verb (kommt) im Nebensatz.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q057",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Richtig ist:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Obwohl er müde war, er half uns trotzdem.",
+        "Obwohl er müde war, half er uns trotzdem.",
+        "Obwohl er müde war uns half er trotzdem.",
+        "Obwohl er war müde, half er uns trotzdem."
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Obwohl er müde war, half er uns trotzdem.",
+      "explanation": "Obwohl + Nebensatz → Hauptsatz mit Verb an 1. Stelle: half er.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q058",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Satz mit korrekter Stellung der trennbaren Verben:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Ich rufe dich heute Abend an.",
+        "Ich rufe an dich heute Abend.",
+        "Ich anrufe dich heute Abend.",
+        "Heute Abend rufe an ich dich."
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "Ich rufe dich heute Abend an.",
+      "explanation": "Trennbare Verben: Verb am Ende im Nebensatz, Präfix abgetrennt (anrufen → rufe ... an).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q059",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die richtige Reihenfolge:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Dass er die Prüfung bestanden hat, freut mich sehr.",
+        "Dass hat er die Prüfung bestanden, freut mich sehr.",
+        "Er die Prüfung bestanden hat, freut mich sehr dass.",
+        "Bestanden hat er die Prüfung dass, freut mich sehr."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Dass er die Prüfung bestanden hat, freut mich sehr.",
+      "explanation": "Nominalsatz: Dass + Subjekt + Verb (hat) → Komma, dann Hauptsatz.",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q060",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Richtig ist:",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Je mehr du übst, desto besser wirst du.",
+        "Je mehr du übst, wirst du desto besser.",
+        "Je mehr übst du, desto besser wirst du.",
+        "Du übst je mehr, desto besser wirst du."
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Je mehr du übst, desto besser wirst du.",
+      "explanation": "Je... desto/umso: Je + Komparativ + Subjekt + Verb, desto + Komparativ + Verb + Subjekt.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q061",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Buch.",
+      "type": "multiple_choice",
+      "questionText": "_____ du weißt, dass morgen Feiertag ist?",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "Weißt",
+        "Wissen",
+        "Wisst",
+        "Weiß"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "Weißt",
+      "explanation": "wissen → du weißt (2. Person Singular, Umlaut).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q062",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Gestern _____ ich meine Freunde im Café getroffen.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "habe",
+        "hat",
+        "hatten",
+        "haben"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "habe",
+      "explanation": "treffen → habe getroffen (Perfekt mit haben, 1. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q063",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Wenn es morgen regnet, _____ wir zu Hause.",
       "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
+        "bleiben",
+        "bleibt",
+        "bleibe",
+        "geblieben"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "bleiben",
+      "explanation": "Nebensatz (wenn) → Hauptsatz mit Verb 1. Stelle: bleiben wir.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q064",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Nicht nur _____, sondern auch _____ war sehr freundlich.",
       "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
+        "der Chef / die Kollegin",
+        "die Kollegin / der Chef",
+        "Chef / Kollegin",
+        "dem Chef / der Kollegin"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "der Chef / die Kollegin",
+      "explanation": "Nicht nur... sondern auch: korrekte Satzbaureihenfolge mit Artikel.",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q065",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "_____ du mir bitte sagen, wo die nächste Apotheke ist?",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "Kann",
+        "Kannst",
+        "Können",
+        "Könnt"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Kannst",
+      "explanation": "können → du kannst (2. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q066",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß nicht, _____ er heute kommt oder nicht.",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "Indirekte Frage mit ob (ja/nein-Frage): ob er heute kommt oder nicht.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q067",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "_____ sie mehr Zeit gehabt hätte, wäre sie mitgekommen.",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "Wenn",
+        "Weil",
+        "Dass",
+        "Obwohl"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wenn",
+      "explanation": "Irrealer Konditionalsatz: wenn sie mehr Zeit gehabt hätte (Konjunktiv II).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q068",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Er fragt mich, _____ ich schon gegessen habe.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "Indirekte Frage mit ob: ob ich schon gegessen habe.",
+      "difficulty": "easy",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q069",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "_____ ich mich nicht irre, haben wir uns schon einmal gesehen.",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "Wenn",
+        "Weil",
+        "Dass",
+        "Obwohl"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn ich mich nicht irre (= wenn ich recht habe, glaube ich).",
+      "difficulty": "medium",
+      "topicName": "Sätze bilden (Wortstellung)"
     },
     {
       "id": "a1_10_q070",
       "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "Sie möchte wissen, _____ der Zug abfährt.",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "wann",
+        "dass",
+        "weil",
+        "ob"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
+      "correctAnswer": "wann",
+      "explanation": "Indirekte W-Frage: wann der Zug abfährt (W-question word).",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q071",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q072",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q073",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q074",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q075",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q076",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Du ___ das nicht.",
-      "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
-      ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q077",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q078",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q079",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q080",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q081",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q082",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q083",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q084",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q085",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q086",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q087",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q088",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q089",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q090",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q091",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q092",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q093",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q094",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q095",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q096",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q097",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q098",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q099",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_10_q100",
-      "subjectId": "a1_10",
-      "topicName": "Modalverben: können, müssen, wollen",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Sätze bilden (Wortstellung)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

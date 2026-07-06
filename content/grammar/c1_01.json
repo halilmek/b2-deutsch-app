@@ -1,1553 +1,1800 @@
 {
+  "version": "1.0",
   "subjectId": "c1_01",
-  "topicName": "Konjunktiv I: alle Formen",
+  "topicName": "Nominalstil & Verbalstil",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 127,
+  "description": "Nominalstil & Verbalstil — transforming between nominal and verbal sentence styles in German. Nominalstil (noun-based style) uses nominalized infinitives, noun-preposition combinations, and Funktionsverbgefüge for formal/academic writing. Verbalstil (verb-based style) uses full clauses with conjunctions. Key: converting subordinate clauses to noun phrases (weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ), nominalizing verbs correctly, and using appropriate C1-level connectors.",
+  "tips": [
+    "Nominalstil transformations: weil -> wegen + Genitiv, damit -> zu + Dativ, nachdem -> nach + Dativ, wenn/falls -> bei + Dativ, obwohl -> trotz + Genitiv, indem -> unter + Dativ, ohne zu -> ohne + Akkusativ, anstatt zu -> statt + Genitiv, infolge -> infolge + Genitiv.",
+    "Funktionsverbgefüge (FVG): Kritik ueben an (+ Dat), zur Anwendung bringen, in Kraft treten, zur Entscheidung gelangen, unter Beweis stellen, zur Sprache bringen, einer Loesung zufuehren, zur Einsicht gelangen, Aufnahme finden, in Betrieb nehmen.",
+    "Nominalization: machen -> durchfuehren/die Durchfuehrung; entscheiden -> die Entscheidung; erhoehen -> die Erhoehung; anwenden -> die Anwendung; veraendern -> die Veraenderung; planen -> die Planung.",
+    "Genitive attributes with nominalizations: die Durchfuehrung des Projekts, wegen des starken Anstiegs der Preise, nach der Unterzeichnung des Vertrags.",
+    "Verbalstil connectors and their nominal equivalents: obwohl -> trotz (+ Genitiv), weil -> wegen (+ Genitiv), damit -> zu (+ Dativ), nachdem -> nach (+ Dativ), waehrend -> bei (+ Dativ), wenn/falls -> bei (+ Dativ).",
+    "Funktionsverbgefüge for C1: Ruege erteilen, eine Pruefung ablegen, zur Verfuegung stehen/stellen, in Anspruch nehmen, zur Kenntnis nehmen, ausser Acht lassen, Beachtung schenken, zur Sprache kommen, in Betracht ziehen.",
+    "Je... desto -> mit zunehmendem/abnehmendem: Je mehr er lernte, desto klueger wurde er -> Mit zunehmendem Lernen wurde er klueger.",
+    "Mangels, zwecks, anlaesslich, hinsichtlich, infolge, trotz, waehrend, ausserhalb, innerhalb, bezueglich -> all require Genitive case.",
+    "Laut can take Genitive or Dative: laut des Berichts / laut dem Bericht. Both are acceptable in C1 formal German.",
+    "Adjective endings on nominalized infinitives: das Lesen (nom), beim Lesen (dat), zum Lesen (acc), nach dem Lesen (dat) -- no extra endings on infinitive noun itself."
+  ],
   "questions": [
     {
-      "id": "c1_01_q001",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Verwandelst du diesen Satz in den Nominalstil? 'Weil die Preise stark gestiegen sind, protestieren die Bürger.' -> 'Wegen ____ protestieren die Bürger.'",
+      "options": [
+        "des starken Anstiegs der Preise",
+        "den starken Anstieg der Preise",
+        "des stark steigenden Preises",
+        "dem starken Anstieg der Preise"
+      ],
+      "correctAnswer": "des starken Anstiegs der Preise",
+      "explanation": "The causal conjunction 'weil' becomes the genitive preposition 'wegen'. 'Die Preise steigen stark' -> 'des starken Anstiegs der Preise' (Genitiv).",
+      "id": "c1_01_q001"
     },
     {
-      "id": "c1_01_q002",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q003",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q004",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche verbale Entsprechung passt am besten zu: 'Nach der Unterzeichnung des Vertrags...'",
+      "options": [
+        "Nachdem der Vertrag unterzeichnet worden war...",
+        "Nachdem man den Vertrag unterzeichnen wird...",
+        "Bevor der Vertrag unterzeichnet wurde...",
+        "Obwohl der Vertrag unterzeichnet worden ist..."
+      ],
+      "correctAnswer": "Nachdem der Vertrag unterzeichnet worden war...",
+      "explanation": "'Nach' indicates sequence (after). In verbal style, 'nachdem' requires Plusquamperfekt in the subordinate clause to show completion before the main clause action.",
+      "id": "c1_01_q002"
     },
     {
-      "id": "c1_01_q005",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q006",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q007",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q008",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie: 'Trotz des anhaltenden Regens fand das Open-Air-Konzert statt.' -> '____ es ununterbrochen regnete, fand das Open-Air-Konzert statt.'",
       "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q009",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q010",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q011",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q012",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q013",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
-      "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
-      ],
-      "correctAnswer": "In",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q014",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
-      "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
-      ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q015",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q016",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
-      "options": [
-        "Nachdem",
-        "Weil",
         "Obwohl",
-        "Als"
+        "Weil",
+        "Während",
+        "Insofern"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Obwohl",
+      "explanation": "The concessive preposition 'trotz' (despite) translates to the concessive conjunction 'obwohl' (although) in verbal style.",
+      "id": "c1_01_q003"
     },
     {
-      "id": "c1_01_q017",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
-      "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
-      ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie im Nominalstil: 'Wenn man die Daten gründlich analysiert, lassen sich Fehler vermeiden.' -> 'Bei ____ lassen sich Fehler vermeiden.'",
+      "options": [
+        "gründlicher Analyse der Daten",
+        "gründliche Analysierung der Daten",
+        "einer gründlichen Analysierung von Daten",
+        "der gründlichen Daten zu analysieren"
+      ],
+      "correctAnswer": "gründlicher Analyse der Daten",
+      "explanation": "'Wenn' (conditional) -> 'bei' + Dativ. 'Gründlich analysieren' -> 'gründlicher Analyse' (Dat fem, no article, adj ending '-er'). Object in Genitive: 'der Daten'.",
+      "id": "c1_01_q004"
     },
     {
-      "id": "c1_01_q018",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche nominale Variante drückt Finalität aus? 'Damit die Mitarbeiter optimal geschult werden, investiert die Firma in Fortbildungen.' -> '____ investiert die Firma in Fortbildungen.'",
       "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
+        "Zur optimalen Schulung der Mitarbeiter",
+        "Wegen der optimalen Schulung der Mitarbeiter",
+        "Bei optimaler Schulung der Mitarbeiter",
+        "Hinsichtlich der optimalen Schulung der Mitarbeiter"
       ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
+      "correctAnswer": "Zur optimalen Schulung der Mitarbeiter",
+      "explanation": "'Damit' (so that) -> 'zu' + Dativ ('zur' = zu + der). 'Die Mitarbeiter optimal schulen' -> 'zur optimalen Schulung der Mitarbeiter'.",
+      "id": "c1_01_q005"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die korrekte Nominalisierung: 'Das Unternehmen expandiert in den asiatischen Markt, wodurch neue Arbeitsplätze entstehen.' -> 'Durch ____ des Unternehmens in den asiatischen Markt entstehen neue Arbeitsplätze.'",
+      "options": [
+        "die Expansion",
+        "das Expandieren",
+        "die Expandierung",
+        "den Expansionskurs"
+      ],
+      "correctAnswer": "die Expansion",
+      "explanation": "'Die Expansion' is the preferred high-register C1 noun for 'expandieren'. 'Das Expandieren' is grammatically possible but less elegant.",
+      "id": "c1_01_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte verbale Transformation von: 'Zwecks Aufklärung des Sachverhalts wurden Zeugen verhört.'?",
+      "options": [
+        "Damit der Sachverhalt aufgeklärt wird, wurden Zeugen verhört.",
+        "Weil der Sachverhalt aufgeklärt werden musste, wurden Zeugen verhört.",
+        "Indem man den Sachverhalt aufklärte, wurden Zeugen verhört.",
+        "Obgleich man den Sachverhalt aufklärte, wurden Zeugen verhört."
+      ],
+      "correctAnswer": "Damit der Sachverhalt aufgeklärt wird, wurden Zeugen verhört.",
+      "explanation": "'Zwecks' (for the purpose of) -> 'damit' + subordinate clause expressing intent. 'Aufklärung' (noun) -> 'aufgeklärt wird' (verb).",
+      "id": "c1_01_q007"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie das Nomen-Verb-Gefüge: 'Wir müssen dieses Problem bald ____.'",
+      "options": [
+        "einer Lösung zuführen",
+        "in Vergessenheit geraten",
+        "Unterstützung finden",
+        "zur Sprache bringen"
+      ],
+      "correctAnswer": "einer Lösung zuführen",
+      "explanation": "'Einer Lösung zuführen' (FVG) = to bring something to a solution / resolve. 'Zur Sprache bringen' = to bring up for discussion, not to solve.",
+      "id": "c1_01_q008"
+    },
+    {
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie: 'Unter Berücksichtigung der neuen Sicherheitsvorschriften wurde der Plan geändert.'",
+      "options": [
+        "Indem man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert.",
+        "Obwohl man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert.",
+        "Während die neuen Sicherheitsvorschriften berücksichtigt wurden, wurde der Plan geändert.",
+        "Sodass man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert."
+      ],
+      "correctAnswer": "Indem man die neuen Sicherheitsvorschriften berücksichtigte, wurde der Plan geändert.",
+      "explanation": "'Unter Berücksichtigung von...' (modal: by taking into account) -> 'indem' + modal subordinate clause. 'Indem' expresses the method by which something was done.",
+      "id": "c1_01_q009"
     },
     {
-      "id": "c1_01_q019",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
-      "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein typisches Beispiel für bürokratischen Nominalstil?",
+      "options": [
+        "Die Genehmigung des Antrags erfolgt nach der Überprüfung der Dokumente.",
+        "Wenn wir die Dokumente geprüft haben, genehmigen wir Ihren Antrag.",
+        "Wir prüfen Ihre Dokumente und genehmigen dann den Antrag.",
+        "Nachdem die Dokumente geprüft wurden, kann der Antrag genehmigt werden."
+      ],
+      "correctAnswer": "Die Genehmigung des Antrags erfolgt nach der Überprüfung der Dokumente.",
+      "explanation": "Pure nominal style: no active verb constructions. Only nouns ('Genehmigung', 'Überprüfung') combined with weak functional verbs ('erfolgt').",
+      "id": "c1_01_q010"
     },
     {
-      "id": "c1_01_q020",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Entwicklung ist ___ zu ___",
-      "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Verwandeln Sie in den Nominalstil: 'Solange das Projekt nicht offiziell genehmigt ist, dürfen keine Gelder fließen.' -> 'Bis ____ des Projekts dürfen keine Gelder fließen.'",
+      "options": [
+        "zur offiziellen Genehmigung",
+        "wegen der offiziellen Genehmigung",
+        "vor der offiziellen Genehmigung",
+        "mit offizieller Genehmigung"
+      ],
+      "correctAnswer": "zur offiziellen Genehmigung",
+      "explanation": "'Solange... nicht' (temporal limit) -> 'bis zur' + Dativ. 'Das Projekt genehmigen' -> 'zur Genehmigung des Projekts'.",
+      "id": "c1_01_q011"
     },
     {
-      "id": "c1_01_q021",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die korrekte verbale Version von: 'Mangels finanzieller Mittel musste das Forschungsprojekt eingestellt werden.'",
       "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
+        "Da es an finanziellen Mitteln mangelte, musste das Forschungsprojekt eingestellt werden.",
+        "Obwohl finanzielle Mittel vorhanden waren, musste das Forschungsprojekt eingestellt werden.",
+        "Indem finanzielle Mittel eingespart wurden, musste das Forschungsprojekt eingestellt werden.",
+        "Sollte es an finanziellen Mitteln mangeln, muss das Forschungsprojekt eingestellt werden."
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "correctAnswer": "Da es an finanziellen Mitteln mangelte, musste das Forschungsprojekt eingestellt werden.",
+      "explanation": "'Mangels' (causal, due to lack of) -> 'da' + 'mangeln an + Dativ'. 'Es mangelte an finanziellen Mitteln' = there was a lack of financial resources.",
+      "id": "c1_01_q012"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher nominale Ausdruck passt zu: 'Wie die Bundesregierung gestern mitteilte...'",
+      "options": [
+        "Laut gestriger Mitteilung der Bundesregierung...",
+        "Infolge der gestrigen Mitteilung der Bundesregierung...",
+        "Trotz gestriger Mitteilung der Bundesregierung...",
+        "Hinsichtlich gestriger Mitteilung der Bundesregierung..."
+      ],
+      "correctAnswer": "Laut gestriger Mitteilung der Bundesregierung...",
+      "explanation": "'Wie... mitteilte' (source attribution) -> 'laut' + Genitiv. 'Gestrig' is a C1 adjective meaning 'of yesterday' used in formal registers.",
+      "id": "c1_01_q013"
+    },
+    {
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Nominalisieren Sie: 'Falls Sie Fragen haben sollten, wenden Sie sich an die Zentrale.' -> '____ wenden Sie sich an die Zentrale.'",
+      "options": [
+        "Bei etwaigen Fragen",
+        "Wegen auftretender Fragen",
+        "Mit fraglichen Angelegenheiten",
+        "Im Falle des Fragens"
+      ],
+      "correctAnswer": "Bei etwaigen Fragen",
+      "explanation": "'Falls' (conditional) -> 'bei' + Dativ. 'Sollten' (possibility) -> 'etwaig' (C1 adjective = possible/potential). 'Etwaigen' is the C1 elegant form.",
+      "id": "c1_01_q014"
     },
     {
-      "id": "c1_01_q022",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q023",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist im fehlerfreien Nominalstil verfasst?",
+      "options": [
+        "Durch das kontinuierliche Sinken der Geburtenrate kommt es zur Überalterung der Gesellschaft.",
+        "Durch das kontinuierlich Gesinke der Geburtenrate kommt es zur Überalterung der Gesellschaft.",
+        "Wegen kontinuierlich gesunkenen Geburtenraten kommt es zur Überalterung der Gesellschaft.",
+        "Infolge sinkender Geburtenrate kontinuierlich kommt es zur Überalterung der Gesellschaft."
+      ],
+      "correctAnswer": "Durch das kontinuierliche Sinken der Geburtenrate kommt es zur Überalterung der Gesellschaft.",
+      "explanation": "'Das Sinken' (nominalized infinitive) with adjective 'kontinuierliche' and genitive attribute 'der Geburtenrate' — all correct.",
+      "id": "c1_01_q015"
     },
     {
-      "id": "c1_01_q024",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Setzen Sie in den Verbalstil um: 'Mit zunehmendem Alter lässt das Gedächtnis nach.' -> '____ man älter wird, desto mehr lässt das Gedächtnis nach.'",
       "options": [
-        "als ob",
-        "wenn",
+        "Je",
+        "Als",
+        "Wenn",
+        "Sowie"
+      ],
+      "correctAnswer": "Je",
+      "explanation": "'Mit zunehmendem Alter' (proportional development) -> 'Je... desto' structure. 'Je' introduces the comparative subordinate clause, 'desto' introduces the result.",
+      "id": "c1_01_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie: 'Der Minister lehnte eine Stellungnahme ab, ohne die Dokumente gelesen zu haben.' -> 'Der Minister lehnte eine Stellungnahme ____ ab.'",
+      "options": [
+        "ohne vorherige Lektüre der Dokumente",
+        "ohne die Dokumente zu lesen",
+        "trotz des Lesens der Dokumente",
+        "mangels des Lesens der Dokumente"
+      ],
+      "correctAnswer": "ohne vorherige Lektüre der Dokumente",
+      "explanation": "'Ohne... gelesen zu haben' (missing prior action) -> 'ohne vorherige Lektüre' (Genitiv: 'der Dokumente'). 'Lektüre' is C1-level vocabulary for 'reading/thorough perusal'.",
+      "id": "c1_01_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktion ersetzt 'Entgegen den Erwartungen aller Experten...' im Verbalstil?",
+      "options": [
+        "Obwohl alle Experten etwas anderes erwartet hatten, ...",
+        "Weil alle Experten damit rechneten, ...",
+        "Indem alle Experten das erwarteten, ...",
+        "Sofern alle Experten das erwartet hätten, ..."
+      ],
+      "correctAnswer": "Obwohl alle Experten etwas anderes erwartet hatten, ...",
+      "explanation": "'Entgegen' (concessive) -> 'obwohl'. Plusquamperfekt ('erwartet hatten') reflects that expectations existed before the outcome they contradicted.",
+      "id": "c1_01_q018"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Verb durch ein Nomen-Verb-Gefüge: 'Der Professor kritisierte die Methode scharf.' -> 'Der Professor ____ an der Methode.'",
+      "options": [
+        "übte scharfe Kritik",
+        "brachte scharfe Kritik",
+        "setzte scharfe Kritik vor",
+        "machte scharfe Kritik"
+      ],
+      "correctAnswer": "übte scharfe Kritik",
+      "explanation": "FVG: 'Kritik üben an' (+ Dativ). This is the standard C1 collocation for 'to criticize'. 'Scharfe Kritik üben' adds emphasis.",
+      "id": "c1_01_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bringen Sie in den Nominalstil: 'Bevor die Reformen durchgeführt werden können, muss das Parlament zustimmen.' -> 'Vor ____ der Reformen ist die Zustimmung des Parlaments erforderlich.'",
+      "options": [
+        "einer eventuellen Durchführung",
+        "der Durchführung können",
+        "dem Durchführenmüssen",
+        "des Durchführens"
+      ],
+      "correctAnswer": "einer eventuellen Durchführung",
+      "explanation": "'Bevor... werden können' (temporal + conditional) -> 'vor einer eventuellen Durchführung'. 'Eventuell' captures the modal meaning of possibility ('können'). Dative after 'vor'.",
+      "id": "c1_01_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Umsetzung des Projekts erfolgt durch die ____ der zuständigen Abteilung.",
+      "options": [
+        "Durchführung",
+        "durchgeführt wird",
+        "durchführen",
+        "wird durchgeführt"
+      ],
+      "correctAnswer": "Durchführung",
+      "explanation": "Pure Nominalstil: 'Durchführung' is the nominalized noun replacing the verbal phrase. This is a classic Nominalstil filler — nouns where verbs could be used.",
+      "id": "c1_01_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Firma strebt eine ____ der Produktionskosten an.",
+      "options": [
+        "Senkung",
+        "senken",
+        "gesenkt wird",
+        "zu senken"
+      ],
+      "correctAnswer": "Senkung",
+      "explanation": "'Senkung' (noun) replaces 'die Produktionskosten senken'. Nominalstil: verb phrases become nouns with suffixes like -ung, -tion, -ung.",
+      "id": "c1_01_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Ergebnisse erfolgt nach Abschluss der Studie.",
+      "options": [
+        "Auswertung",
+        "auswerten",
+        "ausgewertet wird",
+        "wird ausgewertet"
+      ],
+      "correctAnswer": "Auswertung",
+      "explanation": "'Auswertung' replaces 'die Ergebnisse auswerten'. The suffix -ung turns the verb into a feminine noun.",
+      "id": "c1_01_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Zur ____ der Daten ist eine sorgfältige Analyse notwendig.",
+      "options": [
+        "Interpretation",
+        "interpretieren",
+        "interpretiert wird",
+        "wird interpretiert"
+      ],
+      "correctAnswer": "Interpretation",
+      "explanation": "'Zur Interpretation der Daten' — 'Interpretation' replaces 'die Daten interpretieren'. Note 'zur' = 'zu + der' (Dat).",
+      "id": "c1_01_q024"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Mitarbeiter wird regelmäßig überprüft.",
+      "options": [
+        "Motivation",
+        "motivieren",
+        "motiviert wird",
+        "wird motiviert"
+      ],
+      "correctAnswer": "Motivation",
+      "explanation": "'Die Motivation der Mitarbeiter' replaces 'die Mitarbeiter motivieren'. Note: 'Motivation' (not 'Motivierung') is the correct high-register noun.",
+      "id": "c1_01_q025"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Regeln ist in diesem Fall nicht vorgesehen.",
+      "options": [
+        "Änderung",
+        "ändern",
+        "geändert wird",
+        "wird geändert"
+      ],
+      "correctAnswer": "Änderung",
+      "explanation": "'Änderung' replaces 'die Regeln ändern'. The -ung suffix is extremely productive in Nominalstil.",
+      "id": "c1_01_q026"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Vorschriften führte zu erheblichen Diskussionen.",
+      "options": [
+        "Einführung",
+        "einführen",
+        "eingeführt wird",
+        "wird eingeführt"
+      ],
+      "correctAnswer": "Einführung",
+      "explanation": "'Die Einführung der Vorschriften' replaces 'die Vorschriften einführen'. 'Einführung' is the standard C1 noun for 'introduction/implementation'.",
+      "id": "c1_01_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Durch die ____ des Programms konnten Fehler reduziert werden.",
+      "options": [
+        "Optimierung",
+        "optimieren",
+        "optimiert wird",
+        "wird optimiert"
+      ],
+      "correctAnswer": "Optimierung",
+      "explanation": "'Die Optimierung des Programms' replaces 'das Programm optimieren'. -Optimierung is a common C1 nominalization pattern.",
+      "id": "c1_01_q028"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Infrastruktur ist dringend erforderlich.",
+      "options": [
+        "Modernisierung",
+        "modernisieren",
+        "modernisiert wird",
+        "wird modernisiert"
+      ],
+      "correctAnswer": "Modernisierung",
+      "explanation": "'Die Modernisierung der Infrastruktur' replaces 'die Infrastruktur modernisieren'. C1 register requires the noun form.",
+      "id": "c1_01_q029"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Ergebnisse wurde gestern veröffentlicht.",
+      "options": [
+        "Zusammenfassung",
+        "zusammenfassen",
+        "zusammengefasst wird",
+        "wird zusammengefasst"
+      ],
+      "correctAnswer": "Zusammenfassung",
+      "explanation": "'Die Zusammenfassung der Ergebnisse' replaces 'die Ergebnisse zusammenfassen'. Common C1 nominalization.",
+      "id": "c1_01_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Sicherheitsmaßnahmen hat höchste Priorität.",
+      "options": [
+        "Überprüfung",
+        "überprüfen",
+        "überprüft wird",
+        "wird überprüft"
+      ],
+      "correctAnswer": "Überprüfung",
+      "explanation": "'Die Überprüfung der Sicherheitsmaßnahmen' replaces 'die Sicherheitsmaßnahmen überprüfen'.",
+      "id": "c1_01_q031"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Prozesse erfolgt digital.",
+      "options": [
+        "Automatisierung",
+        "automatisieren",
+        "automatisiert wird",
+        "wird automatisiert"
+      ],
+      "correctAnswer": "Automatisierung",
+      "explanation": "'Die Automatisierung der Prozesse' replaces 'die Prozesse automatisieren'. -isierung suffix for turning verbs into nouns.",
+      "id": "c1_01_q032"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Zur ____ der Kommunikation wurden neue Systeme eingeführt.",
+      "options": [
+        "Verbesserung",
+        "verbessern",
+        "verbessert wird",
+        "wird verbessert"
+      ],
+      "correctAnswer": "Verbesserung",
+      "explanation": "'Zur Verbesserung der Kommunikation' (zu + Dat: 'Verbesserung') replaces 'die Kommunikation verbessern'.",
+      "id": "c1_01_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Zusammenarbeit ist entscheidend für den Erfolg.",
+      "options": [
+        "Förderung",
+        "fördern",
+        "gefördert wird",
+        "wird gefördert"
+      ],
+      "correctAnswer": "Förderung",
+      "explanation": "'Die Förderung der Zusammenarbeit' replaces 'die Zusammenarbeit fördern'. -Förderung is a common C1 noun.",
+      "id": "c1_01_q034"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Daten zeigt klare Trends.",
+      "options": [
+        "Auswertung",
+        "auswerten",
+        "ausgewertet wird",
+        "wird ausgewertet"
+      ],
+      "correctAnswer": "Auswertung",
+      "explanation": "'Eine Auswertung der Daten' replaces 'die Daten auswerten'. -Auswertung is standard in formal/academic German.",
+      "id": "c1_01_q035"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Berichts erfolgt monatlich.",
+      "options": [
+        "Erstellung",
+        "erstellen",
+        "erstellt wird",
+        "wird erstellt"
+      ],
+      "correctAnswer": "Erstellung",
+      "explanation": "'Die Erstellung des Berichts' replaces 'der Bericht wird erstellt / den Bericht erstellen'.",
+      "id": "c1_01_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Zur ____ der Qualität sind regelmäßige Kontrollen notwendig.",
+      "options": [
+        "Sicherung",
+        "sichern",
+        "gesichert wird",
+        "wird gesichert"
+      ],
+      "correctAnswer": "Sicherung",
+      "explanation": "'Zur Sicherung der Qualität' (zu + Dat) replaces 'die Qualität sichern'. -Sicherung is a common C1 nominalization.",
+      "id": "c1_01_q037"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Ergebnisse wurde sorgfältig dokumentiert.",
+      "options": [
+        "Präsentation",
+        "präsentieren",
+        "präsentiert wird",
+        "wird präsentiert"
+      ],
+      "correctAnswer": "Präsentation",
+      "explanation": "'Die Präsentation der Ergebnisse' replaces 'die Ergebnisse präsentieren'. -Präsentation is a standard academic noun.",
+      "id": "c1_01_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Eine ____ der Vorschläge ist noch nicht erfolgt.",
+      "options": [
+        "Bewertung",
+        "bewerten",
+        "bewertet wird",
+        "wird bewertet"
+      ],
+      "correctAnswer": "Bewertung",
+      "explanation": "'Eine Bewertung der Vorschläge' replaces 'die Vorschläge bewerten'. 'Erfolgen' (to take place/happen) is used with nouns: 'eine Bewertung ist erfolgt'.",
+      "id": "c1_01_q039"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Systems wurde erfolgreich abgeschlossen.",
+      "options": [
+        "Einrichtung",
+        "einrichten",
+        "eingerichtet wird",
+        "wird eingerichtet"
+      ],
+      "correctAnswer": "Einrichtung",
+      "explanation": "'Die Einrichtung des Systems' replaces 'das System einrichten'. 'Erfolgen' pairs with nouns: 'die Einrichtung wurde abgeschlossen'.",
+      "id": "c1_01_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ des Berichts ist sehr sachlich und nominal geprägt.",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Satzbau",
+        "Konjunktiv"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil refers to a style heavy on nouns and noun phrases, often used in official or technical reports. Verbalstil is more verb-based and dynamic.",
+      "id": "c1_01_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz steht im Verbalstil?",
+      "options": [
+        "Die Durchführung der Maßnahme erfolgt morgen.",
+        "Zur Durchführung der Maßnahme kommt es morgen.",
+        "Die Maßnahme wird morgen durchgeführt.",
+        "Die Maßnahme findet morgen ihre Durchführung."
+      ],
+      "correctAnswer": "Die Maßnahme wird morgen durchgeführt.",
+      "explanation": "Finite verb ('wird durchgeführt') with passive verbal construction — typical Verbalstil. The others use nominalized nouns.",
+      "id": "c1_01_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Anmeldefrist führt zum Ausschluss vom Wettbewerb.",
+      "options": [
+        "verspätete Anmeldung",
+        "sich verspäten",
+        "wenn man sich verspätet",
+        "dass die Anmeldung verspätet ist"
+      ],
+      "correctAnswer": "verspätete Anmeldung",
+      "explanation": "A nominal phrase with adjective attribute ('verspätete Anmeldung') is characteristic of Nominalstil. The others contain verbs or clauses.",
+      "id": "c1_01_q043"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein typisches Beispiel für Nominalstil?",
+      "options": [
+        "Nachdem er angekommen war, begann er sofort mit der Arbeit.",
+        "Nach seiner Ankunft begann er sofort mit der Arbeit.",
+        "Er kam an und begann sofort zu arbeiten.",
+        "Sobald er ankam, begann er die Arbeit."
+      ],
+      "correctAnswer": "Nach seiner Ankunft begann er sofort mit der Arbeit.",
+      "explanation": "'Nach seiner Ankunft' is a nominal prepositional phrase replacing a temporal clause ('Nachdem er angekommen war'). This reduces verbs and increases nouns.",
+      "id": "c1_01_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ wird häufig in Gesetzen, Verträgen und Behördenbriefen verwendet.",
+      "options": [
+        "Der Verbalstil",
+        "Der Nominalstil",
+        "Der Imperativ",
+        "Die indirekte Rede"
+      ],
+      "correctAnswer": "Der Nominalstil",
+      "explanation": "Nominalstil is common in legal and administrative texts because it sounds precise, objective, and timeless.",
+      "id": "c1_01_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie ins Verbale um: 'Bei Nichtbeachtung der Hinweise erfolgt der Ausschluss.'",
+      "options": [
+        "Wenn Sie die Hinweise nicht beachten, werden Sie ausgeschlossen.",
+        "Nichtbeachtung führt zum Ausschluss.",
+        "Bei Missachtung Ausschluss.",
+        "Ohne Beachtung Ausschluss."
+      ],
+      "correctAnswer": "Wenn Sie die Hinweise nicht beachten, werden Sie ausgeschlossen.",
+      "explanation": "Replaces the noun 'Nichtbeachtung' with the verb 'nicht beachten' and 'Ausschluss' with passive 'werden ausgeschlossen' — clear Verbalstil.",
+      "id": "c1_01_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortgruppe ist ein Signal für Nominalstil?",
+      "options": [
+        "weil, dass, obwohl",
+        "unter Berücksichtigung von, in Bezug auf",
+        "laufen, springen, denken",
+        "sehr, ziemlich, extrem"
+      ],
+      "correctAnswer": "unter Berücksichtigung von, in Bezug auf",
+      "explanation": "Prepositional phrases with nominalizations are typical Nominalstil signals. Conjunctions and verbs signal Verbalstil.",
+      "id": "c1_01_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ wirkt oft dichter, abstrakter und informationsverdichteter.",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Konjunktiv",
+        "Präteritum"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil packs information into noun phrases, making sentences denser and more abstract than Verbalstil.",
+      "id": "c1_01_q048"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie den Verbalstil durch Nominalstil: 'Weil er sich gut vorbereitet hat, bestand er die Prüfung.'",
+      "options": [
+        "Durch gute Vorbereitung bestand er die Prüfung.",
+        "Er bestand die Prüfung aufgrund seiner guten Vorbereitung.",
+        "Seine gute Vorbereitung führte zum Bestehen der Prüfung.",
+        "Alle drei Antworten sind nominale Umformungen."
+      ],
+      "correctAnswer": "Alle drei Antworten sind nominale Umformungen.",
+      "explanation": "All three replace the causal clause with noun-based structures: 'Durch gute Vorbereitung', 'aufgrund seiner guten Vorbereitung', 'Seine gute Vorbereitung'. All are valid Nominalstil transformations.",
+      "id": "c1_01_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält einen nominalisierten Infinitiv?",
+      "options": [
+        "Das Laufen fällt ihm leicht.",
+        "Er läuft jeden Tag.",
+        "Er ist am Laufen.",
+        "Beim Laufen denkt er nach."
+      ],
+      "correctAnswer": "Das Laufen fällt ihm leicht.",
+      "explanation": "'Das Laufen' is a nominalized infinitive (neutral article + verb infinitive capitalized) — characteristic Nominalstil.",
+      "id": "c1_01_q050"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vom Verbalstil zum Nominalstil: 'Die Firma stellt die Produktion ein, weil die Kosten gestiegen sind.'",
+      "options": [
+        "Die Firma stellt wegen gestiegener Kosten die Produktion ein.",
+        "Die Firma beendet die Produktion bei steigenden Kosten.",
+        "Die Einstellung der Produktion erfolgt aufgrund des Kostenanstiegs.",
+        "Kostensteigerung bedingt Produktionseinstellung."
+      ],
+      "correctAnswer": "Die Einstellung der Produktion erfolgt aufgrund des Kostenanstiegs.",
+      "explanation": "Fully nominalized: 'Einstellung' instead of 'stellt ein', 'Kostenanstiegs' instead of 'Kosten gestiegen sind', no finite verb in the causal clause.",
+      "id": "c1_01_q051"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage über Nominalstil ist falsch?",
+      "options": [
+        "Er verwendet viele Hauptwörter.",
+        "Er ist typisch für persönliche Briefe.",
+        "Er reduziert Nebensätze.",
+        "Er kommt oft in wissenschaftlichen Texten vor."
+      ],
+      "correctAnswer": "Er ist typisch für persönliche Briefe.",
+      "explanation": "Personal letters use Verbalstil (more verb-based, personal, dynamic). Nominalstil is typical of academic, official, and technical texts.",
+      "id": "c1_01_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie nominal: 'Bevor man eine Entscheidung trifft, sollte man alle Fakten prüfen.'",
+      "options": [
+        "Vor einer Entscheidungsfindung ist eine Faktenprüfung ratsam.",
+        "Man sollte vor Entscheidungen alle Fakten prüfen.",
+        "Prüfe Fakten vor Entscheidungen.",
+        "Vor dem Entscheiden sollte geprüft werden."
+      ],
+      "correctAnswer": "Vor einer Entscheidungsfindung ist eine Faktenprüfung ratsam.",
+      "explanation": "'Bevor man eine Entscheidung trifft' -> 'Vor einer Entscheidungsfindung'; 'alle Fakten prüfen' -> 'eine Faktenprüfung'. Full nominalization.",
+      "id": "c1_01_q053"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz steht im reinen Nominalstil?",
+      "options": [
+        "Der Antrag auf Verlängerung der Frist wurde abgelehnt.",
+        "Man lehnte den Antrag ab, die Frist zu verlängern.",
+        "Die Fristverlängerung wurde nicht genehmigt.",
+        "Sie haben den Verlängerungsantrag abgelehnt."
+      ],
+      "correctAnswer": "Die Fristverlängerung wurde nicht genehmigt.",
+      "explanation": "'Fristverlängerung' is a compound noun; no verb except passive 'wurde genehmigt' — highly nominalized.",
+      "id": "c1_01_q054"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ ist lebendiger, handlungsorientierter und persönlicher.",
+      "options": [
+        "Nominalstil",
+        "Verbalstil",
+        "Nominalisierung",
+        "Nominalphrase"
+      ],
+      "correctAnswer": "Verbalstil",
+      "explanation": "Verbalstil uses active verbs and personal forms, making texts more dynamic, vivid, and personal compared to Nominalstil.",
+      "id": "c1_01_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung ist falsch? Original: 'Weil das Wetter schlecht war, fiel das Spiel aus.'",
+      "options": [
+        "Wegen des schlechten Wetters fiel das Spiel aus.",
+        "Das Spiel fiel aufgrund der schlechten Wetterlage aus.",
+        "Das Ausfallen des Spiels geschah wegen dem schlechten Wetter.",
+        "Schlechtes Wetter verursachte Spielausfall."
+      ],
+      "correctAnswer": "Das Ausfallen des Spiels geschah wegen dem schlechten Wetter.",
+      "explanation": "'Wegen dem' is wrong — standard is 'wegen des' (Genitiv). Also 'geschah' with 'Ausfallen' is unnatural. This is the incorrect transformation.",
+      "id": "c1_01_q056"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Erkennen Sie den Stil: 'Nach Erhalt Ihrer Zahlung senden wir Ihnen die Ware zu.'",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Gemischter Stil",
+        "Imperativstil"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "'Nach Erhalt Ihrer Zahlung' is a nominal phrase (Erhalt + Genitive) instead of a temporal clause like 'Nachdem wir Ihre Zahlung erhalten haben'.",
+      "id": "c1_01_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vom Nominal- zum Verbalstil: 'Die sofortige Räumung des Gebäudes wurde angeordnet.'",
+      "options": [
+        "Man ordnete an, dass das Gebäude sofort geräumt werden soll.",
+        "Das Gebäude wurde sofort geräumt.",
+        "Die Anordnung der sofortigen Räumung erfolgte.",
+        "Es gab eine Räumungsanordnung."
+      ],
+      "correctAnswer": "Man ordnete an, dass das Gebäude sofort geräumt werden soll.",
+      "explanation": "Replaces 'Räumung' with 'geräumt werden' and 'Anordnung' with 'ordnete an' — clear Verbalstil with subordinate clause.",
+      "id": "c1_01_q058"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Signalwort leitet oft einen Nominalstil ein?",
+      "options": [
+        "dass",
         "weil",
-        "damit"
+        "aufgrund",
+        "bevor"
       ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "aufgrund",
+      "explanation": "'Aufgrund' is a preposition requiring a noun phrase (Genitiv), typical for Nominalstil. 'Dass', 'weil', 'bevor' introduce clauses with verbs.",
+      "id": "c1_01_q059"
     },
     {
-      "id": "c1_01_q025",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Warum wird Nominalstil in wissenschaftlichen Arbeiten geschätzt?",
+      "options": [
+        "Er ist emotionaler.",
+        "Er ist subjektiver.",
+        "Er wirkt objektiver und abstrakter.",
+        "Er ist kürzer und einfacher."
+      ],
+      "correctAnswer": "Er wirkt objektiver und abstrakter.",
+      "explanation": "Nominalstil removes personal and temporal references, creating an objective, timeless tone — ideal for academic writing.",
+      "id": "c1_01_q060"
     },
     {
-      "id": "c1_01_q026",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie den Verbalstil in Nominalstil um: „Man muss das Problem sofort lösen.\"",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "Das Problem muss sofort gelöst werden.",
+        "Die sofortige Lösung des Problems ist notwendig.",
+        "Es ist notwendig, das Problem zu lösen.",
+        "Das Problem soll gelöst sein."
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
+      "correctAnswer": "Die sofortige Lösung des Problems ist notwendig.",
+      "explanation": "Nominalstil: verb 'lösen' -> noun 'Lösung', adverb 'sofort' -> adjective 'sofortig'. The sentence is restructured around the noun phrase.",
+      "id": "c1_01_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein typisches Beispiel für Nominalstil?",
+      "options": [
+        "Er hat den Antrag schnell eingereicht.",
+        "Die schnelle Einreichung des Antrags erfolgte durch ihn.",
+        "Er reichte den Antrag schnell ein.",
+        "Er wollte den Antrag einreichen."
+      ],
+      "correctAnswer": "Die schnelle Einreichung des Antrags erfolgte durch ihn.",
+      "explanation": "Nominal style: abstract nouns (Einreichung) derived from verbs, combined with genitive attributes. The other sentences use verbs as the core action.",
+      "id": "c1_01_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie in Verbalstil um: „Die Durchführung des Experiments ist geplant.\"",
+      "options": [
+        "Das Experiment ist durchgeführt worden.",
+        "Das Experiment soll durchgeführt werden.",
+        "Die Planung des Experiments findet statt.",
+        "Man plant, das Experiment durchzuführen."
+      ],
+      "correctAnswer": "Man plant, das Experiment durchzuführen.",
+      "explanation": "'Durchführung' (noun) -> 'durchführen' (verb), 'ist geplant' -> 'plant'. Verbal style prefers active constructions with conjugated verbs.",
+      "id": "c1_01_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "„Die Regierung hat ____ der neuen Regelungen beschlossen.\" – Welches Nomen passt im Nominalstil?",
+      "options": [
+        "die Einführung",
+        "eingeführt",
+        "einzuführen",
+        "die Einführlichkeit"
+      ],
+      "correctAnswer": "die Einführung",
+      "explanation": "'Einführung' is the nominalization of 'einführen'. It fits grammatically as an accusative object. 'Einführlichkeit' does not exist.",
+      "id": "c1_01_q064"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung in Nominalstil ist korrekt? „Die Behörde überprüft regelmäßig die Sicherheitsvorkehrungen.\"",
+      "options": [
+        "Die regelmäßige Überprüfung der Sicherheitsvorkehrungen durch die Behörde findet statt.",
+        "Die Behörde überprüft die Sicherheitsvorkehrungen in Regelmäßigkeit.",
+        "Die Überprüfung erfolgt durch die Behörde regelmäßig.",
+        "Die Sicherheitsvorkehrungen werden regelmäßig geprüft."
+      ],
+      "correctAnswer": "Die regelmäßige Überprüfung der Sicherheitsvorkehrungen durch die Behörde findet statt.",
+      "explanation": "Verb 'überprüft' -> noun 'Überprüfung', subject -> 'durch'+agent phrase, adverb 'regelmäßig' -> adjective 'regelmäßige'.",
+      "id": "c1_01_q065"
     },
     {
-      "id": "c1_01_q027",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q028",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q029",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Was ist ein typisches Merkmal des Nominalstils in formellen Texten?",
+      "options": [
+        "Viele Modalverben und kurze Sätze",
+        "Häufige Verwendung des Konjunktivs II",
+        "Abstrakte Substantive mit Genitivattributen statt Verben",
+        "Direkte Anrede der Leser in der Du-Form"
+      ],
+      "correctAnswer": "Abstrakte Substantive mit Genitivattributen statt Verben",
+      "explanation": "Nominal style uses abstract nouns (often from verbs) with genitive attributes. Typical in academic, legal, and official German texts.",
+      "id": "c1_01_q066"
     },
     {
-      "id": "c1_01_q030",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_01_q031",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q032",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um: „Die Bürger protestierten lautstark gegen die Kürzungen.\" → Nominalstil",
+      "options": [
+        "Der laute Protest der Bürger gegen die Kürzungen fand statt.",
+        "Die Bürger haben einen Protest gemacht.",
+        "Gegen die Kürzungen haben die Bürger lautstark protestiert.",
+        "Der Protest war laut von den Bürgern."
+      ],
+      "correctAnswer": "Der laute Protest der Bürger gegen die Kürzungen fand statt.",
+      "explanation": "'Protestierten' -> 'Protest' (noun), 'lautstark' -> 'laut' (adjective), subject -> genitive 'der Bürger'. Typical nominalization pattern.",
+      "id": "c1_01_q067"
     },
     {
-      "id": "c1_01_q033",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q034",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q035",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz gehört zum Verbalstil?",
+      "options": [
+        "Die Verabschiedung des Gesetzes erfolgte nach langer Diskussion.",
+        "Nach langer Diskussion wurde das Gesetz verabschiedet.",
+        "Die lange Diskussion führte zur Gesetzesverabschiedung.",
+        "Der Abschluss der Diskussion über das Gesetz war abzusehen."
+      ],
+      "correctAnswer": "Nach langer Diskussion wurde das Gesetz verabschiedet.",
+      "explanation": "Verbal style uses conjugated verbs ('wurde verabschiedet') as the core. The others use nominalizations.",
+      "id": "c1_01_q068"
     },
     {
-      "id": "c1_01_q036",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q037",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q038",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "„____ des Antrags auf Fördermittel ist bis Ende März möglich.\" – Ergänzen Sie das passende Nomen.",
+      "options": [
+        "Zu beantragen",
+        "Die Beantragung",
+        "Beantragt",
+        "Das Beantragtsein"
+      ],
+      "correctAnswer": "Die Beantragung",
+      "explanation": "'Beantragung' is the nominalization of 'beantragen'. It functions as the subject. 'Das Beantragtsein' is not standard German.",
+      "id": "c1_01_q069"
     },
     {
-      "id": "c1_01_q039",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q040",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q041",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage über Nominalstil ist FALSCH?",
+      "options": [
+        "Er ist typisch für Wissenschaft, Recht und Verwaltung.",
+        "Er enthält häufig Ableitungen auf -ung, -heit, -keit, -tion.",
+        "Er macht Texte lebendiger und persönlicher.",
+        "Er kann zu schwer verständlichen Sätzen führen."
+      ],
+      "correctAnswer": "Er macht Texte lebendiger und persönlicher.",
+      "explanation": "Nominal style tends to make texts more formal and impersonal — the opposite of lively and personal.",
+      "id": "c1_01_q070"
     },
     {
-      "id": "c1_01_q042",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q043",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q044",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Formen Sie in Verbalstil um: „Eine Verbesserung der Qualität ist durch den Einsatz neuer Technologien möglich.\"",
+      "options": [
+        "Die Qualität ist verbessert durch Technologien.",
+        "Die Qualität kann durch den Einsatz neuer Technologien verbessert werden.",
+        "Neue Technologien verbessern die Qualitätsverbesserung.",
+        "Der Einsatz von Technologien verbessert Qualitäten."
+      ],
+      "correctAnswer": "Die Qualität kann durch den Einsatz neuer Technologien verbessert werden.",
+      "explanation": "'Verbesserung' -> 'verbessert werden', 'ist möglich' -> 'kann ... werden'. The verbal form expresses the same idea with a conjugated verb.",
+      "id": "c1_01_q071"
     },
     {
-      "id": "c1_01_q045",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Nominalstil-Konstruktion ist in diesem Satz enthalten? „Im Zuge der Digitalisierung des Bildungswesens kommt es zu einer Neuausrichtung pädagogischer Konzepte.\"",
+      "options": [
+        "Nur ein Genitivattribut",
+        "Eine Präpositionalphrase als Adverbial und zwei Nominalphrasen mit Genitivattribut",
+        "Ein Infinitiv als Subjekt",
+        "Eine Passivkonstruktion mit Modalverb"
+      ],
+      "correctAnswer": "Eine Präpositionalphrase als Adverbial und zwei Nominalphrasen mit Genitivattribut",
+      "explanation": "'Im Zuge der Digitalisierung' = prepositional adverbial; 'der Digitalisierung des Bildungswesens' and 'einer Neuausrichtung pädagogischer Konzepte' = nominal phrases with genitive attributes. Classic nominal style stacking.",
+      "id": "c1_01_q072"
     },
     {
-      "id": "c1_01_q046",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie vollständig in Nominalstil um: „Nachdem die Kommission den Bericht analysiert hatte, stellte sie fest, dass Maßnahmen ergriffen werden müssen.\"",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die Kommission analysierte den Bericht und stellte Maßnahmen fest.",
+        "Nach der Analyse des Berichts durch die Kommission ergab sich die Notwendigkeit der Ergreifung von Maßnahmen.",
+        "Die Kommission hatte den Bericht analysiert und Maßnahmen ergriffen.",
+        "Nach der Analyse wurden Maßnahmen von der Kommission ergriffen."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Nach der Analyse des Berichts durch die Kommission ergab sich die Notwendigkeit der Ergreifung von Maßnahmen.",
+      "explanation": "Every verb converted to a noun: 'analysiert hatte' -> 'Analyse', 'stellte fest' -> 'ergab sich', 'müssen ergriffen werden' -> 'Notwendigkeit der Ergreifung'. Hallmark of dense nominal style.",
+      "id": "c1_01_q073"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem Texttyp ist Verbalstil in der Regel NICHT angemessen?",
+      "options": [
+        "Persönlicher Brief an einen Freund",
+        "Mündliche Präsentation für ein breites Publikum",
+        "Gesetzestext oder behördliche Verordnung",
+        "Reisebericht in einem Magazin"
+      ],
+      "correctAnswer": "Gesetzestext oder behördliche Verordnung",
+      "explanation": "Legal texts and official regulations conventionally use Nominalstil for precision and formality.",
+      "id": "c1_01_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung von Verbalstil zu Nominalstil ist FEHLERHAFT?",
+      "options": [
+        "„Er scheiterte\" → „Sein Scheitern\"",
+        "„Sie entschied sich\" → „Ihre Entscheidung\"",
+        "„Es wurde diskutiert\" → „Die Diskutierung\"",
+        "„Man verhandelte\" → „Die Verhandlung\""
+      ],
+      "correctAnswer": "„Es wurde diskutiert\" → „Die Diskutierung\"",
+      "explanation": "'Diskutierung' is not a valid German noun. The correct nominalization of 'diskutieren' is 'die Diskussion'. Not all verbs form nouns with '-ung'.",
+      "id": "c1_01_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "„Die ____ des Vertrags ____ nach mehrwöchigen Verhandlungen.\" – Welche Kombination ergibt korrekten Nominalstil?",
+      "options": [
+        "Unterzeichnung / erfolgte",
+        "Unterzeichnen / war",
+        "Unterzeichnungsweise / fand statt",
+        "Unterzeichnung / unterzeichnete"
+      ],
+      "correctAnswer": "Unterzeichnung / erfolgte",
+      "explanation": "'Die Unterzeichnung des Vertrags erfolgte' — 'Unterzeichnung' is correct, and 'erfolgte' is a typical Funktionsverb in nominal style.",
+      "id": "c1_01_q076"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein „Funktionsverbgefüge\" im Nominalstil?",
+      "options": [
+        "Eine Verbform, die nur im Passiv vorkommt",
+        "Eine Verbindung aus einem bedeutungsschwachen Verb und einem Nomen (z.B. „in Frage stellen\")",
+        "Ein Verb, das nur mit Modalverben kombiniert wird",
+        "Ein Nomen, das immer mit dem Genitiv steht"
+      ],
+      "correctAnswer": "Eine Verbindung aus einem bedeutungsschwachen Verb und einem Nomen (z.B. „in Frage stellen\")",
+      "explanation": "Funktionsverbgefüge combines a semantically weak verb with a noun to express an action — key feature of German nominal style.",
+      "id": "c1_01_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie in Verbalstil um: „Eine Einigung zwischen den Parteien kam trotz intensiver Verhandlungen nicht zustande.\"",
+      "options": [
+        "Die Parteien einigten sich trotz intensiver Verhandlungen nicht.",
+        "Die Einigung der Parteien war nicht möglich trotz Verhandlungen.",
+        "Die Parteien haben keine intensive Verhandlung geführt.",
+        "Es kam zwischen den Parteien zu keiner Einigung."
+      ],
+      "correctAnswer": "Die Parteien einigten sich trotz intensiver Verhandlungen nicht.",
+      "explanation": "'Einigung' -> 'einigten sich', 'kam nicht zustande' -> 'nicht'. The reflexive verb 'sich einigen' replaces the nominal construction.",
+      "id": "c1_01_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält KEIN Funktionsverbgefüge?",
+      "options": [
+        "Das Projekt kommt zur Durchführung.",
+        "Die Idee findet Anwendung in der Praxis.",
+        "Der Forscher stellte eine neue Theorie auf.",
+        "Der Antrag gelangt zur Bearbeitung."
+      ],
+      "correctAnswer": "Der Forscher stellte eine neue Theorie auf.",
+      "explanation": "'Eine Theorie aufstellen' is a separable verb (Trennbares Verb), not a Funktionsverbgefüge. The others are all support verb constructions.",
+      "id": "c1_01_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage beschreibt am besten den Unterschied zwischen Nominal- und Verbalstil im Deutschen?",
+      "options": [
+        "Nominalstil ist immer falsch, Verbalstil ist immer richtig.",
+        "Verbalstil ist präziser und eignet sich besser für Fachtexte als Nominalstil.",
+        "Nominalstil verdichtet Informationen durch Substantivierungen, während Verbalstil Handlungen durch konjugierte Verben ausdrückt.",
+        "Nominalstil und Verbalstil sind bedeutungsgleich und austauschbar in allen Kontexten."
+      ],
+      "correctAnswer": "Nominalstil verdichtet Informationen durch Substantivierungen, während Verbalstil Handlungen durch konjugierte Verben ausdrückt.",
+      "explanation": "Core distinction: nominal style compresses information into noun phrases; verbal style expresses actions dynamically through conjugated verbs. Neither is universally better — context determines appropriateness.",
+      "id": "c1_01_q080"
+    },
+    {
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Was kennzeichnet den Nominalstil im Deutschen?",
+      "options": [
+        "Er verwendet überwiegend Verben und persönliche Pronomen.",
+        "Er bevorzugt Substantive, Nominalphrasen und passive Konstruktionen.",
+        "Er ist typisch für Alltagsgespräche und erzählende Texte.",
+        "Er vermeidet abstrakte Begriffe und Fachterminologie."
+      ],
+      "correctAnswer": "Er bevorzugt Substantive, Nominalphrasen und passive Konstruktionen.",
+      "explanation": "Nominalstil is characterized by a preference for nouns over verbs, complex noun phrases, passive voice, and abstract terminology, making it typical for formal, administrative, and academic texts.",
+      "id": "c1_01_q081"
     },
     {
-      "id": "c1_01_q047",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Stil wird häufig in der deutschen Verwaltungs- und Amtssprache verwendet?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Verbalstil",
+        "Umgangssprachlicher Stil",
+        "Nominalstil",
+        "Erzählender Stil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil is frequently found in German administrative and official language because it conveys precision, formality, and objectivity, as seen in phrases like 'Aufgrund der Nichteinreichung der Unterlagen erfolgt die Ablehnung des Antrags'.",
+      "id": "c1_01_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Hauptvorteil des Verbalstils?",
+      "options": [
+        "Er wirkt besonders formell und distanziert.",
+        "Er ermöglicht eine höhere Informationsdichte pro Satz.",
+        "Er verbessert die Verständlichkeit und den Lesefluss.",
+        "Er vermeidet persönliche Ansprache vollständig."
+      ],
+      "correctAnswer": "Er verbessert die Verständlichkeit und den Lesefluss.",
+      "explanation": "Verbalstil uses verbs to describe actions directly, making sentences more dynamic, easier to understand, and more pleasant to read, which is ideal for everyday communication and narrative texts.",
+      "id": "c1_01_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Transformation ist typisch für die Umwandlung von Verbalstil in Nominalstil?",
+      "options": [
+        "Verben werden durch Adjektive ersetzt.",
+        "Verben werden in Substantive umgewandelt (z. B. 'analysieren' → 'die Analyse').",
+        "Substantive werden in Verben umgewandelt.",
+        "Präpositionen werden durch Konjunktionen ersetzt."
+      ],
+      "correctAnswer": "Verben werden in Substantive umgewandelt (z. B. 'analysieren' → 'die Analyse').",
+      "explanation": "A core transformation rule for creating Nominalstil is nominalizing verbs—turning action words into nouns (e.g., 'analysieren' becomes 'die Analyse'), which increases formality and density.",
+      "id": "c1_01_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Stil vermeidet persönliche Pronomen wie 'wir', 'ich' oder 'man'?",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Umgangssprachlicher Stil",
+        "Poetischer Stil"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil avoids personal pronouns to create distance and formality, preferring impersonal constructions like 'es erfolgt...' or 'die Durchführung...'.",
+      "id": "c1_01_q085"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein typisches Merkmal des Verbalstils?",
+      "options": [
+        "Häufige Verwendung von Partizipialattributen",
+        "Komplexe Präpositionalgefüge",
+        "Aktive Verbformen und persönliche Ansprache",
+        "Abstrakte Nominalphrasen ohne klare Handlungsträger"
+      ],
+      "correctAnswer": "Aktive Verbformen und persönliche Ansprache",
+      "explanation": "Verbalstil is characterized by active verb forms and personal pronouns, making the text more direct, dynamic, and reader-friendly.",
+      "id": "c1_01_q086"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Nominalstil-Variante von: 'Wir haben die Daten ausgewertet.'?",
+      "options": [
+        "Die Daten wurden von uns ausgewertet.",
+        "Die Auswertung der Daten wurde durchgeführt.",
+        "Wir führten eine Datenauswertung durch.",
+        "Es erfolgte eine Auswertung durch uns der Daten."
+      ],
+      "correctAnswer": "Die Auswertung der Daten wurde durchgeführt.",
+      "explanation": "In Nominalstil, the verb 'auswerten' is nominalized to 'die Auswertung', personal pronouns are removed, and passive voice is often used to create a formal, impersonal tone.",
+      "id": "c1_01_q087"
     },
     {
-      "id": "c1_01_q048",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
+      "questionText": "Was kennzeichnet den Nominalstil im Deutschen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Er verwendet überwiegend Verben und persönliche Pronomen.",
+        "Er bevorzugt Substantive, Nominalphrasen und passive Konstruktionen.",
+        "Er ist typisch für Alltagsgespräche und erzählende Texte.",
+        "Er vermeidet abstrakte Begriffe und Fachterminologie."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q049",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Er bevorzugt Substantive, Nominalphrasen und passive Konstruktionen.",
+      "explanation": "Nominalstil is characterized by a preference for nouns over verbs, complex noun phrases, passive voice, and abstract terminology, making it typical for formal, administrative, and academic texts.",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "c1_01_q088"
     },
     {
-      "id": "c1_01_q050",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
+      "questionText": "Welcher Stil wird häufig in der deutschen Verwaltungs- und Amtssprache verwendet?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Verbalstil",
+        "Umgangssprachlicher Stil",
+        "Nominalstil",
+        "Erzählender Stil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil is frequently found in German administrative and official language because it conveys precision, formality, and objectivity, as seen in phrases like 'Aufgrund der Nichteinreichung der Unterlagen erfolgt die Ablehnung des Antrags'.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_01_q089"
+    },
+    {
+      "questionText": "Was ist ein Hauptvorteil des Verbalstils?",
+      "options": [
+        "Er wirkt besonders formell und distanziert.",
+        "Er ermöglicht eine höhere Informationsdichte pro Satz.",
+        "Er verbessert die Verständlichkeit und den Lesefluss.",
+        "Er vermeidet persönliche Ansprache vollständig."
+      ],
+      "correctAnswer": "Er verbessert die Verständlichkeit und den Lesefluss.",
+      "explanation": "Verbalstil uses verbs to describe actions directly, making sentences more dynamic, easier to understand, and more pleasant to read, which is ideal for everyday communication and narrative texts.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_01_q090"
+    },
+    {
+      "questionText": "Welche Transformation ist typisch für die Umwandlung von Verbalstil in Nominalstil?",
+      "options": [
+        "Verben werden durch Adjektive ersetzt.",
+        "Verben werden in Substantive umgewandelt (z. B. 'analysieren' → 'die Analyse').",
+        "Substantive werden in Verben umgewandelt.",
+        "Präpositionen werden durch Konjunktionen ersetzt."
+      ],
+      "correctAnswer": "Verben werden in Substantive umgewandelt (z. B. 'analysieren' → 'die Analyse').",
+      "explanation": "A core transformation rule for creating Nominalstil is nominalizing verbs—turning action words into nouns (e.g., 'analysieren' becomes 'die Analyse'), which increases formality and density.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_01_q091"
+    },
+    {
+      "questionText": "Welcher Stil vermeidet persönliche Pronomen wie 'wir', 'ich' oder 'man'?",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Umgangssprachlicher Stil",
+        "Poetischer Stil"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil avoids personal pronouns to create distance and formality, preferring impersonal constructions like 'es erfolgt...' or 'die Durchführung...'.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_01_q092"
+    },
+    {
+      "questionText": "Was ist ein typisches Merkmal des Verbalstils?",
+      "options": [
+        "Häufige Verwendung von Partizipialattributen",
+        "Komplexe Präpositionalgefüge",
+        "Aktive Verbformen und persönliche Ansprache",
+        "Abstrakte Nominalphrasen ohne klare Handlungsträger"
+      ],
+      "correctAnswer": "Aktive Verbformen und persönliche Ansprache",
+      "explanation": "Verbalstil is characterized by active verb forms and personal pronouns, making othe text more direct, dynamic, and reader-friendly.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_01_q093"
+    },
+    {
+      "questionText": "Wie lautet die Nominalstil-Variante von: 'Wir haben die Daten ausgewertet.'?",
+      "options": [
+        "Die Daten wurden von uns ausgewertet.",
+        "Die Auswertung der Daten wurde durchgeführt.",
+        "Wir führten eine Datenauswertung durch.",
+        "Es erfolgte eine Auswertung durch uns der Daten."
+      ],
+      "correctAnswer": "Die Auswertung der Daten wurde durchgeführt.",
+      "explanation": "In Nominalstil, the verb 'auswerten' is nominalized to 'die Auswertung', personal pronouns are removed, and passive voice is often used to create a formal, impersonal tone.",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "c1_01_q094"
     },
     {
-      "id": "c1_01_q051",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
+      "questionText": "Welche Präposition wird häufig im Nominalstil verwendet, um einen kausalen Nebensatz mit 'weil' zu ersetzen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "durch",
+        "wegen",
+        "für",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q052",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q053",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "wegen",
+      "explanation": "In Nominalstil, causal clauses introduced by 'weil' are often replaced by prepositional phrases with 'wegen' + genitive noun (e.g., 'weil die Unterlagen fehlen' → 'wegen des Fehlens der Unterlagen').",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "c1_01_q095"
     },
     {
-      "id": "c1_01_q054",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
+      "questionText": "Welcher Satz steht im Verbalstil?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die Durchführung der Maßnahme erfolgte umgehend.",
+        "Aufgrund der Nichteinhaltung der Vorschriften wurde sanktioniert.",
+        "Das Team führte die Maßnahme umgehend durch.",
+        "Die Einhaltung der Vorschriften ist von großer Bedeutung."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q055",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q056",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Das Team führte die Maßnahme umgehend durch.",
+      "explanation": "This sentence uses an active verb ('führte ... durch'), a clear subject ('das Team'), and no complex nominalizations—hallmarks of Verbalstil.",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "c1_01_q096"
     },
     {
-      "id": "c1_01_q057",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
+      "questionText": "Wie transformiert man den konditionalen Nebensatz 'Wenn Sie den Antrag einreichen, ...' in den Nominalstil?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Durch die Einreichung des Antrags, ...",
+        "Bei Einreichung des Antrags, ...",
+        "Wegen der Einreichung des Antrags, ...",
+        "Trotz Einreichung des Antrags, ..."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q058",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q059",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Bei Einreichung des Antrags, ...",
+      "explanation": "Conditional clauses with 'wenn' are often transformed in Nominalstil using the preposition 'bei' + nominalized verb (e.g., 'bei Einreichung' instead of 'wenn Sie einreichen').",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "c1_01_q097"
     },
     {
-      "id": "c1_01_q060",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
+      "questionText": "Welche Aussage über den Nominalstil ist NICHT korrekt?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Er erhöht die Informationsdichte eines Textes.",
+        "Er ist besonders geeignet für wissenschaftliche Texte.",
+        "Er verbessert grundsätzlich die Lesbarkeit für alle Zielgruppen.",
+        "Er kann Texte sperrig und schwer verständlich machen."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_01_q061",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q062",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
+      "correctAnswer": "Er verbessert grundsätzlich die Lesbarkeit für alle Zielgruppen.",
+      "explanation": "This statement is incorrect: while Nominalstil is precise and formal, it often reduces readability for general audiences due to complex noun phrases and abstract structures.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q098"
     },
     {
-      "id": "c1_01_q063",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat ___",
+      "questionText": "Wie lautet die Verbalstil-Variante von: 'Die Überführung des Gefangenen erfolgte durch die Bundespolizei.'?",
       "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
+        "Die Bundespolizei hat die Überführung des Gefangenen durchgeführt.",
+        "Der Gefangene wurde von der Bundespolizei überführt.",
+        "Es erfolgte eine Überführung durch die Bundespolizei des Gefangenen.",
+        "Die Bundespolizei führte den Gefangenen über."
       ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q064",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q065",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
+      "correctAnswer": "Der Gefangene wurde von der Bundespolizei überführt.",
+      "explanation": "In Verbalstil, the nominalized noun 'Überführung' is converted back to the verb 'überführen', and the sentence structure becomes more direct and action-oriented, often using active or simple passive voice.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q099"
     },
     {
-      "id": "c1_01_q066",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "questionText": "Welche Konstruktion ist im Nominalstil typisch für die Umformung eines konzessiven Nebensatzes mit 'obwohl'?",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "trotz + Genitiv",
+        "wegen + Genitiv",
+        "durch + Akkusativ",
+        "für + Akkusativ"
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q067",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q068",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
+      "correctAnswer": "trotz + Genitiv",
+      "explanation": "Concessive clauses with 'obwohl' are commonly transformed in Nominalstil using 'trotz' + genitive noun phrase (e.g., 'obwohl es regnete' → 'trotz des Regens').",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q100"
     },
     {
-      "id": "c1_01_q069",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
+      "questionText": "Welcher Satz kombiniert Nominalstil und Verbalstil am ausgewogensten für einen formellen Bericht?",
       "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
+        "Wir haben die Analyse durchgeführt, und die Ergebnisse sind wichtig.",
+        "Die Durchführung der Analyse erfolgte, und wir präsentieren die Ergebnisse.",
+        "Die Analyse wurde durchgeführt; die Ergebnisse zeigen, dass eine Optimierung notwendig ist.",
+        "Es erfolgte eine Analyse, deren Ergebnisse eine Optimierung notwendig machen."
       ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q070",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q071",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
+      "correctAnswer": "Die Analyse wurde durchgeführt; die Ergebnisse zeigen, dass eine Optimierung notwendig ist.",
+      "explanation": "This sentence balances formality (passive nominal construction 'wurde durchgeführt') with clarity (active verbal clause 'die Ergebnisse zeigen'), making it suitable for formal reports where both precision and readability matter.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q101"
     },
     {
-      "id": "c1_01_q072",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er tat so, ___ er von nichts ___",
+      "questionText": "Welche Nominalisierung ist grammatikalisch und stilistisch am angemessensten für C1-Niveau?",
       "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
+        "Das schnelle Laufen des Hundes war beeindruckend.",
+        "Die Schnelligkeit des Laufens vom Hund war beeindruckend.",
+        "Das beeindruckende Laufen schnell vom Hund.",
+        "Der Hund lief schnell und das war beeindruckend."
       ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
+      "correctAnswer": "Das schnelle Laufen des Hundes war beeindruckend.",
+      "explanation": "This option correctly nominalizes the verb 'laufen' while maintaining proper adjective-noun agreement ('schnelle Laufen') and genitive case ('des Hundes'), demonstrating C1-level control of nominal style.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q102"
     },
     {
-      "id": "c1_01_q073",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
+      "questionText": "Wie transformiert man den Finalsatz 'Damit die Qualität gesichert wird, ...' in den Nominalstil?",
       "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
+        "Zur Sicherung der Qualität, ...",
+        "Wegen der Sicherung der Qualität, ...",
+        "Durch die Qualität, die gesichert wird, ...",
+        "Für das Sichern der Qualität, ..."
       ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
+      "correctAnswer": "Zur Sicherung der Qualität, ...",
+      "explanation": "Final clauses with 'damit' are typically transformed in Nominalstil using 'zur' + nominalized verb + genitive object ('zur Sicherung der Qualität'), a sophisticated C1-level construction.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q103"
+    },
+    {
+      "questionText": "Welcher Satz enthält eine fehlerhafte Nominalisierung?",
+      "options": [
+        "Die Durchführung des Projekts erfolgte planmäßig.",
+        "Das Durchführen des Projekts erfolgte planmäßig.",
+        "Die Projektdurchführung erfolgte planmäßig.",
+        "Die Durchführung vom Projekt erfolgte planmäßig."
+      ],
+      "correctAnswer": "Die Durchführung vom Projekt erfolgte planmäßig.",
+      "explanation": "The phrase 'vom Projekt' uses the wrong case: after 'Durchführung', the genitive 'des Projekts' is required in formal Nominalstil. 'Vom' (von + dem) is dative and stylistically inappropriate here.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q104"
+    },
+    {
+      "questionText": "Welche Aussage beschreibt den stilistischen Effekt von Partizipialattributen im Nominalstil korrekt?",
+      "options": [
+        "Sie machen Sätze kürzer und umgangssprachlicher.",
+        "Sie erhöhen die Informationsdichte, können aber die Lesbarkeit erschweren.",
+        "Sie ersetzen ausschließlich Präpositionalgefüge.",
+        "Sie sind im Verbalstil häufiger als im Nominalstil."
+      ],
+      "correctAnswer": "Sie erhöhen die Informationsdichte, können aber die Lesbarkeit erschweren.",
+      "explanation": "Participial attributes (e.g., 'die von Experten entwickelte Methode') pack complex information into noun phrases, increasing density—a hallmark of Nominalstil—but may reduce readability if overused.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q105"
+    },
+    {
+      "questionText": "Wie lautet die stilistisch angemessene Nominalstil-Variante von: 'Man muss die Vorschriften beachten, sonst drohen Sanktionen.'?",
+      "options": [
+        "Die Beachtung der Vorschriften ist erforderlich, andernfalls drohen Sanktionen.",
+        "Man beachte die Vorschriften, weil sonst Sanktionen drohen.",
+        "Vorschriften beachten, sonst Sanktionen.",
+        "Es ist wichtig, dass man Vorschriften beachtet, weil Sanktionen drohen."
+      ],
+      "correctAnswer": "Die Beachtung der Vorschriften ist erforderlich, andernfalls drohen Sanktionen.",
+      "explanation": "This option correctly nominalizes 'beachten' → 'die Beachtung', removes the indefinite pronoun 'man', and maintains formal tone with 'ist erforderlich'—all key features of C1-level Nominalstil.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q106"
+    },
+    {
+      "questionText": "Welche Strategie ist am effektivsten, um einen Text für ein breites Publikum verständlicher zu gestalten?",
+      "options": [
+        "Konsequente Anwendung des Nominalstils für maximale Präzision.",
+        "Ausschließliche Verwendung des Verbalstils mit aktiven Verben und klaren Subjekten.",
+        "Gezielte Mischung: Nominalstil für Fachbegriffe, Verbalstil für Erklärungen und Übergänge.",
+        "Vermeidung aller Nominalisierungen und Passivkonstruktionen."
+      ],
+      "correctAnswer": "Gezielte Mischung: Nominalstil für Fachbegriffe, Verbalstil für Erklärungen und Übergänge.",
+      "explanation": "At C1 level, stylistic competence includes knowing when to use each style: Nominalstil for precision in technical terms, Verbalstil for clarity and flow in explanations—this strategic mixing demonstrates advanced language control.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q107"
+    },
+    {
+      "questionText": "Der ____ des Berichts ist sehr sachlich und nominal geprägt.",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Satzbau",
+        "Konjunktiv"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil refers to a style heavy on nouns and noun phrases, often used in official or technical reports. Verbalstil is more verb-based and dynamic.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q108"
     },
     {
-      "id": "c1_01_q074",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
+      "questionText": "Welcher Satz steht im Verbalstil?",
       "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
+        "Die Durchführung der Maßnahme erfolgt morgen.",
+        "Zur Durchführung der Maßnahme kommt es morgen.",
+        "Die Maßnahme wird morgen durchgeführt.",
+        "Die Maßnahme findet morgen ihre Durchführung."
       ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
+      "correctAnswer": "Die Maßnahme wird morgen durchgeführt.",
+      "explanation": "The sentence uses a finite verb ('wird durchgeführt') and active/passive verbal construction, typical for Verbalstil. The others nominalize 'Durchführung'.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_01_q109"
+    },
+    {
+      "questionText": "Die ____ der Anmeldefrist führt zum Ausschluss vom Wettbewerb.",
+      "options": [
+        "verspätete Anmeldung",
+        "sich verspäten",
+        "wenn man sich verspätet",
+        "dass die Anmeldung verspätet ist"
+      ],
+      "correctAnswer": "verspätete Anmeldung",
+      "explanation": "A nominal phrase with an adjective attribute ('verspätete Anmeldung') is characteristic of Nominalstil. The others contain verbs or clauses.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "c1_01_q110"
+    },
+    {
+      "questionText": "Welcher Satz ist ein typisches Beispiel für Nominalstil?",
+      "options": [
+        "Nachdem er angekommen war, begann er sofort mit der Arbeit.",
+        "Nach seiner Ankunft begann er sofort mit der Arbeit.",
+        "Er kam an und begann sofort zu arbeiten.",
+        "Sobald er ankam, begann er die Arbeit."
+      ],
+      "correctAnswer": "Nach seiner Ankunft begann er sofort mit der Arbeit.",
+      "explanation": "'Nach seiner Ankunft' is a nominal prepositional phrase replacing a temporal clause ('Nachdem er angekommen war'). This reduces verbs and increases nouns.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q111"
     },
     {
-      "id": "c1_01_q075",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
+      "questionText": "____ wird häufig in Gesetzen, Verträgen und Behördenbriefen verwendet.",
       "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
+        "Der Verbalstil",
+        "Der Nominalstil",
+        "Der Imperativ",
+        "Die indirekte Rede"
       ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q076",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
+      "correctAnswer": "Der Nominalstil",
+      "explanation": "Nominalstil is common in legal and administrative texts because it sounds precise, objective, and timeless.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q112"
     },
     {
-      "id": "c1_01_q077",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
+      "questionText": "Formen Sie ins Verbale um: 'Bei Nichtbeachtung der Hinweise erfolgt der Ausschluss.'",
       "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
+        "Wenn Sie die Hinweise nicht beachten, werden Sie ausgeschlossen.",
+        "Nichtbeachtung führt zum Ausschluss.",
+        "Bei Missachtung Ausschluss.",
+        "Ohne Beachtung Ausschluss."
       ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
+      "correctAnswer": "Wenn Sie die Hinweise nicht beachten, werden Sie ausgeschlossen.",
+      "explanation": "The correct option replaces the noun 'Nichtbeachtung' and 'Ausschluss' with the verb 'nicht beachten' and passive 'werden ausgeschlossen' – clear Verbalstil.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q113"
     },
     {
-      "id": "c1_01_q078",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
+      "questionText": "Welche Wortgruppe ist ein Signal für Nominalstil?",
       "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
+        "weil, dass, obwohl",
+        "unter Berücksichtigung von, in Bezug auf",
+        "laufen, springen, denken",
+        "sehr, ziemlich, extrem"
       ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q079",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q080",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
+      "correctAnswer": "unter Berücksichtigung von, in Bezug auf",
+      "explanation": "Prepositional phrases with nominalizations (e.g., 'unter Berücksichtigung von') are typical for Nominalstil. Conjunctions and verbs signal Verbalstil.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q114"
     },
     {
-      "id": "c1_01_q081",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
+      "questionText": "Der ____ wirkt oft dichter, abstrakter und informationsverdichteter.",
       "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
+        "Verbalstil",
+        "Nominalstil",
+        "Konjunktiv",
+        "Präteritum"
       ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q082",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
+      "correctAnswer": "Nominalstil",
+      "explanation": "Nominalstil packs information into noun phrases, making sentences denser and often more abstract than Verbalstil.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q115"
     },
     {
-      "id": "c1_01_q083",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat ___",
+      "questionText": "Ersetzen Sie den Verbalstil durch Nominalstil: 'Weil er sich gut vorbereitet hat, bestand er die Prüfung.'",
       "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
+        "Durch gute Vorbereitung bestand er die Prüfung.",
+        "Er bestand die Prüfung aufgrund seiner guten Vorbereitung.",
+        "Seine gute Vorbereitung führte zum Bestehen der Prüfung.",
+        "Alle drei Antworten sind nominale Umformungen."
       ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
+      "correctAnswer": "Alle drei Antworten sind nominale Umformungen.",
+      "explanation": "All three replace the causal clause 'Weil er sich gut vorbereitet hat' with noun-based structures ('Durch gute Vorbereitung', 'aufgrund seiner guten Vorbereitung', 'Seine gute Vorbereitung').",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q116"
+    },
+    {
+      "questionText": "Welcher Satz enthält einen nominalisierten Infinitiv?",
+      "options": [
+        "Das Laufen fällt ihm leicht.",
+        "Er läuft jeden Tag.",
+        "Er ist am Laufen.",
+        "Beim Laufen denkt er nach."
+      ],
+      "correctAnswer": "Das Laufen fällt ihm leicht.",
+      "explanation": "'Das Laufen' is a nominalized infinitive (neutral article + verb infinitive capitalized), a form often used in Nominalstil.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q117"
     },
     {
-      "id": "c1_01_q084",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er sprach, ___ er alles ___",
+      "questionText": "Vom Verbalstil zum Nominalstil: 'Die Firma stellt die Produktion ein, weil die Kosten gestiegen sind.'",
       "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
+        "Die Firma stellt wegen gestiegener Kosten die Produktion ein.",
+        "Die Firma beendet die Produktion bei steigenden Kosten.",
+        "Die Einstellung der Produktion erfolgt aufgrund des Kostenanstiegs.",
+        "Kostensteigerung bedingt Produktionseinstellung."
       ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
+      "correctAnswer": "Die Einstellung der Produktion erfolgt aufgrund des Kostenanstiegs.",
+      "explanation": "This option is fully nominalized: 'Einstellung' instead of 'stellt ein', 'Kostenanstiegs' instead of 'Kosten gestiegen sind', and no finite verb in the causal clause.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q118"
     },
     {
-      "id": "c1_01_q085",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
+      "questionText": "Welche Aussage über Nominalstil ist falsch?",
       "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
+        "Er verwendet viele Hauptwörter.",
+        "Er ist typisch für persönliche Briefe.",
+        "Er reduziert Nebensätze.",
+        "Er kommt oft in wissenschaftlichen Texten vor."
       ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
+      "correctAnswer": "Er ist typisch für persönliche Briefe.",
+      "explanation": "Personal letters usually use Verbalstil (more verb-based, personal, dynamic). Nominalstil is common in academic, official, and technical texts.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q119"
     },
     {
-      "id": "c1_01_q086",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "questionText": "Formulieren Sie nominal: 'Bevor man eine Entscheidung trifft, sollte man alle Fakten prüfen.'",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "Vor einer Entscheidungsfindung ist eine Faktenprüfung ratsam.",
+        "Man sollte vor Entscheidungen alle Fakten prüfen.",
+        "Prüfe Fakten vor Entscheidungen.",
+        "Vor dem Entscheiden sollte geprüft werden."
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
+      "correctAnswer": "Vor einer Entscheidungsfindung ist eine Faktenprüfung ratsam.",
+      "explanation": "The original temporal clause 'Bevor man eine Entscheidung trifft' becomes the prepositional phrase 'Vor einer Entscheidungsfindung'; 'alle Fakten prüfen' becomes 'eine Faktenprüfung'.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q120"
+    },
+    {
+      "questionText": "Welcher Satz steht im reinen Nominalstil?",
+      "options": [
+        "Der Antrag auf Verlängerung der Frist wurde abgelehnt.",
+        "Man lehnte den Antrag ab, die Frist zu verlängern.",
+        "Die Fristverlängerung wurde nicht genehmigt.",
+        "Sie haben den Verlängerungsantrag abgelehnt."
+      ],
+      "correctAnswer": "Die Fristverlängerung wurde nicht genehmigt.",
+      "explanation": "'Fristverlängerung' is a compound noun replacing 'die Frist verlängern'; no verb except passive 'wurde genehmigt' – very nominalized.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q121"
     },
     {
-      "id": "c1_01_q087",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
+      "questionText": "____ ist lebendiger, handlungsorientierter und persönlicher.",
       "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
+        "Nominalstil",
+        "Verbalstil",
+        "Nominalisierung",
+        "Nominalphrase"
       ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q088",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
+      "correctAnswer": "Verbalstil",
+      "explanation": "Verbalstil uses active verbs and personal forms, making texts more dynamic, vivid, and personal compared to Nominalstil.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q122"
     },
     {
-      "id": "c1_01_q089",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
+      "questionText": "Welche Umformung ist falsch (vom Verbal- zum Nominalstil)? Original: 'Weil das Wetter schlecht war, fiel das Spiel aus.'",
       "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
+        "Wegen des schlechten Wetters fiel das Spiel aus.",
+        "Das Spiel fiel aufgrund der schlechten Wetterlage aus.",
+        "Das Ausfallen des Spiels geschah wegen dem schlechten Wetter.",
+        "Schlechtes Wetter verursachte Spielausfallspielen."
       ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
+      "correctAnswer": "Das Ausfallen des Spiels geschah wegen dem schlechten Wetter.",
+      "explanation": "The error is 'wegen dem' (colloquial; standard is 'wegen des') and 'geschah' is odd with 'Ausfallen' – style is unnatural and grammatically borderline.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q123"
     },
     {
-      "id": "c1_01_q090",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
+      "questionText": "Erkennen Sie den Stil: 'Nach Erhalt Ihrer Zahlung senden wir Ihnen die Ware zu.'",
       "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
+        "Verbalstil",
+        "Nominalstil",
+        "Gemischter Stil",
+        "Imperativstil"
       ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q091",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
+      "correctAnswer": "Nominalstil",
+      "explanation": "'Nach Erhalt Ihrer Zahlung' is a nominal phrase (Erhalt + Zahlung) instead of a temporal clause like 'Nachdem wir Ihre Zahlung erhalten haben'.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q124"
     },
     {
-      "id": "c1_01_q092",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er tat so, ___ er von nichts ___",
+      "questionText": "Vom Nominal- zum Verbalstil: 'Die sofortige Räumung des Gebäudes wurde angeordnet.'",
       "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
+        "Man ordnete an, dass das Gebäude sofort geräumt werden soll.",
+        "Das Gebäude wurde sofort geräumt.",
+        "Die Anordnung der sofortigen Räumung erfolgte.",
+        "Es gab eine Räumungsanordnung."
       ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
+      "correctAnswer": "Man ordnete an, dass das Gebäude sofort geräumt werden soll.",
+      "explanation": "This replaces the noun 'Räumung' with the verb 'geräumt werden' and 'Anordnung' with 'ordnete an' – clear Verbalstil with a subordinate clause.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "c1_01_q125"
+    },
+    {
+      "questionText": "Welches Signalwort leitet oft einen Nominalstil ein?",
+      "options": [
+        "dass",
+        "weil",
+        "aufgrund",
+        "bevor"
+      ],
+      "correctAnswer": "aufgrund",
+      "explanation": "'Aufgrund' is a preposition that requires a noun phrase, typical for Nominalstil (e.g., 'aufgrund des Regens'). 'dass', 'weil', 'bevor' introduce clauses with verbs.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q126"
     },
     {
-      "id": "c1_01_q093",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
+      "questionText": "Warum wird Nominalstil in wissenschaftlichen Arbeiten geschätzt?",
       "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
+        "Er ist emotionaler.",
+        "Er ist subjektiver.",
+        "Er wirkt objektiver und abstrakter.",
+        "Er ist kürzer und einfacher."
       ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q094",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
+      "correctAnswer": "Er wirkt objektiver und abstrakter.",
+      "explanation": "Nominalstil removes personal and temporal references, creating an objective, timeless tone – ideal for academic writing. Verbalstil can feel too personal or narrative.",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q095",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q096",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q097",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q098",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q099",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_01_q100",
-      "subjectId": "c1_01",
-      "topicName": "Konjunktiv I: alle Formen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "id": "c1_01_q127"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

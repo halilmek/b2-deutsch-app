@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_09",
-  "topicName": "Wortstellung: S-P-O",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "9. Modalverben (können, müssen, wollen, dürfen, sollen)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_09_q001",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ morgen zum Arzt gehen.\" (Verpflichtung) – Welches Modalverb?",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "darf",
+        "will",
+        "muss",
+        "kann"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "muss",
+      "explanation": "müssen = Verpflichtung/Notwendigkeit",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q002",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"___ ich bitte das Fenster öffnen?\" (höfliche Bitte)",
       "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
+        "Muss",
+        "Darf",
+        "Soll",
+        "Will"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Darf",
+      "explanation": "Darf ich...? = höfliche Bitte um Erlaubnis",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q003",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch korrekt?",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "Er muss arbeiten heute.",
+        "Sie will nicht kommen.",
+        "Wir dürfen gehen nicht.",
+        "Ich soll das kaufen morgen."
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Sie will nicht kommen.",
+      "explanation": "Modalverb an Position 2, Infinitiv am Ende",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q004",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ hier nicht spielen.\" – Welches Modalverb?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "müssen",
+        "wollen",
+        "dürfen",
+        "sollen"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "dürfen",
+      "explanation": "dürfen nicht = Verbots (keine Erlaubnis)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q005",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ leider nicht kommen.\" (Unfähigkeit) – Was fehlt?",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "will",
+        "muss",
+        "kann",
+        "soll"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "kann",
+      "explanation": "können = Fähigkeit/Unfähigkeit",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q006",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz drückt einen Wunsch aus?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "Er muss früh aufstehen.",
+        "Sie will eine Reise machen.",
+        "Du darfst nicht rauchen.",
+        "Wir sollen pünktlich sein."
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Sie will eine Reise machen.",
+      "explanation": "wollen = Wunsch/Begehren",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q007",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ deiner Mutter helfen.\" (Anweisung) – Was passt?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "kannst",
+        "willst",
+        "sollst",
+        "musst"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "sollst",
+      "explanation": "sollen = Aufforderung/Rat von außen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q008",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "Wir können Deutsch sprechen.",
+        "Er darf keinen Alkohol trinken.",
+        "Sie muss die Aufgabe machen.",
+        "Ich will nicht nach Hause gehen nicht."
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "Ich will nicht nach Hause gehen nicht.",
+      "explanation": "Doppel Verneinung: nicht + nicht = falsch",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q009",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "\"___ du Klavier spielen?\" – Was ist die passende Frage?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "Musst",
+        "Kannst",
+        "Sollst",
+        "Darfst"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Kannst",
+      "explanation": "können = Fähigkeit: Kannst du Klavier spielen?",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q010",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ laut sprechen.\" – Welches Modalverb passt bei einem Verbot?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "soll nicht",
+        "darf nicht",
+        "muss nicht",
+        "kann nicht"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "darf nicht",
+      "explanation": "dürfen nicht = Verbot (keine Erlaubnis)",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q011",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ nicht Deutsch sprechen.\" (Unfähigkeit)",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "will nicht",
+        "kann nicht",
+        "muss nicht",
+        "darf nicht"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "kann nicht",
+      "explanation": "können = Fähigkeit; kann nicht = nicht in der Lage",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q012",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "\"___ du bitte das Fenster schließen?\" (höfliche Bitte)",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "Willst",
+        "Kannst",
+        "Darfst",
+        "Sollst"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Kannst",
+      "explanation": "Kannst du bitte...? = höfliche Bitte",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q013",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Schüler ___ die Hausaufgabe bis morgen ___.\" (Pflicht)",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "müssen / machen",
+        "wollen / machen",
+        "können / machen",
+        "sollen / machen"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "müssen / machen",
+      "explanation": "müssen = Pflicht/Verbindlichkeit",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q014",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ gerne Kaffee.\" – Welches Modalverb fehlt?",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "will",
+        "mag",
+        "kann",
+        "soll"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
+      "correctAnswer": "mag",
+      "explanation": "mögen = möchte (Präferenz): Ich mag Kaffee",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q015",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ hier rauchen.\" – Erlaubnis",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "kannst",
+        "musst",
+        "wirst",
+        "sollst"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "kannst",
+      "explanation": "können = Erlaubnis (hier kannst du rauchen)",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q016",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "Ich will nach Hause.",
+        "Du musst nicht kommen.",
+        "Er darf nicht rauchen.",
+        "Sie kann nicht schwimmen."
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Du musst nicht kommen.",
+      "explanation": "müssen nicht = kein Zwang; grammatisch korrekt aber irreführend",
+      "difficulty": "hard",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q017",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ Ärztin werden.\" – Wunsch/Plan",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "will",
+        "muss",
+        "kann",
+        "darf"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "will",
+      "explanation": "wollen = Wunsch/Berufsziel",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q018",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "\"Man ___ in der Bibliothek leise ___.\" (Regel)",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "soll / sein",
+        "muss / sein",
+        "will / sein",
+        "darf / sein"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "soll / sein",
+      "explanation": "sollen = Empfehlung/Regel (man soll leise sein)",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q019",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ uns beeilen, sonst verpassen wir den Zug.\"",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "müssen",
+        "wollen",
+        "können",
+        "dürfen"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "müssen",
+      "explanation": "müssen (Notwendigkeit): Wir müssen uns beeilen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q020",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"___ ich das Licht anmachen?\" – Frage nach Erlaubnis",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "Darf",
+        "Muss",
+        "Will",
+        "Soll"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Darf",
+      "explanation": "Darf ich...? = darf ich die Erlaubnis haben?",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q021",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ Deutsch lernen.\" – Modalverb?",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "möchte",
+        "mag",
+        "kann",
+        "soll"
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "möchte",
+      "explanation": "möchte = möchte lernen (Wunsch)",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q022",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ heißeße ich Anna.",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ hier nicht rauchen.\" – Modalverb?",
       "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
+        "musst",
+        "kannst",
+        "wirst",
+        "magst"
       ],
-      "correctAnswer": "Ich",
-      "explanation": "",
+      "correctAnswer": "musst",
+      "explanation": "müssen = Verbot/Regel",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q023",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Wir ___ in Berlin.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ gut Klavier spielen.\" – Modalverb?",
       "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
+        "kann",
+        "muss",
+        "will",
+        "darf"
       ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "kann",
+      "explanation": "können = Fähigkeit",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q024",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ___ ein Haus.",
+      "type": "multiple_choice",
+      "questionText": "\"___ ich dir helfen?\" – Modalverb?",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "Kann",
+        "Muss",
+        "Will",
+        "Darf"
       ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Kann",
+      "explanation": "können: Kann ich helfen? (Angebot)",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q025",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich ___ eine Frage.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ morgen früh aufstehen.\" – Modalverb?",
       "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
+        "muss",
+        "kann",
+        "mag",
+        "will"
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "correctAnswer": "muss",
+      "explanation": "müssen = Notwendigkeit",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q026",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Du ___ sehr nett.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ das nicht tun.\" – Modalverb?",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "dürfen",
+        "können",
+        "wollen",
+        "sollen"
       ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dürfen",
+      "explanation": "dürfen = Erlaubnis (negativ hier)",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q027",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ das Buch.",
+      "type": "multiple_choice",
+      "questionText": "\"Ihr ___ leiser sprechen.\" – Modalverb?",
       "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
+        "sollt",
+        "könnt",
+        "müsst",
+        "wollt"
       ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sollt",
+      "explanation": "sollen = Empfehlung/Rat",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q028",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ ist das?",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ ins Ausland reisen.\" – Modalverb?",
       "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
+        "will",
+        "möchte",
+        "kann",
+        "soll"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
+      "correctAnswer": "will",
+      "explanation": "wollen = Wunsch/Absicht",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q029",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"___ du Schwimmen?\" – Modalverb?",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "Kannst",
+        "Musst",
+        "Willst",
+        "Darfst"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Kannst",
+      "explanation": "können: Kannst du schwimmen?",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q030",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "\"Man ___ nicht alles wissen.\" – Modalverb?",
       "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
+        "muss",
+        "kann",
+        "soll",
+        "darf"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "muss",
+      "explanation": "müssen = Notwendigkeit (allgemein)",
+      "difficulty": "medium",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)",
+      "subjectId": "a1_09"
     },
     {
       "id": "a1_09_q031",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Ich ___ heute nicht arbeiten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "kann",
+        "muss",
+        "darf",
+        "mag"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "muss",
+      "explanation": "muss ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q032",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "___ du schwimmen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Musst",
+        "Kannst",
+        "Sollst",
+        "Darfst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Kannst",
+      "explanation": "Kannst ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q033",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Wir ___ früh aufstehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "können",
+        "müssen",
+        "dürfen",
+        "wollen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "müssen",
+      "explanation": "müssen ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q034",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Man ___ hier nicht rauchen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "kann",
+        "darf",
+        "muss",
+        "mag"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "darf",
+      "explanation": "darf ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q035",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Sie ___ Ärztin werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "will",
+        "muss",
+        "darf",
+        "kann"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "will",
+      "explanation": "will ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q036",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Ihr ___ leise sein!",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wollt",
+        "dürft",
+        "sollt",
+        "könnt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sollt",
+      "explanation": "sollt ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q037",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Ich ___ dir helfen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "kann",
+        "muss",
+        "darf",
+        "mag"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "kann",
+      "explanation": "kann ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q038",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Du ___ mehr Wasser trinken.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sollst",
+        "darfst",
+        "willst",
+        "kannst"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sollst",
+      "explanation": "sollst ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q039",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Er ___ heute zu Hause bleiben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "muss",
+        "kann",
+        "darf",
+        "mag"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "muss",
+      "explanation": "muss ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q040",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Wir ___ ins Kino gehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wollen",
+        "müssen",
+        "sollen",
+        "dürfen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "wollen",
+      "explanation": "wollen ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q041",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q042",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q043",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q044",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q045",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q046",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q047",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q048",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q049",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_09_q050",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q051",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Du _____ wirklich mehr Wasser trinken, sonst bekommst du Kopfschmerzen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sollst",
+        "darfst",
+        "kannst",
+        "willst"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sollst",
+      "explanation": "sollen = Empfehlung/Rat (du solltest mehr Wasser trinken).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q052",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Als Kind _____ ich stundenlang am Fluss sitzen und den Booten zusehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "konnte",
+        "durfte",
+        "musste",
+        "sollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "konnte",
+      "explanation": "können (Fähigkeit/Möglichkeit): ich konnte stundenlang sitzen (konnte = war möglich).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q053",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ hier nicht so laut sein, die Bibliotheksregeln verbieten das.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürft",
+        "könnt",
+        "müsst",
+        "wollt"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dürft",
+      "explanation": "dürfen (Verbot/Erlaubnisverweigerung): ihr dürft nicht laut sein (nicht erlaubt).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q054",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ meinen Job wechseln, aber ich bin mir noch nicht sicher.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "möchte",
+        "mag",
+        "muss",
+        "soll"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "möchte",
+      "explanation": "möchten (Wunsch): ich möchte meinen Job wechseln (Wunsch, noch nicht fest).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q055",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "_____ du mir bitte das Salz reichen? – Aber natürlich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Könntest",
+        "Musst",
+        "Darfst",
+        "Sollst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Könntest",
+      "explanation": "können (höfliche Bitte): Könntest du mir bitte... (Konjunktiv II = höfliche Form).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q056",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ gestern nicht kommen, weil er krank war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "konnte",
+        "durfte",
+        "musste",
+        "wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "konnte",
+      "explanation": "können (Möglichkeit/Fähigkeit): er konnte gestern nicht kommen (war nicht möglich wegen Krankheit).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q057",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ pünktlich sein, sonst verpassen wir die Einführung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "müssen",
+        "können",
+        "dürfen",
+        "sollen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "müssen",
+      "explanation": "müssen (Notwendigkeit): wir müssen pünktlich sein (Pflicht/Erfordernis).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q058",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Früher _____ jeder Bürger diese Steuern zahlen, aber heute ist das anders.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "musste",
+        "konnte",
+        "wollte",
+        "durfte"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "musste",
+      "explanation": "müssen (Pflicht/Zwang): jeder musste zahlen (Zwangsregelung).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q059",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "_____ du mir sagen, wie spät es ist?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Kannst",
+        "Darfst",
+        "Musst",
+        "Sollst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Kannst",
+      "explanation": "können (Bitte um Fähigkeit): Kannst du mir sagen... (können für Frage nach Möglichkeit).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q060",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ unbedingt mehr Rücksicht auf die Nachbarn nehmen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "solltet",
+        "könntet",
+        "dürftet",
+        "wolltet"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "solltet",
+      "explanation": "sollen (Empfehlung/Rat): ihr solltet mehr Rücksicht nehmen (sollte = sollte/solltet).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q061",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Buch.",
+      "type": "multiple_choice",
+      "questionText": "Du _____ mehr Wasser trinken, das ist gesünder.",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "kannst",
+        "musst",
+        "willst",
+        "sollst"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "sollst",
+      "explanation": "sollen = Empfehlung/Rat: du solltest mehr Wasser trinken.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q062",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "_____ ich bitte das Fenster öffnen? Es ist sehr warm hier.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "Kann",
+        "Muss",
+        "Will",
+        "Darf"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Darf",
+      "explanation": "dürfen (höfliche Bitte um Erlaubnis): darf ich bitte das Fenster öffnen?",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q063",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Er _____ nicht zur Party kommen, weil er arbeiten muss.",
       "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
+        "kann",
+        "muss",
+        "will",
+        "darf"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "kann",
+      "explanation": "können (Möglichkeit): er kann nicht kommen (es ist ihm nicht möglich).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q064",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ pünktlich sein, sonst verpassen wir den Anfang.",
       "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
+        "können",
+        "müssen",
+        "wollen",
+        "dürfen"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "müssen",
+      "explanation": "müssen (Notwendigkeit): wir müssen pünktlich sein (Pflicht).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q065",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "_____ du mir bitte helfen? Ich komme alleine nicht weiter.",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "Kannst",
+        "Musst",
+        "Willst",
+        "Sollst"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Kannst",
+      "explanation": "können (Bitte um Hilfe): Kannst du mir bitte helfen?",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q066",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ eigentlich mehr lernen, aber sie hat keine Motivation.",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "kann",
+        "muss",
+        "will",
+        "soll"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "soll",
+      "explanation": "sollen (Empfehlung/Ratschlag): sie sollte mehr lernen.",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q067",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Man _____ hier nicht rauchen, das ist verboten.",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "kann",
+        "muss",
+        "will",
+        "darf"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "darf",
+      "explanation": "dürfen (Verbot): man darf hier nicht rauchen (nicht erlaubt).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q068",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ gerne besser Deutsch sprechen, aber es ist schwierig.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "kann",
+        "muss",
+        "will",
+        "darf"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "will",
+      "explanation": "wollen (Wunsch): ich will besser Deutsch sprechen (Wunsch/Vorsatz).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q069",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "_____ wir heute Abend zusammen essen gehen?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "Können",
+        "Müssen",
+        "Wollen",
+        "Dürfen"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Wollen",
+      "explanation": "wollen (Vorschlag): wollen wir heute Abend essen gehen? (Einladung).",
+      "difficulty": "easy",
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     },
     {
       "id": "a1_09_q070",
       "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q071",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q072",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q073",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q074",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q075",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q076",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ die Prüfung bestehen, wenn er mehr übt.",
       "options": [
         "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "muss",
+        "will",
+        "soll"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
+      "correctAnswer": "kann",
+      "explanation": "können (Möglichkeit): er kann die Prüfung bestehen ( wenn er mehr übt).",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q077",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q078",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q079",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q080",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q081",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q082",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q083",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q084",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q085",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q086",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q087",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q088",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q089",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q090",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q091",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q092",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q093",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q094",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q095",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q096",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q097",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q098",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q099",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_09_q100",
-      "subjectId": "a1_09",
-      "topicName": "Wortstellung: S-P-O",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Modalverben (können, müssen, wollen, dürfen, sollen)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

@@ -1,1554 +1,1342 @@
 {
+  "version": "1.0",
   "subjectId": "b1_07",
-  "topicName": "Konjunktiv II: würde",
+  "topicName": "Konnektoren",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Konnektoren & Satzstellung (connectors and word order) at B2 level require not only vocabulary accuracy but also understanding how each connector determines sentence structure. Four groups: (1) Subjunktionen (obwohl, weil, damit, sodass, obgleich, obschon, zumal, sofern) — verb goes to the END of the clause; (2) Konjunktionaladverbien (deshalb, trotzdem, allerdings, gleichwohl, infolgedessen, andernfalls, folglich, demnach, azonach) — trigger INVERSION (verb before subject); (3) Zweiteilige Konnektoren (zwar/aber, einerseits/andererseits, sowohl/als auch, entweder/oder, weder/noch, je/umso, nicht nur/sondern auch) — paired structures balancing contrasts, alternatives, correlations; (4) Standard-Konjunktionen (und, aber, denn, sondern, oder) — no word order change. Mastering connectors is essential for B2 argumentative and academic writing.",
+  "tips": [
+    "Group 1 (Subjunktionen) → verb goes to END: weil, obwohl, damit, sodass, obgleich, obschon, zumal, sofern, während, bevor, nachdem, bis, damit, indem, ohne dass, anstatt dass, falls, sobald, solange.",
+    "Group 2 (Konjunktionaladverbien) → trigger INVERSION: deshalb, daher, trotzdem, allerdings, dennoch, infolgedessen, andernfalls, folglich, demnach, gleichwohl, azonaban — connector in Position 1, verb in Position 2.",
+    "Group 3 (Zweiteilige Konnektoren): zwar/aber (concession), einerseits/andererseits (contrast), sowohl/als auch (addition), entweder/oder (alternation), weder/noch (negation), je/umso/desto (proportional), nicht nur/sondern auch (addition).",
+    "Group 4 (Standard-Konjunktionen): und, aber, denn, sondern, oder — no word order change (Position 0). Exception: es sei denn (unless) maintains standard order even when introducing a clause.",
+    "Ohne zu vs Ohne dass: Same subject → infinitive construction (ohne... zu / anstatt... zu). Different subjects → subordinate clause (ohne dass / anstatt dass).",
+    "Geschweige denn: requires a negative anchor in the first clause (nicht, kein, nicht einmal). → Er hat nicht einmal Geld für die Miete, geschweige denn für Urlaub.",
+    "Infolge vs Infolgedessen: Infolge is a preposition + Genitiv (Infolge des Regens). Infolgedessen is an adverb starting a clause (Infolgedessen fiel das Spiel aus).",
+    "Je... umso/desto: Je-clause is subordinate (verb-final); umso/desto-clause triggers inversion. → Je mehr wir einstellen, umso schneller können wir liefern.",
+    "Word order after connector: subordinating conjunctions (weil, obwohl, damit) → verb at end; adverbial connectors (deshalb, trotzdem) → inversion; coordinating conjunctions (denn, aber) → normal order.",
+    "Zumal is a high-register causal subordinating conjunction (verb-final) used to emphasize the most important reason. Use it instead of weil/da to sound more academic and sophisticated."
+  ],
   "questions": [
     {
       "id": "b1_07_q001",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Er hat viel gearbeitet, ____ er hat die Prüfung nicht bestanden.",
+      "options": [
+        "trotzdem",
+        "obwohl",
+        "dennoch",
+        "jedoch"
+      ],
+      "correctAnswer": "trotzdem",
+      "explanation": "'Trotzdem' is an adverbial connector (Konjunktionaladverb) that causes inversion: subject follows the verb. After a comma it starts a new main clause: 'er hat … → trotzdem hat er …'. However, when placed after the comma mid-sentence without inversion as here, 'trotzdem' fits. 'Obwohl' is a subordinating conjunction requiring verb-final word order and cannot connect two main clauses this way."
     },
     {
       "id": "b1_07_q002",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ich lerne Deutsch, ____ ich in Deutschland studieren möchte.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "weil",
+        "denn",
+        "deshalb",
+        "daher"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "weil",
+      "explanation": "'Weil' is a subordinating conjunction (Subjunktor) — verb goes to the end of the clause. 'Denn' is a coordinating conjunction that does NOT change word order, but the sentence structure here (comma + clause with modal) fits 'weil' better. 'Deshalb/daher' are adverbial connectors meaning 'therefore' — they express result, not reason."
     },
     {
       "id": "b1_07_q003",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie ist krank, ____ kommt sie heute nicht ins Büro.",
       "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
+        "deshalb",
+        "weil",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deshalb",
+      "explanation": "'Deshalb' (therefore/that's why) is an adverbial connector expressing consequence. It triggers inversion: 'deshalb kommt sie …'. The reason is stated first (she is ill), then the result follows. 'Weil' would require verb-final order and introduces a reason clause, not a result clause."
     },
     {
       "id": "b1_07_q004",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
-      "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
-      ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wir können ins Kino gehen ____ zu Hause einen Film schauen.",
+      "options": [
+        "oder",
+        "sondern",
+        "aber",
+        "doch"
+      ],
+      "correctAnswer": "oder",
+      "explanation": "'Oder' (or) connects two alternatives. 'Sondern' is used after a negation to contrast (not A but rather B). 'Aber/doch' express contrast, not alternation. Here no negation precedes, so 'sondern' is ruled out."
     },
     {
       "id": "b1_07_q005",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ist nicht müde, ____ er will einfach nicht aufstehen.",
       "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
+        "sondern",
+        "aber",
+        "denn",
+        "jedoch"
       ],
-      "correctAnswer": "deren",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sondern",
+      "explanation": "'Sondern' follows a negation ('nicht müde') to introduce a contrasting correction: not A, but rather B. 'Aber' also expresses contrast but without the correction nuance and does not require prior negation. This 'nicht … sondern' structure is a core B2 connector distinction."
     },
     {
       "id": "b1_07_q006",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Meeting dauert lange, ____ wir können pünktlich gehen.",
       "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
+        "aber",
+        "sondern",
+        "weil",
+        "damit"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "aber",
+      "explanation": "'Aber' (but) is a coordinating conjunction expressing contrast without inversion — it sits between two main clauses and word order in the second clause stays normal (subject-verb). 'Sondern' requires prior negation, which is absent here."
     },
     {
       "id": "b1_07_q007",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
-      ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ich trinke keinen Kaffee, ____ ich trinke lieber Tee.",
+      "options": [
+        "sondern",
+        "aber",
+        "doch",
+        "jedoch"
+      ],
+      "correctAnswer": "sondern",
+      "explanation": "After 'keinen Kaffee' (negation with 'kein-'), 'sondern' introduces the corrective alternative: not coffee, but rather tea. This is the classic 'nicht/kein … sondern' construction. 'Aber' could express contrast but lacks the corrective replacement meaning."
     },
     {
       "id": "b1_07_q008",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sagte, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Projekt wurde abgeschlossen, ____ wurden neue Herausforderungen sichtbar.",
+      "options": [
+        "dabei",
+        "obwohl",
+        "weil",
+        "damit"
+      ],
+      "correctAnswer": "dabei",
+      "explanation": "'Dabei' as an adverbial connector means 'in the process / at the same time'. It triggers inversion and adds a simultaneous or accompanying circumstance: while completing the project, new challenges became visible. This nuanced use of 'dabei' is typical of B2 written registers."
     },
     {
       "id": "b1_07_q009",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ du Deutsch gelernt ___?",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ er intensiv trainierte, verbesserte sich seine Leistung kaum.",
       "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Nachdem"
       ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' (although) introduces a concessive clause — the training didn't produce the expected improvement, creating a contrast. Verb goes to the end: 'obwohl er … trainierte'. When the subordinate clause leads, the main clause begins with the verb (inversion): 'verbesserte sich seine Leistung'."
     },
     {
       "id": "b1_07_q010",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie sprach sehr leise, ____ ihre Zuhörer sie kaum verstehen konnten.",
       "options": [
-        "dessen",
-        "deren",
-        "die",
-        "dem"
+        "sodass",
+        "damit",
+        "obwohl",
+        "weil"
       ],
-      "correctAnswer": "dessen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' (so that / with the result that) introduces a consecutive clause describing an unintended consequence. Verb goes to the end. Contrast with 'damit' (in order that), which expresses an intended purpose with a different subject. Here the quiet speaking was not intentional — it resulted in listeners struggling."
     },
     {
       "id": "b1_07_q011",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Er hat die Stelle bekommen, ____ er keine Berufserfahrung hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "sodass",
+        "falls"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' (although/even though) introduces a concessive subordinate clause. Getting the job despite lacking experience is the unexpected concession. 'Weil' would mean because of lacking experience — the opposite logical relationship."
     },
     {
       "id": "b1_07_q012",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
-      "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
-      ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q013",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Wann",
-        "Während"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q014",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q015",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen früh aufbrechen, ____ wir den letzten Zug noch erwischen.",
       "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
-      ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q016",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q017",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "wollte"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q018",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q019",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Obwohl"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q020",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
-      "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q021",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
-      "options": [
-        "um",
-        "als",
+        "damit",
+        "sodass",
         "weil",
         "obwohl"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' (so that / in order that) expresses purpose when the subjects of the two clauses differ or the action is intentional. Here: leaving early is intentional with the goal of catching the train. 'Sodass' would express an unintended consequence, not a planned goal."
     },
     {
-      "id": "b1_07_q022",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
-      "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
-      ],
-      "correctAnswer": "So",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q023",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
-      "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
+      "id": "b1_07_q013",
       "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q024",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er tut so, ___ er alles wüsste.",
+      "type": "multiple_choice",
+      "questionText": "Einerseits ist die Stelle gut bezahlt, ____ sind die Arbeitsbedingungen sehr belastend.",
       "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
+        "andererseits",
+        "außerdem",
+        "deshalb",
+        "trotzdem"
       ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "andererseits",
+      "explanation": "'Einerseits … andererseits' (on one hand … on the other hand) is a two-part connector presenting two contrasting aspects. It is an adverbial connector triggering inversion: 'andererseits sind die Arbeitsbedingungen …'. This paired structure is essential B2 argumentation vocabulary."
     },
     {
-      "id": "b1_07_q025",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
+      "id": "b1_07_q014",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Angebot klingt verlockend. ____ sollte man das Kleingedruckte sorgfältig lesen.",
+      "options": [
+        "Dennoch",
+        "Obwohl",
+        "Weil",
+        "Sodass"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "'Dennoch' (nevertheless/nonetheless) is an adverbial connector expressing concession between two independent sentences. It triggers inversion: 'Dennoch sollte man …'. It is more formal than 'trotzdem' and typical of written B2 argumentation. 'Obwohl' cannot start an independent main clause."
+    },
+    {
+      "id": "b1_07_q015",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Kosten gestiegen sind, ____ hat die Nachfrage nicht nachgelassen.",
+      "options": [
+        "Obwohl / –",
+        "Zwar / aber",
+        "Einerseits / andererseits",
+        "Sowohl / als auch"
+      ],
+      "correctAnswer": "Zwar / aber",
+      "explanation": "'Zwar … aber' (it's true that … but) is a two-part connector for concessive contrast within connected clauses. 'Zwar' can begin a main clause or subordinate clause; 'aber' begins the contrasting main clause. Word order after 'zwar' in first position: verb follows immediately (inversion). A very common B2 written register structure."
+    },
+    {
+      "id": "b1_07_q016",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das neue System ist effizienter. ____ sind die Schulungskosten erheblich gestiegen, ____ viele Mitarbeiter überfordert wirken.",
+      "options": [
+        "Allerdings / sodass",
+        "Obwohl / damit",
+        "Dennoch / weil",
+        "Jedoch / obwohl"
+      ],
+      "correctAnswer": "Allerdings / sodass",
+      "explanation": "'Allerdings' (however/admittedly) is a formal adverbial connector signalling a limiting concession — it triggers inversion. 'Sodass' then introduces the consecutive result clause (costs rose, resulting in employees seeming overwhelmed). This two-connector chain (concession → consequence) is a hallmark of complex B2 argumentative writing."
+    },
+    {
+      "id": "b1_07_q017",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen scheiterten, ____ beide Parteien monatelang verhandelt hatten, ____ man zunächst Einigkeit erwartet hatte.",
+      "options": [
+        "obwohl / und",
+        "weil / sodass",
+        "damit / aber",
+        "falls / dennoch"
+      ],
+      "correctAnswer": "obwohl / und",
+      "explanation": "'Obwohl' introduces the concessive subordinate clause (despite months of negotiation). 'Und' then adds a second parallel subordinate clause ('und man … erwartet hatte') — two subordinate clauses joined by 'und' sharing the same matrix clause. This stacked subordinate clause structure is B2+ syntactic complexity."
+    },
+    {
+      "id": "b1_07_q018",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht zeigt, dass ____ die Emissionen gesunken sind, ____ der Gesamtausstoß weiterhin zu hoch bleibt.",
+      "options": [
+        "zwar / aber",
+        "weil / deshalb",
+        "obwohl / trotzdem",
+        "entweder / oder"
+      ],
+      "correctAnswer": "zwar / aber",
+      "explanation": "'Zwar … aber' inside a 'dass'-clause: 'dass zwar … gesunken sind, aber … bleibt'. Both clauses are embedded under 'dass', making this a complex nested structure. 'Zwar' does not trigger inversion when inside a subordinate clause — verb stays at the end of each clause. This is an advanced B2+ written register pattern."
+    },
+    {
+      "id": "b1_07_q019",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet sehr hart. ____ gelingt es ihm nicht, die Erwartungen seiner Vorgesetzten zu erfüllen, ____ er beginnt, an sich zu zweifeln.",
+      "options": [
+        "Dennoch / sodass",
+        "Obwohl / damit",
+        "Deshalb / weil",
+        "Außerdem / falls"
+      ],
+      "correctAnswer": "Dennoch / sodass",
+      "explanation": "'Dennoch' (nevertheless) begins the second sentence with inversion, expressing that despite hard work, expectations are not met. 'Sodass' then introduces the resulting psychological consequence (he begins to doubt himself). This chain — concession (dennoch) → result (sodass) — across sentence boundaries is a sophisticated B2 connector pattern."
+    },
+    {
+      "id": "b1_07_q020",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Reform wurde verabschiedet, ____ zahlreiche Experten gewarnt hatten, ____ sie in der Praxis kaum umsetzbar sei.",
+      "options": [
+        "obwohl / dass",
+        "weil / ob",
+        "damit / dass",
+        "sodass / weil"
+      ],
+      "correctAnswer": "obwohl / dass",
+      "explanation": "'Obwohl' introduces the concessive clause; within that clause, a further subordinate 'dass'-clause reports the content of the experts' warning: 'obwohl … gewarnt hatten, dass sie … sei'. Note 'sei' = Konjunktiv I in indirect speech inside the embedded clause. This double embedding (obwohl + dass + K-I) represents the highest B2 syntactic complexity."
+    },
+    {
+      "questionText": "Wir müssen die Produktionskosten drastisch senken, ____ wird das Unternehmen Ende des Jahres Insolvenz anmelden müssen.",
+      "options": [
+        "andernfalls",
+        "obwohl",
+        "folglich",
+        "sodass"
+      ],
+      "correctAnswer": "andernfalls",
+      "explanation": "The context requires a connector meaning 'otherwise' to show the negative consequence of not acting. 'Andernfalls' is a conjunctive adverb that triggers inversion (verb 'wird' comes directly after it).",
+      "difficulty": "medium",
+      "id": "b1_07_q021"
+    },
+    {
+      "questionText": "____ mehr Fachkräfte wir für dieses anspruchsvolle IT-Projekt einstellen, ____ schneller können wir die Software auf den Markt bringen.",
+      "options": [
+        "Je / umso",
+        "Je / desto mehr",
+        "Desto / je",
+        "Umso / desto"
+      ],
+      "correctAnswer": "Je / umso",
+      "explanation": "'JE... umso' (or 'je... desto') is a proportional connector. 'Je' introduces the subordinate clause (verb at the end), and 'umso/desto' introduces the main clause, triggering immediate verb inversion ('können wir').",
+      "difficulty": "easy",
+      "id": "b1_07_q022"
+    },
+    {
+      "questionText": "Der neue Mitarbeiter hat die schwierige Aufgabe ohne jede Hilfe gelöst, ____ der Abteilungsleiter ihm Unterstützung versprochen hatte.",
+      "options": [
+        "obgleich",
+        "trotzdem",
+        "deshalb",
+        "demnach"
+      ],
+      "correctAnswer": "obgleich",
+      "explanation": "The clause requires a subordinating concession connector ('although') because the verb 'hatte' sits at the very end. 'Obgleich' is a higher-level synonym of 'obwohl'. 'Trotzdem' would mean 'nevertheless' and require main clause word order.",
+      "difficulty": "medium",
+      "id": "b1_07_q023"
+    },
+    {
+      "questionText": "Er hat nicht einmal genug Geld für die monatliche Miete, ____ für eine zweiwöchige Urlaubsreise nach Japan.",
+      "options": [
+        "geschweige denn",
+        "geschweige",
+        "sondern auch",
+        "nicht nur"
+      ],
+      "correctAnswer": "geschweige denn",
+      "explanation": "The idiomatic expression 'geschweige denn' means 'let alone' or 'not to mention'. It is used after a negative statement to emphasize that the next option is even more impossible.",
+      "difficulty": "hard",
+      "id": "b1_07_q024"
+    },
+    {
+      "questionText": "Die Geschäftsführung hat die Budgets gekürzt. ____ müssen wir alle geplanten Marketingkampagnen vorerst stoppen.",
+      "options": [
+        "Infolgedessen",
+        "Infolge",
+        "Sodass",
+        "Weshalb"
+      ],
+      "correctAnswer": "Infolgedessen",
+      "explanation": "The sentence requires a conjunctive adverb meaning 'as a result / consequently'. 'Infolgedessen' occupies position 1, followed directly by the conjugated verb 'müssen'. 'Infolge' is a preposition requiring a noun in the genitive, and 'sodass' introduces a subordinate clause.",
+      "difficulty": "medium",
+      "id": "b1_07_q025"
+    },
+    {
+      "questionText": "Die Verhandlungen waren äußerst zäh, ____ konnte am späten Abend doch noch eine Einigung erzielt werden.",
+      "options": [
+        "gleichwohl",
+        "wogegen",
+        "demzufolge",
+        "daher"
+      ],
+      "correctAnswer": "gleichwohl",
+      "explanation": "'Gleichwohl' is an advanced, formal C1/B2 concessive adverb meaning 'nevertheless / yet'. It fits perfectly because it contrasts the tough negotiations with the eventual success and triggers inversion ('konnte... eine Einigung erzielt werden').",
+      "difficulty": "hard",
+      "id": "b1_07_q026"
+    },
+    {
+      "questionText": "Sie hat die anspruchsvolle B2-Prüfung fehlerfrei bestanden, ____ sie sich kaum darauf vorbereitet hatte.",
+      "options": [
+        "wohingegen",
+        "zumal",
+        "obschon",
+        "trotz"
+      ],
+      "correctAnswer": "obschon",
+      "explanation": "'Obschon' is a formal subordinating conjunction meaning 'although' (synonym to 'obwohl' / 'obgleich'). It introduces a subordinate clause with the verb 'hatte' at the end. 'Wohingegen' is used for direct contrast ('whereas').",
+      "difficulty": "hard",
+      "id": "b1_07_q027"
+    },
+    {
+      "questionText": "____ wir pünktlich Feierabend machen können, müssen alle Berichte bis 15:00 Uhr vollständig vorliegen.",
+      "options": [
+        "Damit",
+        "Um",
+        "Sodass",
+        "Zwecks"
+      ],
+      "correctAnswer": "Damit",
+      "explanation": "This is a final (purpose) clause with its verb 'können' at the end. Because the subject 'wir' is explicitly named, 'um... zu' cannot be used. 'Damit' is the correct subordinating conjunction.",
+      "difficulty": "easy",
+      "id": "b1_07_q028"
+    },
+    {
+      "questionText": "Das Gesetz wurde gestern im Bundestag beschlossen und tritt ____ am ersten Januar des kommenden Jahres in Kraft.",
+      "options": [
+        "demnach",
+        "nachdem",
+        "obzwar",
+        "folglich dessen"
+      ],
+      "correctAnswer": "demnach",
+      "explanation": "'Demnach' is a logical connector meaning 'accordingly / therefore / thus'. It functions here as an adverb within the main clause. 'Nachdem' is temporal and requires a subordinate verb position.",
+      "difficulty": "medium",
+      "id": "b1_07_q029"
+    },
+    {
+      "questionText": "Wir sollten den Vertrag jetzt unterschreiben, ____ wir es später bereuen, diese einmalige Chance verpasst zu haben.",
+      "options": [
+        "nicht dass",
+        "es sei denn",
+        "ohne dass",
+        "anstatt dass"
+      ],
+      "correctAnswer": "nicht dass",
+      "explanation": "The idiomatic fixed expression 'nicht dass' + subordinate clause is used here in the colloquial/expressive sense of 'lest' or 'for fear that' (...lest we regret it later). It functions as a warning connector.",
+      "difficulty": "hard",
+      "id": "b1_07_q030"
+    },
+    {
+      "questionText": "Die Sanierung des alten Gebäudes ist ____ extrem kostspielig, ____ sie bringt langfristig eine enorme Energieeinsparung.",
+      "options": [
+        "zwar / aber",
+        "entweder / oder",
+        "weder / noch",
+        "nicht nur / aber auch"
+      ],
+      "correctAnswer": "zwar / aber",
+      "explanation": "The sentence weighs a negative point (expensive) against a positive point (energy saving). The concessive connector pair 'zwar... aber' (indeed... but) perfectly matches this counter-balancing context.",
+      "difficulty": "easy",
+      "id": "b1_07_q031"
+    },
+    {
+      "questionText": "Die ältere Dame überquerte die viel befahrene Straße, ____ auf den dichten Berufsverkehr zu achten.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "ohne dass",
+        "um nicht"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "This requires an infinitive clause structure because of 'zu achten' at the end. 'Ohne... zu' translates to 'without doing something'. Since the underlying subject is the same as the main clause, 'ohne dass' (subordinate clause) is incorrect.",
+      "difficulty": "medium",
+      "id": "b1_07_q032"
+    },
+    {
+      "questionText": "Die Bundesstraße muss komplett gesperrt werden, ____ die Schäden am Asphalt repariert werden können.",
+      "options": [
+        "auf dass",
+        "sodass",
+        "indem",
+        "dadurch dass"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "This expresses a consecutive outcome (so that / with the result that). 'Sodass' introduces the subordinate clause containing the result of the road closure.",
+      "difficulty": "easy",
+      "id": "b1_07_q033"
+    },
+    {
+      "questionText": "Der Verdächtige schwieg während der gesamten Vernehmung, ____ seine Schuld quasi einzugestehen.",
+      "options": [
+        "um",
+        "ohne",
+        "als um",
+        "anstatt"
+      ],
+      "correctAnswer": "um",
+      "explanation": "In this specific stylistic context, 'um... zu' acts not as a goal, but as a consecutive infinitive clause expressing an unintended or logical outcome ('..., thereby practically admitting his guilt').",
+      "difficulty": "hard",
+      "id": "b1_07_q034"
+    },
+    {
+      "questionText": "Man kann die Reichweite des Elektroautos erheblich vergrößern, ____ man vorausschauend fährt und unnötiges Bremsen vermeidet.",
+      "options": [
+        "indem",
+        "dadurch",
+        "sodass",
+        "falls"
+      ],
+      "correctAnswer": "indem",
+      "explanation": "This is a modal clause answering 'how' something is achieved. 'Indem' is the subordinating conjunction used to describe the method or means.",
+      "difficulty": "medium",
+      "id": "b1_07_q035"
+    },
+    {
+      "questionText": "Wir werden den Ausflug wie geplant durchführen, ____ es fängt am Morgen wie aus Kübeln an zu regnen.",
+      "options": [
+        "es sei denn",
+        "außer wenn",
+        "andernfalls",
+        "ausgenommen"
+      ],
+      "correctAnswer": "es sei denn",
+      "explanation": "'Es sei denn' means 'unless'. When followed by a clause without 'dass', it unexpectedly maintains standard main clause word order (verb 'fängt' in position 2), which perfectly aligns with the given phrase.",
+      "difficulty": "hard",
+      "id": "b1_07_q036"
+    },
+    {
+      "questionText": "In Großstädten nutzen immer mehr Menschen das Fahrrad, ____ auf dem Land weiterhin das Auto dominiert.",
+      "options": [
+        "wohingegen",
+        "währenddem",
+        "jedoch",
+        "trotzdem"
+      ],
+      "correctAnswer": "wohingegen",
+      "explanation": "'Wohingegen' is an adversative subordinating conjunction used to contrast two completely opposing realities ('whereas / while on the other hand'). The verb 'dominiert' is pushed to the end.",
+      "difficulty": "medium",
+      "id": "b1_07_q037"
+    },
+    {
+      "questionText": "Der Patient darf die Klinik auf eigenen Wunsch verlassen, ____ er sich der gesundheitlichen Risiken vollkommen bewusst ist.",
+      "options": [
+        "vorausgesetzt",
+        "sofern",
+        "falls",
+        "wenn"
+      ],
+      "correctAnswer": "sofern",
+      "explanation": "Both 'sofern' and 'vorausgesetzt (dass)' mean 'provided that'. However, 'vorausgesetzt' would require 'dass' here to function as a subordinating conjunction with this exact placement. Therefore, 'sofern' is the correct conditional connector.",
+      "difficulty": "hard",
+      "id": "b1_07_q038"
+    },
+    {
+      "questionText": "Viele Arbeitnehmer arbeiten auch im Krankheitsfall von zu Hause aus, ____ die Genesung massiv verzögert wird.",
+      "options": [
+        "wodurch",
+        "weshalb",
+        "damit",
+        "darum"
+      ],
+      "correctAnswer": "wodurch",
+      "explanation": "This requires a relative connector representing a whole previous clause statement ('by means of which / as a result of which'). 'Wodurch' introduces this non-personal modal/consecutive effect correctly.",
+      "difficulty": "medium",
+      "id": "b1_07_q039"
+    },
+    {
+      "questionText": "Ich kann Ihnen diese Investition nicht empfehlen, ____ ich die aktuelle Marktlage für viel zu instabil halte.",
+      "options": [
+        "zumal",
+        "weil ja",
+        "denn",
+        "wegen"
+      ],
+      "correctAnswer": "zumal",
+      "explanation": "'Zumal' is an advanced causal subordinating conjunction that means 'especially since / particularly because'. It adds a primary driving reason to a statement and sends the verb 'halte' to the end.",
+      "difficulty": "hard",
+      "id": "b1_07_q040"
+    },
+    {
+      "questionText": "Er ging zur Arbeit, ____ er starke Kopfschmerzen hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "sodass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "The sentence expresses contrast — he went to work despite having a headache. 'Obwohl' (although) is the correct subordinating conjunction for concession.",
+      "difficulty": "easy",
+      "id": "b1_07_q041"
+    },
+    {
+      "questionText": "Die Sitzung wurde verschoben, ____ mehrere Teilnehmer krank waren.",
+      "options": [
+        "obwohl",
+        "damit",
+        "weil",
+        "während"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' introduces the reason for postponing the meeting — several participants were ill. 'Weil' is a subordinating conjunction requiring verb-final word order.",
+      "difficulty": "easy",
+      "id": "b1_07_q042"
+    },
+    {
+      "questionText": "Sie spricht leise, ____ niemand gestört wird.",
+      "options": [
+        "obwohl",
+        "damit",
+        "während",
+        "trotzdem"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' (so that / in order that) expresses purpose — she speaks quietly with the intention that no one is disturbed.",
+      "difficulty": "easy",
+      "id": "b1_07_q043"
+    },
+    {
+      "questionText": "____ er wenig Erfahrung hatte, bekam er die Stelle.",
+      "options": [
+        "Weil",
+        "Während",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "The sentence shows contradiction — he got the job despite having little experience. 'Obwohl' introduces the concessive clause.",
+      "difficulty": "easy",
+      "id": "b1_07_q044"
+    },
+    {
+      "questionText": "Die Straßen waren vereist, ____ viele Unfälle passierten.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces a consecutive clause expressing result — the icy roads caused many accidents as a consequence.",
+      "difficulty": "medium",
+      "id": "b1_07_q045"
+    },
+    {
+      "questionText": "____ die Regierung neue Maßnahmen eingeführt hat, bleibt die Situation schwierig.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Falls"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "The sentence expresses contrast between new government measures and the continuing difficult situation. 'Obwohl' is the concessive conjunction.",
+      "difficulty": "medium",
+      "id": "b1_07_q046"
+    },
+    {
+      "questionText": "Er trainiert täglich, ____ seine Leistung kontinuierlich zu verbessern.",
+      "options": [
+        "um",
+        "obwohl",
+        "denn",
+        "während"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — he trains daily in order to continuously improve his performance.",
+      "difficulty": "medium",
+      "id": "b1_07_q047"
+    },
+    {
+      "questionText": "Sie blieb ruhig, ____ sie innerlich sehr nervös war.",
       "options": [
         "weil",
         "obwohl",
-        "wenn",
-        "damit"
+        "damit",
+        "sobald"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' correctly introduces a contrast — she stayed calm although she was very nervous inside.",
+      "difficulty": "medium",
+      "id": "b1_07_q048"
+    },
+    {
+      "questionText": "____ der Zug Verspätung hatte, erreichten wir den Anschluss noch rechtzeitig.",
+      "options": [
+        "Während",
+        "Falls",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "The sentence contrasts the train delay with still catching the connection in time. 'Obwohl' introduces the concession.",
+      "difficulty": "medium",
+      "id": "b1_07_q049"
+    },
+    {
+      "questionText": "Die Firma investiert viel Geld in Forschung, ____ wettbewerbsfähig zu bleiben.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "um",
+        "trotz"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses intention or goal — the company invests to remain competitive.",
+      "difficulty": "medium",
+      "id": "b1_07_q050"
+    },
+    {
+      "questionText": "Er kündigte seinen Job, ____ er noch keine neue Stelle gefunden hatte.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "seitdem"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' expresses an unexpected contrast — he quit despite not having found a new job yet.",
+      "difficulty": "hard",
+      "id": "b1_07_q051"
+    },
+    {
+      "questionText": "____ die Temperaturen weiter steigen, müssen neue Maßnahmen ergriffen werden.",
+      "options": [
+        "Falls",
+        "Obwohl",
+        "Während",
+        "Damit"
+      ],
+      "correctAnswer": "Falls",
+      "explanation": "'Falls' introduces a conditional clause — if temperatures continue to rise, new measures must be taken.",
+      "difficulty": "hard",
+      "id": "b1_07_q052"
+    },
+    {
+      "questionText": "Die Präsentation war schlecht vorbereitet, ____ das Publikum schnell das Interesse verlor.",
+      "options": [
+        "obwohl",
+        "sodass",
+        "damit",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces the result of the poorly prepared presentation — the audience quickly lost interest.",
+      "difficulty": "hard",
+      "id": "b1_07_q053"
+    },
+    {
+      "questionText": "____ er regelmäßig Sport treibt, fühlt er sich oft erschöpft.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Sobald"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses a contradiction — despite exercising regularly, he often feels exhausted.",
+      "difficulty": "hard",
+      "id": "b1_07_q054"
+    },
+    {
+      "questionText": "Sie überprüfte die Daten mehrmals, ____ mögliche Fehler zu vermeiden.",
+      "options": [
+        "um",
+        "obwohl",
+        "denn",
+        "während"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — she checked the data multiple times in order to avoid possible errors.",
+      "difficulty": "hard",
+      "id": "b1_07_q055"
+    },
+    {
+      "questionText": "____ die Nachfrage gestiegen ist, kann das Unternehmen nicht schneller produzieren.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Sobald",
+        "Während"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contrast — despite increased demand, the company cannot produce faster.",
+      "difficulty": "hard",
+      "id": "b1_07_q056"
+    },
+    {
+      "questionText": "Er machte sich Notizen, ____ er später nichts vergessen würde.",
+      "options": [
+        "obwohl",
+        "damit",
+        "seitdem",
+        "falls"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces the purpose clause — he made notes so that he wouldn't forget anything later.",
+      "difficulty": "medium",
+      "id": "b1_07_q057"
+    },
+    {
+      "questionText": "____ die Experten gewarnt hatten, wurden keine Sicherheitsmaßnahmen getroffen.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Nachdem",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' shows contradiction — despite expert warnings, no safety measures were taken.",
+      "difficulty": "hard",
+      "id": "b1_07_q058"
+    },
+    {
+      "questionText": "Die Verhandlungen dauerten länger als erwartet, ____ beide Seiten eine Einigung erzielen wollten.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "während"
       ],
       "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q026",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
-      "options": [
-        "die",
-        "der",
-        "den",
-        "welche"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q027",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
-      "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
-      ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
+      "explanation": "'Weil' gives the reason — the negotiations lasted longer because both sides wanted to reach an agreement.",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "id": "b1_07_q059"
     },
     {
-      "id": "b1_07_q028",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q029",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q030",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
-      "options": [
-        "der",
-        "die",
-        "den",
-        "dem"
-      ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_07_q031",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q032",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q033",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q034",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q035",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q036",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q037",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q038",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q039",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q040",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q041",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q042",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q043",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q044",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q045",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q046",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q047",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Relativsätze haben immer ein Komma.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q048",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q049",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q050",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q051",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q052",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q053",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q054",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q055",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q056",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q057",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q058",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q059",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q060",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_07_q061",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "questionText": "____ er die Unterlagen gründlich gelesen hatte, unterschrieb er den Vertrag.",
       "options": [
         "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "Obwohl",
+        "Während",
+        "Damit"
       ],
       "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q062",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q063",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
-      "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
-      ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
+      "explanation": "'Nachdem' introduces an action completed before another past action — after reading the documents thoroughly, he signed the contract.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q060"
     },
     {
-      "id": "b1_07_q064",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "questionText": "Er hat lange studiert, ____ hat er die Prüfung nicht bestanden.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "trotzdem",
+        "obwohl",
+        "weil",
+        "denn"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q065",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
-      "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
-      ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
+      "correctAnswer": "trotzdem",
+      "explanation": "Trotzdem is a conjunctive adverb (position 0 or 1) meaning 'nevertheless'. It contrasts two main clauses. Obwohl would require subordinate clause word order.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q061"
     },
     {
-      "id": "b1_07_q066",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "questionText": "____ er krank war, kam er zur Arbeit.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "Trotzdem",
+        "Obwohl",
+        "Weil",
+        "Denn"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl introduces a subordinate clause (verb at the end) meaning 'although'.",
+      "difficulty": "easy",
+      "id": "b1_07_q062"
+    },
+    {
+      "questionText": "Ich helfe dir, ____ du mir später auch hilfst.",
+      "options": [
+        "wenn",
+        "als",
+        "sofern",
+        "obwohl"
+      ],
+      "correctAnswer": "sofern",
+      "explanation": "Sofern means 'provided that' and introduces a conditional subordinate clause. It is more formal than 'wenn' for conditions.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q063"
     },
     {
-      "id": "b1_07_q067",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "questionText": "____ du dich beeilst, wirst du den Zug verpassen.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "Selbst wenn",
+        "Wenn",
+        "Falls",
+        "Sofern"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q068",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q069",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
+      "correctAnswer": "Selbst wenn",
+      "explanation": "Selbst wenn means 'even if' and expresses a strong concession. The main clause is negative (verpassen).",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q064"
     },
     {
-      "id": "b1_07_q070",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "questionText": "Sie hat den Job bekommen, ____ sie wenig Berufserfahrung hat.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "trotz",
+        "trotzdem",
+        "obwohl",
+        "nämlich"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces a subordinate clause (verb at end: hat) meaning 'although'.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "id": "b1_07_q065"
     },
     {
-      "id": "b1_07_q071",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "questionText": "Er ist nicht nur intelligent, ____ auch sehr fleißig.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "aber",
+        "sondern",
+        "denn",
+        "doch"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
+      "correctAnswer": "sondern",
+      "explanation": "Sondern is used after a negative clause (nicht nur) to introduce a contrasting positive addition: 'but rather'.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q066"
     },
     {
-      "id": "b1_07_q072",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "questionText": "Ich möchte Deutsch lernen, ____ ich in Berlin studieren will.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "denn",
+        "weil",
+        "nämlich",
+        "deshalb"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
+      "correctAnswer": "denn",
+      "explanation": "Denn introduces a main clause (verb position 2) giving a reason. It is more formal than 'weil' in some contexts, but here 'weil' is not an option and 'denn' fits.",
+      "difficulty": "medium",
+      "id": "b1_07_q067"
+    },
+    {
+      "questionText": "____ des schlechten Wetters fiel das Picknick aus.",
+      "options": [
+        "Wegen",
+        "Aufgrund",
+        "Trotz",
+        "Dank"
+      ],
+      "correctAnswer": "Wegen",
+      "explanation": "Wegen is a preposition (not a conjunction) but often tested as a connector. It takes genitive (des Wetters) and means 'because of'.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q068"
     },
     {
-      "id": "b1_07_q073",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "questionText": "Sie arbeitet viel, ____ sie eine Beförderung anstrebt.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "nämlich",
+        "denn",
+        "weil",
+        "deshalb"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q074",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q075",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
+      "correctAnswer": "denn",
+      "explanation": "Denn connects two main clauses with a reason. Nämlich would be placed after the subject in the second clause.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q069"
     },
     {
-      "id": "b1_07_q076",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "questionText": "____ du schon mal in Japan warst, kannst du mir etwas empfehlen?",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "Da",
+        "Weil",
+        "Denn",
+        "Obwohl"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q077",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q078",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
+      "correctAnswer": "Da",
+      "explanation": "Da introduces a subordinate clause with a reason, often when the reason is already known to the listener. It sounds more natural here than 'weil'.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q070"
     },
     {
-      "id": "b1_07_q079",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "questionText": "Er hat das Fenster geöffnet, ____ er frische Luft hereinlassen wollte.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "denn",
+        "nämlich",
+        "um",
+        "damit"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "denn",
+      "explanation": "Denn introduces a main clause explaining the reason (verb position 2: wollte). 'Um' would require 'zu' + infinitive, 'damit' requires subordinate clause with different subject.",
+      "difficulty": "hard",
+      "id": "b1_07_q071"
     },
     {
-      "id": "b1_07_q080",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "questionText": "____ der Chef kommt, verhalten sich alle leiser.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "Wenn",
+        "Als",
+        "Wann",
+        "Ob"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn is used for repeated or general time (whenever). Als is for a single past event, which doesn't fit here.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q072"
     },
     {
-      "id": "b1_07_q081",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "questionText": "____ wir angekommen waren, begann das Konzert.",
       "options": [
+        "Wenn",
         "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "Bevor",
+        "Während"
       ],
       "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q082",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q083",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
-      "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
-      ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
+      "explanation": "Nachdem introduces a temporal clause meaning 'after'. The action in the main clause happens after the subordinate clause. Plusquamperfekt (waren angekommen) is typical.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q073"
     },
     {
-      "id": "b1_07_q084",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "questionText": "Du musst dich entscheiden, ____ für das eine ____ für das andere.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "entweder / oder",
+        "weder / noch",
+        "sowohl / als auch",
+        "nicht nur / sondern auch"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q085",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
-      "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
-      ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
+      "correctAnswer": "entweder / oder",
+      "explanation": "Entweder...oder means 'either...or' and presents two mutually exclusive options.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "id": "b1_07_q074"
     },
     {
-      "id": "b1_07_q086",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "questionText": "____ des hohen Preises kaufte er das Auto trotzdem.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "Wegen",
+        "Aufgrund",
+        "Trotz",
+        "Trotzdem"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
+      "correctAnswer": "Trotz",
+      "explanation": "Trotz is a preposition requiring genitive (des Preises) meaning 'despite'. Trotzdem is an adverb and cannot take a noun object.",
+      "difficulty": "hard",
+      "id": "b1_07_q075"
+    },
+    {
+      "questionText": "Ich rufe dich an, ____ ich zu Hause bin.",
+      "options": [
+        "als",
+        "sobald",
+        "bevor",
+        "bis"
+      ],
+      "correctAnswer": "sobald",
+      "explanation": "Sobald means 'as soon as' and indicates an immediate temporal sequence. The action in the main clause happens right after the subordinate clause.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q076"
     },
     {
-      "id": "b1_07_q087",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "questionText": "____ du deine Hausaufgaben gemacht hast, darfst du fernsehen.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "Wann",
+        "Wenn",
+        "Als",
+        "Ob"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q088",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q089",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn here means 'whenever' or 'if', introducing a condition. Not a single past event, so 'als' is wrong.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q077"
     },
     {
-      "id": "b1_07_q090",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "questionText": "Er ist sehr sportlich, ____ spielt er Tennis und Fußball.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "z.B.",
+        "nämlich",
+        "also",
+        "deshalb"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
+      "correctAnswer": "nämlich",
+      "explanation": "Nämlich (position after the verb) explains or gives a reason: 'that is to say'. It is placed directly after the verb in the clause.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q078"
     },
     {
-      "id": "b1_07_q091",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "questionText": "Er trat die Reise nicht an, ____ er krank geworden war.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "wegen",
+        "nämlich",
+        "und zwar",
+        "denn"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "denn",
+      "explanation": "Denn introduces a main clause (verb position 2: war) explaining the reason. 'Und zwar' specifies, 'nämlich' would need different word order.",
+      "difficulty": "hard",
+      "id": "b1_07_q079"
     },
     {
-      "id": "b1_07_q092",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "questionText": "____ du dich nicht beeilst, verpasst du den Bus.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "Falls",
+        "Wenn",
+        "Sofern",
+        "Wann"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn is used for conditional clauses. Falls is more hypothetical, sofern more formal/positive condition. Here 'wenn' is the most natural choice.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q080"
     },
     {
-      "id": "b1_07_q093",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "questionText": "Die Straße war gesperrt, ____ mussten wir einen großen Umweg fahren.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "deshalb",
+        "weil",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q094",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
+      "correctAnswer": "deshalb",
+      "explanation": "Deshalb is an adverbial connector expressing logical consequence. It requires verb-second word order in the following clause, unlike subordinating conjunctions that trigger verb-final order.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "id": "b1_07_q081"
     },
     {
-      "id": "b1_07_q095",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "questionText": "____ das Wetter schlecht war, haben wir den Ausflug nicht abgesagt.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "Obwohl",
+        "Weil",
+        "Deshalb",
+        "Damit"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl introduces a concessive subordinate clause, indicating a contrast between expectation and reality. It triggers verb-final word order for the conjugated verb.",
+      "difficulty": "easy",
+      "id": "b1_07_q082"
+    },
+    {
+      "questionText": "____ du pünktlich bist, können wir den Film von Anfang an sehen.",
+      "options": [
+        "Wenn",
+        "Obwohl",
+        "Weil",
+        "Während"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn introduces a conditional clause setting a requirement for the main clause action. It requires verb-final word order in the subordinate clause.",
+      "difficulty": "easy",
+      "id": "b1_07_q083"
+    },
+    {
+      "questionText": "Er hat die Prüfung bestanden, ____ hat er sofort mit dem Masterstudium begonnen.",
+      "options": [
+        "danach",
+        "bevor",
+        "während",
+        "sobald"
+      ],
+      "correctAnswer": "danach",
+      "explanation": "Danach is a temporal adverbial connector requiring verb-second word order. The other options are subordinating conjunctions that would force verb-final order, which does not match the given structure.",
+      "difficulty": "easy",
+      "id": "b1_07_q084"
+    },
+    {
+      "questionText": "____ er sehr talentiert ist, ____ fehlt ihm die Disziplin.",
+      "options": [
+        "Zwar ... aber",
+        "Sowohl ... als auch",
+        "Je ... desto",
+        "Entweder ... oder"
+      ],
+      "correctAnswer": "Zwar ... aber",
+      "explanation": "Zwar... aber expresses a concessive relationship by acknowledging a positive fact before introducing a contrasting drawback. It is a standard two-part connector in formal German.",
+      "difficulty": "easy",
+      "id": "b1_07_q085"
+    },
+    {
+      "questionText": "Die Kosten sind stark gestiegen, ____ wird das Budget für nächstes Jahr gekürzt.",
+      "options": [
+        "infolgedessen",
+        "weil",
+        "obwohl",
+        "falls"
+      ],
+      "correctAnswer": "infolgedessen",
+      "explanation": "Infolgedessen is a formal consequential connector requiring verb-second order. Because the blank is followed by a main clause structure (verb immediately after the comma), only an adverbial connector fits.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q086"
     },
     {
-      "id": "b1_07_q096",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "questionText": "____ alle Unterlagen vollständig sind, kann die Bearbeitung beginnen.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "Sofern",
+        "Trotzdem",
+        "Während",
+        "Demnach"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q097",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_07_q098",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
+      "correctAnswer": "Sofern",
+      "explanation": "Sofern is a formal conditional connector meaning provided that or if. It introduces a subordinate clause with verb-final order and implies a strict prerequisite.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_07_q087"
     },
     {
-      "id": "b1_07_q099",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "questionText": "Die Investition war riskant, ____ hat sie sich langfristig ausgezahlt.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "gleichwohl",
+        "weil",
+        "indem",
+        "sofern"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
+      "correctAnswer": "gleichwohl",
+      "explanation": "Gleichwohl is a formal concessive adverb meaning nevertheless or still. It requires verb-second order and contrasts the initial risk with the eventual positive outcome.",
+      "difficulty": "medium",
+      "id": "b1_07_q088"
+    },
+    {
+      "questionText": "____ die Verhandlungen andauerten, wurde kein vorläufiges Ergebnis verkündet.",
+      "options": [
+        "Solange",
+        "Sobald",
+        "Nachdem",
+        "Bevor"
+      ],
+      "correctAnswer": "Solange",
+      "explanation": "Solange expresses simultaneity over a duration (as long as). It fits the context of ongoing negotiations preventing an announcement and triggers verb-final word order.",
+      "difficulty": "medium",
+      "id": "b1_07_q089"
+    },
+    {
+      "questionText": "Das Projekt ist ____ technisch innovativ, ____ wirtschaftlich sinnvoll.",
+      "options": [
+        "sowohl ... als auch",
+        "weder ... noch",
+        "zwar ... aber",
+        "entweder ... oder"
+      ],
+      "correctAnswer": "sowohl ... als auch",
+      "explanation": "Sowohl... als auch adds two positive, equally important attributes without contrast. It is frequently used in formal project evaluations and academic descriptions.",
+      "difficulty": "medium",
+      "id": "b1_07_q090"
+    },
+    {
+      "questionText": "Die Nachfrage übertraf das Angebot, ____ stiegen die Preise kontinuierlich an.",
+      "options": [
+        "folglich",
+        "obwohl",
+        "weil",
+        "indem"
+      ],
+      "correctAnswer": "folglich",
+      "explanation": "Folglich indicates a logical consequence and requires verb-second word order. It is more formal than deshalb and common in economic or analytical contexts.",
+      "difficulty": "medium",
+      "id": "b1_07_q091"
+    },
+    {
+      "questionText": "Die Maßnahme ist nur dann wirksam, ____ sie konsequent umgesetzt wird.",
+      "options": [
+        "wenn",
+        "solange",
+        "obwohl",
+        "damit"
+      ],
+      "correctAnswer": "wenn",
+      "explanation": "Wenn completes the correlative conditional structure nur dann... wenn. This pairing emphasizes a necessary condition and triggers verb-final order in the subordinate clause.",
+      "difficulty": "medium",
+      "id": "b1_07_q092"
+    },
+    {
+      "questionText": "Die neue Software ist praktikabel, ____ sie die bestehenden Schnittstellen nicht vollständig unterstützt.",
+      "options": [
+        "insofern als",
+        "obwohl",
+        "während",
+        "sofern"
+      ],
+      "correctAnswer": "insofern als",
+      "explanation": "Insofern als means in that or to the extent that. It specifies the precise respect in which the main clause holds true and introduces a subordinate clause with verb-final order.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_07_q093"
     },
     {
-      "id": "b1_07_q100",
-      "subjectId": "b1_07",
-      "topicName": "Konjunktiv II: würde",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "questionText": "____ früher die Entscheidungen getroffen werden, ____ größer ist der Spielraum für Anpassungen.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "Je ... desto",
+        "Sowohl ... als auch",
+        "Zwar ... aber",
+        "Entweder ... oder"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Je ... desto",
+      "explanation": "Je... desto links two comparative clauses proportionally. The first clause uses verb-final order after the comparative adverb, while the second clause uses verb-second order.",
+      "difficulty": "hard",
+      "id": "b1_07_q094"
+    },
+    {
+      "questionText": "Die Strategie setzt auf kurzfristige Gewinne, ____ werden langfristige Nachhaltigkeitsziele vernachlässigt.",
+      "options": [
+        "hingegen",
+        "weil",
+        "damit",
+        "sofern"
+      ],
+      "correctAnswer": "hingegen",
+      "explanation": "Hingegen is an adversative adverbial connector meaning however or in contrast. It requires verb-second order and highlights a direct contrast between two strategic priorities.",
+      "difficulty": "hard",
+      "id": "b1_07_q095"
+    },
+    {
+      "questionText": "Die Maßnahme ist nur dann wirksam, ____ sie von allen Beteiligten unterstützt wird, ____ ist sie zum Scheitern verurteilt.",
+      "options": [
+        "wenn ... ansonsten",
+        "weil ... deshalb",
+        "obwohl ... jedoch",
+        "damit ... trotzdem"
+      ],
+      "correctAnswer": "wenn ... ansonsten",
+      "explanation": "This structure pairs a conditional clause with a negative consequence. Ansonsten acts as a conjunctive adverb requiring verb-second order, contrasting the fulfilled condition with the negative outcome.",
+      "difficulty": "hard",
+      "id": "b1_07_q096"
+    },
+    {
+      "questionText": "____ der hohen Investitionssumme wurde das Projekt nicht abgelehnt, ____ die erwarteten Renditen unsicher waren.",
+      "options": [
+        "Trotz ... obwohl",
+        "Wegen ... weil",
+        "Anstatt ... dass",
+        "Infolge ... während"
+      ],
+      "correctAnswer": "Trotz ... obwohl",
+      "explanation": "Trotz governs a genitive noun phrase, while obwohl introduces a full subordinate clause with verb-final order. This tests the ability to combine prepositional and clausal connectors logically.",
+      "difficulty": "hard",
+      "id": "b1_07_q097"
+    },
+    {
+      "questionText": "Die Maßnahmen wurden ergriffen, ____ die Ursachen des Problems beseitigt wurden.",
+      "options": [
+        "ohne dass",
+        "anstatt dass",
+        "sofern",
+        "während"
+      ],
+      "correctAnswer": "ohne dass",
+      "explanation": "Ohne dass introduces a negative accompanying circumstance. It requires verb-final order and implies that the main action occurred despite the absence of the subordinate action.",
+      "difficulty": "hard",
+      "id": "b1_07_q098"
+    },
+    {
+      "questionText": "Die Nordregion verzeichnet ein starkes Wirtschaftswachstum, ____ stagniert die Entwicklung im Süden des Landes.",
+      "options": [
+        "wohingegen",
+        "weil",
+        "damit",
+        "sofern"
+      ],
+      "correctAnswer": "wohingegen",
+      "explanation": "Wohingegen is a formal comparative-adversative connector meaning whereas or while. It introduces a main clause with verb-second order, contrasting two parallel regional situations.",
+      "difficulty": "hard",
+      "id": "b1_07_q099"
+    },
+    {
+      "questionText": "____ die gesetzlichen Vorgaben strikt eingehalten wurden, ____ kam es zu erheblichen Verzögerungen im Produktionsablauf.",
+      "options": [
+        "Zwar ... jedoch",
+        "Sowohl ... als auch",
+        "Entweder ... oder",
+        "Weder ... noch"
+      ],
+      "correctAnswer": "Zwar ... jedoch",
+      "explanation": "Zwar... jedoch expresses concession in formal writing. Zwar acknowledges a fact in the first clause, while jedoch introduces a contrasting main clause requiring verb-second order.",
+      "difficulty": "hard",
+      "id": "b1_07_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

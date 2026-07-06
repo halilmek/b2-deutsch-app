@@ -1,1553 +1,1420 @@
 {
+  "version": "1.0",
   "subjectId": "c1_05",
-  "topicName": "Nominalisierung von Verben",
+  "topicName": "Partizipialattribute & Relativsatzformen",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Partizipialattribute und Relativsatzformen — At C1 level, one of the most effective ways to condense text, increase nominal complexity, and demonstrate academic writing competence is converting Relativsatze (relative clauses) into Partizipialattribute (extended participial attributes), and vice versa. The core choice between Partizip I and Partizip II depends on voice and temporality: Partizip I (Infinitive + -d) = active voice AND simultaneous action (Gleichzeitigkeit). Partizip II = (1) passive voice AND completed action for transitive verbs, or (2) active voice AND completed action ONLY for intransitive verbs forming their perfect with sein (e.g., ankommen, fallen, sterben). Advanced C1 structures include: Das Gerundiv (zu + Partizip I) replacing 'mussen/konnen + Passiv' to express necessity or possibility; and Partizip II + habend/seiend for active past completion where regular Partizip I would wrongly imply present time. Extended attributes follow a strict bracket structure: [Article + ALL modifiers (prepositions, adverbs, objects) + Participle with adjective ending + Noun]. Case rules for internal prepositional phrases must be preserved inside the attribute.",
+  "tips": [
+    "Partizip I vs. Partizip II: Partizip I (laufend) = active, simultaneous. Partizip II (gelaufen/geschrieben) = passive+completed OR active+completed with sein-verbs (ankommen, sterben, fallen). Choice determines meaning — wrong participle = wrong grammar.",
+    "Das Gerundiv (zu + Partizip I) replaces 'müssen/können + Passiv': 'Aufgaben, die noch gelöst werden müssen' -> 'Noch zu lösende Aufgaben'. Always passive meaning. Also: 'ein kaum zu erklärendes Phänomen' (possibility).",
+    "Active past completion (Partizip II + habend/seiend): When an active relative clause happened in the past but regular Partizip I would wrongly imply present time: 'Der den Dieb gefangen habende Polizist' (NOT 'Der den Dieb fangende Polizist'). Rare but essential for C1.",
+    "Extended attribute bracket order: [Article] + [ALL modifiers: adverbials, objects, prepositional phrases] + [Participle with adjective ending] + [Noun]. Example: 'Die [aus einer weit entfernten Region in Asien] reisenden Gäste' — all info BEFORE the participle.",
+    "Adjective endings on participles: the participle functions as an adjective and MUST take endings matching gender/number/case of the noun. After definite article (der/die/das/die pl.) -> weak ending -e or -en. After indefinite article -> mixed ending.",
+    "CRITICAL trap: Transitive verb + Partizip II = passive meaning automatically. 'Der den Fehler entdeckte Wissenschaftler' means 'the scientist who was discovered by the error'. Correct for past active: 'Der den Fehler entdeckt habende Wissenschaftler'.",
+    "Prepositional case inside attributes: nouns inside extended attributes keep their own prepositional case rules. 'Die im Labor (Dativ!) entwickelte Methode' — 'in' stays Dative because it describes a state, not direction.",
+    "Balance and register: extended participial attributes are excellent for academic/legal/journalistic density but destroy essay flow if overused. Mix: simple relative clauses for narrative clarity, participial attributes for formal emphasis and conciseness. 1-2 per paragraph max."
+  ],
   "questions": [
     {
-      "id": "c1_05_q001",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Partizipialattribut?",
+      "options": [
+        "Ein Nebensatz, der mit 'der', 'die' oder 'das' eingeleitet wird",
+        "Ein erweitertes Partizip, das wie ein Adjektiv vor einem Nomen steht",
+        "Ein Verb im Infinitiv, das nach einem Nomen steht",
+        "Ein Adverb, das ein Verb näher beschreibt"
+      ],
+      "correctAnswer": "Ein erweitertes Partizip, das wie ein Adjektiv vor einem Nomen steht",
+      "explanation": "A Partizipialattribut (participial attribute) is a participle (Partizip I or II) that is expanded with additional elements and placed before a noun, functioning like an adjective. E.g. 'das gestern eingereichte Formular' = 'the form submitted yesterday'.",
+      "id": "c1_05_q001"
     },
     {
-      "id": "c1_05_q002",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist das Partizip I von 'laufen'?",
       "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
+        "gelaufen",
+        "laufend",
+        "gelaufend",
+        "laeufend"
       ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
+      "correctAnswer": "laufend",
+      "explanation": "Partizip I (present participle) is formed by adding '-d' to the infinitive: laufen -> laufend. 'Gelaufen' is Partizip II (past participle). 'Gelaufend' and 'laeufend' do not exist in standard German.",
+      "id": "c1_05_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie den Relativsatz in ein Partizipialattribut um: 'die Frau, die singt'",
+      "options": [
+        "die gesungene Frau",
+        "die singende Frau",
+        "die zu singende Frau",
+        "die gesungen habende Frau"
+      ],
+      "correctAnswer": "die singende Frau",
+      "explanation": "An active, ongoing action in a relative clause ('die singt') is replaced by Partizip I + adjective ending: 'singend' -> 'die singende Frau'. Partizip I expresses simultaneity with the main clause action.",
+      "id": "c1_05_q003"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie das Partizipialattribut in einen Relativsatz um: 'das reparierte Auto'",
+      "options": [
+        "das Auto, das repariert",
+        "das Auto, das repariert wurde",
+        "das Auto, das repariert worden ist",
+        "das Auto, das repariert hat"
+      ],
+      "correctAnswer": "das Auto, das repariert wurde",
+      "explanation": "Partizip II of transitive verbs ('repariert') expresses a completed passive action. The relative clause equivalent uses passive voice: 'das repariert wurde'. Both 'wurde' (Priteritum Passiv) and 'worden ist' (Perfekt Passiv) are correct, but 'wurde' is the most natural choice here.",
+      "id": "c1_05_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was drueckt das Partizip I als Attribut aus?",
+      "options": [
+        "Eine abgeschlossene Handlung in der Vergangenheit",
+        "Eine gleichzeitig stattfindende, aktive Handlung",
+        "Eine zukuenftige Handlung",
+        "Eine Notwendigkeit oder Pflicht"
+      ],
+      "correctAnswer": "Eine gleichzeitig stattfindende, aktive Handlung",
+      "explanation": "Partizip I as an attribute expresses an action happening at the same time as the main clause action (simultaneity) and is active in meaning. E.g. 'der schlafende Hund' = 'the dog that is sleeping' (right now, simultaneously).",
+      "id": "c1_05_q005"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das richtige Partizipialattribut: 'die ____ Pakete' (= die Pakete, die ankommen)",
+      "options": [
+        "angekommenen",
+        "ankommenden",
+        "anzukommenden",
+        "gekommenen"
+      ],
+      "correctAnswer": "ankommenden",
+      "explanation": "Since the packages are in the process of arriving (active, simultaneous action), Partizip I is used: 'ankommen' -> 'ankommend' -> 'die ankommenden Pakete'. 'Angekommenen' (Partizip II) would mean 'the packages that have already arrived'.",
+      "id": "c1_05_q006"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: 'der Brief, der gestern geschrieben wurde' -> Partizipialattribut",
+      "options": [
+        "der gestern schreibende Brief",
+        "der gestern geschriebene Brief",
+        "der gestern zu schreibende Brief",
+        "der gestern geschrieben habende Brief"
+      ],
+      "correctAnswer": "der gestern geschriebene Brief",
+      "explanation": "A passive relative clause ('der geschrieben wurde') is replaced by Partizip II with adjective ending and the adverbial 'gestern' is included in the participial phrase before the noun: 'der gestern geschriebene Brief'. The adverbial always comes before the participle.",
+      "id": "c1_05_q007"
     },
     {
-      "id": "c1_05_q003",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q004",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q005",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Was drueckt 'zu + Partizip I' als Attribut aus?",
+      "options": [
+        "Eine abgeschlossene Handlung",
+        "Eine aktive, gleichzeitige Handlung",
+        "Eine Notwendigkeit oder Moeglichkeit (Passiversatzform)",
+        "Eine hypothetische Handlung in der Vergangenheit"
+      ],
+      "correctAnswer": "Eine Notwendigkeit oder Moeglichkeit (Passiversatzform)",
+      "explanation": "'Zu + Partizip I' as an attribute is equivalent to 'sein + zu + Infinitiv' or 'koennen/muessen + Passiv'. E.g. 'die zu loesende Aufgabe' = 'die Aufgabe, die geloest werden muss/kann'. It always has a passive meaning.",
+      "id": "c1_05_q008"
     },
     {
-      "id": "c1_05_q006",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q007",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q008",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: 'die Probleme, die noch geloest werden muessen' -> erweitertes Partizipialattribut",
+      "options": [
+        "die noch geloesten Probleme",
+        "die noch loesenden Probleme",
+        "die noch zu loesenden Probleme",
+        "die noch loesbaren Probleme"
+      ],
+      "correctAnswer": "die noch zu loesenden Probleme",
+      "explanation": "'Zu + Partizip I' ('zu loesend') replaces 'muessen + Passiv' in a relative clause. The adverbial 'noch' is placed before the participial construction: 'die noch zu loesenden Probleme'. This is the standard way to express obligation/possibility in a compressed attributive form.",
+      "id": "c1_05_q009"
     },
     {
-      "id": "c1_05_q009",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q010",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q011",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber erweiterte Partizipialattribute ist RICHTIG?",
+      "options": [
+        "Das Partizip steht immer nach dem Nomen.",
+        "Alle Erweiterungen (Adverbien, Objekte, Praepositionalphrasen) stehen zwischen Artikel und Partizip.",
+        "Erweiterte Partizipialattribute kommen nur in der gesprochenen Sprache vor.",
+        "Das Partizip II kann nicht als erweitertes Attribut verwendet werden."
+      ],
+      "correctAnswer": "Alle Erweiterungen (Adverbien, Objekte, Praepositionalphrasen) stehen zwischen Artikel und Partizip.",
+      "explanation": "In an extended participial attribute, all modifiers (adverbs, objects, prepositional phrases) are placed between the article and the participle, directly before the noun. E.g. 'das [von der Kommission gestern einstimmig verabschiedete] Gesetz'. This creates the typical 'bracket' structure of German nominal phrases.",
+      "id": "c1_05_q010"
     },
     {
-      "id": "c1_05_q012",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q013",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
-      "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
-      ],
-      "correctAnswer": "In",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q014",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
-      "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
-      ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie das erweiterte Partizipialattribut in einen Relativsatz um: 'das von allen erwartete Ergebnis'",
+      "options": [
+        "das Ergebnis, das von allen erwartet",
+        "das Ergebnis, das alle erwartend",
+        "das Ergebnis, das von allen erwartet wird",
+        "das Ergebnis, das alle erwartet haben"
+      ],
+      "correctAnswer": "das Ergebnis, das von allen erwartet wird",
+      "explanation": "Partizip II of transitive verbs ('erwartet') signals a passive meaning. The relative clause equivalent uses 'werden' passiv: 'das von allen erwartet wird'. The agent phrase 'von allen' is retained.",
+      "id": "c1_05_q011"
     },
     {
-      "id": "c1_05_q015",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q016",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
-      "options": [
-        "Nachdem",
-        "Weil",
-        "Obwohl",
-        "Als"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q017",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
-      "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
-      ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Relativpronomen fehlt? 'Das ist die Kollegin, ____ Vorschlag angenommen wurde.'",
+      "options": [
+        "die",
+        "deren",
+        "derer",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Deren' is the genitive form of the relative pronoun for feminine nouns (die Kollegin -> deren). It shows possession: 'whose proposal'. 'Derer' is used in different contexts (demonstrative pronoun). 'Die' and 'der' are nominative/dative forms and do not fit here.",
+      "id": "c1_05_q012"
     },
     {
-      "id": "c1_05_q018",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q019",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
-      "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q020",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Entwicklung ist ___ zu ___",
-      "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um in ein erweitertes Partizipialattribut: 'die Studentin, die seit drei Semestern in Berlin studiert'",
+      "options": [
+        "die seit drei Semestern in Berlin studierende Studentin",
+        "die seit drei Semestern in Berlin studierte Studentin",
+        "die in Berlin zu studierende Studentin",
+        "die drei Semester studierende Studentin"
+      ],
+      "correctAnswer": "die seit drei Semestern in Berlin studierende Studentin",
+      "explanation": "The relative clause uses an active present verb ('studiert'), so Partizip I ('studierend') is used. The full adverbial phrase 'seit drei Semestern in Berlin' is placed between the article and the participle: 'die [seit drei Semestern in Berlin] studierende Studentin'.",
+      "id": "c1_05_q013"
     },
     {
-      "id": "c1_05_q021",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q022",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q023",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Relativpronomen ist korrekt? 'Das ist das Projekt, ____ wir uns seit Monaten beschäftigen.'",
+      "options": [
+        "das",
+        "mit dem",
+        "womit",
+        "fuer das"
+      ],
+      "correctAnswer": "mit dem",
+      "explanation": "'Sich beschaeftigen mit' requires the preposition 'mit'. In a relative clause, the preposition must precede the relative pronoun: 'mit dem'. 'Womit' is used in less formal contexts but 'mit dem' is the standard relative clause form here.",
+      "id": "c1_05_q014"
     },
     {
-      "id": "c1_05_q024",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie vollstaendig um: 'das Gesetz, das vom Parlament nach langer Debatte verabschiedet wurde' -> erweitertes Partizipialattribut",
+      "options": [
+        "das vom Parlament nach langer Debatte verabschiedete Gesetz",
+        "das nach langer Debatte verabschiedende Gesetz",
+        "das vom Parlament verabschiedete und nach langer Debatte Gesetz",
+        "das zu verabschiedende Gesetz vom Parlament"
+      ],
+      "correctAnswer": "das vom Parlament nach langer Debatte verabschiedete Gesetz",
+      "explanation": "The passive relative clause becomes a Partizip II attribute ('verabschiedet' -> 'verabschiedete'). All modifiers ('vom Parlament', 'nach langer Debatte') are inserted between the article and the participle in their original order. The result is a dense but grammatically correct nominal phrase.",
+      "id": "c1_05_q015"
     },
     {
-      "id": "c1_05_q025",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung ist korrekt? 'die Massnahmen, die ergriffen werden sollen' -> Partizipialattribut",
       "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
+        "die ergriffenen Massnahmen",
+        "die ergreifenden Massnahmen",
+        "die zu ergreifenden Massnahmen",
+        "die ergreifend zu nehmenden Massnahmen"
       ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
+      "correctAnswer": "die zu ergreifenden Massnahmen",
+      "explanation": "'Sollen + Passiv' (obligation/intention) in a relative clause is replaced by 'zu + Partizip I' as an attribute: 'zu ergreifend' -> 'die zu ergreifenden Massnahmen'. This construction always signals passive meaning (measures that are to be taken).",
+      "id": "c1_05_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bestimmen Sie die Bedeutung: 'die noch auszuwertenden Daten'",
+      "options": [
+        "Die Daten, die bereits ausgewertet wurden",
+        "Die Daten, die gerade ausgewertet werden",
+        "Die Daten, die noch ausgewertet werden muessen",
+        "Die Daten, die ausgewertet werden koennten"
+      ],
+      "correctAnswer": "Die Daten, die noch ausgewertet werden muessen",
+      "explanation": "'Zu + Partizip I' ('auszuwertenden') expresses necessity — the data still needs to be evaluated. The adverb 'noch' reinforces that this has not happened yet. The construction is equivalent to 'Daten, die noch ausgewertet werden muessen' — a passive obligation.",
+      "id": "c1_05_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: 'der Wissenschaftler, dessen Theorie die Fachwelt revolutioniert hat' -> korrekte Relativpronomenform und warum?",
+      "options": [
+        "dessen – Genitiv Maskulinum, zeigt Zugehoerigkeit",
+        "deren – Genitiv Femininum, zeigt Zugehoerigkeit",
+        "dem – Dativ Maskulinum, nach Praeposition",
+        "den – Akkusativ Maskulinum, direktes Objekt"
+      ],
+      "correctAnswer": "dessen – Genitiv Maskulinum, zeigt Zugehoerigkeit",
+      "explanation": "'Dessen' is the genitive masculine relative pronoun, used when the relative clause modifies a noun that belongs to the antecedent (here: 'seine Theorie' -> 'dessen Theorie'). It corresponds to 'whose' in English and signals possession or attribution.",
+      "id": "c1_05_q018"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt ein fehlerhaftes Partizipialattribut?",
+      "options": [
+        "das von der Jury ausgezeichnete Werk",
+        "die seit Jahren diskutierte Frage",
+        "der morgen anreisend Delegierte",
+        "die zu beruecksichtigenden Faktoren"
+      ],
+      "correctAnswer": "der morgen anreisend Delegierte",
+      "explanation": "The Partizip I used as an attribute must take adjective endings agreeing with the noun in gender, number, and case. 'Anreisend' is missing its ending: it must be 'der morgen anreisende Delegierte'. Without the adjective ending, the construction is ungrammatical.",
+      "id": "c1_05_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie vollstaendig um in einen Relativsatz: 'die von der Kommission als unzuresichend bewerteten Massnahmen'",
+      "options": [
+        "die Massnahmen, die die Kommission als unzuresichend bewertet",
+        "die Massnahmen, die von der Kommission als unzuresichend bewertet wurden",
+        "die Massnahmen, die als unzuresichend von der Kommission bewertet werden",
+        "die Massnahmen, welche die Kommission unzuresichend bewertet hatte"
+      ],
+      "correctAnswer": "die Massnahmen, die von der Kommission als unzuresichend bewertet wurden",
+      "explanation": "The Partizip II ('bewerteten') signals a completed passive action. The relative clause equivalent uses Passiv Prateritum: 'die ... bewertet wurden'. The agent phrase 'von der Kommission' and the predicative complement 'als unzuresichend' are both retained in the relative clause.",
+      "id": "c1_05_q020"
+    },
+    {
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Partizip wird verwendet, um eine aktive, gleichzeitige Handlung als Attribut auszudrücken?",
+      "options": [
+        "Partizip I (z. B. 'laufend')",
+        "Partizip II (z. B. 'gelaufen')",
+        "Infinitiv mit 'zu'",
+        "Gerundium"
+      ],
+      "correctAnswer": "Partizip I (z. B. 'laufend')",
+      "explanation": "Partizip I (present participle) expresses active, ongoing, or simultaneous actions when used attributively, e.g., 'der laufende Motor' (= the engine that is running).",
+      "id": "c1_05_q021"
     },
     {
-      "id": "c1_05_q026",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie den Relativsatz in ein Partizipialattribut: 'Der Mann, der am Fenster steht, winkt.'",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "Der am Fenster stehende Mann winkt.",
+        "Der am Fenster gestandene Mann winkt.",
+        "Der am Fenster zu stehende Mann winkt.",
+        "Der Mann am Fenster stehend winkt."
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
+      "correctAnswer": "Der am Fenster stehende Mann winkt.",
+      "explanation": "Active relative clauses with present tense verbs are reduced to Partizip I attributes. The participle 'stehend' takes the appropriate adjective ending '-e' to agree with the masculine nominative noun 'Mann'.",
+      "id": "c1_05_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Partizipialattribut entspricht dem Relativsatz: 'Das Buch, das gestern veroeffentlicht wurde, ist ein Bestseller.'?",
+      "options": [
+        "Das gestern veroeffentlichte Buch ist ein Bestseller.",
+        "Das gestern veroeffentlichende Buch ist ein Bestseller.",
+        "Das gestern zu veroeffentlichende Buch ist ein Bestseller.",
+        "Das Buch, gestern veroeffentlicht, ist ein Bestseller."
+      ],
+      "correctAnswer": "Das gestern veroeffentlichte Buch ist ein Bestseller.",
+      "explanation": "Passive relative clauses with 'wurde' + Partizip II are reduced to Partizip II attributes. 'Veroeffentlicht' (past participle of 'veroeffentlichen') takes the ending '-e' for neuter nominative singular.",
+      "id": "c1_05_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Partizipialattribut korrekt: 'Die ____ (ankommen) Gaeste wurden begruesst.'",
+      "options": [
+        "angekommenen",
+        "ankommenden",
+        "anzukommenden",
+        "angekommene"
+      ],
+      "correctAnswer": "angekommenen",
+      "explanation": "The completed action of arrival requires Partizip II 'angekommen'. The plural accusative noun 'Gaeste' requires the adjective ending '-en' after the definite article 'die'.",
+      "id": "c1_05_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt ein korrektes Partizipialattribut mit erweitertem Attribut?",
+      "options": [
+        "Der das Buch lesende Student sitzt in der Bibliothek.",
+        "Der lesende das Buch Student sitzt in der Bibliothek.",
+        "Der Student, das Buch lesend, sitzt in der Bibliothek.",
+        "Der Student lesend das Buch sitzt in der Bibliothek."
+      ],
+      "correctAnswer": "Der das Buch lesende Student sitzt in der Bibliothek.",
+      "explanation": "Extended participial attributes place objects/adverbials before the participle. The accusative object 'das Buch' precedes 'lesende', which takes the correct ending for masculine nominative singular.",
+      "id": "c1_05_q025"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wann wird Partizip II als Attribut verwendet?",
+      "options": [
+        "Bei aktiven, andauernden Handlungen",
+        "Bei passiven oder abgeschlossenen Handlungen",
+        "Bei zukuenftigen Handlungen mit Modalverben",
+        "Bei reflexiven Verben ausschliesslich"
+      ],
+      "correctAnswer": "Bei passiven oder abgeschlossenen Handlungen",
+      "explanation": "Partizip II attributes express completed actions or passive meaning, e.g., 'die geschriebene Arbeit' (= the work that has been written / that was written).",
+      "id": "c1_05_q026"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie in einen Relativsatz: 'Die von Experten entwickelte Methode ist effektiv.'",
+      "options": [
+        "Die Methode, die von Experten entwickelt wurde, ist effektiv.",
+        "Die Methode, die von Experten entwickelt wird, ist effektiv.",
+        "Die Methode, die von Experten entwickelt worden ist, ist effektiv.",
+        "Die Methode, die von Experten zu entwickeln ist, ist effektiv."
+      ],
+      "correctAnswer": "Die Methode, die von Experten entwickelt wurde, ist effektiv.",
+      "explanation": "Partizip II attributes with 'von' + agent expand to passive relative clauses in Prateritum ('wurde entwickelt') when describing a completed past action.",
+      "id": "c1_05_q027"
     },
     {
-      "id": "c1_05_q027",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q028",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q029",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche Adjektivendung ist korrekt? 'Ein ____ (lachen) Kind spielt im Garten.'",
+      "options": [
+        "lachendes",
+        "lachender",
+        "lachende",
+        "gelachtes"
+      ],
+      "correctAnswer": "lachendes",
+      "explanation": "Partizip I 'lachend' functions as an adjective and requires the ending '-es' for neuter nominative singular after the indefinite article 'ein'.",
+      "id": "c1_05_q028"
     },
     {
-      "id": "c1_05_q030",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_05_q031",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q032",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Identifizieren Sie den stilistisch angemessensten Satz fuer einen wissenschaftlichen Text.",
+      "options": [
+        "Die Daten, die von uns analysiert wurden, zeigen einen Trend.",
+        "Die von uns analysierten Daten zeigen einen Trend.",
+        "Wir haben die Daten analysiert, und sie zeigen einen Trend.",
+        "Die Daten zeigen einen Trend, nachdem wir sie analysiert haben."
+      ],
+      "correctAnswer": "Die von uns analysierten Daten zeigen einen Trend.",
+      "explanation": "Participial attributes create concise, information-dense noun phrases preferred in academic German. This structure avoids relative clauses while maintaining clarity and formality.",
+      "id": "c1_05_q029"
     },
     {
-      "id": "c1_05_q033",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q034",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q035",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt einen Fehler im Partizipialattribut?",
+      "options": [
+        "Die im Labor durchgefuehrten Experimente waren erfolgreich.",
+        "Der den Vortrag haltende Professor ist renommiert.",
+        "Das zu bearbeitende Problem ist komplex.",
+        "Die bearbeitend Problem sind komplex."
+      ],
+      "correctAnswer": "Die bearbeitend Problem sind komplex.",
+      "explanation": "This sentence has two errors: (1) 'bearbeitend' (Partizip I) implies active ongoing action, but 'Problem' cannot actively 'bearbeiten'; (2) missing adjective ending '-e' for plural nominative. Correct: 'Die zu bearbeitenden Probleme' or 'Die bearbeiteten Probleme'.",
+      "id": "c1_05_q030"
     },
     {
-      "id": "c1_05_q036",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q037",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q038",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet das Partizipialattribut fuer den Relativsatz mit Modalverb: 'Aufgaben, die erledigt werden muessen.'?",
+      "options": [
+        "die zu erledigenden Aufgaben",
+        "die erledigenden Aufgaben",
+        "die erledigten Aufgaben",
+        "die zu erledigende Aufgaben"
+      ],
+      "correctAnswer": "die zu erledigenden Aufgaben",
+      "explanation": "Relative clauses with modal verbs expressing necessity ('muessen') transform to 'zu + Partizip I' attributes with passive meaning. The ending '-en' agrees with plural accusative/dative 'Aufgaben'.",
+      "id": "c1_05_q031"
     },
     {
-      "id": "c1_05_q039",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q040",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q041",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Transformation ist korrekt? Relativsatz -> Partizipialattribut mit Praepositionalergaenzung: 'Personen, die an dem Projekt beteiligt sind.'",
+      "options": [
+        "die an dem Projekt beteiligten Personen",
+        "die an dem Projekt beteiligenden Personen",
+        "die am Projekt zu beteiligenden Personen",
+        "die beteiligten Personen an dem Projekt"
+      ],
+      "correctAnswer": "die an dem Projekt beteiligten Personen",
+      "explanation": "Prepositional phrases ('an dem Projekt') remain before the participle in extended attributes. 'Beteiligt' (Partizip II of 'beteiligen') takes the ending '-en' for plural nominative after 'die'.",
+      "id": "c1_05_q032"
     },
     {
-      "id": "c1_05_q042",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q043",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q044",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Unterschied besteht zwischen 'der laufende Prozess' und 'der gelaufene Prozess'?",
+      "options": [
+        "Keiner; beide sind synonym.",
+        "'Laufende' beschreibt einen aktiven, gegenwaertigen Prozess; 'gelaufene' einen abgeschlossenen.",
+        "'Gelaufene' ist standardsprachlich korrekt; 'laufende' umgangssprachlich.",
+        "'Laufende' ist passiv; 'gelaufene' aktiv."
+      ],
+      "correctAnswer": "'Laufende' beschreibt einen aktiven, gegenwaertigen Prozess; 'gelaufene' einen abgeschlossenen.",
+      "explanation": "Partizip I ('laufend') expresses ongoing action; Partizip II ('gelaufen') expresses completion. This aspectual distinction is crucial for precise meaning in formal German.",
+      "id": "c1_05_q033"
     },
     {
-      "id": "c1_05_q045",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die stilistisch elegantere Variante mit Partizipialattribut? 'Ein Vorschlag, der kontrovers diskutiert wird und der neue Impulse geben kann.'",
+      "options": [
+        "Ein kontrovers diskutierter, neue Impulse gebender Vorschlag",
+        "Ein kontrovers diskutierender, neue Impulse zu gebender Vorschlag",
+        "Ein zu diskutierender Vorschlag, der neue Impulse geben kann",
+        "Ein Vorschlag, kontrovers diskutiert und neue Impulse gebend"
+      ],
+      "correctAnswer": "Ein kontrovers diskutierter, neue Impulse gebender Vorschlag",
+      "explanation": "Multiple participial attributes can be coordinated before a noun. 'Diskutierter' (Partizip II, passive) and 'gebender' (Partizip I, active) correctly reflect the original clause meanings while creating a concise, formal noun phrase.",
+      "id": "c1_05_q034"
     },
     {
-      "id": "c1_05_q046",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Kasus- und Endungskontrolle ist im Satz korrekt? 'Ich kenne den ____ (von der Kommission empfohlene) Kandidaten.'",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von der Kommission empfohlenen",
+        "von der Kommission empfohlener",
+        "von der Kommission empfehlende",
+        "von der Kommission zu empfehlenden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "von der Kommission empfohlenen",
+      "explanation": "'Kandidaten' is masculine accusative singular. After the definite article 'den', the attributive adjective/participle takes the ending '-en'. 'Empfohlenen' is Partizip II of 'empfehlen', correctly expressing passive recommendation.",
+      "id": "c1_05_q035"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie den komplexen Relativsatz in ein Partizipialattribut: 'Ein System, das automatisch Daten sammelt und sie in Echtzeit analysiert.'",
+      "options": [
+        "Ein automatisch Daten sammelndes und sie in Echtzeit analysierendes System",
+        "Ein Daten automatisch sammelndes und in Echtzeit analysierendes System",
+        "Ein System, Daten automatisch sammelnd und in Echtzeit analysierend",
+        "Ein zu sammelndes und zu analysierendes Datensystem"
+      ],
+      "correctAnswer": "Ein automatisch Daten sammelndes und sie in Echtzeit analysierendes System",
+      "explanation": "Coordinated active relative clauses transform to coordinated Partizip I attributes. Objects/adverbials precede their respective participles. The ending '-es' agrees with neuter nominative 'System'.",
+      "id": "c1_05_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber die Wortstellung in erweiterten Partizipialattributen ist korrekt?",
+      "options": [
+        "Alle Ergaenzungen stehen nach dem Partizip.",
+        "Praepositional- und Objektergaenzungen stehen vor dem Partizip; das Partizip steht unmittelbar vor dem Nomen.",
+        "Adverbiale stehen immer am Satzanfang, nie im Attribut.",
+        "Partizipialattribute duerfen keine Artikel oder Pronomen enthalten."
+      ],
+      "correctAnswer": "Praepositional- und Objektergaenzungen stehen vor dem Partizip; das Partizip steht unmittelbar vor dem Nomen.",
+      "explanation": "In German, extended participial attributes follow a strict order: all modifiers (objects, prepositional phrases, adverbials) precede the participle, which directly precedes the head noun.",
+      "id": "c1_05_q037"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Identifizieren Sie den Satz mit korrekter Trennung von Partizip und Praefix im Attribut: 'ein ____ (durchzufuehrender) Test'",
+      "options": [
+        "ein durchzufuehrender Test",
+        "ein durch zu fuehrender Test",
+        "ein durchzufuehrender Test",
+        "ein durchzufuehrender Test"
+      ],
+      "correctAnswer": "ein durchzufuehrender Test",
+      "explanation": "With separable verbs in 'zu + Partizip I' attributes, 'zu' is inserted between prefix and stem: 'durchfuehren' -> 'durchzufuehrender'. The ending '-er' agrees with masculine nominative singular after 'ein'.",
+      "id": "c1_05_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie zeigt fortgeschrittene Kompetenz im Umgang mit Partizipialattributen auf C1-Niveau?",
+      "options": [
+        "Ausschliessliche Verwendung von Relativsaetzen fuer maximale Verstaendlichkeit.",
+        "Gezielte Wahl zwischen Relativsatz und Partizipialattribut je nach Fokus, Register und Informationsdichte.",
+        "Vermeidung aller erweiterten Attribute zugunsten kurzer Hauptsaetze.",
+        "Nutzung von Partizipialattributen nur in muendlichen Pruefungen."
+      ],
+      "correctAnswer": "Gezielte Wahl zwischen Relativsatz und Partizipialattribut je nach Fokus, Register und Informationsdichte.",
+      "explanation": "C1 proficiency includes stylistic flexibility: using participial attributes for conciseness in formal/academic texts, and relative clauses for clarity or emphasis. Strategic selection demonstrates advanced syntactic and rhetorical control.",
+      "id": "c1_05_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Partizipialattribut ist semantisch und syntaktisch korrekt im Kontext: 'Die ____ (noch zu beruecksichtigenden) Faktoren wurden vergessen.'?",
+      "options": [
+        "noch zu beruecksichtigenden",
+        "noch beruecksichtigenden",
+        "noch beruecksichtigten",
+        "noch zu beruecksichtigte"
+      ],
+      "correctAnswer": "noch zu beruecksichtigenden",
+      "explanation": "The phrase expresses future necessity ('factors that still need to be considered'), requiring 'zu + Partizip I' with passive meaning. 'Beruecksichtigenden' takes the ending '-en' for plural nominative after 'die'. The adverb 'noch' correctly precedes the infinitive construction.",
+      "id": "c1_05_q040"
+    },
+    {
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Verwandeln Sie den Relativsatz in ein Partizipialattribut: 'Die Firma stellt Mitarbeiter ein, die fliessend Deutsch sprechen.' -> 'Die Firma stellt ____ Mitarbeiter ein.'",
+      "options": [
+        "fliessend Deutsch sprechenden",
+        "fliessend Deutsch gesprochene",
+        "fliessend Deutsch sprechende",
+        "Deutsch fliessend gesprochenen"
+      ],
+      "correctAnswer": "fliessend Deutsch sprechende",
+      "explanation": "The action is active and simultaneous, requiring Partizip I ('sprechend'). Since 'Mitarbeiter' is plural accusative with no article following the verb 'einstellen', the adjective/participle ending must be '-e'.",
+      "id": "c1_05_q041"
     },
     {
-      "id": "c1_05_q047",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Partizipialattribut (Passiv/Vorzeitigkeit): 'Das Gesetz, das im vergangenen Jahr ____ wurde, trat heute in Kraft.' -> 'Das im vergangenen Jahr ____ Gesetz trat heute in Kraft.'",
       "options": [
-        "Richtig",
-        "Falsch"
+        "beschlossene",
+        "beschliesend",
+        "beschlossener",
+        "zu beschliessende"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "beschlossene",
+      "explanation": "The relative clause is passive and completed in the past (vorzeitig). This requires Partizip II ('beschlossen'). It modifies 'Gesetz' (neuter singular nominative with the definite article 'das'), so the weak adjective ending is '-e'.",
+      "id": "c1_05_q042"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die richtige Form des erweiterten Partizipialattributs: Die ____ Massnahmen fuehrten schliesslich zum Erfolg.",
+      "options": [
+        "von der Regierung getroffenen",
+        "von der Regierung treffenden",
+        "durch die Regierung getroffen",
+        "von die Regierung getroffene"
+      ],
+      "correctAnswer": "von der Regierung getroffenen",
+      "explanation": "The relative clause equivalent would be 'Die Massnahmen, die von der Regierung getroffen wurden...'. Passive completion requires Partizip II ('getroffen'). Preposition 'von' requires dative ('der Regierung'). Plural nominative with definite article 'die' requires the adjective ending '-en'.",
+      "id": "c1_05_q043"
     },
     {
-      "id": "c1_05_q048",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q049",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie den Relativsatz durch ein Gerundiv (passive Noetwendigkeit): 'Projekte, die noch finanziert werden muessen, erhalten Vorrang.' -> '____ Projekte erhalten Vorrang.'",
+      "options": [
+        "Noch zu finanzierende",
+        "Noch finanzierte",
+        "Noch zu finanzierenden",
+        "Noch finanzierende"
+      ],
+      "correctAnswer": "Noch zu finanzierende",
+      "explanation": "Passive necessity ('muessen ... werden') is expressed via the Gerundiv ('zu' + Partizip I). 'Projekte' is plural nominative with no article, which triggers the strong adjective ending '-e'.",
+      "id": "c1_05_q044"
     },
     {
-      "id": "c1_05_q050",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt? 'Der Professor lobte den Studenten, der seine Masterarbeit fehlerfrei verfasst hatte.' -> 'Der Professor lobte den seine Masterarbeit fehlerfrei ____ Studenten.'",
       "options": [
-        "Richtig",
-        "Falsch"
+        "verfasst habenden",
+        "verfassenden",
+        "verfassten",
+        "zu verfassenden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "verfasst habenden",
+      "explanation": "The relative clause is active but completed in the past (vorzeitig / Plusquamperfekt). To express active past completion in a participial attribute, use past participle of main verb + Partizip I of auxiliary 'haben': 'verfasst habenden'. Modifies 'Studenten' (masculine accusative singular).",
+      "id": "c1_05_q045"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Endung des Partizips: Trotz des stundenlang anhaltend____ Regens blieb die Stimmung gut.",
+      "options": [
+        "en",
+        "er",
+        "es",
+        "em"
+      ],
+      "correctAnswer": "en",
+      "explanation": "The active simultaneous Partizip I 'anhaltend' modifies 'Regens' (masculine genitive singular). Following the genitive preposition 'trotz' and the definite article element 'des', the weak adjective ending is '-en'.",
+      "id": "c1_05_q046"
     },
     {
-      "id": "c1_05_q051",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q052",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Verwandeln Sie das Partizipialattribut in einen Relativsatz: 'Die im Labor gezeugt____ Pflanzen sind resistent gegen Schaedlinge.'",
+      "options": [
+        "Die Pflanzen, die im Labor gezeugt wurden, sind resistent...",
+        "Die Pflanzen, die das Labor zeugt, sind resistent...",
+        "Die Pflanzen, die im Labor zeugen muessen, sind resistent...",
+        "Die Pflanzen, die man im Labor zeugend sieht, sind resistent..."
+      ],
+      "correctAnswer": "Die Pflanzen, die im Labor gezeugt wurden, sind resistent...",
+      "explanation": "Partizip II ('gezeugt') used with a non-reflexive, transitive verb indicates a passive, completed action. Therefore it translates to a passive relative clause in the past.",
+      "id": "c1_05_q047"
     },
     {
-      "id": "c1_05_q053",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welches Partizip passt? 'Ein seit Jahren un geloest____ Problem beschaeftigt die Wissenschaftler.'",
+      "options": [
+        "es",
+        "en",
+        "er",
+        "e"
+      ],
+      "correctAnswer": "es",
+      "explanation": "'Problem' is neuter singular nominative. Prefaced by the indefinite article 'ein', it requires the strong adjective ending '-es' on the Partizip II 'ungeloest'.",
+      "id": "c1_05_q048"
     },
     {
-      "id": "c1_05_q054",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q055",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q056",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das passende Gerundiv: Die vom Vorstand morgen ____ Richtlinien muessen von allen Mitarbeitern beachtet werden.",
+      "options": [
+        "zu beschliessenden",
+        "beschlossenen",
+        "zu beschliessende",
+        "beschliesend"
+      ],
+      "correctAnswer": "zu beschliessenden",
+      "explanation": "The time marker 'morgen' signals a future action that must happen, showing passive obligation. This requires the Gerundiv ('zu' + Partizip I). Modifying 'Richtlinien' (plural nominative with definite article 'die'), it takes the weak ending '-en'.",
+      "id": "c1_05_q049"
     },
     {
-      "id": "c1_05_q057",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q058",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie praezise: 'Der Zug, der um 14 Uhr auf Gleis 4 einfaehrt, hat 10 Minuten Verspaetung.' -> 'Der um 14 Uhr auf Gleis 4 ____ Zug hat 10 Minuten Verspaetung.'",
+      "options": [
+        "einfahrende",
+        "eingefahrene",
+        "einzufahrende",
+        "einfahrenden"
+      ],
+      "correctAnswer": "einfahrende",
+      "explanation": "Active, simultaneous, and current action requires Partizip I of 'einfahren' -> 'einfahrend'. Masculine singular nominative with definite article 'der' results in the ending '-e'.",
+      "id": "c1_05_q050"
     },
     {
-      "id": "c1_05_q059",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt ein grammatikalisch FEHLERFREIES erweitertes Attribut?",
+      "options": [
+        "Die auf dem Kongress heftig diskutierte These erwies sich als falsch.",
+        "Die auf dem Kongress heftig diskutiert These erwies sich als falsch.",
+        "Die heftig diskutierte auf dem Kongress These erwies sich als falsch.",
+        "Die These heftig auf dem Kongress diskutierte erwies sich als falsch."
+      ],
+      "correctAnswer": "Die auf dem Kongress heftig diskutierte These erwies sich als falsch.",
+      "explanation": "In an extended attribute block, all prepositional details and adverbs must stand between the article ('Die') and the participle ('diskutierte'), which immediately precedes the noun ('These').",
+      "id": "c1_05_q051"
     },
     {
-      "id": "c1_05_q060",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_05_q061",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die verbale Entsprechung von: 'Das am Boden liegende Buch gehoert mir.'?",
+      "options": [
+        "Das Buch, das auf dem Boden liegt, gehoert mir.",
+        "Das Buch, das auf den Boden gelegt wurde, gehoert mir.",
+        "Das Buch, das man auf den Boden legen muss, gehoert mir.",
+        "Das Buch, das auf dem Boden gelegen hat, gehoert mir."
+      ],
+      "correctAnswer": "Das Buch, das auf dem Boden liegt, gehoert mir.",
+      "explanation": "Partizip I ('liegend') denotes an active, progressive, or present state (simultaneous), which translates directly to the present tense indicative active relative clause.",
+      "id": "c1_05_q052"
     },
     {
-      "id": "c1_05_q062",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die komplexe Struktur (Aktiv + Vergangenheit): Die gestern Abend spaet ____ Gaeste schliefen bis zum Mittag.",
       "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
+        "angekommenen",
+        "ankommenden",
+        "angekommen",
+        "ankommen habenden"
       ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
+      "correctAnswer": "angekommenen",
+      "explanation": "The verb 'ankommen' is intransitive and forms its past tense with 'sein'. For intransitive verbs that indicate a change of state and pair with 'sein', the simple Partizip II ('angekommen') can be used as an attribute to express an active completed past action. Plural nominative weak ending is '-en'.",
+      "id": "c1_05_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie im Partizipialattribut um: 'Die Aufgaben, die von uns geloest werden koennen, sind ueberschaubar.' -> 'Die von uns ____ Aufgaben sind ueberschaubar.'",
+      "options": [
+        "zu loesenden",
+        "geloesten",
+        "loesbaren",
+        "loesenden"
+      ],
+      "correctAnswer": "zu loesenden",
+      "explanation": "A participle attribute construction representing passive possibility/necessity explicitly utilizes the Gerundiv structure ('zu' + Partizip I) -> 'zu loesenden'. Although 'loesbar' is an adjective with passive possibility, the Gerundiv is the correct participial form here.",
+      "id": "c1_05_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Finden Sie das fehlerhafte Partizipialattribut:",
+      "options": [
+        "Das gestern gekaufte Auto ist schon kaputt.",
+        "Die im Sterben liegende Tradition stirbt aus.",
+        "Der gestern den Dieb gefasst habende Polizist wurde geehrt.",
+        "Der den Dieb gefangene Polizist wurde geehrt."
+      ],
+      "correctAnswer": "Der den Dieb gefangene Polizist wurde geehrt.",
+      "explanation": "'Fangen' is a transitive active verb. Using Partizip II ('gefangene') as an attribute makes the phrase passive ('the policeman who was caught by the thief'). To keep it active past tense, write 'der den Dieb gefasst habende Polizist'.",
+      "id": "c1_05_q055"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Endung fuer den Genitiv: Die Aufklaerung des vor zwei Wochen geschehen____ Unfalls dauert an.",
+      "options": [
+        "en",
+        "em",
+        "er",
+        "es"
+      ],
+      "correctAnswer": "en",
+      "explanation": "'Geschehen' is an intransitive state-change verb using 'sein', so its Partizip II acts as a past active attribute for 'Unfalls' (masculine genitive singular). Following 'des', the weak ending is '-en'.",
+      "id": "c1_05_q056"
     },
     {
-      "id": "c1_05_q063",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q064",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q065",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Was drueckt das Gerundiv in folgendem Satz aus? 'Die einzureichenden Unterlagen sind vollstaendig.'",
+      "options": [
+        "Die Unterlagen muessen eingereicht werden.",
+        "Die Unterlagen koennen eingereicht werden.",
+        "Die Unterlagen wurden bereits eingereicht.",
+        "Die Unterlagen duerfen nicht eingereicht werden."
+      ],
+      "correctAnswer": "Die Unterlagen muessen eingereicht werden.",
+      "explanation": "The Gerundiv ('zu' + Partizip I) primarily conveys an absolute duty or obligation (passive necessity) equivalent to 'muessen' or 'sollen'.",
+      "id": "c1_05_q057"
     },
     {
-      "id": "c1_05_q066",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q067",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Luecke: Alle an der Konferenz ____ Experten stimmten dem Vorschlag zu.",
+      "options": [
+        "teilnehmenden",
+        "teilgenommenen",
+        "teilzunehmen",
+        "teilgenommen habenden"
+      ],
+      "correctAnswer": "teilnehmenden",
+      "explanation": "The relative clause is active and simultaneous ('Experten, die teilnehmen'). This calls for Partizip I ('teilnehmend') plus weak plural ending '-en'.",
+      "id": "c1_05_q058"
     },
     {
-      "id": "c1_05_q068",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die korrekte Umwandlung in einen Relativsatz: 'Die von Forschern oft zitierte Studie enthaelt Fehler.'",
+      "options": [
+        "Die Studie, die von Forschern oft zitiert wird, enthaelt Fehler.",
+        "Die Studie, die Forscher oft zitierten, hatte Fehler.",
+        "Die Studie, die Forscher oft zitieren muessen, enthaelt Fehler.",
+        "Die Studie, die Forscher oft zitiert haben werden, enthaelt Fehler."
+      ],
+      "correctAnswer": "Die Studie, die von Forschern oft zitiert wird, enthaelt Fehler.",
+      "explanation": "Partizip II ('zitierte') paired with an ongoing adverbial ('oft') and an agent indicator ('von Forschern') represents a regular present or simple past passive relative clause ('zitiert wird' / 'zitiert wurde').",
+      "id": "c1_05_q059"
     },
     {
-      "id": "c1_05_q069",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist grammatikalisch unzulaessig?",
+      "options": [
+        "Das zu essende Kind schlaeft.",
+        "Das schlafende Kind im Bett ist suess.",
+        "Die zu lesenden Buecher liegen auf dem Tisch.",
+        "Die reparierte Uhr laeuft wieder einwandfrei."
+      ],
+      "correctAnswer": "Das zu essende Kind schlaeft.",
+      "explanation": "The Gerundiv has passive meaning. 'Das zu essende Kind' would mean 'the child that needs to be eaten', which is semantically nonsensical. It should be 'Das essende Kind' (active: the child that is currently eating).",
+      "id": "c1_05_q060"
     },
     {
-      "id": "c1_05_q070",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Mann arbeitet seit Jahren in diesem Unternehmen.",
+      "options": [
+        "dort angestellte",
+        "dort angestellt",
+        "angestellt dort",
+        "dort anstellen"
+      ],
+      "correctAnswer": "dort angestellte",
+      "explanation": "Partizip I als Adjektiv muss korrekt dekliniert werden. 'Der dort angestellte Mann' — Partizip I mit Adjektivendung '-e' nach maskulinem Nominativ mit bestimmtem Artikel.",
+      "id": "c1_05_q061"
     },
     {
-      "id": "c1_05_q071",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten, ____ an dem Projekt teilnehmen, treffen sich heute Abend.",
       "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
+        "die",
+        "deren",
+        "denen",
+        "welcher"
       ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
+      "correctAnswer": "die",
+      "explanation": "Das Relativpronomen bezieht sich auf 'Studenten' (Nominativ Plural). 'Die' ist die korrekte Form.",
+      "id": "c1_05_q062"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die gestern ____ Dokumente müssen sofort überprüft werden.",
+      "options": [
+        "eingereichten",
+        "eingereichte",
+        "einreichenden",
+        "eingereicht"
+      ],
+      "correctAnswer": "eingereichten",
+      "explanation": "Das Partizip II als Adjektiv muss mit dem Plural 'Dokumente' dekliniert werden. Nach dem bestimmten Artikel 'die' ist die Adjektivendung '-en'.",
+      "id": "c1_05_q063"
     },
     {
-      "id": "c1_05_q072",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q073",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ____ ich dir empfohlen habe, ist inzwischen ausverkauft.",
+      "options": [
+        "das",
+        "dem",
+        "dessen",
+        "den"
+      ],
+      "correctAnswer": "das",
+      "explanation": "Das Relativpronomen bezieht sich auf 'das Buch' im Akkusativ. 'Das' ist die korrekte Akkusativform.",
+      "id": "c1_05_q064"
     },
     {
-      "id": "c1_05_q074",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die im Labor ____ Experimente führten zu neuen Erkenntnissen.",
+      "options": [
+        "durchgeführten",
+        "durchgeführt",
+        "durchführenden",
+        "durchgeführte"
+      ],
+      "correctAnswer": "durchgeführten",
+      "explanation": "Ein dekliniertes Partizip-Adjektiv wird vor dem Plural-Nomen benötigt. Nach 'die' im Nominativ Plural ist die Endung '-en'.",
+      "id": "c1_05_q065"
     },
     {
-      "id": "c1_05_q075",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q076",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q077",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die Frau, mit ____ ich gesprochen habe, ist Professorin.",
+      "options": [
+        "der",
+        "die",
+        "deren",
+        "denen"
+      ],
+      "correctAnswer": "der",
+      "explanation": "Die Präposition 'mit' erfordert den Dativ. 'Der' ist die Dativ-Form des Relativpronomens für feminin Singular.",
+      "id": "c1_05_q066"
     },
     {
-      "id": "c1_05_q078",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q079",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q080",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der auf dem Tisch ____ Brief gehört meinem Bruder.",
+      "options": [
+        "liegende",
+        "gelegen",
+        "liegend",
+        "gelegte"
+      ],
+      "correctAnswer": "liegende",
+      "explanation": "Partizip I wird als Adjektiv verwendet und muss dekliniert werden. 'Der liegende Brief' — Partizip I mit Endung '-e' nach maskulinem Nominativ.",
+      "id": "c1_05_q067"
     },
     {
-      "id": "c1_05_q081",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die Kollegen, ____ Büros renoviert werden, arbeiten heute von zu Hause.",
+      "options": [
+        "deren",
+        "die",
+        "denen",
+        "welche"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Deren' drückt Besitz aus: die Kollegen, deren Büros renoviert werden. 'Deren' ist der Genitiv für Plural sowohl Maskulin als auch Feminin.",
+      "id": "c1_05_q068"
     },
     {
-      "id": "c1_05_q082",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q083",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die sorgfältig ____ Daten wurden veröffentlicht.",
+      "options": [
+        "analysierten",
+        "analysiert",
+        "analysierende",
+        "analysierte"
+      ],
+      "correctAnswer": "analysierten",
+      "explanation": "Das Partizip-Adjektiv muss mit dem Plural-Nomen 'Daten' übereinstimmen. Nach 'die' im Nominativ Plural ist die Adjektivendung '-en'.",
+      "id": "c1_05_q069"
     },
     {
-      "id": "c1_05_q084",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das ist der Wissenschaftler, ____ Forschung international bekannt ist.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "'Dessen' ist das possessive Relativpronomen für maskuline und neutrale Nomen. Es zeigt Zugehörigkeit: 'dessen Forschung' = 'whose research'.",
+      "id": "c1_05_q070"
     },
     {
-      "id": "c1_05_q085",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die neu ____ Vorschriften gelten ab sofort.",
+      "options": [
+        "eingeführten",
+        "eingeführt",
+        "einführenden",
+        "eingeführte"
+      ],
+      "correctAnswer": "eingeführten",
+      "explanation": "Das Plural-Nomen 'Vorschriften' erfordert ein dekliniertes Partizip-Adjektiv. Nach 'die' im Nominativ Plural ist die Endung '-en'.",
+      "id": "c1_05_q071"
     },
     {
-      "id": "c1_05_q086",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der Student, ____ ich das Buch gegeben habe, studiert Medizin.",
+      "options": [
+        "dem",
+        "den",
+        "dessen",
+        "der"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "Das indirekte Objekt erfordert den Dativ. 'Dem' ist die Dativ-Form für maskulin Singular.",
+      "id": "c1_05_q072"
     },
     {
-      "id": "c1_05_q087",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q088",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q089",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die während der Sitzung ____ Fragen blieben unbeantwortet.",
+      "options": [
+        "gestellten",
+        "gestellt",
+        "stellenden",
+        "gestellte"
+      ],
+      "correctAnswer": "gestellten",
+      "explanation": "Das Partizip-Adjektiv modifiziert das Plural-Nomen 'Fragen'. Nach 'die' im Nominativ Plural ist die Endung '-en'.",
+      "id": "c1_05_q073"
     },
     {
-      "id": "c1_05_q090",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q091",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q092",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die Firma, für ____ er arbeitet, expandiert international.",
+      "options": [
+        "die",
+        "der",
+        "deren",
+        "denen"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Die Präposition 'für' erfordert den Akkusativ. 'Die' ist die Akkusativ-Form für feminin Singular.",
+      "id": "c1_05_q074"
     },
     {
-      "id": "c1_05_q093",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die in Berlin ____ Konferenz war ein großer Erfolg.",
+      "options": [
+        "stattfindende",
+        "stattgefunden",
+        "stattfinden",
+        "stattgefundene"
+      ],
+      "correctAnswer": "stattfindende",
+      "explanation": "Partizip I beschreibt eine andauernde oder gleichzeitige Handlung. 'Die stattfindende Konferenz' — die Konferenz, die stattfindet.",
+      "id": "c1_05_q075"
     },
     {
-      "id": "c1_05_q094",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer, ____ Namen auf der Liste stehen, erhalten Zutritt.",
       "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
+        "deren",
+        "die",
+        "denen",
+        "welchen"
       ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "'Deren' drückt Besitz im Relativsatz aus. 'Deren Namen' = 'whose names'. Korrekt für Nominativ Plural.",
+      "id": "c1_05_q076"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der kürzlich ____ Artikel sorgte für Diskussionen.",
+      "options": [
+        "veröffentlichte",
+        "veröffentlichten",
+        "veröffentlichend",
+        "veröffentlicht"
+      ],
+      "correctAnswer": "veröffentlichte",
+      "explanation": "Das Singular-Nomen 'Artikel' (maskulin) erfordert ein korrekt dekliniertes Partizip-Adjektiv. Nach 'der' ist die Endung '-e'.",
+      "id": "c1_05_q077"
     },
     {
-      "id": "c1_05_q095",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das Museum, in ____ die Ausstellung stattfindet, ist sehr bekannt.",
+      "options": [
+        "dem",
+        "das",
+        "dessen",
+        "den"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "Die Präposition 'in' erfordert hier den Dativ. 'Dem' ist die Dativ-Form für neutral Singular.",
+      "id": "c1_05_q078"
     },
     {
-      "id": "c1_05_q096",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die vom Direktor ____ Entscheidung wurde akzeptiert.",
+      "options": [
+        "getroffene",
+        "getroffenen",
+        "treffende",
+        "getroffen"
+      ],
+      "correctAnswer": "getroffene",
+      "explanation": "Das Partizip-Adjektiv muss mit dem femininen Singular-Nomen 'Entscheidung' übereinstimmen. Nach 'die' (Nominativ Singular Femininum) ist die Endung '-e'.",
+      "id": "c1_05_q079"
     },
     {
-      "id": "c1_05_q097",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter, an ____ Vorschlägen gearbeitet wurde, erhielten eine Prämie.",
       "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
+        "deren",
+        "denen",
+        "die",
+        "welche"
       ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "'An deren Vorschlägen' ist die korrekte possessive Relativkonstruktion nach der Präposition. 'Deren' zeigt Zugehörigkeit (der Vorschläge).",
+      "id": "c1_05_q080"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ein Partizipialattribut ist eine ____ Form, die ein Nomen näher beschreibt.",
+      "options": [
+        "finite Verb",
+        "infinitivische Verb",
+        "konjugierte Verb",
+        "Präpositional-"
+      ],
+      "correctAnswer": "infinitivische Verb",
+      "explanation": "A participial attribute uses a non-finite verb form (Partizip I or Partizip II) to modify a noun, like 'der lesende Mann' or 'das gekochte Ei'.",
+      "id": "c1_05_q081"
     },
     {
-      "id": "c1_05_q098",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält ein Partizipialattribut?",
       "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
+        "Der Mann, der lacht, ist mein Bruder.",
+        "Der lachende Mann ist mein Bruder.",
+        "Der Mann lacht laut.",
+        "Der Mann, welcher lacht, ist mein Bruder."
       ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
+      "correctAnswer": "Der lachende Mann ist mein Bruder.",
+      "explanation": "'Der lachende Mann' contains the present participle (Partizip I) 'lachende' as an attribute before the noun, replacing a relative clause.",
+      "id": "c1_05_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie den Relativsatz durch ein Partizipialattribut: 'Der Antrag, der abgelehnt wurde, lag auf dem Tisch.'",
+      "options": [
+        "Der abgelehnte Antrag lag auf dem Tisch.",
+        "Der ablehnende Antrag lag auf dem Tisch.",
+        "Der Antrag abgelehnt lag auf dem Tisch.",
+        "Der Antrag, abgelehnt, lag auf dem Tisch."
+      ],
+      "correctAnswer": "Der abgelehnte Antrag lag auf dem Tisch.",
+      "explanation": "The passive relative clause 'der abgelehnt wurde' becomes the past participle (Partizip II) 'abgelehnte' as an attribute before the noun.",
+      "id": "c1_05_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Partizip I (Präsenspartizip) wird gebildet aus ____ + ____.",
+      "options": [
+        "Infinitiv + -t",
+        "Infinitiv + -nd",
+        "Präteritumstamm + -end",
+        "Partizip II + -er"
+      ],
+      "correctAnswer": "Infinitiv + -nd",
+      "explanation": "Partizip I = Infinitive + -d (e.g., 'lachen' -> 'lachend', 'arbeiten' -> 'arbeitend'). It describes an ongoing action.",
+      "id": "c1_05_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Partizipialattribut ist korrekt?",
+      "options": [
+        "der zu lesende Buch",
+        "der lesende Buch",
+        "das gelesene Buch",
+        "das lesende Buch"
+      ],
+      "correctAnswer": "das gelesene Buch",
+      "explanation": "'Das gelesene Buch' (the read book) uses Partizip II of 'lesen' with correct neuter article. 'Das lesende Buch' would mean 'the book that is reading' (active, unusual).",
+      "id": "c1_05_q085"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Vervollständigen Sie: 'Die ____ Tür wurde repariert.'",
+      "options": [
+        "offenstehende",
+        "offen gestandene",
+        "offen tretende",
+        "offen werdende"
+      ],
+      "correctAnswer": "offenstehende",
+      "explanation": "'Offenstehende' = standing open. Partizip I of 'offenstehen' as an attribute: 'die offenstehende Tür' (the door that is standing open).",
+      "id": "c1_05_q086"
     },
     {
-      "id": "c1_05_q099",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_05_q100",
-      "subjectId": "c1_05",
-      "topicName": "Nominalisierung von Verben",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ein Partizipialattribut mit ____ kann eine aktive, gleichzeitige Handlung ausdrücken.",
+      "options": [
+        "Partizip I",
+        "Partizip II",
+        "Partizip Perfekt",
+        "Präteritum"
+      ],
+      "correctAnswer": "Partizip I",
+      "explanation": "Partizip I (e.g., 'der weinende Junge') describes an active action happening at the same time as the main clause.",
+      "id": "c1_05_q087"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie: 'Die Studentin, die die Prüfung bestanden hat, ist glücklich.' -> 'Die ____ Studentin ist glücklich.'",
+      "options": [
+        "die Prüfung bestehende",
+        "die Prüfung bestandene",
+        "die Prüfung bestehnde",
+        "die Prüfung bestand habende"
+      ],
+      "correctAnswer": "die Prüfung bestehende",
+      "explanation": "Active present participle 'bestehend' replaces the active relative clause with present perfect. In participle attributes, present participle is used for active actions regardless of tense.",
+      "id": "c1_05_q088"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Relativsatz kann nicht direkt in ein Partizipialattribut umgewandelt werden (ohne Bedeutungsänderung)?",
+      "options": [
+        "Der Mann, der schläft.",
+        "Das Buch, das mir gehört.",
+        "Der Brief, der geschrieben wurde.",
+        "Die Frau, die lacht."
+      ],
+      "correctAnswer": "Das Buch, das mir gehört.",
+      "explanation": "Relative clauses with a dative object ('mir gehört') are hard to convert because participles can't easily incorporate dative objects. 'Das mir gehörende Buch' is possible but very formal/rare.",
+      "id": "c1_05_q089"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Partizipialattribute können auch ____ Attribute sein, die nach dem Nomen stehen.",
+      "options": [
+        "erweiterte",
+        "verkürzte",
+        "finite",
+        "prädikative"
+      ],
+      "correctAnswer": "erweiterte",
+      "explanation": "Erweiterte Partizipialattribute (extended participial attributes) come after the noun with additional phrases, e.g., 'der von seinem Freund begleitete Mann'.",
+      "id": "c1_05_q090"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollständigen Sie das erweiterte Partizipialattribut: 'Die ____ Lösung wurde akzeptiert.'",
+      "options": [
+        "von allen Beteiligten vorgeschlagene",
+        "vorgeschlagene von allen Beteiligten",
+        "alle Beteiligten vorgeschlagene",
+        "die von allen Beteiligten vorgeschlagene"
+      ],
+      "correctAnswer": "von allen Beteiligten vorgeschlagene",
+      "explanation": "In an extended participial attribute, the additional elements (here 'von allen Beteiligten') come before the past participle, all positioned before the noun.",
+      "id": "c1_05_q091"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist ein Partizip II als Attribut?",
+      "options": [
+        "der tanzende Mann",
+        "der getanzte Walzer",
+        "der zu tanzende Walzer",
+        "der Walzer tanzend"
+      ],
+      "correctAnswer": "der getanzte Walzer",
+      "explanation": "'Getanzte' is Partizip II of 'tanzen' used as an attribute (passive meaning: the waltz that was danced).",
+      "id": "c1_05_q092"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ein Partizipialattribut mit Partizip I hat meist eine ____ Bedeutung.",
+      "options": [
+        "passive",
+        "aktive",
+        "futurische",
+        "modale"
+      ],
+      "correctAnswer": "aktive",
+      "explanation": "Partizip I attributes (e.g., 'der schreibende Student') have active meaning: the student is writing (actively doing the action).",
+      "id": "c1_05_q093"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Partizipialattribut durch einen Relativsatz: 'Das von mir gelesene Buch war spannend.'",
+      "options": [
+        "Das Buch, das von mir gelesen ist, war spannend.",
+        "Das Buch, das ich gelesen habe, war spannend.",
+        "Das Buch, das mir gelesen wurde, war spannend.",
+        "Das Buch, gelesen von mir, war spannend."
+      ],
+      "correctAnswer": "Das Buch, das ich gelesen habe, war spannend.",
+      "explanation": "The participial attribute 'von mir gelesene' corresponds to the active relative clause 'das ich gelesen habe' (not passive).",
+      "id": "c1_05_q094"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Partizipialattribut ist falsch?",
+      "options": [
+        "der bei der Arbeit schlafende Mann",
+        "der seit Tagen nicht geschlafene Mann",
+        "der auf dem Sofa schlafende Mann",
+        "der tief schlafende Mann"
+      ],
+      "correctAnswer": "der seit Tagen nicht geschlafene Mann",
+      "explanation": "Partizip II 'geschlafene' would mean 'the man who has been slept on' (passive nonsense). Correct form must use active construction or Partizip I: 'der seit Tagen nicht geschlafen habende Mann' (rare) or simply restructure.",
+      "id": "c1_05_q095"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ein erweitertes Partizipialattribut steht normalerweise ____.",
+      "options": [
+        "vor dem Nomen",
+        "nach dem Nomen",
+        "hinter dem Verb",
+        "am Satzende"
+      ],
+      "correctAnswer": "vor dem Nomen",
+      "explanation": "Extended participial attributes (with additional words like adverbs or prepositional phrases) are placed before the noun in German: 'Der auf dem Tisch liegende Schlüssel'.",
+      "id": "c1_05_q096"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollständigen Sie: 'Das ____ Problem wurde gelöst.'",
+      "options": [
+        "seit Monaten diskutierende",
+        "seit Monaten diskutierte",
+        "diskutierende seit Monaten",
+        "seit Monaten zu diskutierende"
+      ],
+      "correctAnswer": "seit Monaten diskutierte",
+      "explanation": "Passive meaning = 'the problem discussed for months'. Partizip II 'diskutierte' + extended element 'seit Monaten' before the noun.",
+      "id": "c1_05_q097"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was drückt das Attribut 'der zu lösende' aus?",
+      "options": [
+        "aktiv und abgeschlossen",
+        "passiv und zukünftig / Notwendigkeit",
+        "aktiv und gleichzeitig",
+        "vergangen und passiv"
+      ],
+      "correctAnswer": "passiv und zukünftig / Notwendigkeit",
+      "explanation": "'Der zu lösende Konflikt' = the conflict that needs to be solved / is to be solved. It expresses passive future or necessity (Gerundivum).",
+      "id": "c1_05_q098"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist stilistisch am formalsten und nominalsten?",
+      "options": [
+        "Der Brief, der vom Chef unterschrieben wurde, ist wichtig.",
+        "Der vom Chef unterschriebene Brief ist wichtig.",
+        "Der Brief wurde vom Chef unterschrieben und ist wichtig.",
+        "Der Chef unterschrieb den Brief, der wichtig ist."
+      ],
+      "correctAnswer": "Der vom Chef unterschriebene Brief ist wichtig.",
+      "explanation": "The extended participial attribute 'Der vom Chef unterschriebene Brief' is the most nominal and formal style, typical of written German.",
+      "id": "c1_05_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vom Relativsatz zum Partizipialattribut: 'Die Touristen, die am Strand entlangspazieren, genießen das Wetter.' -> 'Die ____ Touristen genießen das Wetter.'",
+      "options": [
+        "am Strand entlangspazierenden",
+        "am Strand entlangspazierte",
+        "am Strand entlangspazierte",
+        "am Strand entlangzuspazierenden"
+      ],
+      "correctAnswer": "am Strand entlangspazierenden",
+      "explanation": "Active present tense relative clause -> Partizip I 'entlangspazierenden' with extended element 'am Strand' before the noun. Correct strong declension plural.",
+      "id": "c1_05_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

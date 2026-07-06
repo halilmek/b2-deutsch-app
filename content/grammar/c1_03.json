@@ -1,1553 +1,1419 @@
 {
+  "version": "1.0",
   "subjectId": "c1_03",
-  "topicName": "Indirekte Rede mit Konjunktiv I",
+  "topicName": "Passiversatzformen",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Passiversatzformen — At C1 level, relying solely on Vorgangspassiv (werden + Partizip II) makes your text sound repetitive. Passiversatzformen are semantically passive (subject undergoes the action) but use active verbs, adjectives, or fixed expressions. The three core structures are: (1) 'sein + zu + Infinitiv' — replaces können (possibility) or müssen (necessity); (2) 'sich lassen + Infinitiv' — replaces können exclusively (possibility); (3) adjectives in -bar/-lich — turn action into capability adjective (e.g., 'ist lesbar' = kann gelesen werden). Advanced C1 forms: Das Gerundiv ('die noch zu prüfenden Dokumente') as adjectives before nouns with passive necessity meaning; Passiv-Funktionsverbgefüge (noun-verb combinations like 'steht zur Diskussion', 'findet Anwendung', 'stößt auf Kritik') replacing passive verbs in formal/official German. Key trap: 'Das Auto ist zu reparieren' = passive (car needs fixing); 'Ich habe das Auto zu reparieren' = active (I must fix the car). Exam tip: Mix forms across paragraphs to demonstrate full syntactic control.",
+  "tips": [
+    "'sein + zu + Infinitiv' is the ultimate C1 structure: 'Die Ergebnisse sind einzusehen' = können (possibility) or 'Die Regeln sind zu beachten' = müssen (necessity). Always use the INFINITIVE, not the past participle.",
+    "'sich lassen + Infinitiv' ONLY replaces können (possibility): 'Das Problem lässt sich lösen' = 'Das Problem kann gelöst werden'. NEVER use it for müssen. Use the infinitive, not the past participle.",
+    "Trap to avoid: 'Das Auto ist zu reparieren' = PASSIVE meaning (the car is to be fixed). 'Ich habe das Auto zu reparieren' = ACTIVE meaning (I have to fix the car). 'haben + zu' = personal obligation; 'sein + zu' = passive necessity.",
+    "Adjectives in -bar/-lich express capability: 'lesbar' (can be read), 'vermeidbar' (can be avoided), 'unverzeihlich' (cannot be forgiven). These are one-word passive substitutes used as predicate adjectives.",
+    "Das Gerundiv (zu + Partizip I as adjective attribute): 'die noch zu prüfenden Dokumente' (the documents still to be examined). It means MUST/SOLL and replaces 'die Dokumente, die noch geprüft werden müssen'. Decline properly: zu prüfenden, zu lösende, zu beachtenden.",
+    "Passiv-Funktionsverbgefüge: formal noun-verb replacements — 'steht zur Diskussion' (= wird diskutiert), 'zur Anwendung kommen' (= wird angewendet), 'stößt auf Kritik' (= wird kritisiert), 'findet eine Lösung' (= wird gelöst).",
+    "Quick selection for writing: KÖNNEN → 'lässt sich machen' or 'ist machbar/ist zu machen'. MÜSSEN → 'muss gemacht werden' or 'ist zu machen'. Mix forms across paragraphs for C1 variety."
+  ],
   "questions": [
     {
-      "id": "c1_03_q001",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Passiversatzformen werden verwendet, um den ____ zu vermeiden oder stilistisch abwechslungsreicher zu gestalten.",
       "options": [
-        "hätte",
-        "habe",
+        "Konjunktiv",
+        "Vorgangspassiv",
+        "Zustandspassiv",
+        "Imperativ"
+      ],
+      "correctAnswer": "Vorgangspassiv",
+      "explanation": "Passive alternatives (Passiversatzformen) help avoid the standard Vorgangspassiv (werden + past participle) for stylistic variety or to sound more natural.",
+      "id": "c1_03_q001"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb ist eine typische Passiversatzform mit der Bedeutung 'koennen'?",
+      "options": [
+        "sein + zu + Infinitiv",
+        "lassen sich",
+        "gehoeren + past participle",
+        "bleiben + past participle"
+      ],
+      "correctAnswer": "lassen sich",
+      "explanation": "'lassen sich' + Infinitive expresses passive meaning with modal nuance of possibility, e.g., 'Das Problem laesst sich loesen' = 'The problem can be solved'.",
+      "id": "c1_03_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv durch eine Passiversatzform: 'Das Formular muss ausgefüllt werden.'",
+      "options": [
+        "Das Formular ist auszufuellen.",
+        "Das Formular laesst sich ausfuellen.",
+        "Das Formular gehoert ausgfuellt.",
+        "Das Formular bleibt auszufuellen."
+      ],
+      "correctAnswer": "Das Formular ist auszufuellen.",
+      "explanation": "'sein + zu + Infinitiv' expresses necessity/duty, equivalent to 'muessen + Passiv'. 'Das Formular ist auszufuellen' = 'The form must be filled out'.",
+      "id": "c1_03_q003"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ druckt eine passive Bedeutung mit einer modalen Nuance der Moeglichkeit aus.",
+      "options": [
+        "sich lassen + Infinitiv",
+        "sein + zu + Infinitiv",
+        "gehoeren + past participle",
+        "bleiben + past participle"
+      ],
+      "correctAnswer": "sich lassen + Infinitiv",
+      "explanation": "'sich lassen + Infinitiv' means 'can be done' (possibility), e.g., 'Das Buch laesst sich leicht lesen' = 'The book can be read easily'.",
+      "id": "c1_03_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist eine Passiversatzform mit 'sich lassen'?",
+      "options": [
+        "Die Aufgabe ist zu schaffen.",
+        "Die Aufgabe laesst sich schaffen.",
+        "Die Aufgabe wird geschafft.",
+        "Die Aufgabe gehoert geschafft."
+      ],
+      "correctAnswer": "Die Aufgabe laesst sich schaffen.",
+      "explanation": "'laesst sich schaffen' is the passive replacement form. The others are either 'sein + zu' or standard passive.",
+      "id": "c1_03_q005"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Konstruktion 'sein + zu + Infinitiv' druckt meist ____ aus.",
+      "options": [
+        "Moeglichkeit",
+        "Notwendigkeit oder Aufforderung",
+        "Vergangenheit",
+        "Wunsch"
+      ],
+      "correctAnswer": "Notwendigkeit oder Aufforderung",
+      "explanation": "'sein + zu + Infinitiv' typically expresses necessity or obligation, similar to 'muessen' or 'sollen' in passive voice.",
+      "id": "c1_03_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: 'Diese Rechnung ____ nicht mehr bezahlt werden.'",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "hat sich",
+        "bleibt"
+      ],
+      "correctAnswer": "ist zu",
+      "explanation": "'ist zu bezahlen' = must be paid. 'ist zu + Infinitiv' is correct. 'laesst sich bezahlen' would mean 'can be paid' (possibility, not necessity).",
+      "id": "c1_03_q007"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat 'sich lassen + Infinitiv' im Vergleich zum normalen Passiv?",
+      "options": [
+        "Es betont die Handlung selbst.",
+        "Es betont die Moeglichkeit oder Machbarkeit.",
+        "Es betont den Zustand.",
+        "Es betont den Zeitpunkt."
+      ],
+      "correctAnswer": "Es betont die Moeglichkeit oder Machbarkeit.",
+      "explanation": "'sich lassen' adds a modal flavor of possibility/feasibility, whereas standard passive simply states the action without modal nuance.",
+      "id": "c1_03_q008"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie: 'Dieser Text kann nicht uebersetzt werden.' (Passiversatzform mit 'lassen')",
+      "options": [
+        "Dieser Text laesst sich nicht uebersetzen.",
+        "Dieser Text ist nicht zu uebersetzen.",
+        "Dieser Text bleibt unuebersetzt.",
+        "Dieser Text gehoert nicht uebersetzt."
+      ],
+      "correctAnswer": "Dieser Text laesst sich nicht uebersetzen.",
+      "explanation": "Modal verb 'kann' + passive → 'laesst sich nicht uebersetzen' expresses impossibility. 'ist nicht zu uebersetzen' would mean 'must not be translated' (different nuance).",
+      "id": "c1_03_q009"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ wird oft als Ersatz fuer das Passiv mit Modalverb verwendet, besonders bei Handlungsverben.",
+      "options": [
+        "Die Konstruktion 'bleiben + past participle'",
+        "Die Konstruktion 'gehoeren + past participle'",
+        "Die Konstruktion 'sich lassen + Infinitiv'",
+        "Die Konstruktion 'sein + am + Infinitiv'"
+      ],
+      "correctAnswer": "Die Konstruktion 'sich lassen + Infinitiv'",
+      "explanation": "'sich lassen' is a common alternative when a modal verb (koennen) + passive would be used, especially for actions.",
+      "id": "c1_03_q010"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "'Die Tuer bleibt geschlossen.' – Welche Funktion hat dieser Satz?",
+      "options": [
+        "Vorgangspassiv",
+        "Zustandspassiv",
+        "Passiversatzform mit 'bleiben'",
+        "Aktivsatz"
+      ],
+      "correctAnswer": "Passiversatzform mit 'bleiben'",
+      "explanation": "'bleiben + past participle' is a passive replacement form that emphasizes the resulting state or that the state continues.",
+      "id": "c1_03_q011"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform druckt aus, dass eine Handlung nicht abgeschlossen ist oder ein Zustand anhaelt?",
+      "options": [
+        "sich lassen + Infinitiv",
+        "sein + zu + Infinitiv",
+        "bleiben + past participle",
+        "gehoeren + past participle"
+      ],
+      "correctAnswer": "bleiben + past participle",
+      "explanation": "'bleiben + past participle' indicates that something remains in a certain state, often as a result of a previous action (e.g., 'Das Problem bleibt ungeloest').",
+      "id": "c1_03_q012"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: (bleiben) 'Das Essen ____ auf dem Tisch stehen gelassen.'",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "bleibt",
+        "gehoert"
+      ],
+      "correctAnswer": "bleibt",
+      "explanation": "'bleibt stehen gelassen' = remains left standing. 'bleiben + past participle' shows a continuing state.",
+      "id": "c1_03_q013"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Konstruktion 'gehoeren + past participle' wird im Deutschen ____ verwendet.",
+      "options": [
+        "als Ersatz fuer das Passiv mit Modalverb 'muessen'",
+        "regional (besonders suenddeutsch/ oesterreichisch)",
+        "nur in der gesprochenen Sprache",
+        "als Ersatz fuer 'sich lassen'"
+      ],
+      "correctAnswer": "regional (besonders suenddeutsch/ oesterreichisch)",
+      "explanation": "'gehoeren + past participle' (e.g., 'Das gehoert repariert') is regionally used, especially in southern Germany, Austria, and Switzerland, meaning 'needs to be done'.",
+      "id": "c1_03_q014"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet 'Das Auto gehoert gewaschen'?",
+      "options": [
+        "Das Auto kann gewaschen werden.",
+        "Das Auto wird gewaschen.",
+        "Das Auto muss gewaschen werden.",
+        "Das Auto bleibt gewaschen."
+      ],
+      "correctAnswer": "Das Auto muss gewaschen werden.",
+      "explanation": "In regional usage (S Germany/Austria), 'gehoert gewaschen' means 'needs to be washed' (necessity), similar to 'muss gewaschen werden'.",
+      "id": "c1_03_q015"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform kann auch mit einem Dativobjekt verwendet werden?",
+      "options": [
+        "sein + zu + Infinitiv",
+        "sich lassen + Infinitiv",
+        "bleiben + past participle",
+        "gehoeren + past participle"
+      ],
+      "correctAnswer": "sich lassen + Infinitiv",
+      "explanation": "'sich lassen' can be used with dative: 'Dem Patienten laesst sich helfen' = 'The patient can be helped'.",
+      "id": "c1_03_q016"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv: 'Dieses Problem kann leicht geloest werden.' (mit 'lassen')",
+      "options": [
+        "Dieses Problem laesst sich leicht geloest.",
+        "Dieses Problem laesst sich leicht loesen.",
+        "Dieses Problem ist leicht zu loesen.",
+        "Dieses Problem bleibt leicht geloest."
+      ],
+      "correctAnswer": "Dieses Problem laesst sich leicht loesen.",
+      "explanation": "'laesst sich leicht loesen' uses the infinitive 'loesen', not the past participle. The structure is 'sich lassen + Infinitiv'.",
+      "id": "c1_03_q017"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist KEINE Passiversatzform?",
+      "options": [
+        "Das Paket ist zu oeffnen.",
+        "Das Paket laesst sich oeffnen.",
+        "Das Paket wird geoeffnet.",
+        "Das Paket bleibt geoeffnet."
+      ],
+      "correctAnswer": "Das Paket wird geoeffnet.",
+      "explanation": "'wird geoeffnet' is standard Vorgangspassiv, not an Ersatzform. The others are passive replacements (sein+zu, sich lassen, bleiben).",
+      "id": "c1_03_q018"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um in eine Passiversatzform mit 'sich lassen': 'Diese Datei kann nicht wiederhergestellt werden.'",
+      "options": [
+        "Diese Datei ist nicht wiederherzustellen.",
+        "Diese Datei laesst sich nicht wiederhergestellt.",
+        "Diese Datei laesst sich nicht wiederherstellen.",
+        "Diese Datei bleibt nicht wiederhergestellt."
+      ],
+      "correctAnswer": "Diese Datei laesst sich nicht wiederherstellen.",
+      "explanation": "'kann nicht wiederhergestellt werden' (possibility) → 'laesst sich nicht wiederherstellen' is the correct passive replacement using infinitive.",
+      "id": "c1_03_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Unterschied zwischen 'Das Geschaeft ist zu schliessen' und 'Das Geschaeft laesst sich schliessen'?",
+      "options": [
+        "Kein Unterschied.",
+        "Ersteres druckt Notwendigkeit aus, letzteres Moeglichkeit.",
+        "Ersteres ist Aktiv, letzteres Passiv.",
+        "Ersteres ist Vergangenheit, letzteres Zukunft."
+      ],
+      "correctAnswer": "Ersteres druckt Notwendigkeit aus, letzteres Moeglichkeit.",
+      "explanation": "'ist zu schliessen' = must be closed (necessity). 'laesst sich schliessen' = can be closed (possibility). This is a key distinction.",
+      "id": "c1_03_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Dieses Problem ____ leicht loesen.",
+      "options": [
+        "laesst sich",
         "wird",
-        "war"
+        "ist",
+        "hat sich"
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "correctAnswer": "laesst sich",
+      "explanation": "The structure 'sich lassen + Infinitiv' is a common passive substitute meaning 'can be done'.",
+      "id": "c1_03_q021"
+    },
+    {
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Aufgabe ist bis morgen ____.",
+      "options": [
+        "zu erledigen",
+        "erledigt werden",
+        "erledigen",
+        "zu erledigt"
+      ],
+      "correctAnswer": "zu erledigen",
+      "explanation": "The structure 'sein + zu + Infinitiv' functions as a passive replacement.",
+      "id": "c1_03_q022"
     },
     {
-      "id": "c1_03_q002",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q003",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q004",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q005",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
+      "type": "multiple_choice",
+      "questionText": "Das Auto ____ problemlos fahren.",
       "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q006",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q007",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q008",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q009",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q010",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q011",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q012",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q013",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
-      "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
-      ],
-      "correctAnswer": "In",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q014",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
-      "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
-      ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q015",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q016",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
-      "options": [
-        "Nachdem",
-        "Weil",
-        "Obwohl",
-        "Als"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q017",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
-      "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
-      ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q018",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q019",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
-      "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q020",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Entwicklung ist ___ zu ___",
-      "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q021",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
+        "laesst sich",
+        "ist zu",
         "wird",
-        "war"
+        "hat sich"
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "laesst sich",
+      "explanation": "'Sich lassen + Infinitiv' expresses possibility in a passive-like meaning.",
+      "id": "c1_03_q023"
     },
     {
-      "id": "c1_03_q022",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q023",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Formulare sind online ____.",
+      "options": [
+        "auszufuellen",
+        "ausgefuellt werden",
+        "ausfuellen",
+        "ausgefuellt zu"
+      ],
+      "correctAnswer": "auszufuellen",
+      "explanation": "'Sein + zu + Infinitiv' expresses necessity or possibility.",
+      "id": "c1_03_q024"
     },
     {
-      "id": "c1_03_q024",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q025",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Der Text ____ schwer verstehen.",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "wurde"
+      ],
+      "correctAnswer": "laesst sich",
+      "explanation": "This passive substitute means 'can be understood'.",
+      "id": "c1_03_q025"
     },
     {
-      "id": "c1_03_q026",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Regeln sind unbedingt ____.",
+      "options": [
+        "zu beachten",
+        "beachtet werden",
+        "beachten",
+        "zu beachtet"
+      ],
+      "correctAnswer": "zu beachten",
+      "explanation": "'Sein + zu + Infinitiv' expresses obligation in formal German.",
+      "id": "c1_03_q026"
     },
     {
-      "id": "c1_03_q027",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q028",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Fenster ____ nicht oeffnen.",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "hat"
+      ],
+      "correctAnswer": "laesst sich",
+      "explanation": "The phrase means 'cannot be opened' in passive meaning.",
+      "id": "c1_03_q027"
     },
     {
-      "id": "c1_03_q029",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Unterlagen sind bis Freitag ____.",
+      "options": [
+        "einzureichen",
+        "eingereicht werden",
+        "einreichen",
+        "zu eingereicht"
+      ],
+      "correctAnswer": "einzureichen",
+      "explanation": "'Sein + zu + Infinitiv' expresses what must be done.",
+      "id": "c1_03_q028"
     },
     {
-      "id": "c1_03_q030",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_03_q031",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q032",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Fehler ____ kaum vermeiden.",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "sei"
+      ],
+      "correctAnswer": "laesst sich",
+      "explanation": "This structure substitutes passive meaning with modal nuance.",
+      "id": "c1_03_q029"
     },
     {
-      "id": "c1_03_q033",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q034",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q035",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Maschine ist regelmaessig ____.",
+      "options": [
+        "zu warten",
+        "gewartet werden",
+        "warten",
+        "zu gewartet"
+      ],
+      "correctAnswer": "zu warten",
+      "explanation": "'Sein + zu + Infinitiv' is used for obligations and instructions.",
+      "id": "c1_03_q030"
     },
     {
-      "id": "c1_03_q036",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q037",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q038",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Situation ____ nicht einfach erklaeren.",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "hat sich"
+      ],
+      "correctAnswer": "laesst sich",
+      "explanation": "This passive substitute means 'cannot easily be explained'.",
+      "id": "c1_03_q031"
     },
     {
-      "id": "c1_03_q039",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Medikamente sind kuehl ____.",
+      "options": [
+        "zu lagern",
+        "gelagert werden",
+        "lagern",
+        "zu gelagert"
+      ],
+      "correctAnswer": "zu lagern",
+      "explanation": "The expression indicates an instruction or requirement.",
+      "id": "c1_03_q032"
     },
     {
-      "id": "c1_03_q040",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Ergebnis ____ eindeutig interpretieren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "sei zu"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "laesst sich",
+      "explanation": "'Sich lassen + Infinitiv' expresses passive-like possibility.",
+      "id": "c1_03_q033"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Daten sind vertraulich ____.",
+      "options": [
+        "zu behandeln",
+        "behandelt werden",
+        "behandeln",
+        "zu behandelt"
+      ],
+      "correctAnswer": "zu behandeln",
+      "explanation": "This passive substitute is common in formal instructions.",
+      "id": "c1_03_q034"
+    },
+    {
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Tuer ____ von innen oeffnen.",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "ist"
+      ],
+      "correctAnswer": "laesst sich",
+      "explanation": "The phrase means 'can be opened from inside'.",
+      "id": "c1_03_q035"
     },
     {
-      "id": "c1_03_q041",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Rechnungen sind sofort ____.",
+      "options": [
+        "zu bezahlen",
+        "bezahlt werden",
+        "bezahlen",
+        "zu bezahlt"
+      ],
+      "correctAnswer": "zu bezahlen",
+      "explanation": "'Sein + zu + Infinitiv' expresses necessity in a passive sense.",
+      "id": "c1_03_q036"
     },
     {
-      "id": "c1_03_q042",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q043",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q044",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Konflikt ____ friedlich loesen.",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "hat"
+      ],
+      "correctAnswer": "laesst sich",
+      "explanation": "The structure indicates possibility similar to passive voice.",
+      "id": "c1_03_q037"
     },
     {
-      "id": "c1_03_q045",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse sind genauer ____.",
+      "options": [
+        "zu analysieren",
+        "analysiert werden",
+        "analysieren",
+        "zu analysiert"
+      ],
+      "correctAnswer": "zu analysieren",
+      "explanation": "This construction expresses what should or must be done.",
+      "id": "c1_03_q038"
     },
     {
-      "id": "c1_03_q046",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Das Geraet ____ einfach bedienen.",
+      "options": [
+        "laesst sich",
+        "ist zu",
+        "wird",
+        "hat sich"
+      ],
+      "correctAnswer": "laesst sich",
+      "explanation": "The phrase means 'can easily be operated'.",
+      "id": "c1_03_q039"
     },
     {
-      "id": "c1_03_q047",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Antraege sind vollstaendig ____.",
+      "options": [
+        "auszufuellen",
+        "ausgefuellt werden",
+        "ausfuellen",
+        "zu ausgefuellt"
+      ],
+      "correctAnswer": "auszufuellen",
+      "explanation": "'Sein + zu + Infinitiv' is frequently used in official and academic German.",
+      "id": "c1_03_q040"
     },
     {
-      "id": "c1_03_q048",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q049",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform entspricht dem Satz: 'Das Problem kann geloest werden.'?",
+      "options": [
+        "Das Problem ist loesbar.",
+        "Das Problem loest sich.",
+        "Das Problem wird geloest.",
+        "Das Problem hat sich geloest."
+      ],
+      "correctAnswer": "Das Problem ist loesbar.",
+      "explanation": "The suffix '-bar' creates an adjective that expresses possibility, functioning as a passive alternative: 'kann geloest werden' -> 'ist loesbar'. This is a common C1-level Passiversatzform.",
+      "id": "c1_03_q041"
     },
     {
-      "id": "c1_03_q050",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform mit 'sich lassen' fuer: 'Der Text kann uebersetzt werden.'?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Der Text laesst sich uebersetzen.",
+        "Der Text laesst sich zu uebersetzen.",
+        "Der Text wird sich uebersetzen lassen.",
+        "Der Text sich laesst uebersetzen."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Der Text laesst sich uebersetzen.",
+      "explanation": "The construction 'sich lassen + Infinitiv' is a standard Passiversatzform expressing possibility. The reflexive pronoun 'sich' follows the conjugated verb 'laesst', and the infinitive comes at the end.",
+      "id": "c1_03_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist eine Passiversatzform mit 'sein + zu + Infinitiv'?",
+      "options": [
+        "Die Aufgabe ist zu erledigen.",
+        "Die Aufgabe wird erledigt.",
+        "Die Aufgabe laesst sich erledigen.",
+        "Die Aufgabe ist erledigt worden."
+      ],
+      "correctAnswer": "Die Aufgabe ist zu erledigen.",
+      "explanation": "The structure 'sein + zu + Infinitiv' expresses necessity or possibility and functions as a passive alternative: 'muss/kann erledigt werden' -> 'ist zu erledigen'.",
+      "id": "c1_03_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet die Passiversatzform: 'Das ist nicht zu uebersehen.'?",
+      "options": [
+        "Das kann nicht uebersehen werden.",
+        "Das wird nicht uebersehen.",
+        "Das hat man nicht uebersehen.",
+        "Das ueber sieht man nicht."
+      ],
+      "correctAnswer": "Das kann nicht uebersehen werden.",
+      "explanation": "'Sein + zu + Infinitiv' with negation expresses impossibility in passive meaning: 'ist nicht zu uebersehen' = 'kann nicht uebersehen werden' (cannot be overlooked).",
+      "id": "c1_03_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektiv mit der Endung '-bar' ist eine korrekte Passiversatzform fuer 'kann repariert werden'?",
+      "options": [
+        "reparierbar",
+        "reparatlich",
+        "reparabel",
+        "reparierend"
+      ],
+      "correctAnswer": "reparierbar",
+      "explanation": "The suffix '-bar' attaches to verb stems to form adjectives expressing possibility: 'reparieren' -> 'reparierbar' (= kann repariert werden). This is a productive and common Passiversatzform.",
+      "id": "c1_03_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform mit 'bekommen/erhalten/kriegen' fuer: 'Ihm wurde das Buch geschenkt.'?",
+      "options": [
+        "Er bekam das Buch geschenkt.",
+        "Er bekam das Buch zu schenken.",
+        "Das Buch bekam er geschenkt werden.",
+        "Er wurde das Buch geschenkt bekommen."
+      ],
+      "correctAnswer": "Er bekam das Buch geschenkt.",
+      "explanation": "The 'bekommen/erhalten/kriegen + Partizip II' construction shifts focus to the recipient and serves as a passive alternative, especially with verbs of giving or telling.",
+      "id": "c1_03_q046"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform ist stilistisch am neutralsten fuer wissenschaftliche Texte?",
+      "options": [
+        "Man kann die Daten analysieren.",
+        "Die Daten lassen sich analysieren.",
+        "Die Daten sind zu analysieren.",
+        "Die Daten koennen analysiert werden."
+      ],
+      "correctAnswer": "Die Daten lassen sich analysieren.",
+      "explanation": "'sich lassen + Infinitiv' is particularly valued in academic German for its neutral, objective tone without personal pronouns or explicit passive markers.",
+      "id": "c1_03_q047"
     },
     {
-      "id": "c1_03_q051",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q052",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q053",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Transformiere in eine Passiversatzform: 'Die Vorschriften muessen eingehalten werden.'",
+      "options": [
+        "Die Vorschriften sind einzuhalten.",
+        "Die Vorschriften halten sich ein.",
+        "Die Vorschriften sind eingehalten worden.",
+        "Die Vorschriften lassen sich einhalten."
+      ],
+      "correctAnswer": "Die Vorschriften sind einzuhalten.",
+      "explanation": "For passive with modal 'muessen', the Passiversatzform 'sein + zu + Infinitiv' expresses necessity: 'muessen eingehalten werden' -> 'sind einzuhalten'. The prefix 'ein-' is inserted between 'zu' and the stem.",
+      "id": "c1_03_q048"
     },
     {
-      "id": "c1_03_q054",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q055",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q056",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt eine fehlerhafte Passiversatzform?",
+      "options": [
+        "Das Problem ist loesbar.",
+        "Das Problem laesst sich loesen.",
+        "Das Problem ist zu loesen.",
+        "Das Problem laesst zu loesen sich."
+      ],
+      "correctAnswer": "Das Problem laesst zu loesen sich.",
+      "explanation": "This sentence has incorrect word order. In 'sich lassen + Infinitiv' constructions, 'sich' immediately follows the conjugated verb, and the infinitive comes at the end: 'laesst sich loesen'.",
+      "id": "c1_03_q049"
     },
     {
-      "id": "c1_03_q057",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q058",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q059",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform fuer den modalen Passivsatz: 'Hier darf nicht geparkt werden.'?",
+      "options": [
+        "Hier ist nicht zu parken.",
+        "Hier laesst sich nicht parken.",
+        "Hier ist nicht parkbar.",
+        "Hier bekommt man nicht geparkt."
+      ],
+      "correctAnswer": "Hier ist nicht zu parken.",
+      "explanation": "Prohibitive passive with 'duerfen' ('darf nicht geparkt werden') is commonly replaced by 'sein + zu + Infinitiv' with negation: 'ist nicht zu parken', expressing that parking is not permitted.",
+      "id": "c1_03_q050"
     },
     {
-      "id": "c1_03_q060",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_03_q061",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q062",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform passt am besten in: 'Diese Methode ____ in der Forschung haeufig ____.' (anwenden)?",
+      "options": [
+        "laesst sich ... anwenden",
+        "ist ... anzuwenden",
+        "wird ... angewendet",
+        "ist ... anwendbar"
+      ],
+      "correctAnswer": "laesst sich ... anwenden",
+      "explanation": "'laesst sich anwenden' best expresses general possibility/feasibility in a neutral, academic tone - typical for describing methodological applicability in research contexts.",
+      "id": "c1_03_q051"
     },
     {
-      "id": "c1_03_q063",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q064",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q065",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man: 'Die Ergebnisse koennen veroeffentlicht werden.' in zwei verschiedene Passiversatzformen?",
+      "options": [
+        "Die Ergebnisse sind veroeffentlichbar. / Die Ergebnisse lassen sich veroeffentlichen.",
+        "Die Ergebnisse werden veroeffentlichbar. / Die Ergebnisse sind zu veroeffentlichen.",
+        "Die Ergebnisse haben sich veroeffentlichen lassen. / Die Ergebnisse sind veroeffentlichend.",
+        "Die Ergebnisse bekommen veroeffentlicht. / Die Ergebnisse lassen veroeffentlichbar sich."
+      ],
+      "correctAnswer": "Die Ergebnisse sind veroeffentlichbar. / Die Ergebnisse lassen sich veroeffentlichen.",
+      "explanation": "Two valid Passiversatzformen for 'koennen + Partizip II' are: (1) adjective with '-bar' ('veroeffentlichbar') and (2) 'sich lassen + Infinitiv'. Both express possibility without using the passive voice directly.",
+      "id": "c1_03_q052"
     },
     {
-      "id": "c1_03_q066",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q067",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q068",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform druckt eine Notwendigkeit aus, nicht nur eine Moeglichkeit?",
+      "options": [
+        "Das ist machbar.",
+        "Das laesst sich machen.",
+        "Das ist zu machen.",
+        "Das ist gemacht worden."
+      ],
+      "correctAnswer": "Das ist zu machen.",
+      "explanation": "'Sein + zu + Infinitiv' can express either possibility or necessity depending on context, but often implies obligation ('muss gemacht werden'). In contrast, '-bar' adjectives and 'sich lassen' primarily express possibility.",
+      "id": "c1_03_q053"
     },
     {
-      "id": "c1_03_q069",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q070",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q071",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Passiversatzform mit 'sein + Adjektiv' fuer: 'Es ist erforderlich, dass die Unterlagen eingereicht werden.'?",
+      "options": [
+        "Die Unterlagen sind einzureichen.",
+        "Die Unterlagen reichen sich ein.",
+        "Die Unterlagen sind eingereicht worden.",
+        "Die Unterlagen lassen sich einreichen."
+      ],
+      "correctAnswer": "Die Unterlagen sind einzureichen.",
+      "explanation": "When a passive clause is embedded under 'es ist erforderlich/naetig/wichtig', it can be condensed into 'sein + zu + Infinitiv': 'dass ... eingereicht werden' -> 'sind einzureichen'.",
+      "id": "c1_03_q054"
     },
     {
-      "id": "c1_03_q072",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber die Passiversatzform 'man + Aktiv' ist korrekt?",
+      "options": [
+        "Sie ist stilistisch neutral und in allen Textsorten gleich geeignet.",
+        "Sie vermeidet das Passiv, kann aber durch die unbestimmte Bezugsperson 'man' weniger praezise wirken.",
+        "Sie ist ausschliesslich fuer umgangssprachliche Texte reserviert.",
+        "Sie erfordert immer die Verwendung des Konjunktivs."
+      ],
+      "correctAnswer": "Sie vermeidet das Passiv, kann aber durch die unbestimmte Bezugsperson 'man' weniger praezise wirken.",
+      "explanation": "While 'man + Aktiv' avoids passive constructions, the indefinite pronoun 'man' can introduce ambiguity about agency. At C1 level, learners should recognize this stylistic trade-off.",
+      "id": "c1_03_q055"
     },
     {
-      "id": "c1_03_q073",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die stilistisch anspruchsvollste Passiversatzform fuer einen wissenschaftlichen Abstract: 'Die Hypothese kann durch das Experiment ueberprueft werden.'?",
       "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
+        "Die Hypothese laesst sich durch das Experiment ueberpruefen.",
+        "Man kann die Hypothese durch das Experiment ueberpruefen.",
+        "Die Hypothese ist durch das Experiment zu ueberpruefen.",
+        "Die Hypothese ist ueberpruefbar durch das Experiment."
       ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
+      "correctAnswer": "Die Hypothese laesst sich durch das Experiment ueberpruefen.",
+      "explanation": "In academic writing, 'sich lassen + Infinitiv' is preferred for its objectivity, conciseness, and avoidance of both passive voice and indefinite pronouns.",
+      "id": "c1_03_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform ist grammatikalisch korrekt, aber stilistisch unueblich oder veraltet?",
+      "options": [
+        "Das Buch ist lesbar.",
+        "Das Buch laesst sich lesen.",
+        "Das Buch ist zu lesen.",
+        "Das Buch wird gelesen werden koennen."
+      ],
+      "correctAnswer": "Das Buch ist zu lesen.",
+      "explanation": "While grammatically correct, 'ist zu lesen' can sound formal or archaic in everyday contexts. 'laesst sich lesen' or 'ist lesbar' are often preferred for naturalness, though 'sein + zu + Infinitiv' remains standard in legal or administrative texts.",
+      "id": "c1_03_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man einen Passivsatz mit trennbarem Verb in die 'sein + zu + Infinitiv'-Form? 'Die Anlagen muessen abgeschaltet werden.'",
+      "options": [
+        "Die Anlagen sind abzuschalten.",
+        "Die Anlagen sind abzuschaltet.",
+        "Die Anlagen sind zu abschalten.",
+        "Die Anlagen lassen sich abgeschaltet."
+      ],
+      "correctAnswer": "Die Anlagen sind abzuschalten.",
+      "explanation": "With separable verbs in 'sein + zu + Infinitiv' constructions, the prefix is reattached and 'zu' is inserted between prefix and stem: 'abschalten' -> 'abzuschalten'. This is a frequent C1-level grammatical challenge.",
+      "id": "c1_03_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform erlaubt die praeziseste Unterscheidung zwischen Moeglichkeit und Notwendigkeit im Kontext: 'Die Daten ____ noch validiert ____.'?",
+      "options": [
+        "koennen ... werden (Passiv) / sind ... zu validieren (Notwendigkeit)",
+        "lassen sich ... validieren (Moeglichkeit) / sind ... zu validieren (Notwendigkeit)",
+        "sind ... validierbar (Moeglichkeit) / muessen ... validiert werden (Notwendigkeit)",
+        "Alle oben genannten Kombinationen ermoeglichen die Unterscheidung."
+      ],
+      "correctAnswer": "Alle oben genannten Kombinationen ermoeglichen die Unterscheidung.",
+      "explanation": "C1-level stylistic competence includes selecting the appropriate Passiversatzform based on intended meaning: 'sich lassen'/'-bar' for possibility, 'sein + zu' for necessity.",
+      "id": "c1_03_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie demonstriert fortgeschrittene Beherrschung von Passiversatzformen in einem C1-Pruefungstext?",
+      "options": [
+        "Ausschliessliche Verwendung einer einzigen Passiversatzform fuer Konsistenz.",
+        "Gezielte Variation zwischen Passiv und verschiedenen Passiversatzformen je nach Fokus, Register und Aussageabsicht.",
+        "Vermeidung aller Passivkonstruktionen zugunsten von Aktivsaetzen mit 'man'.",
+        "Nutzung nur der einfachsten Formen wie '-bar'-Adjektive fuer maximale Verstaendlichkeit."
+      ],
+      "correctAnswer": "Gezielte Variation zwischen Passiv und verschiedenen Passiversatzformen je nach Fokus, Register und Aussageabsicht.",
+      "explanation": "At C1 level, examiners expect stylistic flexibility: choosing between passive and its alternatives based on whether the focus is on the action, the agent, feasibility, or obligation. Strategic variation demonstrates advanced grammatical and rhetorical control.",
+      "id": "c1_03_q060"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie die Passiversatzform mit der Bedeutung 'kann geloest werden': Dieses mathematische Problem ist durchaus ____.",
+      "options": [
+        "loesbar",
+        "loeslich",
+        "zu loesen",
+        "geloest"
+      ],
+      "correctAnswer": "loesbar",
+      "explanation": "The suffix '-bar' combined with a verb stem expresses a passive possibility ('kann ... werden'). 'Loeslich' means soluble (e.g., sugar in water), so 'loesbar' is the correct choice for a problem.",
+      "id": "c1_03_q061"
     },
     {
-      "id": "c1_03_q074",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie im Passiversatz um: 'Der Antrag muss schnell bearbeitet werden.' -> 'Der Antrag ____ schnell ____.'",
       "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
+        "ist ... zu bearbeiten",
+        "hat ... zu bearbeiten",
+        "laesst sich ... bearbeiten",
+        "wird ... bearbeiten"
       ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
+      "correctAnswer": "ist ... zu bearbeiten",
+      "explanation": "The construction 'sein + zu + Infinitive' carries a passive meaning that can express either necessity ('muessen') or possibility ('koennen'). In this context, it perfectly replaces 'muss bearbeitet werden'.",
+      "id": "c1_03_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Struktur druckt eine Passiv-Moeglichkeit aus? 'Die alte Handschrift ____ kaum noch ____.' (Bedeutung: kann kaum noch gelesen werden)",
+      "options": [
+        "laesst sich ... lesen",
+        "laesst ... lesen",
+        "ist ... lesen",
+        "hat sich ... zu lesen"
+      ],
+      "correctAnswer": "laesst sich ... lesen",
+      "explanation": "'sich lassen + Infinitive' is a very common passive substitute expressing possibility ('kann ... werden'). It always requires the reflexive pronoun 'sich'.",
+      "id": "c1_03_q063"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv durch ein Nomen-Verb-Gefuege: 'Das neue Gesetz wird momentan von den Experten diskutiert.' -> 'Das neue Gesetz steht momentan ____.'",
+      "options": [
+        "zur Diskussion",
+        "unter Diskussion",
+        "in Diskussion",
+        "zur Debatte stehen"
+      ],
+      "correctAnswer": "zur Diskussion",
+      "explanation": "The Funktionsverbgefuege 'zur Diskussion stehen' has a passive meaning: 'to be discussed' (wird diskutiert).",
+      "id": "c1_03_q064"
     },
     {
-      "id": "c1_03_q075",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q076",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektiv ersetzt den Passivsatz korrekt? 'Diese Pilze koennen nicht gegessen werden; sie sind giftig.' -> 'Diese Pilze sind ____.'",
+      "options": [
+        "ungeniessbar",
+        "unessbar",
+        "essbar",
+        "nicht esserlich"
+      ],
+      "correctAnswer": "ungeniessbar",
+      "explanation": "While 'essbar' means edible, 'ungeniessbar' is the standard, sophisticated C1 term meaning inedible or unfit for consumption.",
+      "id": "c1_03_q065"
     },
     {
-      "id": "c1_03_q077",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die korrekte Transformation fuer: 'Man darf diese Warnung nicht ignorieren.'",
+      "options": [
+        "Diese Warnung ist nicht zu ignorieren.",
+        "Diese Warnung hat nicht zu ignorieren.",
+        "Diese Warnung laesst sich nicht ignorieren.",
+        "Diese Warnung darf sich nicht ignorieren lassen."
+      ],
+      "correctAnswer": "Diese Warnung ist nicht zu ignorieren.",
+      "explanation": "'sein + zu + Infinitive' acts as a passive substitute for 'muessen', 'sollen', or 'duerfen' (prohibition when negated).",
+      "id": "c1_03_q066"
     },
     {
-      "id": "c1_03_q078",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q079",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q080",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie den Satz mit einem passiven Adjektiv auf C1-Niveau: 'Ein Fehler, der nicht verziehen werden kann, ist ein ____ Fehler.'",
+      "options": [
+        "unverzeihlicher",
+        "unverzeihbarer",
+        "nicht verzeihender",
+        "unverzeihtlicher"
+      ],
+      "correctAnswer": "unverzeihlicher",
+      "explanation": "Some verbs form their passive capability adjective with the suffix '-lich' instead of '-bar'. 'Verzeihen' turns into 'unverzeihlich' (unforgivable/unpardonable).",
+      "id": "c1_03_q067"
     },
     {
-      "id": "c1_03_q081",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Nomen-Verb-Gefuege hat eine PASSIVE Bedeutung? 'Der Plan wurde schliesslich ____.'",
+      "options": [
+        "zur Ausfuehrung gebracht",
+        "zur Ausfuehrung kommen",
+        "in Ausfuehrung setzen",
+        "Ausfuehrung finden"
+      ],
+      "correctAnswer": "zur Ausfuehrung gebracht",
+      "explanation": "'Etwas zur Ausfuehrung bringen' functions as a passive functional verb construction equivalent to 'wurde ausgefuehrt', with the subject undergoing the action rather than performing it.",
+      "id": "c1_03_q068"
     },
     {
-      "id": "c1_03_q082",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q083",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Pronomen ersetzt das Passiv im folgenden Satz? 'Hier ____ es sich gut arbeiten.' (Bedeutung: Hier kann gut gearbeitet werden.)",
+      "options": [
+        "laesst",
+        "gibt",
+        "macht",
+        "tut"
+      ],
+      "correctAnswer": "laesst",
+      "explanation": "The phrase 'Hier laesst es sich gut leben/arbeiten' is an idiomatic impersonal passive substitute structure meaning 'One can work well here'.",
+      "id": "c1_03_q069"
     },
     {
-      "id": "c1_03_q084",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q085",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q086",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie das passende Verbgefuege: 'Die neuen Richtlinien muessen unbedingt ____.' (Bedeutung: muessen angewendet werden)",
+      "options": [
+        "zur Anwendung kommen",
+        "zur Anwendung bringen",
+        "in Anwendung stehen",
+        "Anwendung finden"
+      ],
+      "correctAnswer": "zur Anwendung kommen",
+      "explanation": "'Zur Anwendung kommen' is a passive functional verb chain meaning 'to be applied/used'. Coupled with 'muessen', it means 'must be applied'. 'Anwendung finden' is also passive but 'kommen' is highly idiomatic here.",
+      "id": "c1_03_q070"
     },
     {
-      "id": "c1_03_q087",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q088",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie ins Aktiv/Passiversatz mit 'man': 'Es wurde festgestellt, dass...' -> '____ stellte fest, dass...'",
+      "options": [
+        "Man",
+        "Es",
+        "Jemand",
+        "Niemand"
+      ],
+      "correctAnswer": "Man",
+      "explanation": "Using the indefinite pronoun 'man' with an active verb is a classic way to bypass the passive voice while keeping the agent generalized.",
+      "id": "c1_03_q071"
     },
     {
-      "id": "c1_03_q089",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet diese Konstruktion? 'Die Ergebnisse der Studie sind im Anhang einzusehen.'",
+      "options": [
+        "Die Ergebnisse koennen im Anhang eingesehen werden.",
+        "Die Ergebnisse muessen im Anhang eingesehen werden.",
+        "Man hat die Ergebnisse im Anhang eingesehen.",
+        "Die Ergebnisse duerfen im Anhang nicht eingesehen werden."
+      ],
+      "correctAnswer": "Die Ergebnisse koennen im Anhang eingesehen werden.",
+      "explanation": "'Sein + zu + Infinitiv' expresses option/possibility ('koennen') when the context implies availability, rather than a strict obligation.",
+      "id": "c1_03_q072"
     },
     {
-      "id": "c1_03_q090",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist KEINE gueltige Passiversatzform fuer 'Das Auto kann repariert werden.'?",
+      "options": [
+        "Das Auto hat zu reparieren.",
+        "Das Auto laesst sich reparieren.",
+        "Das Auto ist reparabel.",
+        "Das Auto ist zu reparieren."
+      ],
+      "correctAnswer": "Das Auto hat zu reparieren.",
+      "explanation": "The structure 'haben + zu + Infinitive' has an ACTIVE meaning (expressing obligation of the subject, e.g., 'Ich habe viel zu tun'). It cannot function as a passive substitute.",
+      "id": "c1_03_q073"
     },
     {
-      "id": "c1_03_q091",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formulieren Sie elegant im C1-Stil: 'Das Problem konnte nicht geloest werden, weil Geld fehlte.' -> 'Das Problem erwies sich ____, weil Geld fehlte.'",
       "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
+        "als unloesbar",
+        "als unloeslich",
+        "zu unloesen",
+        "wie unloesbar"
       ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "als unloesbar",
+      "explanation": "The phrase 'sich erweisen als + Adjektiv' combined with a passive adjective ending in '-bar' creates a sophisticated academic construction.",
+      "id": "c1_03_q074"
     },
     {
-      "id": "c1_03_q092",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie die Luecke: 'Die Kuendigungsfristen sind unbedingt ____.' (Bedeutung: muessen beachtet werden)",
+      "options": [
+        "einzuhalten",
+        "einzuhaltende",
+        "zu einhalten",
+        "eingehalten zu werden"
+      ],
+      "correctAnswer": "einzuhalten",
+      "explanation": "For separable verbs in the 'sein + zu + Infinitiv' structure, the 'zu' is placed between the prefix and the verb root ('ein-zu-halten').",
+      "id": "c1_03_q075"
     },
     {
-      "id": "c1_03_q093",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Nomen-Verb-Gefuege ersetzt den Passivsatz: 'Der Vorfall wird im Geheimen untersucht.' -> 'Der Vorfall befindet sich ____.'",
+      "options": [
+        "in der Untersuchung",
+        "unter Untersuchung",
+        "zur Untersuchung",
+        "bei der Untersuchung"
+      ],
+      "correctAnswer": "in der Untersuchung",
+      "explanation": "The structure 'sich in der Untersuchung befinden' is a high-level passive substitute indicating that an action is currently ongoing (wird untersucht).",
+      "id": "c1_03_q076"
     },
     {
-      "id": "c1_03_q094",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q095",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Bringen Sie das reflexive Passiv in die richtige Form: 'Solche Fehler ____.' (Bedeutung: Solche Fehler werden haeufig gemacht/wiederholen sich von selbst.)",
+      "options": [
+        "haeufen sich",
+        "lassen sich haeufen",
+        "sind zu haeufen",
+        "haeufen"
+      ],
+      "correctAnswer": "haeufen sich",
+      "explanation": "Certain reflexive verbs carry an intrinsic passive meaning where the subject is not acting, but experiencing the action ('etwas haeuft sich' = something accumulates / happens often).",
+      "id": "c1_03_q077"
     },
     {
-      "id": "c1_03_q096",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q097",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_03_q098",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz druckt eine unbedingte Pflicht (Passiv) aus?",
+      "options": [
+        "Die Sicherheitsvorschriften sind strikt zu befolgen.",
+        "Die Sicherheitsvorschriften lassen sich strikt befolgen.",
+        "Die Sicherheitsvorschriften sind strikt befolgbar.",
+        "Die Sicherheitsvorschriften koennen befolgt werden."
+      ],
+      "correctAnswer": "Die Sicherheitsvorschriften sind strikt zu befolgen.",
+      "explanation": "While 'lassen sich' and '-bar' express possibility, 'Sein + zu + Infinitiv' combined with an adverb like 'strikt' emphasizes an absolute obligation (muessen).",
+      "id": "c1_03_q078"
     },
     {
-      "id": "c1_03_q099",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv durch das Gerundiv: 'Die Dokumente, die noch geprueft werden muessen, liegen auf dem Tisch.' -> 'Die ____ Dokumente liegen auf dem Tisch.'",
+      "options": [
+        "noch zu pruefenden",
+        "noch geprueften",
+        "noch zu pruefende",
+        "pruefenden"
+      ],
+      "correctAnswer": "noch zu pruefenden",
+      "explanation": "The Gerundiv ('zu' + Partizip I used as an adjective) has a passive necessity meaning. Since it modifies 'Dokumente' (plural, nominative with definite article 'die'), it needs the adjective ending '-en'.",
+      "id": "c1_03_q079"
     },
     {
-      "id": "c1_03_q100",
-      "subjectId": "c1_03",
-      "topicName": "Indirekte Rede mit Konjunktiv I",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Finden Sie den grammatikalisch falschen Passiversatz:",
       "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
+        "Der Text ist unleserlich.",
+        "Das Buch liest sich sehr spannend.",
+        "Der Patient hat sofort zu operieren.",
+        "Das Fenster laesst sich nicht oeffnen."
       ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
+      "correctAnswer": "Der Patient hat sofort zu operieren.",
+      "explanation": "'Der Patient hat sofort zu operieren' is wrong because 'haben + zu' is active. It would mean the patient must perform surgery on someone else. The correct passive replacement would be 'Der Patient ist sofort zu operieren'.",
+      "id": "c1_03_q080"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist eine typische Passiversatzform?",
+      "options": [
+        "Er wird das Paket schicken.",
+        "Das Paket laesst sich leicht schicken.",
+        "Das Paket wurde geschickt.",
+        "Er schickt das Paket."
+      ],
+      "correctAnswer": "Das Paket laesst sich leicht schicken.",
+      "explanation": "'sich lassen + Infinitiv' is one of the most common passive substitutes in German. It expresses possibility or ability, similar to 'koennen + Passiv'. The other options are either active, future, or genuine passive constructions.",
+      "id": "c1_03_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv durch eine Passiversatzform: 'Das Formular kann ausgefuellt werden.'",
+      "options": [
+        "Das Formular ist ausgefuellt.",
+        "Das Formular fuellt sich aus.",
+        "Das Formular laesst sich ausfuellen.",
+        "Das Formular wird ausgefuellt."
+      ],
+      "correctAnswer": "Das Formular laesst sich ausfuellen.",
+      "explanation": "'laesst sich ausfuellen' replaces 'kann ausgefuellt werden'. Both express that filling out the form is possible. 'sich lassen + Infinitiv' always implies possibility or feasibility.",
+      "id": "c1_03_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet die Konstruktion 'sein + zu + Infinitiv'?",
+      "options": [
+        "Eine abgeschlossene Handlung in der Vergangenheit",
+        "Eine Moeglichkeit oder Notwendigkeit (Passiversatzform)",
+        "Eine Bitte oder ein Wunsch",
+        "Eine zukuenftige Handlung"
+      ],
+      "correctAnswer": "Eine Moeglichkeit oder Notwendigkeit (Passiversatzform)",
+      "explanation": "'Sein + zu + Infinitiv' is a passive substitute expressing either possibility ('can be done') or necessity ('must be done'), depending on context.",
+      "id": "c1_03_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: 'Die Aufgabe muss erledigt werden.' -> Passiversatzform mit 'sein'",
+      "options": [
+        "Die Aufgabe ist erledigt worden.",
+        "Die Aufgabe ist zu erledigen.",
+        "Die Aufgabe soll erledigt sein.",
+        "Die Aufgabe waere zu erledigen."
+      ],
+      "correctAnswer": "Die Aufgabe ist zu erledigen.",
+      "explanation": "'ist zu erledigen' replaces 'muss erledigt werden'. The construction 'Sein + zu + Infinitiv' expresses obligation or necessity and is a classic Passiversatzform.",
+      "id": "c1_03_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform druckt aus, dass etwas moeglich ist?",
+      "options": [
+        "Sein + zu + Infinitiv (im Sinne von Pflicht)",
+        "sich lassen + Infinitiv",
+        "haben + zu + Infinitiv",
+        "brauchen + nicht + zu + Infinitiv"
+      ],
+      "correctAnswer": "sich lassen + Infinitiv",
+      "explanation": "'sich lassen + Infinitiv' expresses possibility. 'haben + zu' and 'Sein + zu' (obligation sense) express necessity. 'brauchen + nicht + zu' expresses something is not necessary.",
+      "id": "c1_03_q085"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv: 'Der Text kann leicht verstanden werden.'",
+      "options": [
+        "Der Text versteht sich leicht.",
+        "Der Text laesst sich leicht verstehen.",
+        "Der Text ist leicht zu verstehen.",
+        "Sowohl B als auch C sind korrekte Passiversatzformen."
+      ],
+      "correctAnswer": "Sowohl B als auch C sind korrekte Passiversatzformen.",
+      "explanation": "Both 'laesst sich leicht verstehen' and 'ist leicht zu verstehen' are valid passive substitutes for 'kann leicht verstanden werden'. Option A carries a different idiomatic meaning.",
+      "id": "c1_03_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: 'Die Rechnung muss bis Freitag bezahlt werden.' -> Passiversatzform mit 'haben'",
+      "options": [
+        "Die Rechnung hat bis Freitag bezahlt.",
+        "Die Rechnung ist bis Freitag zu bezahlen.",
+        "Die Rechnung hat bis Freitag zu bezahlen.",
+        "Man hat die Rechnung bis Freitag bezahlt."
+      ],
+      "correctAnswer": "Die Rechnung hat bis Freitag zu bezahlen.",
+      "explanation": "'haben + zu + Infinitiv' expresses obligation equivalent to 'muessen + Passiv'. The subject of 'haben' here is the thing that must be done ('die Rechnung'), not a person.",
+      "id": "c1_03_q087"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt eine korrekte Verwendung von 'sich lassen'?",
+      "options": [
+        "Das Problem laesst sich nicht ignorieren.",
+        "Das Problem laesst sich nicht ignoriert.",
+        "Das Problem laesst nicht sich ignorieren.",
+        "Das Problem hat sich nicht ignorieren lassen."
+      ],
+      "correctAnswer": "Das Problem laesst sich nicht ignorieren.",
+      "explanation": "'sich lassen + Infinitiv' requires the infinitive (not Partizip II). The reflexive 'sich' must directly follow 'laesst'. Option D uses 'hat ... lassen' which changes the tense.",
+      "id": "c1_03_q088"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie: 'Die neuen Vorschriften muessen beachtet werden.' Welche Passiversatzform mit Adjektiv auf '-bar' ist moeglich?",
+      "options": [
+        "Die neuen Vorschriften sind beachtenswert.",
+        "Die neuen Vorschriften sind beachtbar.",
+        "Die neuen Vorschriften sind unbeachtlich.",
+        "Die neuen Vorschriften sind verbindlich."
+      ],
+      "correctAnswer": "Die neuen Vorschriften sind beachtbar.",
+      "explanation": "Adjectives ending in '-bar' from verb stems function as passive substitutes: 'beachtbar' = 'can/must be observed'. Note: in practice 'verbindlich' is more natural, but '-bar' adjectives are a recognized Passiversatzform category.",
+      "id": "c1_03_q089"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Unterschied zwischen 'Sein + zu + Infinitiv' und 'haben + zu + Infinitiv'?",
+      "options": [
+        "Es gibt keinen Unterschied; beide sind austauschbar.",
+        "'Sein + zu + Infinitiv' betont die Pflicht des Subjekts; 'haben + zu + Infinitiv' bescreibt einen Zustand.",
+        "'haben + zu + Infinitiv' hat ein persoenliches Subjekt (Person als Handlungstraeger); 'Sein + zu + Infinitiv' hat oft ein sachliches Subjekt.",
+        "'haben + zu + Infinitiv' wird nur im Perfekt verwendet."
+      ],
+      "correctAnswer": "'haben + zu + Infinitiv' hat ein persoenliches Subjekt (Person als Handlungstraeger); 'Sein + zu + Infinitiv' hat oft ein sachliches Subjekt.",
+      "explanation": "With 'haben + zu + Infinitiv', the subject is typically the agent (a person who has an obligation): 'Er hat den Bericht zu schreiben'. With 'Sein + zu + Infinitiv', the subject is the object being acted upon: 'Der Bericht ist zu schreiben'.",
+      "id": "c1_03_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "'Der Schaden ____ nicht mehr ____.' - Ergaenzen Sie die Passiversatzform mit 'lassen'.",
+      "options": [
+        "laesst / reparieren",
+        "laesst sich / reparieren",
+        "hat sich / repariert",
+        "laesst / sich reparieren"
+      ],
+      "correctAnswer": "laesst sich / reparieren",
+      "explanation": "The correct structure is: 'Der Schaden laesst sich nicht mehr reparieren.' The reflexive 'sich' belongs to 'lassen', not to 'reparieren', and the infinitive comes at the end.",
+      "id": "c1_03_q091"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform druckt KEINE Notwendigkeit aus?",
+      "options": [
+        "Sein + zu + Infinitiv",
+        "haben + zu + Infinitiv",
+        "sich lassen + Infinitiv",
+        "brauchen + nicht + zu + Infinitiv"
+      ],
+      "correctAnswer": "sich lassen + Infinitiv",
+      "explanation": "'sich lassen + Infinitiv' expresses possibility, not necessity. 'Sein + zu + Infinitiv' and 'haben + zu + Infinitiv' express obligation. 'brauchen + nicht + zu + Infinitiv' expresses that something is not necessary.",
+      "id": "c1_03_q092"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie das Passiv: 'Die Ergebnisse koennen nicht angezweifelt werden.'",
+      "options": [
+        "Die Ergebnisse lassen sich nicht anzweifeln.",
+        "Die Ergebnisse sind nicht anzuzweifeln.",
+        "Die Ergebnisse haben sich nicht anzuzweifeln.",
+        "Die Ergebnisse koennen nicht angezweifelt sein."
+      ],
+      "correctAnswer": "Die Ergebnisse sind nicht anzuzweifeln.",
+      "explanation": "'sind + zu + Infinitiv' with negation expresses that something cannot or should not be done. Note the separable verb: 'anzuzweifeln' (an-zu-zweifeln). Option A is incorrect because 'lassen' requires the plain infinitive (anzweifeln), not a zu-infinitive.",
+      "id": "c1_03_q093"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektivsuffix bildet haeufig eine Passiversatzform?",
+      "options": [
+        "-lich",
+        "-bar",
+        "-ig",
+        "-sam"
+      ],
+      "correctAnswer": "-bar",
+      "explanation": "Adjectives with the suffix '-bar' (e.g. 'loesbar', 'machbar', 'erkennbar') are formed from verb stems and function as passive substitutes meaning 'can be done'.",
+      "id": "c1_03_q094"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie vollstaendig um: 'Die Unterlagen muessen bis Montag eingereicht werden.' -> Passiversatzform mit 'haben'",
+      "options": [
+        "Die Unterlagen haben bis Montag einzureichen.",
+        "Man hat die Unterlagen bis Montag einzureichen.",
+        "Die Unterlagen haben bis Montag eingereicht.",
+        "Die Unterlagen sind bis Montag einzureichen."
+      ],
+      "correctAnswer": "Die Unterlagen sind bis Montag einzureichen.",
+      "explanation": "When the subject is the object being acted upon (docs, not a person), 'Sein + zu + Infinitiv' is the correct substitution for 'muessen + Passiv'. 'haben + zu + Infinitiv' requires a personal agent as subject.",
+      "id": "c1_03_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber '-bar'-Adjektive als Passiversatzformen ist FALSCH?",
+      "options": [
+        "Sie drucken aus, dass etwas moeglich ist.",
+        "Sie werden aus Verbstämmen gebildet (z.B. loesen -> loesbar).",
+        "Sie koennen immer durch 'sich lassen + Infinitiv' ersetzt werden.",
+        "Nicht alle Verben bilden gebrauchliche '-bar'-Adjektive."
+      ],
+      "correctAnswer": "Sie koennen immer durch 'sich lassen + Infinitiv' ersetzt werden.",
+      "explanation": "While '-bar' adjectives and 'sich lassen + Infinitiv' both express possibility, they are not always interchangeable. Some '-bar' adjectives have lexicalized meanings that differ from a literal 'sich lassen' construction.",
+      "id": "c1_03_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um: 'Der Konflikt kann durch Dialog geloest werden.' Welche zwei Passiversatzformen sind korrekt?",
+      "options": [
+        "Der Konflikt laesst sich durch Dialog loesen. / Der Konflikt ist durch Dialog zu loesen.",
+        "Der Konflikt hat sich durch Dialog zu loesen. / Der Konflikt loest sich durch Dialog.",
+        "Der Konflikt ist durch Dialog geloest. / Der Konflikt laesst sich durch Dialog geloest.",
+        "Der Konflikt laesst durch Dialog loesen. / Der Konflikt ist loesbar durch Dialog."
+      ],
+      "correctAnswer": "Der Konflikt laesst sich durch Dialog loesen. / Der Konflikt ist durch Dialog zu loesen.",
+      "explanation": "Both 'laesst sich loesen' and 'ist zu loesen' correctly replace 'kann geloest werden'. The agent phrase 'durch Dialog' is retained in both.",
+      "id": "c1_03_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet 'haben + zu + Infinitiv' KORREKT?",
+      "options": [
+        "Das Gebaude hat abgerissen zu werden.",
+        "Der Mieter hat die Wohnung bis Ende des Monats zu raumen.",
+        "Die Wohnung hat sich zu raumen.",
+        "Der Vertrag hat zu unterschreiben bis Freitag."
+      ],
+      "correctAnswer": "Der Mieter hat die Wohnung bis Ende des Monats zu raumen.",
+      "explanation": "'haben + zu + Infinitiv' requires a personal subject (here: 'der Mieter') who has an obligation. Option A is incorrect because 'haben' is not used with passive infinitives; Options C and D have incorrect word order.",
+      "id": "c1_03_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bestimmen Sie die Bedeutung: 'Die Klausel ist so nicht hinzunehmen.'",
+      "options": [
+        "Die Klausel wurde nicht hinzugefuegt.",
+        "Die Klausel kann so nicht akzeptiert werden.",
+        "Die Klausel hat nichts hinzuzufuegen.",
+        "Die Klausel ist nicht vorhanden."
+      ],
+      "correctAnswer": "Die Klausel kann so nicht akzeptiert werden.",
+      "explanation": "'ist + zu + Infinitiv' with negation expresses impossibility or unacceptability: the clause cannot/should not be accepted as it is. 'hinzunehmen' means 'to accept/tolerate'.",
+      "id": "c1_03_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Passiversatzform ist im Satz enthalten und was bedeutet sie? 'Saemtliche Einwaende des Ausschusses sind in der Analyse zu beruecksichtigen.'",
+      "options": [
+        "'sich lassen + Infinitiv' - die Einwaende koennen beruecksichtigt werden",
+        "'Sein + zu + Infinitiv' - die Einwaende muessen beruecksichtigt werden",
+        "'haben + zu + Infinitiv' - der Ausschuss muss die Einwaende beruecksichtigen",
+        "'-bar'-Adjektiv - die Einwaende sind beruecksichtigbar"
+      ],
+      "correctAnswer": "'Sein + zu + Infinitiv' - die Einwaende muessen beruecksichtigt werden",
+      "explanation": "'sind zu beruecksichtigen' is the 'Sein + zu + Infinitiv' construction. In formal/official contexts, it expresses obligation: the objections must be taken into account.",
+      "id": "c1_03_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

@@ -1,1554 +1,1436 @@
 {
+  "version": "1.0",
   "subjectId": "b1_03",
-  "topicName": "weil, obwohl, dass, ob",
+  "topicName": "Passiv",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 101,
+  "description": "German Passive (Passiv) shifts focus from the agent to the action or its result. Two main types: Vorgangspassiv (process passive) using werden + Partizip II, and Zustandspassiv (state passive) using sein + Partizip II. Passive alternatives include sich lassen + Infinitiv, sein + zu + Infinitiv, and -bar/-lich/-ig adjectives.\n\nKey structures:\n- Vorgangspassiv Prasens: wird/werden + P.II — ongoing or habitual action. Agent optional with 'von + Dativ'.\n- Vorgangspassiv Prateritum: wurde/wurden + P.II — completed past action. Most common in written German.\n- Vorgangspassiv Perfekt: ist/sind + P.II + geworden — WRONG! Use: ist/sind + P.II + worden (NOT geworden).\n- Vorgangspassiv Plusquamperfekt: war/waren + P.II + worden — action completed before another past event.\n- Vorgangspassiv Futur I: wird + P.II + werden — 'werden' appears twice (conjugated + infinitive).\n- Zustandspassiv: ist/war + P.II WITHOUT worden — describes a resulting state, NOT an action.\n- Unpersonliches Passiv: Es wird + P.II — intransitive verbs only; 'Es' drops when another element leads.\n- Modalverb + Passiv: Modalverb + P.II + werden — 'werden' stays as infinitive. Perfekt: P.II + worden sein.\n- Passiv Indirekte Rede: Konjunktiv I of sein (sei/seien) + P.II + worden — for reported passive speech.",
+  "tips": [
+    "Vorgangspassiv Prasens: wird + Partizip II — 'Das Haus wird gebaut.' (ongoing action). Agent: 'von + Dativ' (von dem Arbeiter).",
+    "Vorgangspassiv Prateritum: wurde + Partizip II — 'Das Haus wurde gebaut.' (completed past). Most common tense in written German narratives.",
+    "CRITICAL: Perfekt/Plusquamperfekt Passiv uses WORDEN (NOT geworden). 'ist gemacht worden' — 'geworden' is for becoming, NOT for passive perfect.",
+    "Vorgangspassiv Perfekt: ist + Partizip II + worden — 'Das Haus ist gebaut worden.' (has been built). Used in spoken and written German.",
+    "Vorgangspassiv Plusquamperfekt: war + Partizip II + worden — 'Das Haus war gebaut worden.' (had been built). Sequence: action before another past event.",
+    "Zustandspassiv: ist/war + Partizip II WITHOUT 'worden'. Describes a RESULTING STATE, not an action. 'Das Haus ist gebaut.' (The house is in a built state.)",
+    "Futur I Passiv: wird + Partizip II + werden — 'Das Haus wird gebaut werden.' (will be built). Note: 'werden' appears TWICE.",
+    "Unpersonliches Passiv: intransitive verbs only. 'Es wird hier gearbeitet.' / 'Hier wird gearbeitet.' (when another element leads, 'Es' drops).",
+    "Modalverb + Passiv: Modalverb + P.II + werden. 'Das muss gemacht werden.' Perfekt: P.II + worden sein. 'Das hat gemacht werden müssen.'",
+    "Passiv Indirekte Rede (Konjunktiv I): sei + P.II + worden / seien + P.II + worden. Used to report passive statements formally: 'Er sagte, die Steuer sei erhoht worden.'"
+  ],
   "questions": [
     {
       "id": "b1_03_q001",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Das Formular ____ jeden Tag von den Mitarbeitern ausgefüllt.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "wird",
+        "ist",
+        "hat",
+        "wurde"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "wird",
+      "explanation": "Vorgangspassiv Prasens: 'werden + Partizip II'. The action of filling out the form is ongoing/habitual. 'ist' would indicate Zustandspassiv (a state), not an action.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q002",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "type": "multiple_choice",
+      "questionText": "Das Paket ____ gestern vom Postboten gebracht ____.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "wurde / –",
+        "ist / worden",
+        "wurde / worden",
+        "wird / –"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wurde / –",
+      "explanation": "Vorgangspassiv Prateritum: 'wurde + Partizip II'. No second element needed — 'worden' is only used in Perfekt ('ist … worden'). Prateritum passive = wurde + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q003",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
+      "type": "multiple_choice",
+      "questionText": "Die Tür ____ bereits geschlossen — man kann nicht mehr eintreten.",
       "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
+        "wird",
+        "wurde",
+        "ist",
+        "worden"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist",
+      "explanation": "Zustandspassiv: 'sein + Partizip II' describes a resulting state. The door is (currently) closed — focus is on the state, not the action of closing it.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q004",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
+      "type": "multiple_choice",
+      "questionText": "In dieser Fabrik ____ täglich Hunderte von Autos produziert.",
       "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
+        "werden",
+        "sind",
+        "haben",
+        "wurden"
       ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "werden",
+      "explanation": "Vorgangspassiv Prasens with plural subject 'Hunderte von Autos'. Plural → 'werden' (not 'wird'). Habitual/ongoing process.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q005",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
+      "type": "multiple_choice",
+      "questionText": "Der Brief ____ von der Sekretärin getippt worden.",
       "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
+        "hat",
+        "wurde",
+        "ist",
+        "wird"
       ],
-      "correctAnswer": "deren",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist",
+      "explanation": "Vorgangspassiv Perfekt: 'sein + Partizip II + worden'. The auxiliary for Perfekt passive is always 'sein', not 'haben'. 'worden' (not 'geworden') is the Partizip II of 'werden' in passive constructions.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q006",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
+      "type": "multiple_choice",
+      "questionText": "Das neue Gesetz ____ nächste Woche vom Parlament verabschiedet.",
       "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
+        "wird",
+        "ist",
+        "wurde",
+        "werden"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wird",
+      "explanation": "Vorgangspassiv Futur I (or Prasens with future time reference): 'wird + Partizip II'. 'nachste Woche' signals a future event. Singular subject → 'wird'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q007",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Hier ____ nicht geraucht!",
       "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
+        "wird",
+        "ist",
+        "hat",
+        "werden"
       ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "wird",
+      "explanation": "Unpersonliches Passiv (impersonal passive) with no grammatical subject. 'Es wird hier nicht geraucht' → with 'hier' in front position, 'es' is dropped. 'wird' is the only correct auxiliary.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q008",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sagte, er ___ morgen kommen.",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt ____ bis Ende des Jahres abgeschlossen worden ____.",
       "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
+        "wird / sein",
+        "ist / –",
+        "wird / –",
+        "ist / worden"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wird / sein",
+      "explanation": "Vorgangspassiv Futur II (passive future perfect): 'wird + Partizip II + worden sein'. Expresses that an action will have been completed by a future point. Formula: wird … Partizip II … worden sein.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q009",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ du Deutsch gelernt ___?",
+      "type": "multiple_choice",
+      "questionText": "Den Kindern ____ erklärt, wie man sich in der Schule verhält.",
       "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
+        "wird",
+        "werden",
+        "ist",
+        "wurden"
       ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wird",
+      "explanation": "Passive with a Dativ object: 'Den Kindern' is Dativ, not the grammatical subject. The real subject is implied ('es'), so the verb stays singular: 'wird erklart'. This is a common B2 trap — Dativ objects never become the subject in German passive.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q010",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
+      "type": "multiple_choice",
+      "questionText": "Das Haus ____ 1990 gebaut und ____ seitdem gut gepflegt.",
       "options": [
-        "dessen",
-        "deren",
-        "die",
-        "dem"
+        "wurde / wird",
+        "wurde / ist",
+        "wird / wurde",
+        "ist / wird"
       ],
-      "correctAnswer": "dessen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "wurde / ist",
+      "explanation": "Two different passive types: 'wurde gebaut' = Vorgangspassiv Prateritum (the building action in the past). 'ist … gepflegt' = Zustandspassiv Prasens (the current state of being maintained). Both must match their time/type.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q011",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "In der Konferenz ____ lange über das neue Konzept diskutiert.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "wurde",
+        "ist",
+        "wird",
+        "hat"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wurde",
+      "explanation": "Impersonal Vorgangspassiv Prateritum with an intransitive verb ('diskutieren'). Intransitive verbs can only form impersonal passive. No subject → 'wurde diskutiert'. Past context requires Prateritum.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q012",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge berichtete, dass der Verdächtige von der Polizei verhört ____ ____.",
       "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
+        "worden war",
+        "wurde",
+        "worden ist",
+        "geworden war"
       ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "worden war",
+      "explanation": "Passive Plusquamperfekt in a subordinate clause: 'war + Partizip II + worden'. Used for an action completed before another past action (narrative sequence). 'geworden' is wrong — only 'worden' is used in passive constructions.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q013",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
+      "type": "multiple_choice",
+      "questionText": "Die Aufgaben können bis morgen ____ werden.",
       "options": [
-        "Als",
-        "Wenn",
-        "Wann",
-        "Während"
+        "erledigt",
+        "erledigen",
+        "erledigt sein",
+        "erledigen werden"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "erledigt",
+      "explanation": "Modal verb + Vorgangspassiv: 'konnen + Partizip II + werden'. The formula is: Modalverb + Partizip II + werden (infinitive). 'erledigt werden' is the passive infinitive.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q014",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "Das Angebot ____ von unserem Team sorgfältig geprüft worden, bevor wir zustimmten.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "war",
+        "hatte",
+        "wurde",
+        "ist"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "war",
+      "explanation": "Passive Plusquamperfekt: 'war + Partizip II + worden'. The checking was completed before the agreement (another past event). The auxiliary is 'sein' (→ 'war'), never 'haben', in Perfekt/Plusquamperfekt passive.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q015",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
+      "type": "multiple_choice",
+      "questionText": "Es ____ gehofft, dass die Verhandlungen bald erfolgreich abgeschlossen werden.",
       "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
+        "wird",
+        "ist",
+        "wurde",
+        "werden"
       ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wird",
+      "explanation": "Impersonal passive with 'hoffen': 'Es wird gehofft, dass …'. The 'es' here is a placeholder subject; verb stays singular. Prasens context → 'wird'.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q016",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "Die Maschine soll sofort repariert ____ ____.",
       "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
+        "werden / –",
+        "sein / –",
+        "worden / sein",
+        "werden / worden"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "werden / –",
+      "explanation": "Modalverb (soll) + Vorgangspassiv Infinitiv: 'soll + Partizip II + werden'. The passive infinitive of 'reparieren' is 'repariert werden'. No extra element is added. Compare: Perfekt passive = 'repariert worden sein'.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q017",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
+      "type": "multiple_choice",
+      "questionText": "Zum Zeitpunkt des Unfalls ____ die Straße gerade ausgebessert.",
       "options": [
-        "würde",
+        "wurde",
         "wird",
-        "kann",
-        "wollte"
+        "war",
+        "worden"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wurde",
+      "explanation": "'gerade' signals an ongoing action at a specific past moment → Vorgangspassiv Prateritum ('wurde … ausgebessert'), not Zustandspassiv ('war'). 'war ausgebessert' would mean it was already in a repaired state.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q018",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "In dem Bericht heißt es, das Budget ____ bereits vollständig aufgebraucht worden ____.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "sei / –",
+        "ist / –",
+        "wäre / –",
+        "sei / sein"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sei / –",
+      "explanation": "Indirect speech (indirekte Rede) with Konjunktiv I: 'sei … aufgebraucht worden'. Perfekt passive in indirect speech uses Konjunktiv I of 'sein' → 'sei'. Konjunktiv II 'ware' is used when K-I is indistinguishable from indicative, which is not the case here.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q019",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
+      "type": "multiple_choice",
+      "questionText": "Das Konzept hätte früher entwickelt werden ____, wenn mehr Ressourcen vorhanden gewesen wären.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Obwohl"
+        "sollen",
+        "müssen",
+        "können",
+        "dürfen"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "können",
+      "explanation": "Konjunktiv II Vergangenheit + Passiv + Modalverb: 'hatte … entwickelt werden konnen'. The Infinitiv II of the modal in passive: 'entwickelt werden konnen'. 'konnen' expresses possibility (it would have been possible to develop it). 'sollen/mussen/durfen' change the meaning and don't fit the context.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q020",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag ____ unterschrieben ____ sein, bevor die Lieferung erfolgen kann.",
       "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
+        "muss / worden",
+        "soll / geworden",
+        "muss / geworden",
+        "wird / worden"
       ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q021",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
-      "options": [
-        "um",
-        "als",
-        "weil",
-        "obwohl"
-      ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q022",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
-      "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
-      ],
-      "correctAnswer": "So",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q023",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
-      "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q024",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er tut so, ___ er alles wüsste.",
-      "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q025",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
-      "options": [
-        "weil",
-        "obwohl",
-        "wenn",
-        "damit"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q026",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
-      "options": [
-        "die",
-        "der",
-        "den",
-        "welche"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q027",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
-      "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
-      ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q028",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q029",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q030",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
-      "options": [
-        "der",
-        "die",
-        "den",
-        "dem"
-      ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_03_q031",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q032",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q033",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q034",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q035",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q036",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q037",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q038",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q039",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_03_q040",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "muss / worden",
+      "explanation": "Modalverb + Passiv Perfekt Infinitiv: 'muss + Partizip II + worden sein'. This expresses a necessity about a completed passive action: 'the contract must have been signed'. Formula: Modalverb + Partizip II + worden sein. 'geworden' is always wrong in passive constructions.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q041",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
+      "type": "multiple_choice",
+      "questionText": "Die vertraulichen Dokumente ____ bis morgen Abend dringend unterschrieben ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "müssen / werden",
+        "haben / zu werden",
+        "werden / müssen",
+        "müssen / worden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "müssen / werden",
+      "explanation": "This is a standard Passive voice with a modal verb in the present tense (Passiv mit Modalverb im Präsens). The structure requires: Modalverb (conjugated) + Partizip II + werden.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q042",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
+      "type": "multiple_choice",
+      "questionText": "Der Fehler im System ____ leider erst nach der Veröffentlichung des Updates ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wurde / entdeckt",
+        "ist / entdeckt worden",
+        "war / entdecken",
+        "wurde / entdecken"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wurde / entdeckt",
+      "explanation": "The sentence requires the Präteritum Passiv form because it describes a completed action in the past. The structure ist wurde (past tense of werden) + Partizip II (entdeckt). Option B is also grammatically correct for Perfekt Passiv, but option A represents the standard written narrative form (Präteritum) commonly expected in B2 contexts for singular historic past events.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q043",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
+      "type": "multiple_choice",
+      "questionText": "Dieses komplizierte mathematische Problem lässt sich nicht so einfach ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "gelöst werden",
+        "lösen",
+        "gelöst",
+        "zu lösen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "lösen",
+      "explanation": "The structure 'sich lassen + Infinitiv' is a Passive Alternative (Passiversatzform). It carries a passive meaning equivalent to 'kann gelöst werden' (can be solved). It strictly requires the active infinitive form of the verb.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q044",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
+      "type": "multiple_choice",
+      "questionText": "Das neue Firmengebäude ____ bereits komplett ____, sodass die Mitarbeiter morgen einziehen können.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wird / einrichten",
+        "ist / eingerichtet",
+        "hat / eingerichtet",
+        "wird / eingerichtet werden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ist / eingerichtet",
+      "explanation": "This sentence requires the Zustandspassiv (State Passive) because it describes a completed state or result that exists in the present, not an ongoing action. The formula is sein + Partizip II (ist eingerichtet).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q045",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
+      "type": "multiple_choice",
+      "questionText": "Es ____ am Sonntag in den meisten deutschen Städten nicht ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wird / gearbeitet",
+        "wird / arbeiten",
+        "ist / gearbeitet werden",
+        "hat / gearbeitet"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wird / gearbeitet",
+      "explanation": "This is a subjectless passive construction (Subjektloses Passiv), commonly used in German with intransitive verbs to describe a general activity or custom. 'Es' acts as a placeholder at the beginning of the sentence: Es wird gearbeitet.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q046",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "Die Serverprobleme ____ gestern vom IT-Support innerhalb weniger Minuten ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wurden / gelöst werden",
+        "sind / gelöst worden",
+        "hatten / gelöst",
+        "waren / gelöst worden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sind / gelöst worden",
+      "explanation": "This is the Perfekt Passiv form (sein + Partizip II + worden). Since the time indicator is 'gestern' (yesterday), the past action is described using the spoken past/conversational perfect form. Option D (Plusquamperfekt) would require a reference to another past action.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q047",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Relativsätze haben immer ein Komma.",
+      "type": "multiple_choice",
+      "questionText": "Die alten Verträge sind bis zum Ende des Geschäftsjahres von allen Partnern ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "zu kündigen",
+        "gekündigt werden",
+        "kündigen lassen",
+        "gekündigt zu werden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "zu kündigen",
+      "explanation": "The structure 'sein + zu + Infinitiv' is another passive alternative (Passiversatzform). It expresses an obligation or necessity equivalent to 'müssen + Passiv' (müssen gekündigt werden).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q048",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
+      "type": "multiple_choice",
+      "questionText": "Bevor das Produkt auf den Markt kam, ____ es monatelang von Experten ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wurde / getestet",
+        "war / getestet worden",
+        "ist / getestet worden",
+        "wird / getestet werden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "war / getestet worden",
+      "explanation": "This sentence requires the Plusquamperfekt Passiv (Past Perfect Passive) due to the time conjunction 'bevor'. The action in the subordinate clause is in the Präteritum (kam), so the action that happened even earlier in the passive voice must be in the Plusquamperfekt (war... getestet worden).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q049",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
+      "type": "multiple_choice",
+      "questionText": "Die Hausordnung ist für alle Mieter im Gebäude absolut ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "einzuhalten",
+        "einzuhaltbar",
+        "zu einhalten",
+        "eingehalten zu werden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "einzuhalten",
+      "explanation": "This uses the 'sein + zu + Infinitiv' structure as a passive substitute. Since 'einhalten' is a separable verb, the 'zu' must be placed between the prefix and the root verb (einzuhalten).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q050",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Dem verletzten Fußgänger musste sofort am Unfallort geholfen ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "worden",
+        "werden",
+        "zu werden",
+        "sein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "werden",
+      "explanation": "This is a passive construction with a modal verb in the past tense (Präteritum des Modalverbs + Passiv). The structure ist musste + Partizip II (geholfen) + werden. Note that 'helfen' takes a dative object (dem Fußgänger), which remains in the dative case in the passive voice.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q051",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
+      "type": "multiple_choice",
+      "questionText": "Diese Handschrift ist so undeutlich, dass sie fast gar nicht zu ____ ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "gelesen",
+        "lesen",
+        "lesen werden",
+        "lesbar"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "lesen",
+      "explanation": "This tests the 'sein + zu + Infinitiv' structure expressing capability or possibility ('kann gelesen werden'). The infinitive form 'lesen' is required after 'zu'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q052",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht hätte eigentlich schon am Freitagabend eingereicht ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "werden müssen",
+        "gemusst werden",
+        "worden müssen",
+        "werden gemusst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "werden müssen",
+      "explanation": "This is a high-level B2 structure: Konjunktiv II of a modal verb in the past tense combined with the passive voice. The fixed structure ist hätte + Partizip II + werden + müssen (double infinitive at the end).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q053",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Die Fehler, ____ während der Testphase gemacht wurden, konnten schnell korrigiert werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von denen",
+        "durch die",
+        "die",
+        "mit denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "This is a combination of a relative clause and a passive construction. The relative pronoun 'die' acts as the subject of the passive relative clause (die gemacht wurden — which were made).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q054",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Das Paket ____ vermutlich erst im Laufe der nächsten Woche ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wird / zugestellt werden",
+        "wird / zugestellt worden",
+        "ist / zugestellt werden",
+        "hat / zugestellt werden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wird / zugestellt werden",
+      "explanation": "This sentence expresses an action in the future passive voice (Futur I Passiv). The structure requires werden (conjugated for future) + Partizip II (zugestellt) + werden (passive infinitive marker).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q055",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
+      "type": "multiple_choice",
+      "questionText": "Die alte Industriehalle wird derzeit zu einem modernen Kulturzentrum ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "umgebaut",
+        "umzubauen",
+        "umgebaut werden",
+        "umbauen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "umgebaut",
+      "explanation": "The signal word 'derzeit' (currently) indicates an ongoing action in the Present Passive (Präsens Passiv). The structure ist wird + Partizip II (umgebaut).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q056",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "type": "multiple_choice",
+      "questionText": "Man konnte die medizinischen Instrumente kaum noch verwenden, weil sie nicht steril ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wurden",
+        "worden waren",
+        "waren",
+        "geworden sind"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "waren",
+      "explanation": "The sentence requires a state description in the past (Zustandspassiv im Präteritum). The instruments were not in a sterile state. The structure for Zustandspassiv in the past ist waren + adjective/Partizip II.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q057",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "type": "multiple_choice",
+      "questionText": "Viele wichtige Fragen ____ während der gestrigen Konferenz überhaupt nicht ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wurden / besprochen",
+        "sind / besprochen",
+        "hatten / besprochen werden",
+        "wurden / besprechen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wurden / besprochen",
+      "explanation": "This is the Präteritum Passiv form for plural subjects. 'Viele wichtige Fragen' is plural, requiring wurden + Partizip II (besprochen).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q058",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
+      "type": "multiple_choice",
+      "questionText": "Die neue Steuerreform soll bereits ab dem 1. Januar rechtlich ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "eingeführt werden",
+        "einführen lassen",
+        "eingeführt worden sein",
+        "einzuführen sein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "eingeführt werden",
+      "explanation": "This sentence uses a modal verb (soll) combined with the present passive infinitive (eingeführt werden). It describes an objective plan or mandate for the future.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q059",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "type": "multiple_choice",
+      "questionText": "Seine Argumente waren absolut unlogisch und somit überhaupt nicht ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nachzuvollziehen",
+        "nachvollzogen werden",
+        "nachvollziehbar",
+        "nachvollziehen lassen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "nachvollziehbar",
+      "explanation": "The suffix '-bar' added to a verb root creates an adjective that serves as a Passive Alternative (Passiversatzform), meaning 'capable of being X'. 'Nachvollziehbar' means 'comprehensible' / 'capable of being understood'.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q060",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Straßen komplett vom Schnee ____, konnte der Verkehr wieder normal fließen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "befreit worden waren",
+        "befreit werden",
+        "befreit worden sind",
+        "befreit waren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "befreit worden waren",
+      "explanation": "The conjunction 'nachdem' dictates a sequence of tenses (Zeitenfolge). Since the main clause is in the Präteritum (konnte), the prior action in the passive voice must be in the Plusquamperfekt Passiv (befreit worden waren).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q061",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Das neue Museum ____ nächstes Jahr eröffnet.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "wird",
+        "wurde",
+        "ist",
+        "hat"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wird",
+      "explanation": "Future/passive meaning in Prasens passive uses 'wird + Partizip II'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q062",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "type": "multiple_choice",
+      "questionText": "Die E-Mails ____ jeden Morgen vom Sekretariat beantwortet.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
+        "werden",
+        "wurden",
+        "sind",
+        "haben"
       ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "werden",
+      "explanation": "Passive voice in Prasens uses 'werden + Partizip II'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q063",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "type": "multiple_choice",
+      "questionText": "Das Fenster ____ gestern repariert.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "wird",
+        "wurde",
+        "worden",
+        "werden"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wurde",
+      "explanation": "Passive in Prateritum uses 'wurde + Partizip II'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q064",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Viele wichtige Informationen ____ im Internet veröffentlicht.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "werden",
+        "haben",
+        "sind",
+        "wurden"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "werden",
+      "explanation": "Prasens passive is formed with 'werden'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q065",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "type": "multiple_choice",
+      "questionText": "Die Patienten ____ von erfahrenen Ärzten untersucht.",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "werden",
+        "haben",
+        "wurden",
+        "sind"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "werden",
+      "explanation": "The sentence requires present passive voice.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q066",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Das Problem konnte schnell ____ werden.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "lösen",
+        "gelöst",
+        "gelöstet",
+        "gelösen"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gelöst",
+      "explanation": "Modal verbs with passive use 'Partizip II + werden'.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q067",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Die Straße ____ wegen der Bauarbeiten gesperrt worden.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "ist",
+        "hat",
+        "wurde",
+        "wird"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "ist",
+      "explanation": "Perfekt passive is formed with 'ist + Partizip II + worden'.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q068",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sagte, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag ____ bereits unterschrieben worden.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
+        "sind",
+        "ist",
+        "wurde",
+        "werden"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ist",
+      "explanation": "This is Perfekt passive.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q069",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ du Deutsch ___ ___?",
+      "type": "multiple_choice",
+      "questionText": "Im Kurs ____ nur Deutsch gesprochen.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "wird",
+        "wurde",
+        "ist",
+        "hat"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wird",
+      "explanation": "Impersonal passive uses singular 'wird'.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q070",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "type": "multiple_choice",
+      "questionText": "Die Präsentation musste noch einmal ____ werden.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "vorbereiten",
+        "vorbereitet",
+        "vorbereitetet",
+        "vorbereitete"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "vorbereitet",
+      "explanation": "Passive with modal verbs requires Partizip II.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q071",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "Früher ____ viele Briefe per Hand geschrieben.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "werden",
+        "wurden",
+        "sind",
+        "haben"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wurden",
+      "explanation": "Prateritum passive describes repeated actions in the past.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q072",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Der Täter konnte trotz intensiver Ermittlungen nicht ____.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "finden",
+        "gefunden werden",
+        "gefunden geworden",
+        "gefunden sein"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gefunden werden",
+      "explanation": "Modal passive structure: 'Partizip II + werden'.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q073",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "type": "multiple_choice",
+      "questionText": "Bis Ende des Jahres ____ das Projekt abgeschlossen worden sein.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "wird",
+        "wurde",
+        "ist",
+        "werden"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wird",
+      "explanation": "Futur II passive uses 'wird + Partizip II + worden sein'.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q074",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Dokumente geprüft worden waren, ____ sie unterschrieben.",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "werden",
+        "wurden",
+        "sind",
+        "haben"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wurden",
+      "explanation": "The action happened after another completed passive action in the past.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q075",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Die neuen Regeln ____ nächste Woche eingeführt werden.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "sollen",
+        "sollen werden",
+        "sollen worden",
+        "sollen sein"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sollen",
+      "explanation": "Passive with modal verbs: 'sollen + Partizip II + werden'.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q076",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "Während der Konferenz ____ keine privaten Gespräche geführt werden.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "dürfen",
+        "dürfen nicht",
+        "werden nicht",
+        "sind nicht"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dürfen nicht",
+      "explanation": "Modal verb + passive expresses prohibition.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q077",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Das historische Gebäude ____ seit Jahren restauriert.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "wird",
+        "wurde",
+        "ist",
+        "hat"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wird",
+      "explanation": "Ongoing passive process in the present uses 'wird'.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q078",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung hätte früher ____ müssen.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "treffen",
+        "getroffen werden",
+        "getroffen worden",
+        "getroffen sein"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "getroffen werden",
+      "explanation": "Konjunktiv II passive with modal verbs requires 'Partizip II + werden'.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q079",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Alle Teilnehmer wurden gebeten, ihre Handys ____.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "ausschalten",
+        "auszuschalten",
+        "ausgeschaltet",
+        "auszuschalteten"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "auszuschalten",
+      "explanation": "After 'jemanden bitten', the infinitive with 'zu' is required.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q080",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse der Studie ____ erst morgen veröffentlicht werden können.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "werden",
+        "können",
+        "sollen",
+        "müssten"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "können",
+      "explanation": "Passive with modal verbs uses the modal as the conjugated verb.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q081",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Die Altstadt ____ jedes Jahr von tausenden Touristen besucht.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "wird",
+        "ist",
+        "wurde",
+        "wird worden"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wird",
+      "explanation": "Present tense passive (Vorgangspassiv): 'wird besucht' — The old town is visited by thousands of tourists every year.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q082",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "type": "multiple_choice",
+      "questionText": "Der Brief ____ gestern endlich abgeschickt.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
+        "ist",
+        "wird",
+        "wurde",
+        "worden ist"
       ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wurde",
+      "explanation": "Simple past passive (Prateritum Passiv): 'wurde abgeschickt' — The letter was finally sent yesterday.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q083",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "type": "multiple_choice",
+      "questionText": "Das Essen ____ bereits zubereitet ____.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "ist / worden",
+        "wurde / werden",
+        "wird / gewesen",
+        "hat / geworden"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ist / worden",
+      "explanation": "Present perfect passive (Perfekt Passiv): 'ist zubereitet worden' — The food has already been prepared.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q084",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Die Tür ____ geschlossen. Man kann sie nicht öffnen.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "ist",
+        "wird",
+        "wurde",
+        "sein"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ist",
+      "explanation": "Zustandspassiv (static passive): 'ist geschlossen' — The door is closed (state result).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q085",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "type": "multiple_choice",
+      "questionText": "Dieser Text ____ in drei Sprachen übersetzt werden können.",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "kann",
+        "muss",
+        "wird",
+        "ist"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "kann",
+      "explanation": "Passive with modal verb: 'kann ubersetzt werden' — This text can be translated into three languages.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q086",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt ____ bis nächste Woche fertiggestellt sein.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "wird",
+        "muss",
+        "kann",
+        "soll"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "muss",
+      "explanation": "Passive with 'mussen' (obligation): 'muss fertiggestellt sein' — The project must be finished by next week.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q087",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "In dieser Fabrik ____ rund um die Uhr gearbeitet.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "wird",
+        "ist",
+        "hat",
+        "wurde"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wird",
+      "explanation": "Impersonal passive (no direct object): 'Es wird gearbeitet' (here without 'es' because of inverted order) — Work is done around the clock in this factory.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q088",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sagte, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Der Täter ____ von der Polizei noch nicht gefasst ____.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
+        "hat / worden",
+        "ist / worden",
+        "wurde / worden",
+        "wird / gewesen"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "ist / worden",
+      "explanation": "Present perfect passive: 'ist gefasst worden' — The perpetrator has not been caught yet by the police.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q089",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ du Deutsch ___ ___?",
+      "type": "multiple_choice",
+      "questionText": "Die Brücke ____ im letzten Jahr zerstört, aber jetzt ____ sie schon wieder aufgebaut.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "wurde / wird",
+        "ist / wurde",
+        "wird / ist",
+        "wurde / ist"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wurde / wird",
+      "explanation": "First past passive (wurde zerstort), then present passive (wird aufgebaut) — The bridge was destroyed last year, but it is already being rebuilt.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q090",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "type": "multiple_choice",
+      "questionText": "Der Brief ____ geschrieben, aber noch nicht verschickt.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "ist",
+        "wird",
+        "wurde",
+        "hat"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ist",
+      "explanation": "Zustandspassiv: 'ist geschrieben' — The letter is written (but not yet sent), describing the state.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_03_q091",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "Man ____ ihm bei der Arbeit helfen. (Replace 'man' with passive)",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "Es wird ihm geholfen",
+        "Er wird ihm geholfen",
+        "Ihm wird geholfen",
+        "Ihm ist geholfen"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Ihm wird geholfen",
+      "explanation": "Impersonal passive with dative object: 'Ihm wird geholfen' (no 'es' needed when the dative object comes first) — He is helped with the work.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q092",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Das Problem ____ leider nicht rechtzeitig gelöst werden können.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "kann",
+        "hat",
+        "ist",
+        "wird"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "kann",
+      "explanation": "Passive with modal in present: 'kann ... gelost werden' — The problem unfortunately cannot be solved in time.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q093",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "type": "multiple_choice",
+      "questionText": "Das Haus ____ schon letztes Jahr verkauft ____.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "wurde / worden",
+        "ist / geworden",
+        "hat / geworden",
+        "war / worden"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "war / worden",
+      "explanation": "Past perfect passive (Plusquamperfekt Passiv): 'war verkauft worden' — The house had already been sold last year.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q094",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "Dieses Buch ____ sich leicht lesen. (Alternative passive)",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "lasst",
+        "ist",
+        "wird",
+        "kann"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "lasst",
+      "explanation": "'sich lassen + Infinitiv' as a passive alternative: 'lasst sich leicht lesen' — This book can be read easily / is easy to read.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q095",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Im Wartezimmer ____ nicht geraucht werden.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "darf",
+        "kann",
+        "muss",
+        "soll"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "darf",
+      "explanation": "Passive with modal 'durfen' expressing prohibition: 'darf nicht geraucht werden' — Smoking is not allowed in the waiting room.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q096",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "Als das Feuer entdeckt wurde, ____ die Feuerwehr schon alarmiert ____.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "ist / worden",
+        "wurde / worden",
+        "war / worden",
+        "hatte / worden"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "war / worden",
+      "explanation": "Past perfect passive (Plusquamperfekt Passiv): 'war alarmiert worden' — When the fire was discovered, the fire brigade had already been alerted.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q097",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Die Bewerbung ____ bis morgen eingereicht sein.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "muss",
+        "kann",
+        "soll",
+        "wird"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "muss",
+      "explanation": "Passive with 'mussen' expressing deadline obligation: 'muss eingereicht sein' — The application must be submitted by tomorrow.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q098",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "Nach dem Konzert ____ lauter Applaus ____.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "wurde / geklatscht",
+        "ist / geklatscht worden",
+        "wurde / klatschen",
+        "hat / geklatscht"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wurde / geklatscht",
+      "explanation": "Impersonal passive in simple past: 'Es wurde geklatscht' (here without 'es') — After the concert, loud applause was heard / people clapped loudly.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_03_q099",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Darüber ____ noch diskutiert werden müssen.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "muss",
+        "wird",
+        "hat",
+        "kann"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wird",
+      "explanation": "Future passive (Futur Passiv): 'wird diskutiert werden mussen' — That will have to be discussed further.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_03_q100",
-      "subjectId": "b1_03",
-      "topicName": "weil, obwohl, dass, ob",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Alle Fenster ____ geöffnet, weil es so stickig war.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "waren",
+        "wurden",
+        "sind",
+        "hatten"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "waren",
+      "explanation": "Zustandspassiv in past tense: 'waren geoffnet' — All windows were open (state) because it was so stuffy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q101",
+      "type": "multiple_choice",
+      "questionText": "Das Buch ____ von einem berühmten Autor geschrieben.",
+      "options": [
+        "wurde",
+        "ist",
+        "war",
+        "wird"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "This is Vorgangspassiv in Prateritum. 'wurde + Partizip II' describes a completed past action. 'ist geschrieben' would be Zustandspassiv (state), not the action of writing.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q102",
+      "type": "multiple_choice",
+      "questionText": "Die Fenster ____ jeden Morgen geputzt.",
+      "options": [
+        "werden",
+        "wurden",
+        "sind",
+        "waren"
+      ],
+      "correctAnswer": "werden",
+      "explanation": "Present tense Vorgangspassiv: 'werden + Partizip II' expresses a habitual passive action. The adverb 'jeden Morgen' indicates a recurring present action, requiring present tense passive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q103",
+      "type": "multiple_choice",
+      "questionText": "Der Brief ____ bereits verschickt worden.",
+      "options": [
+        "ist",
+        "wurde",
+        "war",
+        "wird"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "Perfekt Passiv: 'ist + Partizip II + worden'. Note: 'worden' (not 'geworden') is used in passive perfect tenses. 'Bereits' signals completed action, requiring Perfekt Passiv.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q104",
+      "type": "multiple_choice",
+      "questionText": "Das Problem ____ noch nicht gelöst.",
+      "options": [
+        "ist",
+        "wird",
+        "wurde",
+        "war"
+      ],
+      "correctAnswer": "ist",
+      "explanation": "This is Zustandspassiv (state passive): 'sein + Partizip II' describes the current state of the problem. Vorgangspassiv would focus on the solving process, but context emphasizes the result/state.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q105",
+      "type": "multiple_choice",
+      "questionText": "Hier ____ nicht geraucht.",
+      "options": [
+        "wird",
+        "ist",
+        "wurde",
+        "hat"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Impersonal passive in present tense: 'wird + infinitive' for general rules/prohibitions without a specific subject. Common in signs and formal instructions at B2 level.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q106",
+      "type": "multiple_choice",
+      "questionText": "Das Haus ____ 1990 gebaut.",
+      "options": [
+        "wurde",
+        "ist",
+        "war",
+        "wird"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Prateritum Passiv for historical facts: 'wurde + Partizip II'. Specific past time markers like '1990' typically trigger Prateritum in formal/written German, especially in passive constructions.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_03_q107",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung ____ vom Vorstand getroffen.",
+      "options": [
+        "wurde",
+        "ist",
+        "hat",
+        "wird"
+      ],
+      "correctAnswer": "wurde",
+      "explanation": "Vorgangspassiv Prateritum with agent: 'wurde + Partizip II + von + Dativ'. 'Vom Vorstand' indicates the agent performing the action, requiring passive voice with 'von' for people/organizations.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q108",
+      "type": "multiple_choice",
+      "questionText": "Der Schaden ____ durch einen Sturm verursacht ____.",
+      "options": [
+        "wurde / worden",
+        "ist / worden",
+        "war / geworden",
+        "wird / worden"
+      ],
+      "correctAnswer": "wurde / worden",
+      "explanation": "Prateritum Passiv: 'wurde + Partizip II + worden'. 'Durch' is used with non-human agents/causes (like 'Sturm'). 'Worden' (not 'geworden') is the correct form in passive perfect constructions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q109",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt ____ bis Ende nächsten Monats abgeschlossen sein.",
+      "options": [
+        "wird",
+        "wurde",
+        "ist",
+        "ware"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Futur I Passiv: 'wird + Partizip II + werden' → but with 'sein' as main verb infinitive, it becomes 'wird abgeschlossen sein'. This expresses a future state resulting from a completed action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q110",
+      "type": "multiple_choice",
+      "questionText": "Die Unterlagen ____ mir gestern vom Chef übergeben ____.",
+      "options": [
+        "wurden / worden",
+        "sind / worden",
+        "waren / geworden",
+        "werden / worden"
+      ],
+      "correctAnswer": "wurden / worden",
+      "explanation": "Prateritum Passiv with dative object: 'wurden + Partizip II + worden'. 'Mir' (dative) remains unchanged in passive; only the accusative object becomes subject. 'Gestern' signals past tense.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q111",
+      "type": "multiple_choice",
+      "questionText": "Es ____, dass die Maßnahmen sofort umgesetzt werden.",
+      "options": [
+        "wird gefordert",
+        "ist gefordert",
+        "wurde gefordert",
+        "hat gefordert"
+      ],
+      "correctAnswer": "wird gefordert",
+      "explanation": "Present passive with 'es' as formal subject + dass-clause. 'Wird gefordert' expresses a current general demand. This impersonal passive structure is common in formal/administrative German at B2.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q112",
+      "type": "multiple_choice",
+      "questionText": "Die Maschine ____ bereits repariert ____.",
+      "options": [
+        "wurde / worden",
+        "ist / worden",
+        "war / geworden",
+        "wird / worden"
+      ],
+      "correctAnswer": "ist / worden",
+      "explanation": "Perfekt Passiv: 'ist + Partizip II + worden'. 'Bereits' signals completed action. Note: 'worden' (not 'geworden') is used exclusively in passive perfect tenses. This distinction is crucial for B2 accuracy.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q113",
+      "type": "multiple_choice",
+      "questionText": "Man sagt, dass der Vertrag nächste Woche unterschrieben ____.",
+      "options": [
+        "wird",
+        "wurde",
+        "ist",
+        "ware"
+      ],
+      "correctAnswer": "wird",
+      "explanation": "Passive in subordinate clause with future meaning: 'dass...unterschrieben wird' (Prasens Passiv with future time reference). German often uses present tense passive with future time adverbs instead of Futur I.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q114",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse ____ noch heute veröffentlicht ____.",
+      "options": [
+        "werden / werden",
+        "wurden / worden",
+        "sind / worden",
+        "werden / worden"
+      ],
+      "correctAnswer": "werden / werden",
+      "explanation": "Futur I Passiv: 'werden + Partizip II + werden'. First 'werden' is conjugated auxiliary, second 'werden' is infinitive passive marker. 'Noch heute' indicates future completion within today.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q115",
+      "type": "multiple_choice",
+      "questionText": "Das Gesetz ____ im Bundestag heftig diskutiert ____.",
+      "options": [
+        "wurde / worden",
+        "ist / worden",
+        "war / worden",
+        "wird / worden"
+      ],
+      "correctAnswer": "wurde / worden",
+      "explanation": "Prateritum Passiv in formal/written context: 'wurde + Partizip II + worden'. Political/legislative contexts typically use Prateritum passive in German media and official documents.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_03_q116",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Bericht ____ ____, wurde er sofort an die Presse weitergeleitet.",
+      "options": [
+        "verfasst worden war",
+        "verfasst worden ist",
+        "verfasst worden wurde",
+        "verfasst worden wird"
+      ],
+      "correctAnswer": "verfasst worden war",
+      "explanation": "Plusquamperfekt Passiv in temporal clause: 'war + Partizip II + worden'. 'Nachdem' requires the action in the subordinate clause to be completed before the main clause action, triggering Plusquamperfekt.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q117",
+      "type": "multiple_choice",
+      "questionText": "Es wird erwartet, dass die Arbeiten bis Freitag ____ ____ ____.",
+      "options": [
+        "abgeschlossen sein werden",
+        "abgeschlossen worden sind",
+        "abgeschlossen werden worden",
+        "abgeschlossen gewesen sein"
+      ],
+      "correctAnswer": "abgeschlossen sein werden",
+      "explanation": "Futur II Passiv: 'werden + Partizip II + sein + werden' → contracted to 'abgeschlossen sein werden'. Expresses completion of a passive action before a future reference point. Complex but tested at B2/C1.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q118",
+      "type": "multiple_choice",
+      "questionText": "Der Vorschlag ____, ohne dass er vorher gründlich geprüft ____ ____.",
+      "options": [
+        "wurde angenommen / worden ware",
+        "ist angenommen / worden ist",
+        "wurde angenommen / worden ist",
+        "wird angenommen / worden ware"
+      ],
+      "correctAnswer": "wurde angenommen / worden ware",
+      "explanation": "Main clause: Prateritum Passiv ('wurde angenommen'). Subordinate clause with 'ohne dass' + Konjunktiv II Passiv ('worden ware') expresses hypothetical/unreal condition. Advanced B2 structure combining passive with subjunctive mood.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q119",
+      "type": "multiple_choice",
+      "questionText": "Die Daten ____ mit einem speziellen Verfahren ____ ____.",
+      "options": [
+        "sind / analysiert / worden",
+        "wurden / analysiert / worden",
+        "waren / analysiert / geworden",
+        "werden / analysiert / werden"
+      ],
+      "correctAnswer": "sind / analysiert / worden",
+      "explanation": "Perfekt Passiv with instrumental 'mit': 'sind + Partizip II + worden'. 'Mit' introduces the means/tool used (not the agent). This tests the distinction between 'von' (agent) and 'mit' (instrument) in passive constructions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q120",
+      "type": "multiple_choice",
+      "questionText": "____ das Projekt rechtzeitig fertiggestellt ____, müssen zusätzliche Ressourcen bereitgestellt werden.",
+      "options": [
+        "Damit / wird",
+        "Um / zu werden",
+        "Damit / werden",
+        "Falls / wird"
+      ],
+      "correctAnswer": "Damit / wird",
+      "explanation": "Final clause with passive: 'Damit + subject + passive verb (wird fertiggestellt)'. 'Damit' introduces purpose, requiring subordinate clause word order (verb final). Main clause uses impersonal passive 'mussen...bereitgestellt werden'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_03_q121",
+      "type": "multiple_choice",
+      "questionText": "Es lässt sich nicht leugnen, dass Fehler ____ ____.",
+      "options": [
+        "gemacht worden sind",
+        "gemacht worden wurden",
+        "gemacht worden waren",
+        "gemacht worden werden"
+      ],
+      "correctAnswer": "gemacht worden sind",
+      "explanation": "Perfekt Passiv in dass-clause after impersonal expression: 'dass Fehler gemacht worden sind'. The present perfect passive emphasizes current relevance of past errors. 'Sich lassen + infinitive' is an alternative passive construction tested at B2.",
+      "difficulty": "hard"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

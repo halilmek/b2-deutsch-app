@@ -1,1553 +1,1423 @@
 {
+  "topicName": "Infinitiv- & Nebensatzkonstruktionen (C1)",
   "subjectId": "c1_09",
-  "topicName": "Funktionsverbgefüge",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Infinitiv- & Nebensatzkonstruktionen (C1)\n\n=== 1. INFINITIVKONSTRUKTIONEN ===\n\nUM ... ZU:\nPurpose when both clauses share the SAME subject.\n-> Ich lerne intensiv, um die Pruefung zu bestehen.\n-> Compare: Um ein Auto zu kaufen, spart er viel.\n\nOHNE ... ZU:\nExpresses that an expected accompanying action did NOT happen.\n-> Er reichte die Kuendigung ein, ohne ein Wort dariuber zu verlieren.\n\nANSTATT ... ZU:\nExpresses substitution or preference (instead of doing X, do Y).\n-> Anstatt den Fehler zu ignorieren, sollte das Team die Ursachen sofort analysieren.\n\nUM ... ZU vs. DAMIT:\n- SAME subject -> um ... zu + Infinitiv\n- DIFFERENT subjects -> damit + full subordinate clause\n-> Ich lerne intensiv, damit mein Chef mir die Befoerderung gibt. (ich ≠ mein Chef)\n\n=== 2. ALS ... ZU / ZU ... ALS DASS ===\nToo extreme for a result to happen. Requires Konjunktiv II at end.\n-> Die Huerden waren zu hoch, als dass wir das Projekt allein haetten finanzieren koennen.\n-> Er ist zu jung, um allein zu reisen. (same subject -> simpler form)\n\n=== 3. ADVANCED CONCESSIVE NEBENSAETZE ===\n\nOBWOHL VARIANTS (formell):\n-> Obgleich / obschon / wenngleich + Verb am Ende\n-> Obgleich die Finanzierung ungesichert war, stimmte der Vorstand zu.\n\nSO ... AUCH (No matter how...):\nStructure: So + Adjektiv + auch + Verb am Ende\n-> So komplex die Grammatik auch sein mag, mit System laesst sie sich meistern.\n\nANSTATT DASS vs. OHNE DASS:\nWhen subjects differ -> use full subordinate clause forms:\n-> Der Abteilungsleiter traf die Entscheidung, ohne dass das Team involviert wurde. (er ≠ das Team)\n\n=== 4. CONDITIONAL VARIATIONS (C1) ===\n\nSOFERN / INSOFERN:\nFormal conditional = \"provided that\" / \"insofar as\"\n-> Wir werden das Budget erhoehen, sofern die ersten Quartalszahlen stimmen.\n\nVERB-FIRST CONDITIONALS (drop wenn):\nStandard: Wenn Sie Fragen haben, koennen Sie mich anrufen.\nC1 Upgrade: Sollten Sie Fragen haben, rufen Sie mich gern an.\n\nPAST CONDITIONAL (Konjunktiv II, omitted wenn):\n-> Haette der CEO schneller reagiert, waere die Krise abgewendet worden.\n-> Waere die Krise im letzten Quartal abgewendet worden, stuende das Unternehmen besser da.\n\n=== 5. NOUN-PREPOSITION TRIGGER ===\n\nMany abstract nouns require specific prepositions before dass-clause.\nINCORRECT: Es gibt Anzeichen, dass sich die Lage bessert.\nCORRECT:   Es gibt Anzeichen dafuer, dass sich die Lage bessert. (Anzeichen fuer + Akk.)\n\nCommon triggers:\n- Anzeichen dafuer, dass\n- Grund dafuer, dass\n- Voraussetzung dafuer, dass\n- Mangel daran, dass\n\n=== 6. SEPARABLE VERBS IN INFINITIVE ===\n\nZu is inserted BETWEEN prefix and stem:\n-> abzuschliessen, aufzuraeumen, vorzubereiten, einzustellen\n\n=== 7. PERFECT INFINITIVE ===\n\nPartizip II + zu haben:\n-> Er scheint die Pruefung bestanden zu haben.\n-> Er behauptet, alle Aufgaben rechtzeitig erledigt zu haben.\n\n=== 8. SEIN + ZU + INFINITIV ===\n\nFormal passive necessity = muessen + Passiv:\n-> Das Dokument ist zu unterschreiben. (= Das Dokument muss unterschrieben werden.)\n-> Die Aufgabe ist noch zu erledigen.\n\n=== 9. HABEN + ZU + INFINITIV ===\n\nExpresses necessity/obligation:\n-> Ich habe zu gehorchen. (= I must obey.)\n-> Er hat die Pflicht zu erfuellen.",
+  "tips": [
+    "Um ... zu = SAME subject. Damit = DIFFERENT subjects.",
+    "Ohne ... zu = absence of action (same subject). Ohne dass = different subjects.",
+    "Anstatt ... zu = alternative/substitution (same subject). Anstatt dass = different subjects.",
+    "So + Adjektiv + auch + Verb am Ende = No matter how ... (concessive)",
+    "Obgleich / obschon / wenngleich = formal synonyms for obwohl",
+    "Sollte ... = inverted conditional without wenn (Falls ... sollte)",
+    "Haette / Waere + Konjunktiv II at position 1 = past conditional without wenn",
+    "Anzeichen dafuer, dass = Anzeichen + da-compound + dass (Frau/Besuch triggers)",
+    "Die Huerden waren zu hoch, als dass ... + Konjunktiv II = unreal consequence",
+    "Separable verbs: zu between prefix and stem (abzuschliessen, einzustellen)",
+    "Perfect infinitive: Partizip II + zu haben (bestanden zu haben, erledigt zu haben)",
+    "Sein + zu + Infinitiv = formal Passiversatzform (müssen + Passiv equivalent)"
+  ],
   "questions": [
     {
       "id": "c1_09_q001",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "questionText": "Welche Konjunktion leitet einen Kausalsatz ein?",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "falls"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "Weil introduces a causal subordinate clause (Kausalsatz), giving the reason. Obwohl = concessive, damit = final, falls = conditional."
     },
     {
       "id": "c1_09_q002",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Wandeln Sie um: Er lernt Deutsch, weil er in Deutschland arbeiten moechte. -> Infinitivkonstruktion",
       "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
+        "Er lernt Deutsch, um in Deutschland zu arbeiten.",
+        "Er lernt Deutsch, damit er in Deutschland arbeitet.",
+        "Er lernt Deutsch, ohne in Deutschland zu arbeiten.",
+        "Er lernt Deutsch, anstatt in Deutschland zu arbeiten."
       ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Er lernt Deutsch, um in Deutschland zu arbeiten.",
+      "explanation": "Same subject (er) -> um ... zu + Infinitiv. Damit would require different subjects and a conjugated verb."
     },
     {
       "id": "c1_09_q003",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welche Konjunktion leitet einen Konzessivsatz (Einraeumung) ein?",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "weil",
+        "wenn",
+        "obwohl",
+        "sodass"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces a concessive clause expressing contrast. Weil = causal, wenn = conditional/temporal, sodass = consecutive."
     },
     {
       "id": "c1_09_q004",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sprach, ___ er alles wüsste.",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Ergaenzen Sie die richtige Infinitivkonstruktion: Sie ging, ____ sich zu verabschieden.",
       "options": [
-        "als ob",
-        "wenn",
-        "weil",
+        "um",
+        "ohne",
+        "anstatt",
         "damit"
       ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu + Infinitiv expresses absence of an accompanying action (without saying goodbye). Um = purpose, anstatt = alternative action."
     },
     {
       "id": "c1_09_q005",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welche Konstruktion ist korrekt? Er arbeitet hart, ____ die Pruefung zu bestehen.",
       "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
+        "damit",
+        "um",
+        "ohne",
+        "obwohl"
       ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "um",
+      "explanation": "Um ... zu + Infinitiv expresses purpose when both clauses share the same subject. Damit requires a full subordinate clause."
     },
     {
       "id": "c1_09_q006",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Wann muss damit statt um ... zu verwendet werden?",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "Wenn beide Saetze dasselbe Subjekt haben",
+        "Wenn die Subjekte der beiden Saetze verschieden sind",
+        "Wenn das Verb ein Modalverb ist",
+        "Nur in formellen Texten"
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wenn die Subjekte der beiden Saetze verschieden sind",
+      "explanation": "Damit is required when subjects differ. E.g. Er erklaert es, damit die Studierenden es verstehen (er ≠ Studierenden)."
     },
     {
       "id": "c1_09_q007",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Wandeln Sie um: Obwohl er muede war, arbeitete er weiter. -> konzessive Infinitivkonstruktion",
       "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
+        "Um muede zu sein, arbeitete er weiter.",
+        "Ohne muede zu sein, arbeitete er weiter.",
+        "Trotz seiner Muedigkeit arbeitete er weiter.",
+        "Anstatt muede zu sein, arbeitete er weiter."
       ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Trotz seiner Muedigkeit arbeitete er weiter.",
+      "explanation": "Obwohl -> Trots + Genitiv (prepositional phrase). Ohne ... zu expresses absence of action, not concession."
     },
     {
       "id": "c1_09_q008",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "questionText": "Welcher Satz verwendet anstatt ... zu korrekt?",
+      "options": [
+        "Anstatt dass er lernte, ging er ins Kino.",
+        "Er ging ins Kino, anstatt zu lernen.",
+        "Er ging ins Kino, anstatt er lernend ist.",
+        "Anstatt zu lernen dass er, ging er ins Kino."
+      ],
+      "correctAnswer": "Er ging ins Kino, anstatt zu lernen.",
+      "explanation": "Anstatt ... zu + Infinitiv when both clauses share the same subject. The infinitive follows 'zu' at the end."
     },
     {
       "id": "c1_09_q009",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Ergaenzen Sie die passende Konjunktion: ____ sie das Studium abgeschlossen hatte, fand sie sofort eine Stelle.",
       "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
+        "Nachdem",
+        "Bevor",
+        "Waehrend",
+        "Seitdem"
       ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Nachdem",
+      "explanation": "Nachdem introduces temporal sequence where the subordinate clause is completed before the main clause. Requires tense shift: Plusquamperfekt -> Perfekt."
     },
     {
       "id": "c1_09_q010",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Was ist der Unterschied zwischen als und wenn in Temporalsaetzen?",
       "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
+        "Es gibt keinen Unterschied; beide sind austauschbar.",
+        "Als wird fuer einmalige Ereignisse in der Vergangenheit verwendet; wenn fuer wiederholte oder zukuenftige Ereignisse.",
+        "Wenn wird nur in der Vergangenheit verwendet; als fuer die Zukunft.",
+        "Als leitet Konditionalsaetze ein; wenn leitet Temporalsaetze ein."
       ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Als wird fuer einmalige Ereignisse in der Vergangenheit verwendet; wenn fuer wiederholte oder zukuenftige Ereignisse.",
+      "explanation": "Als = single unique past event. Wenn = repeated past or any future/present event. Classic C1 grammar distinction."
     },
     {
       "id": "c1_09_q011",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "questionText": "Wandeln Sie um: Sie arbeitet sehr viel, sodass sie kaum Zeit fuer Familie hat. -> Infinitivkonstruktion oder Nominalphrase",
+      "options": [
+        "Sie arbeitet sehr viel, um kaum Zeit fuer die Familie zu haben.",
+        "Sie arbeitet so viel, ohne Zeit fuer die Familie zu haben.",
+        "Sie arbeitet sehr viel, was dazu fuehrt, dass sie kaum Zeit fuer die Familie hat.",
+        "Infolge ihrer intensiven Arbeit hat sie kaum Zeit fuer die Familie."
+      ],
+      "correctAnswer": "Infolge ihrer intensiven Arbeit hat sie kaum Zeit fuer die Familie.",
+      "explanation": "Sodass consecutive clause -> Infolge + Genitiv (Nominalstil). Um ... zu expresses purpose not result."
     },
     {
       "id": "c1_09_q012",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er tat so, ___ er von nichts ___",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welche Konjunktion leitet einen Konditionalsatz ein und ist formeller als wenn?",
       "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
+        "obwohl",
+        "sofern",
+        "nachdem",
+        "sodass"
       ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sofern",
+      "explanation": "Sofern (provided that/as long as) is more formal than wenn and commonly used in legal, academic, and official texts."
     },
     {
       "id": "c1_09_q013",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Ergaenzen Sie: Er bestand die Pruefung, ____ er kaum gelernt hatte. (konzessiv / adversativ)",
       "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
+        "weil",
+        "obwohl",
+        "sodass",
+        "nachdem"
       ],
-      "correctAnswer": "In",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl concessive: despite barely studying, he passed. Weil = reason, sodass = consequence, nachdem = temporal."
     },
     {
       "id": "c1_09_q014",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
-      "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
-      ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "questionText": "Welche Infinitivkonstruktion ersetzt korrekt: Er ist so beschaeftigt, dass er sich nicht melden kann.",
+      "options": [
+        "Er ist zu beschaeftigt, um sich zu melden.",
+        "Er ist beschaeftigt, ohne sich zu melden.",
+        "Er ist beschaeftigt, anstatt sich zu melden.",
+        "Er ist beschaeftigt, damit er sich nicht meldet."
+      ],
+      "correctAnswer": "Er ist zu beschaeftigt, um sich zu melden.",
+      "explanation": "So + Adjektiv + dass -> Zu + Adjektiv + um ... zu. Expresses too ... to: He is too busy to get in touch."
     },
     {
       "id": "c1_09_q015",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "questionText": "Wandeln Sie um: Wenn man taeglich liest, verbessert man seinen Wortschatz. -> ohne man",
+      "options": [
+        "Taegliches Lesen verbessert den Wortschatz.",
+        "Um taeglich zu lesen, verbessert man den Wortschatz.",
+        "Ohne taeglich zu lesen, verbessert man den Wortschatz.",
+        "Nachdem man taeglich liest, verbessert man den Wortschatz."
+      ],
+      "correctAnswer": "Taegliches Lesen verbessert den Wortschatz.",
+      "explanation": "Impersonal 'man' clause -> nominalized infinitive as subject. Classic Nominalstil transformation."
     },
     {
       "id": "c1_09_q016",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welcher Satz ist grammatisch korrekt?",
       "options": [
-        "Nachdem",
-        "Weil",
-        "Obwohl",
-        "Als"
+        "Er hofft, dass er die Stelle zu bekommen.",
+        "Er hofft, die Stelle zu bekommen.",
+        "Er hofft, um die Stelle zu bekommen.",
+        "Er hofft, ohne die Stelle zu bekommen."
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Er hofft, die Stelle zu bekommen.",
+      "explanation": "Verbs like hoffen, versuchen, planen take zu + Infinitiv (same subject). Kein dass no conjunction needed."
     },
     {
       "id": "c1_09_q017",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Wandeln Sie vollstaendig um: Da das Projekt fehlgeschlagen war, musste das Team neu anfangen. -> Nominalphrase mit Praeposition",
       "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
+        "Wegen des Scheiterns des Projekts musste das Team neu anfangen.",
+        "Obwohl das Projekt fehlgeschlagen war, musste das Team neu anfangen.",
+        "Das Projekt war gescheitert, sodass das Team neu anfangen musste.",
+        "Um das Projekt zu retten, musste das Team neu anfangen."
       ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Wegen des Scheiterns des Projekts musste das Team neu anfangen.",
+      "explanation": "Da + causal -> Wegen + Genitiv. Scheitern nominalized in genitive. Classic Nominalstil transformation."
     },
     {
       "id": "c1_09_q018",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "questionText": "Welche Aussage zu ohne dass vs. ohne ... zu ist FALSCH?",
+      "options": [
+        "Ohne dass wird verwendet, wenn die Subjekte beider Saetze verschieden sind.",
+        "Ohne ... zu erfordert dasselbe Subjekt in beiden Saetzen.",
+        "Ohne ... zu und ohne dass sind immer austauschbar.",
+        "Ohne dass enthaelt ein konjugiertes Verb im Nebensatz."
+      ],
+      "correctAnswer": "Ohne ... zu und ohne dass sind immer austauschbar.",
+      "explanation": "Ohne ... zu = same subject only. Ohne dass = different subjects. They are NOT always interchangeable."
     },
     {
       "id": "c1_09_q019",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Formen Sie um: Er liest taeglich Zeitung, sodass er immer gut informiert ist. -> adversative/konsekutive Konstruktion mit Partizip",
       "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
+        "Taeglich Zeitung lesend, ist er immer gut informiert.",
+        "Um taeglich Zeitung zu lesen, ist er gut informiert.",
+        "Obwohl er taeglich Zeitung liest, ist er gut informiert.",
+        "Nachdem er taeglich Zeitung gelesen hat, ist er gut informiert."
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Taeglich Zeitung lesend, ist er immer gut informiert.",
+      "explanation": "Partizip I (lesend) replaces simultaneous/consecutive clause as absolute construction. Literary/formal C1 device."
     },
     {
       "id": "c1_09_q020",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Entwicklung ist ___ zu ___",
-      "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_09_q021",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "questionText": "Welcher Satz enthaelt einen FEHLER in der Infinitiv- oder Nebensatzkonstruktion?",
+      "options": [
+        "Sie bat ihn, ihr beim Umzug zu helfen.",
+        "Er versprach, punktlich zu kommen.",
+        "Wir freuen uns darauf, euch bald zu sehen.",
+        "Er empfahl ihr, dass sie das Buch zu lesen."
+      ],
+      "correctAnswer": "Er empfahl ihr, dass sie das Buch zu lesen.",
+      "explanation": "Dass and zu + Infinitiv cannot be combined. Either use dass + conjugated verb OR zu + Infinitiv. Mixing both is ungrammatical."
     },
     {
-      "id": "c1_09_q022",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_09_q023",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
+      "type": "multiple_choice",
+      "questionText": "Wann ist die Verwendung eines Infinitivs mit zu im Deutschen grammatikalisch zwingend?",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "Nach den meisten Vollverben, Adjektiven und Substantiven",
+        "Ausschliesslich nach Modalverben",
+        "Immer im Perfekt mit Hilfsverben",
+        "Nur in Frage- und Ausrufesaetzen"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Nach den meisten Vollverben, Adjektiven und Substantiven",
+      "explanation": "Zu + Infinitiv is the default after most verbs (except modals, perception verbs, lassen), adjectives (leicht zu verstehen), and nouns (die Lust zu reisen).",
+      "id": "c1_09_q021"
     },
     {
-      "id": "c1_09_q024",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sprach, ___ er alles wüsste.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie korrekt: Er verliess den Raum, ____ sich zu verabschieden.",
       "options": [
-        "als ob",
-        "wenn",
-        "weil",
+        "ohne",
+        "statt",
+        "um",
         "damit"
       ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu expresses an accompanying circumstance that did not occur. Requires subject congruence between main and infinitive clause.",
+      "id": "c1_09_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Bedingung muss fuer die Verwendung von um ... zu erfuellt sein?",
+      "options": [
+        "Die Handlungen muessen in verschiedenen Zeitebenen stattfinden.",
+        "Das Subjekt des Haupt- und des Infinitivsatzes muss identisch sein.",
+        "Der Infinitiv muss immer verneint werden.",
+        "Es muss ein reflexives Verb im Haupt- und Nebensatz stehen."
+      ],
+      "correctAnswer": "Das Subjekt des Haupt- und des Infinitivsatzes muss identisch sein.",
+      "explanation": "Um ... zu indicates purpose and requires the same subject in both clauses. If subjects differ, damit must be used instead.",
+      "id": "c1_09_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wo wird zu bei einem trennbaren Verb im Infinitiv positioniert?",
+      "options": [
+        "Vor dem Praefix: zu abschliessen",
+        "Zwischen Praefix und Stamm: abzuschliessen",
+        "Nach dem Stamm: abschliessen zu",
+        "Es wird bei trennbaren Verben nicht verwendet."
+      ],
+      "correctAnswer": "Zwischen Praefix und Stamm: abzuschliessen",
+      "explanation": "In extended infinitive constructions, zu is inserted between the separable prefix and stem: abzuschliessen, aufzuraeumen, vorzubereiten.",
+      "id": "c1_09_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie wird der Infinitiv in Es ist wichtig, ____ korrekt verneint?",
+      "options": [
+        "nicht punktlich zu sein",
+        "punktlich nicht zu sein",
+        "zu nicht punktlich sein",
+        "nicht sein zu punktlich"
+      ],
+      "correctAnswer": "nicht punktlich zu sein",
+      "explanation": "Negation in infinitive clauses precedes the element it modifies. Nicht appears before adjectives, adverbs, or participles, directly before zu + infinitive.",
+      "id": "c1_09_q025"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ersetzt einen dass-Nebensatz korrekt, wenn das Subjekt identisch ist? Ich hoffe, dass ich bald abreise.",
+      "options": [
+        "Ich hoffe, bald abzureisen.",
+        "Ich hoffe, dass bald abzureisen.",
+        "Ich hoffe, bald abreise zu.",
+        "Ich hoffe auf, bald abzureisen."
+      ],
+      "correctAnswer": "Ich hoffe, bald abzureisen.",
+      "explanation": "Same-subject clauses prefer zu + Infinitiv, omitting dass and converting to infinitive. Concise and natural at C1 level.",
+      "id": "c1_09_q026"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb erfordert im Infinitivsatz KEIN zu?",
+      "options": [
+        "vergessen",
+        "versuchen",
+        "sehen",
+        "beginnen"
+      ],
+      "correctAnswer": "sehen",
+      "explanation": "Perception verbs (sehen, hoeren, fuehlen) and lassen take a bare infinitive in the acc.+infinitive construction: Ich sehe ihn kommen. Adding zu would be incorrect.",
+      "id": "c1_09_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie korrekt: Er arbeitet hart, ____ das Projekt rechtzeitig fertig zu stellen.",
+      "options": [
+        "um",
+        "damit",
+        "ohne",
+        "anstatt"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Purpose with identical subjects (er -> er) requires um ... zu. Damit would be incorrect due to subject congruence, though often misused.",
+      "id": "c1_09_q028"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber ohne dass vs. ohne ... zu ist korrekt?",
+      "options": [
+        "Ohne dass erfordert Subjektgleichheit; ohne ... zu erlaubt Subjektwechsel.",
+        "Ohne ... zu erfordert Subjektgleichheit; ohne dass erlaubt Subjektwechsel.",
+        "Beide Konstruktionen sind vollstaendig synonym und austauschbar.",
+        "Ohne dass wird nur in der gesprochenen Sprache verwendet."
+      ],
+      "correctAnswer": "Ohne ... zu erfordert Subjektgleichheit; ohne dass erlaubt Subjektwechsel.",
+      "explanation": "Ohne ... zu = same subject only. Ohne dass = different subjects, e.g., Er ging, ohne dass sie es bemerkte.",
+      "id": "c1_09_q029"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Praepositionalobjekt korrekt: Sie besteht darauf, ____ sofort informiert zu werden.",
+      "options": [
+        "dass sie",
+        "darauf, dass sie",
+        "darauf, sie",
+        "darauf, dass"
+      ],
+      "correctAnswer": "darauf, dass sie",
+      "explanation": "Verbs with prepositional objects (bestehen auf) require a da-compound (darauf) when followed by a subordinate clause. Comma after darauf is mandatory before dass-clause.",
+      "id": "c1_09_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Infinitivkonstruktion druckt eine passive Notwendigkeit aus?",
+      "options": [
+        "Das Dokument ist zu unterschreiben.",
+        "Das Dokument muss unterschrieben werden.",
+        "Beide A und B sind korrekt.",
+        "Keine der beiden ist grammatikalisch korrekt."
+      ],
+      "correctAnswer": "Beide A und B sind korrekt.",
+      "explanation": "Sein + zu + Infinitiv is a formal Passiversatzform equivalent to muessen + Passiv. Both express passive necessity at C1 register.",
+      "id": "c1_09_q031"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Infinitivform nach vergessen im Perfekt? Er hat vergessen, ____.",
+      "options": [
+        "die Tuer abzuschliessen",
+        "abzuschliessen die Tuer",
+        "die Tuer abgeschlosssen zu",
+        "die Tuer zu abgeschlossen"
+      ],
+      "correctAnswer": "die Tuer abzuschliessen",
+      "explanation": "Extended infinitive groups place objects before the infinitive. Separable verb: zu inserted between prefix and stem: abzuschliessen.",
+      "id": "c1_09_q032"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist im wissenschaftlichen Stil bevorzugt, um Kausalitaet auszudruecken, ohne Personalpronomen zu verwenden?",
+      "options": [
+        "Weil man die Daten analysiert, zeigt sich...",
+        "Aufgrund der Analyse der Daten zeigt sich...",
+        "Da die Daten analysiert wurden, zeigt sich...",
+        "Die Daten analysierend, zeigt sich..."
+      ],
+      "correctAnswer": "Aufgrund der Analyse der Daten zeigt sich...",
+      "explanation": "C1 academic writing favors nominalized causal constructions (Aufgrund + Genitiv) to avoid agentive phrasing and enhance objectivity.",
+      "id": "c1_09_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie korrekt: ____ die Entscheidung revidiert wird, muessen wir mit Konsequenzen rechnen.",
+      "options": [
+        "Falls",
+        "Ohne",
+        "Statt",
+        "Um"
+      ],
+      "correctAnswer": "Falls",
+      "explanation": "Falls introduces a conditional subordinate clause (verb-final), equivalent to wenn but with lower probability. Standard C1 conjunction for hypothetical scenarios.",
+      "id": "c1_09_q034"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Infinitivkonstruktion ist grammatikalisch korrekt, aber stilistisch veraltet oder umgangssprachlich?",
+      "options": [
+        "Ich habe Lust, ins Kino zu gehen.",
+        "Er versucht, das Problem zu loesen.",
+        "Sie faengt an, zu singen.",
+        "Sie faengt zu singen an."
+      ],
+      "correctAnswer": "Sie faengt zu singen an.",
+      "explanation": "Placing an after the infinitive (zu singen an) is grammatically possible but stylistically outdated. Modern German prefers Sie faengt an, zu singen.",
+      "id": "c1_09_q035"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man diesen Satz in einen erweiterten Infinitivsatz mit identischer Subjektbeziehung? Er weigerte sich, dass er die Verantwortung uebernimmt.",
+      "options": [
+        "Er weigerte sich, die Verantwortung zu uebernehmen.",
+        "Er weigerte sich, die Verantwortung uebernommen zu werden.",
+        "Er weigerte sich, dass die Verantwortung zu uebernehmen.",
+        "Er weigerte sich, die Verantwortung uebernehmen."
+      ],
+      "correctAnswer": "Er weigerte sich, die Verantwortung zu uebernehmen.",
+      "explanation": "sich weigern requires zu + Infinitiv when subject performs the action. Removing redundant dass-clause demonstrates C1 syntactic reduction.",
+      "id": "c1_09_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche semantische Nuance unterscheidet drohen zu von versprechen zu in der Infinitivkonstruktion?",
+      "options": [
+        "Beide drucken eine positive Erwartung aus.",
+        "Drohen zu impliziert eine negative Entwicklung; versprechen zu eine positive.",
+        "Versprechen zu erfordert immer ein direktes Objekt; drohen zu nicht.",
+        "Es gibt keinen Unterschied; sie sind austauschbar."
+      ],
+      "correctAnswer": "Drohen zu impliziert eine negative Entwicklung; versprechen zu eine positive.",
+      "explanation": "Drohen zu signals impending negative outcome (droht zu scheitern). Versprechen zu indicates promising positive trend (verspricht erfolgreich zu sein).",
+      "id": "c1_09_q037"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Identifizieren Sie den Satz mit fehlerhafter Komma-Setzung bei einer Infinitivgruppe.",
+      "options": [
+        "Er bat mich, ihm zu helfen.",
+        "Ohne lange zu ueberlegen, traf er eine Entscheidung.",
+        "Es ist wichtig die Daten regelmaessig zu sichern.",
+        "Sie hat vergessen, die E-Mail abzuschicken."
+      ],
+      "correctAnswer": "Es ist wichtig die Daten regelmaessig zu sichern.",
+      "explanation": "Extended infinitive groups introduced by es ist + Adjektiv/Nomen require a comma before zu. Missing comma is a frequent C1 exam trap.",
+      "id": "c1_09_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist korrekt, wenn das Infinitivsubjekt vom Hauptsatzsubjekt abweicht?",
+      "options": [
+        "Ich freue mich, dass du kommst.",
+        "Ich freue mich, dich zu kommen.",
+        "Ich freue mich, du zu kommen.",
+        "Ich freue mich, dass zu du kommen."
+      ],
+      "correctAnswer": "Ich freue mich, dass du kommst.",
+      "explanation": "When subjects differ (ich vs. du), an infinitive construction is impossible. A dass-clause must be used. Forcing zu here violates subject congruence rules.",
+      "id": "c1_09_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie demonstriert fortgeschrittene Kompetenz bei der Wahl zwischen Nebensatz und Infinitivkonstruktion?",
+      "options": [
+        "Immer den Infinitiv zu waehlen, da er kuerzer ist.",
+        "Den Nebensatz zu bevorzugen, um formellen Stil zu vermeiden.",
+        "Gezielt den Infinitiv bei Subjektgleichheit und Registerformalitaet zu nutzen, den Nebensatz bei Subjektwechsel, Betonung oder Klarheitsbedarf.",
+        "Beide Strukturen sind austauschbar; die Wahl ist rein subjektiv."
+      ],
+      "correctAnswer": "Gezielt den Infinitiv bei Subjektgleichheit und Registerformalitaet zu nutzen, den Nebensatz bei Subjektwechsel, Betonung oder Klarheitsbedarf.",
+      "explanation": "C1 mastery involves pragmatic flexibility: infinitives for conciseness/formality when subjects align; subordinate clauses for clarity, emphasis, or when grammatical constraints demand it.",
+      "id": "c1_09_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hofft, die Pruefung ohne Probleme ____.",
+      "options": [
+        "zu bestehen",
+        "bestehen",
+        "bestanden zu",
+        "zu bestanden"
+      ],
+      "correctAnswer": "zu bestehen",
+      "explanation": "After verbs like hoffen, an infinitive construction with zu is used.",
+      "id": "c1_09_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie ging frueh nach Hause, ____ sie muede war.",
+      "options": [
+        "weil",
+        "um",
+        "anstatt",
+        "ohne"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "Weil introduces a causal subordinate clause.",
+      "id": "c1_09_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er spart Geld, ____ ein neues Auto kaufen zu koennen.",
+      "options": [
+        "um",
+        "ohne",
+        "anstatt",
+        "trotz"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Um ... zu expresses purpose or intention.",
+      "id": "c1_09_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie verliess den Raum, ____ etwas zu sagen.",
+      "options": [
+        "ohne",
+        "um",
+        "anstatt",
+        "waehrend"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu expresses an action not taking place.",
+      "id": "c1_09_q044"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Aufgabe selbst zu loesen, bat er um Hilfe.",
+      "options": [
+        "Anstatt",
+        "Um",
+        "Ohne",
+        "Weil"
+      ],
+      "correctAnswer": "Anstatt",
+      "explanation": "Anstatt ... zu expresses an alternative action.",
+      "id": "c1_09_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Professorin erklaerte, ____ die Ergebnisse interpretiert werden muessten.",
+      "options": [
+        "wie",
+        "um",
+        "ohne",
+        "anstatt"
+      ],
+      "correctAnswer": "wie",
+      "explanation": "Wie introduces an indirect question clause.",
+      "id": "c1_09_q046"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er scheint die Nachricht nicht ____.",
+      "options": [
+        "verstanden zu haben",
+        "zu verstanden haben",
+        "verstanden haben zu",
+        "haben verstanden zu"
+      ],
+      "correctAnswer": "verstanden zu haben",
+      "explanation": "Perfect infinitive constructions place zu before the auxiliary.",
+      "id": "c1_09_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie arbeitet viel, ____ ihre Familie finanziell unterstuetzen zu koennen.",
+      "options": [
+        "um",
+        "ohne",
+        "anstatt",
+        "waehrend"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Um ... zu introduces purpose.",
+      "id": "c1_09_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ er krank war, nahm er an der Sitzung teil.",
+      "options": [
+        "Obwohl",
+        "Damit",
+        "Um",
+        "Sobald"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl introduces a concessive subordinate clause.",
+      "id": "c1_09_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer wurden gebeten, ihre Handys ____.",
+      "options": [
+        "auszuschalten",
+        "zu ausschalten",
+        "ausschalten",
+        "ausgeschaltet zu"
+      ],
+      "correctAnswer": "auszuschalten",
+      "explanation": "Separable verbs combine with zu inserted before the stem.",
+      "id": "c1_09_q050"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er verliess das Buerro, ____ sich zu verabschieden.",
+      "options": [
+        "ohne",
+        "um",
+        "anstatt",
+        "trotz"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu expresses omission of an action.",
+      "id": "c1_09_q051"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Daten analysiert worden waren, konnte der Bericht veroeffentlicht werden.",
+      "options": [
+        "Nachdem",
+        "Waehrend",
+        "Damit",
+        "Ohne"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "Nachdem introduces a temporal subordinate clause with sequence.",
+      "id": "c1_09_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er behauptet, alle Aufgaben rechtzeitig ____.",
+      "options": [
+        "erledigt zu haben",
+        "zu erledigt haben",
+        "erledigen zu haben",
+        "haben erledigt zu"
+      ],
+      "correctAnswer": "erledigt zu haben",
+      "explanation": "Perfect infinitive is formed with participle + zu haben.",
+      "id": "c1_09_q053"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie lernte intensiv, ____ die Pruefung zu bestehen.",
+      "options": [
+        "um",
+        "ohne",
+        "anstatt",
+        "waehrend"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Um ... zu expresses intention or goal.",
+      "id": "c1_09_q054"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Firma entschied sich, neue Mitarbeiter ____.",
+      "options": [
+        "einzustellen",
+        "zu einstellen",
+        "eingestellt zu",
+        "einstellen"
+      ],
+      "correctAnswer": "einzustellen",
+      "explanation": "With separable verbs, zu is inserted into the infinitive.",
+      "id": "c1_09_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ er keine Erfahrung hatte, bekam er die Stelle.",
+      "options": [
+        "Obwohl",
+        "Damit",
+        "Um",
+        "Sobald"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "Obwohl introduces contrast or concession.",
+      "id": "c1_09_q056"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ging, ____ jemanden zu informieren.",
+      "options": [
+        "ohne",
+        "um",
+        "anstatt",
+        "nachdem"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu means without doing something.",
+      "id": "c1_09_q057"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Lehrerin erklaerte den Schuelern, ____ sie die Aufgabe loesen sollten.",
+      "options": [
+        "wie",
+        "damit",
+        "um",
+        "anstatt"
+      ],
+      "correctAnswer": "wie",
+      "explanation": "Wie introduces an indirect question.",
+      "id": "c1_09_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er scheint die Dokumente nicht rechtzeitig ____.",
+      "options": [
+        "eingereicht zu haben",
+        "zu eingereicht haben",
+        "eingereicht haben zu",
+        "haben eingereicht zu"
+      ],
+      "correctAnswer": "eingereicht zu haben",
+      "explanation": "Perfect infinitive constructions require participle + zu haben.",
+      "id": "c1_09_q059"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ die Besprechung beendet war, gingen alle nach Hause.",
+      "options": [
+        "Nachdem",
+        "Waehrend",
+        "Ohne",
+        "Um"
+      ],
+      "correctAnswer": "Nachdem",
+      "explanation": "Nachdem expresses that one action happened before another.",
+      "id": "c1_09_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ ist eine infinite Verbform, die oft mit zu verwendet wird.",
+      "options": [
+        "Partizip I",
+        "Partizip II",
+        "Infinitiv",
+        "Konjunktiv"
+      ],
+      "correctAnswer": "Infinitiv",
+      "explanation": "The infinitive (Infinitiv) is the basic non-conjugated verb form, often combined with zu in German infinitive clauses.",
+      "id": "c1_09_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Es ist wichtig, ____.",
+      "options": [
+        "rechtzeitig anzukommen",
+        "rechtzeitig ankommen",
+        "rechtzeitig zu ankommen",
+        "rechtzeitig ankommt"
+      ],
+      "correctAnswer": "rechtzeitig anzukommen",
+      "explanation": "Infinitive clauses with zu are used after adjectives like wichtig: Es ist wichtig, rechtzeitig anzukommen.",
+      "id": "c1_09_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt einen Infinitivsatz mit um zu?",
+      "options": [
+        "Er lernt, um zu bestehen.",
+        "Er lernt, zu bestehen.",
+        "Er lernt, dass er besteht.",
+        "Er lernt bestehen."
+      ],
+      "correctAnswer": "Er lernt, um zu bestehen.",
+      "explanation": "Um zu + Infinitiv expresses purpose: Er lernt, um zu bestehen = He studies in order to pass.",
+      "id": "c1_09_q063"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Konstruktion ohne ... zu + Infinitiv bedeutet:",
+      "options": [
+        "waehrend",
+        "statt dass",
+        "ohne dass / ohne etwas zu tun",
+        "damit nicht"
+      ],
+      "correctAnswer": "ohne dass / ohne etwas zu tun",
+      "explanation": "Ohne ... zu + Infinitiv means without doing something: Er ging, ohne etwas zu sagen = He left without saying anything.",
+      "id": "c1_09_q064"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ das Problem zu loesen, suchte er Hilfe.",
+      "options": [
+        "Um",
+        "Ohne",
+        "Statt",
+        "Anstatt"
+      ],
+      "correctAnswer": "Statt",
+      "explanation": "Statt ... zu + Infinitiv (instead of): Statt das Problem zu loesen, suchte er Hilfe = Instead of solving the problem, he sought help.",
+      "id": "c1_09_q065"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher der folgenden Saetze ist ein FINALSATZ (Zweck)?",
+      "options": [
+        "Er arbeitet, weil er Geld braucht.",
+        "Er arbeitet, damit er Geld hat.",
+        "Er arbeitet, obwohl er muede ist.",
+        "Er arbeitet, waehrend er Musik hoert."
+      ],
+      "correctAnswer": "Er arbeitet, damit er Geld hat.",
+      "explanation": "Damit introduces a final clause expressing purpose. Weil = causal, obwohl = concessive, waehrend = temporal.",
+      "id": "c1_09_q066"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie den damit-Satz durch einen Infinitivsatz mit um zu: Er spart Geld, damit er ein Auto kaufen kann.",
+      "options": [
+        "Er spart Geld, um ein Auto zu kaufen.",
+        "Er spart Geld, um ein Auto kaufen.",
+        "Er spart Geld, um dass er ein Auto kauft.",
+        "Er spart Geld, zu kaufen ein Auto."
+      ],
+      "correctAnswer": "Er spart Geld, um ein Auto zu kaufen.",
+      "explanation": "If the subject of both clauses is the same, damit can be replaced by um zu + infinitive.",
+      "id": "c1_09_q067"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Er ist zu jung, ____.",
+      "options": [
+        "um allein zu reisen",
+        "dass er allein reist",
+        "allein zu reisen",
+        "um zu reisen allein"
+      ],
+      "correctAnswer": "um allein zu reisen",
+      "explanation": "The pattern zu + Adjektiv, um zu + Infinitiv expresses an impossible consequence: too young to travel alone.",
+      "id": "c1_09_q068"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein KONSEKUTIVSATZ (Folge)?",
+      "options": [
+        "Er ist krank, sodass er nicht kommen kann.",
+        "Er ist krank, weil er nicht kommen kann.",
+        "Er ist krank, obwohl er kommen will.",
+        "Er ist krank, damit er nicht kommt."
+      ],
+      "correctAnswer": "Er ist krank, sodass er nicht kommen kann.",
+      "explanation": "Sodass introduces a consecutive clause (result): He is sick, so that he cannot come.",
+      "id": "c1_09_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Infinitivkonstruktion brauchen + zu + Infinitiv wird verwendet, um ____ auszudruecken.",
+      "options": [
+        "Notwendigkeit im positiven Sinne",
+        "fehlende Notwendigkeit (nicht muessen)",
+        "eine Bitte",
+        "eine Erlaubnis"
+      ],
+      "correctAnswer": "fehlende Notwendigkeit (nicht muessen)",
+      "explanation": "Brauchen + nicht + zu + Infinitiv replaces nicht muessen: Du brauchst nicht zu kommen = You dont have to come.",
+      "id": "c1_09_q070"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Er scheint, ____ zu haben.",
+      "options": [
+        "das Examen bestanden",
+        "das Examen zu bestanden",
+        "das Examen bestanden zu haben",
+        "das Examen bestand"
+      ],
+      "correctAnswer": "das Examen bestanden zu haben",
+      "explanation": "The infinitive perfect (Partizip II + zu haben) is used after scheinen when referring to the past.",
+      "id": "c1_09_q071"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Nebensatz kann NICHT in einen Infinitivsatz umgewandelt werden?",
+      "options": [
+        "Er hofft, dass er gewinnt.",
+        "Er befiehlt, dass der Soldat kommt.",
+        "Er glaubt, dass sie ihn liebt.",
+        "Er weiss, dass sie kommt."
+      ],
+      "correctAnswer": "Er weiss, dass sie kommt.",
+      "explanation": "Verbs of knowledge (wissen, erfahren) do not allow infinitive clause transformation. Hoffer, befehlen, glauben can take zu-infinitives if subject matches.",
+      "id": "c1_09_q072"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Konjunktion anstatt wird im Nebensatz mit ____ verwendet.",
+      "options": [
+        "Indikativ",
+        "Konjunktiv",
+        "Infinitiv mit zu",
+        "Partizip II"
+      ],
+      "correctAnswer": "Infinitiv mit zu",
+      "explanation": "Anstatt + zu + Infinitiv: Anstatt zu arbeiten, schlief er = Instead of working, he slept.",
+      "id": "c1_09_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Er ist reich genug, ____.",
+      "options": [
+        "um sich ein Haus zu leisten",
+        "sich ein Haus zu leisten",
+        "dass er sich ein Haus leistet",
+        "zu leisten sich ein Haus"
+      ],
+      "correctAnswer": "um sich ein Haus zu leisten",
+      "explanation": "The pattern genug ... um zu + Infinitiv expresses sufficient condition: rich enough to afford a house.",
+      "id": "c1_09_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Unterschied zwischen versprechen zu kommen und versprechen, dass er kommt?",
+      "options": [
+        "Kein Unterschied.",
+        "Ersteres (Infinitiv) bei gleichem Subjekt, zweiteres (dass-Satz) bei unterschiedlichem Subjekt.",
+        "Ersteres ist falsch.",
+        "Zweiteres ist formeller."
+      ],
+      "correctAnswer": "Ersteres (Infinitiv) bei gleichem Subjekt, zweiteres (dass-Satz) bei unterschiedlichem Subjekt.",
+      "explanation": "Infinitive construction requires same subject. dass-clause allows different subject: Er verspricht zu kommen (er=er). Er verspricht, dass sie kommt (er=sie).",
+      "id": "c1_09_q075"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb erlaubt KEINEN Infinitivsatz mit zu?",
+      "options": [
+        "beginnen",
+        "aufhoeren",
+        "vergessen",
+        "antworten"
+      ],
+      "correctAnswer": "antworten",
+      "explanation": "Antworten (to answer) cannot take a zu-infinitive: Er antwortete, zu kommen is wrong. It needs a dass-clause or direct object.",
+      "id": "c1_09_q076"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ersetzen Sie den Nebensatz: Sie freut sich darueber, dass sie ihn wiedersieht. -> Sie freut sich, ____.",
+      "options": [
+        "ihn wiederzusehen",
+        "dass sie ihn wiedersieht",
+        "um ihn wiederzusehen",
+        "ihn wieder zu sehen"
+      ],
+      "correctAnswer": "ihn wiederzusehen",
+      "explanation": "Verbs like sich freuen can be followed by a zu-infinitive when the subject is the same: sich freuen, jemanden wiederzusehen.",
+      "id": "c1_09_q077"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ ihn zu fragen, ging er weg.",
+      "options": [
+        "Ohne",
+        "Statt",
+        "Um",
+        "Nach"
+      ],
+      "correctAnswer": "Statt",
+      "explanation": "Statt + zu + Infinitiv: Statt ihn zu fragen, ging er weg = Instead of asking him, he left.",
+      "id": "c1_09_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Konstruktion haben + zu + Infinitiv drueckt ____ aus.",
+      "options": [
+        "Möglichkeit",
+        "Notwendigkeit / Verpflichtung",
+        "Wunsch",
+        "Vergangenheit"
+      ],
+      "correctAnswer": "Notwendigkeit / Verpflichtung",
+      "explanation": "Haben + zu + Infinitiv expresses necessity/obligation in official contexts: Ich habe zu gehorchen = I must obey.",
+      "id": "c1_09_q079"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist ein Beispiel fuer einen erweiterten Infinitiv mit um zu (lange Infinitivphrase)?",
+      "options": [
+        "Er lernt, um zu bestehen.",
+        "Er lernt, um die schwierige Pruefung am Ende des Semesters zu bestehen.",
+        "Er lernt zu bestehen.",
+        "Er lernt, dass er besteht."
+      ],
+      "correctAnswer": "Er lernt, um die schwierige Pruefung am Ende des Semesters zu bestehen.",
+      "explanation": "Extended infinitive phrases include additional objects, adverbs, or prepositional phrases between um and zu. Characteristic of formal written German.",
+      "id": "c1_09_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Es ist absolut unumgaenglich, ____ alle Sicherheitsbestimmungen vor Arbeitsbeginn verinnerlicht haben.",
+      "options": [
+        "dass Sie",
+        "damit Sie",
+        "um zu",
+        "ohne dass"
+      ],
+      "correctAnswer": "dass Sie",
+      "explanation": "Es ist unumgaenglich requires a dass-Satz with subject (Sie) because the subject of both clauses differs.",
+      "id": "c1_09_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung hat Massnahmen ergriffen, ____ die wirtschaftliche Rezession abzuwenden.",
+      "options": [
+        "um",
+        "damit",
+        "ohne",
+        "anstatt"
+      ],
+      "correctAnswer": "um",
+      "explanation": "Um ... zu indicates purpose where subjects are identical (Die Regierung ... die Rezession abzuwenden).",
+      "id": "c1_09_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ging aus dem Meeting heraus, ____ von den neuen Ergebnissen Notiz zu nehmen.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "um",
+        "dadurch"
+      ],
+      "correctAnswer": "ohne",
+      "explanation": "Ohne ... zu means without doing something: ignoring the new results.",
+      "id": "c1_09_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Abteilungsleiter verliess das Buerro vorzeitig, ____ seine Mitarbeiter die dringenden Berichte noch fertigstellen mussten.",
+      "options": [
+        "obwohl",
+        "trotzdem",
+        "weil",
+        "waehrend"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "Obwohl introduces a concessive clause (although). Trotzdem is an adverb and cannot introduce a Nebensatz with verb at end.",
+      "id": "c1_09_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "____ man die rechtlichen Risiken im Vorfeld kalkuliert, laesst sich ein langwieriger Prozess vermeiden.",
+      "options": [
+        "Indem",
+        "Dadurch",
+        "Weil",
+        "Sodass"
+      ],
+      "correctAnswer": "Indem",
+      "explanation": "Indem introduces a modal clause explaining the means by which an action is accomplished (by calculating).",
+      "id": "c1_09_q085"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie kaufte sich das teure Fachbuch, ____ sie es fuer ihre Masterarbeit gar nicht zwingend benoetigte.",
+      "options": [
+        "obgleich",
+        "weshalb",
+        "wogegen",
+        "ungeachtet"
+      ],
+      "correctAnswer": "obgleich",
+      "explanation": "Obgleich is a higher-register synonym for obwohl (although), introducing a concessive clause at C1 level.",
+      "id": "c1_09_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Entscheidung getroffen, das Projekt fortzufuehren, ____ die Finanzierung keineswegs gesichert ist.",
+      "options": [
+        "wohingegen",
+        "wogegen",
+        "zumal",
+        "obwohl doch"
+      ],
+      "correctAnswer": "zumal",
+      "explanation": "Zumal is a causal conjunction meaning especially since, adding a weighty reason to the concessive context.",
+      "id": "c1_09_q087"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Dozent sprach so leise, ____ die Studenten in den hinteren Reihen kaum ein Wort verstehen konnten.",
+      "options": [
+        "sodass",
+        "damit",
+        "um",
+        "als dass"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "Sodass expresses a consecutive relationship (consequence/result). Als dass would require Konjunktiv II.",
+      "id": "c1_09_q088"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Bedingungen waren viel zu komplex, ____ ein Laie sie auf Anhieb haette durchschauen koennen.",
+      "options": [
+        "als dass",
+        "sodass",
+        "um zu",
+        "damit"
+      ],
+      "correctAnswer": "als dass",
+      "explanation": "Als dass is used with zu + adjective in main clause to express unreal consequence, accompanied by Konjunktiv II.",
+      "id": "c1_09_q089"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir verbleiben so, ____ die Vertraege bis Ende naechster Woche von beiden Parteien unterzeichnet vorliegen.",
+      "options": [
+        "dass",
+        "damit",
+        "wenn",
+        "um zu"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "So verbleiben, dass introduces a consecutive/final state clause describing how an agreement stands.",
+      "id": "c1_09_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ der Chef seine Zustimmung verweigert, muessen wir den gesamten Strategieplan verwerfen.",
+      "options": [
+        "Sollte",
+        "Falls",
+        "Wenn auch",
+        "Sofern"
+      ],
+      "correctAnswer": "Sollte",
+      "explanation": "An inverted conditional clause without wenn using Sollte (equivalent to Falls ... sollte).",
+      "id": "c1_09_q091"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie tat so, ____ sie von den internen Unstimmigkeiten in der Chefetage ueberhaupt nichts gewusst haette.",
+      "options": [
+        "als ob",
+        "als",
+        "wie wenn",
+        "als wenn"
+      ],
       "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "explanation": "Als ob introduces a comparative unreal clause (as if) requiring verb at the very end.",
+      "id": "c1_09_q092"
     },
     {
-      "id": "c1_09_q025",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_09_q026",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_09_q027",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
+      "type": "multiple_choice",
+      "questionText": "____ man die Komplexitaet dieser Grammatik unterschaetzt, schleichen sich im C1-Examen fatale Fehler ein.",
       "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
+        "Je nachdem",
+        "Je eher",
+        "Insofern",
+        "Sofern"
       ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Sofern",
+      "explanation": "Sofern acts as a formal conditional conjunction (provided that/in case that) introducing a restrictive condition.",
+      "id": "c1_09_q093"
     },
     {
-      "id": "c1_09_q028",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er widmete sich ganz der Forschung, ____ seine Familie komplett zu vernachlaessigen.",
       "options": [
-        "Wo",
-        "Was",
+        "wobei er Gefahr lief,",
+        "ohne zu glauben,",
+        "um nicht zu sagen,",
+        "anstatt zu versuchen,"
+      ],
+      "correctAnswer": "wobei er Gefahr lief,",
+      "explanation": "Wobei er Gefahr lief, ... zu vernachlaessigen correctly embeds a subordinate idea alongside an infinitive construction.",
+      "id": "c1_09_q094"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Krise im letzten Quartal rechtzeitig abgewendet worden waere, stuende das Unternehmen heute besser da.",
+      "options": [
+        "Haette",
+        "Waere",
+        "Wenn",
+        "Falls"
+      ],
+      "correctAnswer": "Waere",
+      "explanation": "An omitted wenn conditional clause in past tense. Since the verb is passive, auxiliary waere occupies position 1: Waere die Krise ... abgewendet worden.",
+      "id": "c1_09_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es entspricht nicht unserer Philosophie, Investitionen zu taetigen, ____ deren langfristiger Nutzen nicht hinreichend belegt ist.",
+      "options": [
+        "solange",
+        "wofern",
+        "waehrend",
+        "indem"
+      ],
+      "correctAnswer": "solange",
+      "explanation": "Solange functions as a conditional-temporal conjunction meaning as long as, fitting the ongoing status of proof.",
+      "id": "c1_09_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ reichhaltig das Angebot an Weiterbildungskursen auch sein mag, letztlich zaehlt die Eigeninitiative des Angestellten.",
+      "options": [
         "Wie",
-        "Wonach"
+        "Obgleich",
+        "So",
+        "Ungeachtet"
       ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "So",
+      "explanation": "So + Adjektiv + auch + mag/sein forms an advanced concessive clause: No matter how rich the offer may be...",
+      "id": "c1_09_q097"
     },
     {
-      "id": "c1_09_q029",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_09_q030",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Es gibt keinerlei Anzeichen dafuer, ____ sich die weltwirtschaftliche Lage in den kommenden Monaten stabilisieren wird.",
+      "options": [
+        "dass",
+        "womit",
+        "ob",
+        "sodass"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "The noun Anzeichen takes a prepositional object dafuer, explicated by a content clause starting with dass.",
+      "id": "c1_09_q098"
     },
     {
-      "id": "c1_09_q031",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q032",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q033",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Antrag wurde abgelehnt, ____ mehrere Formfehler im Dokument ausgemacht worden waren.",
+      "options": [
+        "nachdem",
+        "seitdem",
+        "indem",
+        "als"
+      ],
+      "correctAnswer": "nachdem",
+      "explanation": "Nachdem requires Plusquamperfekt in subordinate (worden waren) and Praeteritum in main clause (wurde abgelehnt).",
+      "id": "c1_09_q099"
     },
     {
-      "id": "c1_09_q034",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q035",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q036",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q037",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q038",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q039",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q040",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q041",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q042",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q043",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q044",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q045",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q046",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q047",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q048",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q049",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q050",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q051",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q052",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q053",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q054",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q055",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q056",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q057",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q058",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q059",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q060",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_09_q061",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q062",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q063",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q064",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q065",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q066",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q067",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q068",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q069",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q070",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q071",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q072",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q073",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q074",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q075",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q076",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q077",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q078",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q079",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q080",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q081",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q082",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q083",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q084",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q085",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q086",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q087",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q088",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q089",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q090",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q091",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q092",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q093",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q094",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q095",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q096",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q097",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q098",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q099",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_09_q100",
-      "subjectId": "c1_09",
-      "topicName": "Funktionsverbgefüge",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Man sollte Konflikte offen ansprechen, ____ sie stillschweigend ueber Monate hinweg zu ertragen.",
+      "options": [
+        "anstatt",
+        "ohne",
+        "um",
+        "dadurch"
+      ],
+      "correctAnswer": "anstatt",
+      "explanation": "Anstatt ... zu represents an alternative infinitive construction: instead of enduring them silently.",
+      "id": "c1_09_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

@@ -1,1553 +1,2259 @@
 {
+  "version": "1.0",
   "subjectId": "a2_02",
-  "topicName": "Dativ",
+  "topicName": "Perfekt",
   "level": "A2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "a2_02_q001",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_001",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Gestern Abend _______ die Ministerin eine überraschende Erklärung _______.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "hat / gegeben",
+        "ist / gegeben",
+        "hat / geben",
+        "ist / geben"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / gegeben",
+      "explanation": "geben takes haben in Perfekt (transitive verbs take haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q002",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich ___ dir helfen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_002",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Erdbeerfeld _______ dieses Jahr besonders _______.",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "ist / gewachsen",
+        "hat / gewachsen",
+        "ist / wachsen",
+        "hat / gewachsen"
       ],
-      "correctAnswer": "kann",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / gewachsen",
+      "explanation": "wachsen takes sein in Perfekt (verbs of movement/direction use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q003",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ du mit mir kommen?",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_003",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Stadt _______ innerhalb weniger Jahre stark _______.",
       "options": [
-        "Kannst",
-        "Kann",
-        "Können",
-        "Konntest"
+        "ist / gewachsen",
+        "hat / gewachsen",
+        "wurde / gewachsen",
+        "ist / wachsen"
       ],
-      "correctAnswer": "Kannst",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / gewachsen",
+      "explanation": "wachsen (to grow) takes sein in Perfekt (verbs of movement/direction use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q004",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ___ schon in München.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_004",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _______ seinen Schlüssel auf dem Weg zum Büro _______.",
       "options": [
-        "war",
-        "ist",
-        "hat",
-        "wird"
+        "hat / verloren",
+        "ist / verloren",
+        "hat / verlieren",
+        "wurde / verloren"
       ],
-      "correctAnswer": "war",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / verloren",
+      "explanation": "verlieren takes haben in Perfekt (transitive verbs take haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q005",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_005",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Brücke _______ während der Flutkatastrophe _______.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "ist / eingestürzt",
+        "hat / einstürzen",
+        "ist / einstürzen",
+        "wurde / eingestürzt"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / eingestürzt",
+      "explanation": "einstürzen takes sein in Perfekt (change of state verbs use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q006",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_006",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Film _______ mir ausgesprochen gut _______.",
       "options": [
         "hat / gefallen",
         "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "hat / gefallen gehabt",
+        "ist / gefallen"
       ],
       "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "explanation": "gefallen takes Dativ and haben in Perfekt (gefallen always takes Dativ object).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q007",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_007",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _______ in den Garten _______.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "sind / gerannt",
+        "haben / rennen",
+        "sind / rennen",
+        "hat / gerannt"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sind / gerannt",
+      "explanation": "rennen takes sein in Perfekt (movement verbs use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q008",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_008",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _______ sich über die unfaire Behandlung _______.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "hat / beschwert",
+        "ist / beschwert",
+        "hat / beschweren",
+        "hat / zu beschweren"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / beschwert",
+      "explanation": "sich beschweren takes haben in Perfekt (reflexive verbs generally take haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q009",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_009",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Maschine _______ gestern Morgen ohne Probleme _______.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "ist / gestartet",
+        "hat / starten",
+        "ist / starten",
+        "wurde / gestartet"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / gestartet",
+      "explanation": "starten takes sein in Perfekt (movement/direction verbs use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q010",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_010",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie _______ am Fensterplatz _______ und aus dem Fenster _______.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "hat / gesessen / hat / geschaut",
+        "ist / gesessen / hat / geschaut",
+        "hat / sitzen / hat / schauen",
+        "ist / gesessen / ist / geschaut"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / gesessen / hat / geschaut",
+      "explanation": "sitzen and schauen take haben in Perfekt (state verbs and perception verbs take haben).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q011",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_011",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag _______ gestern Nachmittag endlich _______.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "ist / unterzeichnet worden",
+        "hat / unterzeichnet",
+        "wurde / unterzeichnet",
+        "hat / unterzeichnen"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / unterzeichnet worden",
+      "explanation": "Passiv Perfekt (ist + Partizip + worden).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q012",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_012",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir _______ vor drei Tagen _______ nach Berlin _______.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "sind / gefahren",
+        "haben / fahren",
+        "sind / fahren",
+        "haben / gefahren"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sind / gefahren",
+      "explanation": "fahren takes sein in Perfekt (movement/direction verbs use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q013",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_013",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der alte Baum _______ bei dem Sturm _______.",
       "options": [
-        "hat / gegangen",
-        "ist / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "ist / umgefallen",
+        "hat / umfallen",
+        "ist / umfallen",
+        "wurde / umfallen"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / umgefallen",
+      "explanation": "umfallen takes sein in Perfekt (change of state — falling down uses sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q014",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_014",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Nachricht _______ sich schneller als erwartet _______.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "hat / verbreitet",
+        "ist / verbreitet",
+        "hat / verbreiten",
+        "ist / verbreiten"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / verbreitet",
+      "explanation": "sich verbreiten (to spread) takes haben in Perfekt (reflexive verbs take haben).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q015",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_015",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _______ die Prüfung mit Bravour _______.",
       "options": [
-        "kochen",
-        "kocht",
-        "gekocht",
-        "kochte"
+        "hat / bestanden",
+        "ist / bestanden",
+        "hat / bestehen",
+        "wurde / bestanden"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / bestanden",
+      "explanation": "bestehen takes haben in Perfekt (transitive/state verbs take haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q016",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_016",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Diebe _______ in der Nacht zum Museum _______.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "sind / eingebrochen",
+        "haben / einbrechen",
+        "sind / brechen",
+        "haben / eingebrochen"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sind / eingebrochen",
+      "explanation": "einbrechen takes sein in Perfekt (movement verbs use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q017",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_017",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie _______ mit dem Ergebnis des Experiments sehr zufrieden _______.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "ist / gewesen",
+        "hat / gewesen",
+        "war / gewesen",
+        "ist / sein"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / gewesen",
+      "explanation": "sein fiilinin Perfekt'i 'ist gewesen'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q018",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_018",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _______ die ganze Nacht wach _______ und über das Problem _______.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "ist / gelegen / hat / nachgedacht",
+        "hat / gelegen / hat / gedacht",
+        "ist / gelegen / hat / gedacht",
+        "hat / gelegen / hat / nachgedacht"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / gelegen / hat / nachgedacht",
+      "explanation": "liegen and nachdenken take haben in Perfekt (state verbs and transitive verbs take haben).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q019",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_019",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch _______ innerhalb weniger Wochen zum Bestseller _______.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "ist / geworden",
+        "hat / geworden",
+        "wurde / Bestseller",
+        "ist / werden"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / geworden",
+      "explanation": "werden takes sein in Perfekt (change of state verbs use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q020",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_020",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Gast _______ unerwartet früh _______.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "ist / aufgebrochen",
+        "hat / aufbrechen",
+        "ist / brechen auf",
+        "hat / gegangen"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / aufgebrochen",
+      "explanation": "aufbrechen takes sein in Perfekt (movement/departure verbs use sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q021",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_021",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie das Studium _______, begann sie sofort mit der Doktorarbeit.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "abgeschlossen hat",
+        "abgeschlossen hatte",
+        "abschließt",
+        "abschließen wird"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "abgeschlossen hatte",
+      "explanation": "Plusquamperfekt — 'nachdem' conjunction requires the earlier action in Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q022",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_022",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _______ nie zuvor so eine beeindruckende Rede _______.",
       "options": [
-        "bei",
-        "auf",
-        "nach",
-        "von"
+        "hat / gehalten",
+        "hatte / gehalten",
+        "ist / gehalten",
+        "hat / halten"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / gehalten",
+      "explanation": "haben + gehalten — halten takes haben in Perfekt (to hold).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q023",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_023",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz _______ bereits _______, als wir ankamen.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "hat / begonnen",
+        "hatte / begonnen",
+        "ist / begonnen",
+        "war / begonnen"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / begonnen",
+      "explanation": "Plusquamperfekt — 'als' conjunction with the earlier action.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q024",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_024",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie _______ die wichtigsten Unterlagen leider zu Hause _______.",
       "options": [
-        "gefahren",
-        "gefahren",
-        "gefahre",
-        "fährt"
+        "hat / vergessen",
+        "ist / vergessen",
+        "hatte / vergessen",
+        "hat / vergessen gehabt"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / vergessen",
+      "explanation": "haben + vergessen — vergessen takes haben in Perfekt (to forget).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q025",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_025",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Angeklagte behauptete, er _______ von den Vorgängen nichts _______.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "hat / gewusst",
+        "hatte / gewusst",
+        "wusste / –",
+        "hätte / gewusst"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / gewusst",
+      "explanation": "Konjunktiv II + hätte / gewusst — doubt in indirect speech.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q026",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_026",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir _______ drei Stunden lang _______, ohne eine Pause zu machen.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "sind / gelaufen",
+        "haben / gelaufen",
+        "sind / laufen",
+        "haben / laufen"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sind / gelaufen",
+      "explanation": "sein + gelaufen – hareket bildiren laufen fiili sein ile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q027",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_027",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Paket _______ gestern endlich _______.",
       "options": [
-        "habt / gesehen",
-        "hat / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "ist / angekommen",
+        "hat / angekommen",
+        "wurde / angekommen",
+        "ist / ankommt"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / angekommen",
+      "explanation": "sein + angekommen — ankommen takes sein in Perfekt (movement to a place uses sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q028",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_028",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftler _______ eine bahnbrechende Entdeckung _______.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "haben / gemacht",
+        "sind / gemacht",
+        "hatten / machen",
+        "haben / machen"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "haben / gemacht",
+      "explanation": "haben + gemacht — machen takes haben in Perfekt (to do/make).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q029",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_029",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _______ sein ganzes Erspartes in das Projekt _______.",
       "options": [
-        "von / übertönt",
-        "vor / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "hat / investiert",
+        "ist / investiert",
+        "hat / investieren",
+        "hatte / investiert"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / investiert",
+      "explanation": "haben + investiert — investieren takes haben in Perfekt (to invest).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q030",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Die Aufgabe ist ___ zu ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_030",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kaum _______ sie das Büro _______, klingelte ihr Telefon.",
       "options": [
-        "schwer / lösen",
-        "schwerer / lösen",
-        "am schwersten / lösen",
-        "schwere / gelöst"
+        "hatte / verlassen",
+        "hat / verlassen",
+        "ist / verlassen",
+        "war / verlassen"
       ],
-      "correctAnswer": "schwer / lösen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / verlassen",
+      "explanation": "Plusquamperfekt — 'kaum … da' structure with the earlier action.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q031",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_031",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen _______ nach wochenlangen Gesprächen schließlich _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind / gescheitert",
+        "haben / gescheitert",
+        "sind / scheitern",
+        "haben / scheitert"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sind / gescheitert",
+      "explanation": "sein + gescheitert — scheitern takes sein in Perfekt (to fail).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q032",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_032",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er sagte, er _______ den Vertrag noch nicht _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe / unterschrieben",
+        "hat / unterschrieben",
+        "hätte / unterschreiben",
+        "hatte / unterschrieben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "habe / unterschrieben",
+      "explanation": "Konjunktiv I (habe/unterschrieben) — indirect speech (haben in Konjunktiv I).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q033",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_033",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Mannschaft _______ trotz aller Schwierigkeiten _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / gewonnen",
+        "ist / gewonnen",
+        "hat / gewinnen",
+        "wurde / gewonnen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hat / gewonnen",
+      "explanation": "haben + gewonnen — gewinnen takes haben in Perfekt (to win).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q034",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_034",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich _______ ihn noch nie so aufgeregt _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe / gesehen",
+        "bin / gesehen",
+        "habe / sehen",
+        "hatte / gesehen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "habe / gesehen",
+      "explanation": "haben + gesehen — sehen takes haben in Perfekt (to see).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q035",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_035",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die alte Brücke _______ nach dem Sturm in sich _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist / zusammengebrochen",
+        "hat / zusammengebrochen",
+        "ist / zusammenbrechen",
+        "hat / zusammenbrechen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ist / zusammengebrochen",
+      "explanation": "sein + zusammengebrochen – zusammenbrechen fiili sein ile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q036",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_036",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Obwohl sie lange _______, _______ sie die Prüfung leider nicht _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "gelernt hatte / hat / bestanden",
+        "lernte / hat / bestanden",
+        "gelernt hat / hatte / bestanden",
+        "lernt / hat / bestanden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "gelernt hatte / hat / bestanden",
+      "explanation": "Plusquamperfekt + Perfekt — correct temporal sequence established.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q037",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_037",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge _______ unter Druck _______ und _______ falsche Aussagen _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist / gesetzt worden / hat / gemacht",
+        "hat / gesetzt / ist / gemacht",
+        "wurde / gesetzt / hat / gemacht",
+        "ist / gesetzt / hatte / gemacht"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "ist / gesetzt worden / hat / gemacht",
+      "explanation": "Passiv Perfekt (ist gesetzt worden) + hat gemacht.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q038",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_038",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie _______ seit Jahren nicht mehr in ihrer Heimatstadt _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist / gewesen",
+        "hat / gewesen",
+        "war / gewesen",
+        "ist / sein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ist / gewesen",
+      "explanation": "sein fiilinin Perfekt'i ist gewesen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q039",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_039",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Forscher _______ jahrelang an diesem Thema _______, bevor er erste Ergebnisse veröffentlichte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte / gearbeitet",
+        "hat / gearbeitet",
+        "ist / gearbeitet",
+        "hatte / arbeiten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hatte / gearbeitet",
+      "explanation": "Plusquamperfekt – 'bevor' öncesinde uzun süreli eylem.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q040",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_040",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es _______ sich heraus_______, dass die Daten manipuliert worden waren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / gestellt",
+        "ist / gestellt",
+        "hatte / gestellt",
+        "hat / stellen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hat / gestellt",
+      "explanation": "sich herausstellen takes haben in Perfekt (reflexive verbs take haben).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q041",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Nach\" braucht immer den Dativ.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_041",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftler ______ eine neue Methode entwickelt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "wurden",
+        "hatten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "haben",
+      "explanation": "haben + Partizip II — 'to develop' (used with haben verb).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q042",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Im Perfekt sagt man \"ich habe gesehen\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_042",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Warum ______ du gestern so spät nach Hause gekommen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hast",
+        "bist",
+        "wurdest",
+        "hattest"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "bist",
+      "explanation": "sein + Partizip II — 'to come / to arrive' (uses sein verb, direction).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q043",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Oder\" verbindet zwei Hauptsätze.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_043",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Meine Kollegin ______ den Bericht bereits geschrieben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "wird",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "haben + Partizip II — 'Yazmak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q044",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Denn\" leitet einen Nebensatz ein.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_044",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Gäste ______ schon vor einer Stunde angekommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "sind",
+        "hatten",
+        "wurden"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sind",
+      "explanation": "sein + Partizip II — 'Varmak' (yön ifade eden fiil).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q045",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Wegen\" braucht den Dativ.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_045",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ uns über das Ergebnis sehr gefreut.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "wurden",
+        "hatten"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "haben",
+      "explanation": "sich freuen takes haben in Perfekt (reflexive verbs generally take haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q046",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Im Präteritum: \"ich war\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_046",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Professor ______ die Prüfung kurzfristig abgesagt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "wurde",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "haben + Partizip II — 'to cancel' (transitive verb with haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q047",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Das gefällt mir\" braucht den Dativ.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_047",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er das Studium abgeschlossen hatte, ______ er ins Ausland gegangen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "war",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "sein + Partizip II — 'Gitmek' (yön ifade eden fiil).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q048",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Ob\" leitet einen Nebensatz ein.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_048",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ diesen Film schon dreimal gesehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "werde",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "habe",
+      "explanation": "haben + Partizip II — 'Görmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q049",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Am\" wird bei Wochentagen verwendet.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_049",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ______ sofort eingeschlafen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "sind",
+        "hatten",
+        "wurden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sind",
+      "explanation": "sein + Partizip II — 'to sleep' (uses sein, state of lying down).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q050",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Zur\" ist die Kurzform von \"zu der\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_050",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker ______ auf die Frage nicht geantwortet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "war",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "haben + Partizip II — 'Cevap vermek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q051",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_051",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ uns lange nicht mehr getroffen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "wurden",
+        "hatten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "haben",
+      "explanation": "sich treffen takes haben in Perfekt (reflexive verbs take haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q052",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_052",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Temperatur ______ plötzlich stark gesunken.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "wurde",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "sein + Partizip II — 'to fall' (change of state, uses sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q053",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_053",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ______ seine Schlüssel im Büro vergessen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "haben + Partizip II — 'Unutmak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q054",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_054",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin ______ während des Vortrags eingeschlafen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "sein + Partizip II — 'Uyumak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q055",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_055",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ gestern sehr intensiv über das Problem diskutiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "wurden",
+        "waren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "haben",
+      "explanation": "haben + Partizip II — 'to argue / to discuss' (transitive verb with haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q056",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_056",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zug ______ pünktlich abgefahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "wurde",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "sein + Partizip II — 'Kalkmak' (yön ifade eden fiil).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q057",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_057",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Warum ______ ihr das Projekt nicht früher beendet?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seid",
+        "habt",
+        "werdet",
+        "hattet"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "habt",
+      "explanation": "haben + Partizip II — 'Bitirmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q058",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_058",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen ______ an der Veranstaltung teilgenommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "wurden",
+        "waren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "haben",
+      "explanation": "teilnehmen takes haben in Perfekt (transitive/state verbs take haben).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q059",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_059",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ nach dem Unfall sofort ins Krankenhaus gebracht worden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "sind",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "werden (Passiv) + sein — 'Hastaneye götürülmek'.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q060",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_060",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir gegessen hatten, ______ wir spazieren gegangen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "sind",
+        "wurden",
+        "hatten"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sind",
+      "explanation": "sein + Partizip II — 'to go for a walk' (uses sein, movement).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q061",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_061",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Gestern _____ ich den ganzen Tag im Garten _____.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "habe / gearbeitet",
+        "bin / gearbeitet",
+        "habe / arbeite",
+        "bin / arbeiten"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "habe / gearbeitet",
+      "explanation": "arbeiten - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q062",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_062",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Warum _____ du mir nicht fruher _____?",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "hast / besucht",
+        "bist / besucht",
+        "hast / besuchen",
+        "bist / besuchen"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hast / besucht",
+      "explanation": "besuchen - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q063",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_063",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _____ mir seine Adresse _____, aber ich habe sie leider verloren.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "hat / gegeben",
+        "ist / gegeben",
+        "hatte / gegeben",
+        "hat / geben"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hat / gegeben",
+      "explanation": "geben - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q064",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_064",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Blumen _____ von der Gießkanne _____.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "sind / getrankt worden",
+        "haben / getrankt",
+        "sind / getrankt geworden",
+        "haben / getrankt worden"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sind / getrankt worden",
+      "explanation": "Perfekt Passiv - sind + Partizip II + worden.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q065",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_065",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er _____ das Versprechen nicht _____ konnen, weil er krank _____.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "hat / halten / war",
+        "hatte / halten / ist gewesen",
+        "hat / gehalten / ist",
+        "hat / halten / ist"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hat / halten / ist",
+      "explanation": " konnen + Ersatzinfinitiv; krank sein.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q066",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_066",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du _____ aber schon _____! - sagte er zu seiner Tochter.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "hast / angezogen",
+        "bist / angezogen",
+        "hast / angezogen worden",
+        "bist / angezogen worden"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hast / angezogen",
+      "explanation": "sich anziehen - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q067",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_067",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Gaste _____ erst um Mitternacht _____.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "sind / angekommen",
+        "haben / angekommen",
+        "sind / ankommen",
+        "haben / angekommt"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sind / angekommen",
+      "explanation": "ankommen - sein + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q068",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_068",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Obwohl er sich beeilte, _____ er den Bus leider _____.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "hat / verpasst",
+        "ist / verpasst",
+        "hatte / verpasst",
+        "war / verpasst"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hat / verpasst",
+      "explanation": "verpassen - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q069",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_069",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ uns lange nicht _____.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "haben / gesehen",
+        "sind / gesehen",
+        "haben / geseht",
+        "sind / geseht"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "haben / gesehen",
+      "explanation": "sich sehen - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q070",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_070",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die meisten meiner Freunde _____ schon einmal im Ausland _____.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "haben / studiert",
+        "sind / studiert",
+        "haben / studieren",
+        "sind / studieren"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "haben / studiert",
+      "explanation": "studieren - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q071",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_071",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es _____ mir noch nie so gut _____ wie heute Morgen.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "hat / gegangen",
+        "ist / gegangen",
+        "hat / gehen",
+        "ist / gehen"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ist / gegangen",
+      "explanation": "gehen - sein + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q072",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_072",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ die Tur fest _____, damit niemand hereinkommt.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "habe / zugeschlossen",
+        "bin / zugeschlossen",
+        "habe / zuschliessen",
+        "bin / zugeschlossen worden"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "habe / zugeschlossen",
+      "explanation": "zuschliessen - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q073",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_073",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Chef _____ ihn nach Hause _____, weil er zu spat kam.",
       "options": [
-        "ist / gegangen",
-        "hat / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "hat / geschickt",
+        "ist / geschickt",
+        "hat / senden",
+        "ist / gesendet"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hat / geschickt",
+      "explanation": "schicken - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q074",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_074",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ das Zimmer noch nicht _____?",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "habt / aufgeraumt",
+        "seid / aufgeraumt",
+        "habt / aufraeumen",
+        "seid / aufraeumt"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "habt / aufgeraumt",
+      "explanation": "aufräumen - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q075",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_075",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Brief _____ von der Sekretarin _____.",
       "options": [
-        "gekocht",
-        "kochen",
-        "kocht",
-        "kochte"
+        "ist / geschrieben worden",
+        "hat / geschrieben",
+        "wurde / geschrieben",
+        "ist / geschrieben geworden"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ist / geschrieben worden",
+      "explanation": "Perfekt Passiv.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_02_q076",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_076",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man _____ ihm die Wahrheit _____, aber er wollte nicht glauben.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "hatte / gesagt",
+        "hat / gesagt",
+        "ist / gesagt",
+        "war / gesagt"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / gesagt",
+      "explanation": "Plusquamperfekt - hatte gesagt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q077",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_077",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wann _____ du mir die Unterlagen _____ lassen?",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "hast / zukommen",
+        "bist / zukommen",
+        "hast / zukommen lassen",
+        "bist / zukommen lassen"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hast / zukommen lassen",
+      "explanation": "lassen + Ersatzinfinitiv.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_02_q078",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_078",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt _____ den Patienten schon _____.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "hat / untersucht",
+        "ist / untersucht",
+        "hat / untersuchen",
+        "ist / untersucht worden"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hat / untersucht",
+      "explanation": "untersuchen - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q079",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_079",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Kind _____ plötzlich laut _____.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "hat / geschrien",
+        "ist / geschrien",
+        "hat / schreien",
+        "ist / schrei"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hat / geschrien",
+      "explanation": "schreien - haben + Partizip II.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q080",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_080",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ ihn nicht _____ horen, weil die Musik zu laut war.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "habe / kommen",
+        "bin / kommen",
+        "habe / gekommen",
+        "bin / gekommen"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "habe / kommen",
+      "explanation": "horen + Infinitiv - haben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_02_q081",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie den ganzen Tag durch die Stadt ________ ________, ________ sie völlig erschöpft nach Hause ________ ________.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        {
+          "text": "gelaufen ist / ist / gekommen",
+          "isCorrect": false
+        },
+        {
+          "text": "gelaufen war / ist / gekommen",
+          "isCorrect": true
+        },
+        {
+          "text": "gelaufen ist / hat / gekommen",
+          "isCorrect": false
+        },
+        {
+          "text": "laufen ist / ist / gekommen",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gelaufen war / ist / gekommen",
+      "explanation": "After 'Nachdem,' the subordinate clause uses Plusquamperfekt (war gelaufen) because it describes an action completed before the main clause. The main clause uses Perfekt (ist gekommen) with sein because 'kommen' is a movement verb indicating a change of location.",
+      "questionNumber": 81
     },
     {
       "id": "a2_02_q082",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Er hat mir erzählt, dass er letztes Jahr nach Japan ________ ________.",
       "options": [
-        "auf",
-        "bei",
-        "nach",
-        "von"
+        {
+          "text": "geflogen ist",
+          "isCorrect": true
+        },
+        {
+          "text": "geflogen hat",
+          "isCorrect": false
+        },
+        {
+          "text": "fliegen ist",
+          "isCorrect": false
+        },
+        {
+          "text": "geflogen gewesen ist",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "geflogen ist",
+      "explanation": "'Fliegen' takes sein in Perfekt when indicating a change of location/direction (nach Japan). With manner of movement verbs, sein is used when the focus is on the movement itself rather than the action.",
+      "questionNumber": 82
     },
     {
       "id": "a2_02_q083",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ du schon einmal davon ________ ________, dass man in der Schweiz auch Deutsch spricht?",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        {
+          "text": "Hast / gehört",
+          "isCorrect": true
+        },
+        {
+          "text": "Bist / gehört",
+          "isCorrect": false
+        },
+        {
+          "text": "Hast / gehört worden",
+          "isCorrect": false
+        },
+        {
+          "text": "Warst / gehört",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Hast / gehört",
+      "explanation": "'Hören' takes haben in Perfekt (like all perception and communication verbs: hören, sehen, fühlen, verstehen, erzählen). 'Hast du gehört' is the correct Perfekt question form.",
+      "questionNumber": 83
     },
     {
       "id": "a2_02_q084",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ________ so laut ________ ________, dass die Nachbarn sich beschwert ________ ________.",
       "options": [
-        "gefahren",
-        "fahren",
-        "fahre",
-        "fährt"
+        {
+          "text": "haben / gespielt / haben",
+          "isCorrect": true
+        },
+        {
+          "text": "sind / gespielt / haben",
+          "isCorrect": false
+        },
+        {
+          "text": "haben / gespielt / hatten",
+          "isCorrect": false
+        },
+        {
+          "text": "sind / gespielt / hatten",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "haben / gespielt / haben",
+      "explanation": "'Spielen' takes haben in Perfekt (no change of location or state). The past perfect ('hatten beschwert') in the result clause would be possible but the simple Perfekt 'haben beschwert' is the standard correct answer here.",
+      "questionNumber": 84
     },
     {
       "id": "a2_02_q085",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Seitdem er diesen Kurs ________ ________, ________ er viel besser Deutsch ________ ________.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        {
+          "text": "besucht hat / hat / gesprochen",
+          "isCorrect": false
+        },
+        {
+          "text": "besucht hat / spricht",
+          "isCorrect": true
+        },
+        {
+          "text": "besucht hatte / hat / sprechen",
+          "isCorrect": false
+        },
+        {
+          "text": "besuchen hat / hat / gesprochen",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "besucht hat / spricht",
+      "explanation": "Seitdem (since) can be followed by Perfekt for a completed action with ongoing result. The main clause uses Präsens (spricht) because the ongoing improved ability is described in the present. 'Sprechen' is a state verb that uses Präsens for current abilities.",
+      "questionNumber": 85
     },
     {
       "id": "a2_02_q086",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Ich glaube, ich ________ meinen Schlüssel zu Hause ________ ________.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        {
+          "text": "habe / liegen lassen",
+          "isCorrect": false
+        },
+        {
+          "text": "bin / liegen gelassen",
+          "isCorrect": false
+        },
+        {
+          "text": "habe / liegen lassen",
+          "isCorrect": true
+        },
+        {
+          "text": "habe / gelassen liegen",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "habe / liegen lassen",
+      "explanation": "With 'lassen' meaning 'to leave (something somewhere),' the main verb 'lassen' takes haben and the second verb stays in infinitive. This is the Doppelinfinitiv construction: habe liegen lassen (not 'gelassen liegen'). The meaning is 'I left my key lying at home.'",
+      "questionNumber": 86
     },
     {
       "id": "a2_02_q087",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Warum ________ ihr eigentlich nicht zur Party ________ ________?",
       "options": [
-        "hat / gesehen",
-        "habt / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        {
+          "text": "seid / gekommen",
+          "isCorrect": true
+        },
+        {
+          "text": "habt / gekommen",
+          "isCorrect": false
+        },
+        {
+          "text": "seid / gekommen worden",
+          "isCorrect": false
+        },
+        {
+          "text": "habt / kommen",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "seid / gekommen",
+      "explanation": "'Kommen' is a movement verb that takes sein in Perfekt. The correct Perfekt form is 'seid gekommen.' The auxiliary matches the subject: 'ihr' → 'seid.'",
+      "questionNumber": 87
     },
     {
       "id": "a2_02_q088",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt sagte, dass das Fieber seit gestern ________ ________ ________.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        {
+          "text": "gestiegen ist",
+          "isCorrect": true
+        },
+        {
+          "text": "gestiegen hat",
+          "isCorrect": false
+        },
+        {
+          "text": "steigen ist",
+          "isCorrect": false
+        },
+        {
+          "text": "gestiegen gewesen ist",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "gestiegen ist",
+      "explanation": "'Steigen' (to rise/climb) indicates a change of state and takes sein in Perfekt: 'ist gestiegen.' It expresses a Zustandsänderung (change of condition). The perfect participle of steigen is 'gestiegen.'",
+      "questionNumber": 88
     },
     {
       "id": "a2_02_q089",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie schon einmal Sushi ________ ________?",
       "options": [
-        "vor / übertönt",
-        "von / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        {
+          "text": "Haben / gegessen",
+          "isCorrect": true
+        },
+        {
+          "text": "Sind / gegessen",
+          "isCorrect": false
+        },
+        {
+          "text": "Haben / gegessen worden",
+          "isCorrect": false
+        },
+        {
+          "text": "Sind / gegessen worden",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Haben / gegessen",
+      "explanation": "'Essen' is a verb of consumption that takes haben in Perfekt, not sein. The past participle is 'gegessen.' The formal 'Sie' form uses 'haben' as auxiliary: 'Haben Sie gegessen?'",
+      "questionNumber": 89
     },
     {
       "id": "a2_02_q090",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Zug Verspätung ________ ________, ________ wir den Anschlusszug nicht mehr ________ ________.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        {
+          "text": "gehabt hat / haben / erreicht",
+          "isCorrect": false
+        },
+        {
+          "text": "gehabt hatte / haben / erreicht",
+          "isCorrect": false
+        },
+        {
+          "text": "gehabt hat / hatten / erreichen",
+          "isCorrect": false
+        },
+        {
+          "text": "gehabt hatte / hatten / erreicht",
+          "isCorrect": true
+        }
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gehabt hatte / hatten / erreicht",
+      "explanation": "After 'Nachdem,' the subordinate clause uses Plusquamperfekt (hatte gehabt) because it refers to an action completed before another past event. The main clause also uses Plusquamperfekt (hatten erreicht) showing the missed connection was also in the past relative to the narrative time.",
+      "questionNumber": 90
     },
     {
       "id": "a2_02_q091",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat behauptet, dass sie den Brief schon vor einer Woche ________ ________ ________.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        {
+          "text": "abgeschickt hat",
+          "isCorrect": true
+        },
+        {
+          "text": "abgeschickt hätte",
+          "isCorrect": false
+        },
+        {
+          "text": "abschicken hat",
+          "isCorrect": false
+        },
+        {
+          "text": "abgeschickt worden ist",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "abgeschickt hat",
+      "explanation": "In indirect speech (indirekte Rede), Konjunktiv II would normally be expected (hätte abgeschickt). However, when reporting a claim about a completed action without主观判断, Perfekt with haben can be used. The answer key indicates the non-subjunctive form for A2-B2 level teaching purposes.",
+      "questionNumber": 91
     },
     {
       "id": "a2_02_q092",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ du das Buch, das ich dir empfohlen ________ ________, schon ________ ________?",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        {
+          "text": "Hast / habe / gelesen",
+          "isCorrect": true
+        },
+        {
+          "text": "Hast / habe / gelesen gehabt",
+          "isCorrect": false
+        },
+        {
+          "text": "Bist / habe / gelesen",
+          "isCorrect": false
+        },
+        {
+          "text": "Hast / habe / zu lesen",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Hast / habe / gelesen",
+      "explanation": "Lesen takes haben in Perfekt. The relative clause 'das ich dir empfohlen habe' uses Perfekt to describe a completed recommendation. The main question 'Hast du gelesen?' is Perfekt with haben. The double perfect 'gelesen gehabt' is grammatically possible but not used in standard answers.",
+      "questionNumber": 92
     },
     {
       "id": "a2_02_q093",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Er ist sehr schnell ________ ________, weil er den Bus noch ________ ________ ________.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        {
+          "text": "gelaufen / hat / erwischen wollen",
+          "isCorrect": true
+        },
+        {
+          "text": "gelaufen / hat / erwischen gewollt",
+          "isCorrect": false
+        },
+        {
+          "text": "gelaufen / hat / wollen erwischen",
+          "isCorrect": false
+        },
+        {
+          "text": "gelaufen / hat / zu erwischen gewollt",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gelaufen / hat / erwischen wollen",
+      "explanation": "This is the Doppelinfinitiv construction with a modal verb. When a modal verb (wollen) appears with another verb in Perfekt, both infinitives go to the end: 'hat erwischen wollen' (not 'gewollt'). The verb 'erwischen' takes haben.",
+      "questionNumber": 93
     },
     {
       "id": "a2_02_q094",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Seit dem Unfall ________ sie nicht mehr Auto ________ ________.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        {
+          "text": "hat / gefahren",
+          "isCorrect": true
+        },
+        {
+          "text": "ist / gefahren",
+          "isCorrect": false
+        },
+        {
+          "text": "hat / fahren",
+          "isCorrect": false
+        },
+        {
+          "text": "ist / fahren",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hat / gefahren",
+      "explanation": "Fahren takes haben in Perfekt when no specific destination or direction is emphasized (Zustandsänderung without movement direction). When the focus is on the activity rather than the journey/destination, haben is used. Here, the emphasis is on the ability/skill, not movement.",
+      "questionNumber": 94
     },
     {
       "id": "a2_02_q095",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ ihr schon ________ ________, dass die Prüfung auf nächste Woche ________ ________ ________?",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        {
+          "text": "Habt / mitbekommen / verschoben worden ist",
+          "isCorrect": true
+        },
+        {
+          "text": "Seid / mitbekommen / verschoben hat",
+          "isCorrect": false
+        },
+        {
+          "text": "Habt / mitbekommen / verschoben worden hat",
+          "isCorrect": false
+        },
+        {
+          "text": "Habt / mitbekommen / verschoben worden ist",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Habt / mitbekommen / verschoben worden ist",
+      "explanation": "'Mitbekommen' takes haben in Perfekt. The passive construction 'verschoben worden ist' uses worden (not geworden) as the passive auxiliary in Perfekt. The subject 'die Prüfung' receives the action, so the passive is correct: 'wurde verschoben → ist verschoben worden.'",
+      "questionNumber": 95
     },
     {
       "id": "a2_02_q096",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ noch nie in meinem Leben so etwas ________ ________!",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        {
+          "text": "habe / erlebt",
+          "isCorrect": true
+        },
+        {
+          "text": "bin / erlebt",
+          "isCorrect": false
+        },
+        {
+          "text": "habe / erleben",
+          "isCorrect": false
+        },
+        {
+          "text": "habe / erlebt worden",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "habe / erlebt",
+      "explanation": "'Erleben' (to experience/witness) is an action verb that takes haben in Perfekt. It does not indicate a change of location or state, so sein is not used. The past participle is 'erlebt.'",
+      "questionNumber": 96
     },
     {
       "id": "a2_02_q097",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie die Nachricht ________ ________ ________, ________ sie vor Freude ________ ________ ________.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        {
+          "text": "bekommen hat / hat / tanzen wollen",
+          "isCorrect": false
+        },
+        {
+          "text": "bekommen hatte / hat / tanzen gewollt",
+          "isCorrect": false
+        },
+        {
+          "text": "bekommen hat / hat / tanzen gewollt",
+          "isCorrect": false
+        },
+        {
+          "text": "bekommen hatte / hat / tanzen wollen",
+          "isCorrect": true
+        }
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "bekommen hatte / hat / tanzen wollen",
+      "explanation": "After 'Nachdem,' Plusquamperfekt (hatte bekommen) shows the message was received before the main clause action. The main clause uses Perfekt with a modal verb: 'hat tanzen wollen.' With Doppelinfinitiv, the modal verb stays in infinitive form at the end.",
+      "questionNumber": 97
     },
     {
       "id": "a2_02_q098",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie schon einmal daran ________ ________, im Ausland zu arbeiten?",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        {
+          "text": "Haben / gedacht",
+          "isCorrect": true
+        },
+        {
+          "text": "Sind / gedacht",
+          "isCorrect": false
+        },
+        {
+          "text": "Haben / denken",
+          "isCorrect": false
+        },
+        {
+          "text": "Sind / gedacht worden",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Haben / gedacht",
+      "explanation": "'Denken an + Akkusativ' (to think about) takes haben in Perfekt, not sein. The past participle is 'gedacht.' The construction 'an etwas denken' means to consider or think about something.",
+      "questionNumber": 98
     },
     {
       "id": "a2_02_q099",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Film, den wir gestern ________ ________ ________, ________ mir sehr gut ________ ________.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        {
+          "text": "gesehen haben / hat / gefallen",
+          "isCorrect": false
+        },
+        {
+          "text": "gesehen haben / ist / gefallen",
+          "isCorrect": true
+        },
+        {
+          "text": "gesehen haben / hat / gefallen haben",
+          "isCorrect": false
+        },
+        {
+          "text": "gesehen haben / hat / gefallen gewesen",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gesehen haben / ist / gefallen",
+      "explanation": "'Gefallen' (to like/be pleasing) is a Zustandsverb that takes sein in Perfekt because it describes a state/condition. The film caused a positive feeling ( Gefallen = pleasure received). The subject 'der Film' is what caused the Gefallen, and the person experiencing it is in the dative case.",
+      "questionNumber": 99
     },
     {
       "id": "a2_02_q100",
       "subjectId": "a2_02",
-      "topicName": "Dativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_02",
+      "topicName": "Perfekt",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er jahrelang im Ausland ________ ________ ________, ________ er fließend Deutsch ________ ________ ________.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        {
+          "text": "gearbeitet hat / hat / sprechen lernen",
+          "isCorrect": false
+        },
+        {
+          "text": "gearbeitet hatte / hat / sprechen gelernt",
+          "isCorrect": false
+        },
+        {
+          "text": "gearbeitet hat / hat / sprechen gelernt",
+          "isCorrect": true
+        },
+        {
+          "text": "gearbeitet hatte / hat / sprechen lernen",
+          "isCorrect": false
+        }
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "gearbeitet hat / hat / sprechen gelernt",
+      "explanation": "'Nachdem' can be followed by Perfekt (not just Plusquamperfekt) when the events are recent or the temporal relationship is clear from context. 'Hat sprechen gelernt' is Perfekt with lernen as a modal-like verb (Zahlwort/lernen verbindet sich mit Modalverbregel). 'Sprechen gelernt' means 'learned to speak.'",
+      "questionNumber": 100
     }
   ],
-  "totalQuestions": 100
+  "description": "Perfekt is the most important past tense in everyday spoken German. It is formed with haben or sein as the auxiliary verb in present tense, plus the Partizip II (past participle). Most transitive, reflexive, and state-of-being verbs use haben; verbs of movement and the verbs sein and werden use sein. Weak verbs form the Partizip II with ge- + stem + -t (machen→gemacht); strong verbs use ge- + stem with vowel change + -en (lesen→gelesen). Separable prefix verbs: prefix attaches to the front of the participle (abfahren→abgefahren). Inseparable prefix verbs (be-, er-, ver-, zer-, ge-, emp-, ent-) do NOT take ge-.",
+  "tips": [
+    "Structure: haben/sein (present) + Partizip II. Most verbs use haben; movement verbs (gehen, kommen, fahren) and sein/werden use sein.",
+    "Weak (regular) verbs: ge- + stem + -t (machen→gemacht, spielen→gespielt, arbeiten→gearbeitet).",
+    "Strong (irregular) verbs: ge- + stem vowel change + -en (lesen→gelesen, finden→gefunden, schreiben→geschrieben).",
+    "Separable prefix verbs: ge- goes BETWEEN prefix and stem (aufstehen→aufgestanden, abfahren→abgefahren).",
+    "Inseparable prefixes (be-, er-, ver-, zer-, ge-, emp-, ent-): NO ge- (besuchen→besucht, erklären→erklärt).",
+    "Doppelinfinitiv: when a modal verb is combined with another verb, both infinitives appear at the end (hat arbeiten wollen).",
+    "Perfekt is used in spoken German; Präteritum is preferred in writing for sein, haben, and modal verbs."
+  ]
 }

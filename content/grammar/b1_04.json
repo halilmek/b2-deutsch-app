@@ -1,1554 +1,1422 @@
 {
+  "version": "1.0",
   "subjectId": "b1_04",
-  "topicName": "Relativsätze: Nominativ und Akkusativ",
+  "topicName": "Modalverben im Konjunktiv II",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Modalverben im Konjunktiv II — Modal verbs in Konjunktiv II express hypothetical actions, wishes, polite requests, unfulfilled obligations, and cautious assumptions. The past tense (Konjunktiv II Vergangenheit) uses hätte/wäre + double infinitive — NOT ge-konnt, ge-musst, or ge-sollt forms. Key forms: wäre (sein), hätte (haben), würde + Inf. (werden, for weak verbs only — NEVER with modal verbs), könnte (können), müsste (müssen), sollte (sollen), dürfte (dürfen). B2 attention points: Mixed conditionals (past condition + present result), passive + Konjunktiv II, indirect speech with sollte, and formal forecasts using dürfte.",
+  "tips": [
+    "Konjunktiv II Präsens: Modal verb conjugated in K-II + infinitive → Ich könnte dir helfen. (hypothetical ability/wish)",
+    "Konjunktiv II Vergangenheit (past unreal): hätte/wäre + double infinitive → Ich hätte dir helfen können. NEVER use: gekonnt, gemusst, gesollt.",
+    "würde + Infinitive is used with weak verbs (ich würde arbeiten) but is NEVER used with modal verbs. Always use: könnte, müsste, sollte, dürfte instead.",
+    "Mischkonditionalsatz (Mixed Conditional): Past condition (Plusquamperfekt K-II) + Present result (Präsens K-II) → Wenn ich früher aufgestanden wäre, würde ich den Bus erreichen.",
+    "Ohne + Akkusativ triggers Konjunktiv II: Ohne deine Hilfe hätte ich das nicht geschafft. (but real result achieved thanks to 'ohne' being false)",
+    "Passive + Konjunktiv II: wäre/wäre + Partizip II + worden → Das Haus wäre gebaut worden. Note: werden takes sein (NOT haben) as auxiliary in K-II.",
+    "Indirect speech (Dolaylı Anlatım): sollte replaces soll to express reported advice with distance/neutrality → Er sagte, ich sollte mehr Sport treiben.",
+    "Formal/Academic forecasts (dürfte): Use instead of wird or muss for statistical projections, reports, professional estimates → Die Arbeitslosenzahl dürfte sinken.",
+    "Word Order in subordinate clauses: Modal infinitive goes to the end → ..., weil er es hätte machen müssen. (NOT: ..., weil er es gemusst hätte.)",
+    "Ton Farkı / Register nuance: müsstest (softened obligation) vs musst (absolute) | dürfte (cautious guess) vs muss (certainty) | sollte (advice) vs soll (reported/unconfirmed)"
+  ],
   "questions": [
     {
       "id": "b1_04_q001",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt ist völlig schiefgelaufen. Ihr ____ von Anfang an viel vorsichtiger vorgehen ____.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "solltet / --",
+        "hättet / müssen",
+        "wäret / gemusst",
+        "hättet / gemusst"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hättet / müssen",
+      "explanation": "This sentence expresses a missed obligation or a past reproach (verpasste Pflicht). In the past tense of Konjunktiv II with modal verbs, the structure requires haben (in Konjunktiv II: hättet) + double infinitive at the end of the clause (vorgehen müssen).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q002",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ mir gerne den neuen Firmenwagen ansehen, aber leider steht er momentan nicht zur Verfügung.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "könnte",
+        "müsste",
+        "würde",
+        "sollte"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "würde",
+      "explanation": "While könnte or müsste represent ability or necessity, expressing a general wish or intention with an explicit full verb (ansehen) in the present is standardly constructed with würde + infinitive.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q003",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du nichts gesagt? Wir ____ dir doch bei dem Umzug helfen ____!",
       "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
+        "könnten / --",
+        "hätten / können",
+        "würden / können",
+        "wären / gekonnt"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hätten / können",
+      "explanation": "This describes a missed opportunity or a capability in the past that was not realized (verpasste Gelegenheit). The past Konjunktiv II structure for modal verbs requires hätten + double infinitive (helfen können).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q004",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
+      "type": "multiple_choice",
+      "questionText": "Es ist schon 10 Uhr vorbei! Der Mitarbeiter ____ eigentlich schon längst an seinem Arbeitsplatz sein ____.",
       "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
+        "sollte",
+        "hätte / sollen",
+        "müsste / --",
+        "hätte / gemusst"
       ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / sollen",
+      "explanation": "The phrase \"schon längst\" indicates that the expected action belonged to the past or should have happened by now. Therefore, the past Konjunktiv II of sollen is required: hätte... sein sollen (should have been).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q005",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich die schwierige Prüfung bestehen ____, ____ ich wochenlang Tag und Nacht lernen.",
       "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
+        "müsste / müsste",
+        "wollte / müsste",
+        "könnte / wollte",
+        "wollte / hätte"
       ],
-      "correctAnswer": "deren",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wollte / müsste",
+      "explanation": "This is a conditional sentence expressing intention and necessity. \"Wenn ich bestehen wollte...\" (If I wanted to pass...) sets the intention, and \"...müsste ich lernen\" (...I would have to study) sets the hypothetical necessity.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q006",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
+      "type": "multiple_choice",
+      "questionText": "Das Dokument ist unauffindbar. Es ____ aus Sicherheitsgründen überhaupt nicht kopiert werden ____.",
       "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
+        "hätte / dürfen",
+        "sollte / --",
+        "hätte / gemusst",
+        "dürfte / --"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / dürfen",
+      "explanation": "This combines Passive Voice and a Modal Verb in the past Konjunktiv II to express a past prohibition that was violated. The structure ist hätte + Partizip II (kopiert) + werden + dürfen (modal verb infinitive).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q007",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "An Ihrer Stelle ____ ich mich sofort schriftlich bei der Geschäftsleitung ____.",
       "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
+        "würde / beschweren",
+        "sollte / beschweren",
+        "müsste / beschwert",
+        "hätte / beschwert"
       ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "würde / beschweren",
+      "explanation": "\"An Ihrer Stelle...\" (In your place...) introduces advice for a present situation. The most idiomatic way to express a conditional action here is using the würde + infinitive structure (würde ich mich beschweren).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q008",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sagte, er ___ morgen kommen.",
+      "type": "multiple_choice",
+      "questionText": "Die Frist ist abgelaufen. Der Bericht ____ bereits am vergangenen Freitag eingereicht ____.",
       "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
+        "müsste / werden",
+        "hätte / werden müssen",
+        "sollte / worden sein",
+        "hätte / gemusst werden"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / werden müssen",
+      "explanation": "This requires a passive construction combined with a modal verb expressing past obligation (müssen). The exact word order for a past passive modal construction in Konjunktiv II is: hätte + Partizip II (eingereicht) + werden müssen.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q009",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ du Deutsch gelernt ___?",
+      "type": "multiple_choice",
+      "questionText": "____ ich gestern nicht so müde gewesen, ____ ich noch stundenlang für die B2-Prüfung lernen können.",
       "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
+        "Wäre / hätte",
+        "Hätte / hätte",
+        "Wäre / würde",
+        "Hätte / konnte"
       ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wäre / hätte",
+      "explanation": "The first part is an inverted conditional clause using sein in Konjunktiv II past (Wäre ich... gewesen). The second part requires the past Konjunktiv II of the modal verb können, built with hätte + double infinitive (lernen können).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q010",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
+      "type": "multiple_choice",
+      "questionText": "Es ____ mir wirklich ein großes Vergnügen sein, Sie nächste Woche durch unsere neue Abteilung zu führen.",
       "options": [
-        "dessen",
-        "deren",
-        "die",
-        "dem"
+        "könnte",
+        "würde",
+        "müsste",
+        "sollte"
       ],
-      "correctAnswer": "dessen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "würde",
+      "explanation": "To express a polite, hypothetical pleasure regarding a future event, German uses the standard Konjunktiv II würde + infinitive (Es würde mir ein Vergnügen sein / Freude machen).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q011",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ sich diese einmalige Karrierechance auf keinen Fall entgehen ____! Warum haben Sie abgesagt?",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "sollten / --",
+        "hätten / lassen",
+        "dürften / --",
+        "hätten / gedurft"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hätten / lassen",
+      "explanation": "The speaker is reacting to a past action (\"Warum haben Sie abgesagt?\"). The advice is a retrospective reproach: \"You shouldn't have let this chance slip away.\" This requires hätten + double infinitive (entgehen lassen).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q012",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
+      "type": "multiple_choice",
+      "questionText": "Herr Meier kam nicht zum Treffen. Er ____ dringend geschäftlich verreisen, sonst wäre er bestimmt hier.",
       "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
+        "müsste",
+        "musste",
+        "hätte gemusst",
+        "dürfte"
       ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "müsste",
+      "explanation": "In this context, müsste is used subjectively to express a high-probability assumption or speculation in the present context (\"He must have had to travel urgently, otherwise he would be here\").",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q013",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
+      "type": "multiple_choice",
+      "questionText": "Die Buchhaltung hat einen fatalen Fehler gemacht. Das ____ eigentlich nicht passieren ____.",
       "options": [
-        "Als",
-        "Wenn",
-        "Wann",
-        "Während"
+        "sollte / --",
+        "hätte / dürfen",
+        "dürfte / --",
+        "hätte / gemusst"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / dürfen",
+      "explanation": "This indicates an event that happened but was highly undesirable or forbidden in the past. The combination hätte nicht passieren dürfen translates to \"should not have been allowed to happen\".",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q014",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "____ du mir bitte kurz helfen, diese schweren Kisten in den Keller zu tragen?",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "Müsstest",
+        "Solltest",
+        "Könntest",
+        "Hättest"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Könntest",
+      "explanation": "Könntest du... is the standard, polite Konjunktiv II present formula used to ask someone for a favor or assistance based on their capability.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q015",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
+      "type": "multiple_choice",
+      "questionText": "Ein erfahrener Techniker ____ dieses kleine Problem im Handumdrehen lösen.",
       "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
+        "hätte / können",
+        "könnte / --",
+        "würde / können",
+        "sollte / gekonnt"
       ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / können",
+      "explanation": "Given the structure with two blanks, it signals the past compound structure: hätte + double infinitive (lösen können), representing an unfulfilled past capability.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q016",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "Du siehst schrecklich erschöpft aus. Du ____ dich am Wochenende wirklich mal gründlich ausruhen.",
       "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
+        "müsstest",
+        "hättest",
+        "solltest",
+        "würdest"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "solltest",
+      "explanation": "Sollten in Konjunktiv II is the most common and polite way to give advice or a strong recommendation to someone in the present tense.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q017",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
+      "type": "multiple_choice",
+      "questionText": "Ohne die rechtzeitige Warnung des Systems ____ der Unfall nicht verhindert werden ____.",
       "options": [
-        "würde",
-        "wird",
-        "kann",
-        "wollte"
+        "könnte / --",
+        "hätte / können",
+        "würde / werden",
+        "hätte / gemusst"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / können",
+      "explanation": "This is an unfulfilled condition in the past with a passive voice. \"The accident could not have been prevented.\" The structure requires hätte + passive root components ending in a double infinitive: verhindert werden können.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q018",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "Es ____ mir extrem unangenehm, wenn wir die Deadline wegen meines Fehlers verpassen würden.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "müsste",
+        "sollte",
+        "wäre",
+        "hätte"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wäre",
+      "explanation": "The adjective phrase \"Es ist mir unangenehm\" changes to the Konjunktiv II present form using sein, which becomes wäre (\"Es wäre mir unangenehm...\").",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q019",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
+      "type": "multiple_choice",
+      "questionText": "Wer weiß, was passiert wäre! Du ____ auf keinen Fall ohne Helm Motorrad fahren ____!",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Obwohl"
+        "solltest / --",
+        "hättest / dürfen",
+        "dürftest / --",
+        "hättest / gemusst"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hättest / dürfen",
+      "explanation": "Given the past exclamation \"was passiert wäre!\", the context is strictly an unfulfilled safety rule in the past. Du hättest nicht dürfen means \"you shouldn't have been allowed to / you ought not to have\".",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q020",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
+      "type": "multiple_choice",
+      "questionText": "____ Sie eventuell bereit, am kommenden Samstag eine Sonderschicht zu übernehmen?",
       "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
+        "Könnten",
+        "Sollten",
+        "Wären",
+        "Müssten"
       ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Wären",
+      "explanation": "This targets the formal polite adjective construction: \"Wären Sie bereit...?\" (Would you be ready/willing...?). The verb sein in Konjunktiv II shifts to wären to maximize politeness in professional workplace requests.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q021",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit ____, würde ich ein Buch schreiben.",
       "options": [
-        "um",
-        "als",
-        "weil",
-        "obwohl"
+        "hätte",
+        "habe",
+        "wäre",
+        "hatte"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II of 'haben' → 'hätte'. This is an unreal conditional (Typ II) referring to the present. The speaker does not actually have more time.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q022",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
+      "type": "multiple_choice",
+      "questionText": "An deiner Stelle ____ ich sofort zum Arzt gehen.",
       "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
+        "wäre",
+        "würde",
+        "hätte",
+        "könnte"
       ],
-      "correctAnswer": "So",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "würde",
+      "explanation": "'würde + Infinitiv' is the standard Konjunktiv II construction for advice/recommendations with regular verbs. 'An deiner Stelle' (if I were in your position) triggers Konjunktiv II.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q023",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ eigentlich früher aufstehen, aber sie schläft immer zu lange.",
       "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
+        "müsste",
+        "muss",
+        "musste",
+        "könnte"
       ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "müsste",
+      "explanation": "Konjunktiv II of 'müssen' → 'müsste'. Expresses an unmet obligation — she should/ought to get up earlier, but doesn't.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q024",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er tut so, ___ er alles wüsste.",
+      "type": "multiple_choice",
+      "questionText": "Wenn er nicht krank ____, käme er zur Party.",
       "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
+        "wäre",
+        "ist",
+        "war",
+        "hätte"
       ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II of 'sein' → 'wäre'. Unreal present condition: he is actually ill, so he won't come.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q025",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ gerne ins Kino gehen, aber ich habe kein Geld.",
       "options": [
-        "weil",
-        "obwohl",
-        "wenn",
-        "damit"
+        "würde",
+        "werde",
+        "wäre",
+        "hätte"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "würde",
+      "explanation": "'würde + Infinitiv' expresses an unfulfilled wish in the present. The obstacle (no money) is stated with 'aber'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q026",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
+      "type": "multiple_choice",
+      "questionText": "____ du mir bitte helfen? Ich verstehe diese Aufgabe nicht.",
       "options": [
-        "die",
-        "der",
-        "den",
-        "welche"
+        "Könntest",
+        "Kannst",
+        "Konntest",
+        "Würdest"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Könntest",
+      "explanation": "Konjunktiv II of 'können' → 'könntest'. Used for polite requests. More formal and courteous than 'Kannst du …?'.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q027",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir ein größeres Auto ____, könnten wir alle mitfahren.",
       "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
+        "hätten",
+        "haben",
+        "hatten",
+        "wären"
       ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hätten",
+      "explanation": "Konjunktiv II of 'haben' → 'hätten'. Unreal present condition: they don't actually have a bigger car.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q028",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
+      "type": "multiple_choice",
+      "questionText": "Er tut so, als ob er alles ____ — dabei hat er keine Ahnung.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "wüsste",
+        "weiß",
+        "wusste",
+        "würde wissen"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "wüsste",
+      "explanation": "After 'als ob', Konjunktiv II is mandatory. 'wissen' → Konjunktiv II: 'wüsste'. The construction describes an unreal/pretended situation.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q029",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich damals besser Englisch gesprochen ____, hätte ich den Job bekommen.",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "hätte",
+        "habe",
+        "hatte",
+        "wäre"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte",
+      "explanation": "Past unreal conditional (Konjunktiv II Vergangenheit): 'gesprochen hätte' = Konjunktiv II Plusquamperfekt of 'sprechen'. The speaker did not speak good English at the time.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q030",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
+      "type": "multiple_choice",
+      "questionText": "Ich wünschte, ich ____ damals nicht so viel gearbeitet.",
       "options": [
-        "der",
-        "die",
-        "den",
-        "dem"
+        "hätte",
+        "wäre",
+        "würde",
+        "hatte"
       ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte",
+      "explanation": "'Ich wünschte' + Konjunktiv II. 'nicht gearbeitet hätte' = Konjunktiv II Vergangenheit of 'arbeiten' (past unreal wish). The speaker regrets working too much.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q031",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie den Zug nicht verpasst ____, wäre sie pünktlich angekommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hätte",
+        "wäre",
+        "hatte",
+        "hätte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hätte",
+      "explanation": "'verpasst hätte' = Konjunktiv II Plusquamperfekt of 'verpassen' (haben-verb). Unreal past condition: she did miss the train.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q032",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "Es ____ schön, wenn wir uns öfter sehen könnten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wäre",
+        "würde",
+        "hätte",
+        "werde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II of 'sein' → 'wäre'. Used to express a wish/hypothetical. 'Es wäre schön, wenn …' is a fixed polite/wishful structure.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q033",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Er benimmt sich, als ____ er der Chef des Unternehmens.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wäre",
+        "ist",
+        "war",
+        "würde sein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "'als' (without 'ob') also triggers Konjunktiv II for unreal comparisons. Konjunktiv II of 'sein' → 'wäre'. He is NOT the boss.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q034",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ____ ich das Projekt nie abgeschlossen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hätte",
+        "wäre",
+        "würde",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hätte",
+      "explanation": "'Ohne + Akkusativ' triggers Konjunktiv II in the main clause. 'abgeschlossen hätte' = Konjunktiv II Vergangenheit of 'abschließen'. The project was completed thanks to the help.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q035",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ mir eigentlich mehr Urlaub wünschen, aber mein Chef erlaubt es nicht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "würde",
+        "werde",
+        "wäre",
+        "könnte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "würde",
+      "explanation": "'würde + Infinitiv' for unfulfilled wish with a regular verb ('wünschen'). The 'aber'-clause explains the real-world obstacle.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q036",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "type": "multiple_choice",
+      "questionText": "Wenn du früher aufgestanden ____, ____ wir den Flug nicht verpasst.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wärst / hätten",
+        "hättest / wären",
+        "wärst / wären",
+        "hättest / hätten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hättest / hätten",
+      "explanation": "'aufgestanden hättest' = Konjunktiv II Plusquamperfekt of 'aufstehen' (haben-auxiliary in Konjunktiv II). 'verpasst hätten' = Konjunktiv II Plusquamperfekt of 'verpassen'. Both are unreal past conditions.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q037",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "type": "multiple_choice",
+      "questionText": "Sie sprach so laut, als ob der andere am anderen Ende der Welt ____ und nicht im selben Zimmer.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wäre",
+        "sei",
+        "ist",
+        "werde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "After 'als ob', Konjunktiv II is required in B2+ formal writing. 'sein' → 'wäre'. (Konjunktiv I 'sei' is used for indirect speech, not for unreal 'als ob' comparisons.)",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q038",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
+      "type": "multiple_choice",
+      "questionText": "Wäre er rechtzeitig zum Arzt gegangen, ____ die Krankheit wahrscheinlich früher erkannt ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wäre / worden",
+        "hätte / worden",
+        "würde / sein",
+        "wäre / sein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wäre / worden",
+      "explanation": "Passive in Konjunktiv II Vergangenheit: 'erkannt worden wäre' = Konjunktiv II of Vorgangspassiv Perfekt. 'werden' uses 'sein' as auxiliary → 'wäre … worden'.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q039",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "type": "multiple_choice",
+      "questionText": "Ich wünschte, man ____ in dieser Stadt besser mit dem Fahrrad fahren ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "könnte / –",
+        "würde / können",
+        "hätte / gekonnt",
+        "müsste / –"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "könnte / –",
+      "explanation": "Modal verb 'können' in Konjunktiv II → 'könnte'. With modal verbs, 'würde + Infinitiv' is NOT used. No second element is needed; 'könnte … fahren' is the complete construction (Modalverb + Infinitiv).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q040",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "type": "multiple_choice",
+      "questionText": "Hätte sie die Warnung ernst genommen, ____ sie jetzt nicht in dieser schwierigen Situation.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wäre",
+        "würde sein",
+        "wäre gewesen",
+        "hätte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "Mixed conditional: past unreal condition (Plusquamperfekt Konjunktiv II in 'wenn/hätte'-clause) + present result. The main clause uses present Konjunktiv II of 'sein' → 'wäre', since the result is described at the present moment.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q041",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
+      "type": "multiple_choice",
+      "questionText": "Du ____ mehr Wasser trinken, wenn du gesund bleiben möchtest.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "könntest",
+        "musst",
+        "darfst",
+        "willst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "könntest",
+      "explanation": "\"Könntest\" is the Konjunktiv II form of \"können\" and is often used for polite advice.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q042",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ dir helfen, wenn ich mehr Zeit hätte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "muss",
+        "könnte",
+        "darf",
+        "will"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "könnte",
+      "explanation": "\"Könnte\" expresses hypothetical ability or possibility.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q043",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
+      "type": "multiple_choice",
+      "questionText": "An deiner Stelle ____ ich früher schlafen gehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "müsste",
+        "muss",
+        "kann",
+        "darf"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "müsste",
+      "explanation": "\"Müsste\" is used to give strong advice in hypothetical situations.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q044",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
+      "type": "multiple_choice",
+      "questionText": "____ Sie mir bitte kurz helfen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Müssen",
+        "Könnten",
+        "Wollen",
+        "Dürfen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Könnten",
+      "explanation": "\"Könnten\" is commonly used for polite requests.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q045",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir mehr Geld hätten, ____ wir eine größere Wohnung mieten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürfen",
+        "könnten",
+        "müssen",
+        "wollen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "könnten",
+      "explanation": "\"Könnten\" expresses a possible action under a condition.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q046",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "Du ____ wirklich höflicher mit deinen Kollegen sprechen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürftest",
+        "könntest",
+        "müsstest",
+        "wolltest"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "müsstest",
+      "explanation": "\"Müsstest\" expresses recommendation or necessity.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q047",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Relativsätze haben immer ein Komma.",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ heute Abend mitkommen, aber ich habe leider keine Zeit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürfte",
+        "könnte",
+        "müsste",
+        "wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "könnte",
+      "explanation": "\"Könnte\" expresses unreal possibility.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q048",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
+      "type": "multiple_choice",
+      "questionText": "Man ____ viel Stress vermeiden, wenn man besser planen würde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürfte",
+        "könnte",
+        "müsste",
+        "wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "könnte",
+      "explanation": "\"Könnte\" indicates hypothetical possibility.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q049",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
+      "type": "multiple_choice",
+      "questionText": "____ du mir vielleicht dein Handy leihen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Müsstest",
+        "Wolltest",
+        "Könntest",
+        "Dürftest"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Könntest",
+      "explanation": "\"Könntest\" makes the request polite and hypothetical.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q050",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Wenn er besser vorbereitet wäre, ____ er die Prüfung bestehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürfte",
+        "könnte",
+        "müsste",
+        "wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "könnte",
+      "explanation": "\"Könnte\" expresses possible success under a condition.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q051",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
+      "type": "multiple_choice",
+      "questionText": "Du ____ eigentlich nicht so viel Kaffee trinken.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürftest",
+        "könntest",
+        "wolltest",
+        "müsstest"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dürftest",
+      "explanation": "\"Dürftest\" can express polite restriction or recommendation.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q052",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ gerne fließend Deutsch sprechen können.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürfte",
+        "wollte",
+        "müsste",
+        "könnte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wollte",
+      "explanation": "\"Wollte\" in Konjunktiv II-related contexts can express wishes or desires indirectly.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q053",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Ohne Navigationssystem ____ wir uns wahrscheinlich verfahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürften",
+        "müssten",
+        "könnten",
+        "wollten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "könnten",
+      "explanation": "\"Könnten\" expresses hypothetical possibility.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q054",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "An seiner Stelle ____ ich mich sofort entschuldigen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wollte",
+        "dürfte",
+        "müsste",
+        "könnte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "müsste",
+      "explanation": "\"Müsste\" is used for strong hypothetical advice.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q055",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn die Tickets günstiger wären, ____ mehr Leute das Konzert besuchen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürften",
+        "könnten",
+        "müssten",
+        "wollten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "könnten",
+      "explanation": "\"Könnten\" indicates a possible consequence in an unreal situation.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q056",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "type": "multiple_choice",
+      "questionText": "____ ich hier kurz warten, bis der Arzt kommt?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Müsste",
+        "Könnte",
+        "Dürfte",
+        "Wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Dürfte",
+      "explanation": "\"Dürfte ich …?\" is a polite way to ask for permission.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q057",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "type": "multiple_choice",
+      "questionText": "Er ____ erfolgreicher sein, wenn er geduldiger arbeiten würde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürfte",
+        "könnte",
+        "müsste",
+        "wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "könnte",
+      "explanation": "\"Könnte\" expresses hypothetical potential.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q058",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ früher losfahren, damit wir keinen Stau haben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürften",
+        "könnten",
+        "müssten",
+        "wollten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "müssten",
+      "explanation": "\"Müssten\" expresses necessity or strong recommendation.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q059",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie mutiger wäre, ____ sie sich für die Stelle bewerben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dürfte",
+        "könnte",
+        "müsste",
+        "wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "könnte",
+      "explanation": "\"Könnte\" expresses hypothetical ability or possibility.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q060",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "type": "multiple_choice",
+      "questionText": "____ du bitte das Fenster schließen? Es ist ziemlich kalt hier.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Müsstest",
+        "Dürftest",
+        "Könntest",
+        "Wollte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Könntest",
+      "explanation": "\"Könntest\" is the most natural polite request form in Konjunktiv II.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q061",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Du ____ dir das Buch ansehen, es ist wirklich interessant.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "solltest",
+        "sollst",
+        "willst",
+        "musst"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "solltest",
+      "explanation": "'Solltest' is the Konjunktiv II of 'sollen', used to give advice or recommendations in a polite, non-imperative manner. At B2 level, it softens directives.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q062",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "type": "multiple_choice",
+      "questionText": "____ du mir bitte kurz helfen? Ich finde den Fehler nicht.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
+        "Könntest",
+        "Kannst",
+        "Würdest",
+        "Solltest"
       ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Könntest",
+      "explanation": "'Könntest' expresses a polite request or hypothetical ability. It is preferred over the indicative 'kannst' for softened, courteous requests in B2 communication.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q063",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir pünktlich ankommen wollen, ____ wir jetzt losfahren.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "müssten",
+        "müssen",
+        "sollten",
+        "wollten"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "müssten",
+      "explanation": "'Müssten' (Konj. II of 'müssen') expresses hypothetical or softened necessity, often used in conditional contexts to sound less absolute or demanding.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q064",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Das ____ der richtige Weg sein, aber ich bin nicht ganz sicher.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "dürfte",
+        "muss",
+        "sollte",
+        "will"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dürfte",
+      "explanation": "'Dürfte' (Konj. II of 'dürfen') indicates an educated guess or high probability. It is more cautious than 'muss' and typical in analytical or formal B2 contexts.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q065",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ gerne ein Glas Wasser, bitte.",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "möchte",
+        "will",
+        "sollte",
+        "könnte"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "möchte",
+      "explanation": "'Möchte' is the Konjunktiv II form of 'mögen' and functions as a polite marker for wishes or requests. Though grammatically subjunctive, it operates like a present-tense modal.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q066",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Geld ____, ____ ich mir ein neues Auto kaufen.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "hätte / könnte",
+        "habe / kann",
+        "hatte / könnte",
+        "haben würde / kann"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hätte / könnte",
+      "explanation": "Standard present unreal conditional: past subjunctive 'hätte' + Konj. II modal 'könnte'. Both clauses must maintain Konjunktiv II to express hypothetical present/future situations.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q067",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt sagte, ich ____ mehr Sport treiben und besser essen.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "sollte",
+        "muss",
+        "will",
+        "darf"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sollte",
+      "explanation": "In indirect speech, 'sollte' replaces 'soll' to report advice or recommendations while maintaining grammatical distance. This is a core B2 indirect speech convention.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q068",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sagte, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ____ ich das Projekt nie abgeschlossen ____.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
+        "hätte / können",
+        "würde / gekonnt",
+        "müsste / können",
+        "könnte / haben"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hätte / können",
+      "explanation": "Past hypothetical ability uses 'hätte' + infinitive of the modal ('können'). German avoids 'gekonnt' in this structure, preferring the double infinitive construction.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q069",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ du Deutsch ___ ___?",
+      "type": "multiple_choice",
+      "questionText": "Eigentlich ____ du das Formular bis Freitag einreichen, aber eine Verlängerung ist möglich.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "müsstest",
+        "musst",
+        "willst",
+        "darfst"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "müsstest",
+      "explanation": "'Müsstest' softens an obligation, implying it's technically required but exceptions or alternatives exist. This nuance distinguishes hypothetical necessity from absolute 'musst'.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q070",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "type": "multiple_choice",
+      "questionText": "Die Meldung ____ falsch sein, denn keine offizielle Bestätigung liegt vor.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "dürfte",
+        "muss",
+        "sollte",
+        "kann"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dürfte",
+      "explanation": "'Dürfte' expresses cautious assumption based on available evidence. It is preferred over 'muss' when certainty isn't absolute, a key B2 skill for academic/professional discourse.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q071",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "Wir suchen eine Lösung, die für alle Beteiligten akzeptabel ____.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "sein könnte",
+        "ist",
+        "sein muss",
+        "gewesen wäre"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sein könnte",
+      "explanation": "'Könnte' in a relative clause expresses hypothetical possibility. The structure 'sein könnte' follows standard subordinate clause word order with modals, emphasizing non-guaranteed outcomes.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q072",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "type": "multiple_choice",
+      "questionText": "An deiner Stelle ____ ich sofort handeln, bevor es zu spät ist.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "solltest",
+        "musst",
+        "wirst",
+        "kannst"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "solltest",
+      "explanation": "'An deiner Stelle' triggers Konjunktiv II for advice. 'Solltest' is the appropriate modal for recommendations in hypothetical contexts, softening the directive.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q073",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "type": "multiple_choice",
+      "questionText": "Das Ergebnis ____ positiv ausfallen, wenn alle Parameter stimmen.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "dürfte",
+        "darf",
+        "muss",
+        "soll"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dürfte",
+      "explanation": "'Dürfte' indicates a likely outcome under specific conditions. It is more formal and precise than 'könnte' for logical deduction in B2 analytical writing.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q074",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "Er spart jeden Monat, ____ er sich nächstes Jahr eine Reise nach Japan leisten ____.",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "damit / kann",
+        "damit / könnte",
+        "um / zu können",
+        "weil / könnte"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "damit / könnte",
+      "explanation": "'Damit' introduces a final clause with a conjugated verb. 'Könnte' expresses hypothetical ability/possibility in the purpose clause, adding a layer of realistic uncertainty.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q075",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich den Hinweis früher bekommen ____, ____ ich die Frist einhalten ____.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "hätte / hätte / können",
+        "hätte / würde / gekonnt",
+        "hatte / konnte / haben",
+        "hätte / könnte / gehabt"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hätte / hätte / können",
+      "explanation": "Past unreal conditional with modal: 'hätte' + infinitive of modal ('können'). This structure expresses unfulfilled past ability due to missing information, requiring strict double-infinitive syntax.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q076",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "Die Daten ____ noch vor der Konferenz veröffentlicht ____, falls der Datenschutz geklärt ____.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "müssten / werden / wäre",
+        "müssen / worden / ist",
+        "hätten / veröffentlicht / wird",
+        "sollten / sein / wäre"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "müssten / werden / wäre",
+      "explanation": "'Müssten' (Konj. II) expresses hypothetical necessity. Combined with passive infinitive 'veröffentlicht werden' and conditional 'wäre', it tests complex modal-passive-Konjunktiv II integration.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q077",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Niemand weiß genau, wie viele Teilnehmer an der Konferenz teilnehmen ____.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "dürften",
+        "müssen",
+        "sollten",
+        "können"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dürfte",
+      "explanation": "'Dürften' in speculative statements indicates a cautious estimate or probable range. It replaces indicative modals to convey uncertainty typical of B2 academic/professional reporting.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q078",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn du die Anleitung gestern gelesen ____, ____ du das Gerät jetzt richtig bedienen ____.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "hättest / könntest",
+        "hattest / kannst",
+        "hättest / müsstest",
+        "hättest / solltest"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hättest / könntest",
+      "explanation": "Mixed conditional: past condition ('hättest gelesen') + present result with modal Konj. II ('könntest bedienen'). Shows how a past action would affect present hypothetical ability.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q079",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Nach aktuellen Schätzungen ____ die Arbeitslosenzahl im nächsten Quartal leicht sinken.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "dürfte",
+        "würde",
+        "muss",
+        "soll"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dürfte",
+      "explanation": "In formal/analytical contexts, 'dürfte' indicates a well-founded projection. It is preferred over 'würde' (which implies conditionality) or 'muss' (certainty) for statistical forecasts.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q080",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Selbst wenn er die Prüfung bestanden ____, ____ er die Stelle nicht sofort bekommen, weil ihm Erfahrung fehlt.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "hätte / dürfte",
+        "hatte / muss",
+        "hätte / sollte",
+        "hätte / kann"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hätte / dürfte",
+      "explanation": "'Hätte' sets up the unreal past condition, while 'dürfte' expresses a formal, likely outcome despite that condition being met. This combination demonstrates advanced B2 nuance in concessive-hypothetical structures.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q081",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "____ ich bitte Ihr Telefon benutzen?",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "Könnte",
+        "Müsste",
+        "Dürfte",
+        "Sollte"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Könnte",
+      "explanation": "\"Könnte\" is the polite Konjunktiv II form of können, used for polite requests (Could I please use your phone?).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q082",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "type": "multiple_choice",
+      "questionText": "Du ____ wirklich mehr auf deine Ernährung achten.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
+        "könntest",
+        "müsstest",
+        "dürftest",
+        "solltest"
       ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "solltest",
+      "explanation": "\"Solltest\" (Konjunktiv II of sollen) gives gentle advice (You really should pay more attention to your diet).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q083",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Geld ____, ____ ich mir ein neues Auto kaufen.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "könnte / würde",
+        "hätte / könnte",
+        "müsste / würde",
+        "dürfte / hätte"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hätte / könnte",
+      "explanation": "\"hätte\" (condition) and \"könnte\" (ability in Konjunktiv II) – If I had more money, I could buy a new car.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q084",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ____ ich die Prüfung nie bestehen.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "könnte",
+        "müsste",
+        "dürfte",
+        "wollte"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "könnte",
+      "explanation": "\"könnte\" expresses unreal ability (Without your help, I could never pass the exam).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q085",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "type": "multiple_choice",
+      "questionText": "____ ich Ihnen etwas anbieten?",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "Möchte",
+        "Müsste",
+        "Dürfte",
+        "Könnte"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Dürfte",
+      "explanation": "\"Dürfte\" (Konjunktiv II of dürfen) is very polite: \"May I offer you something?\" More formal than \"könnte\".",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q086",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Das ____ eigentlich nicht sein.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "dürfte",
+        "müsste",
+        "sollte",
+        "wollte"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dürfte",
+      "explanation": "\"Dürfte\" expresses probability or assumption: That probably shouldn't be / That can't be right (softened).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q087",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ uns beeilen, sonst verpassen wir den Zug.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "können",
+        "müssten",
+        "dürften",
+        "sollten"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "müssten",
+      "explanation": "\"Müssten\" (Konjunktiv II of müssen) expresses strong advice/necessity (We would have to hurry / really should hurry).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q088",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sagte, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "____ Sie mir bitte sagen, wie spät es ist?",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
+        "Möchten",
+        "Müssten",
+        "Könnten",
+        "Dürften"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Könnten",
+      "explanation": "\"Könnten\" for polite request (Could you please tell me what time it is?).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q089",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ du Deutsch ___ ___?",
+      "type": "multiple_choice",
+      "questionText": "Wenn er nicht so krank gewesen ____, ____ er gestern kommen können.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "wäre / hätte",
+        "ist / könnte",
+        "war / würde",
+        "hätte / hätte"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wäre / hätte",
+      "explanation": "\"wäre\" (Konjunktiv II of sein for condition) + \"hätte kommen können\" (double infinitive with Konjunktiv II of haben) – If he hadn't been so sick, he could have come yesterday.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q090",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "type": "multiple_choice",
+      "questionText": "Du ____ das doch besser wissen!",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "könntest",
+        "müsstest",
+        "solltest",
+        "dürftest"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "müsstest",
+      "explanation": "\"Müsstest\" expresses reproach: You really should know better! (Obligation in Konjunktiv II).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q091",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "____ ich Ihnen die Tür aufhalten?",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "Möchte",
+        "Sollte",
+        "Dürfte",
+        "Könnte"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Dürfte",
+      "explanation": "\"Dürfte\" is a very polite offer (May I hold the door for you?).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q092",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Man ____ in dieser Situation vorsichtiger sein.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "möchte",
+        "könnte",
+        "sollte",
+        "darf"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sollte",
+      "explanation": "\"Sollte\" gives general advice (One should be more careful in this situation).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q093",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "type": "multiple_choice",
+      "questionText": "Er ____ wohl im Stau stecken.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "könnte",
+        "müsste",
+        "dürfte",
+        "wollte"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dürfte",
+      "explanation": "\"Dürfte\" expresses a likely assumption (He is probably stuck in traffic).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q094",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich früher aufgestanden ____, ____ ich den Bus erreicht haben können.",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "wäre / hätte",
+        "hätte / wäre",
+        "würde / könnte",
+        "bin / kann"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wäre / hätte",
+      "explanation": "\"wäre\" (condition) + \"hätte erreichen können\" (double infinitive with Konjunktiv II) – If I had gotten up earlier, I could have caught the bus.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q095",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "____ ich mir dein Handy mal kurz ausleihen?",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "Könnte",
+        "Möchte",
+        "Sollte",
+        "Müsste"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Könnte",
+      "explanation": "\"Könnte\" for informal polite request (Could I borrow your phone for a moment?).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q096",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "Das ____ eigentlich funktionieren, aber ich bin nicht sicher.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "muss",
+        "kann",
+        "müsste",
+        "sollte"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "müsste",
+      "explanation": "\"Müsste\" expresses a tentative assumption (That should actually work, but I'm not sure).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q097",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Was ____ ich tun, um ihn zu beruhigen?",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "könnte",
+        "müsste",
+        "sollte",
+        "dürfte"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sollte",
+      "explanation": "\"Sollte\" asks for advice (What should I do to calm him down?).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_04_q098",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "Er ____ unbedingt einen Arzt aufsuchen, aber er will nicht.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "könnte",
+        "müsste",
+        "dürfte",
+        "sollte"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sollte",
+      "explanation": "\"Sollte\" expresses strong advice (He really should see a doctor, but he doesn't want to).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_04_q099",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Man ____ meinen, dass er zufrieden ist, aber das Gegenteil ist der Fall.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "könnte",
+        "müsste",
+        "sollte",
+        "dürfte"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "könnte",
+      "explanation": "\"Könnte\" with \"man könnte meinen\" = One could think (unreal assumption).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_04_q100",
-      "subjectId": "b1_04",
-      "topicName": "Relativsätze: Nominativ und Akkusativ",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn du mich früh genug gefragt ____, ____ ich dir auf jeden Fall helfen können.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "hättest / hätte",
+        "würdest / würde",
+        "hast / kann",
+        "warst / könnte"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hättest / hätte",
+      "explanation": "\"hättest gefragt\" (Konjunktiv II past) + \"hätte helfen können\" (double infinitive) – If you had asked me early enough, I could have definitely helped you.",
+      "difficulty": "hard"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

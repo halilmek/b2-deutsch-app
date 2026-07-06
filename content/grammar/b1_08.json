@@ -1,1554 +1,1422 @@
 {
+  "version": "1.0",
   "subjectId": "b1_08",
-  "topicName": "Konjunktiv II: könnte, müsste...",
+  "topicName": "Perfekt und Präteritum",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Perfekt vs. Präteritum — the two past tenses in German. Perfekt = haben/sein + Partizip II, used in spoken German and informal writing. Präteritum = simple past, preferred in formal written German (narratives, literature, newspapers). The choice is primarily stylistic, not based on timeline. Key decisions: auxiliary choice (haben vs sein), Partizip II formation (weak/strong/mixed), register consistency, Plusquamperfekt for past-before-past, and Konjunktiv I in indirect speech. B2 exams test complex auxiliary selection (transitive movement verbs use haben), twin verb traps (hängen, erschrecken, legen/liegen), and mixed verb conjugations (brennen, nennen, rennen, wenden).",
+  "tips": [
+    "Perfekt (spoken/informal) vs Präteritum (formal written): conversations/emails → Perfekt; formal reports/essays/narratives → Präteritum. Never mix both in the same formal text.",
+    "Auxiliary choice: haben = transitive verbs, reflexive verbs, non-motion intransitive verbs. sein = motion verbs (gehen, fahren), change of state (werden, sterben, schmelzen), geographical motion (reisen, wandern).",
+    "Transitive movement loophole: even movement verbs take haben when they have an accusative object. 'Der Kapitän hat das Schiff durch die Meerenge gesteuert' (transitive) vs. 'Er ist nach Hause gefahren' (intransitive).",
+    "Twin verbs (weak vs. strong): hängen (transitive = hängte/gehängt) vs. hängen (intransitive = hing/gehangen); erschrecken (transitive = erschreckte/erschreckt) vs. erschrecken (intransitive = erschrak/erschrocken); legen (weak) vs. liegen (strong); setzen (weak) vs. sitzen (strong).",
+    "Mischverben (mixed verbs) — stem vowel changes + weak endings: brennen → er brannte / hat gebrannt; nennen → er nannte / hat genannt; rennen → er rannte / ist gerannt; wenden → er wandte/wendete / hat gewandt/gewendet.",
+    "Plusquamperfekt: war/hatte + Partizip II for past-before-past. After 'nachdem' → Plusquamperfekt in the earlier clause, Präteritum in the later: 'Nachdem der König gestorben war, übernahm sein Sohn die Macht.'",
+    "Konjunktiv I in indirect speech: Perfekt K-I = habe/habe + Partizip II. Used after reporting verbs (sagte, berichtete) to express reported speech formally.",
+    "Konjunktiv II with 'als ob': K-II Präteritum for unreal present (hätte, wäre); K-II Vergangenheit for unreal past (hätte gemacht, wäre gegangen).",
+    "Double infinitive (Ersatzinfinitiv): modal + main verb in Perfekt → Partizip II replaced by double infinitive at end: 'Er hat das nicht machen wollen' (not 'gemacht gewollt').",
+    "Strong verb traps: erleiden → erlitten (NOT gelitten); schmelzen → ist geschmolzen; beginnen → hat begonnen; steigen → ist gestiegen; entfliehen → ist entflohen; ausgleiten → ist ausgeglitten."
+  ],
   "questions": [
     {
       "id": "b1_08_q001",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ ich meinen alten Freund zufällig in der Stadt ____.",
+      "options": [
+        "habe / getroffen",
+        "bin / getroffen",
+        "habe / treffen",
+        "hatte / getroffen"
+      ],
+      "correctAnswer": "habe / getroffen",
+      "explanation": "'Treffen' (to meet) is a transitive verb taking a direct object — it uses 'haben' as its Perfekt auxiliary. Partizip II: 'getroffen' (strong verb, vowel change e→o). 'Bin' is incorrect because 'treffen' does not express motion or a change of state."
     },
     {
       "id": "b1_08_q002",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Als Kind ____ wir jeden Sommer ans Meer ____.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "sind / gefahren",
+        "haben / gefahren",
+        "sind / fahren",
+        "wurden / gefahren"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sind / gefahren",
+      "explanation": "'Fahren' (to travel/drive) expresses directed motion → Perfekt auxiliary 'sein'. Partizip II: 'gefahren'. 'Haben / gefahren' is a common error. Note: 'wurden / gefahren' would be Vorgangspassiv Präteritum — a completely different construction."
     },
     {
       "id": "b1_08_q003",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Roman ____ im 19. Jahrhundert und ____ die Geschichte einer adeligen Familie.",
       "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
+        "erschien / erzählte",
+        "erschien / hat erzählt",
+        "ist erschienen / erzählte",
+        "erschien / erzählt"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "erschien / erzählte",
+      "explanation": "In written narrative (literary/formal register), Präteritum is strongly preferred throughout: 'erschien' (Präteritum of 'erscheinen') and 'erzählte' (Präteritum of 'erzählen'). Mixing Präteritum and Perfekt within a narrative ('erschien / hat erzählt') is a register error typical of B2 candidates."
     },
     {
       "id": "b1_08_q004",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
-      "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
-      ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ____ draußen gespielt, bis es dunkel ____.",
+      "options": [
+        "haben / wurde",
+        "sind / wurde",
+        "haben / war",
+        "haben / wurde"
+      ],
+      "correctAnswer": "haben / wurde",
+      "explanation": "'Spielen' is a non-motion verb → Perfekt with 'haben': 'haben … gespielt'. The second clause uses 'wurde' (Präteritum of 'werden') for the change of state (it got dark). Mixing Perfekt and Präteritum in spoken/informal German is acceptable; 'war' would imply a pre-existing state rather than a change."
     },
     {
       "id": "b1_08_q005",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Letztes Jahr ____ sie ihren Job ____ und eine eigene Firma ____.",
       "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
+        "hat / gekündigt / gegründet",
+        "ist / gekündigt / gegründet",
+        "hat / gekündigt / gründet",
+        "hat / kündigen / gründen"
       ],
-      "correctAnswer": "deren",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / gekündigt / gegründet",
+      "explanation": "Both 'kündigen' and 'gründen' are weak transitive verbs → Perfekt with 'haben'. Partizip II: 'ge-' + stem + '-t': 'gekündigt', 'gegründet'. 'Ist' is incorrect for both verbs. Coordinating two past events with a single auxiliary ('hat … gekündigt und [hat] … gegründet') is standard B2 sentence structure."
     },
     {
       "id": "b1_08_q006",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er ____ plötzlich aufgestanden und ____ das Zimmer verlassen.",
       "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
+        "ist / hat",
+        "hat / ist",
+        "ist / ist",
+        "hat / hat"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / hat",
+      "explanation": "'Aufstehen' = change of position → Perfekt with 'sein': 'ist aufgestanden'. 'Verlassen' = transitive verb with Akkusativ object ('das Zimmer') → Perfekt with 'haben': 'hat … verlassen'. Two different auxiliaries in one coordinated sentence is a classic B2 challenge."
     },
     {
       "id": "b1_08_q007",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
-      ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Konzert ____ drei Stunden und ____ alle Zuschauer begeistert.",
+      "options": [
+        "dauerte / begeisterte",
+        "hat gedauert / begeisterte",
+        "dauerte / hat begeistert",
+        "ist gedauert / hat begeistert"
+      ],
+      "correctAnswer": "dauerte / begeisterte",
+      "explanation": "For a formal written description of a completed event, Präteritum is preferred: 'dauerte' and 'begeisterte'. 'Dauern' never takes 'sein'; 'ist gedauert' is always wrong. Consistent use of Präteritum throughout a written account is a B2 register skill."
     },
     {
       "id": "b1_08_q008",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sagte, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie die Unterlagen ____ ____, schickte sie die E-Mail ab.",
+      "options": [
+        "hatte / geprüft",
+        "hat / geprüft",
+        "war / geprüft",
+        "hatte / geprüfen"
+      ],
+      "correctAnswer": "hatte / geprüft",
+      "explanation": "'Nachdem' with Plusquamperfekt expresses a completed action before another past action (Vorzeitigkeit). 'Prüfen' is transitive → auxiliary 'haben' → Plusquamperfekt: 'hatte geprüft'. The main clause uses Präteritum ('schickte … ab') — this Plusquamperfekt + Präteritum pairing after 'nachdem' is essential B2 grammar."
     },
     {
       "id": "b1_08_q009",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ du Deutsch gelernt ___?",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Als wir ankamen, ____ die anderen Gäste bereits ____.",
       "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
+        "waren / gegangen",
+        "haben / gegangen",
+        "sind / gegangen",
+        "hatten / gegangen"
       ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "waren / gegangen",
+      "explanation": "Plusquamperfekt expresses that the guests had already left before the speakers arrived. 'Gehen' = directed motion → auxiliary 'sein' → Plusquamperfekt: 'waren gegangen'. 'Hatten gegangen' is a common error — 'gehen' always uses 'sein', not 'haben'."
     },
     {
       "id": "b1_08_q010",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ den ganzen Tag gearbeitet, aber er ____ nichts Produktives ____.",
       "options": [
-        "dessen",
-        "deren",
-        "die",
-        "dem"
+        "hatte / hatte / geleistet",
+        "hat / hat / geleistet",
+        "hatte / hat / leisten",
+        "war / hatte / geleistet"
       ],
-      "correctAnswer": "dessen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / hatte / geleistet",
+      "explanation": "Both clauses are in Plusquamperfekt — describing two past actions that both occurred before the narrative reference point. 'Arbeiten' and 'leisten' are both transitive/non-motion verbs → 'haben' auxiliary → 'hatte … gearbeitet' and 'hatte … geleistet'. 'War' is wrong for 'arbeiten'."
     },
     {
       "id": "b1_08_q011",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler ____ jahrelang an dem Projekt ____, bevor er endlich einen Durchbruch ____.",
+      "options": [
+        "hatte / gearbeitet / erzielte",
+        "hat / gearbeitet / erzielte",
+        "hatte / gearbeitet / erzielen",
+        "war / gearbeitet / erzielte"
+      ],
+      "correctAnswer": "hatte / gearbeitet / erzielte",
+      "explanation": "Plusquamperfekt ('hatte gearbeitet') for the action that preceded the breakthrough, then Präteritum ('erzielte') for the breakthrough itself. 'Arbeiten' uses 'haben' in Perfekt/Plusquamperfekt. This Plusquamperfekt + 'bevor' + Präteritum structure is a key B2 narrative pattern."
     },
     {
       "id": "b1_08_q012",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen ____ gescheitert, weil keine der Parteien ____ nachgeben ____.",
       "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
+        "waren / wollte / –",
+        "haben / wollten / –",
+        "sind / wollte / –",
+        "waren / hatte / wollen"
       ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "waren / wollte / –",
+      "explanation": "'Scheitern' is an intransitive verb expressing a change of state → Perfekt/Plusquamperfekt with 'sein': 'waren gescheitert'. 'Die Verhandlungen' are plural but the subject of the 'weil'-clause is 'keine der Parteien' (singular — none of the parties) → 'wollte' (singular). No extra element after 'wollen' in simple past context."
     },
     {
       "id": "b1_08_q013",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ erst ____, nachdem sie ihre Eltern noch einmal ____ ____.",
       "options": [
-        "Als",
-        "Wenn",
-        "Wann",
-        "Während"
+        "ist / abgereist / hatte / angerufen",
+        "hat / abgereist / hatte / angerufen",
+        "ist / abgereist / hat / angerufen",
+        "war / abgereist / hatte / angerufen"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / abgereist / hatte / angerufen",
+      "explanation": "Main clause: Perfekt of 'abreisen' (change of location → 'sein'): 'ist abgereist'. Subordinate 'nachdem'-clause: Plusquamperfekt of 'anrufen' (transitive → 'haben'): 'hatte angerufen'. The sequence: calling happened first (Plusquamperfekt), departure happened after (Perfekt). This mixed Perfekt/Plusquamperfekt with 'nachdem' is standard B2."
     },
     {
       "id": "b1_08_q014",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen ____ im letzten Quartal erhebliche Verluste ____ und ____ daraufhin mehrere Mitarbeiter ____.",
+      "options": [
+        "hatte / erlitten / hatte / entlassen",
+        "hat / erlitten / hat / entlassen",
+        "hatte / gelitten / hatte / entlassen",
+        "ist / erlitten / hat / entlassen"
+      ],
+      "correctAnswer": "hatte / erlitten / hatte / entlassen",
+      "explanation": "Both verbs in Plusquamperfekt for background narrative context. 'Erleiden' (to suffer/incur) is a strong verb: Partizip II 'erlitten' (not 'gelitten' — that's 'leiden'). 'Entlassen' is a strong verb with inseparable prefix: Partizip II 'entlassen' (no 'ge-'). Both use 'haben'. Distinguishing 'erleiden' vs. 'leiden' is a precise B2 vocabulary-grammar intersection."
     },
     {
       "id": "b1_08_q015",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Kaum ____ die Sitzung ____, ____ sich ein heftiger Streit ____.",
       "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
+        "hatte / begonnen / entwickelte / –",
+        "war / begonnen / entwickelte / –",
+        "hatte / begonnen / entwickelt / –",
+        "hatte / begonnen / hatte / entwickelt"
       ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / begonnen / entwickelte / –",
+      "explanation": "'Kaum … als/da' (scarcely … when) triggers Plusquamperfekt in the 'kaum'-clause and Präteritum in the main clause. 'Beginnen' = intransitive change of state → 'sein' might seem right, but 'beginnen' can use 'haben' when no object is present AND in written/narrative register. Here 'hatte begonnen' is the established written-register form. 'Entwickeln' (reflexive) → Präteritum: 'entwickelte sich'."
     },
     {
       "id": "b1_08_q016",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Obwohl er ____ ____, dass etwas schiefgelaufen ____, schwieg er.",
       "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
+        "hatte / bemerkt / war",
+        "hat / bemerkt / ist",
+        "hatte / bemerken / war",
+        "war / bemerkt / hatte"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / bemerkt / war",
+      "explanation": "Main clause Präteritum ('schwieg') with embedded Plusquamperfekt subordinate clauses. 'Bemerken' is transitive → 'haben': 'hatte bemerkt'. 'Schiefgehen' = motion/change of state → 'sein': 'war schiefgelaufen'. The entire 'obwohl'-clause is set before 'schwieg', so Plusquamperfekt is correct for both embedded verbs."
     },
     {
       "id": "b1_08_q017",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge berichtete, er ____ den Verdächtigen noch nie zuvor ____ und ____ ihn auch an jenem Abend nicht ____.",
       "options": [
-        "würde",
-        "wird",
-        "kann",
-        "wollte"
+        "hatte / gesehen / hatte / gekannt",
+        "habe / gesehen / habe / gekannt",
+        "hätte / gesehen / hätte / gekannt",
+        "hatte / sehen / hatte / kennen"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "habe / gesehen / habe / gekannt",
+      "explanation": "Indirect speech (indirekte Rede) with a past-tense reporting verb ('berichtete'). Despite the past reporting verb, Konjunktiv I is used in formal written indirect speech: 'habe gesehen' and 'habe gekannt' (K-I Perfekt). 'Hätte' would be K-II — only used when K-I is identical to indicative. This K-I Perfekt in indirect speech is a critical B2 written register skill."
     },
     {
       "id": "b1_08_q018",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Seitdem das Gesetz ____ ____, ____ die Anzahl der Beschwerden stetig ____.",
+      "options": [
+        "war / eingeführt worden / ist / gestiegen",
+        "wurde / eingeführt / ist / gestiegen",
+        "war / eingeführt worden / hat / gestiegen",
+        "ist / eingeführt worden / ist / gestiegen"
+      ],
+      "correctAnswer": "war / eingeführt worden / ist / gestiegen",
+      "explanation": "'Seitdem' with Plusquamperfekt Passiv in the subordinate clause ('war eingeführt worden') and Perfekt in the main clause ('ist gestiegen') — 'seitdem' with Plusquamperfekt + Perfekt expresses that since a completed past event, an ongoing result has followed. 'Steigen' = change of state → 'sein'. Passive Plusquamperfekt: 'war + Partizip II + worden' (not 'geworden')."
     },
     {
       "id": "b1_08_q019",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er tat so, als ob er nichts ____ ____ und als ob man ihn zu Unrecht ____.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Obwohl"
+        "hätte / gewusst / beschuldigte",
+        "hätte / gewusst / beschuldigte",
+        "hatte / gewusst / beschuldigte",
+        "habe / gewusst / beschuldigte"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / gewusst / beschuldigte",
+      "explanation": "'Als ob' requires Konjunktiv II. K-II Vergangenheit of 'wissen': 'hätte gewusst' (wissen = mixed verb: Partizip II 'gewusst'). The second 'als ob'-clause uses Präteritum indicative 'beschuldigte' — in colloquial usage, the second parallel clause can drop the K-II marker when the unreal framing is already established. This nuanced register choice is B2+ awareness."
     },
     {
       "id": "b1_08_q020",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Erst als man ____ ____, dass alle Möglichkeiten ____ ____ ____, ____ man bereit, über einen Kompromiss nachzudenken.",
       "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
+        "hatte / erkannt / ausgeschöpft worden waren / war",
+        "hat / erkannt / ausgeschöpft worden sind / ist",
+        "hatte / erkennen / ausgeschöpft worden waren / war",
+        "hatte / erkannt / ausgeschöpft worden wären / war"
       ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / erkannt / ausgeschöpft worden waren / war",
+      "explanation": "Complex nested Plusquamperfekt: 'hatte erkannt' (Plusquamperfekt of 'erkennen', transitive → haben). The embedded 'dass'-clause contains Plusquamperfekt Passiv: 'ausgeschöpft worden waren' (sein + Partizip II + worden — passive Plusquamperfekt). Main clause: 'war … bereit' (Präteritum of 'sein'). Three temporal layers: readiness (Präteritum) ← recognizing (Plusquamperfekt) ← options being exhausted (Passive Plusquamperfekt, even further back). This is the highest-complexity B2 past tense structure."
     },
     {
       "id": "b1_08_q021",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Als die Polizei den Tatort erreichte, ____ der mutmaßliche Täter bereits unbemerkt durch das Hoffenster ____.",
       "options": [
-        "um",
-        "als",
-        "weil",
-        "obwohl"
+        "war / entflohen",
+        "hatte / entflieht",
+        "ist / entflieht",
+        "hatte / entflohen"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "war / entflohen",
+      "explanation": "The verb 'entfliehen' (to escape) is a strong verb indicating a change of position/movement, requiring 'sein' as the auxiliary verb. In a past narrative context with 'Als...', Plusquamperfekt ('war entflohen') is used to show an action completed before another past action."
     },
     {
       "id": "b1_08_q022",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die kleine Katze ____ heftig, als der laute Lastwagen plötzlich direkt vor dem Gartentor hupte.",
       "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
+        "erschrak",
+        "erschreckte",
+        "erschrocken ist",
+        "erschreckt hatte"
       ],
-      "correctAnswer": "So",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "erschrak",
+      "explanation": "When 'erschrecken' is intransitive (meaning 'to be frightened / startled'), it is a strong verb: erschrecken - erschrak - ist erschrocken. Since it is a sudden action in a narrative past sequence, the Präteritum 'erschrak' is correct."
     },
     {
       "id": "b1_08_q023",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wer hat das kostbare Ölgemälde gestern so schief an die Wohnzimmerwand ____?",
       "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
+        "gehangen",
+        "gehängt",
+        "hangen",
+        "gehängt haben"
       ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "gehängt",
+      "explanation": "The verb 'hängen' has two forms. When it is transitive (with an accusative object, indicating an action: 'to hang something up'), it is regular/weak: hängen - hängte - hat gehängt. The intransitive version (state of hanging) is strong: hängen - hing - hat gehangen."
     },
     {
       "id": "b1_08_q024",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er tut so, ___ er alles wüsste.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Nach langen Diskussionen ____ der Stadtrat schließlich den klugen Vorschlag der Opposition ____.",
       "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
+        "nahm / an",
+        "nehme / an",
+        "nimmt / an",
+        "nimmte / an"
       ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nahm / an",
+      "explanation": "The separable strong verb 'annehmen' (to accept/adopt) has the past tense forms: annehmen - nahm an - hat angenommen. 'Nahm... an' is the correct 3rd person singular in Präteritum."
     },
     {
       "id": "b1_08_q025",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der geschickte Handwerker ____ das stumpfe Küchenmesser auf einem speziellen Schleifstein wieder scharf.",
       "options": [
-        "weil",
-        "obwohl",
-        "wenn",
-        "damit"
+        "schleifte",
+        "schlifft",
+        "schleiften",
+        "schliff"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "schliff",
+      "explanation": "The verb 'schleifen' (to grind/sharpen an object) is strong: schleifen - schliff - hat geschliffen. Therefore, 'schliff' is the correct 3rd person singular Präteritum form. (The weak 'schleifte' exists but means to drag something on the ground)."
     },
     {
       "id": "b1_08_q026",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "In den vergangenen Monaten ____ der Goldpreis aufgrund der weltweiten Wirtschaftskrise kontinuierlich ____.",
       "options": [
-        "die",
-        "der",
-        "den",
-        "welche"
+        "ist / gestiegen",
+        "hat / gesteigt",
+        "ist / gesteigt",
+        "hat / gestiegen"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / gestiegen",
+      "explanation": "The strong verb 'steigen' (to rise/increase) indicates a change of state/measurement and is strictly intransitive, meaning it forms its Perfekt tense with the auxiliary verb 'sein' + 'gestiegen'."
     },
     {
       "id": "b1_08_q027",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der fesselnde Kriminalroman ____ mich so sehr, dass ich das Buch die ganze Nacht nicht aus der Hand legen konnte.",
       "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
+        "ergriff",
+        "ergreifte",
+        "ergriffen hat",
+        "ergriffte"
       ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ergriff",
+      "explanation": "The strong verb 'ergreifen' (to grip/move emotionally) follows the vowel pattern (ei-i-i): ergreifen - ergriff - hat ergriffen. For the narrative style, the Präteritum form 'ergriff' is required."
     },
     {
       "id": "b1_08_q028",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ stundenlang durch den tief verschneiten Winterwald ____, bevor wir endlich die Hütte erreichten.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "sind / gewandert",
+        "haben / gewandert",
+        "waren / gewandert",
+        "hatten / gewandert"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sind / gewandert",
+      "explanation": "The verb 'wandern' (to hike) indicates a directional movement or a continuous physical locomotion from A to B, which dictates the auxiliary verb 'sein' in the Perfekt tense."
     },
     {
       "id": "b1_08_q029",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der unhöfliche Gast ____ wütend aus dem Konferenzraum und knallte die schwere Holztür hinter sich zu.",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "rannte",
+        "rennt",
+        "rennte",
+        "gerannt ist"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "rannte",
+      "explanation": "'Rennen' is a mixed verb (shows a vowel change but uses regular weak endings): rennen - rannte - ist gerannt. The singular 3rd person Präteritum form matches the subsequent past tense narrative 'knallte'."
     },
     {
       "id": "b1_08_q030",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das dicke Eis auf dem Gebirgssee ____ im warmen Frühlingssonnenschein innerhalb weniger Tage vollständig ____.",
       "options": [
-        "der",
-        "die",
-        "den",
-        "dem"
+        "ist / geschmolzen",
+        "hat / geschmolzen",
+        "ist / geschmelzt",
+        "hat / geschmelzt"
       ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / geschmolzen",
+      "explanation": "The verb 'schmelzen' (to melt) is a strong verb indicating a change of physical state. Its past participle is 'geschmolzen' and it uses the auxiliary verb 'sein'."
     },
     {
       "id": "b1_08_q031",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der erfahrene Redner ____ das Publikum mit seinen visionären Ideen sofort in seinen Bann.",
+      "options": [
+        "zog",
+        "ziehte",
+        "gezogen hat",
+        "zug"
+      ],
+      "correctAnswer": "zog",
+      "explanation": "The idiom is 'jemanden in seinen Bann ziehen' (to captivate someone). The strong verb 'ziehen' forms its Präteritum as 'zog' (ziehen - zog - hat gezogen)."
     },
     {
       "id": "b1_08_q032",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Niemand ____ im Voraus ____, dass das innovative Start-up so schnell globale Erfolge feiern würde.",
+      "options": [
+        "hatte / geahnt",
+        "war / geahnt",
+        "hatte / geahnen",
+        "wurde / geahnt"
+      ],
+      "correctAnswer": "hatte / geahnt",
+      "explanation": "'Ahnen' (to sense/anticipate) is a regular weak verb: ahnen - ahnte - hat geahnt. In this sentence, the action of anticipating happened before the past celebration of success, necessitating the Plusquamperfekt 'hatte geahnt'."
     },
     {
       "id": "b1_08_q033",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die gestresste Mutter ____ das schlafende Baby vorsichtig in das weiche Gitterbett.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "legte",
+        "lag",
+        "lüg",
+        "gelegt hat"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "legte",
+      "explanation": "This targets the classic trap pair: 'legen' vs. 'liegen'. 'Legen' is transitive (requires an accusative object, showing an action) and is weak: legen - legte - hat gelegt. 'Liegen' is intransitive (shows position/state) and is strong: liegen - lag - hat gelegen."
     },
     {
       "id": "b1_08_q034",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Gestern Abend ____ wir gemütlich am lodernden Kaminfeuer und tranken einen edlen Rotwein.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "saßen",
+        "setzten",
+        "gesessen haben",
+        "saß"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "saßen",
+      "explanation": "This tests 'sitzen' (intransitive, state) vs. 'setzen' (transitive, action). The sentence describes a state of sitting, requiring 'sitzen'. Its strong Präteritum plural form (1st/3rd person) is 'saßen' (sitzen - saß - hat gesessen)."
     },
     {
       "id": "b1_08_q035",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die unvorsichtige Wanderin ____ im nassen Schlamm aus und brach sich dabei den linken Knöchel.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "glitt",
+        "gleitete",
+        "ausgleitete",
+        "ist ausgeglitten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "glitt",
+      "explanation": "The separable strong verb 'ausgleiten' (to slip) follows the (ei-i-i) pattern: ausgleiten - glitt aus - ist ausgeglitten. Since the second part of the sentence uses Präteritum ('brach'), the first blank must be the Präteritum prefix-split form 'glitt... aus'."
     },
     {
       "id": "b1_08_q036",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Kapitän ____ das große Containerschiff sicher durch die stürmische Meerenge ____.",
+      "options": [
+        "hat / gesteuert",
+        "ist / gesteuert",
+        "hat / gestiert",
+        "wurde / gesteuert"
+      ],
+      "correctAnswer": "hat / gesteuert",
+      "explanation": "Although 'steuern' involves movement, it is used transitively here with a direct accusative object ('das große Containerschiff'). Transitive verbs always build their Perfekt form using the auxiliary verb 'haben'."
     },
     {
       "id": "b1_08_q037",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der alte König ____ ____, übernahm sein ältester Sohn die Regierungsgeschäfte des Landes.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "gestorben war",
+        "gestorben hatte",
+        "starb",
+        "ist gestorben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "gestorben war",
+      "explanation": "'Sterben' (to die) marks a definitive change of state, forming its perfect tenses with 'sein'. The conjunction 'nachdem' demands the Plusquamperfekt ('war gestorben') to show completion prior to the main clause Präteritum verb 'übernahm'."
     },
     {
       "id": "b1_08_q038",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Kerze auf dem Geburtstagstisch ____ stundenlang ruhig vor sich hin, bis sie schließlich ganz erlosch.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "brannte",
+        "brennta",
+        "gebrannt hat",
+        "brannt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "brannte",
+      "explanation": "'Brennen' (to burn) is a mixed verb: brennen - bannte - hat gebrannt. The continuous state in a narrative past sequence requires the Präteritum form 'brannte'."
     },
     {
       "id": "b1_08_q039",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Duft von frisch gebackenem Kuchen ____ sofort meine wunderbaren Kindheitserinnerungen wieder ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "rief / wach",
+        "rufte / wach",
+        "hat / wachgerufen",
+        "riefe / wach"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "rief / wach",
+      "explanation": "The separable strong verb 'wachrufen' (to evoke/awaken memories) conjugates based on 'rufen' (rufen - rief - hat gerufen). In Präteritum, it splits into 'rief... wach'."
     },
     {
       "id": "b1_08_q040",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q041",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q042",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Warum ____ du mir die Wahrheit verschwiegen, als ich dich gestern danach ____?",
+      "options": [
+        "hast / fragte",
+        "hattest / fragte",
+        "hast / gefragt habe",
+        "bist / fragte"
+      ],
+      "correctAnswer": "hast / fragte",
+      "explanation": "This sentence mixes a spoken perfect question ('Warum hast du... verschwiegen') with a temporal background subordinate clause in Präteritum ('als ich dich gestern danach fragte'). 'Verschweigen' is transitive and requires 'haben'."
     },
     {
-      "id": "b1_08_q043",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er ging zur Arbeit, ____ er starke Kopfschmerzen hatte.",
+      "options": [
+        "obwohl",
+        "weil",
+        "damit",
+        "sodass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' introduces a concessive clause expressing contrast — despite having a headache, he went to work.",
+      "id": "b1_08_q041"
     },
     {
-      "id": "b1_08_q044",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q045",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q046",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Sitzung wurde verschoben, ____ mehrere Teilnehmer krank waren.",
+      "options": [
+        "obwohl",
+        "damit",
+        "weil",
+        "während"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' introduces the reason (cause) for postponing the meeting — several participants were ill.",
+      "id": "b1_08_q042"
     },
     {
-      "id": "b1_08_q047",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Relativsätze haben immer ein Komma.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q048",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q049",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Sie spricht leise, ____ niemand gestört wird.",
+      "options": [
+        "obwohl",
+        "damit",
+        "während",
+        "trotzdem"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces a purpose clause (final clause) — she speaks quietly in order that no one is disturbed.",
+      "id": "b1_08_q043"
     },
     {
-      "id": "b1_08_q050",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q051",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q052",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "____ er wenig Erfahrung hatte, bekam er die Stelle.",
+      "options": [
+        "Weil",
+        "Während",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a concession — despite having little experience, he got the job.",
+      "id": "b1_08_q044"
     },
     {
-      "id": "b1_08_q053",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Straßen waren vereist, ____ viele Unfälle passierten.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces a consequence/result — the roads were icy, so many accidents happened.",
+      "id": "b1_08_q045"
     },
     {
-      "id": "b1_08_q054",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q055",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q056",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "____ die Regierung neue Maßnahmen eingeführt hat, bleibt die Situation schwierig.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Falls"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a concession — although the government has introduced new measures, the situation remains difficult.",
+      "id": "b1_08_q046"
     },
     {
-      "id": "b1_08_q057",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q058",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q059",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_08_q060",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "type": "multiple_choice",
+      "questionText": "Er trainiert täglich, ____ seine Leistung kontinuierlich zu verbessern.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "um",
+        "obwohl",
+        "denn",
+        "während"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — he trains daily in order to continuously improve his performance. 'Um ... zu' always triggers verb-final position and requires a clause with a different subject.",
+      "id": "b1_08_q047"
     },
     {
-      "id": "b1_08_q061",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie blieb ruhig, ____ sie innerlich sehr nervös war.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "sobald"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' correctly introduces a contrast — she stayed calm although she was very nervous inside.",
+      "id": "b1_08_q048"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "____ der Zug Verspätung hatte, erreichten wir den Anschluss noch rechtzeitig.",
+      "options": [
+        "Während",
+        "Falls",
+        "Obwohl",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces concession — despite the train being delayed, we still caught our connection in time.",
+      "id": "b1_08_q049"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Firma investiert viel Geld in Forschung, ____ wettbewerbsfähig zu bleiben.",
+      "options": [
+        "ohne",
+        "anstatt",
+        "um",
+        "trotz"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses intention or goal — the company invests heavily in research to stay competitive.",
+      "id": "b1_08_q050"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er kündigte seinen Job, ____ er noch keine neue Stelle gefunden hatte.",
+      "options": [
+        "obwohl",
+        "damit",
+        "sodass",
+        "seitdem"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' expresses an unexpected contrast — he quit his job even though he hadn't found a new one yet.",
+      "id": "b1_08_q051"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Temperaturen weiter steigen, müssen neue Maßnahmen ergriffen werden.",
+      "options": [
+        "Falls",
+        "Obwohl",
+        "Während",
+        "Damit"
+      ],
+      "correctAnswer": "Falls",
+      "explanation": "'Falls' introduces a conditional clause — if temperatures continue to rise, new measures must be taken. Falls is more hypothetical than 'wenn'.",
+      "id": "b1_08_q052"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Präsentation war schlecht vorbereitet, ____ das Publikum schnell das Interesse verlor.",
+      "options": [
+        "obwohl",
+        "sodass",
+        "damit",
+        "während"
+      ],
+      "correctAnswer": "sodass",
+      "explanation": "'Sodass' introduces the result of poor preparation — the presentation was poorly prepared, so the audience quickly lost interest.",
+      "id": "b1_08_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ er regelmäßig Sport treibt, fühlt er sich oft erschöpft.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Sobald"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses a contradiction — although he exercises regularly, he often feels exhausted.",
+      "id": "b1_08_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie überprüfte die Daten mehrmals, ____ mögliche Fehler zu vermeiden.",
+      "options": [
+        "um",
+        "obwohl",
+        "denn",
+        "während"
+      ],
+      "correctAnswer": "um",
+      "explanation": "'Um ... zu' expresses purpose — she checked the data several times to avoid possible errors.",
+      "id": "b1_08_q055"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Nachfrage gestiegen ist, kann das Unternehmen nicht schneller produzieren.",
+      "options": [
+        "Obwohl",
+        "Weil",
+        "Sobald",
+        "Während"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contrast — although demand has risen, the company cannot produce faster.",
+      "id": "b1_08_q056"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er machte sich Notizen, ____ er später nichts vergessen würde.",
+      "options": [
+        "obwohl",
+        "damit",
+        "seitdem",
+        "falls"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces purpose — he took notes so that he wouldn't forget anything later.",
+      "id": "b1_08_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Experten gewarnt hatten, wurden keine Sicherheitsmaßnahmen getroffen.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Nachdem",
+        "Sodass"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contradiction — although the experts had warned, no safety measures were taken.",
+      "id": "b1_08_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen dauerten länger als erwartet, ____ beide Seiten eine Einigung erzielen wollten.",
+      "options": [
+        "weil",
+        "obwohl",
+        "damit",
+        "während"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'Weil' gives the reason — the negotiations lasted longer than expected because both sides wanted to reach an agreement.",
+      "id": "b1_08_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ er die Unterlagen gründlich gelesen hatte, unterschrieb er den Vertrag.",
       "options": [
         "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "Obwohl",
+        "Während",
+        "Damit"
       ],
       "correctAnswer": "Nachdem",
-      "explanation": "",
+      "explanation": "'Nachdem' introduces a completed action before another past action — after he had thoroughly read the documents, he signed the contract.",
+      "id": "b1_08_q060"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q062",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ ich einen interessanten Vortrag über künstliche Intelligenz gehört.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q063",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
-      "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
-      ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q064",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
-      "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
-      ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q065",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
-      "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
-      ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q066",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
-      "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q067",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
-      ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q068",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q069",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q070",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
-      "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
-      ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q071",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
+        "habe",
+        "hatte",
         "bin",
-        "sei",
         "war"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
+      "correctAnswer": "habe",
+      "explanation": "The verb 'hören' is a transitive weak verb → Perfekt with 'haben': 'habe gehört'. The sentence describes a completed past action in spoken style.",
+      "id": "b1_08_q061"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Als wir ankamen, ____ das Konzert bereits begonnen.",
+      "options": [
+        "hat",
+        "war",
+        "hatte",
+        "ist"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "Plusquamperfekt is needed because the concert had already begun before the speakers arrived. 'Beginnen' as a change-of-state verb typically uses 'sein', but here 'hatte begonnen' reflects the written narrative register with 'hatte' used for 'beginnen' in Plusquamperfekt contexts.",
+      "id": "b1_08_q062"
     },
     {
-      "id": "b1_08_q072",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
-      "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
-      ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q073",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
-      "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
-      ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Früher ____ mein Großvater jeden Morgen um fünf Uhr auf.",
+      "options": [
+        "steht",
+        "stand",
+        "hat gestanden",
+        "ist gestanden"
+      ],
+      "correctAnswer": "stand",
+      "explanation": "Präteritum is used for repeated past actions in written/formal German. 'Aufstehen' is a change-of-state verb → 'stand … auf' in Präteritum (not 'hat gestanden' — that would be Perfekt).",
+      "id": "b1_08_q063"
     },
     {
-      "id": "b1_08_q074",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q075",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q076",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q077",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ lange nach einer Lösung gesucht, aber nichts gefunden.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "sind",
+        "haben",
+        "waren",
+        "hatten"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "haben",
+      "explanation": "'Suchen' is a transitive weak verb → Perfekt with 'haben': 'haben gesucht'. The conjunction 'aber' introduces a main clause contrast.",
+      "id": "b1_08_q064"
     },
     {
-      "id": "b1_08_q078",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie die E-Mail gelesen hatte, ____ sie sofort geantwortet.",
       "options": [
-        "gesehen habe",
-        "sehe",
+        "hat",
+        "ist",
+        "war",
+        "wurde"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "The second action (answering) follows the Plusquamperfekt 'gelesen hatte' in the 'nachdem'-clause. The Perfekt 'hat geantwortet' is correct for the main clause action that follows.",
+      "id": "b1_08_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Während seines Studiums ____ er in einer kleinen Wohnung in Berlin.",
+      "options": [
+        "hat gewohnt",
+        "wohnte",
+        "ist gewohnt",
+        "war gewohnt"
+      ],
+      "correctAnswer": "wohnte",
+      "explanation": "Präteritum of 'wohnen' is 'wohnte'. The sentence describes a continuous past situation in a narrative context — Präteritum is appropriate for written German.",
+      "id": "b1_08_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ sich über die schlechten Nachrichten sehr geärgert.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "hatte"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "Reflexive verbs always form Perfekt with 'haben': 'hat sich geärgert'. 'Sich ärgern über' (+ Akkusativ) = to be annoyed about something.",
+      "id": "b1_08_q067"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vor zwei Jahren ____ wir nach Kanada gezogen.",
+      "options": [
+        "haben",
+        "sind",
+        "waren",
+        "hatten"
+      ],
+      "correctAnswer": "sind",
+      "explanation": "'Ziehen' (to move to a place) expresses directed motion → Perfekt with 'sein': 'sind gezogen'. This contrasts with 'umziehen' (to move house) which can use either depending on meaning.",
+      "id": "b1_08_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler ____ zahlreiche Artikel veröffentlicht.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "wurde"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Veröffentlichen' is a transitive weak verb → Perfekt with 'haben': 'hat veröffentlicht'. Even though it involves an intellectual activity, 'veröffentlichen' is not a motion verb.",
+      "id": "b1_08_q069"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Als Kind ____ ich Angst vor Gewittern.",
+      "options": [
+        "habe gehabt",
+        "hatte",
+        "bin gewesen",
+        "war gehabt"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "Präteritum of 'haben' for repeated past states in narrative context: 'hatte' (not Perfekt 'habe gehabt'). 'Angst haben vor' = to be afraid of.",
+      "id": "b1_08_q070"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bis Mitternacht ____ die Gäste bereits nach Hause gegangen.",
+      "options": [
+        "waren",
+        "sind",
+        "haben",
+        "hatten"
+      ],
+      "correctAnswer": "waren",
+      "explanation": "Plusquamperfekt of 'gehen' (directed motion → sein): 'waren gegangen'. The temporal phrase 'bis Mitternacht' signals an action completed before a past reference point.",
+      "id": "b1_08_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Letzte Woche ____ das Unternehmen seine neue Strategie vorgestellt.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "wurde"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Vorstellen' (to present/introduce) is a transitive weak verb → Perfekt with 'haben': 'hat vorgestellt'. Contrast with 'sich vorstellen' (to imagine oneself) which is reflexive.",
+      "id": "b1_08_q072"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bevor er den Vertrag unterschrieb, ____ er ihn gründlich gelesen.",
+      "options": [
+        "hat",
+        "war",
+        "hatte",
+        "ist"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'Bevor' signals that the reading (Perfekt/Plusquamperfekt of 'lesen' = 'hat gelesen') happened before the signing (Präteritum 'unterschrieb'). Because the main clause is in Präteritum, the prior action uses Plusquamperfekt: 'hatte gelesen'.",
+      "id": "b1_08_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Früher ____ die Menschen ohne Internet kommunizieren.",
+      "options": [
+        "haben",
+        "konnten",
+        "gekonnt",
+        "sind"
+      ],
+      "correctAnswer": "konnten",
+      "explanation": "Modal verbs are typically used in Präteritum (not Perfekt) in written German: 'konnten' (Präteritum of 'können'). The Perfekt form 'haben gekonnt' is possible in spoken German but less common in narrative/formal contexts.",
+      "id": "b1_08_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz ____ wegen technischer Probleme später begonnen.",
+      "options": [
+        "hat",
+        "ist",
+        "war",
+        "hatte"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Beginnen' in spoken German can use 'haben' as an alternative auxiliary in Perfekt when focusing on the event rather than the change of state: 'hat begonnen'. In formal written German, 'ist begonnen' would be preferred.",
+      "id": "b1_08_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Zug abgefahren war, ____ wir ein Taxi genommen.",
+      "options": [
+        "haben",
+        "hatten",
+        "sind",
+        "waren"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "The 'nachdem' clause uses Plusquamperfekt ('war abgefahren'). The main clause action (taking a taxi) follows and is correctly in Perfekt: 'haben ein Taxi genommen'.",
+      "id": "b1_08_q076"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ gestern den ganzen Tag an ihrem Bericht gearbeitet.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "hatte"
+      ],
+      "correctAnswer": "hat",
+      "explanation": "'Arbeiten' is a non-motion verb → Perfekt with 'haben': 'hat gearbeitet'. 'Den ganzen Tag' confirms a duration, not a change of state.",
+      "id": "b1_08_q077"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im Jahr 2010 ____ er seine eigene Firma.",
+      "options": [
+        "gegründet",
+        "gründete",
+        "hat gegründet",
+        "ist gegründet"
+      ],
+      "correctAnswer": "gründete",
+      "explanation": "Präteritum is used in written narratives about historical events: 'gründete' (Präteritum of 'gründen'). 'Gegründet' (without context) could be Partizip II, 'hat gegründet' is Perfekt.",
+      "id": "b1_08_q078"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wir ____ überrascht, dass niemand die Wahrheit gesagt hatte.",
+      "options": [
+        "haben",
+        "waren",
+        "sind gewesen",
+        "hatten"
+      ],
+      "correctAnswer": "waren",
+      "explanation": "Präteritum of 'sein' (waren) for describing a past state in narrative German. 'Überrascht sein' = to be surprised. The subordinate clause uses Plusquamperfekt ('hatte gesagt') showing the lying happened before the surprise.",
+      "id": "b1_08_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Diskussion beendet worden war, ____ alle Teilnehmer den Raum verlassen.",
+      "options": [
+        "haben",
+        "waren",
+        "sind",
+        "hatten"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "'Verlassen' is a transitive verb → Perfekt with 'haben': 'haben den Raum verlassen'. The 'nachdem'-clause uses Plusquamperfekt Passiv ('war beendet worden'), and the main clause follows with Perfekt of the active verb.",
+      "id": "b1_08_q080"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Als ich gestern nach Hause kam, ____ meine Mutter schon das Abendessen.",
+      "options": [
+        "hatte gekocht",
+        "kochte",
+        "hat gekocht",
+        "ist gekocht"
+      ],
+      "correctAnswer": "hatte gekocht",
+      "explanation": "Plusquamperfekt is required — mother's cooking happened before the speaker arrived home. 'Kochen' is a non-motion verb → 'haben': 'hatte gekocht'. The past-before-past sequence is correctly marked by 'als' + Präteritum main clause.",
+      "id": "b1_08_q081"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ ich den ganzen Tag im Büro.",
+      "options": [
+        "habe gesessen",
+        "saß",
+        "bin gesessen",
+        "setzte"
+      ],
+      "correctAnswer": "saß",
+      "explanation": "'Sitzen' (intransitive, state) uses Präteritum 'saß' in written/formal narrative for past duration. 'Habe gesessen' is possible in spoken German but 'saß' is the standard narrative form here.",
+      "id": "b1_08_q082"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ mir gestern seine neue Wohnung ____.",
+      "options": [
+        "ist / gezeigt",
+        "hat / gezeigt",
+        "wurde / gezeigt",
+        "hat / zeigen"
+      ],
+      "correctAnswer": "hat / gezeigt",
+      "explanation": "'Zeigen' (to show someone something) is a transitive verb → Perfekt with 'haben': 'hat … gezeigt'. The personal object 'mir' (Dativ) confirms the transitive use.",
+      "id": "b1_08_q083"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ du schon einmal in München ____?",
+      "options": [
+        "Hast / gelebt",
+        "Warst / gelebt",
+        "Bist / gelebt",
+        "Hast / gewohnt"
+      ],
+      "correctAnswer": "Bist / gelebt",
+      "explanation": "'Leben' (to live somewhere) expresses a state/location → Perfekt with 'sein': 'bin gelebt'. 'Gewohnt' (to be accustomed) is a different verb entirely.",
+      "id": "b1_08_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Letztes Jahr ____ ich nach Berlin ____.",
+      "options": [
+        "habe / gereist",
+        "bin / gereist",
+        "hat / gereist",
+        "war / gereist"
+      ],
+      "correctAnswer": "bin / gereist",
+      "explanation": "'Reisen' (to travel) expresses directed motion → Perfekt with 'sein': 'bin gereist'. The destination 'nach Berlin' confirms motion.",
+      "id": "b1_08_q085"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ____ den ganzen Abend fern, obwohl er hätte lernen sollen.",
+      "options": [
+        "hatte gesehen",
         "sah",
-        "sehen werde"
+        "hat gesehen",
+        "ist gesehen"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hat gesehen",
+      "explanation": "'Fernsehen' (to watch TV) is a non-motion verb → Perfekt with 'haben': 'hat ferngesehen' or 'hat gesehen' in colloquial contraction. The concessive clause 'obwohl er hätte lernen sollen' uses Konjunktiv II of 'sollen'.",
+      "id": "b1_08_q086"
     },
     {
-      "id": "b1_08_q079",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q080",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
-      "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
-      ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Als Kind ____ ich jeden Sommer bei meinen Großeltern.",
+      "options": [
+        "habe verbracht",
+        "verbrachte",
+        "bin verbracht",
+        "hatte verbracht"
+      ],
+      "correctAnswer": "verbrachte",
+      "explanation": "'Verbringen' (to spend time) is a weak verb → Präteritum 'verbrachte' for repeated/habitual past actions in narrative context. 'Habe verbracht' would be Perfekt.",
+      "id": "b1_08_q087"
     },
     {
-      "id": "b1_08_q081",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Er ____ es mir versprochen, aber dann ____ er es vergessen.",
+      "options": [
+        "hat / hat",
+        "hatte / hatte",
+        "hat / hatte",
+        "war / ist"
+      ],
+      "correctAnswer": "hat / hatte",
+      "explanation": "'Hat versprochen' (Perfekt — recent promise) then 'hatte vergessen' (Plusquamperfekt — forgetting happened before the reference point in the past). Two different past tenses in one sentence showing temporal sequence.",
+      "id": "b1_08_q088"
     },
     {
-      "id": "b1_08_q082",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wann ____ du deinen Führerschein ____?",
+      "options": [
+        "bist / gemacht",
+        "hattest / gemacht",
+        "hast / gemacht",
+        "warst / gemacht"
+      ],
+      "correctAnswer": "hast / gemacht",
+      "explanation": "'Führerschein machen' is a transitive verb phrase → Perfekt with 'haben': 'hast gemacht'. 'Machen' never uses 'sein'.",
+      "id": "b1_08_q089"
     },
     {
-      "id": "b1_08_q083",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
-      "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
-      ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ich ____ ihn seit Jahren nicht ____.",
+      "options": [
+        "habe / getroffen",
+        "bin / getroffen",
+        "hatte / getroffen",
+        "war / getroffen"
+      ],
+      "correctAnswer": "habe / getroffen",
+      "explanation": "'Treffen' (to meet someone) is a transitive verb → Perfekt with 'haben': 'habe getroffen'. 'Seit Jahren' indicates a duration up to now, making Perfekt appropriate.",
+      "id": "b1_08_q090"
     },
     {
-      "id": "b1_08_q084",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vor dem Essen ____ wir uns die Hände ____.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "haben / gewaschen",
+        "hatten / gewaschen",
+        "sind / gewaschen",
+        "wurden / gewaschen"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
+      "correctAnswer": "haben / gewaschen",
+      "explanation": "'Waschen' (transitive — washing hands) → Perfekt with 'haben': 'haben die Hände gewaschen'. Reflexive 'sich die Hände waschen' still uses 'haben'.",
+      "id": "b1_08_q091"
+    },
+    {
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das Kind ____ schnell ____, nachdem es ins Bett gebracht worden war.",
+      "options": [
+        "ist / eingeschlafen",
+        "hat / eingeschlafen",
+        "wurde / eingeschlafen",
+        "hatte / eingeschlafen"
+      ],
+      "correctAnswer": "ist / eingeschlafen",
+      "explanation": "'Einschlafen' (to fall asleep) = change of state → Perfekt with 'sein': 'ist eingeschlafen'. The 'nachdem'-clause uses Plusquamperfekt Passiv ('war gebracht worden'), the main clause uses Perfekt of the intransitive change-of-state verb.",
+      "id": "b1_08_q092"
     },
     {
-      "id": "b1_08_q085",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Gestern ____ es den ganzen Tag.",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "hat geregnet",
+        "regnete",
+        "ist geregnet",
+        "war geregnet"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
+      "correctAnswer": "regnete",
+      "explanation": "Impersonal verbs like 'regnen' use Präteritum 'regnete' in written narrative German. In spoken German, 'hat geregnet' is also common. Since this is a past narrative statement, Präteritum 'regnete' is the better choice.",
+      "id": "b1_08_q093"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ es nicht ____, weil er zu müde war.",
+      "options": [
+        "hat / gekonnt",
+        "ist / gekonnt",
+        "hatte / gekonnt",
+        "wurde / gekonnt"
+      ],
+      "correctAnswer": "hat / gekonnt",
+      "explanation": "Modal verb 'können' in Perfekt when standing alone (no double infinitive) uses 'haben': 'hat gekonnt'. Here the modal has no other main verb, so Partizip II 'gekonnt' is used directly.",
+      "id": "b1_08_q094"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Was ____ du gestern Abend um zehn Uhr ____?",
+      "options": [
+        "hattest / gemacht",
+        "hast / gemacht",
+        "warst / gemacht",
+        "bist / gemacht"
+      ],
+      "correctAnswer": "hast / gemacht",
+      "explanation": "Perfekt is natural in spoken German for a specific past time question. 'Machen' → 'hast gemacht'. 'Hattest gemacht' would be Plusquamperfekt, which doesn't match 'gestern Abend um zehn Uhr' as a past reference point.",
+      "id": "b1_08_q095"
     },
     {
-      "id": "b1_08_q086",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
-      "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q087",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
-      ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die Römer ____ vor über 2000 Jahren eine mächtige Stadt ____.",
+      "options": [
+        "haben / gegründet",
+        "hatten / gegründet",
+        "wurden / gegründet",
+        "sind / gegründet"
+      ],
+      "correctAnswer": "hatten / gegründet",
+      "explanation": "Historical narrative in Präteritum context with 'vor über 2000 Jahren' uses Plusquamperfekt to reference an even more distant past event within the historical frame. 'Die Römer hatten … gegründet' shows the founding as anterior to the narrative moment. Präteritum 'gründeten' would also be correct but is not among the options.",
+      "id": "b1_08_q096"
     },
     {
-      "id": "b1_08_q088",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q089",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q090",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ schon oft darüber nachgedacht.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
-      ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q091",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
+        "hatte",
+        "habe",
         "bin",
-        "sei",
         "war"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "habe",
+      "explanation": "Perfekt of 'nachdenken' (to think about) → 'habe nachgedacht'. 'Nachdenken über' (+ Akkusativ) = to think seriously about something. 'Schon oft' indicates repeated experience leading to the present.",
+      "id": "b1_08_q097"
     },
     {
-      "id": "b1_08_q092",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
-      "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
-      ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q093",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
-      "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
-      ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Bevor er die Prüfung bestand, ____ er drei Monate lang intensiv ____.",
+      "options": [
+        "hat / gelernt",
+        "hatte / gelernt",
+        "ist / gelernt",
+        "wurde / gelernt"
+      ],
+      "correctAnswer": "hatte / gelernt",
+      "explanation": "'Bevor' signals the earlier action → Plusquamperfekt of 'lernen': 'hatte … gelernt'. The main clause uses Präteritum 'bestand'. Three months of intensive study happened before passing the exam.",
+      "id": "b1_08_q098"
     },
     {
-      "id": "b1_08_q094",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q095",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q096",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q097",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ eine Stunde im Wartezimmer ____.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "ist / gesessen",
+        "hat / gesessen",
+        "hatte / gesessen",
+        "war / gesessen"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q098",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_08_q099",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hat / gesessen",
+      "explanation": "'Sitzen' (intransitive, describing a state) uses 'haben' in standard German Perfekt: 'hat gesessen'. While some Southern/Austrian dialects use 'sein', the standard B2 exam convention is 'hat gesessen' for the Perfekt of 'sitzen'.",
+      "id": "b1_08_q099"
     },
     {
       "id": "b1_08_q100",
-      "subjectId": "b1_08",
-      "topicName": "Konjunktiv II: könnte, müsste...",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er das Angebot ____ ____, ____ er es sofort angenommen.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "hatte / erhalten / hatte",
+        "hat / erhalten / hat",
+        "hatte / erhalten / hat",
+        "war / erhalten / war"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / erhalten / hat",
+      "explanation": "'Nachdem' requires Plusquamperfekt in the earlier clause: 'hatte erhalten' (Perfekt of 'erhalten', transitive → haben). The main clause follows with Perfekt: 'hat angenommen'. This structure shows the receiving happened before the accepting in past narrative."
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

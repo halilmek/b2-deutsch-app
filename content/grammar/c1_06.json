@@ -1,1553 +1,1422 @@
 {
+  "version": "1.0",
   "subjectId": "c1_06",
-  "topicName": " Verbalisierung von Nomen",
+  "topicName": "Modalverben im C1-Kontext",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Modalverben im subjektiven Gebrauch und Konjunktiv II — At C1 level, modal verbs (müssen, können, dürfen, sollen, wollen, mögen) expand far beyond basic objective meanings to express subjective attitudes: rumors, claims, and degrees of certainty. The core distinction is epistemic (degrees of certainty/ca. 90% müssen, ca. 70% dürfte, ca. 50% können/mag/könnte) vs. deontic (obligation, permission). Subjective modals use present tense form + Infinitiv Perfekt (Partizip II + haben/sein) to express present assumption about past events. Journalistic German uses 'sollen' for hearsay/rumors (fremde Behauptung) and 'wollen' for self-claims met with skepticism. Unfulfilled past obligations use Konjunktiv II of auxiliary + double infinitive at clause end ('du hättest kommen müssen'). Critical C1 skill: subordinate clause word order — the conjugated auxiliary (hat/wird) moves BEFORE the double infinitive block, not after.",
+  "tips": [
+    "Epistemic probability scale: müssen (~90%, strong evidence, 'Er muss im Büro sein'), dürfte (~70%, cautious estimate, 'Das dürfte schwierig werden'), können/könnte (~50%, open possibility), mag (~30%, vague concession).",
+    "Subjective modals + Infinitiv Perfekt = present assumption about past events: müssen + Partizip II + haben/sein ('Er muss vergessen haben' = I conclude he forgot), dürfte + Partizip II + haben/sein ('Sie dürfte das gewusst haben' = I estimate she knew).",
+    "Fremde Behauptung (rumors/hearsay) = sollen + Infinitiv: 'Der Minister soll zurückgetreten sein' (据报道/据称). Eigene Behauptung mit Zweifel = wollen + Infinitiv Perfekt: 'Er will davon nichts gewusst haben' (he claims but we doubt).",
+    "Unfulfilled past obligations: missed duty = Konjunktiv II of haben + double infinitive: 'Du hättest dich früher anmelden müssen!' (but you didn't). Unrealized capability = 'Wir hätten gewinnen können' (but we didn't).",
+    "Subordinate clause word order with modal + infinitive: conjugated auxiliary GOES BEFORE the double infinitive block. Correct: '...dass er das gesagt haben muss' (NOT '...dass er das muss gesagt haben'). The auxiliary (hat/wird/hätte) moves forward.",
+    "Indirekte Rede with modals: Konjunktiv I of modal verb ('müsse', 'könnte', 'sollte', 'wolle', 'möge') is used in reported speech to mark distance from the statement. Example: 'Er sagte, er müsse gehen'.",
+    "Konjunktiv II of modals for politeness/advice: könnte (polite request), sollte(n) (advisory recommendation), müsste(n) (stronger conditional advice), dürfte(n) (gentle estimate). Example: 'Könnten Sie mir bitte helfen?' (very polite).",
+    "Brauchen vs. true modals: 'brauchen zu + Infinitiv' (semi-modal, only in negatives for lack of obligation). 'Du brauchst nicht zu kommen' (no need). NOT 'du brauchst nicht kommen'. Compare with true modals that omit 'zu'.",
+    "Negated dürfen = prohibition: 'Dokumente dürfen nicht vernichtet werden' (strictly forbidden). Contrast with 'müssen nicht' (= not necessary). Common C1 trap: confusing prohibition with non-necessity.",
+    "Strategic modal choice at C1: selecting the right modal verb is not just grammar — it signals pragmatics: hedging ('dürfte'), asserting ('muss'), reporting ('soll'), distancing ('will'), or politeness ('könnte'). Match register and intention."
+  ],
   "questions": [
     {
-      "id": "c1_06_q001",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb drueckt eine fast sichere Vermutung (ca. 90%) aus? 'Das Licht brennt noch. Er ____ noch im Buero arbeiten.'",
+      "options": [
+        "muss",
+        "duerfte",
+        "kann",
+        "soll"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "Subjective use of 'müssen' indicates an absolute high-probability conviction or near certainty based on visible evidence.",
+      "id": "c1_06_q001"
     },
     {
-      "id": "c1_06_q002",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das passende Modalverb fuer ein unbestaetigtes Geruecht: 'Laut Zeitungsberichten ____ der Vorstand heimlich Gelder veruntreut haben.'",
       "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
+        "soll",
+        "muss",
+        "will",
+        "darf"
       ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
+      "correctAnswer": "soll",
+      "explanation": "The subjective modal verb 'sollen' is used when reporting public rumors, hearsay, or third-party claims without claiming personal verification.",
+      "id": "c1_06_q002"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche subjektive Bedeutung vermittelt das Modalverb 'wollen' hier? 'Der Angeklagte will zur Tatzeit geschlafen haben.'",
+      "options": [
+        "Der Angeklagte behauptet das ueber sich selbst, aber man zweifelt daran.",
+        "Der Angeklagte hatte die feste Absicht, zu schlafen.",
+        "Ein Zeuge sagt, dass der Angeklagte geschlafen hat.",
+        "Es ist absolut sicher, dass der Angeklagte geschlafen hat."
+      ],
+      "correctAnswer": "Der Angeklagte behauptet das ueber sich selbst, aber man zweifelt daran.",
+      "explanation": "The subjective use of 'wollen' expresses a self-assertion or claim made by the subject which is often met with skepticism by the narrator.",
+      "id": "c1_06_q003"
     },
     {
-      "id": "c1_06_q003",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q004",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Luecke fuer eine vorsichtige, hoefliche Vermutung (ca. 50-70%): 'Die Reparatur des Laptops ____ schaetzungsweise 200 Euro kosten.'",
+      "options": [
+        "duerfte",
+        "will",
+        "muss",
+        "sollte"
+      ],
+      "correctAnswer": "duerfte",
+      "explanation": "'Duerfen' in Konjunktiv II ('duerfte') represents a calculated, cautious estimation or a highly probable assumption.",
+      "id": "c1_06_q004"
     },
     {
-      "id": "c1_06_q005",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wie drueckt man aus, dass eine vergangene Aktion eine verpasste Pflicht war? 'du ____ dich frueher um das Visum kuemmern muessen!'",
+      "options": [
+        "haettest",
+        "hast",
+        "waerst",
+        "musst"
+      ],
+      "correctAnswer": "haettest",
+      "explanation": "To express an unfulfilled past obligation or missed opportunity, use Konjunktiv II of 'haben' ('haettest') combined with the double infinitive structure.",
+      "id": "c1_06_q005"
     },
     {
-      "id": "c1_06_q006",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q007",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb passt, um eine bloe Moeglichkeit oder Ungewissheit auszudruecken? 'Es ____ sein, dass der Streik morgen abgesagt wird, aber niemand weiss es genau.'",
+      "options": [
+        "kann",
+        "muss",
+        "soll",
+        "will"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "The subjective use of 'koennen' signals a simple possibility or hypothesis (around 50% probability).",
+      "id": "c1_06_q006"
     },
     {
-      "id": "c1_06_q008",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Analysieren Sie die Vergangenheit: 'Er konnte die Pruefung nicht mitschreiben.' Was bedeutet dieser objektive Satz?",
+      "options": [
+        "Es war ihm aus aeusseren Gruenden unmoeglich, die Pruefung mitzuschreiben.",
+        "Es ist moeglich, dass er die Pruefung nicht mitgeschrieben hat.",
+        "Er wollte die Pruefung eigentlich gar nicht mitschreiben.",
+        "Er haette die Pruefung mitschreiben muessen, hat es aber vergessen."
+      ],
+      "correctAnswer": "Es war ihm aus aeusseren Gruenden unmoeglich, die Pruefung mitzuschreiben.",
+      "explanation": "Objective use of 'koennen' in Prateritum indicates factual ability or possibility in the past. Here, it denotes an objective impossibility.",
+      "id": "c1_06_q007"
     },
     {
-      "id": "c1_06_q009",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet der Satz mit subjektivem Modalverb? 'Sie mag damals 20 Jahre alt gewesen sein.'",
+      "options": [
+        "Der Sprecher vermutet vage, dass sie damals etwa 20 Jahre alt war.",
+        "Sie hatte eine Vorliebe dafuer, 20 Jahre alt zu sein.",
+        "Sie durfte das Labor erst betreten, als sie 20 Jahre alt war.",
+        "Es ist voellig unmoeglich, dass sie damals 20 Jahre alt war."
+      ],
+      "correctAnswer": "Der Sprecher vermutet vage, dass sie damals etwa 20 Jahre alt war.",
+      "explanation": "The subjective use of 'moegen' + Infinitiv Perfekt expresses a concessive or vague present assumption about a past event.",
+      "id": "c1_06_q008"
     },
     {
-      "id": "c1_06_q010",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q011",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Luecke: 'Der neue Mitarbeiter spricht hervorragend Japanisch. Er ____ jahrelang in Tokio gelebt haben.'",
+      "options": [
+        "muss",
+        "soll",
+        "darf",
+        "mag"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "Because of the strong evidence ('spricht hervorragend Japanisch'), the speaker draws a logical conclusion about the past with near-absolute certainty, which requires subjective 'muessen' + Infinitiv Perfekt.",
+      "id": "c1_06_q009"
     },
     {
-      "id": "c1_06_q012",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q013",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
-      "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
-      ],
-      "correctAnswer": "In",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die korrekte Struktur fuer das Passiv mit Modalverb: 'Dieses Problem ____ geloest werden.'",
+      "options": [
+        "muss umgehend",
+        "umgehend muss",
+        "wird umgehend",
+        "hat umgehend"
+      ],
+      "correctAnswer": "muss umgehend",
+      "explanation": "Standard syntax for passive voice with modal verbs places the inflected modal verb in position 2, followed by modifiers, and ends with Partizip II + 'werden'.",
+      "id": "c1_06_q010"
     },
     {
-      "id": "c1_06_q014",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz drueckt eine scharfe Distanzierung des Sprechers von einer Behauptung aus?",
       "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
+        "Der Politiker will von den Schmiergeldern nichts gewusst haben.",
+        "Der Politiker muss von den Schmiergeldern nichts gewusst haben.",
+        "Der Politiker duerfte von den Schmiergeldern nichts gewusst haben.",
+        "Der Politiker konnte von den Schmiergeldern nichts wissen."
       ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
+      "correctAnswer": "Der Politiker will von den Schmiergeldern nichts gewusst haben.",
+      "explanation": "Subjective 'wollen' explicitly communicates that the subject is making a self-serving claim, heavily implying that the speaker does not believe them.",
+      "id": "c1_06_q011"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Modalverb im Konjunktiv II fuer eine Empfehlung: 'Es ist schon sehr spät. Sie ____ langsam den Heimweg antreten.'",
+      "options": [
+        "sollten",
+        "muessten",
+        "duerften",
+        "wollten"
+      ],
+      "correctAnswer": "sollten",
+      "explanation": "'Sollten' (Konjunktiv II of sollen) is the standard, polite way to formulate an advisory recommendation or soft duty.",
+      "id": "c1_06_q012"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Verwandeln Sie den Satz in die subjektive Vergangenheit: 'Ich vermute, dass sie den Zug verpasst hat.' -> 'Sie ____ den Zug verpasst ____.'",
+      "options": [
+        "kann ... haben",
+        "konnte ... haben",
+        "kann ... sein",
+        "muss ... verpassen"
+      ],
+      "correctAnswer": "kann ... haben",
+      "explanation": "A present assumption about a past action uses the present form of the subjective modal verb ('kann') + the Infinitiv Perfekt of the main verb ('verpasst haben').",
+      "id": "c1_06_q013"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet 'nicht duerfen' in folgendem rechtlichen Kontext? 'Dokumente duerfen nicht ohne Unterschrift vernichtet werden.'",
+      "options": [
+        "Es ist strengstens verboten, diese Dokumente ohne Unterschrift zu vernichten.",
+        "Es ist nicht notwendig, die Dokumente zu unterschreiben.",
+        "Man kann die Dokumente vernichten, wenn man moechte.",
+        "Es wird vermutet, dass die Dokumente keine Unterschrift haben."
+      ],
+      "correctAnswer": "Es ist strengstens verboten, diese Dokumente ohne Unterschrift zu vernichten.",
+      "explanation": "Negated 'duerfen' ('nicht duerfen') means strict prohibition or ban, especially in regulatory or legal frameworks.",
+      "id": "c1_06_q014"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb ersetzt den Ausdruck 'Ich bin nicht in der Lage': Ich ____ die Deadline unmöglich einhalten.",
+      "options": [
+        "kann",
+        "darf",
+        "muss",
+        "soll"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "Objective 'koennen' expresses ability/capability. Combined with 'unmoeglich', it denotes an absolute inability to execute an action.",
+      "id": "c1_06_q015"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Luecke in diesem Nebensatz: 'Da der Zeuge den Taeter nicht genau gesehen ____ haben will, wurde das Verfahren eingestellt.'",
+      "options": [
+        "haben",
+        "hat",
+        "haette",
+        "wollte"
+      ],
+      "correctAnswer": "haben",
+      "explanation": "In a subordinate clause with subjective 'wollen' + past infinitive, the conjugated auxiliary ('haben') goes before the double infinitive: '...dass er das gesagt haben muss'.",
+      "id": "c1_06_q016"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche Nuance transportiert das Modalverb 'sollen' in einer Frage wie: 'Soll ich Ihnen bei den Koffern helfen?'",
+      "options": [
+        "Ein Angebot oder ein Vorschlag.",
+        "Ein strenger Befehl an sich selbst.",
+        "Eine Weiterleitung eines Geruechts.",
+        "Ein unbedingtes Verbot."
+      ],
+      "correctAnswer": "Ein Angebot oder ein Vorschlag.",
+      "explanation": "Using 'sollen' in the first person singular interrogative form ('Soll ich...?') translates directly to offering assistance or proposing an action.",
+      "id": "c1_06_q017"
     },
     {
-      "id": "c1_06_q015",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Finden Sie die fehlerhafte subjektive Satzstruktur:",
+      "options": [
+        "Er mag das wohl vergessen haben.",
+        "Sie muss gestern krank gewesen sein.",
+        "Er will das Geld gestern gestohlen haben gemusst.",
+        "Sie duerften die Nachricht bereits erhalten haben."
+      ],
+      "correctAnswer": "Er will das Geld gestern gestohlen haben gemusst.",
+      "explanation": "You cannot chain subjective assertions using past participles of modal verbs ('gemusst') in this manner. The construction is completely ungrammatical.",
+      "id": "c1_06_q018"
     },
     {
-      "id": "c1_06_q016",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
-      "options": [
-        "Nachdem",
-        "Weil",
-        "Obwohl",
-        "Als"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das passende Verb: 'Wer promovieren moechte, ____ eine enorme wissenschaftliche Ausdauer mitbringen.' (Bedeutung: Es ist eine zwingende Voraussetzung)",
+      "options": [
+        "muss",
+        "sollte",
+        "darf",
+        "mag"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "An objective absolute requirement, inescapable precondition, or natural necessity is expressed via 'muessen'.",
+      "id": "c1_06_q019"
     },
     {
-      "id": "c1_06_q017",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
-      "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
-      ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb passt hier am besten? 'Nach der langen Reise ____ die Urlauber voellig erschoepft sein.' (Vermutung liegt sehr nahe)",
+      "options": [
+        "duerften",
+        "wollen",
+        "moegen",
+        "koennen"
+      ],
+      "correctAnswer": "duerften",
+      "explanation": "'Duerften' (Konjunktiv II) signals a highly logical probability based on standard human experience (long travel leads to exhaustion).",
+      "id": "c1_06_q020"
     },
     {
-      "id": "c1_06_q018",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q019",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
-      "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat 'müssen' im Satz: 'Das muss stimmen.'?",
+      "options": [
+        "Eine objektive Notwendigkeit",
+        "Eine subjektive Annahme oder Vermutung",
+        "Eine Erlaubnis",
+        "Eine Aufforderung"
+      ],
+      "correctAnswer": "Eine subjektive Annahme oder Vermutung",
+      "explanation": "At C1 level, 'müssen' can express epistemic modality — a logical conclusion or assumption based on evidence ('That must be true'), distinct from its deontic meaning of obligation.",
+      "id": "c1_06_q021"
     },
     {
-      "id": "c1_06_q020",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Entwicklung ist ___ zu ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb drückt im Konjunktiv II eine höfliche Bitte oder Vorschlag aus?",
       "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
+        "müsste",
+        "dürfte",
+        "könnte",
+        "sollte"
       ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
+      "correctAnswer": "könnte",
+      "explanation": "'Könnte' (Konjunktiv II of 'können') is commonly used for polite requests or suggestions ('Könntest du mir helfen?'), softening the utterance compared to the indicative 'kann'.",
+      "id": "c1_06_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie korrekt: 'Er ____ gestern kommen, aber er hatte keine Zeit.'",
+      "options": [
+        "wollte",
+        "wollte haben",
+        "hat wollen",
+        "wollte gekommen sein"
+      ],
+      "correctAnswer": "wollte",
+      "explanation": "In past tense contexts with modal verbs, the Prateritum form ('wollte') is standard when the main verb is omitted or implied. The double infinitive construction is only required in perfect tenses with a complementary infinitive.",
+      "id": "c1_06_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet 'duerfte' im Satz: 'Das duerfte schwierig werden.'?",
+      "options": [
+        "Es ist erlaubt, schwierig zu werden.",
+        "Es wird wahrscheinlich schwierig.",
+        "Es muss schwierig werden.",
+        "Es soll schwierig werden."
+      ],
+      "correctAnswer": "Es wird wahrscheinlich schwierig.",
+      "explanation": "'Dürfte' (Konjunktiv II of 'dürfen') expresses epistemic probability or likelihood at C1 level, not permission. It functions as a hedging device to soften assertions.",
+      "id": "c1_06_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet 'sollen' korrekt, um eine fremde Aufforderung wiederzugeben?",
+      "options": [
+        "du sollst sofort kommen!",
+        "Er soll reich sein.",
+        "Sie sollen das Formular ausfuellen, hat der Chef gesagt.",
+        "Ich soll morgen arbeiten."
+      ],
+      "correctAnswer": "Sie sollen das Formular ausfuellen, hat der Chef gesagt.",
+      "explanation": "'Sollen' is used to report commands or requests from a third party ('He said you should fill out the form'). This indirect imperative function is a key C1 usage distinct from personal obligation.",
+      "id": "c1_06_q025"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie in die Perfektform: 'Er kann das Problem loesen.'",
+      "options": [
+        "Er hat das Problem loesen koennen.",
+        "Er hat das Problem geloest koennen.",
+        "Er hat das Problem koennen loesen.",
+        "Er ist das Problem loesen gekonnt."
+      ],
+      "correctAnswer": "Er hat das Problem loesen koennen.",
+      "explanation": "In perfect tenses, modal verbs use the double infinitive construction: auxiliary 'haben' + main verb infinitive + modal infinitive ('loesen koennen'). The modal verb does not take a past participle form here.",
+      "id": "c1_06_q026"
     },
     {
-      "id": "c1_06_q021",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q022",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q023",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche Nuance unterscheidet 'müssen' von 'sollen' im Satz: 'du ____ das nicht tun.'?",
+      "options": [
+        "'Müssen' druckt eine externe Regel aus; 'sollen' eine moralische Empfehlung.",
+        "'Müssen' druckt eine zwingende Notwendigkeit aus; 'sollen' eine Erwartung oder Aufforderung von aussen.",
+        "'Sollen' ist staerker als 'müssen'.",
+        "Es gibt keinen Unterschied; beide sind austauschbar."
+      ],
+      "correctAnswer": "'Müssen' druckt eine zwingende Notwendigkeit aus; 'sollen' eine Erwartung oder Aufforderung von aussen.",
+      "explanation": "At C1, learners distinguish deontic nuances: 'müssen' expresses objective compulsion ('must'), while 'sollen' conveys external expectation or reported instruction ('ought to / is supposed to').",
+      "id": "c1_06_q027"
     },
     {
-      "id": "c1_06_q024",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q025",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q026",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Passivkonstruktion mit Modalverb: 'Man muss die Unterlagen einreichen.'?",
+      "options": [
+        "Die Unterlagen müssen eingereicht werden.",
+        "Die Unterlagen müssen eingereicht worden sein.",
+        "Die Unterlagen müssen einreichen werden.",
+        "Die Unterlagen werden eingereicht müssen."
+      ],
+      "correctAnswer": "Die Unterlagen müssen eingereicht werden.",
+      "explanation": "In passive constructions with modal verbs, the structure is: modal verb + past participle + 'werden'. The modal remains in its finite position, and 'werden' carries the passive meaning in infinitive form.",
+      "id": "c1_06_q028"
     },
     {
-      "id": "c1_06_q027",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q028",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q029",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz druckt eine unrealistische Vergangenheit mit Modalverb aus?",
+      "options": [
+        "Er hätte kommen sollen.",
+        "Er sollte kommen.",
+        "Er muss gekommen sein.",
+        "Er konnte kommen."
+      ],
+      "correctAnswer": "Er hätte kommen sollen.",
+      "explanation": "The construction 'hätte + infinitive + sollen' expresses a past obligation that was not fulfilled ('He should have come'). This counterfactual modal perfect is a sophisticated C1 structure for expressing regret or criticism.",
+      "id": "c1_06_q029"
     },
     {
-      "id": "c1_06_q030",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_06_q031",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q032",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet 'moegen' im Konjunktiv II ('moechte') im Vergleich zum Indikativ?",
+      "options": [
+        "'Möchte' druckt einen starken Wunsch aus; 'mag' eine Tatsache.",
+        "'Möchte' ist eine hoefliche Form des Wollens; 'mag' beschreibt eine Vorliebe oder Möglichkeit.",
+        "'Möchte' ist veraltet; 'mag' ist standardsprachlich.",
+        "Beide Formen sind synonym und austauschbar."
+      ],
+      "correctAnswer": "'Möchte' ist eine hoefliche Form des Wollens; 'mag' beschreibt eine Vorliebe oder Möglichkeit.",
+      "explanation": "'Möchte' (Konjunktiv II of 'mögen') functions as a polite substitute for 'wollen' ('I would like'), while 'mag' expresses preference ('I like') or epistemic possibility ('It may be'). This distinction is crucial for pragmatic competence at C1.",
+      "id": "c1_06_q030"
     },
     {
-      "id": "c1_06_q033",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q034",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q035",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie korrekt: 'Sie ____ das Buch gelesen haben, denn sie zitiert daraus.'",
+      "options": [
+        "muss",
+        "muesste",
+        "haette",
+        "soll"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "'Muss' + perfect infinitive ('gelesen haben') expresses a logical conclusion about a past event ('She must have read the book'). This epistemic use of 'müssen' with modal perfect is a hallmark of C1 proficiency.",
+      "id": "c1_06_q031"
     },
     {
-      "id": "c1_06_q036",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q037",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q038",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet 'koennen' korrekt, um eine theoretische Möglichkeit auszudruecken?",
+      "options": [
+        "Er kann sehr nett sein, wenn er will.",
+        "Er kann schwimmen.",
+        "Er kann heute nicht kommen.",
+        "Kannst du mir helfen?"
+      ],
+      "correctAnswer": "Er kann sehr nett sein, wenn er will.",
+      "explanation": "Here, 'kann' expresses epistemic possibility ('He can be nice' = 'It is possible for him to be nice'), distinct from ability ('Er kann schwimmen') or permission. Recognizing these semantic layers is essential at C1.",
+      "id": "c1_06_q032"
     },
     {
-      "id": "c1_06_q039",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q040",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q041",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die indirekte Rede mit Modalverb: 'Ich muss gehen.' -> 'Er sagte, er ____'.",
+      "options": [
+        "er muesse gehen",
+        "er muesse gegangen sein",
+        "er haette gehen muessen",
+        "er sollte gehen"
+      ],
+      "correctAnswer": "er muesse gehen",
+      "explanation": "In indirect speech, modal verbs take Konjunktiv I form ('müsse') to mark reported speech while preserving the original modal meaning. This maintains distance and neutrality, a key journalistic convention at C1.",
+      "id": "c1_06_q033"
     },
     {
-      "id": "c1_06_q042",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist korrekt für die Verneinung von 'brauchen' als Modalverb?",
+      "options": [
+        "du brauchst nicht zu kommen.",
+        "du brauchst nicht kommen.",
+        "du brauchst zu nicht kommen.",
+        "du brauchst kommen nicht."
+      ],
+      "correctAnswer": "du brauchst nicht zu kommen.",
+      "explanation": "When 'brauchen' functions as a modal-like verb (only in negative contexts), it requires 'zu + infinitive'. This semi-modal behavior is a frequent C1 exam point, distinguishing it from true modals that omit 'zu'.",
+      "id": "c1_06_q034"
     },
     {
-      "id": "c1_06_q043",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz demonstriert die korrekte Verwendung von 'wollen' im Konjunktiv II für eine hypothetische Aussage?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn ich mehr Zeit haette, wollte ich reisen.",
+        "Wenn ich mehr Zeit haette, wuerde ich reisen wollen.",
+        "Wenn ich mehr Zeit haette, wollte ich gereist sein.",
+        "Wenn ich mehr Zeit haette, will ich reisen."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Wenn ich mehr Zeit haette, wuerde ich reisen wollen.",
+      "explanation": "In hypothetical conditional clauses, 'wollen' typically appears in the 'wuerde + infinitive + wollen' construction rather than the archaic Konjunktiv II 'wollte'. This reflects modern C1 usage preferences for clarity and naturalness.",
+      "id": "c1_06_q035"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie unterscheidet sich die Bedeutung von 'sollen' in diesen Saetzen? (1) 'Du sollst nicht toeten.' (2) 'Er soll reich sein.'",
+      "options": [
+        "(1) moralisches Gebot; (2) Geruecht oder fremde Behauptung",
+        "(1) persoenliche Meinung; (2) faktische Aussage",
+        "(1) Erlaubnis; (2) Verbot",
+        "Beide Saetze haben dieselbe Bedeutung."
+      ],
+      "correctAnswer": "(1) moralisches Gebot; (2) Geruecht oder fremde Behauptung",
+      "explanation": "'Sollen' has multiple C1-level functions: (1) deontic obligation (moral/legal command), (2) epistemic hearsay ('is said to be'). Context determines interpretation, and mastering this polysemy is essential for advanced comprehension.",
+      "id": "c1_06_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Modalverbkonstruktion ist im folgenden Kontext am angemessensten? 'Angesichts der Beweislage ____ der Angeklagte schuldig ____.'",
+      "options": [
+        "muss ... sein",
+        "duerfte ... gewesen sein",
+        "kann ... gewesen sein",
+        "soll ... sein"
+      ],
+      "correctAnswer": "muss ... sein",
+      "explanation": "'Muss ... sein' expresses a strong logical conclusion based on evidence ('must be guilty'), appropriate for legal or argumentative contexts. The epistemic use of 'müssen' with present infinitive conveys high certainty about a present state.",
+      "id": "c1_06_q037"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Identifizieren Sie den Satz mit fehlerhafter Modalverb-Perfekt-Konstruktion.",
+      "options": [
+        "Sie hat nicht kommen koennen.",
+        "Er hat es machen muessen.",
+        "Wir haben gehen wollen.",
+        "Ich habe das Buch lesen gemocht."
+      ],
+      "correctAnswer": "Ich habe das Buch lesen gemocht.",
+      "explanation": "While 'mögen' can form the perfect with double infinitive ('hat mögen'), in practice 'hat ... gemocht' is used for preference ('liked'), and the double infinitive is rare/awkward. More natural: 'Ich habe das Buch gern gelesen'. This tests awareness of modal verb irregularities in perfect tenses.",
+      "id": "c1_06_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie zeigt fortgeschrittene Kompetenz im Einsatz von Modalverben auf C1-Niveau?",
+      "options": [
+        "Ausschliessliche Verwendung des Indikativs fuer maximale Klarheit.",
+        "Gezielte Wahl zwischen epistemischer und deontischer Bedeutung je nach Kontext, Register und Aussageabsicht.",
+        "Vermeidung von Konjunktiv-II-Formen, um Fehler zu minimieren.",
+        "Nutzung nur der Grundbedeutungen von Modalverben."
+      ],
+      "correctAnswer": "Gezielte Wahl zwischen epistemischer und deontischer Bedeutung je nach Kontext, Register und Aussageabsicht.",
+      "explanation": "C1 proficiency includes pragmatic awareness: selecting modal verbs not just for grammatical correctness but for nuanced meaning — hedging ('dürfte'), asserting ('muss'), reporting ('soll'), or politeness ('könnte'). This strategic flexibility is assessed in advanced exams.",
+      "id": "c1_06_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet 'moegen' korrekt im Sinne von 'vielleicht' (epistemische Möglichkeit)?",
+      "options": [
+        "Ich mag Schokolade.",
+        "Das mag sein, aber ich bin anderer Meinung.",
+        "Er mag kommen, wenn er will.",
+        "Sie moechte bitte leise sein."
+      ],
+      "correctAnswer": "Das mag sein, aber ich bin anderer Meinung.",
+      "explanation": "'Das mag sein' is a fixed C1 expression where 'mögen' concedes epistemic possibility ('That may be true'), often used to acknowledge an opposing view before presenting a counterargument. This pragmatic function is distinct from expressing preference or desire.",
+      "id": "c1_06_q040"
+    },
+    {
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Du ____ die Tür abschliessen, bevor du gehst.",
+      "options": [
+        "musst",
+        "darfst",
+        "magst",
+        "kannst"
+      ],
+      "correctAnswer": "musst",
+      "explanation": "'Muessen' expresses obligation or necessity.",
+      "id": "c1_06_q041"
     },
     {
-      "id": "c1_06_q044",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er ____ schon zu Hause sein, denn das Licht brennt.",
+      "options": [
+        "muss",
+        "darf",
+        "soll",
+        "mag"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "Here 'muss' expresses a logical assumption or strong probability based on evidence.",
+      "id": "c1_06_q042"
     },
     {
-      "id": "c1_06_q045",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q046",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Man ____ während der Pruefung keine Handys benutzen.",
+      "options": [
+        "darf",
+        "muss",
+        "kann",
+        "mag"
+      ],
+      "correctAnswer": "darf",
+      "explanation": "'Nicht duerfen' expresses prohibition.",
+      "id": "c1_06_q043"
     },
     {
-      "id": "c1_06_q047",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ gestern sehr beschaeftigt gewesen sein.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "muss",
+        "kann",
+        "mag",
+        "will"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "muss",
+      "explanation": "'Muss gewesen sein' expresses a strong assumption about the past — subjective epistemic use of 'muessen'.",
+      "id": "c1_06_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Du ____ heute frueher gehen, wenn du moechtest.",
+      "options": [
+        "darfst",
+        "musst",
+        "sollst",
+        "magst"
+      ],
+      "correctAnswer": "darfst",
+      "explanation": "'DuERfen' is used to give permission in the du-form.",
+      "id": "c1_06_q045"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er ____ angeblich drei Sprachen fliessend sprechen.",
+      "options": [
+        "soll",
+        "muss",
+        "mag",
+        "darf"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'Sollen' can express reported information or hearsay — subjective use to report third-party claims.",
+      "id": "c1_06_q046"
     },
     {
-      "id": "c1_06_q048",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q049",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q050",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Das ____ durchaus moeglich sein.",
+      "options": [
+        "kann",
+        "muss",
+        "will",
+        "darf"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "'Kann' expresses possibility or epistemic openness.",
+      "id": "c1_06_q047"
     },
     {
-      "id": "c1_06_q051",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q052",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Du ____ mehr Wasser trinken; das waere gesuender.",
+      "options": [
+        "solltest",
+        "musst",
+        "willst",
+        "magst"
+      ],
+      "correctAnswer": "solltest",
+      "explanation": "'Sollten' is the standard advisory form for recommendations and polite advice.",
+      "id": "c1_06_q048"
     },
     {
-      "id": "c1_06_q053",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ die Wahrheit gesagt haben, aber sicher bin ich nicht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mag",
+        "muss",
+        "soll",
+        "will"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "mag",
+      "explanation": "'Mag' expresses a weak assumption or possibility — concessive epistemic use in C1.",
+      "id": "c1_06_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer ____ ihre Ergebnisse bis Freitag einreichen.",
+      "options": [
+        "muessen",
+        "duerfen",
+        "moegen",
+        "wollen"
+      ],
+      "correctAnswer": "muessen",
+      "explanation": "'Muessen' expresses obligation or necessity in formal/regulatory contexts.",
+      "id": "c1_06_q050"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er ____ sich weigern, daran teilzunehmen.",
+      "options": [
+        "will",
+        "muss",
+        "darf",
+        "mag"
+      ],
+      "correctAnswer": "will",
+      "explanation": "'Wollen' in this context expresses intention or determination.",
+      "id": "c1_06_q051"
     },
     {
-      "id": "c1_06_q054",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q055",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q056",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Das Wetter ____ morgen besser werden.",
+      "options": [
+        "soll",
+        "muss",
+        "mag",
+        "will"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'Sollen' is used for reported forecasts, expectations, or predictions from third-party sources.",
+      "id": "c1_06_q052"
     },
     {
-      "id": "c1_06_q057",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Sie ____ die Nachricht uebersehen haben, anders kann ich es mir nicht erklaeren.",
+      "options": [
+        "muss",
+        "darf",
+        "will",
+        "soll"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "'Muss ... haben' (epistemic Perfekt) expresses a logical conclusion about a past event.",
+      "id": "c1_06_q053"
     },
     {
-      "id": "c1_06_q058",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Du ____ ruhig ehrlich sein; niemand wird dich verurteilen.",
+      "options": [
+        "kannst",
+        "musst",
+        "willst",
+        "magst"
+      ],
+      "correctAnswer": "kannst",
+      "explanation": "'Kannst' expresses possibility, permission, or gentle encouragement here.",
+      "id": "c1_06_q054"
     },
     {
-      "id": "c1_06_q059",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er ____ frueher sehr reich gewesen sein.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "soll",
+        "darf",
+        "will",
+        "muss"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "soll",
+      "explanation": "'Soll ... gewesen sein' expresses reported information or hearsay — a third-party claim.",
+      "id": "c1_06_q055"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Niemand ____ den Raum ohne Erlaubnis betreten.",
+      "options": [
+        "darf",
+        "muss",
+        "mag",
+        "kann"
+      ],
+      "correctAnswer": "darf",
+      "explanation": "'Nicht duerfen' indicates strict prohibition in formal/regulatory contexts.",
+      "id": "c1_06_q056"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse ____ sich noch aendern.",
+      "options": [
+        "koennen",
+        "muessen",
+        "wollen",
+        "sollen"
+      ],
+      "correctAnswer": "koennen",
+      "explanation": "'Koennen' expresses possibility or potential for change.",
+      "id": "c1_06_q057"
     },
     {
-      "id": "c1_06_q060",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_06_q061",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q062",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Du ____ dich nicht so aufregen; alles wird gut.",
+      "options": [
+        "musst",
+        "darfst",
+        "willst",
+        "magst"
+      ],
+      "correctAnswer": "musst",
+      "explanation": "'Du musst dich nicht aufregen' means 'you don't need to get upset' — negation of necessity, not obligation.",
+      "id": "c1_06_q058"
     },
     {
-      "id": "c1_06_q063",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Er ____ die ganze Nacht gearbeitet haben, so muede wie er aussieht.",
+      "options": [
+        "muss",
+        "mag",
+        "soll",
+        "darf"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "'Muss gearbeitet haben' expresses a strong logical conclusion about the past based on visible evidence (epistemic Perfekt).",
+      "id": "c1_06_q059"
     },
     {
-      "id": "c1_06_q064",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Sie ____ ihre Meinung jederzeit aendern, wenn sie moechte.",
+      "options": [
+        "kann",
+        "muss",
+        "soll",
+        "mag"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "'Kann' expresses ability or personal possibility in polite contexts.",
+      "id": "c1_06_q060"
     },
     {
-      "id": "c1_06_q065",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat 'koennen' in folgendem Satz: 'Er kann sehr gut Klavier spielen.'?",
       "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
+        "Erlaubnis",
+        "Moeglichkeit",
+        "Faehigkeit",
+        "Vermutung"
       ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
+      "correctAnswer": "Faehigkeit",
+      "explanation": "Here 'koennen' expresses an ability or skill (Faeahigkeit) — he is able to play the piano well.",
+      "id": "c1_06_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das passende Modalverb: 'Es ____ morgen regnen, aber ich bin nicht sicher.'",
+      "options": [
+        "muss",
+        "kann",
+        "soll",
+        "mag"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "'Kann' expresses possibility (it might rain tomorrow). 'Muss' would be too certain, 'soll' means hearsay, 'mag' is old-fashioned for possibility.",
+      "id": "c1_06_q062"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb druckt in der Vergangenheit eine fast sichere Vermutung aus?",
+      "options": [
+        "konnte",
+        "musste",
+        "durfte",
+        "wollte"
+      ],
+      "correctAnswer": "musste",
+      "explanation": "Past tense 'musste' + infinitive can express a strong assumption: 'Er musste schon zu Hause sein' = 'He must already be at home' (logical deduction).",
+      "id": "c1_06_q063"
     },
     {
-      "id": "c1_06_q066",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q067",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q068",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "'Sie soll eine neue Stelle bekommen haben.' – Was druckt dieser Satz aus?",
+      "options": [
+        "Eine sichere Tatsache",
+        "Eine Faeahigkeit",
+        "Eine Aussage von anderer Person (Gerruecht)",
+        "Eine Erlaubnis"
+      ],
+      "correctAnswer": "Eine Aussage von anderer Person (Gerruecht)",
+      "explanation": "'Sollen' in indirect speech or hearsay context reports what others say: 'She is said to have gotten a new job.'",
+      "id": "c1_06_q064"
     },
     {
-      "id": "c1_06_q069",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q070",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: 'du ____ punktlich kommen, das ist wichtig!'",
+      "options": [
+        "kannst",
+        "magst",
+        "sollst",
+        "darfst"
+      ],
+      "correctAnswer": "sollst",
+      "explanation": "'Sollen' expresses a strong request or obligation from someone else: 'You are supposed to / should come on time.'",
+      "id": "c1_06_q065"
     },
     {
-      "id": "c1_06_q071",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb kann eine hoefliche Frage einleiten?",
       "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
+        "muessen",
+        "duerfen",
+        "moegen (Konjunktiv: moechte)",
+        "wollen"
       ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
+      "correctAnswer": "moegen (Konjunktiv: moechte)",
+      "explanation": "Konjunktiv II 'moechte' (would like to) is used for polite requests: 'Ich moechte bitte zahlen.' 'DuERfen' (Konj. II) is also possible but less common.",
+      "id": "c1_06_q066"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: 'Nach dem Unfall ____ er drei Wochen im Krankenhaus bleiben.'",
+      "options": [
+        "durfte",
+        "musste",
+        "wollte",
+        "sollte"
+      ],
+      "correctAnswer": "musste",
+      "explanation": "'Musste' expresses necessity/obligation due to circumstances: he had to stay in hospital (no choice).",
+      "id": "c1_06_q067"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat 'duerfen' im Satz 'Das darf nicht wahr sein!'?",
+      "options": [
+        "Erlaubnis",
+        "Moeglichkeit (Ausruf der Unglaeubigkeit)",
+        "Vermutung",
+        "Faeahigkeit"
+      ],
+      "correctAnswer": "Moeglichkeit (Ausruf der Unglaeubigkeit)",
+      "explanation": "In exclamations like 'Das darf nicht wahr sein!' (That can't be true!), 'duerfen' expresses impossibility or disbelief, not permission.",
+      "id": "c1_06_q068"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um: 'Es ist moeglich, dass er den Zug verpasst hat.' -> 'Er ____ den Zug verpasst haben.'",
+      "options": [
+        "kann",
+        "mag",
+        "duerfte",
+        "Alle drei sind moeglich, aber mit leichten Nuancen."
+      ],
+      "correctAnswer": "Alle drei sind moeglich, aber mit leichten Nuancen.",
+      "explanation": "'Er kann/mag/duerfte den Zug verpasst haben' all express possibility. 'Kann' neutral, 'mag' weaker/old-fashioned, 'duerfte' stronger probability.",
+      "id": "c1_06_q069"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Modalverben koennen auch ____ Bedeutungen haben, die nicht direkt mit Erlaubnis, Faeahigkeit oder Notwendigkeit zu tun haben.",
+      "options": [
+        "subjektive",
+        "objektive",
+        "tempus",
+        "reflexive"
+      ],
+      "correctAnswer": "subjektive",
+      "explanation": "Subjective use of modal verbs expresses the speaker's opinion, assumption, or evaluation (e.g., 'Er muss krank sein' = assumption, not obligation).",
+      "id": "c1_06_q070"
     },
     {
-      "id": "c1_06_q072",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q073",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q074",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz zeigt den subjektiven Gebrauch von 'muessen'?",
+      "options": [
+        "Ich muss nach Hause gehen.",
+        "Er muss Zahnarzt sein, bei seinen Zahnschmerzen.",
+        "du musst die Hausaufgaben machen.",
+        "Wir müssen frueh aufstehen."
+      ],
+      "correctAnswer": "Er muss Zahnarzt sein, bei seinen Zahnschmerzen.",
+      "explanation": "Subjective 'müssen' = strong assumption (He must be a dentist given his toothache). The others are objective necessity.",
+      "id": "c1_06_q071"
     },
     {
-      "id": "c1_06_q075",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: 'Die Nachbarn ____ gestern Abend laut Musik gehoert haben; ich bin mir fast sicher.'",
+      "options": [
+        "koennen",
+        "muessen",
+        "duerfen",
+        "wollen"
+      ],
+      "correctAnswer": "muessen",
+      "explanation": "Subjective 'müssen' in past: 'müssen + past infinitive' = strong assumption: 'The neighbors must have played loud music yesterday.'",
+      "id": "c1_06_q072"
     },
     {
-      "id": "c1_06_q076",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was druckt 'wollen' im subjektiven Gebrauch aus (z.B. 'Das will nichts heissen')?",
       "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
+        "Wunsch",
+        "Faeahigkeit",
+        "Behauptung mit Zweifel des Sprechers",
+        "Erlaubnis"
       ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
+      "correctAnswer": "Behauptung mit Zweifel des Sprechers",
+      "explanation": "Subjective 'wollen' can express that someone claims something, often with the speaker doubting it: 'Er will das gesehen haben' = He claims to have seen it (but maybe not true).",
+      "id": "c1_06_q073"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: '____ ich Ihnen helfen?'",
+      "options": [
+        "Muss",
+        "Will",
+        "Darf",
+        "Soll"
+      ],
+      "correctAnswer": "Darf",
+      "explanation": "'Darf ich helfen?' is a polite offer (May I help?). 'Darf' expresses permission-seeking, common in service contexts.",
+      "id": "c1_06_q074"
     },
     {
-      "id": "c1_06_q077",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Ersatzform fuer Modalverben im Passiv ist korrekt? 'Das Problem kann geloest werden.' ->",
+      "options": [
+        "Das Problem laesst sich loesen.",
+        "Das Problem ist zu loesen.",
+        "Das Problem hat sich geloest.",
+        "Das Problem geht zu loesen."
+      ],
+      "correctAnswer": "Das Problem laesst sich loesen.",
+      "explanation": "'sich lassen + Infinitiv' replaces 'koennen + Passiv' to express possibility: 'The problem can be solved.'",
+      "id": "c1_06_q075"
     },
     {
-      "id": "c1_06_q078",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q079",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Druckt 'Er muss nicht kommen' oder 'Er braucht nicht zu kommen' aus, dass ____?",
+      "options": [
+        "er nicht kommen darf",
+        "er nicht kommen soll",
+        "keine Notwendigkeit besteht",
+        "er nicht kommen moechte"
+      ],
+      "correctAnswer": "keine Notwendigkeit besteht",
+      "explanation": "'nicht muessen' means 'not necessary / don't have to' (absence of obligation), NOT 'must not' (which is 'nicht duerfen').",
+      "id": "c1_06_q076"
     },
     {
-      "id": "c1_06_q080",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: 'Das ____ doch nicht wahr sein!' (Ausdruck der Unglaeubigkeit)",
+      "options": [
+        "kann",
+        "darf",
+        "mag",
+        "Alle drei sind in bestimmten Kontexten moeglich."
+      ],
+      "correctAnswer": "Alle drei sind in bestimmten Kontexten moeglich.",
+      "explanation": "'Das kann/darf/mag nicht wahr sein!' All are possible in exclamations of disbelief, with regional or stylistic differences. 'Darf' and 'kann' are most common.",
+      "id": "c1_06_q077"
     },
     {
-      "id": "c1_06_q081",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q082",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q083",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Modalverb passt: 'Ich ____ nach Hause, aber ich bin noch mue_de.' (fehlende Notwendigkeit)",
+      "options": [
+        "muss nicht",
+        "brauche nicht",
+        "soll nicht",
+        "kann nicht"
+      ],
+      "correctAnswer": "brauche nicht",
+      "explanation": "In standard German, 'nicht brauchen' + zu + infinitive replaces 'nicht muessen': 'Ich brauche nicht nach Hause zu gehen.' 'Muss nicht' is also possible but less idiomatic in this position.",
+      "id": "c1_06_q078"
     },
     {
-      "id": "c1_06_q084",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Erkennen Sie die subjektive Bedeutung: 'Sie will ihn gesehen haben, aber ich glaube ihr nicht.'",
+      "options": [
+        "Sie hat ihn wirklich gesehen.",
+        "Sie behauptet es, der Sprecher zweifelt.",
+        "Sie hatte die Faeahigkeit zu sehen.",
+        "Sie hatte die Erlaubnis zu sehen."
+      ],
+      "correctAnswer": "Sie behauptet es, der Sprecher zweifelt.",
+      "explanation": "Subjective 'wollen' here reports her claim, and the speaker explicitly doubts it ('ich glaube ihr nicht').",
+      "id": "c1_06_q079"
     },
     {
-      "id": "c1_06_q085",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q086",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz mit 'moegen' ist heute noch ueblich in der geschriebenen Standardsprache?",
+      "options": [
+        "Magst du Kaffee?",
+        "Er mag krank sein.",
+        "Ich mag nach Hause gehen.",
+        "Das mag sein, aber es ist teuer."
+      ],
+      "correctAnswer": "Das mag sein, aber es ist teuer.",
+      "explanation": "'Das mag sein' (That may be) is a common concessive phrase. 'Magst du Kaffee?' is colloquial for 'Do you like coffee?', originally modal use is fading.",
+      "id": "c1_06_q080"
     },
     {
-      "id": "c1_06_q087",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge sagte aus, er ____ den Verdächtigen in der Nacht gesehen haben.",
+      "options": [
+        "will",
+        "soll",
+        "muss",
+        "darf"
+      ],
+      "correctAnswer": "will",
+      "explanation": "'will' here is used to express a subjective claim by the subject themselves — the witness CLAIMS to have seen the suspect. This is a typical C1 usage of 'wollen' to report unverified first-person claims.",
+      "id": "c1_06_q081"
     },
     {
-      "id": "c1_06_q088",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es heisst, der Minister ____ schon seit Wochen von den Unregelmaessigkeiten gewusst haben.",
       "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
+        "will",
+        "soll",
+        "muss",
+        "kann"
       ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "soll",
+      "explanation": "'soll' is used here to convey a reported claim or rumour from a third party — i.e., 'it is said that'. This is the epistemic/reportative use of 'sollen' typical at C1.",
+      "id": "c1_06_q082"
     },
     {
-      "id": "c1_06_q089",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Nach stundenlanger Suche ____ die Bergwacht die Vermissten endlich gefunden haben.",
+      "options": [
+        "duerfte",
+        "sollte",
+        "wollte",
+        "musste"
+      ],
+      "correctAnswer": "duerfte",
+      "explanation": "'duerfte' in Konjunktiv II expresses a well-founded probability or assumption — similar to 'must have' but softer. It signals the speaker's reasoned conclusion without certainty.",
+      "id": "c1_06_q083"
     },
     {
-      "id": "c1_06_q090",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q091",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q092",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "du ____ das Dokument eigentlich schon gestern abgegeben haben — warum hast du gewartet?",
+      "options": [
+        "solltest",
+        "durftest",
+        "wolltest",
+        "konntest"
+      ],
+      "correctAnswer": "solltest",
+      "explanation": "'solltest' (Konjunktiv II of sollen) expresses an unfulfilled obligation in the past — you were supposed to (but didn't). This is a key C1 distinction from 'muessest'.",
+      "id": "c1_06_q084"
     },
     {
-      "id": "c1_06_q093",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q094",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das neue Medikament ____ angeblich innerhalb von Sekunden wirken.",
+      "options": [
+        "soll",
+        "will",
+        "muss",
+        "mag"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'soll' combined with 'angeblich' (allegedly) reinforces the reportative function — a claim made by others that the speaker does not verify. This double marking is typical in formal/journalistic C1 German.",
+      "id": "c1_06_q085"
     },
     {
-      "id": "c1_06_q095",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sie ____ noch so jung sein — ihr Wissen ist beeindruckend.",
       "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
+        "mag",
+        "darf",
+        "soll",
+        "muss"
       ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
+      "correctAnswer": "mag",
+      "explanation": "'mag' here expresses concession — 'however young she may be'. This concessive use of 'moegen' is a sophisticated C1 construction rarely seen at lower levels.",
+      "id": "c1_06_q086"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die grammatisch korrekte und bedeutungsgleiche Umformung: 'Es ist moeglich, dass er die Wahrheit sagt.'",
+      "options": [
+        "Er duerfte die Wahrheit sagen.",
+        "Er soll die Wahrheit sagen.",
+        "Er will die Wahrheit sagen.",
+        "Er muss die Wahrheit sagen."
+      ],
+      "correctAnswer": "Er duerfte die Wahrheit sagen.",
+      "explanation": "'duerfte' (Konjunktiv II of duerfen) is used to express epistemic possibility/probability. It is the closest paraphrase of 'Es ist moeglich, dass...' among the options.",
+      "id": "c1_06_q087"
     },
     {
-      "id": "c1_06_q096",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_06_q097",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der Angeklagte ____ die Tat begangen haben — alle Beweise deuten darauf hin.",
+      "options": [
+        "muss",
+        "soll",
+        "will",
+        "mag"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "'muss' here expresses logical necessity or strong deduction — 'must have committed'. It reflects the speaker's certainty based on evidence, not an external obligation.",
+      "id": "c1_06_q088"
     },
     {
-      "id": "c1_06_q098",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "In diesem Vertrag steht, dass Aenderungen ____ schriftlich beantragt werden.",
       "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
+        "muessen",
+        "koennen",
+        "duerfen",
+        "wollen"
       ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
+      "correctAnswer": "muessen",
+      "explanation": "'muessen' here expresses a formal/legal obligation stated in writing — 'must be requested in writing'. 'duerfen' would only be correct in a permissive context.",
+      "id": "c1_06_q089"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ doch nicht dein Ernst sein! Du willst wirklich kuendigen?",
+      "options": [
+        "kann",
+        "soll",
+        "muss",
+        "will"
+      ],
+      "correctAnswer": "kann",
+      "explanation": "'Das kann nicht dein Ernst sein' is a fixed idiomatic expression expressing disbelief — 'That can't be serious'. 'kann' here expresses the speaker's incredulity, not literal possibility.",
+      "id": "c1_06_q090"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Obwohl er ____ krank gewesen sein, erschien er punktlich zur Pruefung.",
+      "options": [
+        "mag",
+        "soll",
+        "muss",
+        "will"
+      ],
+      "correctAnswer": "mag",
+      "explanation": "'mag ... sein' is used in concessive clauses — 'although he may have been ill'. This is an important C1 grammatical structure using the concessive function of 'moegen'.",
+      "id": "c1_06_q091"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Laut Presseberichten ____ der Konzern jahrelang Steuern hinterzogen haben.",
+      "options": [
+        "soll",
+        "will",
+        "muss",
+        "darf"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'soll' paired with 'laut Presseberichten' (according to press reports) signals reported speech/unverified allegations — a hallmark of C1 journalistic and formal register.",
+      "id": "c1_06_q092"
     },
     {
-      "id": "c1_06_q099",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ich ____ mich geirrt haben — die Zahlen sehen anders aus als erwartet.",
       "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
+        "koennte",
+        "sollte",
+        "wollte",
+        "duerfte"
       ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
+      "correctAnswer": "koennte",
+      "explanation": "'koennte' (Konjunktiv II of koennen) expresses epistemic possibility about a past event — 'I might have been wrong'. It conveys self-doubt without certainty, typical in academic or professional registers.",
+      "id": "c1_06_q093"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die neue Regelung ____ ab dem naechsten Quartal in Kraft treten — so zumindest der Plan.",
+      "options": [
+        "soll",
+        "muss",
+        "will",
+        "kann"
+      ],
+      "correctAnswer": "soll",
+      "explanation": "'soll' here expresses an intended plan or official schedule set by a third party (the authorities/planners), not the speaker. This 'planned intention' use is a key C1 function of 'sollen'.",
+      "id": "c1_06_q094"
+    },
+    {
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Er ____ nicht gewusst haben, dass seine Aussage falsch war — das glaubt ihm aber niemand.",
+      "options": [
+        "will",
+        "soll",
+        "muss",
+        "darf"
+      ],
+      "correctAnswer": "will",
+      "explanation": "'will' here captures a subjective self-claim — 'he claims not to have known'. Using 'wollen' to report what someone asserts about themselves (especially when doubted) is a sophisticated C1 pattern.",
+      "id": "c1_06_q095"
     },
     {
-      "id": "c1_06_q100",
-      "subjectId": "c1_06",
-      "topicName": " Verbalisierung von Nomen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Du haettest das Problem frueher ansprechen ____. Jetzt ist es zu spaet.",
       "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
+        "sollen",
+        "koennen",
+        "duerfen",
+        "wollen"
       ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
+      "correctAnswer": "sollen",
+      "explanation": "'haettest ... sollen' (Konjunktiv II Vergangenheit of sollen) expresses an unfulfilled obligation in retrospect — 'you should have'. This is a key irrealis modal construction at C1.",
+      "id": "c1_06_q096"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das Paket ____ heute ankommen, aber laut Tracking ist es noch unterwegs.",
+      "options": [
+        "sollte",
+        "wollte",
+        "durfte",
+        "mochte"
+      ],
+      "correctAnswer": "sollte",
+      "explanation": "'sollte' indicates an expected or planned event that didn't materialise — 'was supposed to arrive'. This temporal/expectational use of 'sollte' (Prateritum) is important at C1.",
+      "id": "c1_06_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es ist nicht klar, ob die Ausgaben ____ genehmigt worden sein.",
+      "options": [
+        "koennen",
+        "sollen",
+        "wollen",
+        "muessen"
+      ],
+      "correctAnswer": "koennen",
+      "explanation": "'koennen' in this embedded clause expresses uncertainty about whether something is even possible/permitted — 'whether the expenditures could have been approved'. This is the epistemic use of 'koennen' in subordinate clauses.",
+      "id": "c1_06_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die Aussage mit der staerksten Gewissheit des Sprechers: 'Der Taeter ____ die Stadt verlassen haben.'",
+      "options": [
+        "muss",
+        "koennte",
+        "duerfte",
+        "mag"
+      ],
+      "correctAnswer": "muss",
+      "explanation": "Among epistemic modals, 'muss' expresses the highest degree of certainty — logical necessity. 'duerfte' and 'koennte' express probability and possibility respectively, while 'mag' signals mere acknowledgment.",
+      "id": "c1_06_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was auch immer andere ____ — ich bin von meiner Entscheidung ueberzeugt.",
+      "options": [
+        "sagen moegen",
+        "sagen sollen",
+        "sagen wollen",
+        "sagen muessen"
+      ],
+      "correctAnswer": "sagen moegen",
+      "explanation": "'Was auch immer ... sagen moegen' is a formal concessive construction — 'whatever others may say'. This use of 'moegen' in concessive clauses with 'auch immer' is a hallmark C1 grammatical structure.",
+      "id": "c1_06_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

@@ -1,1553 +1,1420 @@
 {
+  "version": "1.0",
   "subjectId": "c1_02",
-  "topicName": "Konjunktiv II: alle Formen",
+  "topicName": "Indirekte Rede & Konjunktiv I",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Indirekte Rede & Konjunktiv I — Konjunktiv I is the standard tool for objective reporting in German. By using Konjunktiv I, the speaker signals neutrality: 'I am reporting what someone said, without confirming or denying it.' The core challenge: many Konjunktiv I forms are identical to Indikativ (especially ich/wir/sie plural), so they must be replaced by Konjunktiv II or würde + infinitive. Only er/sie/es 3rd-person-singular forms are reliably unique and used directly. Past tense in indirect speech always uses Konjunktiv I of haben/sein + Partizip II (e.g., er habe, sie hätten). Future tense uses würde/werde + infinitive. Commands are paraphrased with sollen in Konjunktiv I (e.g., 'Er riet ihm, er solle nicht mehr rauchen'). The verb 'sein' is unique in ALL persons (ich sei, er sei, wir seien) and never needs replacement. At C1 level, dropping 'dass' and using main-clause word order in the subordinate is the mark of advanced academic style.",
+  "tips": [
+    "Golden Rule of Substitution: Konjunktiv I identical to Indikativ → replace with Konjunktiv II or würde + infinitive. Safe zone: er/sie/es 3rd-person-singular always looks unique (er habe, er gehe, er wisse). Identical-to-Indikativ persons: ich (habe), wir (haben), sie/Sie plural (haben) → use Konjunktiv II.",
+    "Past tense (Vergangenheit) — all past tenses collapse to: Konjunktiv I of haben/sein (habe/sei) + Partizip II. Example: 'Er sagte, er habe das gesehen.' (Perfekt) / 'Sie sagten, sie wären nach Hause gegangen.' (Konjunktiv II because plural haben = Indikativ).",
+    "Future tense (Zukunft): würde/werde + Infinitive. Plural 'werden' = Indikativ, so: 'sie würden sagen' (not 'sie werden sagen').",
+    "Commands: use sollen in Konjunktiv I (er solle, sie sollten) — NOT the imperative verb in Konjunktiv I directly.",
+    "The verb 'sein': ich sei, du seist, er sei, wir seien, ihr seiet, sie seien — ALWAYS unique, NEVER replace with Konjunktiv II.",
+    "Without 'dass' (academic elegance): main-clause word order in the subordinate. C1 Style: 'Der Kanzler erklärte, die Reformen seien alternativlos.' (verb-second, kein dass).",
+    "Konjunktiv II signals doubt if used when Konjunktiv I would have been possible: 'Er sagte, er hätte Zeit' (subtle doubt vs neutral 'er habe Zeit').",
+    "Passive in indirect speech: Konjunktiv I of werden + Partizip II: 'Das Projekt werde abgeschlossen' (present passive). Passive past:sei + Partizip II + worden: 'Das Projekt sei abgeschlossen worden'."
+  ],
   "questions": [
     {
-      "id": "c1_02_q001",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktiv-I-Form von 'sagen' ist korrekt für die 3. Person Singular?",
       "options": [
-        "hätte",
-        "habe",
+        "er sage",
+        "er sagt",
+        "er würde sagen",
+        "er gesage"
+      ],
+      "correctAnswer": "er sage",
+      "explanation": "The correct Konjunktiv I form of 'sagen' for 3rd person singular is 'er sage', formed by adding '-e' to the verb stem. This is the standard form used in indirect speech for reporting statements.",
+      "id": "c1_02_q001"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Einleitungssatz leitet typischerweise indirekte Rede ein?",
+      "options": [
+        "Er fragt: '____'",
+        "Er meint, ____",
+        "Er ruft laut: ____",
+        "Er schreibt einen Brief: ____"
+      ],
+      "correctAnswer": "Er meint, ____",
+      "explanation": "Indirect speech in German is typically introduced by reporting verbs like 'meinen', 'sagen', 'berichten' followed by a comma and a subordinate clause structure, often with Konjunktiv I.",
+      "id": "c1_02_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die Konjunktiv-I-Form von 'sein' für die 3. Person Singular?",
+      "options": [
+        "er sei",
+        "er wäre",
+        "er ist",
+        "er seie"
+      ],
+      "correctAnswer": "er sei",
+      "explanation": "The verb 'sein' has an irregular Konjunktiv I form: 'er sei'. This is one of the most frequently used and important forms in indirect speech, especially for reporting facts or states.",
+      "id": "c1_02_q003"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wann wird Konjunktiv I in der indirekten Rede verwendet?",
+      "options": [
+        "Um eigene Meinungen auszudrücken.",
+        "Um Äußerungen Dritter neutral und distanziert wiederzugeben.",
+        "Um Befehle direkt zu formulieren.",
+        "Um hypothetische Situationen in der Vergangenheit zu beschreiben."
+      ],
+      "correctAnswer": "Um Äußerungen Dritter neutral und distanziert wiederzugeben.",
+      "explanation": "Konjunktiv I is primarily used in indirect speech to report what someone else said, maintaining neutrality and distance from the original statement - a key feature of journalistic and academic German.",
+      "id": "c1_02_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Transformiere den direkten Satz: 'Ich komme morgen.' in indirekte Rede mit Konjunktiv I: 'Er sagte, ____'.",
+      "options": [
+        "er komme morgen",
+        "er kommt morgen",
+        "er würde morgen kommen",
+        "er käme morgen"
+      ],
+      "correctAnswer": "er komme morgen",
+      "explanation": "In indirect speech, 'Ich komme morgen' becomes 'er komme morgen' using Konjunktiv I. The pronoun changes from 'ich' to 'er', and the verb takes the Konjunktiv I form 'komme'.",
+      "id": "c1_02_q005"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält die korrekte Konjunktiv-I-Form für 'haben' in der 3. Person Plural?",
+      "options": [
+        "sie haben",
+        "sie hätten",
+        "sie habe",
+        "sie haben würden"
+      ],
+      "correctAnswer": "sie habe",
+      "explanation": "The Konjunktiv I form of 'haben' for 3rd person plural is 'sie habe'. Note that Konjunktiv I forms often look identical to indicative forms except for the 3rd person singular, making context crucial.",
+      "id": "c1_02_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die indirekte Rede von: 'Ich kann das nicht machen.' mit Konjunktiv I?",
+      "options": [
+        "Er sagte, er könne das nicht machen.",
+        "Er sagte, er kann das nicht machen.",
+        "Er sagte, er würde das nicht machen können.",
+        "Er sagte, er könnte das nicht machen."
+      ],
+      "correctAnswer": "Er sagte, er könne das nicht machen.",
+      "explanation": "The modal verb 'können' becomes 'könne' in Konjunktiv I (3rd person singular). This preserves the original meaning while marking the statement as reported speech.",
+      "id": "c1_02_q007"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wann muss man in der indirekten Rede statt Konjunktiv I den Konjunktiv II verwenden?",
+      "options": [
+        "Wenn der Sprecher unsicher ist.",
+        "Wenn die Konjunktiv-I-Form mit der Indikativform identisch ist und Missverständnisse vermieden werden sollen.",
+        "Wenn der ursprüngliche Satz im Präteritum stand.",
+        "Wenn der Bericht in der Gegenwart formuliert wird."
+      ],
+      "correctAnswer": "Wenn die Konjunktiv-I-Form mit der Indikativform identisch ist und Missverständnisse vermieden werden sollen.",
+      "explanation": "When Konjunktiv I forms are identical to indicative forms (e.g., 'sie sagen'), Konjunktiv II ('sie würden sagen' or 'sie sägen') is used to clearly mark indirect speech and avoid ambiguity.",
+      "id": "c1_02_q008"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die indirekte Rede im Perfekt: 'Ich habe das Buch gelesen.'?",
+      "options": [
+        "Er sagte, er habe das Buch gelesen.",
+        "Er sagte, er hätte das Buch gelesen.",
+        "Er sagte, er habe das Buch gelesen gehabt.",
+        "Er sagte, er hätte das Buch lesen können."
+      ],
+      "correctAnswer": "Er sagte, er habe das Buch gelesen.",
+      "explanation": "For perfect tense in indirect speech, the auxiliary verb ('haben' or 'sein') is put into Konjunktiv I ('habe'), while the past participle ('gelesen') remains unchanged at the end of the clause.",
+      "id": "c1_02_q009"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man einen Fragesatz in die indirekte Rede? 'Kommst du mit?' → 'Er fragte, ____'.",
+      "options": [
+        "ob er mitkomme",
+        "dass er mitkomme",
+        "er komme mit",
+        "würde er mitkommen"
+      ],
+      "correctAnswer": "ob er mitkomme",
+      "explanation": "Yes/no questions in indirect speech are introduced by 'ob', followed by the verb in Konjunktiv I at the end of the clause. The pronoun and verb form adjust to match the reporting context.",
+      "id": "c1_02_q010"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie wird ein Imperativsatz in indirekte Rede umgewandelt? 'Mach die Tür zu!' → 'Sie bat ihn, ____'.",
+      "options": [
+        "die Tür zuzumachen",
+        "dass er die Tür zumacht",
+        "er mache die Tür zu",
+        "er würde die Tür zumachen"
+      ],
+      "correctAnswer": "die Tür zuzumachen",
+      "explanation": "Imperatives in indirect speech are typically transformed using an infinitive construction with 'zu' after verbs like 'bitten', 'auffordern', or 'sagen'. This is more natural than forcing Konjunktiv I for commands.",
+      "id": "c1_02_q011"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Zeitform wird in der indirekten Rede verwendet, wenn der ursprüngliche Satz im Futur I stand? 'Ich werde kommen.'",
+      "options": [
+        "Konjunktiv I Futur I: er werde kommen",
+        "Konjunktiv II: er würde kommen",
+        "Präsens Konjunktiv I: er komme",
+        "Perfekt Konjunktiv I: er sei gekommen"
+      ],
+      "correctAnswer": "Konjunktiv I Futur I: er werde kommen",
+      "explanation": "Future tense in direct speech ('werde kommen') is preserved in indirect speech using Konjunktiv I of 'werden' ('werde') + infinitive, maintaining the original temporal meaning while marking reported speech.",
+      "id": "c1_02_q012"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie verändert sich der Zeitbezug in der indirekten Rede bei: 'Heute habe ich Zeit.' → 'Er sagte, ____'.",
+      "options": [
+        "heute habe er Zeit",
+        "an jenem Tag habe er Zeit",
+        "gestern habe er Zeit",
+        "morgen habe er Zeit"
+      ],
+      "correctAnswer": "heute habe er Zeit",
+      "explanation": "In German indirect speech, temporal adverbs like 'heute' often remain unchanged if the reporting context is clear. Unlike English, German does not always require backshifting time expressions in reported speech.",
+      "id": "c1_02_q013"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthält eine korrekte Verneinung in indirekter Rede? 'Ich gehe nicht zur Party.'",
+      "options": [
+        "Er sagte, er gehe nicht zur Party.",
+        "Er sagte, er gehe zur Party nicht.",
+        "Er sagte, nicht er gehe zur Party.",
+        "Er sagte, er nicht gehe zur Party."
+      ],
+      "correctAnswer": "Er sagte, er gehe nicht zur Party.",
+      "explanation": "Negation in indirect speech follows standard German word order: 'nicht' precedes the element it negates (here, the prepositional phrase 'zur Party'). The verb remains in Konjunktiv I at the end of the clause.",
+      "id": "c1_02_q014"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die indirekte Rede eines komplexen Satzes? 'Wenn es regnet, bleibe ich zu Hause.' → 'Sie sagte, ____'.",
+      "options": [
+        "wenn es regne, bleibe sie zu Hause",
+        "dass, wenn es regnet, sie zu Hause bleibe",
+        "wenn es regnen würde, würde sie zu Hause bleiben",
+        "bei Regen bleibe sie zu Hause"
+      ],
+      "correctAnswer": "wenn es regne, bleibe sie zu Hause",
+      "explanation": "In complex conditional sentences, both clauses in indirect speech use Konjunktiv I ('regne', 'bleibe'). The subordinating conjunction 'wenn' keeps the verb at the end of its clause, maintaining proper subordinate clause structure.",
+      "id": "c1_02_q015"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wann ist die Verwendung von 'würde' + Infinitiv in der indirekten Rede stilistisch angemessen?",
+      "options": [
+        "Immer, um Höflichkeit auszudrücken.",
+        "Nur, wenn die Konjunktiv-I-Form veraltet oder mehrdeutig klingt.",
+        "Nie, da 'würde' ausschließlich für Konjunktiv II reserviert ist.",
+        "Ausschließlich in formellen wissenschaftlichen Texten."
+      ],
+      "correctAnswer": "Nur, wenn die Konjunktiv-I-Form veraltet oder mehrdeutig klingt.",
+      "explanation": "The 'würde' + infinitive construction (Konjunktiv II Ersatzform) is acceptable in indirect speech when the 'true' Konjunktiv I form is archaic, ambiguous, or identical to the indicative, ensuring clarity without sacrificing grammatical correctness.",
+      "id": "c1_02_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die indirekte Rede im Passiv? 'Das Projekt wird abgeschlossen.' → 'Man berichtete, ____'.",
+      "options": [
+        "das Projekt werde abgeschlossen",
+        "das Projekt würde abgeschlossen",
+        "das Projekt sei abgeschlossen worden",
+        "das Projekt werde abgeschlossen werden"
+      ],
+      "correctAnswer": "das Projekt werde abgeschlossen",
+      "explanation": "Present passive in indirect speech uses Konjunktiv I of 'werden' ('werde') + past participle. The structure mirrors the direct speech passive but marks the entire clause as reported via Konjunktiv I.",
+      "id": "c1_02_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt für indirekte Rede mit Modalverb im Präteritum? 'Ich musste arbeiten.' → 'Er sagte, ____'.",
+      "options": [
+        "er habe arbeiten müssen",
+        "er hätte arbeiten müssen",
+        "er müsse arbeiten",
+        "er würde arbeiten müssen"
+      ],
+      "correctAnswer": "er habe arbeiten müssen",
+      "explanation": "For modal verbs in past tense indirect speech, German uses the double infinitive construction: Konjunktiv I of 'haben' ('habe') + main verb infinitive + modal infinitive ('arbeiten müssen'), a C1-level grammatical structure.",
+      "id": "c1_02_q018"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie unterscheidet man in der indirekten Rede zwischen eigener Aussage und fremder Meinung bei identischen Konjunktiv- und Indikativformen?",
+      "options": [
+        "Durch Hinzufügen von 'angeblich' oder 'angeblich sei'.",
+        "Durch Wechsel in die direkte Rede mit Anführungszeichen.",
+        "Durch Verwendung von Konjunktiv II oder 'würde'-Konstruktion zur eindeutigen Markierung.",
+        "Durch Weglassen des Verbs und Nutzung von Nominalstil."
+      ],
+      "correctAnswer": "Durch Verwendung von Konjunktiv II oder 'würde'-Konstruktion zur eindeutigen Markierung.",
+      "explanation": "When Konjunktiv I forms are indistinguishable from indicative (e.g., 'sie sagen'), C1 writers use Konjunktiv II ('sie sägen') or 'würde' + infinitive to unambiguously signal reported speech and avoid confusion with the reporter's own views.",
+      "id": "c1_02_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie ist am geeignetsten, um in einem journalistischen Text Glaubwürdigkeit und Distanz zu wahren?",
+      "options": [
+        "Ausschließliche Verwendung des Indikativs für maximale Klarheit.",
+        "Konsequenter Einsatz von Konjunktiv I in der indirekten Rede, mit Konjunktiv II bei Mehrdeutigkeit.",
+        "Häufige Nutzung von 'man sagt, dass...' ohne Konjunktiv.",
+        "Vermeidung indirekter Rede zugunsten von Zitaten in Anführungszeichen."
+      ],
+      "correctAnswer": "Konsequenter Einsatz von Konjunktiv I in der indirekten Rede, mit Konjunktiv II bei Mehrdeutigkeit.",
+      "explanation": "Professional German journalism uses Konjunktiv I systematically in reported speech to maintain objectivity and distance. Switching to Konjunktiv II when forms are ambiguous demonstrates advanced stylistic control expected at C1 level.",
+      "id": "c1_02_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Sprecher sagte, er ____ morgen an der Konferenz teil.",
+      "options": [
+        "nehme",
+        "nimmt",
+        "nähme",
+        "genommen habe"
+      ],
+      "correctAnswer": "nehme",
+      "explanation": "Konjunktiv I is used in indirect speech to report statements neutrally.",
+      "id": "c1_02_q021"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Journalistin berichtete, der Minister ____ keine weiteren Kommentare abgeben.",
+      "options": [
+        "werde",
         "wird",
-        "war"
+        "würde",
+        "worden sei"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future statements in indirect speech often use 'werde' in Konjunktiv I.",
+      "id": "c1_02_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er behauptete, er ____ die Unterlagen bereits abgeschickt.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
       ],
       "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "explanation": "Perfect tense in indirect speech uses Konjunktiv I auxiliary forms like 'habe'.",
+      "id": "c1_02_q023"
     },
     {
-      "id": "c1_02_q002",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q003",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
+      "type": "multiple_choice",
+      "questionText": "Die Experten erklärten, die Situation ____ sich bald verbessern.",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q004",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q005",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q006",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q007",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q008",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q009",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q010",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q011",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q012",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q013",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
-      "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
-      ],
-      "correctAnswer": "In",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q014",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
-      "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
-      ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q015",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q016",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
-      "options": [
-        "Nachdem",
-        "Weil",
-        "Obwohl",
-        "Als"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q017",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
-      "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
-      ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q018",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q019",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
-      "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q020",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Entwicklung ist ___ zu ___",
-      "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q021",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
+        "werde",
+        "würde",
         "wird",
-        "war"
+        "verbessere"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Indirect future statements require Konjunktiv I with 'werde'.",
+      "id": "c1_02_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie sagte, sie ____ mit dem Ergebnis nicht zufrieden.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "gewesen sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "The verb 'sein' changes to 'sei' in Konjunktiv I.",
+      "id": "c1_02_q025"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge erklärte, er ____ den Täter nicht erkennen können.",
+      "options": [
+        "habe",
+        "hatte",
+        "hätte",
+        "sei"
       ],
       "correctAnswer": "habe",
-      "explanation": "",
+      "explanation": "Indirect speech in the perfect tense uses Konjunktiv I forms.",
+      "id": "c1_02_q026"
+    },
+    {
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter teilten mit, sie ____ nächste Woche im Homeoffice arbeiten.",
+      "options": [
+        "würden",
+        "werden",
+        "arbeiteten",
+        "arbeiteten würden"
+      ],
+      "correctAnswer": "würden",
+      "explanation": "Konjunktiv II with 'würden' is often used when Konjunktiv I sounds identical to indicative.",
+      "id": "c1_02_q027"
     },
     {
-      "id": "c1_02_q022",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er meinte, die Entscheidung ____ bereits getroffen worden.",
       "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
+        "sei",
+        "ist",
+        "wäre",
+        "worde"
       ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
+      "correctAnswer": "sei",
+      "explanation": "Passive perfect constructions in indirect speech use 'sei ... worden'.",
+      "id": "c1_02_q028"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Professorin sagte, die Studenten ____ die Aufgabe bis Freitag abgeben.",
+      "options": [
+        "müssten",
+        "müssen",
+        "mussten",
+        "müssten haben"
+      ],
+      "correctAnswer": "müssten",
+      "explanation": "Konjunktiv II is used here because the Konjunktiv I form would be identical to indicative.",
+      "id": "c1_02_q029"
+    },
+    {
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Er erklärte, er ____ keine Zeit für ein weiteres Gespräch.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Indirect speech requires Konjunktiv I where possible.",
+      "id": "c1_02_q030"
     },
     {
-      "id": "c1_02_q023",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Politikerin betonte, man ____ dringend neue Maßnahmen ergreifen.",
+      "options": [
+        "müsse",
+        "muss",
+        "musste",
+        "müsste"
+      ],
+      "correctAnswer": "müsse",
+      "explanation": "The modal verb appears in Konjunktiv I as 'müsse'.",
+      "id": "c1_02_q031"
     },
     {
-      "id": "c1_02_q024",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q025",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q026",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Der Sprecher behauptete, das Unternehmen ____ niemals gegen das Gesetz verstoßen.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Perfect tense in indirect speech uses Konjunktiv I auxiliary verbs.",
+      "id": "c1_02_q032"
     },
     {
-      "id": "c1_02_q027",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Sie erklärte, die Ergebnisse ____ noch überprüft werden.",
+      "options": [
+        "müssten",
+        "müssen",
+        "mussten",
+        "müssten worden"
+      ],
+      "correctAnswer": "müssten",
+      "explanation": "Konjunktiv II is used because Konjunktiv I would sound identical to indicative.",
+      "id": "c1_02_q033"
     },
     {
-      "id": "c1_02_q028",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q029",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Der Arzt sagte, der Patient ____ sich ausreichend erholen.",
+      "options": [
+        "solle",
+        "soll",
+        "sollte",
+        "hätte sollen"
+      ],
+      "correctAnswer": "solle",
+      "explanation": "The modal verb 'sollen' becomes 'solle' in Konjunktiv I.",
+      "id": "c1_02_q034"
     },
     {
-      "id": "c1_02_q030",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_02_q031",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q032",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Zeitung schrieb, die Regierung ____ eine Reform geplant.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Indirect speech in reported writing typically uses Konjunktiv I.",
+      "id": "c1_02_q035"
     },
     {
-      "id": "c1_02_q033",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q034",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er behauptete, er ____ von den Problemen nichts gewusst.",
+      "options": [
+        "habe",
+        "hatte",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Konjunktiv I perfect tense is formed with 'habe' + participle.",
+      "id": "c1_02_q036"
     },
     {
-      "id": "c1_02_q035",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher erklärten, die Daten ____ eindeutig interpretiert werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "könnten",
+        "können",
+        "konnten",
+        "könnten haben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "könnten",
+      "explanation": "Konjunktiv II is used to avoid ambiguity with indicative forms.",
+      "id": "c1_02_q037"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie sagte, ihr Bruder ____ derzeit im Ausland.",
+      "options": [
+        "arbeite",
+        "arbeitet",
+        "arbeitete",
+        "habe gearbeitet"
+      ],
+      "correctAnswer": "arbeite",
+      "explanation": "The verb 'arbeiten' changes to 'arbeite' in Konjunktiv I.",
+      "id": "c1_02_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Reporter berichtete, der Unfall ____ durch einen technischen Defekt verursacht worden.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "worden sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Passive perfect indirect speech uses 'sei ... worden'.",
+      "id": "c1_02_q039"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Studentin meinte, sie ____ die Prüfung ohne Probleme bestehen.",
+      "options": [
+        "werde",
+        "würde",
+        "wird",
+        "bestünde"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future meaning in indirect speech is expressed with 'werde'.",
+      "id": "c1_02_q040"
     },
     {
-      "id": "c1_02_q036",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q037",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge sagte, er ____ den Vorfall klar gesehen.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Perfect tense with Konjunktiv I auxiliary 'habe' is used in indirect speech for witnessed events.",
+      "id": "c1_02_q041"
     },
     {
-      "id": "c1_02_q038",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Behörde teilte mit, die Genehmigung ____ bis Ende des Jahres verlängert.",
+      "options": [
+        "werde",
+        "wird",
+        "würde",
+        "worden sei"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future passive in indirect speech uses Konjunktiv I of 'werden' + past participle.",
+      "id": "c1_02_q042"
     },
     {
-      "id": "c1_02_q039",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q040",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er erwähnte, dass er ____ nach Berlin reisen müsse.",
+      "options": [
+        "solle",
+        "soll",
+        "sollte",
+        "hätte sollen"
+      ],
+      "correctAnswer": "solle",
+      "explanation": "Modal verb 'sollen' becomes 'solle' in Konjunktiv I for reported obligation.",
+      "id": "c1_02_q043"
     },
     {
-      "id": "c1_02_q041",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Stadtverwaltung gab bekannt, das Projekt ____ im nächsten Monat starten.",
+      "options": [
+        "werde",
+        "würde",
+        "fange",
+        "habe angefangen"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future statements in indirect speech use Konjunktiv I of 'werden'.",
+      "id": "c1_02_q044"
     },
     {
-      "id": "c1_02_q042",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q043",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Sie behauptete, sie ____ den Vertrag bereits unterschrieben.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "'Habe' is the Konjunktiv I form of 'haben' used in indirect speech perfect tense.",
+      "id": "c1_02_q045"
     },
     {
-      "id": "c1_02_q044",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Experte meinte, die Studie ____ keine eindeutigen Ergebnisse liefern.",
+      "options": [
+        "könne",
+        "kann",
+        "könnte",
+        "habe gekonnt"
+      ],
+      "correctAnswer": "könne",
+      "explanation": "Modal verb 'können' becomes 'könne' in Konjunktiv I 3rd person singular.",
+      "id": "c1_02_q046"
     },
     {
-      "id": "c1_02_q045",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Man berichtete, der Chef ____ sich über die Verzögerung beschwert.",
+      "options": [
+        "habe",
+        "hätte",
+        "würde",
+        "habe gehabt"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Reflexive verbs in perfect tense indirect speech use 'habe' + participle + 'sich', preserving Konjunktiv I.",
+      "id": "c1_02_q047"
     },
     {
-      "id": "c1_02_q046",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q047",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Richter erklärte, der Angeklagte ____ unschuldig gewesen.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "gewesen sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "'Sei' is the Konjunktiv I form of 'sein' for past statements in indirect speech.",
+      "id": "c1_02_q048"
     },
     {
-      "id": "c1_02_q048",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q049",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Zeitung meldete, der Preis ____ um zehn Prozent gestiegen.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "worden sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "For movement verbs in perfect tense, 'sein' becomes 'sei' in indirect speech.",
+      "id": "c1_02_q049"
     },
     {
-      "id": "c1_02_q050",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er teilte mit, er ____ am Wochenende nicht erreichbar.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "habe sein"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "State-of-being verbs use 'sei' (Konjunktiv I of 'sein') in reported speech.",
+      "id": "c1_02_q050"
     },
     {
-      "id": "c1_02_q051",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Analyst sagte, der Markt ____ sich in den nächsten Monaten erholen.",
+      "options": [
+        "werde",
+        "wolle",
+        "würde",
+        "wollte"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "'Werden' + infinitive (Konjunktiv II form sometimes preferred stylistically) is common in professional news reporting when Konjunktiv I would be ambiguous.",
+      "id": "c1_02_q051"
     },
     {
-      "id": "c1_02_q052",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Generalsekretär betonte, alle Mitgliedsstaaten ____ die Vereinbarung einhalten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "müssten",
+        "müssen",
+        "mussten",
+        "werden müssen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "müssten",
+      "explanation": "Konjunktiv II 'müssten' used to avoid confusion with indicative 'müssen' in formal reported speech.",
+      "id": "c1_02_q052"
     },
     {
-      "id": "c1_02_q053",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Sie schrieb, ihr Anwalt ____ sich um den Fall kümmern.",
+      "options": [
+        "werde",
+        "wolle",
+        "würde",
+        "wollte"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future-in-the-past in indirect speech where 'werden' + infinitive preserves future meaning in reported speech.",
+      "id": "c1_02_q053"
     },
     {
-      "id": "c1_02_q054",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q055",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Er meinte, das Auto ____ in der Werkstatt.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "gewesen sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Location statements use 'sei' (Konjunktiv I of 'sein') in indirect speech.",
+      "id": "c1_02_q054"
     },
     {
-      "id": "c1_02_q056",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der Fahrer gab an, er ____ nur Schrittgeschwindigkeit gefahren.",
+      "options": [
+        "habe",
+        "hat",
+        "hätte",
+        "sei"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "When 'haben' is the main verb, 'habe' in Konjunktiv I reports the statement exactly.",
+      "id": "c1_02_q055"
     },
     {
-      "id": "c1_02_q057",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die Kommission sei der Meinung, die Vorschriften ____ dringend überarbeitet werden.",
+      "options": [
+        "müssten",
+        "müssen",
+        "mussten",
+        "werden müssten"
+      ],
+      "correctAnswer": "müssten",
+      "explanation": "Konjunktiv II is required when the Konjunktiv I form of a modal verb ('müssen') is identical to the indicative.",
+      "id": "c1_02_q056"
     },
     {
-      "id": "c1_02_q058",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q059",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Das Ministerium teilte mit, die Öffnungszeiten ____ geändert.",
+      "options": [
+        "seien",
+        "sind",
+        "wären",
+        "worden seien"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "Plural passive in indirect speech uses 'seien' + past participle, the Konjunktiv I form of 'sein'.",
+      "id": "c1_02_q057"
     },
     {
-      "id": "c1_02_q060",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_02_q061",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Sie erwähnte, ihr Mann ____ Arzt von Beruf.",
+      "options": [
+        "sei",
+        "ist",
+        "wäre",
+        "gewesen sei"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Stative sentences use 'sei' in Konjunktiv I for profession or permanent state reports.",
+      "id": "c1_02_q058"
     },
     {
-      "id": "c1_02_q062",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er erklärte, seine Kollegin ____ die Aufgabe bereits erledigt.",
       "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
+        "habe",
+        "hat",
+        "hätte",
+        "hätte gehabt"
       ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
+      "correctAnswer": "habe",
+      "explanation": "Perfect tense passive in indirect speech uses 'habe' + past participle (with 'worden' omitted in shorthand constructions).",
+      "id": "c1_02_q059"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die Vertreterin sagte, sie ____ sich für die Lösung einsetzen.",
+      "options": [
+        "werde",
+        "würde",
+        "setze ein",
+        "setze sich ein"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "Future reflexive statements in indirect speech use 'werde' + reflexive infinitive to preserve the intended action.",
+      "id": "c1_02_q060"
     },
     {
-      "id": "c1_02_q063",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q064",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'er hat'?",
+      "options": [
+        "er hätte",
+        "er habe",
+        "er hatte",
+        "er hat"
+      ],
+      "correctAnswer": "er habe",
+      "explanation": "The Konjunktiv I of 'haben' in 3rd person singular is 'er habe'. 'Er hätte' is Konjunktiv II, 'er hatte' is Präteritum, and 'er hat' is Indikativ.",
+      "id": "c1_02_q061"
     },
     {
-      "id": "c1_02_q065",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'sie ist'?",
       "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
+        "sie wäre",
+        "sie war",
+        "sie sei",
+        "sie ist"
       ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
+      "correctAnswer": "sie sei",
+      "explanation": "'Sein' in Konjunktiv I, 3rd person singular, is 'sei'. 'Wäre' is Konjunktiv II, 'war' is Präteritum, and 'ist' is Indikativ Präsens.",
+      "id": "c1_02_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie in indirekte Rede um: Er sagte: 'Ich bin müde.'",
+      "options": [
+        "Er sagte, dass er müde ist.",
+        "Er sagte, er sei müde.",
+        "Er sagte, er wäre müde.",
+        "Er sagte, dass er müde war."
+      ],
+      "correctAnswer": "Er sagte, er sei müde.",
+      "explanation": "In indirect speech (indirekte Rede), the verb changes to Konjunktiv I: 'bin' → 'sei'. The conjunction 'dass' is optional; without it, the verb-second word order is kept.",
+      "id": "c1_02_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'sie gehen'?",
+      "options": [
+        "sie gingen",
+        "sie würden gehen",
+        "sie gehen",
+        "sie gehen (= gleich wie Indikativ)"
+      ],
+      "correctAnswer": "sie gehen (= gleich wie Indikativ)",
+      "explanation": "In the 3rd person plural, Konjunktiv I of regular verbs is identical to Indikativ Präsens (sie gehen). In such cases, Konjunktiv II or 'würde + Infinitiv' is used instead to make the indirect speech clear.",
+      "id": "c1_02_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wozu dient der Konjunktiv I hauptsächlich?",
+      "options": [
+        "Um irreale Bedingungen auszudrücken",
+        "Um höfliche Bitten zu formulieren",
+        "Um indirekte Rede wiederzugeben",
+        "Um die Vergangenheit zu beschreiben"
+      ],
+      "correctAnswer": "Um indirekte Rede wiederzugeben",
+      "explanation": "Konjunktiv I is primarily used in written German to report what someone else has said (indirect speech). Konjunktiv II is used for unreal conditions and polite requests.",
+      "id": "c1_02_q065"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie in indirekte Rede um: Die Ärztin sagte: 'Der Patient braucht Ruhe.'",
+      "options": [
+        "Die Ärztin sagte, der Patient brauche Ruhe.",
+        "Die Ärztin sagte, der Patient bräuchte Ruhe.",
+        "Die Ärztin sagte, dass der Patient Ruhe braucht.",
+        "Die Ärztin sagte, der Patient hätte Ruhe gebraucht."
+      ],
+      "correctAnswer": "Die Ärztin sagte, der Patient brauche Ruhe.",
+      "explanation": "'Brauchen' in Konjunktiv I, 3rd person singular, is 'brauche'. 'Bräuchte' is Konjunktiv II and would imply doubting. The Indikativ form 'braucht' is not used in formal indirect speech.",
+      "id": "c1_02_q066"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wann verwendet man Konjunktiv II statt Konjunktiv I in der indirekten Rede?",
+      "options": [
+        "Immer, wenn das Verb regelmäßig ist",
+        "Wenn die Konjunktiv-I-Form identisch mit dem Indikativ ist",
+        "Wenn der Sprecher der Aussage zustimmt",
+        "Nur bei Modalverben"
+      ],
+      "correctAnswer": "Wenn die Konjunktiv-I-Form identisch mit dem Indikativ ist",
+      "explanation": "When Konjunktiv I forms are identical to the Indikativ (e.g. 'sie gehen', 'wir kommen'), Konjunktiv II is used to clearly signal indirect speech and avoid ambiguity.",
+      "id": "c1_02_q067"
     },
     {
-      "id": "c1_02_q066",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q067",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q068",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um in indirekte Rede: Der Minister erklärte: 'Wir haben alle Maßnahmen ergriffen.'",
+      "options": [
+        "Der Minister erklärte, sie hätten alle Maßnahmen ergriffen.",
+        "Der Minister erklärte, wir haben alle Maßnahmen ergriffen.",
+        "Der Minister erklärte, wir hätten alle Maßnahmen ergriffen.",
+        "Der Minister erklärte, dass sie alle Maßnahmen ergreifen."
+      ],
+      "correctAnswer": "Der Minister erklärte, sie hätten alle Maßnahmen ergriffen.",
+      "explanation": "Konjunktiv I of 'haben' in 1st person plural ('wir haben') is identical to Indikativ, so Konjunktiv II 'hätten' is used. The pronoun also changes from 'wir' to 'sie' when reporting another person's speech.",
+      "id": "c1_02_q068"
     },
     {
-      "id": "c1_02_q069",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q070",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q071",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt? Die Sprecherin berichtete, die Verhandlungen ____ gescheitert.",
+      "options": [
+        "sind",
+        "waren",
+        "seien",
+        "wären"
+      ],
+      "correctAnswer": "seien",
+      "explanation": "'Sein' in Konjunktiv I, 3rd person plural, is 'seien'. This is the correct form for indirect speech in the Perfekt tense (seien + Partizip II = Konjunktiv I Perfekt).",
+      "id": "c1_02_q069"
     },
     {
-      "id": "c1_02_q072",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q073",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q074",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: Er sagte: 'Ich werde morgen anrufen.'",
+      "options": [
+        "Er sagte, er werde morgen anrufen.",
+        "Er sagte, er würde morgen anrufen.",
+        "Er sagte, er rufe morgen an.",
+        "Er sagte, er wird morgen anrufen."
+      ],
+      "correctAnswer": "Er sagte, er werde morgen anrufen.",
+      "explanation": "Konjunktiv I of 'werden' in 3rd person singular is 'werde'. This is used to report future statements in indirect speech. 'Würde' (Konjunktiv II) is an alternative but 'werde' is preferred in formal/written German.",
+      "id": "c1_02_q070"
     },
     {
-      "id": "c1_02_q075",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q076",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q077",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz gibt eine Frage korrekt in indirekter Rede wieder? Direkt: 'Wann kommt der Zug an?'",
+      "options": [
+        "Er fragte, wann der Zug ankomme.",
+        "Er fragte, wann kommt der Zug an.",
+        "Er fragte, ob der Zug ankomme.",
+        "Er fragte, wann der Zug ankam."
+      ],
+      "correctAnswer": "Er fragte, wann der Zug ankomme.",
+      "explanation": "Indirect questions with a question word ('wann', 'wo', 'wie') retain the question word and use verb-final word order with Konjunktiv I. No question mark is used.",
+      "id": "c1_02_q071"
     },
     {
-      "id": "c1_02_q078",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q079",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q080",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie die Ja/Nein-Frage in indirekte Rede um: 'Hast du die E-Mail gelesen?'",
+      "options": [
+        "Er fragte, ob ich die E-Mail gelesen habe.",
+        "Er fragte, ob ich die E-Mail gelesen hätte.",
+        "Er fragte, ob ich die E-Mail lese.",
+        "Er fragte, habe ich die E-Mail gelesen."
+      ],
+      "correctAnswer": "Er fragte, ob ich die E-Mail gelesen hätte.",
+      "explanation": "Yes/no questions in indirect speech use 'ob' as conjunction. Since 'habe' (Konjunktiv I Perfekt of 'haben' in 1st person singular) is identical to Indikativ, Konjunktiv II 'hätte' is preferred.",
+      "id": "c1_02_q072"
     },
     {
-      "id": "c1_02_q081",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q082",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q083",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist der Konjunktiv I von 'er kann'?",
+      "options": [
+        "er könnte",
+        "er kann",
+        "er kenne",
+        "er könne"
+      ],
+      "correctAnswer": "er könne",
+      "explanation": "Konjunktiv I of the modal verb 'können' in 3rd person singular is 'könne'. 'Könnte' is Konjunktiv II. Konjunktiv I of modals is formed from the infinitive stem without umlaut.",
+      "id": "c1_02_q073"
     },
     {
-      "id": "c1_02_q084",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie um: Der Zeuge sagte: 'Ich habe nichts gesehen und weiß auch nichts.'",
+      "options": [
+        "Der Zeuge sagte, er habe nichts gesehen und wisse auch nichts.",
+        "Der Zeuge sagte, er hätte nichts gesehen und wüsste auch nichts.",
+        "Der Zeuge sagte, er hat nichts gesehen und weiß auch nichts.",
+        "Der Zeuge sagte, er habe nichts gesehen und wüsste auch nichts."
+      ],
+      "correctAnswer": "Der Zeuge sagte, er habe nichts gesehen und wisse auch nichts.",
+      "explanation": "'Habe gesehen' is Konjunktiv I Perfekt (correct). 'Wisse' is Konjunktiv I of 'wissen' (3rd person singular). Both are distinct from Indikativ, so Konjunktiv I is used throughout without switching to Konjunktiv II.",
+      "id": "c1_02_q074"
     },
     {
-      "id": "c1_02_q085",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem Stilregister wird Konjunktiv I in der indirekten Rede bevorzugt verwendet?",
       "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
+        "In der gesprochenen Umgangssprache",
+        "In Kinderbüchern und einfachen Texten",
+        "In Nachrichtentexten, wissenschaftlichen und offiziellen Texten",
+        "Nur in literarischen Werken des 18. Jahrhunderts"
       ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
+      "correctAnswer": "In Nachrichtentexten, wissenschaftlichen und offiziellen Texten",
+      "explanation": "Konjunktiv I is the standard form for indirect speech in formal written German — newspapers, academic writing, and official reports. In spoken everyday German, Konjunktiv II or 'dass' + Indikativ is more common.",
+      "id": "c1_02_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie um: Die Forscherin berichtete: 'Unsere Ergebnisse widerlegen die bisherige Theorie vollständig.'",
+      "options": [
+        "Die Forscherin berichtete, ihre Ergebnisse widerlegten die bisherige Theorie vollständig.",
+        "Die Forscherin berichtete, ihre Ergebnisse widerlegen die bisherige Theorie vollständig.",
+        "Die Forscherin berichtete, ihre Ergebnisse hätten die bisherige Theorie vollständig widerlegt.",
+        "Die Forscherin berichtete, ihre Ergebnisse würden die bisherige Theorie vollständig widerlegen."
+      ],
+      "correctAnswer": "Die Forscherin berichtete, ihre Ergebnisse widerlegten die bisherige Theorie vollständig.",
+      "explanation": "Konjunktiv I of 'widerlegen' in 3rd person plural ('sie widerlegen') is identical to Indikativ, so Konjunktiv II 'widerlegten' is used. The pronoun shifts from 'unsere' to 'ihre'.",
+      "id": "c1_02_q076"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage zur indirekten Rede ist FALSCH?",
+      "options": [
+        "Bei indirekter Rede ohne 'dass' bleibt die Verbzweitstellung erhalten.",
+        "Konjunktiv I signalisiert, dass der Sprecher die Aussage nicht selbst bestätigt.",
+        "Bei indirekter Rede muss immer 'dass' verwendet werden.",
+        "Pronomen und Possessivartikel ändern sich je nach Sprecher."
+      ],
+      "correctAnswer": "Bei indirekter Rede muss immer 'dass' verwendet werden.",
+      "explanation": "'Dass' is optional in indirect speech. Without it, the verb stays in second position (verb-second word order). Both constructions are correct: 'Er sagte, er sei krank' and 'Er sagte, dass er krank sei'.",
+      "id": "c1_02_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie den Imperativ in indirekte Rede um: Der Arzt sagte: 'Nehmen Sie die Tabletten dreimal täglich!'",
+      "options": [
+        "Der Arzt sagte, sie sollen die Tabletten dreimal täglich nehmen.",
+        "Der Arzt sagte, ich solle die Tabletten dreimal täglich nehmen.",
+        "Der Arzt sagte mir, ich solle die Tabletten dreimal täglich nehmen.",
+        "Der Arzt sagte, nehmen Sie die Tabletten dreimal täglich."
+      ],
+      "correctAnswer": "Der Arzt sagte mir, ich solle die Tabletten dreimal täglich nehmen.",
+      "explanation": "Imperatives in indirect speech are reported using 'sollen' in Konjunktiv I ('solle'). The indirect object 'mir' clarifies who the instruction was directed at, and the pronoun shifts to 'ich' from the patient's perspective.",
+      "id": "c1_02_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bestimmen Sie die Zeitform: 'Der Sprecher erklärte, die Verhandlungen hätten bereits begonnen.'",
+      "options": [
+        "Konjunktiv I Präsens",
+        "Konjunktiv II Präsens",
+        "Konjunktiv II Perfekt",
+        "Konjunktiv I Perfekt"
+      ],
+      "correctAnswer": "Konjunktiv II Perfekt",
+      "explanation": "'Hätten begonnen' = Konjunktiv II ('hätten') + Partizip II ('begonnen'). Since Konjunktiv I Perfekt of 'haben' is identical to Indikativ, Konjunktiv II Perfekt is used instead to avoid ambiguity.",
+      "id": "c1_02_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung in indirekte Rede ist in einem Zeitungsartikel stilistisch am korrektesten? Direkt: Der Politiker sagte: 'Wir werden die Steuern senken.'",
+      "options": [
+        "Der Politiker sagte, dass sie die Steuern senken werden.",
+        "Der Politiker sagte, sie würden die Steuern senken.",
+        "Der Politiker sagte, sie werden die Steuern senken.",
+        "Der Politiker sagte, sie wollen die Steuern senken."
+      ],
+      "correctAnswer": "Der Politiker sagte, sie würden die Steuern senken.",
+      "explanation": "Konjunktiv I of 'werden' in 3rd person plural ('sie werden') is identical to Indikativ, so Konjunktiv II 'würden' is the correct and stylistically appropriate choice in journalism.",
+      "id": "c1_02_q080"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie die Luecke fuer die indirekte Rede: Der Minister betonte, die Regierung ____ alle notwendigen Massnahmen ergreifen.",
+      "options": [
+        "werde",
+        "wird",
+        "wuerde",
+        "werden"
+      ],
+      "correctAnswer": "werde",
+      "explanation": "For the third person singular (die Regierung), Konjunktiv I of 'werden' is 'werde'. It is the standard form used in indirect speech to report a statement objectively.",
+      "id": "c1_02_q081"
     },
     {
-      "id": "c1_02_q086",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt, wenn Konjunktiv I und Indikativ identisch sind? Sie sagten: 'Wir reisen morgen ab.' -> Sie sagten, sie ____ morgen ab.",
+      "options": [
+        "verreisen",
+        "reisten",
+        "reisen",
+        "wuerden abreisen"
+      ],
+      "correctAnswer": "reisten",
+      "explanation": "Konjunktiv I 'reisen' is identical to indicative 'sie reisen'. Therefore, Konjunktiv II ('reisten') is used to clearly mark indirect speech. The 'wuerde'-construction is also acceptable in spoken language.",
+      "id": "c1_02_q082"
     },
     {
-      "id": "c1_02_q087",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q088",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Verb im Konjunktiv I: Der Zeuge behauptete, er ____ den An geklagten noch nie zuvor gesehen.",
+      "options": [
+        "habe",
+        "haette",
+        "hat",
+        "habe gehabt"
+      ],
+      "correctAnswer": "habe",
+      "explanation": "Original statement was in Perfekt or Praeteritum. In indirect speech, past tenses are rendered using Konjunktiv I of auxiliary 'haben' (3rd person singular: 'habe') + Past Participle.",
+      "id": "c1_02_q083"
     },
     {
-      "id": "c1_02_q089",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie die richtige Form von 'sein': Die Forscher gaben an, die Ergebnisse ____ eindeutig.",
       "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
+        "seien",
+        "sind",
+        "waeren",
+        "seist"
       ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
+      "correctAnswer": "seien",
+      "explanation": "Subject 'die Ergebnisse' is plural (3rd person plural). Konjunktiv I of 'sein' in plural is 'seien'. Unlike many other verbs, 'seien' is visibly distinct from indicative 'sind', so no replacement form is needed.",
+      "id": "c1_02_q084"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wie wird eine Aufforderung in der indirekten Rede korrekt wiedergegeben? Der Arzt riet mir: 'Trinken Sie mehr Wasser!' -> Der Arzt riet mir, ich ____ mehr Wasser trinken.",
+      "options": [
+        "solle",
+        "müsse",
+        "werde",
+        "wolle"
+      ],
+      "correctAnswer": "solle",
+      "explanation": "Commands, requests, or advices are converted into indirect speech using 'sollen' in Konjunktiv I form ('solle'). This is the standard C1 transformation for imperatives.",
+      "id": "c1_02_q085"
     },
     {
-      "id": "c1_02_q090",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q091",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q092",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Eraeutzen Sie den Satz: Der Oekonom erklaerte, durch die Krise ____ viele Unternehmen Insolvenz anmelden.",
+      "options": [
+        "muessten",
+        "muessen",
+        "muesst",
+        "muessten"
+      ],
+      "correctAnswer": "muessten",
+      "explanation": "Subject 'viele Unternehmen' is plural. Konjunktiv I 'muessen' is identical to indicative present tense. Therefore it is replaced by Konjunktiv II 'muessten'.",
+      "id": "c1_02_q086"
     },
     {
-      "id": "c1_02_q093",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_02_q094",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Form von 'wissen' passt in diese C1-Erzählung? Die An geklagte beteuerte, sie ____ nichts von den illegalen Transaktionen.",
+      "options": [
+        "wisse",
+        "wusste",
+        "wuesste",
+        "habe gewusst"
+      ],
+      "correctAnswer": "wisse",
+      "explanation": "Present-tense 'Ich weiss nichts' becomes 'sie wisse' in 3rd person singular Konjunktiv I. 'Wisse' is distinct from indicative 'weiss', so Konjunktiv I is used directly.",
+      "id": "c1_02_q087"
     },
     {
-      "id": "c1_02_q095",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Transformieren Sie eine Frage ohne Fragewort: Er fragte mich: 'Kommst du mit?' -> Er fragte mich, ____ ich mitkomme.",
       "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
+        "ob",
+        "dass",
+        "wann",
+        "wie"
       ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
+      "correctAnswer": "ob",
+      "explanation": "Yes/No questions (Entscheidungsfragen) without an interrogative pronoun are introduced with the conjunction 'ob' in indirect speech.",
+      "id": "c1_02_q088"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie das korrekte Verb fuer die indirekte Rede der Vergangenheit: Die Zeugen sagten aus, sie ____ den Unfallort sofort verlassen.",
+      "options": [
+        "haetten",
+        "haben",
+        "haetten gehabt",
+        "seien"
+      ],
+      "correctAnswer": "haetten",
+      "explanation": "In plural, Konjunktiv I 'haben' is identical to indicative 'sie haben'. Thus it is replaced by Konjunktiv II 'haetten'.",
+      "id": "c1_02_q089"
     },
     {
-      "id": "c1_02_q096",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Was signalisiert der Gebrauch von Konjunktiv II statt Konjunktiv I in: 'Der Sprecher sagte, der Chef haette keine Zeit gehabt.'?",
+      "options": [
+        "Der Berichtende zweifelt an der Richtigkeit der Aussage.",
+        "Der Satz ist grammatikalisch falsch.",
+        "Es handelt sich um ein Versprechen fuer die Zukunft.",
+        "Der Sprecher betont, dass er absolut sicher ist."
+      ],
+      "correctAnswer": "Der Berichtende zweifelt an der Richtigkeit der Aussage.",
+      "explanation": "Shifting to Konjunktiv II when Konjunktiv I would have been unambiguous signals distance from the statement or doubt about its truth.",
+      "id": "c1_02_q090"
     },
     {
-      "id": "c1_02_q097",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Eraeutzen Sie das Passiv in der indirekten Rede: Der Bericht stellte fest, dass das Gebaeude bereits im Mai ____.",
       "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
+        "verkauft worden sei",
+        "verkauft worden waere",
+        "verkauft wurde",
+        "verkauft worden sein werde"
       ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
+      "correctAnswer": "verkauft worden sei",
+      "explanation": "Past passive in Konjunktiv I is formed using past participle + 'worden' + Konjunktiv I of 'sein' (3rd person singular: 'sei').",
+      "id": "c1_02_q091"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktiv I Form von 'geben' ist korrekt? Der Wetterdienst teilte mit, es ____ am Wochenende heftige Unwetter.",
+      "options": [
+        "gebe",
+        "gae be",
+        "gibt",
+        "geben werde"
+      ],
+      "correctAnswer": "gebe",
+      "explanation": "Third person singular of 'geben' in Konjunktiv I is 'gebe'. It is distinct from indicative 'gibt', so no Konjunktiv II replacement is needed.",
+      "id": "c1_02_q092"
     },
     {
-      "id": "c1_02_q098",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Setzen Sie in die indirekte Rede (Zukunft): Sie versicherten uns: 'Wir werden punktlich liefern.' -> Sie versicherten uns, sie ____ punktlich liefern.",
+      "options": [
+        "wuerden",
+        "werden",
+        "werdet",
+        "wollten"
+      ],
+      "correctAnswer": "wuerden",
+      "explanation": "Plural Konjunktiv I 'werden' matches the indicative. Therefore it is replaced by Konjunktiv II form 'wuerden' to indicate future tense in indirect speech.",
+      "id": "c1_02_q093"
     },
     {
-      "id": "c1_02_q099",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte indirekte Rede fuer ein Verbot? Der Chef wies an: 'Niemand darf das Labor ohne Maske betreten.' -> Der Chef wies an, niemand ____ das Labor ohne Maske betreten.",
       "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
+        "duerfe",
+        "darf",
+        "due rfte",
+        "solle"
       ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
+      "correctAnswer": "duerfe",
+      "explanation": "Modal verb 'due rfen' in Konjunktiv I 3rd person singular is 'duerfe'. This is used directly in indirect speech for permission/prohibition statements.",
+      "id": "c1_02_q094"
+    },
+    {
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist stilistisch auf bestem C1-Niveau fuer journalistische Berichterstattung?",
+      "options": [
+        "Laut Regierungsangaben wolle man die Steuern im naechsten Jahr senken.",
+        "Die Regierung sagte, dass sie die Steuern naechstes Jahr senken wollen.",
+        "Regierungsangaben zufolge wuerden die Steuern naechstes Jahr gesenkt werden.",
+        "Der Kanzler sagte, er wird die Steuern senken."
+      ],
+      "correctAnswer": "Laut Regierungsangaben wolle man die Steuern im naechsten Jahr senken.",
+      "explanation": "The combination of prepositional source reference 'Laut...' with modal verb 'wollen' in Konjunktiv I ('wolle') represents excellent academic/journalistic style.",
+      "id": "c1_02_q095"
     },
     {
-      "id": "c1_02_q100",
-      "subjectId": "c1_02",
-      "topicName": "Konjunktiv II: alle Formen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie die indirekte Rede: Die Aktivisten meinten, sie ____ seit Jahren fuer den Klimaschutz.",
       "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
+        "kaempften",
+        "kaempfen",
+        "haben gekuaempft",
+        "wuerden kaempfen"
       ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
+      "correctAnswer": "kaempften",
+      "explanation": "For plural 'sie', Konjunktiv I 'kaempfen' is identical to indicative. The correct substitution is Konjunktiv II 'kaempften'.",
+      "id": "c1_02_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjunktiv-Form von 'moegen' druckt einen Wunsch in der indirekten Rede aus? Der Kunde aeusserte, er ____ mit dem Geschaeftsfuehrer sprechen.",
+      "options": [
+        "moechte",
+        "mache",
+        "mag",
+        "moege"
+      ],
+      "correctAnswer": "moechte",
+      "explanation": "'Moechte' (Konjunktiv II of 'moegen') is the standard way to express a polite wish in indirect speech, matching the direct speech choice 'Ich moechte...'.",
+      "id": "c1_02_q097"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Eraeutzen Sie das fehlende Verb: Die Nachbarn behaupteten, sie ____ die laute Musik gar nicht gehoert.",
+      "options": [
+        "haetten",
+        "haben",
+        "habe",
+        "seien"
+      ],
+      "correctAnswer": "haetten",
+      "explanation": "Since 'die Nachbarn' is plural, the past auxiliary 'haben' is replaced by Konjunktiv II 'haetten' because Konjunktiv I ('haben') equals the indicative.",
+      "id": "c1_02_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem Fall wird der Konjunktiv I in der Alltagssprache am haeufigsten durch den Indikativ ersetzt, ohne dass es falsch wirkt?",
+      "options": [
+        "Wenn der Nebensatz mit der Konjunktion 'dass' eingeleitet wird.",
+        "Wenn der Hauptsatz im Praeteritum steht.",
+        "Wenn es sich um wissenschaftliche Berichte handelt.",
+        "Wenn der Sprecher seine eigene Aussage wiederholt."
+      ],
+      "correctAnswer": "Wenn der Nebensatz mit der Konjunktion 'dass' eingeleitet wird.",
+      "explanation": "In modern German, introducing the indirect speech clause with 'dass' often tolerates the indicative mood in colloquial registers, as the subordination itself already marks the indirect nature.",
+      "id": "c1_02_q099"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Eraeutzen Sie die Luecke: Das Gericht stellte klar, der An geklagte ____ voll schuldfaehig.",
+      "options": [
+        "sei",
+        "waere",
+        "ist",
+        "seien"
+      ],
+      "correctAnswer": "sei",
+      "explanation": "Subject 'der An geklagte' is singular. Konjunktiv I of 'sein' is 'sei', making it ideal for formal court reporting.",
+      "id": "c1_02_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

@@ -1,1553 +1,3219 @@
 {
+  "version": "1.0",
   "subjectId": "a2_08",
-  "topicName": "da-Komposita",
+  "topicName": "Plusquamperfekt",
   "level": "A2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 160,
   "questions": [
     {
       "id": "a2_08_q001",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_001",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er die schwierige Prüfung ______, fühlte er sich endlich erleichtert.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "hat bestanden",
+        "bestanden hatte",
+        "bestand",
+        "bestanden hätte"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "bestanden hatte",
+      "explanation": "Plusquamperfekt: In a 'nachdem' clause, the earlier action uses Plusquamperfekt (hatte + Partizip II).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q002",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich ___ dir helfen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_002",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir kamen zu spät zum Bahnhof; der Zug ______ bereits fünf Minuten vorher ______.",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "ist / abgefahren",
+        "war / abgefahren",
+        "hatte / abgefahren",
+        "war / abfahren"
       ],
-      "correctAnswer": "kann",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "war / abgefahren",
+      "explanation": "abfahren (change of location): uses sein → Plusquamperfekt: war abgefahren.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q003",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ du mit mir kommen?",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_003",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor sie nach Deutschland auswanderte, ______ sie jahrelang intensiv Deutsch ______.",
       "options": [
-        "Kannst",
-        "Kann",
-        "Können",
-        "Konntest"
+        "hat / gelernt",
+        "hatte / gelernt",
+        "war / gelernt",
+        "hätte / gelernt"
       ],
-      "correctAnswer": "Kannst",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / gelernt",
+      "explanation": "lernen (transitive): uses haben → Plusquamperfekt: hatte gelernt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q004",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ___ schon in München.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_004",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als die Polizei eintraf, ______ die Einbrecher bereits über alle Berge ______.",
       "options": [
-        "war",
-        "ist",
-        "hat",
-        "wird"
+        "waren / geflohen",
+        "sind / geflohen",
+        "hatten / geflohen",
+        "waren / entfloht"
       ],
-      "correctAnswer": "war",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "waren / geflohen",
+      "explanation": "fliehen (change of location/state): uses sein → Plusquamperfekt: waren geflohen.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q005",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_005",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er erkannte den Fehler erst, nachdem er das Dokument schon ______ ______.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "hat / abgeschickt",
+        "hatte / abgeschickt",
+        "war / abgeschickt",
+        "hatte / abschicken"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / abgeschickt",
+      "explanation": "abschicken: the sending was completed first → Plusquamperfekt: hatte abgeschickt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q006",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_006",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen musste Insolvenz anmelden, weil die Umsätze jahrelang ______ ______.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "waren / gesunken",
+        "sind / gesunken",
+        "hatten / gesunken",
+        "waren / gesenkt"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "waren / gesunken",
+      "explanation": "sinken (intransitive, decrease/fall): uses sein → Plusquamperfekt: waren gesunken.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q007",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_007",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich wusste sofort, dass ich diesen Mann schon einmal irgendwo ______ ______.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "habe / gesehen",
+        "war / gesehen",
+        "hatte / gesehen",
+        "hätte / gesehen"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / gesehen",
+      "explanation": "sehen: seeing something earlier in the past → Plusquamperfekt: hatte gesehen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q008",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_008",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Delegation in Berlin ______, begann sofort die Konferenz.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "angekommen war",
+        "angekommen ist",
+        "ankam",
+        "ankommt"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "angekommen war",
+      "explanation": "ankommen: the arrival happened earlier → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q009",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_009",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie war sehr müde, denn sie ______ in der Nacht zuvor kaum ______.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "hat / geschlafen",
+        "war / geschlafen",
+        "hatte / geschlafen",
+        "hätte / geschlafen"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / geschlafen",
+      "explanation": "schlafen: auxiliary verb haben → Plusquamperfekt: hatte geschlafen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q010",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_010",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ du den Bericht bereits ______ ______, bevor der Chef danach fragte?",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "Hast / beendet",
+        "Hattest / beendet",
+        "Warst / beendet",
+        "Hättest / beendet"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Hattest / beendet",
+      "explanation": "beenden: 'Had you finished?' → Plusquamperfekt question: Hattest du beendet?",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q011",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_011",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Haus stand leer, da die Besitzer bereits im Vorjahr ______ ______.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "sind / ausgezogen",
+        "waren / ausgezogen",
+        "hatten / ausgezogen",
+        "waren / ausziehen"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "waren / ausgezogen",
+      "explanation": "ausziehen (change of location): uses sein → Plusquamperfekt: waren ausgezogen.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q012",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_012",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er bedauerte es sehr, dass er die Einladung ______ ______.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "hat / abgelehnt",
+        "hatte / abgelehnt",
+        "war / abgelehnt",
+        "hätte / abgelehnt"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / abgelehnt",
+      "explanation": "ablehnen: the rejection happened before the regret → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q013",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_013",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Sturm sich ______, begannen die Aufräumarbeiten.",
       "options": [
-        "hat / gegangen",
-        "ist / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "gelegt hatte",
+        "gelegt hat",
+        "legte",
+        "gelegt hätte"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "gelegt hatte",
+      "explanation": "sich legen (change of state): uses sein → Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q014",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_014",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir wussten nicht, dass sie sich schon vor Monaten ______ ______.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "haben / getrennt",
+        "hatten / getrennt",
+        "waren / getrennt",
+        "sind / getrennt"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatten / getrennt",
+      "explanation": "sich trennen: reflexive verbs always use haben → Plusquamperfekt: hatten getrennt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q015",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_015",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor der neue CEO kam, ______ die Firma eine völlig andere Strategie ______.",
       "options": [
-        "kochen",
-        "kocht",
-        "gekocht",
-        "kochte"
+        "hat / verfolgt",
+        "hatte / verfolgt",
+        "war / verfolgt",
+        "hätte / verfolgt"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / verfolgt",
+      "explanation": "verfolgen (to pursue/a strategy): uses haben → hatte verfolgt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q016",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_016",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sobald er die Nachricht ______ ______, rief er sofort seine Anwältin an.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "hat / erhalten",
+        "hatte / erhalten",
+        "war / erhalten",
+        "erhielt"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / erhalten",
+      "explanation": "erhalten: receiving the news, before the inquiry → Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q017",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_017",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Straße war glatt, weil es in der Nacht zuvor gefroren ______.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "hat",
+        "war",
+        "hatte",
+        "ist"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte",
+      "explanation": "frieren (weather event): haben is preferred as auxiliary → hatte gefroren.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q018",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_018",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er konnte die Frage nicht beantworten, da er den Text nicht aufmerksam ______ ______.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "hat / gelesen",
+        "hatte / gelesen",
+        "war / gelesen",
+        "hätte / gelesen"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / gelesen",
+      "explanation": "lesen: the reading action was lacking → Plusquamperfekt: hatte gelesen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q019",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_019",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Projekt erfolgreich ______ ______, feierte das gesamte Team.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "abgeschlossen war",
+        "abgeschlossen wurde",
+        "abgeschlossen worden war",
+        "abgeschlossen worden ist"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "abgeschlossen worden war",
+      "explanation": "Passiv Plusquamperfekt: war worden (worden = Partizip II of werden).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q020",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_020",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er war schockiert, weil jemand sein Auto ______ ______.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "hat / gestohlen",
+        "war / gestohlen",
+        "hatte / gestohlen",
+        "hätte / gestohlen"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / gestohlen",
+      "explanation": "stehlen: the theft happened before the shock → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q021",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_021",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Kommission ihren Abschlussbericht _______ _______, wurden die Ergebnisse der Öffentlichkeit präsentiert.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "hat / vorgelegt",
+        "hatte / vorgelegt",
+        "war / vorgelegt",
+        "hatte / vorlegen"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / vorgelegt",
+      "explanation": "vorschlagen: uses haben → Plusquamperfekt: hatte vorgelegt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q022",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_022",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als die Rettungskräfte eintrafen, _______ das Feuer bereits auf mehrere Gebäude _______.",
       "options": [
-        "bei",
-        "auf",
-        "nach",
-        "von"
+        "hat / übergegriffen",
+        "ist / übergegriffen",
+        "war / übergegriffen",
+        "hatte / übergegriffen"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / übergegriffen",
+      "explanation": "übergreifen: to spread/extend → uses haben.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q023",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_023",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er bereute, dass er die Warnsignale so lange _______ _______.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "hat / ignoriert",
+        "hatte / ignoriert",
+        "ist / ignoriert",
+        "war / ignoriert"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / ignoriert",
+      "explanation": "ignorieren: to ignore → uses haben → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q024",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_024",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor die neue Gesetzgebung in Kraft trat, _______ viele Unternehmen bereits _______, ihre Strukturen anzupassen.",
       "options": [
-        "gefahren",
-        "gefahren",
-        "gefahre",
-        "fährt"
+        "haben / begonnen",
+        "sind / begonnen",
+        "hatten / begonnen",
+        "waren / begonnen"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatten / begonnen",
+      "explanation": "beginnen: to begin → uses haben → Plusquamperfekt: hatten begonnen.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q025",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_025",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Zeugin berichtete, dass der Verdächtige den Tatort _______ _______, bevor die Polizei eintraf.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "hat / verlassen",
+        "hatte / verlassen",
+        "ist / verlassen",
+        "war / verlassen"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / verlassen",
+      "explanation": "verlassen: to leave → uses haben → Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q026",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_026",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kaum _______ der Vorsitzende seinen Rücktritt _______, begannen die Spekulationen über seine Nachfolge.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "hat / angekündigt",
+        "hatte / angekündigt",
+        "ist / angekündigt",
+        "war / angekündigt"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / angekündigt",
+      "explanation": "'kaum ... da' structure with Plusquamperfekt → hatte angekündigt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q027",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_027",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Obwohl sie jahrelang _______ _______, konnte sie die Prüfung nicht bestehen.",
       "options": [
-        "habt / gesehen",
-        "hat / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "hatte / gelernt",
+        "hat / gelernt",
+        "war / gelernt",
+        "hatte / lernen"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / gelernt",
+      "explanation": "obwohl with time sequence: learning came first → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q028",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_028",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Forscher stellte fest, dass jemand die Versuchsergebnisse nachträglich _______ _______.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "hat / manipuliert",
+        "hatte / manipuliert",
+        "ist / manipuliert",
+        "war / manipuliert"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / manipuliert",
+      "explanation": "manipulieren: an action that happened earlier in the past → Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q029",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_029",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem alle Beteiligten ihre Stellungnahmen _______ _______, wurde die Sitzung geschlossen.",
       "options": [
-        "von / übertönt",
-        "vor / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "haben / abgegeben",
+        "hatten / abgegeben",
+        "sind / abgegeben",
+        "waren / abgegeben"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hatten / abgegeben",
+      "explanation": "abgeben: to submit → uses haben → Plusquamperfekt: hatten abgegeben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q030",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Die Aufgabe ist ___ zu ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_030",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie wusste nicht, dass ihr Kollege das Projekt bereits ohne ihre Zustimmung _______ _______.",
       "options": [
-        "schwer / lösen",
-        "schwerer / lösen",
-        "am schwersten / lösen",
-        "schwere / gelöst"
+        "hat / eingereicht",
+        "hatte / eingereicht",
+        "ist / eingereicht",
+        "war / eingereicht"
       ],
-      "correctAnswer": "schwer / lösen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hatte / eingereicht",
+      "explanation": "einreichen: to submit → uses haben → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q031",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_031",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als der Skandal ans Licht kam, _______ der Hauptverantwortliche bereits _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / geflohen",
+        "hatte / geflohen",
+        "ist / geflohen",
+        "war / geflohen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "war / geflohen",
+      "explanation": "fliehen (to flee): uses sein → war geflohen.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q032",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_032",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Anwalt argumentierte, sein Mandant _______ die fraglichen Dokumente nie _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe / gesehen",
+        "hätte / gesehen",
+        "hatte / gesehen",
+        "hat / gesehen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hätte / gesehen",
+      "explanation": "Konjunktiv II Vergangenheit — in indirect speech, Plusquamperfekt is used.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q033",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_033",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor er die endgültige Entscheidung traf, _______ er alle verfügbaren Optionen sorgfältig _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / abgewogen",
+        "hatte / abgewogen",
+        "ist / abgewogen",
+        "war / abgewogen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hatte / abgewogen",
+      "explanation": "abwägen: to weigh/consider → uses haben → Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q034",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_034",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es stellte sich heraus, dass die Angaben, die er gemacht _______, nicht der Wahrheit entsprachen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "war",
+        "ist"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "machen: related verb → the action that had been done.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q035",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_035",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie früher _______ _______, wäre die Situation nicht so eskaliert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / eingegriffen",
+        "hätte / eingegriffen",
+        "hatte / eingegriffen",
+        "wäre / eingegriffen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hätte / eingegriffen",
+      "explanation": "Konjunktiv II Vergangenheit — conditional clause.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q036",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_036",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Verhandlungen mehrfach _______ _______, einigten sich die Parteien schließlich auf einen Kompromiss.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben / gescheitert",
+        "hatten / gescheitert",
+        "sind / gescheitert",
+        "waren / gescheitert"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "waren / gescheitert",
+      "explanation": "scheitern: to fail → uses sein → waren gescheitert.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q037",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_037",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht enthüllte, dass die Behörden jahrelang _______, obwohl sie von den Missständen _______ _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "schwiegen / hatten / gewusst",
+        "schwiegen / haben / gewusst",
+        "schweigen / hatten / gewusst",
+        "schwiegen / waren / gewusst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "schwiegen / hatten / gewusst",
+      "explanation": "Präteritum + Plusquamperfekt combination: schwiegen (Prät) + hatten gewusst.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q038",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_038",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als man die Akten öffnete, wurde deutlich, dass entscheidende Beweise _______ _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wurden / vernichtet",
+        "worden waren / vernichtet",
+        "vernichtet worden waren / –",
+        "vernichtet waren / worden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "vernichtet worden waren / –",
+      "explanation": "Passiv Plusquamperfekt: vernichtet worden waren.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q039",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_039",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er wäre nicht in diese Lage geraten, wenn er auf den Rat seiner Berater _______ _______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / gehört",
+        "hätte / gehört",
+        "hatte / gehört",
+        "wäre / gehört"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hätte / gehört",
+      "explanation": "Konjunktiv II Vergangenheit — counterfactual condition.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q040",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_040",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Unternehmen Insolvenz _______ _______, verloren Hunderte von Mitarbeitenden ihren Arbeitsplatz.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / angemeldet",
+        "hatte / angemeldet",
+        "ist / angemeldet",
+        "war / angemeldet"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hatte / angemeldet",
+      "explanation": "Insolvenz anmelden: uses haben → Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q041",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Nach\" braucht immer den Dativ.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_041",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Professor den Vortrag beendet ______, stellten die Studenten Fragen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "gewesen",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, verb beenden uses haben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q042",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Im Perfekt sagt man \"ich habe gesehen\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_042",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als wir am Bahnhof ankamen, ______ der Zug bereits abgefahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "war",
+        "ist",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "war",
+      "explanation": "war — sein for Plusquamperfekt (abfahren → sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q043",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Oder\" verbindet zwei Hauptsätze.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_043",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma konnte expandieren, nachdem sie neue Investoren gefunden ______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "war",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, verb finden uses haben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q044",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Denn\" leitet einen Nebensatz ein.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_044",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor ich nach Deutschland zog, ______ ich mehrere Jahre in der Türkei gearbeitet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe",
+        "hatte",
+        "war",
+        "bin"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, verb arbeiten uses haben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q045",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Wegen\" braucht den Dativ.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_045",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Gäste gegangen waren, ______ wir endlich aufräumen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "konnten",
+        "können",
+        "gekonnt",
+        "konnten hatten"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "konnten",
+      "explanation": "konnten — Präteritum of können.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q046",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Im Präteritum: \"ich war\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_046",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er war erschöpft, weil er die ganze Nacht nicht geschlafen ______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "war",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, verb schlafen uses haben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q047",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Das gefällt mir\" braucht den Dativ.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_047",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Wissenschaftler die Daten analysiert hatten, ______ sie ihre Ergebnisse.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "veröffentlichten",
+        "veröffentlichen",
+        "veröffentlicht",
+        "haben veröffentlicht"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "veröffentlichten",
+      "explanation": "veröffentlichten — Präteritum of veröffentlichen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q048",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Ob\" leitet einen Nebensatz ein.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_048",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als die Polizei eintraf, ______ der Täter bereits verschwunden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "war",
+        "ist",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "war",
+      "explanation": "war — sein for Plusquamperfekt (verschwinden → sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q049",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Am\" wird bei Wochentagen verwendet.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_049",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie konnte die Prüfung bestehen, weil sie intensiv gelernt ______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "war",
+        "ist"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, verb lernen uses haben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q050",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Zur\" ist die Kurzform von \"zu der\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_050",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir das Problem diskutiert hatten, ______ wir eine Lösung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "fanden",
+        "finden",
+        "gefunden",
+        "haben gefunden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "fanden",
+      "explanation": "fanden — Präteritum of finden.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q051",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_051",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Student war nervös, weil er sich nicht gut vorbereitet ______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "war",
+        "ist"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, sich vorbereiten haben ile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q052",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_052",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Konzert begonnen hatte, ______ noch viele Besucher herein.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "kamen",
+        "kommen",
+        "gekommen",
+        "sind gekommen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "kamen",
+      "explanation": "kamen — Präteritum of kommen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q053",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_053",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als ich ihn traf, ______ er bereits von dem Unfall erfahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "war",
+        "ist",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, erfahren fiili haben ile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q054",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_054",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder waren müde, weil sie den ganzen Tag gespielt ______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatten",
+        "haben",
+        "waren",
+        "sind"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hatten",
+      "explanation": "hatten — Plusquamperfekt, spielen fiili haben ile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q055",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_055",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie ihr Studium abgeschlossen hatte, ______ sie im Ausland zu arbeiten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "begann",
+        "beginnt",
+        "begonnen",
+        "hat begonnen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "begann",
+      "explanation": "begann — Präteritum of beginnen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q056",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_056",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Chef war verärgert, weil niemand ihn informiert ______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "war",
+        "ist"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, informieren fiili haben ile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q057",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_057",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als wir das Restaurant erreichten, ______ es bereits geschlossen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "war",
+        "ist",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "war",
+      "explanation": "war — sein for Plusquamperfekt (schließen → sein).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q058",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_058",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Diskussion beendet worden war, ______ die Teilnehmer den Raum.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "verließen",
+        "verlassen",
+        "verlassenen",
+        "haben verlassen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "verließen",
+      "explanation": "verließen — Präteritum of verlassen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q059",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_059",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er verstand die Aufgabe nicht, obwohl der Lehrer sie mehrmals erklärt ______.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte",
+        "hat",
+        "war",
+        "ist"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hatte",
+      "explanation": "hatte — Plusquamperfekt, erklären fiili haben ile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q060",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_060",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie jahrelang gespart hatten, ______ sie endlich ein Haus kaufen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "konnten",
+        "können",
+        "gekonnt",
+        "konnten hatten"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "konnten",
+      "explanation": "konnten — Präteritum of können.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q061",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_061",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir die Wohnung _____ , gingen wir einkaufen.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "aufräumten",
+        "hatten aufgeräumt",
+        "haben aufgeräumt",
+        "räumten auf"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatten aufgeräumt",
+      "explanation": "Nachdem + Plusquamperfekt — the action that happened first.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q062",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_062",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor er nach Berlin zog, _____ er fünf Jahre in München _____.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "hatte / gelebt",
+        "hat / gelebt",
+        "lebte",
+        "ist / gelebt"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / gelebt",
+      "explanation": "Plusquamperfekt — the action before the 'Bevor' clause.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q063",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_063",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als ich das Licht einschaltete, _____ der Computer schon _____.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "wurde / ausgeschaltet",
+        "war / ausgeschaltet worden",
+        "hatte / ausgeschaltet",
+        "ist / ausgeschaltet worden"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "war / ausgeschaltet worden",
+      "explanation": "Plusquamperfekt Passiv — war ausgeschaltet worden.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q064",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_064",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ die Tür nicht _____, weil sie den Schlüssel verloren hatte.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "hat / aufschließen können",
+        "hatte / aufschließen können",
+        "hatte / aufgeschlossen gekonnt",
+        "hat / aufgeschlossen können"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / aufschließen können",
+      "explanation": "Modal verb + double infinitive (Ersatzinfinitiv), Plusquamperfekt: hatte aufschließen können.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q065",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_065",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Regen _____ , gingen wir spazieren.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "aufhörte",
+        "hatte aufgehört",
+        "hörte auf",
+        "hat aufgehört"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hatte aufgehört",
+      "explanation": "Nachdem + Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q066",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_066",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er fuhr viel zu schnell, obwohl er erst vor einer Woche seinen Führerschein _____.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "bekommen hatte",
+        "hat bekommen",
+        "bekam",
+        "bekommt"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "bekommen hatte",
+      "explanation": "obwohl + Plusquamperfekt — the earlier action.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q067",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_067",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zug _____ bereits _____, als wir am Bahnsteig ankamen.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "ist / abgefahren",
+        "hatte / abgefahren",
+        "war / abgefahren",
+        "wurde / abgefahren"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "war / abgefahren",
+      "explanation": "abfahren — uses sein, Plusquamperfekt: war abgefahren.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q068",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_068",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich wusste, dass er mir nicht die Wahrheit _____, weil er rot wurde.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "gesagt hat",
+        "sagte",
+        "gesagt hatte",
+        "sagen würde"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "gesagt hatte",
+      "explanation": "weil subordinate clause — the earlier action → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q069",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_069",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor sie Chefin wurde, _____ sie als Assistentin in derselben Firma _____.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "hat / gearbeitet",
+        "hatte / gearbeitet",
+        "arbeitete",
+        "ist / gearbeitet"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / gearbeitet",
+      "explanation": "Plusquamperfekt — the action before the 'Bevor' clause.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q070",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_070",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Essen _____ , deckte die Mutter den Tisch.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "gekocht war",
+        "gekocht hatte",
+        "gekocht worden war",
+        "gekocht wurde"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "gekocht worden war",
+      "explanation": "Plusquamperfekt Passiv — war gekocht worden.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q071",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_071",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er konnte die Prüfung leicht bestehen, weil er alles gründlich _____.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "vorbereitet hat",
+        "vorbereitet hatte",
+        "bereitete vor",
+        "hat vorbereitet"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "vorbereitet hatte",
+      "explanation": "weil subordinate clause with Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q072",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_072",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Polizei stellte fest, dass die Tür von innen _____.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "verschlossen war",
+        "verschlossen hatte",
+        "verschlossen worden war",
+        "wurde verschlossen"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "verschlossen worden war",
+      "explanation": "Plusquamperfekt Passiv — in a 'dass' subordinate clause.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q073",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_073",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand wusste, wohin er seine Tasche _____.",
       "options": [
-        "ist / gegangen",
-        "hat / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "gelegt hat",
+        "legte",
+        "gelegt hatte",
+        "legen würde"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "gelegt hatte",
+      "explanation": "Plusquamperfekt — in an indirect question clause.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q074",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_074",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie den Brief _____ , brachte sie ihn sofort zur Post.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "schrieb",
+        "geschrieben hatte",
+        "hat geschrieben",
+        "schreiben würde"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "geschrieben hatte",
+      "explanation": "Nachdem + Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q075",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_075",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich erkannte den Ort wieder, obwohl ich ihn seit Jahren nicht _____.",
       "options": [
-        "gekocht",
-        "kochen",
-        "kocht",
-        "kochte"
+        "besucht habe",
+        "besuchte",
+        "besucht hatte",
+        "besuchen konnte"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "besucht hatte",
+      "explanation": "obwohl + Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q076",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_076",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als er das Krankenhaus verließ, _____ er zwei Wochen dort _____.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "hatte / verbracht",
+        "hat / verbracht",
+        "verbrachte",
+        "war / verbracht"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / verbracht",
+      "explanation": "verbringen — haben ile, Plusquamperfekt: hatte verbracht.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q077",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_077",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Film war langweilig, weil ich die Handlung schon _____.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "kannte",
+        "gekannt hatte",
+        "habe gekannt",
+        "kennen lernte"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "gekannt hatte",
+      "explanation": "weil subordinate clause with Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q078",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_078",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie erfuhr erst viel später, dass ihr Bruder ihr geholfen _____.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "hat",
+        "hatte",
+        "wird",
+        "hätte"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hatte",
+      "explanation": "'dass' subordinate clause — the earlier action → Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q079",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_079",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Gäste _____ , begann die Party richtig.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "angekommen waren",
+        "angekommen hatten",
+        "ankamen",
+        "sind angekommen"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "angekommen waren",
+      "explanation": "ankommen — uses sein, Plusquamperfekt: waren angekommen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q080",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_080",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Dieb gestand, dass er das Geld _____.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "gestohlen hat",
+        "stahl",
+        "gestohlen hatte",
+        "stehlen würde"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "gestohlen hatte",
+      "explanation": "'dass' subordinate clause with Plusquamperfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q081",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor er das Buch ________, hatte er es schon drei Mal gelesen.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "gekauft hat",
+        "gekauft",
+        "kaufte",
+        "wird kaufen"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gekauft",
+      "explanation": "Plusquamperfekt — 'bevor' introduces the later action, so the main clause uses Plusquamperfekt (hatte gekauft) for the action that happened first. In the shortened form, 'hatte' can be omitted: 'hatte er es schon drei Mal gelesen, bevor er es kaufte.'",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q082",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Prüfung ________, gingen die Studenten nach Hause.",
       "options": [
-        "auf",
-        "bei",
-        "nach",
-        "von"
+        "beendet war",
+        "beendet wurde",
+        "beendet worden war",
+        "beendet hat"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "beendet war",
+      "explanation": "Plusquamperfekt Passiv: 'beendet worden war' is the full form (war + Partizip II + worden). After 'nachdem', the earlier action uses Plusquamperfekt Passiv. The short form 'beendet war' is commonly used in spoken German.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q083",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ das Programm schon ________, bevor der Computer abstürzte.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "hatte / installiert",
+        "habe / installiert",
+        "war / installiert",
+        "hatte / installieren"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / installiert",
+      "explanation": "Plusquamperfekt: 'installieren' (transitive) uses haben. The installation had been completed before the crash. Structure: hatte + Partizip II + bevor clause.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q084",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ nach Berlin ________, bevor er einen Job fand.",
       "options": [
-        "gefahren",
-        "fahren",
-        "fahre",
-        "fährt"
+        "war / gezogen",
+        "hatte / gezogen",
+        "zog / um",
+        "war / umgezogen"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "war / gezogen",
+      "explanation": "Plusquamperfekt with umziehen (change of residence): uses sein. 'war nach Berlin gezogen' = had moved to Berlin. The direction 'nach Berlin' requires 'sein', not 'haben'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q085",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Obwohl er viel ________, ________ er die Prüfung nicht bestanden.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "gelernt hatte / hatte",
+        "gelernt hatte / hat",
+        "lernte / hatte",
+        "gelernt / hatte"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "gelernt hatte / hatte",
+      "explanation": "obwohl + Plusquamperfekt: the learning (lernen, haben) had happened first, so 'hatte gelernt' in the obwohl clause. The main clause uses Präteritum or Perfekt. The tense sequence: past before past → Plusquamperfekt in the subordinate clause.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q086",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Maschine ________ schon ________, bevor der Techniker kam.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "war / repariert worden",
+        "hatte / repariert worden",
+        "wurde / repariert",
+        "hatte / repariert"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "war / repariert worden",
+      "explanation": "Plusquamperfekt Passiv: the machine had been repaired before the technician came. 'war repariert worden' = was (state after action) + Partizip II + worden (process). The auxiliary 'werden' makes it passive.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q087",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ das Projekt ________, bevor die Deadline kam.",
       "options": [
-        "hat / gesehen",
-        "habt / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "hatte / abgeschlossen",
+        "hatte / abzuschließen",
+        "hat / abgeschlossen",
+        "war / abgeschlossen"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / abgeschlossen",
+      "explanation": "Plusquamperfekt: 'abgeschlossen' (Partizip II of abschließen, transitive, haben) had been completed before the deadline. 'Hatte abgeschlossen' = had completed.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q088",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kaum ________ er sich ________, ________ das Telefon.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "hatte / hingesetzt / klingelte",
+        "hatte / hingesetzt / hat geklingelt",
+        "setzte / hin / klingelte",
+        "hatte / hingesetzt / war geklingelt"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / hingesetzt / klingelte",
+      "explanation": "'kaum ... da' structure: barely had he sat down when the telephone rang. The main clause uses Präteritum (klingelte), the subordinate clause uses Plusquamperfekt (hatte sich hingesetzt). This is a specific German tense pattern for sudden sequential events.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q089",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Sonne ________ schon ________, als wir ankamen.",
       "options": [
-        "vor / übertönt",
-        "von / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "war / untergegangen",
+        "hatte / untergegangen",
+        "ging / unter",
+        "war / untergehen"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "war / untergegangen",
+      "explanation": "Plusquamperfekt with untergehen (setting of the sun): uses sein. 'war untergegangen' = had set. When describing two past events, the earlier one uses Plusquamperfekt and the later one uses Präteritum or Perfekt.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q090",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ das Buch nicht ________, weil er es verloren ________.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "konnte / lesen / hatte",
+        "konnte / lesen / hat",
+        "hatte / gelesen / hatte",
+        "konnte / gelesen / hatte"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "konnte / lesen / hatte",
+      "explanation": "Modal verb + double infinitive (Ersatzinfinitiv) in Plusquamperfekt: 'hatte lesen können' = had been able to read. In Plusquamperfekt with modal verbs, the past participle of the modal is replaced by the infinitive. The loss (hatte verloren) is the earlier action.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q091",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ uns schon ________, bevor das Meeting begann.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "hatten / vorbereitet",
+        "haben / vorbereitet",
+        "hatten / vorzubereiten",
+        "waren / vorbereitet"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatten / vorbereitet",
+      "explanation": "Plusquamperfekt with sich vorbereiten (reflexive, transitive): uses haben. 'hatten uns vorbereitet' = had prepared ourselves. Reflexive verbs always use haben in Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q092",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als ich ankam, ________ der Zug schon ________.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "war / abgefahren",
+        "hatte / abgefahren",
+        "ist / abgefahren",
+        "war / abfahren"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "war / abgefahren",
+      "explanation": "Plusquamperfekt with abfahren (departure, change of location): uses sein. 'war abgefahren' = had departed. When 'als' introduces a single past event and another event happened before it, Plusquamperfekt is used in the earlier clause.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q093",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor sie die Stelle ________, ________ sie fünf Jahre in Berlin ________.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "annahm / hatte / gelebt",
+        "annahm / hat / gelebt",
+        "nahm an / hatte / gelebt",
+        "nahm an / lebte"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "annahm / hatte / gelebt",
+      "explanation": "'bevor' connects two actions; the one BEFORE 'bevor' uses Plusquamperfekt with hatten + Partizip II. Here 'hatte in Berlin gelebt' = had lived in Berlin. The later action (annahm) is in Präteritum.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q094",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Feuer ________ ________, kam die Feuerwehr.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "gelöscht worden war",
+        "hatte / gelöscht",
+        "war / gelöscht worden",
+        "wurde / gelöscht"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "gelöscht worden war",
+      "explanation": "Plusquamperfekt Passiv: the fire had been extinguished before the fire brigade came. 'war gelöscht worden' = was (state) + Partizip II (löschen) + worden (passive auxiliary). The shorter form 'gelöscht worden war' is common in spoken German.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q095",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ die Nachricht ________, bevor er ins Bett ________.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "hatte / gelesen / ging",
+        "hat / gelesen / ging",
+        "las / hatte / gegangen",
+        "hatte / gelesen / war gegangen"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / gelesen / ging",
+      "explanation": "Plusquamperfekt with lesen (transitive, haben). The reading had happened before going to bed. 'Ging' (Präteritum of gehen) is used for the later action. Note: 'ins Bett gehen' uses sein (ging), but here the subject went to bed — the going is the later action, not the Plusquamperfekt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q096",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Obwohl die Firma viel ________, ________ sie Insolvenz anmelden ________.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "investiert hatte / musste",
+        "investierte / hatte / anzumelden",
+        "hatte / investiert / anzumelden",
+        "investierte / investiert / anzumelden"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "investiert hatte / musste",
+      "explanation": "obwohl + Plusquamperfekt: the investment had happened before the necessity to declare insolvency. 'Hatte investiert' (Plusquamperfekt) is in the obwohl clause. The main clause 'musste Insolvenz anmelden' uses Präteritum of müssen.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q097",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kaum ________ wir Platz ________, ________ die Vorstellung auch schon ________.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "hatten / genommen / begann",
+        "hatten / genommen / hat begonnen",
+        "haben / genommen / begann",
+        "hatten / eingenommen / begann"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatten / genommen / begann",
+      "explanation": "'kaum ... da' structure: barely had we taken our seats when the performance already began. Main clause: Präteritum (begann), subordinate: Plusquamperfekt (hatten Platz genommen). 'Platz nehmen' = to take a seat.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_08_q098",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Kind ________ schon ________, bevor die Eltern kamen.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "war / eingeschlafen",
+        "hatte / eingeschlafen",
+        "hat / eingeschafen",
+        "war / schlafen"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "war / eingeschlafen",
+      "explanation": "Plusquamperfekt with einschlafen (to fall asleep, change of state): uses sein. 'War eingeschlafen' = had fallen asleep. The child was already asleep before the parents arrived.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_08_q099",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Regierung die Maßnahmen ________ ________, besserten sich die Zahlen.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "ergriffen hatte",
+        "hatte ergriffen",
+        "ergriffen worden war",
+        "hatte / ergriffen"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ergriffen hatte",
+      "explanation": "Plusquamperfekt: after the government had taken the measures, the numbers improved. 'Ergriffen' (Partizip II of ergreifen, transitive, haben) uses hatte + Partizip II. The 'had taken' happened before the improvement.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_08_q100",
       "subjectId": "a2_08",
-      "topicName": "da-Komposita",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ das Angebot ________, aber er ________ es sich noch einmal ________.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "hatte / abgelehnt / hätte / überlegen sollen",
+        "hat / abgelehnt / sollte / überlegen",
+        "hatte / abgelehnt / sollte / überlegen",
+        "hat / abgelehnt / hätte / überlegt"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte / abgelehnt / hätte / überlegen sollen",
+      "explanation": "Konjunktiv II Vergangenheit (past counterfactual): 'Er hätte es sich überlegen sollen' = he should have reconsidered it (but didn't). 'Hatte abgelehnt' is Plusquamperfekt for the earlier action. The contrast between the rejection and the unfulfilled reconsideration creates the counterfactual meaning.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q101",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem ich den Brief ________, brachte ich ihn zur Post.",
+      "options": [
+        "geschrieben hatte",
+        "schrieb",
+        "geschrieben habe",
+        "hatte geschrieben"
+      ],
+      "correctAnswer": "geschrieben hatte",
+      "explanation": "Plusquamperfekt with 'nachdem': the writing of the letter happened BEFORE bringing it to the post office. After 'nachdem', the subordinate clause ALWAYS uses Plusquamperfekt. The main clause uses Präteritum or Perfekt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q102",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor er das Angebot ________, ________ er es sich genau ________.",
+      "options": [
+        "annahm / hatte / überlegt",
+        "nahm an / hatte / überlegt",
+        "annahm / hat / überlegt",
+        "nahm an / hatte / überlegen"
+      ],
+      "correctAnswer": "annahm / hatte / überlegt",
+      "explanation": "Bevor' connects two actions: the main clause action (annahm) happened BEFORE the 'bevor' clause action (hatte überlegt). So the 'bevor' clause uses Plusquamperfekt: hatte + Partizip II. The reflexive verb 'sich überlegen' uses haben.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q103",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als ich ins Büro ________, ________ der Chef schon ________.",
+      "options": [
+        "kam / war / gegangen",
+        "kam / hatte / gegangen",
+        "gekommen war / war / gegangen",
+        "kam / hatte / gehen"
+      ],
+      "correctAnswer": "kam / war / gegangen",
+      "explanation": "Als' introduces a single past event (I came to the office). The earlier event (boss had already left) uses Plusquamperfekt: war gegangen. The auxiliary 'sein' is used for 'gehen' (movement). The main clause uses Präteritum.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q104",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ das Programm nicht ________, weil sein Computer abgestürzt ________.",
+      "options": [
+        "konnte / starten / war",
+        "konnte / starten / hatte",
+        "konnte / gestartet / war",
+        "hatte / starten / war"
+      ],
+      "correctAnswer": "konnte / starten / war",
+      "explanation": "Modal verb + infinitive (Ersatzinfinitiv) in Plusquamperfekt: 'konnte nicht starten' = could not start. The crash (war abgestürzt) had happened before. Note: in the weil clause, the verb position puts 'war' before the participle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q105",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Datei ________ schon ________ ________, bevor der Strom ausfiel.",
+      "options": [
+        "war / gespeichert worden",
+        "hatte / gespeichert worden",
+        "wurde / gespeichert",
+        "hatte / gespeichert"
+      ],
+      "correctAnswer": "war / gespeichert worden",
+      "explanation": "Plusquamperfekt Passiv: 'war gespeichert worden' = had been saved. The auxiliary 'werden' creates the passive; 'war' indicates the state after the action; 'worden' is the past participle of werden. The earlier saving happened before the power outage.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q106",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ sich schon ________, bevor die Prüfung ________.",
+      "options": [
+        "hatte / vorbereitet / begann",
+        "hatte / vorbereitet / begonnen hatte",
+        "hat / vorbereitet / begann",
+        "war / vorbereitet / begann"
+      ],
+      "correctAnswer": "hatte / vorbereitet / begann",
+      "explanation": "Reflexive verb (sich vorbereiten) + Plusquamperfekt: always uses haben. The preparation (hatte sich vorbereitet) happened before the exam began (begann — Präteritum of beginnen).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q107",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kaum ________ die Sonne ________, ________ der Regen los.",
+      "options": [
+        "war / untergegangen / begann",
+        "war / untergegangen / hat begonnen",
+        "hatte / untergegangen / begann",
+        "war / untergegangen / fing an"
+      ],
+      "correctAnswer": "war / untergegangen / begann",
+      "explanation": "'kaum ... da' pattern: the sun had barely set when the rain started. The 'kaum' clause uses Plusquamperfekt (war untergegangen, sein for movement); the 'da' clause uses Präteritum (begann). 'Kaum' can also be followed by 'als' in some regional usage.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q108",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ die Stelle nicht ________, weil er das Angebot ________ ________.",
+      "options": [
+        "nahm an / annehmen / schon / gehabt hatte",
+        "nahm an / annehmen / hatte / gehabt",
+        "konnte / annehmen / hatte / gehabt",
+        "nahm an / angenommen / hatte / gehabt"
+      ],
+      "correctAnswer": "nahm an / annehmen / schon / gehabt hatte",
+      "explanation": "Ersatzinfinitiv: 'hatte gehabt' is NOT used here. The correct form: 'hatte schon annehmen müssen' would mean 'had to accept already'. Here: he didn't accept the position because he had ALREADY had another offer. The temporal sequence: had-offer → didn't-accept. But in the weil clause, the past perfect (hatte gehabt) expresses the earlier offer. Note: 'hatte angenommen' would be Perfekt, not used after 'weil' in this context.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q109",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Unterlagen ________ ________ worden ________, konnte die Prüfung beginnen.",
+      "options": [
+        "von ihr / geprüft / worden",
+        "von ihr / geprüft worden war",
+        "hatte / sie / geprüft",
+        "waren / geprüft worden"
+      ],
+      "correctAnswer": "von ihr / geprüft worden war",
+      "explanation": "Plusquamperfekt Passiv: 'war von ihr geprüft worden' = had been checked by her. The agent (von ihr) is included in the passive construction. The short form 'geprüft worden war' is commonly used in spoken German.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q110",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Kind ________ schon ________, bevor die Eltern nach Hause ________.",
+      "options": [
+        "war / eingeschlafen",
+        "hatte / eingeschlafen",
+        "war / einschlafen",
+        "hatte / einschlafen"
+      ],
+      "correctAnswer": "war / eingeschlafen",
+      "explanation": "Plusquamperfekt with einschlafen (to fall asleep, change of state): uses sein. 'War eingeschlafen' = had fallen asleep. The child was already asleep before the parents came home.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q111",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Obwohl er sich ________ ________, ________ er die Prüfung nicht bestanden.",
+      "options": [
+        "gut vorbereitet hatte / hatte",
+        "sich gut vorbereitet hatte / hat",
+        "gut vorbereitet / hatte",
+        "sich gut vorbereitet / hatte"
+      ],
+      "correctAnswer": "sich gut vorbereitet hatte / hatte",
+      "explanation": "obwohl + Plusquamperfekt: the preparation (hatte sich vorbereitet) happened BEFORE the exam. Even though he HAD prepared well, he didn't pass. The contrast is expressed by 'obwohl' (although).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q112",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als die Polizei ________, ________ der Dieb schon ________.",
+      "options": [
+        "ankam / war / verschwunden",
+        "ankam / hatte / verschwunden",
+        "ankam / war / verschwinden",
+        "angekommen war / hatte / verschwunden"
+      ],
+      "correctAnswer": "ankam / war / verschwunden",
+      "explanation": "Als' introduces the later event (the police arrived); the earlier event (the thief had already disappeared) uses Plusquamperfekt with sein (verschwinden = movement/change of state). The main clause uses Präteritum.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q113",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ das Projekt ________, bevor die Finanzierung ________ ________.",
+      "options": [
+        "hatten / abgeschlossen / gestrichen worden war",
+        "hatten / abgeschlossen / worden / gestrichen",
+        "haben / abgeschlossen / war / gestrichen",
+        "hatten / abgeschlossen / gestrichen worden"
+      ],
+      "correctAnswer": "hatten / abgeschlossen / gestrichen worden war",
+      "explanation": "Plusquamperfekt Passiv in the 'bevor' clause: 'war gestrichen worden' = had been cancelled. The main clause uses Plusquamperfekt (hatten abgeschlossen). The verb 'streichen' (to cut/cancel) uses werden for passive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q114",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor sie sich ________, ________ sie eine E-Mail an ihren Chef ________.",
+      "options": [
+        "meldete / hatte / geschrieben",
+        "sich anmeldete / hatte / geschrieben",
+        "anmeldete / hatte / geschrieben",
+        "sich anmeldete / hat / geschrieben"
+      ],
+      "correctAnswer": "sich anmeldete / hatte / geschrieben",
+      "explanation": "'Bevor' sets the sequence: the email writing (hatte geschrieben) happened BEFORE the registration (sich anmeldete). Note: 'sich anmelden' (to register) is reflexive and uses haben.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q115",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kaum ________ der Chef das Angebot ________, ________ er ab.",
+      "options": [
+        "hatte / gelesen / kündigte",
+        "hatte / gelesen / hat gekündigt",
+        "hatte / gelesen / kündigt",
+        "hat / gelesen / kündigte"
+      ],
+      "correctAnswer": "hatte / gelesen / kündigte",
+      "explanation": "'kaum ... da' pattern: barely had the boss read the offer when he resigned. The 'kaum' clause uses Plusquamperfekt (hatte gelesen); the main clause uses Präteritum (kündigte). This structure emphasizes the immediacy of the sequence.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q116",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung ________ schon ________ ________ worden, bevor der Minister ________ ________.",
+      "options": [
+        "war / vom Kabinett / getroffen",
+        "hatte / vom Kabinett / getroffen worden",
+        "war / getroffen worden / sich äußerte",
+        "hatte / getroffen / worden / sich äußerte"
+      ],
+      "correctAnswer": "war / vom Kabinett / getroffen worden",
+      "explanation": "Plusquamperfekt Passiv with agent (vom Kabinett): 'war vom Kabinett getroffen worden' = had been made by the cabinet. The modal 'bevor' introduces the later action (the minister made a statement).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q117",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er sich ________ ________, fuhr er direkt zum Flughafen.",
+      "options": [
+        "umgezogen hatte",
+        "hatte umgezogen",
+        "sich hatte umgezogen",
+        "umzog"
+      ],
+      "correctAnswer": "sich umgezogen hatte",
+      "explanation": "Reflexive verb (sich umziehen) in Plusquamperfekt after 'nachdem': 'hatte sich umgezogen' = had changed clothes. The auxiliary is haben. Word order: hatte + reflexive pronoun + Partizip II. After 'nachdem', the subordinate clause uses Plusquamperfekt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q118",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zug ________ schon ________, als wir am Bahnhof ________.",
+      "options": [
+        "war / abgefahren",
+        "hatte / abgefahren",
+        "war / abfahren",
+        "hatte / abfahren"
+      ],
+      "correctAnswer": "war / abgefahren",
+      "explanation": "Plusquamperfekt with abfahren (departure, movement): uses sein. 'War abgefahren' = had departed. When we arrived at the station (als wir am Bahnhof ankamen), the train had already left.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q119",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ das Buch nicht ________, obwohl er es ________ ________ ________.",
+      "options": [
+        "konnte / lesen / hatte / lesen / wollen",
+        "konnte / lesen / hatte / gekonnt",
+        "konnte / lesen / hatte / lesen / gekonnt",
+        "konnte / gelesen / hatte / lesen"
+      ],
+      "correctAnswer": "konnte / lesen / hatte / lesen / wollen",
+      "explanation": "Modal verb + Ersatzinfinitiv: 'hatte lesen wollen' = had wanted to read. In Plusquamperfekt with modal verbs, the infinitive replaces the past participle of the modal: NOT 'gewollt' but 'wollen'. The sentence means: he couldn't read the book even though he had WANTED to read it.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q120",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als wir ________, ________ die Veranstaltung schon ________.",
+      "options": [
+        "ankamen / hatte / begonnen",
+        "ankamen / war / begonnen",
+        "angekommen waren / hatte / begonnen",
+        "kamen / war / begonnen"
+      ],
+      "correctAnswer": "ankamen / war / begonnen",
+      "explanation": "Als' introduces the later event (we arrived). The earlier event (the event had already started) uses Plusquamperfekt with sein (beginnen → ist/war begonnen). The main clause uses Präteritum (kamen = came), not Perfekt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q121",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_121",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er die Nachricht ________ ________, ________ er sofort seine Familie ________ ________.",
+      "options": [
+        "erhalten hatte / hat / angerufen",
+        "erhalten hat / hatte / angerufen",
+        "erhalten hatte / hatte / angerufen",
+        "erhalten hätte / hat / angerufen"
+      ],
+      "correctAnswer": "erhalten hatte / hat / angerufen",
+      "explanation": "Plusquamperfekt after 'nachdem': 'erhalten hatte' = had received. Main clause uses Perfekt: 'hat angerufen' = called. After 'nachdem', the subordinate clause always uses Plusquamperfekt, while the main clause can use Perfekt or Präteritum depending on emphasis.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q122",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_122",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor die Gäste ________ ________, ________ wir bereits alles ________ ________.",
+      "options": [
+        "angekommen sind / hatten / vorbereitet",
+        "angekommen waren / hatten / vorbereitet",
+        "angekommen waren / haben / vorbereitet",
+        "angekommen sind / haben / vorbereitet"
+      ],
+      "correctAnswer": "angekommen waren / hatten / vorbereitet",
+      "explanation": "'Bevor' connects two actions: main clause (wir hatten vorbereitet) happened BEFORE the guests arrived (angekommen waren). Both the main clause and 'bevor' clause use Plusquamperfekt here to emphasize the sequence: we had already prepared everything before the guests had arrived.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q123",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_123",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als ich im Büro ________ ________, ________ mein Kollege den Bericht schon ________ ________ ________.",
+      "options": [
+        "angekommen bin / hatte / abgeschickt",
+        "angekommen war / hatte / abgeschickt",
+        "angekommen war / hat / abgeschickt",
+        "angekommen bin / hat / abgeschickt"
+      ],
+      "correctAnswer": "angekommen war / hatte / abgeschickt",
+      "explanation": "'Als' introduces the later event (I arrived). The earlier event (my colleague had already sent the report) uses Plusquamperfekt: 'hatte abgeschickt'. Both 'war angekommen' and 'hatte abgeschickt' use Plusquamperfekt to show the sequence of past events.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q124",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_124",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ sehr erleichtert, weil sie den Zug noch ________ ________ ________.",
+      "options": [
+        "war / erreicht hatte",
+        "ist / erreicht hatte",
+        "war / erreicht hat",
+        "ist / erreicht hat"
+      ],
+      "correctAnswer": "war / erreicht hatte",
+      "explanation": "Plusquamperfekt in the 'weil' clause: 'hatte erreicht' = had reached. 'Sein' (war) is used for the adjective 'erleichtert' (relieved) as a state. The verb 'erreichen' (to reach) uses 'haben' in Perfekt/Plusquamperfekt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q125",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_125",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Unternehmen in Konkurs ________ ________, ________ viele Mitarbeiter ihre Stellen ________ ________.",
+      "options": [
+        "gegangen ist / haben / verloren",
+        "gegangen war / hatten / verloren",
+        "gegangen war / haben / verloren",
+        "gegangen ist / hatten / verloren"
+      ],
+      "correctAnswer": "gegangen war / hatten / verloren",
+      "explanation": "Plusquamperfekt: 'gegangen war' (war = sein auxiliary for movement, 'gegangen' = past participle). Both subordinate ('nachdem') and main clauses use Plusquamperfekt: the bankruptcy happened first, then employees lost their jobs.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q126",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_126",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er behauptete, dass er den Schlüssel bereits ________ ________ ________ ________, bevor er das Haus ________ ________.",
+      "options": [
+        "verloren gehabt hatte / verlassen hat",
+        "verloren hatte / verlassen hatte",
+        "verloren hat / verlassen hatte",
+        "verloren gehabt hat / verlassen hat"
+      ],
+      "correctAnswer": "verloren hatte / verlassen hatte",
+      "explanation": "Plusquamperfekt in indirect speech (Konjunktiv I context): 'verloren hatte' (had lost) + 'verlassen hatte' (had left). The double Plusquamperfekt in the 'dass' clause shows both events happened before the reference point in the past.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q127",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_127",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ du schon einmal daran ________ ________, dass du früher anders ________ ________ ________?",
+      "options": [
+        "Hast / gedacht / gehandelt hättest",
+        "Hattest / gedacht / gehandelt hast",
+        "Hattest / gedacht / gehandelt hättest",
+        "Hast / gedacht / gehandelt hast"
+      ],
+      "correctAnswer": "Hattest / gedacht / gehandelt hättest",
+      "explanation": "Plusquamperfekt question: 'Hattest du schon einmal daran gedacht' = Had you ever thought about it. The dependent clause uses Konjunktiv II: 'dass du früher anders gehandelt hättest' = that you would have acted differently (counterfactual past).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q128",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_128",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Wissenschaftler die Daten ________ ________ ________, ________ sie ihre Hypothese ________ ________ ________.",
+      "options": [
+        "analysiert hatten / haben / überprüfen müssen",
+        "analysiert hatten / mussten / überprüfen",
+        "analysiert haben / mussten / überprüfen",
+        "analysiert hatten / haben / überprüfen gemusst"
+      ],
+      "correctAnswer": "analysiert hatten / mussten / überprüfen",
+      "explanation": "Plusquamperfekt + Modal verb in Präteritum: 'analysiert hatten' (had analyzed) → then 'mussten überprüfen' (had to review). The modal verb 'müssen' is in Präteritum to express an obligation that followed the analysis. Note: Ersatzinfinitiv is NOT used after a past participle here — the modal describes a subsequent obligation.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q129",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_129",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor er die Stelle ________ ________, ________ er bereits fünf Jahre im Ausland ________ ________ ________.",
+      "options": [
+        "angetreten hat / hatte / gearbeitet",
+        "angetreten hatte / hatte / gearbeitet",
+        "angetreten hatte / hat / gearbeitet",
+        "angetreten hat / hat / gearbeitet"
+      ],
+      "correctAnswer": "angetreten hatte / hatte / gearbeitet",
+      "explanation": "'Bevor' with Plusquamperfekt: both the main clause ('hatte gearbeitet' = had worked) and the 'bevor' clause ('angetreten hatte' = had taken up) use Plusquamperfekt. The working abroad happened BEFORE taking up the position.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q130",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_130",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Polizei ________ den Tatort, nachdem die Journalisten den Bereich bereits ________ ________ ________ ________.",
+      "options": [
+        "sicherte / betreten hatten",
+        "hat gesichert / betreten hatten",
+        "sicherte / betreten haben",
+        "hat gesichert / betreten haben"
+      ],
+      "correctAnswer": "sicherte / betreten hatten",
+      "explanation": "'Nachdem' with Plusquamperfekt: 'betreten hatten' (had entered) is the earlier action. The main clause 'sicherte' (Präteritum of sichern) uses Präteritum — the police secured the scene AFTER the journalists had entered.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q131",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_131",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie sich ________ ________ ________, dass sie den Termin vergessen ________ ________, ________ sie sofort ________ ________ ________.",
+      "options": [
+        "bewusst geworden war / hatte / hat / entschuldigt",
+        "bewusst geworden war / hatte / hatte / entschuldigt",
+        "bewusst geworden ist / hat / hat / entschuldigt",
+        "bewusst geworden war / hat / hatte / entschuldigt"
+      ],
+      "correctAnswer": "bewusst geworden war / hatte / hat / entschuldigt",
+      "explanation": "Reflexive verb + Plusquamperfekt: 'sich bewusst geworden war' (had become aware) uses sein. The 'dass' clause uses Plusquamperfekt ('hatte vergessen' = had forgotten). The main clause uses Präteritum ('entschuldigte sich' → has apologized).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q132",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_132",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ________ lange, bis die Behörden auf die Beschwerde ________ ________ ________ ________.",
+      "options": [
+        "dauerte / reagiert hatten",
+        "dauerte / reagiert haben",
+        "dauert / reagiert hatten",
+        "dauerte / reagieren hatten"
+      ],
+      "correctAnswer": "dauerte / reagiert hatten",
+      "explanation": "'es dauerte, bis' + Plusquamperfekt: the authorities' response ('reagiert hatten' = had responded) happened after the waiting period. The main clause uses Präteritum ('dauerte' = lasted/took), the 'bis' clause uses Plusquamperfekt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q133",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_133",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Vertrag ________ ________ ________ ________, ________ keine Partei mehr Änderungen ________ ________ ________.",
+      "options": [
+        "unterzeichnet worden war / konnte / vornehmen",
+        "unterzeichnet worden ist / konnte / vornehmen",
+        "unterzeichnet worden war / kann / vornehmen",
+        "unterzeichnet worden ist / kann / vornehmen"
+      ],
+      "correctAnswer": "unterzeichnet worden war / konnte / vornehmen",
+      "explanation": "Passiv Plusquamperfekt: 'war unterzeichnet worden' (had been signed). The modal verb 'konnte' (Präteritum of können) is in the main clause. After the signing, no party could make changes anymore. Note: in Passiv Plusquamperfekt, 'werden' becomes 'worden' — but with another past participle before it, it shortens to 'worden' or the full form is used.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q134",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_134",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor wir die Entscheidung ________ ________, ________ wir alle verfügbaren Informationen sorgfältig ________ ________ ________.",
+      "options": [
+        "getroffen haben / hatten / geprüft",
+        "getroffen hatten / hatten / geprüft",
+        "getroffen hatten / haben / geprüft",
+        "getroffen haben / haben / geprüft"
+      ],
+      "correctAnswer": "getroffen hatten / hatten / geprüft",
+      "explanation": "'Bevor' with Plusquamperfekt in both clauses: 'getroffen hatten' (had made) and 'geprüft hatten' (had checked). The decision-making and checking happened before the actual decision was finalized. Both clauses use Plusquamperfekt to show the sequence of past actions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q135",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_135",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Experiment ________ ________ ________ ________, ________ die Forscher ihre Methode ________ ________ ________ ________.",
+      "options": [
+        "misslungen war / mussten / überdenken",
+        "misslungen ist / mussten / überdenken",
+        "misslungen war / müssen / überdenken",
+        "misslungen ist / müssen / überdenken"
+      ],
+      "correctAnswer": "misslungen war / mussten / überdenken",
+      "explanation": "Plusquamperfekt + Modal verb: 'misslungen war' (had failed, sein for change of state). Then 'mussten überdenken' (had to rethink). The modal verb 'müssen' is in Präteritum because it describes a subsequent necessity, not an Ersatzinfinitiv.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q136",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_136",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ sehr überrascht, als sie erfuhr, dass ihr Freund bereits ________ ________ ________ ________ ________.",
+      "options": [
+        "war / abgereist war",
+        "ist / abgereist war",
+        "war / abgereist ist",
+        "ist / abgereist ist"
+      ],
+      "correctAnswer": "war / abgereist war",
+      "explanation": "'Als' clause with Plusquamperfekt: 'dass ihr Freund bereits abgereist war' (had already departed). The verb 'abreisen' (to depart) uses sein. The main clause adjective 'überrascht' uses 'war' (sein) to express a past state.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q137",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_137",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er jahrelang im Ausland ________ ________ ________, ________ er fließend Deutsch ________ ________ ________.",
+      "options": [
+        "gearbeitet hatte / sprach",
+        "gearbeitet hat / sprach",
+        "gearbeitet hatte / hat / gesprochen",
+        "gearbeitet hat / hat / gesprochen"
+      ],
+      "correctAnswer": "gearbeitet hatte / sprach",
+      "explanation": "Plusquamperfekt after 'nachdem': 'gearbeitet hatte' (had worked). Main clause uses Präteritum 'sprach' (spoke) — the fluent German was the result of the years of working abroad. The contrast shows that AFTER the working period, he spoke German fluently.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q138",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_138",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor die Sonne ________ ________, ________ die Bauarbeiter ihre Arbeit bereits ________ ________ ________.",
+      "options": [
+        "aufgegangen ist / hatten / beendet",
+        "aufgegangen war / hatten / beendet",
+        "aufgegangen war / haben / beendet",
+        "aufgegangen ist / haben / beendet"
+      ],
+      "correctAnswer": "aufgegangen war / hatten / beendet",
+      "explanation": "'Bevor' with Plusquamperfekt: 'aufgegangen war' (had risen, sein for weather event). The workers 'hatten beendet' (had finished) BEFORE the sunrise. Both clauses use Plusquamperfekt to emphasize the sequence of events.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q139",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_139",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Firma die neuen Sicherheitsvorschriften ________ ________ ________, ________ alle Mitarbeiter geschult ________ ________ ________.",
+      "options": [
+        "eingeführt hatte / wurden /",
+        "eingeführt hat / wurden /",
+        "eingeführt hatte / sind / worden",
+        "eingeführt hat / sind / worden"
+      ],
+      "correctAnswer": "eingeführt hatte / wurden /",
+      "explanation": "Plusquamperfekt + Passiv Präteritum: 'eingeführt hatte' (had introduced). Then 'wurden geschult' (were trained — Passiv Präteritum). The sequence: the company first introduced the safety regulations, THEN all employees were trained.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q140",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_140",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ er die Warnungen ernst genommen ________ ________, ________ der Unfall vielleicht vermieden ________ ________ ________.",
+      "options": [
+        "Wenn / hätte / wäre / werden können",
+        "Wenn / hat / ist / werden können",
+        "Hätte / hätte / wäre / werden können",
+        "Hätte / hat / ist / werden können"
+      ],
+      "correctAnswer": "Wenn / hätte / wäre / werden können",
+      "explanation": "Konjunktiv II past counterfactual: 'Wenn er die Warnungen ernst genommen hätte' = If he had taken the warnings seriously (but he didn't). Then 'wäre der Unfall vermieden worden' = the accident would have been avoided. The full form: 'wäre vermieden worden' = would have been avoided.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_08_q141",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_141",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ das Buch ________.",
+      "options": [
+        "hatte / gelesen",
+        "habe / gelesen",
+        "war / gelesen",
+        "hatte / lesen"
+      ],
+      "correctAnswer": "hatte / gelesen",
+      "explanation": "Plusquamperfekt with haben: 'hatte gelesen' = had read. The verb 'lesen' (to read) is transitive and uses haben as the auxiliary. Structure: hatte + Partizip II.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q142",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_142",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ nach Berlin ________.",
+      "options": [
+        "war / gefahren",
+        "hatte / gefahren",
+        "ist / gefahren",
+        "hatte / fahren"
+      ],
+      "correctAnswer": "war / gefahren",
+      "explanation": "Plusquamperfekt with sein: 'war gefahren' = had driven/gone. The verb 'fahren' (to go/drive) is a movement verb and uses sein as the auxiliary. Structure: war + Partizip II.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q143",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_143",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er ________ ________, ________ er nach Hause ________.",
+      "options": [
+        "gegessen hatte / ging",
+        "gegessen hat / ging",
+        "aß / gegangen war",
+        "gegessen hatte / ist gegangen"
+      ],
+      "correctAnswer": "gegessen hatte / ging",
+      "explanation": "Plusquamperfekt after 'nachdem': 'gegessen hatte' (had eaten). Main clause: 'ging' (Präteritum of gehen). The eating happened BEFORE the going home. This is the basic temporal sequence: Plusquamperfekt → Präteritum.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q144",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_144",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ die Prüfung ________.",
+      "options": [
+        "hatten / bestanden",
+        "haben / bestanden",
+        "waren / bestanden",
+        "hatte / bestanden"
+      ],
+      "correctAnswer": "hatten / bestanden",
+      "explanation": "Plusquamperfekt with haben: 'hatten bestanden' = had passed. The verb 'bestehen' (to pass/exist) is transitive and uses haben. The plural form 'hatten' matches 'wir'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q145",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_145",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ schon ________, bevor sie ________.",
+      "options": [
+        "war / eingeschlafen",
+        "hatte / eingeschlafen",
+        "war / einschlafen",
+        "hatte / eingeschlafen"
+      ],
+      "correctAnswer": "war / eingeschlafen",
+      "explanation": "Plusquamperfekt with sein: 'war eingeschlafen' = had fallen asleep. The verb 'einschlafen' (to fall asleep) is a change of state and uses sein. This happened before she came.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q146",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_146",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ mir die Haare ________.",
+      "options": [
+        "hatte / schneiden lassen",
+        "habe / schneiden lassen",
+        "war / schneiden lassen",
+        "hatte / schneiden"
+      ],
+      "correctAnswer": "hatte / schneiden lassen",
+      "explanation": "Plusquamperfekt with reflexive verb + Ersatzinfinitiv: 'hatte schneiden lassen' = had (one's hair) cut. The reflexive verb 'sich schneiden lassen' (to have one's hair cut) uses haben. The modal 'lassen' appears as infinitive in this Ersatzinfinitiv construction.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q147",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_147",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Haus ________ schon ________ ________, bevor wir ________ ________.",
+      "options": [
+        "war / verkauft worden",
+        "hatte / verkauft worden",
+        "war / verkauft werden",
+        "wurde / verkauft"
+      ],
+      "correctAnswer": "war / verkauft worden",
+      "explanation": "Passiv Plusquamperfekt: 'war verkauft worden' = had been sold. The structure: war + Partizip II + worden. The selling had happened before we moved in. Note: 'worden' is the past participle of werden in passive construction, NOT 'geworden'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q148",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_148",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ das Programm nicht ________, ________ sie es ________ ________.",
+      "options": [
+        "konnte / starten / weil / nicht / starten konnte",
+        "konnte / starten / weil / nicht / gestartet hat",
+        "konnte / starten / weil / nicht / hatte starten können",
+        "konnte / starten / obwohl / nicht / starten konnte"
+      ],
+      "correctAnswer": "konnte / starten / weil / nicht / starten konnte",
+      "explanation": "Modal verb + Ersatzinfinitiv in Plusquamperfekt: 'hatte nicht starten können' (had not been able to start). The reason clause uses Präteritum for 'konnte'. Note the double infinitive 'starten können' replaces the past participle.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q149",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_149",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bevor er ________, ________ er seine Familie ________ ________ ________ ________.",
+      "options": [
+        "anrief / hatte / informiert",
+        "anrief / hatte / informiert",
+        "anrufen konnte / hatte / informiert",
+        "anrief / hat / informiert"
+      ],
+      "correctAnswer": "anrief / hatte / informiert",
+      "explanation": "'Bevor' with Plusquamperfekt: 'hatte informiert' (had informed) is in the 'bevor' clause, meaning the informing happened BEFORE the calling. The main clause uses Präteritum (rief an = called).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q150",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_150",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ________ schon ________ ________, bevor die Schule ________ ________.",
+      "options": [
+        "waren / eingeschlafen / begann",
+        "waren / eingeschlafen / begonnen hatte",
+        "hatten / eingeschlafen / begann",
+        "waren / einschlafen / begann"
+      ],
+      "correctAnswer": "waren / eingeschlafen / begann",
+      "explanation": "Plusquamperfekt with sein: 'waren eingeschlafen' (had fallen asleep). The main clause 'begann' (Präteritum) is the later action. The children had fallen asleep before school started.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q151",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_151",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ das Buch ________ ________, bevor er es ________ ________ ________.",
+      "options": [
+        "hatte / fertig gelesen",
+        "hatte / gelesen",
+        "hat / gelesen",
+        "hatte / liest"
+      ],
+      "correctAnswer": "hatte / fertig gelesen",
+      "explanation": "Plusquamperfekt: 'hatte fertig gelesen' = had finished reading. The main clause (bevor clause) uses Präteritum. The separable prefix 'fertiglesen' stays together: 'hatte fertiggelesen' in Plusquamperfekt.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q152",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_152",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ uns auf die Prüfung ________ ________.",
+      "options": [
+        "hatten / vorbereitet",
+        "haben / vorbereitet",
+        "waren / vorbereitet",
+        "hatte / vorbereitet"
+      ],
+      "correctAnswer": "hatten / vorbereitet",
+      "explanation": "Plusquamperfekt with reflexive verb: 'hatten uns vorbereitet' = had prepared ourselves. Reflexive verbs always use haben. The word order: hatte + reflexive pronoun (uns) + Partizip II.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q153",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_153",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Als sie nach Hause ________, ________ der Hund schon ________ ________.",
+      "options": [
+        "kam / war / eingeschlafen",
+        "kam / hatte / eingeschlafen",
+        "gekommen war / war / eingeschlafen",
+        "kam / hatte / einschlafen"
+      ],
+      "correctAnswer": "kam / war / eingeschlafen",
+      "explanation": "'Als' with Plusquamperfekt: 'war eingeschlafen' (had fallen asleep). When she came home (Präteritum 'kam'), the dog was already asleep. The earlier action uses Plusquamperfekt with sein.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q154",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_154",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ das Problem schon ________ ________, bevor er ________ ________.",
+      "options": [
+        "hatte / gelöst",
+        "hatte / gelöst",
+        "habe / gelöst",
+        "hatte / lösen"
+      ],
+      "correctAnswer": "hatte / gelöst",
+      "explanation": "Plusquamperfekt with transitive verb: 'hatte gelöst' = had solved. The solving had happened before he came. This is the basic structure: hatte + Partizip II of a transitive verb (haben auxiliary).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q155",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_155",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kaum ________ ich mich ________, ________ das Licht ________ ________.",
+      "options": [
+        "hatte / hingesetzt / klingelte / aus",
+        "hatte / hingesetzt / klingelte / an",
+        "setzte / hin / klingelte / aus",
+        "hatte / hingesetzt / hat / ausgehen"
+      ],
+      "correctAnswer": "hatte / hingesetzt / klingelte / aus",
+      "explanation": "'kaum ... da' pattern: barely had I sat down when the light went out. 'Hingesetzt' (Partizip II of sich hin setzen) uses haben. 'Kaum' clause: Plusquamperfekt (hatte mich hingesetzt). 'Da' clause: Präteritum (klingelte aus).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q156",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_156",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du ________ das besser ________ ________, ________ du es ________ ________ ________.",
+      "options": [
+        "hattest / machen sollen",
+        "hattest / machen müssen",
+        "hattest / gemacht",
+        "hattest / machen"
+      ],
+      "correctAnswer": "hattest / machen sollen",
+      "explanation": "Modal verb + Ersatzinfinitiv in Plusquamperfekt: 'hattest machen sollen' = had should have done. The modal 'sollen' appears as infinitive (Ersatzinfinitiv), NOT as past participle. This is a counterfactual past: you should have done it better.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_08_q157",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_157",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Baby ________ bereits ________ ________, als wir nach Hause ________ ________.",
+      "options": [
+        "war / eingeschlafen",
+        "war / eingeschlafen",
+        "hatte / eingeschlafen",
+        "war / einschlafen"
+      ],
+      "correctAnswer": "war / eingeschlafen",
+      "explanation": "Plusquamperfekt with sein: 'war eingeschlafen' (had fallen asleep). When we came home (als + Präteritum), the baby was already asleep. Movement/change of state → sein.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q158",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_158",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ das Geld ________ ________, bevor er ________ ________.",
+      "options": [
+        "hatte / ausgegeben",
+        "hatte / ausgeben",
+        "hat / ausgegeben",
+        "hatte / ausgegeben"
+      ],
+      "correctAnswer": "hatte / ausgegeben",
+      "explanation": "Plusquamperfekt: 'hatte ausgegeben' = had spent. The spending happened before something else (e.g., his card was blocked). The verb 'ausgeben' (to spend) uses haben.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q159",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_159",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie die E-Mail ________ ________, ________ sie sofort ________ ________.",
+      "options": [
+        "geschrieben hatte / hat / abgeschickt",
+        "geschrieben hat / hatte / abgeschickt",
+        "schrieb / hatte / abgeschickt",
+        "geschrieben hatte / hatte / abgeschickt"
+      ],
+      "correctAnswer": "geschrieben hatte / hat / abgeschickt",
+      "explanation": "Plusquamperfekt after 'nachdem': 'geschrieben hatte' (had written). Main clause: 'hat abgeschickt' (Perfekt of abschicken). The writing happened BEFORE the sending. Both use haben as auxiliary.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_08_q160",
+      "subjectId": "a2_08",
+      "topicId": "a2_08",
+      "topicName": "Plusquamperfekt",
+      "sourceId": "manual",
+      "originalId": "manual_160",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ den Film schon ________ ________, bevor er in die Kinos ________ ________.",
+      "options": [
+        "hatte / gesehen",
+        "hatte / sehen",
+        "habe / gesehen",
+        "hatte / gesehen gehabt"
+      ],
+      "correctAnswer": "hatte / gesehen",
+      "explanation": "Plusquamperfekt: 'hatte gesehen' = had seen. The seeing had happened before the film came to cinemas. Structure: hatte + Partizip II. Note: no double auxiliary here — just 'hatte gesehen'.",
+      "difficulty": "easy"
     }
   ],
-  "totalQuestions": 100
+  "description": "Plusquamperfekt (pluperfect/past perfect) describes an action that occurred BEFORE another past event in the past. It is the German equivalent of 'had done something' in English. Structure: hatte or war in Präteritum + Partizip II. Usage: When narrating in Präteritum, Plusquamperfekt is used to describe the EARLIER action, while Präteritum or Perfekt describes the LATER action. For example: 'Ich hatte schon gegessen, als er kam.' (I had already eaten when he came.) Most verbs use hatte + Partizip II; verbs of movement (gehen, kommen, fahren, reisen) and sein/werden use war + Partizip II.",
+  "tips": [
+    "Structure: hatte/war (Präteritum) + Partizip II. Used to express 'had done' in English.",
+    "Used for the EARLIER past action in a past narrative: 'Ich hatte schon gegessen, als er kam.' (I had already eaten when he came.)",
+    "Most verbs: hatte + Partizip II (hatte gemacht, hatte gegessen, hatte gearbeitet).",
+    "Movement verbs and sein/werden: war + Partizip II (war gegangen, war gekommen, war gewesen).",
+    "In spoken German, Perfekt often replaces Plusquamperfekt: 'Ich habe schon gegessen' instead of 'Ich hatte schon gegessen.'",
+    "Time words signaling Plusquamperfekt: schon, bereits, bevor, nach, ehe, damals, vorher, bis zu diesem Zeitpunkt.",
+    "Konjunktionen: bevor, nach, ehe — often used with Plusquamperfekt in the subordinate clause."
+  ]
 }

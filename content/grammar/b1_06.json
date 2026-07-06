@@ -1,1554 +1,1342 @@
 {
+  "version": "1.0",
   "subjectId": "b1_06",
-  "topicName": "Passiv Präteritum und Perfekt",
+  "topicName": "Relativsätze im Genitiv",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Relativsätze im Genitiv (genitive relative clauses) express possession, belonging, or a close relationship using \"dessen\" and \"deren\" — equivalent to English \"whose.\" Unlike other relative pronouns, the genitive relative pronoun is determined solely by the gender and number of the antecedent (not by the verb inside the clause). Key rule: dessen = masculine/neuter singular; deren = feminine singular/plural. The relative pronoun is always uninflected. Used in formal B2 written German, newspaper language, and academic texts.",
+  "tips": [
+    "Genitive relative pronoun: dessen = masculine/neuter singular (der Mann, das Kind → dessen Auto); deren = feminine singular/plural (die Frau, die Kinder → deren Tasche). NEVER use derer in a relative clause — derer is a demonstrative pronoun for distant reference.",
+    "No extra article after dessen/deren: The noun immediately following always drops its article or possessive. Correct: 'Die Architektin, deren Entwürfe weltbekannt sind' (NOT: deren ihre Entwürfe or deren die Entwürfe).",
+    "Word order inside clause: Relativpronomen + [possessed noun] + [other elements] + [conjugated verb LAST]. Adjective after dessen/deren takes possessive-type declension: dessen neues Auto, deren innovative Entwürfe, dessen schönes Haus.",
+    "Biological vs grammatical gender: ALWAYS follow grammatical gender. 'Das Waisenkind' (neuter) → 'dessen' even if the child is biologically female. 'Die Person' (feminine) → 'deren' regardless of the person's gender.",
+    "Preposition + dessen/deren + noun: The preposition goes at the BEGINNING of the clause, before the relative pronoun. The case inside the clause is determined by the preposition governing the noun, NOT the relative pronoun. → mit dessen Eltern, ohne deren Unterstützung, auf deren Rat.",
+    "Identify the verb's preposition first: If the verb takes a preposition (sich verlassen auf, reagieren auf, beitragen zu, teilnehmen an), that preposition must be dragged to the front of the clause.",
+    "Idiomatic 'bei' expressions: bei der Bewältigung, bei der Arbeit, beim Lesen — these create complex B2 structures like 'Situationen, bei deren Bewältigung man ruhig bleiben muss'.",
+    "Singular noun inside plural clause is normal: 'Die Länder, deren Wirtschaft stark ist' — each country has one economy, so the inner noun stays singular while the antecedent is plural.",
+    "Adjective endings after dessen/deren: After definite article-like possessives, adjectives take strong/mixed endings — dessen neues (Akk. neut.), deren innovative (Nom. plural), dessen schönen (Akk. masculine) projects.",
+    "Key distractors to watch for: derer (NOT a relative pronoun), denen (dative plural — wrong case), dessen/deren + ihr/her (double possessive — redundant), dem/den/die (wrong case entirely)."
+  ],
   "questions": [
     {
       "id": "b1_06_q001",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das ist der Mann, ____ Auto gestern gestohlen wurde.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "der"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'der Mann' is masculine singular. The relative pronoun replacing a Genitiv attribute of a masculine/neuter noun is 'dessen'. It modifies 'Auto' (whose car). 'deren' is for feminine/plural antecedents."
     },
     {
       "id": "b1_06_q002",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ____ Tochter ich kenne, arbeitet als Ärztin.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "'Die Frau' is feminine singular. The Genitiv relative pronoun for feminine antecedents is 'deren'. It replaces 'ihr' in 'ihre Tochter' → 'deren Tochter' (whose daughter)."
     },
     {
       "id": "b1_06_q003",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ____ Eltern im Ausland leben, besucht eine Internatsschule.",
       "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "'Das Kind' is neuter singular. The Genitiv relative pronoun for neuter antecedents is 'dessen' — same form as masculine. It replaces 'seine' in 'seine Eltern' → 'dessen Eltern'."
     },
     {
       "id": "b1_06_q004",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
-      "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
-      ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Studenten, ____ Prüfungsergebnisse noch ausstehen, müssen warten.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Die Studenten' is plural (any gender). The Genitiv relative pronoun for plural antecedents is 'deren' — same form as feminine singular. It replaces 'ihre' in 'ihre Prüfungsergebnisse'."
     },
     {
       "id": "b1_06_q005",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
-      "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
-      ],
-      "correctAnswer": "deren",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q006",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
-      "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q007",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
-      ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q008",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sagte, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q009",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ du Deutsch gelernt ___?",
-      "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
-      ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q010",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
+      "type": "multiple_choice",
+      "questionText": "Der Schriftsteller, ____ Romane weltweit bekannt sind, hält heute eine Lesung.",
       "options": [
         "dessen",
         "deren",
-        "die",
+        "der",
         "dem"
       ],
       "correctAnswer": "dessen",
-      "explanation": "",
+      "explanation": "Masculine antecedent 'der Schriftsteller' → Genitiv relative pronoun 'dessen'. It modifies 'Romane' (whose novels). The verb 'sind' agrees with 'Romane' (plural), not with 'dessen'."
+    },
+    {
+      "id": "b1_06_q006",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ____ Produkte international exportiert werden, sitzt in München.",
+      "options": [
+        "deren",
+        "dessen",
+        "die",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "'Die Firma' is feminine singular → Genitiv relative pronoun 'deren'. The relative clause is also in passive voice ('exportiert werden'), which is a common B2 combination."
+    },
+    {
+      "id": "b1_06_q007",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ich habe einen Kollegen, ____ Meinung ich sehr schätze.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "'Einen Kollegen' → masculine antecedent → 'dessen'. 'Meinung' is the object of 'schätzen' (Akkusativ), but the relative pronoun 'dessen' marks the Genitiv relationship (whose opinion), not the case of 'Meinung' in the main clause."
+    },
+    {
+      "id": "b1_06_q008",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen, ____ Umsatz sich in den letzten Jahren verdreifacht hat, plant eine Expansion.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "das"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "'Das Unternehmen' is neuter → 'dessen'. The reflexive verb 'sich verdreifachen' in the relative clause is a B2 complexity — the relative pronoun still refers to the Genitiv attribute, regardless of the verb type in the clause."
+    },
+    {
+      "id": "b1_06_q009",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Länder, ____ Wirtschaft stark von Tourismus abhängt, wurden von der Krise hart getroffen.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'die Länder' → 'deren'. Note: 'Wirtschaft' is singular even though the antecedent is plural — each country has one economy. The relative pronoun 'deren' here signals Genitiv attribution (whose economy)."
+    },
+    {
+      "id": "b1_06_q010",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker, ____ Rücktritt seit Wochen gefordert wird, gab gestern eine Pressekonferenz.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "der"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Masculine antecedent 'der Politiker' → 'dessen'. The relative clause contains a passive construction ('gefordert wird') with a nominalized infinitive ('Rücktritt' = resignation). This combination of Genitiv relative clause + passive is typical of B2 newspaper language."
     },
     {
       "id": "b1_06_q011",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Gebäude, an ____ Fassade noch gearbeitet wird, soll nächstes Jahr eröffnet werden.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "das"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Neuter antecedent 'das Gebäude' → 'dessen'. When a preposition precedes the Genitiv relative pronoun, the structure is: Präposition + dessen/deren + Noun. Here: 'an dessen Fassade' (on whose facade). The preposition does NOT merge with 'dessen/deren'."
     },
     {
       "id": "b1_06_q012",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Organisation, für ____ Arbeit sie sich jahrelang engagiert hatte, verlieh ihr einen Preis.",
       "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "Feminine antecedent 'die Organisation' → 'deren'. Prepositional Genitiv relative clause: 'für deren Arbeit' (for whose work). The preposition 'für' governs Akkusativ, but here it modifies 'Arbeit', not the relative pronoun — 'deren' is always uninflected after a preposition."
     },
     {
       "id": "b1_06_q013",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er ist ein Forscher, ____ Theorien zwar umstritten sind, aber dennoch großen Einfluss haben.",
       "options": [
-        "Als",
-        "Wenn",
-        "Wann",
-        "Während"
+        "dessen",
+        "deren",
+        "dem",
+        "der"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "Masculine antecedent 'ein Forscher' → 'dessen'. The relative clause here has a concessive structure ('zwar … aber dennoch'), which is a B2 sentence complexity. The Genitiv relative pronoun form is unaffected by the internal clause structure."
     },
     {
       "id": "b1_06_q014",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Maßnahmen, ____ Wirksamkeit von Experten bezweifelt wird, sollen dennoch umgesetzt werden.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'die Maßnahmen' → 'deren'. The noun 'Wirksamkeit' is singular (effectiveness of the measures), but 'deren' still takes the plural form because it refers to the plural antecedent. This singular/plural mismatch is a classic B2 confusion point."
     },
     {
       "id": "b1_06_q015",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ist eine Situation, mit ____ Folgen wir noch lange zu kämpfen haben werden.",
       "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
+        "deren",
+        "dessen",
+        "der",
+        "die"
       ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "Feminine antecedent 'eine Situation' → 'deren'. Prepositional structure: 'mit deren Folgen' (with whose consequences). 'mit' governs Dativ, but it modifies 'Folgen' here — 'deren' itself remains in Genitiv relative pronoun form and is not declined further."
     },
     {
       "id": "b1_06_q016",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag, über ____ Bedingungen seit Monaten verhandelt worden war, wurde schließlich unterzeichnet.",
       "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
+        "dessen",
+        "deren",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "Masculine antecedent 'der Vertrag' → 'dessen'. Complex structure: preposition 'über' + 'dessen Bedingungen' + passive Plusquamperfekt ('verhandelt worden war'). The Genitiv relative pronoun is unaffected by the tense or voice of the clause."
     },
     {
       "id": "b1_06_q017",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Technologien, ____ Potenzial noch nicht vollständig ausgeschöpft worden ist, könnten die Energiewende beschleunigen.",
       "options": [
-        "würde",
-        "wird",
-        "kann",
-        "wollte"
+        "deren",
+        "dessen",
+        "denen",
+        "die"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'die Technologien' → 'deren'. The relative clause contains a passive perfect ('ausgeschöpft worden ist') with a modal nuance from 'noch nicht vollständig'. The subject of the passive clause is 'Potenzial' (singular), while 'deren' refers to the plural antecedent — a B2+ distinction."
     },
     {
       "id": "b1_06_q018",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Phänomen, ____ Ursachen trotz intensiver Forschung noch weitgehend ungeklärt sind, beschäftigt Wissenschaftler weltweit.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "das"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Neuter antecedent 'das Phänomen' → 'dessen'. The relative clause has a complex predicate: 'noch weitgehend ungeklärt sind' (are still largely unexplained). 'Ursachen' (causes, plural) is the subject of the relative clause, agreeing with 'sind', while 'dessen' marks the Genitiv link to 'Phänomen'."
     },
     {
       "id": "b1_06_q019",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es gibt Bevölkerungsgruppen, in ____ Lebensrealität strukturelle Benachteiligungen tief verankert sind.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Obwohl"
+        "deren",
+        "dessen",
+        "denen",
+        "die"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent 'Bevölkerungsgruppen' → 'deren'. Prepositional genitive relative clause: 'in deren Lebensrealität' (in whose lived reality). 'in' governs Dativ for location, but here 'deren' is in Genitiv position modifying 'Lebensrealität' — the preposition governs 'Lebensrealität', not 'deren'. This nested structure is a hallmark of academic/journalistic B2+ German."
     },
     {
       "id": "b1_06_q020",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
-      "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q021",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
-      "options": [
-        "um",
-        "als",
-        "weil",
-        "obwohl"
-      ],
-      "correctAnswer": "als",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q022",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
+      "type": "multiple_choice",
+      "questionText": "Die Epoche, ____ kulturelles Erbe bis heute in Architektur und Sprache sichtbar ist, wird als Barock bezeichnet.",
       "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
-      ],
-      "correctAnswer": "So",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q023",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
-      "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q024",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er tut so, ___ er alles wüsste.",
-      "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q025",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
-      "options": [
-        "weil",
-        "obwohl",
-        "wenn",
-        "damit"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q026",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
-      "options": [
-        "die",
+        "deren",
+        "dessen",
         "der",
-        "den",
-        "welche"
+        "die"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Feminine antecedent 'die Epoche' → 'deren'. The relative clause features a nominalized adjective 'das kulturelle Erbe' as the subject, modified by 'deren'. Note: 'deren kulturelles Erbe' — the adjective 'kulturelles' takes mixed/strong declension after 'deren' (which acts like a Genitiv determiner). This adjective declension after 'dessen/deren' is a key B2 writing skill."
+    },
+    {
+      "questionText": "Dort drüben steht der Kollege, ____ Abteilung im vergangenen Monat die besten Verkaufszahlen erzielt hat.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem seine",
+        "welchem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The reference word is 'der Kollege' (masculine singular). The relative pronoun in the genitive case modifying 'Abteilung' must therefore be 'dessen'.",
+      "difficulty": "easy",
+      "id": "b1_06_q021"
+    },
+    {
+      "questionText": "Die Architektin, ____ innovativen Entwürfe weltweit ausgezeichnet wurden, leitet das neue Bauprojekt.",
+      "options": [
+        "dessen",
+        "deren",
+        "welcher",
+        "derer"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The reference word is 'Die Architektin' (feminine singular). The genitive relative pronoun for a feminine singular antecedent is 'deren'. Note that the following noun 'Entwürfe' drops its article.",
+      "difficulty": "easy",
+      "id": "b1_06_q022"
+    },
+    {
+      "questionText": "Wir betreuen momentan drei internationale Start-ups, ____ wirtschaftliche Entwicklung wir genau beobachten.",
+      "options": [
+        "dessen",
+        "denen",
+        "deren",
+        "derer"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The reference word is 'Start-ups' (plural). The genitive relative pronoun for plural antecedents is 'deren'. It functions as the possessive modifier for 'wirtschaftliche Entwicklung'.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "id": "b1_06_q023"
     },
     {
-      "id": "b1_06_q027",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
+      "questionText": "Das Unternehmen, ____ Gründer gestern im Fernsehen interviewt wurde, expandiert nun nach Asien.",
       "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
+        "dessen",
+        "deren",
+        "welches",
+        "dem sein"
       ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "The reference word is 'Das Unternehmen' (neuter singular). The genitive relative pronoun for neuter singular nouns is 'dessen'.",
+      "difficulty": "easy",
+      "id": "b1_06_q024"
     },
     {
-      "id": "b1_06_q028",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
+      "questionText": "Dort sehen Sie die Studentinnen, ____ wissenschaftliche Arbeiten auf der Konferenz vorgestellt werden.",
       "options": [
-        "den",
-        "der",
-        "dem",
+        "derer",
+        "deren",
+        "dessen",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent is 'die Studentinnen' (plural). Plural genitive relative pronoun is 'deren'. Do not confuse it with 'derer', which is a demonstrative pronoun, not a relative pronoun.",
+      "difficulty": "medium",
+      "id": "b1_06_q025"
+    },
+    {
+      "questionText": "Gestern traf ich den Rechtsanwalt, ____ Unterstützung ich den erfolgreichen Prozessausgang zu verdanken habe.",
+      "options": [
+        "mit dessen",
+        "durch dessen",
+        "wegen dessen",
         "dessen"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "The verb phrase 'jemandem etwas zu verdanken haben' translates to owing something to someone. The genitive relative pronoun 'dessen' modifies 'Unterstützung' (whose support I have to thank...). No preposition is needed before 'dessen' to fulfill this underlying syntactic relation.",
+      "difficulty": "hard",
+      "id": "b1_06_q026"
     },
     {
-      "id": "b1_06_q029",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
+      "questionText": "Das ist der ältere Patient, ____ Gesundheitszustand sich im Laufe der Nacht drastisch verschlechtert hat.",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "dessen",
+        "deren",
+        "welchem sein",
+        "des"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "The reference word is 'der ältere Patient' (masculine singular). The possessive relation to 'Gesundheitszustand' requires the masculine genitive relative pronoun 'dessen'.",
+      "difficulty": "easy",
+      "id": "b1_06_q027"
     },
     {
-      "id": "b1_06_q030",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
+      "questionText": "Wir besuchten die historische Altstadt, ____ enge Gassen einen ganz besonderen Charme versprühen.",
       "options": [
+        "deren",
+        "dessen",
+        "derer",
+        "in deren"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent is 'die historische Altstadt' (feminine singular). The genitive relative pronoun is 'deren'. Option D ('in deren') would require a different clause structure, but here 'enge Gassen' is simply the subject of the relative clause.",
+      "difficulty": "medium",
+      "id": "b1_06_q028"
+    },
+    {
+      "questionText": "Der Abteilungsleiter, ____ Anweisungen trotz ____ Heftigkeit ignoriert wurden, forderte eine offizielle Erklärung.",
+      "options": [
+        "dessen / ihrer",
+        "deren / seiner",
+        "dessen / seiner",
+        "dessen / --"
+      ],
+      "correctAnswer": "dessen / --",
+      "explanation": "The noun 'Anweisungen' belongs to 'der Abteilungsleiter' (hence 'dessen Anweisungen'). In German relative clauses, you do not add an extra possessive pronoun before or after the noun that follows the genitive relative pronoun. Therefore, the second slot remains empty.",
+      "difficulty": "hard",
+      "id": "b1_06_q029"
+    },
+    {
+      "questionText": "Das Forschungslabor, ____ finanzielle Mittel vollständig gestrichen wurden, muss nun leider schließen.",
+      "options": [
+        "deren",
+        "dessen",
+        "welches",
+        "dem seine"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is 'Das Forschungslabor' (neuter singular). Neuter singular tracking in the genitive case requires the relative pronoun 'dessen'.",
+      "difficulty": "medium",
+      "id": "b1_06_q030"
+    },
+    {
+      "questionText": "Frau Müller ist eine engagierte Vorgesetzte, ____ fachlichen Rat ich mich immer zu einhundert Prozent verlassen kann.",
+      "options": [
+        "auf deren",
+        "auf dessen",
+        "an deren",
+        "deren"
+      ],
+      "correctAnswer": "auf deren",
+      "explanation": "The prepositional verb is 'sich verlassen auf + Akkusativ' (to rely on). The antecedent is 'Frau Müller' (feminine). Therefore, the preposition 'auf' must precede the feminine genitive relative pronoun 'deren' modifying 'fachlichen Rat'.",
+      "difficulty": "hard",
+      "id": "b1_06_q031"
+    },
+    {
+      "questionText": "Dort drüben sehen Sie die Musiker, ____ großartiges Konzert wir letzte Woche beigewohnt haben.",
+      "options": [
+        "deren / --",
+        "zu deren",
+        "dessen",
+        "an deren"
+      ],
+      "correctAnswer": "deren / --",
+      "explanation": "The verb 'beiwohnen' (to attend/witness) takes a direct dative object ('wir haben dem Konzert beigewohnt'). The antecedent is plural ('die Musiker' -> 'deren'). No preposition is required before the pronoun because 'beiwohnen' does not use a preposition.",
+      "difficulty": "hard",
+      "id": "b1_06_q032"
+    },
+    {
+      "questionText": "Der schüchterne Junge, ____ Eltern ich gestern beim Elternabend gesprochen habe, hat enorme Fortschritte gemacht.",
+      "options": [
+        "mit dessen",
+        "mit deren",
+        "über dessen",
+        "von dessen"
+      ],
+      "correctAnswer": "mit dessen",
+      "explanation": "The verb is 'sprechen mit + Dativ' (to talk with). The antecedent is 'Der schüchterne Junge' (masculine singular), which mandates the genitive relative pronoun 'dessen'. Thus, 'mit dessen Eltern' (with whose parents) is the correct choice.",
+      "difficulty": "medium",
+      "id": "b1_06_q033"
+    },
+    {
+      "questionText": "Die Zeugen, ____ widersprüchliche Aussagen die Polizei verwirrten, mussten erneut verhört werden.",
+      "options": [
+        "derer",
+        "dessen",
+        "deren",
+        "durch deren"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The reference word is 'Die Zeugen' (plural). The possessive modification for 'widersprüchliche Aussagen' requires the plural genitive relative pronoun 'deren'.",
+      "difficulty": "easy",
+      "id": "b1_06_q034"
+    },
+    {
+      "questionText": "Das ist das kleine Dorf, ____ Einwohner ____ heftigen Hochwassers evakuiert werden mussten.",
+      "options": [
+        "dessen / wegen des",
+        "deren / aufgrund von",
+        "dessen / während dem",
+        "dessen / infolge"
+      ],
+      "correctAnswer": "dessen / wegen des",
+      "explanation": "The antecedent is 'Das kleine Dorf' (neuter singular -> 'dessen Einwohner'). The second blank requires a causal preposition with genitive to handle 'heftigen Hochwassers', making 'wegen des' the ideal fit.",
+      "difficulty": "hard",
+      "id": "b1_06_q035"
+    },
+    {
+      "questionText": "Der Autor, ____ neuesten Kriminalroman ich gerade mit großer Begeisterung lese, gibt morgen eine Autogrammstunde.",
+      "options": [
+        "den",
+        "dessen",
+        "deren",
+        "welchen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is 'Der Autor' (masculine singular). Since it describes a possessive relationship ('whose newest crime novel'), the genitive form 'dessen' must be used.",
+      "difficulty": "easy",
+      "id": "b1_06_q036"
+    },
+    {
+      "questionText": "Die beiden Dozenten, ____ Unterstützung ____ das anspruchsvolle Forschungsprojekt scheitern würde, sind heute nicht da.",
+      "options": [
+        "ohne deren / --",
+        "mit deren / --",
+        "ohne dessen / --",
+        "deren / ohne"
+      ],
+      "correctAnswer": "ohne deren / --",
+      "explanation": "The reference noun is plural ('Die beiden Dozenten' -> 'deren'). The conditional meaning implies that without their support, the project would fail. The preposition 'ohne' takes the Akkusativ, but it directly precedes the relative pronoun: 'ohne deren Unterstützung'.",
+      "difficulty": "hard",
+      "id": "b1_06_q037"
+    },
+    {
+      "questionText": "Das Waisenkind, ____ rührende Lebensgeschichte viele Menschen tief bewegte, hat ein neues Zuhause gefunden.",
+      "options": [
+        "deren",
+        "dem seine",
+        "dessen",
+        "welches"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is 'Das Waisenkind'. Grammatically, 'Kind' is neuter singular, so it strictly demands the neuter genitive relative pronoun 'dessen', despite the natural biological gender of the individual child being unknown or feminine.",
+      "difficulty": "medium",
+      "id": "b1_06_q038"
+    },
+    {
+      "questionText": "Die Professorin, ____ Vorlesung ____ wir gestern vorzeitig verlassen haben, gilt als sehr streng.",
+      "options": [
+        "deren / --",
+        "dessen / --",
+        "aus deren / --",
+        "deren / die"
+      ],
+      "correctAnswer": "deren / --",
+      "explanation": "The antecedent is 'Die Professorin' (feminine -> 'deren Vorlesung'). The verb is 'verlassen' which takes a direct accusative object ('wir haben die Vorlesung verlassen'). Thus, 'deren Vorlesung' acts directly as the accusative object inside the relative clause without any extra articles or prepositions.",
+      "difficulty": "hard",
+      "id": "b1_06_q039"
+    },
+    {
+      "questionText": "Es gibt Situationen, ____ Bewältigung man sich absolute Ruhe und Konzentration bewahren muss.",
+      "options": [
+        "in deren",
+        "bei deren",
+        "deren",
+        "an deren"
+      ],
+      "correctAnswer": "bei deren",
+      "explanation": "The antecedent is 'Situationen' (plural -> 'deren'). The nominal context requires a preposition to state when or during what action you must keep calm. The fixed idiom is 'bei der Bewältigung von etwas' (while coping with something), leading to 'bei deren Bewältigung'.",
+      "difficulty": "hard",
+      "id": "b1_06_q040"
+    },
+    {
+      "questionText": "Der Autor, ____ Bücher weltweit verkauft werden, hält heute einen Vortrag.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The noun 'Bücher' is plural and belongs to a masculine singular antecedent 'der Autor', therefore 'dessen' is correct.",
+      "difficulty": "medium",
+      "id": "b1_06_q041"
+    },
+    {
+      "questionText": "Die Professorin, ____ Forschung international anerkannt ist, arbeitet an unserer Universität.",
+      "options": [
+        "dessen",
+        "deren",
+        "denen",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent 'die Professorin' is feminine, so the Genitiv relative pronoun is 'deren'.",
+      "difficulty": "easy",
+      "id": "b1_06_q042"
+    },
+    {
+      "questionText": "Das Unternehmen, ____ Produkte besonders umweltfreundlich sind, expandiert stark.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'das Unternehmen' is neuter singular, requiring 'dessen'.",
+      "difficulty": "medium",
+      "id": "b1_06_q043"
+    },
+    {
+      "questionText": "Die Studenten, ____ Ergebnisse ausgezeichnet waren, erhielten ein Stipendium.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "derenem"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent 'die Studenten' is plural, so the Genitiv relative pronoun is 'deren'.",
+      "difficulty": "easy",
+      "id": "b1_06_q044"
+    },
+    {
+      "questionText": "Der Politiker, ____ Aussagen oft kritisiert werden, gab ein Interview.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is masculine singular, therefore 'dessen' is required.",
+      "difficulty": "medium",
+      "id": "b1_06_q045"
+    },
+    {
+      "questionText": "Die Firma, ____ Ruf stark gelitten hat, versucht ihr Image zu verbessern.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "derenen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent 'die Firma' is feminine singular, so 'deren' is correct.",
+      "difficulty": "medium",
+      "id": "b1_06_q046"
+    },
+    {
+      "questionText": "Das Mädchen, ____ Eltern aus Spanien stammen, spricht drei Sprachen.",
+      "options": [
+        "dessen",
+        "deren",
+        "denen",
+        "dem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'das Mädchen' is grammatically neuter, requiring 'dessen'.",
+      "difficulty": "hard",
+      "id": "b1_06_q047"
+    },
+    {
+      "questionText": "Die Wissenschaftler, ____ Entdeckungen die Medizin verändert haben, wurden ausgezeichnet.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent is plural, therefore 'deren' must be used.",
+      "difficulty": "medium",
+      "id": "b1_06_q048"
+    },
+    {
+      "questionText": "Der Schauspieler, ____ Karriere plötzlich endete, lebt heute zurückgezogen.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'der Schauspieler' is masculine singular, requiring 'dessen'.",
+      "difficulty": "medium",
+      "id": "b1_06_q049"
+    },
+    {
+      "questionText": "Die Autorinnen, ____ Romane mehrfach verfilmt wurden, sind international bekannt.",
+      "options": [
+        "deren",
+        "dessen",
         "der",
-        "die",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedents use 'deren' in Genitiv relative clauses.",
+      "difficulty": "easy",
+      "id": "b1_06_q050"
+    },
+    {
+      "questionText": "Das Haus, ____ Dach durch den Sturm beschädigt wurde, muss renoviert werden.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'das Haus' is neuter singular, so 'dessen' is correct.",
+      "difficulty": "easy",
+      "id": "b1_06_q051"
+    },
+    {
+      "questionText": "Die Mitarbeiterin, ____ Ideen das Projekt retteten, wurde befördert.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent is feminine singular, requiring 'deren'.",
+      "difficulty": "medium",
+      "id": "b1_06_q052"
+    },
+    {
+      "questionText": "Der Student, ____ Masterarbeit veröffentlicht wurde, erhielt mehrere Angebote.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Masculine singular antecedents take 'dessen' in Genitiv relative clauses.",
+      "difficulty": "hard",
+      "id": "b1_06_q053"
+    },
+    {
+      "questionText": "Die Organisation, ____ Ziele weltweit unterstützt werden, wächst ständig.",
+      "options": [
+        "deren",
+        "dessen",
         "den",
         "dem"
       ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_06_q031",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q032",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The antecedent 'die Organisation' is feminine singular, therefore 'deren' is used.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q054"
     },
     {
-      "id": "b1_06_q033",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "questionText": "Die Kinder, ____ Verhalten oft problematisch ist, brauchen mehr Unterstützung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedents require 'deren'.",
       "difficulty": "hard",
-      "type": "true_false"
+      "id": "b1_06_q055"
     },
     {
-      "id": "b1_06_q034",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "questionText": "Der Unternehmer, ____ Firma Insolvenz anmelden musste, zog ins Ausland.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q035",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent is masculine singular, so 'dessen' is correct.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q056"
     },
     {
-      "id": "b1_06_q036",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "questionText": "Die Sängerin, ____ Stimme sofort erkannt wird, veröffentlicht ein neues Album.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q037",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Feminine singular antecedents use 'deren'.",
       "difficulty": "easy",
-      "type": "true_false"
+      "id": "b1_06_q057"
     },
     {
-      "id": "b1_06_q038",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
+      "questionText": "Das Start-up, ____ Konzept viele Investoren überzeugte, expandiert nach Europa.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'das Start-up' is neuter singular, requiring 'dessen'.",
+      "difficulty": "hard",
+      "id": "b1_06_q058"
+    },
+    {
+      "questionText": "Die Experten, ____ Empfehlungen ignoriert wurden, warnten vor den Folgen.",
+      "options": [
+        "deren",
+        "dessen",
+        "den",
+        "dem"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent is plural, so the correct Genitiv relative pronoun is 'deren'.",
+      "difficulty": "hard",
+      "id": "b1_06_q059"
+    },
+    {
+      "questionText": "Der Arzt, ____ Patienten ihm vollkommen vertrauen, arbeitet seit Jahrzehnten hier.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The antecedent 'der Arzt' is masculine singular, therefore 'dessen' is correct.",
+      "difficulty": "hard",
+      "id": "b1_06_q060"
+    },
+    {
+      "questionText": "Der Architekt, ____ Entwurf den Wettbewerb gewonnen hat, plant nun die Umsetzung.",
+      "options": [
+        "dessen",
+        "dem",
+        "der",
+        "welches"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The relative clause refers to 'Der Architekt' (masculine singular). The genitive relative pronoun 'dessen' is required to show possession ('his design'). 'Dem' and 'der' are dative/nominative, and 'welches' is neuter.",
+      "difficulty": "easy",
+      "id": "b1_06_q061"
+    },
+    {
+      "questionText": "Die Studie, ____ Ergebnisse international diskutiert werden, stammt aus dem Jahr 2023.",
+      "options": [
+        "deren",
+        "der",
+        "dem",
+        "deren ihr"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent 'Die Studie' is feminine singular. The genitive relative pronoun 'deren' correctly replaces 'der Studie' to indicate possession ('its results'). 'Der' and 'dem' are nominative/dative.",
+      "difficulty": "easy",
+      "id": "b1_06_q062"
+    },
+    {
+      "questionText": "Die Nachbarn, ____ Garten wir im Sommer pflegen, sind sehr dankbar.",
+      "options": [
+        "deren",
+        "dessen",
+        "denen",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The antecedent 'Die Nachbarn' is plural. The genitive relative pronoun for plural nouns is always 'deren', regardless of natural gender. 'Denen' is dative plural.",
+      "difficulty": "easy",
+      "id": "b1_06_q063"
+    },
+    {
+      "questionText": "Das Gesetz, ____ Gültigkeit ab Januar endet, muss novelliert werden.",
+      "options": [
+        "dessen",
+        "das",
+        "dem",
+        "der"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The neuter noun 'Das Gesetz' requires the genitive relative pronoun 'dessen' to modify 'Gültigkeit'. 'Das', 'dem', and 'der' are nominative/dative and do not express possession in a relative clause.",
+      "difficulty": "easy",
+      "id": "b1_06_q064"
+    },
+    {
+      "questionText": "Die Expertin, ____ Fachwissen in der Klimaforschung unbestritten ist, berät das Ministerium.",
+      "options": [
+        "deren",
+        "deren ihr",
+        "der",
+        "welche"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Feminine singular antecedent requires 'deren' in the genitive. Adding 'ihr' is redundant and grammatically incorrect in standard German relative clauses. 'Der' is nominative/dative feminine.",
+      "difficulty": "easy",
+      "id": "b1_06_q065"
+    },
+    {
+      "questionText": "Der Vorschlag, ____ Umsetzung an Budgetgrenzen scheiterte, wurde verworfen.",
+      "options": [
+        "dessen",
+        "dem",
+        "der",
+        "welchem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Masculine singular 'Der Vorschlag' requires genitive 'dessen' to show that the 'Umsetzung' belongs to the proposal. 'Dem' is dative, 'der' is nominative, and 'welchem' is dative.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q066"
     },
     {
-      "id": "b1_06_q039",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "questionText": "Die Organisation, ____ Mitglieder sich weltweit engagieren, plant ein Gipfeltreffen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "derer",
+        "deren ihre",
+        "denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q040",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q041",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Plural antecedent requires 'deren'. 'Derer' is a demonstrative pronoun used for distant reference, not a relative pronoun. 'Deren ihre' is redundant. 'Denen' is dative.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q067"
     },
     {
-      "id": "b1_06_q042",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
+      "questionText": "Der Bericht, ____ Analyse die Grundlage der Reform bildet, liegt dem Gremium vor.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "dem",
+        "des",
+        "welchen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q043",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q044",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "Genitive relative pronoun for masculine singular 'Der Bericht' is 'dessen'. 'Des' is a genitive article, not a relative pronoun. 'Dem' is dative, 'welchen' is accusative.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q068"
     },
     {
-      "id": "b1_06_q045",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
+      "questionText": "Die Maßnahme, ____ Wirksamkeit in Pilotprojekten getestet wurde, soll bundesweit eingeführt werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "der",
+        "deren ihre",
+        "welcher"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q046",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q047",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Relativsätze haben immer ein Komma.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Feminine singular 'Die Maßnahme' requires 'deren' to link to 'Wirksamkeit'. The structure demonstrates formal B2 register where abstract nouns replace full clauses.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q069"
     },
     {
-      "id": "b1_06_q048",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
+      "questionText": "Das Unternehmen, ____ Ruf durch den Skandal beschädigt wurde, bemüht sich um Transparenz.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "dem",
+        "das",
+        "welches"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q049",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q050",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "Neuter 'Das Unternehmen' requires genitive 'dessen'. The passive construction in the relative clause is typical of B2 formal German. 'Welches' is nominative/accusative.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q070"
     },
     {
-      "id": "b1_06_q051",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
+      "questionText": "Die Wissenschaftler, ____ Daten noch nicht vollständig ausgewertet sind, veröffentlichen vorläufige Ergebnisse.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "deren ihre",
+        "derer",
+        "denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q052",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q053",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Plural 'Die Wissenschaftler' takes 'deren'. The relative clause shows possession of the data. 'Derer' is demonstrative, not relative. 'Denen' would require dative verb/preposition.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q071"
     },
     {
-      "id": "b1_06_q054",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "questionText": "Trotz des Gutachtens, ____ Schlussfolgerungen umstritten bleiben, wurde das Projekt genehmigt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "dem",
+        "der",
+        "welches"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q055",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q056",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "Neuter 'das Gutachten' requires 'dessen' despite the preposition 'trotz' governing the main noun. The relative pronoun's case depends on the antecedent, not the preposition.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q072"
     },
     {
-      "id": "b1_06_q057",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "questionText": "Die Richtlinie, ____ Einhaltung von allen Abteilungen kontrolliert wird, gilt ab sofort.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "der",
+        "deren ihre",
+        "welche"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q058",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_06_q059",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Feminine 'Die Richtlinie' requires genitive 'deren' to modify 'Einhaltung'. The passive 'wird kontrolliert' forces verb-final position, standard in B2 relative clauses.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_06_q073"
     },
     {
-      "id": "b1_06_q060",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "questionText": "Wegen der Kritik, ____ Schärfe in den Medien zunahm, zog der Minister die Aussage zurück.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "der",
+        "deren ihre",
+        "derer"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "Feminine singular 'die Kritik' requires 'deren'. The preposition 'wegen' governs the main clause noun, not the relative pronoun. 'Derer' is incorrect for relative reference.",
       "difficulty": "hard",
-      "type": "true_false"
+      "id": "b1_06_q074"
     },
     {
-      "id": "b1_06_q061",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "questionText": "Anstatt der ursprünglichen Planung, ____ Kosten explodiert wären, wurde ein alternatives Modell gewählt.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "deren",
+        "deren ihre",
+        "der",
+        "welche"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "Feminine 'die Planung' takes 'deren'. The conditional 'wären' in the relative clause indicates hypothetical past cost overrun. 'Anstatt' + genitive is formal B2 syntax.",
+      "difficulty": "hard",
+      "id": "b1_06_q075"
     },
     {
-      "id": "b1_06_q062",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "questionText": "Der Ausschuss, ____ Empfehlungen nur bedingt berücksichtigt wurden, fordert eine Neubesetzung.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
+        "dessen",
+        "dem",
+        "der",
+        "welchen"
       ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "Masculine 'Der Ausschuss' requires 'dessen'. The passive 'wurden berücksichtigt' shows the recommendations were only partially implemented, a common B2 administrative context.",
+      "difficulty": "hard",
+      "id": "b1_06_q076"
+    },
+    {
+      "questionText": "Dank der Forschung, ____ Fortschritte neue Therapien ermöglichen, steigen die Heilungschancen.",
+      "options": [
+        "deren",
+        "der",
+        "deren ihre",
+        "welche"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Feminine 'die Forschung' requires 'deren'. 'Dank' governs genitive/dative, but the relative pronoun's case is determined by the antecedent. 'Deren' correctly links to 'Fortschritte'.",
+      "difficulty": "hard",
+      "id": "b1_06_q077"
+    },
+    {
+      "questionText": "Die Investoren, ____ Vertrauen in die Marktstabilität schwindet, ziehen Kapital ab.",
+      "options": [
+        "deren",
+        "deren ihre",
+        "derer",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Plural 'Die Investoren' takes 'deren'. The abstract noun 'Vertrauen' is possessed by the investors. The sentence uses formal economic register typical of B2 reading passages.",
+      "difficulty": "hard",
+      "id": "b1_06_q078"
+    },
+    {
+      "questionText": "Das Verfahren, ____ Ablauf streng dokumentiert werden muss, unterliegt hohen Sicherheitsstandards.",
+      "options": [
+        "dessen",
+        "dem",
+        "das",
+        "welches"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "Neuter 'Das Verfahren' requires 'dessen'. The modal passive 'dokumentiert werden muss' at the end of the clause is a hallmark of B2 technical/administrative German.",
+      "difficulty": "hard",
+      "id": "b1_06_q079"
+    },
+    {
+      "questionText": "Trotz der Einwände, ____ Berechtigung im Gutachten belegt wurde, setzte der Vorstand die Entscheidung durch.",
+      "options": [
+        "deren",
+        "der",
+        "deren ihre",
+        "welche"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "Feminine plural 'die Einwände' requires 'deren'. The relative clause shows the objections' validity was documented. B2 exams frequently test genitive relative pronouns in concessive formal contexts.",
+      "difficulty": "hard",
+      "id": "b1_06_q080"
+    },
+    {
+      "questionText": "Das ist der Mann, ____ Auto vor dem Haus steht.",
+      "options": [
+        "dessen",
+        "deren",
+        "des",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'der Mann' (masculine singular) in the genitive: 'dessen' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q081"
     },
     {
-      "id": "b1_06_q063",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "questionText": "Die Frau, ____ Tasche gestohlen wurde, rief die Polizei.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q064",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
-      "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
-      ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q065",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
-      "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
-      ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Frau' (feminine singular) in the genitive: 'deren' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q082"
     },
     {
-      "id": "b1_06_q066",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "questionText": "Das sind die Kinder, ____ Eltern im Ausland arbeiten.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "deren",
+        "dessen",
+        "derer",
+        "denen"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q067",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
-      ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q068",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Kinder' (plural) in the genitive: 'deren' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q083"
     },
     {
-      "id": "b1_06_q069",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ du Deutsch ___ ___?",
+      "questionText": "Der Künstler, ____ Werke weltweit bekannt sind, lebt in Berlin.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "deren",
+        "dessen",
+        "den",
+        "des"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q070",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
-      "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
-      ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q071",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'der Künstler' (masculine singular) in the genitive: 'dessen' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q084"
     },
     {
-      "id": "b1_06_q072",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "questionText": "Die Firma, ____ Produkte ich täglich benutze, hat einen guten Ruf.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q073",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
-      "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
-      ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q074",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Firma' (feminine singular) in the genitive: 'deren' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q085"
     },
     {
-      "id": "b1_06_q075",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "questionText": "Die Studentin, ____ Referat sehr gut war, bekam die beste Note.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "dessen",
+        "deren",
+        "der",
+        "die"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q076",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q077",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Studentin' (feminine singular) in the genitive: 'deren' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q086"
     },
     {
-      "id": "b1_06_q078",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "questionText": "Das ist das Haus, ____ Dach bei dem Sturm beschädigt wurde.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "dessen",
+        "deren",
+        "des",
+        "dem"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q079",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q080",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
-      "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
-      ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'das Haus' (neuter singular) in the genitive: 'dessen' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q087"
     },
     {
-      "id": "b1_06_q081",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "questionText": "Die beiden Schwestern, ____ Eltern Ärzte sind, studieren Medizin.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "deren",
+        "dessen",
+        "derer",
+        "denen"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q082",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q083",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
-      "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
-      ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die beiden Schwestern' (plural feminine) in the genitive: 'deren' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q088"
     },
     {
-      "id": "b1_06_q084",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "questionText": "Der Professor, ____ Vorlesungen immer voll sind, ist sehr beliebt.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "deren",
+        "dessen",
+        "den",
+        "des"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q085",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
-      "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
-      ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q086",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
-      "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'der Professor' (masculine singular) in the genitive: 'dessen' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q089"
     },
     {
-      "id": "b1_06_q087",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "questionText": "Die Organisation, ____ Ziel der Umweltschutz ist, sucht Spenden.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q088",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q089",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Organisation' (feminine singular) in the genitive: 'deren' = whose.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_06_q090"
     },
     {
-      "id": "b1_06_q090",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "questionText": "Kennen Sie die Nachbarin, ____ Hund immer so laut bellt?",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Nachbarin' (feminine singular) in the genitive: 'deren' = whose.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_06_q091"
     },
     {
-      "id": "b1_06_q091",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "questionText": "Das ist der Autor, ____ Bücher in 20 Sprachen übersetzt wurden.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "deren",
+        "dessen",
+        "den",
+        "des"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q092",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
-      "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
-      ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q093",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
-      "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
-      ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'der Autor' (masculine singular) in the genitive: 'dessen' = whose.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_06_q092"
     },
     {
-      "id": "b1_06_q094",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "questionText": "Ich habe eine Freundin, ____ Bruder bei der Feuerwehr arbeitet.",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q095",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q096",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'eine Freundin' (feminine singular) in the genitive: 'deren' = whose.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_06_q093"
     },
     {
-      "id": "b1_06_q097",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "questionText": "Die Firma, ____ Geschäftsführer letzte Woche zurückgetreten ist, sucht einen Nachfolger.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q098",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_06_q099",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Firma' (feminine singular) in the genitive: 'deren' = whose.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_06_q094"
     },
     {
-      "id": "b1_06_q100",
-      "subjectId": "b1_06",
-      "topicName": "Passiv Präteritum und Perfekt",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "questionText": "Das sind die Bewohner, ____ Häuser bei der Überschwemmung zerstört wurden.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "deren",
+        "dessen",
+        "derer",
+        "denen"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Bewohner' (plural masculine) in the genitive: 'deren' = whose.",
+      "difficulty": "hard",
+      "id": "b1_06_q095"
+    },
+    {
+      "questionText": "Der Politiker, ____ Aussagen oft kritisiert werden, verteidigte sich gestern.",
+      "options": [
+        "dessen",
+        "deren",
+        "den",
+        "des"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'der Politiker' (masculine singular) in the genitive: 'dessen' = whose.",
+      "difficulty": "hard",
+      "id": "b1_06_q096"
+    },
+    {
+      "questionText": "Die Wissenschaftlerin, ____ Forschung weltweit anerkannt ist, hält heute einen Vortrag.",
+      "options": [
+        "dessen",
+        "deren",
+        "die",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Wissenschaftlerin' (feminine singular) in the genitive: 'deren' = whose.",
+      "difficulty": "hard",
+      "id": "b1_06_q097"
+    },
+    {
+      "questionText": "Das Kind, ____ Eltern getrennt leben, geht in meine Klasse.",
+      "options": [
+        "dessen",
+        "deren",
+        "des",
+        "dem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'das Kind' (neuter singular) in the genitive: 'dessen' = whose.",
+      "difficulty": "hard",
+      "id": "b1_06_q098"
+    },
+    {
+      "questionText": "Die Agentur, ____ Dienstleistungen wir in Anspruch nehmen, ist sehr zuverlässig.",
+      "options": [
+        "dessen",
+        "deren",
+        "die",
+        "der"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "The relative pronoun refers to 'die Agentur' (feminine singular) in the genitive: 'deren' = whose.",
+      "difficulty": "hard",
+      "id": "b1_06_q099"
+    },
+    {
+      "questionText": "Der Roman, ____ Ende mich sehr überrascht hat, ist ein Bestseller.",
+      "options": [
+        "dessen",
+        "deren",
+        "des",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "The relative pronoun refers to 'der Roman' (masculine singular) in the genitive: 'dessen' = whose.",
+      "difficulty": "hard",
+      "id": "b1_06_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

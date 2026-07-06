@@ -1,1677 +1,1508 @@
 {
+  "version": "1.7",
   "subjectId": "b2_07",
   "topicName": "Angaben im Satz",
-  "level": "B2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
   "questions": [
     {
-      "id": "b2_07_q001",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "id": "b2_07_q101",
+      "type": "multiple_choice",
+      "questionText": "Ich habe gestern im Büro lange gearbeitet.\nWann habe ich gearbeitet?",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "im Büro",
+        "gestern",
+        "lange"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q002",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
-      "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
-      ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
+      "correctAnswer": "gestern",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "subjectId": "b2_07"
     },
     {
-      "id": "b2_07_q003",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "id": "b2_07_q102",
+      "type": "multiple_choice",
+      "questionText": "Er fährt wegen des schlechten Wetters nicht.\nWarum fährt er nicht?",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "wegen des schlechten Wetters",
+        "nicht",
+        "fährt"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "wegen des schlechten Wetters",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q103",
+      "type": "multiple_choice",
+      "questionText": "Sie wohnt seit zwei Jahren in Berlin.\nSeit wann wohnt sie in Berlin?",
+      "options": [
+        "in Berlin",
+        "seit zwei Jahren",
+        "wohnt"
+      ],
+      "correctAnswer": "seit zwei Jahren",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q104",
+      "type": "multiple_choice",
+      "questionText": "Wir gehen am Wochenende ins Kino.\nWann gehen wir ins Kino?",
+      "options": [
+        "ins Kino",
+        "am Wochenende",
+        "gehen"
+      ],
+      "correctAnswer": "am Wochenende",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q105",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet im Büro sehr konzentriert.\nWo arbeitet er?",
+      "options": [
+        "im Büro",
+        "sehr",
+        "konzentriert"
+      ],
+      "correctAnswer": "im Büro",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q106",
+      "type": "multiple_choice",
+      "questionText": "Ich bleibe wegen meiner Krankheit zu Hause.\nWarum bleibe ich zu Hause?",
+      "options": [
+        "zu Hause",
+        "wegen meiner Krankheit",
+        "bleibe"
+      ],
+      "correctAnswer": "wegen meiner Krankheit",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q107",
+      "type": "multiple_choice",
+      "questionText": "Sie fährt mit dem Bus zur Arbeit.\nWie fährt sie zur Arbeit?",
+      "options": [
+        "zur Arbeit",
+        "mit dem Bus",
+        "fährt"
+      ],
+      "correctAnswer": "mit dem Bus",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q108",
+      "type": "multiple_choice",
+      "questionText": "Er hat heute Morgen schnell gefrühstückt.\nWann hat er gefrühstückt?",
+      "options": [
+        "schnell",
+        "heute Morgen",
+        "gefühstückt"
+      ],
+      "correctAnswer": "heute Morgen",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q109",
+      "type": "multiple_choice",
+      "questionText": "Wir treffen uns im Park um 18 Uhr.\nWo treffen wir uns?",
+      "options": [
+        "im Park",
+        "um 18 Uhr",
+        "treffen"
+      ],
+      "correctAnswer": "im Park",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q110",
+      "type": "multiple_choice",
+      "questionText": "Er hat aus Angst nichts gesagt.\nWarum hat er nichts gesagt?",
+      "options": [
+        "nichts",
+        "gesagt",
+        "aus Angst"
+      ],
+      "correctAnswer": "aus Angst",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q111",
+      "type": "multiple_choice",
+      "questionText": "Ich habe gestern wegen des Regens mit dem Auto gearbeitet.\nWarum habe ich mit dem Auto gearbeitet?",
+      "options": [
+        "gestern",
+        "wegen des Regens",
+        "mit dem Auto"
+      ],
+      "correctAnswer": "wegen des Regens",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q112",
+      "type": "multiple_choice",
+      "questionText": "Sie lernt jeden Tag zu Hause fleißig.\nWo lernt sie?",
+      "options": [
+        "jeden Tag",
+        "fleißig",
+        "zu Hause"
+      ],
+      "correctAnswer": "zu Hause",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q113",
+      "type": "multiple_choice",
+      "questionText": "Er ist wegen eines Termins früh gegangen.\nWarum ist er gegangen?",
+      "options": [
+        "früh",
+        "wegen eines Termins",
+        "gegangen"
+      ],
+      "correctAnswer": "wegen eines Termins",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q114",
+      "type": "multiple_choice",
+      "questionText": "Wir haben gestern im Restaurant gut gegessen.\nWie haben wir gegessen?",
+      "options": [
+        "gut",
+        "gestern",
+        "im Restaurant"
+      ],
+      "correctAnswer": "gut",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q115",
+      "type": "multiple_choice",
+      "questionText": "Sie bleibt heute wegen der Prüfung zu Hause.\nWann bleibt sie zu Hause?",
+      "options": [
+        "wegen der Prüfung",
+        "heute",
+        "zu Hause"
+      ],
+      "correctAnswer": "heute",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q116",
+      "type": "multiple_choice",
+      "questionText": "Er hat im Büro mit seinem Chef gesprochen.\nMit wem hat er gesprochen?",
+      "options": [
+        "im Büro",
+        "mit seinem Chef",
+        "gesprochen"
+      ],
+      "correctAnswer": "mit seinem Chef",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q117",
+      "type": "multiple_choice",
+      "questionText": "Ich gehe morgen wegen eines Meetings ins Büro.\nWann gehe ich ins Büro?",
+      "options": [
+        "morgen",
+        "wegen eines Meetings",
+        "ins Büro"
+      ],
+      "correctAnswer": "morgen",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q118",
+      "type": "multiple_choice",
+      "questionText": "Sie hat im Urlaub in Spanien entspannt.\nWo hat sie entspannt?",
+      "options": [
+        "im Urlaub",
+        "in Spanien",
+        "entspannt"
+      ],
+      "correctAnswer": "in Spanien",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q119",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet aus finanziellen Gründen am Wochenende.\nWarum arbeitet er am Wochenende?",
+      "options": [
+        "am Wochenende",
+        "aus finanziellen Gründen",
+        "arbeitet"
+      ],
+      "correctAnswer": "aus finanziellen Gründen",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q120",
+      "type": "multiple_choice",
+      "questionText": "Wir fahren mit dem Zug nach Berlin.\nWie fahren wir nach Berlin?",
+      "options": [
+        "nach Berlin",
+        "mit dem Zug",
+        "fahren"
+      ],
+      "correctAnswer": "mit dem Zug",
+      "difficulty": "medium",
+      "subjectId": "b2_07"
+    },
+    {
+      "id": "b2_07_q121",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist in der richtigen TEKAMO-Reihenfolge?",
+      "options": [
+        "Ich fahre in Berlin morgen wegen der Arbeit mit dem Bus.",
+        "Ich fahre morgen wegen der Arbeit mit dem Bus nach Berlin.",
+        "Ich fahre wegen der Arbeit morgen nach Berlin mit dem Bus.",
+        "Ich fahre mit dem Bus morgen nach Berlin wegen der Arbeit."
+      ],
+      "correctAnswer": "Ich fahre morgen wegen der Arbeit mit dem Bus nach Berlin.",
+      "explanation": "TE (morgen) -> KA (wegen der Arbeit) -> MO (mit dem Bus) -> LO (nach Berlin).",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q122",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabenart beantwortet die Frage \"Warum?\"?",
+      "options": [
+        "Temporale Angabe",
+        "Lokale Angabe",
+        "Kausale Angabe",
+        "Modale Angabe"
+      ],
+      "correctAnswer": "Kausale Angabe",
+      "explanation": "Kausale Angaben (KA) beantworten \"Warum?\"-Fragen.",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q123",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Er kommt heute leider nicht nach Hause.\" - was ist die Reihenfolge der Angabenarten?",
+      "options": [
+        "Mo - Ka - Te - Lo",
+        "Te - Mo - Lo - (nicht)",
+        "Te - Mo - (nicht) - Lo",
+        "Lo - Te - Mo - Ka"
+      ],
+      "correctAnswer": "Te - Mo - (nicht) - Lo",
+      "explanation": "Te (heute) -> Mo (leider) -> (nicht) -> Lo (nach Hause).",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q124",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabenart beantwortet die Frage \"Wie?\"?",
+      "options": [
+        "Temporale Angabe",
+        "Modale Angabe",
+        "Kausale Angabe",
+        "Lokale Angabe"
+      ],
+      "correctAnswer": "Modale Angabe",
+      "explanation": "Modale Angaben (MO) beantworten \"Wie?\"-Fragen.",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q125",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Warum steht in dem Satz \"Gestern hat sie ihren Freund angerufen.\" diese Wortstellung?",
+      "options": [
+        "Gestern ist ein Temporaladverb und steht immer am Satzanfang.",
+        "Gestern ist nach Vorfeld verschoben, zur Betonung; das Subjekt steht nach dem Verb (Inversion).",
+        "Gestern ist eine Modale Angabe und steht vor dem Verb.",
+        "Der Satz ist falsch; richtig ware 'Sie hat gestern...'."
+      ],
+      "correctAnswer": "Gestern ist nach Vorfeld verschoben, zur Betonung; das Subjekt steht nach dem Verb (Inversion).",
+      "explanation": "Temporalangaben konnen zur Betonung ins Vorfeld; dann folgt Inversion.",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q004",
+      "id": "b2_07_q126",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Welche der folgenden ist KEINE Temporale Angabe?",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "morgen",
+        "oft",
+        "deshalb",
+        "letzte Woche"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q005",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
-      "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb ist eine Kausale Angabe - beantwortet \"Warum?\", nicht \"Wann?\"",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q006",
+      "id": "b2_07_q127",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet _____ _____ in Hamburg. - Welche Reihenfolge ist korrekt? (jetzt / wahrscheinlich)",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "wahrscheinlich - jetzt",
+        "jetzt - wahrscheinlich",
+        "in Hamburg - jetzt",
+        "jetzt - in Hamburg"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
+      "correctAnswer": "jetzt - wahrscheinlich",
+      "explanation": "TE (jetzt) -> MO (wahrscheinlich) -> LO (in Hamburg).",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q007",
+      "id": "b2_07_q128",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Wo steht \"nicht\" in Bezug auf die Angaben?",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "Vor Lokal, nach Temporal",
+        "Vor Modal, vor Lokal; aber nach Temporal",
+        "Immer am Satzende",
+        "Vor Kausal, vor Temporal"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
+      "correctAnswer": "Vor Modal, vor Lokal; aber nach Temporal",
+      "explanation": "Nicht steht vor Modal und Lokal, aber nach Temporalangaben.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q129",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz sind die Angaben richtig positioniert?",
+      "options": [
+        "Sie hat wegen des Unfalls gestern nicht kommen konnen.",
+        "Sie hat gestern wegen des Unfalls nicht kommen konnen.",
+        "Sie hat nicht gestern wegen des Unfalls kommen konnen.",
+        "Sie hat kommen nicht wegen des Unfalls gestern konnen."
+      ],
+      "correctAnswer": "Sie hat gestern wegen des Unfalls nicht kommen konnen.",
+      "explanation": "TE (gestern) -> KA (wegen des Unfalls) -> nicht -> Modalverb.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q130",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabenart beantwortet die Fragen \"Wo? / Wohin? / Woher?\"?",
+      "options": [
+        "Modale Angabe",
+        "Temporale Angabe",
+        "Kausale Angabe",
+        "Lokale Angabe"
+      ],
+      "correctAnswer": "Lokale Angabe",
+      "explanation": "LO beantwortet Wo? (stat), Wohin? (Ziel), Woher? (Herkunft).",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q008",
+      "id": "b2_07_q131",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Sie fahrt taglich mit dem Fahrrad zur Arbeit.\" - welche Art von Angabe ist \"mit dem Fahrrad\"?",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "Temporale Angabe",
+        "Lokale Angabe",
+        "Modale Angabe",
+        "Kausale Angabe"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Modale Angabe",
+      "explanation": "Mit dem Fahrrad = Art und Weise, Antwort auf \"Wie?\".",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q009",
+      "id": "b2_07_q132",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Was ist eine Inversion (Wortstellung im Deutschen)?",
       "options": [
+        "Das Verb geht an das Satzende.",
+        "Das Subjekt wird nach Vorfeld verschoben.",
+        "Ein anderes Element als das Verb geht nach Vorfeld und das Subjekt folgt dem Verb.",
+        "Eine Angabe wird aus dem Satz herausgenommen."
+      ],
+      "correctAnswer": "Ein anderes Element als das Verb geht nach Vorfeld und das Subjekt folgt dem Verb.",
+      "explanation": "Inversion = non-verb element in Vorfeld, subject after verb.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q133",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Wir essen abends oft sehr schnell.\" - was ist die Reihenfolge der Angaben?",
+      "options": [
+        "Te (abends) - Mo (oft) - Mo (sehr schnell)",
+        "Mo (abends) - Te (oft) - Lo (sehr schnell)",
+        "Te (abends) - Ka (oft) - Mo (sehr schnell)",
+        "Lo (abends) - Te (oft) - Mo (sehr schnell)"
+      ],
+      "correctAnswer": "Te (abends) - Mo (oft) - Mo (sehr schnell)",
+      "explanation": "abends=TE, oft=MO, sehr schnell=MO.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q134",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist die Wortstellung falsch?",
+      "options": [
+        "Ich gehe heute Abend mit Freunden ins Kino.",
+        "Er fahrt wegen des Staus mit dem Zug nach Frankfurt.",
+        "Sie kommt nach Hause morgen leider nicht.",
+        "Wir treffen uns morgen fruh in der Stadt."
+      ],
+      "correctAnswer": "Sie kommt nach Hause morgen leider nicht.",
+      "explanation": "LO sollte nicht vor TE (morgen) und MO (leider) stehen.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q135",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Zu welcher Angabengruppe gehoren \"daher\", \"deshalb\", \"deswegen\"?",
+      "options": [
+        "Temporale Angabe",
+        "Modale Angabe",
+        "Kausale Angabe",
+        "Lokale Angabe"
+      ],
+      "correctAnswer": "Kausale Angabe",
+      "explanation": "daher, deshalb, deswegen = Kausaladverbien (KA).",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q136",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In dem Satz \"Er hat leider das Konzert verpasst.\" - welche Angabenart ist \"leider\" und wo steht es?",
+      "options": [
+        "Temporal - im Vorfeld",
+        "Modal - im Mittelfeld, zwischen Subjekt und Verb",
+        "Kausal - am Satzende",
+        "Lokal - im Nachfeld"
+      ],
+      "correctAnswer": "Modal - im Mittelfeld, zwischen Subjekt und Verb",
+      "explanation": "leider = MO; steht im Mittelfeld zwischen Subjekt und Verb.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q137",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist das Vorfeld richtig verwendet?",
+      "options": [
+        "Morgen ich fahre nach Wien.",
+        "Morgen fahre nach Wien ich.",
+        "Morgen fahre ich nach Wien.",
+        "Morgen nach Wien fahre ich."
+      ],
+      "correctAnswer": "Morgen fahre ich nach Wien.",
+      "explanation": "TE im Vorfeld -> invertierte Wortstellung: Verb vor Subjekt.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q138",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Ist \"Sie arbeitet jetzt wegen des Projekts sehr viel zu Hause.\" in der richtigen TEKAMO-Reihenfolge?",
+      "options": [
+        "Ja, Te (jetzt) - Ka (wegen des Projekts) - Mo (sehr viel) - Lo (zu Hause) ist korrekt.",
+        "Nein, Kausal muss vor Temporal stehen.",
+        "Nein, Lokal muss an den Anfang.",
+        "Nein, Modal darf nicht verwendet werden."
+      ],
+      "correctAnswer": "Ja, Te (jetzt) - Ka (wegen des Projekts) - Mo (sehr viel) - Lo (zu Hause) ist korrekt.",
+      "explanation": "TE -> KA -> MO -> LO - alle in richtiger Reihenfolge.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q139",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "\"Wo?\" zeigt eine Lokale Angabe an. Was bedeutet \"Wohin?\"?",
+      "options": [
+        "Beide bedeuten dasselbe.",
+        "Wo? = stationarer Ort, Wohin? = Richtung/Ziel (Bewegung).",
+        "Wo? = Bewegungsrichtung, Wohin? = Ausgangspunkt.",
+        "Wohin? zeigt eine Modale Angabe an."
+      ],
+      "correctAnswer": "Wo? = stationarer Ort, Wohin? = Richtung/Ziel (Bewegung).",
+      "explanation": "Wo? = static location, Wohin? = direction/target of movement.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q140",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz stehen alle Angaben in der richtigen Reihenfolge?",
+      "options": [
+        "Er bleibt heute wegen Krankheit leider zu Hause.",
+        "Er bleibt leider heute zu Hause wegen Krankheit.",
+        "Er bleibt zu Hause heute wegen Krankheit leider.",
+        "Er bleibt wegen Krankheit leider heute zu Hause."
+      ],
+      "correctAnswer": "Er bleibt heute wegen Krankheit leider zu Hause.",
+      "explanation": "TE -> KA -> MO -> LO = korrekt.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q141",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabe ist eine temporale Angabe?",
+      "options": [
+        "wegen des Regens",
+        "mit dem Fahrrad",
+        "heute Nachmittag",
+        "im Schwimmbad"
+      ],
+      "correctAnswer": "heute Nachmittag",
+      "explanation": "TE (temporal) = Wann? -> heute Nachmittag, morgen, gestern",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q142",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welcher Reihenfolge stehen die Angaben nach der TEKAMOLO-Regel?",
+      "options": [
+        "Modal - Temporal - Kausal - Lokal",
+        "Temporal - Kausal - Modal - Lokal",
+        "Lokal - Modal - Kausal - Temporal",
+        "Kausal - Temporal - Modal - Lokal"
+      ],
+      "correctAnswer": "Temporal - Kausal - Modal - Lokal",
+      "explanation": "TEKAMOLO = Temporal, Kausal, Modal, Lokal",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q143",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz hat die richtige Wortstellung der Angaben im Mittelfeld?",
+      "options": [
+        "Ich bin gestern wegen des Stresses mit dem Bus gefahren.",
+        "Ich bin mit dem Bus gestern wegen des Stresses gefahren.",
+        "Ich bin wegen des Stresses mit dem Bus gestern gefahren.",
+        "Ich bin gestern mit dem Bus wegen des Stresses gefahren."
+      ],
+      "correctAnswer": "Ich bin gestern wegen des Stresses mit dem Bus gefahren.",
+      "explanation": "TE (gestern) -> KA (wegen) -> MO (mit dem Bus) = korrekte Reihenfolge",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q144",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was erfragt eine kausale Angabe?",
+      "options": [
+        "Wann?",
+        "Wie?",
+        "Warum?",
+        "Wo?"
+      ],
+      "correctAnswer": "Warum?",
+      "explanation": "KA beantwortet Warum?-Fragen: wegen, deshalb",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q145",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Vervollstandigen Sie den Satz: ____ gehe ich ins Kino. (temporal, Vorfeld-Position)",
+      "options": [
+        "Mit meinem Bruder",
+        "In die Stadt",
+        "Morgen Abend",
+        "Wegen des Films"
+      ],
+      "correctAnswer": "Morgen Abend",
+      "explanation": "TE im Vorfeld: Morgen Abend -> Inversion",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q146",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabe ist modal?",
+      "options": [
+        "nach der Arbeit",
+        "trotz des Larms",
+        "mit großer Vorsicht",
+        "auf dem Tisch"
+      ],
+      "correctAnswer": "mit großer Vorsicht",
+      "explanation": "MO = Art und Weise, beschreibt Wie?-Frage",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q147",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist die lokale Angabe?",
+      "options": [
+        "Wir treffen uns morgen am Bahnhof.",
+        "Er hat wegen des Sturms das Haus nicht verlassen.",
+        "Sie spricht sehr leise mit ihrem Freund.",
+        "Die Kinder spielen im Garten"
+      ],
+      "correctAnswer": "Die Kinder spielen im Garten",
+      "explanation": "LO (lokal) = Wo? -> im Garten",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q148",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthalt eine konzessive Angabe (Einrauming)?",
+      "options": [
+        "Trotz des Verbots hat er geraucht.",
+        "Er raucht wegen des Stresses.",
+        "Er raucht in der Pause.",
+        "Er raucht mit Genuss."
+      ],
+      "correctAnswer": "Trotz des Verbots hat er geraucht.",
+      "explanation": "konzessiv = obwohl / trotz = Einraumung",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q149",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Ordnen Sie die Angaben richtig: (1) temporal - (2) kausal - (3) modal - (4) lokal",
+      "options": [
+        "(4) - (3) - (2) - (1)",
+        "(1) - (2) - (3) - (4)",
+        "(2) - (1) - (4) - (3)",
+        "(3) - (4) - (1) - (2)"
+      ],
+      "correctAnswer": "(1) - (2) - (3) - (4)",
+      "explanation": "TEKAMOLO = TE, KA, MO, LO",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q150",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was ist falsch an diesem Satz? Ich habe im Park gestern aus Spaß einen Ball getreten.",
+      "options": [
+        "Die kausale Angabe fehlt.",
+        "Die temporale Angabe muss vor der lokalen stehen.",
+        "Die modale Angabe ist falsch.",
+        "Der Satz ist korrekt."
+      ],
+      "correctAnswer": "Die temporale Angabe muss vor der lokalen stehen.",
+      "explanation": "Richtige Reihenfolge: TE (gestern) -> LO (im Park) -> MO (aus Spaß)",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q151",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Frage beantwortet die Angabe ohne seine Brille?",
+      "options": [
+        "Wann?",
+        "Warum?",
+        "Wie?",
+        "Wohin?"
+      ],
+      "correctAnswer": "Wie?",
+      "explanation": "ohne seine Brille = Art und Weise = MO",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q152",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Wahlen Sie den Satz mit einer finalen Angabe (Zweck / Absicht).",
+      "options": [
+        "Er lernt, um die Prufung zu bestehen.",
+        "Er lernt wegen der Prufung.",
+        "Er lernt morgen.",
+        "Er lernt in der Bibliothek."
+      ],
+      "correctAnswer": "Er lernt, um die Prufung zu bestehen.",
+      "explanation": "final = Zweck/Absicht -> um ... zu",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q153",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Angabe kann nicht im Vorfeld (Position 1) stehen?",
+      "options": [
+        "Gestern",
+        "Aus Freundlichkeit",
+        "Mit dem Zug",
+        "- (alle konnen im Vorfeld stehen)"
+      ],
+      "correctAnswer": "- (alle konnen im Vorfeld stehen)",
+      "explanation": "Alle Angabetypen konnen im Vorfeld stehen",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q154",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Erkennen Sie die Angabeart: Sie hat aus reiner Hoflichkeit geantwortet.",
+      "options": [
+        "temporal",
+        "modal",
+        "kausal",
+        "lokal"
+      ],
+      "correctAnswer": "kausal",
+      "explanation": "aus reiner Hoflichkeit = Grund = KA",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q155",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Setzen Sie die richtige Angabe ein: Wir fahren ______ nach Berlin. (modal)",
+      "options": [
+        "morgen",
+        "wegen der Arbeit",
+        "mit dem Zug",
+        "zum Hauptbahnhof"
+      ],
+      "correctAnswer": "mit dem Zug",
+      "explanation": "MO = Art und Weise -> mit dem Zug",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q156",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz steht die temporale Angabe an letzter Stelle (Nachfeld)?",
+      "options": [
+        "Ich bin gestern angekommen.",
+        "Angekommen bin ich gestern.",
+        "Gestern bin ich angekommen.",
+        "Ich bin angekommen, als es dunkel wurde."
+      ],
+      "correctAnswer": "Ich bin angekommen, als es dunkel wurde.",
+      "explanation": "Nachfeld = Satzende; Gliedsatz als TE im Nachfeld",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q157",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Kombination ist korrekt nach TEKAMOLO?",
+      "options": [
+        "Er arbeitet heute wegen des Projekts mit viel Eifer im BUro.",
+        "Er arbeitet im BUro mit viel Eifer heute wegen des Projekts.",
+        "Er arbeitet mit viel Eifer im BUro heute wegen des Projekts.",
+        "Er arbeitet wegen des Projekts heute mit viel Eifer im BUro."
+      ],
+      "correctAnswer": "Er arbeitet heute wegen des Projekts mit viel Eifer im BUro.",
+      "explanation": "TE (heute) -> KA (wegen) -> MO (mit viel Eifer) -> LO (im BUro)",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q158",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Die Angabe trotz des schlechten Wetters ist ...",
+      "options": [
+        "temporal",
+        "kausal (Grund)",
+        "konzessiv (Einrauming)",
+        "modal"
+      ],
+      "correctAnswer": "konzessiv (Einrauming)",
+      "explanation": "trotz = konzessiv = obwohl / even though",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q159",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist keine typische Angabe, sondern ein notwendiges Objekt?",
+      "options": [
+        "nach Hause",
+        "in der Schule",
+        "das Buch",
+        "glucklicherweise"
+      ],
+      "correctAnswer": "das Buch",
+      "explanation": "das Buch ist Objekt, keine Angabe",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q160",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was pruft diese Aufgabe im Lese-Teil einer B2-Prufung typischerweise?",
+      "options": [
+        "Die genaue Kenntnis der TEKAMOLO-Reihenfolge",
+        "Die Ubersetzung von Angaben ins Turkische",
+        "Das Auswendiglernen von Prapositionen",
+        "Die Fuhigkeit, Texte laut vorzulesen"
+      ],
+      "correctAnswer": "Die genaue Kenntnis der TEKAMOLO-Reihenfolge",
+      "explanation": "B2-Prufung Leseverstehen: Angaben im Satz",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q161",
+      "type": "multiple_choice",
+      "questionText": "Der Kurs findet trotz der geringen Teilnehmerzahl statt.",
+      "options": [
+        "Der Kurs wurde abgesagt, weil es zu wenige Teilnehmer gab.",
+        "Obwohl es nur wenige Teilnehmer gibt, wird der Kurs durchgeführt.",
+        "Der Kurs wird nur bei einer hohen Teilnehmerzahl stattfinden."
+      ],
+      "correctAnswer": "Obwohl es nur wenige Teilnehmer gibt, wird der Kurs durchgeführt.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q162",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse werden erst am kommenden Montag veröffentlicht.",
+      "options": [
+        "Die Ergebnisse sind bereits seit letztem Montag bekannt.",
+        "Vor dem nächsten Montag werden die Ergebnisse nicht publiziert.",
+        "Die Ergebnisse müssen bis spätestens Montag eingereicht werden."
+      ],
+      "correctAnswer": "Vor dem nächsten Montag werden die Ergebnisse nicht publiziert.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q163",
+      "type": "multiple_choice",
+      "questionText": "Man sollte die Medikamente keinesfalls ohne ärztliche Anweisung einnehmen.",
+      "options": [
+        "Es ist strengstens verboten, diese Mittel ohne Rücksprache mit einem Arzt zu nutzen.",
+        "Unter bestimmten Umständen darf man die Medikamente selbst dosieren.",
+        "Wenn der Arzt es erlaubt, muss man die Medikamente nicht unbedingt nehmen."
+      ],
+      "correctAnswer": "Es ist strengstens verboten, diese Mittel ohne Rücksprache mit einem Arzt zu nutzen.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q164",
+      "type": "multiple_choice",
+      "questionText": "Die Vorlesung wurde aufgrund technischer Probleme kurzfristig abgesagt.",
+      "options": [
+        "Die Vorlesung findet trotz technischer Defekte statt.",
+        "Wegen technischer Schwierigkeiten fällt die Vorlesung spontan aus.",
+        "Die technischen Probleme wurden rechtzeitig vor der Vorlesung gelöst."
+      ],
+      "correctAnswer": "Wegen technischer Schwierigkeiten fällt die Vorlesung spontan aus.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q165",
+      "type": "multiple_choice",
+      "questionText": "Im Gegensatz zu früher arbeiten heute viele Menschen im Homeoffice.",
+      "options": [
+        "Früher gab es genauso viel Heimarbeit wie in der heutigen Zeit.",
+        "Die Arbeit von zu Hause aus ist heute verbreiteter als in der Vergangenheit.",
+        "In der Zukunft wird die Arbeit im Büro komplett verschwinden."
+      ],
+      "correctAnswer": "Die Arbeit von zu Hause aus ist heute verbreiteter als in der Vergangenheit.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q166",
+      "type": "multiple_choice",
+      "questionText": "Die Reparatur dauert höchstens zwei Werktage.",
+      "options": [
+        "Die Reparatur wird mindestens zwei Tage in Anspruch nehmen.",
+        "Die Reparatur ist genau nach zwei Werktagen abgeschlossen.",
+        "Die Reparatur wird maximal zwei Werktage dauern."
+      ],
+      "correctAnswer": "Die Reparatur wird maximal zwei Werktage dauern.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q167",
+      "type": "multiple_choice",
+      "questionText": "Der Mitarbeiter wurde wegen seiner hervorragenden Leistungen befördert.",
+      "options": [
+        "Der Mitarbeiter verlor seine Stelle aufgrund schlechter Arbeitsqualität.",
+        "Der Mitarbeiter erhielt eine höhere Position, weil er sehr gute Arbeit leistete.",
+        "Da der Mitarbeiter zu viel arbeitete, wurde er krankgeschrieben."
+      ],
+      "correctAnswer": "Der Mitarbeiter erhielt eine höhere Position, weil er sehr gute Arbeit leistete.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q168",
+      "type": "multiple_choice",
+      "questionText": "Wir bitten Sie, das Formular vollständig und in Druckbuchstaben auszufüllen.",
+      "options": [
+        "Das Dokument muss lückenlos und gut lesbar (nicht in Schreibschrift) ausgefüllt werden.",
+        "Man darf Teile des Formulars leer lassen, wenn man möchte.",
+        "Das Formular soll ausschließlich am Computer ausgefüllt werden."
+      ],
+      "correctAnswer": "Das Dokument muss lückenlos und gut lesbar (nicht in Schreibschrift) ausgefüllt werden.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q169",
+      "type": "multiple_choice",
+      "questionText": "Das Museum bleibt wegen Umbauarbeiten bis auf Weiteres geschlossen.",
+      "options": [
+        "Das Museum ist für Besucher geöffnet, während die Bauarbeiten laufen.",
+        "Es ist noch nicht bekannt, wann das Museum wieder öffnet.",
+        "Das Museum wird direkt nach Abschluss der Renovierung wieder eröffnet."
+      ],
+      "correctAnswer": "Es ist noch nicht bekannt, wann das Museum wieder öffnet.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q170",
+      "type": "multiple_choice",
+      "questionText": "Anfänglich gab es Schwierigkeiten, doch mittlerweile läuft alles reibungslos.",
+      "options": [
+        "Es gibt immer noch große Probleme bei dem Prozess.",
+        "Zu Beginn war es kompliziert, aber jetzt funktioniert alles ohne Probleme.",
+        "Von Anfang an gab es keinerlei Hindernisse."
+      ],
+      "correctAnswer": "Zu Beginn war es kompliziert, aber jetzt funktioniert alles ohne Probleme.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q171",
+      "type": "multiple_choice",
+      "questionText": "Die Gebühr muss innerhalb von zwei Wochen überwiesen werden.",
+      "options": [
+        "Die Zahlung muss nach Ablauf von zwei Wochen erfolgen.",
+        "Man hat ein Zeitfenster von 14 Tagen, um das Geld zu senden.",
+        "Die Gebühr kann in Raten über zwei Wochen verteilt werden."
+      ],
+      "correctAnswer": "Man hat ein Zeitfenster von 14 Tagen, um das Geld zu senden.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q172",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Prüfung beinahe nicht bestanden.",
+      "options": [
+        "Er ist leider durch die Prüfung gefallen.",
+        "Er hat die Prüfung gerade noch so geschafft.",
+        "Die Prüfung war für ihn überhaupt kein Problem."
+      ],
+      "correctAnswer": "Er hat die Prüfung gerade noch so geschafft.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q173",
+      "type": "multiple_choice",
+      "questionText": "Die Veranstaltung findet bei jedem Wetter im Freien statt.",
+      "options": [
+        "Wenn es regnet, wird die Veranstaltung nach drinnen verlegt.",
+        "Das Wetter hat keinen Einfluss auf den Ort der Veranstaltung; sie ist immer draußen.",
+        "Die Veranstaltung wird nur bei schönem Wetter unter freiem Himmel durchgeführt."
+      ],
+      "correctAnswer": "Das Wetter hat keinen Einfluss auf den Ort der Veranstaltung; sie ist immer draußen.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q174",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt wurde mangels finanzieller Mittel eingestellt.",
+      "options": [
+        "Da kein Geld mehr da war, wurde das Projekt gestoppt.",
+        "Das Projekt war so erfolgreich, dass es viel Geld einbrachte.",
+        "Trotz der hohen Kosten wird das Projekt weitergeführt."
+      ],
+      "correctAnswer": "Da kein Geld mehr da war, wurde das Projekt gestoppt.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q175",
+      "type": "multiple_choice",
+      "questionText": "Die Software wird regelmäßig, mindestens jedoch einmal im Monat, aktualisiert.",
+      "options": [
+        "Die Software erhält höchstens einmal pro Monat ein Update.",
+        "Es gibt häufige Updates, aber auf jeden Fall eines pro Monat.",
+        "Updates für die Software erscheinen nur in unregelmäßigen Abständen."
+      ],
+      "correctAnswer": "Es gibt häufige Updates, aber auf jeden Fall eines pro Monat.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q176",
+      "type": "multiple_choice",
+      "questionText": "Zwar ist das Auto teuer, aber es verbraucht sehr wenig Benzin.",
+      "options": [
+        "Das Auto ist sparsam, was den hohen Preis rechtfertigt.",
+        "Trotz der hohen Anschaffungskosten ist der Kraftstoffverbrauch gering.",
+        "Weil das Auto teuer ist, verbraucht es leider auch viel Benzin."
+      ],
+      "correctAnswer": "Trotz der hohen Anschaffungskosten ist der Kraftstoffverbrauch gering.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q177",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer müssen sich rechtzeitig vor Beginn anmelden.",
+      "options": [
+        "Man kann sich auch noch anmelden, wenn der Kurs schon läuft.",
+        "Eine Registrierung ist erforderlich, bevor die Veranstaltung startet.",
+        "Nach dem Start der Veranstaltung ist eine Anmeldung besonders günstig."
+      ],
+      "correctAnswer": "Eine Registrierung ist erforderlich, bevor die Veranstaltung startet.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q178",
+      "type": "multiple_choice",
+      "questionText": "Es handelt sich hierbei um eine einmalige Gelegenheit.",
+      "options": [
+        "Diese Chance wird sich so schnell nicht wiederholen.",
+        "Man hat jeden Tag die Möglichkeit, dieses Angebot zu nutzen.",
+        "Es dauert nur eine Stunde, diese Gelegenheit wahrzunehmen."
+      ],
+      "correctAnswer": "Diese Chance wird sich so schnell nicht wiederholen.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q179",
+      "type": "multiple_choice",
+      "questionText": "Abgesehen von kleinen Fehlern war die Präsentation perfekt.",
+      "options": [
+        "Die Präsentation war aufgrund der Fehler unbrauchbar.",
+        "Die Präsentation war sehr gut, obwohl es minimale Mängel gab.",
+        "Es wurden in der Präsentation überhaupt keine Fehler gemacht."
+      ],
+      "correctAnswer": "Die Präsentation war sehr gut, obwohl es minimale Mängel gab.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q180",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht soll spätestens bis Freitag vorliegen.",
+      "options": [
+        "Der Bericht darf frühestens am Freitag abgegeben werden.",
+        "Freitag ist der letzte Termin für die Abgabe des Berichts.",
+        "Der Bericht muss nach dem Freitag eingereicht werden."
+      ],
+      "correctAnswer": "Freitag ist der letzte Termin für die Abgabe des Berichts.",
+      "difficulty": "medium",
+      "subjectId": "b2_07",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q181",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Art von Angabe ist das Wort morgen im folgenden Satz?\nMorgen besuche ich meine Grosseltern.",
+      "options": [
+        "Lokal",
+        "Temporal",
+        "Kausal",
+        "Modal"
+      ],
+      "correctAnswer": "Temporal",
+      "explanation": "morgen = Zeitangabe, Temporal (Wann?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q182",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Art von Angabe ist mit dem Fahrrad im Satz Sie fährt mit dem Fahrrad zur Arbeit?",
+      "options": [
+        "Temporal",
+        "Kausal",
+        "Modal",
+        "Final"
+      ],
+      "correctAnswer": "Modal",
+      "explanation": "mit dem Fahrrad = Art und Weise, Modal (Wie?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q183",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz kommt eine kausale Angabe vor?",
+      "options": [
+        "Er kommt heute nicht.",
+        "Wegen der Krankheit bleibt er zu Hause.",
+        "Sie laeuft schnell zum Bus.",
+        "Im Sommer fahren wir ans Meer."
+      ],
+      "correctAnswer": "Wegen der Krankheit bleibt er zu Hause.",
+      "explanation": "Wegen der Krankheit = kausale Angabe, Grund (Warum?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q184",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Art von Angabe wird durch die Konstruktion um...zu im Satz Er lernt Deutsch, um in Deutschland zu studieren ausgedrueckt?",
+      "options": [
+        "Temporal",
+        "Lokal",
+        "Final",
+        "Modal"
+      ],
+      "correctAnswer": "Final",
+      "explanation": "um...zu = finale Angabe, Zweck/Absicht (Wozu?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q185",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Beispiele ist eine lokale Angabe?",
+      "options": [
+        "gestern",
+        "deshalb",
+        "in der Bibliothek",
+        "mit Geduld"
+      ],
+      "correctAnswer": "in der Bibliothek",
+      "explanation": "in der Bibliothek = lokale Angabe, Ort (Wo?)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q186",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welche Reihenfolge der Angaben entspricht der TeKaMoLo-Regel?",
+      "options": [
+        "Modal - Kausal - Temporal - Lokal",
+        "Temporal - Kausal - Modal - Lokal",
+        "Lokal - Modal - Temporal - Kausal",
+        "Kausal - Temporal - Lokal - Modal"
+      ],
+      "correctAnswer": "Temporal - Kausal - Modal - Lokal",
+      "explanation": "TeKaMoLo = Temporal -> Kausal -> Modal -> Lokal",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q187",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches ist die korrekte Reihenfolge nach TeKaMoLo im Satz: Sie faehrt (1) heute (2) wegen der Konferenz (3) mit dem Zug (4) nach Hamburg?",
+      "options": [
+        "1-2-3-4",
+        "2-1-3-4",
+        "1-3-2-4",
+        "2-3-1-4"
+      ],
+      "correctAnswer": "1-2-3-4",
+      "explanation": "heute=Te, wegen=Ka, mit=Mo, nach=Lo -> 1-2-3-4",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q188",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "In welchem Satz ist die Reihenfolge der Angaben falsch?",
+      "options": [
+        "Er arbeitet morgen aus Pflichtgefuehl sehr konzentriert im BUro.",
+        "Sie geht heute mit Freunden ins Kino.",
+        "Wir fahren wegen des Wetters schnell nach Hause.",
+        "Ich lerne jeden Tag mit Freude fuer die Pruefung in der Bibliothek."
+      ],
+      "correctAnswer": "Wir fahren wegen des Wetters schnell nach Hause.",
+      "explanation": "Fehlende TE-Angabe (Temporal). Richtig mit TE: Wir fahren heute wegen des Wetters schnell nach Hause.",
+      "difficulty": "hard",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q189",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Was passiert, wenn eine Angabe auf Position 1 im Satz steht?",
+      "options": [
+        "Das Verb rutscht ans Satzende.",
+        "Das Subjekt steht nach dem Verb (Inversion).",
+        "Der Satz verliert seine Bedeutung.",
+        "Die Artikel aendern sich."
+      ],
+      "correctAnswer": "Das Subjekt steht nach dem Verb (Inversion).",
+      "explanation": "Vorfeld (Position 1) = Angabe -> Inversion: Subjekt folgt dem Verb.",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q190",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Warum steht Gestern am Satzanfang im Satz Gestern hat er mir wegen des Projekts telefonisch geantwortet?",
+      "options": [
+        "Zur Betonung",
+        "Weil es obligatorisch ist",
+        "Damit das Verb an zweiter Stelle steht",
+        "A und C sind richtig"
+      ],
+      "correctAnswer": "A und C sind richtig",
+      "explanation": "TE im Vorfeld = zur Betonung UND sichert Verb-Zweit-Stellung (Inversion).",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q191",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz hat dieselbe Bedeutung wie: Weil es stark regnete, blieben wir zu Hause?",
+      "options": [
+        "Trotzdem blieben wir zu Hause.",
+        "Wegen des starken Regens blieben wir zu Hause.",
+        "Obwohl es regnete, blieben wir zu Hause.",
+        "Deshalb gingen wir spazieren."
+      ],
+      "correctAnswer": "Wegen des starken Regens blieben wir zu Hause.",
+      "explanation": "weil -> wegen (kausal: Nebensatz -> Angabe, gleicher Grund)",
+      "difficulty": "medium",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q192",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort passt in die Luecke? Er hat die Pruefung bestanden, ... er jeden Tag gelernt hat.",
+      "options": [
+        "trotzdem",
+        "deshalb",
         "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "obwohl"
       ],
       "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q010",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
-      "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
-      ],
-      "correctAnswer": "als",
-      "explanation": "",
+      "explanation": "weil = kausaler Nebensatzkonnektor (Warum? -> Grund)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q011",
+      "id": "b2_07_q193",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet die Konstruktion dadurch, dass korrekt?",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "Er lernt viel, dadurch, dass er erfolgreich ist.",
+        "Dadurch, dass er viel lernt, besteht er die Pruefung.",
+        "Er besteht die Pruefung, dadurch dass.",
+        "Dadurch er lernt, besteht er."
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q012",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ du mit dem Essen fertig bist, räum bitte auf.",
-      "options": [
-        "Sobald",
-        "Solange",
-        "Wenn",
-        "Nachdem"
-      ],
-      "correctAnswer": "Sobald",
-      "explanation": "",
+      "correctAnswer": "Dadurch, dass er viel lernt, besteht er die Pruefung.",
+      "explanation": "Dadurch, dass leitet kausalen Nebensatz ein: Dadurch, dass + Subjekt + Verb.",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q013",
+      "id": "b2_07_q194",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Haus, ___ wir gekauft haben, ist sehr alt.",
-      "options": [
-        "das",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q014",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland gelebt ___",
-      "options": [
-        "weil / hat",
-        "obwohl / gewohnt hat",
-        "wenn / lebt",
-        "damit / lebte"
-      ],
-      "correctAnswer": "weil / gewohnt hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q015",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ sie in München wohnte, hat sie viele Museen besucht.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Seitdem"
-      ],
-      "correctAnswer": "Während",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q016",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich würde das ___ machen, wenn ich Zeit ___",
-      "options": [
-        "gerne / hätte",
-        "besser / habe",
-        "am liebsten / haben würde",
-        "viel / gehabt"
-      ],
-      "correctAnswer": "gerne / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q017",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er denkt ___ seine Familie.",
-      "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
-      ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q018",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ könnte.",
-      "options": [
-        "obwohl / sein",
-        "weil / war",
-        "wenn / ist",
-        "damit / sei"
-      ],
-      "correctAnswer": "obwohl / sein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q019",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
-      "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q020",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er ist der beste Schüler, ___ ich je unterrichtet habe.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q021",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q022",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
-      "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
-      ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q023",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich freue mich ___ die Ferien.",
-      "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q024",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
-      "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
-      ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q025",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
-      "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q026",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Auto ___ gestern repariert ___",
-      "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
-      ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q027",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er sah aus, ___ er krank ___",
-      "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
-      ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q028",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q029",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Konnektor erzeugt eine kausale Angabe im Satz: Sie geht zur Arbeit, ... sie krank ist?",
       "options": [
         "weil",
-        "wenn",
+        "obwohl",
         "damit",
-        "dass"
+        "wenn"
       ],
       "correctAnswer": "weil",
-      "explanation": "",
+      "explanation": "weil = kausaler Konnektor (Grund: Warum? -> krank)",
+      "difficulty": "easy",
+      "topicName": "Angaben im Satz"
+    },
+    {
+      "id": "b2_07_q195",
+      "subjectId": "b2_07",
+      "type": "multiple_choice",
+      "questionText": "Wie kann die finale Angabe im Satz Um punktlich zu sein, nimmt er den fruehen Zug umformuliert werden?",
+      "options": [
+        "Weil er punktlich sein will...",
+        "Damit er punktlich ist...",
+        "Obwohl er punktlich ist...",
+        "Wenn er punktlich ist..."
+      ],
+      "correctAnswer": "Damit er punktlich ist...",
+      "explanation": "um...zu = finaler Infinitiv; damit ist der aequivlente Nebensatzkonnektor.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q030",
+      "id": "b2_07_q196",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Lesetext: Anna plant ihre Reise nach Oesterreich. Naechsten Monat moechte sie mit dem Zug von Berlin nach Wien fahren, weil sie die Landschaft geniessen will. Welche Art von Angabe ist naechsten Monat im Text?",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "Lokal",
+        "Temporal",
+        "Kausal",
+        "Modal"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q031",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Temporal",
+      "explanation": "naechsten Monat = Zeitangabe, Temporal (Wann?)",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q032",
+      "id": "b2_07_q197",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): ...weil sie die Landschaft geniessen will. Auf welche Frage gibt der Ausdruck weil sie die Landschaft geniessen will eine Antwort?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wo faehrt sie hin?",
+        "Wann faehrt sie?",
+        "Warum faehrt sie?",
+        "Wie faehrt sie?"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q033",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q034",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Warum faehrt sie?",
+      "explanation": "weil = kausale Angabe (Grund) -> beantwortet Warum?",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q035",
+      "id": "b2_07_q198",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): ...ausserdem bucht sie ein Hotel im Stadtzentrum, um schnell zu den Sehenswuerdigkeiten zu gelangen. Welche Art von Angabe ist im Stadtzentrum?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Temporal",
+        "Kausal",
+        "Lokal",
+        "Final"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q036",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q037",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Lokal",
+      "explanation": "im Stadtzentrum = lokale Angabe, Ort (Wo?)",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q038",
+      "id": "b2_07_q199",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): ...um schnell zu den Sehenswuerdigkeiten zu gelangen. Welche Funktion hat der Ausdruck um schnell zu den Sehenswuerdigkeiten zu gelangen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Zeitangabe",
+        "Grundangabe",
+        "Zweckangabe",
+        "Ortsangabe"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q039",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Konjunktiv I: \"er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q040",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Konjunktiv II: \"er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Zweckangabe",
+      "explanation": "um...zu = finale Angabe (Wozu? / Zweck / Absicht)",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Angaben im Satz"
     },
     {
-      "id": "b2_07_q041",
+      "id": "b2_07_q200",
       "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Passiv Präteritum: \"wurde gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Lesetext (Fortsetzung): Trotz der hohen Kosten freut sie sich sehr auf die Reise. Was fuegt der Ausdruck Trotz der hohen Kosten dem Satz hinzu?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Eine Zeitangabe",
+        "Eine Bedingung",
+        "Eine konzessive Angabe (Gegengrund)",
+        "Eine Zweckangabe"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q042",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Je...desto\" braucht den Komparativ.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q043",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Relativsätze im Genitiv: \"der Mann, dessen Auto...\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Eine konzessive Angabe (Gegengrund)",
+      "explanation": "trotz = konzessiv = obwohl -> drueckt einen Gegengrund aus (Einschraenkung).",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q044",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Einander\" ist ein Pronomen.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q045",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Weil\" und \"da\" sind synonym.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q046",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Trotzdem\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q047",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Werden\" zeigt die Zukunft an.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q048",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Nicht\" verneint das Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q049",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Niemand\" negiert \"jemand\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q050",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Konjunktiv II der Vergangenheit: \"hätte gemacht\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q051",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q052",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q053",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q054",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q055",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q056",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q057",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q058",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q059",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Konjunktiv I: \"er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q060",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Konjunktiv II: \"er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q061",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q062",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
-      "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
-      ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q063",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich freue mich ___ die Ferien.",
-      "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q064",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Gestern ___ ich ins Kino ___",
-      "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q065",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
-      "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
-      ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q066",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Auto ___ gestern ___ ___",
-      "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
-      ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q067",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er sah aus, ___ er krank ___",
-      "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
-      ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q068",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ er das Problem ___, konnte er es ___",
-      "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
-      ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q069",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
-      "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
-      ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q070",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
-      "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
-      ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q071",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Sie wartet ___ ihren Freund.",
-      "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q072",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
-      "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
-      ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q073",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
-      "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
-      ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q074",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
-      "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
-      ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q075",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
-      "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
-      ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q076",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q077",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er denkt ___ seine Familie.",
-      "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
-      ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q078",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
-      "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
-      ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q079",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
-      "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q080",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
-      "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
-      ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q081",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q082",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
-      "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
-      ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q083",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich freue mich ___ die Ferien.",
-      "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q084",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Gestern ___ ich ins Kino ___",
-      "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q085",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
-      "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
-      ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q086",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Auto ___ gestern ___ ___",
-      "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
-      ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q087",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er sah aus, ___ er krank ___",
-      "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
-      ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q088",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ er das Problem ___, konnte er es ___",
-      "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
-      ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q089",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
-      "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
-      ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q090",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
-      "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
-      ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q091",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Sie wartet ___ ihren Freund.",
-      "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q092",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
-      "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
-      ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q093",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
-      "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
-      ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q094",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
-      "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
-      ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q095",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
-      "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
-      ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q096",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q097",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er denkt ___ seine Familie.",
-      "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
-      ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q098",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
-      "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
-      ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q099",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
-      "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q1",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "___ Freitag bin ich in Hamburg.",
-      "options": [
-        "Am",
-        "Der",
-        "Ein",
-        "Zu"
-      ],
-      "correctAnswer": "Am",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q100",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
-      "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
-      ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q2",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Er kommt ___ dem Bahnhof.",
-      "options": [
-        "aus",
-        "von",
-        "bei",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q3",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Das Buch liegt ___ dem Tisch.",
-      "options": [
-        "auf",
-        "an",
-        "in",
-        "zu"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q4",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Wir fahren ___ Deutschland.",
-      "options": [
-        "nach",
-        "in",
-        "zu",
-        "bei"
-      ],
-      "correctAnswer": "nach",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_07_q5",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "„Am\" wird für Tage verwendet (am Montag).",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q6",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "„Nach\" wird vor Ländern ohne Artikel verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_07_q7",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Ich bin ___ der Universität.",
-      "options": [
-        "an",
-        "auf",
-        "in",
-        "zu"
-      ],
-      "correctAnswer": "an",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_07_q8",
-      "subjectId": "b2_07",
-      "topicName": "Angaben im Satz",
-      "questionText": "Sie kommt ___ der Arbeit.",
-      "options": [
-        "von",
-        "aus",
-        "bei",
-        "nach"
-      ],
-      "correctAnswer": "von",
-      "explanation": "Grammatik-Thema: 7. Angaben im Satz",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Angaben im Satz"
     }
-  ],
-  "totalQuestions": 108
+  ]
 }

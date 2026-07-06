@@ -1,248 +1,155 @@
 /**
- * B2 Deutsch — Import & Sync Script (Option A)
- * ============================================
- * Reads local JSON → pushes to BOTH GitHub (assets) AND Firestore.
- * Use this whenever you add new questions to any topic.
+ * import_and_sync.js — content/grammar/*.json -> grammarQuizBank (Step 2 of data-integrity fix)
+ * ================================================================================================
+ * PREVIOUS BUG: this script used to write to Firestore collection `moduleQuizQuestions`,
+ * which nothing in the app reads. The live app reads grammar questions from
+ * `grammarQuizBank` via FirebaseDataSource.getGrammarQuestionsBySubject(). Every
+ * "synced" claim based on the old script was Firestore-unverified.
+ *
+ * NEW PIPELINE: content/grammar/<subjectId>.json (git, source of truth) -> this
+ * script -> grammarQuizBank. GitHub asset-file pushing via REST API has been
+ * removed entirely — commit content/ changes with normal `git commit` + `git push`
+ * like everything else in this repo; don't maintain a second parallel content path.
+ *
+ * grammarQuizBank doc shape (matches what FirebaseDataSource.kt actually reads):
+ *   { id, subjectId, level, questionText, options: "opt1|opt2|opt3|opt4" (STRING,
+ *     pipe-delimited, not array), correctAnswer, difficulty, type }
+ * NOTE: no `explanation` field yet — that's a separate, deliberate follow-up
+ * (Step 3 of the data-integrity fix), not bundled into this script by default.
+ *
+ * Also writes/updates a lightweight `topics/<subjectId>` doc (name, level, type,
+ * questionCount) so the `topics` collection stays accurate — currently dead code
+ * in the app (FirebaseDataSource.getSubjectsByLevel() is hardcoded to fail), but
+ * this is what Step 4 (killing hardcoded subject lists) will need to read from.
  *
  * Usage:
- *   node scripts/import_and_sync.js                    # push all topics
- *   node scripts/import_and_sync.js c2_04             # push specific topic
- *   node scripts/import_and_sync.js c2_04 c2_05       # push multiple topics
- *
- * Prerequisites:
- *   npm install firebase-admin
  *   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
+ *   node scripts/import_and_sync.js --dry-run                # preview all topics
+ *   node scripts/import_and_sync.js --dry-run c2_12           # preview one topic
+ *   node scripts/import_and_sync.js c2_12                     # sync one topic
+ *   node scripts/import_and_sync.js                           # sync ALL topics
  *
- * What it does:
- *   1. Reads local JSON from app/src/main/assets/ (a1_XX, b1_XX, c2_XX, etc.)
- *   2. Updates version number for that topic in Firestore
- *   3. Pushes updated JSON file to GitHub assets
- *   4. Users get the update within 7 days (or on next app open if forced)
+ * This script never deletes anything. It does not touch the orphaned
+ * `moduleQuizQuestions` collection — see scripts/delete_orphaned_module_quiz_questions.js
+ * for that, which must be run separately and explicitly, never automatically.
  */
 
 const admin = require('firebase-admin');
 const fs = require('fs');
 const path = require('path');
-const https = require('https');
 
-// ============================================================
-// CONFIG
-// ============================================================
+const CONTENT_DIR = path.join(__dirname, '..', 'content', 'grammar');
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN || process.env.GITHUB_TOKEN;
-const REPO = 'halilmek/b2-deutsch-app';
-const ASSETS_DIR = path.join(__dirname, '..', 'app', 'src', 'main', 'assets');
+const args = process.argv.slice(2);
+const DRY_RUN = args.includes('--dry-run');
+const subjectArgs = args.filter(a => a !== '--dry-run');
 
-// ============================================================
-// FIREBASE INIT
-// ============================================================
-
-const serviceAccount = process.env.GOOGLE_APPLICATION_CREDENTIALS
-  ? JSON.parse(fs.readFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS, 'utf8'))
-  : null;
-
-if (serviceAccount) {
-  admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
-  console.log('✅ Firebase Admin initialized');
-} else {
-  console.log('⚠️  Firebase not configured — will only push to GitHub');
+if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
+  console.error('❌ Set GOOGLE_APPLICATION_CREDENTIALS to your Firebase service account key path first.');
+  process.exit(1);
 }
 
+const serviceAccount = JSON.parse(fs.readFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS, 'utf8'));
+admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
 const db = admin.firestore();
-const FIELD = admin.firestore.FieldValue;
 
-// ============================================================
-// GITHUB HELPERS
-// ============================================================
-
-function githubGet(gitPath) {
-  return new Promise((resolve, reject) => {
-    const req = https.request({
-      hostname: 'api.github.com',
-      path: '/repos/' + REPO + '/contents/' + gitPath,
-      method: 'GET',
-      headers: { 'Authorization': 'token ' + GITHUB_TOKEN, 'User-Agent': 'B2DeutschImport', 'Accept': 'application/json' }
-    }, res => {
-      let d = '';
-      res.on('data', c => d += c);
-      res.on('end', () => {
-        try { resolve(JSON.parse(d)); }
-        catch(e) { reject(new Error('Parse error: ' + d.substring(0,100))); }
-      });
-    });
-    req.on('error', reject);
-    req.end();
-  });
-}
-
-function githubPut(gitPath, content, sha, message) {
-  return new Promise((resolve, reject) => {
-    const body = JSON.stringify({
-      message: message,
-      content: Buffer.from(content).toString('base64'),
-      sha: sha,
-      branch: 'main'
-    });
-    const req = https.request({
-      hostname: 'api.github.com',
-      path: '/repos/' + REPO + '/contents/' + gitPath,
-      method: 'PUT',
-      headers: { 'Authorization': 'token ' + GITHUB_TOKEN, 'User-Agent': 'B2DeutschImport', 'Content-Type': 'application/json' }
-    }, res => {
-      let d = '';
-      res.on('data', c => d += c);
-      res.on('end', () => resolve({ status: res.statusCode, body: d }));
-    });
-    req.on('error', reject);
-    req.write(body);
-    req.end();
-  });
-}
-
-// ============================================================
-// FIRESTORE HELPERS
-// ============================================================
-
-async function updateFirestoreTopic(data) {
-  const subjectId = data.subjectId; // e.g. "c2_04"
-  const docId = subjectId;
-
-  // Derive module and level from subjectId prefix (e.g. "c2" -> "C2", "b1" -> "B1")
-  const prefix = subjectId.replace(/_.*/, '').toUpperCase(); // "c2" -> "C2"
-  const moduleMap = { A1: 'A1', A2: 'A2', B1: 'B1', B2: 'B2', C1: 'C1', C2: 'C2' };
-  const level = moduleMap[prefix] || prefix;
-
-  // Build questions array for Firestore
-  const questions = data.questions.map(q => ({
+function toFirestoreQuestion(q, subjectId, level) {
+  return {
     id: q.id,
     subjectId: q.subjectId || subjectId,
-    module: level,
-    topicNumber: subjectId.replace(/^[a-z]+_[0-9]+/, '') + '. Topic',
-    topicName: q.topicName || data.topicName,
-    type: q.type || 'multiple_choice',
+    level: q.level || level,
     questionText: q.questionText,
-    options: q.options || [],
+    options: Array.isArray(q.options) ? q.options.join('|') : q.options,
     correctAnswer: q.correctAnswer,
-    explanation: q.explanation || '',
     difficulty: q.difficulty || 'medium',
-    level: level
-  }));
-
-  // Get current version, increment
-  const currentDoc = await db.collection('moduleQuizQuestions').doc(docId).get();
-  const currentVersion = currentDoc.exists ? (currentDoc.get('version') || 0) : 0;
-  const newVersion = currentVersion + 1;
-
-  const docData = {
-    id: docId,
-    subjectId: subjectId,
-    module: level,
-    topicName: data.topicName,
-    totalQuestions: data.totalQuestions,
-    version: newVersion,
-    updatedAt: FIELD.serverTimestamp(),
-    questions: questions
+    type: q.type || 'multiple_choice'
   };
+}
 
-  await db.collection('moduleQuizQuestions').doc(docId).set(docData, { merge: true });
+async function planTopic(subjectId) {
+  const filePath = path.join(CONTENT_DIR, `${subjectId}.json`);
+  if (!fs.existsSync(filePath)) {
+    return { subjectId, error: `File not found: ${filePath}` };
+  }
+  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+  const level = data.level || subjectId.split('_')[0].toUpperCase();
 
-  // Also push individual question docs (for granular queries)
+  const existingSnapshot = await db.collection('grammarQuizBank')
+    .where('subjectId', '==', subjectId)
+    .select()
+    .get();
+  const existingIds = new Set(existingSnapshot.docs.map(d => d.id));
+
+  const localQuestions = data.questions.map(q => toFirestoreQuestion(q, subjectId, level));
+  const localIds = new Set(localQuestions.map(q => q.id));
+
+  const toCreate = localQuestions.filter(q => !existingIds.has(q.id));
+  const toUpdate = localQuestions.filter(q => existingIds.has(q.id));
+  const staleInFirestore = [...existingIds].filter(id => !localIds.has(id));
+
+  return {
+    subjectId,
+    level,
+    topicName: data.topicName,
+    localTotal: localQuestions.length,
+    firestoreTotal: existingIds.size,
+    toCreate: toCreate.length,
+    toUpdate: toUpdate.length,
+    staleInFirestore, // present in Firestore but not in local file - NOT deleted, just reported
+    questions: localQuestions,
+    topicDoc: {
+      id: subjectId,
+      level,
+      name: data.topicName,
+      type: 'grammar',
+      questionCount: localQuestions.length
+    }
+  };
+}
+
+async function applyTopic(plan) {
   const batchSize = 400;
-  for (let i = 0; i < questions.length; i += batchSize) {
+  for (let i = 0; i < plan.questions.length; i += batchSize) {
     const batch = db.batch();
-    questions.slice(i, i + batchSize).forEach(q => {
-      const qRef = db.collection('moduleQuizQuestions').doc(q.id);
-      batch.set(qRef, q, { merge: true });
+    plan.questions.slice(i, i + batchSize).forEach(q => {
+      batch.set(db.collection('grammarQuizBank').doc(q.id), q, { merge: true });
     });
     await batch.commit();
   }
-
-  console.log(`  ✅ Firestore: ${questions.length} questions, version ${newVersion}`);
-  return newVersion;
+  await db.collection('topics').doc(plan.subjectId).set(plan.topicDoc, { merge: true });
 }
-
-// ============================================================
-// PUSH SINGLE TOPIC
-// ============================================================
-
-async function pushTopic(subjectId) {
-  console.log(`\n📦 Processing ${subjectId}...`);
-
-  const fileName = subjectId + '.json';
-  const filePath = path.join(ASSETS_DIR, fileName);
-
-  if (!fs.existsSync(filePath)) {
-    console.log(`  ❌ File not found: ${filePath}`);
-    return;
-  }
-
-  // Read local JSON
-  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  console.log(`  📋 Topic: "${data.topicName}" | ${data.totalQuestions} questions`);
-
-  // Step 1: Push to GitHub assets
-  console.log(`  🔄 Pushing to GitHub...`);
-  const gitPath = 'app/src/main/assets/' + fileName;
-  const currentSHA = await githubGet(gitPath).then(r => r.sha).catch(() => null);
-
-  if (!currentSHA) {
-    console.log(`  ❌ Could not get SHA for ${gitPath}`);
-    return;
-  }
-
-  const newContent = JSON.stringify(data, null, 2);
-  const gitResult = await githubPut(gitPath, newContent, currentSHA, `Update ${subjectId}: ${data.topicName} (${data.totalQuestions} questions)`);
-
-  if (gitResult.status === 200) {
-    console.log(`  ✅ GitHub: ${fileName} updated`);
-  } else {
-    console.log(`  ❌ GitHub push failed: ${gitResult.status}`);
-  }
-
-  // Step 2: Push to Firestore
-  if (serviceAccount) {
-    console.log(`  🔄 Pushing to Firestore...`);
-    try {
-      await updateFirestoreTopic(data);
-    } catch(e) {
-      console.log(`  ❌ Firestore error: ${e.message}`);
-    }
-  } else {
-    console.log(`  ⚠️  Skipped Firestore (no credentials)`);
-  }
-
-  console.log(`  ✅ ${subjectId} sync complete!`);
-}
-
-// ============================================================
-// MAIN
-// ============================================================
 
 async function main() {
-  const args = process.argv.slice(2);
+  const files = fs.readdirSync(CONTENT_DIR).filter(f => /^(a1|a2|b1|b2|c1|c2)_[0-9]+\.json$/i.test(f));
+  const allSubjectIds = files.map(f => f.replace('.json', '')).sort();
+  const targetIds = subjectArgs.length > 0 ? subjectArgs : allSubjectIds;
 
-  if (args.length === 0) {
-    // Push all topic files across all levels
-    const files = fs.readdirSync(ASSETS_DIR)
-      .filter(f => f.match(/^(a1|a2|b1|b2|c1|c2)_[0-9]+\.json$/i))
-      .sort();
+  console.log(DRY_RUN ? '🔍 DRY RUN — no writes will be made\n' : '🚀 Syncing content/grammar/*.json -> grammarQuizBank\n');
 
-    console.log(`\n🚀 Syncing ALL ${files.length} topics to GitHub + Firestore...\n`);
-
-    for (const f of files) {
-      const subjectId = f.replace('.json', '');
-      await pushTopic(subjectId);
+  const plans = [];
+  for (const subjectId of targetIds) {
+    const plan = await planTopic(subjectId);
+    plans.push(plan);
+    if (plan.error) {
+      console.log(`  ❌ ${subjectId}: ${plan.error}`);
+      continue;
     }
-
-    console.log(`\n🎉 All ${files.length} topics synced!`);
-  } else {
-    // Push specific topics (handles c1_XX, c2_XX, b2_XX, etc.)
-    for (const subjectId of args) {
-      await pushTopic(subjectId);
-    }
+    console.log(`  ${subjectId} (${plan.topicName}): local=${plan.localTotal}, firestore=${plan.firestoreTotal}, create=${plan.toCreate}, update=${plan.toUpdate}${plan.staleInFirestore.length ? `, stale-in-firestore=${plan.staleInFirestore.length} (not deleted)` : ''}`);
   }
 
-  console.log(`\n📱 Users will receive updates when they open the app (within 7 days max).\n`);
+  if (DRY_RUN) {
+    console.log('\n✅ Dry run complete. Re-run without --dry-run to apply.');
+    return;
+  }
+
+  for (const plan of plans) {
+    if (plan.error) continue;
+    console.log(`\n📦 Applying ${plan.subjectId}...`);
+    await applyTopic(plan);
+    console.log(`  ✅ ${plan.subjectId}: ${plan.questions.length} questions written, topics/${plan.subjectId} updated`);
+  }
+
+  console.log('\n🎉 Sync complete.');
 }
 
-main().catch(e => { console.error('Error:', e.message); process.exit(1); });
+main().catch(e => { console.error('Error:', e); process.exit(1); });

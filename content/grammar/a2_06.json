@@ -1,1553 +1,2419 @@
 {
+  "version": "1.0",
   "subjectId": "a2_06",
-  "topicName": " reflexive Verben",
+  "topicName": "Reflexive Verben",
   "level": "A2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "a2_06_q001",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_001",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich muss ______ unbedingt merken, dass ich den Termin morgen absagen muss.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "mich",
+        "mir",
+        "sich",
+        "dir"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "mir",
+      "explanation": "sich (Dativ) merken — 'Akilda tutmak', donuslu fiil Dativ alir.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q002",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich ___ dir helfen.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_002",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Hast du ______ schon ______ den neuen Arbeitsvertrag erkundigt?",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "dich / über",
+        "dir / nach",
+        "dich / nach",
+        "dir / über"
       ],
-      "correctAnswer": "kann",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dich / nach",
+      "explanation": "sich erkundigen nach + Dativ — 'Bir sey hakkinda bilgi almak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q003",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ du mit mir kommen?",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_003",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir konnten ______ während der Verhandlungen leider nicht auf einen Kompromiss ______.",
       "options": [
-        "Kannst",
-        "Kann",
-        "Können",
-        "Konntest"
+        "uns / einigen",
+        "sich / einigen",
+        "uns / einig sein",
+        "euch / einigen"
       ],
-      "correctAnswer": "Kannst",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "uns / einigen",
+      "explanation": "sich einigen auf + Akkusativ — 'Bir konuda uzlasmak'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q004",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ___ schon in München.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_004",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat ______ bei dem Sturz vom Fahrrad schwer ______ am Knie.",
       "options": [
-        "war",
-        "ist",
-        "hat",
-        "wird"
+        "sich / verletzen",
+        "ihm / verletzt",
+        "sich / verletzt",
+        "ihn / verletzte"
       ],
-      "correctAnswer": "war",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sich / verletzt",
+      "explanation": "sich verletzen — 'to injure oneself', donuslu fiil Akkusativ alir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q005",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_005",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du solltest ______ öfter mal eine Auszeit vom stressigen Alltag ______.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "dich / gönnen",
+        "dir / gönnen",
+        "sich / gönnen",
+        "euch / gönnen"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dir / gonnen",
+      "explanation": "sich (Dativ) etwas gonnen — 'Kendine bir seyi cok gormemek/bahsetmek'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q006",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_006",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Ministerin ______ ______ für eine radikale Reform des Bildungssystems ______.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "setzt / sich / ein",
+        "setzt / ihr / ein",
+        "hat / sich / eingesetzt",
+        "Sowohl A als auch C ist grammatisch möglich"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Sowohl A als auch C ist grammatisch moglich",
+      "explanation": "sich einsetzen fur — present (setzt sich ein) ve Perfekt (hat sich eingesetzt) her ikisi de correct.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_06_q007",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_007",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich kann ______ einfach nicht ______ diese extreme Kälte gewöhnen.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "mich / an",
+        "mir / an",
+        "mich / auf",
+        "mir / auf"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "mich / an",
+      "explanation": "sich gewohnen an + Akkusativ — 'Bir seye alismak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q008",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_008",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Hast du ______ eigentlich schon ______ die Einladung bedankt?",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "dich / für",
+        "dir / für",
+        "dich / über",
+        "dir / über"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dich / fur",
+      "explanation": "sich bedanken fur + Akkusativ — 'to thank'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q009",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_009",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ ______ sehr ______ die positiven Rückmeldungen unserer Kunden.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "freuen / uns / über",
+        "freuen / uns / auf",
+        "freuen / sich / über",
+        "freuen / sich / an"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "freuen / uns / uber",
+      "explanation": "sich freuen uber + Akkusativ — 'Olmus bir seye sevinmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q010",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_010",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Bitte ______ ______ beim Aussteigen aus dem Zug vor der Lücke zwischen Bahnsteig und Zug.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "hüte / dich",
+        "hüten / Sie / sich",
+        "hütet / euch",
+        "hebe / dich"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "huten / Sie / sich",
+      "explanation": "sich huten vor + Dativ — 'Bir seyden sakinmak/korunmak', saygili form.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_06_q011",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_011",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ______ ______ ständig ______ die lauten Nachbarn, aber nichts ändert sich.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "beschwert / sich / über",
+        "beklagt / ihm / über",
+        "beschwert / sich / an",
+        "beklagt / sich / gegen"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "beschwert / sich / uber",
+      "explanation": "sich beschweren uber + Akkusativ — 'Sikayet etmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q012",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_012",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du musst ______ gut ______, bevor du eine so wichtige Entscheidung triffst.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "dich / überlegen",
+        "dir / überlegen",
+        "sich / überlegen",
+        "euch / überlegen"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dir / uberlegen",
+      "explanation": "sich (Dativ) etwas uberlegen — 'to think about something thoroughly'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q013",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_013",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ ______ große Sorgen um die zukünftige Entwicklung der Weltwirtschaft.",
       "options": [
-        "hat / gegangen",
-        "ist / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "mache / mich",
+        "mache / mir",
+        "fühle / mich",
+        "sorge / sich"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "mache / mir",
+      "explanation": "sich (Dativ) Sorgen machen — 'Endiselenmek', kalip ifade.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q014",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_014",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Habt ihr ______ schon ______ das neue Verfahren vertraut gemacht?",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "euch / mit",
+        "euch / an",
+        "sich / mit",
+        "uns / an"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "euch / mit",
+      "explanation": "sich vertraut machen mit + Dativ — 'Bir seye asina olmak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q015",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_015",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge ______ ______ ______ den Tathergang kaum noch.",
       "options": [
-        "kochen",
-        "kocht",
-        "gekocht",
-        "kochte"
+        "erinnert / sich / an",
+        "erinnert / ihn / an",
+        "besinnt / sich / auf",
+        "Sowohl A als auch C ist korrekt"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Sowohl A als auch C ist korrekt",
+      "explanation": "sich erinnern an / sich besinnen auf — her ikisi de 'hatirlamak/animsamak' icin kullanilir.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_06_q016",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_016",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ ______ für die Stelle als Marketing-Assistentin.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "bewirbt / sich",
+        "bewirbt / ihr",
+        "bewerbt / sich",
+        "bewerbt / ihr"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "bewirbt / sich",
+      "explanation": "sich bewerben um + Akkusativ — 'Basvurmak'. fiil degisimi: bewerben → er bewirbt.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q017",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_017",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ______ vorgenommen, ab nächster Woche regelmäßig Sport zu treiben.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "mich",
+        "mir",
+        "uns",
+        "sich"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "mir",
+      "explanation": "sich (Dativ) vornehmen — 'Bir seyi yapmaya niyetlenmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q018",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_018",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ______ ______ ______ die schwierige Situation seiner Kollegen.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "schämt / sich / für",
+        "schämt / sich / wegen",
+        "geniert / sich / für",
+        "A ve C doğru"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "schämt / sich / fur",
+      "explanation": "sich schämen fur/wegen — 'Birinden/bir seyden dolayi utanmak'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q019",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_019",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ ______ ganz ______ deine Unterstützung beim Umzug.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "verlassen / uns / auf",
+        "verlassen / uns / an",
+        "verlassen / sich / auf",
+        "verlassen / euch / auf"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "verlassen / uns / auf",
+      "explanation": "sich verlassen auf + Akkusativ — 'Guvenmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q020",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_020",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ______ ______ oft ______ der Richtigkeit seiner eigenen Aussagen.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "zweifelt / sich / an",
+        "täuscht / sich / in",
+        "irrt / sich / bei",
+        "B ve C doğru"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "täuscht / sich / in",
+      "explanation": "sich täuschen in + Dativ — 'Bir konuda/birinde yanilmak'.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_06_q021",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_021",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Expertengruppe konnte _______ trotz wochenlanger Verhandlungen nicht auf eine gemeinsame Strategie einigen.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "uns",
+        "sich",
+        "euch",
+        "mir"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sich",
+      "explanation": "sich einigen — donuslu fiil, 3. cogul sahis.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q022",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_022",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Abgeordnete weigerte _______, den Untersuchungsausschuss zu unterstützen.",
       "options": [
-        "bei",
-        "auf",
-        "nach",
-        "von"
+        "ihm",
+        "sich",
+        "es",
+        "ihr"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sich",
+      "explanation": "sich weigern — yalnizca donuslu kullanilan fiil.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q023",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_023",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich mache _______ große Sorgen um die Zukunft der erneuerbaren Energien in dieser Region.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "mich",
+        "mir",
+        "meine",
+        "sich"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "mir",
+      "explanation": "sich (Dativ) Sorgen machen — Dativ reflexiv, nesne var.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q024",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_024",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die beiden Konzerne haben _______ nach jahrelangem Rechtsstreit schließlich geeinigt.",
       "options": [
-        "gefahren",
-        "gefahren",
-        "gefahre",
-        "fährt"
+        "sich",
+        "ihnen",
+        "einander",
+        "sie"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sich",
+      "explanation": "sich einigen — karsilikli eylem, sich kullanilir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q025",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_025",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat _______ bei der Präsentation leider sehr ungeschickt verhalten.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "ihm",
+        "sich",
+        "es",
+        "ihn"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sich",
+      "explanation": "sich verhalten — donuslu fiil, Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q026",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_026",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen _______ bewusst sein, dass jede politische Entscheidung weitreichende Folgen haben kann.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "uns",
+        "wir",
+        "unser",
+        "sich"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "uns",
+      "explanation": "uns bewusst sein — 1. cogul Dativ reflexiv.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q027",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_027",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die junge Wissenschaftlerin hat _______ durch ihre bahnbrechenden Forschungen einen Namen gemacht.",
       "options": [
-        "habt / gesehen",
-        "hat / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "sie",
+        "ihr",
+        "sich",
+        "ihnen"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sich",
+      "explanation": "sich einen Namen machen — kalip ifade, Dativ reflexiv.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q028",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_028",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ du _______ sicher, dass die eingereichten Daten korrekt sind?",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "Bist / dich",
+        "Bist / dir",
+        "Hast / dich",
+        "Hast / dir"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Bist / dir",
+      "explanation": "sich (Dativ) sicher sein — Dativ reflexiv.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q029",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_029",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter beschwerten _______ beim Betriebsrat über die unhaltbaren Arbeitsbedingungen.",
       "options": [
-        "von / übertönt",
-        "vor / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "ihnen",
+        "sie",
+        "sich",
+        "einander"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sich",
+      "explanation": "sich beschweren — donuslu fiil, Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q030",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Die Aufgabe ist ___ zu ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_030",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nach dem Skandal musste der Vorstandsvorsitzende _______ vor den Aktionären rechtfertigen.",
       "options": [
-        "schwer / lösen",
-        "schwerer / lösen",
-        "am schwersten / lösen",
-        "schwere / gelöst"
+        "ihn",
+        "ihm",
+        "sich",
+        "es"
       ],
-      "correctAnswer": "schwer / lösen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sich",
+      "explanation": "sich rechtfertigen — donuslu fiil, Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q031",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_031",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _______ das Angebot noch einmal gründlich überlegt und komme zu einem anderen Ergebnis.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mich",
+        "mir",
+        "es",
+        "mein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "mir",
+      "explanation": "sich (Dativ) uberlegen — Dativ reflexiv, nesne var.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q032",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_032",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die politische Lage hat _______ seit dem letzten Bericht erheblich verändert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ihr",
+        "sich",
+        "es",
+        "ihm"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich verändern — donuslu fiil, ozne degisim yasiyor.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q033",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_033",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er konnte _______ nicht vorstellen, dass das Projekt unter diesen Umständen erfolgreich sein würde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "ihm",
+        "ihn",
+        "es"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich vorstellen — hayal etmek anlaminda Akkusativ reflexiv.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q034",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_034",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Delegation setzte _______ intensiv für die Rechte der betroffenen Bevölkerungsgruppen ein.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ihr",
+        "sie",
+        "sich",
+        "ihnen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich einsetzen fur — donuslu fiil, Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q035",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_035",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben _______ auf die Möglichkeit vorbereitet, dass die Verhandlungen scheitern könnten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wir",
+        "uns",
+        "unser",
+        "sich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "uns",
+      "explanation": "uns vorbereiten — 1. cogul Akkusativ reflexiv.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q036",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_036",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Angeklagte weigerte _______, ohne seinen Anwalt eine Aussage zu machen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ihn",
+        "ihm",
+        "sich",
+        "es"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich weigern — yalnizca donuslu kullanilan fiil.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q037",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_037",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die beiden Kandidaten haben _______ im Laufe des Wahlkampfs gegenseitig stark kritisiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "einander",
+        "Hem A hem B doğru",
+        "ihnen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Hem A hem B correct",
+      "explanation": "sich / einander — her ikisi de reziprokal anlamda correct.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q038",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_038",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _______ die Konsequenzen ihres Handelns offenbar nicht ausreichend überlegt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "ihr",
+        "sie",
+        "es"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich (Dativ) uberlegen — Dativ reflexiv.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q039",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_039",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das neue Gesetz richtet _______ vor allem an Unternehmen mit mehr als 250 Beschäftigten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "es",
+        "ihm",
+        "sich",
+        "ihr"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich richten an — donuslu fiil, Akkusativ.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q040",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_040",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Forscherin fragte _______, ob ihre Hypothese unter realen Bedingungen standhalten würde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ihr",
+        "sie",
+        "sich",
+        "es"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich fragen — donuslu fiil, Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q041",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Nach\" braucht immer den Dativ.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_041",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Studenten interessieren ______ für internationale Politik.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mich",
+        "sich",
+        "euch",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich interessieren fur + Akkusativ — 'Bir konuyla ilgilenmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q042",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Im Perfekt sagt man \"ich habe gesehen\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_042",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich kann ______ noch gut an unser erstes Gespräch erinnern.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mich",
+        "mir",
+        "sich",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "mich",
+      "explanation": "sich erinnern an + Akkusativ — 'Hatirlamak', donuslu fiil Akkusativ alir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q043",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Oder\" verbindet zwei Hauptsätze.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_043",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeiter beschwerten ______ über die schlechten Arbeitsbedingungen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "euch",
+        "sich",
+        "uns",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich beschweren uber + Akkusativ — 'Sikayet etmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q044",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Denn\" leitet einen Nebensatz ein.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_044",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Warum konzentrierst du ______ nicht besser auf die Aufgabe?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mich",
+        "dich",
+        "sich",
+        "euch"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dich",
+      "explanation": "sich konzentrieren auf + Akkusativ — 'Odaklanmak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q045",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Wegen\" braucht den Dativ.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_045",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen ______ auf die Prüfung vorbereiten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "uns",
+        "euch",
+        "sich",
+        "mich"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "uns",
+      "explanation": "sich vorbereiten auf + Akkusativ — 'Hazirlanmak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q046",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Im Präteritum: \"ich war\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_046",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker hat ______ klar gegen die Vorwürfe geäußert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "mich",
+        "euch",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich äußern zu + Dativ — 'Dusuncesini ifade etmek'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q047",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Das gefällt mir\" braucht den Dativ.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_047",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder freuten ______ sehr auf die Ferien.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "euch",
+        "uns",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich freuen auf + Akkusativ — 'Sevinmek/heyecanlanmak' (gelecege yonelik).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q048",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Ob\" leitet einen Nebensatz ein.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_048",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich frage ______, warum niemand früher reagiert hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mich",
+        "sich",
+        "dich",
+        "euch"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "mich",
+      "explanation": "sich fragen — 'Kendine sormak/merak etmek'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q049",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Am\" wird bei Wochentagen verwendet.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_049",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ihr solltet ______ mehr Zeit für eure Familie nehmen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "euch",
+        "uns",
+        "sich",
+        "mich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "euch",
+      "explanation": "sich (Dativ) Zeit nehmen — 'Zaman ayirmak'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q050",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Zur\" ist die Kurzform von \"zu der\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_050",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat ______ intensiv mit moderner Literatur beschäftigt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mich",
+        "sich",
+        "dich",
+        "euch"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich beschäftigen mit + Dativ — 'Ilgilenmek/mesgul olmak'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q051",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_051",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler irrte ______ in seiner Analyse.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "mich",
+        "euch",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich irren in + Dativ — 'Yanilmak'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q052",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_052",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben ______ über die Entscheidung des Gerichts gewundert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "euch",
+        "sich",
+        "uns",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "uns",
+      "explanation": "sich wundern uber + Akkusativ — 'Sasirmak'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q053",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_053",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kannst du ______ bitte etwas beeilen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dich",
+        "mich",
+        "euch",
+        "sich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dich",
+      "explanation": "sich beeilen — 'Acele etmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q054",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_054",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Gäste unterhielten ______ lange über Politik.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "euch",
+        "uns",
+        "sich",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich unterhalten uber + Akkusativ — 'Sohbet etmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q055",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_055",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ______ bereits für den Sprachkurs angemeldet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mich",
+        "dich",
+        "sich",
+        "euch"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "mich",
+      "explanation": "sich anmelden fur + Akkusativ — 'Kayit olmak'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q056",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_056",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Autor äußerte ______ kritisch zur aktuellen Situation.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "euch",
+        "sich",
+        "uns",
+        "mich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich äußern zu + Dativ — 'Gorus bildirmek'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q057",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_057",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Habt ihr ______ schon an das neue Leben in Deutschland gewöhnt?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "euch",
+        "uns",
+        "sich",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "euch",
+      "explanation": "sich gewohnen an + Akkusativ — 'Alismak'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_06_q058",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_058",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie mussten ______ mit vielen Schwierigkeiten auseinandersetzen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "euch",
+        "uns",
+        "dich"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sich",
+      "explanation": "sich auseinandersetzen mit + Dativ — 'Ele almak/ilgilenmek'.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_06_q059",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_059",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich freue ______ darüber, dass du die Prüfung bestanden hast.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "mich",
+        "dich",
+        "euch"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "mich",
+      "explanation": "sich freuen uber + Akkusativ — 'Sevinmek' (simdiki durum hakkinda).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q060",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_060",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin entschied ______ spontan für ein Auslandssemester.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sich",
+        "mich",
+        "euch",
+        "uns"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a2_06_q061",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Gestern ___ ich ins Kino ___",
-      "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q062",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich ___ dir helfen ___",
-      "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
-      ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q063",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ du mit mir ___?",
-      "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
-      ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q064",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ___ schon in München ___",
-      "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
-      ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q065",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich habe ___ Ferien ___",
-      "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
-      ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q066",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das Buch ___ mir ___",
-      "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
-      ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q067",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Sie ___ seit drei Jahren hier.",
-      "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q068",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ dem Wetter bin ich froh.",
-      "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
-      ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q069",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ist ___ dem Chef.",
-      "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
-      ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q070",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich interessiere mich ___ Musik.",
-      "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
-      ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q071",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
-      "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
-      ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q072",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das ist ___ als das.",
-      "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
-      ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q073",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ___ gestern ins Büro ___",
-      "options": [
-        "ist / gegangen",
-        "hat / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q074",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ du schon ___ ?",
-      "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
-      ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q075",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Die Suppe ist ___",
-      "options": [
-        "gekocht",
-        "kochen",
-        "kocht",
-        "kochte"
-      ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q076",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ___ sich über die Nachricht.",
-      "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
-      ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q077",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
-      "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
-      ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q078",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das ist die ___ Lösung.",
-      "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
-      ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q079",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er spricht ___ als ich.",
-      "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
-      ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_06_q080",
-      "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Sie ist die ___ von allen.",
-      "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
-      ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "sich entscheiden fur + Akkusativ — 'Karar vermek/secmek'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q081",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er muss _____ beeilen, sonst verpasst er den Zug.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "sich",
+        "ihm",
+        "ihn",
+        "ihr"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "sich beeilen - Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q082",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich wasche _____ die Hande, bevor wir essen.",
       "options": [
-        "auf",
-        "bei",
-        "nach",
-        "von"
+        "mir",
+        "mich",
+        "sich",
+        "uns"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "mir",
+      "explanation": "Dativ: ich wasche mir die Hande.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q083",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Hast du _____ schon einmal gefragt, ob du wirklich glucklich bist?",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "dir",
+        "dich",
+        "sich",
+        "euch"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dich",
+      "explanation": "Akkusativ: sich fragen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q084",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ den neuen Job gut eingearbeitet.",
       "options": [
-        "gefahren",
-        "fahren",
-        "fahre",
-        "fährt"
+        "sich",
+        "ihr",
+        "sie",
+        "ihnen"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "Akkusativ: sich einarbeiten.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q085",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir mussen _____ auf die schwierige Prufung vorbereiten.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "uns",
+        "wir",
+        "euch",
+        "sich"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "uns",
+      "explanation": "Akkusativ: wir bereiten uns vor.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q086",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du solltest _____ mehr Zeit fur deine Familie nehmen.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "dich",
+        "dir",
+        "sich",
+        "euch"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dir",
+      "explanation": "Dativ: du solltest dir Zeit nehmen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q087",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die beiden Freunde verstehen _____ sehr gut, obwohl sie unterschiedliche Meinungen haben.",
       "options": [
-        "hat / gesehen",
-        "habt / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "sich",
+        "einander",
+        "gegenseitig",
+        "euch"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "sich verstehen - reziprok.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q088",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben _____ uber den schlechten Service geargert.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "uns",
+        "wir",
+        "euch",
+        "sich"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "uns",
+      "explanation": "Akkusativ: wir haben uns geargert.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q089",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kannst du _____ bitte an die Adresse erinnern? Ich habe sie vergessen.",
       "options": [
-        "vor / übertönt",
-        "von / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "dich",
+        "dir",
+        "sich",
+        "mir"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dich",
+      "explanation": "Akkusativ: sich an etwas erinnern.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q090",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch verkauft _____ sehr gut, weil es einen Bestsellerautor hat.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "sich",
+        "ihm",
+        "ihn",
+        "uns"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "passivisches Reflexiv.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q091",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ erkrankt, weil sie ohne Jacke ausging.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "sich",
+        "ihr",
+        "sie",
+        "ihm"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "sich erkalten - echtes reflexives Verb.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q092",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir freuen _____ schon sehr auf die Reise nach Japan.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "uns",
+        "wir",
+        "euch",
+        "sich"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "uns",
+      "explanation": "sich freuen auf - Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q093",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ beim Fussball das Bein gebrochen.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "sich",
+        "ihn",
+        "sein",
+        "ihm"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "Dativ: sich (Dat.) das Bein brechen.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_06_q094",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich muss _____ etwas Neues anziehen, bevor wir losgehen.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "mir",
+        "mich",
+        "sich",
+        "uns"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "mir",
+      "explanation": "Dativ: ich ziehe mir etwas an.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q095",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Tur offnet _____ von selbst, wenn man den Knopf druckt.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "sich",
+        "ihr",
+        "sie",
+        "es"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "passivisches Reflexiv.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q096",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben _____ jahrelang nicht gesehen, aber dann trafen wir uns zufallig.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "uns",
+        "wir",
+        "euch",
+        "sich"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "uns",
+      "explanation": "sich sehen - reziprok.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q097",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ die Haare gefarbt und sieht jetzt ganz anders aus.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "sich",
+        "ihr",
+        "sie",
+        "ihnen"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "Dativ: sich die Haare farben.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q098",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man sollte _____ nicht zu viel Sorgen machen.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "sich",
+        "einem",
+        "einen",
+        "euch"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "Man sollte sich keine Sorgen machen.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q099",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder streiten _____ standig um das Spielzeug.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "sich",
+        "einander",
+        "gegenseitig",
+        "euch"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sich",
+      "explanation": "sich streiten - reziprok.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_06_q100",
       "subjectId": "a2_06",
-      "topicName": " reflexive Verben",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ endlich an das neue System gewohnt.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "mir",
+        "mich",
+        "sich",
+        "uns"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "mich",
+      "explanation": "Akkusativ: sich gewohnen an.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_06_q081",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ mir die Hände. (to wash)",
+      "options": [
+        "wasche",
+        "wasche mich",
+        "wasche mir",
+        "wäsche"
+      ],
+      "correctAnswer": "wasche mir",
+      "explanation": "Reflexive verb with body part present → Dativ required. 'Mir die Hände waschen' (to wash one's hands) uses Dativ because 'die Hände' is the direct object, leaving the reflexive pronoun to take Dativ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q082",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ auf den Urlaub gefreut.",
+      "options": [
+        "haben uns",
+        "hat uns",
+        "uns haben",
+        "uns"
+      ],
+      "correctAnswer": "haben uns",
+      "explanation": "sich freuen auf + Akkusativ (to look forward to). Perfekt with 'haben': 'Wir haben uns auf den Urlaub gefreut.' The reflexive pronoun 'uns' is in Akkusativ because there is no separate object in the sentence.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_06_q083",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ sich für Kunst interessiert.",
+      "options": [
+        "hat",
+        "hat sich",
+        "sich hat",
+        "hat sich für"
+      ],
+      "correctAnswer": "hat sich für",
+      "explanation": "sich interessieren für + Akkusativ (to be interested in). Perfekt: 'hat sich für Kunst interessiert.' The reflexive pronoun 'sich' comes before the preposition 'für' in this construction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_06_q084",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ sich immer um seine Familie ________.",
+      "options": [
+        "kümmert / daran",
+        "kümmert / darum",
+        "kümmert sich / darum",
+        "kümmert / darüber"
+      ],
+      "correctAnswer": "kümmert sich / darum",
+      "explanation": "sich kümmern um + Akkusativ (to take care of). 'sich kümmern um' → pronominal adverb 'darum'. The sentence means: He always takes care of his family.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_06_q085",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du solltest dich nicht so ________.",
+      "options": [
+        "aufregen",
+        "aufregen darüber",
+        "darüber aufregen",
+        "aufregen darum"
+      ],
+      "correctAnswer": "aufregen",
+      "explanation": "sich aufregen über + Akkusativ (to get excited/upset about). The verb 'sich aufregen' is reflexive. In the Perfekt form: 'sich aufgeregt haben.' Here in Präsens: 'Du regst dich auf.'",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q086",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben uns ________, dass wir das Angebot annehmen.",
+      "options": [
+        "entschieden für",
+        "entschieden",
+        "für entschieden",
+        "darüber entschieden"
+      ],
+      "correctAnswer": "entschieden für",
+      "explanation": "sich entscheiden für + Akkusativ (to decide on). Perfekt: 'haben uns für etwas entschieden.' The preposition 'für' is attached to the past participle: 'entschieden für'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q087",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ mich darum, dass alles rechtzeitig fertig wird.",
+      "options": [
+        "kümmere",
+        "kümmere mich",
+        "kümmere darum",
+        "kümmere mich darum"
+      ],
+      "correctAnswer": "kümmere mich darum",
+      "explanation": "sich kümmern um + Akkusativ (to take care of). 'sich kümmern um' requires the reflexive pronoun AND the pronominal adverb 'darum'. The 'dass' clause explains what the caring is about.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q088",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man kann sich auf ihn ________.",
+      "options": [
+        "verlassen",
+        "verlassen auf",
+        "darauf verlassen",
+        "verlassen darum"
+      ],
+      "correctAnswer": "verlassen",
+      "explanation": "sich verlassen auf + Akkusativ (to rely on). The reflexive form requires the preposition 'auf': 'sich auf jemanden verlassen.' In the Perfekt: 'hat sich auf ihn verlassen.'",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q089",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat sich über den Lärm ________.",
+      "options": [
+        "beschwert",
+        "beschwert darüber",
+        "beschwert darum",
+        "darüber beschwert"
+      ],
+      "correctAnswer": "beschwert darüber",
+      "explanation": "sich beschweren über + Akkusativ (to complain about). In Perfekt: 'hat sich darüber beschwert.' The pronominal adverb 'darüber' replaces 'über etwas'. Do NOT say: *hat sich über den Lärm beschwert.*",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q090",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ sich nicht die Haare ________.",
+      "options": [
+        "kämmt / kämmen",
+        "kämmt / sich kämmen",
+        "kämmt sich / kämmen",
+        "kämmt / sich kämmen"
+      ],
+      "correctAnswer": "kämmt sich / kämmen",
+      "explanation": "Reflexive with body part: 'sich (Dativ) die Haare kämmen.' When a body part is present, the reflexive pronoun takes Dativ. Structure: verb + reflexive (Dativ) + body part + Partizip II.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q091",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ uns jeden Freitag.",
+      "options": [
+        "treffen",
+        "treffen uns",
+        "uns treffen",
+        "treffen einander"
+      ],
+      "correctAnswer": "treffen",
+      "explanation": "sich treffen (reciprocal: to meet each other). With 'wir/sie' plural, 'sich treffen' means 'to meet each other.' Perfekt: 'Wir haben uns jeden Freitag getroffen.' This is reciprocal, not a simple reflexive.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_06_q092",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe mich ________, ob ich die Stelle nehmen soll.",
+      "options": [
+        "daran erinnert",
+        "daran erinnert",
+        "erinnert daran",
+        "erinnert"
+      ],
+      "correctAnswer": "daran erinnert",
+      "explanation": "sich erinnern an + Akkusativ (to remember). In Perfekt: 'hat sich daran erinnert.' The pronominal adverb 'daran' (an + was) connects to the 'ob' clause. Alternative: 'Ich erinnere mich daran, ob...'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q093",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ________ sich um eine wichtige Entscheidung.",
+      "options": [
+        "handelt",
+        "handelt sich",
+        "handelt",
+        "geht"
+      ],
+      "correctAnswer": "handelt",
+      "explanation": "Impersonal reflexive: 'Es handelt sich um...' (It's about...). The reflexive construction with 'es' as a formal subject. Other examples: 'Es handelt sich darum, dass...' (It's about the fact that...)",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q094",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ sich mit dem Thema beschäftigt.",
+      "options": [
+        "hat",
+        "hat sich",
+        "hat sich darüber",
+        "hat sich"
+      ],
+      "correctAnswer": "hat sich",
+      "explanation": "sich beschäftigen mit + Dativ (to deal with). Perfekt: 'hat sich mit dem Thema beschäftigt.' The reflexive pronoun 'sich' is Akkusativ, but 'beschäftigen mit' takes Dativ for the object.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q095",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich muss mir ________, wo ich meine Schlüssel gelassen habe.",
+      "options": [
+        "überlegen",
+        "das überlegen",
+        "darüber überlegen",
+        "es überlegen"
+      ],
+      "correctAnswer": "darüber überlegen",
+      "explanation": "sich überlegen (to think about) takes the pronominal adverb 'darüber' in a 'wo' clause. Note: 'sich überlegen' normally takes Dativ when there's an object: 'Ich überlege mir die Antwort.' But here with a clause, 'darüber' is used.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q096",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich ________ an die neue Stadt gewöhnt.",
+      "options": [
+        "daran",
+        "daran gewöhnt",
+        "gewöhnt",
+        "darangewöhnt"
+      ],
+      "correctAnswer": "daran",
+      "explanation": "sich gewöhnen an + Akkusativ (to get used to). The Perfekt form: 'hat sich an etwas gewöhnt.' The pronominal adverb 'daran' (= an + die neue Stadt) can be used to avoid repetition.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q097",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ uns darum ________, pünktlich zu erscheinen.",
+      "options": [
+        "bemühen / darum",
+        "bemühen uns / darum",
+        "bemühen uns / darum",
+        "bemühen / uns darum"
+      ],
+      "correctAnswer": "bemühen uns / darum",
+      "explanation": "sich bemühen um + Akkusativ (to make an effort for). 'Wir bemühen uns darum' = We make an effort to do something. In the Perfekt: 'haben uns darum bemüht, pünktlich zu erscheinen.'",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q098",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ sich ________ von den Gerüchten verunsichern.",
+      "options": [
+        "ließ / nicht",
+        "ließ / nicht",
+        "lässt / nicht",
+        "ließ / nicht"
+      ],
+      "correctAnswer": "lässt / nicht",
+      "explanation": "Lassen + Infinitive (Ersatzinfinitiv): 'sich nicht von etwas verunsichern lassen' (to not let oneself be unsettled by rumors). The reflexive verb is in Akkusativ position here. Note: 'lässt' not 'ließ' for present tense.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q099",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe mir ________, dir zu helfen.",
+      "options": [
+        "vorgenommen",
+        "vorgenommen",
+        "vorgenommen",
+        "das vorgenommen"
+      ],
+      "correctAnswer": "vorgenommen",
+      "explanation": "sich (Dativ) etw. vornehmen (to plan to do something). This is a Dativ reflexive verb set phrase. Perfekt: 'habe mir vorgenommen, dir zu helfen.' The reflexive pronoun is Dativ because there is an accusative object ('dir zu helfen' as a clause acting as the object).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q100",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Worüber ________ du dich ________?",
+      "options": [
+        "ärgerst / geärgert",
+        "ärgerst / geärgert",
+        "ärgerst dich / geärgert",
+        "ärgerst / geärgert"
+      ],
+      "correctAnswer": "ärgerst / geärgert",
+      "explanation": "sich ärgern über + Akkusativ (to be upset/annoyed about). In the Perfekt question: 'Worüber hast du dich geärgert?' The pronominal adverb 'worüber' replaces 'über etwas'. The reflexive pronoun 'dich' stays in Akkusativ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q101",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er sich lange ________ der Entscheidung ________ ________, hat er sich schließlich für das Angebot ________ ________.",
+      "options": [
+        "mit / beschäftigt / entschieden",
+        "über / geärgert / gefreut",
+        "um / gekümmert / beworben",
+        "für / interessiert / vorbereitet"
+      ],
+      "correctAnswer": "mit / beschäftigt / entschieden",
+      "explanation": "sich beschäftigen mit + Dativ (to deal with) + sich entscheiden für + Akkusativ (to decide on). The sequence: after he had dealt with the decision for a long time, he finally decided in favor of the offer. Both are reflexive verbs with different prepositions.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q102",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegen ________ ________ seit Jahren nicht mehr, weil sie sich nach dem Streit ________ ________ ________.",
+      "options": [
+        "sehen sich / nicht mehr vertragen haben",
+        "sich sehen / nicht mehr vertragen haben",
+        "sehen sich / sich nicht mehr vertragen haben",
+        "sich sehen / sich nicht mehr vertragen haben"
+      ],
+      "correctAnswer": "sehen sich / nicht mehr vertragen haben",
+      "explanation": "Reciprocal reflexive: 'sich sehen' (to see each other) + 'sich nicht mehr vertragen' (to no longer get along with each other). The sentence means: The colleagues haven't seen each other for years because they no longer got along after the argument.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q103",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ du dich schon ________ den Vortrag am Freitag ________ ________?",
+      "options": [
+        "Hast / auf / vorbereitet",
+        "Bist / auf / vorbereitet",
+        "Hast / für / vorbereitet",
+        "Bist / für / vorbereitet"
+      ],
+      "correctAnswer": "Hast / auf / vorbereitet",
+      "explanation": "sich vorbereiten auf + Akkusativ (to prepare for). Perfekt with 'haben': 'Hast du dich auf den Vortrag vorbereitet?' The preposition 'auf' goes with 'vorbereiten' when it means preparing FOR something.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q104",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ________ ________ bei diesem Projekt darum, alle Beteiligten frühzeitig ________ ________ ________.",
+      "options": [
+        "handelt sich / zu informieren",
+        "sich handelt / informieren zu",
+        "handelt sich / informieren zu",
+        "sich handelt / zu informieren"
+      ],
+      "correctAnswer": "handelt sich / informieren zu",
+      "explanation": "Impersonal reflexive: 'Es handelt sich darum, etwas zu tun' (It's about doing something). The infinitive with 'zu' clause follows the pronominal adverb 'darum'. Structure: handeln + sich + darum + comma + zu + Infinitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q105",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie kann sich nicht ________ ________ ________, warum er so plötzlich gekündigt ________ ________.",
+      "options": [
+        "sich erklären / hat",
+        "erklären / hat",
+        "sich erklären / hätte",
+        "erklären / hätte"
+      ],
+      "correctAnswer": "erklären / hat",
+      "explanation": "sich erklären (to explain oneself) — the verb 'sich erklären' here means 'to understand/explain to oneself'. The Perfekt form: 'kann sich nicht erklären, warum...hat.' Note: the sentence structure requires the infinitive 'erklären' after 'sich nicht'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q106",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sich die Firma ________ die neuen Sicherheitsvorschriften ________ ________, mussten alle Mitarbeiter geschult ________ ________.",
+      "options": [
+        "auf / eingestellt / werden",
+        "an / gewöhnt / werden",
+        "über / beschwert / worden",
+        "mit / beschäftigt / worden"
+      ],
+      "correctAnswer": "an / gewöhnt / werden",
+      "explanation": "sich gewöhnen an + Akkusativ (to get used to). The passive construction: 'mussten geschult werden' (had to be trained). After the company got used to the new safety regulations, all employees had to be trained.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q107",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ ________ sehr darauf, ________ ihr euch bei uns wohl ________ ________.",
+      "options": [
+        "freuen uns / dass / fühlt",
+        "uns freuen / dass / fühlt",
+        "freuen uns / ob / fühlen werdet",
+        "freuen uns / dass / fühlen werdet"
+      ],
+      "correctAnswer": "freuen uns / dass / fühlen werdet",
+      "explanation": "sich freuen darauf, dass (to be happy that). The Futur I form: 'ihr werdet euch fühlen' (you will feel). The reflexive verb 'sich freuen' takes the pronominal adverb 'darauf' before a 'dass' clause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q108",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie sich schon einmal ________ ________ ________, im Ausland zu arbeiten?",
+      "options": [
+        "Haben / darüber Gedanken gemacht",
+        "Haben / sich Gedanken darüber gemacht",
+        "Sind / Gedanken darüber gemacht",
+        "Haben / Gedanken sich darüber gemacht"
+      ],
+      "correctAnswer": "Haben / sich Gedanken darüber gemacht",
+      "explanation": "sich (Dativ) Gedanken über + Akkusativ machen (to think about something). The set phrase 'Gedanken machen' always takes Dativ reflexive. The pronominal adverb 'darüber' connects to the infinitive clause 'im Ausland zu arbeiten'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q109",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ________ ________ ________ ________, dass er den Termin verschlafen ________ ________.",
+      "options": [
+        "hat sich geärgert / hat",
+        "sich hat geärgert / hat",
+        "hat sich geärgert / hätte",
+        "hat geärgert sich / hat"
+      ],
+      "correctAnswer": "hat sich geärgert / hat",
+      "explanation": "sich ärgern über + Akkusativ (to be annoyed that). Perfekt: 'hat sich geärgert, dass...' The second 'hat' belongs to 'hat verschlafen' (slept in). The sentence means: He was annoyed that he slept in and missed the appointment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q110",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studierenden ________ ________ ________ ________, die Prüfungsergebnisse möglichst bald ________ ________ ________.",
+      "options": [
+        "wünschen sich / zu erfahren",
+        "sich wünschen / erfahren zu",
+        "wünschen sich / erfahren zu",
+        "sich wünschen / zu erfahren"
+      ],
+      "correctAnswer": "wünschen sich / erfahren zu",
+      "explanation": "sich wünschen + Infinitiv mit zu (to wish to do something). The structure: reflexive pronoun + verb + comma + zu + Infinitive. 'Die Studierenden wünschen sich, die Ergebnisse zu erfahren.'",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_06_q111",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie sich ________ dem neuen Team ________ ________, fiel es ihr leichter, sich ________ die Aufgaben ________ ________.",
+      "options": [
+        "mit / angefreundet / in / einzuarbeiten",
+        "an / gewöhnt / an / zu gewöhnen",
+        "über / gefreut / für / zu interessieren",
+        "von / verabschiedet / auf / vorzubereiten"
+      ],
+      "correctAnswer": "mit / angefreundet / in / einzuarbeiten",
+      "explanation": "sich anfreunden mit + Dativ (to become friends with) + sich einarbeiten in + Akkusativ (to get acquainted with duties). The sentence means: After she became friends with the new team, it was easier for her to get acquainted with the tasks.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q112",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man ________ ________ nicht immer ________ ________ ________, dass alles nach Plan ________ ________ ________.",
+      "options": [
+        "kann sich / darauf verlassen / läuft",
+        "kann sich / darauf verlassen / läuft",
+        "sich kann / verlassen darauf / laufen wird",
+        "kann sich / verlassen darauf / läuft"
+      ],
+      "correctAnswer": "kann sich / darauf verlassen / läuft",
+      "explanation": "sich verlassen auf + Akkusativ (to rely on). The pronominal adverb 'darauf' connects to the 'dass' clause. 'Man kann sich nicht immer darauf verlassen, dass alles nach Plan läuft.' (You can't always rely on everything going according to plan.)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q113",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ ihr euch schon ________ ________ ________, welche Universität ihr ________ ________ ________?",
+      "options": [
+        "Habet / dafür entschieden / besuchen wollt",
+        "Habet / entschieden dafür / besuchen wollt",
+        "Seid / dafür entschieden / besuchen wollt",
+        "Habet / dafür entschieden / wollen besuchen"
+      ],
+      "correctAnswer": "Habet / dafür entschieden / besuchen wollt",
+      "explanation": "sich entscheiden für + Akkusativ (to decide on). The pronominal adverb 'dafür' (= für + which university) connects to the infinitive clause. The modal verb 'wollen' stays at the end of the clause: 'besuchen wollt'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q114",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Patient ________ ________ ________ ________, dass er sich nicht ausreichend ________ ________ ________ ________ ________.",
+      "options": [
+        "hat sich beschwert / über die Behandlung informiert worden sei",
+        "sich hat beschwert / über die Behandlung informiert worden sei",
+        "hat sich beschwert / sich über die Behandlung informiert worden sei",
+        "hat beschwert sich / über die Behandlung informiert worden sei"
+      ],
+      "correctAnswer": "hat sich beschwert / über die Behandlung informiert worden sei",
+      "explanation": "sich beschweren über + Akkusativ (to complain about). Konjunktiv I Passiv: 'informiert worden sei' (has been informed). The sentence means: The patient complained that he had not been adequately informed about the treatment.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q115",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wenn man sich ________ einer solchen Situation ________ ________, sollte man sich unbedingt ________ Fachleute ________ ________.",
+      "options": [
+        "in / befindet / an / wenden",
+        "in / befindet / an / sich wenden",
+        "in / befindet / sich an / wenden",
+        "in / sich befindet / an / wenden"
+      ],
+      "correctAnswer": "in / befindet / an / wenden",
+      "explanation": "sich befinden in + Dativ (to be in a situation) + sich wenden an + Akkusativ (to turn to). The sentence means: If one finds oneself in such a situation, one should definitely turn to specialists.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q116",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ ________ ________ ________, dass sie sich in der fremden Stadt nicht ________ ________ ________ ________.",
+      "options": [
+        "hat sich gefürchtet / zurechtfinden würde",
+        "sich hat gefürchtet / zurechtfinden würde",
+        "hat gefürchtet sich / sich zurechtfinden würde",
+        "hat sich gefürchtet / sich zurechtfinden würde"
+      ],
+      "correctAnswer": "hat sich gefürchtet / sich zurechtfinden würde",
+      "explanation": "sich fürchten vor + Dativ (to be afraid of). The Konjunktiv II form: 'würde' expresses a hypothetical. 'Sie hat sich gefürchtet, dass sie sich in der fremden Stadt nicht zurechtfinden würde.' (She was afraid she wouldn't find her way around in the foreign city.)",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q117",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ man sich ________ ________ ________, andere Kulturen ________ ________ ________, erweitert das den eigenen Horizont.",
+      "options": [
+        "Wenn / darauf einlässt / kennenzulernen",
+        "Wenn / sich darauf einlässt / kennenzulernen",
+        "Wenn / darauf einlässt / zu kennenlernen",
+        "Wenn / sich darauf einlässt / zu kennenlernen"
+      ],
+      "correctAnswer": "Wenn / sich darauf einlässt / kennenzulernen",
+      "explanation": "sich einlassen auf + Akkusativ (to engage with/to delve into). The infinitive construction 'kennenzulernen' (zu + infinitive) follows naturally. The sentence means: If one engages with getting to know other cultures, that broadens one's own horizon.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q118",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Bewerber ________ ________ ________ ________, die erforderlichen Unterlagen bis spätestens Freitag ________ ________ ________.",
+      "options": [
+        "haben sich verpflichtet / einzureichen",
+        "sich haben verpflichtet / einzureichen",
+        "haben verpflichtet sich / einzureichen",
+        "haben sich verpflichtet / zu einreichen"
+      ],
+      "correctAnswer": "haben sich verpflichtet / einzureichen",
+      "explanation": "sich verpflichten + Infinitiv mit zu (to commit to doing something). The structure: 'haben sich verpflichtet, etwas zu tun.' The infinitive 'einreichem' replaces the past participle in this Ersatzinfinitiv construction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q119",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ________ ________ ________ ________, dass sich die Lage in den nächsten Wochen ________ ________ ________ ________.",
+      "options": [
+        "ist damit zu rechnen / noch verschlechtern wird",
+        "ist zu rechnen damit / noch verschlechtern wird",
+        "ist damit zu rechnen / sich noch verschlechtern wird",
+        "ist zu rechnen / dass sich noch verschlechtern wird"
+      ],
+      "correctAnswer": "ist damit zu rechnen / sich noch verschlechtern wird",
+      "explanation": "Es ist damit zu rechnen, dass (It is to be expected that). The reflexive form 'verschlechtern' (to worsen) is used with 'sich': 'die Lage wird sich verschlechtern.' The impersonal construction requires 'damit' as pronominal adverb.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_06_q120",
+      "subjectId": "a2_06",
+      "topicId": "a2_06",
+      "topicName": "Reflexive Verben",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir uns ________ ________ ________, ________ wir uns ________ ________ ________, das Projekt gemeinsam ________ ________ ________.",
+      "options": [
+        "kennengelernt haben / haben / entschieden / dafür / umzusetzen",
+        "haben kennengelernt / haben / entschieden / dafür / umzusetzen",
+        "kennengelernt haben / haben / uns entschieden / dafür / umzusetzen",
+        "kennengelernt haben / haben / entschieden / uns dafür / umzusetzen"
+      ],
+      "correctAnswer": "kennengelernt haben / haben / entschieden / dafür / umzusetzen",
+      "explanation": "sich kennenlernen (to get to know each other) + sich entscheiden für (to decide on). The double-reflexive sentence: after we got to know each other, we decided to implement the project together. 'Umzusetzen' is the infinitive of 'umsetzen' (to implement).",
+      "difficulty": "hard"
     }
   ],
-  "totalQuestions": 100
+  "description": "Reflexive verbs require a reflexive pronoun (mich, dich, sich, uns, euch, sich) that refers back to the subject. They are used when the subject performs an action on itself. The accusative case is used when the reflexive pronoun is the direct object (sich freuen, sich ärgern, sich waschen); the dative case is used when it is the indirect object (sich etwas ansehen — to look at something for oneself). Common reflexive verb + preposition combinations: sich freuen über (+A), sich erinnern an (+A), sich beschäftigen mit (+D), sich freuen auf (+A), sich konzentrieren auf (+A), sich verlieben in (+A).",
+  "tips": [
+    "Reflexive pronouns: mich (me), dich (you), sich (himself/herself/yourself), uns (us), euch (you pl), sich (themselves).",
+    "Accusative reflexive: 'Ich wasche mich.' (I wash myself.) — the reflexive pronoun is the direct object.",
+    "Dative reflexive: 'Ich kaufe mir ein Buch.' (I buy myself a book.) — the reflexive pronoun is the indirect object.",
+    "Prepositional reflexives always use the preposition + a case determined by that preposition: sich freuen über (+A), sich beschäftigen mit (+D).",
+    "Common reflexive verbs: sich waschen, sich anziehen, sich erholen, sich ärgern, sich freuen, sich entschuldigen, sich stretchen.",
+    "Some verbs are only reflexive in German but not in English: sich erinnern (to remember), sich ausruhen (to rest), sich beschäftigen (to occupy oneself).",
+    "In Imperativ: Wasch dich! (du), Wascht euch! (ihr), Waschen Sie sich! (Sie)."
+  ]
 }

@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_03",
-  "topicName": "Akkusativ",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "3. Präsens (Gegenwart)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_03_q001",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die richtige Form? \"Er ___ jeden Morgen früh auf.\"",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "stehen",
+        "stehe",
+        "steht",
+        "stehst"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "steht",
+      "explanation": "aufstehen (Konjugation: er steigt auf → steht auf)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q002",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt? \"Ihr ___ sehr gut Deutsch.\"",
       "options": [
-        "sprecht",
-        "spreche",
         "spricht",
-        "sprechen"
+        "sprecht",
+        "sprechen",
+        "sprechst"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sprecht",
+      "explanation": "sprechen (Konjugation: ihr sprecht)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q003",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "\"Das Baby ___ die ganze Nacht.\" – Welches Verb passt? (schlafen)",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "schlafen",
+        "schläft",
+        "schläfst",
+        "schlaft"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "schläft",
+      "explanation": "schlafen (Ablaut: er schläft)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q004",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz steht im Präsens und ist grammatisch richtig?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "Er geht gestern ins Kino.",
+        "Wir trinkt Kaffee.",
+        "Sie lernt fleißig.",
+        "Du kommen spät."
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "Sie lernt fleißig.",
+      "explanation": "sie (3. Person Singular) → lernt",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q005",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ gerne Musik.\" – Ergänzen Sie das Verb \"hören\".",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "hörst",
+        "hört",
+        "höre",
+        "hören"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "höre",
+      "explanation": "hören (Konjugation: ich höre)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q006",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Welche Form von \"fahren\" ist korrekt? \"Du ___ zu schnell.\"",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "fährst",
+        "fahrest",
+        "fahrenst",
+        "fährt"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "fährst",
+      "explanation": "fahren (Ablaut: du fährst)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q007",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "Wir spielen Fußball.",
+        "Sie tanzt gern.",
+        "Er arbeitet heute.",
+        "Ich lesen ein Buch."
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "Ich lesen ein Buch.",
+      "explanation": "Richtig: Ich lese ein Buch (lesen → ich lese)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q008",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ auf dem Spielplatz.\" – Was passt? (spielen)",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "spielst",
+        "spielen",
+        "spielet",
+        "spielt"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "spielen",
+      "explanation": "Die Kinder (Plural) → spielen",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q009",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "Wie konjugiert man \"essen\" für \"er\"?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "esst",
+        "isst",
+        "esset",
+        "essen"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "isst",
+      "explanation": "essen (Ablaut: er isst)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q010",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ morgen ins Museum.\" – Welches Verb fehlt? (gehen)",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "geht",
+        "gehst",
+        "gehen",
+        "gehet"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
+      "correctAnswer": "gehen",
+      "explanation": "wir → gehen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q011",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ jedes Jahr im August.\" (urlauben)",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "urlaube",
+        "urlaubst",
+        "urlaubt",
+        "urlauben"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "urlaube",
+      "explanation": "urlauben (regelmäßig): ich urlaube",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q012",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ das nicht verstehen.\" – Welche Form von \"wissen\" ist korrekt?",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "weißt",
+        "weisst",
+        "wissen",
+        "wusste"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "weißt",
+      "explanation": "wissen: du weißt (Vokalwechsel ä→iß)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q013",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ sein Bestes, um die Prüfung zu bestehen.\" (geben)",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "gib",
+        "gibt",
+        "geben",
+        "gibst"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "gibt",
+      "explanation": "geben: er gibt (Vokalwechsel e→i)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q014",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "Ich nehme ein Taxi.",
+        "Du liest ein Buch.",
+        "Er schreibt eine E-Mail.",
+        "Sie antwortet auf die Frage."
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Du liest ein Buch.",
+      "explanation": "Richtig: Du liest ein Buch (lesen → du liest); Satz ist korrekt, FALSCH war die Aufgabe",
+      "difficulty": "hard",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q015",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ uns jeden Tag.\" (treffen)",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "treffen uns",
+        "trefft uns",
+        "treffen euch",
+        "treffen uns"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "treffen uns",
+      "explanation": "wir treffen uns (reflexiv: uns)",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q016",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Sonne ___ jetzt.\" – Welches Verb passt? (scheinen)",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "scheint",
+        "scheinst",
+        "scheinen",
+        "schein"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
+      "correctAnswer": "scheint",
+      "explanation": "scheinen: die Sonne scheint",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q017",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ um 7 Uhr auf.\" (aufstehen, 3.Pers Sg)",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "stehen auf",
+        "stehe auf",
+        "steht auf",
+        "stehst auf"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "steht auf",
+      "explanation": "aufstehen: sie steht auf (trennbar)",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q018",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjugation ist korrekt? \"Ich ___ ins Bett.\" (gehen)",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "gehe",
+        "gehs",
+        "gehst",
+        "geht"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "gehe",
+      "explanation": "gehen: ich gehe",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q019",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Der Chef ___ viel Arbeit.\" (haben)",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "haben",
+        "hat",
+        "hast",
+        "habt"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "hat",
+      "explanation": "haben: der Chef hat (3. Pers Sg)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q020",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ draußen.\" (spielen)",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "spielen",
+        "spielt",
+        "spielst",
+        "spielet"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "spielen",
+      "explanation": "spielen: die Kinder (Plural) → spielen",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q021",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ jeden Morgen um 7 Uhr auf.\"",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "stehe",
+        "stehst",
+        "steht",
+        "stehen"
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "stehe",
+      "explanation": "aufstehen: ich stehe auf",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q022",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ heißeße ich Anna.",
+      "type": "multiple_choice",
+      "questionText": "\"___ du gern Kaffee?\" – Konjugieren Sie \"trinken\".",
       "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
+        "Trinkst",
+        "Trinkt",
+        "Trinke",
+        "Trinken"
       ],
-      "correctAnswer": "Ich",
-      "explanation": "",
+      "correctAnswer": "Trinkst",
+      "explanation": "trinken → du trinkst",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q023",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Wir ___ in Berlin.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Sonne ___ am Morgen.\" – Welches Verb?",
       "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
+        "scheint",
+        "scheinst",
+        "scheint",
+        "scheinen"
       ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "scheint",
+      "explanation": "scheinen → die Sonne scheint",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q024",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ___ ein Haus.",
+      "type": "multiple_choice",
+      "questionText": "\"Meine Mutter ___ in einem Krankenhaus.\"",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "arbeitet",
+        "arbeitest",
+        "arbeite",
+        "arbeiten"
       ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "arbeitet",
+      "explanation": "arbeiten → sie arbeitet",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q025",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich ___ eine Frage.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ am Abend fern.\" – Was fehlt?",
       "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
+        "sehe",
+        "siehst",
+        "sehen",
+        "seht"
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "correctAnswer": "sehen",
+      "explanation": "fernsehen → wir sehen fern",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q026",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Du ___ sehr nett.",
+      "type": "multiple_choice",
+      "questionText": "\"Ihr ___ gut Deutsch.\" – Konjugieren Sie \"sprechen\".",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "spreche",
+        "sprichst",
+        "sprecht",
+        "spricht"
       ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sprecht",
+      "explanation": "sprechen → ihr sprecht",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q027",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ das Buch.",
+      "type": "multiple_choice",
+      "questionText": "\"Der Zug ___ um 10 Uhr ab.\" – Welche Form?",
       "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
+        "fährt",
+        "fährst",
+        "fahren",
+        "fahre"
       ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "fährt",
+      "explanation": "fahren → der Zug fährt ab",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q028",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ ist das?",
+      "type": "multiple_choice",
+      "questionText": "\"Was ___ du beruflich?\" – Konjugieren Sie \"machen\".",
       "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
+        "mache",
+        "machst",
+        "macht",
+        "machen"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
+      "correctAnswer": "machst",
+      "explanation": "machen → du machst",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q029",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"Mein Freund ___ Musik.\" – Konjugieren Sie \"hören\".",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "höre",
+        "hörst",
+        "hört",
+        "hören"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hört",
+      "explanation": "hören → er hört",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q030",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist im Präsens FALSCH?",
       "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
+        "Ich gehe zur Schule.",
+        "Er läuft schnell.",
+        "Sie haben viel Zeit.",
+        "Wir machten einen Fehler."
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wir machten einen Fehler.",
+      "explanation": "machten = Präteritum, nicht Präsens",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)",
+      "subjectId": "a1_03"
     },
     {
       "id": "a1_03_q031",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Er ___ jeden Morgen Kaffee.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "trinken",
+        "trinkt",
+        "trinkst",
+        "getrunken"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "trinkt",
+      "explanation": "trinkt ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q032",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Wir ___ oft ins Kino.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "gehen",
+        "geht",
+        "gehst",
+        "ging"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "gehen",
+      "explanation": "gehen ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q033",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Meine Schwester ___ sehr schnell.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "laufen",
+        "läuft",
+        "lauft",
+        "gelaufen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "läuft",
+      "explanation": "läuft ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q034",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Ich ___ Deutsch seit zwei Jahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "lerne",
+        "lernt",
+        "gelernt",
+        "lernen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "lerne",
+      "explanation": "lerne ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q035",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Was ___ du am Wochenende?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "machen",
+        "macht",
+        "machst",
+        "gemacht"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "machst",
+      "explanation": "machst ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q036",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Der Zug ___ um 8 Uhr ab.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "fahren",
+        "fährt",
+        "fahrst",
+        "fuhr"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "fährt",
+      "explanation": "fährt ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q037",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Wir ___ heute Pizza.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "essen",
+        "esst",
+        "isst",
+        "esse"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "essen",
+      "explanation": "essen ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q038",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Mein Freund ___ in München.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wohnen",
+        "wohnt",
+        "wohnst",
+        "gewohnt"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wohnt",
+      "explanation": "wohnt ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q039",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Warum ___ ihr so laut?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sprechen",
+        "sprecht",
+        "sprichst",
+        "sprach"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sprecht",
+      "explanation": "sprecht ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q040",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ___ im Park.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "spielen",
+        "spielt",
+        "spielst",
+        "gespielt"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "spielen",
+      "explanation": "spielen ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q041",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q042",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q043",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q044",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q045",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q046",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q047",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q048",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q049",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_03_q050",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q051",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Normalerweise _____ ich um 7 Uhr auf, aber heute _____ ich erst um 8, weil ich krank bin.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "stehe / stehe",
+        "stehe / stehe auf",
+        "stehe auf / stehe auf",
+        "aufstehe / aufstehe"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "stehe auf / stehe auf",
+      "explanation": "aufstehen: ich stehe auf (trennbares Verb). Beide Male gleich: stehe auf.",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q052",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Der Zug nach Berlin _____ um 10:15 von Gleis 7.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "fahrt",
+        "fährt",
+        "fahrtt",
+        "fahrt ab"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "fährt",
+      "explanation": "fahren → der Zug fährt (3. Person Singular mit Umlaut).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q053",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ immer so laut, dass die Nachbarn sich beschweren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sprecht",
+        "spricht",
+        "spreche",
+        "sprecht"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "spricht",
+      "explanation": "sprechen → er spricht (3. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q054",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Warum _____ du ständig an die Vergangenheit? Das _____ keinen Sinn.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "denkst / macht",
+        "denkst / ergibt",
+        "denkst nach / hat",
+        "überlegst / gibt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "denkst / ergibt",
+      "explanation": "denken → du denkst; ergeben = machen keinen Sinn.",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q055",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Frau Schmidt, _____ Sie heute Nachmittag zwischen 14 und 15 Uhr Zeit für ein kurzes Gespräch?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "habt",
+        "hast",
+        "hat"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "haben",
+      "explanation": "haben → Sie haben (formelle Anrede, 3. Person Plural Konjugation).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q056",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Jedes Jahr _____ wir eine Spendenaktion für das örtliche Tierheim.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "organisiert",
+        "organisiere",
+        "organisieren",
+        "organisiert ihr"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "organisieren",
+      "explanation": "organisieren → wir organisieren (1. Person Plural).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q057",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind _____ nicht allein die Treppe hinunter, weil es noch zu klein ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "traut sich",
+        "traut",
+        "getraut sich",
+        "sich traut"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "traut sich",
+      "explanation": "sich trauen (reflexiv): das Kind traut sich nicht (traut sich nicht).",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q058",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Meine Kollegin _____ Kaffee eigentlich schwarz, aber heute _____ sie Milch und Zucker.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "trinkt / nimmt",
+        "trinkt / nimmt zu sich",
+        "trinken / nehmen",
+        "trinkst / nimmst"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "trinkt / nimmt",
+      "explanation": "trinkt (3. Person) + nimmt (3. Person).",
+      "difficulty": "medium",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q059",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ jeden Abend bis 22 Uhr im Fitnessstudio, oder?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seid trainieren",
+        "trainiert",
+        "trainieren",
+        "seid"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "trainiert",
+      "explanation": "trainieren → ihr trainiert (2. Person Plural).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q060",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Die Sonne _____ im Osten auf und im Westen unter – das ist ein Naturgesetz.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "gesteht",
+        "steht",
+        "geht",
+        "läuft"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "geht",
+      "explanation": "aufgehen = aufgehen (Die Sonne geht auf / unter).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q061",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Buch.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ jeden Morgen um 6 Uhr auf, auch am Wochenende.",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "steht",
+        "stand",
+        "gestanden",
+        "stehen"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "steht",
+      "explanation": "aufstehen → er steht auf (trennbares Verb, 3. Person Singular).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q062",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ sehr gut Klavier, obwohl sie nie Unterricht hatte.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "spielt",
+        "spielst",
+        "spielen",
+        "spielte"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "spielt",
+      "explanation": "spielen → sie spielt (3. Person Singular mit Umlaut bei spielen → spielt).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q063",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Wenn es regnet, _____ ich meistens zu Hause und lese.",
       "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
+        "bleibe",
+        "bleibst",
+        "bleibt",
+        "geblieben"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "bleibe",
+      "explanation": "bleiben → ich bleibe (1. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q064",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Der Zug _____ normalerweise pünktlich, aber heute hat er Verspätung.",
       "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
+        "kommt",
+        "kam",
+        "gekommen",
+        "kommen"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "kommt",
+      "explanation": "kommen → der Zug kommt (3. Person Singular).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q065",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ dich nicht, wenn du so leise sprichst.",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "verstehe",
+        "verstehst",
+        "versteht",
+        "verstand"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "verstehe",
+      "explanation": "verstehen → ich verstehe (1. Person Singular, kein Umlaut).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q066",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Meine Schwester _____ Medizin an der Universität.",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "studiert",
+        "studierst",
+        "studiere",
+        "studierte"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "studiert",
+      "explanation": "studieren → sie studiert (3. Person Singular, kein Umlaut).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q067",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ uns jeden Freitag zum Abendessen.",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "treffen",
+        "trifft",
+        "traf",
+        "getroffen"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "treffen",
+      "explanation": "treffen → wir treffen (1. Person Plural, Umlaut: trifft → treffen).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q068",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ immer die Wahrheit, auch wenn es schwierig ist.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "sagt",
+        "sagst",
+        "sagte",
+        "gesagt"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sagt",
+      "explanation": "sagen → er sagt (3. Person Singular).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q069",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "_____ du weißt, dass morgen ein wichtiger Termin ist?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "Weißt",
+        "Weißen",
+        "Weiß",
+        "Gewusst"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Weißt",
+      "explanation": "wissen → du weißt (2. Person Singular, Umlaut).",
+      "difficulty": "easy",
+      "topicName": "Präsens (Gegenwart)"
     },
     {
       "id": "a1_03_q070",
       "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _____ gerne im Park, wenn das Wetter schön ist.",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "spielen",
+        "spielt",
+        "spielte",
+        "gespielt"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
+      "correctAnswer": "spielen",
+      "explanation": "spielen → die Kinder spielen (3. Person Plural, kein Umlaut).",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q071",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q072",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q073",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q074",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q075",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q076",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Du ___ das nicht.",
-      "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
-      ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q077",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q078",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q079",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q080",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q081",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q082",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q083",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q084",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q085",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q086",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q087",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q088",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q089",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q090",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q091",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q092",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q093",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q094",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q095",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q096",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q097",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q098",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q099",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_03_q100",
-      "subjectId": "a1_03",
-      "topicName": "Akkusativ",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präsens (Gegenwart)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

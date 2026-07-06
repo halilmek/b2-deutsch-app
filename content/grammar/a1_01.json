@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_01",
-  "topicName": "Artikel: der, die, das",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "1. Verben konjugieren (sein, haben, werden)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_01_q001",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist korrekt? \"Das Kind ___ sehr müde nach dem langen Tag.\"",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "haben",
+        "ist",
+        "wird",
+        "sind"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "sein-Konjugation: Das Kind (3. Person Singular) → ist",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q002",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Was passt in die Lücke? \"Wir ___ nächstes Jahr Lehrer.\"",
       "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
+        "werden",
+        "sind",
+        "haben",
+        "wird"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "werden",
+      "explanation": "werden (werden → wir werden): Zukunft/Ausbildung",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q003",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ist grammatisch richtig?",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "Er haben keine Zeit.",
+        "Ihr seid sehr freundlich.",
+        "Sie ist ein gute Idee.",
+        "Wir wird fertig."
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Ihr seid sehr freundlich.",
+      "explanation": "ihr → seid; korrekte Konjugation von sein",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q004",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"___ du schon Erfahrung mit diesem Job?\" – Was ist korrekt?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "Bist",
+        "Wirst",
+        "Hast",
+        "Sein"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "Hast",
+      "explanation": "haben (haben → du hast): Erfahrung haben",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q005",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Wählen Sie die richtige Form: \"Die Schüler ___ sehr aufgeregt vor der Prüfung.\"",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "ist",
+        "hat",
+        "sind",
+        "war"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sind",
+      "explanation": "Die Schüler (Plural) → sind; aufgeregt sein",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q006",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ Arzt, wenn er die Prüfung besteht.\" – Welches Verb fehlt?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "hat",
+        "ist",
+        "war",
+        "wird"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wird",
+      "explanation": "werden: Er wird Arzt (Zukunft/Bedingung)",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q007",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "Ich bin Student.",
+        "Du hast Recht.",
+        "Sie wird glücklich.",
+        "Wir haben hungrig."
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Wir haben hungrig.",
+      "explanation": "Man sagt: Wir sind hungrig (nicht: haben hungrig)",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q008",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ keine Ahnung, wo er ist.\" – Welche Form ist richtig?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "bin",
+        "werde",
+        "habe",
+        "sei"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "habe",
+      "explanation": "haben (haben → ich habe): keine Ahnung haben",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q009",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "\"___ ihr morgen in der Schule?\" – Ergänzen Sie das Verb.",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "Haben",
+        "Werden",
+        "Seid",
+        "Seiet"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Seid",
+      "explanation": "sein (sein → ihr seid): ihr in der Schule seid",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q010",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Wetter ___ heute sehr schön.\" – Welche Form passt?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "haben",
+        "ist",
+        "sind",
+        "werden"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "sein (Das Wetter ist): Singular Subjekt → ist",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q011",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Studenten ___ müde nach der Prüfung.\" – Was fehlt?",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "haben",
+        "sind",
+        "ist",
+        "wird"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sind",
+      "explanation": "Die Studenten (Plural) → sind; müde sein",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q012",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "Welche Konjugation ist falsch? \"Er ___ kein Geld.\"",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "hat",
+        "hätte",
+        "haben",
+        "hatte"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "haben",
+      "explanation": "Er (3.Pers Sg) → hat; haben ist nur für wir/sie/ihr",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q013",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"___ du glücklich?\" – Welches Verb passt?",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "Hast",
+        "Bist",
+        "Wirst",
+        "Sei"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "Bist",
+      "explanation": "Glücklich sein → du bist glücklich (sein)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q014",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ nächstes Jahr nach Berlin ziehen.\" (Plan)",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "werden",
+        "sind",
+        "haben",
+        "wird"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "werden",
+      "explanation": "werden: Zukunftsplan / Vorhersage",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q015",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist korrekt?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "Ich habe Hunger.",
+        "Ich bin Hunger.",
+        "Ich werde Hunger.",
+        "Ich habe hungrig."
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Ich habe Hunger.",
+      "explanation": "Hunger haben (nicht: hunger sein)",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q016",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Katze ___ auf dem Sofa.\" – Was fehlt?",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "haben",
+        "sind",
+        "ist",
+        "wird"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "Die Katze (Sg) → ist; auf dem Sofa (Ort)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q017",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ krank, als ich gestern Eis gegessen habe.\"",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "bin",
+        "war",
+        "habe",
+        "werde"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "war",
+      "explanation": "Präteritum von sein: ich war (gestern)",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q018",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "\"Ihr ___ immer so laut!\" – Was ist die richtige Form von \"sein\"?",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "seid",
+        "seist",
+        "seiet",
+        "seid ihr"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "seid",
+      "explanation": "ihr → seid (Konjugation von sein)",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q019",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ Arzt, aber er ___ jetzt arbeitslos.\" – Welche Verben passen?",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "ist / ist",
+        "war / ist",
+        "ist / war",
+        "wird / hat"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / ist",
+      "explanation": "Zwei Zustände: ist Arzt + ist arbeitslos",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q020",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ Ausländerin und ___ jetzt Deutsch.\" – Was fehlt?",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "ist / lernt",
+        "war / lernt",
+        "ist / lernte",
+        "sei / lernt"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
+      "correctAnswer": "ist / lernt",
+      "explanation": "ist (Zustand) + lernt (laufende Handlung)",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q021",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Mein Bruder ___ jetzt in München studieren.\" – Welche Form von \"werden\" ist korrekt?",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "wird",
+        "wirds",
+        "werdet",
+        "worden"
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wird",
+      "explanation": "werden (werden → er wird): 3. Person Singular",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q022",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ heißeße ich Anna.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ Hunger.\" – Welches Verb passt?",
       "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
+        "sind",
+        "haben",
+        "werden",
+        "seid"
       ],
-      "correctAnswer": "Ich",
-      "explanation": "",
+      "correctAnswer": "haben",
+      "explanation": "haben (haben → die Kinder haben): Hunger haben",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q023",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Wir ___ in Berlin.",
+      "type": "multiple_choice",
+      "questionText": "\"___ wir nicht zu spät zur Party kommen?\" – Ergänzen Sie das richtige Verb.",
       "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
+        "Sind",
+        "Haben",
+        "Werden",
+        "Sein"
       ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Werden",
+      "explanation": "werden (werden → werden wir): Sorge/Befürchtung",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q024",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ___ ein Haus.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch FALSCH?",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "Ihr seid in der Schule.",
+        "Er hat viel Geduld.",
+        "Sie werden ein Arzt.",
+        "Wir ist müde."
       ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wir ist müde.",
+      "explanation": "wir → sind, nicht ist ( Plural!)",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q025",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich ___ eine Frage.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ krank, deshalb gehe ich nicht zur Arbeit.\" – Was fehlt?",
       "options": [
         "haben",
-        "habt",
-        "hat",
-        "habe"
+        "bin",
+        "wird",
+        "bist"
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "correctAnswer": "bin",
+      "explanation": "sein (sein → ich bin): 1. Person Singular",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q026",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Du ___ sehr nett.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Bücher ___ auf dem Tisch.\" – Konjugieren Sie \"sein\".",
       "options": [
-        "bin",
-        "bist",
         "ist",
-        "sind"
+        "sind",
+        "seid",
+        "sindet"
       ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sind",
+      "explanation": "sein (sein → die Bücher sind): Plural",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q027",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ das Buch.",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ Recht, das war eine gute Idee.\" – Welche Form ist korrekt?",
       "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
+        "haben",
+        "hast",
+        "hattest",
+        "hat"
       ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hast",
+      "explanation": "haben (haben → du hast): Recht haben",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q028",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ ist das?",
+      "type": "multiple_choice",
+      "questionText": "\"Was ___ mit dir los? Du siehst so traurig aus.\"",
       "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
+        "ist",
+        "hast",
+        "bist",
+        "seid"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "sein (sein → was ist): Was ist los?",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q029",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Schüler ___ am Montag eine Prüfung.\" – Ergänzen Sie das Verb.",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "haben eine",
+        "habt eine",
+        "hat eine",
+        "haben ein"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "haben eine",
+      "explanation": "haben (haben → die Schüler haben): 3. Person Plural",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q030",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "\"Nina ___很漂亮, aber sie ___ nicht gut Deutsch.\" – Welche Verben passen?",
       "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
+        "ist / spricht",
+        "hat / spricht",
+        "wird / spricht",
+        "bin / sprecht"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / spricht",
+      "explanation": "sein für Zustand + sprechen für Sprache",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q031",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "questionText": "Ich ___ gestern sehr müde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "war",
+        "habe",
+        "werde"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "war",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "war ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q032",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "questionText": "Wir ___ morgen nach Berlin fahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "werden",
+        "waren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "werden",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "werden ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q033",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "questionText": "___ du heute Zeit?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Hast",
+        "Bist",
+        "Wirst",
+        "Habt"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Hast",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "Hast ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q034",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "questionText": "Meine Eltern ___ früher in Köln.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "waren",
+        "werden",
+        "sind"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "waren",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "waren ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q035",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "questionText": "Er ___ Arzt werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "wird",
+        "ist",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wird",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "wird ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q036",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "questionText": "Ich ___ keine Geschwister.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "werde",
+        "habe",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "habe",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "habe ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q037",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "questionText": "Warum ___ ihr so spät?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seid",
+        "habt",
+        "werdet",
+        "waren"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "seid",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "seid ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q038",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "questionText": "Nächste Woche ___ das Wetter besser.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wird",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "wird ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q039",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "questionText": "Früher ___ ich sehr schüchtern.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe",
+        "bin",
+        "war",
+        "werde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "war",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "war ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q040",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "questionText": "___ ihr morgen zu Hause sein?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Habet",
+        "Seid",
+        "Werdet",
+        "Wart"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "Werdet",
+      "subjectId": "a1_01",
+      "type": "multiple_choice",
+      "explanation": "Werdet ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q041",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich letztes Jahr mehr Zeit gehabt _____, _____ ich öfter verreist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hätte / wäre",
+        "hatte / wäre",
+        "hätte / würde",
+        "hatte / wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hätte / würde",
+      "explanation": "Irrealer Satz (Konjunktiv II): hätte + würde — wenn ich mehr Zeit gehabt hätte, würde ich öfter verreisen.",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q042",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
+      "type": "multiple_choice",
+      "questionText": "Die Firma _____ in den letzten zehn Jahren stark gewachsen, aber früher _____ sie kleiner.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist / war",
+        "hat / ist gewesen",
+        "wurde / ist",
+        "hat / war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ist / war",
+      "explanation": "ist gewachsen (Perfekt mit sein für Wachstum) + war (Präteritum für früher).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q043",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
+      "type": "multiple_choice",
+      "questionText": "Was _____ du eigentlich von Beruf? – Früher _____ ich Koch, jetzt _____ ich Rentner.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wirst / war / bin",
+        "bist / war / bin",
+        "bist / wurde / werde",
+        "wirst / bin / war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "bist / war / bin",
+      "explanation": "bist (Präsens) / war (Präteritum) / bin (Präsens) — klarer Zeitbezug.",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q044",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich morgen krank _____, _____ ich nicht an der Konferenz teilnehmen können.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin / werde",
+        "sein werde / kann",
+        "bin / kann",
+        "sein würde / werde"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "bin / werde",
+      "explanation": "Bedingungssatz (Konjunktiv II): wenn ich morgen krank bin, werde ich nicht teilnehmen können.",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q045",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ gestern nicht im Büro, wo _____ ihr?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seid / wart",
+        "wart / seid",
+        "seid / waret",
+        "wart / wart"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wart / seid",
+      "explanation": "wart (Präteritum von sein) + seid (Präsens von sein) — zwei verschiedene Zeiten.",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q046",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
+      "type": "multiple_choice",
+      "questionText": "Meine Schwester _____ gerade Ärztin; vorher _____ sie Apothekerin.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wird / war",
+        "ist / ist gewesen",
+        "wird / ist",
+        "ist / war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "wird / war",
+      "explanation": "wird (werden → wird Ärztin gerade) + war (Präteritum von sein für vorher).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q047",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
+      "type": "multiple_choice",
+      "questionText": "Die Straßen _____ heute Morgen sehr glatt, weil es über Nacht geschneit _____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "waren / ist",
+        "sind / hat",
+        "waren / hatte",
+        "sind / war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "waren / ist",
+      "explanation": "waren (Präteritum für Vergangenheit) + ist (Perfekt mit sein für schneien).",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q048",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Was _____ aus deinem Bruder? – Er _____ Ingenieur und _____ bald nach Kanada ziehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wurde / ist / wird",
+        "ist / ist / möchte",
+        "wird / ist / wird",
+        "wird / wird / ist"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wird / ist / wird",
+      "explanation": "wird (Präsens von werden) + ist (Zustand) + wird (Zukunft).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q049",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
+      "type": "multiple_choice",
+      "questionText": "Wenn du früher aufgestanden _____, _____ du den Zug nicht verpasst.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wärst / hättest",
+        "bist / hast",
+        "wärest / würdest",
+        "warst / hättest"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wärst / hättest",
+      "explanation": "Irrealer Satz (Konjunktiv II): wärst (wenn du aufgestanden wärst) + hättest (hättest den Zug nicht verpasst).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q050",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ drei verschiedene Optionen _____; am Ende _____ wir uns für die zweite.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben / gehabt / haben",
+        "sind / gewesen / sind",
+        "haben / gehabt / sind",
+        "sind / geworden / haben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "haben / gehabt / haben",
+      "explanation": "haben (Präsens) + gehabt (Partizip II von haben) + haben (Präsens).",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q051",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit _____, würde ich dich öfter besuchen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "hätte",
+        "werde"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hätte",
+      "explanation": "Irrealer Satz mit Konjunktiv II: wenn ich mehr Zeit hätte (hätte = Konjunktiv II von haben).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q052",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Seit letztem Jahr _____ er sich sehr verändert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "Perfekt mit sein bei reflexivem Verb (sich verändern, Zustandsänderung).",
+      "difficulty": "medium",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q053",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Nächste Woche _____ wir die Prüfung hoffentlich bestanden haben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "werden",
+        "sein"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "werden",
+      "explanation": "Futur II: werden + Partizip II + haben (werden bestanden haben).",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q054",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Es _____ kalt gestern Abend, deshalb blieben wir zu Hause.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "war",
+        "wurde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "war",
+      "explanation": "Präteritum: gestern Abend = Wartezeit, also war (Präteritum von sein).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q055",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "_____ du schon einmal in Berlin gewesen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Hast",
+        "Bist",
+        "Wirst",
+        "Warst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Bist",
+      "explanation": "Perfekt mit sein bei Bewegung/Stadt (in Berlin gewesen sein).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q056",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _____ sehr müde, nachdem sie den ganzen Tag gespielt hatten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "sind",
+        "waren",
+        "wurden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "waren",
+      "explanation": "Plusquamperfekt: nach dem Spielen → waren müde (vor einer anderen Vergangenheit).",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q057",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Wenn das Wetter morgen schön _____, machen wir einen Ausflug.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "wird",
+        "sei"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "wird",
+      "explanation": "Bedingungssatz mit werden: wenn das Wetter schön wird (Zukunft).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q058",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ seit drei Jahren verheiratet und sehr glücklich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "Zustandsbeschreibung mit sein + seit (seit drei Jahren = seit/dauer).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q059",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ mir sicher, dass er die Aufgabe schaffen wird.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "werde",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "bin",
+      "explanation": "Ich bin mir sicher (sein + Dativ Reflexivpronomen).",
+      "difficulty": "easy",
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     },
     {
       "id": "a1_01_q060",
       "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Was _____ du, wenn du an meiner Stelle wärst?",
       "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_01_q061",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q062",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q063",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q064",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q065",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q066",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q067",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q068",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q069",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q070",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q071",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q072",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q073",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q074",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q075",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q076",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Du ___ das nicht.",
-      "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
-      ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q077",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
+        "bist",
         "hast",
-        "hat",
-        "habe"
+        "würdest",
+        "wirst"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
+      "correctAnswer": "würdest",
+      "explanation": "Konjunktiv II in irrealem Bedingungssatz: wenn du an meiner Stelle wärst, was würdest du tun?",
       "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q078",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q079",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q080",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q081",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q082",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q083",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q084",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q085",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q086",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q087",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q088",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q089",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q090",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q091",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q092",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q093",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q094",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q095",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q096",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q097",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q098",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q099",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_01_q100",
-      "subjectId": "a1_01",
-      "topicName": "Artikel: der, die, das",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Verben konjugieren (sein, haben, werden)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

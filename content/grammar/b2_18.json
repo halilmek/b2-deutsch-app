@@ -1,1615 +1,1588 @@
 {
+  "version": "1.0",
   "subjectId": "b2_18",
-  "topicName": "Folgen ausdrücken",
-  "level": "B2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "Ausdrucke mit Prapositionen",
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_18_q001",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter war sehr schlecht, _________ mussten wir den Ausflug absagen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "weil",
+        "deshalb",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → cause/effect, verb in position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q002",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Er hat so laut gesprochen, _________ alle ihn hören konnten.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "damit",
+        "weil",
+        "dass",
+        "also"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
+      "correctAnswer": "dass",
+      "explanation": "so ... dass → consequence clause, verb at end",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q003",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Die Preise sind stark gestiegen. _________ können sich viele Menschen die Miete nicht mehr leisten.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "Obwohl",
+        "Folglich",
+        "Bevor",
+        "Während"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Folglich",
+      "explanation": "folglich → consequently, formal written style",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q004",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Sie hatte kein Geld dabei, _________ konnte sie nichts kaufen.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "daher",
+        "trotzdem",
+        "weil",
+        "sobald"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "daher",
+      "explanation": "daher → therefore, synonym for deshalb",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q005",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind hatte Angst vor dem Hund, _________ fing es an zu weinen.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "obwohl",
+        "wenn",
+        "infolgedessen",
+        "bevor"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
+      "correctAnswer": "infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q006",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Der Zug hatte zwei Stunden Verspätung. _________ verpasste er seinen Anschlussflug.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "Damit",
+        "Somit",
+        "Obwohl",
+        "Solange"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Somit",
+      "explanation": "somit → thus, formal written style",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q007",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Es war so kalt, _________ das Wasser in den Leitungen gefror.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "damit",
+        "weil",
+        "dass",
+        "denn"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "so ... dass → consequence, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q008",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Die Firma hatte große finanzielle Probleme. _________ musste sie Insolvenz anmelden.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "Demnach",
+        "Trotzdem",
+        "Bevor",
+        "Sobald"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "Demnach",
+      "explanation": "demnach → accordingly, formal",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q009",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Er hat sein Portemonnaie vergessen, _________ hat er kein Geld dabei.",
       "options": [
-        "weil",
-        "wenn",
+        "obwohl",
+        "darum",
         "damit",
-        "dass"
+        "als"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "darum",
+      "explanation": "darum → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q010",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Die Straße war gesperrt. _________ mussten alle Autos einen Umweg fahren.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "Infolgedessen",
+        "Obwohl",
+        "Nachdem",
+        "Bevor"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q011",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Das Medikament wirkt sehr schnell, _________ fühlen sich die Patienten bald besser.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "weil",
+        "sodass",
+        "obwohl",
+        "bevor"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "sodass",
+      "explanation": "sodass → so that, consequence clause",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q012",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ du mit dem Essen fertig bist, räum bitte auf.",
+      "type": "multiple_choice",
+      "questionText": "Er trainiert täglich, _________ hat er beim Wettkampf gewonnen.",
       "options": [
-        "Sobald",
-        "Solange",
-        "Wenn",
-        "Nachdem"
+        "damit",
+        "wenn",
+        "daher",
+        "obwohl"
       ],
-      "correctAnswer": "Sobald",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "daher",
+      "explanation": "daher → consequently, verb in position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q013",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Das Haus, ___ wir gekauft haben, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen sind gescheitert. _________ wird es keinen Vertrag geben.",
       "options": [
-        "das",
-        "der",
-        "dem",
-        "dessen"
+        "Folglich",
+        "Bevor",
+        "Seitdem",
+        "Obwohl"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Folglich",
+      "explanation": "folglich → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q014",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland gelebt ___",
+      "type": "multiple_choice",
+      "questionText": "Sie sprach so undeutlich, _________ ich sie kaum verstehen konnte.",
       "options": [
-        "weil / hat",
-        "obwohl / gewohnt hat",
-        "wenn / lebt",
-        "damit / lebte"
+        "weil",
+        "damit",
+        "dass",
+        "denn"
       ],
-      "correctAnswer": "weil / gewohnt hat",
-      "explanation": "",
+      "correctAnswer": "dass",
+      "explanation": "so ... dass → degree + consequence",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q015",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ sie in München wohnte, hat sie viele Museen besucht.",
+      "type": "multiple_choice",
+      "questionText": "Der Lärm war unerträglich, _________ konnte niemand schlafen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Seitdem"
+        "obwohl",
+        "infolgedessen",
+        "bevor",
+        "damit"
       ],
-      "correctAnswer": "Während",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q016",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich würde das ___ machen, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Das neue Gesetz trat in Kraft. _________ müssen alle Unternehmen neue Standards erfüllen.",
       "options": [
-        "gerne / hätte",
-        "besser / habe",
-        "am liebsten / haben würde",
-        "viel / gehabt"
+        "Somit",
+        "Obwohl",
+        "Bevor",
+        "Nachdem"
       ],
-      "correctAnswer": "gerne / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Somit",
+      "explanation": "somit → thus, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q017",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Er hatte so viel Stress, _________ er schließlich krank wurde.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "damit",
+        "obwohl",
+        "dass",
+        "denn"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "dass",
+      "explanation": "so ... dass → consequence, verb at end",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q018",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ könnte.",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen dauerten sehr lange. _________ einigten sich beide Seiten am Ende doch.",
       "options": [
-        "obwohl / sein",
-        "weil / war",
-        "wenn / ist",
-        "damit / sei"
+        "Daher",
+        "Trotzdem",
+        "Somit",
+        "Deshalb"
       ],
-      "correctAnswer": "obwohl / sein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Somit",
+      "explanation": "somit → thus, formal consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q019",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Der Fahrer war zu müde. _________ verursachte er einen Unfall.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "Demnach",
+        "Obwohl",
+        "Bevor",
+        "Seitdem"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Demnach",
+      "explanation": "demnach → accordingly, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q020",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er ist der beste Schüler, ___ ich je unterrichtet habe.",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt wurde erfolgreich abgeschlossen. _________ können wir mit der nächsten Phase beginnen.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "Weil",
+        "Damit",
+        "Somit",
+        "Obwohl"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
+      "correctAnswer": "Somit",
+      "explanation": "somit → thus, formal",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q021",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Es hat die ganze Nacht geregnet, _________ war der Keller am Morgen überflutet.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "sodass",
+        "deshalb",
+        "infolge"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q022",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Die Firma machte hohe Verluste, _________ mussten viele Mitarbeiter entlassen werden.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "folglich",
+        "weil",
+        "da"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "folglich",
+      "explanation": "folglich → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q023",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Der Verkehr war _________ dicht, _________ wir den Termin verpasst haben.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "so / dass",
+        "deshalb / so",
+        "infolge / dass"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q024",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Prüfung nicht bestanden, _________ er zu wenig gelernt hatte.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "infolgedessen",
+        "deswegen",
+        "nicht anwendbar"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nicht anwendbar",
+      "explanation": "This question tests cause, not consequence — use 'weil' not a consequence connector",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q025",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind schrie _________ laut, _________ die Nachbarn aufwachten.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "so / dass",
+        "daher / dass",
+        "infolge / dass"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q026",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Der Patient hielt sich nicht an die Diät. _________ verschlechterte sich sein Zustand.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "Sodass",
+        "Infolgedessen",
+        "Infolge"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
+      "correctAnswer": "Infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q027",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "_________ des starken Schneefalls wurde der Flugverkehr eingestellt.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "Infolge",
+        "Demzufolge",
+        "Daher"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Infolge",
+      "explanation": "infolge + Genitiv → as a result of",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q028",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Sie hat jahrelang im Ausland gelebt, _________ spricht sie fließend Spanisch.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "dass",
+        "darum",
+        "sodass"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → thus, verb at end in Nebensatz",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q029",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Die Heizung war kaputt, _________ wir im Haus frieren mussten.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "folglich",
+        "sodass",
+        "daher"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
+      "correctAnswer": "folglich",
+      "explanation": "folglich → consequently, verb in position 2",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q030",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitete sehr konzentriert, _________ er die Aufgabe schnell erledigen konnte.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "so",
+        "deshalb",
+        "sodass"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → so that, verb at end in Nebensatz",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q031",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Die Nachfrage war gering, _________ wurde die Produktion gestoppt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "demzufolge",
+        "so",
+        "infolge"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "demzufolge",
+      "explanation": "demzufolge → accordingly, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q032",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Es gab ein technisches Problem, _________ der Zug Verspätung hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weswegen",
+        "deshalb",
+        "so"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "weswegen",
+      "explanation": "weswegen → for which reason, formal",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q033",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Der Film war _________ langweilig, _________ viele Zuschauer das Kino vorzeitig verließen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deshalb / so",
+        "so / dass",
+        "so / sodass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q034",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "Die Kosten stiegen enorm an. _________ musste das Projekt abgebrochen werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Infolgedessen",
+        "Sodass",
+        "Weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q035",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Wir haben die Reservierung vergessen, _________ wir keinen Tisch bekommen haben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "folglich",
+        "weshalb",
+        "infolge"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "weshalb",
+      "explanation": "weshalb → for which reason, verb at end in Nebensatz",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q036",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter war schlecht, _________ wir zu Hause blieben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "so",
+        "daher",
+        "sodass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "daher",
+      "explanation": "daher → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q037",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Er ist sehr unhöflich, _________ ihn niemand zum Geburtstag einlädt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weswegen",
+        "deshalb",
+        "sowohl als auch"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2; both weswegen and deshalb are possible",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q038",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "_________ der schlechten Wirtschaftslage sanken die Aktienkurse.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Infolgedessen",
+        "Infolge",
+        "Demzufolge"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Infolge",
+      "explanation": "infolge + Genitiv → as a result of",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q039",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Die Nachricht war _________ schockierend, _________ sie kein Wort herausbrachte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "so / dass",
+        "daher / dass",
+        "infolge / dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q040",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Er hat seine Brille vergessen, _________ er die Tafel nicht lesen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "so",
+        "infolgedessen",
+        "sodass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → so that, verb at end in Nebensatz",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q041",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Passiv Präteritum: \"wurde gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Es regnet stark, ________ bleiben wir heute zu Hause.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "deshalb",
+        "damit",
+        "während"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q042",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Je...desto\" braucht den Komparativ.",
+      "type": "multiple_choice",
+      "questionText": "Er war krank, ________ er nicht zur Arbeit kommen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sodass",
+        "weil",
+        "ob",
+        "trotzdem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil → because, verb at end in Nebensatz; sodass needs different structure",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q043",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Relativsätze im Genitiv: \"der Mann, dessen Auto...\"",
+      "type": "multiple_choice",
+      "questionText": "Die Straßen waren gesperrt. ________ kamen viele Menschen zu spät.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Trotzdem",
+        "Folglich",
+        "Während",
+        "Obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Folglich",
+      "explanation": "folglich → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q044",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Einander\" ist ein Pronomen.",
+      "type": "multiple_choice",
+      "questionText": "Sie lernte sehr viel, ________ bestand sie die Prüfung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "denn",
+        "sondern",
+        "deshalb",
+        "obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q045",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Weil\" und \"da\" sind synonym.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind war ________ müde, dass es sofort einschlief.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "so",
+        "zu",
+        "als",
+        "seit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "so",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q046",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Trotzdem\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Er hatte einen Unfall, ________ konnte er nicht kommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "deswegen",
+        "damit",
+        "während"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deswegen",
+      "explanation": "deswegen → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q047",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Werden\" zeigt die Zukunft an.",
+      "type": "multiple_choice",
+      "questionText": "Viele Firmen bieten Homeoffice an. ________ sparen Mitarbeiter Zeit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Trotzdem",
+        "Dadurch",
+        "Während",
+        "Obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Dadurch",
+      "explanation": "dadurch → as a result, formal",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q048",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Nicht\" verneint das Verb.",
+      "type": "multiple_choice",
+      "questionText": "Die Preise steigen, ________ kaufen viele Leute weniger.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "infolgedessen",
+        "obwohl",
+        "damit",
+        "seit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q049",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Niemand\" negiert \"jemand\".",
+      "type": "multiple_choice",
+      "questionText": "Er sprach sehr leise, ________ niemand ihn verstehen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "sodass",
+        "trotzdem",
+        "denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → so that, verb at end in Nebensatz",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q050",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Konjunktiv II der Vergangenheit: \"hätte gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Ich hatte keinen Termin, ________ musste ich lange warten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "trotzdem",
+        "deshalb",
+        "während",
+        "ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q051",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Der Verkehr war sehr stark, ________ kamen wir zu spät.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "daher",
+        "obwohl",
+        "damit",
+        "während"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "daher",
+      "explanation": "daher → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q052",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Sie war ________ nervös, dass sie kaum sprechen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seit",
+        "so",
+        "als",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "so",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q053",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Er lernte nicht genug. ________ bestand er die Prüfung nicht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Trotzdem",
+        "Folglich",
+        "Während",
+        "Denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Folglich",
+      "explanation": "folglich → consequently, formal",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q054",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "Die Firma machte hohe Verluste, ________ wurden Mitarbeiter entlassen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sodass",
+        "obwohl",
+        "seitdem",
+        "während"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → consequence clause, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q055",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter war schlecht. ________ blieben wir im Hotel.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Deshalb",
+        "Während",
+        "Trotzdem",
+        "Obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q056",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Er trainiert jeden Tag. ________ ist er sehr fit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Dadurch",
+        "Obwohl",
+        "Während",
+        "Denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Dadurch",
+      "explanation": "dadurch → as a result, formal",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q057",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Die Aufgabe war ________ schwierig, dass viele Studenten Hilfe brauchten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "zu",
+        "so",
+        "seit",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "so",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q058",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Es gab technische Probleme, ________ begann die Präsentation später.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "trotzdem",
+        "infolgedessen",
+        "während",
+        "obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q059",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Sie hatte starke Kopfschmerzen, ________ ging sie zum Arzt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deshalb",
+        "obwohl",
+        "während",
+        "denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q060",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Der Zug hatte Verspätung, ________ warteten die Passagiere lange.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sodass",
+        "obwohl",
+        "während",
+        "seit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → consequence clause, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q061",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Der Zug hatte eine Stunde Verspätung, _____ wir unseren Anschluss verpassten.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "trotzdem",
+        "sodass",
+        "obwohl",
+        "während"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → consequence clause, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q062",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Die Firma investierte nicht in neue Technologien, _____ ging sie bankrott.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "infolgedessen",
+        "damit",
+        "um",
+        "je"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
+      "correctAnswer": "infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q063",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Der Vortrag war _____ langweilig, _____ die Hälfte der Zuschauer einschlief.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "zu / als dass",
+        "so / dass",
+        "weder / noch",
+        "sowohl / als auch"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q064",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Er hatte sich nicht vorbereitet, _____ bestand er die Prüfung nicht.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "indem",
+        "als",
+        "deshalb",
+        "falls"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q065",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Das Team spielte hervorragend zusammen, _____ gewannen sie das Turnier.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "denn",
+        "aber",
+        "somit",
+        "während"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
+      "correctAnswer": "somit",
+      "explanation": "somit → thus, formal",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q066",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Es regnete den ganzen Tag, _____ fiel das Picknick aus.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "daher",
+        "falls",
+        "damit",
+        "wenn"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "daher",
+      "explanation": "daher → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q067",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Die Bauarbeiten dauerten länger als geplant, _____ mussten die Anwohner eine Umleitung nutzen.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "um",
+        "ohne dass",
+        "demzufolge",
+        "als"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "demzufolge",
+      "explanation": "demzufolge → accordingly, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q068",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Das Smartphone war _____ teuer, _____ ich es mir nicht leisten konnte.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "zu / um",
+        "so / dass",
+        "weder / noch",
+        "entweder / oder"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q069",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Die Expertin erklärte den Sachverhalt sehr deutlich, _____ alle ihn verstanden.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "sodass",
+        "je",
+        "desto",
+        "nachdem"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → consequence clause, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q070",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "Das Experiment schlug fehl, _____ musste das Team von vorne beginnen.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "um zu",
+        "stattdessen",
+        "indem",
+        "folglich"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "folglich",
+      "explanation": "folglich → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q071",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Die Straße war _____ glatt, _____ viele Autos ins Schleudern gerieten.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "derart / dass",
+        "zu / dass",
+        "sowohl / als auch",
+        "je / desto"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "derart / dass",
+      "explanation": "derart ... dass → to such a degree that",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q072",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "Der Patient nahm seine Medikamente nicht regelmäßig, _____ verschlechterte sich sein Zustand.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "damit",
+        "obwohl",
+        "trotz",
+        "deswegen"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "deswegen",
+      "explanation": "deswegen → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q073",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen expandierte zu schnell, _____ musste es später viele Mitarbeiter entlassen.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "falls",
+        "als ob",
+        "infolgedessen",
+        "damit"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q074",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Die Bewerbung enthielt mehrere Fehler, _____ wurde sie sofort abgelehnt.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "um",
+        "ohne",
+        "also",
+        "während"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
+      "correctAnswer": "also",
+      "explanation": "also → therefore/consequently, verb position 1 or 2",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q075",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "Der Bergsteiger war _____ erschöpft, _____ er den Gipfel nicht erreichen konnte.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "zu / um",
+        "zu / als dass",
+        "so / dass",
+        "weder / noch"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q076",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung senkte die Steuern, _____ stieg die Kaufkraft der Bürger.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "sodass",
+        "trotzdem",
+        "obgleich",
+        "wohingegen"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → consequence clause, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q077",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Das Konzert war ausverkauft, _____ fanden sich viele Fans vor der Halle ein.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "außer",
+        "anstatt",
+        "deshalb",
+        "falls"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q078",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Die Beweise waren erdrückend, _____ wurde der Angeklagte freigesprochen.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "dennoch",
+        "folglich",
+        "weil",
+        "da"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "folglich",
+      "explanation": "folglich → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q079",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Sie trainierte jeden Tag mehrere Stunden, _____ konnte sie den Marathon gewinnen.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "sodass",
+        "damit",
+        "um",
+        "je"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → consequence clause, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q080",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Der Roman war _____ spannend geschrieben, _____ ich ihn in einer Nacht auslas.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "zu / als",
+        "so / dass",
+        "mehr / als",
+        "gleich / wie"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q081",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Es hat die ganze Nacht geschneit. ________ sind viele Straßen gesperrt.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "Damit",
+        "Obwohl",
+        "Infolgedessen",
+        "Während"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Infolgedessen",
+      "explanation": "infolgedessen → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q082",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Sie hat sehr viel für die Prüfung gelernt, ________ hat sie eine ausgezeichnete Note bekommen.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "deshalb",
+        "trotzdem",
+        "falls",
+        "sondern"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q083",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Der Zug hatte Verspätung. ________ musste ich meinen Anschlusszug verpassen.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "Außerdem",
+        "Daher",
+        "Obwohl",
+        "Damit"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "Daher",
+      "explanation": "daher → therefore, synonym for deshalb",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q084",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat den Schlüssel vergessen, ________ kann er nicht in die Wohnung.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "sondern",
+        "deswegen",
+        "falls",
+        "obwohl"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "deswegen",
+      "explanation": "deswegen → therefore, verb position 2",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q085",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Die Firma hat hohe Gewinne erzielt. ________ wurden die Löhne erhöht.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "Folglich",
+        "Obwohl",
+        "Damit",
+        "Während"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Folglich",
+      "explanation": "folglich → consequently, formal",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q086",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Es war ________ kalt, ________ wir den Ausflug absagen mussten.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "so / dass",
+        "zu / als dass",
+        "genug / um",
+        "sehr / deshalb"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q087",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Sie sprach sehr leise, ________ man sie kaum verstehen konnte.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "damit",
+        "sodass",
+        "obwohl",
+        "falls"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass → consequence clause, verb at end",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q088",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Der Film war ________ spannend, ________ ich ihn bis zum Ende angeschaut habe.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "zu / als dass",
+        "so / dass",
+        "genug / um",
+        "sehr / deshalb"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q089",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat ________ viele Fehler gemacht, ________ er die Aufgabe wiederholen musste.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "so / dass",
+        "zu / als dass",
+        "genug / um",
+        "sehr / deshalb"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
+      "correctAnswer": "so / dass",
+      "explanation": "so ... dass → degree + consequence",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q090",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter war so schlecht, ________ wir im Hotel blieben.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "damit",
+        "als dass",
+        "dass",
+        "um zu"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dass",
+      "explanation": "dass → after 'so + Adj' follow 'dass'-Satz",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q091",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Der Text ist ________ kompliziert, ________ ihn ein Anfänger verstehen ________.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "zu / als dass / könnte",
+        "so / dass / kann",
+        "genug / um / zu können",
+        "sehr / deshalb / kann"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "zu / als dass / könnte",
+      "explanation": "zu ... als dass → unreal consequence, Konjunktiv II",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q092",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "Sie ist ________ alt, ________ allein ________ reisen.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "zu / als dass / zu",
+        "so / dass / zu",
+        "genug / um / zu",
+        "sehr / deshalb / zu"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
+      "correctAnswer": "genug / um / zu",
+      "explanation": "genug ... um ... zu → sufficient for an action",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q093",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Es war ________ dunkel, ________ man noch etwas erkennen ________.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "zu / als dass / könnte",
+        "so / dass / kann",
+        "genug / um / zu können",
+        "sehr / deshalb / kann"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "zu / als dass / könnte",
+      "explanation": "zu ... als dass → unreal consequence, Konjunktiv II",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q094",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat ________ Erfahrung, ________ diese Aufgabe erfolgreich ________.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "zu / als dass / zu lösen",
+        "so / dass / löst",
+        "genug / um / zu lösen",
+        "sehr / deshalb / zu lösen"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "genug / um / zu lösen",
+      "explanation": "genug ... um ... zu → sufficient experience",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q095",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "Das Problem ist ________ schwierig, ________ wir es ohne Hilfe lösen ________.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "zu / als dass / könnten",
+        "so / dass / können",
+        "genug / um / zu können",
+        "sehr / deshalb / können"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
+      "correctAnswer": "zu / als dass / könnten",
+      "explanation": "zu ... als dass → unreal possibility, Konjunktiv II",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q096",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Er verließ die Party, ________ sich jemand von ihm verabschiedet hatte.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "damit",
+        "ohne dass",
+        "sodass",
+        "falls"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ohne dass",
+      "explanation": "ohne dass → without something happening; consequence does not occur",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q097",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "________ des starken Regens fiel das Fußballspiel aus.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "Wegen",
+        "Infolge",
+        "Trotz",
+        "Während"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Infolge",
+      "explanation": "infolge + Genitiv → as a result of",
+      "difficulty": "medium",
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q098",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Sie bestand die Prüfung, ________ sie kaum gelernt hatte.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "ohne dass",
+        "sodass",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl → contrast, not consequence! This is a concession, not a result.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q099",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "________ eines technischen Defekts musste der Flug verschoben werden.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "Wegen",
+        "Infolge",
+        "Aufgrund",
+        "Alle sind richtig"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_18_q1",
-      "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er war so müde, ___ er einschlief.",
-      "options": [
-        "dass",
-        "weil",
-        "obwohl",
-        "wenn"
-      ],
-      "correctAnswer": "dass",
-      "explanation": "Grammatik-Thema: 18. Folgen ausdrücken",
+      "correctAnswer": "Alle sind richtig",
+      "explanation": "Wegen, Infolge, Aufgrund + Genitiv → all express cause/result",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Folgen ausdrücken"
     },
     {
       "id": "b2_18_q100",
       "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er ging nach Hause, ________ er jemandem Bescheid gesagt ________.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "ohne dass / hat",
+        "ohne dass / hätte",
+        "sodass / hat",
+        "damit / hätte"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_18_q2",
-      "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Es war ___ kalt, ___ wir zu Hause blieben.",
-      "options": [
-        "so / dass",
-        "zu / als",
-        "sehr / dass",
-        "zu / weil"
-      ],
-      "correctAnswer": "so / dass",
-      "explanation": "Grammatik-Thema: 18. Folgen ausdrücken",
+      "correctAnswer": "ohne dass / hätte",
+      "explanation": "ohne dass → without; hätte → Konjunktiv II, unreal past",
       "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_18_q3",
-      "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "„So ... dass\" leitet einen Konsekutivsatz ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 18. Folgen ausdrücken",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_18_q4",
-      "subjectId": "b2_18",
-      "topicName": "Folgen ausdrücken",
-      "questionText": "Er war ___ aufgeregt, ___ er nicht schlafen konnte.",
-      "options": [
-        "so / dass",
-        "zu / als",
-        "sehr / dass",
-        "zu / weil"
-      ],
-      "correctAnswer": "so / dass",
-      "explanation": "Grammatik-Thema: 18. Folgen ausdrücken",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Folgen ausdrücken"
     }
-  ],
-  "totalQuestions": 104
+  ]
 }

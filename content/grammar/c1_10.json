@@ -1,1553 +1,1437 @@
 {
+  "topicName": "Textkohäsion & Diskursmarker (C1)",
   "subjectId": "c1_10",
-  "topicName": "Unpersönliche Ausdrücke",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 101,
+  "description": "Textkohaesion & Diskursmarker (C1)\n\n=== TEXTKOHÄTION vs. TEXTKOHÄRENZ ===\nTextkohaesion: grammatische und sprachliche Mittel, die einen Text formal zusammenhalten\n(Pronomen, Konnektoren, Konjunktionen, lexikalische Wiederholung)\nTextkohaerenz: logische und semantische Einheit der Bedeutungsstruktur\n\n=== DISKURSMARKER-TYPEN ===\n\nKAUSAL (Folge/Ergebnis):\n- Deshalb, daher, folglich, infolgedessen, demnach, somit\n- Position 1 -> Verb in Position 2 (V2)\n- Saetze: Das Wetter war schlecht; deshalb blieben wir zu Hause.\n\nKONZESSIV (Gegensatz / Trotz):\n- Obwohl, obgleich, wenngleich (formell), obschon\n- Trotzdem, dennoch, allerdings, nichtsdestotrotz, gleichwohl, nichtsdestoweniger\n- Jedoch, hingegen (direkter Gegensatz)\n- Zwar ... aber (konzessives Muster)\n\nADDITIV (Hinzufuegung):\n- Ausserdem, zudem, ueberdies, darueber hinaus, ferner\n\nEXPLANATIV (Erklaerung):\n- Naemlich (steht NACH dem Verb, NICHT am Satzanfang!)\n\nTEMPORAL-STRUKTURELL (Ordnung):\n- Zunaechst, zuerst, erstens, anschliessend, dann, schliesslich, abschliessend\n\nKONTRASTIV-ADVERSATIV:\n- Einerseits ... andererseits (parallele Gegenueberstellung)\n- Wohingegen, wogegen, waehrend\n\n=== ANAPHORISCHE VERWEISE ===\n- Dieser, diese, dieses, jener, letztere\n- Letztere verweist auf das zuletzt genannte Nomen (anaphorisch)\n- Beispiel: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung.\n\n=== WICHTIGE REGELN ===\n- Naemlich: IMMER nach dem Verb, nie am Satzanfang\n- Zwar ... aber: zuerst z.B. Zwar hat er keine Erfahrung, aber er lernt schnell\n- Deshalb/Folglich: Position 1 -> V2\n- Jedoch/trotzdem: Position 1 -> V2\n- Jedoch: direkter Gegensatz; Trotzdem: trotz Bedingung/Erwartung\n- Folglich = formeller als deshalb; streng logische Schlussfolgerung\n- Also = umgangssprachlicher; kann auch zusammenfassen\n- Nichtsdestoweniger = gehobener als trotzdem (akademisch)",
+  "tips": [
+    "Textkohaesion = formale Verbindungsmittel; Textkohaerenz = logische Bedeutungsstruktur",
+    "Deshalb/Folglich/Daher: Position 1 -> Verb in Position 2 (V2)",
+    "Naemlich kommt NACH dem Verb, nie am Satzanfang!",
+    "Obwohl/obgleich/wenngleich = concessive Nebensaetze (Verb am Ende)",
+    "Zwar ... aber = konzessives Muster: Zwar + Verb, aber + Satz",
+    "Einerseits ... andererseits = parallele Gegenueberstellung (adversativer Kontrast)",
+    "Folglich = formeller als deshalb; strictly logical conclusion in academic texts",
+    "Also = umgangssprachlicher/conversational; kann auch zusammenfassen",
+    "Nichtsdestoweniger = gehobener als trotzdem (akademisch/juristisch)",
+    "Letztere = anaphorischer Verweis auf das zuletzt genannte Nomen",
+    "Zunaechst/erstens/anschliessend/abschliessend = Textstrukturierung",
+    "Darueber hinaus = additive connector, oft stärkere/eskalierende Information"
+  ],
   "questions": [
     {
       "id": "c1_10_q001",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "questionText": "Was versteht man unter Textkohaesion?",
+      "options": [
+        "Die inhaltliche Einheit und logische Bedeutungsstruktur eines Textes",
+        "Die grammatischen und sprachlichen Mittel, die einen Text formal zusammenhalten",
+        "Die Verwendung von Fremdwoertern in einem Text",
+        "Die aeussere Gliederung eines Textes in Absehnitte"
+      ],
+      "correctAnswer": "Die grammatischen und sprachlichen Mittel, die einen Text formal zusammenhalten",
+      "explanation": "Textkohaesion refers to grammatical and linguistic devices that formally connect text parts (pronouns, connectors, conjunctions, lexical repetition). Distinct from Textkohaerenz (logical/semantic unity)."
     },
     {
       "id": "c1_10_q002",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welcher Diskursmarker druckt eine Folge oder ein Ergebnis aus?",
       "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
+        "obwohl",
+        "deshalb",
+        "hingegen",
+        "zunaechst"
       ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "deshalb",
+      "explanation": "Deshalb (therefore/that is why) is a causal connector expressing result/consequence. Obwohl = concessive, hingegen = adversative contrast, zunaechst = temporal (first)."
     },
     {
       "id": "c1_10_q003",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Ergaenzen Sie den passenden Diskursmarker: Das Wetter war schlecht. ____ haben wir den Ausflug genossen.",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "Deshalb",
+        "Trotzdem",
+        "Ausserdem",
+        "Naemlich"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem (nevertheless/even so) is a concessive connector signalling an unexpected result despite bad weather. Deshalb = consequence, ausserdem = addition, naemlich = explanation."
     },
     {
       "id": "c1_10_q004",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "questionText": "Welche Funktion hat der Diskursmarker ausserdem?",
+      "options": [
+        "Er druckt einen Gegensatz aus.",
+        "Er fuegt eine zusaetzliche Information hinzu.",
+        "Er leitet eine Schlussfolgerung ein.",
+        "Er beschreibt eine zeitliche Abfolge."
+      ],
+      "correctAnswer": "Er fuegt eine zusaetzliche Information hinzu.",
+      "explanation": "Ausserdem (moreover/in addition/furthermore) is an additive connector that adds further information without contradicting."
     },
     {
       "id": "c1_10_q005",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Ergaenzen Sie: Er ist sehr kompetent. ____ hat er kaum Erfahrung. (Gegensatz)",
       "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
+        "Deshalb",
+        "Ausserdem",
+        "Allerdings",
+        "Naemlich"
       ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Allerdings",
+      "explanation": "Allerdings (however/admittedly) introduces an adversative contrast or qualification, restricting the previous statement."
     },
     {
       "id": "c1_10_q006",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "type": "multiple_choice",
+      "difficulty": "easy",
+      "questionText": "Welcher Diskursmarker ordnet Argumente in einer Aufzaehlung? ____ moechte ich die Vorteile nennen, ____ die Nachteile.",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "Naemlich / deshalb",
+        "Zunaechst / anschliessend",
+        "Trotzdem / ausserdem",
+        "Hingegen / obwohl"
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Zunaechst / anschliessend",
+      "explanation": "Zunaechst (first/to begin) and anschliessend (then/subsequently) are temporal-structural markers organizing content sequentially."
     },
     {
       "id": "c1_10_q007",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Was ist der Unterschied zwischen jedoch und trotzdem?",
       "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
+        "Es gibt keinen Unterschied.",
+        "Jedoch druckt direkten Gegensatz aus; trotzdem druckt aus, dass etwas trotz einer Bedingung geschieht.",
+        "Trotzdem wird nur in der gesprochenen Sprache verwendet.",
+        "Jedoch leitet immer einen Kausalsatz ein."
       ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Jedoch druckt direkten Gegensatz aus; trotzdem druckt aus, dass etwas trotz einer Bedingung geschieht.",
+      "explanation": "Jedoch expresses direct contrast; trotzdem is concessive (despite obstacle/condition). Subtle but important in formal writing."
     },
     {
       "id": "c1_10_q008",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "questionText": "Ergaenzen Sie den richtigen Diskursmarker: Die Studie ist umfangreich. ____ fehlen wichtige Kontrollgruppen. (einschraenkend)",
+      "options": [
+        "Ausserdem",
+        "Deshalb",
+        "Dennoch",
+        "Allerdings"
+      ],
+      "correctAnswer": "Allerdings",
+      "explanation": "Allerdings introduces a limiting/qualifying statement — something granted but with an important shortcoming following."
     },
     {
       "id": "c1_10_q009",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welcher Diskursmarker erklaert oder praezisiert das Vorherige? Er kam nicht zur Besprechung – ____ hatte er einen wichtigen Termin.",
       "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
+        "deshalb",
+        "naemlich",
+        "hingegen",
+        "dennoch"
       ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "naemlich",
+      "explanation": "Naemlich (namely/the reason being) introduces explanation/clarification. Always appears after the conjugated verb, never at the beginning."
     },
     {
       "id": "c1_10_q010",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welche Gruppe von Diskursmarkern dient zur Strukturierung eines Textes?",
       "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
+        "deshalb, weil, da",
+        "erstens, darueber hinaus, abschliessend",
+        "obwohl, trotzdem, dennoch",
+        "naemlich, also, somit"
       ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "erstens, darueber hinaus, abschliessend",
+      "explanation": "Erstens, darueber hinaus, abschliessend are structural discourse markers organizing argument progression (beginning, development, conclusion)."
     },
     {
       "id": "c1_10_q011",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "questionText": "Ergaenzen Sie: Die Ergebnisse sind eindeutig. ____, lassen sich keine allgemeinen Schluesse ziehen. (konzessiv-einschraenkend)",
+      "options": [
+        "Daher",
+        "Nichtsdestotrotz",
+        "Gleichwohl",
+        "Folglich"
+      ],
+      "correctAnswer": "Gleichwohl",
+      "explanation": "Gleichwohl (nonetheless/yet) is a formal concessive connector expressing reservation despite clear results. More elevated than trotzdem."
     },
     {
       "id": "c1_10_q012",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er tat so, ___ er von nichts ___",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Was ist die Funktion von darueber hinaus in einem Text?",
       "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
+        "Einen Gegensatz einleiten",
+        "Eine zusaetzliche, oft staerkere Information hinzufuegen",
+        "Eine Schlussfolgerung ziehen",
+        "Eine Einschraenkung machen"
       ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Eine zusaetzliche, oft staerkere Information hinzufuegen",
+      "explanation": "Darueber hinaus (furthermore/beyond that) adds a further — often escalating — point. Common in formal argumentation."
     },
     {
       "id": "c1_10_q013",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
+      "type": "multiple_choice",
+      "difficulty": "medium",
+      "questionText": "Welcher Diskursmarker leitet eine Schlussfolgerung ein?",
       "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
+        "hingegen",
+        "folglich",
+        "zwar",
+        "obgleich"
       ],
-      "correctAnswer": "In",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "folglich",
+      "explanation": "Folglich (consequently/therefore/as a result) introduces a logical conclusion. More formal than deshalb in academic/argumentative texts."
     },
     {
       "id": "c1_10_q014",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
-      "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
-      ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "questionText": "Ergaenzen Sie: ____ die Kosten hoch sind, entschied sich das Unternehmen fuer die neue Technologie. (konzessiv)",
+      "options": [
+        "Da",
+        "Wenngleich",
+        "Sobald",
+        "Indem"
+      ],
+      "correctAnswer": "Wenngleich",
+      "explanation": "Wenngleich (even though/although) is a formal concessive conjunction. More elevated than obwohl in academic/legal writing."
     },
     {
       "id": "c1_10_q015",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "questionText": "Analysieren Sie die Kohaesionsfunktion: Die Massnahmen wurden eingefuehrt. Letztere zeigten jedoch kaum Wirkung. Was leistet Letztere?",
+      "options": [
+        "Es leitet eine Schlussfolgerung ein.",
+        "Es ist ein anaphorischer Verweis, der auf die Massnahmen zurueckverweist.",
+        "Es druckt einen zeitlichen Bezug aus.",
+        "Es ist ein Diskursmarker fuer Einschraenkungen."
+      ],
+      "correctAnswer": "Es ist ein anaphorischer Verweis, der auf die Massnahmen zurueckverweist.",
+      "explanation": "Letztere (the latter) is an anaphoric reference referring back to the previously mentioned noun (die Massnahmen). Key cohesive device avoiding repetition."
     },
     {
       "id": "c1_10_q016",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Welcher Satz verwendet zwar ... aber korrekt als konzessives Diskursmuster?",
       "options": [
-        "Nachdem",
-        "Weil",
-        "Obwohl",
-        "Als"
+        "Zwar hat er keine Erfahrung, aber er lernt schnell.",
+        "Zwar er keine Erfahrung hat, aber er lernt schnell.",
+        "Er hat zwar keine Erfahrung, aber er lernt schnell.",
+        "Sowohl A als auch C sind korrekt."
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Sowohl A als auch C sind korrekt.",
+      "explanation": "Zwar ... aber can be (A) Zwar + Verb-second, aber... OR (C) zwer as mid-clause adverb: Er hat zwar..., aber.... Both correct. B is wrong: zwer as sentence-opener requires V2."
     },
     {
       "id": "c1_10_q017",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Was ist der Unterschied zwischen also und folglich als Diskursmarker?",
       "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
+        "Also ist umgangssprachlicher und kann auch zusammenfassend verwendet werden; folglich ist formeller und streng schlussfolgernd.",
+        "Also druckt Gegensatz aus; folglich druckt Hinzufuegung aus.",
+        "Folglich wird nur in gesprochener Sprache verwendet.",
+        "Beide sind vollstaendig bedeutungsgleich."
       ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Also ist umgangssprachlicher und kann auch zusammenfassend verwendet werden; folglich ist formeller und streng schlussfolgernd.",
+      "explanation": "Also (so/thus) is more colloquial, can introduce conclusions and summaries. Folglich is strictly logical and formal, used to draw necessary conclusions from evidence."
     },
     {
       "id": "c1_10_q018",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "questionText": "Welcher Diskursmarker passt am besten in einen wissenschaftlichen Text, um eine These zu relativieren? Die Theorie ist weitgehend anerkannt. ____ gibt es einzelne Kritikpunkte.",
+      "options": [
+        "Trotzdem",
+        "Nichtsdestoweniger",
+        "Deshalb",
+        "Ausserdem"
+      ],
+      "correctAnswer": "Nichtsdestoweniger",
+      "explanation": "Nichtsdestoweniger (nevertheless/nonsetheless) is a highly formal concessive connector typical of academic writing. More elevated than trotzdem."
     },
     {
       "id": "c1_10_q019",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
+      "type": "multiple_choice",
+      "difficulty": "hard",
+      "questionText": "Bestimmen Sie die Kohaesionsfunktion: Die Digitalisierung veraendert die Arbeitswelt grundlegend. Einerseits entstehen neue Berufsfelder, andererseits fallen traditionelle Taetigkeiten weg. Was leisten einerseits ... andererseits?",
       "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
+        "Sie drucken eine zeitliche Abfolge aus.",
+        "Sie strukturieren einen adversativen Kontrast durch parallele Gegenueberstellung.",
+        "Sie leiten eine Kausalbeziehung ein.",
+        "Sie markieren eine Zusammenfassung des Vorherigen."
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Sie strukturieren einen adversativen Kontrast durch parallele Gegenueberstellung.",
+      "explanation": "Einerseits ... andererseits creates a balanced parallel contrast between two opposing aspects. Key structural cohesion device in argumentative texts."
     },
     {
       "id": "c1_10_q020",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Entwicklung ist ___ zu ___",
-      "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_10_q021",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "type": "multiple_choice",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "questionText": "Welcher der folgenden Saetze weist einen FEHLER in der Verwendung eines Diskursmarkers auf?",
+      "options": [
+        "Er ist sehr talentiert; dennoch fehlt ihm die noetige Disziplin.",
+        "Die Ergebnisse sind ueberzeugend. Folglich lassen sich eindeutige Schluesse ziehen.",
+        "Naemlich hat er den Vertrag unterschrieben, bevor er ihn las.",
+        "Zwar ist die Methode aufwendig, aber die Ergebnisse rechtfertigen den Aufwand."
+      ],
+      "correctAnswer": "Naemlich hat er den Vertrag unterschrieben, bevor er ihn las.",
+      "explanation": "Naemlich cannot stand at the beginning of a sentence — it must follow the conjugated verb: Er hat naemlich den Vertrag unterschrieben.... This is a very common error."
     },
     {
-      "id": "c1_10_q022",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
-      "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
-      ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_10_q023",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse waren ueberzeugend. ____ wurde das Projekt genehmigt.",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "Daher",
+        "Dennoch",
+        "Obwohl",
+        "Waehrend"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Daher",
+      "explanation": "Daher expresses consequence/result.",
+      "id": "c1_10_q021"
     },
     {
-      "id": "c1_10_q024",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sprach, ___ er alles wüsste.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hatte wenig Erfahrung. ____ meisterte er die Aufgabe erfolgreich.",
       "options": [
-        "als ob",
-        "wenn",
-        "weil",
+        "Trotzdem",
+        "Deshalb",
+        "Ausserdem",
+        "Sodass"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem introduces contrast despite limited experience.",
+      "id": "c1_10_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Nachfrage steigt kontinuierlich. ____ plant das Unternehmen eine Erweiterung.",
+      "options": [
+        "Deshalb",
+        "Allerdings",
+        "Dennoch",
+        "Waehrenddessen"
+      ],
+      "correctAnswer": "Deshalb",
+      "explanation": "Deshalb expresses cause and effect (steigende Nachfrage -> Erweiterung).",
+      "id": "c1_10_q023"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Studie liefert interessante Ergebnisse. ____ sind weitere Untersuchungen notwendig.",
+      "options": [
+        "Dennoch",
+        "Daher",
+        "Zusaetzlich",
+        "Naemlich"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch introduces a contrast or limitation despite interesting results.",
+      "id": "c1_10_q024"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Viele Teilnehmer erschienen verspaetet. ____ begann die Veranstaltung punktlich.",
+      "options": [
+        "Trotzdem",
+        "Deshalb",
+        "Ausserdem",
+        "Somit"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem indicates contrast to expectations (late arrivals but started on time).",
+      "id": "c1_10_q025"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Kosten wurden gesenkt. ____ konnte der Gewinn gesteigert werden.",
+      "options": [
+        "Dadurch",
+        "Allerdings",
+        "Trotzdem",
+        "Zwar"
+      ],
+      "correctAnswer": "Dadurch",
+      "explanation": "Dadurch expresses the result of a previous action (cost reduction -> profit increase).",
+      "id": "c1_10_q026"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er spricht mehrere Fremdsprachen. ____ hat er internationale Erfahrung.",
+      "options": [
+        "Ausserdem",
+        "Dennoch",
+        "Folglich",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem adds additional supporting information.",
+      "id": "c1_10_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Daten waren unvollstaendig. ____ konnte keine eindeutige Analyse durchgefuehrt werden.",
+      "options": [
+        "Folglich",
+        "Dennoch",
+        "Zusaetzlich",
+        "Einerseits"
+      ],
+      "correctAnswer": "Folglich",
+      "explanation": "Folglich introduces a logical consequence (incomplete data -> no clear analysis).",
+      "id": "c1_10_q028"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Situation ist kompliziert. ____ muessen wir schnell handeln.",
+      "options": [
+        "Dennoch",
+        "Ausserdem",
+        "Naemlich",
+        "Ebenso"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses contrast between complexity and urgency of action.",
+      "id": "c1_10_q029"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Unterlagen vergessen. ____ musste der Termin verschoben werden.",
+      "options": [
+        "Deshalb",
+        "Trotzdem",
+        "Allerdings",
+        "Waehrenddessen"
+      ],
+      "correctAnswer": "Deshalb",
+      "explanation": "Deshalb expresses a direct consequence (forgot documents -> rescheduled).",
+      "id": "c1_10_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Nachfrage sinkt. ____ bleibt das Unternehmen optimistisch.",
+      "options": [
+        "Dennoch",
+        "Daher",
+        "Somit",
+        "Ausserdem"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch introduces an unexpected contrast (sinking demand but optimistic).",
+      "id": "c1_10_q031"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forschungsergebnisse sind vielversprechend. ____ koennten neue Therapien entwickelt werden.",
+      "options": [
+        "Dadurch",
+        "Trotzdem",
+        "Allerdings",
+        "Naemlich"
+      ],
+      "correctAnswer": "Dadurch",
+      "explanation": "Dadurch links cause (promising results) with possible result (new therapies).",
+      "id": "c1_10_q032"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Praesentation war informativ. ____ war sie gut strukturiert.",
+      "options": [
+        "Ausserdem",
+        "Dennoch",
+        "Folglich",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem adds another positive aspect (informative AND well-structured).",
+      "id": "c1_10_q033"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Produktionskosten steigen. ____ muessen Einsparungen vorgenommen werden.",
+      "options": [
+        "Daher",
+        "Trotzdem",
+        "Ebenso",
+        "Allerdings"
+      ],
+      "correctAnswer": "Daher",
+      "explanation": "Daher expresses logical consequence (rising costs -> savings needed).",
+      "id": "c1_10_q034"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er war schlecht vorbereitet. ____ bestand er die Pruefung.",
+      "options": [
+        "Trotzdem",
+        "Deshalb",
+        "Somit",
+        "Naemlich"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem signals an unexpected outcome (poor preparation but passed).",
+      "id": "c1_10_q035"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Analyse war sehr komplex. ____ dauerte sie mehrere Wochen.",
+      "options": [
+        "Daher",
+        "Dennoch",
+        "Zusaetzlich",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Daher",
+      "explanation": "Daher links complexity with the long duration (consequence).",
+      "id": "c1_10_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen expandiert international. ____ werden neue Mitarbeiter eingestellt.",
+      "options": [
+        "Ausserdem",
+        "Folglich",
+        "Trotzdem",
+        "Allerdings"
+      ],
+      "correctAnswer": "Folglich",
+      "explanation": "Folglich introduces a logical consequence (international expansion -> hiring).",
+      "id": "c1_10_q037"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Ergebnisse sind nicht eindeutig. ____ laesst sich keine sichere Schlussfolgerung ziehen.",
+      "options": [
+        "Daher",
+        "Ausserdem",
+        "Dennoch",
+        "Ebenso"
+      ],
+      "correctAnswer": "Daher",
+      "explanation": "Daher expresses consequence based on unclear results.",
+      "id": "c1_10_q038"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Er verfuegt ueber umfangreiche Erfahrung. ____ kennt er den internationalen Markt sehr gut.",
+      "options": [
+        "Ausserdem",
+        "Dennoch",
+        "Trotzdem",
+        "Somit"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem adds supporting information (experience AND knows the market).",
+      "id": "c1_10_q039"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die technischen Probleme waren erheblich. ____ konnte das System repariert werden.",
+      "options": [
+        "Dennoch",
+        "Deshalb",
+        "Ausserdem",
+        "Folglich"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses contrast between difficulty (serious problems) and successful repair.",
+      "id": "c1_10_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Textkohaesion bezieht sich auf die ____ Verknuepfung eines Textes.",
+      "options": [
+        "logische und grammatische",
+        "rein inhaltliche",
+        "stilistische",
+        "phonetische"
+      ],
+      "correctAnswer": "logische und grammatische",
+      "explanation": "Textkohaesion refers to grammatical and logical connections within a text using conjunctions, pronouns, and discourse markers.",
+      "id": "c1_10_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker signalisiert eine Zusammenfassung oder Schlussfolgerung?",
+      "options": [
+        "zunaechst",
+        "ausserdem",
+        "fazit",
+        "allerdings"
+      ],
+      "correctAnswer": "fazit",
+      "explanation": "Fazit (in conclusion/summary) introduces a concluding statement. Zunaechst is sequential, ausserdem additive, allerdings contrastive.",
+      "id": "c1_10_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Sie hat viel gelernt; ____ hat sie die Pruefung bestanden.",
+      "options": [
+        "dennoch",
+        "folglich",
+        "trotzdem",
+        "allerdings"
+      ],
+      "correctAnswer": "folglich",
+      "explanation": "Folglich expresses a logical conclusion: She studied hard, therefore she passed. The others express contrast/concession.",
+      "id": "c1_10_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker druckt einen Gegensatz oder eine Einschraenkung aus?",
+      "options": [
+        "ausserdem",
+        "somit",
+        "jedoch",
+        "beispielsweise"
+      ],
+      "correctAnswer": "jedoch",
+      "explanation": "Jedoch (however) is contrastive. Ausserdem is additive, somit conclusive, beispielsweise exemplary.",
+      "id": "c1_10_q044"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: Ich mag Kaffee. ____ trinke ich lieber Tee.",
+      "options": [
+        "Zudem",
+        "Deshalb",
+        "Dennoch",
+        "Ausserdem"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses contrast: I like coffee, nevertheless I prefer tea. Zudem/ausserdem would add similar information, not contrast.",
+      "id": "c1_10_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein typischer Diskursmarker zur Einleitung eines Beispiels?",
+      "options": [
+        "insbesondere",
+        "schliesslich",
+        "somit",
+        "daher"
+      ],
+      "correctAnswer": "insbesondere",
+      "explanation": "Insbesondere (particularly/especially) introduces a specific example or emphasis.",
+      "id": "c1_10_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ moechte ich drei Punkte ansprechen.",
+      "options": [
+        "Zusammenfassend",
+        "Abschliessend",
+        "Einleitend",
+        "Folglich"
+      ],
+      "correctAnswer": "Einleitend",
+      "explanation": "Einleitend (introductory) signals the beginning of a list or explanation. Abschliessend would be for conclusions.",
+      "id": "c1_10_q047"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Verwendung von Pronomen wie dieser, jener oder letzterer dient der ____.",
+      "options": [
+        "Kohaesion",
+        "Kohaerenz",
+        "Interpunktion",
+        "Redundanz"
+      ],
+      "correctAnswer": "Kohaesion",
+      "explanation": "Pronouns create explicit grammatical links (cohesion) by referring back to previously mentioned nouns.",
+      "id": "c1_10_q048"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker zeigt eine Ursache-Wirkungs-Beziehung an?",
+      "options": [
+        "obwohl",
+        "naemlich",
+        "deshalb",
+        "trotzdem"
+      ],
+      "correctAnswer": "deshalb",
+      "explanation": "Deshalb (therefore) indicates a cause-effect relationship. Obwohl = concessive, naemlich = explanatory, trotzdem = contrastive.",
+      "id": "c1_10_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie: Er ist sehr reich. ____ ist er nicht gluecklich.",
+      "options": [
+        "Trotzdem",
+        "Folglich",
+        "Deswegen",
+        "Somit"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Trotzdem expresses contrast between wealth and lack of happiness. Folglich/Deswegen/Somit would imply logical consequence.",
+      "id": "c1_10_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt einen kohaesionsstiftenden Pro-Form-Ausdruck (Stellvertreter)?",
+      "options": [
+        "Das Wetter ist schoen.",
+        "Peter geht ins Kino. Das freut mich.",
+        "Schnell laufen ist gesund.",
+        "Hast du Zeit?"
+      ],
+      "correctAnswer": "Peter geht ins Kino. Das freut mich.",
+      "explanation": "Das refers back to the entire previous clause, creating cohesion without repetition.",
+      "id": "c1_10_q051"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie mit einem passenden Diskursmarker: Er hat nicht gelernt. ____ hat er die Pruefung bestanden.",
+      "options": [
+        "Deshalb",
+        "Trotzdem",
+        "Ausserdem",
+        "Zudem"
+      ],
+      "correctAnswer": "Trotzdem",
+      "explanation": "Contrast: He didn't study, nevertheless he passed. Trotzdem signals concession.",
+      "id": "c1_10_q052"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Unterschied zwischen dagegen und hingegen als Diskursmarker?",
+      "options": [
+        "Kein bedeutender Unterschied, beide sind kontrastierend.",
+        "Dagegen ist kausal, hingegen temporal.",
+        "Dagegen ist umgangssprachlich, hingegen formell.",
+        "Dagegen zeigt Opposition, hingegen Vergleich."
+      ],
+      "correctAnswer": "Kein bedeutender Unterschied, beide sind kontrastierend.",
+      "explanation": "Both dagegen and hingegen are contrastive discourse markers with no significant semantic difference.",
+      "id": "c1_10_q053"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker eignet sich, um einen neuen Aspekt hinzuzufuegen?",
+      "options": [
+        "allerdings",
+        "des Weiteren",
+        "dennoch",
+        "folglich"
+      ],
+      "correctAnswer": "des Weiteren",
+      "explanation": "Des Weiteren (furthermore/moreover) adds another point. The others express contrast or consequence.",
+      "id": "c1_10_q054"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: ____ der hohen Kosten wurde das Projekt genehmigt.",
+      "options": [
+        "Wegen",
+        "Trotz",
+        "Aufgrund",
+        "Durch"
+      ],
+      "correctAnswer": "Trotz",
+      "explanation": "Trotz + Genitiv (Trotz der hohen Kosten) expresses concession despite high costs. Wegen/Aufgrund express cause, not contrast.",
+      "id": "c1_10_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck leitet eine Umformulierung oder Klarstellung ein?",
+      "options": [
+        "also",
+        "im Gegensatz",
+        "zudem",
+        "folglich"
+      ],
+      "correctAnswer": "also",
+      "explanation": "Also (so/thus/in other words) can introduce a reformulation or clarification of what was just said.",
+      "id": "c1_10_q056"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Textkohaesion wird durch temporale Adverbien wie ____ unterstuetzt.",
+      "options": [
+        "folglich",
+        "zunaechst",
+        "demnach",
+        "naemlich"
+      ],
+      "correctAnswer": "zunaechst",
+      "explanation": "Zunaechst (firstly/at first) is a temporal adverb organizing the sequence of information, improving cohesion.",
+      "id": "c1_10_q057"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie den passenden Diskursmarker: Das Wetter war schlecht. ____ entschieden wir uns um.",
+      "options": [
+        "Deshalb",
+        "Trotzdem",
+        "Dennoch",
+        "Allerdings"
+      ],
+      "correctAnswer": "Deshalb",
+      "explanation": "Cause-effect: The weather was bad, therefore we changed our plans. Deshalb signals logical consequence.",
+      "id": "c1_10_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher dieser Ausdruecke ist ein Diskursmarker, der eine Einschraenkung oder Bedingung signalisiert?",
+      "options": [
+        "jedenfalls",
+        "vorausgesetzt dass",
+        "insgesamt",
+        "beispielsweise"
+      ],
+      "correctAnswer": "vorausgesetzt dass",
+      "explanation": "Vorausgesetzt dass (provided that) introduces a condition/restriction.",
+      "id": "c1_10_q059"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: Ich habe keine Zeit. ____, es ist schon zu spaet.",
+      "options": [
+        "Ausserdem",
+        "Deshalb",
+        "Obwohl",
+        "Trotzdem"
+      ],
+      "correctAnswer": "Ausserdem",
+      "explanation": "Ausserdem (furthermore/besides) adds another supporting argument.",
+      "id": "c1_10_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist das Ziel von Diskursmarkern in gesprochener Sprache?",
+      "options": [
+        "Den Satz zu verlangern",
+        "Die Rede zu strukturieren und Hoerer zu leiten",
+        "Die Grammatik zu vereinfachen",
+        "Den Wortschatz zu reduzieren"
+      ],
+      "correctAnswer": "Die Rede zu strukturieren und Hoerer zu leiten",
+      "explanation": "Discourse markers help organize speech, signal topic shifts, and guide the listener through the argument.",
+      "id": "c1_10_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen gestalteten sich aeusserst schwierig, ____ konnte letztendlich ein Kompromiss erzielt werden.",
+      "options": [
+        "nichtsdestotrotz",
+        "folglich",
+        "zudem",
+        "demnach"
+      ],
+      "correctAnswer": "nichtsdestotrotz",
+      "explanation": "Nichtsdestotrotz means nevertheless: despite difficult negotiations, a compromise was reached.",
+      "id": "c1_10_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Klimawandel schreitet unaufhaltsam voran. ____ muessen politische Massnahmen weltweit drastisch verschaerft werden.",
+      "options": [
+        "Infolgedessen",
+        "Nichtsdestoweniger",
+        "Dessen ungeachtet",
+        "Freilich"
+      ],
+      "correctAnswer": "Infolgedessen",
+      "explanation": "Infolgedessen (consequently) logically links cause (climate change) to effect (political action required).",
+      "id": "c1_10_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen konnte seinen Gewinn im letzten Quartal steigern. ____ wurde die Kundenzufriedenheit erheblich verbessert.",
+      "options": [
+        "Darueber hinaus",
+        "Demgegenueber",
+        "Zwar",
+        "Stattdessen"
+      ],
+      "correctAnswer": "Darueber hinaus",
+      "explanation": "Darueber hinaus (furthermore/in addition) adds another positive development.",
+      "id": "c1_10_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Renovierung des historischen Gebaeudes ist sehr kostspielig, ____ sie fuer den Erhalt des Stadtbildes unerlaesslich ist.",
+      "options": [
+        "zumal",
+        "wohingegen",
+        "weshalb",
+        "sofern"
+      ],
+      "correctAnswer": "zumal",
+      "explanation": "Zumal (especially as/particularly since) provides a compelling reason justifying the high cost.",
+      "id": "c1_10_q065"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Viele Studenten klagen ueber die hohe Arbeitsbelastung, ____ andere das Pensum problemlos bewaeltigen.",
+      "options": [
+        "waehrend",
+        "indem",
+        "sodass",
+        "nachdem"
+      ],
+      "correctAnswer": "waehrend",
+      "explanation": "Waehrend acts as an adversarial connector (whereas) to contrast two different groups of students.",
+      "id": "c1_10_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Es gab heftige Proteste gegen das neue Gesetz; ____ trat es wie geplant am ersten Januar in Kraft.",
+      "options": [
+        "gleichwohl",
+        "mithin",
+        "demzufolge",
+        "hiernach"
+      ],
+      "correctAnswer": "gleichwohl",
+      "explanation": "Gleichwohl (nonetheless/yet) is a high-register concessive connector indicating protests did not stop the law.",
+      "id": "c1_10_q067"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Forschungsergebnisse sind noch nicht vollstaendig ausgereift. Es waere ____ verfrueht, jetzt schon von einer Sensation zu sprechen.",
+      "options": [
+        "mithin",
+        "allenfalls",
+        "hingegen",
+        "vielmehr"
+      ],
+      "correctAnswer": "mithin",
+      "explanation": "Mithin is a formal logical connector meaning consequently/therefore, signaling a direct logical deduction.",
+      "id": "c1_10_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Konzept klingt theoretisch schluessig. ____ zeigt die Praxis, dass die Umsetzung erhebliche Maengel aufweist.",
+      "options": [
+        "Demgegenueber",
+        "Inwieweit",
+        "Ebenso",
+        "Infolgedessen"
+      ],
+      "correctAnswer": "Demgegenueber",
+      "explanation": "Demgegenueber expresses contrast (on the other hand/by contrast), juxtaposing theory with practical failures.",
+      "id": "c1_10_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Pruefung nicht bestanden, ____ er sich wochenlang ohne Pause darauf vorbereitet hatte.",
+      "options": [
+        "wenngleich",
+        "sofern",
+        "weswegen",
+        "wobei"
+      ],
+      "correctAnswer": "wenngleich",
+      "explanation": "Wenngleich introduces a concessive subordinate clause (although/even though). Typical C1 academic cohesion.",
+      "id": "c1_10_q070"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Reform stiess auf breite Ablehnung, ____ sich die Regierung gezwungen sah, den Entwurf grundlegend zu ueberarbeiten.",
+      "options": [
+        "weshalb",
+        "wodurch",
+        "woraufhin",
+        "wogegen"
+      ],
+      "correctAnswer": "weshalb",
+      "explanation": "Weshalb acts as a relative causal conjunction (which is why) connecting rejection to the consequence.",
+      "id": "c1_10_q071"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Einige Oekonomen warnen vor einer Inflation. ____ betonen andere Experten die Stabilitaet der Waehrung.",
+      "options": [
+        "Demgegenueber",
+        "Darueber hinaus",
+        "Folglich",
+        "Demnach"
+      ],
+      "correctAnswer": "Demgegenueber",
+      "explanation": "Demgegenueber establishes cohesion by explicitly contrasting opposing perspectives of two expert groups.",
+      "id": "c1_10_q072"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt scheiterte nicht am Budget, sondern ____ an der mangelhaften Kommunikation innerhalb des Teams.",
+      "options": [
+        "vielmehr",
+        "allerdings",
+        "hingegen",
+        "zwar"
+      ],
+      "correctAnswer": "vielmehr",
+      "explanation": "The pattern nicht... sondern vielmehr rejects one explanation and emphasizes a more accurate alternative.",
+      "id": "c1_10_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Autor konnte seine Thesen nicht ausreichend belegen, ____ die gesamte Studie in der Fachwelt stark kritisiert wurde.",
+      "options": [
+        "weswegen",
+        "wohingegen",
+        "obgleich",
+        "indem"
+      ],
+      "correctAnswer": "weswegen",
+      "explanation": "Weswegen is a relative causal connector (on account of which) connecting reason to consequence.",
+      "id": "c1_10_q074"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die neuen Richtlinien sind strikt einzuhalten, ____ Ausnahmeregelungen im Vorfeld schriftlich genehmigt wurden.",
+      "options": [
+        "es sei denn,",
+        "unter der Bedingung,",
+        "vorausgesetzt dass",
+        "andernfalls"
+      ],
+      "correctAnswer": "es sei denn,",
+      "explanation": "Es sei denn (dass) introduces a restrictive condition or exception to an absolute rule (unless).",
+      "id": "c1_10_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ die Digitalisierung enorme Chancen bietet, birgt sie doch erhebliche Risiken fuer den Datenschutz.",
+      "options": [
+        "So",
+        "Wie",
+        "Obgleich",
+        "Wenngleich"
+      ],
+      "correctAnswer": "Wenngleich",
+      "explanation": "Wenngleich introduces a concessive clause at the beginning. The presence of doch pairs naturally with concessive structures.",
+      "id": "c1_10_q076"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Theorie ist hochkomplex. ____ verstaendlich hat der Professor sie in seiner Vorlesung zusammengefasst.",
+      "options": [
+        "Dessen ungeachtet",
+        "Nichtsdestoweniger",
+        "Gleichwohl",
+        "Dessenhalben"
+      ],
+      "correctAnswer": "Dessen ungeachtet",
+      "explanation": "Dessen ungeachtet (regardless of that) is a genitive-based pronominal adverb providing high-level cohesion.",
+      "id": "c1_10_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Man muss die Ursachen des Problems genau analysieren, ____ man wirksame Gegenmassnahmen einleiten kann.",
+      "options": [
+        "ehe",
+        "waehrend",
+        "indem",
+        "solange"
+      ],
+      "correctAnswer": "ehe",
+      "explanation": "Ehe is a sophisticated temporal conjunction meaning before. Analysis is a mandatory prerequisite to action.",
+      "id": "c1_10_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag ist rechtlich bindend. ____ Klauseln im Nachhinein veraendert werden, verliert er seine Gueltigkeit.",
+      "options": [
+        "Insofern",
+        "Sofern",
+        "Sollten",
+        "Falls"
+      ],
+      "correctAnswer": "Sollten",
+      "explanation": "An inverted conditional without wenn: Sollten places the verb at position 1 to introduce a hypothesis.",
+      "id": "c1_10_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "____ drastisch die Sparmassnahmen auch sein mogen, sie sind zur Rettung des Haushalts absolut alternativlos.",
+      "options": [
+        "So",
+        "Wie",
+        "Obwohl",
+        "Ungeachtet"
+      ],
+      "correctAnswer": "So",
+      "explanation": "So + Adjektiv + auch + mogen forms an advanced concessive construction: No matter how drastic...",
+      "id": "c1_10_q080"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Belegschaft stimmte den Kuerzungen zu, ____ einen drohenden Stellenabbau zu verhindern.",
+      "options": [
+        "um",
+        "anstatt",
+        "ohne",
         "damit"
       ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "um",
+      "explanation": "Um ... zu + Infinitiv expresses the goal/intention of the identical subject (Belegschaft ... zu verhindern).",
+      "id": "c1_10_q081"
     },
     {
-      "id": "c1_10_q025",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker leitet typischerweise eine zusammenfassende Aussage ein?",
+      "options": [
+        "Zusammenfassend laesst sich festhalten, dass...",
+        "Im Gegensatz dazu...",
+        "Darueber hinaus...",
+        "Angesichts der Tatsache, dass..."
+      ],
+      "correctAnswer": "Zusammenfassend laesst sich festhalten, dass...",
+      "explanation": "This phrase is a standard metacommunicative marker signaling conclusion or summary in academic/formal texts.",
+      "id": "c1_10_q082"
     },
     {
-      "id": "c1_10_q026",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Pronomen dient der Textkohaesion durch Rueckverweis im Satz: Die Studie wurde 2023 veroeffentlicht. ____ Ergebnisse sind bahnbrechend.",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "Diese",
+        "Jene",
+        "Solche",
+        "Welche"
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
+      "correctAnswer": "Diese",
+      "explanation": "Demonstrative pronouns like diese create cohesion by referring back to previously mentioned entities (die Studie). Anaphoric reference is fundamental for C1 text coherence.",
+      "id": "c1_10_q083"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck markiert einen argumentativen Gegensatz auf Diskursebene?",
+      "options": [
+        "allerdings",
+        "und",
+        "sodass",
+        "beispielsweise"
+      ],
+      "correctAnswer": "allerdings",
+      "explanation": "Allerdings functions as an adversative discourse marker, introducing a concession or counterpoint. Unlike coordinating aber, it occupies position 1 or 3 requiring V2.",
+      "id": "c1_10_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie den kohaesiven Marker: Die Massnahme war kostspielig. ____, erwies sie sich als effektiv.",
+      "options": [
+        "Dennoch",
+        "Folglich",
+        "Beispielsweise",
+        "Zunaechst"
+      ],
+      "correctAnswer": "Dennoch",
+      "explanation": "Dennoch expresses concessive cohesion, linking two clauses where the second contradicts an expectation. Essential for nuanced C1 argumentation.",
+      "id": "c1_10_q085"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker kuenndigt eine Praezisierung oder Erlaeuterung an?",
+      "options": [
+        "Genauer gesagt...",
+        "Im Grossen und Ganzen...",
+        "Letztendlich...",
+        "Grob vereinfacht..."
+      ],
+      "correctAnswer": "Genauer gesagt...",
+      "explanation": "This phrase signals elaboration or specification, guiding the reader to expect more detailed information. Metadiscursive cues are crucial for C1 reading and writing.",
+      "id": "c1_10_q086"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Substitutionsmittel foerdert die Textkohaesion, indem es Wiederholungen vermeidet?",
+      "options": [
+        "Synonyme (z.B. Fahrzeug statt Auto)",
+        "Identische Lexeme in jedem Satz",
+        "Ausschliessliche Verwendung von Pronomen",
+        "Vermeidung aller Referenzausdruecke"
+      ],
+      "correctAnswer": "Synonyme (z.B. Fahrzeug statt Auto)",
+      "explanation": "Lexical substitution using synonyms maintains reference while enhancing stylistic variety. Key C1 cohesion strategy to avoid monotony.",
+      "id": "c1_10_q087"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker leitet eine argumentative Steigerung ein?",
+      "options": [
+        "Darueber hinaus...",
+        "Im Gegensatz dazu...",
+        "Zusammenfassend...",
+        "Beispielsweise..."
+      ],
+      "correctAnswer": "Darueber hinaus...",
+      "explanation": "Darueber hinaus adds information of equal or greater weight, functioning as an additive discourse marker. Signals cumulative argumentation for complex positions.",
+      "id": "c1_10_q088"
     },
     {
-      "id": "c1_10_q027",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_10_q028",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_10_q029",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wie wird im Deutschen typischerweise ein neuer Textabschnitt eingeleitet, der eine Gegenposition einfuehrt?",
+      "options": [
+        "Einerseits muss bedacht werden, dass...",
+        "Zunaechst ist festzuhalten, dass...",
+        "Abschliessend laesst sich sagen, dass...",
+        "Im Folgenden wird erlaeutert, dass..."
+      ],
+      "correctAnswer": "Einerseits muss bedacht werden, dass...",
+      "explanation": "This phrase introduces one side of a dialectical argument, often paired with andererseits. Characteristic of balanced C1 argumentative texts.",
+      "id": "c1_10_q089"
     },
     {
-      "id": "c1_10_q030",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_10_q031",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q032",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker signalisiert eine logische Schlussfolgerung?",
+      "options": [
+        "Folglich",
+        "Beispielsweise",
+        "Vermoeglich",
+        "Gleichwohl"
+      ],
+      "correctAnswer": "Folglich",
+      "explanation": "Folglich is a formal inferential connector indicating that the following statement is a logical consequence of preceding arguments.",
+      "id": "c1_10_q090"
     },
     {
-      "id": "c1_10_q033",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q034",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q035",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie kohaesiv korrekt: Die Daten wurden erhoben. ____, erfolgte die statistische Auswertung.",
+      "options": [
+        "Anschliessend",
+        "Obwohl",
+        "Indem",
+        "Damit"
+      ],
+      "correctAnswer": "Anschliessend",
+      "explanation": "Temporal adverbs like anschliessend create chronological cohesion in procedural texts, guiding the reader through sequential steps.",
+      "id": "c1_10_q091"
     },
     {
-      "id": "c1_10_q036",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q037",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q038",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck dient der expliziten Strukturierung eines laengeren Arguments?",
+      "options": [
+        "Zum einen ... zum anderen ...",
+        "Hin und wieder ...",
+        "Ab und zu ...",
+        "Mehr oder weniger ..."
+      ],
+      "correctAnswer": "Zum einen ... zum anderen ...",
+      "explanation": "This correlative discourse marker explicitly signals a two-part argument structure, enhancing text transparency.",
+      "id": "c1_10_q092"
     },
     {
-      "id": "c1_10_q039",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q040",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q041",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Funktion hat der Marker indes im akademischen Diskurs?",
+      "options": [
+        "Er leitet eine einschraenkende oder kontrastierende Aussage ein.",
+        "Er druckt eine zeitliche Gleichzeitigkeit aus.",
+        "Er markiert eine abschliessende Bewertung.",
+        "Er kuenndigt ein Beispiel an."
+      ],
+      "correctAnswer": "Er leitet eine einschraenkende oder kontrastierende Aussage ein.",
+      "explanation": "Indes is a formal concessive/adversative marker meaning however/nevertheless. Register-appropriate use signals C1-level stylistic competence.",
+      "id": "c1_10_q093"
     },
     {
-      "id": "c1_10_q042",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q043",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q044",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker ist am geeignetsten, um eine hypothetische Alternative im Diskurs einzufuehren?",
+      "options": [
+        "Angenommen, ...",
+        "Tatsaechlich, ...",
+        "Offensichtlich, ...",
+        "Zweifellos, ..."
+      ],
+      "correctAnswer": "Angenommen, ...",
+      "explanation": "Angenommen explicitly frames a hypothetical scenario for argumentative exploration. Crucial for C1-level counterfactual reasoning in essays.",
+      "id": "c1_10_q094"
     },
     {
-      "id": "c1_10_q045",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q046",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q047",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Kohaesionsstrategie wird im Satz angewendet? Die neue Richtlinie wurde kritisiert. Diese Kritik war jedoch unbegruendet.",
+      "options": [
+        "Anaphorische Referenz mit Demonstrativpronomen",
+        "Kataphorische Referenz mit Relativpronomen",
+        "Elliptische Auslassung des Subjekts",
+        "Lexikalische Wiederholung ohne Variation"
+      ],
+      "correctAnswer": "Anaphorische Referenz mit Demonstrativpronomen",
+      "explanation": "Diese refers back to Kritik, creating anaphoric cohesion. Mastering such reference chains is essential for C1 textual coherence.",
+      "id": "c1_10_q095"
     },
     {
-      "id": "c1_10_q048",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Marker signalisiert eine argumentative Korrektur oder Praezisierung einer vorherigen Aussage?",
+      "options": [
+        "Vielmehr",
+        "Beispielsweise",
+        "Folglich",
+        "Zunaechst"
+      ],
+      "correctAnswer": "Vielmehr",
+      "explanation": "Vielmehr explicitly corrects or refines a preceding statement, signaling a logical pivot. Demonstrates advanced argumentative control expected in C1 writing.",
+      "id": "c1_10_q096"
     },
     {
-      "id": "c1_10_q049",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q050",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q051",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Wie wird im formalen Diskurs typischerweise ein Perspektivenwechsel markiert?",
+      "options": [
+        "Aus der Perspektive der Betroffenen betrachtet, ...",
+        "Man koennte meinen, dass ...",
+        "Es ist allgemein bekannt, dass ...",
+        "Zugegebenermassen ..."
+      ],
+      "correctAnswer": "Aus der Perspektive der Betroffenen betrachtet, ...",
+      "explanation": "This phrase explicitly signals a shift in viewpoint, a sophisticated discourse strategy for balanced argumentation demonstrating multi-perspective analysis.",
+      "id": "c1_10_q097"
     },
     {
-      "id": "c1_10_q052",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q053",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q054",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck dient der expliziten Markierung einer Argumentationsluecke oder Einschraenkung?",
+      "options": [
+        "Soweit ersichtlich, ...",
+        "Ohne Zweifel, ...",
+        "Zweifellos, ...",
+        "Selbstverstaendlich, ..."
+      ],
+      "correctAnswer": "Soweit ersichtlich, ...",
+      "explanation": "This hedging phrase acknowledges epistemic limitations, enhancing academic credibility. Strategic use of caution markers reflects C1 pragmatic competence.",
+      "id": "c1_10_q098"
     },
     {
-      "id": "c1_10_q055",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q056",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q057",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welche Kohaesionsstrategie verbindet diese Saetze am elegantesten? Die Studie hat methodische Schwaechen. Ihre Ergebnisse sind dennoch relevant.",
+      "options": [
+        "Trotz methodischer Schwaechen der Studie sind ihre Ergebnisse dennoch relevant.",
+        "Die Studie hat methodische Schwaechen, und ihre Ergebnisse sind relevant.",
+        "Weil die Studie methodische Schwaechen hat, sind ihre Ergebnisse relevant.",
+        "Die Studie hat methodische Schwaechen; ihre Ergebnisse sind relevant."
+      ],
+      "correctAnswer": "Trotz methodischer Schwaechen der Studie sind ihre Ergebnisse dennoch relevant.",
+      "explanation": "Trotz + Genitiv condenses two clauses into one, creating denser formal syntax. Syntactic integration is a hallmark of C1 textual sophistication.",
+      "id": "c1_10_q099"
     },
     {
-      "id": "c1_10_q058",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q059",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_10_q060",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welcher Diskursmarker ist im wissenschaftlichen Register am angemessensten, um eine vorlaeufige Schlussfolgerung einzuleiten?",
+      "options": [
+        "Vorlaeufig laesst sich festhalten, dass...",
+        "Auf jeden Fall ist klar, dass...",
+        "Es steht ausser Frage, dass...",
+        "Jeder weiss, dass..."
+      ],
+      "correctAnswer": "Vorlaeufig laesst sich festhalten, dass...",
+      "explanation": "Combines epistemic caution (vorlaeufig) with formal framing (laesst sich festhalten), reflecting academic humility and precision.",
+      "id": "c1_10_q100"
     },
     {
-      "id": "c1_10_q061",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q062",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q063",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q064",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sprach, ___ er alles ___",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie demonstriert fortgeschrittene Kompetenz in der Verwendung von Diskursmarkern auf C1-Niveau?",
       "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
+        "Ausschliessliche Verwendung einfacher Konnektoren wie und, aber, dann.",
+        "Gezielte Variation zwischen additiven, adversativen, kausalen und metakommunikativen Markern je nach argumentativer Funktion und Register.",
+        "Vermeidung aller Diskursmarker zugunsten impliziter Verknuepfung.",
+        "Nutzung nur der Marker, die in der Muttersprache des Lernenden existieren."
       ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q065",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q066",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q067",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q068",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q069",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q070",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q071",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q072",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q073",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q074",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q075",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q076",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q077",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q078",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q079",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q080",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q081",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q082",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q083",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q084",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q085",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q086",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q087",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q088",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q089",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q090",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q091",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q092",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q093",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q094",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q095",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q096",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q097",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q098",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q099",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_10_q100",
-      "subjectId": "c1_10",
-      "topicName": "Unpersönliche Ausdrücke",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Gezielte Variation zwischen additiven, adversativen, kausalen und metakommunikativen Markern je nach argumentativer Funktion und Register.",
+      "explanation": "C1 proficiency includes pragmatic flexibility: selecting discourse markers not just for grammatical correctness but for rhetorical effect.",
+      "id": "c1_10_q101"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

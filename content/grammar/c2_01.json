@@ -1,0 +1,1422 @@
+{
+  "version": "1.0",
+  "subjectId": "c2_01",
+  "topicName": "Nominalstil & Verbalstil",
+  "level": "C2",
+  "totalQuestions": 100,
+  "description": "Nominalstil & Verbalstil im akademischen Diskurs - C2level transformation between verbal and nominal styles in German academic writing. Nominalstil compresses subclauses into compact noun phrases with genitive attributes and formal prepositions (aufgrund, trotz, bei, nach). Key skills: identifying conjunctions (weil, obwohl, wenn, nachdem) and replacing them with prepositions + genitive; nominalizing verbs with correct suffixes (-ung, -heit, -keit); forming genitive chains and Funktionsverbgefege; avoiding pseudoGerman like Herausfindung (use Ermittlung instead); balancing density with readability.",
+  "tips": [
+    "1. Core Concept: Verbalstil vs. Nominalstil: Verbalstil uses subclauses (weil..., obwohl..., wenn...) with finite verbs. Nominalstil compresses these into single noun phrases: 'Weil die Preise rasant steigen...' -> 'Aufgrund des rasanten Preisanstiegs...'.",
+    "2. Transformation Blueprint: [Conjunction] + [Verb] + [Adverb] -> [Preposition + Case] + [Noun] + [Adjective]. Identify the logical connector, match the preposition twin (e.g., weil->aufgrund, obwohl->trotz), nominalize the verb into a noun with correct genitive endings.",
+    "3. Master Translation Matrix: Causal: weil/da -> aufgrund/wegen (+ Gen); Concessive: obwohl -> trotz/ungeachtet (+ Gen); Conditional: wenn/falls -> bei (+ Dat)/im Falle (+ Gen); Temporal: bevor -> vor (+ Dat), nachdem -> nach (+ Dat), waehrend -> waehrend/bei (+ Dat); Modal: indem -> durch (+ Akk)/mittels (+ Gen); Final: damit -> zwecks (+ Gen)/zu (+ Dativ).",
+    "4. C2 Noun Suffix Secrets: -ung for process verbs (Realisierung, Durchfuehrung); masculine root nouns for strong verbs (Anstieg, Ausfall, Umgang); -ieren verbs -> -ation or -ung (Konzentration, Analyse). AVOID: Herausfindung, Beweisung, Ueberlegerei.",
+    "5. Genitive Trap: Watch endings carefully. Incorrect: 'Aufgrund rasante Anstieg des Preises...' Correct: 'Aufgrund des rasanten Anstieges der Preise...' Adjective endings must match weak declension (-en) after definite articles.",
+    "6. Funktionsverbgefege (FVG): Replace generic verbs with formal combos: entscheiden -> eine Entscheidung treffen; kritisieren -> Kritik ueben (an + Dat); beantragen -> einen Antrag stellen (auf + Akk); beeinflussen -> Einfluss ausueben (auf + Akk); zur Anwendung bringen; in Betracht ziehen; zur Kenntnis nehmen.",
+    "7. Don't Overdo in Speaking: Nominalstil is critical for Reading, Grammar, Writing. In the Mündliche Pruefung, use it to introduce a thesis, but prefer clean verbal style for fluid explanation. Overuse sounds like a legal document.",
+    "8. Compounding: Merge verb + direct object into single compound noun. 'Wir müssen Zinsen anheben' -> 'Es kommt zu einer Zinsanhebung.' 'Die Daten auswerten' -> 'Die Datenauswertung'.",
+    "9. Self-Correction Checklist: [ ] Avoid weil/da in formal essays; [ ] Check genitive endings after aufgrund, trotz, waehrend; [ ] Turn adverbs into adjectives (kontinuierlich steigen -> kontinuierlicher Anstieg); [ ] Verify noun-preposition combos (Interesse an, Furcht vor, Umgang mit).",
+    "10. Balance: Over-nominalization creates 'Beamtendeutsch'. Limit to 2-3 noun chains per sentence. Use Verbalstil for narrative flow and emphasis."
+  ],
+  "questions": [
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was versteht man unter „Nominalstil“ in der deutschen Sprache?",
+      "options": [
+        "Einen Schreibstil, der vorwiegend Verben und Adjektive verwendet",
+        "Einen Schreibstil, der Substantive und Nominalphrasen bevorzugt und Verben oft nominalisiert",
+        "Einen Stil, der ausschliesslich in der Umgangssprache verwendet wird",
+        "Einen Stil, der auf Fremdwoerter verzichtet"
+      ],
+      "correctAnswer": "Einen Schreibstil, der Substantive und Nominalphrasen bevorzugt und Verben oft nominalisiert",
+      "explanation": "Nominalstil (nominal style) refers to a writing style that favors nouns and noun phrases, often turning verbs into nouns (nominalization). It is typical of academic, legal, and administrative German.",
+      "id": "c2_01_q001"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche der folgenden Formulierungen ist ein Beispiel fuer Nominalstil?",
+      "options": [
+        "Die Forscher haben das Experiment durchgefuehrt.",
+        "Die Durchfuehrung des Experiments durch die Forscher erfolgte gestern.",
+        "Gestern fuehrten die Forscher das Experiment durch.",
+        "Das Experiment wurde von den Forschern durchgefuehrt."
+      ],
+      "correctAnswer": "Die Durchfuehrung des Experiments durch die Forscher erfolgte gestern.",
+      "explanation": "The nominal style version replaces the verb 'durchfuehren' with the nominalization 'Durchfuehrung' and uses the support verb 'erfolgen'. This is characteristic of academic writing.",
+      "id": "c2_01_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Wie wird das Verb „analysieren“ im Nominalstil typischerweise ausgedrueckt?",
+      "options": [
+        "analysiert werden",
+        "die Analyse / eine Analyse vornehmen",
+        "analysierend vorgehen",
+        "zur Analyse bereit sein"
+      ],
+      "correctAnswer": "die Analyse / eine Analyse vornehmen",
+      "explanation": "'Analysieren' becomes 'die Analyse' (nominalization) combined with a support verb like 'vornehmen', 'durchfuehren', or 'erstellen'. This pattern is central to German nominal style.",
+      "id": "c2_01_q003"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix wird am haeufigsten zur Bildung von Nominalisierungen aus Verben verwendet?",
+      "options": [
+        "-lich",
+        "-ung",
+        "-bar",
+        "-sam"
+      ],
+      "correctAnswer": "-ung",
+      "explanation": "The suffix '-ung' is the most productive suffix for nominalizing verbs in German, e.g., 'untersuchen' -> 'Untersuchung', 'entwickeln' -> 'Entwicklung', 'durchfuehren' -> 'Durchfuehrung'.",
+      "id": "c2_01_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "In welchem texttypischen Kontext ist der Nominalstil am weitesten verbreitet?",
+      "options": [
+        "In literarischen Romanen und Kurzgeschichten",
+        "In alltaeglichen Gespraechen unter Freunden",
+        "In wissenschaftlichen Aufsaetzen, Gutachten und Behoerdentexten",
+        "In sozialen Medien und Chatverlaeufen"
+      ],
+      "correctAnswer": "In wissenschaftlichen Aufsaetzen, Gutachten und Behoerdentexten",
+      "explanation": "Nominal style is most common in academic papers, legal expert opinions, and administrative texts. It conveys objectivity, distance, and precision - core values of formal written German.",
+      "id": "c2_01_q005"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wandeln Sie den folgenden Satz in den Nominalstil um: „Die Regierung hat beschlossen, die Steuern zu erhoehen.”",
+      "options": [
+        "Die Regierung erhoeht die Steuern, weil sie es beschlossen hat.",
+        "Der Beschluss der Regierung zur Erhoehung der Steuern liegt vor.",
+        "Es wurde beschlossen, dass die Steuern erhoeht werden sollen.",
+        "Die Regierung beschloss einstimmig, die Steuern zu erhoehen."
+      ],
+      "correctAnswer": "Der Beschluss der Regierung zur Erhoehung der Steuern liegt vor.",
+      "explanation": "Both 'beschliessen' -> 'Beschluss' and 'erhoehen' -> 'Erhoehung' are nominalized. The result uses genitive chains typical of academic/administrative German nominal style.",
+      "id": "c2_01_q006"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches sogenanntes „Funktionsverbgefuege“ entspricht der Aussage „Man muss die Ergebnisse berücksichtigen“?",
+      "options": [
+        "Die Ergebnisse sind zu beruecksichtigen.",
+        "Die Beruecksichtigung der Ergebnisse ist erforderlich.",
+        "Man beruecksichtige die Ergebnisse.",
+        "Es ist beruecksichtigt worden, was die Ergebnisse zeigen."
+      ],
+      "correctAnswer": "Die Beruecksichtigung der Ergebnisse ist erforderlich.",
+      "explanation": "A 'Funktionsverbgefuege' (support verb construction) replaces a full verb with a nominalization + support verb/adjective. Here 'beruecksichtigen' -> 'Beruecksichtigung' combined with 'ist erforderlich' is the nominal style equivalent.",
+      "id": "c2_01_q007"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Funktion erfuellen Nominalphrasen mit Genitivattributen (z. B. „die Auswertung der Daten”) im akademischen Diskurs?",
+      "options": [
+        "Sie machen den Text umgangssprachlicher und persoenlicher.",
+        "Sie ermoeglichen eine verdichtete, unpersoenliche Darstellung komplexer Sachverhalte.",
+        "Sie ersetzen Konjunktionen und verbessern den Satzbau.",
+        "Sie dienen ausschliesslich der Betonung bestimmter Satzglieder."
+      ],
+      "correctAnswer": "Sie ermoeglichen eine verdichtete, unpersoenliche Darstellung komplexer Sachverhalte.",
+      "explanation": "Genitive attribute noun phrases allow writers to pack complex information into compact structures, creating the impersonal, dense, and precise register that academic discourse requires.",
+      "id": "c2_01_q008"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Woerter ist KEINE Nominalisierung eines Verbs?",
+      "options": [
+        "die Genehmigung",
+        "die Feststellung",
+        "die Freiheit",
+        "die Ueberpruefung"
+      ],
+      "correctAnswer": "die Freiheit",
+      "explanation": "'Freiheit' derives from the adjective 'frei' (via the suffix '-heit'), not from a verb. The others are nominalizations: 'genehmigen' -> 'Genehmigung', 'feststellen' -> 'Feststellung', 'ueberpruefen' -> 'Ueberpruefung'.",
+      "id": "c2_01_q009"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie die Luecke im folgenden akademischen Satz: „Im Rahmen der ____ wurden mehrere Hypothesen aufgestellt.”",
+      "options": [
+        "Forschen",
+        "Forschungsarbeit",
+        "forschenden Taetigkeit des Teams",
+        "um zu forschen"
+      ],
+      "correctAnswer": "Forschungsarbeit",
+      "explanation": "'Forschungsarbeit' is a compound noun fitting the nominal register. The preposition 'im Rahmen' (within the framework of) is itself a typical nominal style phrase, requiring a noun to follow.",
+      "id": "c2_01_q010"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher stilistische Nachteil wird dem Nominalstil haeufig vorgeworfen?",
+      "options": [
+        "Er ist zu emotional und subjektiv.",
+        "Er kann zu Schwerfaelligkeit und mangelnder Verstaendlichkeit fuehren.",
+        "Er wird von Muttersprachlern nicht akzeptiert.",
+        "Er ermoeglicht keine praezisen Aussagen."
+      ],
+      "correctAnswer": "Er kann zu Schwerfaelligkeit und mangelnder Verstaendlichkeit fuehren.",
+      "explanation": "Critics argue that excessive nominal style makes texts heavy and hard to read ('Schachtelsaetze', long genitive chains). Good academic writing balances clarity with precision, avoiding unnecessary nominalization.",
+      "id": "c2_01_q011"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Konstruktion ist ein typisches Funktionsverbgefuege im Nominalstil?",
+      "options": [
+        "in Frage kommen",
+        "zur Anwendung bringen",
+        "auf Anhieb verstehen",
+        "ins Blaue hinein reden"
+      ],
+      "correctAnswer": "zur Anwendung bringen",
+      "explanation": "'Zur Anwendung bringen' is a classic Funktionsverbgefuege (support verb construction) that replaces 'anwenden'. It consists of a preposition + nominalization + support verb, a hallmark of nominal style.",
+      "id": "c2_01_q012"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche der folgenden Praepositionalphrasen ist typisch fuer den nominalstilgepraegten akademischen Diskurs?",
+      "options": [
+        "wegen des Regens",
+        "im Hinblick auf die Ergebnisse der Untersuchung",
+        "neben dem Bahnhof",
+        "trotz seiner BemuEhungen"
+      ],
+      "correctAnswer": "im Hinblick auf die Ergebnisse der Untersuchung",
+      "explanation": "'Im Hinblick auf' is a prepositional phrase typical of formal academic writing. It is used to build long nominal chains and to frame arguments precisely, a key feature of nominal style.",
+      "id": "c2_01_q013"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Formen Sie den folgenden Satz vollstaendig in den Nominalstil um: „Weil die Daten unvollstaendig waren, konnte man keine Schluesse ziehen.”",
+      "options": [
+        "Die Unvollstaendigkeit der Daten verhinderte das Ziehen von Schluessen.",
+        "Da die Daten unvollstaendig waren, zog man keine Schluesse.",
+        "Wegen der Unvollstaendigkeit konnte niemand etwas schlussfolgern.",
+        "Man zog keine Schluesse, obwohl man es haette tun koennen."
+      ],
+      "correctAnswer": "Die Unvollstaendigkeit der Daten verhinderte das Ziehen von Schluessen.",
+      "explanation": "This version fully nominalizes the causal clause: 'unvollstaendig' -> 'Unvollstaendigkeit', 'Schluesse ziehen' -> 'das Ziehen von Schluessen'. The causal conjunction 'weil' is replaced by a nominal subject, classic academic nominal style.",
+      "id": "c2_01_q014"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage beschreibt den Unterschied zwischen „Nominalstil“ und „Verbalstil“ am treffendsten?",
+      "options": [
+        "Der Nominalstil ist stets grammatikalisch falsch, der Verbalstil immer korrekt.",
+        "Der Verbalstil ist dynamisch und handlungsbetont, waehrend der Nominalstil statisch, verdichtet und unpersoenlich wirkt.",
+        "Im Nominalstil werden ausschliesslich Pronomen vermieden.",
+        "Der Verbalstil kommt nur in der gesprochenen Sprache vor."
+      ],
+      "correctAnswer": "Der Verbalstil ist dynamisch und handlungsbetont, waehrend der Nominalstil statisch, verdichtet und unpersoenlich wirkt.",
+      "explanation": "Verbal style emphasizes action and agency through verbs, making texts dynamic and personal. Nominal style abstracts and compresses information into noun phrases, creating an impersonal, objective tone suited to academic discourse.",
+      "id": "c2_01_q015"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches sprachliche Mittel ermoeglicht es im Nominalstil, die handelnde Person zu verschweigen?",
+      "options": [
+        "Die Verwendung von Modalverben wie „müssen“ und „sollen“",
+        "Die Nominalisierung in Verbindung mit Vorgangspassiv",
+        "Die Agenslosigkeit durch unpersoenliche Nominalkonstruktionen ohne Nennung des Urhebers",
+        "Der Einsatz von Konjunktionen wie „obwohl“ und „waehrend“"
+      ],
+      "correctAnswer": "Die Agenslosigkeit durch unpersoenliche Nominalkonstruktionen ohne Nennung des Urhebers",
+      "explanation": "One key function of nominal style in academic writing is 'Agenslosigkeit' (agentlessness): by turning a verb into a noun, the actor/agent is omitted entirely (e.g., 'Die Analyse zeigte...' vs. 'Die Forscher analysierten...'). This creates objectivity.",
+      "id": "c2_01_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Identifizieren Sie die fehlerhafte Nominalisierung im folgenden Satz: „Die Berücksichtichtigung der Ergebnisauswertung erfordert eine sorgfältige Überlegerei.”",
+      "options": [
+        "Beruecksichtichtigung (Dopplung im Innern des Wortes)",
+        "Ergebnisauswertung (unuebliche Komposition)",
+        "Ueberlegerei (pejorative Bildung, stilistisch unangemessen im akademischen Kontext)",
+        "erfordert (falsches Vollverb im Nominalstil)"
+      ],
+      "correctAnswer": "Ueberlegerei (pejorative Bildung, stilistisch unangemessen im akademischen Kontext)",
+      "explanation": "'-erei' is a pejorative/ironic suffix in German (e.g., 'Schreiberei', 'Fragerei') that implies tedious or excessive activity. It is completely inappropriate in academic nominal style, where one would write 'Ueberlegung' instead.",
+      "id": "c2_01_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche komplexe Nominalphrase entspricht dem Satz: „Man sollte pruefen, ob die Methode angewendet werden kann.”?",
+      "options": [
+        "Es ist zu pruefen, ob man die Methode anwenden sollte.",
+        "Die Ueberpruefbarkeit der Anwendbarkeit der Methode bedarf naeherer Untersuchung.",
+        "Man muss die Methode auf ihre Anwendbarkeit hin untersuchen.",
+        "Die Methode wird auf ihre moegliche Anwendbarkeit ueberprueft."
+      ],
+      "correctAnswer": "Die Ueberpruefbarkeit der Anwendbarkeit der Methode bedarf naeherer Untersuchung.",
+      "explanation": "This answer chains multiple nominalizations: 'pruefen' -> 'Ueberpruefbarkeit', 'anwenden' -> 'Anwendbarkeit'. The genitive chain 'der Anwendbarkeit der Methode' is a hallmark of C2-level nominal style density.",
+      "id": "c2_01_q018"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie den Lueckentext akademisch korrekt im Nominalstil: „____ der methodischen Grundlagen ist Voraussetzung fuer eine valide Interpretation der Befunde.”",
+      "options": [
+        "Das genaue Kennen",
+        "Die genaue Kenntnis",
+        "Genau zu kennen",
+        "Wer genau kennt"
+      ],
+      "correctAnswer": "Die genaue Kenntnis",
+      "explanation": "'Die genaue Kenntnis' is the correct nominal form of 'kennen'. 'Das genaue Kennen' (infinitive noun) is grammatically possible but stylistically weak at C2 level; 'Kenntnis' is the established nominal form used in academic discourse.",
+      "id": "c2_01_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche der folgenden Aussagen ueber den Nominalstil im akademischen Diskurs ist FALSCH?",
+      "options": [
+        "Nominalisierungen ermoeglichen die Verdichtung von Informationen in kompakten Phrasen.",
+        "Der Nominalstil dient der Objektivierung und Depersonalisierung wissenschaftlicher Aussagen.",
+        "Ein uebermässiger Nominalstil gilt stilistisch stets als ideal und sollte ohne Einschraenkung angestrebt werden.",
+        "Funktionsverbgefuege wie „zur Geltung bringen“ sind typische Merkmale des Nominalstils."
+      ],
+      "correctAnswer": "Ein uebermässiger Nominalstil gilt stilistisch stets als ideal und sollte ohne Einschraenkung angestrebt werden.",
+      "explanation": "This is FALSE. While nominal style is valued in academic writing, excessive use is criticized for reducing readability and clarity. Style guides and linguists recommend balancing nominal and verbal elements for effective academic communication.",
+      "id": "c2_01_q020"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung entschied, die Steuern zu senken. Wie lautet die Transformation in den Nominalstil?\nDie Regierung traf die ____ zur Steuersenkung.",
+      "options": [
+        "Entscheidung",
+        "Entscheidungsfindung",
+        "Entschlossenheit",
+        "Entscheiden"
+      ],
+      "correctAnswer": "Entscheidung",
+      "explanation": "The verb 'entscheiden' is transformed into its corresponding noun 'die Entscheidung' (decision). It forms a typical functional verb construction (Funktionsverbgefüge): 'eine Entscheidung treffen'.",
+      "id": "c2_01_q021"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Weil die Fallzahlen rasant ansteigen, müssen die Maßnahmen verschärft werden.\nNominalstil: Aufgrund des rasanten ____ der Fallzahlen ist eine Verschärfung der Maßnahmen erforderlich.",
+      "options": [
+        "Anstiegs",
+        "Ansteigen",
+        "Anwachsens",
+        "Anstiegen"
+      ],
+      "correctAnswer": "Anstiegs",
+      "explanation": "The subclause introduced by 'Weil' is replaced by the preposition 'Aufgrund' (which requires the genitive case). The verb 'anstiegen' becomes the masculine noun 'der Anstieg', which takes the genitive ending '-es' ('des rasanten Anstiegs').",
+      "id": "c2_01_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Obwohl das Budget knapp war, wurde das Forschungsprojekt erfolgreich abgeschlossen.\nNominalstil: ____ des knappen Budgets konnte das Forschungsprojekt erfolgreich abgeschlossen werden.",
+      "options": [
+        "Trotz",
+        "Wegen",
+        "Ungeachtet",
+        "Infolge"
+      ],
+      "correctAnswer": "Trotz",
+      "explanation": "The concessive subclause connector 'Obwohl' (although) translates to the concessive preposition 'Trotz' (despite) in nominal style, which is followed here by the genitive case.",
+      "id": "c2_01_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Professor fordert, dass die Studierenden pünktlich abgeben.\nNominalstil: Der Professor fordert die pünktliche ____ der Studierenden.",
+      "options": [
+        "Abgabe",
+        "Abgebung",
+        "Abgeben",
+        "Aufgabe"
+      ],
+      "correctAnswer": "Abgabe",
+      "explanation": "The object clause (dass-Satz) is compressed into a noun phrase. The verb 'abgeben' turns into the feminine noun 'die Abgabe'.",
+      "id": "c2_01_q024"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wenn man die Daten präzise analysiert, lassen sich Fehler vermeiden.\nNominalstil: Bei ____ Analyse der Daten lassen sich Fehler vermeiden.",
+      "options": [
+        "präziser",
+        "präzise",
+        "präzisen",
+        "präzises"
+      ],
+      "correctAnswer": "präziser",
+      "explanation": "The conditional clause with 'Wenn' is replaced by the preposition 'Bei' + dative. 'Analyse' is feminine, so 'präzise' takes the dative feminine ending '-er' (Bei präziser Analyse).",
+      "id": "c2_01_q025"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Experiment beendet worden war, wertete das Team die Ergebnisse aus.\nNominalstil: Nach ____ des Experiments erfolgte die Auswertung der Ergebnisse durch das Team.",
+      "options": [
+        "Beendigung",
+        "Beenden",
+        "Beendens",
+        "Abschließen"
+      ],
+      "correctAnswer": "Beendigung",
+      "explanation": "'Nachdem' is a temporal conjunction translated into the preposition 'Nach' (+ dative). The noun 'Beendigung' (termination/completion) is preferred in high-level academic German over the nominalized infinitive 'Beenden'.",
+      "id": "c2_01_q026"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher untersuchten, wie das Virus übertragen wird.\nNominalstil: Die Forscher widmeten sich der Untersuchung des ____ des Virus.",
+      "options": [
+        "Übertragungsweges",
+        "Übertragens",
+        "Übertragungsweg",
+        "Übertragungsart"
+      ],
+      "correctAnswer": "Übertragungsweges",
+      "explanation": "In academic German, dependent interrogative clauses (wie...) are often transformed using compound nouns to increase precision. 'Wie das Virus übertragen wird' becomes 'des Übertragungsweges des Virus' (the transmission route of the virus) in the genitive case.",
+      "id": "c2_01_q027"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Er betonte noch einmal, dass diese Entdeckung von großer Bedeutung ist.\nNominalstil: Er hob die große ____ dieser Entdeckung erneut hervor.",
+      "options": [
+        "Bedeutsamkeit",
+        "Bedeutung",
+        "Bedeuten",
+        "Wichtigkeit"
+      ],
+      "correctAnswer": "Bedeutung",
+      "explanation": "The phrase 'von großer Bedeutung sein' is nominalized into 'die große Bedeutung'. While 'Bedeutsamkeit' exists, 'Bedeutung' is the standard, precise choice in academic discourse for this specific context.",
+      "id": "c2_01_q028"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Man muss berücksichtigen, dass die Probanden unterschiedlich alt sind.\nNominalstil: Die Berücksichtigung des ____ der Probanden ist zwingend erforderlich.",
+      "options": [
+        "unterschiedlichen Alters",
+        "unterschiedliche Alter",
+        "unterschiedlichem Alter",
+        "Altersunterschieds"
+      ],
+      "correctAnswer": "unterschiedlichen Alters",
+      "explanation": "The noun 'Alter' is neuter (das Alter). In the genitive attribute structure following 'Berücksichtigung des...', the adjective takes the weak ending '-en' and the noun takes '-s': 'des unterschiedlichen Alters'.",
+      "id": "c2_01_q029"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das Phänomen lässt sich dadurch erklären, dass die Temperaturen kontinuierlich steigen.\nNominalstil: Die Erklärung des Phänomens liegt im ____ Temperaturanstieg.",
+      "options": [
+        "kontinuierlichen",
+        "kontinuierlicher",
+        "kontinuierliche",
+        "kontinuierlich"
+      ],
+      "correctAnswer": "kontinuierlichen",
+      "explanation": "The causal clause is nominalized using a compound noun ('Temperaturanstieg', masculine). It is preceded by the prepositional contraction 'im' (in dem = dative). Therefore, the adjective 'kontinuierlich' needs the weak dative masculine ending '-en'.",
+      "id": "c2_01_q030"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Indem man die Parameter modifiziert, kann das Ergebnis optimiert werden.\nNominalstil: ____ eine Modifikation der Parameter lässt sich das Ergebnis optimieren.",
+      "options": [
+        "Durch",
+        "Mittels",
+        "Mithilfe",
+        "Dank"
+      ],
+      "correctAnswer": "Durch",
+      "explanation": "The modal subclause introduced by 'Indem' indicates a method or instrument. In academic nominal style, this is standardly replaced by 'Durch' (+ accusative). While 'Mittels' or 'Mithilfe' can express means, they require the genitive case, which doesn't match 'eine Modifikation' (accusative/feminine).",
+      "id": "c2_01_q031"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht kritisiert, wie die Behörden mit der Krise umgegangen sind.\nNominalstil: Der Bericht übt Kritik am ____ der Behörden mit der Krise.",
+      "options": [
+        "Umgang",
+        "Umgangen",
+        "Umgehen",
+        "Umgangsweise"
+      ],
+      "correctAnswer": "Umgang",
+      "explanation": "The idiom 'Kritik üben an' combines with the masculine noun 'der Umgang' (derived from umgehen). Fixed contraction: 'am' (an dem) + dative singular 'Umgang'.",
+      "id": "c2_01_q032"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Volkswirtschaft bricht zusammen, falls die Notenbank die Zinsen drastisch anhebt.\nNominalstil: Im Falle einer drastischen ____ durch die Notenbank droht der Zusammenbruch der Volkswirtschaft.",
+      "options": [
+        "Zinsanhebung",
+        "Zinserhöhung",
+        "Zinssteigerung",
+        "Zinsanhebens"
+      ],
+      "correctAnswer": "Zinsanhebung",
+      "explanation": "To match 'drastischen' (feminine genitive ending '-en' following 'einer'), we need a feminine noun. Academic German prefers exact technical terms like 'Zinsanhebung' over nominalized infinitives like 'Zinsanhebens'.",
+      "id": "c2_01_q033"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Absicht der Studie ist es, herauszufinden, welche Faktoren das Konsumverhalten beeinflussen.\nNominalstil: Die Studie zielt auf die ____ der Einflussfaktoren auf das Konsumverhalten ab.",
+      "options": [
+        "Ermittlung",
+        "Herausfindung",
+        "Feststellbarkeit",
+        "Ermitteln"
+      ],
+      "correctAnswer": "Ermittlung",
+      "explanation": "In high-level academic German (C2), colloquial or literal translations of verbs like 'herausfinden' are replaced by formal terminology such as 'die Ermittlung' (investigation/determination) or 'die Identifikation'. 'Herausfindung' is not standard German.",
+      "id": "c2_01_q034"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Bevor die neue Software implementiert wird, muss die IT-Infrastruktur gründlich überprüft werden.\nNominalstil: Der Implementierung der neuen Software muss eine ____ Überprüfung der IT-Infrastruktur vorausgehen.",
+      "options": [
+        "eingehende",
+        "gründlich",
+        "vollzogene",
+        "vorausgegangene"
+      ],
+      "correctAnswer": "eingehende",
+      "explanation": "To elevate the text to a C2 academic level, synonyms like 'eingehend' or 'tiefgreifend' are preferred over the basic word 'gründlich'. The adjective must match the feminine accusative/nominative slot here ('eine eingehende Überprüfung').",
+      "id": "c2_01_q035"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Weil die Ressourcen knapp sind, verteilen sich die Investitionen ungleichmäßig auf die Regionen.\nNominalstil: Die Ressourcenknappheit ____ zu einer ungleichmäßigen Verteilung der Investitionen auf die Regionen.",
+      "options": [
+        "führt",
+        "bedingt",
+        "verursacht",
+        "resultiert"
+      ],
+      "correctAnswer": "führt",
+      "explanation": "When shifting into nominal style, verbs are downsized to functional connectors. 'Die Ressourcenknappheit führt zu...' perfectly integrates the prepositional object 'zu einer...'. 'Bedingt' and 'verursacht' would require a direct accusative object.",
+      "id": "c2_01_q036"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Man vermutet, dass die Zielgruppe das Produkt ablehnt, weil der Preis zu hoch angesetzt wurde.\nNominalstil: Die vermutete Produktablehnung seitens der Zielgruppe ____ auf der zu hohen Preissetzung.",
+      "options": [
+        "basiert",
+        "beruht",
+        "folgt",
+        "stammt"
+      ],
+      "correctAnswer": "beruht",
+      "explanation": "The causal relationship ('weil') is expressed via the verbal structure 'beruht auf' (+ dative). 'Basiert' usually takes 'auf' but is less idiomatic for direct causal roots here; 'beruhen auf' means 'to be caused by / due to'.",
+      "id": "c2_01_q037"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Dadurch, dass der Autor historische Dokumente akribisch auswertete, konnte er die These untermauern.\nNominalstil: Die akribische ____ historischer Dokumente ermöglichte dem Autor die Untermauerung der These.",
+      "options": [
+        "Auswertung",
+        "Evaluierung",
+        "Analyse",
+        "Rezeption"
+      ],
+      "correctAnswer": "Auswertung",
+      "explanation": "The exact nominal counterpart to the verb 'auswerten' is 'die Auswertung'. While 'Analyse' and 'Evaluierung' are academic, 'Auswertung' preserves the precise meaning of extracting data from existing documents.",
+      "id": "c2_01_q038"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Es ist notwendig, dass alle Beteiligten eng zusammenarbeiten, damit das Projekt gelingt.\nNominalstil: Die enge Zusammenarbeit aller Beteiligten ist eine zwingende ____ für das Gelingen des Projekts.",
+      "options": [
+        "Voraussetzung",
+        "Notwendigkeit",
+        "Bedingung",
+        "Folge"
+      ],
+      "correctAnswer": "Voraussetzung",
+      "explanation": "The final clause ('damit das Projekt gelingt') implies a prerequisite. In academic German, 'eine zwingende Voraussetzung' (a mandatory prerequisite) is a fixed collocated phrase used to compress conditional/final dependencies.",
+      "id": "c2_01_q039"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Gesetz gilt erst dann, wenn es im Bundesgesetzblatt veröffentlicht wird.\nNominalstil: Die Rechtsgültigkeit des Gesetzes ____ erst mit dessen Veröffentlichung im Bundesgesetzblatt ein.",
+      "options": [
+        "tritt",
+        "setzt",
+        "folgt",
+        "beginnt"
+      ],
+      "correctAnswer": "tritt",
+      "explanation": "This targets nominalized legal jargon at C2 level. The expression 'in Kraft treten' or 'Rechtsgültigkeit tritt ein' uses the separable verb 'eintreten'. Therefore, 'tritt... ein' is the correct functional verb.",
+      "id": "c2_01_q040"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist das Hauptmerkmal des Nominalstils im akademischen Diskurs?",
+      "options": [
+        "Die Verwendung vieler aktiver Verben und kurzer Saetze",
+        "Die Verdichtung von Handlungen in Substantive mit Praepositionen und Genitivattributen",
+        "Der ausschliessliche Gebrauch von Passivkonstruktionen ohne Substantivierungen",
+        "Die Praeferenz fuer umgangssprachliche Ausdruecke und direkte Anrede"
+      ],
+      "correctAnswer": "Die Verdichtung von Handlungen in Substantive mit Praepositionen und Genitivattributen",
+      "explanation": "Nominalstil compresses actions into nouns (often with -ung, -heit, -keit suffixes) linked by prepositions and genitive attributes, creating dense, formal phrasing typical of academic and bureaucratic German.",
+      "id": "c2_01_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Endung ist am produktivsten fuer die Bildung von Nominalisierungen aus Verben im Nominalstil?",
+      "options": [
+        "-ling",
+        "-ung",
+        "-schaft",
+        "-nis"
+      ],
+      "correctAnswer": "-ung",
+      "explanation": "The suffix -ung is the most productive pattern for creating feminine action nouns from verbs in formal German (e.g., durchfuehren -> die Durchfuehrung, untersuchen -> die Untersuchung).",
+      "id": "c2_01_q042"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Nominalisierung des Satzes: 'Weil sich die Lage verbessert hat, ...'?",
+      "options": [
+        "Wegen der Verbesserung der Lage, ...",
+        "Wegen die Verbesserung von der Lage, ...",
+        "Durch das Verbessern der Lage, ...",
+        "Nachdem die Lage verbessert wurde, ..."
+      ],
+      "correctAnswer": "Wegen der Verbesserung der Lage, ...",
+      "explanation": "In Nominalstil, the causal clause 'weil sich die Lage verbessert hat' transforms into a prepositional phrase with a nominalized verb: 'wegen der Verbesserung der Lage'. The verb 'verbessern' becomes 'Verbesserung' (capitalized noun) and the case shifts to genitive.",
+      "id": "c2_01_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck ist ein typisches Funktionsverbgefuege im Nominalstil?",
+      "options": [
+        "schnell entscheiden",
+        "eine Entscheidung treffen",
+        "die Entscheidung ist schnell",
+        "entscheidend sein"
+      ],
+      "correctAnswer": "eine Entscheidung treffen",
+      "explanation": "Funktionsverbgefuege combine a 'light' verb (like treffen, geben, leisten) with a nominalized action where the noun carries the core meaning. 'Eine Entscheidung treffen' is the formal equivalent of the simple verb 'entscheiden'.",
+      "id": "c2_01_q044"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist grammatikalisch korrekt: 'die Senkung ____ Emissionen'?",
+      "options": [
+        "die",
+        "der",
+        "den",
+        "des"
+      ],
+      "correctAnswer": "der",
+      "explanation": "When a verb is nominalized, its original accusative object becomes a genitive attribute. 'Man senkt die Emissionen' (accusative) -> 'die Senkung der Emissionen' (genitive).",
+      "id": "c2_01_q045"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Transformation von Verbalstil zu Nominalstil ist korrekt?",
+      "options": [
+        "Nachdem er das Studium beendet hatte -> Nach dem Beenden das Studium",
+        "Nachdem er das Studium beendet hatte -> Nach Beendigung des Studiums",
+        "Nachdem er das Studium beendet hatte -> Wegen dem Beendigung vom Studium",
+        "Nachdem er das Studium beendet hatte -> Fuer die Beendigung von das Studium"
+      ],
+      "correctAnswer": "Nachdem er das Studium beendet hatte -> Nach Beendigung des Studiums",
+      "explanation": "The subordinate clause 'nachdem er ... beendet hatte' collapses into 'nach + nominalized verb (Beendigung) + genitive attribute (des Studiums)'. This is the mechanical core of Nominalstil.",
+      "id": "c2_01_q046"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet den Nominalstil angemessen fuer einen wissenschaftlichen Abstract?",
+      "options": [
+        "Wir haben die Daten analysiert und festgestellt, dass...",
+        "Die Analyse der Daten ergab, dass...",
+        "Ich denke, die Daten zeigen klar, dass...",
+        "Man kann sehen, dass die Daten beweisen, dass..."
+      ],
+      "correctAnswer": "Die Analyse der Daten ergab, dass...",
+      "explanation": "Academic German prefers nominalized subjects ('Die Analyse der Daten') over personal pronouns and active verbs for objectivity and formality. This balances density with readability.",
+      "id": "c2_01_q047"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein häufiger Fehler bei der Anwendung des Nominalstils?",
+      "options": [
+        "Die Verwendung von zu vielen Adjektiven",
+        "Die Anhaeufung von mehr als drei Nominalisierungen pro Satz, was die Lesbarkeit beeintraechtigt",
+        "Der Gebrauch von direkten Zitaten",
+        "Die Verwendung von Aktiv statt Passiv"
+      ],
+      "correctAnswer": "Die Anhaeufung von mehr als drei Nominalisierungen pro Satz, was die Lesbarkeit beeintraechtigt",
+      "explanation": "While Nominalstil is appropriate for formal contexts, over-nominalization (3+ abstract nouns in a row) creates unreadable 'Beamtendeutsch'. C2 competence requires calibration between density and clarity.",
+      "id": "c2_01_q048"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die korrekte Nominalisierung von 'man beruecksichtigt alle Variablen'?",
+      "options": [
+        "Die Beruecksichtigung von alle Variablen",
+        "Die Beruecksichtigung aller Variablen",
+        "Das Beruecksichtigen alle Variablen",
+        "Die Beruecksichtigung die Variablen"
+      ],
+      "correctAnswer": "Die Beruecksichtigung aller Variablen",
+      "explanation": "The verb 'beruecksichtigen' nominalizes to 'die Beruecksichtigung'. The accusative object 'alle Variablen' becomes a genitive attribute: 'aller Variablen' (plural genitive).",
+      "id": "c2_01_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Praeposition ersetzt im Nominalstil typischerweise die Konjunktion 'nachdem'?",
+      "options": [
+        "waehrend",
+        "nach",
+        "seit",
+        "bis"
+      ],
+      "correctAnswer": "nach",
+      "explanation": "Temporal clauses with 'nachdem' transform into prepositional phrases with 'nach' + nominalized verb + genitive: 'Nachdem er beendet hatte' -> 'Nach Beendigung'.",
+      "id": "c2_01_q050"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet der Begriff 'Funktionsverbgefuege' im Kontext des Nominalstils?",
+      "options": [
+        "Eine Kombination aus Adjektiv und Substantiv zur Stilverbesserung",
+        "Eine feste Verbindung aus einem semantisch leichten Verb und einem nominalisierten Handlungsbegriff",
+        "Die Verwendung von Modalverben zur Abschwaechung von Aussagen",
+        "Ein Satzgefege mit mehreren Nebensaetzen"
+      ],
+      "correctAnswer": "Eine feste Verbindung aus einem semantisch leichten Verb und einem nominalisierten Handlungsbegriff",
+      "explanation": "Funktionsverbgefuege like 'eine Entscheidung treffen' or 'Kritik ueben' use a light verb (treffen, ueben) with a noun carrying the core meaning. They are hallmark structures of formal German.",
+      "id": "c2_01_q051"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz enthaelt eine inkorrekte Nominalisierung?",
+      "options": [
+        "Wegen der Verbesserung der Lage wurden Massnahmen ergriffen.",
+        "Nach dem Ueberpruefen der Unterlagen erfolgte die Bewilligung.",
+        "Die Durchfuehrung der Untersuchung war erfolgreich.",
+        "Zur Beantragung des Antrags ist die Vorlage noetig."
+      ],
+      "correctAnswer": "Nach dem Ueberpruefen der Unterlagen erfolgte die Bewilligung.",
+      "explanation": "The infinitive nominalization 'das Ueberpruefen' is grammatically possible but stylistically inferior to the -ung form 'die Ueberpruefung' in formal academic writing. C2 style prefers 'Nach Ueberpruefung der Unterlagen'.",
+      "id": "c2_01_q052"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Wie transformiert man 'Die Forscher analysierten die Daten gruendlich' in den Nominalstil?",
+      "options": [
+        "Die Daten wurden von den Forschern gruendlich analysiert.",
+        "Die gruendliche Analyse der Daten erfolgte durch die Forscher.",
+        "Die Forscher fuehrten eine gruendliche Analyse der Daten durch.",
+        "Es wurde eine gruendliche Datenanalyse von den Forschern gemacht."
+      ],
+      "correctAnswer": "Die gruendliche Analyse der Daten erfolgte durch die Forscher.",
+      "explanation": "The active verb 'analysierten' becomes the nominal subject 'die Analyse', modified by the adjective 'gruendliche'. The agent ('durch die Forscher') is retained in a prepositional phrase for clarity.",
+      "id": "c2_01_q053"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage zum Verhaeltnis von Nominalstil und Verbalstil ist korrekt?",
+      "options": [
+        "Nominalstil ist immer besser als Verbalstil, da er professioneller wirkt.",
+        "Verbalstil sollte in wissenschaftlichen Texten vollstaendig vermieden werden.",
+        "Ein gelungener akademischer Text balanciert beide Stile je nach Funktion der Passage.",
+        "Nominalstil ist nur fuer juristische Texte geeignet, nicht fuer Naturwissenschaften."
+      ],
+      "correctAnswer": "Ein gelungener akademischer Text balanciert beide Stile je nach Funktion der Passage.",
+      "explanation": "C2 writing requires stylistic calibration: use Nominalstil for definitions, methods, and dense information; use Verbalstil for narrative flow, emphasis, and clarity. Overuse of either reduces effectiveness.",
+      "id": "c2_01_q054"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist die korrekte Form: 'die Implementierung ____ Software'?",
+      "options": [
+        "die",
+        "der",
+        "den",
+        "dem"
+      ],
+      "correctAnswer": "der",
+      "explanation": "The nominalized verb 'Implementierung' requires a genitive attribute for its object. 'Die Software' (accusative/feminine) becomes 'der Software' in genitive case.",
+      "id": "c2_01_q055"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Ausdruck ist KEIN typisches Funktionsverbgefuege?",
+      "options": [
+        "eine Antwort geben",
+        "Hilfe leisten",
+        "schnell reagieren",
+        "Kritik ueben"
+      ],
+      "correctAnswer": "schnell reagieren",
+      "explanation": "'Schnell reagieren' uses a full lexical verb with an adverb, not a light verb + action noun. The other options are classic Funktionsverbgefuege where the noun carries the semantic weight.",
+      "id": "c2_01_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie lautet die stilistisch angemessene Nominalisierung fuer einen Methodenabschnitt: 'Wir ueberprueften die Hypothese mit statistischen Tests'?",
+      "options": [
+        "Die Hypothese wurde von uns mit statistischen Tests ueberprueft.",
+        "Die Ueberpruefung der Hypothese erfolgte mittels statistischer Tests.",
+        "Wir fuehrten eine Ueberpruefung von der Hypothese durch mit statistischen Tests.",
+        "Das Ueberpruefen der Hypothese war mit statistischen Tests."
+      ],
+      "correctAnswer": "Die Ueberpruefung der Hypothese erfolgte mittels statistischer Tests.",
+      "explanation": "This version uses the nominalized subject 'Die Ueberpruefung', the formal verb 'erfolgte', and the genitive/technical preposition 'mittels statistischer Tests' — all hallmarks of academic Nominalstil.",
+      "id": "c2_01_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Substantivierung ist lexikalisch korrekt?",
+      "options": [
+        "die Beweisung",
+        "der Beweis",
+        "das Beweisen",
+        "die Beweishung"
+      ],
+      "correctAnswer": "der Beweis",
+      "explanation": "Some verbs have irregular or suppletive nominalizations: 'beweisen' -> 'der Beweis', not '*die Beweisung'. C2 competence includes knowledge of these lexicalized forms.",
+      "id": "c2_01_q058"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist der Hauptunterschied zwischen 'von + Dativ' und Genitiv bei Nominalisierungen?",
+      "options": [
+        "Es gibt keinen Unterschied; beide sind immer austauschbar.",
+        "Genitiv ist im formalen Nominalstil praeferiert; 'von + Dativ' wirkt umgangssprachlicher.",
+        "'Von + Dativ' ist ausschliesslich fuer Personen reserviert.",
+        "Genitiv darf nur bei maskulinen Nomen verwendet werden."
+      ],
+      "correctAnswer": "Genitiv ist im formalen Nominalstil praeferiert; 'von + Dativ' wirkt umgangssprachlicher.",
+      "explanation": "In high-register Nominalstil, genitive attributes ('die Analyse der Daten') are preferred over 'von + dative' ('die Analyse von den Daten'), which is perceived as less formal or colloquial.",
+      "id": "c2_01_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz demonstriert uebermaessigen Nominalstil ('Beamtendeutsch')?",
+      "options": [
+        "Die Studie untersucht den Einfluss von Temperatur auf Reaktionsgeschwindigkeit.",
+        "Die Inangriffnahme der Umsetzung der Reform erfolgt nach Genehmigung durch das Ministerium.",
+        "Nach Abschluss der Datenerhebung wurden die Ergebnisse analysiert.",
+        "Zur Validierung der Methode wurden Kontrolltests durchgefuehrt."
+      ],
+      "correctAnswer": "Die Inangriffnahme der Umsetzung der Reform erfolgt nach Genehmigung durch das Ministerium.",
+      "explanation": "This sentence stacks three abstract nominalizations ('Inangriffnahme', 'Umsetzung', 'Genehmigung') with genitive chains, creating heavy, hard-to-parse bureaucratese. C2 writers learn to recognize and avoid such over-nominalization.",
+      "id": "c2_01_q060"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher diskutierten intensiv ueber die Ergebnisse. -> Im akademischen Nominalstil: Die intensive ____ der Ergebnisse erfolgte durch die Forscher.",
+      "options": [
+        "Diskussion",
+        "diskutieren",
+        "diskutierte",
+        "diskutierend"
+      ],
+      "correctAnswer": "Diskussion",
+      "explanation": "Nominalstil replaces the verb 'diskutieren' with the noun 'Diskussion'.",
+      "id": "c2_01_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Regierung analysierte die Auswirkungen der Reform. -> Die ____ der Auswirkungen der Reform wurde von der Regierung durchgefuehrt.",
+      "options": [
+        "Analyse",
+        "Analysierung",
+        "Analytik",
+        "Analysieren"
+      ],
+      "correctAnswer": "Analyse",
+      "explanation": "In formal academic German, 'Analyse' is the preferred nominalization of 'analysieren'.",
+      "id": "c2_01_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung entspricht am staerksten dem akademischen Nominalstil?",
+      "options": [
+        "Die Studierenden untersuchten das Phaenomen.",
+        "Die Untersuchung des Phaenomens erfolgte durch die Studierenden.",
+        "Die Studierenden haben das Phaenomen genau untersucht.",
+        "Die Studierenden waren dabei, das Phaenomen zu untersuchen."
+      ],
+      "correctAnswer": "Die Untersuchung des Phaenomens erfolgte durch die Studierenden.",
+      "explanation": "Academic Nominalstil favors nouns over finite verbs.",
+      "id": "c2_01_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftler entwickelten ein neues Modell. -> Durch die Wissenschaftler erfolgte die ____ eines neuen Modells.",
+      "options": [
+        "Entwicklung",
+        "Entwickeln",
+        "Entwickelung",
+        "Entwickeltheit"
+      ],
+      "correctAnswer": "Entwicklung",
+      "explanation": "The noun 'Entwicklung' is the standard nominalization of 'entwickeln'.",
+      "id": "c2_01_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Daten wurden ausgewertet. -> Die ____ der Daten ergab signifikante Unterschiede.",
+      "options": [
+        "Auswertung",
+        "Auswerten",
+        "Ausgewertetheit",
+        "Auswerte"
+      ],
+      "correctAnswer": "Auswertung",
+      "explanation": "Nominalstil often uses nouns such as 'Auswertung' instead of verbal constructions.",
+      "id": "c2_01_q065"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante ist typischer fuer wissenschaftliche Texte?",
+      "options": [
+        "Man verglich die Ergebnisse miteinander.",
+        "Es wurden die Ergebnisse miteinander verglichen.",
+        "Der Vergleich der Ergebnisse wurde vorgenommen.",
+        "Die Ergebnisse verglich man miteinander."
+      ],
+      "correctAnswer": "Der Vergleich der Ergebnisse wurde vorgenommen.",
+      "explanation": "The nominalized form 'Vergleich' is characteristic of academic writing.",
+      "id": "c2_01_q066"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher ueberprueften die Hypothese erneut. -> Die erneute ____ der Hypothese erfolgte durch die Forscher.",
+      "options": [
+        "Ueberpruefung",
+        "Ueberpruefen",
+        "Ueberpruefbarkeit",
+        "Ueberprueftheit"
+      ],
+      "correctAnswer": "Ueberpruefung",
+      "explanation": "The noun 'Ueberpruefung' is the correct nominal form.",
+      "id": "c2_01_q067"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer beantworteten die Fragen. -> Die ____ der Fragen durch die Teilnehmer erfolgte anonym.",
+      "options": [
+        "Beantwortung",
+        "Antwort",
+        "Antwortung",
+        "Beantworten"
+      ],
+      "correctAnswer": "Beantwortung",
+      "explanation": "The nominalized process noun is 'Beantwortung'.",
+      "id": "c2_01_q068"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung weist die hoechste Nominaldichte auf?",
+      "options": [
+        "Die Autoren beschrieben die Methode.",
+        "Die Autoren haben die Methode beschrieben.",
+        "Die Beschreibung der Methode erfolgte durch die Autoren.",
+        "Die Methode wurde von den Autoren beschrieben."
+      ],
+      "correctAnswer": "Die Beschreibung der Methode erfolgte durch die Autoren.",
+      "explanation": "Nominal density increases when actions are expressed through nouns.",
+      "id": "c2_01_q069"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Kommission entschied ueber den Antrag. -> Die ____ ueber den Antrag wurde von der Kommission getroffen.",
+      "options": [
+        "Entscheidung",
+        "Entscheid",
+        "Entscheiden",
+        "Entschlossenheit"
+      ],
+      "correctAnswer": "Entscheidung",
+      "explanation": "The noun 'Entscheidung' replaces the verb phrase.",
+      "id": "c2_01_q070"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftler stellten fest, dass die Werte anstiegen. Welche Nominalisierung ist am angemessensten?",
+      "options": [
+        "Die Feststellung eines Anstiegs der Werte",
+        "Das Feststellen, dass die Werte anstiegen",
+        "Die Werteanstiegfeststellung",
+        "Die festgestellten Werteanstiege"
+      ],
+      "correctAnswer": "Die Feststellung eines Anstiegs der Werte",
+      "explanation": "This is the most idiomatic academic nominalization.",
+      "id": "c2_01_q071"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher kamen zu dem Schluss, dass weitere Studien noetig sind. -> Die ____ der Notwendigkeit weiterer Studien erfolgte auf Grundlage der Ergebnisse.",
+      "options": [
+        "Feststellung",
+        "Festlegung",
+        "Festigung",
+        "Festsetzung"
+      ],
+      "correctAnswer": "Feststellung",
+      "explanation": "Academic writing often uses 'Feststellung' to express findings or conclusions.",
+      "id": "c2_01_q072"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Variante entspricht am ehesten dem C2-Nominalstil?",
+      "options": [
+        "Die Forscher fuehrten Interviews durch.",
+        "Die Durchfuehrung von Interviews erfolgte durch die Forscher.",
+        "Die Forscher interviewten Personen.",
+        "Interviews wurden gemacht."
+      ],
+      "correctAnswer": "Die Durchfuehrung von Interviews erfolgte durch die Forscher.",
+      "explanation": "The nominalized structure is most characteristic of academic discourse.",
+      "id": "c2_01_q073"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Experten bewerteten die Risiken. -> Die ____ der Risiken durch die Experten bildete die Grundlage der Entscheidung.",
+      "options": [
+        "Bewertung",
+        "Bewertbarkeit",
+        "Bewerten",
+        "Bewertetheit"
+      ],
+      "correctAnswer": "Bewertung",
+      "explanation": "The noun 'Bewertung' is the correct academic nominalization.",
+      "id": "c2_01_q074"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher beobachteten Veraenderungen im Verhalten. -> Die ____ von Verhaltensveraenderungen wurde dokumentiert.",
+      "options": [
+        "Beobachtung",
+        "Beobachten",
+        "Beobachtbarkeit",
+        "Beobachterschaft"
+      ],
+      "correctAnswer": "Beobachtung",
+      "explanation": "The nominalized noun is 'Beobachtung'.",
+      "id": "c2_01_q075"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung vermeidet Verben am staerksten?",
+      "options": [
+        "Die Studie zeigte deutliche Unterschiede.",
+        "Die Studie hat deutliche Unterschiede gezeigt.",
+        "Die Studie konnte deutliche Unterschiede zeigen.",
+        "Der Nachweis deutlicher Unterschiede gelang im Rahmen der Studie."
+      ],
+      "correctAnswer": "Der Nachweis deutlicher Unterschiede gelang im Rahmen der Studie.",
+      "explanation": "The key action is expressed through the noun 'Nachweis'.",
+      "id": "c2_01_q076"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher interpretierten die Ergebnisse unterschiedlich. -> Die unterschiedliche ____ der Ergebnisse fuehrte zu Kontroversen.",
+      "options": [
+        "Interpretation",
+        "Interpretierung",
+        "Interpretieren",
+        "Interpretiertheit"
+      ],
+      "correctAnswer": "Interpretation",
+      "explanation": "The standard noun is 'Interpretation'.",
+      "id": "c2_01_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Universitaet fuehrte eine Evaluation des Programms durch. Welche Variante ist staerker nominalisiert?",
+      "options": [
+        "Die Universitaet evaluierte das Programm.",
+        "Die Evaluation des Programms erfolgte durch die Universitaet.",
+        "Die Universitaet hat das Programm evaluiert.",
+        "Das Programm wurde evaluiert."
+      ],
+      "correctAnswer": "Die Evaluation des Programms erfolgte durch die Universitaet.",
+      "explanation": "The noun 'Evaluation' creates a more academic nominal style.",
+      "id": "c2_01_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Autoren argumentierten fuer eine Reform. -> Die ____ zugunsten einer Reform wurde ausfuehrlich begruendet.",
+      "options": [
+        "Argumentation",
+        "Argumentierung",
+        "Argument",
+        "Argumentieren"
+      ],
+      "correctAnswer": "Argumentation",
+      "explanation": "The process noun 'Argumentation' is preferred in academic writing.",
+      "id": "c2_01_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Formulierung weist die hoechste akademische Verdichtung auf?",
+      "options": [
+        "Man untersuchte die Ursachen und analysierte die Folgen.",
+        "Die Ursachen wurden untersucht und die Folgen analysiert.",
+        "Die Untersuchung der Ursachen sowie die Analyse der Folgen erfolgten.",
+        "Es gab eine Untersuchung der Ursachen und man analysierte die Folgen."
+      ],
+      "correctAnswer": "Die Untersuchung der Ursachen sowie die Analyse der Folgen erfolgten.",
+      "explanation": "This sentence contains two central nominalizations and represents a highly condensed academic style.",
+      "id": "c2_01_q080"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Nominalstil ist vor allem gekennzeichnet durch die Hauefung von ____.",
+      "options": [
+        "Nomen und Adjektiven",
+        "Verben und Konjunktionen",
+        "Pronomen und Partikeln",
+        "Adverbien und Interjektionen"
+      ],
+      "correctAnswer": "Nomen und Adjektiven",
+      "explanation": "Nominal style uses many nouns and adjectives, while verbal style relies on verbs.",
+      "id": "c2_01_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Beispiel steht fuer Nominalstil?",
+      "options": [
+        "Weil er sich beeilte, kam er punktlich.",
+        "Durch seine Eile kam er punktlich.",
+        "Er beeilte sich und kam punktlich.",
+        "Er kam punktlich, denn er beeilte sich."
+      ],
+      "correctAnswer": "Durch seine Eile kam er punktlich.",
+      "explanation": "The phrase uses a noun ('Eile') instead of a verb ('beeilte sich').",
+      "id": "c2_01_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "In welchem Textdomaene ist der Nominalstil im Deutschen am haeufigsten anzutreffen?",
+      "options": [
+        "Alltagsgespraech",
+        "Privater Brief",
+        "Akademischer Diskurs",
+        "Maerchen"
+      ],
+      "correctAnswer": "Akademischer Diskurs",
+      "explanation": "Nominal style is typical in academic writing for precision and density.",
+      "id": "c2_01_q083"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein typisches Merkmal des Nominalstils?",
+      "options": [
+        "Viele Nebensaetze mit 'weil'",
+        "Haeufige Verwendung von Modalpartikeln",
+        "Lange Nominalphrasen mit Genitivattributen",
+        "Viele direkte Reden"
+      ],
+      "correctAnswer": "Lange Nominalphrasen mit Genitivattributen",
+      "explanation": "Long noun phrases with genitive attributes are a hallmark of nominal style.",
+      "id": "c2_01_q084"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der Satz 'Die Durchfuehrung der Studie erwies sich als problematisch' ist ein Beispiel fuer ____.",
+      "options": [
+        "Verbalstil",
+        "Nominalstil",
+        "Praeteritalstil",
+        "Konjunktivstil"
+      ],
+      "correctAnswer": "Nominalstil",
+      "explanation": "The noun 'Durchfuehrung' replaces a verb phrase like 'Die Studie durchzufuehren'.",
+      "id": "c2_01_q085"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Umformung wandelt den Verbalstil in Nominalstil um?",
+      "options": [
+        "weil sie forscht -> wegen ihrer Forschung",
+        "sie forscht -> sie ist forschend",
+        "sie forscht -> das Forschen von ihr",
+        "sie forscht -> forschend"
+      ],
+      "correctAnswer": "weil sie forscht -> wegen ihrer Forschung",
+      "explanation": "The causal clause becomes a prepositional phrase with a noun ('Forschung').",
+      "id": "c2_01_q086"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist im Nominalstil verfasst?",
+      "options": [
+        "Nachdem die Daten erhoben wurden, begann die Auswertung.",
+        "Nach der Datenerhebung begann die Auswertung.",
+        "Man erhob die Daten und dann wertete man aus.",
+        "Als die Daten erhoben waren, wertete man sie aus."
+      ],
+      "correctAnswer": "Nach der Datenerhebung begann die Auswertung.",
+      "explanation": "'Datenerhebung' and 'Auswertung' are nouns, avoiding finite verbs.",
+      "id": "c2_01_q087"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was versteht man unter 'Nominalisierung' im Kontext des Nominalstils?",
+      "options": [
+        "Die Umwandlung eines Nomens in ein Verb",
+        "Die Umwandlung eines Verbs oder Adjektivs in ein Nomen",
+        "Die Wiederholung desselben Nomens",
+        "Die Ersetzung eines Nomens durch ein Pronomen"
+      ],
+      "correctAnswer": "Die Umwandlung eines Verbs oder Adjektivs in ein Nomen",
+      "explanation": "Nominalization turns verbs or adjectives into nouns (e.g., 'laufen' -> 'das Laufen').",
+      "id": "c2_01_q088"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welche Wirkung hat der Nominalstil im akademischen Diskurs?",
+      "options": [
+        "Er wirkt umgangssprachlich und emotional.",
+        "Er wirkt objektivierend und informationsverdichtend.",
+        "Er wirkt dialogisch und interaktiv.",
+        "Er wirkt ironisch und distanzierend."
+      ],
+      "correctAnswer": "Er wirkt objektivierend und informationsverdichtend.",
+      "explanation": "Nominal style creates objectivity and condenses information, valued in academic texts.",
+      "id": "c2_01_q089"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Kritik am uebermaessigen Nominalstil lautet oft, dass er ____.",
+      "options": [
+        "zu subjektiv und emotional sei",
+        "zu ungenau und vage sei",
+        "schwer verstaendlich und abstrakt wirke",
+        "zu viele Verben enthalte"
+      ],
+      "correctAnswer": "schwer verstaendlich und abstrakt wirke",
+      "explanation": "Excessive nominal style can make texts abstract and hard to follow.",
+      "id": "c2_01_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welcher Fachbereich verwendet traditionell am staerksten den Nominalstil?",
+      "options": [
+        "Literaturwissenschaft",
+        "Rechtswissenschaft",
+        "Sportwissenschaft",
+        "Musikpaedagogik"
+      ],
+      "correctAnswer": "Rechtswissenschaft",
+      "explanation": "Legal German is famous for extreme nominal style (e.g., 'In Erfuellung der ...').",
+      "id": "c2_01_q091"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Satz 'Die Tatsache, dass er kam, ueberraschte niemanden' enthaelt eine ____.",
+      "options": [
+        "Nominalisierung ohne Funktionsverb",
+        "Nominalisierung mit 'dass'-Satz",
+        "verdeckte Nominalisierung",
+        "echte Nominalphrase"
+      ],
+      "correctAnswer": "verdeckte Nominalisierung",
+      "explanation": "'Die Tatsache, dass ...' is a nominalization hiding a clause, often criticized as inflated.",
+      "id": "c2_01_q092"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Signalwort leitet oft eine Nominalphrase im Nominalstil ein?",
+      "options": [
+        "weil",
+        "obwohl",
+        "aufgrund",
+        "indem"
+      ],
+      "correctAnswer": "aufgrund",
+      "explanation": "'Aufgrund' is a preposition that requires a noun phrase, promoting nominal style.",
+      "id": "c2_01_q093"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist im reinen Nominalstil (ohne finites Verb im Hauptgeschehen) geschrieben?",
+      "options": [
+        "Der Autor analysiert die Daten gruendlich.",
+        "Der Autor ist ein gruendlicher Analytiker der Daten.",
+        "Der Autor, der die Daten gruendlich analysiert, ist erfahren.",
+        "Gruendliche Datenanalyse durch den Autor."
+      ],
+      "correctAnswer": "Gruendliche Datenanalyse durch den Autor.",
+      "explanation": "This phrase has no finite verb; all information is packed into nouns.",
+      "id": "c2_01_q094"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Funktionsverbgefuege (FVG) im Nominalstil?",
+      "options": [
+        "Ein Verb, das zwei Nominale verbindet",
+        "Eine Verbindung wie 'zur Anwendung bringen' statt 'anwenden'",
+        "Ein Verb, das nur im Nominalstil vorkommt",
+        "Eine Konjunktion, die Nomen verbindet"
+      ],
+      "correctAnswer": "Eine Verbindung wie 'zur Anwendung bringen' statt 'anwenden'",
+      "explanation": "FVG (e.g., 'in Betracht ziehen') is typical for nominal style, replacing simple verbs.",
+      "id": "c2_01_q095"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welcher der folgenden Saetze ist ein Beispiel fuer uebertriebenen Nominalstil (sogenannter 'Nominalstil-Exzess')?",
+      "options": [
+        "Die Sonne schien hell.",
+        "Das Zur-Verfuegung-Stellen von Loesungsansaetzen obliegt der Zustaendigkeit des Teams.",
+        "Wir trafen uns, um zu diskutieren.",
+        "Der Vortrag war kurz und klar."
+      ],
+      "correctAnswer": "Das Zur-Verfuegung-Stellen von Loesungsansaetzen obliegt der Zustaendigkeit des Teams.",
+      "explanation": "This string of nouns and nested phrases is an example of excessive, heavy nominal style.",
+      "id": "c2_01_q096"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im akademischen Diskurs dient der Nominalstil oft der ____.",
+      "options": [
+        "Emotionalisierung",
+        "Verschleierung von Verantwortlichkeit",
+        "Steigerung der Lesbarkeit fuer Laien",
+        "Verkuerzung der Satzlaengen"
+      ],
+      "correctAnswer": "Verschleierung von Verantwortlichkeit",
+      "explanation": "Nominal style can hide agency (e.g., 'Die Analyse ergab' instead of 'Wir analysierten').",
+      "id": "c2_01_q097"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche sprachliche Handlung ist typisch fuer den Nominalstil?",
+      "options": [
+        "Handlungen werden als Prozesse (Verben) dargestellt.",
+        "Handlungen werden als Zustände oder Gegenstaende (Nomen) dargestellt.",
+        "Handlungen werden durch Imperative ausgedrueckt.",
+        "Handlungen werden durch Modalverben relativiert."
+      ],
+      "correctAnswer": "Handlungen werden als Zustände oder Gegenstaende (Nomen) dargestellt.",
+      "explanation": "Nominal style reifies actions into nouns, e.g., 'die Entscheidung' statt 'entscheiden'.",
+      "id": "c2_01_q098"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Um einen Text vom Nominalstil in den Verbalstil zu ueberfuehren, muss man vor allem ____.",
+      "options": [
+        "Nomen in Verben umwandeln und Nebensaetze bilden",
+        "Adjektive streichen",
+        "Praepositionen entfernen",
+        "Aktiv ins Passiv setzen"
+      ],
+      "correctAnswer": "Nomen in Verben umwandeln und Nebensaetze bilden",
+      "explanation": "Verbal style uses finite verbs and clauses instead of noun phrases.",
+      "id": "c2_01_q099"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Aussage ueber den Nominalstil im Deutschen trifft zu?",
+      "options": [
+        "Er ist ein Zeichen fuer mangelnde Sprachkompetenz.",
+        "Er ist in der muendlichen Kommunikation genauso haeufig wie in der schriftlichen.",
+        "Er kann die Objektivitaet und Praezision eines Textes erhoehen.",
+        "Er kommt nur in der deutschen Sprache vor."
+      ],
+      "correctAnswer": "Er kann die Objektivitaet und Praezision eines Textes erhoehen.",
+      "explanation": "Used appropriately, nominal style increases precision and objectivity, especially in academic writing.",
+      "id": "c2_01_q100"
+    }
+  ]
+}

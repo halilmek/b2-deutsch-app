@@ -1,1677 +1,1608 @@
 {
+  "version": "1.0",
   "subjectId": "b2_14",
   "topicName": "Weiterführende Nebensätze",
-  "level": "B2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_14_q001",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "fill_blank",
+      "questionText": "Er hat das Projekt erfolgreich abgeschlossen, ___ mich sehr beeindruckt hat.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "das",
+        "was",
+        "welches",
+        "dies"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was refers to entire clause",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q002",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "fill_blank",
+      "questionText": "Sie hat drei Sprachen gelernt, ___ sie im Ausland sehr geholfen hat.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "was",
+        "wobei",
+        "womit",
+        "woran"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "womit",
+      "explanation": "Weiterführende Nebensätze - womit = mit + was (helfen)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q003",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "fill_blank",
+      "questionText": "Er kam zu spat zur Besprechung, ___ sein Chef sehr veraergert war.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "weshalb",
+        "worüber",
+        "womit",
+        "wofür"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - verärgert über -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q004",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "fill_blank",
+      "questionText": "Das Team hat gewonnen, ___ alle Fans begeistert hat.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "welches",
+        "das",
+        "was",
+        "es"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was refers to entire clause",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q005",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "fill_blank",
+      "questionText": "Sie kuendigte ihren Job, ___ ich nicht erwartet hatte.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "was",
+        "woran",
+        "wofür",
+        "wobei"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was refers to entire clause",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q006",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "fill_blank",
+      "questionText": "Er hat gelogen, ___ ich sehr enttaeuscht bin.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "worüber",
+        "wofür",
+        "weshalb",
+        "wobei"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - enttäuscht über -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q007",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "fill_blank",
+      "questionText": "Die Fabrik wurde geschlossen, ___ viele Arbeiter ihre Jobs verloren.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "wodurch",
+        "womit",
+        "woran",
+        "weswegen"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
+      "correctAnswer": "wodurch",
+      "explanation": "Weiterführende Nebensätze - wodurch = durch + was (Grund/Ergebnis)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q008",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "fill_blank",
+      "questionText": "Er hat alles allein erledigt, ___ ich sehr dankbar bin.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "wofür",
+        "womit",
+        "woran",
+        "worüber"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wofür",
+      "explanation": "Weiterführende Nebensätze - dankbar für -> wofür",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q009",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "fill_blank",
+      "questionText": "Die Temperaturen stiegen stark an, ___ die Wissenschaftler gewarnt hatten.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "wovor",
+        "wofür",
+        "womit",
+        "wobei"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "wovor",
+      "explanation": "Weiterführende Nebensätze - wovor = vor + was (Warnung)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q010",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "fill_blank",
+      "questionText": "Er vergass den Termin, ___ er sich sehr schaemte.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "woran",
+        "wofür",
+        "worüber",
+        "weswegen"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - schämen über -> worüber",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q011",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "fill_blank",
+      "questionText": "Sie hat das Examen mit Auszeichnung bestanden, ___ ihre Familie sehr stolz ist.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "womit",
+        "worauf",
+        "wofür",
+        "woran"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "worauf",
+      "explanation": "Weiterführende Nebensätze - stolz auf -> worauf",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q012",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ du mit dem Essen fertig bist, räum bitte auf.",
+      "type": "fill_blank",
+      "questionText": "Er kritisierte das neue Gesetz, ___ viele seiner Kollegen nicht einverstanden waren.",
       "options": [
-        "Sobald",
-        "Solange",
-        "Wenn",
-        "Nachdem"
+        "womit",
+        "woran",
+        "wofür",
+        "wodurch"
       ],
-      "correctAnswer": "Sobald",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "womit",
+      "explanation": "Weiterführende Nebensätze - nicht einverstanden mit -> womit",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q013",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Das Haus, ___ wir gekauft haben, ist sehr alt.",
+      "type": "fill_blank",
+      "questionText": "Das Konzert wurde abgesagt, ___ alle Besucher sehr enttaeuscht waren.",
       "options": [
-        "das",
-        "der",
-        "dem",
-        "dessen"
+        "worüber",
+        "wofür",
+        "womit",
+        "woran"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - enttäuscht über -> worüber",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q014",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland gelebt ___",
+      "type": "fill_blank",
+      "questionText": "Er hat taglich Sport getrieben, ___ seine Gesundheit deutlich verbessert hat.",
       "options": [
-        "weil / hat",
-        "obwohl / gewohnt hat",
-        "wenn / lebt",
-        "damit / lebte"
+        "was",
+        "womit",
+        "wodurch",
+        "woran"
       ],
-      "correctAnswer": "weil / gewohnt hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wodurch",
+      "explanation": "Weiterführende Nebensätze - wodurch = dadurch / aus diesem Grund",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q015",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ sie in München wohnte, hat sie viele Museen besucht.",
+      "type": "fill_blank",
+      "questionText": "Sie weigerte sich zu unterschreiben, ___ den Vertrag unguelltig machte.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Seitdem"
+        "was",
+        "woran",
+        "worüber",
+        "wofür"
       ],
-      "correctAnswer": "Während",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was refers to entire clause (result)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q016",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich würde das ___ machen, wenn ich Zeit ___",
+      "type": "fill_blank",
+      "questionText": "Der Chef lobte das Team oeffentlich, ___ alle sehr gefreut haben.",
       "options": [
-        "gerne / hätte",
-        "besser / habe",
-        "am liebsten / haben würde",
-        "viel / gehabt"
+        "was",
+        "worüber",
+        "wofür",
+        "womit"
       ],
-      "correctAnswer": "gerne / hätte",
-      "explanation": "",
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - freuen über -> worüber",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q017",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "fill_blank",
+      "questionText": "Er investierte sein gesamtes Erspartes, ___ er spaeter bereute.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "was",
+        "woran",
+        "wofür",
+        "wobei"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - bereuen einer Sache (Genitiv) - was refers to entire clause",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q018",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ könnte.",
+      "type": "fill_blank",
+      "questionText": "Die Bruecke wurde gesperrt, ___ der Verkehr zusammenbrach.",
       "options": [
-        "obwohl / sein",
-        "weil / war",
-        "wenn / ist",
-        "damit / sei"
+        "weswegen",
+        "womit",
+        "woran",
+        "worüber"
       ],
-      "correctAnswer": "obwohl / sein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "weswegen",
+      "explanation": "Weiterführende Nebensätze - weswegen = aus welchem Grund (reason)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q019",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "fill_blank",
+      "questionText": "Er lehnte das Angebot ab, ___ die Firma sehr ueberrascht war.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "worüber",
+        "wofür",
+        "womit",
+        "woran"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - überrascht über -> worüber",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q020",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er ist der beste Schüler, ___ ich je unterrichtet habe.",
+      "type": "fill_blank",
+      "questionText": "Sie hat das Stipendium erhalten, ___ sie jahrelang gearbeitet hatte.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "wofür",
+        "worauf",
+        "woran",
+        "wobei"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
+      "correctAnswer": "worauf",
+      "explanation": "Weiterführende Nebensätze - arbeiten auf + Akk -> worauf (sich konzentrieren)",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q021",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "fill_blank",
+      "questionText": "Er hat mir heute Blumen geschenkt, ______ ich ueberhaupt nicht gerechnet habe.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "was",
+        "womit",
+        "worüber",
+        "wofür"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "womit",
+      "explanation": "Weiterführende Nebensätze - rechnen mit + Dativ -> womit",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q022",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "fill_blank",
+      "questionText": "Mein Kollege kam schon wieder zu spat, ______ den Chef sehr aergert hat.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "woran",
+        "was",
+        "weshalb",
+        "das"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt auf ganze Satzaussage bezogen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q023",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "fill_blank",
+      "questionText": "Sie hat die Stelle bekommen, ______ sie sich schon lange bemueht hatte.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "worum",
+        "was",
+        "wofür",
+        "womit"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "worum",
+      "explanation": "Weiterführende Nebensätze - sich bemuehen um + Akk -> worum",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q024",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "fill_blank",
+      "questionText": "Wir haben im Lotto gewonnen, ______ wir sofort eine Weltreise gebucht haben.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "was",
+        "woraufhin",
+        "wovon",
+        "weswegen"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "weswegen",
+      "explanation": "Weiterführende Nebensätze - Grund-Folge Beziehung -> weswegen",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q025",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "fill_blank",
+      "questionText": "Er vergass unseren Jahrestag, ______ sie sehr enttaeuscht war.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "worüber",
+        "woran",
+        "was",
+        "wofür"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - enttaeuscht sein ueber + Akk -> worüber",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q026",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "fill_blank",
+      "questionText": "Das Projekt wurde erfolgreich abgeschlossen, ______ alle Beteiligten stolz sein koennen.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "was",
+        "worauf",
+        "worüber",
+        "wofür"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "worauf",
+      "explanation": "Weiterführende Nebensätze - stolz sein auf + Akk -> worauf",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q027",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "fill_blank",
+      "questionText": "Er hat sich fuer den Fehler entschuldigt, ______ man ihm sehr anrechnen muss.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "das",
+        "was",
+        "woran",
+        "weshalb"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was beschreibt einen Umstand/Zustand",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q028",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "fill_blank",
+      "questionText": "Der Zug hatte zwei Stunden Verspatung, ______ ich meinen Anschluss verpasst habe.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "weswegen",
+        "was",
+        "worüber",
+        "wovor"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "weswegen",
+      "explanation": "Weiterführende Nebensätze - Grund-Folge (weswegen/weshalb)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q029",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "fill_blank",
+      "questionText": "Sie beherrscht fuenf Sprachen fliesend, ______ ich sie wirklich beneide.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "was",
+        "worum",
+        "worüber",
+        "wofür"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "worum",
+      "explanation": "Weiterführende Nebensätze - beneiden um + Akk -> worum",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q030",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "fill_blank",
+      "questionText": "Er hat den ganzen Tag geschlafen, ______ er jetzt nicht mehr mude ist.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "was",
+        "weshalb",
+        "woran",
+        "worauf"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "weshalb",
+      "explanation": "Weiterführende Nebensätze - weshalb = aus diesem Grund / bu yuzden",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q031",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "fill_blank",
+      "questionText": "Wir haben uns lange nicht gesehen, ______ ich sehr bedauere.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "das",
+        "was",
+        "worüber",
+        "worum"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Objekt (bedauern requires object)",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q032",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "fill_blank",
+      "questionText": "Er erzählte einen Witz, ______ niemand lachen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "worüber",
+        "was",
+        "womit",
+        "wofür"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - lachen ueber + Akk -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q033",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "fill_blank",
+      "questionText": "Das Wetter war am Wochenende furchtbar, ______ wir den Ausflug absagen mussten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "weshalb",
+        "worüber",
+        "woran"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "weshalb",
+      "explanation": "Weiterführende Nebensätze - Grund-Folge -> weshalb",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q034",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "fill_blank",
+      "questionText": "Er hat mir bei der Arbeit geholfen, ______ ich ihm sehr dankbar bin.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wofür",
+        "was",
+        "worüber",
+        "womit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "wofür",
+      "explanation": "Weiterführende Nebensätze - dankbar sein fuer + Akk -> wofür",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q035",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "fill_blank",
+      "questionText": "Das Unternehmen hat Insolvenz angemeldet, ______ niemand gerechnet hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "womit",
+        "woran",
+        "wofür"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "womit",
+      "explanation": "Weiterführende Nebensätze - rechnen mit + Dativ -> womit",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q036",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "fill_blank",
+      "questionText": "Sie hat die Prufung mit 1,0 bestanden, ______ eine grossartige Leistung ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "das",
+        "was",
+        "worüber",
+        "weshalb"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - beschreibendes/demonstratives was",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q037",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "fill_blank",
+      "questionText": "Mein Auto ist kaputtgegangen, ______ ich jetzt viel Geld ausgeben muss.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "wofür",
+        "worauf",
+        "weswegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "weswegen",
+      "explanation": "Weiterführende Nebensätze - Grund-Folge -> weswegen",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q038",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "fill_blank",
+      "questionText": "Er hat aufgehört zu rauchen, ______ seiner Gesundheit sehr zugutekommt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "woran",
+        "das",
+        "weshalb"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was beschreibt Zustand/Situation",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q039",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "fill_blank",
+      "questionText": "Die Preise sind stark gestiegen, ______ sich viele Kunden beschweren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "worüber",
+        "wofür",
+        "woran"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - sich beschweren ueber + Akk -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q040",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "fill_blank",
+      "questionText": "Er hat die Wahrheit gesagt, ______ man sich verlassen kann.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "worauf",
+        "woran",
+        "wofür"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "worauf",
+      "explanation": "Weiterführende Nebensätze - sich verlassen auf + Akk -> worauf",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q041",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Passiv Präteritum: \"wurde gemacht\".",
+      "type": "fill_blank",
+      "questionText": "Er hat das Auto verkauft, ___ ihn sehr erleichtert hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "was",
+        "wen",
+        "welchem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was refers to entire clause (erleichtert)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q042",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Je...desto\" braucht den Komparativ.",
+      "type": "fill_blank",
+      "questionText": "Sie hat viel gelernt, ___ sie die Prüfung bestanden hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weshalb",
+        "dass",
+        "wenn",
+        "obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "weshalb",
+      "explanation": "Weiterführende Nebensätze - weshalb = aus welchem Grund (Grund)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q043",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Relativsätze im Genitiv: \"der Mann, dessen Auto...\"",
+      "type": "fill_blank",
+      "questionText": "Er ist oft mude, ___ ich nicht verstehe.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "was",
+        "wen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Objekt (nicht verstehen was)",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q044",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Einander\" ist ein Pronomen.",
+      "type": "fill_blank",
+      "questionText": "Er hat das gesagt, ___ mich ueberrascht hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wenn",
+        "obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q045",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Weil\" und \"da\" sind synonym.",
+      "type": "fill_blank",
+      "questionText": "Sie kam zu spat, ___ der Lehrer nicht akzeptierte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was referiert auf ganze Aussage",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q046",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Trotzdem\" ist ein Konnektor.",
+      "type": "fill_blank",
+      "questionText": "Er hat viel gearbeitet, ___ er erfolgreich wurde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weshalb",
+        "obwohl",
+        "dass",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "weshalb",
+      "explanation": "Weiterführende Nebensätze - weshalb = aus diesem Grund",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q047",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Werden\" zeigt die Zukunft an.",
+      "type": "fill_blank",
+      "questionText": "Er spricht schnell, ___ schwer zu verstehen ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "das",
+        "was",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was beschreibt den ganzen Umstand",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q048",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Nicht\" verneint das Verb.",
+      "type": "fill_blank",
+      "questionText": "Sie hat das Buch gelesen, ___ ihr gefallen hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "das",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was referiert auf ganze Handlung",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q049",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Niemand\" negiert \"jemand\".",
+      "type": "fill_blank",
+      "questionText": "Er war krank, ___ er zu Hause blieb.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weshalb",
+        "dass",
+        "obwohl",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "weshalb",
+      "explanation": "Weiterführende Nebensätze - weshalb = aus diesem Grund (Grund-Folge)",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q050",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Konjunktiv II der Vergangenheit: \"hätte gemacht\".",
+      "type": "fill_blank",
+      "questionText": "Er hat gewonnen, ___ alle ueberrascht hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q051",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "fill_blank",
+      "questionText": "Sie hat viel Geld ausgegeben, ___ ich nicht gut finde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Objekt (nicht gut finde was)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q052",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "fill_blank",
+      "questionText": "Er hat gelacht, ___ mich irritiert hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q053",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "fill_blank",
+      "questionText": "Er hat lange gearbeitet, ___ er mude war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weshalb",
+        "obwohl",
+        "dass",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "weshalb",
+      "explanation": "Weiterführende Nebensätze - weshalb = Grund angeben",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q054",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "fill_blank",
+      "questionText": "Sie ist früh gegangen, ___ niemand erwartet hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt (niemand erwartet was)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q055",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "fill_blank",
+      "questionText": "Er hat das Fenster geoeffnet, ___ ich komisch fand.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Objekt",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q056",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "fill_blank",
+      "questionText": "Er hat viel trainiert, ___ er besser wurde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weshalb",
+        "obwohl",
+        "dass",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "weshalb",
+      "explanation": "Weiterführende Nebensätze - weshalb = Grund fuer Ergebnis",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q057",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "fill_blank",
+      "questionText": "Sie hat geweint, ___ mich traurig machte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q058",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "fill_blank",
+      "questionText": "Er hat angerufen, ___ ich nicht erwartet hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Objekt (erwarten was)",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q059",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "fill_blank",
+      "questionText": "Sie hat das gesagt, ___ mich verletzt hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q060",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "fill_blank",
+      "questionText": "Er war sehr nervoes, ___ man sehen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "was",
+        "dass",
+        "wen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Subjekt",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q061",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "fill_blank",
+      "questionText": "Mein Freund hat mir zum Geburtstag ein Auto geschenkt, ____ ich sehr ueberrascht war.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "worauf",
+        "worüber",
+        "womit",
+        "woran"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - sich wundern über / ueberrascht sein ueber -> worüber",
+      "difficulty": "medium",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q062",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "fill_blank",
+      "questionText": "Er ist immer zu spat gekommen, ____ ich gar nicht lustig fand.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "was",
+        "wobei",
+        "wofür",
+        "worauf"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was refers to entire clause (zu spat sein = whole situation)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q063",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "fill_blank",
+      "questionText": "Die Firma hat einen neuen Geschaeftsfuehrer eingestellt, ____ die Belegschaft nicht informiert wurde.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "worüber",
+        "wovor",
+        "worauf",
+        "wovon"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - nicht informiert sein ueber -> worüber",
+      "difficulty": "medium",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q064",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "fill_blank",
+      "questionText": "Sie hat drei Jahre in Spanien gelebt, ____ sie fliesig Spanisch gelernt hat.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "woran",
+        "wobei",
+        "womit",
+        "wohin"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wobei",
+      "explanation": "Weiterführende Nebensätze - wobei = dabei /与此同时 (zeitlich/modal)",
+      "difficulty": "medium",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q065",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "fill_blank",
+      "questionText": "Der Zug hatte eine Stunde Verspatung, ____ sich viele Fahrgaeste beschwerten.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "worüber",
+        "worauf",
+        "wovon",
+        "woran"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - sich beschweren ueber -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q066",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "fill_blank",
+      "questionText": "Das Konzert war ausverkauft, ____ wir nicht gerechnet hatten.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "womit",
+        "woran",
+        "wofür",
+        "worauf"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "womit",
+      "explanation": "Weiterführende Nebensätze - rechnen mit + Dativ -> womit",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q067",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "fill_blank",
+      "questionText": "Die Chefin hat uns allen eine Gehaltserhoehung versprochen, ____ keiner wirklich glaubte.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "woran",
+        "worüber",
+        "wovon",
+        "wobei"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "woran",
+      "explanation": "Weiterführende Nebensätze - glauben an + Akk -> woran",
+      "difficulty": "medium",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q068",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "fill_blank",
+      "questionText": "Er raucht und trinkt zu viel, ____ er sich langfristig schadet.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "wovon",
+        "wobei",
+        "womit",
+        "woran"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
+      "correctAnswer": "womit",
+      "explanation": "Weiterführende Nebensätze - schaden + Dativ -> womit (Instrument)",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q069",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "fill_blank",
+      "questionText": "Die beiden haben sich endlich vertragen, ____ ich mich sehr freue.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "worauf",
+        "worüber",
+        "wofür",
+        "wovor"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - sich freuen ueber -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q070",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "fill_blank",
+      "questionText": "Du hast mir nie die Wahrheit gesagt, ____ ich nie verzeihen werde.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "was",
+        "womit",
+        "worauf",
+        "wohin"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
+      "correctAnswer": "was",
+      "explanation": "Weiterführende Nebensätze - was als Objekt (verzeihen was)",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q071",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "fill_blank",
+      "questionText": "Das Publikum applaudierte zehn Minuten lang, ____ der Saenger sichtlich gueruehrt war.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "worüber",
+        "wovon",
+        "worauf",
+        "woran"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - geruehrt sein ueber -> worüber",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q072",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "fill_blank",
+      "questionText": "Wir haben den ganzen Tag im Garten gearbeitet, ____ wir sehr mude wurden.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "wobei",
+        "worauf",
+        "wonach",
+        "womit"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wonach",
+      "explanation": "Weiterführende Nebensätze - wonach = wonach (dan sonra / zeitlich)",
+      "difficulty": "medium",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q073",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "fill_blank",
+      "questionText": "Meine Omi hat mir ein altes Familienrezept vererbt, ____ ich sehr stolz bin.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "worauf",
+        "worüber",
+        "wofür",
+        "woran"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
+      "correctAnswer": "worauf",
+      "explanation": "Weiterführende Nebensätze - stolz sein auf + Akk -> worauf",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q074",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "fill_blank",
+      "questionText": "Der Vortrag war aeusserst langweilig, ____ einige Zuhörer einschliefen.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "wobei",
+        "worauf",
+        "wonach",
+        "wovon"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
+      "correctAnswer": "wobei",
+      "explanation": "Weiterführende Nebensätze - wobei = dabei (währenddessen)",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q075",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "fill_blank",
+      "questionText": "Die Polizei hat den Dieb gefasst, ____ die ganze Stadt erleichtert war.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "worüber",
+        "worauf",
+        "wofür",
+        "womit"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - erleichtert sein ueber -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q076",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "fill_blank",
+      "questionText": "Er hat mir 500 Euro geliehen, ____ ich ihm sehr dankbar bin.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "wofür",
+        "womit",
+        "woran",
+        "worüber"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
+      "correctAnswer": "wofür",
+      "explanation": "Weiterführende Nebensätze - dankbar sein fuer + Akk -> wofür",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q077",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "fill_blank",
+      "questionText": "Das Ehepaar hat sich scheiden lassen, ____ ihre Kinder sehr gelitten haben.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "worunter",
+        "worüber",
+        "wobei",
+        "worauf"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "worunter",
+      "explanation": "Weiterführende Nebensätze - leiden unter + Dat -> worunter",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q078",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "fill_blank",
+      "questionText": "Die Bauarbeiten wurden ploetzlich gestoppt, ____ die Anwohner sich wunderten.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "worauf",
+        "worüber",
+        "womit",
+        "wovon"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "worüber",
+      "explanation": "Weiterführende Nebensätze - sich wundern ueber -> worüber",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q079",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "fill_blank",
+      "questionText": "Der Computer ist abgestuerzt, ____ ich meine gesamte Arbeit verloren habe.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "wobei",
+        "wodurch",
+        "wofür",
+        "woran"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wodurch",
+      "explanation": "Weiterführende Nebensätze - wodurch = aus diesem Grund / dadurch (Ergebnis)",
+      "difficulty": "medium",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q080",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "fill_blank",
+      "questionText": "Sie hat die Prufung mit Auszeichnung bestanden, ____ sie jahrelang hart gelernt hatte.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "worauf",
+        "wofür",
+        "woran",
+        "wovor"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
+      "correctAnswer": "worauf",
+      "explanation": "Weiterführende Nebensätze - hinarbeiten auf + Akk -> worauf",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q081",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "fill_blank",
+      "questionText": "Ich gehe nicht zur Party, _____ ich morgen fruh arbeiten muss.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "denn",
+        "weil",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "weil",
+      "explanation": "Nebensatz - Kausalsatz: weil leitet Nebensatz mit Verb am Ende ein",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q082",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "fill_blank",
+      "questionText": "_____ du mich frueher angerufen hättest, wäre ich noch gekommen.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "Wenn",
+        "Als",
+        "Seit",
+        "Während"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
+      "correctAnswer": "Wenn",
+      "explanation": "Nebensatz - Konditionalsatz irreal: wenn + Konjunktiv II",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q083",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "fill_blank",
+      "questionText": "Er hat die Prufung bestanden, _____ er kaum gelernt hatte.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "weil",
+        "da",
+        "obwohl",
+        "sodass"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "obwohl",
+      "explanation": "Nebensatz - Konzessivsatz: Gegensatz (obwohl = although)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q084",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "fill_blank",
+      "questionText": "Wir warten hier, _____ der Zug endlich abfährt.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "bis",
+        "nachdem",
+        "bevor",
+        "seit"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "bis",
+      "explanation": "Nebensatz - Temporalsatz: Warten bis zu einem Zeitpunkt",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q085",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "fill_blank",
+      "questionText": "Sie spricht sehr leise, _____ niemand sie versteht.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "weil",
+        "damit",
+        "obwohl",
+        "wenn"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
+      "correctAnswer": "damit",
+      "explanation": "Nebensatz - Finalsatz: Zweck/Absicht (damit = so that)",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q086",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "fill_blank",
+      "questionText": "_____ ich in Berlin wohne, besuche ich oft Museen.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "Als",
+        "Wenn",
+        "Seit",
+        "Nachdem"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Seit",
+      "explanation": "Nebensatz - Temporalsatz: Seit = since (andauernde Handlung)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q087",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "fill_blank",
+      "questionText": "Ich weiß nicht, _____ er heute kommt oder nicht.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "dass",
+        "ob",
+        "wenn",
+        "weil"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "Nebensatz - indirekte Frage mit zwei Möglichkeiten (ob = whether)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q088",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "fill_blank",
+      "questionText": "_____ des Regens gingen wir spazieren.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "Wegen",
+        "Obwohl",
+        "Trotz",
+        "Da"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
+      "correctAnswer": "Trotz",
+      "explanation": "Präposition mit Genitiv: Trotz + Genitiv (despite)",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q089",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "fill_blank",
+      "questionText": "Er tut so, _____ er nichts von dem Problem wuesste.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "dass",
+        "als ob",
+        "wenn",
+        "weil"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "als ob",
+      "explanation": "Nebensatz - Modalsatz: irreale Vergleichssituation (als ob)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q090",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "fill_blank",
+      "questionText": "_____ sie die Nachricht erhielt, war sie sehr ueberrascht.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "Wenn",
+        "Als",
+        "Seit",
+        "Während"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "Nebensatz - Temporalsatz: einmalige Vergangenheit (als = when)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q091",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "fill_blank",
+      "questionText": "Kannst du mir sagen, _____?",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "wo ist der Bahnhof",
+        "wo der Bahnhof ist",
+        "der Bahnhof wo ist",
+        "ist der Bahnhof wo"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "wo der Bahnhof ist",
+      "explanation": "Indirekte Frage: Verb im Nebensatz am Ende (Wohin? -> wo...ist)",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q092",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "fill_blank",
+      "questionText": "Ich freue mich darauf, _____ mit dir zu sprechen.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "dass",
+        "damit",
+        "weil",
+        "obwohl"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dass",
+      "explanation": "Nebensatz - dass-Satz nach sich freuen auf (dass + Konjunktiv)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q093",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "fill_blank",
+      "questionText": "_____ du Zeit hast, können wir uns treffen.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "Obwohl",
+        "Falls",
+        "Damit",
+        "Sondern"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Falls",
+      "explanation": "Nebensatz - Konditionalsatz: Falls = if (Bedingung)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q094",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "fill_blank",
+      "questionText": "Sie hat das Buch gelesen, _____ sie den Film sehen wollte.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "bevor",
+        "nachdem",
+        "während",
+        "seit"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
+      "correctAnswer": "bevor",
+      "explanation": "Nebensatz - Temporalsatz: Reihenfolge der Handlungen (bevor = before)",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q095",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "fill_blank",
+      "questionText": "Er ist so mude, _____ er sofort einschlafen kann.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "weil",
+        "dass",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dass",
+      "explanation": "Nebensatz - Konsekutivsatz: Folge der Müdigkeit (so...dass)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q096",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "fill_blank",
+      "questionText": "_____ ich ihn gefragt habe, hat er nicht geantwortet.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "Wenn",
+        "Als",
+        "Obwohl",
+        "Da"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "Nebensatz - Temporalsatz: einmaliges Ereignis in der Vergangenheit",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q097",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "fill_blank",
+      "questionText": "Wir fahren in den Urlaub, _____ wir uns erholen können.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "weil",
+        "damit",
+        "obwohl",
+        "dass"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "damit",
+      "explanation": "Nebensatz - Finalsatz: Zweck der Urlaubsreise (damit = so that)",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q098",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "fill_blank",
+      "questionText": "_____ des schlechten Wetters haben wir das Picknick abgesagt.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "Wegen",
+        "Obwohl",
+        "Da",
+        "Weil"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Wegen",
+      "explanation": "Präposition mit Genitiv: Wegen + Genitiv (because of)",
+      "difficulty": "easy",
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q099",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "fill_blank",
+      "questionText": "Ich erinnere mich daran, _____ wir uns zum ersten Mal getroffen haben.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_14_q1",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er war traurig, ___ er krank war.",
-      "options": [
-        "weil",
-        "obwohl",
+        "wann",
         "wenn",
-        "als"
+        "als",
+        "dass"
       ],
-      "correctAnswer": "weil",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
+      "correctAnswer": "als",
+      "explanation": "Nebensatz - Temporalsatz: Zeitpunkt in der Vergangenheit (als = when)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Weiterführende Nebensätze"
     },
     {
       "id": "b2_14_q100",
       "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "fill_blank",
+      "questionText": "Er lernt Deutsch, _____ er in Deutschland studieren möchte.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
-      ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_14_q2",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ er müde war, ist er ins Bett gegangen.",
-      "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
-      ],
-      "correctAnswer": "Weil",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_14_q3",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Sie ging spazieren, ___ das Wetter schön war.",
-      "options": [
-        "obwohl",
         "weil",
-        "wenn",
-        "als"
-      ],
-      "correctAnswer": "obwohl",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_14_q4",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er lernt Deutsch, ___ er in Deutschland arbeiten kann.",
-      "options": [
         "damit",
-        "weil",
         "obwohl",
         "wenn"
       ],
       "correctAnswer": "damit",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_14_q5",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "„Obwohl\" leitet einen Konzessivsatz ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
+      "explanation": "Nebensatz - Finalsatz: Ziel des Deutschlernens (damit = in order to)",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_14_q6",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "„Weil\" leitet einen Kausalsatz ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_14_q7",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "___ er krank war, ist er zur Arbeit gegangen.",
-      "options": [
-        "Obwohl",
-        "Weil",
-        "Wenn",
-        "Als"
-      ],
-      "correctAnswer": "Obwohl",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_14_q8",
-      "subjectId": "b2_14",
-      "topicName": "Weiterführende Nebensätze",
-      "questionText": "Er lernt, ___ er die Prüfung besteht.",
-      "options": [
-        "damit",
-        "weil",
-        "obwohl",
-        "wenn"
-      ],
-      "correctAnswer": "damit",
-      "explanation": "Grammatik-Thema: 14. Weiterführende Nebensätze",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Weiterführende Nebensätze"
     }
-  ],
-  "totalQuestions": 108
+  ]
 }

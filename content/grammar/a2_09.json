@@ -1,1553 +1,3220 @@
 {
+  "version": "1.0",
   "subjectId": "a2_09",
-  "topicName": "weil und obwohl",
+  "topicName": "Relativsätze",
   "level": "A2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 160,
   "questions": [
     {
       "id": "a2_09_q001",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_001",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Kollege, ______ ich dir gestern während der Mittagspause erzählt habe.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "den",
+        "dem",
+        "von dem",
+        "über den"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "von dem",
+      "explanation": "'erzählen von' + Dativ → von dem. 'Bahsetmek' (von etwas/jemandem erzählen).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q002",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich ___ dir helfen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_002",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ______ Produkte weltweit bekannt sind, hat ihren Sitz in München.",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "deren",
+        "dessen",
+        "die",
+        "derer"
       ],
-      "correctAnswer": "kann",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "die Firma (feminine) genitive → deren. 'Its products are recognized worldwide'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q003",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ du mit mir kommen?",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_003",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es gibt nichts, ______ er sich mehr freut als auf den bevorstehenden Urlaub.",
       "options": [
-        "Kannst",
-        "Kann",
-        "Können",
-        "Konntest"
+        "das",
+        "was",
+        "worüber",
+        "darauf"
       ],
-      "correctAnswer": "Kannst",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "worüber",
+      "explanation": "sich freuen über + Akkusativ. After indefinite words like 'Nichts', the wo(r)- structure is used.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q004",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ___ schon in München.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_004",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Dorf, ______ ich aufgewachsen bin, liegt idyllisch am Fuße der Alpen.",
       "options": [
-        "war",
-        "ist",
-        "hat",
-        "wird"
+        "wohin",
+        "in dem",
+        "wo",
+        "Hem B hem C doğru"
       ],
-      "correctAnswer": "war",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Both B and C are correct",
+      "explanation": "'in dem' (Dativ) and 'wo' are both correct — for place expressions.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q005",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_005",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kunden, ______ wir die neuen Konditionen angeboten haben, sind sehr zufrieden.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "denen",
+        "die",
+        "welcher",
+        "den"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "denen",
+      "explanation": "Kunden (plural) Dativ → denen. 'Anbieten + Dativ' (to offer).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q006",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_006",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist ein Mensch, ______ man sich in jeder Situation vollkommen verlassen kann.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "auf den",
+        "an den",
+        "dem",
+        "über den"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf den",
+      "explanation": "sich verlassen auf + Akkusativ → Relativsatz: auf den (that one can rely on).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q007",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_007",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist alles, ______ ich zu diesem komplizierten Thema sagen kann.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "das",
+        "was",
+        "welches",
+        "worüber"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "After indefinite pronouns like Alles, etwas, nichts, was is used.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q008",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_008",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Autor, ______ neues Buch ein Bestseller wurde, gibt morgen eine Lesung.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "dessen",
+        "deren",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "der Autor (masculine) genitive → dessen. 'His new book became a bestseller'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q009",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_009",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Krise, ______ wir uns gerade befinden, erfordert schnelles Handeln.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "in die",
+        "in der",
+        "worin",
+        "der"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "in der",
+      "explanation": "sich befinden in + Dativ (where?) → in der Krise (in the crisis).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q010",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_010",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ______ die Eltern bei dem Unfall ums Leben kamen, wird nun von Verwandten betreut.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "dessen",
+        "deren",
+        "dem",
+        "welches"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "das Kind (neuter) genitive → dessen. 'The child's parents'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q011",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_011",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es war das Schönste, ______ ich jemals in meinem Leben gesehen habe.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "das",
+        "welches",
+        "was",
+        "worauf"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "was is used after superlative adjectives (das Schönste).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q012",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_012",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Stadt, ______ wir letzten Sommer gereist sind, war unglaublich beeindruckend.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "in der",
+        "in die",
+        "wo",
+        "worin"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "in die",
+      "explanation": "reisen in + Akkusativ (where to?) → in die Stadt (direction of movement).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q013",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_013",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das sind die Argumente, ______ wir uns bei der Diskussion beziehen sollten.",
       "options": [
-        "hat / gegangen",
-        "ist / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "auf die",
+        "über die",
+        "an die",
+        "denen"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "auf die",
+      "explanation": "sich beziehen auf + Akkusativ → auf die (arguments).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q014",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_014",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Chef, ______ Entscheidung wir alle sehr überrascht waren, kündigte seinen Rücktritt an.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "über dessen",
+        "von dessen",
+        "auf dessen",
+        "an dessen"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "über dessen",
+      "explanation": "überrascht sein über + Akkusativ. With genitive: über dessen Entscheidung.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q015",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_015",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es gibt viele Dinge, ______ man im Alltag achten sollte.",
       "options": [
-        "kochen",
-        "kocht",
-        "gekocht",
-        "kochte"
+        "auf die",
+        "an die",
+        "worauf",
+        "Hem A hem C doğru"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf die",
+      "explanation": "For 'Dinge' as a concrete object, auf die is used. worauf can also be correct.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q016",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_016",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin, ______ ich das Buch geliehen habe, hat es mir immer noch nicht zurückgegeben.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "der",
+        "die",
+        "welcher",
+        "derer"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "der",
+      "explanation": "Studentin (feminine) Dativ → der. 'To whom did I lend money?' (Kime verdim?).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q017",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_017",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Moment, ______ ich schon so lange gewartet habe.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "auf den",
+        "worauf",
+        "an den",
+        "für den"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "auf den",
+      "explanation": "warten auf + Akkusativ → auf den (moment).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q018",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_018",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er erzählte uns etwas, ______ wir alle sehr lachen mussten.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "was",
+        "über das",
+        "worüber",
+        "Hem B hem C doğru"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Both B and C are correct",
+      "explanation": "lachen über + Akkusativ → über das (thing) and worüber are both correct.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q019",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_019",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Bäume, ______ Blätter sich im Herbst bunt färben, stehen direkt vor meinem Fenster.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "deren",
+        "dessen",
+        "die",
+        "derer"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "die Bäume (plural) genitive → deren. 'The trees' leaves'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q020",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_020",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, ______ er in seinem Leben erreicht hat, verdankt er seinem Fleiß.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "das",
+        "was",
+        "welches",
+        "worauf"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "was is used in sentences beginning with Alles (indefinite pronoun).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q021",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_021",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler, _______ Forschungsergebnisse weltweit Aufsehen erregt haben, wird morgen den Nobelpreis entgegennehmen.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "der",
+        "dessen",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine (Forschungsergebnisse = possession).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q022",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_022",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Maßnahmen, _______ die Regierung ergriffen hat, stoßen in der Bevölkerung auf geteilte Meinungen.",
       "options": [
-        "bei",
-        "auf",
-        "nach",
-        "von"
+        "die",
+        "der",
+        "denen",
+        "deren"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "die",
+      "explanation": "die — Akkusativ, plural (Maßnahmen = object).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q023",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_023",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist genau _______, worüber wir uns in der letzten Sitzung so ausführlich gestritten haben.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "das",
+        "was",
+        "dem",
+        "dies"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "was — relative pronoun that follows an indefinite antecedent (genau das).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q024",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_024",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, _______ ich das Projekt ursprünglich anvertraut hatte, hat die Stelle gewechselt.",
       "options": [
-        "gefahren",
-        "gefahren",
-        "gefahre",
-        "fährt"
+        "der",
+        "die",
+        "deren",
+        "denen"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "der",
+      "explanation": "der — Dativ, feminine (anvertrauen + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q025",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_025",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Konzern, _______ Hauptsitz sich in Genf befindet, expandiert zunehmend in den asiatischen Markt.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "der",
+        "dem",
+        "dessen",
+        "den"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine (Hauptsitz = possession).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q026",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_026",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, _______ er in seiner langen Karriere aufgebaut hatte, stand plötzlich auf dem Spiel.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "das",
+        "was",
+        "dem",
+        "dies"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "was",
+      "explanation": "was — relative pronoun following an 'alles' antecedent.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q027",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_027",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Stadt, _______ wir drei Jahre lang gelebt haben, hat sich seitdem stark verändert.",
       "options": [
-        "habt / gesehen",
-        "hat / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "die",
+        "der",
+        "wo",
+        "in der"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "in der",
+      "explanation": "in der — Preposition + Dativ, feminine (leben in + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q028",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_028",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Abgeordnete, _______ Aussagen vor dem Ausschuss für erhebliche Kontroversen gesorgt hatten, trat schließlich zurück.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "dessen",
+        "dem",
+        "der",
+        "deren"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine (Aussagen = possession).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q029",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_029",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Verträge, _______ die Bedingungen noch nicht vollständig ausgehandelt worden sind, können nicht unterzeichnet werden.",
       "options": [
-        "von / übertönt",
-        "vor / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "die",
+        "deren",
+        "denen",
+        "für die"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "für die",
+      "explanation": "für die — Preposition + Akkusativ, plural.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q030",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Die Aufgabe ist ___ zu ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_030",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wer _______ Konsequenzen seines Handelns nicht bedenkt, handelt unverantwortlich.",
       "options": [
-        "schwer / lösen",
-        "schwerer / lösen",
-        "am schwersten / lösen",
-        "schwere / gelöst"
+        "die",
+        "deren",
+        "die",
+        "–"
       ],
-      "correctAnswer": "schwer / lösen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "–",
+      "explanation": "wer — independent relative pronoun, sentence is complete.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q031",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_031",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Urteil, _______ das Gericht gestern gesprochen hat, wird von allen Beteiligten als wegweisend bewertet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "dem",
+        "das",
+        "was"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter (Urteil = object).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q032",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_032",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Experten, _______ Gutachten die Grundlage der Entscheidung bildete, wurden nicht in den Prozess einbezogen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "denen",
+        "der",
+        "die"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, plural (Gutachten = possession).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q033",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_033",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es gibt kaum etwas, _______ ihn noch überraschen könnte — er hat wirklich alles erlebt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "das",
+        "was",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "was",
+      "explanation": "was — relative pronoun following an 'etwas' antecedent.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q034",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_034",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Initiative, _______ sich zahlreiche Prominente angeschlossen haben, gewinnt zunehmend an Einfluss.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "denen",
+        "deren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "der",
+      "explanation": "der — Dativ, feminin (sich anschließen + Dativ).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q035",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_035",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Grund, _______ er so lange geschwiegen hat, bleibt bis heute unklar.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "warum",
+        "weshalb",
+        "den",
+        "A ve B doğru"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Both A and B are correct",
+      "explanation": "warum / weshalb — both are correct as reason relative adverbs.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q036",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_036",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Technologie, _______ das gesamte Projekt basiert, wurde erst vor wenigen Jahren entwickelt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf die",
+        "auf der",
+        "die",
+        "worauf"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "auf der",
+      "explanation": "auf der — Preposition + Dativ, feminine (basieren auf + Dativ).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q037",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_037",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand, _______ diese Unterlagen gelesen hat, kann behaupten, nichts gewusst zu haben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den",
+        "dem",
+        "der",
+        "dessen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine (in subject position).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q038",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_038",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Ergebnis der Abstimmung, _______ viele nicht gerechnet hatten, löste heftige Diskussionen aus.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "womit",
+        "mit dem",
+        "das",
+        "A ve B doğru"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Both A and B are correct",
+      "explanation": "womit / mit dem — both are correct; womit = prepositional adverb.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q039",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_039",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Mitarbeitenden, _______ Verträge zum Jahresende auslaufen, wurden über ihre Optionen informiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "denen",
+        "deren",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, plural (Verträge = possession).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q040",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_040",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es war eine Entscheidung, _______ weitreichende Konsequenzen niemand zu diesem Zeitpunkt absehen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "deren",
+        "der",
+        "denen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine (Konsequenzen = possession).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q041",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Nach\" braucht immer den Dativ.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_041",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Student, ______ neben mir sitzt, kommt aus Spanien.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den",
+        "dem",
+        "der",
+        "dessen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine (der Student = subject).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q042",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Im Perfekt sagt man \"ich habe gesehen\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_042",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ______ ich gestern gelesen habe, war sehr spannend.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "das",
+        "dem",
+        "dessen",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter (das Buch = object).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q043",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Oder\" verbindet zwei Hauptsätze.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_043",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ______ Auto gestohlen wurde, rief die Polizei an.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "die",
+        "denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine (Auto = belonging to Die Frau).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q044",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Denn\" leitet einen Nebensatz ein.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_044",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Professor, mit ______ wir gesprochen haben, ist sehr bekannt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den",
+        "dem",
+        "dessen",
+        "denen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine (sprechen mit + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q045",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Wegen\" braucht den Dativ.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_045",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ______ Produkte weltweit verkauft werden, expandiert schnell.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "deren",
+        "dessen",
+        "denen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine (Produkte = the company's products).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q046",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Im Präteritum: \"ich war\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_046",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das sind die Studenten, ______ an dem Projekt teilnehmen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "denen",
+        "die",
+        "deren",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "die — Nominativ, plural (die Studenten = subject).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q047",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Das gefällt mir\" braucht den Dativ.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_047",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Mann, ______ ich gestern getroffen habe, arbeitet bei Siemens.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "dem",
+        "den",
+        "dessen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "den",
+      "explanation": "den — Akkusativ, masculine (treffen + Akkusativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q048",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Ob\" leitet einen Nebensatz ein.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_048",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, ______ Meinung ich sehr schätze, wurde befördert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "die"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine (Meinung = the colleague's opinion).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q049",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Am\" wird bei Wochentagen verwendet.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_049",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Gebäude, in ______ die Konferenz stattfindet, ist sehr modern.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dem",
+        "den",
+        "dessen",
+        "denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dem",
+      "explanation": "in dem — Dativ, neuter (stattfinden in + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q050",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Zur\" ist die Kurzform von \"zu der\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_050",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Menschen, ______ geholfen wurde, waren sehr dankbar.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "denen",
+        "deren",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "denen",
+      "explanation": "denen — Dativ, plural (helfen + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q051",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_051",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Autor, ______ Roman international bekannt wurde, hielt einen Vortrag.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine (Roman = the author's novel).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q052",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_052",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Stadt, ______ wir letztes Jahr besucht haben, war wunderschön.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "deren",
+        "denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "die — Akkusativ, feminine (besuchen + Akkusativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q053",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_053",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Wissenschaftler, ______ Forschung neue Erkenntnisse gebracht hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine (Forschung = the scientist's research).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q054",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_054",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten, mit ______ der Professor diskutierte, waren sehr engagiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "denen",
+        "den",
+        "deren",
+        "die"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "denen",
+      "explanation": "denen — Dativ, plural (diskutieren mit + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q055",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_055",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Film, ______ wir gestern gesehen haben, gewann mehrere Preise.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "den",
+        "das",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "den",
+      "explanation": "den — Akkusativ, masculine (sehen + Akkusativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q056",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_056",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Lehrerin, ______ Unterricht sehr interessant ist, unterrichtet Geschichte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "die"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine (Unterricht = the teacher's lesson).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q057",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_057",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das sind die Kollegen, ______ ich gestern die Unterlagen geschickt habe.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "denen",
+        "deren",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "denen",
+      "explanation": "denen — Dativ, plural (schicken an + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q058",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_058",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Junge, ______ Fahrrad vor dem Haus steht, ist mein Nachbar.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine (Fahrrad = the boy's bicycle).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q059",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_059",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Organisation, für ______ er arbeitet, unterstützt Flüchtlinge.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "das",
+        "denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "die — Akkusativ, feminine (arbeiten für + Akkusativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q060",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_060",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Professorin, ______ Vortrag alle beeindruckte, erhielt einen Preis.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "die"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine (Vortrag = the professor's lecture).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q061",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_061",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Kollege, _____ Frau Ärztin ist.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "dessen",
+        "deren",
+        "der",
+        "die"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine, refers to 'der Kollege'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q062",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_062",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kennst du den Mann, mit _____ ich gestern gesprochen habe?",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "dem",
+        "den",
+        "der",
+        "wen"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dem",
+      "explanation": "mit dem — Dativ, masculine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q063",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_063",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, in _____ ich arbeite, sucht neue Mitarbeiter.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "der",
+        "die",
+        "den",
+        "welche"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "der",
+      "explanation": "in der — Dativ, feminine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q064",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_064",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, über _____ wir uns unterhalten haben, ist ein Bestseller.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "das",
+        "dem",
+        "den",
+        "der"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "das",
+      "explanation": "über das — Akkusativ, neuter.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q065",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_065",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Hast du das Geld, auf _____ du gewartet hast, endlich bekommen?",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "das",
+        "dem",
+        "den",
+        "die"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "das",
+      "explanation": "auf das — Akkusativ, neuter.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q066",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_066",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin, _____ Projekt ausgezeichnet wurde, freut sich sehr.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q067",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_067",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das, _____ er gesagt hat, hat mich überrascht.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "was",
+        "das",
+        "welches",
+        "denn"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "was",
+      "explanation": "was — used after 'das, alles, nichts'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q068",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_068",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Dame, _____ ich den Brief gegeben habe, ist meine Chefin.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "der",
+        "die",
+        "deren",
+        "den"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "der",
+      "explanation": "der — Dativ, feminine (geben + Dativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q069",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_069",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es gab einen Moment, in _____ ich alles hinwerfen wollte.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "dem",
+        "den",
+        "der",
+        "dessen"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dem",
+      "explanation": "in dem — Dativ, masculine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q070",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_070",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kennst du jemanden, _____ mir helfen kann?",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "der",
+        "den",
+        "dem",
+        "dessen"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q071",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_071",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Haus, vor _____ ein alter Baum steht, gehört meinem Onkel.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "dem",
+        "den",
+        "das",
+        "der"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dem",
+      "explanation": "vor dem — Dativ, neuter.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q072",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_072",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, mit _____ ich oft zusammenarbeite, ist krank.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "der",
+        "die",
+        "deren",
+        "den"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "der",
+      "explanation": "mit der — Dativ, feminine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q073",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_073",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wer einmal lügt, _____ dem glaubt man nicht.",
       "options": [
-        "ist / gegangen",
-        "hat / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "dem",
+        "den",
+        "der",
+        "wen"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, 'wer' refers to 'dem'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q074",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_074",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist genau das Problem, _____ ich dich gewarnt habe.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "vor dem",
+        "vor den",
+        "worüber",
+        "wovor"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wovor",
+      "explanation": "wovor — Relative clause with interrogative replacement (vor + Dativ).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q075",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_075",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, von _____ ich dir erzählt habe, ist pleitegegangen.",
       "options": [
-        "gekocht",
-        "kochen",
-        "kocht",
-        "kochte"
+        "der",
+        "die",
+        "deren",
+        "den"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "der",
+      "explanation": "von der — Dativ, feminine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q076",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_076",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich suche eine Wohnung, _____ Fenster zur Sonne zeigen.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive plural (die Wohnung, deren Fenster).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q077",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_077",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Ort, an _____ ich meine Kindheit verbracht habe.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "dem",
+        "den",
+        "der",
+        "dessen"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dem",
+      "explanation": "an dem — Dativ, masculine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q078",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_078",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, _____ er sagt, ist gelogen.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "was",
+        "das",
+        "welches",
+        "denn"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "was",
+      "explanation": "was — used after 'alles'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q079",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_079",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Ärztin, auf _____ wir warten, kommt gleich.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "die",
+        "der",
+        "welche",
+        "den"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "die",
+      "explanation": "auf die — Akkusativ, feminine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q080",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_080",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist derjenige, _____ Schuld es war.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "dessen",
+        "der",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q081",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Forscher, ____________ die Ergebnisse veröffentlicht hat, wurde ausgezeichnet.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "dessen",
+        "deren",
+        "der",
+        "den"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine (refers to 'der Forscher'). The researcher's results were published. Genitive marks possession.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q082",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ____________ ich gestern gelesen habe, war sehr spannend.",
       "options": [
-        "auf",
-        "bei",
-        "nach",
-        "von"
+        "das",
+        "der",
+        "die",
+        "den"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter (refers to 'das Buch'). The relative pronoun agrees with its antecedent in gender, number, and case. Here 'das Buch' is the object of 'gelesen habe' → Akkusativ.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q083",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ____________ wir gestern getroffen haben, ist unsere neue Chefin.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "die",
+        "der",
+        "das",
+        "den"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "die",
+      "explanation": "die — Akkusativ, feminine (refers to 'die Frau'). The verb 'treffen' requires Akkusativ. The relative pronoun must match its antecedent's gender, number, and case.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q084",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nichts, ____________ du gesagt hast, ist wahr.",
       "options": [
-        "gefahren",
-        "fahren",
-        "fahre",
-        "fährt"
+        "was",
+        "das",
+        "wer",
+        "wo"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "was",
+      "explanation": "was — After indefinite pronouns like 'Nichts', 'Alles', 'Etwas', the relative pronoun 'was' is always used. This is a fixed rule: indefinite pronoun antecedent → was.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q085",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Lehrer, ____________ ich vertraue, hat mir geholfen.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "den",
+        "der",
+        "dem",
+        "dessen"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The verb 'vertrauen' requires Dativ (vertrauen + Dativ). 'Der Lehrer' in Dativ is 'dem' → 'dem ich vertraue'.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q086",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, ____________ ich weiß, ist, dass er Recht hatte.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "was",
+        "das",
+        "es",
+        "wer"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "was",
+      "explanation": "was — After 'Alles' (indefinite pronoun), 'was' is the required relative pronoun. This also applies to 'Etwas', 'Nichts', and superlative nouns.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q087",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin, ____________ die Universität empfohlen hat, ist sehr kompetent.",
       "options": [
-        "hat / gesehen",
-        "habt / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "deren",
+        "dessen",
+        "die",
+        "welche"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine. The university recommended the student. Whose recommendation? → deren. 'Deren' agrees with the antecedent (feminine singular) and marks possession.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q088",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Gebäude, ____________ wir vorbeigehen, ist sehr alt.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "an dem",
+        "das",
+        "der",
+        "wo"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "an dem",
+      "explanation": "an dem — Dativ, neuter. The verb 'vorbeigehen an + Dativ' requires Dativ. 'Das Gebäude' in Dativ is 'dem' → 'an dem wir vorbeigehen'. Note: 'wo' is NOT used for people or specific objects.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q089",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Personen, ____________ ich mich gewandt habe, waren sehr hilfsbereit.",
       "options": [
-        "vor / übertönt",
-        "von / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "denen",
+        "die",
+        "der",
+        "an die"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "an die",
+      "explanation": "an die — Akkusativ, plural. The verb 'sich wenden an + Akkusativ' requires Akkusativ for the person. 'An die Personen' → 'an die' is the correct form. The relative pronoun must reflect the preposition's case requirement.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q090",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat mir geholfen, ____________ ich sehr dankbar bin.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "darüber",
+        "worüber",
+        "an das",
+        "was"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "darüber",
+      "explanation": "darüber — 'darüber' = 'über diese Hilfe' (about this help). After a definite antecedent ('das') with a prepositional complement, German uses 'da(r)-' forms. Compare: 'Die Hilfe, worüber ich mich freue' (indefinite/wo(r)-) vs. 'Die Hilfe, darüber bin ich dankbar' (definite/da(r)-). Here the antecedent is a clause, so 'darüber' is appropriate.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q091",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder, ____________ die Eltern berufstätig sind, kommen nachmittags in die Kita.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "deren",
+        "deren",
+        "deren",
+        "deren"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, plural (refers to 'die Kinder'). Whose parents? → deren. 'Deren' agrees with the antecedent (plural) and marks possession. The parents are employed = die Kinder, deren Eltern berufstätig sind.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q092",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Haus, ____________ wir Miete zahlen, gehört einem Architekten.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "das",
+        "dem",
+        "an das",
+        "wo"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter. The verb combination 'Miete zahlen für + Akkusativ' requires Akkusativ. 'Für das Haus' → 'das'. The house that we pay rent for. Note: some verbs with 'für' can also take Dativ in regional usage, but 'zahlen für' consistently takes Akkusativ.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q093",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Kollege, mit ____________ ich im Büro sitze, ist sehr freundlich.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "dem",
+        "der",
+        "den",
+        "dessen"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The preposition 'mit' requires Dativ. 'Der Kollege' in Dativ is 'dem' → 'mit dem ich im Büro sitze'. This is a standard preposition + relative pronoun construction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q094",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist das Problem, ____________ ich mich nicht kümmern kann.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "das",
+        "worüber",
+        "woran",
+        "damit"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter. The verb 'kümmern um + Akkusativ' requires Akkusativ. 'Das Problem' in Akkusativ is 'das' → 'das Problem, um das ich mich nicht kümmern kann'. Note: in colloquial German, 'woran' is also possible with 'kümmern', but 'das' (Akkusativ) is the standard A2 answer.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_09_q095",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Zeit, ____________ wir in dieser Stadt verbracht haben, war wunderbar.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "die",
+        "der",
+        "das",
+        "denen"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "die",
+      "explanation": "die — Akkusativ, feminine (refers to 'die Zeit'). The verb 'verbringen' takes Akkusativ. The time that we spent in this city was wonderful.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q096",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Film, ____________ ich mich gefreut habe, war enttäuschend.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "darüber",
+        "worüber",
+        "das",
+        "der"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "worüber",
+      "explanation": "worüber — The verb 'sich freuen über + Akkusativ' uses 'worüber' after indefinite or general antecedents. After 'der Film' (definite), both 'worüber' and 'darüber' are possible, but 'worüber' is the more standard A2 answer. 'worüber' = 'über den Film'. Note: 'darüber' is used after a definite, specific antecedent in formal German.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_09_q097",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ____________ Auto gestohlen wurde, hat Anzeige erstattet.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "deren",
+        "dessen",
+        "die",
+        "welche"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine. The woman's car was stolen. Whose car? → deren. 'Deren' is used for feminine singular and plural nouns in genitive to mark possession.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q098",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Beste, ____________ mir passieren konnte, ist passiert.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "was",
+        "das",
+        "es",
+        "welches"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "was",
+      "explanation": "was — After superlatives (das Beste = the best), the relative pronoun 'was' is always used. This is a fixed grammatical rule: superlative + was. Other examples: das Schönste, was ich je gesehen habe.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q099",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Mann, ____________ ich dich gestern kennenlernen wollte, ist leider nicht gekommen.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "mit dem",
+        "der",
+        "den",
+        "an den"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "mit dem",
+      "explanation": "mit dem — Dativ, masculine. The implied preposition 'mit' (with) requires Dativ. 'Der Mann' in Dativ is 'dem' → 'mit dem ich dich kennenlernen wollte' (the man with whom I wanted to introduce you yesterday).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_09_q100",
       "subjectId": "a2_09",
-      "topicName": "weil und obwohl",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Schüler, ____________ die Leistungen sich verbessert haben, wurden gelobt.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "deren",
+        "deren",
+        "deren",
+        "deren"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, plural. Whose performances improved? → deren (the students' performances). 'Deren' agrees with the antecedent in gender and number (plural = feminine form 'deren') and shows possession.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q101",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe keine Zeit, die Unterlagen ________.",
+      "options": [
+        "zu prüfen",
+        "geprüft",
+        "prüfend",
+        "geprüft werden"
+      ],
+      "correctAnswer": "zu prüfen",
+      "explanation": "Infinitiv mit zu: 'Ich habe keine Zeit, die Unterlagen zu prüfen.' The infinitive construction is used after nouns like 'Zeit', 'Möglichkeit', ' Lust'. Alternative: 'um ... zu prüfen' — 'Ich habe keine Zeit, um die Unterlagen zu prüfen.'",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q102",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist der Erste, ________ das Ziel erreicht hat.",
+      "options": [
+        "der",
+        "das",
+        "welche",
+        "wer"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine. 'Er ist der Erste' (Superlativ as noun) → the relative clause after superlative nouns uses 'der/die/das' as the relative pronoun, followed by the verb. The structure is: der Erste, der ... erreicht hat.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q103",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Bericht, ________ gestern erstellt wurde, liegt vor.",
+      "options": [
+        "der",
+        "dem",
+        "dessen",
+        "was"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine (refers to 'der Bericht'). This is a Passiv Relativsatz: 'der Bericht, der gestern erstellt wurde'. The relative pronoun 'der' is the subject of the passive clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q104",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung, ________ getroffen worden war, war endgültig.",
+      "options": [
+        "die",
+        "der",
+        "das",
+        "welche"
+      ],
+      "correctAnswer": "die",
+      "explanation": "die — Nominativ, feminine (refers to 'die Entscheidung'). Plusquamperfekt Passiv: 'hatte getroffen werden sollen' → 'worden war' (shortened). The relative pronoun is the subject of the passive clause.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q105",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Unterlagen, ________ zu prüfen sind, liegen auf dem Tisch.",
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "deren"
+      ],
+      "correctAnswer": "die",
+      "explanation": "die — Nominativ/Akkusativ, plural. Infinitiv mit zu + Passiv: 'Die Unterlagen, die zu prüfen sind' (the documents that need to be checked). The relative pronoun 'die' is the subject of the passive infinitive clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q106",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ________ ich gestern ________, war sehr interessant.",
+      "options": [
+        "habe / gelesen",
+        "hat / gelesen worden",
+        "wurde / gelesen",
+        "wird / gelesen"
+      ],
+      "correctAnswer": "habe / gelesen",
+      "explanation": "habe / gelesen — Aktiv Präteritum. The relative clause 'das ich gestern gelesen habe' is in Perfekt Aktiv. Note: 'das Buch' is the object (Akkusativ) of 'gelesen habe' — wait, in Perfekt with 'haben', the participle is at the end but the object position depends on the verb. Here: 'ein Buch lesen' → Akkusativ → 'das Buch' → correct.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q107",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studie, ________ Ergebnisse vielversprechend ________, wurde bereits veröffentlicht.",
+      "options": [
+        "deren / sind",
+        "dessen / ist",
+        "die / sind",
+        "deren / sei"
+      ],
+      "correctAnswer": "deren / sind",
+      "explanation": "deren / sind — Genitive, plural (refers to 'die Studie'). 'Deren' agrees with 'Studie' (feminine singular) in gender, but in genitive the form is the same for feminine/plural: deren. The relative clause uses Konjunktiv I ('seien' would be the Konjunktiv I form, but 'sind' shows the Indiektiv is also possible in written German).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q108",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Mann, ________ ich helfe, ist krank.",
+      "options": [
+        "den",
+        "dem",
+        "der",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The verb 'helfen' requires Dativ (helfen + Dativ). 'Der Mann' in Dativ is 'dem'. Common trap: learners often use Akkusativ 'den' because they confuse 'helfen' with verbs that take Akkusativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q109",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ________ ich lese, ist sehr spannend.",
+      "options": [
+        "das",
+        "was",
+        "der",
+        "dem"
+      ],
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter. 'Das Buch' is the object of 'lesen' (Akkusativ verb). Common trap: learners sometimes use 'was' for all neuter nouns, but 'was' is only used after indefinite pronouns (alles, etwas, nichts) or superlatives — NOT after definite nouns like 'das Buch'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q110",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, ________ du sagst, wird als Geheimnis behandelt.",
+      "options": [
+        "was",
+        "das",
+        "es",
+        "wer"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After the indefinite pronoun 'Alles', the relative pronoun 'was' is always used. This is a fixed rule. Common trap: using 'das' instead of 'was' after 'Alles', 'Etwas', 'Nichts'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q111",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ________ Produkte weltweit bekannt ________, ist sehr erfolgreich.",
+      "options": [
+        "deren / sind",
+        "dessen / ist",
+        "die / ist",
+        "deren / ist"
+      ],
+      "correctAnswer": "deren / sind",
+      "explanation": "deren / sind — Genitive, feminine. 'Die Firma' (feminine) in genitive is 'deren'. The verb 'sind' agrees with 'Produkte' (plural). Common trap: confusing 'dessen' (masculine/neuter) with 'deren' (feminine/plural).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q112",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Grund, ________ er gefahren ist, ist unbekannt.",
+      "options": [
+        "warum",
+        "aus dem",
+        "aus dem / weil",
+        "woran"
+      ],
+      "correctAnswer": "warum",
+      "explanation": "warum — 'the reason why he left'. The relative adverb 'warum' (= warum = why) is specifically used for 'Grund' (reason). Alternative: 'aus dem Grund' or 'weshalb'. Common trap: using 'auf dem' or 'in dem' — but 'Grund' is used with 'wofür', 'warum', 'aus dem Grund', NOT 'auf dem'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q113",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, ________ ich mich gewandt habe, hat mir geholfen.",
+      "options": [
+        "an die",
+        "die",
+        "der",
+        "deren"
+      ],
+      "correctAnswer": "an die",
+      "explanation": "an die — Akkusativ, feminine. The verb 'sich wenden an + Akkusativ' (to turn to) requires Akkusativ for the person. 'An die Kollegin' → 'an die'. Common trap: using 'die' without the preposition 'an'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q114",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ________ Eltern ich kenne, wohnt neben uns.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "die"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, neuter (refers to 'das Kind'). Whose parents? → dessen. Common trap: confusing 'dessen' (masculine/neuter) with 'deren' (feminine/plural). 'Das Kind' (neuter) → dessen.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q115",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Kollege, mit ________ ich das Projekt besprochen habe, ist im Meeting.",
+      "options": [
+        "dem",
+        "der",
+        "den",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The preposition 'mit' requires Dativ. 'Der Kollege' in Dativ is 'dem'. Common trap: using 'der' (Nominativ) without considering the preposition's case requirement.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q116",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Schüler, ________ die Hausaufgaben korrigiert ________, haben gute Noten.",
+      "options": [
+        "deren / worden sind",
+        "die / worden ist",
+        "denen / worden sind",
+        "deren / worden ist"
+      ],
+      "correctAnswer": "deren / worden sind",
+      "explanation": "deren / worden sind — Genitive, plural + Passiv. 'Deren' refers to 'die Schüler' (plural genitive). 'Korrigiert worden sind' = have been corrected (Perfekt Passiv). Common trap: using 'die' (nominative) instead of 'deren' (genitive).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q117",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, __________________, spricht vier Sprachen.",
+      "options": [
+        "deren Mann Arzt ist",
+        "dessen Mann Arzt ist",
+        "der Mann Arzt ist",
+        "sie Mann Arzt hat"
+      ],
+      "correctAnswer": "deren Mann Arzt ist",
+      "explanation": "deren Mann Arzt ist — Genitive, feminine. 'Die Frau' (feminine) in genitive is 'deren'. The man's doctor is... wait: 'deren Mann' = 'the woman's husband' (her husband). Whose husband? → deren. The structure: Die Frau, deren Mann Arzt ist (the woman whose husband is a doctor).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q118",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt, an ________ wir arbeiten, ist sehr interessant.",
+      "options": [
+        "dem",
+        "das",
+        "der",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, neuter. The verb 'arbeiten an + Dativ' requires Dativ. 'Das Projekt' in Dativ is 'dem' → 'an dem wir arbeiten'. Note: in colloquial German, 'woan' is sometimes used but is not standard.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q119",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Aufgabe, __________________, muss bis Freitag abgeschlossen werden.",
+      "options": [
+        "die ich zu erledigen habe",
+        "der ich zu erledigen habe",
+        "dem ich zu erledigen habe",
+        "worüber ich zu erledigen habe"
+      ],
+      "correctAnswer": "die ich zu erledigen habe",
+      "explanation": "die ich zu erledigen habe — Akkusativ, feminine. Infinitiv mit zu after a noun of task/work: 'die Aufgabe zu erledigen' (the task to complete). 'Die Aufgabe' (feminine) in Akkusativ is 'die'. The modal construction 'zu erledigen habe' = have to complete.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q120",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand, ________ ich vertraue, hat mich enttäuscht.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine (after 'Niemand', which is grammatically masculine). The verb 'vertrauen' requires Dativ. Note: 'Niemand' takes the relative pronoun corresponding to its grammatical gender (masculine), even though it refers to no person in particular.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q121",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_121",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Kollege, ________ ich das Projekt anvertraut habe, ist leider erkrankt.",
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The verb 'anvertrauen + Dativ' (to entrust someone with something) requires Dativ. 'Der Kollege' in Dativ is 'dem' → 'dem ich das Projekt anvertraut habe'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q122",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_122",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist die Firma, ________ neue Produkte auf dem Markt sehr erfolgreich sind.",
+      "options": [
+        "der",
+        "deren",
+        "dessen",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, feminine. 'Die Firma' (feminine) in genitive is 'deren'. The new products = deren neue Produkte. Whose products? → deren. Note: 'dessen' would be wrong because it is for masculine/neuter.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q123",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_123",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Vortrag, ________ ich gestern beigewohnt habe, war äußerst informativ.",
+      "options": [
+        "dem",
+        "den",
+        "der",
+        "welchem"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The verb 'beiwohnen + Dativ' (to attend) requires Dativ. 'Der Vortrag' in Dativ is 'dem' → 'dem ich gestern beigewohnt habe'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q124",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_124",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Stadt, ________ ich aufgewachsen bin, hat sich stark verändert.",
+      "options": [
+        "in der",
+        "in die",
+        "wo",
+        "A und C sind richtig"
+      ],
+      "correctAnswer": "A und C sind richtig",
+      "explanation": "in der / wo — Both are correct for place expressions. 'in der Stadt' (Dativ for location) and 'wo' (relative adverb for place) are both grammatically correct. 'In die' would be for direction (wohin), but 'aufwachsen in' uses Dativ (location where).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q125",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_125",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, ________ er versprochen hat, wurde auch eingehalten.",
+      "options": [
+        "das",
+        "was",
+        "welches",
+        "dem"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After the indefinite pronoun 'Alles', the relative pronoun 'was' is always used. This is a fixed rule: alles, was...; nichts, was...; viel, was...; wenig, was.... Common trap: using 'das' instead of 'was'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q126",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_126",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Antrag, ________ Bearbeitung mehrere Wochen in Anspruch nahm, wurde schließlich genehmigt.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine. 'Der Antrag' (masculine) in genitive is 'dessen'. Whose processing? → dessen Bearbeitung. Note: 'deren' would be wrong — that is for feminine/plural.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q127",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_127",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, ________ ich mich bei der Präsentation bedanken möchte, sitzt heute nicht im Meeting.",
+      "options": [
+        "bei der",
+        "bei welcher",
+        "der",
+        "A und B sind richtig"
+      ],
+      "correctAnswer": "A und B sind richtig",
+      "explanation": "bei der / bei welcher — Both 'bei der' and 'bei welcher' are correct. The verb 'sich bedanken bei + Dativ' (to thank) requires Dativ. 'Bei welcher' is the more formal variant, both acceptable in B2 German.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q128",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_128",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Problem, ________ wir uns gerade beschäftigen, ist nicht einfach zu lösen.",
+      "options": [
+        "mit dem",
+        "womit",
+        "mit welchem",
+        "Alle sind richtig"
+      ],
+      "correctAnswer": "Alle sind richtig",
+      "explanation": "mit dem / womit / mit welchem — All three are correct. The verb 'sich beschäftigen mit + Dativ' (to deal with) requires Dativ. 'mit dem Problem' = standard form; 'womit' = wo(r)- compound; 'mit welchem Problem' = formal interrogative form.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q129",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_129",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Zeitpunkt, ________ die Entscheidung getroffen werden muss, rückt näher.",
+      "options": [
+        "an dem",
+        "zu dem",
+        "an welchem",
+        "Alle sind möglich"
+      ],
+      "correctAnswer": "Alle sind möglich",
+      "explanation": "an dem / zu dem / an welchem — All are possible depending on context. 'an dem Zeitpunkt' (at the point in time), 'zu dem Zeitpunkt' (at/to that point), 'an welchem' (formal). All can express the deadline for a decision.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_09_q130",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_130",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand, ________ die Unterlagen gesehen hat, konnte eine Aussage dazu machen.",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "wer"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine. 'Niemand' is grammatically masculine ( Singular Maskulin). Even though it means 'no one', it takes masculine relative pronouns. In subject position → Nominativ = 'der'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q131",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_131",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Maßnahmen, ________ durch die Geschäftsführung eingeleitet wurden, zeigten schnell Wirkung.",
+      "options": [
+        "die",
+        "welche",
+        "die / welche",
+        "denen"
+      ],
+      "correctAnswer": "die / welche",
+      "explanation": "die / welche — Both are correct for plural antecedents in Nominativ or Akkusativ. 'Die Maßnahmen' (plural) → 'die' (standard) or 'welche' (more formal, equivalent form). 'Denen' would be wrong — that is Dativ plural.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q132",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_132",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Grund, ________ er gekündigt hat, wurde nie öffentlich bekannt.",
+      "options": [
+        "aus dem",
+        "warum",
+        "weswegen",
+        "Alle sind richtig"
+      ],
+      "correctAnswer": "Alle sind richtig",
+      "explanation": "aus dem / warum / weswegen — All are correct for expressing 'the reason why'. 'der Grund, aus dem' (from that reason), 'warum' (why — specifically for Grund), and 'weswegen' (for what reason) are all valid. Common trap: using 'auf dem' which is wrong with Grund.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q133",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_133",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ________ Autor ich sehr schätze, liegt gerade nicht im Regal.",
+      "options": [
+        "dessen",
+        "dem sein",
+        "von dem sein",
+        "dessen sein"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, neuter (refers to 'das Buch'). Whose author? → dessen Autor. Note: 'dessen sein' and 'von dem sein' are incorrect constructions. Genitive possessive is always 'dessen' for neuter/masculine, never with 'sein'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q134",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_134",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Idee, ________ wir in der letzten Besprechung diskutiert haben, wird nun umgesetzt.",
+      "options": [
+        "über die",
+        "worüber",
+        "über welche",
+        "Alle sind korrekt"
+      ],
+      "correctAnswer": "Alle sind korrekt",
+      "explanation": "über die / worüber / über welche — All are correct. The verb 'diskutieren über + Akkusativ' (to discuss) requires Akkusativ. 'Über die Idee' = standard; 'worüber' = wo(r)- compound; 'über welche' = formal interrogative form.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q135",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_135",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Mitarbeiter, ________ ich die Verantwortung übertragen habe, ist sehr zuverlässig.",
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "dessen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The verb 'übertragen + Dativ' (to transfer entrust) requires Dativ for the person. 'Der Mitarbeiter' in Dativ is 'dem' → 'dem ich die Verantwortung übertragen habe'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q136",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_136",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es gibt nichts, ________ man nicht lernen könnte, wenn man nur will.",
+      "options": [
+        "das",
+        "was",
+        "welches",
+        "dem"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After the indefinite pronoun 'Nichts', the relative pronoun 'was' is always used. This is a fixed rule: nichts, was... (nothing that...). Common trap: using 'das' instead of 'was' after indefinite pronouns.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q137",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_137",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Unterlagen, ________ Sie mich gestern gebeten haben, sende ich Ihnen gleich zu.",
+      "options": [
+        "um die",
+        "worum",
+        "um welche",
+        "A und B sind richtig"
+      ],
+      "correctAnswer": "A und B sind richtig",
+      "explanation": "um die / worum — Both are correct. The verb 'bitten um + Akkusativ' (to ask for) requires Akkusativ. 'Um die Unterlagen bitten' = standard; 'worum' = wo(r)- compound for the same meaning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q138",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_138",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Vertrag, ________ Bedingungen wir noch nicht vollständig verstehen, sollte genauer geprüft werden.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem seine",
+        "von dem seine"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren — Genitive, plural (refers to 'die Bedingungen', which is plural). Whose conditions? → deren Bedingungen. Note: 'dessen' is for singular masculine/neuter; 'deren' is for plural and feminine. 'dem seine' and 'von dem seine' are not valid German constructions.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q139",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_139",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist genau das, ________ ich seit Langem befürchtet habe.",
+      "options": [
+        "was",
+        "das",
+        "welches",
+        "dem"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After the demonstrative pronoun 'das' (in 'das ist das'), the relative pronoun 'was' is used. 'Das, was ich befürchtet habe' (that which I have feared). Note: after a simple 'das Buch' (definite noun), use 'das'; after 'das, was...' (demonstrative + relative), use 'was'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q140",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_140",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Person, ________ ich mich an der Rezeption erkundigt habe, konnte mir leider nicht weiterhelfen.",
+      "options": [
+        "nach der",
+        "wonach",
+        "nach welcher",
+        "A und C sind korrekt"
+      ],
+      "correctAnswer": "A und C sind korrekt",
+      "explanation": "nach der / nach welcher — Both are correct. The verb 'sich erkundigen nach + Dativ' (to inquire about) requires Dativ. 'Nach der Person erkundigen' = standard; 'nach welcher' = formal variant. Both are acceptable in B2 German.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q141",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_141",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Mann, ________ dort steht, ist mein Lehrer.",
+      "options": [
+        "der",
+        "den",
+        "dem",
+        "dessen"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine (refers to 'der Mann'). The relative pronoun is in Nominativ because it is the subject of the relative clause ('der dort steht').",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q142",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_142",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ________ ich lese, ist spannend.",
+      "options": [
+        "das",
+        "der",
+        "dem",
+        "dessen"
+      ],
+      "correctAnswer": "das",
+      "explanation": "das — Akkusativ, neuter (refers to 'das Buch'). The relative pronoun is in Akkusativ because it is the direct object of 'lesen' (a verb that requires Akkusativ).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q143",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_143",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ________ ich helfe, ist nett.",
+      "options": [
+        "die",
+        "der",
+        "den",
+        "deren"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Dativ, feminine. The verb 'helfen' requires Dativ. 'Die Frau' in Dativ is 'der'. The relative pronoun must match the gender and number of the antecedent (feminine singular), but its case is determined by the verb inside the clause.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q144",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_144",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Student, ________ Buch ich habe, ist weg.",
+      "options": [
+        "dessen",
+        "deren",
+        "der",
+        "dem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, masculine. 'Das Buch' belongs to 'der Student' (the student's book). Whose book? → dessen. Genitive marks possession: der Student, dessen Buch...",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q145",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_145",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Tisch, auf ________ das Buch liegt, ist neu.",
+      "options": [
+        "dem",
+        "der",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, masculine. The preposition 'auf' is a two-way preposition. Here it expresses location (wo?), so Dativ is used. 'Auf dem Tisch' (on the table). The relative pronoun agrees with 'der Tisch' (masculine) and takes Dativ from 'auf'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q146",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_146",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Alles, ________ du sagst, ist wichtig.",
+      "options": [
+        "was",
+        "das",
+        "es",
+        "der"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After the indefinite pronoun 'Alles', the relative pronoun 'was' is always used. This is a fixed rule. Similarly: nichts, was... / etwas, was... / viel, was...",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q147",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_147",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das, ________ ich warte, ist ein Wunder.",
+      "options": [
+        "worauf",
+        "darauf",
+        "auf das",
+        "worüber"
+      ],
+      "correctAnswer": "worauf",
+      "explanation": "worauf — After 'das' as a demonstrative antecedent (that which), the wo(r)- compound is used. 'worauf ich warte' = 'auf das ich warte' = 'that which I am waiting for'. The preposition 'auf' combines with 'was' → 'worauf'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q148",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_148",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Häuser, in ________ wir wohnen, sind neu.",
+      "options": [
+        "denen",
+        "die",
+        "der",
+        "dessen"
+      ],
+      "correctAnswer": "denen",
+      "explanation": "denen — Dativ, plural. The preposition 'in' requires Dativ for location. 'Die Häuser' (plural) in Dativ is 'denen'. The relative pronoun must be Dativ plural: 'in denen wir wohnen' → 'in denen' contracts to nothing (unlike 'in dem').",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q149",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_149",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Katze, auf ________ ich warte, kommt bald nach Hause.",
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "deren"
+      ],
+      "correctAnswer": "die",
+      "explanation": "die — Akkusativ, feminine. The preposition 'auf' here expresses direction (wohin? — where is the cat going?). With direction, 'auf' requires Akkusativ. 'Die Katze' (feminine) in Akkusativ is 'die'. Compare with Q145 where location (wo?) → Dativ.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q150",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_150",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ________ Eltern in Berlin leben, ist mein Neffe.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "die"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen — Genitive, neuter (refers to 'das Kind'). Whose parents? → dessen Eltern (the child's parents). 'Dessen' is used for neuter AND masculine nouns. 'Deren' would be wrong here.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q151",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_151",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Film, ________ wir gesprochen haben, war toll.",
+      "options": [
+        "darüber",
+        "worüber",
+        "über den",
+        "Alle sind korrekt"
+      ],
+      "correctAnswer": "Alle sind korrekt",
+      "explanation": "darüber / worüber / über den — All are correct. The verb 'sprechen über + Akkusativ' requires Akkusativ. 'Über den Film' (standard) / 'worüber' (wo(r)- compound) / 'darüber' (demonstrative form) are all grammatically correct.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q152",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_152",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Lehrerin, mit ________ die Schüler lernen, ist sehr geduldig.",
+      "options": [
+        "der",
+        "die",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Dativ, feminine. The preposition 'mit' requires Dativ. 'Die Lehrerin' (feminine) in Dativ is 'der'. Note: even though the preposition is 'mit', the gender is determined by the antecedent 'die Lehrerin' (feminine), not by 'mit'.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q153",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_153",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Schönste, ________ ich je gesehen habe, war der Sonnenuntergang.",
+      "options": [
+        "was",
+        "das",
+        "es",
+        "welches"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After superlatives (das Schönste = the most beautiful), the relative pronoun 'was' is always used. This is a fixed grammatical rule. Examples: das Beste, was... / das Interessanteste, was...",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q154",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_154",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Blumen, ________ ich geschenkt bekommen habe, sind wunderschön.",
+      "options": [
+        "die",
+        "deren",
+        "denen",
+        "dem"
+      ],
+      "correctAnswer": "die",
+      "explanation": "die — Nominativ/Akkusativ, plural. The relative clause 'die ich geschenkt bekommen habe' — 'bekommen' (to receive) takes Akkusativ for the thing received. Since 'die Blumen' is the object, the relative pronoun is in Akkusativ (same form as Nominativ for plural: die).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q155",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_155",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Freund, ________ ich jeden Tag telefoniere, lebt in München.",
+      "options": [
+        "mit dem",
+        "der",
+        "den",
+        "dessen"
+      ],
+      "correctAnswer": "mit dem",
+      "explanation": "mit dem — Dativ, masculine. The verb 'telefonieren mit + Dativ' (to phone with) requires Dativ. 'Der Freund' in Dativ is 'dem'. The preposition 'mit' is needed because 'telefonieren' is used with 'mit' in German.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q156",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_156",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Aufgabe, ________ ich mich kümmern muss, ist sehr dringend.",
+      "options": [
+        "um die",
+        "die",
+        "worum",
+        "A und C sind richtig"
+      ],
+      "correctAnswer": "A und C sind richtig",
+      "explanation": "um die / worum — Both are correct. The verb 'sich kümmern um + Akkusativ' (to take care of) requires Akkusativ. 'um die Aufgabe' = standard; 'worum' = wo(r)- compound.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q157",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_157",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Büro, in ________ wir arbeiten, ist klimatisiert.",
+      "options": [
+        "dem",
+        "das",
+        "der",
+        "denen"
+      ],
+      "correctAnswer": "dem",
+      "explanation": "dem — Dativ, neuter. The preposition 'in' here expresses location (wo?). For location, 'in' requires Dativ. 'Das Büro' (neuter) in Dativ is 'dem'. Compare: 'in das Büro gehen' (direction, wohin?) → Akkusativ.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_09_q158",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_158",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand, ________ das weiß, sollte es laut sagen.",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "wer"
+      ],
+      "correctAnswer": "der",
+      "explanation": "der — Nominativ, masculine. 'Niemand' (no one) is grammatically masculine and takes masculine relative pronouns. In Nominativ position (subject of the relative clause) → 'der'. Similarly: Niemand, dem ich vertraue... (Dativ).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q159",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_159",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Person, auf ________ ich mich verlassen kann, ist mein Vater.",
+      "options": [
+        "die",
+        "der",
+        "dem",
+        "deren"
+      ],
+      "correctAnswer": "die",
+      "explanation": "die — Akkusativ, feminine. The verb 'sich verlassen auf + Akkusativ' (to rely on) requires Akkusativ for the person. 'Die Person' in Akkusativ is 'die'. Note: you rely ON a PERSON (Akkusativ), not WITH a person.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_09_q160",
+      "subjectId": "a2_09",
+      "topicId": "a2_09",
+      "topicName": "Relativsätze",
+      "sourceId": "manual",
+      "originalId": "manual_160",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das ist das Einzige, ________ mich wirklich interessiert.",
+      "options": [
+        "was",
+        "das",
+        "worüber",
+        "worin"
+      ],
+      "correctAnswer": "was",
+      "explanation": "was — After indefinite demonstrative pronouns like 'das Einzige' (the only thing), the relative pronoun 'was' is used. Similarly: das Einzige, was... / das Beste, was... / das Wichtigste, was... — the superlative as a noun takes 'was'.",
+      "difficulty": "easy"
     }
   ],
-  "totalQuestions": 100
+  "description": "Relativsätze (relative clauses) provide additional information about a noun and are introduced by relative pronouns (der, die, das, dem, den, deren, dessen, denen, was). The relative pronoun must match the gender and case of its antecedent noun (the noun it refers to), NOT the case required by the relative clause's verb. der/die/das are used for things and people; was is used for entire preceding clauses. The verb in a Relativsatz goes to the END of the clause, just like Nebensätze.  nominative (subject): der, die, das.  Akkusativ (direct object): den, die, das.  Dativ (indirect object): dem, der, denen.  Genitiv (possession): dessen, deren.",
+  "tips": [
+    "Relative pronoun must match the GENDER and CASE of its antecedent noun (the noun being described).",
+    "Nominative: der (m), die (f), das (n) — used when the relative pronoun is the subject of the clause.",
+    "Akkusativ: den (m), die (f), das (n) — used for direct objects: 'der Mann, den ich kenne'.",
+    "Dativ: dem (m), der (f), denen (pl) — used for indirect objects or after prepositions.",
+    "Genitiv: dessen (m/n), deren (f/pl) — expresses possession: 'die Frau, deren Auto kaputt ist'.",
+    "Preposition + relative pronoun: 'die Person, über die wir sprechen' — the preposition determines case, not the relative pronoun.",
+    "was is used for entire clauses: 'Er kam zu spät, was mich ärgerte.' (referring to whole previous clause).",
+    "The verb in a relative clause always goes to the END, after any other verbs."
+  ]
 }

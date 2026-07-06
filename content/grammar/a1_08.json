@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_08",
-  "topicName": "Possessivpronomen: mein, dein...",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "8. Perfekt (haben/sein + Partizip II)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_08_q001",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ gestern ins Kino ___.\" – Welche Form ist korrekt?",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "hat / gehen",
+        "ist / gegangen",
+        "hat / gegangen",
+        "ist / geht"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "ist / gegangen",
+      "explanation": "gehen → Perfekt mit sein: ist gegangen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q002",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb bildet das Perfekt mit \"sein\"?",
       "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
+        "kaufen",
+        "schlafen",
+        "fahren",
+        "essen"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "fahren",
+      "explanation": "fahren → ist gefahren (Bewegung/Veränderung)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q003",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ das Buch ___.\" (lesen) – Was fehlt?",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "sind / gelesen",
+        "haben / gelesen",
+        "haben / geliest",
+        "sind / gelest"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "haben / gelesen",
+      "explanation": "lesen → Perfekt mit haben: haben gelesen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q004",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Welches Partizip II ist korrekt?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "gespringen",
+        "getanzt",
+        "geschwimmt",
+        "gegebt"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "getanzt",
+      "explanation": "tanzen → hat getanzt (regelmäßig → ge-tanzt)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q005",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Kind ___ sehr viel ___.\" (schlafen)",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "hat / geschlafen",
+        "ist / geschlafen",
+        "hat / schlaft",
+        "ist / schlafen"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / geschlafen",
+      "explanation": "schlafen → Perfekt mit haben: hat geschlafen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q006",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz im Perfekt ist FALSCH?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "Ich habe gegessen.",
+        "Er ist gelaufen.",
+        "Sie hat getrunken.",
+        "Wir sind gekauft."
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wir sind gekauft.",
+      "explanation": "kaufen → Perfekt mit haben: Wir haben gekauft",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q007",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ nach Hause ___.\" (gehen)",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "hat / gegangen",
+        "ist / gegangen",
+        "ist / geht",
+        "hat / geht"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "ist / gegangen",
+      "explanation": "gehen → ist gegangen (Richtungswechsel)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q008",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Was ist das Partizip II von \"schreiben\"?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "geschreibt",
+        "geschrieben",
+        "schrieb",
+        "schreibt"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "geschrieben",
+      "explanation": "schreiben → hat geschrieben (unregelmäßig)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q009",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ das schon ___.\" (sehen)",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "bin / gesehen",
+        "habe / gesehen",
+        "habe / gesieht",
+        "bin / sieh"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "habe / gesehen",
+      "explanation": "sehen → hat gesehen (unregelmäßig)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q010",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ früh ___.\" (aufstehen) – Perfekt?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "hat / aufgestanden",
+        "ist / aufgestanden",
+        "hat / aufstanden",
+        "ist / aufsteht"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / aufgestanden",
+      "explanation": "aufstehen → ist aufgestanden (trennbar + sein)",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q011",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ gestern einen Film ___.\" (schauen)",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "haben / geschaut",
+        "sind / geschaut",
+        "haben / schauen",
+        "sind / schauen"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "haben / geschaut",
+      "explanation": "schauen → Perfekt mit haben: haben geschaut",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q012",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Auto ___ repariert ___ worden.\" – Was fehlt?",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "ist / worden",
+        "hat / worden",
+        "wird / worden",
+        "war / worden"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist / worden",
+      "explanation": "werden (Passiv) → ist worden; Zustandspassiv",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q013",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ die Hausaufgabe schon ___.\" (machen)",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "habe / gemacht",
+        "bin / gemacht",
+        "habe / machen",
+        "habe / gemachen"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "habe / gemacht",
+      "explanation": "machen → Perfekt mit haben: habe gemacht",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q014",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder ___ ins Bett ___.\" (gehen)",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "sind / gegangen",
+        "haben / gegangen",
+        "sind / gehen",
+        "sind / gegange"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "sind / gegangen",
+      "explanation": "gehen → ist gegangen (Richtungsveränderung)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q015",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ die Wahrheit ___.\" (sagen)",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "hat / gesagt",
+        "ist / gesagt",
+        "hat / sagen",
+        "haben / gesagt"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hat / gesagt",
+      "explanation": "sagen → Perfekt mit haben: hat gesagt",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q016",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ seinen Führerschein ___.\" (bekommen)",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "hat / bekommen",
+        "ist / bekommen",
+        "hat / bekommen",
+        "ist / bekommen"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
+      "correctAnswer": "hat / bekommen",
+      "explanation": "bekommen → Perfekt mit haben: hat bekommen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q017",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ um 6 Uhr ___.\" (aufstehen)",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "bin / aufgestanden",
+        "habe / aufgestanden",
+        "bin / aufstehen",
+        "habe / aufgestanden"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "bin / aufgestanden",
+      "explanation": "aufstehen → ist aufgestanden (trennbar + sein)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q018",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ eine Reise ___.\" (machen)",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "haben / gemacht",
+        "sind / gemacht",
+        "haben / machen",
+        "sind / gemacht"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "haben / gemacht",
+      "explanation": "machen → Perfekt mit haben: haben gemacht",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q019",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Flugzeug ___ pünktlich ___.\" (ankommen)",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "ist / angekommen",
+        "hat / angekommen",
+        "ist / ankomen",
+        "hat / angekommen"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "ist / angekommen",
+      "explanation": "ankommen → ist angekommen (Bewegung)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q020",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Du ___ zu viel ___.\" (essen)",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "hast / gegessen",
+        "bist / gegessen",
+        "hast / essen",
+        "hast / geessen"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hast / gegessen",
+      "explanation": "essen → hast gegessen (unregelmäßig)",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q021",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ gestern einen Film gesehen.\" – Perfekt?",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "habe",
+        "hatte",
+        "bin",
+        "werde"
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "habe",
+      "explanation": "Perfekt mit haben: ich habe gesehen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q022",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ heißeße ich Anna.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ nach Berlin gefahren.\" – Perfekt?",
       "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
+        "ist",
+        "hat",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Ich",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "fahren = Bewegung → Perfekt mit sein",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q023",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Wir ___ in Berlin.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ die Prüfung bestanden.\" – Perfekt?",
       "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
+        "habe",
+        "haben",
+        "hat",
+        "hattet"
       ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "haben",
+      "explanation": "Perfekt mit haben: wir haben bestanden",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q024",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ___ ein Haus.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ___ ins Kino gegangen.\" – Perfekt?",
       "options": [
-        "bin",
-        "bist",
         "ist",
-        "sind"
+        "hat",
+        "sind",
+        "hast"
       ],
       "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "explanation": "gehen = Bewegung → ist gegangen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q025",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich ___ eine Frage.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich ___ den ganzen Tag gelernt.\" – Perfekt?",
       "options": [
-        "haben",
-        "habt",
+        "habe",
+        "hast",
         "hat",
-        "habe"
+        "haben"
       ],
       "correctAnswer": "habe",
-      "explanation": "",
+      "explanation": "Perfekt mit haben: ich habe gelernt",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q026",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Du ___ sehr nett.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Kind ___ eingeschlafen.\" – Perfekt?",
       "options": [
-        "bin",
-        "bist",
         "ist",
-        "sind"
+        "hat",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist",
+      "explanation": "einschlafen = Zustandsänderung → ist eingeschlafen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q027",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ das Buch.",
+      "type": "multiple_choice",
+      "questionText": "\"Ihr ___ viel Zeit gehabt.\" – Perfekt?",
       "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
+        "habt",
+        "habe",
+        "hat",
+        "haben"
       ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "habt",
+      "explanation": "Perfekt mit haben: ihr habt gehabt",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q028",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ ist das?",
+      "type": "multiple_choice",
+      "questionText": "\"Die Uhr ___ kaputtgegangen.\" – Perfekt?",
       "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
+        "ist",
+        "hat",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "kaputtgehen = Schaden → ist kaputtgegangen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q029",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"Er ___ das Buch gelesen.\" – Perfekt?",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "hat",
+        "habe",
+        "hast",
+        "haben"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hat",
+      "explanation": "Perfekt mit haben: er hat gelesen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q030",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir ___ schwimmen gegangen.\" – Perfekt?",
       "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
+        "sind",
+        "haben",
+        "ist",
+        "hat"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sind",
+      "explanation": "schwimmen = Bewegung → sind gegangen",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)",
+      "subjectId": "a1_08"
     },
     {
       "id": "a1_08_q031",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Ich ___ gestern lange gearbeitet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "werde",
+        "war"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "habe",
+      "explanation": "habe ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q032",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Wir ___ nach Hamburg gefahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "sind",
+        "werden",
+        "hatten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sind",
+      "explanation": "sind ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q033",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Sie ___ das Buch gelesen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "hat ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q034",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Er ___ sehr früh eingeschlafen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "ist ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q035",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Ihr ___ gut gespielt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seid",
+        "habt",
+        "wart",
+        "werdet"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "habt",
+      "explanation": "habt ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q036",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Ich ___ meine Hausaufgaben gemacht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "werde",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "habe",
+      "explanation": "habe ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q037",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Meine Eltern ___ nach Deutschland gekommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "sind",
+        "werden",
+        "hatten"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "sind",
+      "explanation": "sind ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q038",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Was ___ du gestern gemacht?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bist",
+        "hast",
+        "wirst",
+        "warst"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hast",
+      "explanation": "hast ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q039",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Der Zug ___ pünktlich angekommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "wird",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "ist ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q040",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Wir ___ einen schönen Film gesehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "werden",
+        "waren"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "haben",
+      "explanation": "haben ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q041",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q042",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q043",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q044",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q045",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q046",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q047",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q048",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q049",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_08_q050",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q051",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Gestern _____ ich den ganzen Tag im Bett _____, weil ich Fieber hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe / gelegen",
+        "bin / gelegen",
+        "habe / gelegt",
+        "bin / gelegt"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "bin / gelegen",
+      "explanation": "liegen → ist gelegen (Perfekt mit sein).",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q052",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ sein Portemonnaie auf dem Weg zur Arbeit _____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist / verloren",
+        "hat / verloren",
+        "ist / verliegt",
+        "hat / verliert"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hat / verloren",
+      "explanation": "verlieren → hat verloren (Perfekt mit haben).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q053",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Wann _____ du eigentlich _____ das neue Auto zu kaufen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hast / beschloss",
+        "bist / beschlossen",
+        "hast / beschlossen",
+        "bist / beschlosst"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hast / beschlossen",
+      "explanation": "beschließen → hast beschlossen (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q054",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _____ im Garten _____ und sind ganz schmutzig.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben / gespielt",
+        "sind / gespielt",
+        "haben / gespielt worden",
+        "sind / gespielt worden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "haben / gespielt",
+      "explanation": "spielen → haben gespielt (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q055",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ uns vor zwei Wochen eine Wohnung _____, aber der Mietvertrag ist noch nicht unterschrieben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben / angesehen",
+        "sind / angesehen",
+        "haben / gesehen zu",
+        "sind / gesehen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "haben / angesehen",
+      "explanation": "sich eine Wohnung ansehen → haben angesehen (Perfekt mit haben, reflexiv).",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q056",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Zum Glück _____ dem alten Mann nichts Ernstes _____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist / passiert",
+        "hat / passiert",
+        "ist / gepasst",
+        "hat / gepasst"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ist / passiert",
+      "explanation": "passieren → ist passiert (Perfekt mit sein, Zustandsänderung).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q057",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Warum _____ du mir nicht rechtzeitig _____?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hast / Bescheid gesagt",
+        "bist / Bescheid gesagt",
+        "hast / Bescheid gegeben",
+        "bist / Bescheid getan"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hast / Bescheid gegeben",
+      "explanation": "Bescheid geben → hast Bescheid gegeben (Perfekt mit haben).",
+      "difficulty": "medium",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q058",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Meine Schwester _____ nach Berlin _____, um dort zu studieren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist / gezogen",
+        "hat / gezogen",
+        "ist / zog",
+        "hat / zugezogen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "ist / gezogen",
+      "explanation": "umziehen → ist gezogen (Perfekt mit sein, Bewegung/Stadtwechsel).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q059",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Die Firma _____ im letzten Jahr einen neuen Geschäftsführer _____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / eingestellt",
+        "ist / eingestellt",
+        "hat / gestellt ein",
+        "ist / eingestiegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hat / eingestellt",
+      "explanation": "ein一套 → hat eingestellt (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q060",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Er _____ das ganze Buch innerhalb einer Woche _____, obwohl es sehr dick ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat / durchgelesen",
+        "ist / durchgelesen",
+        "hat / vorgelesen",
+        "ist / gelesen durch"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hat / durchgelesen",
+      "explanation": "durchlesen → hat durchgelesen (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q061",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Buch.",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ gestern Abend sehr spät ins Bett gegangen.",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "habe",
+        "bin",
+        "hatte",
+        "war"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "bin",
+      "explanation": "gehen → ist gegangen (Perfekt mit sein, Bewegung).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q062",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ das Buch schon dreimal gelesen.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "hat",
+        "ist",
+        "hatte",
+        "war"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hat",
+      "explanation": "lesen → hat gelesen (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q063",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ letztes Jahr nach Spanien geflogen.",
       "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
+        "haben",
+        "sind",
+        "hatten",
+        "waren"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sind",
+      "explanation": "fliegen → ist geflogen (Perfekt mit sein, Bewegung).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q064",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ mir noch nicht auf meine E-Mail geantwortet.",
       "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
+        "hat",
+        "ist",
+        "hatte",
+        "war"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "hat",
+      "explanation": "antworten → hat geantwortet (Perfekt mit haben).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q065",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _____ den ganzen Tag im Park gespielt.",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "haben",
+        "sind",
+        "hatten",
+        "waren"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "haben",
+      "explanation": "spielen → haben gespielt (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q066",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "_____ du schon einmal Sushi gegessen?",
       "options": [
         "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "Bist",
+        "Hattest",
+        "Warst"
       ],
       "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "explanation": "essen → hast gegessen (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q067",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ früh aufgestanden, um den Zug nicht zu verpassen.",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "hat",
+        "ist",
+        "hatte",
+        "war"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "aufstehen → ist aufgestanden (Perfekt mit sein).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q068",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ uns lange nicht mehr gesehen.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "haben",
+        "sind",
+        "hatten",
+        "waren"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "haben",
+      "explanation": "sehen → haben gesehen (Perfekt mit haben, reflexiv: uns gesehen).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q069",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ sein Fahrrad gestern repariert.",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "hat",
+        "ist",
+        "hatte",
+        "war"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hat",
+      "explanation": "reparieren → hat repariert (Perfekt mit haben).",
+      "difficulty": "easy",
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     },
     {
       "id": "a1_08_q070",
       "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "_____ ihr schon in diesem Restaurant gewesen?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "Habt",
+        "Seid",
+        "Hattet",
+        "Wart"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
+      "correctAnswer": "Seid",
+      "explanation": "sein → seid gewesen (Perfekt mit sein für Aufenthaltsort).",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q071",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q072",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q073",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q074",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q075",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q076",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Du ___ das nicht.",
-      "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
-      ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q077",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q078",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q079",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q080",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q081",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q082",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q083",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q084",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q085",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q086",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q087",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q088",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q089",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q090",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q091",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q092",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q093",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q094",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q095",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q096",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q097",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q098",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q099",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_08_q100",
-      "subjectId": "a1_08",
-      "topicName": "Possessivpronomen: mein, dein...",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Perfekt (haben/sein + Partizip II)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

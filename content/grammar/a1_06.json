@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_06",
-  "topicName": "Fragen: ja/nein und W-Fragen",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "6. Präpositionen (in, auf, an, mit, nach...)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_06_q001",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Buch liegt ___ dem Tisch.\" – Welche Präposition passt?",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "in",
+        "an",
+        "auf",
+        "nach"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "auf dem Tisch (Oberfläche) → Aufenthaltsort",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q002",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir fahren ___ Berlin.\" – Welche Präposition ist korrekt?",
       "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
+        "nach",
+        "in",
+        "an",
+        "zu"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "nach",
+      "explanation": "nach + Stadt/Land (ohne Artikel): nach Berlin",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q003",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "\"Er wartet ___ der Bushaltestelle.\" – Was fehlt?",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "auf",
+        "an",
+        "in",
+        "bei"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "an der Bushaltestelle (Ortsangabe: an + Dativ)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q004",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie fährt ___ dem Auto zur Arbeit.\" – Welche Präposition?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "in",
+        "mit",
+        "auf",
+        "von"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "mit",
+      "explanation": "mit dem Auto (Verkehrsmittel + Dativ)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q005",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Welche Präposition verlangt den Dativ?",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "für",
+        "durch",
+        "gegen",
+        "aus"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "aus",
+      "explanation": "aus verlangt Dativ (aus dem Haus, aus der Türkei)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q006",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "\"Das Bild hängt ___ der Wand.\" – Was ist richtig?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "auf",
+        "an",
+        "in",
+        "unter"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "an der Wand (Vertikalfläche) → an + Dativ",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q007",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich gehe ___ Hause.\" – Welche Präposition passt?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "zu",
+        "nach",
+        "in",
+        "an"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "nach",
+      "explanation": "nach Hause (feststehend Ausdruck, kein Artikel)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q008",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Welche Präposition steht vor Ländernamen ohne Artikel?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "in die",
+        "nach",
+        "zu",
+        "an"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "nach",
+      "explanation": "nach + Land (ohne Artikel): nach Deutschland",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q009",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "\"Er kommt ___ der Türkei.\" – Welche Präposition?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "von",
+        "aus",
+        "nach",
+        "bei"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "aus",
+      "explanation": "aus der Türkei (Herkunft) → aus + Dativ",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q010",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Café ist ___ der Schule.\" – Was fehlt? (Lage, Wechselpräp.)",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "in",
+        "neben",
+        "zu",
+        "durch"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "neben",
+      "explanation": "neben der Schule (Lage) → neben + Dativ",
+      "difficulty": "medium",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q011",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Bild hängt ___ der Wand.\" – Dativ oder Akkusativ?",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "an (Dativ)",
+        "an (Akkusativ)",
+        "auf (Dativ)",
+        "in (Dativ)"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an (Dativ)",
+      "explanation": "an + Dativ = Lage (hängen am Ort)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q012",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich lege das Buch ___ den Tisch.\" – Wechselpräposition, was fehlt?",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "auf",
+        "an",
+        "in",
+        "zu"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "auf den Tisch (Bewegung auf Oberfläche) → Akkusativ",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q013",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir fahren ___ die Türkei diesen Sommer.\" – Welche Präposition?",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "in",
+        "nach",
+        "zu",
+        "an"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "in",
+      "explanation": "in die Türkei (mit Artikel) → in + Akkusativ",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q014",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "\"Der Schlüssel liegt ___ der Tasche.\" – Welche Präposition?",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "in",
+        "an",
+        "auf",
+        "neben"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "in",
+      "explanation": "in der Tasche (hinein/Lage) → in + Dativ",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q015",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie geht ___ dem Rand.\" – Welche Präposition? (entlang)",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "längs",
+        "entlang",
+        "durch",
+        "über"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "entlang",
+      "explanation": "entlang + Dativ: am Rand entlang gehen",
+      "difficulty": "medium",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q016",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "\"___ der Brücke steht ein Café.\" – Welche Wechselpräp.? (Lage)",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "Unter",
+        "Über",
+        "Vor",
+        "Hinter"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Vor",
+      "explanation": "vor der Brücke (Lage) → vor + Dativ",
+      "difficulty": "medium",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q017",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Er läuft ___ der Straße entlang.\" – Welche Präposition?",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "an",
+        "entlang",
+        "längs",
+        "zu"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
+      "correctAnswer": "entlang",
+      "explanation": "entlang + Genitiv/Akkusativ: die Straße entlang",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q018",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "\"Das Baby schläft ___ den Armen seiner Mutter.\" – Welche Präp.?",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "in",
+        "auf",
+        "unter",
+        "zwischen"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "in",
+      "explanation": "in den Armen (位置: in + Dativ)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q019",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Der Bahnhof ist ___ dem Parkplatz.\" – Welche Präposition? (neben)",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "neben",
+        "zwischen",
+        "bei",
+        "um"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "neben",
+      "explanation": "neben dem Parkplatz (Lage) → neben + Dativ",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q020",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"___ meiner Meinung nach ist das falsch.\" – Welches Wort fehlt?",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "Nach",
+        "Zu",
+        "Bei",
+        "Von"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Nach",
+      "explanation": "nach meiner Meinung = meiner Meinung nach",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q021",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Buch liegt ___ dem Tisch.\" – Welche Präposition?",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "in",
+        "auf",
+        "unter",
+        "über"
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "auf dem Tisch (Oberfläche)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q022",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ heißeße ich Anna.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich gehe ___ die Schule.\" – Welche Präposition?",
       "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
+        "in",
+        "zu",
+        "nach",
+        "bei"
       ],
-      "correctAnswer": "Ich",
-      "explanation": "",
+      "correctAnswer": "zu",
+      "explanation": "zu + Dativ: zu der Schule",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q023",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Wir ___ in Berlin.",
+      "type": "multiple_choice",
+      "questionText": "\"Er kommt ___ dem Bus.\" – Präposition?",
       "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
+        "aus",
+        "von",
+        "mit",
+        "bei"
       ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "mit",
+      "explanation": "mit dem Bus (Verkehrsmittel)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q024",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ___ ein Haus.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Katze ist ___ dem Stuhl.\" – Präposition?",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "in",
+        "auf",
+        "unter",
+        "an"
       ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "unter",
+      "explanation": "unter dem Stuhl (位置)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q025",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich ___ eine Frage.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie wohnt ___ Berlin.\" – Präposition?",
       "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
+        "in",
+        "zu",
+        "nach",
+        "vor"
       ],
-      "correctAnswer": "habe",
-      "explanation": "",
+      "correctAnswer": "in",
+      "explanation": "in + Dativ (Stadt): in Berlin",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q026",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Du ___ sehr nett.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Bild hängt ___ der Wand.\" – Präposition?",
       "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
+        "in",
+        "auf",
+        "an",
+        "über"
       ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "an der Wand (vertikale Fläche)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q027",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ das Buch.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir fahren ___ dem Meer.\" – Welche Präposition?",
       "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
+        "an",
+        "zum",
+        "ans",
+        "zum"
       ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "zum",
+      "explanation": "zu + Dativ: zum Meer",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q028",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ ist das?",
+      "type": "multiple_choice",
+      "questionText": "\"Der Schlüssel ist ___ der Tasche.\" – Präposition?",
       "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
+        "in",
+        "auf",
+        "an",
+        "bei"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
+      "correctAnswer": "in",
+      "explanation": "in der Tasche (innen)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q029",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie steht ___ dem Fenster.\" – Präposition?",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "in",
+        "vor",
+        "an",
+        "auf"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "vor",
+      "explanation": "vor dem Fenster (davor)",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q030",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "\"Er geht ___ Hause.\" – Präposition?",
       "options": [
-        "aus",
+        "nach",
+        "zu",
         "bei",
-        "mit",
-        "nach"
+        "von"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nach",
+      "explanation": "nach Hause (Adverb, keine Artikel)",
+      "difficulty": "medium",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)",
+      "subjectId": "a1_06"
     },
     {
       "id": "a1_06_q031",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Ich fahre ___ Berlin.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "in",
+        "nach",
+        "auf",
+        "an"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "nach",
+      "explanation": "nach ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q032",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Das Bild hängt ___ der Wand.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "in",
+        "an",
+        "mit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "an ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q033",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Wir gehen ___ dem Park spazieren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "in",
+        "nach",
+        "bei",
+        "mit"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "in",
+      "explanation": "in ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q034",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Er fährt ___ dem Bus.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mit",
+        "nach",
+        "auf",
+        "zu"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "mit",
+      "explanation": "mit ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q035",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Sie sitzt ___ dem Tisch.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "in",
+        "an",
+        "nach",
+        "auf"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "an ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q036",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Ich komme gerade ___ der Schule.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "aus",
+        "nach",
+        "zu",
+        "bei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "aus",
+      "explanation": "aus ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q037",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Wir wohnen ___ Frankfurt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "in",
+        "an",
+        "nach"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "in",
+      "explanation": "in ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q038",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Der Schlüssel liegt ___ dem Sofa.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "unter",
+        "nach",
+        "zwischen",
+        "gegen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "unter",
+      "explanation": "unter ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q039",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Er geht ___ Arzt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bei",
+        "zum",
+        "nach",
+        "auf"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "zum",
+      "explanation": "zum ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q040",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Ich spreche ___ meinem Lehrer.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mit",
+        "nach",
+        "gegen",
+        "durch"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "mit",
+      "explanation": "mit ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q041",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q042",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q043",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q044",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q045",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q046",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q047",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q048",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q049",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_06_q050",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q051",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Ich wohne jetzt schon fünf Jahre _____ der Grenze zu Frankreich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "auf",
+        "in",
+        "bei"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "an der Grenze (bei einer Grenze/location).",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q052",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "_____ meiner Meinung nach sollte man die Maßnahme überdenken.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Von",
+        "Aus",
+        "Nach",
+        "Mit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Nach",
+      "explanation": "Meiner Meinung nach (= meiner Meinung nach ist eine feststehende Redewendung mit 'nach').",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q053",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich _____ die neue Situation noch nicht eingestellt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "an",
+        "in",
+        "mit"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "sich einstellen auf (+ Akkusativ): sich auf die neue Situation einstellen.",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q054",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Wir treffen uns _____ 20 Uhr vor dem Kino.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "um",
+        "gegen",
+        "nach",
+        "für"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "gegen",
+      "explanation": "gegen 20 Uhr (= ungefähr um 20 Uhr).",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q055",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Bist du gestern _____ dem Weg nach Hause etwas Interessantem begegnet?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "in",
+        "auf",
+        "an",
+        "bei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "auf dem Weg nach Hause (location/direction).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q056",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "_____ allen Teilnehmern war nur einer mit der Lösung zufrieden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Unter",
+        "Über",
+        "Nebem",
+        "Zwischen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Unter",
+      "explanation": "unter allen Teilnehmern (unter = among).",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q057",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz findet _____ dem fünfzehnten September statt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "am",
+        "um",
+        "im",
+        "vom"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "am",
+      "explanation": "am (an dem) fünften September — Datum mit 'am'.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q058",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet _____ einer großen Anwaltskanzlei.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bei",
+        "mit",
+        "nach",
+        "von"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "bei",
+      "explanation": "bei einer Anwaltskanzlei (arbeiten bei = employed at).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q059",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Ich habe das Rezept _____ meiner Oma geerbt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von",
+        "aus",
+        "bei",
+        "nach"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "von",
+      "explanation": "von meiner Oma (geerbt von = inherited from).",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q060",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "_____ Wochenende fahren wir ans Meer, _____ der Woche sind wir zu beschäftigt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Am / in",
+        "An / unter",
+        "Zum / während",
+        "Über / auf"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Am / in",
+      "explanation": "Am Wochenende / in der Woche (feste Redewendungen).",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q061",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Buch.",
+      "type": "multiple_choice",
+      "questionText": "Ich warte _____ dich seit einer Stunde!",
       "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
+        "in",
+        "auf",
+        "an",
+        "mit"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "warten auf (+ Akkusativ) — ich warte auf dich.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q062",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Sie interessiert sich sehr _____ Kunst und besucht oft Museen.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "für",
+        "an",
+        "auf",
+        "mit"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "für",
+      "explanation": "sich interessieren für (+ Akkusativ) — interessiert sich für Kunst.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q063",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Wir fahren nächsten Monat _____ Italien in den Urlaub.",
       "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
+        "nach",
+        "in",
+        "zu",
+        "an"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "nach",
+      "explanation": "nach (Länder ohne Artikel): nach Italien.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q064",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Er träumt _____ einer eigenen Wohnung.",
       "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
+        "von",
+        "für",
+        "an",
+        "auf"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "von",
+      "explanation": "träumen von (+ Dativ) — träumt von einer eigenen Wohnung.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q065",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Das Buch liegt _____ dem Tisch.",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "auf",
+        "an",
+        "in",
+        "nach"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "auf dem Tisch (Oberfläche) — das Buch liegt auf dem Tisch.",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q066",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Sie wohnt _____ Berlin, aber arbeitet _____ München.",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "in / in",
+        "nach / zu",
+        "an / auf",
+        "mit / bei"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "in / in",
+      "explanation": "in (Stadt, Dativ): sie wohnt in Berlin / arbeitet in München.",
+      "difficulty": "medium",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q067",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe mich _____ die Prüfung gut vorbereitet.",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "für",
+        "auf",
+        "an",
+        "mit"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "sich vorbereiten auf (+ Akkusativ) — auf die Prüfung vorbereitet.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q068",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Er denkt oft _____ seine Kindheit zurück.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "an",
+        "auf",
+        "in",
+        "nach"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "an",
+      "explanation": "zurückdenken an (+ Akkusativ) — denkt an seine Kindheit zurück.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q069",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "Wir gehen _____ dem Essen immer spazieren.",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "nach",
+        "vor",
+        "während",
+        "seit"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "nach",
+      "explanation": "nach dem Essen (zeitlich: nach + Dativ).",
+      "difficulty": "easy",
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     },
     {
       "id": "a1_06_q070",
       "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "Sie hat Angst _____ Hunden, seit sie gebissen wurde.",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q071",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q072",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q073",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q074",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q075",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q076",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Du ___ das nicht.",
-      "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
-      ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q077",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q078",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q079",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q080",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q081",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q082",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q083",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q084",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q085",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q086",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q087",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q088",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q089",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
+        "vor",
+        "für",
         "mit",
-        "nach"
+        "an"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q090",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q091",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "vor",
+      "explanation": "Angst vor (+ Dativ) — hat Angst vor Hunden.",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q092",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q093",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q094",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q095",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q096",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q097",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q098",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q099",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_06_q100",
-      "subjectId": "a1_06",
-      "topicName": "Fragen: ja/nein und W-Fragen",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präpositionen (in, auf, an, mit, nach...)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

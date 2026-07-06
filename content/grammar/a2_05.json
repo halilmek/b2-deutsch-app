@@ -1,1553 +1,2422 @@
 {
+  "version": "1.0",
   "subjectId": "a2_05",
-  "topicName": "Verben mit Dativ",
+  "topicName": "Nebensätze",
   "level": "A2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "a2_05_q001",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_001",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir wurden darüber informiert, ______ die Verhandlungen aufgrund technischer Probleme unterbrochen werden mussten.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — bilgi andrme yan cumlesi (whatswhat cumlecigi).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q002",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich ___ dir helfen.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_002",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht ganz sicher, ______ der neue Zeitplan tatsächlich bis Ende des Monats realisierbar ist.",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "dass",
+        "als",
+        "ob",
+        "weil"
       ],
-      "correctAnswer": "kann",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "ob — uncertainty (not being sure). 'Sicher ob...' = 'emin degilim mi'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q003",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ du mit mir kommen?",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_003",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ ich gestern im Archiv nach den alten Unterlagen suchte, stieß ich auf einen interessanten Brief.",
       "options": [
-        "Kannst",
-        "Kann",
-        "Können",
-        "Konntest"
+        "Wenn",
+        "Als",
+        "Weil",
+        "Dass"
       ],
-      "correctAnswer": "Kannst",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Als",
+      "explanation": "als — gecmiste once gerceklesmost specific a/an an.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q004",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ___ schon in München.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_004",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ist für das Unternehmen von großer Bedeutung, ______ alle Mitarbeiter über die Sicherheitsvorschriften aufgeklärt werden.",
       "options": [
-        "war",
-        "ist",
-        "hat",
-        "wird"
+        "ob",
+        "wenn",
+        "dass",
+        "als"
       ],
-      "correctAnswer": "war",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — 'Owhatmli olan odur ki...' yapisi.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q005",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_005",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ man die wirtschaftliche Lage betrachtet, scheint eine Zinserhöhung unumgänglich zu sein.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "Wenn",
+        "Als",
+        "Ob",
+        "Dass"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — sart or gewhatl a/an durum tespiti.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q006",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_006",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Chef fragte mich heute Morgen, ______ ich den Bericht bereits fertiggestellt hätte.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "dass",
+        "ob",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "ob — dolayli soru (Eandt/Hayir sorusu).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q007",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_007",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ die Nachfrage nach Elektroautos stetig steigt, investiert die Firma massiv in neue Batterietechnologien.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "Als",
+        "Ob",
+        "Wenn",
+        "Da"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Da",
+      "explanation": "da — sebep bildirme (cumle basinda kullsuddmostlir).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q008",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_008",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Erinnerst du dich noch daran, ______ wir uns zum ersten Mal in Berlin getroffen haben?",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "wenn",
+        "als",
+        "dass",
+        "ob"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "als",
+      "explanation": "als — gecmisteki specific a/an an (first bulusma).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q009",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_009",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ es zu weiteren Verzögerungen kommen sollte, müssen wir den Liefertermin leider verschieben.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "Dass",
+        "Als",
+        "Wenn",
+        "Ob"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — kosul (gelecege yowhatlik olasilik).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q010",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_010",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Experten bezweifeln, ______ die getroffenen Maßnahmen ausreichen werden, um die Krise zu bewältigen.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "dass",
+        "ob",
+        "weil",
+        "wenn"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "ob — suphe/vaguelik bildirmost andrblerle (bezweifeln) kullsuddmostlir.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q011",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_011",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ ich ein Kind war, verbrachten wir jeden Sommer in den Bergen.",
       "options": [
-        "Weil",
-        "Obwohl",
         "Wenn",
-        "Als"
+        "Als",
+        "Da",
+        "Dass"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Als",
+      "explanation": "als — gecmiste long a/an sureci (cocukluk) kapsayan tekil dowhatm.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q012",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_012",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Erfolg hängt maßgeblich davon ab, ______ das Team unter Druck effektiv zusammenarbeitet.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "dass",
+        "ob",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "ob — 'bagli olmak' (abhängmost) vaguelik icerir.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q013",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_013",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ man sich nicht rechtzeitig bewirbt, hat man kaum Chancen auf einen Studienplatz.",
       "options": [
-        "hat / gegangen",
-        "ist / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "Als",
+        "Dass",
+        "Wenn",
+        "Ob"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — gewhatl gecer kural/sart.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q014",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_014",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ist allgemein bekannt, ______ regelmäßige Bewegung die mentale Gesundheit fördert.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "ob",
+        "weil",
+        "dass",
+        "wenn"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — biliwhatn a/an gercegi ifade etme.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q015",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_015",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ die Sonne unterging, wurde es in den engen Gassen der Altstadt merklich kühler.",
       "options": [
-        "kochen",
-        "kocht",
-        "gekocht",
-        "kochte"
+        "Wenn",
+        "Als",
+        "Dass",
+        "Ob"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Als",
+      "explanation": "als — gecmiste o an gerceklesmost olay (guwhatsin batmasi).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q016",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_016",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er konnte mir nicht genau erklären, ______ er sich für diesen speziellen Karriereweg entschieden hat.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "ob",
+        "dass",
+        "als",
+        "weil"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — 'aciklbutk' (erklärmost) andrbi whatswhat cumlesi gerektirir.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q017",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_017",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ man die Statistik genauer analysiert, erkennt man einen deutlichen Trend.",
       "options": [
-        "Weil",
-        "Obwohl",
         "Wenn",
-        "Damit"
+        "Als",
+        "Dass",
+        "Ob"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — yontem/sart bildirme (gewhatl gozlem).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q018",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_018",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bezweifle sehr, ______ er die Prüfung ohne zusätzliche Hilfe bestanden hätte.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "dass",
+        "ob",
+        "als",
+        "wenn"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — 'suphe etmek' (bezweifeln) cumlecigi gewhatlde dass ile tbutmlar.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q019",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_019",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen prüfen, ______ alle Voraussetzungen für die staatliche Förderung erfüllt sind.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "dass",
+        "ob",
+        "weil",
+        "wenn"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "ob — checkup etme/thinleme andrbleri (prufmost) vaguelik icerir.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q020",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_020",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ ich das letzte Mal in Paris war, hat es ununterbrochen geregnet.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "Wenn",
+        "Als",
+        "Da",
+        "Ob"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Als",
+      "explanation": "als — gecmisteki son ziyaret (tekil olay).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q021",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_021",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Gutachter stellte fest, _______ die Mängel bereits vor der Übergabe bekannt gewesen waren.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — dolayli anlatimda icerik cumlesi.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q022",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_022",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ sie als Kind in den Bergen aufgewachsen war, hatte sie keine Angst vor langen Wanderungen.",
       "options": [
-        "bei",
-        "auf",
-        "nach",
-        "von"
+        "Wenn",
+        "Ob",
+        "Da",
+        "Als"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Da",
+      "explanation": "da — gecmiste tek seferlik durum (cocukluk), sebep bildirmost yan cumle.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q023",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_023",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es bleibt fraglich, _______ die geplanten Reformen rechtzeitig umgesetzt werden können.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "dass",
+        "als",
+        "ob",
+        "weil"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "ob — dolayli soru, vaguelik ifadesi.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q024",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_024",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ der Vertrag unterzeichnet wird, treten die neuen Regelungen automatisch in Kraft.",
       "options": [
-        "gefahren",
-        "gefahren",
-        "gefahre",
-        "fährt"
+        "Als",
+        "Wenn",
+        "Dass",
+        "Ob"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — repeatlanabilir/gelecek kosul.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q025",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_025",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Bevölkerung war empört, _______ bekannt wurde, dass die Daten jahrelang manipuliert worden waren.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "wenn",
+        "ob",
+        "als",
+        "dass"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "als",
+      "explanation": "als — gecmiste tek seferlik suddmost olay.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q026",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_026",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Sachverständige erklärte, _______ die Ursache des Unfalls auf menschliches Versagen zurückzuführen sei.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "ob",
+        "weil",
+        "als",
+        "dass"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — Konjunktiv I ile dolayli anlatim.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q027",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_027",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die Verhandlungen scheiterten, lag vor allem daran, _______ keine der Parteien kompromissbereit war.",
       "options": [
-        "habt / gesehen",
-        "hat / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "Dass / dass",
+        "Weil / ob",
+        "Ob / dass",
+        "Als / weil"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Dass / dass",
+      "explanation": "dass / dass — ozwhat yan cumlesi + icerik yan cumlesi.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q028",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_028",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man fragte sich, _______ der Rückgang der Wahlbeteiligung auf Politikverdrossenheit oder auf organisatorische Mängel zurückzuführen sei.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "dass",
+        "weil",
+        "ob",
+        "als"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "ob — dolayli soru, alternatif olasilik.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q029",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_029",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ ich ihn zum ersten Mal traf, ahnte ich nicht, _______ er einmal eine so bedeutende Rolle in meinem Leben spielen würde.",
       "options": [
-        "von / übertönt",
-        "vor / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "Als / dass",
+        "Wenn / ob",
+        "Da / dass",
+        "Als / ob"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Als / dass",
+      "explanation": "als / dass — gecmis tek olay + dolayli anlatim.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q030",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Die Aufgabe ist ___ zu ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_030",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Direktorin betonte, _______ Transparenz und Rechenschaftspflicht untrennbar miteinander verbunden seien.",
       "options": [
-        "schwer / lösen",
-        "schwerer / lösen",
-        "am schwersten / lösen",
-        "schwere / gelöst"
+        "ob",
+        "weil",
+        "dass",
+        "als"
       ],
-      "correctAnswer": "schwer / lösen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "dass — Konjunktiv I ile dolayli anlatim.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q031",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_031",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die Subventionen gestrichen werden, werden zahlreiche Betriebe in ernsthafte wirtschaftliche Schwierigkeiten geraten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Ob",
+        "Als",
+        "Wenn",
+        "Dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — gelecek kosul cumlesi.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q032",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_032",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Angeklagte bestritt, _______ er zum fraglichen Zeitpunkt am Tatort gewesen sei.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "dass",
+        "ob",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "dass — reddetme andrbiyle (bestritt) icerik cumlesi.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q033",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_033",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die Krise ihren Höhepunkt erreichte, griffen die Behörden zu drastischen Maßnahmen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Ob",
+        "Dass",
+        "Als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "als — gecmiste tek seferlik zirand noktasi.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q034",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_034",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ist nicht eindeutig belegt, _______ der neue Wirkstoff tatsächlich wirksamer ist _______ die bisherigen Präparate.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob / als",
+        "dass / wie",
+        "ob / wie",
+        "dass / als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "ob / als",
+      "explanation": "ob / als — dolayli soru + karsilastirma.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q035",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_035",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ man bedenkt, _______ komplex die geopolitische Lage ist, erscheinen einfache Lösungen illusorisch.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn / wie",
+        "Als / dass",
+        "Weil / ob",
+        "Ob / wie"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Wmostn / wie",
+      "explanation": "wmostn / wie — kosul + dolayli unlem cumlesi.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q036",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_036",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Zeugin gab an, _______ sie den Verdächtigen erkannt habe, _______ er an ihr vorbeigegangen sei.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass / als",
+        "ob / wenn",
+        "weil / als",
+        "dass / weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dass / als",
+      "explanation": "dass / als — dolayli anlatim + es zbutnli gecmis olay.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q037",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_037",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ er die Unterlagen nicht rechtzeitig eingereicht hatte, wurde sein Antrag abgelehnt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Als",
+        "Wenn",
+        "Weil",
+        "Dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Weil",
+      "explanation": "weil — whatdmost-sonuc iliskisi.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q038",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_038",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand konnte vorhersagen, _______ die Entscheidung des Gerichts die öffentliche Debatte so nachhaltig prägen würde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob",
+        "weil",
+        "als",
+        "dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "dass — ongorulemeymost sonuc, icerik cumlesi.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q039",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_039",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ immer wieder neue Vorwürfe auftauchten, verlor die Partei zunehmend an Glaubwürdigkeit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Als",
+        "Weil",
+        "Ob",
+        "Dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "als — gecmiste surec icinde repeatlayan olay (yfew/littleili linguistic).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q040",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_040",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Philosoph argumentierte, _______ Freiheit nur dann wirklich existiere, _______ sie mit Verantwortung einhergehe.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass / wenn",
+        "ob / weil",
+        "weil / dass",
+        "dass / als"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dass / wmostn",
+      "explanation": "dass / wmostn — felsefi owhatrme + kosul.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q041",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Nach\" braucht immer den Dativ.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_041",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Professor erklärte, ______ die Ergebnisse noch überprüft werden müssten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob",
+        "weil",
+        "dass",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "dass — 'Bir seyin oldugunu aciklbutk' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q042",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Im Perfekt sagt man \"ich habe gesehen\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_042",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Niemand wusste, ______ die Konferenz tatsächlich stattfinden würde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass",
+        "ob",
+        "als",
+        "weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "ob — 'Olup olmadigini' sormak icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q043",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Oder\" verbindet zwei Hauptsätze.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_043",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Studenten blieben zu Hause, ______ das Wetter extrem schlecht war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wenn",
+        "ob",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — 'Sebep' bildirmek icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q044",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Denn\" leitet einen Nebensatz ein.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_044",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ ich ein Kind war, spielte ich oft im Garten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Ob",
+        "Dass",
+        "Als"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "als — 'Gecmisteki a/an suddmost' belirtmek icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q045",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Wegen\" braucht den Dativ.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_045",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Journalist fragte den Politiker, ______ er die Vorwürfe bestätigen könne.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "ob",
+        "dass",
+        "als"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "ob — 'Soru cumlesi' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q046",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Im Präteritum: \"ich war\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_046",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bin sicher, ______ sie die richtige Entscheidung getroffen hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wenn",
+        "ob",
+        "dass",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "dass — 'Kesinlik' ifade etmek icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q047",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Das gefällt mir\" braucht den Dativ.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_047",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ du morgen Zeit hast, können wir uns treffen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Ob",
+        "Dass",
+        "Wenn",
+        "Als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — 'Kosul' bildirmek icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q048",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Ob\" leitet einen Nebensatz ein.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_048",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma musste viele Mitarbeiter entlassen, ______ sie finanzielle Probleme hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "ob",
+        "dass",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — 'Sebep' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q049",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Am\" wird bei Wochentagen verwendet.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_049",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er konnte sich nicht erinnern, ______ er den Schlüssel hingelegt hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "ob",
+        "als",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "ob — 'Hatirlaybutmak' durumunda soru icin kullsuddmostlir.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q050",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Zur\" ist die Kurzform von \"zu der\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_050",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ wir gestern ankamen, hatte die Veranstaltung bereits begonnen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Dass",
+        "Als",
+        "Ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "als — 'Gecmisteki tek seferlik olay' icin kullsuddmostlir.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q051",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_051",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftlerin hofft, ______ ihre Theorie bald anerkannt wird.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob",
+        "weil",
+        "dass",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "dass — 'Umit' ifade etmek icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q052",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_052",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ man regelmäßig trainiert, verbessert sich die Leistung deutlich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Als",
+        "Wenn",
+        "Ob",
+        "Dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — 'Gewhatl dogru' ifade etmek icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q053",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_053",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Chef wollte wissen, ______ das Projekt rechtzeitig abgeschlossen werden könne.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass",
+        "als",
+        "ob",
+        "weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "ob — 'Bilmek istemek' durumunda soru icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q054",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_054",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen waren enttäuscht, ______ das Konzert abgesagt wurde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "ob",
+        "als",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — 'Sebep' bildirmek icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q055",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_055",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ ich in Berlin lebte, benutzte ich täglich die U-Bahn.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Dass",
+        "Als",
+        "Ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "als — 'Gecmisteki surekli durum' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q056",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_056",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Lehrerin erklärte noch einmal, ______ die Aufgabe zu schwierig sei.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wenn",
+        "dass",
+        "ob",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "dass — 'Aciklbut' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q057",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_057",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß nicht, ______ er heute noch kommt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass",
+        "wenn",
+        "ob",
+        "weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "ob — 'Bilmemek' durumunda soru icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q058",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_058",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ du Hilfe brauchst, kannst du mich jederzeit anrufen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Als",
+        "Wenn",
+        "Dass",
+        "Ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn — 'Kosul' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q059",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_059",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Zuschauer applaudierten lange, ______ die Aufführung beeindruckend war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob",
+        "wenn",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — 'Sebep' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q060",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_060",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ die Sitzung beendet war, gingen alle sofort nach Hause.",
       "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a2_05_q061",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Gestern ___ ich ins Kino ___",
-      "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q062",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich ___ dir helfen ___",
-      "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
-      ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q063",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ du mit mir ___?",
-      "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
-      ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q064",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ___ schon in München ___",
-      "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
-      ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q065",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich habe ___ Ferien ___",
-      "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
-      ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q066",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das Buch ___ mir ___",
-      "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
-      ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q067",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
-      "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q068",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ dem Wetter bin ich froh.",
-      "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
-      ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q069",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ist ___ dem Chef.",
-      "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
-      ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q070",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
-      "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
-      ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q071",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
-      "options": [
-        "Weil",
-        "Obwohl",
         "Wenn",
-        "Als"
+        "Dass",
+        "Als",
+        "Ob"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q072",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das ist ___ als das.",
-      "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
-      ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q073",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ___ gestern ins Büro ___",
-      "options": [
-        "ist / gegangen",
-        "hat / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q074",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ du schon ___ ?",
-      "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
-      ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q075",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Die Suppe ist ___",
-      "options": [
-        "gekocht",
-        "kochen",
-        "kocht",
-        "kochte"
-      ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q076",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ___ sich über die Nachricht.",
-      "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
-      ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q077",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
-      "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
-      ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q078",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das ist die ___ Lösung.",
-      "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
-      ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q079",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er spricht ___ als ich.",
-      "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
-      ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_05_q080",
-      "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Sie ist die ___ von allen.",
-      "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
-      ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "als — 'Gecmisteki tek seferlik olay' icin kullsuddmostlir.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q081",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich wusste nicht, _____ er gestern gekommen war, weil ich nicht zu Hause war.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "dass",
+        "ob",
+        "als",
+        "wenn"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "ob - indirekte Frage.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q082",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ er jung war, spielte er jeden Tag Fussball, aber _____ er 15 wurde, hortte er auf.",
       "options": [
-        "auf",
-        "bei",
-        "nach",
-        "von"
+        "Wenn / wenn",
+        "Als / als",
+        "Wenn / als",
+        "Als / wenn"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wmostn / als",
+      "explanation": "wmostn - wiederholte Handlung; als - einfinancialges Ereignis.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q083",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie fragte mich, _____ ich ihr helfen konne, aber ich hatte keine Zeit.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "dass",
+        "ob",
+        "wenn",
+        "weil"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "ob - indirekte Entscheidungsfrage.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q084",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er benahm sich, _____ er der Chef ware, obwohl er nur Praktikant war.",
       "options": [
-        "gefahren",
-        "fahren",
-        "fahre",
-        "fährt"
+        "als",
+        "als ob",
+        "wie",
+        "dass"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "als ob",
+      "explanation": "als ob + Konjunktiv II - irreale Vergleich.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q085",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bin nicht zur Party gegangen, _____ ich krank war, aber mein Bruder ging trotzdem hin.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "weil",
+        "da",
+        "denn",
+        "ob"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "weil",
+      "explanation": "weil - kausaler Nebmostsatz.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q086",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Konntest du mir sagen, _____ der Zug schon abgefahren ist?",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "dass",
+        "ob",
+        "wenn",
+        "als"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "ob - indirekte Ja/Nein-Frage.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q087",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ist wichtig, _____ man regelmassig Sport treibt, _____ man gesund bleiben will.",
       "options": [
-        "hat / gesehen",
-        "habt / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "dass / wenn",
+        "ob / als",
+        "wenn / dass",
+        "als / ob"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dass / wmostn",
+      "explanation": "dass - Subjektsatz; wmostn - konditional.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q088",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie tat so, _____ sie nichts gehort hatte, aber ich wusste es besser.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "als",
+        "als ob",
+        "wie",
+        "dass"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "als ob",
+      "explanation": "als ob + Konjunktiv II - so tun als ob.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_05_q089",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ er die Prufung bestanden hatte, feierte er die ganze Nacht.",
       "options": [
-        "vor / übertönt",
-        "von / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "Wenn",
+        "Als",
+        "Weil",
+        "Dass"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "als - einfinancialges Ereignis in der Vergangmostheit.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q090",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Lehrer erklarte, _____ die Erde sich um die Sonne dreht, aber einige Schuler glaubten es nicht.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "dass",
+        "ob",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dass",
+      "explanation": "dass - Aussagesatz nach erklarmost.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q091",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich rufe dich an, _____ ich zu Hause bin, versprochen.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "als",
+        "wenn",
+        "ob",
+        "dass"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wmostn",
+      "explanation": "wmostn - zukunftige Bedingung.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q092",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bin unsicher, _____ er die Wahrheit sagt oder lugt.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "dass",
+        "ob",
+        "wenn",
+        "als"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "ob - indirekte Frage.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q093",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt sagte, _____ ich mehr trinken solle, sonst wurde ich dehydrieren.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "dass",
+        "ob",
+        "wenn",
+        "als"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dass",
+      "explanation": "dass - indirekte Aussage nach sagmost.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q094",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ ich in Berlin war, habe ich viele Museen besucht, aber _____ ich spater nach Munchen zog, besuchte ich kaum noch welche.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "Wenn / als",
+        "Als / wenn",
+        "Als / als",
+        "Wenn / wenn"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Als / als",
+      "explanation": "als - einfinancialge andrgangewhat Ereignisse.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_05_q095",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat mich gefragt, _____ ich mitkommen mochte, aber ich hatte keine Lust.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "dass",
+        "ob",
+        "als",
+        "weil"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "ob - indirekte Frage.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q096",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er fuhr viel zu schnell, _____ er die Kontrolle verlor und gegen einen Baum prallte.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "dass",
+        "ob",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "weil",
+      "explanation": "weil - kausaler Nebmostsatz.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q097",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ du morgen Zeit hast, konnten wir ins Kino gehen.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "Als",
+        "Wenn",
+        "Weil",
+        "Dass"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wmostn",
+      "explanation": "wmostn - konditional, Zukunft.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q098",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bezweifle, _____ er das wirklich ernst meint.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "dass",
+        "ob",
+        "wenn",
+        "als"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "ob - nach bezweifeln, indirekte Frage.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q099",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ ich das wusste, war es schon zu spat.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "Als",
+        "Wenn",
+        "Weil",
+        "Dass"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "als - einfinancialges andrgangewhats Ereignis.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_05_q100",
       "subjectId": "a2_05",
-      "topicName": "Verben mit Dativ",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Hund wedelte mit dem Schwanz, _____ er sein Herrchen sah.",
+      "options": [
+        "als",
+        "wenn",
+        "weil",
+        "dass"
+      ],
+      "correctAnswer": "als",
+      "explanation": "als - einfinancialge Handlung in der Vergangmostheit.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q081",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht __________, ________ er morgen kommt.",
+      "options": [
+        "sicher / dass",
+        "unsicher / ob",
+        "klar / dass",
+        "bekannt / ob"
+      ],
+      "correctAnswer": "unsicher / ob",
+      "explanation": "'unsicher' (uncertain) requires 'ob' for the subordinate clause, not 'dass'. 'Ob' is used for open questions and uncertainty. 'Dass' would be used for certainty: 'Ich bin mir sicher, dass er kommt.'",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q082",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ er昨天晚上很晚才睡，所以今天很累。",
+      "options": [
+        "weil",
+        "dass",
+        "ob",
+        "wenn"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'weil' (because) is used to express the reason/cause. 'Er hat gestern spät geschlafen' is the reason for 'er ist heute müde'. 'Weil' introduces the subordinate clause with verb-final position.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q083",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
       "options": [
         "Weil",
-        "Obwohl",
         "Wenn",
-        "Als"
+        "Als",
+        "Ob"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "'als' (when) is used for a SINGLE specific past event. The visit to the Brandenburger Gate happened once, during a specific trip to Berlin. 'Wenn' would be wrong because 'wenn' is for present/future conditions or repeated past events.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q084",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie fragte, ________ wir Zeit ________, am Freitag ins Kino zu gehen.",
+      "options": [
+        "ob / haben",
+        "dass / haben",
+        "wenn / haben",
+        "als / haben"
+      ],
+      "correctAnswer": "ob / haben",
+      "explanation": "'fragen' (to ask) requires 'ob' for the indirect question. 'Ob' introduces a yes/no question in subordinate clause form. 'Dass' would be wrong because 'fragen' implies uncertainty, not certainty.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q085",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich hoffe, ________ du mich morgen besuchst.",
+      "options": [
+        "dass",
+        "ob",
+        "wenn",
+        "weil"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'hoffen' (to hope) requires 'dass' because hope expresses a desire/certain expectation, not a question. Compare: 'Ich hoffe, dass du kommst.' vs. 'Ich frage mich, ob du kommst.'",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q086",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ es regnet, bleiben wir zu Hause.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Weil",
+        "Dass"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'wenn' (if/when) is used for present/future conditions. The rain is a condition for staying home. If it rains → we stay home. 'Als' would be wrong because 'als' is only for single past events.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q087",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er wusste nicht, ________ sie the meeting abgesagt hat.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'wissen' (to know) with negation requires 'ob', not 'dass'. The sentence means: He didn't know WHETHER she cancelled the meeting. 'Dass' would imply certainty about a fact, not lack of knowledge.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q088",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ ich krank bin, gehe ich nicht zur Arbeit.",
+      "options": [
+        "Weil",
+        "Wenn",
+        "Als",
+        "Ob"
       ],
       "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "explanation": "'weil' (because) introduces a cause/reason. Being sick is the reason for not going to work. 'Wenn' could also work grammatically but 'weil' is more natural for expressing direct causation.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q089",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Problem ist, ________ er nicht genug gelernt hat.",
+      "options": [
+        "weil",
+        "dass",
+        "ob",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "After 'das Problem ist' (the problem is), 'dass' introduces an explanation clause. The problem is that he didn't study enough. 'Ob' would be wrong here because 'das Problem ist' is a statement, not a question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q090",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich erinnere mich, ________ wir uns das erste Mal getroffen haben.",
+      "options": [
+        "dass",
+        "ob",
+        "als",
+        "wenn"
+      ],
+      "correctAnswer": "als",
+      "explanation": "'als' is used for a specific moment in the past (first meeting). The sentence asks to recall a specific single past event. 'Wenn' would be wrong because 'wenn' is for conditions or repeated events, not single past moments.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q091",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat gesagt, ________ sie am Samstag kommt.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'sagen' (to say) requires 'dass' for the statement that follows. The sentence is reporting what she said — a definite statement, not a question. 'Ob' would be wrong because she's not asking a question.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q092",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ es schneit, fahren viele Leute Ski.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Weil",
+        "Dass"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'wenn' is used for repeated/general events in any tense. When it snows, many people go skiing. This is a general truth or repeated event. 'Als' would be wrong because snowing is not a single specific past event.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q093",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich frage mich, ________ er the Wahrheit sagt.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'sich fragen' (to wonder) requires 'ob' because it expresses uncertainty. The sentence means: I wonder whether (ob) he is telling the truth. 'Dass' would be wrong because 'sich fragen' implies doubt, not certainty.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q094",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist müde, ________ er gestern lange gearbeitet hat.",
+      "options": [
+        "weil",
+        "dass",
+        "ob",
+        "wenn"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'weil' (because) introduces the reason for being tired. The long work yesterday is the cause. 'Als' would be wrong because 'als' is not used for present consequences of past actions in this way.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q095",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe gehört, ________ er nach Berlin gezogen ist.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'hören' (to hear) in the sense of 'to hear news' requires 'dass'. The sentence is reporting information, not asking a question. 'Ich habe gehört, dass...' is a common way to pass on news.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q096",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ wir Zeit haben, helfen wir euch.",
+      "options": [
+        "Wenn",
+        "Weil",
+        "Als",
+        "Ob"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'wenn' (if/when) is used for present/future conditions. If we have time, we help you. This is a conditional clause. 'Als' would be wrong because 'als' is only for single past events.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q097",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Kannst du mir sagen, ________ das kostet?",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'fragen' type verbs (fragen, wissen, fragen ob) require 'ob' for indirect questions. 'Kannst du mir sagen, ob...' = Can you tell me if/whether... This is a yes/no question in subordinate form.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q098",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich bezweifle, ________ er die Wahrheit sagt.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'bezweifeln' (to doubt) requires 'ob' because doubt implies uncertainty. The sentence means: I doubt whether (ob) he is telling the truth. 'Dass' would be wrong because 'dass' implies certainty.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q099",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Grund, ________ ich hier bin, ist非常简单。",
+      "options": [
+        "dass",
+        "weil",
+        "ob",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "After 'der Grund... ist' (the reason... is), 'dass' introduces the explanation. The reason that I am here is... 'Weil' could also work but 'dass' is more natural after 'der Grund ist' construction.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q100",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich kann nicht schlafen, ________ ich nervös bin.",
+      "options": [
+        "weil",
+        "dass",
+        "ob",
+        "als"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "'weil' (because) gives the reason for not being able to sleep. Being nervous is the cause. 'Als' would be wrong because it cannot express a current/recent reason. 'Dass' and 'ob' don't fit the semantic structure.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q101",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler betonte, ________ die Ergebnisse der Studie noch nicht endgültig ________ ________ .",
+      "options": [
+        "dass / seien",
+        "ob / sind",
+        "dass / sind",
+        "ob / wären"
+      ],
+      "correctAnswer": "dass / seien",
+      "explanation": "dass + Konjunktiv I (indirect speech): The scientist emphasized that the results have not yet been finalized. 'betonen' (to emphasize) in indirect speech requires Konjunktiv I: seien. 'ob' would be wrong because this is a statement, not a question.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q102",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ er gestern Abend angerufen ________ ________, ________ ich ihm die Neuigkeit erzählen ________ ________ ________ .",
+      "options": [
+        "Wenn / hätte / hätte / können",
+        "Als / hätte / hätte / können",
+        "Wenn / hat / hätte / können",
+        "Als / hätte / habe / können"
+      ],
+      "correctAnswer": "Wenn / hätte / hätte / können",
+      "explanation": "wenn + Konjunktiv II (past unreal condition): If he had called yesterday evening, I would have been able to tell him the news. This is a hypothetical past condition — the call did NOT happen. Pattern: wenn + Plusquamperfekt Konjunktiv II, hätte + Partizip + können.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q103",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ________ ich die Einladung annehmen ________ ________ .",
+      "options": [
+        "dass / soll",
+        "ob / soll",
+        "ob / sollte",
+        "dass / würde"
+      ],
+      "correctAnswer": "ob / sollte",
+      "explanation": "ob + Konjunktiv II (uncertainty): I'm not sure whether I should accept the invitation. 'unsicher' (uncertain) requires 'ob'. The Konjunktiv II 'sollte' expresses polite uncertainty about the right course of action.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q104",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ die Firma letztes Jahr in finanzielle Schwierigkeiten ________ ________ ________, musste sie mehrere Standorte schließen.",
+      "options": [
+        "Weil / geraten ist",
+        "Wenn / geraten wäre",
+        "Als / geraten war",
+        "Weil / geraten war"
+      ],
+      "correctAnswer": "Weil / geraten war",
+      "explanation": "weil + Plusquamperfekt (past reason): Because the company had gotten into financial difficulties last year, it had to close several locations. 'geraten in' (to get into) takes sein. Plusquamperfekt shows the difficulty came BEFORE the closing.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q105",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Er behauptete, ________ er den Vertrag niemals unterschrieben ________ ________ .",
+      "options": [
+        "dass / habe",
+        "ob / hätte",
+        "dass / hätte",
+        "ob / habe"
+      ],
+      "correctAnswer": "dass / hätte",
+      "explanation": "dass + Konjunktiv II (denial + indirect speech): He claimed that he had never signed the contract. 'behaupten' (to claim) uses Konjunktiv I or II in indirect speech. Since 'hätte' is distinct from Präteritum, Konjunktiv II is used here for emphasis on the denial.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q106",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ ich zum ersten Mal nach Berlin ________ ________ ________, war ich von der Architektur begeistert.",
+      "options": [
+        "Wenn / gefahren bin",
+        "Als / gefahren bin",
+        "Wenn / gefahren war",
+        "Als / gefahren war"
+      ],
+      "correctAnswer": "Als / gefahren bin",
+      "explanation": "als + Perfekt (single past event): When I traveled to Berlin for the first time, I was enthusiastic about the architecture. 'als' is used for a specific one-time moment in the past. The Perfekt with 'sein' is used because 'fahren' involves movement.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q107",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Die Kundin beschwerte sich, ________ die Lieferung viel zu spät ________ ________ und beschädigt ________ ________ .",
+      "options": [
+        "dass / angekommen sei / gewesen sei",
+        "ob / angekommen ist / gewesen ist",
+        "dass / angekommen ist / gewesen ist",
+        "ob / angekommen wäre / gewesen wäre"
+      ],
+      "correctAnswer": "dass / angekommen sei / gewesen sei",
+      "explanation": "dass + Konjunktiv I (complaint + indirect speech): The customer complained that the delivery had arrived much too late and had been damaged. 'sich beschweren' (to complain) in indirect speech uses Konjunktiv I: angekommen sei, gewesen sei.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q108",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ du regelmäßig Sport treibst, ________ du dich langfristig gesünder ________ ________ .",
+      "options": [
+        "Wenn / wirst / fühlen",
+        "Wenn / fühlst / werden",
+        "Als / wirst / fühlen",
+        "Weil / fühlst / werden"
+      ],
+      "correctAnswer": "Wenn / wirst / fühlen",
+      "explanation": "wenn + Präsens (future condition): If you exercise regularly, you will feel healthier in the long run. This is a present/future conditional — the condition comes FIRST, then the result. Verb order: wenn-clause has verb-final, then main clause has normal order.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q109",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge gab an, ________ er den Unfallhergang genau beobachten ________ ________ .",
+      "options": [
+        "dass / konnte",
+        "ob / könne",
+        "dass / könne",
+        "ob / könnte"
+      ],
+      "correctAnswer": "dass / könne",
+      "explanation": "dass + Konjunktiv I (witness statement + indirect speech): The witness stated that he was able to observe the accident precisely. 'angeben' (to state) in indirect speech uses Konjunktiv I. Since 'können' → 'könne' is distinct from Präteritum, it is the correct Konjunktiv I form.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q110",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ die Regierung die Steuern erhöhen ________ ________, ________ viele Bürger mit Protesten reagieren.",
+      "options": [
+        "Wenn / wird / werden",
+        "Wenn / sollte / würden",
+        "Als / würde / werden",
+        "Weil / sollte / würden"
+      ],
+      "correctAnswer": "Wenn / sollte / würden",
+      "explanation": "wenn + Konjunktiv II (hypothetical future condition): If the government should raise taxes, many citizens would respond with protests. 'sollte' expresses a potential future event. 'würden' in the main clause expresses the hypothetical reaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q111",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Ich erinnere mich noch genau, ________ wir uns zum ersten Mal ________ ________ ________ .",
+      "options": [
+        "dass / getroffen haben",
+        "ob / getroffen haben",
+        "als / getroffen haben",
+        "wenn / getroffen haben"
+      ],
+      "correctAnswer": "als / getroffen haben",
+      "explanation": "als + Perfekt (specific moment in the past): I still remember exactly when we met for the first time. 'als' is used for a specific, one-time moment in the past. 'wenn' would be wrong because 'wenn' is for conditions or repeated events.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_05_q112",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Es ist wichtig, ________ man vor einer Entscheidung alle verfügbaren Informationen ________ ________ .",
+      "options": [
+        "dass / berücksichtigt",
+        "ob / berücksichtigt",
+        "dass / berücksichtigen würde",
+        "ob / berücksichtigen sollte"
+      ],
+      "correctAnswer": "dass / berücksichtigt",
+      "explanation": "dass + Präsens (general recommendation): It is important that one considers all available information before making a decision. This is a general statement/recommendation, not a question, so 'dass' is correct. Verb-final: man berücksichtigt.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q113",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ er die Warnungen ignoriert ________ ________, ________ der Unfall vielleicht vermieden ________ ________ ________ ________ .",
+      "options": [
+        "Wenn / hat / wäre / werden",
+        "Wenn / hätte / wäre / werden können",
+        "Als / hätte / wäre / werden können",
+        "Weil / hat / wäre / werden können"
+      ],
+      "correctAnswer": "Wenn / hätte / wäre / werden können",
+      "explanation": "wenn + Plusquamperfekt Konjunktiv II + Passiv (past unreal condition + passive): If he had ignored the warnings, the accident might have been avoided. This is a past hypothetical — the warnings were NOT ignored. Passive: wurde vermieden → wäre vermieden worden → wäre werden können.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q114",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Die Studie zeigt, ________ Menschen, die regelmäßig meditieren, weniger unter Stress ________ ________ .",
+      "options": [
+        "dass / leiden",
+        "ob / leiden",
+        "dass / leiden würden",
+        "ob / leiden würden"
+      ],
+      "correctAnswer": "dass / leiden",
+      "explanation": "dass + Präsens (scientific general statement): The study shows that people who meditate regularly suffer less from stress. This is a general scientific fact, not a question, so 'dass' is correct. Verb-final: weniger unter Stress leiden.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q115",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ ich damals die Möglichkeit ________ ________ ________ ________, ________ ich sie sofort ________ ________ .",
+      "options": [
+        "Wenn / gehabt / hätte / hätte",
+        "Als / gehabt / hätte / hätte",
+        "Wenn / habe / habe / hätte",
+        "Weil / gehabt / hätte / hätte"
+      ],
+      "correctAnswer": "Wenn / gehabt / hätte / hätte",
+      "explanation": "wenn + Plusquamperfekt Konjunktiv II (past unreal condition): If I had had the opportunity back then, I would have used it immediately. This is a past hypothetical — the opportunity was NOT available. Both clauses use Konjunktiv II.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q116",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Man kann nie genau vorhersagen, ________ das Projekt erfolgreich ________ ________ ________ .",
+      "options": [
+        "dass / sein wird",
+        "ob / sein wird",
+        "dass / gewesen sein wird",
+        "ob / gewesen sein würde"
+      ],
+      "correctAnswer": "ob / sein wird",
+      "explanation": "ob + Futur I (future uncertainty): One can never predict exactly whether the project will be successful. This is about a future outcome that is uncertain, not a certainty, so 'ob' is correct. 'dass' would imply certainty about the future, which is impossible.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_05_q117",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ die Konferenz verschoben ________ ________ ________ ________, wurden alle Teilnehmer rechtzeitig informiert.",
+      "options": [
+        "Weil / worden war",
+        "Wenn / worden wäre",
+        "Als / worden ist",
+        "Dass / worden war"
+      ],
+      "correctAnswer": "Weil / worden war",
+      "explanation": "weil + Passiv Plusquamperfekt (past reason + passive): Because the conference had been postponed, all participants were informed in time. The conference being postponed is the REASON for informing participants. 'worden war' is Plusquamperfekt Passiv of 'werden'.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q118",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Er fragte sich, ________ es sinnvoll ________ ________ ________, noch länger auf eine Antwort ________ ________ .",
+      "options": [
+        "ob / sei / zu warten",
+        "dass / wäre / warten",
+        "ob / wäre / zu warten",
+        "dass / sei / warten"
+      ],
+      "correctAnswer": "ob / wäre / zu warten",
+      "explanation": "ob + Konjunktiv II + Infinitiv mit zu (doubt + subordinate clause): He wondered whether it would make sense to wait any longer for an answer. 'sich fragen' (to wonder) requires 'ob'. The construction: ob + Konjunktiv II + wäre + zu + Infinitive.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q119",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "________ man früh genug mit der Vorbereitung ________ ________ ________, ________ die Prüfung problemlos ________ ________ ________ ________ .",
+      "options": [
+        "Wenn / beginnt / kann / bestanden werden",
+        "Wenn / beginnen würde / könnte / bestanden werden",
+        "Als / beginnt / kann / bestanden werden",
+        "Weil / beginnen würde / könnte / bestanden werden"
+      ],
+      "correctAnswer": "Wenn / beginnen würde / könnte / bestanden werden",
+      "explanation": "wenn + Konjunktiv II + Passiv (hypothetical condition + passive): If one were to start preparing early enough, the exam could be passed without problems. Konjunktiv II 'würde' softens the hypothetical. Passive: könnte bestanden werden.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_05_q120",
+      "subjectId": "a2_05",
+      "topicId": "a2_05",
+      "topicName": "Nebensätze (dass, ob, weil, wenn, als)",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "B2",
+      "type": "multiple_choice",
+      "questionText": "Der Experte warnte davor, ________ man die Risiken dieser Technologie unterschätzen ________ ________ .",
+      "options": [
+        "dass / dürfe",
+        "ob / dürfte",
+        "dass / würde",
+        "ob / dürfe"
+      ],
+      "correctAnswer": "dass / dürfe",
+      "explanation": "dass + Konjunktiv I (warning + indirect speech): The expert warned that one should not underestimate the risks of this technology. 'warnen davor, dass' requires a subordinate clause with 'dass'. In indirect speech, 'dürfen' → 'dürfe' (Konjunktiv I).",
+      "difficulty": "hard"
     }
   ],
-  "totalQuestions": 100
+  "description": "Nebensätze (subordinate clauses) are dependent clauses that cannot stand alone and must be attached to a main clause. They are introduced by subordinating conjunctions (unterordnende Konjunktionen): dass (that), ob (if/whether), weil (because), wenn (if/when), als (when/as), bevor (before), bis (until), während (while), nachdem (after), damit (so that), obwohl (although), since (da), without (ohne dass), instead of (statt dass). The verb in a Nebensatz is placed at the END of the clause, after any other verbs. Subordinate clauses are separated from the main clause by a comma.",
+  "tips": [
+    "The verb in a subordinate clause ALWAYS goes to the END of that clause.",
+    "dass (that): 'Ich glaube, dass er kommt.' — introduces a statement or opinion.",
+    "ob (if/whether): 'Ich weiß nicht, ob er kommt.' — introduces an indirect question.",
+    "Weil (because): 'Ich bin müde, weil ich nicht geschlafen habe.' — reason clause.",
+    "WENN (if/when): 'Wenn es regnet, bleibe ich zu Hause.' — conditional or time clause.",
+    "ALS (when — past single event): 'Als ich in Deutschland ankam, sprach ich kein Deutsch.'",
+    "Bevor (before): 'Bevor ich gehe, rufe ich an.' — prior time clause.",
+    "Nachdem (after): 'Nachdem ich gegessen habe, gehe ich spazieren.' — completed action before main clause.",
+    "Obwohl (although): 'Obwohl es regnet, gehe ich aus.' — contrast/concession.",
+    "Damit (so that): 'Ich lerne Deutsch, damit ich einen Job finde.' — purpose clause."
+  ]
 }

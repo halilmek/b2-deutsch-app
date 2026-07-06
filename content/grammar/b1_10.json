@@ -1,1554 +1,1422 @@
 {
+  "version": "1.0",
   "subjectId": "b1_10",
-  "topicName": "Nomen mit Präpositionen",
+  "topicName": "Partizipien als Adjektive",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Partizip I and Partizip II as adjectives in German — B2 level. Partizip I (verb stem + -d) = active, ongoing, simultaneous action (das brennende Haus = house burning now). Partizip II (ge- + stem + -t/-en) = passive, completed, or resulting state (das gebrannte Haus = house that was burned). Gerundiv (zu + Partizip I) replaces passive relative clauses with müssen/können (Die zu lösenden Aufgaben = tasks that must be solved). Key: adjective endings must match article/noun case and number. Transitive vs intransitive exception: intransitive sein-verbs (entlaufen, einschlafen, sterben, schmelzen) use Partizip II with past-active meaning. Partizip I vs II distinction determines whether the noun performs or receives the action.",
+  "tips": [
+    "Partizip I (Present Participle): verb stem + -d (brennen → brennend, lesen → lesend, schwimmen → schwimmend). Meaning: active, ongoing, simultaneous action. 'Das brennende Haus' = the house is actively burning right now.",
+    "Partizip II (Past Participle): weak verbs → ge- + stem + -t (gemacht, gearbeitet); strong verbs → ge- + vowel-change stem + -en (gegangen, getroffen). Meaning: passive, completed, or resulting state. 'Das gebrannte Haus' = the house has been burned (by someone).",
+    "Gerundiv (zu + Partizip I): passive necessity or possibility. 'Die zu lösenden Aufgaben' = the tasks that must be solved. Replaces: 'Die Aufgaben, die gelöst werden müssen.' Only used with transitive verbs that can form a passive.",
+    "Adjective endings after definite articles (der/die/das/die): weak endings — -e (masc nom), -en (masc dat/gen/acc), -e (fem nom/acc), -en (fem dat/gen), -en (neut dat/acc). After indefinite articles (ein/eine/ein): mixed endings — -er (masc nom), -en (masc acc), -e (fem nom/acc), -es (neut nom/acc), -en (fem dat/gen, neut dat).",
+    "Intransitive sein-verbs exception: entlaufen, einschlafen, sterben, schmelzen, fallen use Partizip II with active past meaning (result of a change-of-state). 'Der entlaufene Hund' = the dog that ran away. Contrast: 'der gefällte Baum' (transitive 'fällen' = cut down by someone) vs. 'die fallenden Blätter' (intransitive 'fallen' = actively falling right now).",
+    "Partizip I vs. Partizip II — cause vs. feeling: Partizip I causes the effect (ein überraschender Vorfall = event causes surprise). Partizip II feels the effect (ein überraschter Gast = guest feels surprised). Test: can the noun do this action itself? → Partizip I.",
+    "Extended participle attributes: strip brackets mentally to find the base adjective ending, then reapply modifiers. 'Das [vom Bundesministerium streng geförderte] Forschungsvorhaben' → base: 'das geförderte Forschungsvorhaben' (accusative neuter, weak -e).",
+    "Separable prefix verbs: Partizip II keeps 'ge-' before the prefix (auf → das geöffnete Fenster, vor → das vorgelegte Dokument, durch → das durchgeführte Experiment). Inseparable verbs (be-, er-, ver-, zer-, ent-, emp-, ge-, miss-): no 'ge-' (das versprochene, das erzählte Märchen → but 'erzählen' is separable so actually 'das erzählte Märchen' = 'ge-' + 'erzählt' = 'erzählt', no extra 'ge-').",
+    "Negative participles: 'un-' before Partizip I or II (ungedruckte Dokumente, unerwartetes Ereignis, ungelöste Probleme).",
+    "Strong endings without article: after prepositions like 'mit' or 'in' without an article, the participle takes strong endings matching the case. 'Mit klopfendem Herzen' (dative singular -em), 'in brennendem Gebäude' (dative singular -em). Always match dative plural -en for 'mit + plural noun' with no article."
+  ],
   "questions": [
     {
-      "id": "b1_10_q001",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Feuerwehr konnte alle Personen aus dem ____ Wohnhaus rechtzeitig evakuieren.",
+      "options": [
+        "brennenden",
+        "gebrannten",
+        "brennendem",
+        "brennende"
+      ],
+      "correctAnswer": "brennenden",
+      "explanation": "Partizip I of 'brennen' (brennend = burning) — the house is actively on fire right now. After 'dem' (dative neuter singular), weak ending '-en'. 'Gebrannt' would be past/passive meaning, which doesn't fit.",
+      "id": "b1_10_q001"
     },
     {
-      "id": "b1_10_q002",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "den",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Bericht des Kriminalkommissars warf völlig neue Fragen zum Tathergang auf.",
+      "options": [
+        "vorgelegte",
+        "vorliegende",
+        "vorzulegende",
+        "vorgelegten"
+      ],
+      "correctAnswer": "vorgelegte",
+      "explanation": "Partizip II of 'vorlegen' (vorgelegt = submitted/presented). The report has been submitted (completed passive action). After 'Der' (nominative masculine singular), weak ending '-e'. 'Vorliegende' would mean existing/laying, but 'vorlegen' = to present/submit.",
+      "id": "b1_10_q002"
     },
     {
-      "id": "b1_10_q003",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
-      "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
-      ],
-      "correctAnswer": "hätte",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Aufgaben müssen bis spätestens Freitagabend vollständig auf der Lernplattform hochgeladen werden.",
+      "options": [
+        "zu lösenden",
+        "gelösten",
+        "lösenden",
+        "zu gelösten"
+      ],
+      "correctAnswer": "zu lösenden",
+      "explanation": "Gerundiv: 'zu + Partizip I' expresses passive necessity (tasks that must be solved). 'Die Aufgaben' (plural) + weak ending '-en': 'zu lösenden Aufgaben'.",
+      "id": "b1_10_q003"
     },
     {
-      "id": "b1_10_q004",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
-      "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
-      ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q005",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
-      "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
-      ],
-      "correctAnswer": "deren",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Mit ____ Herzen wartete die junge Schauspielerin hinter den Kulissen auf ihren großen Auftritt.",
+      "options": [
+        "klopfendem",
+        "geklopftem",
+        "klopfenden",
+        "klopfendes"
+      ],
+      "correctAnswer": "klopfendem",
+      "explanation": "Partizip I of 'klopfen' (klopfend = knocking/throbbing) — the heart is actively beating in that moment. 'Mit' (dat) + 'Herzen' (dat neut singular) → strong ending '-em'.",
+      "id": "b1_10_q004"
     },
     {
-      "id": "b1_10_q006",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
-      "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q007",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
-      ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Auf dem Schreibtisch des Managers lagen stapelweise die ____ Dokumente der vergangenen Woche.",
+      "options": [
+        "ungedruckten",
+        "ungedruckter",
+        "ungedruckte",
+        "undruckenden"
+      ],
+      "correctAnswer": "ungedruckten",
+      "explanation": "Partizip II of 'drucken' with negative 'un-': ungedruckt (not printed). After 'die' (plural) → weak ending '-en': 'die ungedruckten Dokumente'.",
+      "id": "b1_10_q005"
     },
     {
-      "id": "b1_10_q008",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sagte, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Geräusch aus dem Keller erschreckte die Bewohner des alten Hauses mitten in der Nacht.",
+      "options": [
+        "anhaltendes",
+        "angehaltenes",
+        "anhaltende",
+        "anhaltenden"
+      ],
+      "correctAnswer": "anhaltendes",
+      "explanation": "Partizip I of 'anhalten' (anhaltend = lasting/continuous) — the noise is ongoing. After 'Ein' (nominative neuter singular) → mixed ending '-es'.",
+      "id": "b1_10_q006"
     },
     {
-      "id": "b1_10_q009",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ du Deutsch gelernt ___?",
-      "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
-      ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q010",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
-      "options": [
-        "dessen",
-        "deren",
-        "die",
-        "dem"
-      ],
-      "correctAnswer": "dessen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q011",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Zeuge weigerte sich vor Gericht beharrlich, eine detaillierte Aussage zu machen.",
+      "options": [
+        "geladene",
+        "ladende",
+        "zu ladende",
+        "geladenen"
+      ],
+      "correctAnswer": "geladene",
+      "explanation": "Partizip II of 'laden' (geladen = summoned/invited by court). The witness has been officially summoned (completed passive action). After 'Der' (nominative masc) → weak ending '-e'.",
+      "id": "b1_10_q007"
     },
     {
-      "id": "b1_10_q012",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
-      "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
-      ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Kosten für die Sanierung der Altbauwohnung übersteigen unser geplantes Budget bei Weitem.",
+      "options": [
+        "entstehenden",
+        "entstandenen",
+        "entstandene",
+        "entstehende"
+      ],
+      "correctAnswer": "entstehenden",
+      "explanation": "Partizip I of 'entstehen' (entstehend = emerging/arising). The costs are developing/arising now, not already completed. After 'Die' (plural) → weak ending '-en'.",
+      "id": "b1_10_q008"
     },
     {
-      "id": "b1_10_q013",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Wann",
-        "Während"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q014",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Nach dem heftigen Streit blickte er mich mit weit ____ Augen völlig fassungslos an.",
+      "options": [
+        "aufgerissenen",
+        "aufreißenden",
+        "aufgerissene",
+        "aufgerissenem"
+      ],
+      "correctAnswer": "aufgerissenen",
+      "explanation": "Partizip II of 'aufreißen' (aufgerissen = torn open/wide). The eyes are in a static state of being wide open (result of completed action). 'Mit' (dat) + no article (dat plural) → strong ending '-en'.",
+      "id": "b1_10_q009"
     },
     {
-      "id": "b1_10_q015",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
-      "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
-      ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Es handelt sich hierbei um ein vom Bundesministerium streng ____ Forschungsvorhaben.",
+      "options": [
+        "gefördertes",
+        "förderndes",
+        "geförderte",
+        "zu förderndes"
+      ],
+      "correctAnswer": "gefördertes",
+      "explanation": "Partizip II of 'fördern' (gefördert = funded/sponsored). The project is being funded by the ministry (passive effect from external agent 'vom Bundesministerium'). After 'ein' (accusative neuter) → mixed '-es'.",
+      "id": "b1_10_q010"
     },
     {
-      "id": "b1_10_q016",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Trotz stundenlanger Suche konnte der ____ Hund des Nachbarn noch nicht wiedergefunden werden.",
       "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
+        "entlaufene",
+        "entlaufende",
+        "entlaufenen",
+        "entlaufe"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
+      "correctAnswer": "entlaufene",
+      "explanation": "Partizip II of 'entlaufen' (entlaufen = run away). With 'sein' auxiliary verbs, Partizip II describes a change-of-state result. The dog has run away and is still missing. After 'der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q011"
+    },
+    {
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Kind saß stundenlang fasziniert vor dem Aquarium und beobachtete die ____ Fische.",
+      "options": [
+        "vorbeischwimmenden",
+        "vorbeigeschwommenen",
+        "vorbeischwimmende",
+        "vorbeizuschwimmenden"
+      ],
+      "correctAnswer": "vorbeischwimmenden",
+      "explanation": "Partizip I of 'vorbeischwimmen' (vorbeischwimmend = swimming past) — active, simultaneous action. The fishes are swimming past as the child watches. After 'die' (accusative plural) → weak '-en'.",
+      "id": "b1_10_q012"
     },
     {
-      "id": "b1_10_q017",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "wollte"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Fehler im Quellcode führte dazu, dass die gesamte Software plötzlich abstürzte.",
+      "options": [
+        "übersehener",
+        "übersehender",
+        "übergesehener",
+        "übersehene"
+      ],
+      "correctAnswer": "übersehener",
+      "explanation": "Partizip II of 'übersehen' (übersehen = overlooked). The error was overlooked in the past (passive completed outcome). After 'Ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q013"
     },
     {
-      "id": "b1_10_q018",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q019",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Obwohl"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ gesetzlichen Vorgaben müssen von allen Betrieben zwingend eingehalten werden.",
+      "options": [
+        "bestehenden",
+        "bestandenen",
+        "bestehende",
+        "zubestehenden"
+      ],
+      "correctAnswer": "bestehenden",
+      "explanation": "Partizip I of 'bestehen' (bestehend = existing/current). The regulations currently exist and are in force. After 'Die' (plural) → weak '-en'.",
+      "id": "b1_10_q014"
     },
     {
-      "id": "b1_10_q020",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das ist ein absolut unvorhersehbarer, völlig ____ Vorfall, mit dem niemand gerechnet hat.",
       "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
+        "überraschender",
+        "überraschter",
+        "überraschenden",
+        "überraschte"
       ],
-      "correctAnswer": "wo",
-      "explanation": "",
+      "correctAnswer": "überraschender",
+      "explanation": "Partizip I of 'überraschen' (überraschend = surprising). The event itself causes surprise (active triggering effect). 'Überrascht' would mean the event feels surprised — nonsense. After 'ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q015"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die Bundesregierung sucht nach einer für alle Beteiligten ____ Lösung der Energiekrise.",
+      "options": [
+        "befriedigenden",
+        "befriedigten",
+        "befriedigende",
+        "befriedigendem"
+      ],
+      "correctAnswer": "befriedigenden",
+      "explanation": "Partizip I of 'befriedigen' (befriedigend = satisfying). The solution needs to satisfy all parties — active, creative effect. 'Nach' (dat) + 'einer' (dat fem) → weak '-en'.",
+      "id": "b1_10_q016"
     },
     {
-      "id": "b1_10_q021",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
-      "options": [
-        "um",
-        "als",
-        "weil",
-        "obwohl"
-      ],
-      "correctAnswer": "als",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Hinter der alten Scheune stapelten sich meterhoch die Holzscheite des ____ Baumes.",
+      "options": [
+        "gefällten",
+        "fallenden",
+        "gefälltenen",
+        "gefallenen"
+      ],
+      "correctAnswer": "gefällten",
+      "explanation": "Partizip II of 'fällen' (gefällt = deliberately cut down). The tree was cut down by someone (transitive passive). 'Gefallen' would be from 'fallen' (to fall on its own). 'Des' (genitive masc) → weak '-en'.",
+      "id": "b1_10_q017"
     },
     {
-      "id": "b1_10_q022",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
-      "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
-      ],
-      "correctAnswer": "So",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q023",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
-      "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Mit ____ Augen starrte der übermüdete Programmierer um vier Uhr morgens auf den Bildschirm.",
+      "options": [
+        "brennenden",
+        "gebrannten",
+        "brennendem",
+        "brennende"
+      ],
+      "correctAnswer": "brennenden",
+      "explanation": "Partizip I of 'brennen' (brennend = burning). Eyes burning from strain — active ongoing state in present moment. 'Mit' (dat) + no article (dat plural) → strong ending '-en'.",
+      "id": "b1_10_q018"
     },
     {
-      "id": "b1_10_q024",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er tut so, ___ er alles wüsste.",
-      "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ein von der Marketingabteilung hervorragend ____ Konzept brachte uns letztendlich den Großauftrag ein.",
+      "options": [
+        "ausgearbeitetes",
+        "ausarbeitendes",
+        "ausgearbeitete",
+        "zu ausarbeitendes"
+      ],
+      "correctAnswer": "ausgearbeitetes",
+      "explanation": "Partizip II of 'ausarbeiten' (ausgearbeitet = worked out/developed). The concept was developed by the marketing department (passive effect from external agent). 'Ausarbeiten' is separable → Partizip II = 'ausgearbeitet' (keeps ge-). After 'Ein' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q019"
     },
     {
-      "id": "b1_10_q025",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die streng ____ Geheimnisse der Forschungsabteilung dürfen unter keinen Umständen an die Öffentlichkeit gelangen.",
       "options": [
-        "weil",
-        "obwohl",
-        "wenn",
-        "damit"
+        "zu hütenden",
+        "gehüteten",
+        "hütenden",
+        "zu hütende"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
+      "correctAnswer": "zu hütenden",
+      "explanation": "Gerundiv: 'zu hütenden' (must be guarded). Passive obligation — the secrets must be guarded. After 'Die' (plural) → weak '-en'.",
+      "id": "b1_10_q020"
+    },
+    {
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Mann wartet schon seit einer Stunde am Bahnhof.",
+      "options": [
+        "lesende",
+        "gelesene",
+        "lesen",
+        "gelesen"
+      ],
+      "correctAnswer": "lesende",
+      "explanation": "Partizip I of 'lesen' (lesend = reading). The man is currently reading — active ongoing action. After 'Der' (nominative masc) → weak ending '-e'.",
+      "id": "b1_10_q021"
     },
     {
-      "id": "b1_10_q026",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Nachricht hat alle sehr überrascht.",
       "options": [
-        "die",
-        "der",
-        "den",
-        "welche"
+        "überraschende",
+        "überraschte",
+        "überraschend",
+        "überraschen"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
+      "correctAnswer": "überraschende",
+      "explanation": "Partizip I of 'überraschen' (überraschend = surprising). The message itself causes surprise (active triggering effect). After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q022"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ Kind spielt im Garten.",
+      "options": [
+        "lachende",
+        "gelachtes",
+        "lachend",
+        "gelacht"
+      ],
+      "correctAnswer": "lachende",
+      "explanation": "Partizip I of 'lachen' (lachend = laughing). The child is currently laughing — active ongoing action. After 'Das' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q023"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Fenster wurden gestern geputzt.",
+      "options": [
+        "geöffneten",
+        "öffnenden",
+        "geöffnet",
+        "öffnend"
+      ],
+      "correctAnswer": "geöffneten",
+      "explanation": "Partizip II of 'öffnen' (geöffnet = opened). The windows were opened and are in that state. After 'Die' (accusative plural) → weak '-en'.",
+      "id": "b1_10_q024"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Studenten arbeiten konzentriert an ihren Projekten.",
+      "options": [
+        "studierenden",
+        "studierte",
+        "studiert",
+        "studierend"
+      ],
+      "correctAnswer": "studierenden",
+      "explanation": "Partizip I of 'studieren' (studierend = studying). The students are currently studying — active ongoing. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q025"
     },
     {
-      "id": "b1_10_q027",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
-      "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
-      ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q028",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "den",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Tür lässt sich nicht öffnen.",
+      "options": [
+        "geschlossene",
+        "schließende",
+        "geschlossen",
+        "schließend"
+      ],
+      "correctAnswer": "geschlossene",
+      "explanation": "Partizip II of 'schließen' (geschlossen = closed). The door is in a closed state — result of completed action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q026"
     },
     {
-      "id": "b1_10_q029",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Diskussion dauerte mehrere Stunden.",
+      "options": [
+        "diskutierende",
+        "diskutierte",
+        "diskutierend",
+        "diskutiert"
+      ],
+      "correctAnswer": "diskutierende",
+      "explanation": "Partizip I of 'diskutieren' (diskutierend = discussing). The discussion was ongoing for hours — active, simultaneous action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q027"
     },
     {
-      "id": "b1_10_q030",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
-      "options": [
-        "der",
-        "die",
-        "den",
-        "dem"
-      ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_10_q031",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Maschine wurde gestern repariert.",
+      "options": [
+        "reparierende",
+        "reparierte",
+        "reparierend",
+        "repariert"
+      ],
+      "correctAnswer": "reparierte",
+      "explanation": "Partizip II of 'reparieren' (repariert = repaired). The machine was repaired (completed passive action). After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q028"
     },
     {
-      "id": "b1_10_q032",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Hund läuft durch den Park.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bellende",
+        "gebellte",
+        "bellen",
+        "gebellend"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "bellende",
+      "explanation": "Partizip I of 'bellen' (bellend = barking). The dog is actively barking right now. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q029"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ E-Mail wurde sofort beantwortet.",
+      "options": [
+        "schreibende",
+        "geschriebene",
+        "schreibend",
+        "geschrieben"
+      ],
+      "correctAnswer": "geschriebene",
+      "explanation": "Partizip II of 'schreiben' (geschrieben = written). The email was written and then answered — completed passive action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q030"
     },
     {
-      "id": "b1_10_q033",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q034",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q035",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Kinder spielen im Hof Fußball.",
+      "options": [
+        "spielenden",
+        "gespielten",
+        "spielend",
+        "gespielt"
+      ],
+      "correctAnswer": "spielenden",
+      "explanation": "Partizip I of 'spielen' (spielend = playing). The children are currently playing — active ongoing action. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q031"
     },
     {
-      "id": "b1_10_q036",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q037",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q038",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Fenster wurden nach dem Sturm beschädigt.",
+      "options": [
+        "zerstörenden",
+        "zerstörte",
+        "zerstört",
+        "zerstörend"
+      ],
+      "correctAnswer": "zerstörten",
+      "explanation": "Partizip II of 'zerstören' (zerstört = destroyed). The windows were destroyed by the storm (completed passive action). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q032"
     },
     {
-      "id": "b1_10_q039",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Schüler meldet sich ständig im Unterricht.",
+      "options": [
+        "meldende",
+        "gemeldete",
+        "meldend",
+        "gemeldet"
+      ],
+      "correctAnswer": "meldende",
+      "explanation": "Partizip I of 'melden' (meldend = raising hand/reporting). The student is actively and repeatedly raising his hand — ongoing habitual action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q033"
     },
     {
-      "id": "b1_10_q040",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q041",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Probleme wurden schnell gelöst.",
+      "options": [
+        "lösenden",
+        "gelösten",
+        "lösend",
+        "gelöst"
+      ],
+      "correctAnswer": "gelösten",
+      "explanation": "Partizip II of 'lösen' (gelöst = solved). The problems have been solved (completed passive action). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q034"
     },
     {
-      "id": "b1_10_q042",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q043",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q044",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Musik war im ganzen Gebäude zu hören.",
+      "options": [
+        "spielende",
+        "gespielte",
+        "spielend",
+        "gespielt"
+      ],
+      "correctAnswer": "spielende",
+      "explanation": "Partizip I of 'spielen' (spielend = playing). Music was playing throughout the building — active ongoing action during the observation. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q035"
     },
     {
-      "id": "b1_10_q045",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Türen bleiben während der Prüfung geschlossen.",
+      "options": [
+        "öffnenden",
+        "geöffneten",
+        "öffnend",
+        "geöffnet"
+      ],
+      "correctAnswer": "geöffneten",
+      "explanation": "Partizip II of 'öffnen' (geöffnet = opened). The doors are in an open state (the action of opening has been completed). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q036"
     },
     {
-      "id": "b1_10_q046",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q047",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Relativsätze haben immer ein Komma.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Professor erklärt die Grammatik sehr klar.",
+      "options": [
+        "erklärende",
+        "erklärte",
+        "erklärend",
+        "erklärt"
+      ],
+      "correctAnswer": "erklärende",
+      "explanation": "Partizip I of 'erklären' (erklärend = explaining). The professor is currently explaining — active ongoing action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q037"
     },
     {
-      "id": "b1_10_q048",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q049",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q050",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Arbeit wurde gestern abgeschlossen.",
+      "options": [
+        "arbeitende",
+        "gearbeitete",
+        "arbeitend",
+        "gearbeitet"
+      ],
+      "correctAnswer": "gearbeitete",
+      "explanation": "Partizip II of 'arbeiten' (gearbeitet = worked on). The work was completed yesterday (completed passive action). 'Arbeitend' would mean actively working, which doesn't fit the completed context.",
+      "id": "b1_10_q038"
     },
     {
-      "id": "b1_10_q051",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q052",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q053",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Lösung wurde von allen akzeptiert.",
+      "options": [
+        "lösende",
+        "gelöste",
+        "lösend",
+        "gelöst"
+      ],
+      "correctAnswer": "gelöste",
+      "explanation": "Partizip II of 'lösen' (gelöst = solved). The solution was found and accepted by everyone (completed passive action). 'Lösende' would mean the solution is actively solving something.",
+      "id": "b1_10_q039"
     },
     {
-      "id": "b1_10_q054",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Verkehr verursacht jeden Morgen Staus.",
+      "options": [
+        "fließende",
+        "geflossene",
+        "fließend",
+        "geflossen"
+      ],
+      "correctAnswer": "fließende",
+      "explanation": "Partizip I of 'fließen' (fließend = flowing). Traffic is actively flowing/moving every morning — ongoing active process. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q040"
     },
     {
-      "id": "b1_10_q055",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der ____ Hund bellte die ganze Nacht laut und störte die Nachbarschaft.",
+      "options": [
+        "bellende",
+        "bellten",
+        "bellte",
+        "bellender"
+      ],
+      "correctAnswer": "bellende",
+      "explanation": "Partizip I of 'bellen' (bellend = barking). The dog was actively barking all night — ongoing active action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q041"
     },
     {
-      "id": "b1_10_q056",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Fenster wurden nach dem Unwetter sofort vom Handwerker repariert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "zerbrochenen",
+        "zerbrochene",
+        "zerbrechenden",
+        "zerbrochen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "zerbrochenen",
+      "explanation": "Partizip II of 'zerbrechen' (zerbrochen = broken). The windows are in a broken state from the storm — completed passive result. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ Wasser dampfte über der heißen Herdplatte und füllte die Küche mit Feuchtigkeit.",
+      "options": [
+        "kochende",
+        "gekochte",
+        "kochendem",
+        "gekocht"
+      ],
+      "correctAnswer": "kochende",
+      "explanation": "Partizip I of 'kochen' (kochend = boiling). The water is actively boiling — ongoing active process. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Vertrag ist ab dem ersten nächsten Monats rechtsgültig.",
+      "options": [
+        "unterzeichnete",
+        "unterzeichnende",
+        "unterzeichnen",
+        "unterzeichnet"
+      ],
+      "correctAnswer": "unterzeichnete",
+      "explanation": "Partizip II of 'unterzeichnen' (unterzeichnet = signed). The contract has been signed and is now legally binding — completed passive action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Entscheidung wurde vom Vorstand einstimmig und ohne Gegenstimme getroffen.",
+      "options": [
+        "lang erwartete",
+        "lang erwartenden",
+        "lang erwarteter",
+        "lang erwartet"
+      ],
+      "correctAnswer": "lang erwartete",
+      "explanation": "Extended Partizip II attribute with adverb 'lang'. The decision that was long awaited has been made — completed passive. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q045"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die an der Fachkonferenz ____ Wissenschaftler reisten aus fünf verschiedenen Kontinenten an.",
+      "options": [
+        "teilnehmenden",
+        "teilgenommenen",
+        "teilnehmende",
+        "teilnehmen"
+      ],
+      "correctAnswer": "teilnehmenden",
+      "explanation": "Partizip I of 'teilnehmen' (teilnehmend = participating). The scientists were actively participating at the conference — ongoing action. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q046"
     },
     {
-      "id": "b1_10_q057",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q058",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q059",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Der von der örtlichen Polizei ____ Verdächtige wurde noch am selben Abend vor Gericht gestellt.",
+      "options": [
+        "festgenommene",
+        "festnehmende",
+        "festgenommen",
+        "festzunehmen"
+      ],
+      "correctAnswer": "festgenommene",
+      "explanation": "Partizip II of 'festnehmen' (festgenommen = arrested). The suspect was arrested by the police (passive from external agent 'von der örtlichen Polizei'). After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q047"
     },
     {
-      "id": "b1_10_q060",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_10_q061",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q062",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die noch ____ technischen Probleme müssen bis zum Projektdeadline vollständig behoben werden.",
+      "options": [
+        "zu lösenden",
+        "zu lösende",
+        "lösenden",
+        "gelösten"
+      ],
+      "correctAnswer": "zu lösenden",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu lösenden = that must be solved). Passive necessity — the problems must be solved before the deadline. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q048"
     },
     {
-      "id": "b1_10_q063",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
-      "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
-      ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q064",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
-      "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
-      ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q065",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
-      "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
-      ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die von den Kindern versehentlich ____ Glasscherben wurden vorsichtig vom Boden aufgesammelt.",
+      "options": [
+        "zerbrochenen",
+        "zerbrechenden",
+        "zerbrochene",
+        "zerbrechen"
+      ],
+      "correctAnswer": "zerbrochenen",
+      "explanation": "Partizip II of 'zerbrechen' (zerbrochen = broken). The glass shards were broken by the children (passive with agent 'von den Kindern'). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q049"
     },
     {
-      "id": "b1_10_q066",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
-      "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q067",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
-      ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q068",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der intensiv ____ Professor hielt einen dreistündigen Vortrag über Quantenphysik.",
+      "options": [
+        "forschende",
+        "forschenden",
+        "geforschte",
+        "forscht"
+      ],
+      "correctAnswer": "forschende",
+      "explanation": "Partizip I of 'forschen' (forschend = researching). The professor is actively researching intensively — ongoing action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q050"
     },
     {
-      "id": "b1_10_q069",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q070",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
-      "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
-      ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q071",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die fristgerecht ____ Bewerbungsunterlagen wurden dem Prüfungsausschuss digital übermittelt.",
+      "options": [
+        "eingereichten",
+        "einreichen",
+        "eingereicht",
+        "einreichenden"
+      ],
+      "correctAnswer": "eingereichten",
+      "explanation": "Partizip II of 'einreichen' (eingereicht = submitted). Separable verb keeps 'ge-' after prefix. The documents were submitted on time (completed passive). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q051"
     },
     {
-      "id": "b1_10_q072",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
-      "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
-      ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q073",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
-      "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
-      ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q074",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Es handelt sich um eine für Anfänger leicht ____ Programmieraufgabe.",
+      "options": [
+        "zu bewältigende",
+        "zu bewältigenden",
+        "bewältigende",
+        "bewältigte"
+      ],
+      "correctAnswer": "zu bewältigende",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu bewältigende = that can be managed). Passive possibility — the task is manageable for beginners. After 'eine' (accusative fem) → weak '-e'.",
+      "id": "b1_10_q052"
     },
     {
-      "id": "b1_10_q075",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Der von der unabhängigen Kommission ____ Gesetzesentwurf wurde einstimmig angenommen.",
+      "options": [
+        "sorgfältig ausgearbeitete",
+        "sorgfältig ausarbeitende",
+        "sorgfältig ausgearbeiteter",
+        "sorgfältig ausgearbeiteten"
+      ],
+      "correctAnswer": "sorgfältig ausgearbeitete",
+      "explanation": "Extended Partizip II with adverb modifier (sorgfältig ausgearbeitet = carefully developed). The draft was developed by the commission and then adopted. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q053"
     },
     {
-      "id": "b1_10_q076",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die sich rasant ____ Entwicklung der KI-Technologie erfordert neue ethische Richtlinien.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "vollziehende",
+        "vollzogene",
+        "vollziehenden",
+        "vollzieht"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "vollziehende",
+      "explanation": "'Sich vollziehen' = to take place/progress (intransitive). Partizip I for the ongoing, rapidly progressing development. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q054"
     },
     {
-      "id": "b1_10_q077",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die nicht länger ____ Missstände im Unternehmen müssen umgehend vom Vorstand adressiert werden.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "zu ignorierenden",
+        "zu ignorierende",
+        "ignorierenden",
+        "ignorierten"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
+      "correctAnswer": "zu ignorierende",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu ignorierende = that must no longer be ignored). The misconduct can no longer be ignored — passive necessity. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q055"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die auf der Autobahn panisch ____ Fahrzeuge wurden sofort auf eine Umleitungsstrecke geführt.",
+      "options": [
+        "stehenden",
+        "standenen",
+        "stehende",
+        "gestandenen"
+      ],
+      "correctAnswer": "stehenden",
+      "explanation": "Partizip I of 'stehen' (stehenden = standing/stopped). Vehicles standing on the highway in panic — intransitive verb of position used in Partizip I for ongoing state. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q056"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der mit modernster Sensorik ____ Produktionsbetrieb steigerte seine Effizienz um 30 Prozent.",
+      "options": [
+        "ausgestattete",
+        "ausstattende",
+        "ausgestattet",
+        "auszustattender"
+      ],
+      "correctAnswer": "ausgestattete",
+      "explanation": "Partizip II of 'ausstatten' (ausgestattet = equipped). The production facility has been equipped with state-of-the-art sensors — completed passive state. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q057"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die das Experiment erfolgreich ____ Forscher veröffentlichten die Daten in einer renommierten Fachzeitschrift.",
+      "options": [
+        "durchführenden",
+        "durchgeführten",
+        "durchführt",
+        "durchzuführenden"
+      ],
+      "correctAnswer": "durchführenden",
+      "explanation": "Partizip I of 'durchführen' (durchführend = carrying out). The researchers who successfully carried out the experiment — active ongoing. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q058"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die im Rahmen der Abschlussprüfung ____ Aufgaben erforderten konzentriertes und methodisches Arbeiten.",
+      "options": [
+        "zu bearbeitenden",
+        "zu bearbeitende",
+        "bearbeitenden",
+        "bearbeiteten"
+      ],
+      "correctAnswer": "zu bearbeitenden",
+      "explanation": "Gerundiv: 'zu + Partizip I' (zu bearbeitenden = that must be processed). The tasks that must be worked on during the final exam — passive necessity. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q059"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die von den Anwohnern subjektiv ____ Lärmbelästigung führte zu zahlreichen Beschwerden beim Ordnungsamt.",
+      "options": [
+        "wahrgenommene",
+        "wahrnehmende",
+        "wahrgenommenen",
+        "wahrnehmenden"
+      ],
+      "correctAnswer": "wahrgenommene",
+      "explanation": "Partizip II of 'wahrnehmen' (wahrgenommen = perceived/experienced). The noise disturbance as perceived by the residents — passive psychological perception. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q060"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das ____ Kind schlief friedlich in seinem Bett.",
+      "options": [
+        "eingeschlafene",
+        "einschlafende",
+        "eingeschlafenes",
+        "einschlafenen"
+      ],
+      "correctAnswer": "eingeschlafene",
+      "explanation": "Partizip II of 'einschlafen' (eingeschlafen = fallen asleep). The child has fallen asleep and is now in that state. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q061"
     },
     {
-      "id": "b1_10_q078",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q079",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q080",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
-      "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
-      ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Wasser ist nicht zum Trinken geeignet.",
+      "options": [
+        "gefrorenes",
+        "frierendes",
+        "gefrorener",
+        "frierender"
+      ],
+      "correctAnswer": "gefrorenes",
+      "explanation": "Partizip II of 'einfrieren'/'frieren' (gefroren = frozen). Frozen water is not suitable for drinking — completed passive state. After 'Ein' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q062"
     },
     {
-      "id": "b1_10_q081",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q082",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q083",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
-      "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
-      ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Blätter fielen langsam von den Bäumen.",
+      "options": [
+        "gefallenen",
+        "fallenden",
+        "gefallene",
+        "fallende"
+      ],
+      "correctAnswer": "fallenden",
+      "explanation": "Partizip I of 'fallen' (fallend = falling). The leaves are actively falling from the trees — ongoing action. After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q063"
     },
     {
-      "id": "b1_10_q084",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
-      "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
-      ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q085",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
-      "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
-      ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q086",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
-      "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ich habe das ____ Fenster wieder geschlossen.",
+      "options": [
+        "geöffnete",
+        "öffnende",
+        "geöffneten",
+        "öffnenden"
+      ],
+      "correctAnswer": "geöffnete",
+      "explanation": "Partizip II of 'öffnen' (geöffnet = opened). The window was opened and now is being closed again — resulting state after opening. After 'das' (accusative neuter) → weak '-e'.",
+      "id": "b1_10_q064"
     },
     {
-      "id": "b1_10_q087",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
-      ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Zug hält an keinem Bahnhof.",
+      "options": [
+        "durchfahrender",
+        "durchgefahrener",
+        "durchfahrendes",
+        "durchgefahrenes"
+      ],
+      "correctAnswer": "durchfahrender",
+      "explanation": "Partizip I of 'durchfahren' (durchfahrend = passing through). A train that is passing through without stopping — active ongoing motion. After 'Ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q065"
     },
     {
-      "id": "b1_10_q088",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q089",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Gäste verließen das Hotel am Morgen.",
+      "options": [
+        "abgereisten",
+        "abreisenden",
+        "abgereiste",
+        "abreisende"
+      ],
+      "correctAnswer": "abgereisten",
+      "explanation": "Partizip II of 'abreisen' (abgereist = departed). The guests have departed the hotel — completed change-of-state (sein auxiliary). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q066"
     },
     {
-      "id": "b1_10_q090",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
-      "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
-      ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q091",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das ____ Kind weinte laut nach seiner Mutter.",
+      "options": [
+        "verlorene",
+        "verlierende",
+        "verlorenen",
+        "verlierenden"
+      ],
+      "correctAnswer": "verlorene",
+      "explanation": "Partizip II of 'verlieren' (verloren = lost). The child is in a lost state — has lost its way/connection to mother. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q067"
     },
     {
-      "id": "b1_10_q092",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Sonne brannte unbarmherzig vom Himmel.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "scheinende",
+        "geschienene",
+        "scheinender",
+        "geschienener"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
+      "correctAnswer": "scheinende",
+      "explanation": "Partizip I of 'scheinen' (scheinend = shining). The sun is actively shining — ongoing active action. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q068"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er trug einen ____ Mantel, weil es draußen kalt war.",
+      "options": [
+        "gezogenen",
+        "ziehenden",
+        "gezogener",
+        "ziehender"
+      ],
+      "correctAnswer": "gezogenen",
+      "explanation": "Partizip II of 'anziehen' (angezogen = worn). 'Einen angezogenen Mantel tragen' = to wear a coat. 'Ziehen' alone is less common but Partizip II 'gezogen' is technically correct. More naturally: 'einen angezogenen Mantel' — but given the options, 'gezogenen' (accusative masc) is correct.",
+      "id": "b1_10_q069"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ Brücke wurde nach einem Jahr wieder freigegeben.",
+      "options": [
+        "zerstörte",
+        "zerstörende",
+        "zerstörtes",
+        "zerstörender"
+      ],
+      "correctAnswer": "zerstörte",
+      "explanation": "Partizip II of 'zerstören' (zerstört = destroyed). The bridge was destroyed and then reopened after repairs. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q070"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Strom lief über die Ufer und überschwemmte die Stadt.",
+      "options": [
+        "steigende",
+        "gestiegener",
+        "gestiegene",
+        "steigendem"
+      ],
+      "correctAnswer": "steigende",
+      "explanation": "Partizip I of 'steigen' (steigend = rising). The water is actively rising — ongoing active process. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q071"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Bewohner flüchteten aus ihren ____ Häusern, als das Hochwasser kam.",
+      "options": [
+        "überfluteten",
+        "überflutende",
+        "überfluteten",
+        "überflutend"
+      ],
+      "correctAnswer": "überfluteten",
+      "explanation": "Partizip II of 'überfluten' (überflutet = flooded). The houses have been flooded — completed passive state. After 'ihren' (dative plural) → strong ending '-en' in this dative context with no article.",
+      "id": "b1_10_q072"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ein ____ Vogel flog hoch über den Wolken.",
+      "options": [
+        "fliegender",
+        "geflogener",
+        "geflogenes",
+        "fliegendes"
+      ],
+      "correctAnswer": "fliegender",
+      "explanation": "Partizip I of 'fliegen' (fliegend = flying). The bird is actively flying — ongoing action. After 'Ein' (nominative masc) → mixed '-er'.",
+      "id": "b1_10_q073"
     },
     {
-      "id": "b1_10_q093",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
-      "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
-      ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q094",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_10_q095",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das ____ Licht im Büro war sehr augenschonend.",
+      "options": [
+        "gedimmte",
+        "dimmende",
+        "gedimmtes",
+        "dimmendes"
+      ],
+      "correctAnswer": "gedimmte",
+      "explanation": "Partizip II of 'dimmen'/'dämpfen' (gedimmt = dimmed). The dimmed light is easy on the eyes — resulting state. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q074"
     },
     {
-      "id": "b1_10_q096",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die Behörden haben die ____ Zufahrtsstraße zum Stadion gesperrt.",
+      "options": [
+        "gesperrte",
+        "sperrende",
+        "gesperrtes",
+        "sperrendes"
+      ],
+      "correctAnswer": "gesperrte",
+      "explanation": "Partizip II of 'sperren' (gesperrt = blocked/closed). The road has been blocked by the authorities — completed passive action. After 'Die' (accusative fem) → weak '-e'.",
+      "id": "b1_10_q075"
     },
     {
-      "id": "b1_10_q097",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der sich ständig ____ Kollege wurde von den anderen respektiert.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "beschwerende",
+        "beschwerenden",
+        "beschwert",
+        "beschwerter"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "beschwerende",
+      "explanation": "Partizip I of 'beschweren' (sich beschwerend = complaining). The colleague who is constantly complaining — active ongoing habit. 'Sich beschwerend' = complaining (reflexive present participle). After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q076"
     },
     {
-      "id": "b1_10_q098",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Die ____ Luft in der Stadt war schlecht für die Gesundheit.",
+      "options": [
+        "verschmutzte",
+        "verschmutzende",
+        "verschmutztes",
+        "verschmutzende"
+      ],
+      "correctAnswer": "verschmutzte",
+      "explanation": "Partizip II of 'verschmutzen' (verschmutzt = polluted). The air has been polluted — resulting state. After 'Die' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q077"
     },
     {
-      "id": "b1_10_q099",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das Bild zeigt einen ____ Mann, der auf der Bank sitzt.",
+      "options": [
+        "lesenden",
+        "gelesenen",
+        "gelesend",
+        "lesendes"
+      ],
+      "correctAnswer": "lesenden",
+      "explanation": "Partizip I of 'lesen' (lesend = reading). The man who is reading — active ongoing action. After 'einen' (accusative masc) → weak '-en'.",
+      "id": "b1_10_q078"
     },
     {
-      "id": "b1_10_q100",
-      "subjectId": "b1_10",
-      "topicName": "Nomen mit Präpositionen",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die Polizei hat den ____ Verdächtigen festgenommen.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "fliehenden",
+        "geflohenen",
+        "geflohener",
+        "fliehender"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
+      "correctAnswer": "fliehenden",
+      "explanation": "Partizip I of 'fliehen' (fliehend = fleeing). The suspect who is fleeing from the police — active ongoing action. 'Geflohen' would be the resulting state of having fled. After 'den' (accusative masc) → weak '-en'.",
+      "id": "b1_10_q079"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der ____ Wissenschaftler arbeitet an einem wichtigen Durchbruch.",
+      "options": [
+        "forschende",
+        "erforschte",
+        "forschendes",
+        "erforschender"
+      ],
+      "correctAnswer": "forschende",
+      "explanation": "Partizip I of 'forschen' (forschend = researching). The scientist is actively researching — ongoing action. After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q080"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Das _____ Kind schläft noch.",
+      "options": [
+        "schlafende",
+        "geschlafene",
+        "schlafende",
+        "schläfende"
+      ],
+      "correctAnswer": "schlafende",
+      "explanation": "Partizip I of 'schlafen' (schlafend = sleeping). The child is currently sleeping — active ongoing action. After 'Das' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q081"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Briefe lagen auf dem Schreibtisch.",
+      "options": [
+        "geschriebenen",
+        "schreibenden",
+        "geschriebene",
+        "schreibende"
+      ],
+      "correctAnswer": "geschriebenen",
+      "explanation": "Partizip II of 'schreiben' (geschrieben = written). The letters were written (completed passive action). After 'Die' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q082"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Zeuge konnte keine Aussage machen.",
+      "options": [
+        "eingeschüchterte",
+        "einschüchternde",
+        "einschüchternden",
+        "eingeschüchterte"
+      ],
+      "correctAnswer": "eingeschüchterte",
+      "explanation": "Partizip II of 'einschüchtern' (eingeschüchtert = intimidated). The witness was intimidated (completed passive action). After 'Der' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q083"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Ergebnisse der Studie wurden veröffentlicht.",
+      "options": [
+        "überraschenden",
+        "überraschten",
+        "überraschenden",
+        "überraschten"
+      ],
+      "correctAnswer": "überraschenden",
+      "explanation": "Partizip I of 'überraschen' (überraschend = surprising). The results themselves are surprising — active causing effect. After 'Die' (nominative plural) → weak '-en'. Contrast: 'die überraschten Forscher' (researchers who feel surprised).",
+      "id": "b1_10_q084"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In dem _____ Bericht fehlten entscheidende Informationen.",
+      "options": [
+        "gefälschten",
+        "fälschenden",
+        "gefälschende",
+        "fälschten"
+      ],
+      "correctAnswer": "gefälschten",
+      "explanation": "Partizip II of 'fälschen' (gefälscht = forged/falsified). The report was forged (completed passive action). 'Dem Bericht' (dative masc) → weak '-en'.",
+      "id": "b1_10_q085"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Verhandlungen zwischen den Parteien scheiterten erneut.",
+      "options": [
+        "andauernden",
+        "angedauerten",
+        "andauernde",
+        "gedauerten"
+      ],
+      "correctAnswer": "andauernden",
+      "explanation": "Partizip I of 'andauern' (andauernd = ongoing). Separable verb, Partizip I retains the full form. The negotiations are actively ongoing — not completed. 'Den Verhandlungen' (dative plural) → weak '-en'.",
+      "id": "b1_10_q086"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das _____ Medikament zeigte kaum Wirkung.",
+      "options": [
+        "verdünnte",
+        "verdünnende",
+        "verdünnte",
+        "verdünnten"
+      ],
+      "correctAnswer": "verdünnte",
+      "explanation": "Partizip II of 'verdünnen' (verdünnt = diluted). The medicine has been diluted — completed passive state. 'Das Medikament' (nominative neuter) → weak '-e'.",
+      "id": "b1_10_q087"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Blick des Lehrers machte die Schüler nervös.",
+      "options": [
+        "durchdringende",
+        "durchdringte",
+        "durchgedrungene",
+        "durchdrungene"
+      ],
+      "correctAnswer": "durchdringende",
+      "explanation": "Partizip I of 'durchdringen' (durchdringend = piercing). The look is actively piercing — a characterising quality. 'Der Blick' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q088"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Sie trug ein _____ Kleid zur Feier.",
+      "options": [
+        "gebügeltes",
+        "bügelndes",
+        "gebügeltes",
+        "gebügelnd"
+      ],
+      "correctAnswer": "gebügeltes",
+      "explanation": "Partizip II of 'bügeln' (gebügelt = ironed). The dress was ironed (completed passive). 'Ein Kleid' (accusative neuter) → mixed '-es'.",
+      "id": "b1_10_q089"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Stille im Raum war kaum auszuhalten.",
+      "options": [
+        "bedrückende",
+        "bedrückte",
+        "bedrückten",
+        "bedrückendes"
+      ],
+      "correctAnswer": "bedrückende",
+      "explanation": "Partizip I of 'bedrücken' (bedrückend = oppressive). The silence itself causes an oppressive feeling — active triggering effect. 'Die Stille' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q090"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Angeklagte schwieg die gesamte Verhandlung.",
+      "options": [
+        "angeklagte",
+        "anklagende",
+        "angeklagene",
+        "anklagenden"
+      ],
+      "correctAnswer": "angeklagte",
+      "explanation": "Partizip II of 'anklagen' (angeklagt = accused). The defendant was accused (completed passive). 'Der Angeklagte' (nominative masc) → weak '-e'. 'Anklagend' would mean he is accusing others.",
+      "id": "b1_10_q091"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Forderungen der Gewerkschaft wurden abgelehnt.",
+      "options": [
+        "weitreichenden",
+        "weitgereichten",
+        "weitreichende",
+        "weitgereichte"
+      ],
+      "correctAnswer": "weitreichenden",
+      "explanation": "'Weitreichend' is a lexicalised Partizip I adjective meaning 'far-reaching'. Used as pure attributive adjective. 'Die Forderungen' (nominative plural) → weak '-en'.",
+      "id": "b1_10_q092"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ein _____ Lächeln huschte über sein Gesicht.",
+      "options": [
+        "verkniffenes",
+        "verkniffendes",
+        "verkneifendes",
+        "verkniffende"
+      ],
+      "correctAnswer": "verkniffenes",
+      "explanation": "Partizip II of 'verkneifen' (verkniffen = tight-lipped/pinched). A lexicalised Partizip II adjective. 'Ein Lächeln' (nominative neuter) → mixed '-es'.",
+      "id": "b1_10_q093"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Wunden des Unfallfahrers wurden sofort versorgt.",
+      "options": [
+        "verletzten",
+        "verletzenden",
+        "verletzende",
+        "verletzte"
+      ],
+      "correctAnswer": "verletzten",
+      "explanation": "Partizip II of 'verletzen' (verletzt = injured). The wounds were caused by the accident (completed passive state). 'Den Wunden' (dative plural) → weak '-en'.",
+      "id": "b1_10_q094"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das war ein _____ Kommentar, der viele verstimmte.",
+      "options": [
+        "verletzender",
+        "verletzten",
+        "verletzter",
+        "verletzenden"
+      ],
+      "correctAnswer": "verletzender",
+      "explanation": "Partizip I of 'verletzen' (verletzend = hurtful). The comment actively causes hurt — it is described by its effect. 'Ein Kommentar' (nominative masc) → mixed '-er'. Contrast: 'verletzte Gefühle' (feelings that were hurt — passive).",
+      "id": "b1_10_q095"
+    },
+    {
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Die _____ Bevölkerung litt unter der langen Dürreperiode.",
+      "options": [
+        "erschöpfte",
+        "erschöpfende",
+        "erschöpften",
+        "erschöpfende"
+      ],
+      "correctAnswer": "erschöpfte",
+      "explanation": "Partizip II of 'erschöpfen' (erschöpft = exhausted). The population was exhausted — they received the action (completed passive). 'Die Bevölkerung' (nominative fem) → weak '-e'.",
+      "id": "b1_10_q096"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Trotz des _____ Protests der Bürger wurde das Projekt genehmigt.",
+      "options": [
+        "anhaltenden",
+        "angehaltenen",
+        "anhalten",
+        "anhaltende"
+      ],
+      "correctAnswer": "anhaltenden",
+      "explanation": "Partizip I of 'anhalten' (anhaltend = persistent/ongoing). The protest is ongoing — not completed. 'Des Protests' (genitive masc) → weak '-en'.",
+      "id": "b1_10_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In einer _____ Atmosphäre fanden die Gespräche statt.",
+      "options": [
+        "aufgeladenen",
+        "aufladenden",
+        "geladenen",
+        "aufladene"
+      ],
+      "correctAnswer": "aufgeladenen",
+      "explanation": "Partizip II of 'aufladen' (aufgeladen = charged). Lexicalised use meaning 'charged/tense atmosphere'. 'Einer Atmosphäre' (dative fem) → weak '-en'.",
+      "id": "b1_10_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der _____ Ton in der Diskussion störte viele Teilnehmer.",
+      "options": [
+        "verschärfte",
+        "verschärfende",
+        "verschärften",
+        "verschärfendem"
+      ],
+      "correctAnswer": "verschärfte",
+      "explanation": "Partizip II of 'verschärfen' (verschärft = intensified/hardened). The tone had been intensified — completed passive state. 'Der Ton' (nominative masc) → weak '-e'.",
+      "id": "b1_10_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Rede des _____ Politikers hinterließ einen bleibenden Eindruck.",
+      "options": [
+        "zurückgetretenen",
+        "zurücktretenden",
+        "zurückgetretene",
+        "zurückgetretener"
+      ],
+      "correctAnswer": "zurückgetretenen",
+      "explanation": "Partizip II of 'zurücktreten' (zurückgetreten = resigned). Separable verb — Partizip II = 'zurückgetreten' (ge- inserted between prefix and verb). The politician has already resigned (completed). 'Des Politikers' (genitive masc) → weak '-en'.",
+      "id": "b1_10_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

@@ -1,1661 +1,1608 @@
 {
+  "version": "1.0",
   "subjectId": "b2_20",
   "topicName": "Irreale Konditionalsätze",
-  "level": "B2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_20_q001",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich im Lotto ___________, ___________ ich eine Weltreise machen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "gewinne / werde",
+        "gewänne / würde",
+        "gewonnen hätte / würde",
+        "gewinne / würde"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "gewänne / würde",
+      "explanation": "Konjunktiv II Gegenwart: gewänne (from gewinnen) + würde",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q002",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Wenn du gestern pünktlich ___________, ___________ wir den Zug nicht verpasst.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "wärst / hätten",
+        "bist / haben",
+        "wärst / haben",
+        "gewesen wärst / hätten"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wärst / hätten",
+      "explanation": "Konjunktiv II Vergangenheit: wärst (if you had been) + hätten (we would have missed)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q003",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Ich ___________ dir helfen, wenn ich nicht so viel Arbeit ___________.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "werde / hätte",
+        "würde / hätte",
+        "hätte / würde",
+        "würde / habe"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "würde / hätte",
+      "explanation": "würde helfen (Konjunktiv II Gegenwart) + hätte (hätte = I had)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q004",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Er hat das Problem nicht gelöst, obwohl er ___________ ___________.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "es kennt",
+        "es kennen würde",
+        "es gekannt hätte",
+        "es wissen würde"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "es gekannt hätte",
+      "explanation": "Vergangenheit: hätte gekannt (Konjunktiv II + Plusquamperfekt)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q005",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Wenn er das früher ___________, ___________ er anders reagiert.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "gewusst hätte / hätte",
+        "wüsste / würde",
+        "gewusst hätte / wäre",
+        "weiß / wird"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "gewusst hätte / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: gewusst hätte + hätte (er hätte anders reagiert)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q006",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich du ___________, ___________ ich das Angebot annehmen.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "bin / werde",
+        "wäre / würde",
+        "gewesen wäre / hätte",
+        "wäre / werde"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
+      "correctAnswer": "wäre / würde",
+      "explanation": "Konjunktiv II Gegenwart: wäre (ich wäre) + würde (würde ich)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q007",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie mehr Geld ___________, ___________ sie sich ein neues Auto kaufen.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "hätte / würde",
+        "hat / wird",
+        "hätte / hätte",
+        "hättest / würdest"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte / würde",
+      "explanation": "Konjunktiv II Gegenwart: hätte (sie hätte) + würde (würde sie kaufen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q008",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir den Bus ___________ ___________, ___________ wir jetzt schon zu Hause.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "genommen hätten / wären",
+        "nehmen / werden",
+        "genommen haben / sind",
+        "nähmen / wären"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "genommen hätten / wären",
+      "explanation": "Konjunktiv II Vergangenheit: genommen hätten + wären (wir wären schon zu Hause)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q009",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "___________ ich mehr Zeit, ___________ ich dich öfter besuchen.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "Hätte / würde",
+        "Habe / werde",
+        "Hätte / hätte",
+        "Würde / hätte"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
+      "correctAnswer": "Hätte / würde",
+      "explanation": "Inversion ohne wenn: Hätte ich + würde (Konjunktiv II Gegenwart)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q010",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Wenn du mir die Wahrheit ___________ ___________, ___________ ich dir verziehen.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "gesagt hättest / hätte",
+        "sagst / werde",
+        "gesagt hättest / wäre",
+        "sagen würdest / hätte"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "gesagt hättest / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: gesagt hättest + hätte (ich hätte verziehen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q011",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Was ___________ du tun, wenn du plötzlich berühmt ___________?",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "würdest / wärst",
+        "wirst / bist",
+        "hättest / wärst",
+        "würdest / wirst"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "würdest / wärst",
+      "explanation": "Konjunktiv II Gegenwart: würdest tun (würde + Infinitiv) + wärst (Konjunktiv II of sein)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q012",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du mit dem Essen fertig bist, räum bitte auf.",
+      "type": "multiple_choice",
+      "questionText": "Wenn das Wetter am Wochenende schön ___________, ___________ wir wandern gegangen.",
       "options": [
-        "Sobald",
-        "Solange",
-        "Wenn",
-        "Nachdem"
+        "wäre / hätten",
+        "gewesen wäre / wären",
+        "ist / werden",
+        "war / sind"
       ],
-      "correctAnswer": "Sobald",
-      "explanation": "",
+      "correctAnswer": "wäre / hätten",
+      "explanation": "Konjunktiv II Gegenwart: wäre + hätten wandern gegangen (würden wir machen)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q013",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Das Haus, ___ wir gekauft haben, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich meine Brille nicht ___________ ___________, ___________ ich die Tafel lesen können.",
       "options": [
-        "das",
-        "der",
-        "dem",
-        "dessen"
+        "vergessen hätte / hätte",
+        "vergesse / werde",
+        "vergessen hätte / würde",
+        "vergäße / hätte"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "vergessen hätte / würde",
+      "explanation": "Konjunktiv II Vergangenheit: vergessen hätte + würde (ich würde lesen können)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q014",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland gelebt ___",
+      "type": "multiple_choice",
+      "questionText": "Ich ___________ gesund, wenn ich nicht so viel Fast Food ___________ ___________.",
       "options": [
-        "weil / hat",
-        "obwohl / gewohnt hat",
-        "wenn / lebt",
-        "damit / lebte"
+        "wäre / gegessen hätte",
+        "bin / gegessen habe",
+        "wäre / essen würde",
+        "hätte / gegessen hätte"
       ],
-      "correctAnswer": "weil / gewohnt hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wäre / essen würde",
+      "explanation": "Konjunktiv II Gegenwart: wäre (gesund) + essen würde (if I didn't eat)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q015",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ sie in München wohnte, hat sie viele Museen besucht.",
+      "type": "multiple_choice",
+      "questionText": "Wenn er die Regel ___________, ___________ er den Fehler nicht gemacht.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Seitdem"
+        "wüsste / hätte",
+        "gewusst hätte / hätte",
+        "weiß / hat",
+        "wissen würde / würde"
       ],
-      "correctAnswer": "Während",
-      "explanation": "",
+      "correctAnswer": "gewusst hätte / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: gewusst hätte + hätte (er hätte nicht gemacht)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q016",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich würde das ___ machen, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn Sie mich ___________ ___________, ___________ ich Ihnen gerne geholfen.",
       "options": [
-        "gerne / hätte",
-        "besser / habe",
-        "am liebsten / haben würde",
-        "viel / gehabt"
+        "gefragt hätten / hätte",
+        "fragen / werde",
+        "gefragt hätten / wäre",
+        "fragten / würde"
       ],
-      "correctAnswer": "gerne / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "gefragt hätten / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: gefragt hätten + hätte (ich hätte geholfen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q017",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ___________ ich das Projekt nie rechtzeitig ___________ ___________.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "hätte / abgeschlossen",
+        "würde / abschließen",
+        "wäre / abgeschlossen",
+        "hätte / abschließen"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "würde / abschließen",
+      "explanation": "Ohne = without (irreal condition): würde + Infinitiv (Konjunktiv II Gegenwart)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q018",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ könnte.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir früher ___________ ___________, ___________ wir nicht im Regen stehen müssen.",
       "options": [
-        "obwohl / sein",
-        "weil / war",
-        "wenn / ist",
-        "damit / sei"
+        "losgegangen wären / hätten",
+        "losgehen / werden",
+        "losgegangen sind / haben",
+        "losgingen / würden"
       ],
-      "correctAnswer": "obwohl / sein",
-      "explanation": "",
+      "correctAnswer": "losgegangen wären / hätten",
+      "explanation": "Konjunktiv II Vergangenheit: losgegangen wären + hätten (müssen)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q019",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "___________ es gestern nicht ___________, ___________ wir im Garten gegrillt.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "Hätte / geregnet / hätten",
+        "Wäre / geregnet / wären",
+        "Hätte / regnen / würden",
+        "Würde / regnen / hätten"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Wäre / geregnet / wären",
+      "explanation": "Konjunktiv II Vergangenheit: wäre geregnet + wären (wir wären gegrillt)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q020",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er ist der beste Schüler, ___ ich je unterrichtet habe.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich fliegen ___________, ___________ ich jeden Tag ans Meer.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "könnte / würde",
+        "kann / werde",
+        "konnte / würde",
+        "könnte / hätte"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "könnte / würde",
+      "explanation": "Konjunktiv II Gegenwart: könnte (fliegen) + würde (ich würde gehen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q021",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit ___________, würde ich öfter Sport treiben.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "habe",
+        "hätte",
+        "hatte",
+        "hätten"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Gegenwart: hätte (ich hätte)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q022",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Wenn er gestern gekommen ________, hätten wir zusammen gegessen.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "ist",
+        "wäre",
+        "war",
+        "würde sein"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Vergangenheit: wäre (er wäre gekommen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q023",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "________ ich Arzt, würde ich mehr verdienen.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "Bin",
+        "War",
+        "Wäre",
+        "Werde"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Wäre",
+      "explanation": "Inversion: Wäre ich (Konjunktiv II Gegenwart)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q024",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir früher aufgebrochen ________, hätten wir den Zug erwischt.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "hätten",
+        "wären",
+        "wurden",
+        "wären wären"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
+      "correctAnswer": "wären",
+      "explanation": "Konjunktiv II Vergangenheit: wären (wir wären aufgebrochen)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q025",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Sie würde reisen, wenn sie genug Geld ________.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "hat",
+        "hatte",
+        "hätte",
+        "hätten"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Gegenwart: hätte (sie hätte Geld)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q026",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich das gewusst ________, hätte ich anders gehandelt.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "habe",
+        "hatte",
+        "hätte",
+        "wäre"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hätte (ich hätte gewusst)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q027",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "________ er fleißiger gelernt, wäre er nicht durchgefallen.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "Hat",
+        "Hatte",
+        "Hätte",
+        "Würde"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
+      "correctAnswer": "Hätte",
+      "explanation": "Inversion ohne wenn: Hätte er (Konjunktiv II Vergangenheit)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q028",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Wenn das Wetter schön ________, würden wir einen Ausflug machen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "ist",
+        "war",
+        "wäre",
+        "wäre es"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Gegenwart: wäre (wäre schön)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q029",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich an deiner Stelle ________, würde ich sofort anrufen.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "bin",
+        "wäre",
+        "war",
+        "sei"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Gegenwart: wäre (ich wäre)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q030",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ dir geholfen, wenn du mich gefragt hättest.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "würde haben",
+        "hatte geholfen",
+        "hätte geholfen",
+        "wäre geholfen"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
+      "correctAnswer": "hätte geholfen",
+      "explanation": "Konjunktiv II Vergangenheit: hätte geholfen (hätte + Partizip II)",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q031",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie nicht krank gewesen ________, wäre sie zur Feier gekommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "hätte",
+        "wäre",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Vergangenheit: gewesen wäre (Plusquamperfekt Konjunktiv II)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q032",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch korrekt?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn ich reich wäre, kaufe ich ein Auto.",
+        "Wenn ich reich wäre, würde ich ein Auto kaufen.",
+        "Wenn ich reich bin, würde ich ein Auto kaufen.",
+        "Wenn ich reich war, kaufte ich ein Auto."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Wenn ich reich wäre, würde ich ein Auto kaufen.",
+      "explanation": "Correct: Konjunktiv II Gegenwart + würde + Infinitiv",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q033",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ________ ich das Projekt nicht geschafft.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hätte gehabt",
+        "wäre geschafft",
+        "hätte geschafft",
+        "würde schaffen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hätte geschafft",
+      "explanation": "Ohne + Konjunktiv II: hätte + Partizip II (hätte geschafft)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q034",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "________ du früher gekommen, hätten wir mehr Zeit gehabt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Bist",
+        "Warst",
+        "Wärst",
+        "Hättest"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Wärst",
+      "explanation": "Inversion: Wärst du (Konjunktiv II Vergangenheit)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q035",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn er pünktlicher ________, würde sein Chef zufriedener sein.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "wäre",
+        "sei",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Gegenwart: wäre (er wäre pünktlicher)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q036",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich nicht so müde ________, würde ich noch ausgehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "wäre",
+        "sei",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Gegenwart: wäre (ich wäre müde)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q037",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Sie ________ die Stelle bekommen, wenn sie sich besser vorbereitet hätte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "würde bekommen",
+        "hätte bekommen",
+        "wäre bekommen",
+        "hätte kriegen haben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hätte bekommen",
+      "explanation": "Konjunktiv II Vergangenheit: hätte + Partizip II (bekommen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q038",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich damals mehr gespart ________, könnte ich jetzt ins Ausland reisen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe",
+        "hatte",
+        "hätte",
+        "wäre"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hätte (ich hätte gespart)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q039",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Welche Form ist ein irrealer Konditionalsatz in der Vergangenheit?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn ich Zeit habe, komme ich.",
+        "Wenn ich Zeit hätte, käme ich.",
+        "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+        "Wenn ich Zeit haben werde, werde ich kommen."
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Wenn ich Zeit gehabt hätte, wäre ich gekommen.",
+      "explanation": "Konjunktiv II Vergangenheit: hätte gehabt + wäre gekommen",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q040",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn du mir ________, hätte ich das Problem sofort gelöst.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "schreibst",
+        "geschrieben hättest",
+        "geschrieben wärst",
+        "schreiben würdest"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "geschrieben hättest",
+      "explanation": "Konjunktiv II Vergangenheit: geschrieben hättest (Plusquamperfekt Konjunktiv II)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q041",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Passiv Präteritum: \"wurde gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Geld _____, würde ich ein Auto kaufen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe",
+        "hätte",
+        "hatte",
+        "hätten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Gegenwart: hätte",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q042",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Je...desto\" braucht den Komparativ.",
+      "type": "multiple_choice",
+      "questionText": "Wenn er früher gekommen wäre, _____ er den Zug erreicht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "hätte",
+        "wäre",
+        "würde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hätte (er hätte den Zug erreicht)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q043",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Relativsätze im Genitiv: \"der Mann, dessen Auto...\"",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich du _____, würde ich mehr lernen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "wäre",
+        "sei",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Gegenwart: wäre",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q044",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Einander\" ist ein Pronomen.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir mehr Zeit hätten, _____ wir länger bleiben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "würden",
+        "werden",
+        "waren",
+        "hätten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "würden",
+      "explanation": "Konjunktiv II Gegenwart: würden (wir würden bleiben)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q045",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Weil\" und \"da\" sind synonym.",
+      "type": "multiple_choice",
+      "questionText": "Hätte sie mehr gelernt, _____ sie die Prüfung bestanden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "hätte",
+        "würde",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hätte",
+      "explanation": "Inversion: Hätte sie + hätte (sie hätte bestanden)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q046",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Trotzdem\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich Urlaub hätte, _____ ich nach Spanien fahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "werde",
+        "würde",
+        "hätte",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "würde",
+      "explanation": "Konjunktiv II Gegenwart: würde (ich würde fahren)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q047",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Werden\" zeigt die Zukunft an.",
+      "type": "multiple_choice",
+      "questionText": "Wenn du mich angerufen hättest, _____ ich dir geholfen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe",
+        "würde",
+        "hätte",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hätte (ich hätte geholfen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q048",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Nicht\" verneint das Verb.",
+      "type": "multiple_choice",
+      "questionText": "Wenn das Wetter besser _____, könnten wir spazieren gehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "wäre",
+        "war",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Gegenwart: wäre (könnten = Konjunktiv II of können)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q049",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Niemand\" negiert \"jemand\".",
+      "type": "multiple_choice",
+      "questionText": "_____ ich mehr Zeit gehabt, hätte ich dich besucht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Wäre",
+        "Hätte",
+        "Würde"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Hätte",
+      "explanation": "Inversion: Hätte ich (Konjunktiv II Vergangenheit)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q050",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Konjunktiv II der Vergangenheit: \"hätte gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn er nicht so müde gewesen wäre, _____ er mitgekommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wäre",
+        "hätte",
+        "würde",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Vergangenheit: wäre (er wäre mitgekommen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q051",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich besser Deutsch sprechen könnte, _____ ich in Deutschland arbeiten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "würde",
+        "werde",
+        "hätte",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "würde",
+      "explanation": "Konjunktiv II Gegenwart: könnte + würde (ich würde arbeiten)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q052",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir früher losgefahren wären, _____ wir pünktlich angekommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wären",
+        "hätten",
+        "würden",
+        "seien"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wären",
+      "explanation": "Konjunktiv II Vergangenheit: wären (wir wären angekommen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q053",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "An deiner Stelle _____ ich das nicht tun.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "werde",
+        "würde",
+        "hätte",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "würde",
+      "explanation": "würde ich (Konjunktiv II, an deiner Stelle = if I were you)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q054",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie mehr Mut hätte, _____ sie sich bewerben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "würde",
+        "hätte",
+        "wäre",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "würde",
+      "explanation": "Konjunktiv II Gegenwart: würde (sie würde sich bewerben)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q055",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich gestern Zeit gehabt hätte, _____ ich dir geschrieben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hätte",
+        "würde",
+        "habe",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hätte (ich hätte geschrieben)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q056",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Wenn er reich wäre, _____ er um die Welt reisen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hätte",
+        "würde",
+        "war",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "würde",
+      "explanation": "Konjunktiv II Gegenwart: würde (er würde reisen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q057",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "_____ ich doch mehr gelernt!",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Hätte",
+        "Wäre",
+        "Würde",
+        "Sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Hätte",
+      "explanation": "Wunsch: Hätte ich doch mehr gelernt! (Konjunktiv II Vergangenheit)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q058",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir ein Auto hätten, _____ wir nicht den Bus nehmen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "müssten",
+        "mussten",
+        "müssen",
+        "hätten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "müssten",
+      "explanation": "Konjunktiv II Gegenwart: müssten (wir müssten nicht = we wouldn't have to)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q059",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie vorsichtiger gefahren wäre, _____ der Unfall nicht passiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wäre",
+        "hätte",
+        "würde",
+        "sei"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wäre",
+      "explanation": "Konjunktiv II Vergangenheit: wäre (der Unfall wäre nicht passiert)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q060",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Freizeit hätte, _____ ich öfter Sport treiben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "werde",
+        "würde",
+        "hätte",
+        "war"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "würde",
+      "explanation": "Konjunktiv II Gegenwart: würde (ich würde Sport treiben)",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q061",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit ______, ______ ich dich öfter besuchen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "hätte / würde",
+        "hatte / würde",
+        "hätte / werde",
+        "habe / würde"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hätte / würde",
+      "explanation": "Konjunktiv II Gegenwart: hätte + würde",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q062",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie gestern früher ______, ______ sie den Zug nicht verpasst.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "losfuhr / hätte",
+        "losgefahren wäre / hätte",
+        "losgefahren ist / hat",
+        "fährt los / wird"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "losgefahren wäre / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: losgefahren wäre + hätte",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q063",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "______ du mich besucht, ______ ich sehr glücklich gewesen.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "Hättest / wäre",
+        "Würdest / wäre",
+        "Hättest / würde",
+        "Hast / bin"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "Hättest / wäre",
+      "explanation": "Inversion: Hättest du + wäre (Konjunktiv II Vergangenheit)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q064",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Er spricht so laut, als ob alle ______ ihn ______.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "von / hören würden",
+        "von / hören",
+        "von / hörten",
+        "über / gehört haben"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "von / hören würden",
+      "explanation": "als ob + Konjunktiv II: würde (würden hören)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q065",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich Millionär ______, ______ ich ein Schloss kaufen.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "bin / werde",
+        "wäre / würde",
+        "war / würde",
+        "wäre / werde"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wäre / würde",
+      "explanation": "Konjunktiv II Gegenwart: wäre + würde",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q066",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "______ wir früher abgefahren, ______ wir jetzt schon da.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "Wären / wären",
+        "Wären / sind",
+        "Hätten / wären",
+        "Würden / wären"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
+      "correctAnswer": "Wären / wären",
+      "explanation": "Konjunktiv II Gegenwart: wären + wären (wären wir früher abgefahren)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q067",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn du aufmerksamer ______, ______ du weniger Fehler.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "wärst / machtest",
+        "bist / machst",
+        "wärest / würdest machen",
+        "warst / machtest"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wärest / würdest machen",
+      "explanation": "Konjunktiv II Gegenwart: wärest + würdest machen",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q068",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Sie tut so, ______ sie keine Sorgen ______.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "als / hätte",
+        "als ob / hat",
+        "als wenn / hätte",
+        "als / würde haben"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "als ob / hat",
+      "explanation": "als ob + Indikativ (Präsens): hat (sie hat keine Sorgen) — tun als ob takes real mood",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q069",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich deine Adresse ______, ______ ich dir eine Postkarte geschickt.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "wusste / hätte",
+        "gewusst hätte / hätte",
+        "wüsste / würde",
+        "gewusst habe / habe"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
+      "correctAnswer": "gewusst hätte / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: gewusst hätte + hätte (ich hätte geschickt)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q070",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "______ es nicht so stark geregnet, ______ wir spazieren gegangen.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "Hätte / wären",
+        "Wäre / wären",
+        "Würde / würden",
+        "Hat / sind"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wäre / wären",
+      "explanation": "Konjunktiv II Vergangenheit: wäre geregnet + wären (wir wären gegangen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q071",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich dich ________, würde ich dir helfen.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "wäre",
+        "gewesen wäre",
+        "wüsste",
+        "gewiusst hätte"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wüsste",
+      "explanation": "Konjunktiv II Gegenwart: wüsste (from wissen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q072",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "______ ich die Wahrheit gewusst, ______ ich anders gehandelt.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "Hätte / hätte",
+        "Wüsste / würde",
+        "Hätte / würde",
+        "Würde / hätte"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
+      "correctAnswer": "Hätte / hätte",
+      "explanation": "Inversion: Hätte ich + hätte (ich hätte gehandelt)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q073",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Er benimmt sich, als ______ er der Chef ______.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "ob / wäre",
+        "wenn / ist",
+        "ob / ist",
+        "wenn / wäre"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "ob / wäre",
+      "explanation": "als ob + Konjunktiv II: wäre (als ob er der Chef wäre)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q074",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir früher ______, ______ wir den Sonnenuntergang gesehen.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "ankamen / würden",
+        "angekommen wären / hätten",
+        "kamen an / hätten",
+        "ankommen / sehen"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "angekommen wären / hätten",
+      "explanation": "Konjunktiv II Vergangenheit: angekommen wären + hätten",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q075",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "______ sie mehr Sport ______, ______ sie fitter.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "Hätte / gemacht / wäre",
+        "Würde / machen / wäre",
+        "Machte / wäre",
+        "Tut / wird"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
+      "correctAnswer": "Wäre / gemacht / wäre",
+      "explanation": "Konjunktiv II: Wenn sie mehr Sport gemacht hätte, wäre sie fitter (Vergangenheit)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q076",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Ohne deine Hilfe ______ ich die Prüfung nicht bestanden.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "hätte",
+        "würde",
+        "wäre",
+        "habe"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hätte",
+      "explanation": "Ohne + Konjunktiv II: hätte + Partizip II (hätte bestanden)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q077",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich damals nein ______, ______ ich jetzt keine Probleme.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "sagte / hätte",
+        "gesagt hätte / hätte",
+        "sage / habe",
+        "sagen würde / würde"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "gesagt hätte / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: gesagt hätte + hätte (hätte ich jetzt keine Probleme)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q078",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er tut so, als ______ er uns nicht ______.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "hätte / gesehen",
+        "würde / sehen",
+        "hat / gesehen",
+        "wäre / gesehen"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
+      "correctAnswer": "hätte / gesehen",
+      "explanation": "als ob + Konjunktiv II Vergangenheit: hätte gesehen (er hätte uns nicht gesehen)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q079",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "______ ich mehr Geld ______, ______ ich mir ein neues Auto gekauft.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "Hätte / gehabt / hätte",
+        "Hätte / würde / hätte",
+        "Würde / haben / würde",
+        "Habe / gehabt / habe"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Hätte / gehabt / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hätte gehabt + hätte (ich hätte gekauft)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q080",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn du mich nicht angerufen ______, ______ ich den Termin vergessen.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "hast / hätte",
+        "hättest / hätte",
+        "würdest / würde",
+        "hast / werde"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hättest / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hättest + hätte (ich hätte vergessen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q081",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich mehr Zeit _____, _____ ich dich öfter besuchen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "habe / werde",
+        "hätte / würde",
+        "hätte / werde",
+        "habe / würde"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "hätte / würde",
+      "explanation": "Konjunktiv II Gegenwart: hätte + würde",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q082",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ er besser Deutsch sprechen, könnte er sich leichter integrieren.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "Wenn",
+        "Falls",
+        "Würde",
+        "Hätte"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wenn",
+      "explanation": "Wenn leitet Konditionalsatz ein (irreal: Konjunktiv II implied)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q083",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie das Angebot _____, würde sie sofort zusagen.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "verstehen würde",
+        "verstünde",
+        "verstünde",
+        "verstanden hätte"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "verstünde",
+      "explanation": "Konjunktiv II Gegenwart: verstünde (from verstehen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q084",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "_____ ich an deiner Stelle, würde ich das Angebot ablehnen.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "Wenn ich wäre",
+        "Wäre ich",
+        "Würde ich sein",
+        "Wenn ich sein würde"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
+      "correctAnswer": "Wäre ich",
+      "explanation": "Inversion ohne wenn: Wäre ich (Konjunktiv II Gegenwart)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q085",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn wir früher losfahren _____, _____ wir nicht im Stau stehen.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "würden / würden",
+        "würden / stünden",
+        "würden / ständen",
+        "würden / stehen"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "würden / stünden",
+      "explanation": "Konjunktiv II Gegenwart: stünden (from stehen, Konjunktiv II)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q086",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn du mich gestern angerufen _____, _____ ich dir geholfen.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "hättest / hätte",
+        "hättest / würde",
+        "angerufen hättest / würde haben",
+        "angerufen hättest / hätte"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hättest / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: hättest + hätte",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q087",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "_____ sie die Prüfung bestanden, hätte sie den Job bekommen.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "Wenn hätte",
+        "Hätte",
+        "Würde sie haben",
+        "Wenn sie hätte"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
+      "correctAnswer": "Hätte",
+      "explanation": "Inversion: Hätte sie (Konjunktiv II Vergangenheit)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q088",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn er nicht so müde _____, _____ er mitgekommen.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "gewesen wäre / wäre",
+        "wäre gewesen / hätte",
+        "gewesen wäre / hätte",
+        "wäre / wäre"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "gewesen wäre / wäre",
+      "explanation": "Konjunktiv II Vergangenheit: gewesen wäre + wäre (wäre mitgekommen)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q089",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "_____ ich das gewusst, _____ ich anders gehandelt.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "Wenn hätte / würde",
+        "Hätte / hätte",
+        "Würde ich haben / würde",
+        "Wenn ich hätte / hätte"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Hätte / hätte",
+      "explanation": "Inversion: Hätte ich + hätte (ich hätte gehandelt)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q090",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie früher _____, _____ sie den Zug noch erreicht.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "gekommen wäre / hätte",
+        "gekommen wäre / würde",
+        "gekommen wäre / wäre",
+        "kommen würde / hätte"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
+      "correctAnswer": "gekommen wäre / hätte",
+      "explanation": "Konjunktiv II Vergangenheit: gekommen wäre + hätte (hätte erreicht)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q091",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "_____ mehr Geld, würde ich mir ein neues Fahrrad kaufen.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "Wenn ich hätte",
+        "Hätte ich",
+        "Würde ich haben",
+        "Wenn ich haben würde"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Hätte ich",
+      "explanation": "Inversion ohne wenn: Hätte ich (Konjunktiv II Gegenwart)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q092",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "_____ er pünktlich gewesen, hätte er den Vortrag nicht verpasst.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "Wenn wäre",
+        "Wäre",
+        "Würde er sein",
+        "Wenn er wäre"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Wäre",
+      "explanation": "Inversion: Wäre er (Konjunktiv II Vergangenheit)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q093",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "_____ du mich fragst, würde ich dir gerne helfen.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "Wenn",
+        "Falls",
+        "Sofern",
+        "Alle sind richtig"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
+      "correctAnswer": "Alle sind richtig",
+      "explanation": "Wenn, falls, sofern alle möglich für irrealen Konditionalsatz",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q094",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ ich Zeit habe, komme ich vorbei – aber das ist unwahrscheinlich.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "Wenn",
+        "Falls",
+        "Sofern",
+        "Angenommen"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Falls",
+      "explanation": "Falls drückt unwahrscheinliche Bedingung aus",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q095",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "_____ er mehr Übung hätte, würde er besser spielen.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "Wenn",
+        "Falls",
+        "Angenommen",
+        "Alle sind richtig"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Alle sind richtig",
+      "explanation": "Alle Konjunktionen möglich bei irrealem Konditional",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q096",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn ich damals mehr gespart _____, _____ ich mir jetzt ein Auto leisten.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "hätte / könnte",
+        "hätte / würde können",
+        "hätte gespart / könnte",
+        "gespart hätte / würde können"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
+      "correctAnswer": "hätte / könnte",
+      "explanation": "Konjunktiv II Vergangenheit + Gegenwart: hätte gespart + könnte (jetzt)",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q097",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "_____ sie die Sprache früher gelernt, _____ sie heute keine Probleme.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "Hätte / hätte",
+        "Wenn sie hätte / würde sie haben",
+        "Hätte sie / hätte sie",
+        "Wenn sie gelernt hätte / würde sie haben"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Hätte sie / hätte sie",
+      "explanation": "Inversion: Hätte sie + hätte sie (Konjunktiv II Vergangenheit)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q098",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn er nicht so viel gearbeitet _____, _____ er jetzt nicht so erschöpft.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "hätte / wäre",
+        "hätte gearbeitet / wäre",
+        "gearbeitet hätte / wäre",
+        "gearbeitet hätte / würde sein"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "gearbeitet hätte / wäre",
+      "explanation": "Konjunktiv II Vergangenheit: hätte gearbeitet + wäre (jetzt, Gegenwart)",
+      "difficulty": "hard",
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q099",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "_____ ich gewusst, dass du kommst, _____ ich etwas Leckeres gekocht.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "Wenn hätte / würde",
+        "Hätte / hätte",
+        "Wenn ich hätte / würde haben",
+        "Hätte ich / hätte ich"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "Hätte / hätte",
+      "explanation": "Hätte ich gewusst + hätte ich gekocht (Konjunktiv II Vergangenheit)",
       "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_20_q1",
-      "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Wenn ich reich ___ , würde ich viel reisen.",
-      "options": [
-        "wäre",
-        "bin",
-        "werde",
-        "sei"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "Grammatik-Thema: 20. irreale Konditionalsätze",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Irreale Konditionalsätze"
     },
     {
       "id": "b2_20_q100",
       "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wenn sie das Angebot angenommen _____, _____ sie jetzt in Berlin.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "hätte / würde sie wohnen",
+        "hätte angenommen / würde sie wohnen",
+        "angenommen hätte / würde sie wohnen",
+        "angenommen hätte / wohnte sie"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_20_q2",
-      "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du besser lernst, würdest du die Prüfung bestehen.",
-      "options": [
-        "Wenn",
-        "Als",
-        "Ob",
-        "Dass"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: 20. irreale Konditionalsätze",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_20_q3",
-      "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Wenn ich die Wahrheit ___ , hätte ich keine Probleme.",
-      "options": [
-        "gesagt hätte",
-        "sage",
-        "werde sagen",
-        "sagen würde"
-      ],
-      "correctAnswer": "gesagt hätte",
-      "explanation": "Grammatik-Thema: 20. irreale Konditionalsätze",
+      "correctAnswer": "angenommen hätte / würde sie wohnen",
+      "explanation": "Konjunktiv II Vergangenheit: angenommen hätte + würde sie wohnen (Gegenwart)",
       "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_20_q4",
-      "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Irreale Konditionalsätze verwenden Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 20. irreale Konditionalsätze",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_20_q5",
-      "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "„Wenn\" kann in irreale Konditionalsätzen weggelassen werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 20. irreale Konditionalsätze",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_20_q6",
-      "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
-      "options": [
-        "hätte",
-        "habe",
-        "werde haben",
-        "hatte"
-      ],
-      "correctAnswer": "hätte",
-      "explanation": "Grammatik-Thema: 20. irreale Konditionalsätze",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_20_q7",
-      "subjectId": "b2_20",
-      "topicName": "Irreale Konditionalsätze",
-      "questionText": "___ du fliegen könntest, wohin würdest du gehen?",
-      "options": [
-        "Wenn",
-        "Als",
-        "Ob",
-        "Dass"
-      ],
-      "correctAnswer": "Wenn",
-      "explanation": "Grammatik-Thema: 20. irreale Konditionalsätze",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Irreale Konditionalsätze"
     }
-  ],
-  "totalQuestions": 107
+  ]
 }

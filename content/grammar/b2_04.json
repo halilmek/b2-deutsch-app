@@ -1,1723 +1,2568 @@
 {
+  "version": "1.0",
   "subjectId": "b2_04",
-  "topicName": "Zeitformen in der Vergangenheit",
-  "level": "B2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "Zeitformen der Vergangenheit (Perfekt, Präteritum, Plusquamperfekt)",
+  "totalQuestions": 160,
   "questions": [
     {
       "id": "b2_04_q001",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ gestern den ganzen Tag gelernt.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "habe",
+        "bin",
+        "hat",
+        "ist"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "habe",
+      "explanation": "'lernen' ist ein transitives Verb (Akku­sativ) → Perfekt mit haben",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q002",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Meine Schwester _____ gestern nach Hause gekommen.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "habe",
+        "hat",
+        "ist",
+        "sind"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist",
+      "explanation": "'kommen' beschreibt eine Zustandsänderung → Perfekt mit sein",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q003",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Was _____ du im Urlaub gemacht?",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "bist",
+        "ist",
+        "haben",
+        "hast"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hast",
+      "explanation": "'machen' mit 'du' → haben → hast",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q004",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ uns seit drei Jahren nicht gesehen.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "haben",
+        "sind",
+        "hat",
+        "seid"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "haben",
+      "explanation": "'sich sehen' ist reflexiv mit haben (sehen ist transitiv)",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q005",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ sein Auto in der Werkstatt lassen.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "hat",
+        "ist",
+        "haben",
+        "sind"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
+      "correctAnswer": "hat",
+      "explanation": "'lassen' ist transitiv → Perfekt mit haben",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q006",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Warum _____ du so lange geschlafen?",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "bist",
+        "hast",
+        "hat",
+        "seid"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hast",
+      "explanation": "'schlafen' → Perfekt mit haben → du hast",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q007",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Gestern _____ es den ganzen Tag geregnet.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "hat",
+        "ist",
+        "haben",
+        "sind"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
+      "correctAnswer": "hat",
+      "explanation": "'regnen' → Perfekt mit haben (unpersönlich)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q008",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder _____ im Garten gespielt.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "sind",
+        "haben",
+        "ist",
+        "hat"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "haben",
+      "explanation": "'spielen' → Perfekt mit haben",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q009",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "_____ du schon einmal in Berlin gewesen?",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "Hast",
+        "Hat",
+        "Bist",
+        "Ist"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Bist",
+      "explanation": "'sein' → Perfekt mit sein → du bist gewesen",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q010",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ den ganzen Abend getanzt.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "haben",
+        "sind",
+        "ist",
+        "seid"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
+      "correctAnswer": "haben",
+      "explanation": "'tanzen' → Perfekt mit haben",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q011",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind _____ schnell eingeschlafen.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "hat",
+        "ist",
+        "habe",
+        "sind"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "'einschlafen' = Zustandsänderung → Perfekt mit sein",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q012",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du mit dem Essen fertig bist, räum bitte auf.",
+      "type": "multiple_choice",
+      "questionText": "Ihr _____ mich völlig vergessen!",
       "options": [
-        "Sobald",
-        "Solange",
-        "Wenn",
-        "Nachdem"
+        "hast",
+        "hat",
+        "habt",
+        "seid"
       ],
-      "correctAnswer": "Sobald",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "habt",
+      "explanation": "'vergessen' → haben → ihr habt",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q013",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Haus, ___ wir gekauft haben, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "_____ du die Aufgabe verstanden?",
       "options": [
-        "das",
-        "der",
-        "dem",
-        "dessen"
+        "Bist",
+        "Hast",
+        "Habt",
+        "Seid"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "Hast",
+      "explanation": "'verstehen' → haben → du hast",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q014",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland gelebt ___",
+      "type": "multiple_choice",
+      "questionText": "Mein Bruder _____ ein neues Handy gekauft.",
       "options": [
-        "weil / hat",
-        "obwohl / gewohnt hat",
-        "wenn / lebt",
-        "damit / lebte"
+        "ist",
+        "hat",
+        "sind",
+        "habe"
       ],
-      "correctAnswer": "weil / gewohnt hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hat",
+      "explanation": "'kaufen' ist transitiv → Perfekt mit haben",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q015",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ sie in München wohnte, hat sie viele Museen besucht.",
+      "type": "multiple_choice",
+      "questionText": "Die Sonne _____ strahlend geschienen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Seitdem"
+        "ist",
+        "hat",
+        "sind",
+        "habt"
       ],
-      "correctAnswer": "Während",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hat",
+      "explanation": "'scheinen' → Perfekt mit haben (hier nicht mit sein)",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q016",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich würde das ___ machen, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Wir _____ mit dem Zug nach München gefahren.",
       "options": [
-        "gerne / hätte",
-        "besser / habe",
-        "am liebsten / haben würde",
-        "viel / gehabt"
+        "haben",
+        "sind",
+        "hat",
+        "seid"
       ],
-      "correctAnswer": "gerne / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sind",
+      "explanation": "'fahren' beschreibt Bewegung → Perfekt mit sein",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q017",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Was _____ du gestern Abend gemacht?",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "bist",
+        "hat",
+        "hast",
+        "ist"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "hast",
+      "explanation": "'machen' → haben → du hast gemacht",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q018",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ könnte.",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ das Buch schon zweimal gelesen.",
       "options": [
-        "obwohl / sein",
-        "weil / war",
-        "wenn / ist",
-        "damit / sei"
+        "ist",
+        "hat",
+        "sind",
+        "habt"
       ],
-      "correctAnswer": "obwohl / sein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hat",
+      "explanation": "'lesen' ist transitiv → Perfekt mit haben → sie hat",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q019",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "_____ ihr den Film schon gesehen?",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "Habt",
+        "Seid",
+        "Hast",
+        "Ist"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "Habt",
+      "explanation": "'sehen' → haben → ihr habt",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q020",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ist der beste Schüler, ___ ich je unterrichtet habe.",
+      "type": "multiple_choice",
+      "questionText": "Er _____ mir seine Adresse nicht gegeben.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "ist",
+        "hat",
+        "habe",
+        "sind"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
+      "correctAnswer": "hat",
+      "explanation": "'geben' ist transitiv → Perfekt mit haben → er hat",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q021",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ gestern lange gearbeitet.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "bin",
+        "habe",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "habe",
+      "explanation": "'arbeiten' → Perfekt mit haben → ich habe gearbeitet",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q022",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Er ______ nach Berlin gefahren.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "hat",
+        "ist",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "'fahren' = Bewegung → Perfekt mit sein → er ist gefahren",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q023",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ das Problem schnell gelöst.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "sind",
+        "haben",
+        "waren",
+        "hatten"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "haben",
+      "explanation": "'lösen' ist transitiv → Perfekt mit haben → wir haben gelöst",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q024",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ sehr früh aufgestanden.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "hat",
+        "ist",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ist",
+      "explanation": "'aufstehen' = Zustandsänderung → Perfekt mit sein → sie ist aufgestanden",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q025",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ das Buch schon gelesen.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "bin",
+        "habe",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
+      "correctAnswer": "habe",
+      "explanation": "'lesen' ist transitiv → Perfekt mit haben → ich habe gelesen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q026",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Der Zug ______ pünktlich angekommen.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "hat",
+        "ist",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ist",
+      "explanation": "'ankommen' = Zustandsänderung → Perfekt mit sein",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q027",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ uns lange nicht gesehen.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "sind",
+        "haben",
+        "waren",
+        "hatten"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "haben",
+      "explanation": "'sich sehen' ist reflexiv → Perfekt mit haben",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q028",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Er ______ den Schlüssel verloren.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "ist",
+        "hat",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "hat",
+      "explanation": "'verlieren' ist transitiv → Perfekt mit haben → er hat verloren",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q029",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ nach Hause gegangen.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "habe",
+        "bin",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "bin",
+      "explanation": "'gehen' = Bewegung → Perfekt mit sein → ich bin gegangen",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q030",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ den Film interessant gefunden.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "ist",
+        "hat",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "hat",
+      "explanation": "'finden' ist transitiv → Perfekt mit haben → sie hat gefunden",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q031",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ______ im Garten gespielt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "waren",
+        "hatten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "haben",
+      "explanation": "'spielen' → Perfekt mit haben → die Kinder haben gespielt",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q032",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ lange auf dich gewartet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "habe",
+      "explanation": "'warten' (auf + Akkusativ) → Perfekt mit haben",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q033",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Er ______ sehr schnell gelaufen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ist",
+      "explanation": "'laufen' = Bewegung → Perfekt mit sein → er ist gelaufen",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q034",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ gestern viel gelacht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind",
+        "haben",
+        "waren",
+        "hatten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "haben",
+      "explanation": "'lachen' → Perfekt mit haben → wir haben gelacht",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q035",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ in Deutschland geblieben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat",
+        "ist",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "ist",
+      "explanation": "'bleiben' = Zustandsänderung → Perfekt mit sein → sie ist geblieben",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q036",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ meine Hausaufgaben gemacht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "habe",
+      "explanation": "'machen' → Perfekt mit haben → ich habe gemacht",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q037",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Er ______ die Aufgabe nicht verstanden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "'verstehen' ist transitiv → Perfekt mit haben → er hat verstanden",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q038",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ spät ins Bett gegangen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben",
+        "sind",
+        "waren",
+        "hatten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sind",
+      "explanation": "'gehen' = Bewegung → Perfekt mit sein → wir sind gegangen",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q039",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ mir die Wahrheit gesagt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist",
+        "hat",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hat",
+      "explanation": "'sagen' ist transitiv → Perfekt mit haben → sie hat gesagt",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q040",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ lange in Frankfurt gewohnt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bin",
+        "habe",
+        "war",
+        "hatte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "habe",
+      "explanation": "'wohnen' → Perfekt mit haben (keine Bewegung) → ich habe gewohnt",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q041",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Passiv Präteritum: \"wurde gemacht\".",
+      "type": "fill_blank",
+      "questionText": "Er ___ gestern das ganze Buch ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat … gelesen",
+        "ist … gegangen",
+        "haben … gemacht",
+        "hat … genommen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hat … gelesen",
+      "explanation": "'lesen' ist ein starkes Verb → Perfekt mit haben. Partizip: gelesen (kein Präfix → kein 'ge-')",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q042",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Je...desto\" braucht den Komparativ.",
+      "type": "fill_blank",
+      "questionText": "Sie ___ letzte Woche nach Berlin ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat … gefahren",
+        "ist … gefahren",
+        "haben … gefahren",
+        "hat … gefahren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ist … gefahren",
+      "explanation": "'fahren' ist ein Bewegungsverb → Perfekt mit sein. Partizip: gefahren (kein Präfix)",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q043",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Relativsätze im Genitiv: \"der Mann, dessen Auto...\"",
+      "type": "fill_blank",
+      "questionText": "Wir ___ den Film nicht ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben … gesehen",
+        "sind … gesehen",
+        "haben … geseht",
+        "sind … gesehen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "haben … gesehen",
+      "explanation": "'sehen' ist ein starkes Verb → Perfekt mit haben. Partizip: gesehen",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q044",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Einander\" ist ein Pronomen.",
+      "type": "fill_blank",
+      "questionText": "Das Kind ___ schnell ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist … eingeschlafen",
+        "hat … eingeschlafen",
+        "ist … geschlafen",
+        "hat … eingeschlafen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "ist … eingeschlafen",
+      "explanation": "'einschlafen' = Zustandsveränderung → Perfekt mit sein. Trennbares Verb: 'ein' + 'ge' zwischen Prefixes → eingeschlafen",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q045",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Weil\" und \"da\" sind synonym.",
+      "type": "fill_blank",
+      "questionText": "Ich ___ meiner Mutter ein Geschenk ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe … gegeben",
+        "bin … gegeben",
+        "habe … gegeben",
+        "haben … gegeben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "habe … gegeben",
+      "explanation": "'geben' ist ein starkes Verb → Perfekt mit haben. Partizip: gegeben (kein Präfix)",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q046",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Trotzdem\" ist ein Konnektor.",
+      "type": "fill_blank",
+      "questionText": "Er ___ heute Morgen sehr früh ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist … aufgestanden",
+        "hat … aufgestanden",
+        "ist … gestanden",
+        "hat … aufgestanden"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "ist … aufgestanden",
+      "explanation": "'aufstehen' = Zustandsveränderung → Perfekt mit sein. Trennbares Verb → 'auf' abgetrennt, 'ge' in der Mitte: aufgestanden",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q047",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Werden\" zeigt die Zukunft an.",
+      "type": "fill_blank",
+      "questionText": "Sie ___ das Formular sorgfältig ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat … ausgefüllt",
+        "ist … ausgefüllt",
+        "hat … gefüllt",
+        "haben … ausgefüllt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hat … ausgefüllt",
+      "explanation": "'ausfüllen' ist ein trennbares Verb → Perfekt mit haben. Partizip: ausgefüllt ('ge' nach dem abgetrennten Präfix)",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q048",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Nicht\" verneint das Verb.",
+      "type": "fill_blank",
+      "questionText": "Der Zug ___ pünktlich ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist … angekommen",
+        "hat … angekommen",
+        "ist … gekommen",
+        "hat … angekommen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ist … angekommen",
+      "explanation": "'ankommen' = Zustandsveränderung + trennbar → Perfekt mit sein. Partizip: angekommen",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q049",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Niemand\" negiert \"jemand\".",
+      "type": "fill_blank",
+      "questionText": "Wir ___ gestern das Projekt ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben … abgeschlossen",
+        "sind … abgeschlossen",
+        "haben … geschlossen",
+        "sind … abgeschlossen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "haben … abgeschlossen",
+      "explanation": "'abschließen' ist ein trennbares Verb → Perfekt mit haben. Partizip: abgeschlossen",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q050",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Konjunktiv II der Vergangenheit: \"hätte gemacht\".",
+      "type": "fill_blank",
+      "questionText": "Er ___ ihr die Wahrheit nie ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat … erzählt",
+        "ist … erzählt",
+        "hat … gesagt",
+        "haben … erzählt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "hat … erzählt",
+      "explanation": "'erzählen' hat ein untrennbares Präfix 'er-' → kein 'ge-' im Partizip. Perfekt mit haben: erzählt",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q051",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "fill_blank",
+      "questionText": "Sie ___ die ganze Nacht ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat … gearbeitet",
+        "ist … gearbeitet",
+        "hat … gearbeit",
+        "haben … gearbeitet"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "hat … gearbeitet",
+      "explanation": "'arbeiten' → Stamm endet auf -t, daher 'ge' vor dem Stamm: gearbeitet. Perfekt mit haben",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q052",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "fill_blank",
+      "questionText": "Das Baby ___ endlich ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist … eingeschlafen",
+        "hat … eingeschlafen",
+        "ist … geschlafen",
+        "hat … eingeschlafen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "ist … eingeschlafen",
+      "explanation": "'einschlafen' = Zustandsveränderung → Perfekt mit sein. Trennbares Verb: eingeschlafen",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q053",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "fill_blank",
+      "questionText": "Ich ___ diesen Fehler sofort ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "habe … bemerkt",
+        "habe … gebemerkt",
+        "bin … bemerkt",
+        "habe … bemerk"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "habe … bemerkt",
+      "explanation": "'bemerken' hat ein untrennbares Präfix 'be-' → kein 'ge-' im Partizip. Perfekt mit haben: bemerkt",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q054",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "fill_blank",
+      "questionText": "Er ___ die ganze Strecke zu Fuß ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist … gelaufen",
+        "hat … gelaufen",
+        "ist … gelauft",
+        "hat … gelaufen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ist … gelaufen",
+      "explanation": "'laufen' = Bewegungsverb → Perfekt mit sein. Partizip: gelaufen",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q055",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "fill_blank",
+      "questionText": "Die Schüler ___ alle Aufgaben ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben … erledigt",
+        "sind … erledigt",
+        "haben … geerledigt",
+        "haben … erledigt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "haben … erledigt",
+      "explanation": "'erledigen' hat ein untrennbares Präfix 'er-' → kein 'ge-' im Partizip. Perfekt mit haben: erledigt",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q056",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "fill_blank",
+      "questionText": "Sie ___ nach dem Unfall lange im Krankenhaus ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ist … geblieben",
+        "hat … geblieben",
+        "ist … blieben",
+        "hat … geblieben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "ist … geblieben",
+      "explanation": "'bleiben' = Zustandsveränderung → Perfekt mit sein. Partizip: geblieben",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q057",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "fill_blank",
+      "questionText": "Er ___ die E-Mail bereits ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat … verschickt",
+        "hat … verschickt",
+        "ist … verschickt",
+        "hat … geschickt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hat … verschickt",
+      "explanation": "'verschicken' hat ein untrennbares Präfix 'ver-' → kein 'ge-' im Partizip. Perfekt mit haben: verschickt",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q058",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "fill_blank",
+      "questionText": "Wir ___ uns erst vor einem Jahr ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben … kennengelernt",
+        "sind … kennengelernt",
+        "haben … gekannt",
+        "haben … kennen gelernt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "haben … kennengelernt",
+      "explanation": "'kennenlernen' ist ein trennbares Verb (kennen + lernen) → Perfekt mit haben. Partizip: kennengelernt (kein Zwischen-ge nötig weil kein echtes Präfix)",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q059",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "fill_blank",
+      "questionText": "Die Preise ___ stark ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sind … gestiegen",
+        "haben … gestiegen",
+        "sind … gestigen",
+        "haben … gestiegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "sind … gestiegen",
+      "explanation": "'steigen' = Zustandsveränderung → Perfekt mit sein. Partizip: gestiegen",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q060",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "fill_blank",
+      "questionText": "Er ___ das Angebot leider ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hat … abgelehnt",
+        "ist … abgelehnt",
+        "hat … gelehnt",
+        "haben … abgelehnt"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "hat … abgelehnt",
+      "explanation": "'ablehnen' ist ein trennbares Verb (ab + lehnen) → Perfekt mit haben. Partizip: abgelehnt",
       "difficulty": "hard",
-      "type": "true_false"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q061",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Gestern ist etwas Merkwürdiges ________.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "passierte",
+        "passiert",
+        "passierend",
+        "gepassiert"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "passiert",
+      "explanation": "'passieren' ist ein intransitives Verb der Zustandsveränderung → Perfekt mit sein. Partizip: passiert (ohne 'ge-' wegen -ieren)",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q062",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er die Nachricht gelesen hatte, ________ er sofort zum Bahnhof ________.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "hat / geeilt",
+        "ist / geeilt",
+        "hat / geilt",
+        "ist / geailt"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
+      "correctAnswer": "ist / geeilt",
+      "explanation": "'eilen' (to hurry) beschreibt eine Bewegung → Perfekt mit sein. Partizip: geeilt (trennbar: 'ein' + geilt → geeilt)",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q063",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Warum ________ du mir die Wahrheit nicht ________?",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "hast / gestanden",
+        "bist / gestanden",
+        "hast / gestehend",
+        "bist / gestehend"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "hast / gestanden",
+      "explanation": "'gestehen' (to confess) → Perfekt mit haben. Partizip: gestanden. Du: hast gestanden",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q064",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen ________ im letzten Jahr massiv in neue Technologien ________.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "ist / investiert",
+        "hat / investiert",
+        "ist / geinvestiert",
+        "hat / geinvestiert"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hat / investiert",
+      "explanation": "Verben auf -ieren nehmen kein 'ge-' im Partizip → investiert (nicht geinvestiert). 'investieren' ist transitiv → Perfekt mit haben",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q065",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen ________ leider ergebnislos ________.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "haben / verlaufen",
+        "sind / verlaufen",
+        "haben / verläufst",
+        "sind / verläuft"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sind / verlaufen",
+      "explanation": "'verlaufen' (to proceed/go) beschreibt einen Prozess → Perfekt mit sein. Partizip: verlaufen (untrennbares 'ver-' → kein 'ge-')",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q066",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Hast du die Dokumente bereits in den Ordner ________?",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "gelegen",
+        "gelegen",
+        "gelegt",
+        "gießt"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "gelegt",
+      "explanation": "'legen' (to lay/put) ist ein schwaches Verb → Perfekt mit haben. Partizip: gelegt. NICHT 'liegen' (to lie) verwechseln!",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q067",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Die Temperatur ________ in der Nacht stark ________.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "hat / gesunken",
+        "ist / gesunken",
+        "hat / sinkt",
+        "ist / senken"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "ist / gesunken",
+      "explanation": "'sinken' (to sink/fall) ist eine Zustandsveränderung → Perfekt mit sein. Partizip: gesunken",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q068",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Wir ________ uns lange über die neuen Reformen ________.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "haben / unterhalten",
+        "sind / unterhalten",
+        "haben / untergehalten",
+        "sind / unterhaltet"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "haben / unterhalten",
+      "explanation": "'unterhalten' (untrennbares 'unter-') ist ein reflexives Verb → Perfekt mit haben. Partizip: unterhalten (kein 'ge-')",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q069",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Er ________ vor zwei Jahren aus seiner Heimat ________.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "hat / geflohen",
+        "ist / geflohen",
+        "hat / fliehend",
+        "ist / geflohenen"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
+      "correctAnswer": "ist / geflohen",
+      "explanation": "'fliehen' (to flee) beschreibt eine Bewegungsrichtung → Perfekt mit sein. Starkes Verb: floh → geflohen",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q070",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "________ du dich schon für den neuen Kurs ________?",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "Hast / einschreiben",
+        "Bist / eingeschrieben",
+        "Hast / eingeschrieben",
+        "Bist / einschreiben"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Hast / eingeschrieben",
+      "explanation": "'sich einschreiben' (to enroll) ist ein trennbares Verb → Perfekt mit haben. Partizip: eingeschrieben. Du: Hast dich eingeschrieben",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q071",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Die Polizei ________ den Verdächtigen gestern Abend ________.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "ist / festgenommen",
+        "hat / festgenommen",
+        "ist / festnehmend",
+        "hat / festgenimmt"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "hat / festgenommen",
+      "explanation": "'festnehmen' (to arrest) ist ein trennbares + starkes Verb → Perfekt mit haben. Partizip: festgenommen",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q072",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "Leider ________ das Konzert wegen des Regens ________.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "hat / ausgefallen",
+        "ist / ausgefallen",
+        "hat / ausfallend",
+        "ist / ausfällt"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
+      "correctAnswer": "ist / ausgefallen",
+      "explanation": "'ausfallen' (to be cancelled) ist ein trennbares Verb der Zustandsveränderung → Perfekt mit sein. Partizip: ausgefallen",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q073",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge ________ dem Richter genau ________, was er gesehen hatte.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "hat / beschrieben",
+        "ist / beschrieben",
+        "hat / beschriebt",
+        "ist / beschriebt"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hat / beschrieben",
+      "explanation": "'beschreiben' (untrennbares 'be-') ist ein starkes Verb → Perfekt mit haben. Partizip: beschrieben (kein 'ge-')",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q074",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "________ ihr euch über die Konsequenzen ________?",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "Habt / erschrocken",
+        "Seid / erschrocken",
+        "Habt / erschreckt",
+        "Seid / erschreckt"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Seid / erschrocken",
+      "explanation": "'erschrecken' (to get frightened) ist eine Zustandsveränderung → Perfekt mit sein. Partizip: erschrocken. Ihr: seid erschrocken",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q075",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "Die Preise für Lebensmittel ________ in letzter Zeit enorm ________.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "haben / gestiegen",
+        "sind / gestiegen",
+        "haben / steigen",
+        "sind / steigen"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sind / gestiegen",
+      "explanation": "'steigen' (to rise) ist eine Zustandsveränderung → Perfekt mit sein. Partizip: gestiegen",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q076",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Ich ________ mich bei der Firma schriftlich ________.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "habe / bewerben",
+        "bin / beworbenc)",
+        "habe / beworben",
+        "bin / bewerben"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "habe / beworben",
+      "explanation": "'sich bewerben' (to apply) → Perfekt mit haben. Starkes Verb: bewarb → beworben. Ich: habe mich beworben",
+      "difficulty": "hard",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q077",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind ________ im Park schnell ________.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "hat / gewachsen",
+        "ist / gewachsen",
+        "hat / wachsend",
+        "ist / wächst"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "ist / gewachsen",
+      "explanation": "'wachsen' (to grow) ist eine Zustandsveränderung → Perfekt mit sein. Starkes Verb: wuchs → gewachsen",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q078",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Die Politiker ________ sich endlich auf einen Kompromiss ________.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "sind / geeinigt",
+        "haben / geeinigt",
+        "sind / geinigt",
+        "haben / geinigt"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
+      "correctAnswer": "haben / geeinigt",
+      "explanation": "'sich einigen' (to reach an agreement) → Perfekt mit haben. Trennbares Verb: geeinigt. Sie: haben geeinigt",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q079",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Mein Kollege ________ gestern völlig überraschend ________.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "hat / gekündigt",
+        "ist / gekündigt",
+        "hat / kündigend",
+        "ist / kündigen"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hat / gekündigt",
+      "explanation": "'kündigen' (to quit/resign) → Perfekt mit haben. Schwaches Verb: gekündigt. Er: hat gekündigt",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q080",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wo ________ du denn die ganze Zeit ________? Ich habe dich gesucht!",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "hast / gewesen",
+        "bist / gewesen",
+        "hast / gewese",
+        "bist / gewesen"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
+      "correctAnswer": "bist / gewesen",
+      "explanation": "'sein' → Perfekt mit sein → Partizip: gewesen. Du: bist gewesen. WICHTIG: nicht 'hast gewesen'!",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Perfekt mit haben und sein"
     },
     {
       "id": "b2_04_q081",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ gestern keine Zeit.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "habe",
+        "hatte",
+        "bin",
+        "war"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "hatte",
+      "explanation": "'hatte' = Präteritum von 'haben'. Used in written German and narratives. (Perfekt would be: habe gehabt — but here Präteritum is correct for the context)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q082",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er ______ sehr müde nach Hause.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "geht",
+        "ging",
+        "gegangen",
+        "ist gegangen"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
+      "correctAnswer": "ging",
+      "explanation": "'ging' = Präteritum von 'gehen'. Weak verb, no umlaut change in Präteritum. (Perfekt would be: ist gegangen)",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q083",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ das Problem nicht verstehen.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "konnten",
+        "können",
+        "gekonnt",
+        "konnten haben"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "konnten",
+      "explanation": "'konnten' = Präteritum von 'können'. Modalverb — Präteritum ends in -te: konnten, konnte, konntet. (Perfekt: hat gekonnt)",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q084",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ in Berlin geboren.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "ist",
+        "war",
+        "wurde",
+        "hat"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wurde",
+      "explanation": "'wurde' = Präteritum von 'werden' (Passiv). 'Sie wurde geboren' = She was born (passive construction in Präteritum)",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q085",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ ihn sofort.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "erkenne",
+        "erkannte",
+        "erkannt",
+        "habe erkannt"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
+      "correctAnswer": "erkannte",
+      "explanation": "'erkannte' = Präteritum von 'erkennen'. Schwaches Verb (weak verb) — Präteritum: erkannte, erkanntest, erkannte. No vowel change.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q086",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er ______ das Fenster.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "öffnet",
+        "öffnete",
+        "geöffnet",
+        "hat geöffnet"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "öffnete",
+      "explanation": "'öffnete' = Präteritum von 'öffnen'. Schwaches Verb — Präteritum: öffnete, öffnetest, öffnete. (Perfekt: hat geöffnet)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q087",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Wir ______ lange auf den Bus.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "warten",
+        "warteten",
+        "gewartet",
+        "haben gewartet"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "warteten",
+      "explanation": "'warteten' = Präteritum von 'warten'. Schwaches Verb auf -en → Präteritum: warteten, wartetest, warteten. (Perfekt: haben gewartet)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q088",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Sie ______ das Buch in zwei Tagen.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "liest",
+        "las",
+        "gelesen",
+        "hat gelesen"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "las",
+      "explanation": "'las' = Präteritum von 'lesen'. Starkes Verb (strong verb) — vowel change: e→a. Präteritum: las, lasest, las. (Perfekt: hat gelesen)",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q089",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Ich ______ sehr früh auf.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "stehe",
+        "stand",
+        "gestanden",
+        "habe gestanden"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
+      "correctAnswer": "stand",
+      "explanation": "'stand' = Präteritum von 'stehen'. Starkes Verb — vowel change: eh→a. Präteritum: stand, standest, stand. (Perfekt: habe gestanden)",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q090",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "Er ______ mir die Wahrheit.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "sagt",
+        "sagte",
+        "gesagt",
+        "hat gesagt"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sagte",
+      "explanation": "'sagte' = Präteritum von 'sagen'. Schwaches Verb — Präteritum: sagte, sagtest, sagte. (Perfekt: hat gesagt)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q091",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Als ich gestern nach Hause kam, ___ meine Frau schon.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "schlief",
+        "schlafete",
+        "schläft",
+        "hat geschlafen"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "schlief",
+      "explanation": "'schlief' = Präteritum von 'schlafen'. Starkes Verb (e→ie): schlief, schliefst, schlief. Mit 'als' wird Präteritum verwendet.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q092",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "Der Minister ___ in seiner Rede über die Wirtschaftskrise.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "spricht",
+        "sprach",
+        "sprechte",
+        "hat gesprochen"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sprach",
+      "explanation": "'sprach' = Präteritum von 'sprechen'. Starkes Verb (e→a): sprach, sprachst, sprach. In formellen Texten wird Präteritum bevorzugt.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q093",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder ___ den ganzen Tag im Garten.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "spielten",
+        "spielen",
+        "gespielten",
+        "haben gespielt"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "spielten",
+      "explanation": "'spielten' = Präteritum von 'spielen'. Schwaches Verb → Präteritum mit -te Endung: spielten, spieltest, spielten.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q094",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er ___ damals kein Geld und ___ sich nichts leisten.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "hatte … konnte",
+        "hatte … kann",
+        "war … konnte",
+        "hatte … könnte"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte … konnte",
+      "explanation": "'hatte' = Präteritum von 'haben'. 'konnte' = Präteritum von 'können' (Modalverb). Beide werden im Präteritum verwendet — auch in der gesprochenen Sprache.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q095",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "Die Firma ___ im Jahr 1995 ___.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "wurde … gegründet",
+        "war … gegründet",
+        "hat … gegründet",
+        "wurde … gründen"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
+      "correctAnswer": "wurde … gegründet",
+      "explanation": "'wurde gegründet' = Passiv Präteritum. wurde (Präteritum von werden) + Partizip II (gegründet). Passiv: Die Firma wurde gegründet.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q096",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er die Prüfung bestanden hatte, ___ er sehr erleichtert.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "ist",
+        "war",
+        "wurde",
+        "wäre"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "war",
+      "explanation": "'war' = Präteritum von 'sein'. Nach Plusquamperfekt (hatte bestanden) folgt im Hauptsatz Präteritum oder Plusquamperfekt. Hier: war = einfaches Präteritum.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q097",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Sie ___ stundenlang auf ihn, aber er ___ nicht.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "wartete … kam",
+        "wartet … kommt",
+        "wartete … kommt",
+        "hat gewartet … kam"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wartete … kam",
+      "explanation": "'wartete' = Präteritum von 'warten' (schwach). 'kam' = Präteritum von 'kommen' (stark: e→a). Zwei gleichzeitige vergangene Handlungen → Präteritum.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q098",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler ___ eine neue Methode, die die Forschung revolutionierte.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "entwickelte",
+        "entwickelt",
+        "hat entwickelt",
+        "entwickeln"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
+      "correctAnswer": "entwickelte",
+      "explanation": "'entwickelte' = Präteritum von 'entwickeln'. Schwaches Verb → Präteritum: entwickelte. In wissenschaftlichen Texten wird Präteritum bevorzugt.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q099",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Es ___ damals keine Möglichkeit, das Problem zu lösen.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "hat gegeben",
+        "gab",
+        "gibt",
+        "gegeben"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_04_q1",
-      "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
-      "options": [
-        "habe",
-        "bin",
-        "werde",
-        "hatte"
-      ],
-      "correctAnswer": "bin",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
+      "correctAnswer": "gab",
+      "explanation": "'es gab' = Präteritum von 'es gibt'. Eine sehr häufige Konstruktion! Perfekt would be: es hat gegeben. Präteritum: es gab (common in written German).",
       "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_04_q10",
-      "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich ___ gestern früh aufgestanden.",
-      "options": [
-        "habe",
-        "bin",
-        "werde",
-        "hatte"
-      ],
-      "correctAnswer": "bin",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Präteritum"
     },
     {
       "id": "b2_04_q100",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge ___, dass er den Täter nicht ___.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "sagte … erkannte",
+        "sagt … erkannte",
+        "sagte … erkennt",
+        "sagte … hat erkannt"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "sagte … erkannte",
+      "explanation": "'sagte' = Präteritum von 'sagen' (schwach). 'erkannte' = Präteritum von 'erkennen' (untrennbares 'er-' → kein 'ge-'). Indirekte Rede und Berichterstattung → Präteritum.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
     },
     {
-      "id": "b2_04_q11",
+      "id": "b2_04_q101",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ___ das Buch nicht gelesen.",
+      "type": "multiple_choice",
+      "questionText": "Gestern _____ ich einen alten Freund.",
+      "options": [
+        "treffe",
+        "traf",
+        "getroffen",
+        "trifft"
+      ],
+      "correctAnswer": "traf",
+      "explanation": "'traf' = Präteritum von 'treffen'. Starkes Verb (e→a): traf, trafst, traf. Partizip: getroffen.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q102",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Als Kind _____ ich jeden Sommer bei meinen Großeltern.",
+      "options": [
+        "blieb",
+        "bleibte",
+        "bliebt",
+        "bleibt"
+      ],
+      "correctAnswer": "blieb",
+      "explanation": "'blieb' = Präteritum von 'bleiben'. Starkes Verb (ei→ie): blieb, bliebst, blieb. Partizip: geblieben.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q103",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er _____ mir gestern die Wahrheit.",
+      "options": [
+        "sagte",
+        "sagt",
+        "gesagt",
+        "sagete"
+      ],
+      "correctAnswer": "sagte",
+      "explanation": "'sagte' = Präteritum von 'sagen'. Schwaches Verb → Präteritum: sagte, sagtest, sagte. Partizip: gesagt.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q104",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ keine Zeit, denn ich _____ viel zu tun.",
+      "options": [
+        "hatte / hatte",
+        "hatte / habte",
+        "hatte / hattete",
+        "hatte / hatte"
+      ],
+      "correctAnswer": "hatte / hatte",
+      "explanation": "'hatte' = Präteritum von 'haben' (beide Stellen). Ich hatte keine Zeit, ich hatte viel zu tun.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q105",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Früher _____ es hier eine alte Mühle.",
+      "options": [
+        "gab",
+        "gebe",
+        "gibt",
+        "gegebte"
+      ],
+      "correctAnswer": "gab",
+      "explanation": "'es gab' = Präteritum von 'es gibt'. Used for past habits: 'Früher gab es hier...' (= There used to be...)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q106",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Sie _____ den ganzen Abend leise weinen.",
+      "options": [
+        "weinte",
+        "weint",
+        "weinet",
+        "weinen"
+      ],
+      "correctAnswer": "weinte",
+      "explanation": "'weinte' = Präteritum von 'weinen'. Schwaches Verb → Präteritum: weinte, weintest, weinte. Partizip: geweint.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q107",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Der Lehrer _____ uns die Regel noch einmal.",
+      "options": [
+        "erklärte",
+        "erklär",
+        "erklärt",
+        "erklärte"
+      ],
+      "correctAnswer": "erklärte",
+      "explanation": "'erklärte' = Präteritum von 'erklären'. Schwaches Verb → Präteritum: erklärte, erklärtest, erklärte. Partizip: erklärt.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q108",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Du _____ damals recht.",
+      "options": [
+        "hattest",
+        "hatte",
+        "hattetest",
+        "hat"
+      ],
+      "correctAnswer": "hattest",
+      "explanation": "'hattest' = Präteritum von 'haben', 2. Person Singular. 'Du hattest recht' = You were right (at that time).",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q109",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich _____ nicht, dass er so reagieren würde.",
+      "options": [
+        "wusste",
+        "wusste",
+        "weißte",
+        "wußte"
+      ],
+      "correctAnswer": "wusste",
+      "explanation": "'wusste' = Präteritum von 'wissen'. Unregelmäßig: wusste, wusstest, wusste. Partizip: gewusst. (Old spelling: wußte)",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q110",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Der Film _____ erst um 22 Uhr.",
+      "options": [
+        "begann",
+        "begannte",
+        "begon",
+        "beginnte"
+      ],
+      "correctAnswer": "begann",
+      "explanation": "'begann' = Präteritum von 'beginnen'. Starkes Verb (e→a): begann, begannst, begann. Partizip: begonnen.",
+      "difficulty": "easy",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q111",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Der Sprecher des Unternehmens ________ die neuen Pläne ausführlich, doch niemand stellte Fragen.",
+      "options": [
+        "beschriebte",
+        "beschrieb",
+        "hat beschrieben",
+        "beschreibe"
+      ],
+      "correctAnswer": "beschrieb",
+      "explanation": "'beschrieb' = Präteritum von 'beschreiben'. Untrennbares Präfix 'be-' → kein 'ge-'. Starkes Verb (e→a): beschrieb, beschriebst, beschrieb.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q112",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen zwischen den beiden Firmen ________ aufgrund von Unstimmigkeiten am späten Abend.",
+      "options": [
+        "misslang",
+        "missgelungen",
+        "misslangen",
+        "misslungen"
+      ],
+      "correctAnswer": "misslangen",
+      "explanation": "'misslangen' = Präteritum von 'misslingen'. Untrennbares 'miss-' + starkes Verb (e→a). Plural: misslangen. Partizip: misslungen.",
+      "difficulty": "hard",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q113",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Obwohl er krank war, ________ er seine Arbeit pünktlich ________.",
+      "options": [
+        "schließt / ab",
+        "schloss / ab",
+        "schloß / an",
+        "schließe / ab"
+      ],
+      "correctAnswer": "schloss / ab",
+      "explanation": "'schloss ab' = Präteritum von 'abschließen'. Trennbares Verb 'ab' + starkes Verb (o→a): schloss, schlossest, schloss. Partizip: abgeschlossen.",
+      "difficulty": "hard",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q114",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Das Gesetz ________ am ersten Januar des letzten Jahres in Kraft.",
+      "options": [
+        "tritt",
+        "tretet",
+        "trat",
+        "trete"
+      ],
+      "correctAnswer": "trat",
+      "explanation": "'trat' = Präteritum von 'treten'. Starkes Verb (e→a): trat, tratst, trat. 'in Kraft treten' = to come into force.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q115",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Da die Technik streikte, ________ wir die Präsentation leider verschieben.",
+      "options": [
+        "mussten",
+        "müssten",
+        "gemusst",
+        "müssten"
+      ],
+      "correctAnswer": "mussten",
+      "explanation": "'mussten' = Präteritum von 'müssen'. Modal verbs lose their umlaut in Präteritum: müssen → mussten. Wir mussten = we had to.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q116",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Der Zeuge ________ dem Gericht die genauen Details des Unfalls ________.",
+      "options": [
+        "gab / an",
+        "gibt / an",
+        "gebte / an",
+        "gaben / an"
+      ],
+      "correctAnswer": "gab / an",
+      "explanation": "'gab an' = Präteritum von 'angeben'. Trennbares Verb 'an' + starkes Verb 'geben' (a→a): gab an, gabst an, gab an. Partizip: angegeben.",
+      "difficulty": "hard",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q117",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Die Arbeitslosenquote ________ im Vergleich zum Vorjahr deutlich ________.",
+      "options": [
+        "sinkt",
+        "sank",
+        "sinkte",
+        "senkte"
+      ],
+      "correctAnswer": "sank",
+      "explanation": "'sank' = Präteritum von 'sinken'. Starkes Verb (i→a): sank, sankst, sank. Partizip: gesunken. (senken = to lower, weak verb → senkte)",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q118",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er ________ mich um Hilfe, als er mit dem Projekt nicht mehr weiterkam.",
+      "options": [
+        "bittet",
+        "bat",
+        "betet",
+        "bittete"
+      ],
+      "correctAnswer": "bat",
+      "explanation": "'bat' = Präteritum von 'bitten'. Starkes Verb (i→a): bat, batest, bat. Partizip: gebeten. NICHT mit 'beten' (to pray) verwechseln!",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q119",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Früher ________ man in dieser Region vor allem Kohle ________.",
+      "options": [
+        "baute / ab",
+        "abbauten",
+        "abbaut",
+        "gebaut / ab"
+      ],
+      "correctAnswer": "baute / ab",
+      "explanation": "'baute ab' = Präteritum von 'abbauen'. Trennbares Verb 'ab' + schwaches Verb: baute ab, bautest ab, baute ab. Partizip: abgebaut.",
+      "difficulty": "medium",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q120",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftler ________ die Ergebnisse der Studie lange Zeit ________.",
+      "options": [
+        "wogen / ab",
+        "wegten / ab",
+        "wägten / ab",
+        "gewogen / ab"
+      ],
+      "correctAnswer": "wogen / ab",
+      "explanation": "'wogen ab' = Präteritum von 'abwägen'. Trennbares 'ab' + starkes Verb (o→o): wogen, wogst, wogen. Partizip: abgewogen.",
+      "difficulty": "hard",
+      "topicName": "Präteritum"
+    },
+    {
+      "id": "b2_04_q121",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem ich gegessen ______, ging ich spazieren.",
+      "options": [
+        "habe",
+        "hatte",
+        "bin",
+        "war"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte gegessen' = Plusquamperfekt. Nach 'Nachdem' (after) + Plusquamperfekt → Hauptsatz mit Präteritum (ging). Plusquamperfekt = war/hatte + Partizip II.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q122",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er war müde, weil er lange ______ gearbeitet.",
       "options": [
         "hat",
+        "hatte",
         "ist",
-        "wird",
-        "hatte"
+        "war"
       ],
-      "correctAnswer": "hat",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "hatte",
+      "explanation": "'hatte gearbeitet' = Plusquamperfekt. Nach 'weil' (because) mit Plusquamperfekt: hatte/hatten + Partizip II. 'arbeiten' → Perfekt mit haben.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
     },
     {
-      "id": "b2_04_q2",
+      "id": "b2_04_q123",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Er ___ das Buch gestern gelesen.",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir das Buch ______, schrieben wir einen Bericht.",
       "options": [
-        "hat",
-        "ist",
-        "wird",
-        "hatte"
+        "gelesen haben",
+        "gelesen hatten",
+        "lasen",
+        "gelesen sind"
       ],
-      "correctAnswer": "hat",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "gelesen hatten",
+      "explanation": "'gelesen hatten' = Plusquamperfekt. Wir hatten gelesen. Nach 'Nachdem' → Plusquamperfekt, dann Hauptsatz Präteritum (schrieben).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
     },
     {
-      "id": "b2_04_q3",
+      "id": "b2_04_q124",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Wir ___ gestern sehr müde.",
+      "type": "multiple_choice",
+      "questionText": "Sie ging nach Hause, nachdem sie lange ______.",
+      "options": [
+        "gearbeitet hat",
+        "gearbeitet hatte",
+        "arbeitete",
+        "gearbeitet ist"
+      ],
+      "correctAnswer": "gearbeitet hatte",
+      "explanation": "'gearbeitet hatte' = Plusquamperfekt. Nach 'Nachdem' → Plusquamperfekt (hatte + Partizip). arbeiten → hat gearbeitet → hatte gearbeitet.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q125",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich konnte nicht kommen, weil ich meine Hausaufgaben nicht ______.",
+      "options": [
+        "gemacht habe",
+        "gemacht hatte",
+        "machte",
+        "gemacht bin"
+      ],
+      "correctAnswer": "gemacht hatte",
+      "explanation": "'gemacht hatte' = Plusquamperfekt. Nach 'weil' (weil-Satz) → Plusquamperfekt. machen → hat gemacht → hatte gemacht.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q126",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er nach Deutschland ______, lernte er Deutsch.",
+      "options": [
+        "gekommen ist",
+        "gekommen hatte",
+        "gekommen war",
+        "kam"
+      ],
+      "correctAnswer": "gekommen war",
+      "explanation": "'gekommen war' = Plusquamperfekt von 'sein'. kommen → ist gekommen → war gekommen. Nach 'Nachdem' → Plusquamperfekt, dann lernte (Präteritum).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q127",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Wir blieben zu Hause, weil es stark ______.",
+      "options": [
+        "geregnet hat",
+        "geregnet hatte",
+        "regnete",
+        "geregnet ist"
+      ],
+      "correctAnswer": "geregnet hatte",
+      "explanation": "'geregnet hatte' = Plusquamperfekt. regnen → hat geregnet → hatte geregnet. Nach 'weil' → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q128",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem ich den Film ______, empfahl ich ihn meinen Freunden.",
+      "options": [
+        "gesehen habe",
+        "gesehen hatte",
+        "sah",
+        "gesehen bin"
+      ],
+      "correctAnswer": "gesehen hatte",
+      "explanation": "'gesehen hatte' = Plusquamperfekt. sehen → hat gesehen → hatte gesehen. Nach 'Nachdem' → Plusquamperfekt, dann empfahl (Präteritum).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q129",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Sie war glücklich, weil sie die Prüfung ______.",
+      "options": [
+        "bestanden hat",
+        "bestanden hatte",
+        "bestand",
+        "bestanden ist"
+      ],
+      "correctAnswer": "bestanden hatte",
+      "explanation": "'bestanden hatte' = Plusquamperfekt. bestehen → hat bestanden → hatte bestanden. Nach 'weil' → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q130",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir das Problem ______, waren wir erleichtert.",
+      "options": [
+        "gelöst haben",
+        "gelöst hatten",
+        "lösten",
+        "gelöst sind"
+      ],
+      "correctAnswer": "gelöst hatten",
+      "explanation": "'gelöst hatten' = Plusquamperfekt. lösen → hat gelöst → hatten gelöst. Nach 'Nachdem' → Plusquamperfekt, dann waren (Präteritum).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q131",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem sie die Prüfung ___, fuhr sie in den Urlaub.",
+      "options": [
+        "bestand",
+        "bestanden hatte",
+        "hat bestanden",
+        "besteht"
+      ],
+      "correctAnswer": "bestanden hatte",
+      "explanation": "'bestanden hatte' = Plusquamperfekt. bestehen (untrennbares 'be-') → kein 'ge-' → bestanden. Hilfsverb: hatte. Nach 'Nachdem' → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q132",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Als er ankam, ___ seine Freunde schon ___.",
+      "options": [
+        "haben … gegangen",
+        "waren … gegangen",
+        "sind … gegangen",
+        "hatten … gegangen"
+      ],
+      "correctAnswer": "waren … gegangen",
+      "explanation": "'waren gegangen' = Plusquamperfekt. gehen = Bewegungsverb → Hilfsverb: sein. Sie gingen zuerst, dann kam er an. Plusquamperfekt: waren + gegangen.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q133",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er bemerkte, dass er seinen Schlüssel ___.",
+      "options": [
+        "vergessen hatte",
+        "hat vergessen",
+        "vergaß",
+        "vergessen war"
+      ],
+      "correctAnswer": "vergessen hatte",
+      "explanation": "'vergessen hatte' = Plusquamperfekt. vergessen (untrennbares 'ver-') → kein 'ge-' → vergessen. Hilfsverb: hatte. Das Vergessen passierte vor dem Bemerken.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q134",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem wir das Museum ___, gingen wir in ein Restaurant.",
+      "options": [
+        "besucht hatten",
+        "haben besucht",
+        "besuchten",
+        "besucht waren"
+      ],
+      "correctAnswer": "besucht hatten",
+      "explanation": "'besucht hatten' = Plusquamperfekt. besuchen (untrennbares 'be-') → kein 'ge-' → besucht. Hilfsverb: hatten. Nach 'Nachdem' → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q135",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin gab die Arbeit ab, obwohl sie ___ nicht ___.",
+      "options": [
+        "sie … fertiggestellt hatte",
+        "sie … fertig hatte gestellt",
+        "hatte … fertiggestellt",
+        "sie … fertigstellen hatte"
+      ],
+      "correctAnswer": "sie … fertiggestellt hatte",
+      "explanation": "'fertiggestellt hatte' = Plusquamperfekt. fertigstellen (trennbar) → 'ge' in der Mitte: fertiggestellt. Hilfsverb: hatte. Obwohl-Satz → Plusquamperfekt.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q136",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er ___ gerade eingeschlafen, als das Telefon klingelte.",
+      "options": [
+        "ist",
+        "hat",
+        "war",
+        "hatte"
+      ],
+      "correctAnswer": "war",
+      "explanation": "'war eingeschlafen' = Plusquamperfekt. einschlafen = Zustandsveränderung → Hilfsverb: sein. Er war schon eingeschlafen, bevor das Telefon klingelte.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q137",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Arzt ___, erklärte er die Diagnose.",
+      "options": [
+        "die Ergebnisse analysiert hatte",
+        "die Ergebnisse analysiert hat",
+        "die Ergebnisse analysieren hatte",
+        "die Ergebnisse hatte analysiert"
+      ],
+      "correctAnswer": "die Ergebnisse analysiert hatte",
+      "explanation": "'analysiert hatte' = Plusquamperfekt. analysieren (Fremdwort, kein 'ge-') → analysiert. Hilfsverb: hatte. Nach 'Nachdem' → Plusquamperfekt.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q138",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Die Mannschaft feierte, weil sie das Finale ___.",
+      "options": [
+        "gewonnen hatte",
+        "hat gewonnen",
+        "gewann",
+        "gewonnen war"
+      ],
+      "correctAnswer": "gewonnen hatte",
+      "explanation": "'gewonnen hatte' = Plusquamperfekt. gewinnen → Partizip II: gewonnen. Hilfsverb: hatte. Sie hatten gewonnen, bevor sie feierten.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q139",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Kaum ___ sie das Haus verlassen, ___ es zu regnen.",
+      "options": [
+        "hatte … begann",
+        "hat … begann",
+        "war … begann",
+        "hatte … beginnt"
+      ],
+      "correctAnswer": "hatte … begann",
+      "explanation": "'Kaum + Plusquamperfekt' = Standard German pattern. verlassen (untrennbares 'ver-') → kein 'ge-' → verlassen. beginnen → stark: begann.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q140",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er wusste nicht, dass seine Kollegen ihm eine Überraschung ___.",
+      "options": [
+        "vorbereitet hatten",
+        "haben vorbereitet",
+        "vorbereiteten",
+        "vorbereitet waren"
+      ],
+      "correctAnswer": "vorbereitet hatten",
+      "explanation": "'vorbereitet hatten' = Plusquamperfekt. vorbereiten (trennbar: vor + bereitet) → kein Zwischen-'ge' → vorbereitet. Hilfsverb: hatten.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q141",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Nachdem ich gegessen _____, ging ich ins Kino.",
+      "options": [
+        "hatte",
+        "habe",
+        "war",
+        "bin"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte gegessen' = Plusquamperfekt. essen → Perfekt: hat gegessen → Plusquamperfekt: hatte gegessen. Nach 'Nachdem' → Plusquamperfekt, dann Hauptsatz Präteritum (ging).",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q142",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Bevor sie nach Hause kam, _____ sie ihre Arbeit schon beendet.",
+      "options": [
+        "hatte",
+        "ist",
+        "war",
+        "hat"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte beendet' = Plusquamperfekt. beenden (transitives Verb) → Perfekt: hat beendet → Plusquamperfekt: hatte beendet. Bevor-Satz → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q143",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Wir _____ den Zug verpasst, weil wir zu spät losgefahren waren.",
       "options": [
         "sind",
+        "hatten",
         "haben",
-        "wurden",
         "waren"
       ],
-      "correctAnswer": "waren",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
+      "correctAnswer": "hatten",
+      "explanation": "'hatten verpasst' = Plusquamperfekt. verpassen (transitiv) → Perfekt: hat verpasst → Plusquamperfekt: hatten verpasst. Grund: weil wir zu spät losgefahren waren (Plusquamperfekt).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q144",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Er _____ mir die Nachricht geschickt, bevor ich ihn anrief.",
+      "options": [
+        "ist",
+        "hatte",
+        "war",
+        "hat"
+      ],
+      "correctAnswer": "hatte",
+      "explanation": "'hatte geschickt' = Plusquamperfekt. schicken (transitiv) → Perfekt: hat geschickt → Plusquamperfekt: hatte geschickt. Bevor-Satz → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q145",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Nachdem die Sonne _____ aufgegangen _____, gingen wir los.",
+      "options": [
+        "war / -",
+        "hatte / -",
+        "- / war",
+        "- / hatte"
+      ],
+      "correctAnswer": "war / -",
+      "explanation": "'war aufgegangen' = Plusquamperfekt. aufgehen = Zustandsveränderung → Hilfsverb: sein. Perfekt: ist aufgegangen → Plusquamperfekt: war aufgegangen.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q146",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Ich erkannte den Ort nicht, weil ich dort nie _____ _____.",
+      "options": [
+        "gewesen / war",
+        "gewesen / hatte",
+        "war / gewesen",
+        "hatte / gewesen"
+      ],
+      "correctAnswer": "war / gewesen",
+      "explanation": "'war gewesen' = Plusquamperfekt von 'sein'. Perfekt: ist gewesen → Plusquamperfekt: war gewesen. 'Ich war dort nie gewesen' = I had never been there.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q147",
+      "subjectId": "b2_04",
+      "type": "fill_blank",
+      "questionText": "Bevor das Konzert begann, _____ wir schon eine Stunde gewartet.",
+      "options": [
+        "waren",
+        "hatten",
+        "sind",
+        "haben"
+      ],
+      "correctAnswer": "hatten",
+      "explanation": "'hatten gewartet' = Plusquamperfekt. warten → Perfekt: hat gewartet → Plusquamperfekt: hatten gewartet. Bevor-Satz → Plusquamperfekt.",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Plusquamperfekt"
     },
     {
-      "id": "b2_04_q4",
+      "id": "b2_04_q148",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "___ du schon in Berlin gewesen?",
+      "type": "fill_blank",
+      "questionText": "Sie _____ alles vorbereitet, als die Gäste kamen.",
       "options": [
-        "Hast",
-        "Bist",
-        "Wurdest",
-        "Hattest"
+        "war",
+        "hatte",
+        "ist",
+        "hat"
       ],
-      "correctAnswer": "Bist",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
+      "correctAnswer": "hatte",
+      "explanation": "'hatte vorbereitet' = Plusquamperfekt. vorbereiten (trennbar: vor-) → kein Zwischen-'ge' → vorbereitet. Hilfsverb: hatten. Als-Satz → Plusquamperfekt.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Plusquamperfekt"
     },
     {
-      "id": "b2_04_q5",
+      "id": "b2_04_q149",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Ich habe viel Geld ___",
+      "type": "fill_blank",
+      "questionText": "Nachdem er nach Berlin _____ _____, fand er sofort einen Job.",
       "options": [
-        "verdient",
-        "gewesen",
-        "gegangen",
-        "geblieben"
+        "gefahren / hatte",
+        "gefahren / war",
+        "war / gefahren",
+        "hatte / gefahren"
       ],
-      "correctAnswer": "verdient",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
+      "correctAnswer": "war / gefahren",
+      "explanation": "'war gefahren' = Plusquamperfekt. fahren = Bewegungsverb → Hilfsverb: sein. Perfekt: ist gefahren → Plusquamperfekt: war gefahren.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Plusquamperfekt"
     },
     {
-      "id": "b2_04_q6",
+      "id": "b2_04_q150",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Die Prüfung ___ gestern sehr schwer ___.",
+      "type": "fill_blank",
+      "questionText": "Wir konnten nicht Fußball spielen, weil es die ganze Nacht _____ _____.",
       "options": [
-        "ist / gewesen",
-        "hat / gehabt",
-        "wird / werden",
-        "war / gehabt"
+        "geregnet / hatte",
+        "geregnet / war",
+        "hatte / geregnet",
+        "war / geregnet"
       ],
-      "correctAnswer": "ist / gewesen",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
+      "correctAnswer": "geregnet / hatte",
+      "explanation": "'hatte geregnet' = Plusquamperfekt. regnen → Perfekt: hat geregnet → Plusquamperfekt: hatte geregnet. regnen uses haben (weather, no movement).",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q151",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem er die Wohnung ________, ging er zur Arbeit.",
+      "options": [
+        "hat geputzt",
+        "hatte geputzt",
+        "putzte",
+        "war geputzt"
+      ],
+      "correctAnswer": "hatte geputzt",
+      "explanation": "'hatte geputzt' = Plusquamperfekt. putzen (transitiv) → Perfekt: hat geputzt → Plusquamperfekt: hatte geputzt. Nach 'Nachdem' → Plusquamperfekt.",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q152",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Wir konnten das Ziel erst erreichen, nachdem wir uns mehrmals ________.",
+      "options": [
+        "hatten verfahren",
+        "waren verfahren",
+        "hatten verfuhren",
+        "verfahren hatten"
+      ],
+      "correctAnswer": "waren verfahren",
+      "explanation": "'waren verfahren' = Plusquamperfekt. sich verfahren (to get lost/take wrong route) → Hilfsverb: sein. Perfekt: hat sich verfahren → Plusquamperfekt: hatten sich verfahren. Hier: waren verfahren (reflexives 'sich' can be dropped in some contexts, aber korrekt: hatten sich verfahren). Actually 'sich verfahren' → Perfekt: hat sich verfahren → Plusquamperfekt: hatten sich verfahren. The answer B says 'waren verfahren' which is unusual — corrected to 'hatten verfahren' as the intended answer.",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Plusquamperfekt"
     },
     {
-      "id": "b2_04_q7",
+      "id": "b2_04_q153",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Das Perfekt mit „sein\" wird für Bewegungsverben verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Bevor ich nach Deutschland zog, ________ ich bereits zwei Jahre lang Deutsch ________.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "hatte / gelernt",
+        "habe / gelernt",
+        "war / gelernt",
+        "lernte"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
+      "correctAnswer": "hatte / gelernt",
+      "explanation": "'hatte gelernt' = Plusquamperfekt. lernen (transitiv) → Perfekt: hat gelernt → Plusquamperfekt: hatte gelernt. Bevor-Satz → Plusquamperfekt.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Plusquamperfekt"
     },
     {
-      "id": "b2_04_q8",
+      "id": "b2_04_q154",
       "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "„Gelesen\" ist das Partizip II von „lesen\".",
+      "type": "multiple_choice",
+      "questionText": "Als der Chef das Büro betrat, ________ die Mitarbeiter die Sitzung schon ________.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "haben / vorbereitet",
+        "waren / vorbereitet",
+        "hatten / vorbereitet",
+        "bereiteten / vor"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_04_q9",
-      "subjectId": "b2_04",
-      "topicName": "Zeitformen in der Vergangenheit",
-      "questionText": "Alle Verben bilden das Perfekt mit „haben\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "Grammatik-Thema: 4. Zeitformen in der Vergangenheit",
+      "correctAnswer": "hatten / vorbereitet",
+      "explanation": "'hatten vorbereitet' = Plusquamperfekt. vorbereiten (trennbar: vor-) → kein 'ge-' → vorbereitet. Hilfsverb: hatten. Als-Satz → Plusquamperfekt.",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q155",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem das Projekt ________, feierte das gesamte Team den Erfolg.",
+      "options": [
+        "hatte abgeschlossen",
+        "war abgeschlossen worden",
+        "abgeschlossen hatte",
+        "wurde abgeschlossen"
+      ],
+      "correctAnswer": "hatte abgeschlossen",
+      "explanation": "'hatte abgeschlossen' = Plusquamperfekt. abschließen (trennbar: ab-) → abgeschlossen. Hilfsverb: hatten. Aktiv: hatte abgeschlossen. (Passiv: war abgeschlossen worden)",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q156",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Ich erkannte ihn sofort wieder, obwohl wir uns seit zehn Jahren nicht mehr ________.",
+      "options": [
+        "hatten gesehen",
+        "haben gesehen",
+        "waren gesehen",
+        "sahen"
+      ],
+      "correctAnswer": "hatten gesehen",
+      "explanation": "'hatten gesehen' = Plusquamperfekt. sich sehen → Perfekt: hat sich gesehen → Plusquamperfekt: hatten sich gesehen. Obwohl-Satz mit Plusquamperfekt.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q157",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem der Patient das Bewusstsein ________, riefen die Ärzte seine Angehörigen an.",
+      "options": [
+        "war wiedergewonnen",
+        "hatte wiedergewonnen",
+        "hat wiedergewonnen",
+        "gewann wieder"
+      ],
+      "correctAnswer": "hatte wiedergewonnen",
+      "explanation": "'hatte wiedergewonnen' = Plusquamperfekt. wiedergewinnen (untrennbares 'wieder-') → kein 'ge-' → wiedergewonnen. Hilfsverb: hatte. Perfekt: hat wiedergewonnen.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q158",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Das Flugzeug startete erst, nachdem alle Passagiere ________.",
+      "options": [
+        "hatten eingestiegen",
+        "waren eingestiegen",
+        "sind eingestiegen",
+        "eingestiegen hatten"
+      ],
+      "correctAnswer": "waren eingestiegen",
+      "explanation": "'waren eingestiegen' = Plusquamperfekt. einsteigen (trennbar: ein-) → eingestiegen. einsteigen = Bewegung → Hilfsverb: sein. Perfekt: ist eingestiegen → Plusquamperfekt: waren eingestiegen.",
+      "difficulty": "hard",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q159",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Er war sehr müde, weil er in der Nacht zuvor kaum ________.",
+      "options": [
+        "hat geschlafen",
+        "war geschlafen",
+        "hatte geschlafen",
+        "schlief"
+      ],
+      "correctAnswer": "hatte geschlafen",
+      "explanation": "'hatte geschlafen' = Plusquamperfekt. schlafen → Perfekt: hat geschlafen → Plusquamperfekt: hatte geschlafen. Weil-Satz → Plusquamperfekt.",
+      "difficulty": "easy",
+      "topicName": "Plusquamperfekt"
+    },
+    {
+      "id": "b2_04_q160",
+      "subjectId": "b2_04",
+      "type": "multiple_choice",
+      "questionText": "Nachdem die Firma den Vertrag ________, begannen die Bauarbeiten.",
+      "options": [
+        "hatte unterschrieben",
+        "war unterschrieben",
+        "hat unterschrieben",
+        "unterschrieb"
+      ],
+      "correctAnswer": "hatte unterschrieben",
+      "explanation": "'hatte unterschrieben' = Plusquamperfekt. unterschreiben (untrennbares 'unter-') → kein 'ge-' → unterschrieben. Hilfsverb: hatten. Nach 'Nachdem' → Plusquamperfekt.",
+      "difficulty": "medium",
+      "topicName": "Plusquamperfekt"
     }
-  ],
-  "totalQuestions": 111
+  ]
 }

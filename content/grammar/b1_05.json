@@ -1,1554 +1,1362 @@
 {
+  "version": "1.0",
   "subjectId": "b1_05",
-  "topicName": "Relativsätze: Dativ und Genitiv",
+  "topicName": "Nominalisierung",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Nominalisierung (nominalization) transforms verbal clauses (Verbalstil) into prepositional noun phrases (Nominalstil). At B2/C1 level this goes beyond simple verb→noun conversion (lernen → das Lernen) to converting entire subordinate clauses into prepositional noun phrases. Key suffixes: -ung (die Lösung, die Kündigung), -heit/-keit (die Abwesenheit, die Pünktlichkeit), -tion/-ion (die Installation, die Produktion), bare infinitive (das Lernen, das Treffen). Core transformation: match verbal conjunctions (weil, obwohl, bevor, nachdem, während, damit, indem) to their nominal prepositions (wegen/trotz/aufgrund + Genitiv, vor/nach + Dativ, durch + Akkusativ, bei + Dativ, zu/zur + Dativ). A hallmark of formal written, academic, and business German (Behördensprache).",
+  "tips": [
+    "Key suffixes: -ung (die Lösung, die Kündigung — feminine), -heit/-keit (die Abwesenheit, die Pünktlichkeit — feminine), -tion/-ion (die Installation, die Produktion — feminine), bare infinitive (das Lernen, das Treffen — neuter).",
+    "Clause→Phrase mapping: weil/da → wegen/aufgrund (+ Genitiv); obwohl → trotz (+ Genitiv); bevor → vor (+ Dativ); nachdem → nach (+ Dativ); während → während (+ Genitiv); sobald → unmittelbar nach (+ Dativ); solange... nicht → bis zu (+ Dativ); wenn/falls → bei (+ Dativ); damit/um...zu → zu/zur (+ Dativ); indem → durch (+ Akkusativ).",
+    "Adverbs inside nominal phrases: an adverb modifying an adjective does NOT take an ending. Correct: 'wegen des unerwartet starken Anstiegs' (NOT: unerwarteten). The adverb 'unerwartet' stays uninflected.",
+    "Preserving the clause subject: when the verbal clause has an active subject, integrate it using 'durch + Akkusativ' or a Genitive attribute. Example: 'Seitdem die Geschäftsführerin das Unternehmen leitet' → 'Seit der Leitung des Unternehmens durch die Geschäftsführerin'.",
+    "Written exam rule: trotz, wegen, während, and aufgrund ALWAYS take Genitiv in B2/C1 written German (NOT Dativ as in spoken German: 'wegen dem Regen' is wrong on the exam).",
+    "Functional verb chains: eine Entscheidung treffen → nominalize 'treffen' to 'das Treffen' with Genitive object: 'Vor dem Treffen einer endgültigen Entscheidung'.",
+    "Artikellos (no article) with prepositions: with abstract nominalized infinitives after 'unter', 'durch', 'bei', the article can be dropped when no adjective is present: 'unter Tragen von Schutzkleidung' (NOT: unter dem Tragen).",
+    "Adjective + nominalized infinitive: adjective takes weak declension after 'das': 'das schnelle Reagieren', 'das regelmäßige Sporttreiben', 'das nachhaltige Wirtschaften'. After Genitive article 'des': '-en' ending: 'des nachhaltigen Wirtschaftens'.",
+    "Two coordinated nominalizations: share one 'das' in nominative: 'das Erkennen und Lösen von Konflikten'. After Genitiv preposition: 'des Erkennens und Lösens von Konflikten'.",
+    "Preposition choice matters: 'durch' expresses method/means (instrumental), 'bei' expresses condition, 'trotz' expresses concession, 'wegen/aufgrund' express cause — choosing the wrong preposition is a common B2 exam error."
+  ],
   "questions": [
     {
       "id": "b1_05_q001",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ er das gesagt hatte, ging er.",
-      "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das ____ der Aufgabe hat länger gedauert als erwartet.",
+      "options": [
+        "Lösen",
+        "Löserei",
+        "Gelöstheit",
+        "Lösung"
+      ],
+      "correctAnswer": "Lösen",
+      "explanation": "The nominalized infinitive 'das Lösen' (the solving) is a neuter noun formed directly from the verb 'lösen'. It refers to the process/act of solving. 'Lösung' means the result/solution, not the act — which changes the meaning here."
     },
     {
       "id": "b1_05_q002",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Statt ____ könnte man auch einen Kompromiss finden.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "zu streiten",
+        "des Streitens",
+        "der Streit",
+        "dem Streiten"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "des Streitens",
+      "explanation": "'Statt' (instead of) is a preposition that governs the Genitiv case. The nominalized infinitive 'das Streiten' → Genitiv: 'des Streitens'. 'zu streiten' is an infinitive clause, not a nominalization, and cannot follow 'statt' directly."
     },
     {
       "id": "b1_05_q003",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ der neuen Mitarbeiter findet nächste Woche statt.",
       "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
+        "Einstellerei",
+        "Eingestellt",
+        "Einstellung",
+        "Einstellen"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Einstellung",
+      "explanation": "'Die Einstellung' is the standard nominalization of 'einstellen' using the suffix '-ung' (feminine). In formal/business German, '-ung' nominalizations are preferred over infinitive nominalizations. Here it refers to the hiring/onboarding event."
     },
     {
       "id": "b1_05_q004",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
-      "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
-      ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das ____ der Kinder im Park macht Freude.",
+      "options": [
+        "Gelache",
+        "Lachen",
+        "Gelächter",
+        "Lächeln"
+      ],
+      "correctAnswer": "Lachen",
+      "explanation": "The nominalized infinitive 'das Lachen' (the laughing/laughter) refers to the general act or sound of laughing. 'Gelächter' is also a valid noun but means loud/burst of laughter and changes the nuance. 'Gelache' (with Ge- prefix) can carry a negative connotation."
     },
     {
       "id": "b1_05_q005",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Trotz ____ blieb das Team motiviert.",
       "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
+        "der Niederlage",
+        "die Niederlage",
+        "der Niederlagen",
+        "dem Verlieren"
       ],
-      "correctAnswer": "deren",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "der Niederlage",
+      "explanation": "'Trotz' (despite) governs the Genitiv case. 'Die Niederlage' (the defeat) → Genitiv singular: 'der Niederlage'. 'dem Verlieren' uses Dativ, which is incorrect after 'trotz' in standard written German."
     },
     {
       "id": "b1_05_q006",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das ____ von Daten ist in vielen Berufen unverzichtbar.",
       "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
+        "Analysierung",
+        "Analysieren",
+        "Analyse",
+        "Analytik"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Analysieren",
+      "explanation": "The nominalized infinitive 'das Analysieren' (the analyzing) describes the ongoing process. 'Analysierung' is not a standard German word. 'Analyse' is a valid noun but means the analysis (result), not the act of analyzing."
     },
     {
       "id": "b1_05_q007",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
-      ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Vertrags wurde von beiden Seiten unterzeichnet.",
+      "options": [
+        "Verlängerung",
+        "Verlängern",
+        "Verlängerei",
+        "Verlängernis"
+      ],
+      "correctAnswer": "Verlängerung",
+      "explanation": "'Die Verlängerung' (the extension/renewal) is the standard '-ung' nominalization of 'verlängern'. In formal written German, '-ung' nominalizations are strongly preferred in bureaucratic and legal contexts. '-nis' and '-ei' are not used with this verb."
     },
     {
       "id": "b1_05_q008",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sagte, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Wegen ____ des Projekts mussten alle Pläne verschoben werden.",
+      "options": [
+        "der Verzögerung",
+        "die Verzögerung",
+        "dem Verzögern",
+        "das Verzögern"
+      ],
+      "correctAnswer": "der Verzögerung",
+      "explanation": "'Wegen' (because of) governs Genitiv. 'Die Verzögerung' → Genitiv: 'der Verzögerung'. The phrase 'wegen des Projekts' is already in Genitiv; the nominalization must also be in Genitiv. 'dem Verzögern' uses Dativ — incorrect after 'wegen' in written German."
     },
     {
       "id": "b1_05_q009",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ du Deutsch gelernt ___?",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ____ der Aufgaben an die Teammitglieder ist eine wichtige Führungskompetenz.",
       "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
+        "Delegierung",
+        "Delegieren",
+        "Delegation",
+        "Delegat"
       ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Delegation",
+      "explanation": "'Die Delegation' is the preferred nominalization in the management/business register for 'delegieren'. While 'das Delegieren' is grammatically correct, 'Delegation' is the established noun used in formal contexts. 'Delegierung' is non-standard and rarely used."
     },
     {
       "id": "b1_05_q010",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Durch ____ konnte das Unternehmen seine Kosten erheblich senken.",
       "options": [
-        "dessen",
-        "deren",
-        "die",
-        "dem"
+        "das Optimieren der Prozesse",
+        "die Optimiererei der Prozesse",
+        "optimierende Prozesse",
+        "optimiert die Prozesse"
       ],
-      "correctAnswer": "dessen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "das Optimieren der Prozesse",
+      "explanation": "'Durch' (through/by) requires a noun phrase. 'Das Optimieren der Prozesse' is a nominalized infinitive phrase acting as the object of 'durch'. This structure (Präposition + nominalized infinitive + Genitiv object) is a key B2 written-register pattern."
     },
     {
       "id": "b1_05_q011",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Anstatt ____ schlug er eine alternative Lösung vor.",
+      "options": [
+        "des Aufgebens",
+        "aufzugeben",
+        "dem Aufgeben",
+        "das Aufgeben"
+      ],
+      "correctAnswer": "des Aufgebens",
+      "explanation": "'Anstatt' (instead of) is a Genitiv preposition. The nominalized infinitive 'das Aufgeben' → Genitiv: 'des Aufgebens'. Note: 'anstatt aufzugeben' (with infinitive clause) is also correct German, but the question asks for the nominalization form."
     },
     {
       "id": "b1_05_q012",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Das ____ und ____ von Konflikten gehört zu den wichtigsten Managementfähigkeiten.",
       "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
+        "Erkennen / Lösen",
+        "Erkennens / Lösens",
+        "Erkennung / Lösung",
+        "Erkannt / Gelöst"
       ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Erkennen / Lösen",
+      "explanation": "When two nominalized infinitives are coordinated as subject with 'und', they both take the nominative form: 'das Erkennen und Lösen'. Only the first 'das' is needed. Genitiv forms ('Erkennens/Lösens') would be needed after a Genitiv preposition, not as subject."
     },
     {
       "id": "b1_05_q013",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Im Bericht wird auf die Notwendigkeit ____ der Infrastruktur hingewiesen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Wann",
-        "Während"
+        "der Modernisierung",
+        "des Modernisierens",
+        "zu modernisieren",
+        "modernisiert"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "der Modernisierung",
+      "explanation": "After 'die Notwendigkeit' (the necessity), a Genitiv complement is required. 'Die Modernisierung' (modernization) → Genitiv: 'der Modernisierung'. The '-ung' form is standard in formal/official language. 'des Modernisierens' is grammatically possible but marked as colloquial."
     },
     {
       "id": "b1_05_q014",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das rasche ____ auf Krisen ist entscheidend für den Erfolg von Einsatzkräften.",
+      "options": [
+        "Reagieren",
+        "Reaktion",
+        "Reagierung",
+        "Reaktionär"
+      ],
+      "correctAnswer": "Reagieren",
+      "explanation": "'Das rasche Reagieren' (the rapid reacting) uses a nominalized infinitive modified by an adjective ('rasche'). The adjective takes weak declension after 'das' → 'rasch-e'. 'Reaktion' is also a valid noun but 'rasche Reaktion' would need 'die', not 'das', changing the article."
     },
     {
       "id": "b1_05_q015",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Trotz aller Bemühungen scheiterte ____ eines gemeinsamen Kompromisses.",
       "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
+        "das Finden",
+        "die Findung",
+        "dem Finden",
+        "des Findens"
       ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "das Finden",
+      "explanation": "'Scheiterte' (failed) requires a nominative subject. 'Das Finden eines gemeinsamen Kompromisses' acts as the subject of the sentence. The nominalized infinitive 'das Finden' is nominative. 'des Findens' is Genitiv and cannot be the subject."
     },
     {
       "id": "b1_05_q016",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Der Vorstand betonte die Bedeutung ____ in allen Bereichen des Unternehmens.",
       "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
+        "des nachhaltigen Wirtschaftens",
+        "nachhaltig wirtschaften",
+        "das nachhaltige Wirtschaften",
+        "nachhaltiger Wirtschaftung"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "des nachhaltigen Wirtschaftens",
+      "explanation": "'Die Bedeutung' (the significance) takes a Genitiv complement. Nominalized infinitive in Genitiv: 'des + adjective (Genitiv weak: -en) + Verb-en + -s' → 'des nachhaltigen Wirtschaftens'. The adjective 'nachhaltig' takes the Genitiv weak ending '-en' after the definite article 'des'."
     },
     {
       "id": "b1_05_q017",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Durch ____ wurden erhebliche Fortschritte in der Forschung erzielt.",
       "options": [
-        "würde",
-        "wird",
-        "kann",
-        "wollte"
+        "das konsequente Vorantreiben interdisziplinärer Zusammenarbeit",
+        "konsequentes Vorantreiben der interdisziplinären Zusammenarbeit",
+        "konsequent voranzutreiben interdisziplinäre Zusammenarbeit",
+        "die konsequente Vorantreibung interdisziplinärer Zusammenarbeit"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "das konsequente Vorantreiben interdisziplinärer Zusammenarbeit",
+      "explanation": "After 'durch' (Akkusativ), the nominalized infinitive takes 'das' + adjective weak ending (-e in Akkusativ neuter): 'das konsequente Vorantreiben'. The dependent noun 'Zusammenarbeit' becomes Genitiv: 'interdisziplinärer Zusammenarbeit'. 'Vorantreibung' is not a standard German word."
     },
     {
       "id": "b1_05_q018",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Im Hinblick auf ____ wurden neue Richtlinien erlassen.",
+      "options": [
+        "das vermehrte Auftreten resistenter Keime",
+        "dem vermehrten Auftreten resistenter Keime",
+        "des vermehrten Auftretens resistenter Keime",
+        "die vermehrte Auftrittshäufigkeit resistenter Keime"
+      ],
+      "correctAnswer": "das vermehrte Auftreten resistenter Keime",
+      "explanation": "'Im Hinblick auf' (with regard to) governs Akkusativ. Nominalized infinitive: 'das + adjective (Akk. neuter weak: -e) + Infinitiv' → 'das vermehrte Auftreten'. Dependent noun 'Keime' → Genitiv: 'resistenter Keime'. 'des Auftretens' would be Genitiv, not Akkusativ."
     },
     {
       "id": "b1_05_q019",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Die Herausforderung besteht im ____ unterschiedlicher Interessen ohne Qualitätsverlust.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Obwohl"
+        "Ausbalancieren",
+        "Ausbalancierung",
+        "ausbalancierten",
+        "Ausbalanciertheit"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Ausbalancieren",
+      "explanation": "'Im' = 'in + dem' (Dativ). Nominalized infinitive in Dativ: 'im + Infinitiv (no article change for neuter Dativ in this fixed 'im + Nominalisierung' construction)' → 'im Ausbalancieren'. This is a high-frequency B2 formal pattern: 'bestehen in + Dativ nominalized infinitive'. '-ierung' and '-heit' suffixes are non-standard here."
     },
     {
       "id": "b1_05_q020",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
-      "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_05_q021",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
-      "options": [
-        "um",
-        "als",
-        "weil",
-        "obwohl"
-      ],
-      "correctAnswer": "als",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Obwohl man sich ____ des Problems bewusst war, fehlte es an konkreten Maßnahmen.",
+      "options": [
+        "der Komplexität",
+        "die Komplexität",
+        "dem Komplex",
+        "das Komplexe"
+      ],
+      "correctAnswer": "der Komplexität",
+      "explanation": "'Sich bewusst sein' (to be aware of) takes a Genitiv object. The nominalization 'die Komplexität' (complexity) — formed from the adjective 'komplex' with the suffix '-ität' (a productive B2+ nominalization pattern) — becomes Genitiv: 'der Komplexität'. The '-ität' suffix always produces feminine nouns."
     },
     {
-      "id": "b1_05_q022",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
+      "questionText": "____ muss die Produktion angepasst werden.",
       "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
+        "Aufgrund der gestiegenen Kosten",
+        "Wegen Kosten die gestiegen sind",
+        "Da gestiegene Kosten",
+        "Trotz der Kostensteigerung"
       ],
-      "correctAnswer": "So",
-      "explanation": "",
+      "correctAnswer": "Aufgrund der gestiegenen Kosten",
+      "explanation": "Causal clause 'weil...' is nominalized using 'aufgrund' + genitive. The participle 'gestiegenen' takes weak declension after the definite article, which is standard in formal B2 writing.",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "id": "b1_05_q021"
     },
     {
-      "id": "b1_05_q023",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
+      "questionText": "____ fand das Festival statt.",
       "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
+        "Trotz des schlechten Wetters",
+        "Obwohl schlechtes Wetter",
+        "Wegen dem schlechten Wetter",
+        "Bei schlechtem Wetter"
       ],
-      "correctAnswer": "wo",
-      "explanation": "",
+      "correctAnswer": "Trotz des schlechten Wetters",
+      "explanation": "Concessive clause 'obwohl...' is transformed using 'trotz' + genitive. The adjective 'schlechten' follows weak declension after the definite article in genitive neuter.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q022"
+    },
+    {
+      "questionText": "____ wurden die Unterlagen verteilt.",
+      "options": [
+        "Vor Beginn der Konferenz",
+        "Bevor Beginn der Konferenz",
+        "Während dem Konferenzbeginn",
+        "Nach der Konferenz begann"
+      ],
+      "correctAnswer": "Vor Beginn der Konferenz",
+      "explanation": "Temporal clause 'bevor...' is nominalized with 'vor' + nominalized infinitive. In formal administrative German, the article is typically omitted in fixed temporal phrases.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q023"
+    },
+    {
+      "questionText": "____ führen die Firmen zu Preiserhöhungen.",
+      "options": [
+        "Bei steigender Nachfrage",
+        "Wenn steigende Nachfrage",
+        "Trotz steigender Nachfrage",
+        "Aufgrund Nachfrage steigend"
+      ],
+      "correctAnswer": "Bei steigender Nachfrage",
+      "explanation": "Conditional clause 'wenn...' is nominalized using 'bei' + dative. 'Steigender' is a nominalized present participle in dative feminine, a common B2 structure for expressing conditions formally.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q024"
+    },
+    {
+      "questionText": "____ unterzeichneten beide Parteien den Vertrag.",
+      "options": [
+        "Nach Abschluss der Verhandlungen",
+        "Nachdem Abschluss der Verhandlungen",
+        "Während des Abschlusses der Verhandlungen",
+        "Bevor die Verhandlungen abgeschlossen"
+      ],
+      "correctAnswer": "Nach Abschluss der Verhandlungen",
+      "explanation": "Temporal 'nachdem...' is replaced by 'nach' + nominalized action noun. The genitive 'der Verhandlungen' correctly shows the object of the nominalized verb.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "id": "b1_05_q025"
+    },
+    {
+      "questionText": "____ ermöglicht die Einhaltung der Fristen.",
+      "options": [
+        "Die effiziente Arbeitsweise der Mitarbeiter",
+        "Weil Mitarbeiter effizient arbeiten",
+        "Durch effizient arbeiten Mitarbeiter",
+        "Mitarbeiter arbeiten effizient"
+      ],
+      "correctAnswer": "Die effiziente Arbeitsweise der Mitarbeiter",
+      "explanation": "Consecutive/result clause is nominalized into a subject phrase. 'effizient arbeiten' becomes 'effiziente Arbeitsweise', maintaining causality while shifting to formal register.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "id": "b1_05_q026"
     },
     {
-      "id": "b1_05_q024",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er tut so, ___ er alles wüsste.",
+      "questionText": "____ führte zum Nichtbestehen der Prüfung.",
       "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
+        "Seine ungenügende Vorbereitung",
+        "Wegen er lernte zu wenig",
+        "Da er wenig gelernt hatte",
+        "Sein Lernen war ungenügend"
       ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_05_q025",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
-      "options": [
-        "weil",
-        "obwohl",
-        "wenn",
-        "damit"
-      ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_05_q026",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
-      "options": [
-        "die",
-        "der",
-        "den",
-        "welche"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
+      "correctAnswer": "Seine ungenügende Vorbereitung",
+      "explanation": "Causal clause is transformed into a noun phrase acting as subject. 'zu wenig gelernt' is formally expressed as 'ungenügende Vorbereitung', a standard B2 lexical substitution.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "id": "b1_05_q027"
     },
     {
-      "id": "b1_05_q027",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
+      "questionText": "____ ist ein zentrales Thema.",
       "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
+        "Die Senkung des Energieverbrauchs",
+        "Wie der Energieverbrauch gesenkt werden kann",
+        "Dass man den Energieverbrauch senkt",
+        "Energieverbrauch senken"
       ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_05_q028",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_05_q029",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
+      "correctAnswer": "Die Senkung des Energieverbrauchs",
+      "explanation": "Indirect question/infinitive phrase is nominalized using action noun + genitive object. This structure is highly typical in academic and technical B2 German.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "id": "b1_05_q028"
     },
     {
-      "id": "b1_05_q030",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
+      "questionText": "Die Fahrzeugkontrollen dienen ____.",
       "options": [
-        "der",
-        "die",
-        "den",
-        "dem"
+        "der Gewährleistung der Sicherheit",
+        "um Sicherheit zu gewährleisten",
+        "dass Sicherheit gewährleistet wird",
+        "zur Sicherheit gewährleisten"
       ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_05_q031",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q032",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "der Gewährleistung der Sicherheit",
+      "explanation": "Final clause 'um...zu' is nominalized with 'dienen der' + genitive. The double genitive construction is grammatically correct and marks high-level formal proficiency.",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "b1_05_q029"
     },
     {
-      "id": "b1_05_q033",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "questionText": "____ steigen die Steuereinnahmen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Trotz schrumpfender Wirtschaft",
+        "Obwohl die Wirtschaft schrumpft",
+        "Während der Wirtschaft schrumpft",
+        "Bei geschrumpfter Wirtschaft"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q034",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q035",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Trotz schrumpfender Wirtschaft",
+      "explanation": "Concessive clause is nominalized with 'trotz' + genitive. Without an article, the nominalized participle 'schrumpfender' takes a strong genitive feminine ending (-er).",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "b1_05_q030"
     },
     {
-      "id": "b1_05_q036",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "questionText": "____ erforderte eine Neuberechnung der Kosten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die Verzögerung des Projekts",
+        "Weil das Projekt verzögert wurde",
+        "Dass das Projekt verzögert wird",
+        "Projekts Verzögerung"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q037",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q038",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Die Verzögerung des Projekts",
+      "explanation": "Causal passive clause is transformed into a subject noun phrase + genitive. B2 tests recognition of how passive verbs become action nouns in formal reporting.",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "b1_05_q031"
     },
     {
-      "id": "b1_05_q039",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "questionText": "Die Investition in neue Technologien dient ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der Aufrechterhaltung der Wettbewerbsfähigkeit",
+        "um wettbewerbsfähig zu bleiben",
+        "dass sie wettbewerbsfähig bleibt",
+        "zur Wettbewerbsfähigkeit bleiben"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q040",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q041",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "der Aufrechterhaltung der Wettbewerbsfähigkeit",
+      "explanation": "Final clause 'damit...' is nominalized using 'dienen der' + double genitive. This replaces a subordinate clause with a compact, formal noun phrase structure.",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "b1_05_q032"
     },
     {
-      "id": "b1_05_q042",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
+      "questionText": "____ garantiert die Sicherheit der Software.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die regelmäßige Aktualisierung der Daten",
+        "Wenn Daten regelmäßig aktualisiert werden",
+        "Durch regelmäßig aktualisierte Daten",
+        "Dass man Daten aktualisiert"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q043",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q044",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Die regelmäßige Aktualisierung der Daten",
+      "explanation": "Conditional clause is nominalized into a complex subject. 'regelmäßig aktualisiert' becomes 'regelmäßige Aktualisierung', testing adjective-to-noun conversion with genitive object.",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "b1_05_q033"
     },
     {
-      "id": "b1_05_q045",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
+      "questionText": "____ wird von den Ärzten empfohlen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Das regelmäßige Sporttreiben",
+        "Regelmäßig Sport zu treiben",
+        "Dass man Sport treibt",
+        "Sport treiben regelmäßig"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q046",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q047",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Relativsätze haben immer ein Komma.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Das regelmäßige Sporttreiben",
+      "explanation": "Infinitive construction is nominalized using 'das' + nominalized verb phrase. The adjective 'regelmäßige' takes nominal declension, a standard B2 transformation pattern.",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "b1_05_q034"
     },
     {
-      "id": "b1_05_q048",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
+      "questionText": "____ veranlasst die Hersteller zur Produktionserweiterung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die steigende Nachfrage nach Elektrofahrzeugen",
+        "Weil die Nachfrage nach Elektrofahrzeugen zunimmt",
+        "Dass Elektrofahrzeuge nachgefragt werden",
+        "Nachfragezunahme der Elektrofahrzeuge"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Die steigende Nachfrage nach Elektrofahrzeugen",
+      "explanation": "Causal clause with prepositional verb is nominalized into a subject phrase. The preposition 'nach' is preserved, demonstrating accurate mapping of verbal to nominal syntax.",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "id": "b1_05_q035"
     },
     {
-      "id": "b1_05_q049",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
+      "questionText": "____ erfordert eine sorgfältige Abwägung der Risiken.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die Entscheidungsfindung",
+        "Bevor man entscheidet",
+        "Dass man eine Entscheidung trifft",
+        "Entscheidung treffen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Die Entscheidungsfindung",
+      "explanation": "Temporal clause is nominalized into a standard compound noun. B2/C1 expects recognition of institutionalized nominal compounds that replace full temporal clauses in formal contexts.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q036"
     },
     {
-      "id": "b1_05_q050",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
+      "questionText": "____ führte zum Verbindungsabbruch.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Die Serverüberlastung",
+        "Weil der Server überlastet war",
+        "Dass der Server überlastet ist",
+        "Server war überlastet"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Die Serverüberlastung",
+      "explanation": "Causal clause is compressed into a technical compound noun. Recognizing and forming bureaucratic/IT nominal compounds is a key B2 formal writing skill.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q037"
+    },
+    {
+      "questionText": "____ blieb die Heizungsanlage ausgeschaltet.",
+      "options": [
+        "Trotz sinkender Temperaturen",
+        "Obwohl sinkende Temperaturen",
+        "Wegen der gesunkenen Temperaturen",
+        "Bei fallender Temperatur"
+      ],
+      "correctAnswer": "Trotz sinkender Temperaturen",
+      "explanation": "Concessive plural clause uses 'trotz' + genitive. Zero-article plural genitive requires strong adjective endings (-er for 'sinkender'), testing precise declension in nominal style.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q038"
+    },
+    {
+      "questionText": "____ führte zu keiner Verbesserung der Lage.",
+      "options": [
+        "Trotz der ergriffenen Maßnahmen",
+        "Obwohl Maßnahmen ergriffen wurden",
+        "Wegen der ergriffenen Maßnahmen",
+        "Maßnahmen wurden ergriffen"
+      ],
+      "correctAnswer": "Trotz der ergriffenen Maßnahmen",
+      "explanation": "Concessive passive clause is nominalized with 'trotz' + genitive. The past participle 'ergriffenen' functions as an adjective with weak declension after the definite article.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q039"
+    },
+    {
+      "questionText": "____ können hohe Strafen nach sich ziehen.",
+      "options": [
+        "Die Nichtbeachtung der Vorschriften",
+        "Wenn Vorschriften nicht beachtet werden",
+        "Dass man Vorschriften nicht beachtet",
+        "Vorschriften nicht beachtet werden"
+      ],
+      "correctAnswer": "Die Nichtbeachtung der Vorschriften",
+      "explanation": "Conditional passive is transformed using negative nominalization 'Nichtbeachtung' + genitive. This advanced structure is typical in legal, administrative, and academic B2/C1 German.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "id": "b1_05_q040"
+    },
+    {
+      "questionText": "Verbal: Weil die Benzinpreise unerwartet stark gestiegen sind, nutzen viele Pendler nun die Bahn. -> Nominal: _______________ nutzen viele Pendler nun die Bahn.",
+      "options": [
+        "Wegen des unerwarteten starken Anstiegs der Benzinpreise",
+        "Wegen des unerwartet starken Anstiegs der Benzinpreise",
+        "Trotz dem unerwarteten starken Anstieg der Benzinpreise",
+        "Durch den unerwartet starken Anstieg der Benzinpreise"
+      ],
+      "correctAnswer": "Wegen des unerwartet starken Anstiegs der Benzinpreise",
+      "explanation": "The causal clause with 'weil' is replaced by the preposition 'wegen' + Genitive. 'Unerwartet' functions as an adverb modifying the adjective 'starken', so it remains uninflected. 'Anstieg' is masculine, requiring 'des ... Anstiegs'.",
+      "difficulty": "hard",
+      "id": "b1_05_q041"
+    },
+    {
+      "questionText": "Verbal: Bevor das neue Software-Update installiert wird, müssen alle Daten gesichert werden. -> Nominal: _______________ müssen alle Daten gesichert werden.",
+      "options": [
+        "Nach der Installation des neuen Software-Updates",
+        "Vor dem Installieren des neuen Software-Updates",
+        "Vor der Installation des neuen Software-Updates",
+        "Bis zur Installation des neuen Software-Updates"
+      ],
+      "correctAnswer": "Vor der Installation des neuen Software-Updates",
+      "explanation": "'Bevor' (before) expresses priority in time and translates nominalized into the preposition 'vor' + Dative. The noun derived from 'installieren' is feminine: 'die Installation'. Thus: 'Vor der Installation...'.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_05_q042"
     },
     {
-      "id": "b1_05_q051",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
+      "questionText": "Verbal: Obwohl das Wetter extrem schlecht war, wurde das Open-Air-Konzert nicht abgesagt. -> Nominal: _______________ wurde das Open-Air-Konzert nicht abgesagt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wegen des extrem schlechten Wetters",
+        "Infolge extrem schlechten Wetters",
+        "Trotz des extrem schlechten Wetters",
+        "Ungeachtet dem extrem schlechten Wetters"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q052",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Trotz des extrem schlechten Wetters",
+      "explanation": "A concessive clause introduced by 'obwohl' (although) translates into the nominal structure using 'trotz' + Genitive. 'Das Wetter' becomes 'des extrem schlechten Wetters'.",
       "difficulty": "easy",
-      "type": "true_false"
+      "id": "b1_05_q043"
     },
     {
-      "id": "b1_05_q053",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "questionText": "Verbal: Wenn man die Verträge rechtzeitig kündigt, kann man zusätzliche Kosten vermeiden. -> Nominal: _______________ kann man zusätzliche Kosten vermeiden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Bei rechtzeitiger Kündigung der Verträge",
+        "Mit rechtzeitiger Kündigung der Verträge",
+        "Durch rechtzeitige Kündigung der Verträge",
+        "Im Falle rechtzeitigen Kündigens der Verträge"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Bei rechtzeitiger Kündigung der Verträge",
+      "explanation": "A conditional clause ('wenn') is standardly nominalized using the preposition 'bei' + Dative. 'Die Kündigung' is feminine, so it becomes 'bei rechtzeitiger Kündigung'. 'Durch' expresses a method/means rather than a condition.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_05_q044"
     },
     {
-      "id": "b1_05_q054",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "questionText": "Verbal: Seitdem die neue Geschäftsführerin das Unternehmen leitet, sind die Umsätze gestiegen. -> Nominal: _______________ sind die Umsätze gestiegen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Seit der Leitung des Unternehmens durch die neue Geschäftsführerin",
+        "Seit dem Leiten des Unternehmens von der neuen Geschäftsführerin",
+        "Während der Leitung des Unternehmens durch die neue Geschäftsführerin",
+        "Seit die neue Geschäftsführerin das Unternehmen leitet"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Seit der Leitung des Unternehmens durch die neue Geschäftsführerin",
+      "explanation": "'Seitdem' translates to the preposition 'seit' + Dative. The active subject of the action ('die Geschäftsführerin') is integrated into the nominal phrase using 'durch' + Accusative. 'Die Leitung' is feminine, yielding 'seit der Leitung'.",
       "difficulty": "hard",
-      "type": "true_false"
+      "id": "b1_05_q045"
     },
     {
-      "id": "b1_05_q055",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
+      "questionText": "Wählen Sie die korrekte Nominalisierung für das Verb 'sich beschweren': Das Einreichen einer _______________ beim Kundenservice brachte schnellen Erfolg.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Beschwerlichkeit",
+        "Beschwerde",
+        "Beschwerung",
+        "Beschwerheit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Beschwerde",
+      "explanation": "The correct noun derived from the reflexive verb 'sich beschweren' (to complain) is 'die Beschwerde'. 'Beschwerlichkeit' means hardship or difficulty.",
       "difficulty": "easy",
-      "type": "true_false"
+      "id": "b1_05_q046"
     },
     {
-      "id": "b1_05_q056",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "questionText": "Verbal: Man kann die Produktivität steigern, indem man modernere Maschinen einsetzt. -> Nominal: _______________ kann die Produktivität gesteigert werden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Beim Einsatz modernerer Maschinen",
+        "Durch den Einsatz modernerer Maschinen",
+        "Mit dem Einsetzen von moderneren Maschinen",
+        "Infolge des Einsatzes modernerer Maschinen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Durch den Einsatz modernerer Maschinen",
+      "explanation": "An instrumental clause introduced by 'indem' (by doing X) is nominalized with the preposition 'durch' + Accusative to display the mechanism/means. 'Der Einsatz' is masculine, so 'durch den Einsatz'.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_05_q047"
     },
     {
-      "id": "b1_05_q057",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "questionText": "Verbal: Während die Mitarbeiter streikten, stand die Produktion in der Fabrik komplett still. -> Nominal: _______________ stand die Produktion in der Fabrik komplett still.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Während dem Streik der Mitarbeiter",
+        "Während des Streiks der Mitarbeiter",
+        "Trotz des Streiks der Mitarbeiter",
+        "Bei dem Streik der Mitarbeiter"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b1_05_q058",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Während des Streiks der Mitarbeiter",
+      "explanation": "The temporal conjunction 'während' turns into the preposition 'während', which requires the Genitive case in high-level standard German. 'Der Streik' becomes 'des Streiks'.",
       "difficulty": "easy",
-      "type": "true_false"
+      "id": "b1_05_q048"
     },
     {
-      "id": "b1_05_q059",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "questionText": "Verbal: Damit die Sicherheit am Arbeitsplatz gewährleistet wird, wurden neue Richtlinien eingeführt. -> Nominal: _______________ wurden neue Richtlinien eingeführt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Zur Gewährleistung der Sicherheit am Arbeitsplatz",
+        "Für die Gewährleistung der Sicherheit am Arbeitsplatz",
+        "Wegen der Gewährleistung der Sicherheit am Arbeitsplatz",
+        "Um die Sicherheit am Arbeitsplatz zu gewährleisten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Zur Gewährleistung der Sicherheit am Arbeitsplatz",
+      "explanation": "A final clause expressing intention ('damit') is converted using the preposition 'zu' + Dative (often merged into 'zur' for feminine nouns). 'Gewährleistung' is feminine, so 'zu + der = zur Gewährleistung'.",
       "difficulty": "medium",
-      "type": "true_false"
+      "id": "b1_05_q049"
     },
     {
-      "id": "b1_05_q060",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "questionText": "Verbal: Sobald der Vertrag unterschrieben ist, erhalten Sie eine Kopie per Mail. -> Nominal: _______________ erhalten Sie eine Kopie per Mail.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Gleich nach Unterzeichnung des Vertrages",
+        "Unmittelbar nach der Unterzeichnung des Vertrages",
+        "Bis zur Unterzeichnung des Vertrages",
+        "Während der Unterzeichnung des Vertrages"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Unmittelbar nach der Unterzeichnung des Vertrages",
+      "explanation": "'Sobald' indicates immediate succession in the past/future. The nominal equivalent is 'unmittelbar nach' (immediately after) + Dative. 'Die Unterzeichnung' is feminine, resulting in 'nach der Unterzeichnung'.",
       "difficulty": "hard",
-      "type": "true_false"
+      "id": "b1_05_q050"
     },
     {
-      "id": "b1_05_q061",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "questionText": "Verbal: Wählen Sie das korrekte Nomen-Verb-Paar bzw. die korrekte Suffix-Nominalisierung für 'tolerieren': Die Geschäftsführung fordert mehr _______________ gegenüber neuen Arbeitsmethoden.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "Toleranz",
+        "Tolerierung",
+        "Toleranzigkeit",
+        "Toleration"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q062",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
+      "correctAnswer": "Toleranz",
+      "explanation": "While 'Tolerierung' exists as a nominalized action meaning 'the act of tolerating something reluctantly', the standard B2/C1 noun representing the quality or mindset of tolerance required in this sentence context is 'die Toleranz'.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q051"
     },
     {
-      "id": "b1_05_q063",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "questionText": "Verbal: Als die Berliner Mauer im Jahr 1989 fiel, feierten Millionen von Menschen. -> Nominal: _______________ feierten Millionen von Menschen.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "Beim Fall der Berliner Mauer im Jahr 1989",
+        "Während des Fallens der Berliner Mauer im Jahr 1989",
+        "Beim Einsturz der Berliner Mauer im Jahr 1989",
+        "Anlässlich des Falls der Berliner Mauer im Jahr 1989"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
+      "correctAnswer": "Beim Fall der Berliner Mauer im Jahr 1989",
+      "explanation": "A unique, singular past event introduced by 'als' is translated using 'bei' + Dative ('bei + dem = beim'). The noun for a historical event like this is 'der Fall' (the fall), hence 'beim Fall'.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_05_q052"
     },
     {
-      "id": "b1_05_q064",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "questionText": "Verbal: Weil der Kollege dauerhaft abwesend ist, muss das Team Überstunden machen. -> Nominal: _______________ muss das Team Überstunden machen.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "Wegen der dauerhaften Abwesenheit des Kollegen",
+        "Wegen des dauerhaften Abwesendseins vom Kollegen",
+        "Aufgrund der dauernd Abwesenheit des Kollegen",
+        "Infolge der dauerhaften Abwesung des Kollegen"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
+      "correctAnswer": "Wegen der dauerhaften Abwesenheit des Kollegen",
+      "explanation": "The adjective 'abwesend' turns into the noun 'die Abwesenheit'. 'Weil' changes to 'wegen' + Genitive. Since 'Abwesenheit' is feminine, it becomes 'Wegen der dauerhaften Abwesenheit'.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "id": "b1_05_q053"
     },
     {
-      "id": "b1_05_q065",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "questionText": "Verbal: Bevor wir eine endgültige Entscheidung treffen können, müssen wir die Marktlage genau analysieren. -> Nominal: _______________ müssen wir die Marktlage genau analysieren.",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "Vor dem Treffen einer endgültigen Entscheidung",
+        "Vor einer endgültigen Entscheidungstreffung",
+        "Vor dem Treffen von einer endgültigen Entscheidung",
+        "Vor dem Treffen zu einer endgültigen Entscheidung"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
+      "correctAnswer": "Vor dem Treffen einer endgültigen Entscheidung",
+      "explanation": "This targets the nominalization of a functional verb construction ('eine Entscheidung treffen'). 'Treffen' is nominalized to a neuter noun 'das Treffen', followed by a Genitive object: 'Vor dem Treffen einer endgültigen Entscheidung'.",
+      "difficulty": "hard",
+      "id": "b1_05_q054"
+    },
+    {
+      "questionText": "Verbal: Solange das Projekt nicht offiziell genehmigt ist, dürfen keine Gelder fließen. -> Nominal: _______________ dürfen keine Gelder fließen.",
+      "options": [
+        "Bis zur offiziellen Genehmigung des Projekts",
+        "Während der offiziellen Genehmigung des Projekts",
+        "Mithilfe der offiziellen Genehmigung des Projekts",
+        "Infolge der offiziellen Genehmigung des Projekts"
+      ],
+      "correctAnswer": "Bis zur offiziellen Genehmigung des Projekts",
+      "explanation": "'Solange ... nicht' expresses a limitation up to a specific point in time when an action finally occurs. The nominal equivalent for this timeframe limitation is 'bis zu' + Dative. 'Die Genehmigung' is feminine -> 'bis zur'.",
+      "difficulty": "hard",
+      "id": "b1_05_q055"
+    },
+    {
+      "questionText": "Wie lautet die korrekte Nominalisierung des Satzteils 'Kunden umfassend beraten'? Die Bank legt großen Wert auf eine _______________.",
+      "options": [
+        "umfassende Beratenheit der Kunden",
+        "umfassende Beratung der Kunden",
+        "umfassende Kundenberatung",
+        "Kunden umfassende Beratung"
+      ],
+      "correctAnswer": "umfassende Beratung der Kunden",
+      "explanation": "While 'umfassende Kundenberatung' is a legitimate compound word in general German, the grammatically equivalent structural nominalization of the phrase 'Kunden umfassend beraten' transforms the verb into 'die Beratung' accompanied by a Genitive attribute ('der Kunden').",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q056"
     },
     {
-      "id": "b1_05_q066",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "questionText": "Verbal: Da die Nachfrage nach Elektroautos massiv zurückgegangen ist, drosseln viele Hersteller die Produktion. -> Nominal: _______________ drosseln viele Hersteller die Produktion.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "Wegen des massiven Rückgangs der Nachfrage nach Elektroautos",
+        "Durch den massiven Rückgang der Nachfrage nach Elektroautos",
+        "Infolge des massiv Rückgangs der Nachfrage nach Elektroautos",
+        "Wegen dem massiven Rückgang der Nachfrage nach Elektroautos"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q067",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
-      "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
-      ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q068",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
+      "correctAnswer": "Wegen des massiven Rückgangs der Nachfrage nach Elektroautos",
+      "explanation": "'Da' is a causal conjunction requiring 'wegen' + Genitive. 'Der Rückgang' is masculine, turning into 'des massiven Rückgangs'. Option D uses Dative, which is colloquial and incorrect in formal B2 written grammar examinations.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q057"
     },
     {
-      "id": "b1_05_q069",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ du Deutsch ___ ___?",
+      "questionText": "Verbal: Wie der Wetterdienst vorhersagt, kommt es am Wochenende zu schweren Stürmen. -> Nominal: _______________ kommt es am Wochenende zu schweren Stürmen.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "Laut der Vorhersage des Wetterdienstes",
+        "Nach der Vorhersage vom Wetterdienst",
+        "Gemäß der Vorhersage des Wetterdienstes",
+        "In Übereinstimmung mit der Vorhersage des Wetterdienstes"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
+      "correctAnswer": "Laut der Vorhersage des Wetterdienstes",
+      "explanation": "A modal clause of reference introduced by 'wie' (as predicted by...) is nominalized using the preposition 'laut' + Genitive. Therefore, 'Laut der Vorhersage des Wetterdienstes' is the standard ideal form.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_05_q058"
     },
     {
-      "id": "b1_05_q070",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "questionText": "Verbal: Man darf die Laborräume nur betreten, wenn man Schutzkleidung trägt. -> Nominal: Das Betreten der Laborräume ist nur _______________ gestattet.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "durch Tragen von Schutzkleidung",
+        "beim Tragen von Schutzkleidung",
+        "unter Tragen von Schutzkleidung",
+        "mit dem Tragen von Schutzkleidung"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "unter Tragen von Schutzkleidung",
+      "explanation": "A condition or modal restriction associated with an ongoing accompaniment ('wenn man X trägt') is often nominalized with the preposition 'unter' + Dative. Thus, 'unter Tragen von...' is the premium B2/C1 phrasing.",
+      "difficulty": "hard",
+      "id": "b1_05_q059"
     },
     {
-      "id": "b1_05_q071",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "questionText": "Verbal: Nachdem die Verhandlungen erfolgreich abgeschlossen worden waren, gaben die Parteien eine Pressekonferenz. -> Nominal: _______________ gaben die Parteien eine Pressekonferenz.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "Nach dem erfolgreichen Abschluss der Verhandlungen",
+        "Nach erfolgreichem Abschließen von den Verhandlungen",
+        "Vor dem erfolgreichen Abschluss der Verhandlungen",
+        "Nachdem erfolgreichen Abschluss der Verhandlungen"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
+      "correctAnswer": "Nach dem erfolgreichen Abschluss der Verhandlungen",
+      "explanation": "'Nachdem' (after) indicates past anteriority and translates into 'nach' + Dative. 'Der Abschluss' is masculine, turning into 'nach dem erfolgreichen Abschluss'.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q060"
     },
     {
-      "id": "b1_05_q072",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "questionText": "Die ständige ____ der Kunden machte den Mitarbeitern zu schaffen.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "Beschweren",
+        "Beschwerde",
+        "Beschwerden",
+        "Beschwerens"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q073",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
-      "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
-      ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q074",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
-      "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
-      ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
+      "correctAnswer": "Beschwerden",
+      "explanation": "The nominalized plural noun 'Beschwerden' is required after 'die ständige'. The adjective 'ständige' (constant) describes a recurring pattern of complaints, which takes the plural noun form.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q061"
     },
     {
-      "id": "b1_05_q075",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "questionText": "Das ____ von Fremdsprachen eröffnet viele berufliche Möglichkeiten.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "Lernen",
+        "Lernt",
+        "Gelernt",
+        "Lernens"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q076",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
+      "correctAnswer": "Lernen",
+      "explanation": "Infinitive verbs can be nominalized and written with a capital letter. 'Das Lernen' (the learning) is a neuter nominalized infinitive functioning as subject.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "id": "b1_05_q062"
     },
     {
-      "id": "b1_05_q077",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "questionText": "Sein plötzliches ____ überraschte die ganze Familie.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "Verschwinden",
+        "Verschwindung",
+        "Verschwand",
+        "Verschwindens"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
+      "correctAnswer": "Verschwinden",
+      "explanation": "The nominalized infinitive 'Verschwinden' (the disappearing) fits as subject with the adjective 'plötzliches'. 'Verschwindung' is not a standard German word.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q063"
     },
     {
-      "id": "b1_05_q078",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "questionText": "Durch häufiges ____ verbessert man seine Aussprache erheblich.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "Üben",
+        "Übung",
+        "Geübt",
+        "Übens"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q079",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
+      "correctAnswer": "Üben",
+      "explanation": "After 'durch', a nominalized infinitive is commonly used. 'Das Üben' (the practicing) is the subject of the sentence.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "id": "b1_05_q064"
     },
     {
-      "id": "b1_05_q080",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "questionText": "Das unerwartete ____ des Direktors sorgte für große Unsicherheit.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "Zurücktreten",
+        "Zurücktritt",
+        "Zurücktretene",
+        "Zurücktretung"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
+      "correctAnswer": "Zurücktreten",
+      "explanation": "The nominalized infinitive 'das Zurücktreten' (the resigning/stepping down) is grammatically correct. While 'der Rücktritt' exists as a noun, the infinitive nominalization is required here with the adjective 'unerwartete'.",
+      "difficulty": "hard",
+      "id": "b1_05_q065"
+    },
+    {
+      "questionText": "Beim ____ komplizierter Texte braucht man viel Konzentration.",
+      "options": [
+        "Lesen",
+        "Liest",
+        "Gelesen",
+        "Lesung"
+      ],
+      "correctAnswer": "Lesen",
+      "explanation": "After 'beim', nominalized infinitives are frequently used. 'Beim Lesen' (while reading) is a fixed construction with the infinitive nominalized.",
+      "difficulty": "easy",
+      "id": "b1_05_q066"
+    },
+    {
+      "questionText": "Das ____ von Verantwortung fällt nicht jedem leicht.",
+      "options": [
+        "Übernehmen",
+        "Übernahme",
+        "Übernimmt",
+        "Übernommen"
+      ],
+      "correctAnswer": "Übernehmen",
+      "explanation": "The sentence requires the nominalized infinitive 'das Übernehmen' (the taking on/accepting). 'Übernahme' is also a valid noun but refers to the result or the act in a different context.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q067"
     },
     {
-      "id": "b1_05_q081",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "questionText": "Sein lautes ____ störte die anderen Gäste im Restaurant.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "Lachen",
+        "Lachung",
+        "Gelacht",
+        "Lachens"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q082",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
-      "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
-      ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
+      "correctAnswer": "Lachen",
+      "explanation": "Nominalized infinitives can function as subjects or objects. 'das laute Lachen' (the loud laughing) is the subject. 'Lachung' is not standard German.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "id": "b1_05_q068"
     },
     {
-      "id": "b1_05_q083",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "questionText": "Die ständige ____ zwischen den Abteilungen verzögerte das Projekt.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "Missverstehen",
+        "Missverständnis",
+        "Missverständnisse",
+        "Missverstanden"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
+      "correctAnswer": "Missverständnisse",
+      "explanation": "The plural noun 'Missverständnisse' (misunderstandings) fits semantically (ongoing misunderstandings between departments) and grammatically after 'die ständige'. 'Missverstehen' is a verb, not a noun.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q069"
     },
     {
-      "id": "b1_05_q084",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "questionText": "Ohne das rechtzeitige ____ der Daten hätte das Experiment nicht funktioniert.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "Auswerten",
+        "Auswertung",
+        "Ausgewertet",
+        "Auswertens"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
+      "correctAnswer": "Auswerten",
+      "explanation": "A nominalized infinitive is needed after the adjective phrase 'das rechtzeitige'. 'Das Auswerten' (the evaluating/analyzing) describes the act. 'Auswertung' can mean the result.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_05_q070"
     },
     {
-      "id": "b1_05_q085",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "questionText": "Das genaue ____ der Anleitung ist unbedingt notwendig.",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "Befolgen",
+        "Befolgung",
+        "Befolgt",
+        "Befolgens"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q086",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
-      "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
-      ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
+      "correctAnswer": "Befolgen",
+      "explanation": "The infinitive is nominalized and used as a noun. 'Das genaue Befolgen' (the exact following) is the subject. 'Befolgung' is also correct but less common.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q071"
     },
     {
-      "id": "b1_05_q087",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "questionText": "Sein ständiges ____ machte die Diskussion anstrengend.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "Unterbrechen",
+        "Unterbrechung",
+        "Unterbrochen",
+        "Unterbrechens"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q088",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sagte, er ___ morgen ___",
-      "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
-      ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q089",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ du Deutsch ___ ___?",
-      "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
-      ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
+      "correctAnswer": "Unterbrechen",
+      "explanation": "The nominalized infinitive 'das ständige Unterbrechen' (the constant interrupting) expresses repeated action. 'Unterbrechung' is a noun but means the individual interruption, not the repeated behavior pattern.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q072"
     },
     {
-      "id": "b1_05_q090",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "questionText": "Das ____ neuer Technologien verändert die Arbeitswelt erheblich.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "Einführen",
+        "Einführung",
+        "Eingeführt",
+        "Einführens"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
+      "correctAnswer": "Einführen",
+      "explanation": "A nominalized infinitive is required as the subject of the sentence. 'Das Einführen neuer Technologien' (the introduction of new technologies) is the subject.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_05_q073"
     },
     {
-      "id": "b1_05_q091",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "questionText": "Beim ____ internationaler Verträge müssen viele Details beachtet werden.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "Verhandeln",
+        "Verhandlung",
+        "Verhandelt",
+        "Verhandelns"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Verhandeln",
+      "explanation": "After 'beim', the nominalized infinitive is appropriate. 'Beim Verhandeln' (when negotiating) — the infinitive nominalization is standard in formal German.",
+      "difficulty": "hard",
+      "id": "b1_05_q074"
     },
     {
-      "id": "b1_05_q092",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "questionText": "Das unerlaubte ____ privater Daten kann rechtliche Folgen haben.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "Veröffentlichen",
+        "Veröffentlichung",
+        "Veröffentlicht",
+        "Veröffentlichens"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
+      "correctAnswer": "Veröffentlichen",
+      "explanation": "The sentence requires a nominalized infinitive. 'Das unerlaubte Veröffentlichen' (the unauthorized publishing) is the subject. 'Veröffentlichung' is the result noun (publication).",
+      "difficulty": "hard",
+      "id": "b1_05_q075"
+    },
+    {
+      "questionText": "Ihr häufiges ____ über Kleinigkeiten nervte ihre Kollegen.",
+      "options": [
+        "Klagen",
+        "Klage",
+        "Geklagt",
+        "Klagens"
+      ],
+      "correctAnswer": "Klagen",
+      "explanation": "Nominalized infinitives can describe repeated actions or behavior. 'das häufige Klagen' (the frequent complaining) with the adjective 'häufiges' describing the repetition.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q076"
     },
     {
-      "id": "b1_05_q093",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "questionText": "Das schnelle ____ auf Krisensituationen ist in diesem Beruf besonders wichtig.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "Reagieren",
+        "Reaktion",
+        "Reagiert",
+        "Reagierens"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
+      "correctAnswer": "Reagieren",
+      "explanation": "The nominalized infinitive 'das schnelle Reagieren' (the quick reacting) functions as the subject. This is a common B2 pattern: adjective + nominalized infinitive.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_05_q077"
     },
     {
-      "id": "b1_05_q094",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "questionText": "Durch konsequentes ____ kann man seine Ziele schneller erreichen.",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "Arbeiten",
+        "Arbeit",
+        "Gearbeitet",
+        "Arbeitens"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q095",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
+      "correctAnswer": "Arbeiten",
+      "explanation": "A nominalized infinitive follows the preposition 'durch'. 'Durch konsequentes Arbeiten' (through consistent working) — 'Arbeiten' here is the nominalized infinitive.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "id": "b1_05_q078"
     },
     {
-      "id": "b1_05_q096",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "questionText": "Das ____ komplexer Zusammenhänge fällt vielen Studierenden schwer.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "Verstehen",
+        "Verständnis",
+        "Versteht",
+        "Verstehens"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
+      "correctAnswer": "Verstehen",
+      "explanation": "The sentence requires the nominalized infinitive 'Verstehen' (understanding). 'Das Verstehen komplexer Zusammenhänge' (understanding complex relationships) is the subject.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_05_q079"
     },
     {
-      "id": "b1_05_q097",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "questionText": "Beim ____ wissenschaftlicher Artikel sollte man besonders aufmerksam sein.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "Analysieren",
+        "Analyse",
+        "Analysiert",
+        "Analysierens"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q098",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b1_05_q099",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
-      "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
-      ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
+      "correctAnswer": "Analysieren",
+      "explanation": "After 'beim', the nominalized infinitive is grammatically correct. 'Beim Analysieren wissenschaftlicher Artikel' (while analyzing scientific articles) is a fixed formal construction.",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "id": "b1_05_q080"
     },
     {
-      "id": "b1_05_q100",
-      "subjectId": "b1_05",
-      "topicName": "Relativsätze: Dativ und Genitiv",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "questionText": "Er hat uns ____ geholfen, ohne eine Gegenleistung zu erwarten.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "auf seine hilfsbereite Art",
+        "mit seiner Hilfsbereitschaft",
+        "indem er hilfsbereit war",
+        "weil er hilfsbereit half"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "mit seiner Hilfsbereitschaft",
+      "explanation": "The verb 'helfen' is nominalized to 'Hilfsbereitschaft' (helpfulness), creating a more formal, noun-based expression.",
+      "difficulty": "hard",
+      "id": "b1_05_q081"
+    },
+    {
+      "questionText": "____ ist für den Erfolg eines Projekts oft entscheidend.",
+      "options": [
+        "Dass gut geplant wird",
+        "Eine gute Planung",
+        "Wenn man gut plant",
+        "Weil man gut plant"
+      ],
+      "correctAnswer": "Eine gute Planung",
+      "explanation": "The verb 'planen' becomes the noun 'Planung'. A nominalized subject is more concise and formal than a clause.",
+      "difficulty": "hard",
+      "id": "b1_05_q082"
+    },
+    {
+      "questionText": "Wir danken Ihnen für Ihr ____.",
+      "options": [
+        "verstanden zu haben",
+        "Verständnis",
+        "verstehen",
+        "dass Sie verstanden haben"
+      ],
+      "correctAnswer": "Verständnis",
+      "explanation": "The verb 'verstehen' is nominalized to 'Verständnis' (understanding), common in formal thanks.",
+      "difficulty": "hard",
+      "id": "b1_05_q083"
+    },
+    {
+      "questionText": "____ der Umwelt ist eine globale Herausforderung.",
+      "options": [
+        "Zu schützen",
+        "Dass man schützt",
+        "Der Schutz",
+        "Das Schützen"
+      ],
+      "correctAnswer": "Der Schutz",
+      "explanation": "The verb 'schützen' is nominalized to 'Schutz' (protection). 'Der Schutz der Umwelt' is a standard nominalized phrase.",
+      "difficulty": "hard",
+      "id": "b1_05_q084"
+    },
+    {
+      "questionText": "Sein ____ war so überzeugend, dass alle zustimmten.",
+      "options": [
+        "dass er argumentierte",
+        "argumentieren",
+        "Argumentieren",
+        "Argumentation"
+      ],
+      "correctAnswer": "Argumentation",
+      "explanation": "The verb 'argumentieren' is nominalized to 'Argumentation' (argumentation/line of reasoning), not just the gerund.",
+      "difficulty": "hard",
+      "id": "b1_05_q085"
+    },
+    {
+      "questionText": "____ wird in diesem Unternehmen großgeschrieben.",
+      "options": [
+        "Wenn man pünktlich ist",
+        "Pünktlichkeit",
+        "Dass man pünktlich ist",
+        "Pünktlich sein"
+      ],
+      "correctAnswer": "Pünktlichkeit",
+      "explanation": "The adjective 'pünktlich' is nominalized to 'Pünktlichkeit' (punctuality), a common abstract noun.",
+      "difficulty": "hard",
+      "id": "b1_05_q086"
+    },
+    {
+      "questionText": "Die ____ der neuen Software verlief ohne Probleme.",
+      "options": [
+        "installieren",
+        "Installation",
+        "dass installiert wurde",
+        "Installieren"
+      ],
+      "correctAnswer": "Installation",
+      "explanation": "The verb 'installieren' becomes the noun 'Installation', typical in technical/formal contexts.",
+      "difficulty": "hard",
+      "id": "b1_05_q087"
+    },
+    {
+      "questionText": "____ ist nicht immer gleich ____.",
+      "options": [
+        "Wissen / Können",
+        "Das Wissen / das Können",
+        "Wissen / Können",
+        "Zu wissen / zu können"
+      ],
+      "correctAnswer": "Wissen / Können",
+      "explanation": "Both verbs are nominalized as neuter nouns 'das Wissen' and 'das Können' (knowing vs. being able to do). Here they appear without article as abstract qualities.",
+      "difficulty": "hard",
+      "id": "b1_05_q088"
+    },
+    {
+      "questionText": "Die ____ des Antrags muss bis Freitag erfolgen.",
+      "options": [
+        "einreichen",
+        "Einreichung",
+        "dass man einreicht",
+        "Einreichen"
+      ],
+      "correctAnswer": "Einreichung",
+      "explanation": "The verb 'einreichen' is nominalized to 'Einreichung' (submission), more formal than 'das Einreichen'.",
+      "difficulty": "hard",
+      "id": "b1_05_q089"
+    },
+    {
+      "questionText": "Nach ____ der Gefahr wurden alle Evakuierten.",
+      "options": [
+        "erkennen",
+        "dass man erkannte",
+        "Erkennung",
+        "dem Erkennen"
+      ],
+      "correctAnswer": "Erkennung",
+      "explanation": "The verb 'erkennen' becomes 'Erkennung' (detection/recognition), used with preposition 'nach' for temporal clauses.",
+      "difficulty": "hard",
+      "id": "b1_05_q090"
+    },
+    {
+      "questionText": "____ ist die beste Medizin, sagt man.",
+      "options": [
+        "Lachen",
+        "Das Lachen",
+        "Zu lachen",
+        "Lachen"
+      ],
+      "correctAnswer": "Lachen",
+      "explanation": "The verb 'lachen' is nominalized as 'das Lachen' (laughter), but in subject position without an article, 'Lachen' alone works as a nominalized infinitive.",
+      "difficulty": "hard",
+      "id": "b1_05_q091"
+    },
+    {
+      "questionText": "Die ____ dieses Problems erfordert viel Geduld.",
+      "options": [
+        "lösen",
+        "Lösung",
+        "dass man löst",
+        "Lösen"
+      ],
+      "correctAnswer": "Lösung",
+      "explanation": "The verb 'lösen' becomes 'Lösung' (solution), a standard noun, more idiomatic than 'das Lösen'.",
+      "difficulty": "hard",
+      "id": "b1_05_q092"
+    },
+    {
+      "questionText": "Trotz ____ der Gefahren ignorierte er die Warnungen.",
+      "options": [
+        "dass er kannte",
+        "seiner Kenntnis",
+        "kennen",
+        "des Kennens"
+      ],
+      "correctAnswer": "seiner Kenntnis",
+      "explanation": "The verb 'kennen' becomes 'Kenntnis' (knowledge). 'Trotz seiner Kenntnis' = despite his knowledge of the dangers, a formal nominalization.",
+      "difficulty": "hard",
+      "id": "b1_05_q093"
+    },
+    {
+      "questionText": "____ wird oft als Schlüssel zum Erfolg gesehen.",
+      "options": [
+        "Fleißig sein",
+        "Fleiß",
+        "Dass man fleißig ist",
+        "Der Fleiß"
+      ],
+      "correctAnswer": "Fleiß",
+      "explanation": "The adjective 'fleißig' becomes the noun 'Fleiß' (diligence). With the article 'Der Fleiß' it is clearly nominalized.",
+      "difficulty": "hard",
+      "id": "b1_05_q094"
+    },
+    {
+      "questionText": "Für ____ braucht man viel Übung.",
+      "options": [
+        "geduldig sein",
+        "die Geduld",
+        "dass man geduldig ist",
+        "Geduld"
+      ],
+      "correctAnswer": "Geduld",
+      "explanation": "The adjective 'geduldig' becomes 'Geduld' (patience). 'Für Geduld' = for patience (as a quality).",
+      "difficulty": "hard",
+      "id": "b1_05_q095"
+    },
+    {
+      "questionText": "____ ist eine wichtige soziale Kompetenz.",
+      "options": [
+        "Zuhören können",
+        "Zuhörfähigkeit",
+        "Das Zuhören",
+        "Dass man zuhört"
+      ],
+      "correctAnswer": "Zuhörfähigkeit",
+      "explanation": "The verb phrase 'zuhören können' is nominalized as 'Zuhörfähigkeit' (listening ability), a complex but very German nominalization.",
+      "difficulty": "hard",
+      "id": "b1_05_q096"
+    },
+    {
+      "questionText": "Die ____ des Vertrags ist für beide Seiten vorteilhaft.",
+      "options": [
+        "verlängern",
+        "Verlängerung",
+        "dass verlängert wird",
+        "Verlängern"
+      ],
+      "correctAnswer": "Verlängerung",
+      "explanation": "The verb 'verlängern' becomes 'Verlängerung' (extension), the standard noun in legal/business contexts.",
+      "difficulty": "hard",
+      "id": "b1_05_q097"
+    },
+    {
+      "questionText": "____ ist eine Kunst, die man lernen kann.",
+      "options": [
+        "Kommunizieren",
+        "Kommunikation",
+        "Dass man kommuniziert",
+        "Zu kommunizieren"
+      ],
+      "correctAnswer": "Kommunikation",
+      "explanation": "The verb 'kommunizieren' is nominalized as 'Kommunikation', a very common abstract noun.",
+      "difficulty": "hard",
+      "id": "b1_05_q098"
+    },
+    {
+      "questionText": "Wir zählen auf Ihre ____.",
+      "options": [
+        "unterstützen",
+        "Unterstützung",
+        "dass Sie unterstützen",
+        "Unterstützen"
+      ],
+      "correctAnswer": "Unterstützung",
+      "explanation": "The verb 'unterstützen' becomes 'Unterstützung' (support), standard in formal requests.",
+      "difficulty": "hard",
+      "id": "b1_05_q099"
+    },
+    {
+      "questionText": "____ ist nicht immer von Vorteil.",
+      "options": [
+        "Schnell entscheiden",
+        "Schnelligkeit",
+        "Schnelles Entscheiden",
+        "Die schnelle Entscheidung"
+      ],
+      "correctAnswer": "Schnelles Entscheiden",
+      "explanation": "The verb phrase 'schnell entscheiden' is nominalized as 'schnelles Entscheiden' (quick deciding), using the nominalized infinitive with an adjective.",
+      "difficulty": "hard",
+      "id": "b1_05_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

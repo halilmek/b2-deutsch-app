@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_04",
-  "topicName": "Verben: Präsens",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "4. Akkusativ (Wen-Fall)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_04_q001",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich sehe ___ Mann auf der Straße.\" – Welcher Artikel ist korrekt?",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "der",
+        "den",
+        "dem",
+        "des"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: den Mann (nach 'sehen')",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q002",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Welches Pronomen steht im Akkusativ? \"Er besucht ___ jeden Sonntag.\"",
       "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
+        "sie",
+        "ihr",
+        "ihre",
+        "ihnen"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
+      "correctAnswer": "sie",
+      "explanation": "Akkusativ 3. Person Plural: sie (Akkusativ)",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q003",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz verwendet den Akkusativ richtig?",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "Ich kaufe dem Buch.",
+        "Er sieht der Film.",
+        "Sie trinkt einen Tee.",
+        "Wir besuchen dem Freund."
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Sie trinkt einen Tee.",
+      "explanation": "einen Tee (Akkusativ) - trinken braucht Akkusativ",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q004",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Er liebt ___ Katze sehr.\" – Was fehlt?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "der",
+        "die",
+        "das",
+        "den"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "die",
+      "explanation": "Akkusativ feminin: die Katze (lieben braucht Akkusativ)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q005",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort steht im Akkusativ? \"Das Kind wirft ___ Ball.\"",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "der",
+        "dem",
+        "des",
+        "den"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "den",
+      "explanation": "Ball (maskulin) im Akkusativ → den Ball",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q006",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "\"Ich rufe ___ an.\" (mein Freund) – Welche Form ist korrekt?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "meinen Freund",
+        "meinem Freund",
+        "mein Freund",
+        "meiner Freund"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "meinen Freund",
+      "explanation": "Akkusativ: meinen Freund (anrufen braucht Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q007",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Was fragt man im Akkusativ?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "Wem?",
+        "Wessen?",
+        "Wen / Was?",
+        "Wo?"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "Wen / Was?",
+      "explanation": "Akkusativ fragt man mit Wen? oder Was?",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q008",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie braucht ___ neuen Computer.\" – Was ist korrekt?",
       "options": [
-        "ein",
-        "eine",
+        "einen",
+        "einem",
         "einer",
-        "-"
+        "ein"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ maskulin: einen neuen Computer",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q009",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "Er kauft einen Apfel.",
+        "Wir sehen den Film.",
+        "Du rufst dem Arzt.",
+        "Ich trinke einen Saft."
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Du rufst dem Arzt.",
+      "explanation": "Richtig: Du rufst den Arzt (anrufen braucht Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q010",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Er hat ___ Schwester besucht.\" – Was fehlt?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "seiner",
+        "seine",
+        "seinen",
+        "seinem"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "seine",
+      "explanation": "Akkusativ feminin: seine Schwester",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q011",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich kaufe ___ Computer.\" – Welcher Artikel ist korrekt?",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "der",
+        "den",
+        "dem",
+        "ein"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ Sg: einen Computer (kaufen)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q012",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir kennen ___ schon.\" – Was passt? (die Leute)",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "sie",
+        "ihnen",
+        "ihr",
+        "euch"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sie",
+      "explanation": "Akkusativ Plural: kennen + sie (wir kennen sie)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q013",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Er liest ___ jeden Tag.\" – Welches Demonstrativpronomen? (Buch)",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "dieses",
+        "diesem",
+        "dieser",
+        "der"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dieses",
+      "explanation": "Akkusativ neutral: dieses Buch (jeden Tag)",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q014",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "\"Sie hat ___ gestohlen.\" – Was fehlt? (das Geld)",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "es",
+        "ihn",
+        "ihm",
+        "sein"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
+      "correctAnswer": "es",
+      "explanation": "Akkusativ neutral: es (das Geld)",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q015",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich interessiere mich für ___.\" – Was passt? (die Musik)",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "sie",
+        "ihr",
+        "ihm",
+        "ihnen"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sie",
+      "explanation": "sich interessieren für + Akkusativ: für sie",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q016",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "\"Er trinkt ___ am Tag.\" – Welche Menge? (Wasser)",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "das Wasser",
+        "dem Wasser",
+        "den Wasser",
+        "ein Wasser"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "das Wasser",
+      "explanation": "Akkusativ neutral: trinkt das Wasser",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q017",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist FALSCH?",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "Ich sehe den Mann.",
+        "Er kauft ein Auto.",
+        "Sie nimmt ein Apfel.",
+        "Wir brauchen ein Ticket."
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
+      "correctAnswer": "Sie nimmt ein Apfel.",
+      "explanation": "Richtig: Sie nimmt einen Apfel (Akkusativ)",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q018",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "\"Sie trifft ___ in der Stadt.\" – Wen? (ihre Freundin)",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "ihre Freundin",
+        "ihrer Freundin",
+        "ihrer Freundin",
+        "ihre Freundin"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ihre Freundin",
+      "explanation": "Akkusativ feminin: ihre Freundin (treffen)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q019",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Das Kind wirft ___ in den Mülleimer.\" – Was? (der Ball)",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "der Ball",
+        "den Ball",
+        "dem Ball",
+        "des Balls"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "den Ball",
+      "explanation": "Akkusativ maskulin: den Ball (werfen)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q020",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich habe ___ gestern gekauft.\" – Was? (die Schuhe)",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "sie",
+        "ihnen",
+        "der",
+        "die Schuhe"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "die Schuhe",
+      "explanation": "Akkusativ Plural: die Schuhe (kaufen)",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q021",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich sehe ___ Mann.\" – Welcher Artikel im Akkusativ?",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
+        "der",
+        "den",
+        "dem",
+        "ein"
       ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: den Mann",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
     },
     {
       "id": "a1_04_q022",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ heißeße ich Anna.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir kaufen ___ Haus.\" – Akkusativ?",
       "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
+        "eine",
+        "einen",
+        "einer",
+        "einem"
       ],
-      "correctAnswer": "Ich",
-      "explanation": "",
+      "correctAnswer": "ein",
+      "explanation": "Akkusativ Neutrum: ein Haus",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
     },
     {
       "id": "a1_04_q023",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_04_q024",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_04_q025",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_04_q026",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_04_q027",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_04_q028",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_04_q029",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Katze fängt ___ Maus.\" – Akkusativ?",
       "options": [
         "der",
         "die",
         "das",
-        "ein"
+        "den"
       ],
       "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "explanation": "Akkusativ Feminin: die Maus",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q024",
+      "type": "multiple_choice",
+      "questionText": "\"Ich lese ___ Buch.\" – Welcher Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "das",
+      "explanation": "Akkusativ Neutrum: das Buch",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q025",
+      "type": "multiple_choice",
+      "questionText": "\"Er trinkt ___ Kaffee.\" – Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "einen"
+      ],
+      "correctAnswer": "den",
+      "explanation": "Kaffee = maskulin, Akkusativ: den Kaffee",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q026",
+      "type": "multiple_choice",
+      "questionText": "\"Sie kauft ___ Kleid.\" – Akkusativ?",
+      "options": [
+        "eine",
+        "einen",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "ein",
+      "explanation": "Kleid = Neutrum, Akkusativ: ein Kleid",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q027",
+      "type": "multiple_choice",
+      "questionText": "\"Ich kenne ___ Frau.\" – Akkusativ?",
+      "options": [
+        "der",
+        "die",
+        "das",
+        "den"
+      ],
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die Frau",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q028",
+      "type": "multiple_choice",
+      "questionText": "\"Wir brauchen ___ Tasche.\" – Akkusativ?",
+      "options": [
+        "eine",
+        "einen",
+        "einer",
+        "einem"
+      ],
+      "correctAnswer": "eine",
+      "explanation": "Tasche = feminin, Akkusativ: eine Tasche",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
+    },
+    {
+      "id": "a1_04_q029",
+      "type": "multiple_choice",
+      "questionText": "\"___ Junge liest ein Buch.\" – Nominativ?",
+      "options": [
+        "Der",
+        "Den",
+        "Dem",
+        "Ein"
+      ],
+      "correctAnswer": "Der",
+      "explanation": "Nominativ: der Junge",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
     },
     {
       "id": "a1_04_q030",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich komme ___ Deutschland.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Mutter liebt ___ Kind.\" – Akkusativ?",
       "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
+        "der",
+        "die",
+        "das",
+        "den"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "das",
+      "explanation": "Kind = Neutrum, Akkusativ: das Kind",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)",
+      "subjectId": "a1_04"
     },
     {
       "id": "a1_04_q031",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Ich sehe ___ Mann dort.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "dem",
+        "den",
+        "des"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "den",
+      "explanation": "den ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q032",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Sie kauft ___ Tasche.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "die ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q033",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Wir besuchen ___ Lehrer.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dem",
+        "den",
+        "der",
+        "des"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "den",
+      "explanation": "den ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q034",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Er braucht ___ Computer.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den",
+        "dem",
+        "der",
+        "des"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "den",
+      "explanation": "den ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q035",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Ich nehme ___ Bus zur Arbeit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "dem",
+        "den",
+        "des"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "den",
+      "explanation": "den ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q036",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Sie liebt ___ Hund sehr.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "den",
+        "dem",
+        "des"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "den",
+      "explanation": "den ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q037",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Habt ihr ___ Film gesehen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "den",
+        "dem",
+        "des"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "den",
+      "explanation": "den ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q038",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Wir essen ___ Kuchen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den",
+        "der",
+        "dem",
+        "des"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "den",
+      "explanation": "den ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q039",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Er öffnet ___ Fenster.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der",
+        "dem",
+        "das",
+        "des"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "das",
+      "explanation": "das ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q040",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Kennst du ___ Frau dort?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "die",
+      "explanation": "die ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q041",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q042",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q043",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q044",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q045",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q046",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q047",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q048",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q049",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_04_q050",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q051",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Den ganzen Tag über habe ich _____ nicht gesehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der Chef",
+        "den Chef",
+        "dem Chef",
+        "des Chefs"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "den Chef",
+      "explanation": "Akkusativ: habe ich nicht gesehen (wen?) = den Chef.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q052",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Wenn du _____ einmal triffst, sag ihm bitte, dass er mich anrufen soll.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deinen Bruder",
+        "deinem Bruder",
+        "deines Bruders",
+        "dein Bruder"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deinen Bruder",
+      "explanation": "Akkusativ: wen triffst du? = deinen Bruder (Akkusativ maskulin).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q053",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "In diesem Unternehmen schätzt man _____ Eigeninitiative besonders.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "der",
+        "den",
+        "das"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die Eigeninitiative (schätzt man = wen?).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q054",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Können Sie bitte _____ neuen Termin für die Besprechung festlegen?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "einen",
+        "einem",
+        "eines",
+        "ein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "einen",
+      "explanation": "Akkusativ maskulin: einen neuen Termin (festlegen = Akkusativ).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q055",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Warum hast du _____ gestern nicht nach seiner Meinung gefragt?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "der Experte",
+        "den Experten",
+        "dem Experten",
+        "des Experten"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "den Experten",
+      "explanation": "Akkusativ: wen hast du gefragt? = den Experten (maskulin mit -en Endung).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q056",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ vergessen, eine wichtige Datei anzuhängen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den Anhang",
+        "der Anhang",
+        "dem Anhang",
+        "des Anhangs"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "den Anhang",
+      "explanation": "Akkusativ: hat vergessen (was?) = den Anhang.",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q057",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Der Professor bat _____ um eine Verlängerung der Abgabefrist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seine Studenten",
+        "seinen Studenten",
+        "seinem Studenten",
+        "seines Studenten"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "seinen Studenten",
+      "explanation": "Akkusativ Plural: bat wen? = seine Studenten → Akkusativ = seinen Studenten.",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q058",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Ohne _____ wären wir aufgeschmissen gewesen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "eure Hilfe",
+        "eurer Hilfe",
+        "eurem Hilfe",
+        "euren Hilfe"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "eure Hilfe",
+      "explanation": "Akkusativ: ohne was? = eure Hilfe (Feminin, kein Artikel).",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q059",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Er beschuldigte _____ des Betrugs, konnte aber keine Beweise vorlegen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "seinen Nachbarn",
+        "sein Nachbar",
+        "seinem Nachbarn",
+        "seines Nachbarn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "seinen Nachbarn",
+      "explanation": "Akkusativ maskulin: beschuldigte wen? = seinen Nachbarn (des Betrugs = Genitiv).",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q060",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Selbst _____ größten Optimismus kann die Situation nicht retten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den",
+        "der",
+        "dem",
+        "des"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: selbst den größten Optimismus (Akussativ nach 'selbst').",
+      "difficulty": "medium",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q061",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Buch.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ neuen Kollegen gestern beim Einkaufen getroffen.",
       "options": [
         "der",
-        "die",
-        "das",
-        "ein"
+        "den",
+        "dem",
+        "die"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: getroffen (wen?) = den neuen Kollegen.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q062",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Sie sucht _____ Schlüssel, den sie verloren hat.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "der",
+        "die",
+        "das",
+        "ihren"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
+      "correctAnswer": "ihren",
+      "explanation": "Possessivpronomen Akkusativ maskulin: ihren Schlüssel (Akkusativ).",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q063",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Kannst du mir bitte _____ Buch zurückgeben, das ich dir geliehen habe?",
       "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
+        "der",
+        "die",
+        "das",
+        "dem"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "das",
+      "explanation": "Akkusativ Neutrum: das Buch (Buch = Neutrum).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q064",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ ganze Nacht durchgearbeitet, um die Deadline zu schaffen.",
       "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
+        "der",
+        "die",
+        "das",
+        "dem"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die ganze Nacht (Nacht = feminin).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q065",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "Wir haben _____ Entscheidung lange diskutiert, bevor wir uns geeinigt haben.",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "der",
+        "die",
+        "das",
+        "dem"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die Entscheidung (Entscheidung = feminin).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q066",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "Hast du _____ Film schon gesehen, der im Kino läuft?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "der",
+        "den",
+        "dem",
+        "die"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: den Film (Film = maskulin).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q067",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "Sie mag _____ Musik nicht, die zu laut ist.",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "der",
+        "die",
+        "das",
+        "dem"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
+      "correctAnswer": "die",
+      "explanation": "Akkusativ Feminin: die Musik (Musik = feminin).",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q068",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "Ich brauche _____ Hilfe, um dieses Problem zu lösen.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "dein",
+        "deine",
+        "deinem",
+        "deinen"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "deine",
+      "explanation": "Possessivpronomen Akkusativ Feminin: brauche deine Hilfe (Hilfe = feminin).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q069",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "Er trinkt _____ Kaffee immer ohne Zucker.",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "der",
+        "den",
+        "dem",
+        "die"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "den",
+      "explanation": "Akkusativ maskulin: den Kaffee (Kaffee = maskulin).",
+      "difficulty": "easy",
+      "topicName": "Akkusativ (Wen-Fall)"
     },
     {
       "id": "a1_04_q070",
       "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q071",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Auto.",
-      "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
-      ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q072",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Wir ___ am Montag.",
-      "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
-      ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q073",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ von zu Hause.",
-      "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
-      ],
-      "correctAnswer": "kommt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q074",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Uhr ist es?",
-      "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
-      ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q075",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich bin ___ Student.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q076",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Du ___ das nicht.",
-      "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
-      ],
-      "correctAnswer": "kannst",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q077",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das Kind ___ eine Katze.",
-      "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q078",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Tag ist heute?",
-      "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
-      ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q079",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich habe ___ Hunger.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q080",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ kein Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q081",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q082",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q083",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q084",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q085",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q086",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q087",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q088",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Lampe.",
+      "type": "multiple_choice",
+      "questionText": "Wir erwarten _____ Gäste erst morgen Abend.",
       "options": [
         "der",
         "die",
         "das",
-        "ein"
+        "den"
       ],
       "correctAnswer": "die",
-      "explanation": "",
+      "explanation": "Akkusativ Plural: die Gäste (Gäste = Plural maskulin).",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q089",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q090",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q091",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q092",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q093",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q094",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q095",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q096",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q097",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q098",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q099",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_04_q100",
-      "subjectId": "a1_04",
-      "topicName": "Verben: Präsens",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Akkusativ (Wen-Fall)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

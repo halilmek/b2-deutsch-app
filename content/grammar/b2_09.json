@@ -1,1677 +1,1661 @@
 {
+  "version": "2.0",
   "subjectId": "b2_09",
   "topicName": "Negationswörter",
-  "level": "B2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "lerntipps": [
+    {
+      "title": "nichts — Hiçbir şey (nesne/özne olarak)",
+      "content": "nichts\" bir şeyin olmadığını veya yapılmadığını belirtir. Cümlede tek başına kullanılır — bir isimden önce gelMEZ, çünkü o zaman „kein\" kullanılır.\n\n⚠️ DİKKAT: „nichts\" asla „nicht\" ile karıştırılmamalıdır:\n• „nicht\" → bir fiili veya sıfatı olumsuzlar\n• „nichts\" → bir nesneyi veya tüm cümleyi olumsuzlar\n\n📌 Beispiele:\n• Er hat nichts gesagt. (Hiçbir şey söylemedi.)\n• Ich habe nichts gegessen. (Hiçbir şey yemedim.)\n• Nichts ist passiert. (Hiçbir şey olmadı.)\n• Das interessiert mich nichts. (Bu beni hiç ilgilendirmiyor.)\n• Sie hat nichts davon gewusst. (Bunun hiçbirinden haberdar olmadı.)",
+      "icon": "❌"
+    },
+    {
+      "title": "nie / niemals — Hiçbir zaman (zaman zarfı)",
+      "content": "Zaman zarfı olarak cümlede kullanılır ve fiili olumsuzlar.\n\n📌 nie = günlük dilde, daha yaygın\n📌 niemals = daha vurgulu, edebi, kesinlikle asla\n\n⚠️ Bu iki kelime hiçbir zaman bir isimden önce gelMEZ!\n\n📌 Beispiele:\n• Ich war nie in Japan. (Hiçbir zaman Japonya'da bulunmadım.)\n• Das werde ich niemals vergessen! (Bunu ASLA unutmayacağım!)\n• Sie kommt nie zu spät. (O asla geç gelmez.)\n• Er hat niemals so etwas gesagt. (O asla böyle bir şey söylemedi.)\n• Wir haben uns nie getroffen. (Hiçbir zaman buluşmadık.)",
+      "icon": "⏰"
+    },
+    {
+      "title": "niemand — Hiç kimse (insanlar için)",
+      "content": "İnsanları olumsuzlarken kullanılır. Cümle içinde 3 durumda kullanılır:\n\n📌 Nominativ: niemand (özne) → Niemand war da. (Hiç kimse yoktu.)\n📌 Akkusativ: niemanden → Ich habe niemanden gesehen. (Hiç kimseyi görmedim.)\n📌 Dativ: niemandem → Mit niemandem habe ich gesprochen. (Hiç kimseyle konuşmadım.)\n📌 Genitiv: niemandes → Niemandes Antwort war richtig. (Hiç kimsenin cevabı doğru değildi.)\n\n⚠️ „Niemand\" isimden önce gelMEZ, tek başına kullanılır!\n\n📌 Beispiele:\n• Niemand hat mir geholfen. (Hiç kimse yardım etmedi.)\n• Ich kenne niemanden hier. (Burada hiç kimseyi tanımıyorum.)\n• Mit niemandem kannst du reden. (Hiç kimseyle konuşabilirsin — kimseyle değil.)\n• Das ist niemandes Schuld. (Bu hiç kimsenin suçu değil.)",
+      "icon": "👤"
+    },
+    {
+      "title": "kein — Hiç / Yok (sıfat olarak, isimden ÖNCE)",
+      "content": "„Kein\" bir isimden ÖNCE gelir ve o ismi olumsuz yapar — tıpkı İngilizce'de „a/an\"ın olumsuzunun „not a/an\" değil „no\" olması gibi.\n\n📌 Cinsiyete ve duruma göre 4 formu vardır:\n• kein (Maskulin & Nöter, Nominativ)\n• keine (Feminin, Nominativ & Akkusativ)\n• keinen (Maskulin, Akkusativ)\n• keinem (Dativ)\n• keines (Genitiv)\n\n📌 Beispiele:\n• Ich habe kein Geld. (Param yok / Hiç param yok.) [Nöter, Akkusativ]\n• Er hat keine Freunde hier. (Burada arkadaşı yok.) [Feminin, Akkusativ]\n• Das ist kein Problem. (Bu sorun değil / sorun yok.) [Nöter, Nominativ]\n• Sie hat keine Zeit. (Onun zamanı yok.) [Feminin, Nominativ]\n• Mit keinem Wort hat er reagiert. (Tek bir kelimeyle bile tepki göstermedi.) [Dativ]",
+      "icon": "🚫"
+    },
+    {
+      "title": "nirgends / nirgendwo — Hiçbir yerde / Hiçbir yere",
+      "content": "Yer belirteci olarak kullanılır. İki ana form:\n\n📌 nirgendwo / nirgends = nowhere (nerede değil)\n📌 nirgendwohin = nowhere (nereye değil — yön belirtir)\n📌 nirgendher = from nowhere (nereden değil)\n\n⚠️ „nirgends\" ve „nirgendwo\" sadece yer/zaman belirtir, insanlar için DEĞİL!\n\n📌 Beispiele:\n• Er ist nirgends zu finden. (O hiçbir yerde bulunamıyor.)\n• Das Paket ist nirgendwo angekommen. (Paket hiçbir yere ulaşmadı.)\n• Ich habe ihn nirgends gesehen. (Onu hiçbir yerde görmedim.)\n• Sie geht nirgendwohin. (O hiçbir yere gitmiyor.)\n• Das kommt nirgendher. (Bu nereden geliyor — hiçbir yerden gelmiyor.)",
+      "icon": "📍"
+    },
+    {
+      "title": "weder … noch — Ne … ne de (iki ifadeyi birlikte olumsuzlama)",
+      "content": "İki şeyi aynı anda olumsuzlamak için kullanılır. „Weder\" ilk olumsuz ifadeden önce, „noch\" ikincisinden önce gelir.\n\n📌 „weder…noch\" her iki ifadeyi de olumsuzlar = ne…ne de\n📌 Cümlede sıfat, isim veya fiil olabilir\n\n⚠️ „weder\" cümle başında BÜYÜK harfle yazılır!\n\n📌 Beispiele:\n• Ich habe weder Hunger noch Durst. (Ne açım ne de susadım.)\n• Er hat weder geschlafen noch gegessen. (Uyumadı da yemek de yemedi.)\n• Sie ist weder froh noch traurig. (Ne mutlu ne de üzgün.)\n• Weder du noch er hast recht. (Ne sen ne de o haklısın.)\n• Das ist weder gut noch schlecht. (Bu ne iyi ne de kötü.)",
+      "icon": "⚖️"
+    },
+    {
+      "title": "keiner / keine / kein — Hiçbiri (isim olarak, tek başına)",
+      "content": "„Kein\" isim olarak (sıfat olmadan) tek başına kullanıldığında cinsiyete göre değişir. Bu, bir isim cümlede daha önce geçtiğinde veya bağlamdan anlaşıldığında kullanılır.\n\n📌 Nominativ: keiner (Maskulin), keine (Feminin), kein (Nöter)\n📌 Akkusativ: keinen (Maskulin), keine (Feminin), kein (Nöter)\n📌 Dativ: keinem (Maskulin/Nöter), keiner (Feminin)\n📌 Genitiv: keines (Maskulin/Nöter), keiner (Feminin)\n\n📌 Beispiele:\n• Keiner hat das gewusst. (Hiçbiri bunu bilmiyordu.) [Maskulin, Nominativ]\n• Von den Büchern ist keines interessant. (Kitapların hiçbiri ilginç değil.) [Nöter, Nominativ]\n• Keine von ihnen war da. (Onların hiçbiri orada değildi.) [Feminin, Nominativ]\n• Ich habe keinen von ihnen gesehen. (Onların hiçbirini görmedim.) [Maskulin, Akkusativ]\n• Mit keinem davon kann ich arbeiten. (Bunların hiçbiriyle çalışamıyorum.) [Dativ]",
+      "icon": "🚫"
+    },
+    {
+      "title": "nicht nur … sondern auch — Sadece … değil, aynı zamanda",
+      "content": "Bir şeyi olumsuzlayıp diğerini vurgulayarak ekler. „Nicht nur\" ilk ifadeden önce, „sondern auch\" ikincisinden önce gelir.\n\n📌 „weder…noch\" tamamen olumsuzlarken, „nicht nur…sondern auch\" ilk kısmı olumsuzlar ama ikincisini ekler\n\n📌 Beispiele:\n• Er hat nicht nur die Prüfung bestanden, sondern auch die beste Note bekommen. (Sadece sınavı geçmekle kalmadı, aynı zamanda en iyi notu da aldı.)\n• Nicht nur du, sondern auch ich bin müde. (Sadece sen değil, ben de yorgunum.)\n• Sie hat nicht nur angerufen, sondern auch eine E-Mail geschrieben. (Sadece aramakla kalmadı, aynı zamanda e-posta da yazdı.)",
+      "icon": "📝"
+    },
+    {
+      "title": "ohne … zu + Infinitiv — -madan/-meden, -sız/-siz",
+      "content": "„Ohne\" bir isim veya zamir alır ve „zu + Infinitiv\" ile devam eder. Bunu yapmadan bir şeyi ifade eder.\n\n📌 „ohne + Akkusativ\" + „zu + Infinitiv\"\n\n📌 Beispiele:\n• Er ist gegangen, ohne ein Wort zu sagen. (Tek bir kelime söylemeden gitti.)\n• Ohne die Brille zu tragen, kann ich nichts lesen. (Gözlüksüz hiçbir şey okuyamıyorum.)\n• Sie hat das gemacht, ohne darüber nachzudenken. (Düşünmeden bunu yaptı.)\n• Ohne Geld zu haben, kannst du nichts kaufen. (Paran olmadan hiçbir şey satın alamazsın.)",
+      "icon": "🔄"
+    },
+    {
+      "title": "Special: noch nie / nicht mehr / schon lange nicht",
+      "content": "Zaman ifade eden özel olumsuzlama kalıpları:\n\n📌 „noch nie\" = henüz hiç (daha önce hiç yapmadım)\n📌 „nicht mehr\" = artık değil / artık …-mıyor\n📌 „schon lange nicht\" = çoktandır / uzun zamandır …-mıyor\n📌 „immer noch nicht\" = hâlâ değil / hâlâ …-madı\n\n📌 Beispiele:\n• Ich war noch nie in Japan. (Henüz hiç Japonya'da bulunmadım.)\n• Er ist nicht mehr gekommen. (Artık gelmedi / gelmiyor.)\n• Ich habe sie schon lange nicht mehr gesehen. (Uzun zamandır onu görmedim.)\n• Sie ist immer noch nicht angekommen. (Hâlâ gelmedi.)\n• Das habe ich noch nie gehört! (Bunu daha önce hiç duymadım!)",
+      "icon": "🕐"
+    }
+  ],
   "questions": [
     {
       "id": "b2_09_q001",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ gesagt.\n(Hiçbir şey söylemedi.)",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "nicht",
+        "nichts",
+        "niemand",
+        "nirgends"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey. „Er hat NICHTS gesagt.\" — „nicht\" bir fiili, „nichts\" bir nesneyi olumsuzlar.",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q002",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "_____ war zu Hause.\n(Evde hiç kimse yoktu.)",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "Nichts",
+        "Nirgends",
+        "Niemand",
+        "Keiner"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse (insanlar için). „Niemand war zu Hause.\" — yer/zaman için „nirgends\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q003",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Sie geht _____ einkaufen.\n(Hiçbir zaman alışverişe gitmez.)",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "nirgends",
+        "niemand",
+        "nichts",
+        "nie"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman (zaman zarfı). „Sie geht NIE einkaufen.\" — yer belirteci için „nirgends\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q004",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ Geld.\n(Param yok.)",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "nicht",
+        "nichts",
+        "kein",
+        "niemand"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
+      "correctAnswer": "kein",
+      "explanation": "„Geld\" bir isim (Nomen). İsimleri olumsuzlamak için „kein\" kullanılır. „Ich habe KEIN Geld.\"",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q005",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Das stimmt _____.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "kein",
+        "niemand",
+        "nicht",
+        "nichts"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "nicht",
+      "explanation": "„Stimme\" bir fiil (doğru olmak). „Das stimmt NICHT.\" — isim değil fiil olduğu için „nicht\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q006",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "_____ hat mir geholfen.\n(Hiç kimse yardım etmedi.)",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "Niemanden",
+        "Niemand",
+        "Nirgendwo",
+        "Nichts"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Niemand",
+      "explanation": "Nominativ: „Niemand hat mir geholfen.\" — „Niemanden\" Akkusativ, „Nirgendwo\" yer zarfı, „Nichts\" nesne.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q007",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ getroffen.\n(Hiç kimseyle karşılaşmadım.)",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "niemand",
+        "niemanden",
+        "niemandem",
+        "nichts"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "niemanden",
+      "explanation": "Akkusativ: „Ich habe NIEMANDEN getroffen.\" — „treffen\" (karşılaşmak) Akkusatif gerektirir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q008",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Er ist _____ zu finden.\n(Hiçbir yerde bulunamıyor.)",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "nirgends",
+        "niemals",
+        "niemand",
+        "nichts"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "nirgends",
+      "explanation": "Yer belirteci: „Er ist NIRGENDS zu finden.\" — „niemals\" zaman, „niemand\" insanlar için.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q009",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Das hat er _____ gemacht.\n(Bunu hiçbir zaman yapmadı.) — vurgulu ifade",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "nie",
+        "niemals",
+        "nirgends",
+        "nicht"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "niemals",
+      "explanation": "„Niemals\" = „nie\"'den daha vurgulu. „Das hat er NIEMALS gemacht.\" — vurgulu ifadelerde „niemals\" tercih edilir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q010",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ Hunger, _____ Durst.\n(Ne açım ne de susadım.)",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "weder … noch",
+        "entweder … oder",
+        "nicht … sondern",
+        "kaum … als"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "weder … noch",
+      "explanation": "„Weder…noch\" = ne…ne de. İki ifadeyi aynı anda olumsuzlar. „WEDER Hunger NOCH Durst.\"",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q011",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "_____ Wichtiges ist passiert.\n(Önemli bir şey olmadı.)",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "Nicht",
+        "Nichts",
+        "Kein",
+        "Niemand"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "Nichts",
+      "explanation": "„Nichts\" cümle başında ve tek başına kullanılabilir. „NICHTS Wichtiges ist passiert.\" — „nicht\" sıfatların önüne gelmez.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q012",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ du mit dem Essen fertig bist, räum bitte auf.",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ Freunde hier.\n(Burada arkadaşı yok.)",
       "options": [
-        "Sobald",
-        "Solange",
-        "Wenn",
-        "Nachdem"
+        "nicht",
+        "nichts",
+        "keine",
+        "nirgends"
       ],
-      "correctAnswer": "Sobald",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "keine",
+      "explanation": "„Freunde\" (çoğul isim) „keine\" ile olumsuzlanır. „Er hat KEINE Freunde hier.\" — „Freunde\" feminin değil, çoğul.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q013",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Das Haus, ___ wir gekauft haben, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Sie war _____ allein.\n(Hiçbir zaman yalnız değildi.) — çok vurgulu",
       "options": [
-        "das",
-        "der",
-        "dem",
-        "dessen"
+        "nie",
+        "niemals",
+        "nicht",
+        "nirgends"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "niemals",
+      "explanation": "Çok vurgulu ifadelerde „niemals\" tercih edilir. „Sie war NIEMALS allein.\" — „nie\" daha günlük, „niemals\" daha edebi/vurgulu.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q014",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland gelebt ___",
+      "type": "multiple_choice",
+      "questionText": "Ich kenne hier _____. (Burada hiç kimseyi tanımıyorum.)",
       "options": [
-        "weil / hat",
-        "obwohl / gewohnt hat",
-        "wenn / lebt",
-        "damit / lebte"
+        "niemand",
+        "niemanden",
+        "niemandes",
+        "niemandem"
       ],
-      "correctAnswer": "weil / gewohnt hat",
-      "explanation": "",
+      "correctAnswer": "niemanden",
+      "explanation": "Akkusatif: „Ich kenne hier NIEMANDEN.\" — „kennen\" Akkusatif gerektirir.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q015",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ sie in München wohnte, hat sie viele Museen besucht.",
+      "type": "multiple_choice",
+      "questionText": "Das Paket ist _____ angekommen.\n(Paket hiçbir yere ulaşmadı.)",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Seitdem"
+        "nirgends",
+        "nirgendwo",
+        "nirgendwohin",
+        "niemals"
       ],
-      "correctAnswer": "Während",
-      "explanation": "",
+      "correctAnswer": "nirgendwo",
+      "explanation": "„Nirgendwo\" = nowhere (yer belirteci). „Das Paket ist NIRGENDWO angekommen.\" — „nirgendwohin\" (hiçbir yere, yönü ifade eder) burada değil.",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q016",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich würde das ___ machen, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat weder geschlafen _____ gegessen.\n(Uyumadı da yemek de yemedi.)",
       "options": [
-        "gerne / hätte",
-        "besser / habe",
-        "am liebsten / haben würde",
-        "viel / gehabt"
+        "oder",
+        "noch",
+        "als",
+        "auch"
       ],
-      "correctAnswer": "gerne / hätte",
-      "explanation": "",
+      "correctAnswer": "noch",
+      "explanation": "„Weder…noch\" = ne…ne de. „WEDER geschlafen NOCH gegessen.\" — „oder\" „veya\" anlamında, „noch\" „de\" anlamında (olumsuzda).",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q017",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ Ahnung davon.\n(Bundan hiç fikrim yok.)",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "nicht",
+        "keine",
+        "nichts",
+        "niemand"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "keine",
+      "explanation": "„Ahnung\" feminin bir isim (die Ahnung). „Ich habe KEINE Ahnung davon.\" — „nichts\" değil çünkü „Ahnung\" isim.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q018",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ könnte.",
+      "type": "multiple_choice",
+      "questionText": "_____ hat das gewusst.\n(Hiç kimse bunu bilmiyordu.) — vurgulu/edebi",
       "options": [
-        "obwohl / sein",
-        "weil / war",
-        "wenn / ist",
-        "damit / sei"
+        "Keiner",
+        "Niemand",
+        "Niemandes",
+        "Nichts"
       ],
-      "correctAnswer": "obwohl / sein",
-      "explanation": "",
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" vurgulu/edebi kullanımda „keiner\" yerine tercih edilir. „NIEMAND hat das gewusst.\" — Nominativ.",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q019",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ Neuigkeiten!\n(Bu hiç haber değil!) — sıfat tamlaması",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "keine",
+        "nicht",
+        "nichts",
+        "kein"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "keine",
+      "explanation": "Sıfat tamlamasında: „keine Neuigkeiten\" (die Neuigkeiten — feminin, çoğul). „Das sind KEINE Neuigkeiten!\" — „nichts\" tek başına kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q020",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er ist der beste Schüler, ___ ich je unterrichtet habe.",
+      "type": "multiple_choice",
+      "questionText": "Mit _____ habe ich darüber gesprochen.\n(Bununla hakkında hiç kimseyle konuşmadım.)",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "niemand",
+        "niemanden",
+        "niemandem",
+        "niemandes"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "niemandem",
+      "explanation": "Dativ: „Mit NIEMANDEM...\" — „mit\" Dativ gerektirir. „niemanden\" Akkusativ, „niemandem\" Dativ.",
+      "difficulty": "hard",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q021",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Hast du heute schon etwas gegessen? – Nein, ich habe noch _____ gegessen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "nie",
+        "nichts",
+        "niemand",
+        "nirgendwo"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey (something negatifi). „Ich habe noch NICHTS gegessen.\" — „nogün hiçbir şey yemedim.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q022",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Warst du schon mal in Japan? – Nein, ich war _____ dort.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "nichts",
+        "niemand",
+        "niemals",
+        "kein"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
+      "correctAnswer": "niemals",
+      "explanation": "„Niemeals\" = hiçbir zaman (vurgulu). „Ich war NIEMALS dort.\" — „nie\" günlük, „niemals\" vurgulu/edebi.",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q023",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "_____ hat mir bei den Hausaufgaben geholfen. Ich musste alles allein machen.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "Etwas",
+        "Jemand",
+        "Niemand",
+        "Nichts"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse (insanlar için, Nominativ). „NIEMAND hat mir geholfen.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q024",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe meinen Schluessel ueberall gesucht, aber ich kann ihn _____ finden.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "nirgendwo",
+        "niemals",
+        "nichts",
+        "niemand"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nirgendwo",
+      "explanation": "„Nirgendwo\" = hiçbir yerde (yer belirteci). „Ich kann ihn NIRGENDWO finden.\" — „niemals\" zaman, „nichts\" nesne.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q025",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Kennst du jemanden hier auf der Party? – Nein, ich kenne _____.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "nichts",
+        "niemanden",
+        "niemals",
+        "nie"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "niemanden",
+      "explanation": "Akkusatif: „Ich kenne NIEMANDEN.\" — „kennen\" Akkusatif gerektirdigi için „niemanden\" kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q026",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "_____ von meinen Freunden hatte Zeit, mit mir ins Kino zu gehen.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "Nichts",
+        "Niemand",
+        "Keiner",
+        "Nie"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
+      "correctAnswer": "Keiner",
+      "explanation": "İsim olarak „kein\" (Nominativ maskulin): „KEINER von meinen Freunden.\" — „keiner\" bir ismi olumsuzlar, „niemand\" bir kişiyi.",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q027",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Hast du irgendwelche Nachrichten fuer mich? – Nein, _____ Neues.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "nie",
+        "nichts",
+        "niemanden",
+        "nirgends"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nichts",
+      "explanation": "Tek başına kullanım: „NICHTS Neues.\" — „Neues\" bir sıfat, „nichts\" onu olumsuzlar.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q028",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Er ist so unzuverlaessig, man kann ihm _____ glauben.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "nichts",
+        "niemand",
+        "nirgends",
+        "nie"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "nie",
+      "explanation": "„Man kann ihm NIE glauben.\" — „asla güvenemezsin\" anlamında „nie\" (zaman zarfı) kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q029",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Hat _____ angerufen, waehrend ich weg war? – Nein, das Telefon war still.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "niemand",
+        "nichts",
+        "nie",
+        "jemand"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
+      "correctAnswer": "jemand",
+      "explanation": "Soruda „jemand\" (birisi) kullanılır cünkü cevap birisi mi soruluyor. „Hat JEMAND angerufen?\" — Hayır, kimse aramadı = „Nein, niemand.\"",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q030",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe in diesem Schrank nachgesehen, aber da ist _____ drin.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "nie",
+        "nichts",
+        "niemand",
+        "nirgends"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey yok içinde. „Da ist NICHTS drin.\" — „nirgends\" yer belirteci, burada nesne olumsuzlanıyor.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q031",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Glaubst du, dass wir uns _____ wiedersehen werden?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemals",
+        "nirgendwo",
+        "niemand"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "niemals",
+      "explanation": "„Niemeals\" = asla, hiçbir zaman. „Dass wir uns NIEMALS wiedersehen werden.\" — „nie\" ve „niemals\" her ikisi de olabilir ama vurgulu ifadede „niemals\" tercih edilir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q032",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe mit _____ ueber mein Geheimnis gesprochen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemandem",
+        "nie",
+        "keinen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "niemandem",
+      "explanation": "Dativ: „Mit NIEMANDEM...\" — „mit\" Dativ gerektirdigi için „niemandem\" (Dativ) kullanılır.",
+      "difficulty": "hard",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q033",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Wo ist die Fernbedienung? Ich kann sie _____ finden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nirgends",
+        "niemals",
+        "niemand",
+        "nichts"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "nirgends",
+      "explanation": "Yer belirteci: „Ich kann sie NIRGENDS finden.\" — „hiçbir yerde bulamıyorum.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q034",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "_____ ist perfekt, jeder macht mal Fehler.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Nichts",
+        "Niemand",
+        "Nie",
+        "Keiner"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Niemand",
+      "explanation": "İnsanlar için: „NIEMAND ist perfekt.\" — „Nichts\" şeyler için, „Niemand\" insanlar için.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q035",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Hast du heute etwas Besonderes vor? – Nein, _____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nie",
+        "nichts",
+        "nirgendwo",
+        "niemand"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "nichts",
+      "explanation": "Tek başına: „NICHTS.\" — „özel bir şeyim yok\" anlamında „nichts\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q036",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Wir haben lange gewartet, aber _____ kam zu dem Treffen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemals",
+        "niemand",
+        "nirgends"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "niemand",
+      "explanation": "İnsanlar için Nominativ: „NIEMAND kam zu dem Treffen.\" — „hiç kimse gelmedi.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q037",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Das ist eine private Feier, hier darf _____ rein, der keine Einladung hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemand",
+        "nie",
+        "nirgends"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "niemand",
+      "explanation": "„Hier darf NIEMAND rein...\" — „davetiyesi olmayan hiç kimse giremez.\" Burada „niemand\" bir kural ifadesi olarak kullanılıyor.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q038",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Ich werde diese Reise _____ vergessen, sie war wunderschön.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "nie",
+        "niemand",
+        "nirgends"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "nie",
+      "explanation": "„Ich werde diese Reise NIE vergessen.\" — „asla unutmayacağım\" anlamında zaman zarfı „nie\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q039",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Gibt es ein Problem? – Nein, _____ ist passiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "niemand",
+        "nichts",
+        "nie",
+        "nirgends"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "nichts",
+      "explanation": "„NICHTS ist passiert.\" — „hiçbir şey olmadı.\" „Passieren\" bir fiil olduğu için „nichts\" ile olumsuzlanır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q040",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Hast du die Tasche irgendwo gesehen? – Nein, _____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemanden",
+        "nirgends",
+        "niemals"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "nirgends",
+      "explanation": "Yer belirteci: „Ich habe sie NIRGENDS gesehen.\" — „hiçbir yerde görmedim.\"",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q041",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Passiv Präteritum: \"wurde gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ___ gesehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "niemand",
+        "nichts",
+        "nie",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey. „Ich habe NICHTS gesehen.\" — „görmedim\" anlamında nesne olarak „nichts\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q042",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Je...desto\" braucht den Komparativ.",
+      "type": "multiple_choice",
+      "questionText": "___ war zu Hause, alle waren weg.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Nichts",
+        "Niemand",
+        "Nie",
+        "Kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse. „NIEMAND war zu Hause.\" — insanlar için Nominativ.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q043",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Relativsätze im Genitiv: \"der Mann, dessen Auto...\"",
+      "type": "multiple_choice",
+      "questionText": "Ich gehe ___ ins Kino.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "nie",
+        "niemand",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman (zaman zarfı). „Ich gehe NIE ins Kino.\" — „asla sinemaya gitmem.\"",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q044",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Einander\" ist ein Pronomen.",
+      "type": "multiple_choice",
+      "questionText": "Er hat ___ gesagt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemand",
+        "nie",
+        "keinen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey. „Er hat NICHTS gesagt.\" — nesne olarak „nichts\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q045",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Weil\" und \"da\" sind synonym.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ___ Zeit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "kein",
+        "nie",
+        "niemand"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "kein",
+      "explanation": "„Zeit\" bir isim (Nomen). „Ich habe KEINE Zeit.\" — isimleri olumsuzlamak için „kein\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q046",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Trotzdem\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Wir haben ihn ___ gesehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "niemand",
+        "nichts",
+        "nie",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman (zaman zarfı). „Wir haben ihn NIE gesehen.\" — fiili değil zamanı olumsuzlar.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q047",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Werden\" zeigt die Zukunft an.",
+      "type": "multiple_choice",
+      "questionText": "___ hat mir geholfen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Nichts",
+        "Niemand",
+        "Nie",
+        "Kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse. „NIEMAND hat mir geholfen.\" — Nominativ, insanlar için.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q048",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Nicht\" verneint das Verb.",
+      "type": "multiple_choice",
+      "questionText": "Ich finde das Buch ___.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "niemand",
+        "nichts",
+        "nirgendwo",
+        "nie"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "nirgendwo",
+      "explanation": "„Nirgendwo\" = hiçbir yerde. „Ich finde das Buch NIRGENDWO.\" — yer belirteci.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q049",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Niemand\" negiert \"jemand\".",
+      "type": "multiple_choice",
+      "questionText": "Das werde ich ___ machen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemand",
+        "niemals",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "niemals",
+      "explanation": "„Niemeals\" = asla, hiçbir zaman (vurgulu). „Das werde ich NIEMALS machen.\" — vurgulu ifadelerde „niemals\" tercih edilir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q050",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Konjunktiv II der Vergangenheit: \"hätte gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ___ Hunger.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "kein",
+        "nie",
+        "niemand"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "kein",
+      "explanation": "„Hunger\" bir isim (der Hunger). „Ich habe KEINEN Hunger.\" — isimleri „kein\" ile olumsuzlarız.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q051",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "___ versteht mich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Nichts",
+        "Niemand",
+        "Nie",
+        "Kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse. „NIEMAND versteht mich.\" — insanlar için Nominativ.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q052",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ___ Geld dabei.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "kein",
+        "nie",
+        "niemand"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "kein",
+      "explanation": "„Geld\" bir isim. „Ich habe KEIN Geld dabei.\" — isimleri „kein\" ile olumsuzlarız.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q053",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Er ist ___ zufrieden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "nie",
+        "niemand",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman. „Er ist NIE zufrieden.\" — sıfat zarfı olarak zaman belirtecisi „nie\" kullanılır.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q054",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ihn ___ angerufen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "nie",
+        "niemand",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman. „Ich habe ihn NIE angerufen.\" — zaman zarfı olarak „nie\" fiili olumsuzlar.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q055",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Wir waren ___ dort.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "nie",
+        "niemand",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman. „Wir waren NIE dort.\" — „orada hiç bulunmadık\" anlamında zaman zarfı.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q056",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Ich kenne ___ hier.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "niemand",
+        "nie",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "niemand",
+      "explanation": "„Niemand\" = hiç kimse. „Ich kenne NIEMAND hier.\" — insanlar için Nominativ.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q057",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe das ___ verstanden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "niemand",
+        "nichts",
+        "nie",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey. „Ich habe das NICHTS verstanden.\" — „hiçbir şey anlamadım\" anlamında nesne olarak „nichts\".",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q058",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Sie hat ___ Auto.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "kein",
+        "nie",
+        "niemand"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "kein",
+      "explanation": "„Auto\" bir isim (das Auto). „Sie hat KEIN Auto.\" — isimleri „kein\" ile olumsuzlarız.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q059",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ihn ___ gesehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "nie",
+        "niemand",
+        "kein"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman. „Ich habe ihn NIE gesehen.\" — zaman belirteci olarak fiili olumsuzlar.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q060",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Das ist ___ Problem.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "nichts",
+        "kein",
+        "nie",
+        "niemand"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "kein",
+      "explanation": "„Problem\" bir isim (das Problem). „Das ist KEIN Problem.\" — isimleri „kein\" ile olumsuzlarız.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q061",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ verstanden.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "niemand",
+        "nichts",
+        "nie",
+        "nirgendwo"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey. „Ich habe NICHTS verstanden.\" — nesne olarak „nichts\".",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q062",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ hat mich angerufen.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "Nichts",
+        "Niemals",
+        "Niemand",
+        "Nirgends"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand\" = hiç kimse, Nominativ. „NIEMAND hat mich angerufen.\"",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q063",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Er geht _____ ins Kino.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "nichts",
+        "niemand",
+        "nie",
+        "keine"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "nie",
+      "explanation": "„Nie\" = hiçbir zaman. „Er geht NIE ins Kino.\" — zaman zarfı.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q064",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Hast du _____ im Kuehlschrank gefunden? – Nein, _____.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "nichts / nichts",
+        "etwas / nichts",
+        "niemand / niemals",
+        "nie / nichts"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "etwas / nichts",
+      "explanation": "„Hast du ETWAS gefunden?\" (bir şey buldun mu?) — „Nein, NICHTS.\" (hayır, hiçbir şey).",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q065",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Wir fahren _____ mehr in den Urlaub.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "nichts",
+        "niemals",
+        "niemand",
+        "keine"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
+      "correctAnswer": "niemals",
+      "explanation": "„Niemeals\" = asla, hiçbir zaman (vurgulu). „Wir fahren NIEMALS mehr in den Urlaub.\" — „nie\" da olur ama vurgulu ifadede „niemals\" tercih edilir.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q066",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ kann so perfekt sein.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "Nichts",
+        "Nie",
+        "Niemand",
+        "Nirgendwo"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Niemand",
+      "explanation": "İnsanlar için: „NIEMAND kann so perfekt sein.\" — „nichts\" şeyler için, „niemand\" insanlar için.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q067",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ Interesse an Politik.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "kein",
+        "nichts",
+        "nie",
+        "niemand"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
+      "correctAnswer": "kein",
+      "explanation": "„Interesse\" bir isim (das Interesse). „Sie hat KEIN Interesse an Politik.\" — isimleri „kein\" ile olumsuzlarız.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q068",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Er will _____ von mir wissen.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "nie",
+        "nichts",
+        "niemand",
+        "nirgends"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts\" = hiçbir şey. „Er will NICHTS von mir wissen.\" — „benden hiçbir şey bilmek istemiyor.\"",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q069",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ so einen schoenen Sonnenuntergang gesehen.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "niemals",
+        "niemand",
+        "kein",
+        "nichts"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "niemals",
+      "explanation": "„NIEMALS\" = asla, vurgulu zaman ifadesi. „Ich habe NIEMALS so etwas gesehen.\" — çok vurgulu bir ifade.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q070",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "_____ auf der Welt ist umsonst.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "Niemand",
+        "Nie",
+        "Nichts",
+        "Nirgendwo"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Nichts",
+      "explanation": "„NICHTS auf der Welt ist umsonst.\" — „dünyada hiçbir şey bedava değil.\"",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q071",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Kannst du _____ finden? – Nein, ich finde _____.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "nichts / niemand",
+        "niemand / nichts",
+        "etwas / nichts",
+        "nie / keine"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "etwas / nichts",
+      "explanation": "„Kannst du ETWAS finden?\" (bir şey bulabilir misin?) — „Nein, NICHTS.\" (hayır, hiçbir şey bulamıyorum.)",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q072",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ gelogen, das ist sicher.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "niemals",
+        "nichts",
+        "niemand",
+        "kein"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "niemals",
+      "explanation": "„NIEMALS gelogen\" = asla yalan söylemedi. Vurgulu ifade olduğu için „niemals\" tercih edilir.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q073",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "_____ hat seine Schluessel gefunden.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "Niemand",
+        "Nichts",
+        "Nie",
+        "Nirgendwo"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
+      "correctAnswer": "Niemand",
+      "explanation": "„NIEMAND hat seine Schluessel gefunden.\" — insanlar için Nominativ, anahtarı bulan olmadı.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q074",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Sie wohnt _____ in der Naehe.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "nichts",
+        "nie",
+        "nirgendwo",
+        "niemand"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "nirgendwo",
+      "explanation": "„Nirgendwo\" = hiçbir yerde. „Sie wohnt NIRGENDWO in der Nahe.\" — yer belirteci.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q075",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "_____ du noch _____ er hat recht.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "Weder / noch",
+        "Nicht / noch",
+        "Kein / noch",
+        "Nichts / noch"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Weder / noch",
+      "explanation": "„WEDER du noch er hat recht.\" = Ne sen ne de o haklısın. „Weder...noch\" = ne...ne de.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q076",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ dagegen, aber _____ hilft mir.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "nichts / niemand",
+        "nie / nichts",
+        "niemand / nichts",
+        "nichts / nie"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "nichts / niemand",
+      "explanation": "„Ich habe NICHTS dagegen\" (buna itirazım yok) + „ABER NIEMAND hilft mir\" (ama hiç kimse yardım etmiyor).",
+      "difficulty": "hard",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q077",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Das habe ich _____ gewusst.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "nichts",
+        "nie",
+        "niemand",
+        "nirgends"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "nie",
+      "explanation": "„Das habe ich NIE gewusst.\" = Hiç bilmiyordum / bunu bilmiyordum. „Weder...noch\" yapısında değil, tek başına „nie\" kullanılır.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q078",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ Kind sollte allein nach Hause gehen.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "Nichts",
+        "Kein",
+        "Niemand",
+        "Nie"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Kein",
+      "explanation": "„KEIN Kind sollte allein nach Hause gehen.\" — „kind\" ismi „kein\" ile olumsuzlanıyor (Maskulin Nominativ).",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q079",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Er faehrt _____ mit der Bahn, immer mit dem Auto.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "nichts",
+        "niemand",
+        "nie",
+        "keine"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "nie",
+      "explanation": "„Er faehrt NIE mit der Bahn\" = Asla trenle gitmez (her zaman araba ile gider). „Nie\" zaman zarfı.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q080",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Hat dir _____ geholfen? – Nein, _____ hat Zeit gehabt.",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "nichts / niemand",
+        "niemand / nichts",
+        "jemand / niemand",
+        "etwas / nichts"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
+      "correctAnswer": "jemand / niemand",
+      "explanation": "„Hat dir JEMAND geholfen?\" (birisi yardım etti mi?) — „Nein, NIEMAND hat Zeit gehabt.\" (hayır, hiç kimsenin zamanı olmadı.)",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q081",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ zu befuergen.\n(etwas zu befürchten haben = hiçbir şeyden korkmamak)",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "nichts",
+        "kein",
+        "niemand",
+        "nie"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "nichts",
+      "explanation": "„Nichts zu befuergen haben\" = hiçbir şeyden korkmamak gerek. „Ich habe NICHTS zu befuergen.\"",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q082",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ hat mir geholfen, als ich Probleme hatte.",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "Nichts",
+        "Niemand",
+        "Nirgendwo",
+        "Niemals"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
+      "correctAnswer": "Niemand",
+      "explanation": "„Niemand hat mir geholfen.\" — „hiç kimse yardım etmedi.\" Kişi öznesi için Nominativ.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q083",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Er ist _____ nach Deutschland gereist.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "nirgendwo",
+        "nichts",
+        "niemals",
+        "kein"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "niemals",
+      "explanation": "„Niemeals\" = asla, hiçbir zaman. „Er ist NIEMALS nach Deutschland gereist.\" — zaman zarfı.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q084",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Ich trinke _____ Kaffee _____ Tee. Ich mag beides nicht.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "entweder ... oder",
+        "sowohl ... als auch",
+        "weder ... noch",
+        "nicht nur ... sondern auch"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "weder ... noch",
+      "explanation": "„WEDER Kaffee NOCH Tee\" = Ne kahve ne de çay. İki seçeneği birden olumsuzlar.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q085",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Das Buch ist _____ zu finden. Ich habe überall gesucht!",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "nirgendwo",
+        "niemand",
+        "nichts",
+        "nicht mehr"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
+      "correctAnswer": "nirgendwo",
+      "explanation": "„Nirgendwo zu finden\" = hiçbir yerde bulunamıyor. Yer belirteci.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q086",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ Zeit, weil sie viel arbeiten muss.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "nicht",
+        "keine",
+        "nichts",
+        "niemand"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "keine",
+      "explanation": "„Zeit\" feminin bir isim (die Zeit). „Sie hat KEINE Zeit.\" — isimleri „kein\" ile olumsuzlarız.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q087",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Ich war _____ in Paris, aber naechstes Jahr moechte ich hinfahren.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "noch nie",
+        "nicht mehr",
+        "nirgendwo",
+        "kein"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "noch nie",
+      "explanation": "„Noch nie\" = henüz hiç (daha önce hiç yapmadım). „Ich war NOCH NIE in Paris.\" — geçmiş deneyim olumsuzluğu.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q088",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "_____ du mich gestern angerufen hast, war ich nicht zu Hause.\n(Zamansal bağlaç)",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "Weder",
+        "Wenn",
+        "Als",
+        "Obwohl"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "„ALS du mich gestern angerufen hast\" = dün beni aradığında. Geçmişte tek seferlik olaylar için „als\" kullanılır.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q089",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Er interessiert sich _____ fuer Politik.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "nichts",
+        "kein",
+        "nicht",
+        "niemand"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
+      "correctAnswer": "nicht",
+      "explanation": "„Sich NICHT interessieren für\" = ilgilenmemek. „nicht\" fiil grubunu olumsuzlar.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q090",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ gehoert. War da ein Geraeusch?",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "nichts",
+        "kein",
+        "nicht",
+        "niemand"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "nichts",
+      "explanation": "„NICHTS gehoert\" = hiçbir şey duymadım. Nesne olarak „nichts\".",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q091",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "_____ ich noch jung war, bin ich viel gereist.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "Wenn",
+        "Als",
+        "Weil",
+        "Obwohl"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "„ALS ich noch jung war\" = gençken (geçmişte belirli bir dönem). „Wenn\" tekrarlanan olaylar için, „als\" tek seferlik.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q092",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "Sie hat _____ ihre Schluessel verloren, _____ ihre Brieftasche.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "nicht nur ... sondern auch",
+        "weder ... noch",
+        "entweder ... oder",
+        "sowohl ... als auch"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
+      "correctAnswer": "nicht nur ... sondern auch",
+      "explanation": "„NICHT NUR ... SONDERN AUCH\" = Sadece anahtarlarını değil, cüzdanını da kaybetti. İki kaybı birden ifade eder.",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q093",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Ich kann _____ meine Brille nichts lesen.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "ohne",
+        "mit",
+        "bei",
+        "fuer"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ohne",
+      "explanation": "„OHNE meine Brille\" = gözlüksüz. „Ohne + Akkusativ\" = -siz/-sız anlamında.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q094",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ ist diese Strasse gesperrt. Wir müssen einen Umweg machen.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "Nirgendwo",
+        "Nirgendwohin",
+        "Zeitweise",
+        "Niemals"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "zeitweise",
+      "explanation": "„ZEITWEISE\" = zaman zaman, bazen. „Diese Strasse ist zeitweise gesperrt.\" — bu bağlamda en uygun seçenek.",
+      "difficulty": "hard",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q095",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ gesagt. Er war ganz still.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "nichts",
+        "kein",
+        "nicht",
+        "niemand"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "nichts",
+      "explanation": "„Er hat NICHTS gesagt.\" — „hiçbir şey söylemedi.\" Nesne olarak „nichts\".",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q096",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Ich habe _____ Lust, heute auszugehen.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "nicht",
+        "keine",
+        "nichts",
+        "niemand"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "keine",
+      "explanation": "„Lust\" feminin bir isim (die Lust). „Ich habe KEINE Lust.\" — isimleri „kein\" ile olumsuzlarız.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q097",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "_____ du kommst, _____ ich bleibe zu Hause. Wir können uns nicht einigen.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "Wenn ... dann",
+        "Entweder ... oder",
+        "Weder ... noch",
+        "Je ... desto"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Entweder ... oder",
+      "explanation": "„ENTWEDER du kommst ODER ich bleibe zu Hause.\" — ya sen gel ya da ben evde kalıyorum. İki seçenekten biri.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q098",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Das ist _____ Problem, das wir loesen koennen.",
       "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
+        "nicht",
+        "kein",
+        "nichts",
+        "niemand"
       ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "kein",
+      "explanation": "„Problem\" das Problem (maskulin). „Das ist KEIN Problem.\" — isimleri „kein\" ile olumsuzlarız.",
+      "difficulty": "easy",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q099",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ihn _____ gesehen, seit wir uns getrennt haben.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "nicht mehr",
+        "nichts mehr",
+        "kein mehr",
+        "niemand mehr"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_09_q1",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ hat das gemacht!",
-      "options": [
-        "Niemand",
-        "Jemand",
-        "Alle",
-        "Manche"
-      ],
-      "correctAnswer": "Niemand",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "nicht mehr",
+      "explanation": "„Nicht mehr gesehen\" = artık görmedim (o zamandan beri). „Nicht mehr\" = no longer, artık değil.",
+      "difficulty": "medium",
+      "topicName": "Negationswörter"
     },
     {
       "id": "b2_09_q100",
       "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
+      "type": "multiple_choice",
+      "questionText": "_____ ich auch suche, ich finde den Fehler nicht.\n(Konzessivsatz)",
       "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
+        "Wo",
+        "Wohin",
+        "Woher",
+        "Nirgendwo"
       ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_09_q2",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich habe ___ gesehen.",
-      "options": [
-        "etwas",
-        "nichts",
-        "alles",
-        "manches"
-      ],
-      "correctAnswer": "etwas",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_09_q3",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ ist besser als nichts.",
-      "options": [
-        "Etwas",
-        "Nichts",
-        "Niemand",
-        "Keiner"
-      ],
-      "correctAnswer": "Etwas",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_09_q4",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Er hat ___ gesagt.",
-      "options": [
-        "nichts",
-        "etwas",
-        "alles",
-        "manches"
-      ],
-      "correctAnswer": "nichts",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_09_q5",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "„Niemand\" ist die Negation von „jemand\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_09_q6",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "„Nichts\" negiert „etwas\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_09_q7",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "___ weiß das.",
-      "options": [
-        "Niemand",
-        "Jemand",
-        "Alle",
-        "Manche"
-      ],
-      "correctAnswer": "Niemand",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_09_q8",
-      "subjectId": "b2_09",
-      "topicName": "Negationswörter",
-      "questionText": "Ich habe ___ gehört.",
-      "options": [
-        "etwas",
-        "nichts",
-        "alles",
-        "manches"
-      ],
-      "correctAnswer": "etwas",
-      "explanation": "Grammatik-Thema: 9. Negationswörter",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wo",
+      "explanation": "„WO ich auch suche\" = Nerede ararsam arayayım. „Wo\" burada „her nerede\" anlamında Konzessivsatz yapar.",
+      "difficulty": "hard",
+      "topicName": "Negationswörter"
     }
   ],
-  "totalQuestions": 108
+  "description": "Bu konu Almanca'daki temel olumsuzlama kelimelerini kapsar: nichts (hiçbir şey), nie/niemals (hiçbir zaman), niemand (hiç kimse), kein (hiçbir, sıfat olarak), nirgends/nirgendwo (hiçbir yerde), weder...noch (ne...ne de). Her bir olumsuzlama kelimesinin cümle içinde doğru kullanımı, durum eklerine göre (Nominativ, Akkusativ, Dativ) hangi formun kullanılacağı ve vurgulu ifadelerdeki farklılıklar işlenmektedir."
 }

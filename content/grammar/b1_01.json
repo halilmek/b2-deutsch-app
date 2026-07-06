@@ -1,1554 +1,1422 @@
 {
+  "version": "1.0",
   "subjectId": "b1_01",
-  "topicName": "Präteritum: alle Verben",
+  "topicName": "Nebensätze",
   "level": "B1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Nebensätze (subordinate clauses) are dependent clauses that cannot stand alone and must be attached to a main clause. They are introduced by subordinating conjunctions: dass (content clause), ob (indirect yes/no question), weil (reason/because), obwohl (concession/although), damit (purpose/so that), bevor (before), als (when — single past event), wenn (when — repeated/habitual or conditional). The verb in a Nebensatz always goes to the END of the clause.\n\nKey distinction: obwohl (although) expresses a contrast where the outcome contradicts expectation. Damit is used when the subject changes (purpose with different subject); when the subject stays the same, um...zu is preferred. Weil and denn are often confused — weil requires the verb at the end in written German, while denn keeps normal word order (verb in position 2).",
+  "tips": [
+    "dass — Content clause (İçerik cümlesi): verb goes to the end. If placed at the beginning, separated by comma. Subjects can differ between main and subordinate clause.",
+    "ob — Indirect yes/no question: commonly confused with dass. Verb position must be at the end. Used after verbs of uncertainty, asking, not knowing.",
+    "weil — Reason/cause (Neden/Sebep): in written German the verb MUST be at the end. If you write 'denn' instead of 'weil', word order becomes normal (verb in position 2).",
+    "obwohl — Concession/zıtlık (contrast): describes a situation that contradicts expectation. Do not confuse with 'trotzdem' (nevertheless/adverb).",
+    "damit — Purpose/goal (Amaç): used when the subject CHANGES between main and subordinate clause. If subject stays the same, use 'um...zu' instead.",
+    "bevor — Prior time (Önce): always used with Präsens or Präteritum. Subject can be same or different in both clauses.",
+    "als — Single past event: used for a one-time moment or period in the past. Do NOT use for repeated events — use 'wenn' instead.",
+    "wenn — Conditional or habitual (Koşul/tekrarlayan): used for repeated actions in present OR past, and for conditional sentences. NOT for single past events — use 'als' instead.",
+    "Common mistake: 'ob' vs 'dass' — use 'ob' when uncertainty is involved (fragen, wissen, sich nicht sicher sein). Use 'dass' for statements and opinions.",
+    "Common mistake: 'weil' vs 'denn' — both mean 'because', but 'weil' pushes verb to the end; 'denn' keeps normal V2 word order."
+  ],
   "questions": [
     {
       "id": "b1_01_q001",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen die Unterlagen heute noch einreichen, ____ wir die Frist auf keinen Fall verpassen wollen.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "obwohl",
+        "weil",
+        "damit",
+        "bevor"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "weil",
+      "explanation": "The sentence expresses a reason (causal clause). 'Weil' (because) introduces the reason why the documents must be submitted today. 'Damit' would require a different sentence structure or express a purpose, but here the underlying motive/reason is stated.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q002",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist der Mann, ___ ich gestern getroffen habe.",
+      "type": "multiple_choice",
+      "questionText": "Herr Müller arbeitet bis spät in die Nacht, ____ er schreckliche Kopfschmerzen hat.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "weil",
+        "dass",
+        "obwohl",
+        "wenn"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "obwohl",
+      "explanation": "This is a concessive clause showing a contrast or contradiction. 'Obwohl' (although/even though) explains that he works late despite having a terrible headache.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q003",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Wenn ich Zeit ___, würde ich dir helfen.",
+      "type": "multiple_choice",
+      "questionText": "Bitte geben Sie mir Bescheid, ____ das neue Projekt nächste Woche endgültig startet.",
       "options": [
-        "hätte",
-        "haben",
-        "hat",
-        "gehabt"
+        "ob",
+        "als",
+        "damit",
+        "obwohl"
       ],
-      "correctAnswer": "hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "The verb 'Bescheid geben' (to let someone know) introduces an indirect question here. 'Ob' means 'whether' or 'if' (in the sense of whether or not it starts).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q004",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum verstehen ___",
+      "type": "multiple_choice",
+      "questionText": "____ ich gestern am Bahnhof ankam, war der Zug nach Berlin leider schon abgefahren.",
       "options": [
-        "dass / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "damit / können"
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Weil"
       ],
-      "correctAnswer": "dass / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for a single, completed event in the past ('when'). 'Wenn' would be used for present/future or repeated past events.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q005",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg arbeitet.",
+      "type": "multiple_choice",
+      "questionText": "Der Abteilungsleiter wiederholte die Anweisungen mehrmals, ____ alle Mitarbeiter den Ablauf genau verstehen.",
       "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
+        "dass",
+        "weil",
+        "damit",
+        "wenn"
       ],
-      "correctAnswer": "deren",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "damit",
+      "explanation": "This sentence expresses a purpose or goal (final clause). 'Damit' means 'so that' or 'in order that' the employees understand the process.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q006",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Die Aufgabe ___ gestern ___ worden.",
+      "type": "multiple_choice",
+      "questionText": "____ man eine wichtige geschäftliche Entscheidung trifft, sollte man alle Risiken sorgfältig abwägen.",
       "options": [
-        "hat / machend",
-        "ist / gemacht",
-        "wurde / gemacht",
-        "wird / gemacht"
+        "Bevor",
+        "Als",
+        "Dass",
+        "Ob"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Bevor",
+      "explanation": "'Bevor' means 'before'. Chronologically, weighing the risks must happen prior to making the important business decision.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q007",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Ich hätte ___ können, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Der Dozent war sich nicht ganz sicher, ____ alle Studenten die Hausaufgabe verstanden hatten.",
       "options": [
-        "machen / gehabt",
-        "arbeiten / gehabt",
-        "helfen / gehabt",
-        "kommen / hatte"
+        "dass",
+        "ob",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "machen / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "'Sich sicher sein' in the negative ('war sich nicht ganz sicher') triggers an indirect question, thus requiring 'ob' (whether/if).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q008",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sagte, er ___ morgen kommen.",
+      "type": "multiple_choice",
+      "questionText": "Es ist absolut notwendig, ____ Sie die Sicherheitsbestimmungen am Arbeitsplatz strikt einhalten.",
       "options": [
-        "würde",
-        "wird",
-        "kann",
-        "muss"
+        "damit",
+        "weil",
+        "dass",
+        "ob"
       ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "The adjective phrase 'Es ist notwendig' introduces a noun clause (Objektsatz) specifying what is necessary, which is triggered by 'dass' (that).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q009",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ du Deutsch gelernt ___?",
-      "options": [
-        "Hast / hast",
-        "Bist / gelernt",
-        "Hast / gelernt",
-        "Bist / hast"
-      ],
-      "correctAnswer": "Hast / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q010",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist der Junge, ___ Mutter Ärztin ist.",
-      "options": [
-        "dessen",
-        "deren",
-        "die",
-        "dem"
-      ],
-      "correctAnswer": "dessen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q011",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
-      "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
-      ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q012",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sprach mit ihr, ___ er sie verstehen ___",
-      "options": [
-        "damit / konnte",
-        "weil / konnte",
-        "obwohl / können",
-        "wenn / könnte"
-      ],
-      "correctAnswer": "obwohl / können",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q013",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ ich in Berlin war, habe ich das Brandenburger Tor besucht.",
+      "type": "multiple_choice",
+      "questionText": "____ ich in die Schweiz reise, besuche ich jedes Mal meine Großeltern in Zürich.",
       "options": [
         "Als",
+        "Bevor",
         "Wenn",
-        "Wann",
-        "Während"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q014",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das Buch, ___ ich gestern gekauft habe, ist sehr gut.",
-      "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q015",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Ich würde das ___ machen, ___ ich Zeit hätte.",
-      "options": [
-        "gerne / wenn",
-        "lieber / weil",
-        "am liebsten / obwohl",
-        "besser / damit"
-      ],
-      "correctAnswer": "gerne / wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q016",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Die Prüfung ___ am Montag ___",
-      "options": [
-        "wird / geschrieben",
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben"
-      ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q017",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er hat gesagt, er ___ morgen kommen.",
-      "options": [
-        "würde",
-        "wird",
-        "kann",
-        "wollte"
-      ],
-      "correctAnswer": "würde",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q018",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
-      "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
-      ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q019",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ er fleißig lernte, hätte er die Prüfung bestanden.",
-      "options": [
-        "Wenn",
-        "Weil",
-        "Als",
         "Obwohl"
       ],
       "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "explanation": "The phrase 'jedes Mal' (every time) indicates a repeated action. For repeated actions in the past, present, or future, 'wenn' (whenever/when) must be used instead of 'als'.",
+      "difficulty": "hard"
     },
     {
-      "id": "b1_01_q020",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr gewohnt haben.",
-      "options": [
-        "indem",
-        "wo",
-        "in dem",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q021",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er ist zu müde, ___ er noch weitermachen könnte.",
-      "options": [
-        "um",
-        "als",
-        "weil",
-        "obwohl"
-      ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q022",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ er auch versuchte, er konnte es nicht schaffen.",
-      "options": [
-        "So",
-        "Wie",
-        "Was",
-        "Wenn"
-      ],
-      "correctAnswer": "So",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q023",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das Buch liegt ___ ich es hingelegt habe.",
-      "options": [
-        "wo",
-        "in dem",
-        "da",
-        "zu dem"
-      ],
-      "correctAnswer": "wo",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q024",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er tut so, ___ er alles wüsste.",
-      "options": [
-        "als",
-        "als ob",
-        "wenn",
-        "dass"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b1_01_q025",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Ich habe ihm geholfen, ___ er mich darum gebeten hat.",
+      "id": "b1_01_q010",
+      "type": "multiple_choice",
+      "questionText": "Wir haben den Vertrag unterschrieben, ____ wir mit einigen Klauseln nicht ganz zufrieden waren.",
       "options": [
         "weil",
         "obwohl",
+        "damit",
+        "dass"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' (although) introduces a concession. They signed the contract despite not being completely satisfied with some clauses.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q011",
+      "type": "multiple_choice",
+      "questionText": "Er spart seit Monaten Geld, ____ er sich Ende des Jahres ein neues Auto kaufen kann.",
+      "options": [
+        "weil",
+        "damit",
+        "dass",
+        "wenn"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "The action of saving money has a specific goal or intention. 'Damit' (so that) introduces this intention/purpose clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q012",
+      "type": "multiple_choice",
+      "questionText": "Erinnerst du dich noch daran, ____ wir uns das erste Mal im Sprachkurs getroffen haben?",
+      "options": [
+        "wenn",
+        "als",
+        "ob",
+        "dass"
+      ],
+      "correctAnswer": "als",
+      "explanation": "This refers to a single, specific event in the past ('the first time we met'). Therefore, 'als' (when) is the correct temporal conjunction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q013",
+      "type": "multiple_choice",
+      "questionText": "____ Sie Fragen zu Ihrer Abrechnung haben, wenden Sie sich bitte direkt an die Buchhaltung.",
+      "options": [
+        "Als",
+        "Ob",
+        "Wenn",
+        "Dass"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "This is a conditional sentence. 'Wenn' means 'if' in this context: If you have questions, please contact accounting.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q014",
+      "type": "multiple_choice",
+      "questionText": "Er schaltete den Computer aus, ____ er das Büro verließ.",
+      "options": [
+        "bevor",
+        "als",
         "wenn",
         "damit"
       ],
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' (before) indicates that turning off the computer happened prior to leaving the office.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q015",
+      "type": "multiple_choice",
+      "questionText": "Die Firma investiert viel in Fortbildungen, ____ die Mitarbeiter auf dem neuesten Stand bleiben.",
+      "options": [
+        "weil",
+        "dass",
+        "damit",
+        "obwohl"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "The investment has the purpose/goal of keeping employees up to date. 'Damit' means 'so that'.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q016",
+      "type": "multiple_choice",
+      "questionText": "Niemand im Büro wusste genau, ____ der Chef der Gehaltserhöhung bereits zugestimmt hatte.",
+      "options": [
+        "ob",
+        "dass",
+        "weil",
+        "obwohl"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Niemand wusste genau' implies uncertainty and introduces an indirect question, which requires 'ob' (whether/if).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q017",
+      "type": "multiple_choice",
+      "questionText": "____ es in Strömen regnete, gingen die Touristen ohne Regenschirme in der Altstadt spazieren.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Wenn",
+        "Als"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "This represents an unexpected counter-fact or concession. 'Obwohl' (although) it was pouring rain, they walked without umbrellas.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q018",
+      "type": "multiple_choice",
+      "questionText": "Ich gehe fest davon aus, ____ wir das Projekt bis zum vereinbarten Termin erfolgreich abschließen werden.",
+      "options": [
+        "damit",
+        "ob",
+        "dass",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "The prepositional verb phrase 'davon ausgehen' anticipates a subordinate noun clause introduced by 'dass' (that).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "b1_01_q019",
+      "type": "multiple_choice",
+      "questionText": "____ ich ein Kind war, spielten wir im Sommer immer bis spät abends draußen auf der Straße.",
+      "options": [
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Obwohl"
+      ],
+      "correctAnswer": "Als",
+      "explanation": "Being a child ('ich ein Kind war') describes a single, continuous period of time in the past. Therefore, 'als' is used — not 'wenn', which would indicate repeated or future events.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "b1_01_q020",
+      "type": "multiple_choice",
+      "questionText": "Können Sie mir sagen, ____ der nächste Zug nach Frankfurt Verspätung hat?",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "als"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Können Sie mir sagen...' introduces an indirect polite question, asking 'whether' (ob) the train is delayed.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q021",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß nicht, ____ er morgen kommen kann.",
+      "options": [
+        "dass",
+        "ob",
+        "weil",
+        "damit"
+      ],
+      "correctAnswer": "ob",
+      "explanation": "'Ob' introduces an indirect yes/no question. The speaker is uncertain whether he can come tomorrow.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q022",
+      "type": "multiple_choice",
+      "questionText": "Sie hat mir gesagt, ____ sie keine Zeit hat.",
+      "options": [
+        "ob",
+        "damit",
+        "dass",
+        "obwohl"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "'Dass' introduces an indirect statement (reported speech). It reports what she said — that she has no time.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q023",
+      "type": "multiple_choice",
+      "questionText": "Er lernt Deutsch, ____ er in Deutschland arbeiten will.",
+      "options": [
+        "obwohl",
+        "bevor",
+        "wenn",
+        "weil"
+      ],
       "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "explanation": "'Weil' introduces a causal clause giving the reason for an action. Verb goes to the end.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q024",
+      "type": "multiple_choice",
+      "questionText": "____ es regnet, nehme ich einen Regenschirm mit.",
+      "options": [
+        "Bevor",
+        "Wenn",
+        "Damit",
+        "Obwohl"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' expresses a conditional/temporal relationship. When the 'wenn'-clause begins the sentence, the main clause verb follows immediately (inversion).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "b1_01_q025",
+      "type": "multiple_choice",
+      "questionText": "Ich dusche mich, ____ ich frühstücke.",
+      "options": [
+        "als",
+        "wenn",
+        "bevor",
+        "obwohl"
+      ],
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' indicates that one action happens before another. Here: first the shower, then breakfast.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q026",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist die Lehrerin, ___ wir alle respektieren.",
+      "type": "multiple_choice",
+      "questionText": "____ ich ein Kind war, liebte ich Schokolade.",
       "options": [
-        "die",
-        "der",
-        "den",
-        "welche"
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Dass"
       ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for a single completed event or period in the past. 'Wenn' would imply repeated/habitual past events.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q027",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Wenn er pünktlich ___, hätten wir den Zug noch erreicht.",
+      "type": "multiple_choice",
+      "questionText": "Er schreibt eine SMS, ____ seine Mutter nicht alleine wartet.",
       "options": [
-        "gewesen wäre",
-        "ist",
-        "war",
-        "wäre",
-        "gewesen"
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
       ],
-      "correctAnswer": "gewesen wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses a purpose/intention where the subject of main and subordinate clause is different. Goal: so that his mother does not wait alone.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q028",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sprach mit einem Mann, ___ ich nicht kannte.",
+      "type": "multiple_choice",
+      "questionText": "Sie ist zur Arbeit gegangen, ____ sie hohes Fieber hatte.",
       "options": [
-        "den",
-        "der",
-        "dem",
-        "dessen"
+        "weil",
+        "damit",
+        "als",
+        "obwohl"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' introduces a concessive clause — an unexpected contrast. Despite having a high fever, she went to work.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q029",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ ich auch sagte, er glaubte mir nicht.",
+      "type": "multiple_choice",
+      "questionText": "Ich frage mich, ____ er die Wahrheit gesagt hat.",
       "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
+        "dass",
+        "damit",
+        "ob",
+        "als"
       ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' introduces an indirect yes/no question. The speaker wonders whether he told the truth.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q030",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Sie ist die einzige Person, ___ ich vertraue.",
+      "type": "multiple_choice",
+      "questionText": "Der Arzt empfiehlt, ____ der Patient täglich spazieren geht.",
       "options": [
-        "der",
-        "die",
-        "den",
-        "dem"
+        "ob",
+        "damit",
+        "weil",
+        "dass"
       ],
-      "correctAnswer": "der",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dass",
+      "explanation": "'Dass' follows verbs of recommending, thinking, or saying to introduce a subordinate content clause.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q031",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
+      "type": "multiple_choice",
+      "questionText": "____ ich gestern das Büro verlassen hatte, rief mein Chef an.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Als",
+        "Wenn",
+        "Bevor",
+        "Damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "'Als' with Plusquamperfekt (had left) sets a completed past action before another past event. 'Wenn' would be used for repeated/habitual events.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q032",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen leise sein, ____ das Baby schlafen kann.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "obwohl",
+        "bevor",
+        "damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses purpose when subjects differ (we / the baby). Goal: so the baby can sleep.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q033",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Es ist wichtig, ____ man regelmäßig Sport treibt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob",
+        "weil",
+        "damit",
+        "dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "After impersonal constructions like 'Es ist wichtig', 'dass' introduces the content/subject clause.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q034",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "____ er jeden Tag trainiert, hat er den Wettkampf nicht gewonnen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Damit",
+        "Weil",
+        "Obwohl",
+        "Dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses a concessive relationship — a contrast between the training every day and the unexpected loss at the competition.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q035",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
+      "type": "multiple_choice",
+      "questionText": "Sie rief ihre Freundin an, ____ sie ihr die Neuigkeit mitteilen wollte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "damit",
+        "obwohl",
+        "weil",
+        "bevor"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "'Weil' gives the reason/cause for calling. The reason: she wanted to share the news.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q036",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "type": "multiple_choice",
+      "questionText": "Ich war sehr überrascht, ____ er die Prüfung bestanden hat, ____ er kaum gelernt hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass / obwohl",
+        "ob / weil",
+        "weil / obwohl",
+        "dass / damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dass / obwohl",
+      "explanation": "'Dass' introduces a content clause after 'überrascht sein'. 'Obwohl' introduces the concessive clause explaining why it was surprising — he barely studied.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q037",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "type": "multiple_choice",
+      "questionText": "Der Lehrer erklärt die Aufgabe noch einmal, ____ alle Schüler sie verstehen können.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "obwohl",
+        "damit",
+        "wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses purpose with different subjects (the teacher / the students). The teacher's goal is for all students to understand.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q038",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
+      "type": "multiple_choice",
+      "questionText": "Früher, ____ ich jung war, bin ich jeden Sommer ans Meer gefahren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "wenn",
+        "als",
+        "bevor",
+        "obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "wenn",
+      "explanation": "With 'früher' (formerly) indicating habitual/repeated past events, 'wenn' is correct — not 'als'. 'Als' is for a single/unique past event.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q039",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "type": "multiple_choice",
+      "questionText": "Man weiß nicht genau, ____ die Wirtschaft sich erholen wird.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass",
+        "ob",
+        "damit",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' introduces an indirect yes/no question embedded after a verb of knowing/uncertainty. The uncertainty is whether the economy will recover.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q040",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "type": "multiple_choice",
+      "questionText": "Sie hat das Projekt abgeschlossen, ____ ihr jemand geholfen hatte, und ____ sie es präsentierte, bedankte sie sich bei ihrem Team.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bevor / nachdem",
+        "obwohl / damit",
+        "weil / als",
+        "damit / obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "weil / als",
+      "explanation": "'Weil' gives the reason she finished (someone had helped her). 'Als' introduces a unique completed past event (before she presented), triggering verb-final order.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q041",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Relativpronomen im Dativ: dem, der, den.",
+      "type": "multiple_choice",
+      "questionText": "Ich wusste nicht, ____ der Zug wegen des Streiks ausfällt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass",
+        "ob",
+        "weil",
+        "damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "dass",
+      "explanation": "'Dass' is used to introduce a factual subordinate clause.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q042",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Plusquamperfekt: \"Ich hatte gegessen.\"",
+      "type": "multiple_choice",
+      "questionText": "Kannst du mir sagen, ____ du morgen Zeit hast?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "ob",
+        "damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is used for indirect yes/no questions.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q043",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Lassen\" funktioniert als Vollverb.",
+      "type": "multiple_choice",
+      "questionText": "Er blieb zu Hause, ____ er starke Kopfschmerzen hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "bevor",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "'Weil' expresses a reason or cause.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q044",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Es lässt sich nicht ändern\" ist ein Infinitiv mit \"sich\".",
+      "type": "multiple_choice",
+      "questionText": "____ sie sehr müde war, arbeitete sie bis Mitternacht weiter.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Damit",
+        "Bevor",
+        "Obwohl",
+        "Wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a contrast or contradiction.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q045",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Im Passiv steht das Verb \"werden\" am Ende.",
+      "type": "multiple_choice",
+      "questionText": "Ich lerne jeden Tag Deutsch, ____ ich die B2-Prüfung bestehe.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "damit",
+        "obwohl",
+        "als",
+        "ob"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses purpose or intention.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q046",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Ich hätte\" ist Konjunktiv II der Vergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "Bitte ruf mich an, ____ du das Haus verlässt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "bevor",
+        "wenn",
+        "weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' means 'before' and introduces an action happening earlier.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q047",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Relativsätze haben immer ein Komma.",
+      "type": "multiple_choice",
+      "questionText": "____ ich ein Kind war, spielte ich oft im Garten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Obwohl",
+        "Als",
+        "Damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for single events or states in the past.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q048",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Wegen\" braucht den Genitiv.",
+      "type": "multiple_choice",
+      "questionText": "____ du regelmäßig trainierst, wirst du fitter.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Obwohl",
+        "Dass",
+        "Bevor"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' is used for conditions or repeated situations.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q049",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Ob\" leitet eine indirekte Frage ein.",
+      "type": "multiple_choice",
+      "questionText": "Die Professorin erklärte ausführlich, ____ die neue Methode funktioniert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "ob",
+        "damit",
+        "wie",
+        "dass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "wie",
+      "explanation": "'Wie' fits because the sentence asks about the manner in which something works.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q050",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Konjunktiv II wird für Höflichkeit verwendet.",
+      "type": "multiple_choice",
+      "questionText": "____ die Straßen nass waren, fuhr er besonders vorsichtig.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Damit",
+        "Weil",
+        "Obwohl",
+        "Ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Weil",
+      "explanation": "'Weil' gives the reason for careful driving.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q051",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Im Präteritum sagt man \"ich war, du warst\".",
+      "type": "multiple_choice",
+      "questionText": "Niemand wusste, ____ die Konferenz abgesagt worden war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bevor",
+        "obwohl",
+        "warum",
+        "damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "warum",
+      "explanation": "'Warum' introduces an indirect question asking for a reason.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q052",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Plusquamperfekt = Vorvergangenheit.",
+      "type": "multiple_choice",
+      "questionText": "____ er die Nachricht gelesen hatte, antwortete er sofort.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Als",
+        "Wenn",
+        "Damit",
+        "Ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "'Als' is correct for a single completed event in the past.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q053",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Obwohl\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Sie sparte monatelang Geld, ____ sie sich ein neues Auto kaufen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "damit",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses the purpose of saving money.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q054",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Relativpronomen im Nominativ: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "____ der Chef im Büro ist, arbeitet jeder konzentrierter.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Obwohl",
+        "Dass",
+        "Bevor"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' describes a repeated condition or situation.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q055",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Im Genitiv sagt man \"des Mannes\".",
+      "type": "multiple_choice",
+      "questionText": "Er fragte mich, ____ ich schon einmal in Österreich gewesen sei.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "ob",
+        "obwohl",
+        "bevor"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' introduces an indirect yes/no question in reported speech.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q056",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Passiv: \"Das Haus wird gebaut.\"",
+      "type": "multiple_choice",
+      "questionText": "____ die Aufgabe kompliziert erschien, konnte sie sie schnell lösen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Weil",
+        "Damit",
+        "Obwohl",
+        "Wenn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' shows contrast between appearance and reality.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q057",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Konjunktiv II: \"Ich würde gehen.\"",
+      "type": "multiple_choice",
+      "questionText": "Der Student schrieb alles auf, ____ er keine wichtigen Informationen vergessen würde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "damit",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' explains the purpose of writing everything down.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q058",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Könnte\" ist Konjunktiv II.",
+      "type": "multiple_choice",
+      "questionText": "____ ich gestern nach Hause kam, schliefen bereits alle.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wenn",
+        "Damit",
+        "Als",
+        "Ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for a one-time event in the past.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q059",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Dativ\" fragt man mit \"Wem?\".",
+      "type": "multiple_choice",
+      "questionText": "Die Firma investiert viel Geld, ____ sie international konkurrenzfähig bleibt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "damit",
+        "ob"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses the goal of remaining competitive.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q060",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "\"Wenn\" kann auch für die Zukunft verwendet werden.",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ____ die Bewerbung rechtzeitig angekommen ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "ob",
+        "als",
+        "weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is required because the speaker is uncertain about a yes/no situation.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q061",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ihn nicht wiedererkannt, ____ er sich so sehr verändert hatte.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "als",
+        "obwohl",
+        "weil",
+        "damit"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "weil",
+      "explanation": "'Weil' gives the reason for not recognizing him — he had changed a lot.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q062",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "type": "multiple_choice",
+      "questionText": "____ sie schon hundertmal davor gewarnt worden war, hat sie wieder denselben Fehler gemacht.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Bevor"
       ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' expresses contrast: she made the same mistake despite being warned many times.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q063",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "type": "multiple_choice",
+      "questionText": "Können Sie mir sagen, ____ dieser Zug nach Berlin fährt?",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "dass",
+        "weil",
+        "ob",
+        "als"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is used for indirect yes/no questions (whether this train goes to Berlin).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q064",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat das Licht angemacht, ____ er besser lesen konnte.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "obwohl",
+        "weil",
+        "damit",
+        "bevor"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' expresses purpose: so that he could read better.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q065",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "type": "multiple_choice",
+      "questionText": "____ ich nach Hause kam, klingelte das Telefon.",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Ob"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for a single past event (when I came home, the phone rang).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q066",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "____ du das nächste Mal in Berlin bist, kannst du mich gern besuchen.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "Als",
+        "Bevor",
+        "Wenn",
+        "Obwohl"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' refers to a future or repeated event (next time you are in Berlin).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q067",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ____ er die Wahrheit gesagt hat oder nicht.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "dass",
+        "ob",
+        "als",
+        "weil"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is needed for an indirect alternative question (whether he told the truth or not).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q068",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sagte, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Der Vortrag wurde sehr anschaulich erklärt, ____ viele Zuhörer keine Fachleute waren.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
+        "obwohl",
+        "weil",
+        "als",
+        "damit"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "obwohl",
+      "explanation": "'Obwohl' shows contrast: the lecture was clear even though many listeners were not experts.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q069",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ du Deutsch ___ ___?",
+      "type": "multiple_choice",
+      "questionText": "Wir sollten uns beeilen, ____ der Zug abfährt.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "bevor",
+        "damit",
+        "obwohl",
+        "als"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' expresses time sequence: we should hurry before the train leaves.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q070",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "type": "multiple_choice",
+      "questionText": "Er gab mir einen Tipp, ____ ich die Prüfung besser bestehen würde.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "weil",
+        "als",
+        "damit",
+        "ob"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' indicates purpose: so that I would pass the exam better.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q071",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe erst gemerkt, ____ ich meinen Geldbeutel vergessen hatte, ____ ich bezahlen wollte.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "dass / als",
+        "ob / wenn",
+        "weil / bevor",
+        "damit / obwohl"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dass / als",
+      "explanation": "First gap: 'dass' for a fact (that I had forgotten my wallet). Second gap: 'als' for a single past event (when I wanted to pay).",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q072",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "type": "multiple_choice",
+      "questionText": "____ du ihn damals gefragt hast, war er sehr überrascht.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "Wenn",
+        "Als",
+        "Ob",
+        "Bevor"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "'Als' refers to a specific point in the past (when you asked him back then). 'Wenn' would be incorrect for a one-time past event.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q073",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "type": "multiple_choice",
+      "questionText": "Du sollst zuerst die Hausaufgaben machen, ____ du fernsehen darfst.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "bevor",
+        "damit",
+        "obwohl",
+        "als"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "bevor",
+      "explanation": "'Bevor' expresses temporal order: first homework, then TV.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q074",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "Es ist wichtig, ____ du pünktlich kommst.",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "ob",
+        "dass",
+        "weil",
+        "als"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "dass",
+      "explanation": "'Dass' introduces a noun clause (that you arrive on time).",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q075",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "____ du ihn triffst, sag ihm bitte, dass ich anrufen werde.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "Als",
+        "Wenn",
+        "Bevor",
+        "Ob"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Wenn",
+      "explanation": "'Wenn' for a future or repeated condition (whenever/if you meet him).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q076",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "Ich frage mich, ____ er wohl recht haben mag.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "dass",
+        "ob",
+        "als",
+        "damit"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' introduces an indirect question (I wonder whether he might be right).",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q077",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "Ich bin mir nicht sicher, ____ er morgen zur Party kommen wird.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "dass",
+        "ob",
+        "wenn",
+        "weil"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "ob",
+      "explanation": "'Ob' is used to express indirect yes/no questions or uncertainty. 'Dass' introduces a statement of fact, while 'ob' expresses doubt or possibility.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q078",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "____ es gestern geregnet hat, sind wir spazieren gegangen.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "Obwohl",
+        "Weil",
+        "Damit",
+        "Bevor"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Obwohl",
+      "explanation": "'Obwohl' introduces a concessive clause (despite the fact that). The main clause shows an action that happened contrary to expectation, which requires a concessive conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q079",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Er lernt jeden Tag Deutsch, ____ er die B2-Prüfung besteht.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "damit",
+      "explanation": "'Damit' introduces a final clause expressing purpose. The subject of both clauses can differ, which distinguishes it from 'um...zu' constructions.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q080",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "type": "multiple_choice",
+      "questionText": "____ ich Kind war, habe ich oft im Garten gespielt.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Seit"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "'Als' is used for single past events or periods in the past. 'Wenn' is used for repeated past events or present/future conditions.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q081",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ er das gesagt hatte, ging er.",
+      "type": "multiple_choice",
+      "questionText": "Sie hat das Fenster geschlossen, ____ es nicht so laut ist.",
       "options": [
-        "Nachdem",
-        "Wenn",
-        "Weil",
-        "Obwohl"
+        "weil",
+        "damit",
+        "obwohl",
+        "dass"
       ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "damit",
+      "explanation": "This is a final clause expressing purpose. 'Damit' is used when the subjects of the main and subordinate clauses differ, and it requires the verb at the end.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q082",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist der Mann, ___ ich gestern ___",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß, ____ du mir helfen kannst, aber ich schaffe es alleine.",
       "options": [
-        "den / getroffen habe",
-        "der / getroffen habe",
-        "dem / getroffen habe",
-        "dessen / getroffen habe"
+        "ob",
+        "dass",
+        "weil",
+        "wenn"
       ],
-      "correctAnswer": "den / getroffen habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dass",
+      "explanation": "'Dass' introduces a subordinate clause stating a known fact. Here, the speaker acknowledges the fact that the listener can help, making 'dass' the correct choice.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q083",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Wenn ich Zeit ___, würde ich dir ___",
+      "type": "multiple_choice",
+      "questionText": "____ du die Unterlagen vorbereitest, kann ich schon mit der Präsentation beginnen.",
       "options": [
-        "hätte / helfen",
-        "habe / helfen",
-        "gehabt / geholfen",
-        "hätte / geholfen"
+        "Bevor",
+        "Während",
+        "Nachdem",
+        "Als"
       ],
-      "correctAnswer": "hätte / helfen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Während",
+      "explanation": "'Während' expresses simultaneity (while). The actions in both clauses happen at the same time, which requires a temporal conjunction indicating parallel actions.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q084",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sprach so leise, ___ ich ihn kaum ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Er hat den Job angenommen, ____ das Gehalt niedriger war als erwartet.",
       "options": [
-        "dass / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "obwohl / können / konnte",
-        "damit / verstehen / können"
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
       ],
-      "correctAnswer": "dass / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "obwohl",
+      "explanation": "This is a concessive clause. Despite the lower salary (unexpected condition), he accepted the job. 'Obwohl' expresses this contrast between expectation and reality.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q085",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist die Frau, ___ Mann in Hamburg ___",
+      "type": "multiple_choice",
+      "questionText": "Kannst du mir sagen, ____ der nächste Zug nach München abfährt?",
       "options": [
-        "deren / arbeitet",
-        "dessen / arbeitet",
-        "die / arbeitet",
-        "den / arbeitet"
+        "dass",
+        "ob",
+        "wann",
+        "weil"
       ],
-      "correctAnswer": "deren / arbeitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "wann",
+      "explanation": "This is an indirect question asking about time. 'Wann' is the appropriate interrogative for time-related indirect questions in subordinate clauses.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q086",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Die Aufgabe ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "____ er die Nachricht erhalten hatte, rief er sofort an.",
       "options": [
-        "wurde / gemacht",
-        "ist / gemacht",
-        "hat / gemacht",
-        "wird / gemacht"
+        "Nachdem",
+        "Bevor",
+        "Während",
+        "Als"
       ],
-      "correctAnswer": "wurde / gemacht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' introduces a temporal clause where the action in the subordinate clause happens before the main clause. The past perfect tense in the subordinate clause confirms this sequence.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q087",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Ich hätte ___ ___, wenn ich mehr Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Ich gehe nicht zur Arbeit, ____ ich krank bin.",
       "options": [
-        "machen / können / gehabt",
-        "arbeiten / können / gehabt",
-        "helfen / gekonnt / hatte",
-        "kommen / gemusst / gehabt"
+        "weil",
+        "denn",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "machen / können / gehabt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "weil",
+      "explanation": "'Weil' introduces a causal subordinate clause with verb-final word order. 'Denn' also expresses cause but is a coordinating conjunction and does not change word order.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q088",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sagte, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "____ du mich früher gefragt hättest, hätte ich dir geholfen.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "muss / kommen"
+        "Wenn",
+        "Als",
+        "Bevor",
+        "Ob"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wenn",
+      "explanation": "This is a conditional clause in Konjunktiv II expressing an unreal past condition. 'Wenn' is used for hypothetical situations, while 'als' refers to actual past events.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q089",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ du Deutsch ___ ___?",
+      "type": "multiple_choice",
+      "questionText": "Sie spart jeden Monat Geld, ____ sie sich nächstes Jahr ein Auto kaufen kann.",
       "options": [
-        "Hast / gelernt / hast",
-        "Bist / gelernt / hast",
-        "Hast / gelernt / bist",
-        "Bist / gelernt / bist"
+        "weil",
+        "obwohl",
+        "damit",
+        "bevor"
       ],
-      "correctAnswer": "Hast / gelernt / hast",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "damit",
+      "explanation": "This final clause expresses purpose with different subjects in main and subordinate clauses. 'Damit' requires the modal verb 'kann' at the end in subordinate clause structure.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q090",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist der Junge, ___ Mutter ___",
+      "type": "multiple_choice",
+      "questionText": "____ er sehr müde war, hat er noch bis Mitternacht gearbeitet.",
       "options": [
-        "dessen / ist",
-        "deren / ist",
-        "die / ist",
-        "den / ist"
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Bevor"
       ],
-      "correctAnswer": "dessen / ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Obwohl",
+      "explanation": "This concessive clause shows contrast: despite being tired, he continued working. 'Obwohl' introduces unexpected results, while 'weil' would indicate cause and effect.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q091",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Wenn ich du ___, würde ich das nicht tun.",
+      "type": "multiple_choice",
+      "questionText": "Ich erinnere mich daran, ____ wir zum ersten Mal getroffen haben.",
       "options": [
-        "wäre",
-        "bin",
-        "sei",
-        "war"
+        "als",
+        "wenn",
+        "bevor",
+        "nachdem"
       ],
-      "correctAnswer": "wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "als",
+      "explanation": "'Als' refers to a specific point in the past (the first meeting). For unique past events, 'als' is required, not 'wenn', which is used for repeated or hypothetical situations.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q092",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er sprach mit ihr, ___ er sie ___ ___",
+      "type": "multiple_choice",
+      "questionText": "____ der Chef die Entscheidung noch nicht getroffen hat, können wir nicht mit der Umsetzung beginnen.",
       "options": [
-        "obwohl / verstehen / konnte",
-        "weil / verstehen / konnte",
-        "damit / können / konnte",
-        "wenn / verstehen / könnte"
+        "Obwohl",
+        "Da",
+        "Damit",
+        "Bevor"
       ],
-      "correctAnswer": "obwohl / verstehen / konnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Da",
+      "explanation": "'Da' introduces a causal clause similar to 'weil', but is often used when the reason is already known or provides background information. It's more formal and common in written German.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q093",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ ich in Berlin ___, habe ich das Brandenburger Tor ___",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder spielten im Garten, ____ die Eltern drinnen das Essen zubereiteten.",
       "options": [
-        "Als / war / besucht",
-        "Wenn / bin / besuche",
-        "Wann / war / besucht",
-        "Während / bin / besucht"
+        "Weil",
+        "Obwohl",
+        "Während",
+        "Nachdem"
       ],
-      "correctAnswer": "Als / war / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Während",
+      "explanation": "'Während' expresses simultaneity — both actions happened at the same time. The parents prepared food while the children played outside.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q094",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das Buch, ___ ich gestern ___ ___, ist sehr gut.",
+      "type": "multiple_choice",
+      "questionText": "____ wir den Vertrag gelesen hatten, haben wir ihn unterschrieben.",
       "options": [
-        "das / gekauft / habe",
-        "der / gekauft / habe",
-        "dem / gekauft / habe",
-        "dessen / gekauft / habe"
+        "Bevor",
+        "Nachdem",
+        "Während",
+        "Als"
       ],
-      "correctAnswer": "das / gekauft / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' indicates that one action was completed before another began. Signing happened after reading — sequential order.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q095",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Ich würde das ___ ___, ___ ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Sie hat den Termin verschoben, ____ sie mehr Zeit für die Vorbereitung hätte.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "weil",
+        "damit",
+        "obwohl",
+        "bevor"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "damit",
+      "explanation": "This final clause with Konjunktiv II ('hätte') expresses a purpose with an element of uncertainty or politeness. 'Damit' + Konjunktiv II is a sophisticated B2 structure for nuanced purpose statements.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q096",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Die Prüfung ___ am Montag ___",
+      "type": "multiple_choice",
+      "questionText": "____ er schon dreimal angerufen hat, meldet sie sich immer noch nicht.",
       "options": [
-        "wurde / geschrieben",
-        "ist / geschrieben",
-        "hat / geschrieben",
-        "wird / geschrieben"
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Bevor"
       ],
-      "correctAnswer": "wurde / geschrieben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Obwohl",
+      "explanation": "This concessive clause with present perfect tense emphasizes the contrast between repeated attempts and the unexpected result. 'Obwohl' with perfect tense is a complex B2 structure.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q097",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Er hat gesagt, er ___ morgen ___",
+      "type": "multiple_choice",
+      "questionText": "____ die Prüfung schwer ist, bin ich zuversichtlich, dass ich sie bestehe.",
       "options": [
-        "würde / kommen",
-        "wird / kommen",
-        "kann / kommen",
-        "wollte / kommen"
+        "Weil",
+        "Obwohl",
+        "Damit",
+        "Bevor"
       ],
-      "correctAnswer": "würde / kommen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Obwohl",
+      "explanation": "This concessive clause shows contrast between the difficulty of the exam and the speaker's confidence. At B2 level, recognizing the logical relationship between clauses is crucial.",
+      "difficulty": "hard"
     },
     {
       "id": "b1_01_q098",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Sie ist die beste Schülerin, die ich je ___",
+      "type": "multiple_choice",
+      "questionText": "Niemand konnte erklären, ____ der Computer sich plötzlich ausgeschaltet hatte.",
       "options": [
-        "gesehen habe",
-        "sehe",
-        "sah",
-        "sehen werde"
+        "weil",
+        "ob",
+        "wann",
+        "bevor"
       ],
-      "correctAnswer": "gesehen habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "wann",
+      "explanation": "'Wann' is the appropriate interrogative for time-related indirect questions in subordinate clauses. 'Wann' asks 'when' — the reason/cause is being questioned.",
+      "difficulty": "medium"
     },
     {
       "id": "b1_01_q099",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "___ er fleißig ___, hätte er die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Ich warte hier, ____ du fertig bist.",
       "options": [
-        "Wenn / lernte / bestanden",
-        "Weil / lernt / bestanden",
-        "Als / lernte / bestehen",
-        "Obwohl / lernt / bestehen"
+        "weil",
+        "bevor",
+        "damit",
+        "wenn"
       ],
-      "correctAnswer": "Wenn / lernte / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "wenn",
+      "explanation": "'Wenn' introduces a conditional clause — I'll wait here IF you are finished. The condition must be met for the main action to resolve.",
+      "difficulty": "easy"
     },
     {
       "id": "b1_01_q100",
-      "subjectId": "b1_01",
-      "topicName": "Präteritum: alle Verben",
-      "questionText": "Das ist das Haus, ___ wir letztes Jahr ___ ___",
+      "type": "multiple_choice",
+      "questionText": "____ alle Gäste angekommen waren, haben wir mit dem Essen angefangen.",
       "options": [
-        "wo / gewohnt / haben",
-        "in dem / gewohnt / haben",
-        "da / gewohnt / haben",
-        "zu dem / gewohnt / haben"
+        "Bevor",
+        "Als",
+        "Nachdem",
+        "Wenn"
       ],
-      "correctAnswer": "wo / gewohnt / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Nachdem",
+      "explanation": "'Nachdem' shows that the main clause (we started eating) happened AFTER the subordinate clause was completed (all guests arrived).",
+      "difficulty": "medium"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

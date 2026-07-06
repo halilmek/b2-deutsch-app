@@ -1,1553 +1,968 @@
 {
+  "version": "1.0",
   "subjectId": "a1_07",
-  "topicName": "Negation: nicht und kein",
-  "level": "A1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "7. Verben mit Präpositionen (warten auf, denken an...)",
+  "totalQuestions": 60,
   "questions": [
     {
       "id": "a1_07_q001",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Buch liegt auf dem Tisch.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich warte ___ den Bus.\" – Welche Präposition gehört zu \"warten\"?",
       "options": [
-        "Das",
-        "Der",
-        "Die",
-        "Ein"
+        "für",
+        "auf",
+        "an",
+        "von"
       ],
-      "correctAnswer": "Das",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "warten auf (+Akkusativ): Ich warte auf den Bus",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q002",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich ___ Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie denkt oft ___ ihre Heimat.\" – Was fehlt?",
       "options": [
-        "sprecht",
-        "spreche",
-        "spricht",
-        "sprechen"
+        "von",
+        "auf",
+        "an",
+        "für"
       ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "an",
+      "explanation": "denken an (+Akkusativ): denkt an ihre Heimat",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q003",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ du das?",
+      "type": "multiple_choice",
+      "questionText": "Welches Verb geht mit \"für\"?",
       "options": [
-        "Weiß",
-        "Weißt",
-        "Wissen",
-        "Wusste"
+        "träumen",
+        "sich interessieren",
+        "sich bedanken",
+        "warten"
       ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sich bedanken",
+      "explanation": "sich bedanken für (+Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q004",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Er freut sich ___ das Wochenende.\" – Welche Präposition?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "einem"
+        "an",
+        "auf",
+        "für",
+        "über"
       ],
-      "correctAnswer": "eine",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "sich freuen auf (+Akkusativ): Vorfreude",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q005",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ nach Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich träume ___ einer langen Reise.\" – Was ist korrekt?",
       "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
+        "von",
+        "an",
+        "über",
+        "auf"
       ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "von",
+      "explanation": "träumen von (+Dativ): Ich träume von einer Reise",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q006",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ du morgen Zeit?",
+      "type": "multiple_choice",
+      "questionText": "\"Sie ärgert sich ___ den Lärm.\" – Welche Präposition fehlt?",
       "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
+        "an",
+        "für",
+        "über",
+        "gegen"
       ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "über",
+      "explanation": "sich ärgern über (+Akkusativ): über den Lärm",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q007",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Sie ___ eine Straße.",
+      "type": "multiple_choice",
+      "questionText": "\"Er spricht ___ seinem Problem.\" – Was ist korrekt?",
       "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
+        "über",
+        "mit",
+        "von",
+        "A und C"
       ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "A und C",
+      "explanation": "sprechen über / von seinem Problem (beide möglich)",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q008",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich trinke ___ Kaffee.",
+      "type": "multiple_choice",
+      "questionText": "\"Wir freuen uns ___ deinen Besuch.\" – Was fehlt?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "an",
+        "über",
+        "auf",
+        "für"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "über",
+      "explanation": "sich freuen über (+Akkusativ): aktuelle Freude",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q009",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Der Mann ___ eine Frau.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie leidet ___ Kopfschmerzen.\" – Welche Präposition?",
       "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
+        "von",
+        "gegen",
+        "unter",
+        "für"
       ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "unter",
+      "explanation": "leiden unter (+Dativ): unter Kopfschmerzen",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q010",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Kind spielt im Garten.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich erinnere mich gern ___ meine Schulzeit.\" – Was passt?",
       "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
+        "an",
+        "von",
+        "auf",
+        "über"
       ],
-      "correctAnswer": "Ein",
-      "explanation": "",
+      "correctAnswer": "an",
+      "explanation": "sich erinnern an (+Akkusativ)",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q011",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie besteht ___ der Prüfung.\" – Welche Präposition?",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "aus",
+        "von",
+        "auf",
+        "bei"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
+      "correctAnswer": "bei",
+      "explanation": "bestehen bei + Dativ: bei der Prüfung bestehen",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q012",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "\"Er warnt ___ die Polizei.\" – Welche Präposition?",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "vor",
+        "bei",
+        "zu",
+        "nach"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "vor",
+      "explanation": "warnen vor + Dativ: vor der Gefahr warnen",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q013",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie erzählt ___ ihrem Mann.\" – Welche Präposition?",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "von",
+        "an",
+        "zu",
+        "aus"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "von",
+      "explanation": "erzählen von + Dativ: von ihrem Mann erzählen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q014",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "\"Ich warne ihn ___ den Fehler.\" – Welche Präposition?",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "vor",
+        "bei",
+        "von",
+        "auf"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "vor",
+      "explanation": "jemanden vor etwas warnen (vor + Dativ)",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q015",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "\"Er hat sich ___ sein Verhalten entschuldigt.\" – Welche Präposition?",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "für",
+        "bei",
+        "um",
+        "an"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "für",
+      "explanation": "sich für etwas entschuldigen (für + Akkusativ)",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q016",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder spielen ___ dem Spiel.\" – Welche Präposition?",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "mit",
+        "bei",
+        "von",
+        "auf"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
+      "correctAnswer": "mit",
+      "explanation": "spielen mit + Dativ: mit dem Spiel spielen",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q017",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie beschwert sich ___ dem Lärm.\" – Welche Präposition?",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "über",
+        "von",
+        "an",
+        "bei"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "über",
+      "explanation": "sich beschweren über + Akkusativ: über den Lärm",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q018",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "\"Er ist ___ seinem Job zufrieden.\" – Welche Präposition?",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "mit",
+        "bei",
+        "von",
+        "über"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "mit",
+      "explanation": "zufrieden mit + Dativ: mit seinem Job",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q019",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "\"Sie hat sich ___ die Universität beworben.\" – Welche Präposition?",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "bei",
+        "an",
+        "zu",
+        "nach"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "bei",
+      "explanation": "sich bei der Universität bewerben",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q020",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich rechne ___ einem Erfolg.\" – Welche Präposition?",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "mit",
+        "auf",
+        "bei",
+        "nach"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
+      "correctAnswer": "mit",
+      "explanation": "rechnen mit + Dativ: mit einem Erfolg rechnen",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q021",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Die Frau ___ schnell.",
+      "type": "multiple_choice",
+      "questionText": "\"Ich warte ___ den Bus.\" – Präposition?",
       "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q022",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ heißeße ich Anna.",
-      "options": [
-        "Und",
-        "Aber",
-        "Ich",
-        "Na"
-      ],
-      "correctAnswer": "Ich",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q023",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q024",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q025",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q026",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q027",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q028",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q029",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "a1_07_q030",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
+        "auf",
+        "an",
         "mit",
         "nach"
       ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "auf",
+      "explanation": "warten auf + Akkusativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q022",
+      "type": "multiple_choice",
+      "questionText": "\"Sie denkt ___ ihre Familie.\" – Präposition?",
+      "options": [
+        "an",
+        "auf",
+        "über",
+        "nach"
+      ],
+      "correctAnswer": "an",
+      "explanation": "denken an + Akkusativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q023",
+      "type": "multiple_choice",
+      "questionText": "\"Er spricht ___ die Prüfung.\" – Präposition?",
+      "options": [
+        "über",
+        "an",
+        "auf",
+        "nach"
+      ],
+      "correctAnswer": "über",
+      "explanation": "sprechen über + Akkusativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q024",
+      "type": "multiple_choice",
+      "questionText": "\"Wir sprechen ___ dem Lehrer.\" – Präposition?",
+      "options": [
+        "mit",
+        "über",
+        "an",
+        "auf"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "sprechen mit + Dativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q025",
+      "type": "multiple_choice",
+      "questionText": "\"Sie wartet ___ ihren Freund.\" – Präposition?",
+      "options": [
+        "auf",
+        "an",
+        "mit",
+        "nach"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "warten auf + Akkusativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q026",
+      "type": "multiple_choice",
+      "questionText": "\"Ich helfe ___ meiner Mutter.\" – Präposition?",
+      "options": [
+        "bei",
+        "mit",
+        "an",
+        "zu"
+      ],
+      "correctAnswer": "bei",
+      "explanation": "helfen bei + Dativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q027",
+      "type": "multiple_choice",
+      "questionText": "\"Er erzählt ___ dem Unfall.\" – Präposition?",
+      "options": [
+        "von",
+        "über",
+        "an",
+        "auf"
+      ],
+      "correctAnswer": "von",
+      "explanation": "erzählen von + Dativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q028",
+      "type": "multiple_choice",
+      "questionText": "\"Sie träumt ___ einer Reise.\" – Präposition?",
+      "options": [
+        "von",
+        "an",
+        "auf",
+        "über"
+      ],
+      "correctAnswer": "von",
+      "explanation": "träumen von + Dativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q029",
+      "type": "multiple_choice",
+      "questionText": "\"Wir freuen uns ___ das Fest.\" – Präposition?",
+      "options": [
+        "auf",
+        "an",
+        "über",
+        "nach"
+      ],
+      "correctAnswer": "auf",
+      "explanation": "sich freuen auf + Akkusativ (Zukunft)",
+      "difficulty": "medium",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
+    },
+    {
+      "id": "a1_07_q030",
+      "type": "multiple_choice",
+      "questionText": "\"Die Kinder lachen ___ dem Witz.\" – Präposition?",
+      "options": [
+        "über",
+        "an",
+        "auf",
+        "von"
+      ],
+      "correctAnswer": "über",
+      "explanation": "lachen über + Akkusativ",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)",
+      "subjectId": "a1_07"
     },
     {
       "id": "a1_07_q031",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Ich warte ___ den Bus.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "über",
+        "auf",
+        "mit"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "auf ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q032",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Sie denkt oft ___ ihre Kindheit.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "mit",
+        "über",
+        "gegen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "an ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q033",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Wir interessieren uns ___ Kunst.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "für",
+        "mit",
+        "über"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "für",
+      "explanation": "für ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q034",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Er träumt ___ einem neuen Auto.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von",
+        "mit",
+        "über",
+        "auf"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "von",
+      "explanation": "von ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q035",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Ich freue mich ___ den Urlaub.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "mit",
+        "über",
+        "an"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "auf",
+      "explanation": "auf ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q036",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Sie spricht ___ ihre Probleme.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "mit",
+        "über",
+        "an",
+        "nach"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "über ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q037",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Er bittet mich ___ Hilfe.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "über",
+        "um",
+        "an"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "um",
+      "explanation": "um ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q038",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Wir glauben ___ dich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "auf",
+        "über",
+        "gegen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "an ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q039",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Denkst du ___ die Prüfung?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "über",
+        "gegen",
+        "auf"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "an ist hier die richtige Antwort.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q040",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Ich höre ___ Musik.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "mit",
+        "zu",
+        "gegen"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "zu",
+      "explanation": "zu ist hier die richtige Antwort.",
       "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q041",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Gehen\" ist ein unregelmäßiges Verb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q042",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Der Plural von \"das Buch\" ist \"die Bücher\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q043",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Sein\" ist ein Hilfsverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q044",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im A1 Niveau lernt man das Perfekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q045",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Ich trinke Kaffee\" ist ein.complete Satz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q046",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Verb steht an zweiter Stelle im Hauptsatz.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q047",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Wollen\" ist ein Modalverb.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q048",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Deutschen gibt es nur einen Artikel.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q049",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Der\" ist der bestimmte Artikel für Maskulin.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q050",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Wort \"und\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q051",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Nomen \"Tisch\" ist feminin.",
+      "type": "multiple_choice",
+      "questionText": "Ich freue mich schon sehr _____ das Wiedersehen mit meiner alten Freundin.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "über",
+        "an",
+        "für"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "auf",
+      "explanation": "sich freuen auf (+ Akkusativ) — Zukunft/Wunsch.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q052",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Nominativ sagt man: der, die, das.",
+      "type": "multiple_choice",
+      "questionText": "Hast du eigentlich _____ die Konsequenzen deines Handelns gedacht?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "auf",
+        "über",
+        "für"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "an",
+      "explanation": "denken an (+ Akkusativ) —考虑/想到。",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q053",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Verb \"sprechen\" ist regelmäßig.",
+      "type": "multiple_choice",
+      "questionText": "Leider kann ich mich nicht mehr genau _____ den Namen der Straße erinnern.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "an",
+        "auf",
+        "für",
+        "über"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "an",
+      "explanation": "sich erinnern an (+ Akkusativ) —记起。",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q054",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Präsens: ich spRECHE.",
+      "type": "multiple_choice",
+      "questionText": "Es kommt jetzt ganz _____ deine Entscheidung an.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "an",
+        "für",
+        "um"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "auf",
+      "explanation": "ankommen auf (+ Akkusativ) —取决于。",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q055",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Kannst\" ist die du-Form von \"können\".",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen uns rechtzeitig _____ die Prüfung vorbereiten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "auf",
+        "für",
+        "an",
+        "über"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "auf",
+      "explanation": "sich vorbereiten auf (+ Akkusativ).",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q056",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Wort \"ein\" ist ein Artikel.",
+      "type": "multiple_choice",
+      "questionText": "Ich halte überhaupt nichts _____ diesem Plan, er ist zu riskant.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von",
+        "auf",
+        "nach",
+        "über"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "von",
+      "explanation": "halten von (+ Dativ) —认为/评价。",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q057",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Satz \"Ich bin müde\" ist \"müde\" ein Verb.",
+      "type": "multiple_choice",
+      "questionText": "Woran liegt es, dass du dich ständig _____ deinem Chef beschwerst?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "bei",
+        "über",
+        "an",
+        "auf"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "über",
+      "explanation": "sich beschweren über (+ Akkusativ) —抱怨。",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q058",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "\"Nicht\" kommt immer an den Anfang des Satzes.",
+      "type": "multiple_choice",
+      "questionText": "Viele Deutsche leiden _____ Heuschnupfen, besonders im Frühling.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "unter",
+        "an",
+        "über",
+        "von"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
+      "correctAnswer": "unter",
+      "explanation": "leiden unter (+ Dativ) —遭受/患病。",
       "difficulty": "easy",
-      "type": "true_false"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q059",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Wort \"hast\" gehört zu \"haben\".",
+      "type": "multiple_choice",
+      "questionText": "Der Erfolg des Projekts hängt _____ der guten Zusammenarbeit aller Teams ab.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "von",
+        "auf",
+        "mit",
+        "nach"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "von",
+      "explanation": "abhängen von (+ Dativ) —取决于。",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q060",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Im Deutschen sagt man \"der Auto\".",
+      "type": "multiple_choice",
+      "questionText": "Kannst du dich bitte _____ den neuen Kollegen kümmern?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "um",
+        "an",
+        "über",
+        "für"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "a1_07_q061",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
+      "correctAnswer": "um",
+      "explanation": "sich kümmern um (+ Akkusativ) —关心/照顾。",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q062",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q063",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q064",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q065",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q066",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q067",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q068",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q069",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q070",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q071",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Auto.",
+      "type": "multiple_choice",
+      "questionText": "Ich freue mich schon _____ unseren nächsten Urlaub.",
       "options": [
-        "mein",
-        "meine",
-        "meiner",
-        "meinem"
+        "auf",
+        "über",
+        "für",
+        "mit"
       ],
-      "correctAnswer": "mein",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "sich freuen auf (+ Akkusativ) — freue mich auf den Urlaub.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q072",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Wir ___ am Montag.",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich _____ das Geschenk sehr gefreut.",
       "options": [
-        "arbeite",
-        "arbeitest",
-        "arbeitet",
-        "arbeiten"
+        "auf",
+        "über",
+        "für",
+        "an"
       ],
-      "correctAnswer": "arbeiten",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "über",
+      "explanation": "sich freuen über (+ Akkusativ) — hat sich über das Geschenk gefreut (past).",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q073",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ von zu Hause.",
+      "type": "multiple_choice",
+      "questionText": "Sie erinnert sich nicht mehr _____ den Namen des Restaurants.",
       "options": [
-        "komme",
-        "kommst",
-        "kommt",
-        "kommen"
+        "an",
+        "auf",
+        "über",
+        "für"
       ],
-      "correctAnswer": "kommt",
-      "explanation": "",
+      "correctAnswer": "an",
+      "explanation": "sich erinnern an (+ Akkusativ) — erinnert sich an den Namen.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q074",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Uhr ist es?",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen uns _____ die neuen Regeln gewöhnen.",
       "options": [
-        "Was",
-        "Wo",
-        "Wann",
-        "Wie viel"
+        "an",
+        "auf",
+        "über",
+        "mit"
       ],
-      "correctAnswer": "Wie viel",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "an",
+      "explanation": "sich gewöhnen an (+ Akkusativ) — gewöhnen uns an die Regeln.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q075",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich bin ___ Student.",
+      "type": "multiple_choice",
+      "questionText": "Er beschwert sich immer _____ das schlechte Wetter.",
       "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
+        "über",
+        "auf",
+        "an",
+        "für"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "über",
+      "explanation": "sich beschweren über (+ Akkusativ) — beschwert sich über das Wetter.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q076",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Du ___ das nicht.",
+      "type": "multiple_choice",
+      "questionText": "Sie hat sich _____ ihren Freund getrennt, weil sie unterschiedliche Ziele hatten.",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "von",
+        "mit",
+        "über",
+        "an"
       ],
-      "correctAnswer": "kannst",
-      "explanation": "",
+      "correctAnswer": "von",
+      "explanation": "sich trennen von (+ Dativ) — hat sich von ihrem Freund getrennt.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q077",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das Kind ___ eine Katze.",
+      "type": "multiple_choice",
+      "questionText": "Ich kann mich nicht _____ konzentrieren, wenn es so laut ist.",
       "options": [
-        "habt",
-        "hast",
-        "hat",
-        "habe"
+        "auf",
+        "an",
+        "über",
+        "für"
       ],
-      "correctAnswer": "hat",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "auf",
+      "explanation": "sich konzentrieren auf (+ Akkusativ) — kann mich nicht auf konzentrieren.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q078",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Tag ist heute?",
+      "type": "multiple_choice",
+      "questionText": "Er interessiert sich sehr _____ Politik und liest täglich Nachrichten.",
       "options": [
-        "Welcher",
-        "Welche",
-        "Welches",
-        "Was für ein"
+        "für",
+        "an",
+        "auf",
+        "über"
       ],
-      "correctAnswer": "Welcher",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "für",
+      "explanation": "sich interessieren für (+ Akkusativ) — interessiert sich für Politik.",
+      "difficulty": "easy",
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q079",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich habe ___ Hunger.",
+      "type": "multiple_choice",
+      "questionText": "Wir haben lange _____ eine Lösung für das Problem gesucht.",
       "options": [
-        "ein",
-        "eine",
-        "-",
-        "einer"
+        "nach",
+        "für",
+        "auf",
+        "an"
       ],
-      "correctAnswer": "-",
-      "explanation": "",
+      "correctAnswer": "nach",
+      "explanation": "suchen nach (+ Dativ) — haben nach einer Lösung gesucht.",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     },
     {
       "id": "a1_07_q080",
       "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Sie ärgert sich _____ ihre eigene Unpünktlichkeit.",
       "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
+        "über",
+        "auf",
+        "an",
+        "für"
       ],
-      "correctAnswer": "spricht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q081",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Die Frau ___ schnell.",
-      "options": [
-        "läuft",
-        "laufst",
-        "laufe",
-        "laufen"
-      ],
-      "correctAnswer": "läuft",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q082",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Wir ___ in Berlin.",
-      "options": [
-        "wohne",
-        "wohnst",
-        "wohnt",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnen",
-      "explanation": "",
+      "correctAnswer": "über",
+      "explanation": "sich ärgern über (+ Akkusativ) — ärgert sich über ihre Unpünktlichkeit.",
       "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q083",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ___ ein Haus.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "ist",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q084",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich ___ eine Frage.",
-      "options": [
-        "haben",
-        "habt",
-        "hat",
-        "habe"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q085",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Du ___ sehr nett.",
-      "options": [
-        "bin",
-        "bist",
-        "ist",
-        "sind"
-      ],
-      "correctAnswer": "bist",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q086",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ das Buch.",
-      "options": [
-        "lese",
-        "liest",
-        "lesen",
-        "lest"
-      ],
-      "correctAnswer": "liest",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q087",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ ist das?",
-      "options": [
-        "Wer",
-        "Was",
-        "Wo",
-        "Wie"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q088",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Lampe.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "die",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q089",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich komme ___ Deutschland.",
-      "options": [
-        "aus",
-        "bei",
-        "mit",
-        "nach"
-      ],
-      "correctAnswer": "aus",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q090",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ rote Auto.",
-      "options": [
-        "ein",
-        "eine",
-        "-",
-        "der"
-      ],
-      "correctAnswer": "ein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q091",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Buch.",
-      "options": [
-        "der",
-        "die",
-        "das",
-        "ein"
-      ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q092",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich ___ Deutsch.",
-      "options": [
-        "spreche",
-        "sprichst",
-        "spricht",
-        "sprechen"
-      ],
-      "correctAnswer": "spreche",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q093",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ du das?",
-      "options": [
-        "Weißt",
-        "Weiß",
-        "Wissen",
-        "Wusste"
-      ],
-      "correctAnswer": "Weißt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q094",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Das ist ___ Katze.",
-      "options": [
-        "eine",
-        "ein",
-        "einer",
-        "einem"
-      ],
-      "correctAnswer": "eine",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q095",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Er ___ nach Hause.",
-      "options": [
-        "geht",
-        "gehe",
-        "gehst",
-        "gehen"
-      ],
-      "correctAnswer": "geht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q096",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ du morgen Zeit?",
-      "options": [
-        "Hast",
-        "Habe",
-        "Hat",
-        "Habt"
-      ],
-      "correctAnswer": "Hast",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q097",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Sie ___ eine Straße.",
-      "options": [
-        "überschreitet",
-        "überschreite",
-        "überschreitest",
-        "überschreiten"
-      ],
-      "correctAnswer": "überschreitet",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q098",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Ich trinke ___ Kaffee.",
-      "options": [
-        "ein",
-        "eine",
-        "einer",
-        "-"
-      ],
-      "correctAnswer": "-",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q099",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "Der Mann ___ eine Frau.",
-      "options": [
-        "sieht",
-        "sehe",
-        "siehst",
-        "seht"
-      ],
-      "correctAnswer": "sieht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a1_07_q100",
-      "subjectId": "a1_07",
-      "topicName": "Negation: nicht und kein",
-      "questionText": "___ Kind spielt im Garten.",
-      "options": [
-        "Ein",
-        "Eine",
-        "Der",
-        "Die"
-      ],
-      "correctAnswer": "Ein",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "topicName": "Verben mit Präpositionen (warten auf, denken an...)"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

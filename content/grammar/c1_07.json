@@ -1,1553 +1,1419 @@
 {
+  "topicName": "Wortbildung: Komposita & Derivation",
   "subjectId": "c1_07",
-  "topicName": "Partizipialkonstruktionen",
   "level": "C1",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 100,
+  "description": "Wortbildung — Komposita & Derivation (C1)\n\n=== 1. KOMPOSITA (COMPOUND WORDS) ===\n\nGERMAN RULE: The last word (Grundwort) determines everything — gender, declension, and core meaning.\n\ndie Wirtschaft (f) + die Krise (f) -> die Wirtschaftskrise\ndas Ausland (n) + der Aufenthalt (m) -> der Auslandsaufenthalt\n\nFUGENFORMEN (Linking Elements):\n- Nullfuge: no linking element (Unfall + Versicherung = Unfallversicherung)\n- \"-s-\" after: -ung, -heit, -keit, -schaft, -tat, -ion\n  -> Bedeutungslosigkeit, Wissenschaftsgemeinschaft\n- \"-en/-e\" after weak nouns (N-Deklination):\n  -> Studentenrat, Expertenmeinung\n\nTYPES OF COMPOSITA:\n- Determinativkompositum: modifier + head (Schreibtisch)\n- Possessivkompositum (Bahuvrihi): describes by characteristic\n  -> Rotkappchen = the one with the red cap\n- Kopulativkompositum: equal elements joined\n  -> schwarz-weiss, deutsch-englisch\n- Rektionskompositum: first element is governed by the second\n  -> Steuererklaerung (Erklaerung ueber Steuern)\n\n=== 2. DERIVATION — KEY PREFIXES ===\n\ner- (RESULTATIVE): achieve/obtain through effort\n  arbeiten -> erarbeiten, kaempfen -> erkaempfen\n\nver- (ERROR, reflexive): action done incorrectly\n  sich verhoeren (mishear), sich verrechnen (miscalculate),\n  sich verlaufen (get lost)\n\nent- (PRIVATIVE): removal/stripping away\n  entsalzen (remove salt), entmutigen (dishearten)\n\ndurch- (EXHAUSTIVE): thoroughly, from beginning to end\n  durcharbeiten (work through), durchdenken (contemplate fully)\n\nun- (NEGATION): negates adjectives\n  unmoglich, unbekannt, unfreundlich\n\nmiss- (ERROR): erroneous action\n  missverstehen (misunderstand), missbrauchen (misuse)\n\n=== 3. SUFFIXES ===\n\n-bar = capability passive (kann getan werden): lesbar, fuehlbar\n-widrig = opposition: gesetzwidrig, vertragswidrig\n-heit: frei -> Freiheit\n-keit: freundlich -> Freundlichkeit\n-schaft: Freund -> Freundschaft\n-ung: erklaeren -> Erklaerung\n-er: Nomen Agentis (person who does): Lehrer, Schwimmer\n-los: without: hoffnungslos, arbeitslos\n-reich: rich in: hilfreich\n-voll: full of: erfolgreich\n-los: without: hoffnungslos\n-ner: darier -> dauerhaft (sustained)\n-ner: dauer + haft -> dauerhaft (sustained)\n-bar: lesen -> lesbar (kann gelesen werden)\n-ner: dauer + haft -> dauerhaft (sustained)\n-bar: aendern -> aenderbar (can be changed)\n-ner: dauer + haft -> dauerhaft\n-los: hoffnungslos, arbeitslos\n\nFor Latin/French loanwords:\n-ant/-ent -> -anz/-enz: arrogant -> Arroganz, effizient -> Effizienz\n-el/-bel -> -itaet: flexibel -> Flexibilitaet\n\n=== 4. C1 EXAM STRATEGIES ===\n\nDeconstruct to Decode: Slice unfamiliar words backward. Find the Grundwort\n(last noun) for the core meaning, then peel back prefixes/Fugenelemente.\n\nAvoid Over-nominalization: Balance compound nouns with dynamic verbs.\nLong compounds look academic but make sentences unreadable if overused.\n\nKonversion: Word class change WITHOUT affix: das Lachen (from lachen)",
+  "tips": [
+    "Grundwort (last word) determines gender and meaning: die Wirtschaftskrise = crise (die Krise)",
+    "Fugen-s after -ung, -heit, -keit, -schaft, -tat, -ion: Bedeutungslosigkeit, Wissenschaftsgemeinschaft",
+    "ver- reflexive = error/mistake: sich verhoeren, sich verrechnen, sich verlaufen",
+    "ent- = removal/stripping: entsalzen, entmutigen (remove courage)",
+    "er- = resultative (achieve through effort): erarbeiten, erkaempfen",
+    "durch- = exhaustive/thorough: durcharbeiten, durchdenken (every angle)",
+    "un- negates adjectives: unmoeglich, unbekannt, unfreundlich",
+    "Konversion = word class change without affix: lachen -> das Lachen, drucken -> der Druck"
+  ],
   "questions": [
     {
-      "id": "c1_07_q001",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet das Kompositum Handschuh?",
+      "options": [
+        "Ein Schuh fuer die Hand",
+        "Ein Kleidungsstueck fuer die Hand",
+        "Ein Werkzeug fuer die Hand",
+        "Ein Handtuch aus Leder"
+      ],
+      "correctAnswer": "Ein Kleidungsstueck fuer die Hand",
+      "explanation": "Handschuh = Hand + Schuh, but semantically it means glove. Compound meaning is not always transparent.",
+      "id": "c1_07_q001"
     },
     {
-      "id": "c1_07_q002",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein Kompositum mit dem Grundwort -arbeit?",
       "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
+        "Arbeitslos",
+        "Hausarbeit",
+        "Arbeitgeber",
+        "Bearbeitung"
       ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
+      "correctAnswer": "Hausarbeit",
+      "explanation": "Hausarbeit = Haus + Arbeit. The Grundwort (head word) is the last element.",
+      "id": "c1_07_q002"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welche Vorsilbe (Praefix) macht aus dem Adjektiv moeglich das Gegenteil?",
+      "options": [
+        "ver-",
+        "ent-",
+        "un-",
+        "miss-"
+      ],
+      "correctAnswer": "un-",
+      "explanation": "un- is the standard negating prefix for adjectives: unmoeglich = impossible.",
+      "id": "c1_07_q003"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix wird verwendet, um aus dem Verb lehren ein Nomen fuer eine Person zu bilden? -> der ____",
+      "options": [
+        "Lehrung",
+        "Lehrei",
+        "Lehrer",
+        "Lehrnis"
+      ],
+      "correctAnswer": "Lehrer",
+      "explanation": "-er forms agent nouns from verbs: lehren -> Lehrer (teacher).",
+      "id": "c1_07_q004"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Woerter ist durch das Suffix -heit gebildet worden?",
+      "options": [
+        "Freiheit",
+        "Freundschaft",
+        "Freundlichkeit",
+        "Befreiung"
+      ],
+      "correctAnswer": "Freiheit",
+      "explanation": "Freiheit = frei + -heit. -heit forms abstract nouns from adjectives; -schaft forms collective nouns.",
+      "id": "c1_07_q005"
+    },
+    {
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie das passende Kompositum: Die Stadtverwaltung hat einen neuen ____ fuer Radfahrer eingerichtet.",
+      "options": [
+        "Fahrradstreifen",
+        "Radfahrstreifen",
+        "Streifenfahrrad",
+        "Fahrtradstreifen"
+      ],
+      "correctAnswer": "Radfahrstreifen",
+      "explanation": "Radfahrstreifen = Radfahrer + Streifen. German compounds are head-final.",
+      "id": "c1_07_q006"
     },
     {
-      "id": "c1_07_q003",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q004",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q005",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Wort enthaelt ein Praefix mit einer trennbaren Bedeutung (trennbares Verb)?",
+      "options": [
+        "verstehen",
+        "ankommen",
+        "besuchen",
+        "erkennen"
+      ],
+      "correctAnswer": "ankommen",
+      "explanation": "Ankommen is separable: er kommt an. ver-, be-, er- are inseparable.",
+      "id": "c1_07_q007"
     },
     {
-      "id": "c1_07_q006",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q007",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q008",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat das Praefix ver- im Wort verreisen?",
+      "options": [
+        "Es druckt eine Verneinung aus",
+        "Es druckt eine Bewegung weg von einem Ort aus",
+        "Es druckt eine Wiederholung aus",
+        "Es druckt eine Verstaerkung aus"
+      ],
+      "correctAnswer": "Es druckt eine Bewegung weg von einem Ort aus",
+      "explanation": "ver- in verreisen indicates movement away: to travel away.",
+      "id": "c1_07_q008"
     },
     {
-      "id": "c1_07_q009",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q010",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q011",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ rechtzeitig reagiert wird.",
-      "options": [
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man",
-        "entscheidender / man"
-      ],
-      "correctAnswer": "entscheidender / man",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix bildet ein Adjektiv mit der Bedeutung ohne etwas? -> Er ist voellig ____ (ohne Hoffnung).",
+      "options": [
+        "hoffnungsreich",
+        "hoffnungslos",
+        "hoffnungsvoll",
+        "hoffnungsmäßig"
+      ],
+      "correctAnswer": "hoffnungslos",
+      "explanation": "-los means without: hoffnungslos = without hope (hopeless).",
+      "id": "c1_07_q009"
     },
     {
-      "id": "c1_07_q012",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q013",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung akzeptabel.",
-      "options": [
-        "In",
-        "Zu",
-        "Bei",
-        "An"
-      ],
-      "correctAnswer": "In",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q014",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Forschung kommt zu dem Ergebnis, ___ die Theorie ___",
-      "options": [
-        "dass / stimmt",
-        "ob / stimmt",
-        "weil / stimmte",
-        "wenn / gestimmt hat"
-      ],
-      "correctAnswer": "dass / stimmt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement fehlt im Kompositum Arbeit____vertrag?",
+      "options": [
+        "-s-",
+        "-en-",
+        "-e-",
+        "kein Fugenelement"
+      ],
+      "correctAnswer": "-s-",
+      "explanation": "Arbeitsvertrag uses the Fugenelement -s-. Fugenelemente connect compound parts.",
+      "id": "c1_07_q010"
     },
     {
-      "id": "c1_07_q015",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er hätte die Prüfung ___ bestehen ___, wenn er mehr gelernt ___",
-      "options": [
-        "leicht / können / hätte",
-        "besser / gekonnt / hätte",
-        "schwer / gemusst / hätte",
-        "leicht / gemusst / haben"
-      ],
-      "correctAnswer": "leicht / können / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q016",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ demzufolge die Daten ausgewertet wurden, ergab sich ein neues Bild.",
-      "options": [
-        "Nachdem",
-        "Weil",
-        "Obwohl",
-        "Als"
-      ],
-      "correctAnswer": "Nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q017",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ sollte.",
-      "options": [
-        "den / berücksichtigen",
-        "der / berücksichtigt",
-        "dem / berücksichtigt",
-        "dessen / berücksichtigen"
-      ],
-      "correctAnswer": "den / berücksichtigen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist eine Ableitung (Derivation) und kein Kompositum?",
+      "options": [
+        "Tischdecke",
+        "Sonnenschein",
+        "Freundlichkeit",
+        "Kopfschmerzen"
+      ],
+      "correctAnswer": "Freundlichkeit",
+      "explanation": "Freundlichkeit = Freund -> freundlich (-lich) -> Freundlichkeit (-keit). The others are compounds.",
+      "id": "c1_07_q011"
     },
     {
-      "id": "c1_07_q018",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q019",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ man auch argumentieren mag, die Fakten sprechen für sich.",
-      "options": [
-        "Wie",
-        "Was",
-        "Wo",
-        "Wonach"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q020",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Entwicklung ist ___ zu ___",
-      "options": [
-        "fortschreitend / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Praefix ent- in enttaeuschen druckt aus, dass ____.",
+      "options": [
+        "eine Handlung verstaerkt wird",
+        "eine Erwartung nicht erfuellt wird / etwas aufgehoben wird",
+        "etwas wiederholt wird",
+        "eine Bewegung beginnt"
+      ],
+      "correctAnswer": "eine Erwartung nicht erfuellt wird / etwas aufgehoben wird",
+      "explanation": "Ent- signals reversal/removal. Enttäuschen = to disappoint.",
+      "id": "c1_07_q012"
     },
     {
-      "id": "c1_07_q021",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sagte, er ___ die Prüfung bestanden.",
-      "options": [
-        "hätte",
-        "habe",
-        "wird",
-        "war"
-      ],
-      "correctAnswer": "habe",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum ist semantisch ein Bahuvrihi (Possessivkompositum)?",
+      "options": [
+        "Tischbein",
+        "Rotkaeppchen",
+        "Waschmaschine",
+        "Buchregal"
+      ],
+      "correctAnswer": "Rotkaeppchen",
+      "explanation": "Bahuvrihi = one with red cap (possessive). Rotkaeppchen describes the girl by her characteristic.",
+      "id": "c1_07_q013"
     },
     {
-      "id": "c1_07_q022",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das ist der Mann, ___ Auto gestohlen ___",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Wortbildung ist korrekt fuer das Verb analysieren -> Nomen des Vorgangs?",
       "options": [
-        "dessen / wurde",
-        "der / ist",
-        "dem / wurde",
-        "dessen / ist"
+        "Analysist",
+        "Analysierung",
+        "Analyse",
+        "Analysat"
       ],
-      "correctAnswer": "dessen / wurde",
-      "explanation": "",
+      "correctAnswer": "Analyse",
+      "explanation": "Verbs in -ieren drop -ieren: analysieren -> Analyse.",
+      "id": "c1_07_q014"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort enthaelt das Suffix -bar mit passiver Bedeutung (= kann getan werden)?",
+      "options": [
+        "offenbar",
+        "nachbar",
+        "lesbar",
+        "sonderbar"
+      ],
+      "correctAnswer": "lesbar",
+      "explanation": "-bar added to a verb stem = capable of being X-ed: lesbar = can be read.",
+      "id": "c1_07_q015"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Wie nennt man die Wortbildung, bei der ein neues Wort durch Kuerzung eines bestehenden entsteht?",
+      "options": [
+        "Derivation",
+        "Konversion",
+        "Kurzwortbildung (Kuerzung)",
+        "Komposition"
+      ],
+      "correctAnswer": "Kurzwortbildung (Kuerzung)",
+      "explanation": "Kurzwortbildung (clipping) shortens an existing word: Universitaet -> Uni.",
+      "id": "c1_07_q016"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "In welchem der folgenden Woerter liegt eine Konversion vor - also ein Wortartenwechsel ohne Affix?",
+      "options": [
+        "Freundschaft",
+        "das Lachen",
+        "lesbar",
+        "Arbeitslosigkeit"
+      ],
+      "correctAnswer": "das Lachen",
+      "explanation": "Konversion = word class change without affix: lachen -> das Lachen.",
+      "id": "c1_07_q017"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix veraendert die Bedeutung des Verbs schreiben so, dass es falsch schreiben bedeutet?",
+      "options": [
+        "ver-",
+        "ueber-",
+        "um-",
+        "ab-"
+      ],
+      "correctAnswer": "ver-",
+      "explanation": "Verschreiben = to write incorrectly. ver- indicates an erroneous action.",
+      "id": "c1_07_q018"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein Beispiel fuer ein Determinativkompositum, bei dem das Bestimmungswort den Zweck angibt?",
+      "options": [
+        "Tischbein",
+        "Kuechenwaage",
+        "Rotkohl",
+        "Grossmutter"
+      ],
+      "correctAnswer": "Kuechenwaage",
+      "explanation": "In Kuechenwaage (kitchen scale), Kuechen- specifies the purpose of the Grundwort Waage.",
+      "id": "c1_07_q019"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Komposita enthaelt ein Fugenelement, das historisch einem Genitiv entspricht?",
+      "options": [
+        "Tischdecke",
+        "Hundeleine",
+        "Tageslicht",
+        "Blumenstrauß"
+      ],
+      "correctAnswer": "Tageslicht",
+      "explanation": "Tageslicht = Tag + -es- + Licht. -es- reflects the old genitive form of Tag.",
+      "id": "c1_07_q020"
+    },
+    {
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ploetzliche ____ der Preise ueberraschte viele Kunden.",
+      "options": [
+        "Erhoehung",
+        "Erhoeher",
+        "Erhoehbarkeit",
+        "Erloehnis"
+      ],
+      "correctAnswer": "Erhoehung",
+      "explanation": "Erhohung = noun from erhoen (to increase).",
+      "id": "c1_07_q021"
     },
     {
-      "id": "c1_07_q023",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ man auch sagen mag, er hat Recht.",
-      "options": [
-        "Was",
-        "Wie",
-        "So",
-        "Wenn"
-      ],
-      "correctAnswer": "Was",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen investiert stark in die ____ neuer Technologien.",
+      "options": [
+        "Weiterentwicklung",
+        "Weiterentwickler",
+        "Entwickelungslos",
+        "Entwickelbarkeit"
+      ],
+      "correctAnswer": "Weiterentwicklung",
+      "explanation": "Weiterentwicklung = further development.",
+      "id": "c1_07_q022"
     },
     {
-      "id": "c1_07_q024",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sprach, ___ er alles wüsste.",
-      "options": [
-        "als ob",
-        "wenn",
-        "weil",
-        "damit"
-      ],
-      "correctAnswer": "als ob",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q025",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Aufgabe, ___ gelöst werden ___, ist sehr schwer.",
-      "options": [
-        "die / muss",
-        "die / muss",
-        "zu / werden",
-        "zu / werden"
-      ],
-      "correctAnswer": "zu / werden",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Projekts dauerte laenger als erwartet.",
+      "options": [
+        "Durchfuehrung",
+        "Durchfuehrnis",
+        "Durchfuehrerung",
+        "Fuehrbarkeit"
+      ],
+      "correctAnswer": "Durchfuehrung",
+      "explanation": "Durchfuehrung = standard nominalization of durchfuehren.",
+      "id": "c1_07_q023"
     },
     {
-      "id": "c1_07_q026",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Viele Arbeitnehmer wuenschen sich mehr ____ am Arbeitsplatz.",
+      "options": [
+        "Selbststaendigkeit",
+        "Selbststaenden",
+        "Selbststaendigheit",
+        "Selbstung"
+      ],
+      "correctAnswer": "Selbststaendigkeit",
+      "explanation": "-keit forms abstract nouns from adjectives.",
+      "id": "c1_07_q024"
     },
     {
-      "id": "c1_07_q027",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q028",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ ich auch recherchierte, fand ich keine Antwort.",
-      "options": [
-        "Wo",
-        "Was",
-        "Wie",
-        "Wonach"
-      ],
-      "correctAnswer": "Wonach",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Die neue ____ sorgt fuer mehr Verkehrssicherheit.",
+      "options": [
+        "Strassenbeleuchtung",
+        "Strassenlichtung",
+        "Strassenhellung",
+        "Beleuchtbarkeit"
+      ],
+      "correctAnswer": "Strassenbeleuchtung",
+      "explanation": "Strassenbeleuchtung = street lighting.",
+      "id": "c1_07_q025"
     },
     {
-      "id": "c1_07_q029",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle anzunehmen.",
-      "options": [
-        "als / hätte",
-        "wenn / hat",
-        "weil / hatte",
-        "damit / haben würde"
-      ],
-      "correctAnswer": "als / hätte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "type": "multiple_choice",
+      "questionText": "Seine ____ gegenueber Kritik beeindruckte alle Kollegen.",
+      "options": [
+        "Gelassenheit",
+        "Gelassigkeit",
+        "Gelassung",
+        "Gelassenbar"
+      ],
+      "correctAnswer": "Gelassenheit",
+      "explanation": "-heit forms nouns expressing qualities or states.",
+      "id": "c1_07_q026"
     },
     {
-      "id": "c1_07_q030",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das Projekt wurde ___ Zeit ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "c1_07_q031",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Daten muss sorgfaeltig erfolgen.",
+      "options": [
+        "Verarbeitung",
+        "Verarbeitnis",
+        "Bearbeitkeit",
+        "Verarbeitbarkeit"
+      ],
+      "correctAnswer": "Verarbeitung",
+      "explanation": "Verarbeitung = nominalization of verarbeiten.",
+      "id": "c1_07_q027"
     },
     {
-      "id": "c1_07_q032",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen legt großen Wert auf ____.",
+      "options": [
+        "Kundenzufriedenheit",
+        "Kundenzufriedung",
+        "Zufriedenbarkeit",
+        "Kundenglueckheit"
+      ],
+      "correctAnswer": "Kundenzufriedenheit",
+      "explanation": "Kundenzufriedenheit = customer satisfaction.",
+      "id": "c1_07_q028"
     },
     {
-      "id": "c1_07_q033",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q034",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Gebaeudes wurde 2024 abgeschlossen.",
+      "options": [
+        "Renovierung",
+        "Renovierheit",
+        "Renovierbarkeit",
+        "Renoviertung"
+      ],
+      "correctAnswer": "Renovierung",
+      "explanation": "-ung forms nouns from verbs; Renovierung = renovation.",
+      "id": "c1_07_q029"
     },
     {
-      "id": "c1_07_q035",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Sein Verhalten zeugte von großer ____.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Verantwortungslosigkeit",
+        "Verantwortungheit",
+        "Verantwortbarigkeit",
+        "Verantwortlichkeitung"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Verantwortungslosigkeit",
+      "explanation": "-losigkeit = absence of a quality (irresponsibility).",
+      "id": "c1_07_q030"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Umwelt hat hoechste Prioritaet.",
+      "options": [
+        "Schutzmassnahme",
+        "Schutzigkeit",
+        "Schuetzbarkeit",
+        "Beschuetzungheit"
+      ],
+      "correctAnswer": "Schutzmassnahme",
+      "explanation": "Schutzmassnahme = protective measure.",
+      "id": "c1_07_q031"
     },
     {
-      "id": "c1_07_q036",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q037",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ zwischen den Abteilungen funktionierte hervorragend.",
+      "options": [
+        "Zusammenarbeit",
+        "Zusammenarbeitung",
+        "Arbeitssamkeit",
+        "Kooperierung"
+      ],
+      "correctAnswer": "Zusammenarbeit",
+      "explanation": "Zusammenarbeit = collaboration / teamwork.",
+      "id": "c1_07_q032"
     },
     {
-      "id": "c1_07_q038",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die ____ des Systems verursacht hohe Kosten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Wartung",
+        "Wartigkeit",
+        "Wartbarkeit",
+        "Gewartung"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Wartung",
+      "explanation": "Wartung = maintenance, derived from warten.",
+      "id": "c1_07_q033"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Er bewies außergewoehnliche ____ in schwierigen Situationen.",
+      "options": [
+        "Belastbarkeit",
+        "Belastungheit",
+        "Belastsamkeit",
+        "Belastungslosigkeit"
+      ],
+      "correctAnswer": "Belastbarkeit",
+      "explanation": "-barkeit = capability/resilience; Belastbarkeit = resilience.",
+      "id": "c1_07_q034"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Forschungsergebnisse erfolgte online.",
+      "options": [
+        "Veroeffentlichung",
+        "Veroeffentlichtheit",
+        "Oeffnungsbarkeit",
+        "Publizierungkeit"
+      ],
+      "correctAnswer": "Veroeffentlichung",
+      "explanation": "Veroeffentlichung = publication, from veroeffentlichen.",
+      "id": "c1_07_q035"
     },
     {
-      "id": "c1_07_q039",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q040",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q041",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Konjunktiv I wird für Berichte verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen leiden unter zunehmender ____.",
+      "options": [
+        "Arbeitslosigkeit",
+        "Arbeitsbarkeit",
+        "Arbeitsung",
+        "Arbeitsfreiheitigkeit"
+      ],
+      "correctAnswer": "Arbeitslosigkeit",
+      "explanation": "-losigkeit = lack of; Arbeitslosigkeit = unemployment.",
+      "id": "c1_07_q036"
     },
     {
-      "id": "c1_07_q042",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Selbst wenn\" ist konzessiv.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q043",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Partizip I kann als Adjektiv verwendet werden.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Teilnehmer wurde sorgfaeltig ueberprueft.",
+      "options": [
+        "Anwesenheit",
+        "Anwesung",
+        "Anwesbarkeit",
+        "Anwesigkeit"
+      ],
+      "correctAnswer": "Anwesenheit",
+      "explanation": "Anwesenheit = presence, formed with -heit.",
+      "id": "c1_07_q037"
     },
     {
-      "id": "c1_07_q044",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Während\" kann auch als Subjunktion verwendet werden.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen foerdert die ____ seiner Mitarbeiter.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Eigenverantwortung",
+        "Eigenverantwortlichkeitung",
+        "Verantwortungskeit",
+        "Selbstverantwortbar"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Eigenverantwortung",
+      "explanation": "Eigenverantwortung = personal responsibility.",
+      "id": "c1_07_q038"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Die ____ der Informationen dauerte mehrere Stunden.",
+      "options": [
+        "Datenauswertung",
+        "Datenauswertigkeit",
+        "Auswertsamkeit",
+        "Informationswertung"
+      ],
+      "correctAnswer": "Datenauswertung",
+      "explanation": "Datenauswertung = data analysis/evaluation.",
+      "id": "c1_07_q039"
     },
     {
-      "id": "c1_07_q045",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Indirekte Rede braucht oft Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q046",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Konjunktiv II für Vorwürfe: \"Hättest du doch...\"",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Ihre ____ machte sie zu einer beliebten Fuehrungskraft.",
+      "options": [
+        "Freundlichkeit",
+        "Freundsamtkeit",
+        "Freundhaftung",
+        "Freundung"
+      ],
+      "correctAnswer": "Freundlichkeit",
+      "explanation": "-keit creates abstract nouns from adjectives; Freundlichkeit = friendliness.",
+      "id": "c1_07_q040"
     },
     {
-      "id": "c1_07_q047",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Angesichts dessen\" ist ein Konnektor.",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Die Wortbildung unterscheidet hauptsaechlich zwischen ____ und Derivation.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Flexion",
+        "Komposition",
+        "Reduplikation",
+        "Konversion"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Komposition",
+      "explanation": "Two main types: Komposition (compounds) and Derivation (affixes).",
+      "id": "c1_07_q041"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Kompositum?",
+      "options": [
+        "Ein Wort mit Praefix",
+        "Ein Wort aus zwei oder mehr eigenstaendigen Woertern",
+        "Ein abgeleitetes Wort",
+        "Ein Wort mit Suffix"
+      ],
+      "correctAnswer": "Ein Wort aus zwei oder mehr eigenstaendigen Woertern",
+      "explanation": "A Kompositum combines at least two independent words.",
+      "id": "c1_07_q042"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist ein Determinativkompositum?",
+      "options": [
+        "das Singen",
+        "der Schreibtisch",
+        "die Schoenheit",
+        "das Rotkaeppchen"
+      ],
+      "correctAnswer": "der Schreibtisch",
+      "explanation": "Schreibtisch: Schreib- (determinant) modifies Tisch (basic word).",
+      "id": "c1_07_q043"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie das Kompositum: der ____ + die Pflanze -> die ____",
+      "options": [
+        "Zimmer; Zimmerpflanze",
+        "Zimmers; Zimmerpflanze",
+        "Zimmern; Zimmerpflanze",
+        "Zimmeres; Zimmerpflanze"
+      ],
+      "correctAnswer": "Zimmer; Zimmerpflanze",
+      "explanation": "Compounds use the base form of the first word: Zimmer + Pflanze = Zimmerpflanze.",
+      "id": "c1_07_q044"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Was ist das Grundwort im Kompositum Autobahn?",
+      "options": [
+        "Auto",
+        "Bahn",
+        "beide",
+        "keins"
+      ],
+      "correctAnswer": "Bahn",
+      "explanation": "The Grundwort (basic word) is the last element: Bahn. Auto is the Bestimmungswort.",
+      "id": "c1_07_q045"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenlautelement ist hier korrekt: der Staat + der Anwalt -> der ____",
+      "options": [
+        "Staatanwalt",
+        "Staatesanwalt",
+        "Staatsanwalt",
+        "Staatanwalt"
+      ],
+      "correctAnswer": "Staatsanwalt",
+      "explanation": "Staat + s + Anwalt = Staatsanwalt (prosecutor). Fugen-s is required.",
+      "id": "c1_07_q046"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie: die Liebe + der Brief -> der ____",
+      "options": [
+        "Liebesbrief",
+        "Liebenbrief",
+        "Liebsbrief",
+        "Liebeabrief"
+      ],
+      "correctAnswer": "Liebesbrief",
+      "explanation": "Liebe + s + Brief = Liebesbrief. Nouns in -e add -s- as Fugenelement.",
+      "id": "c1_07_q047"
     },
     {
-      "id": "c1_07_q048",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Passiv Perfekt: \"ist gemacht worden\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q049",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Nicht nur...sondern auch\" ist korrekt.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Bei der Derivation wird ein ____ an ein Basiswort angehaengt.",
+      "options": [
+        "Affix",
+        "Kompositum",
+        "Fugenelement",
+        "Stamm"
+      ],
+      "correctAnswer": "Affix",
+      "explanation": "Derivation adds affixes (prefixes or suffixes) to a base word.",
+      "id": "c1_07_q048"
     },
     {
-      "id": "c1_07_q050",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Konjunktiv II der Vergangenheit: \"wäre gekommen\".",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Wort ist eine Derivation (Ableitung)?",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Tischlampe",
+        "Lehrbuch",
+        "Fahrkarte",
+        "Schoenheit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "Schoenheit",
+      "explanation": "Schoenheit = schoen + -heit. The others are compounds (two free morphemes).",
+      "id": "c1_07_q049"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Das Suffix -ung bildet hauptsaechlich ____ aus Verben.",
+      "options": [
+        "Adjektive",
+        "Substantive",
+        "Verben",
+        "Adverbien"
+      ],
+      "correctAnswer": "Substantive",
+      "explanation": "-ung derives nouns from verbs: pruefen -> Pruefung.",
+      "id": "c1_07_q050"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie die Derivation: krank + ____ = die Krankheit",
+      "options": [
+        "-keit",
+        "-heit",
+        "-nis",
+        "-tum"
+      ],
+      "correctAnswer": "-heit",
+      "explanation": "krank + -heit = Krankheit.",
+      "id": "c1_07_q051"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix druckt eine negative Bedeutung aus (Gegenteil)?",
+      "options": [
+        "ver-",
+        "be-",
+        "un-",
+        "er-"
+      ],
+      "correctAnswer": "un-",
+      "explanation": "un- negates adjectives: unmoeglich, unbekannt.",
+      "id": "c1_07_q052"
+    },
+    {
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Bilden Sie das passende Kompositum: die Tuer + der Schluessel -> ____",
+      "options": [
+        "der Tuerschluessel",
+        "die Tuerschluessel",
+        "das Tuerschluessel",
+        "den Tuerschluessel"
+      ],
+      "correctAnswer": "der Tuerschluessel",
+      "explanation": "Gender follows the Grundwort: der Schluessel -> der Tuerschluessel.",
+      "id": "c1_07_q053"
     },
     {
-      "id": "c1_07_q051",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Konjunktiv I: \"ich komme, er komme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q052",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Konjunktiv II: \"ich käme, er käme\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q053",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Indirekte Rede mit Konjunktiv I.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet der Rauchmelder woertlich (Kompositionsanalyse)?",
+      "options": [
+        "jemand, der Rauch meldet",
+        "ein Geraet, das Rauch meldet",
+        "Rauch, der meldet",
+        "ein Melder fuer Rauch"
+      ],
+      "correctAnswer": "ein Geraet, das Rauch meldet",
+      "explanation": "Rauchmelder = Rauch + Melder (from melden). A device that detects smoke.",
+      "id": "c1_07_q054"
     },
     {
-      "id": "c1_07_q054",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Partizipialkonstruktionen ersetzen Nebensätze.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q055",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Es empfiehlt sich\" ist ein unpersönlicher Ausdruck.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Vervollstaendigen Sie das Verbderivat: Lauf + ____ = laufen",
+      "options": [
+        "-en",
+        "-ieren",
+        "-eln",
+        "-ern"
+      ],
+      "correctAnswer": "-en",
+      "explanation": "Many verbs add -en: Lauf -> laufen.",
+      "id": "c1_07_q055"
     },
     {
-      "id": "c1_07_q056",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Geschweige denn\" ist eine Konjunktion.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welches Wort enthaelt ein Praefix, das eine Trennung oder Entfernung anzeigt?",
+      "options": [
+        "bekommen",
+        "entlassen",
+        "verlieren",
+        "zerbrechen"
+      ],
+      "correctAnswer": "entlassen",
+      "explanation": "ent- indicates removal: entlassen = to dismiss/release.",
+      "id": "c1_07_q056"
     },
     {
-      "id": "c1_07_q057",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Zumal\" bedeutet \"besonders weil\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Was ist ein Kopulativkompositum?",
+      "options": [
+        "Hausaufgabe",
+        "schwarz-weiss",
+        "Hochhaus",
+        "Liebesbrief"
+      ],
+      "correctAnswer": "schwarz-weiss",
+      "explanation": "Kopulativkomposita (dvandva) combine two equal elements: schwarz-weiss. Both parts have equal status.",
+      "id": "c1_07_q057"
     },
     {
-      "id": "c1_07_q058",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Funktionsverbgefüge: \"in Erfahrung bringen\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
-    },
-    {
-      "id": "c1_07_q059",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Nominalisierung: \"durchführen\" → \"die Durchführung\".",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Bilden Sie das Adjektiv: der Riese + -haft -> ____",
+      "options": [
+        "riesig",
+        "riesenhaft",
+        "rieshaft",
+        "rieselhaft"
+      ],
+      "correctAnswer": "riesenhaft",
+      "explanation": "-haft derives adjectives from nouns: Riese -> riesenhaft (gigantic). Note linking -en-.",
+      "id": "c1_07_q058"
     },
     {
-      "id": "c1_07_q060",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "\"Insofern als\" ist eine Konditionalverbindung.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "true_false"
+      "type": "multiple_choice",
+      "questionText": "Welches der folgenden Woerter ist KEIN Kompositum?",
+      "options": [
+        "Eingang",
+        "Arbeitszimmer",
+        "Kindergarten",
+        "Muttertag"
+      ],
+      "correctAnswer": "Eingang",
+      "explanation": "Eingang (entry) is arguably derived. Kinder garten and Muttertag are clear compounds.",
+      "id": "c1_07_q059"
     },
     {
-      "id": "c1_07_q061",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergänzen Sie: Das Suffix -los bildet ____ mit der Bedeutung ohne.",
+      "options": [
+        "Substantive",
+        "Adjektive",
+        "Verben",
+        "Adverbien"
+      ],
+      "correctAnswer": "Adjektive",
+      "explanation": "-los derives adjectives meaning without: hoffnungslos (hopeless), arbeitslos (unemployed).",
+      "id": "c1_07_q060"
     },
     {
-      "id": "c1_07_q062",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Prinzip bestimmt die Bedeutung und das Genus eines deutschen Kompositums?",
       "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
+        "Das erste Glied (Grundwort) bestimmt Bedeutung und Genus.",
+        "Das letzte Glied (Grundwort) bestimmt Bedeutung und Genus.",
+        "Beide Glieder tragen gleichwertig zur Bedeutung bei.",
+        "Das Genus wird willkürlich vergeben."
       ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
+      "correctAnswer": "Das letzte Glied (Grundwort) bestimmt Bedeutung und Genus.",
+      "explanation": "German compounds follow the right-headedness principle: the final element (Grundwort) determines the compound's grammatical gender and core semantic category.",
+      "id": "c1_07_q061"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement ist im Kompositum 'Arbeits____zimmer' korrekt?",
+      "options": [
+        "Arbeitszimmer (mit -s-)",
+        "Arbeitzimmer (ohne Fugenelement)",
+        "Arbeitenzimmer (mit -en-)",
+        "Arbeitseszimmer (mit -es-)"
+      ],
+      "correctAnswer": "Arbeitszimmer (mit -s-)",
+      "explanation": "Many masculine and neuter nouns take Fugen-s: 'Arbeitsplatz', 'Arbeitszimmer', 'Arbeitszeit'.",
+      "id": "c1_07_q062"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix bildet aus dem Adjektiv 'freundlich' ein Substantiv?",
+      "options": [
+        "-keit",
+        "-heit",
+        "-schaft",
+        "-tum"
+      ],
+      "correctAnswer": "-keit",
+      "explanation": "The suffix '-keit' nominalizes adjectives ending in -lich: 'freundlich' -> 'Freundlichkeit'.",
+      "id": "c1_07_q063"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix veraendert die Valenz des Verbs 'decken' zu einem transitiven Verb?",
+      "options": [
+        "entdecken",
+        "bedecken",
+        "verdecken",
+        "zerdecken"
+      ],
+      "correctAnswer": "bedecken",
+      "explanation": "The prefix 'be-' transforms verbs into transitive verbs taking a direct accusative: 'decken' -> 'bedecken' (to cover something directly).",
+      "id": "c1_07_q064"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum bedeutet 'ein Zimmer fuer Gaeste'?",
+      "options": [
+        "Gaestezimmer",
+        "Zimmergast",
+        "Gastzimmer",
+        "Zimmer fuer Gaeste"
+      ],
+      "correctAnswer": "Gaestezimmer",
+      "explanation": "Gaestezimmer = 'Zimmer fuer Gaeste'. Note the plural Fugenform 'Gaeste-' rather than singular 'Gast-'.",
+      "id": "c1_07_q065"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Suffix bildet aus dem Verb 'lehren' eine Person, die eine Taetigkeit ausuebt?",
+      "options": [
+        "-er",
+        "-ling",
+        "-ner",
+        "-ant"
+      ],
+      "correctAnswer": "-er",
+      "explanation": "-er forms agent nouns from verbs: lehren -> Lehrer (teacher).",
+      "id": "c1_07_q066"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix druckt bei Verben oft eine negative oder entgegengesetzte Bedeutung aus?",
+      "options": [
+        "be-",
+        "ent-",
+        "er-",
+        "ver-"
+      ],
+      "correctAnswer": "ent-",
+      "explanation": "ent- indicates removal, reversal: 'fernen' -> 'entfernen', 'laden' -> 'entladen'.",
+      "id": "c1_07_q067"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Wie lautet das korrekte Kompositum fuer 'die Art, wie man sich verhaelt'?",
+      "options": [
+        "Verhaltensweise",
+        "Weiseverhalten",
+        "Verhaltenweise",
+        "Verhaltensweise"
+      ],
+      "correctAnswer": "Verhaltensweise",
+      "explanation": "The compound combines 'Verhalten' + Fugen-s + 'Weise': Verhaltensweise = manner of behaving.",
+      "id": "c1_07_q068"
     },
     {
-      "id": "c1_07_q063",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q064",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q065",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
-      "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
-      ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Derivat ist semantisch und morphologisch korrekt aus 'moeglich' gebildet?",
+      "options": [
+        "Moeglichkeit",
+        "Moeglichung",
+        "Moeglichheit",
+        "Moeglichkeit"
+      ],
+      "correctAnswer": "Moeglichkeit",
+      "explanation": "Adjectives ending in -lich form abstract nouns with -keit: moeglich -> Moeglichkeit.",
+      "id": "c1_07_q069"
     },
     {
-      "id": "c1_07_q066",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Es empfiehlt sich, ___ ___",
-      "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
-      ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q067",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q068",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum enthaelt ein korrektes Fugenelement? 'Bundes____kanzler'",
+      "options": [
+        "Bundeskanzler (ohne Fugenelement)",
+        "Bundeskanzler (mit -s-)",
+        "Bundeskanzler (mit -en-)",
+        "Bundeskanzler (mit -es-)"
+      ],
+      "correctAnswer": "Bundeskanzler (mit -s-)",
+      "explanation": "Bundeskanzler uses Fugen-s: Bundespraesident, Bundesland.",
+      "id": "c1_07_q070"
     },
     {
-      "id": "c1_07_q069",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q070",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q071",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix-Suffix-Paar bildet aus dem Adjektiv 'gluecklich' ein Substantiv mit abstrakter Bedeutung?",
+      "options": [
+        "Be- + -ung: Beglueckung",
+        "Ver- + -heit: Verglueckheit",
+        "Glueck + -seligkeit: Glueckseligkeit",
+        "Un- + -keit: Ungluecklichkeit"
+      ],
+      "correctAnswer": "Un- + -keit: Ungluecklichkeit",
+      "explanation": "un- + glucklich + -keit = Ungluecklichkeit (unhappiness). Multi-step derivation is a C1 skill.",
+      "id": "c1_07_q071"
     },
     {
-      "id": "c1_07_q072",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er tat so, ___ er von nichts ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q073",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q074",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum ist semantisch mehrdeutig und erfordert Kontext zur Interpretation?",
+      "options": [
+        "Kinderspielplatz",
+        "Hundehuette",
+        "Buchhandlung",
+        "Altpapiercontainer"
+      ],
+      "correctAnswer": "Buchhandlung",
+      "explanation": "Buchhandlung could mean 'bookstore' or 'the act of handling books'. Context determines the meaning.",
+      "id": "c1_07_q072"
     },
     {
-      "id": "c1_07_q075",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
-      "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
-      ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q076",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q077",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Ableitung ist produktiv im modernen Deutsch zur Bildung von Substantiven aus Verben?",
+      "options": [
+        "-ung (z.B. 'Pruefung' von 'pruefen')",
+        "-sal (z.B. 'Schicksal' von 'schicken')",
+        "-tum (z.B. 'Eigentum' von 'eigen')",
+        "-nis (z.B. 'Erkenntnis' von 'erkennen')"
+      ],
+      "correctAnswer": "-ung (z.B. 'Pruefung' von 'pruefen')",
+      "explanation": "-ung is highly productive for forming nouns from verbs: pruefen -> Pruefung.",
+      "id": "c1_07_q073"
     },
     {
-      "id": "c1_07_q078",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q079",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
-      "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
-      ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q080",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
-      "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
-      ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektivsuffix druckt Passivitaet oder Moeglichkeit aus?",
+      "options": [
+        "-bar (z.B. 'lesbar')",
+        "-ig (z.B. 'staubig')",
+        "-isch (z.B. 'kindisch')",
+        "-sam (z.B. 'achtsam')"
+      ],
+      "correctAnswer": "-bar (z.B. 'lesbar')",
+      "explanation": "-bar added to verb stems = capable of being X-ed: lesbar = kann gelesen werden.",
+      "id": "c1_07_q074"
     },
     {
-      "id": "c1_07_q081",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sagte, er ___ die Prüfung ___",
-      "options": [
-        "habe / bestanden",
-        "hat / bestanden",
-        "würde / bestehen",
-        "wird / bestehen"
-      ],
-      "correctAnswer": "habe / bestanden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q082",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das ist der Mann, ___ Auto ___ ___",
-      "options": [
-        "dessen / gestohlen / wurde",
-        "der / gestohlen / wurde",
-        "dem / gestohlen / wurde",
-        "dessen / wurde / gestohlen"
-      ],
-      "correctAnswer": "dessen / gestohlen / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q083",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ man auch sagen mag, er hat ___",
-      "options": [
-        "Was / Recht",
-        "Wie / unrecht",
-        "So / recht",
-        "Wenn / recht"
-      ],
-      "correctAnswer": "Was / Recht",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum demonstriert die korrekte Verwendung eines Plural-Fugenelements?",
+      "options": [
+        "Kinderbuch (nicht *Kindbuch)",
+        "Autobahn (nicht *Autenbahn)",
+        "Sonnenblume (nicht *Sonnblume)",
+        "Alle oben genannten"
+      ],
+      "correctAnswer": "Alle oben genannten",
+      "explanation": "Kinder- (plural), Sonnen- (plural of Sonne) are conventionalized Fugenformen.",
+      "id": "c1_07_q075"
     },
     {
-      "id": "c1_07_q084",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er sprach, ___ er alles ___",
-      "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
-      ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
       "difficulty": "hard",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Wortbildung ist ein Beispiel fuer Konversion (Nullableitung)?",
+      "options": [
+        "das Laufen (vom Verb 'laufen')",
+        "der Laeufer (vom Verb 'laufen')",
+        "laeufig (vom Substantiv 'Lauf')",
+        "vorlaufen (vom Verb 'laufen')"
+      ],
+      "correctAnswer": "das Laufen (vom Verb 'laufen')",
+      "explanation": "Konversion = word class change without affix: laufen -> das Lachen.",
+      "id": "c1_07_q076"
     },
     {
-      "id": "c1_07_q085",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Aufgabe, ___ ___ ___ ___, ist sehr schwer.",
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches neoklassische Kompositum verwendet korrekte griechisch-lateinische Fugenelemente?",
       "options": [
-        "zu / gelöst / werden / muss",
-        "die / gelöst / werden / muss",
-        "zu / werden / gelöst / muss",
-        "die / werden / gelöst / muss"
+        "Biodiversitaet (bio- + diversitas)",
+        "Klimawandel (Klima + Wandel)",
+        "Umweltschutz (Umwelt + Schutz)",
+        "Nachhaltigkeit (nachhaltig + -keit)"
       ],
-      "correctAnswer": "zu / gelöst / werden / muss",
-      "explanation": "",
+      "correctAnswer": "Biodiversitaet (bio- + diversitas)",
+      "explanation": "Biodiversitaet combines Greek 'bio-' with Latin '-diversitas', using neoclassical linking vowel '-o-'.",
+      "id": "c1_07_q077"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Ableitung zeigt einen semantischen Wandel durch Praefigierung? 'stehen' -> ____",
+      "options": [
+        "bestehen (existieren/pruefen bestehen)",
+        "gestehen (ein Gestacndnis ablegen)",
+        "verstehen (begreifen)",
+        "Alle oben genannten"
+      ],
+      "correctAnswer": "Alle oben genannten",
+      "explanation": "bestehen, gestehen, verstehen all radically change 'stehen' meaning through prefixation.",
+      "id": "c1_07_q078"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welche Strategie zeigt fortgeschrittene Kompetenz in der Wortbildung auf C1-Niveau?",
+      "options": [
+        "Ausschliessliche Verwendung einfacher, transparenter Komposita.",
+        "Gezielte Wahl zwischen germanischen und neoklassischen Affixen je nach Register.",
+        "Vermeidung aller Fugenelemente.",
+        "Nutzung nur produktiver Suffixe."
+      ],
+      "correctAnswer": "Gezielte Wahl zwischen germanischen und neoklassischen Affixen je nach Register.",
+      "explanation": "C1 learners strategically use Germanic affixes (-heit, -keit) vs neoclassical (-tion, -itaet) for register-appropriate precision.",
+      "id": "c1_07_q079"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Kompositum ist morphologisch korrekt, aber semantisch ungewoehnlich oder ironisch?",
+      "options": [
+        "Fernweh (Gegenteil von Heimweh)",
+        "Kopfschmerztabletten",
+        "Handyhalterung",
+        "Taschenlampenbatterie"
+      ],
+      "correctAnswer": "Fernweh (Gegenteil von Heimweh)",
+      "explanation": "Fernweh (wanderlust/literally 'far-sorrow') follows standard compounding but is semantically marked - a C1-level pragmatic skill.",
+      "id": "c1_07_q080"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das korrekte Fugenelement: Die Verhandlung____basis fuer den Vertrag steht fest.",
+      "options": [
+        "s",
+        "en",
+        "e",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Nouns ending in -ung (die Verhandlung) take Fugen-s: Verhandlungsbasis.",
+      "id": "c1_07_q081"
     },
     {
-      "id": "c1_07_q086",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Es empfiehlt sich, ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Praefix druckt eine Fehlentwicklung oder ein falsches Handeln aus? 'Er hat sich voellig ____.' (Bedeutung: Er ist in die falsche Richtung gelaufen.)",
       "options": [
-        "früh / zu buchen",
-        "bald / buchen",
-        "schnell / gebucht",
-        "rechtzeitig / buchen"
+        "verlaufen",
+        "zerlaufen",
+        "entlaufen",
+        "abgelaufen"
       ],
-      "correctAnswer": "früh / zu buchen",
-      "explanation": "",
+      "correctAnswer": "verlaufen",
+      "explanation": "ver- reflexive = error: sich verlaufen (get lost), sich verhoeren (mishear).",
+      "id": "c1_07_q082"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie das korrekte Suffix fuer ein Abstraktum im wissenschaftlichen Kontext: Die Flexibel____ moderner Arbeitszeitmodelle ist ein grosser Vorteil.",
+      "options": [
+        "-itaet",
+        "-heit",
+        "-keit",
+        "-schaft"
+      ],
+      "correctAnswer": "-itaet",
+      "explanation": "Loanwords ending in -el/-bel form nouns with -itaet: flexibel -> Flexibilitaet.",
+      "id": "c1_07_q083"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement ist hier korrekt? 'Ein Treffen aller Regierungs____chefs wurde kurzfristig anberaumt.'",
+      "options": [
+        "s",
+        "er",
+        "en",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Compounds where first element is itself a compound: Regierungschef -> Regierungs(s)-chefs.",
+      "id": "c1_07_q084"
     },
     {
-      "id": "c1_07_q087",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Der Experte wurde gebeten, eine ___ zu ___",
-      "options": [
-        "Analyse / durchführen",
-        "Analysen / durchführen",
-        "Analyse / gemacht",
-        "Analysen / macht"
-      ],
-      "correctAnswer": "Analyse / durchzuführen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q088",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ ich auch ___ ___, fand ich keine Antwort.",
-      "options": [
-        "Wonach / recherchierte",
-        "Wo / recherchierte",
-        "Was / recherchierte",
-        "Wie / recherchierte"
-      ],
-      "correctAnswer": "Wonach / recherchierte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q089",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Sie sprach, ___ sie die Absicht ___, die Stelle ___",
-      "options": [
-        "als / hätte / anzunehmen",
-        "wenn / hat / anzunehmen",
-        "weil / hatte / anzunehmen",
-        "damit / haben würde / anzunehmen"
-      ],
-      "correctAnswer": "als / hätte / anzunehmen",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Bedeutung hat das Praefix 'ent-' im folgenden Verb? 'Die Forscher mussten das Wasser vollstaendig ____salzen.'",
+      "options": [
+        "Die Entfernung oder Beseitigung einer Sache.",
+        "Der Beginn eines neuen Prozesses.",
+        "Die Verstaerkung einer Eigenschaft.",
+        "Eine fehlerhafte Handlung."
+      ],
+      "correctAnswer": "Die Entfernung oder Beseitigung einer Sache.",
+      "explanation": "ent- = privative: entsalzen (remove salt), entmutigen (dishearten).",
+      "id": "c1_07_q085"
     },
     {
-      "id": "c1_07_q090",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das Projekt wurde ___ ___ ___",
-      "options": [
-        "rechtzeitig / abgeschlossen",
-        "in / Abschluss",
-        "zu / beendet",
-        "nach / vollendet"
-      ],
-      "correctAnswer": "rechtzeitig / abgeschlossen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q091",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Es ist von ___ Bedeutung, dass ___ ___ ___ ___",
-      "options": [
-        "entscheidender / man / rechtzeitig / reagiert / wird",
-        "entscheidender / er / reagiert / wird / rechtzeitig",
-        "entscheidender / man / wird / reagiert / rechtzeitig",
-        "entscheidender / sie / rechtzeitig / wird / reagiert"
-      ],
-      "correctAnswer": "entscheidender / man / rechtzeitig / reagiert / wird",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das richtige Fugenelement: Das Student____parlament fordert Reformen.",
+      "options": [
+        "en",
+        "es",
+        "s",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "en",
+      "explanation": "Weak masculine nouns (N-Deklination) use their -en ending as Fugenelement: Studentenparlament.",
+      "id": "c1_07_q086"
     },
     {
-      "id": "c1_07_q092",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er tat so, ___ er von nichts ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektiv-Suffix druckt die Moeglichkeit aus, etwas zu tun? 'Dieses Problem ist absolut unloes____.'",
       "options": [
-        "als ob / wüsste",
-        "wenn / weiß",
-        "weil / wusste",
-        "obwohl / weiß"
+        "bar",
+        "haft",
+        "sam",
+        "lich"
       ],
-      "correctAnswer": "als ob / wüsste",
-      "explanation": "",
+      "correctAnswer": "bar",
+      "explanation": "-bar added to verb stems = capable of being X-ed: unloesbar (cannot be solved).",
+      "id": "c1_07_q087"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Was bewirkt das Praefix 'zer-' bei Verben wie 'zerstoeren', 'zerbrechen' oder 'zerreissen'?",
+      "options": [
+        "Es druckt eine totale Trennung, Aufloesung oder Bescshaedigung in Teile aus.",
+        "Es signalisiert den zeitlichen Beginn einer Handlung.",
+        "Es kehrt die Bedeutung des Verbs in das Gegenteil um.",
+        "Es verleiht dem Verb eine rein reflexive Bedeutung."
+      ],
+      "correctAnswer": "Es druckt eine totale Trennung, Aufloesung oder Bescshaedigung in Teile aus.",
+      "explanation": "zer- = destruction/disintegration: zerstoeren, zerbrechen, zerreissen.",
+      "id": "c1_07_q088"
     },
     {
-      "id": "c1_07_q093",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ dem Umstand, dass er krank war, ist die Leistung ___",
-      "options": [
-        "In / akzeptabel",
-        "Zu / akzeptabler",
-        "Bei / akzeptiert",
-        "An / akzeptabel"
-      ],
-      "correctAnswer": "In / akzeptabel",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q094",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Forschung kommt zu dem ___, ___ die Theorie ___",
-      "options": [
-        "Ergebnis / dass / stimmt",
-        "Ergebnis / ob / stimmt",
-        "Ergebnis / weil / stimmte",
-        "Ergebnis / wenn / gestimmt hat"
-      ],
-      "correctAnswer": "Ergebnis / dass / stimmt",
-      "explanation": "",
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welches Fugenelement verbindet diese beiden Nomen korrekt? 'Die Wirtschaft____krise traf das Land voellig unvorbereitet.'",
+      "options": [
+        "s",
+        "en",
+        "e",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Wirtschaft = die Wissenschaft (die Wirtschaftskie?) Wait: Wirtschafts-krise uses -s- after Wirtschaft. Feminine nouns use Fugen-s.",
+      "id": "c1_07_q089"
     },
     {
-      "id": "c1_07_q095",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er hätte die Prüfung ___ ___ ___, wenn er mehr ___ ___",
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das passende Praefix: Durch ____produktion (Herstellung von zu vielen Guetern) sanken die Preise dramatisch.",
       "options": [
-        "leicht / bestehen / können / hätte / gelernt",
-        "besser / gekonnt / hätte / gelernt",
-        "schwer / gemusst / hätte / gelernt",
-        "leicht / können / hätte / hatte / gelernt"
+        "Ueber",
+        "Unter",
+        "Fehl",
+        "Miss"
       ],
-      "correctAnswer": "leicht / bestehen / können / hätte / gelernt",
-      "explanation": "",
+      "correctAnswer": "Ueber",
+      "explanation": "Ueber- = excess: Ueberproduktion (overproduction), Ueberforderung.",
+      "id": "c1_07_q090"
+    },
+    {
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Finden Sie das grammatikalisch korrekte Kompositum fuer eine Versicherung, die Unfaelle abdeckt:",
+      "options": [
+        "Unfallversicherung",
+        "Unfaellesversicherung",
+        "Unfallsversicherung",
+        "Unfalleversicherung"
+      ],
+      "correctAnswer": "Unfallversicherung",
+      "explanation": "Nullfuge: no linking element between Unfall and Versicherung in standard German.",
+      "id": "c1_07_q091"
     },
     {
-      "id": "c1_07_q096",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ demzufolge die Daten ___ ___ ___, ergab sich ein neues ___",
-      "options": [
-        "Nachdem / ausgewertet / wurden / Bild",
-        "Weil / ausgewertet / wurden / Bild",
-        "Als / werden / ausgewertet / Bilder",
-        "Obwohl / sind / ausgewertet / Bild"
-      ],
-      "correctAnswer": "Nachdem / ausgewertet / wurden / Bild",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q097",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Das ist ein Aspekt, ___ man in der Diskussion ___ ___",
-      "options": [
-        "den / berücksichtigen / sollte",
-        "der / berücksichtigt / sollte",
-        "dem / berücksichtigen / sollte",
-        "dessen / berücksichtigt / sollte"
-      ],
-      "correctAnswer": "den / berücksichtigen / sollte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "c1_07_q098",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Er verhielt sich so, ___ er die Regeln nicht ___",
-      "options": [
-        "als ob / kennt",
-        "wenn / kennt",
-        "weil / kannte",
-        "obwohl / kennt"
-      ],
-      "correctAnswer": "als ob / kennt",
-      "explanation": "",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Welche Nuance verleiht das Suffix '-widrig' einem Adjektiv? 'Sein Verhalten war absolut gesetz____.'",
+      "options": [
+        "widrig",
+        "maessig",
+        "getreu",
+        "voll"
+      ],
+      "correctAnswer": "widrig",
+      "explanation": "-widrig = against/contrary to: gesetzwidrig (illegal), vertragswidrig (breach of contract).",
+      "id": "c1_07_q092"
     },
     {
-      "id": "c1_07_q099",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "___ man auch ___ ___ mag, die Fakten sprechen für ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das nominale Derivationssuffix: Seine Arrog____ stiess bei den Kollegen auf Unverstaendnis.",
       "options": [
-        "Was / argumentieren",
-        "Wie / argumentieren",
-        "Wo / arguieren",
-        "Wonach / argumentieren"
+        "anz",
+        "enz",
+        "heit",
+        "ismus"
       ],
-      "correctAnswer": "Was / argumentieren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "anz",
+      "explanation": "-ant -> -anz: arrogant -> Arroganz. Loanword pattern: effizient -> Effizienz.",
+      "id": "c1_07_q093"
     },
     {
-      "id": "c1_07_q100",
-      "subjectId": "c1_07",
-      "topicName": "Partizipialkonstruktionen",
-      "questionText": "Die Entwicklung ist ___ ___ ___",
+      "difficulty": "medium",
+      "type": "multiple_choice",
+      "questionText": "Welches Verbpraefix druckt das Durchdringen oder die lueckenlose Bearbeitung aus? 'Der Richter hat die Akten tagelang ____arbeitet.'",
       "options": [
-        "fortschreitend / zu / beobachten",
-        "fortschreitend / beobachtend",
-        "zu / beobachtend",
-        "fortschreitend / beobachtet"
+        "durch",
+        "er",
+        "ver",
+        "be"
       ],
-      "correctAnswer": "fortschreitend / zu / beobachten",
-      "explanation": "",
+      "correctAnswer": "durch",
+      "explanation": "durch- = thorough/exhaustive: durcharbeiten, durchdenken.",
+      "id": "c1_07_q094"
+    },
+    {
       "difficulty": "easy",
-      "type": "fill_blank"
+      "type": "multiple_choice",
+      "questionText": "Was bedeutet das Praefix 'miss-' in Woertern wie 'Missachtung' oder 'Misserfolg'?",
+      "options": [
+        "Es verkehrt die positive Basisbedeutung ins Negative oder Gegenteil.",
+        "Es beschreibt eine zeitliche Vorzeitigkeit.",
+        "Es schwacht die Intensitaet des Wortes ab.",
+        "Es kennzeichnet eine raeumliche Trennung."
+      ],
+      "correctAnswer": "Es verkehrt die positive Basisbedeutung ins Negative oder Gegenteil.",
+      "explanation": "miss- = negative inversion: Missachtung, Misserfolg.",
+      "id": "c1_07_q095"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das korrekte Fugenelement: Die Wissenschaft____gemeinschaft sucht nach neuen Antworten.",
+      "options": [
+        "s",
+        "en",
+        "er",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "Wissenschaft = die Wissenschaft; Fugen-s: Wissenschaftsgemeinschaft.",
+      "id": "c1_07_q096"
+    },
+    {
+      "difficulty": "easy",
+      "type": "multiple_choice",
+      "questionText": "Welches Adjektivsuffix druckt das Fehlen oder den Mangel an einer Sache aus? 'Ihre Argumentation war voellig grund____.'",
+      "options": [
+        "los",
+        "arm",
+        "frei",
+        "leer"
+      ],
+      "correctAnswer": "los",
+      "explanation": "-los = without/lacking: grundlos (groundless), schlaflos (sleepless).",
+      "id": "c1_07_q097"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Waehlen Sie das grammatikalisch fehlerhafte Wortbildungsprodukt aus:",
+      "options": [
+        "Hilflosigkeit",
+        "Hilfsbereitschaft",
+        "Hilfenlosigkeit",
+        "Hilfestellung"
+      ],
+      "correctAnswer": "Hilfenlosigkeit",
+      "explanation": "Hilfenlosigkeit is incorrect. The correct form is Hilflosigkeit (from hilflos + -keit).",
+      "id": "c1_07_q098"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Welches Verbpraefix druckt das Erreichen eines Ziels durch Anstrengung aus? 'Sie hat sich den Titel hart ____arbeitet.'",
+      "options": [
+        "er",
+        "ver",
+        "zu",
+        "be"
+      ],
+      "correctAnswer": "er",
+      "explanation": "er- = resultative: erarbeiten (achieve through work), erkaempfen (win by fighting).",
+      "id": "c1_07_q099"
+    },
+    {
+      "difficulty": "hard",
+      "type": "multiple_choice",
+      "questionText": "Ergaenzen Sie das Fugenelement: 'Im Alltag____leben lauern viele unerwartete Herausforderungen.'",
+      "options": [
+        "s",
+        "es",
+        "e",
+        "- (kein Fugenelement)"
+      ],
+      "correctAnswer": "s",
+      "explanation": "der Alltag (genitive: des Alltags) + das Leben = das Alltagsleben. Fugen-s from genitive.",
+      "id": "c1_07_q100"
     }
-  ],
-  "totalQuestions": 100
+  ]
 }

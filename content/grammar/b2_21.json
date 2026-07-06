@@ -1,1650 +1,1230 @@
 {
+  "version": "1.0",
   "subjectId": "b2_21",
-  "topicName": "Relativsätze im Genitiv",
-  "level": "B2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "topicName": "Relativsaetze im Genitiv",
+  "totalQuestions": 100,
   "questions": [
     {
       "id": "b2_21_q001",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Autor, ________ neue Buecher weltweit bekannt sind.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "dessen",
+        "deren",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Autor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q002",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Kennst du die Frau, ________ Hund staendig bellt?",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "dessen",
+        "deren",
+        "den",
+        "die"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Frau",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q003",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Wir unterstuetzen Projekte, ________ Ziele nachhaltig sind.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "dessen",
+        "deren",
+        "die",
+        "den"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Projekte",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q004",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Das ist das Haus, ________ Dach im Sturm beschaedigt wurde.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Haus",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q005",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten, ________ Noten sehr gut sind, erhalten ein Stipendium.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "dessen",
+        "deren",
+        "den",
+        "die"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Studenten",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q006",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Herr Mueller, ________ Firma insolvent ist, sucht eine neue Stelle.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "dessen",
+        "deren",
+        "dem",
+        "der"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: Herr Mueller",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q007",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Die Stadt, ________ Sehenswuerdigkeiten wir besuchten, war wunderschoen.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Stadt",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q008",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ________ Eltern ich angerufen habe, weinte laut.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Kind",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q009",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Ich helfe meinem Nachbarn, ________ Garten sehr gross ist.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "dessen",
+        "deren",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Nachbar",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q010",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, ________ Meinung ich sehr schaetze, ist heute krank.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Kollegin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q011",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Wir wohnen in einem Dorf, ________ Einwohner sehr freundlich sind.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Dorf",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q012",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ du mit dem Essen fertig bist, räum bitte auf.",
+      "type": "multiple_choice",
+      "questionText": "Die Teilnehmer, ________ Anmeldung fehlt, duerfen nicht mitschreiben.",
       "options": [
-        "Sobald",
-        "Solange",
-        "Wenn",
-        "Nachdem"
+        "dessen",
+        "deren",
+        "den",
+        "die"
       ],
-      "correctAnswer": "Sobald",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Teilnehmer",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q013",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Haus, ___ wir gekauft haben, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen, ________ Produkte wir verkaufen, sitzt in Berlin.",
       "options": [
-        "das",
-        "der",
+        "dessen",
+        "deren",
         "dem",
-        "dessen"
+        "das"
       ],
-      "correctAnswer": "das",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Unternehmen",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q014",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland gelebt ___",
+      "type": "multiple_choice",
+      "questionText": "Die Kuenstlerin, ________ Werke im Museum haengen, kommt aus Italien.",
       "options": [
-        "weil / hat",
-        "obwohl / gewohnt hat",
-        "wenn / lebt",
-        "damit / lebte"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "weil / gewohnt hat",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Kuenstlerin",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q015",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ sie in München wohnte, hat sie viele Museen besucht.",
+      "type": "multiple_choice",
+      "questionText": "Der Patient, ________ Zustand sich verbessert hat, darf nach Hause gehen.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Seitdem"
+        "dessen",
+        "deren",
+        "dem",
+        "der"
       ],
-      "correctAnswer": "Während",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Patient",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q016",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich würde das ___ machen, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet in einem Team, ________ Zusammenhalt vorbildlich ist.",
       "options": [
-        "gerne / hätte",
-        "besser / habe",
-        "am liebsten / haben würde",
-        "viel / gehabt"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "gerne / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Team",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q017",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er denkt ___ seine Familie.",
+      "type": "multiple_choice",
+      "questionText": "Die Schule, ________ Ruf sehr gut ist, nimmt nur wenige Schueler auf.",
       "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
+        "dessen",
+        "deren",
+        "die",
+        "der"
       ],
-      "correctAnswer": "an",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Schule",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q018",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ könnte.",
+      "type": "multiple_choice",
+      "questionText": "Die Touristen, ________ Koffer verloren gingen, waren sehr veraergert.",
       "options": [
-        "obwohl / sein",
-        "weil / war",
-        "wenn / ist",
-        "damit / sei"
+        "dessen",
+        "deren",
+        "den",
+        "die"
       ],
-      "correctAnswer": "obwohl / sein",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Touristen",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q019",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
+      "type": "multiple_choice",
+      "questionText": "Das Medikament, ________ Nebenwirkungen stark sind, wurde verboten.",
       "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Medikament",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q020",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er ist der beste Schüler, ___ ich je unterrichtet habe.",
+      "type": "multiple_choice",
+      "questionText": "Mein Chef, ________ Entscheidung wir akzeptieren muessen, ist im Urlaub.",
       "options": [
-        "den",
-        "der",
+        "dessen",
+        "deren",
         "dem",
-        "dessen"
+        "der"
       ],
-      "correctAnswer": "den",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Chef",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q021",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Der Mann, _______ Auto vor dem Haus steht, ist mein Nachbar.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "der",
+        "dessen",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Mann",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q022",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er hat sich gemeldet, ___ er die Nachricht gelesen hatte.",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, _______ Kinder ich kenne, arbeitet als Aerztin.",
       "options": [
-        "nachdem",
-        "bevor",
-        "als",
-        "wenn"
+        "deren",
+        "die",
+        "denen",
+        "der"
       ],
-      "correctAnswer": "nachdem",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Frau",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q023",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen, _______ Mitarbeiter streiken, steht vor grossen Problemen.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "das",
+        "dem",
+        "dessen",
+        "dessen"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Unternehmen",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q024",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "type": "multiple_choice",
+      "questionText": "Der Schueler, _______ Aufsatz ausgezeichnet wurde, ist sehr fleissig.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "dem",
+        "dessen",
+        "der",
+        "den"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Schueler",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q025",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung bestehen.",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin, _______ Bachelorarbeit ich gelesen habe, hat ausgezeichnete Noten.",
       "options": [
-        "Wenn",
-        "Als",
-        "Weil",
-        "Während"
+        "die",
+        "derer",
+        "deren",
+        "der"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Studentin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q026",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Auto ___ gestern repariert ___",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, _______ Eltern im Ausland leben, wohnt bei den Grosseltern.",
       "options": [
-        "wurde / worden",
-        "ist / geworden",
-        "hat / gehabt",
-        "wird / werden"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "wurde / worden",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Eltern",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q027",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Die Politiker, _______ Versprechen niemand mehr glaubt, verlieren die Wahl.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "denen",
+        "deren",
+        "die",
+        "derer"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Politiker",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q028",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ er das Problem verstand, konnte er es lösen.",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler, _______ Forschungsergebnisse weltweit bekannt sind, haelt heute einen Vortrag.",
       "options": [
-        "Als",
-        "Wenn",
-        "Weil",
-        "Nachdem"
+        "dem",
+        "der",
+        "dessen",
+        "den"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Wissenschaftler",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q029",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten möchte.",
+      "type": "multiple_choice",
+      "questionText": "Das Gebaeude, _______ Fassade gerade renoviert wird, gehoert der Stadt.",
       "options": [
-        "weil",
-        "wenn",
-        "damit",
-        "dass"
+        "dem",
+        "dessen",
+        "das",
+        "derer"
       ],
-      "correctAnswer": "weil",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Gebaeude",
       "difficulty": "medium",
-      "type": "multiple_choice"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q030",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er ist gestorben, ___ er 80 Jahre alt wurde.",
+      "type": "multiple_choice",
+      "questionText": "Die Mannschaft, _______ Trainer zurueckgetreten ist, hat das Spiel verloren.",
       "options": [
-        "als",
-        "wenn",
-        "bis",
-        "seitdem"
+        "die",
+        "derer",
+        "deren",
+        "denen"
       ],
-      "correctAnswer": "als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Mannschaft",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q031",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Der Autor, _______ Romane ich sehr schaetze, kommt aus Oesterreich.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dem",
+        "dessen",
+        "der",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Autor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q032",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, _______ Meinung ich respektiere, hat heute Geburtstag.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "die",
+        "derer",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Kollegin",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q033",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt, _______ Kosten den Rahmen gesprengt haben, wurde eingestellt.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "dem",
+        "dessen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Projekt",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q034",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "Die Patienten, _______ Beschwerden sich gebessert haben, duerfen nach Hause.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "denen",
+        "die",
+        "deren",
+        "derer"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Patienten",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q035",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Der Kollege, _______ Idee wir umgesetzt haben, ist sehr kreativ.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dem",
+        "der",
+        "dessen",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Kollege",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q036",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, _______ Produkte weltweit exportiert werden, hat ihren Sitz in Muenchen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "die",
+        "deren",
+        "derer",
+        "denen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Firma",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q037",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Das Dorf, _______ Bewohner alle evakuiert wurden, liegt in einer Hochwasserzone.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "das",
+        "dessen",
+        "dem",
+        "dessen"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Dorf",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q038",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Der Regisseur, _______ letzter Film einen Preis gewonnen hat, dreht gerade einen neuen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "den",
+        "dem",
+        "dessen",
+        "der"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Regisseur",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q039",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder, _______ Eltern berufstaetig sind, verbringen viel Zeit im Hort.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "denen",
+        "die",
+        "derer",
+        "deren"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Kinder",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q040",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Das Museum, _______ Sammlung ueber 10.000 Exponate umfasst, ist taeglich geoeffnet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dem",
+        "dessen",
+        "das",
+        "derer"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Museum",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q041",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Passiv Präteritum: \"wurde gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Lehrer, ________ Tochter in Muenchen studiert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Lehrer",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q042",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Je...desto\" braucht den Komparativ.",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ________ Hund sehr alt ist, geht spazieren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Frau",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q043",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Relativsätze im Genitiv: \"der Mann, dessen Auto...\"",
+      "type": "multiple_choice",
+      "questionText": "Ich kenne einen Mann, ________ Auto sehr teuer ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Mann",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q044",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Einander\" ist ein Pronomen.",
+      "type": "multiple_choice",
+      "questionText": "Das sind die Kinder, ________ Eltern aus Italien kommen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Kinder",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q045",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Weil\" und \"da\" sind synonym.",
+      "type": "multiple_choice",
+      "questionText": "Das ist das Haus, ________ Fenster kaputt sind.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "dem",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Haus",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q046",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Trotzdem\" ist ein Konnektor.",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin, ________ Bruder Arzt ist, wohnt nebenan.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Studentin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q047",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Werden\" zeigt die Zukunft an.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe einen Freund, ________ Vater Pilot ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Freund",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q048",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Nicht\" verneint das Verb.",
+      "type": "multiple_choice",
+      "questionText": "Die Menschen, ________ Wohnungen renoviert werden, ziehen bald um.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "dem",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Menschen",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q049",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Niemand\" negiert \"jemand\".",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ________ Fahrrad gestohlen wurde, weint.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Kind",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q050",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Konjunktiv II der Vergangenheit: \"hätte gemacht\".",
+      "type": "multiple_choice",
+      "questionText": "Die Lehrerin, ________ Schueler sehr fleissig sind, ist zufrieden.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Lehrerin",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q051",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Als\" wird für einmalige Situationen verwendet.",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Autor, ________ Buecher weltweit bekannt sind.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Autor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q052",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Während\" drückt Gleichzeitigkeit aus.",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ________ Chef gekuendigt hat, sucht neue Mitarbeiter.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Firma",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q053",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Sobald\" bedeutet \"olur olmaz\".",
+      "type": "multiple_choice",
+      "questionText": "Ich besuche einen Freund, ________ Schwester in Koeln arbeitet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Freund",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q054",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Solange\" bedeutet \"sürece\".",
+      "type": "multiple_choice",
+      "questionText": "Das sind die Studenten, ________ Professor sehr streng ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Professor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q055",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Bevor\" bedeutet \"önce\".",
+      "type": "multiple_choice",
+      "questionText": "Die Frau, ________ Tasche gestohlen wurde, ruft die Polizei an.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "dem"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Frau",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q056",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Nachdem\" zeigt eine Handlung davor.",
+      "type": "multiple_choice",
+      "questionText": "Das Museum, ________ Eingang renoviert wurde, ist geschlossen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Museum",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q057",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Bis\" zeigt eine zeitliche Begrenzung.",
+      "type": "multiple_choice",
+      "questionText": "Der Mann, ________ Sohn Informatik studiert, kommt aus Hamburg.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Mann",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q058",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "\"Seitdem\" braucht das Perfekt.",
+      "type": "multiple_choice",
+      "questionText": "Die Familie, ________ Haus verkauft wurde, zieht nach Berlin.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deren",
+        "dessen",
+        "denen",
+        "den"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Familie",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q059",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Konjunktiv I: \"er komme\".",
+      "type": "multiple_choice",
+      "questionText": "Das sind die Kollegen, ________ Bueros im dritten Stock liegen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Kollegen",
       "difficulty": "medium",
-      "type": "true_false"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q060",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Konjunktiv II: \"er käme\".",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin, ________ Eltern Lehrer sind, spricht perfekt Deutsch.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dessen",
+        "deren",
+        "denen",
+        "das"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Studentin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q061",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Professor, ________ Vorlesungen sehr beliebt sind.",
       "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
+        "dessen",
+        "deren",
+        "die",
+        "den"
       ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Professor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q062",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Kennst du die Schuelerin, ________ Eltern aus der Tuerkei kommen?",
       "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Schuelerin",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q063",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich freue mich ___ die Ferien.",
+      "type": "multiple_choice",
+      "questionText": "Ich besuche oft das Museum, ________ Gemaelde weltberuehmt sind.",
       "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
+        "dessen",
+        "deren",
+        "die",
+        "dem"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Museum",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q064",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "type": "multiple_choice",
+      "questionText": "Die Leute, ________ Haus abgebrannt ist, suchen jetzt eine Wohnung.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "dessen",
+        "deren",
+        "die",
+        "denen"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Leute",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q065",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Film, ________ Ende ich nicht verstanden habe.",
       "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
+        "dessen",
+        "deren",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Film",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q066",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Auto ___ gestern ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wir haben einer Kollegin geholfen, ________ Computer staendig abstuerzt.",
       "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Kollegin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q067",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er sah aus, ___ er krank ___",
+      "type": "multiple_choice",
+      "questionText": "Sie ist diejenige, ________ Idee das Projekt gerettet hat.",
       "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: diejenige",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q068",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ er das Problem ___, konnte er es ___",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ________ Produkte oekologisch sind, waechst schnell.",
       "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Firma",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q069",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
+      "type": "multiple_choice",
+      "questionText": "Der Junge, ________ Fahrrad gestohlen wurde, ist sehr traurig.",
       "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
+        "dessen",
+        "deren",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Junge",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q070",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten, ________ Leistungen sich verbessert haben, bekommen ein Stipendium.",
       "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
+        "deren",
+        "dessen",
+        "die",
+        "den"
       ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Studenten",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q071",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Sie wartet ___ ihren Freund.",
+      "type": "multiple_choice",
+      "questionText": "Ich habe einen Freund, ________ Vater bei der Polizei arbeitet.",
       "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
+        "dessen",
+        "deren",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Freund",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q072",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder, ________ Lehrerin krank ist, haben heute frei.",
       "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
+        "deren",
+        "dessen",
+        "die",
+        "denen"
       ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Kinder",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q073",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Autor, ________ Buecher ich alle gelesen habe.",
       "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
+        "dessen",
+        "deren",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Autor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q074",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
+      "type": "multiple_choice",
+      "questionText": "Wir suchen eine Mieterin, ________ Katzen erlaubt sind.",
       "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Mieterin",
       "difficulty": "medium",
-      "type": "fill_blank"
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q075",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
+      "type": "multiple_choice",
+      "questionText": "Der Baum, ________ Blaetter im Herbst bunt werden, steht im Park.",
       "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
+        "dessen",
+        "deren",
+        "den",
+        "dem"
       ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Baum",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q076",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
+      "type": "multiple_choice",
+      "questionText": "Die Band, ________ Saengerin sehr jung ist, hat einen Hit gelandet.",
       "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
+        "deren",
+        "dessen",
+        "die",
+        "der"
       ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Band",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     },
     {
       "id": "b2_21_q077",
       "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er denkt ___ seine Familie.",
-      "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
-      ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q078",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
-      "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
-      ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q079",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
-      "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q080",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
-      "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
-      ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q081",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ ich in Deutschland ankam, konnte ich kein Deutsch.",
-      "options": [
-        "Als",
-        "Wenn",
-        "Während",
-        "Bevor"
-      ],
-      "correctAnswer": "Als",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q082",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er hat sich ___, ___ er die Nachricht ___ ___",
-      "options": [
-        "gemeldet / nachdem / gelesen / hatte",
-        "gemeldet / bevor / gelesen / hatte",
-        "gemeldet / als / gelesen / hatte",
-        "gemeldet / wenn / gelesen / hatte"
-      ],
-      "correctAnswer": "gemeldet / nachdem / gelesen / hatte",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q083",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich freue mich ___ die Ferien.",
-      "options": [
-        "auf",
-        "über",
-        "an",
-        "nach"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q084",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Gestern ___ ich ins Kino ___",
-      "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q085",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ du fleißig lernst, wirst du die Prüfung ___",
-      "options": [
-        "Wenn / bestehen",
-        "Als / bestehen",
-        "Weil / bestehen",
-        "Während / bestehen"
-      ],
-      "correctAnswer": "Wenn / bestehen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q086",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Auto ___ gestern ___ ___",
-      "options": [
-        "wurde / repariert",
-        "ist / repariert",
-        "hat / repariert",
-        "wird / repariert"
-      ],
-      "correctAnswer": "wurde / repariert",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q087",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er sah aus, ___ er krank ___",
-      "options": [
-        "als ob / wäre",
-        "wenn / ist",
-        "weil / war",
-        "obwohl / ist"
-      ],
-      "correctAnswer": "als ob / wäre",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q088",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ er das Problem ___, konnte er es ___",
-      "options": [
-        "Als / verstand / lösen",
-        "Wenn / versteht / lösen",
-        "Weil / verstand / lösen",
-        "Nachdem / verstand / lösen"
-      ],
-      "correctAnswer": "Als / verstand / lösen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q089",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich lerne Deutsch, ___ ich in Deutschland arbeiten ___",
-      "options": [
-        "weil / möchte",
-        "wenn / will",
-        "damit / will",
-        "dass / möchte"
-      ],
-      "correctAnswer": "weil / möchte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q090",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er ist ___, ___ er 80 Jahre alt ___",
-      "options": [
-        "gestorben / als / wurde",
-        "gestorben / wenn / wurde",
-        "gestorben / bis / wurde",
-        "gestorben / seitdem / wurde"
-      ],
-      "correctAnswer": "gestorben / als / wurde",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q091",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Sie wartet ___ ihren Freund.",
-      "options": [
-        "auf",
-        "bei",
-        "mit",
-        "von"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q092",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ du mit dem Essen ___ ___, räum bitte ___",
-      "options": [
-        "Sobald / fertig / bist / auf",
-        "Solange / fertig / bist / auf",
-        "Wenn / fertig / bist / ein",
-        "Nachdem / fertig / bist / auf"
-      ],
-      "correctAnswer": "Sobald / fertig / bist / auf",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q093",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Haus, ___ wir ___ ___, ist sehr alt.",
-      "options": [
-        "das / gekauft / haben",
-        "der / gekauft / haben",
-        "dem / gekauft / haben",
-        "dessen / gekauft / haben"
-      ],
-      "correctAnswer": "das / gekauft / haben",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q094",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er spricht Deutsch, ___ er in Deutschland ___ ___",
-      "options": [
-        "weil / gewohnt / hat",
-        "obwohl / lebt",
-        "wenn / gelebt / hat",
-        "damit / lebte"
-      ],
-      "correctAnswer": "weil / gewohnt / hat",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q095",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "___ sie in München ___, hat sie viele Museen ___",
-      "options": [
-        "Während / wohnte / besucht",
-        "Als / wohnt / besucht",
-        "Wenn / wohnte / besucht",
-        "Nachdem / wohnte / besucht"
-      ],
-      "correctAnswer": "Während / wohnte / besucht",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q096",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich würde das ___ ___, wenn ich Zeit ___",
-      "options": [
-        "gerne / machen / hätte",
-        "besser / machen / habe",
-        "am liebsten / machen / haben würde",
-        "viel / machen / gehabt"
-      ],
-      "correctAnswer": "gerne / machen / hätte",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q097",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er denkt ___ seine Familie.",
-      "options": [
-        "an",
-        "auf",
-        "über",
-        "nach"
-      ],
-      "correctAnswer": "an",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q098",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Die Prüfung ist schwer, ___ sie leicht ___ ___",
-      "options": [
-        "obwohl / sein / könnte",
-        "weil / sein / war",
-        "wenn / sein / ist",
-        "damit / sein / wird"
-      ],
-      "correctAnswer": "obwohl / sein / könnte",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q099",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Ich bin stolz ___ meine Kinder.",
-      "options": [
-        "auf",
-        "an",
-        "über",
-        "für"
-      ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q1",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Der Mann, ___ ich gesprochen habe, war sehr nett.",
-      "options": [
-        "mit dem",
-        "der",
-        "dem",
-        "dessen"
-      ],
-      "correctAnswer": "mit dem",
-      "explanation": "Grammatik-Thema: 21. Relativsätze im Genitiv",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_21_q100",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Er ist der beste Schüler, ___ ich je ___ ___",
-      "options": [
-        "den / unterrichtet / habe",
-        "der / unterrichtet / habe",
-        "dem / unterrichtet / habe",
-        "dessen / unterrichtet / habe"
-      ],
-      "correctAnswer": "den / unterrichtet / habe",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q2",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das ist der Computer, ___ ich gearbeitet habe.",
-      "options": [
-        "mit dem",
-        "der",
-        "den",
-        "dessen"
-      ],
-      "correctAnswer": "mit dem",
-      "explanation": "Grammatik-Thema: 21. Relativsätze im Genitiv",
-      "difficulty": "medium",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_21_q3",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Die Frau, ___ Kind krank ist, konnte nicht kommen.",
-      "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
-      ],
-      "correctAnswer": "deren",
-      "explanation": "Grammatik-Thema: 21. Relativsätze im Genitiv",
-      "difficulty": "hard",
-      "type": "multiple_choice"
-    },
-    {
-      "id": "b2_21_q4",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Relativsätze im Genitiv verwenden „dessen\" für Maskulin/Neutrum.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 21. Relativsätze im Genitiv",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_21_q5",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "„Deren\" wird für Femininum und Plural verwendet.",
-      "options": [
-        "Richtig",
-        "Falsch"
-      ],
-      "correctAnswer": "Richtig",
-      "explanation": "Grammatik-Thema: 21. Relativsätze im Genitiv",
-      "difficulty": "hard",
-      "type": "true_false"
-    },
-    {
-      "id": "b2_21_q6",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Die Studenten, ___ Prüfung morgen ist, lernen noch.",
-      "options": [
-        "deren",
-        "dessen",
-        "die",
-        "den"
-      ],
-      "correctAnswer": "deren",
-      "explanation": "Grammatik-Thema: 21. Relativsätze im Genitiv",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "b2_21_q7",
-      "subjectId": "b2_21",
-      "topicName": "Relativsätze im Genitiv",
-      "questionText": "Das Buch, ___ Inhalt sehr interessant ist, gehört mir.",
+      "type": "multiple_choice",
+      "questionText": "Das Kind, ________ Mutter Aerztin ist, geht in meine Klasse.",
       "options": [
         "dessen",
         "deren",
@@ -1652,10 +1232,377 @@
         "dem"
       ],
       "correctAnswer": "dessen",
-      "explanation": "Grammatik-Thema: 21. Relativsätze im Genitiv",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "explanation": "dessen - neutrum: das Kind",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q078",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Nachbarn, ________ Hund laut bellt, beschweren sich nie.",
+      "options": [
+        "deren",
+        "dessen",
+        "die",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Nachbarn",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q079",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Ort, ________ Geschichte bis ins Mittelalter zurueckreicht.",
+      "options": [
+        "dessen",
+        "deren",
+        "den",
+        "dem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Ort",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q080",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Diejenigen, ________ Antraege vollstaendig sind, werden eingeladen.",
+      "options": [
+        "deren",
+        "dessen",
+        "die",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: diejenigen",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q081",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Der Autor, ________ Buecher weltweit bekannt sind, lebt in Berlin.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Autor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q082",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Studentin, ________ Praesentation ausgezeichnet wurde, freut sich sehr.",
+      "options": [
+        "dessen",
+        "deren",
+        "der",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Studentin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q083",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Das Unternehmen, ________ Mitarbeiter zufrieden sind, hat Erfolg.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Unternehmen",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q084",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Der Kollege, ________ Idee wir umgesetzt haben, ist befoerdert worden.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Kollege",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q085",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Familie, ________ Haus renoviert wird, wohnt voruebergehend bei Freunden.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Familie",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q086",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Aertzin, ________ Rat ich vertraue, hat mir geholfen.",
+      "options": [
+        "deren",
+        "dessen",
+        "der",
+        "dem"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Aertzin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q087",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker, ________ Rede viele Menschen begeistert hat, wurde wiedergewaehlt.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Politiker",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q088",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Stadt, ________ Sehenswuerdigkeiten Touristen anziehen, ist sehr beliebt.",
+      "options": [
+        "dessen",
+        "deren",
+        "der",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Stadt",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q089",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Der Wissenschaftler, ________ Forschung neue Erkenntnisse brachte, erhielt einen Preis.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Wissenschaftler",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q090",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder, ________ Eltern im Ausland arbeiten, werden von Grosseltern betreut.",
+      "options": [
+        "dessen",
+        "deren",
+        "denen",
+        "den"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - plural: die Kinder",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q091",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Das ist der Professor, ________ Vorlesung ich mit grosser Aufmerksamkeit folge.",
+      "options": [
+        "deren",
+        "dessen",
+        "der",
+        "dem"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Professor",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q092",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Firma, ________ Produkte umweltfreundlich sind, waechst schnell.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Firma",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q093",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Der Kuenstler, ________ Werke in vielen Museen ausgestellt sind, ist sehr erfolgreich.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Kuenstler",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q094",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Mannschaft, ________ Trainer neu ist, muss sich erst finden.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - feminin: die Mannschaft",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q095",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Das Buch, ________ Autor ich persoenlich kenne, hat mich sehr beeindruckt.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - neutrum: das Buch",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q096",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Kollegin, ________ Projekt von der Leitung genehmigt wurde, beginnt naechste Woche.",
+      "options": [
+        "dessen",
+        "deren",
+        "der",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Kollegin",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q097",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Der Student, ________ Abschlussarbeit mit sehr gut bewertet wurde, ist stolz.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Student",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q098",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Organisation, ________ Ziel es ist, Armut zu bekaempfen, sammelt Spenden.",
+      "options": [
+        "dessen",
+        "deren",
+        "dem",
+        "denen"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Organisation",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q099",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Der Nachbar, ________ Garten immer gepflegt aussieht, gibt mir Tipps.",
+      "options": [
+        "deren",
+        "dessen",
+        "dem",
+        "den"
+      ],
+      "correctAnswer": "dessen",
+      "explanation": "dessen - maskulin: der Nachbar",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
+    },
+    {
+      "id": "b2_21_q100",
+      "subjectId": "b2_21",
+      "type": "multiple_choice",
+      "questionText": "Die Universitaet, ________ Bibliothek rund um die Uhr geoeffnet ist, ist sehr modern.",
+      "options": [
+        "dessen",
+        "deren",
+        "der",
+        "die"
+      ],
+      "correctAnswer": "deren",
+      "explanation": "deren - feminin: die Universitaet",
+      "difficulty": "medium",
+      "topicName": "Relativsaetze im Genitiv"
     }
-  ],
-  "totalQuestions": 107
+  ]
 }

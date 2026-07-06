@@ -1,1350 +1,1660 @@
 {
+  "version": "1.0",
   "subjectId": "a2_10",
-  "topicName": "Konjunktionen: und, oder, aber, denn",
+  "topicName": "Konjunktionen",
   "level": "A2",
-  "description": "",
-  "tips": [],
-  "_importedFromFirestore": true,
-  "_needsContentReview": true,
-  "_importNote": "description/tips/explanation are not stored in grammarQuizBank and could not be recovered from Firestore. Needs human content review before this replaces/seeds an asset file.",
+  "totalQuestions": 120,
   "questions": [
     {
       "id": "a2_10_q001",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Gestern ___ ich ins Kino gegangen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_001",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist ______ sehr intelligent, ______ leider mangelt es ihm oft an Disziplin.",
       "options": [
-        "habe",
-        "bin",
-        "wird",
-        "hat"
+        "zwar / aber",
+        "entweder / oder",
+        "sowohl / als auch",
+        "weder / noch"
       ],
-      "correctAnswer": "bin",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "zwar / aber",
+      "explanation": "zwar ... aber — 'although ... but' (admits one fact while stating the opposite).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q002",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich ___ dir helfen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_002",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Je mehr man für die Prüfung lernt, ______ sicherer fühlt man sich am Prüfungstag.",
       "options": [
-        "kann",
-        "kannst",
-        "kann",
-        "könnt"
+        "umso",
+        "desto",
+        "so",
+        "Hem A hem B doğru"
       ],
-      "correctAnswer": "kann",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Both A and B are correct",
+      "explanation": "Je ... desto/umso — 'the more ... the more'. Both desto and umso can be used.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q003",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ du mit mir kommen?",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_003",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir konnten den Ausflug nicht machen, ______ es den ganzen Tag in Strömen geregnet hat.",
       "options": [
-        "Kannst",
-        "Kann",
-        "Können",
-        "Konntest"
+        "deshalb",
+        "wegen",
+        "da (weil anlamında)",
+        "trotzdem"
       ],
-      "correctAnswer": "Kannst",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "da (means 'because')",
+      "explanation": "da — expresses a reason like 'because', but is more often used at the beginning of a sentence.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q004",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ___ schon in München.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_004",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ er krank war, ging er zur Arbeit, um den wichtigen Termin nicht zu verpassen.",
       "options": [
-        "war",
-        "ist",
-        "hat",
-        "wird"
+        "Obwohl",
+        "Trotzdem",
+        "Deswegen",
+        "Damit"
       ],
-      "correctAnswer": "war",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl — 'although' means, it forms a subordinate clause (verb at the end).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q005",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_005",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du kannst ______ mit dem Zug fahren, ______ du nimmst den Bus; beides dauert gleich lang.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "nicht nur / sondern auch",
+        "entweder / oder",
+        "sowohl / als auch",
+        "weder / noch"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "entweder / oder",
+      "explanation": "entweder ... oder — 'either ... or' (one of two options).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q006",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_006",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat die Prüfung bestanden, ______ er kaum gelernt hatte.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "trotzdem",
+        "obwohl",
+        "dennoch",
+        "deswegen"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — must be used because the verb is at the end of the clause.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q007",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_007",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das neue Gesetz ist ______ für Arbeitgeber ______ für Arbeitnehmer von großem Vorteil.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "sowohl / als auch",
+        "zwar / aber",
+        "entweder / oder",
+        "weder / noch"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sowohl / als auch",
+      "explanation": "sowohl ... als auch — 'both ... and' (both of them).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q008",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_008",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Stau war extrem lang, ______ kamen wir erst mit zwei Stunden Verspätung an.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "deshalb",
+        "weil",
+        "obwohl",
+        "dennoch"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "deshalb",
+      "explanation": "deshalb — 'therefore' (adverbial conjunction, comes right after the verb).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q009",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_009",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir haben ______ das Hotel gebucht ______ die Flüge reserviert; wir sind also startklar.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "nicht nur / sondern auch",
+        "weder / noch",
+        "entweder / oder",
+        "zwar / aber"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "nicht nur / sondern auch",
+      "explanation": "nicht nur ... sondern auch — 'not only ... but also'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q010",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_010",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ ich mich beeilt habe, habe ich den Zug knapp verpasst.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "Obwohl",
+        "Trotzdem",
+        "Weil",
+        "Damit"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl — at the beginning of the sentence means 'although' — a subordinate clause.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q011",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_011",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er spricht ______ Deutsch ______ Englisch, was seine Jobsuche im Ausland erschwert.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "sowohl / als auch",
+        "weder / noch",
+        "nicht nur / sondern auch",
+        "zwar / aber"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "weder / noch",
+      "explanation": "weder ... noch — 'neither ... nor' (rejects both options).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q012",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_012",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er wollte unbedingt gewinnen, ______ trainierte er jeden Tag mehrere Stunden.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "obwohl",
+        "weil",
+        "folglich (deshalb anlamında)",
+        "dennoch"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "folglich (means 'therefore')",
+      "explanation": "folglich — 'consequently / for this reason' — an academic conjunction.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_10_q013",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_013",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Wetter war schlecht, ______ haben wir uns für einen Spaziergang entschieden.",
       "options": [
-        "hat / gegangen",
-        "ist / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "trotzdem",
+        "obwohl",
+        "weil",
+        "deswegen"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "trotzdem",
+      "explanation": "trotzdem — 'nevertheless / however' (comes before the verb in the middle of a sentence).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q014",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_014",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es ist wichtig, ______ man sich regelmäßig bewegt, ______ gesund zu bleiben.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "dass / um",
+        "damit / um",
+        "dass / damit",
+        "wenn / um"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "dass / um",
+      "explanation": "dass (noun clause) + um...zu (purpose clause).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_10_q015",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_015",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ man mehr Sport treibt, ______ fitter wird man.",
       "options": [
-        "kochen",
-        "kocht",
-        "gekocht",
-        "kochte"
+        "Umso / desto",
+        "Je / desto",
+        "Je / umso",
+        "Hem B hem C doğru"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Both B and C are correct",
+      "explanation": "Je ... desto/umso — rule: first part is always Je, second part is desto or umso.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q016",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_016",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat sich ______ für die Hilfe bedankt, ______ er hat sich sofort revanchiert.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "nicht nur / sondern auch",
+        "zwar / aber",
+        "weder / noch",
+        "entweder / oder"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "nicht nur / sondern auch",
+      "explanation": "nicht nur ... sondern auch — connects two positive situations.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q017",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_017",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen die Umwelt schützen, ______ die kommenden Generationen eine Zukunft haben.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "damit",
+        "um",
+        "dass",
+        "weil"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "damit",
+      "explanation": "damit — expresses purpose / intention (used instead of um...zu when the subject is different in both clauses).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q018",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_018",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat den Job bekommen, ______ er die nötigen Qualifikationen nicht ganz erfüllte.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "obwohl",
+        "trotzdem",
+        "dennoch",
+        "weil"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — 'although' (subordinate clause structure, verb at the end).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q019",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_019",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ______ Lust auf Pizza ______ auf Pasta; lass uns lieber etwas anderes essen.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "sowohl / als auch",
+        "weder / noch",
+        "entweder / oder",
+        "nicht nur / sondern auch"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "weder / noch",
+      "explanation": "weder ... noch — rejects both options ('neither ... nor').",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q020",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_020",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist sehr reich, ______ lebt er in einer sehr kleinen, bescheidenen Wohnung.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "trotzdem",
+        "obwohl",
+        "dennoch",
+        "Hem A hem C doğru"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Both A and C are correct",
+      "explanation": "trotzdem / dennoch — both are suitable, meaning 'nevertheless / however'.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q021",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_021",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Verhandlungen scheiterten, _______ beide Seiten monatelang intensiv miteinander verhandelt hatten.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Als",
-        "Damit"
+        "weil",
+        "obwohl",
+        "nachdem",
+        "sodass"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — unexpected result, expresses contrast.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q022",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_022",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die wirtschaftliche Lage sich stabilisiert, werden die geplanten Investitionen weiter zurückgestellt.",
       "options": [
-        "bei",
-        "auf",
-        "nach",
-        "von"
+        "Sobald",
+        "Solange",
+        "Nachdem",
+        "Während"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Solange",
+      "explanation": "solange — continuing condition ('as long as').",
+      "difficulty": "hard"
     },
     {
       "id": "a2_10_q023",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ du das gemacht?",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_023",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Vorschlag wurde abgelehnt, _______ er durchaus innovative Ansätze enthielt.",
       "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
+        "weil",
+        "obgleich",
+        "sodass",
+        "indem"
       ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "obgleich",
+      "explanation": "obgleich — synonymous with obwohl, used in written and formal language.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_10_q024",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich bin mit dem Zug ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_024",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die Produktionskosten gestiegen sind, hat das Unternehmen seine Preise angehoben.",
       "options": [
-        "gefahren",
-        "gefahren",
-        "gefahre",
-        "fährt"
+        "Obwohl",
+        "Sofern",
+        "Da",
+        "Solange"
       ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Da",
+      "explanation": "da — causal conjunction, used instead of weil in written language.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q025",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das Buch ___ gestohlen ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_025",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er erklärte die Sachlage so ausführlich, _______ alle Beteiligten die Konsequenzen vollständig verstehen konnten.",
       "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
+        "obwohl",
+        "sodass",
+        "indem",
+        "wohingegen"
       ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "sodass",
+      "explanation": "sodass — consequence conjunction ('so that ...').",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q026",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ist ___是因为 er zu spät ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_026",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die Forschungsgruppe ihre Ergebnisse veröffentlicht _______ eine Stellungnahme abgibt, bleibt die Debatte offen.",
       "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
+        "Entweder / oder",
+        "Sowohl / als auch",
+        "Weder / noch",
+        "Nicht nur / sondern auch"
       ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "Weder / noch",
+      "explanation": "weder ... noch — combines two negative options.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q027",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Sie ___ gestern einen Film ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_027",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die neue Strategie soll _______ die Effizienz steigern _______ die Mitarbeiterzufriedenheit verbessern.",
       "options": [
-        "habt / gesehen",
-        "hat / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
+        "entweder / oder",
+        "weder / noch",
+        "sowohl / als auch",
+        "nicht / sondern"
       ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "sowohl / als auch",
+      "explanation": "sowohl ... als auch — combines two positive options.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q028",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_028",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die Opposition gegen das Gesetz stimmte, wurde es mit deutlicher Mehrheit verabschiedet.",
       "options": [
-        "Wenn",
-        "Weil",
-        "Obwohl",
-        "Damit"
+        "Indem",
+        "Während",
+        "Sodass",
+        "Sofern"
       ],
-      "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "multiple_choice"
+      "correctAnswer": "Während",
+      "explanation": "während — simultaneous contrast ('while' — two events at the same time).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q029",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_029",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Ministerin betonte, dass Reformen notwendig seien, _______ das Gesundheitssystem langfristig zu sichern.",
       "options": [
-        "von / übertönt",
-        "vor / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "indem",
+        "um ... zu",
+        "damit",
+        "sodass"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "multiple_choice"
+      "correctAnswer": "um ... zu",
+      "explanation": "um ... zu — purpose structure (the subject is the same in both clauses).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q030",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Die Aufgabe ist ___ zu ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_030",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ er seinen Standpunkt klar kommuniziert hätte, wäre es nicht zu diesem Missverständnis gekommen.",
       "options": [
-        "schwer / lösen",
-        "schwerer / lösen",
-        "am schwersten / lösen",
-        "schwere / gelöst"
+        "Obwohl",
+        "Indem",
+        "Hätte",
+        "Wenn"
       ],
-      "correctAnswer": "schwer / lösen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "multiple_choice"
+      "correctAnswer": "Wenn",
+      "explanation": "wenn — conditional clause (with Konjunktiv II, structure similar to 'als ob').",
+      "difficulty": "hard"
     },
     {
       "id": "a2_10_q031",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_031",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ die internationale Gemeinschaft geschlossen handelt, lassen sich globale Krisen dieser Dimension kaum bewältigen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Sofern nicht",
+        "Nur wenn",
+        "Es sei denn",
+        "A ve B doğru"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "Both A and B are correct",
+      "explanation": "sofern not / nur wenn — both express a negative condition.",
+      "difficulty": "hard"
     },
     {
       "id": "a2_10_q032",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_032",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er wollte an der Konferenz teilnehmen, ______ er krank war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "denn",
+        "oder",
+        "sondern"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — contrast conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q033",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_033",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Wissenschaftlerin veröffentlichte die Ergebnisse, ______ sie lange daran gearbeitet hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "aber",
+        "nachdem",
+        "denn",
+        "sondern"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "nachdem",
+      "explanation": "nachdem — temporal conjunction, previous action.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q034",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_034",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen sparen Energie, ______ die Preise gestiegen sind.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "sondern",
+        "oder"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q035",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_035",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Vortrag war interessant, ______ teilweise zu kompliziert.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sondern",
+        "denn",
+        "aber",
+        "oder"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "aber",
+      "explanation": "aber — contrast conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q036",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_036",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ging nicht zur Arbeit, ______ blieb zu Hause.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "oder",
+        "sondern",
+        "denn",
+        "obwohl"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "sondern",
+      "explanation": "sondern — contrast statement after a negation.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q037",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_037",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma expandiert schnell, ______ sie neue Investoren gefunden hat.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "obwohl",
+        "aber",
+        "denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q038",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_038",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich weiß nicht, ______ die Sitzung heute stattfindet.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "dass",
+        "ob",
+        "denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "ob",
+      "explanation": "ob — indirect question.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q039",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_039",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Der Politiker sprach weiter, ______ niemand ihm zustimmte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "obwohl",
+        "denn",
+        "sondern"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — contrast conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q040",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_040",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir müssen uns beeilen, ______ der Zug fährt bald ab.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "denn",
+        "obwohl",
+        "sondern",
+        "wenn"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "denn",
+      "explanation": "denn — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q041",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Nach\" braucht immer den Dativ.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_041",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Studenten diskutierten lange, ______ sie unterschiedliche Meinungen hatten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "aber",
+        "weil",
+        "oder",
+        "sondern"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q042",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Im Perfekt sagt man \"ich habe gesehen\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_042",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie lernte intensiv, ______ sie die Prüfung bestehen wollte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "damit",
+        "denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "damit — purpose conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q043",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Oder\" verbindet zwei Hauptsätze.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_043",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat viel Erfahrung, ______ bekam er die Stelle nicht.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "deshalb",
+        "trotzdem",
+        "aber",
+        "denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "trotzdem",
+      "explanation": "trotzdem — contrast adverb.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q044",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Denn\" leitet einen Nebensatz ein.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_044",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Firma sucht neue Mitarbeiter, ______ sie expandieren möchte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "sondern",
+        "aber"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q045",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Wegen\" braucht den Dativ.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_045",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Diskussion war schwierig, ______ fanden sie schließlich eine Lösung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "trotzdem",
+        "denn",
+        "obwohl",
+        "oder"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "trotzdem",
+      "explanation": "trotzdem — contrast adverb.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q046",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Im Präteritum: \"ich war\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_046",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich komme mit, ______ ich noch viel Arbeit habe.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "sondern",
+        "denn"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — contrast conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q047",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Das gefällt mir\" braucht den Dativ.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_047",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Präsentation war nicht nur informativ, ______ auch sehr unterhaltsam.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "oder",
+        "denn",
+        "sondern",
+        "aber"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "sondern",
+      "explanation": "sondern — part of the nicht nur ... sondern auch structure.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q048",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Ob\" leitet einen Nebensatz ein.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_048",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Viele Menschen nutzen öffentliche Verkehrsmittel, ______ sie umweltfreundlicher sind.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "aber",
+        "sondern"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q049",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Am\" wird bei Wochentagen verwendet.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_049",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er wollte die Stelle annehmen, ______ das Gehalt zu niedrig war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "denn",
+        "oder",
+        "sondern"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — contrast conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q050",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Zur\" ist die Kurzform von \"zu der\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_050",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Forscher arbeiteten Tag und Nacht, ______ das Projekt rechtzeitig fertig wurde.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "damit",
+        "denn",
+        "aber"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "damit",
+      "explanation": "damit — purpose conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q051",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Perfekt bildet man mit \"haben\" oder \"sein\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_051",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Veranstaltung wurde abgesagt, ______ nur wenige Teilnehmer gekommen waren.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "weil",
+        "obwohl",
+        "aber",
+        "oder"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q052",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Sein\" Perfekt ist \"ist gegangen\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_052",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er sprach so leise, ______ ihn kaum jemand verstehen konnte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "dass",
+        "weil",
+        "obwohl",
+        "sodass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "sodass",
+      "explanation": "sodass — consequence conjunction ('so that ...').",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q053",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Im Dativ sagt man \"dem Mann\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_053",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ sie sich noch so sehr bemühte, konnte sie die Deadline nicht einhalten.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Obwohl",
+        "Wenn",
+        "Weil",
+        "Damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl — contrast conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q054",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Weil\" leitet einen Nebensatz ein.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_054",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Aufgabe war ______ einfach ______ sie aussah; in Wahrheit erforderte sie viel Erfahrung.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sowohl / als auch",
+        "nicht so / wie",
+        "entweder / oder",
+        "weder / noch"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "nicht so / wie",
+      "explanation": "nicht so ... wie — comparison.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q055",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Obwohl\" bedeutet das Gegenteil von \"weil\".",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_055",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat die Prüfung bestanden, ______ sie kaum für sie gelernt hatte.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "obwohl",
+        "weil",
+        "denn",
+        "sodass"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — contrast conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q056",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Im Komparativ fügt man \"-er\" hinzu.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_056",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_______ er sich entschuldigte, ______ gab ihm niemand die Schuld an dem Vorfall.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "Obwohl / trotzdem",
+        "Weil / deshalb",
+        "Da / folglich",
+        "Als / daher"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "Obwohl / trotzdem",
+      "explanation": "obwohl ... trotzdem — contrast.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q057",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Am besten\" ist der Superlativ.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_057",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er tat so, ______ wäre nichts passiert, obwohl die Situation ernst war.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "als",
+        "ob",
+        "dass",
+        "weil"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "als",
+      "explanation": "als — apparent comparison (als ob / als wenn).",
+      "difficulty": "hard"
     },
     {
       "id": "a2_10_q058",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das Passiv wird mit \"werden\" gebildet.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_058",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt wurde gestartet, ______ die Finanzierung gesichert ist.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "sodass",
+        "weil",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "true_false"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q059",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Ich freue mich auf\" braucht den Akkusativ.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_059",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man sollte Sport treiben, ______ gesund zu bleiben.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "um",
+        "weil",
+        "obwohl",
+        "damit"
       ],
-      "correctAnswer": "Richtig",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "true_false"
+      "correctAnswer": "um",
+      "explanation": "um ... zu — purpose structure.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q060",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "\"Bei\" ist eine Wechselpräposition.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_060",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist weder bereit zu verhandeln ______ einen Kompromiss einzugehen.",
       "options": [
-        "Richtig",
-        "Falsch"
+        "oder",
+        "noch",
+        "aber",
+        "sondern"
       ],
-      "correctAnswer": "Falsch",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "true_false"
+      "correctAnswer": "noch",
+      "explanation": "weder ... noch — rejects both options.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q061",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Gestern ___ ich ins Kino ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_061",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist nicht faul, _____ er arbeitet sehr langsam.",
       "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "sondern",
+        "aber",
+        "denn",
+        "oder"
       ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "aber",
+      "explanation": "aber — Gegensatz (nicht faul, aber langsam).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q062",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich ___ dir helfen ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_062",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ du deine Hausaufgaben machst, darfst du fernsehen.",
       "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
+        "Bevor",
+        "Nachdem",
+        "Sobald",
+        "Während"
       ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "Sobald",
+      "explanation": "sobald — zeitliche Abfolge (sobald du machst, darfst du).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q063",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ du mit mir ___?",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_063",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie spricht perfekt Deutsch, _____ sie erst seit zwei Jahren in Deutschland lebt.",
       "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
+        "weil",
+        "obwohl",
+        "denn",
+        "trotzdem"
       ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — Einräumung (konzessiv).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q064",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ___ schon in München ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_064",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ du dich beeilst, wirst du den Zug nicht mehr erreichen.",
       "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
+        "Selbst wenn",
+        "Wenn",
+        "Auch wenn",
+        "Obwohl"
       ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Selbst wenn",
+      "explanation": "Selbst wenn — Einräumung (even if).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q065",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich habe ___ Ferien ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_065",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Wir können _____ ins Kino gehen _____ zu Hause bleiben.",
       "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
+        "entweder / oder",
+        "weder / noch",
+        "sowohl / als auch",
+        "nicht nur / sondern auch"
       ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "entweder / oder",
+      "explanation": "entweder / oder — Alternative.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q066",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das Buch ___ mir ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_066",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er putzt sich die Zähne, _____ er ins Bett geht.",
       "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
+        "bevor",
+        "nachdem",
+        "seitdem",
+        "während"
       ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "bevor",
+      "explanation": "bevor — zeitlich vorher.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q067",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Sie ___ seit drei Jahren hier.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_067",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ die Sonne schien, regnete es.",
       "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
+        "Trotzdem",
+        "Obwohl",
+        "Denn",
+        "Aber"
       ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl — Einräumung (obwohl + Indikativ).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q068",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ dem Wetter bin ich froh.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_068",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat viel gelernt, _____ sie die Prüfung problemlos bestanden hat.",
       "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
+        "damit",
+        "sodass",
+        "um",
+        "weil"
       ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass — Konsekutivsatz (Ergebnis).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q069",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ist ___ dem Chef.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_069",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich helfe dir, _____ du mir versprichst, pünktlich zu sein.",
       "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
+        "sofern",
+        "sodass",
+        "obwohl",
+        "trotzdem"
       ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sofern",
+      "explanation": "sofern — Konditional (formeller als 'wenn').",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q070",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich interessiere mich ___ Musik.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_070",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ ich ihn sah, war ich sofort verliebt.",
       "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
+        "Als",
+        "Wenn",
+        "Wann",
+        "Während"
       ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Als",
+      "explanation": "als — einmaliges Ereignis in der Vergangenheit.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q071",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_071",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er arbeitet stundenlang am Computer, _____ er Rückenschmerzen bekommt.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Als"
+        "indem",
+        "ohne dass",
+        "sodass",
+        "damit"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass — Konsekutivsatz (mit der Folge).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q072",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das ist ___ als das.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_072",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie erklärte den Vorgang, _____ es ein Kind verstehen konnte.",
       "options": [
-        "groß",
-        "größer",
-        "am größten",
-        "größere"
+        "als ob",
+        "sodass",
+        "damit",
+        "indem"
       ],
-      "correctAnswer": "größer",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "sodass",
+      "explanation": "sodass — Konsekutivsatz (Ergebnis).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q073",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ___ gestern ins Büro ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_073",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ du dich nicht beeilst, verpassen wir den Film.",
       "options": [
-        "ist / gegangen",
-        "hat / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
+        "Außer",
+        "Anstatt dass",
+        "Wenn",
+        "Weil"
       ],
-      "correctAnswer": "ist / gegangen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Wenn",
+      "explanation": "wenn — Konditional.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q074",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ du schon ___ ?",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_074",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er kaufte sich ein neues Auto, _____ sein altes immer kaputtging.",
       "options": [
-        "Hast / gegessen",
-        "Bist / gegessen",
-        "Hast / gegangen",
-        "Bist / gegangen"
+        "weil",
+        "obwohl",
+        "sondern",
+        "während"
       ],
-      "correctAnswer": "Hast / gegessen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "weil",
+      "explanation": "weil — Kausal (Sebep).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q075",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Die Suppe ist ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_075",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ wir spazieren gingen, begann es plötzlich zu regnen.",
       "options": [
-        "gekocht",
-        "kochen",
-        "kocht",
-        "kochte"
+        "Als",
+        "Während",
+        "Bevor",
+        "Nachdem"
       ],
-      "correctAnswer": "gekocht",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "Während",
+      "explanation": "während — gleichzeitige Handlung in der Vergangenheit.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q076",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ___ sich über die Nachricht.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_076",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ du gelernt hast, kannst du jetzt spielen.",
       "options": [
-        "freut",
-        "freue",
-        "freust",
-        "freuen"
+        "Bevor",
+        "Nachdem",
+        "Seitdem",
+        "Solange"
       ],
-      "correctAnswer": "freut",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Nachdem",
+      "explanation": "nachdem — zeitlich nach einer abgeschlossenen Handlung.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q077",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ ich viel lernte, habe ich die Prüfung bestanden.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_077",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie tat so, _____ sie nichts gehört hätte.",
       "options": [
-        "Weil",
-        "Obwohl",
-        "Wenn",
-        "Damit"
+        "als",
+        "als ob",
+        "wie",
+        "dass"
       ],
-      "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "als ob",
+      "explanation": "als ob — irreale Vergleichssatz (Konjunktiv II).",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q078",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das ist die ___ Lösung.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_078",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat _____ Geld _____ Zeit, um zu verreisen.",
       "options": [
-        "gut",
-        "besser",
-        "am besten",
-        "gute"
+        "weder / noch",
+        "sowohl / als auch",
+        "nicht nur / sondern auch",
+        "entweder / oder"
       ],
-      "correctAnswer": "beste",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "correctAnswer": "weder / noch",
+      "explanation": "weder / noch — Negation beider Teile.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q079",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er spricht ___ als ich.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_079",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "_____ er sehr müde war, half er seiner Mutter im Haushalt.",
       "options": [
-        "deutlich",
-        "deutlicher",
-        "am deutlichsten",
-        "deutlichste"
+        "Obwohl",
+        "Weil",
+        "Wenn",
+        "Trotzdem"
       ],
-      "correctAnswer": "deutlicher",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl — Einräumung (konzessiv).",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q080",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Sie ist die ___ von allen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_080",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Es regnete, _____ gingen wir trotzdem spazieren.",
       "options": [
-        "schön",
-        "schöner",
-        "am schönsten",
-        "schönste"
+        "trotzdem",
+        "obwohl",
+        "weil",
+        "sodass"
       ],
-      "correctAnswer": "schönste",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "trotzdem",
+      "explanation": "trotzdem — Konjunktionaladverb, Verb an zweiter Stelle.",
+      "difficulty": "easy"
     },
     {
       "id": "a2_10_q081",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ ich Zeit habe, helfe ich dir.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_081",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ du morgen Zeit hast, können wir zusammen lernen.",
       "options": [
         "Wenn",
-        "Weil",
         "Als",
+        "Obwohl",
         "Damit"
       ],
       "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
+      "explanation": "wenn — conditional conjunction ('if'), used for future or general conditions. wenn can mean 'when' (temporal) or 'if' (conditional) depending on context.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q082",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er wartet ___ seine Mutter.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_082",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich war schon müde, ______ ich ins Bett ging.",
       "options": [
-        "auf",
-        "bei",
-        "nach",
-        "von"
+        "wenn",
+        "als",
+        "weil",
+        "obwohl"
       ],
-      "correctAnswer": "auf",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "correctAnswer": "als",
+      "explanation": "als — temporal conjunction for a single past event ('when'). wenn is used for repeated or future events. Here: a single past event → als.",
+      "difficulty": "medium"
     },
     {
       "id": "a2_10_q083",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ du das gemacht?",
-      "options": [
-        "Wie",
-        "Warum",
-        "Wann",
-        "Wo"
-      ],
-      "correctAnswer": "Wie",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q084",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich bin mit dem Zug ___",
-      "options": [
-        "gefahren",
-        "fahren",
-        "fahre",
-        "fährt"
-      ],
-      "correctAnswer": "gefahren",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q085",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das Buch ___ gestohlen ___",
-      "options": [
-        "ist / worden",
-        "hat / worden",
-        "wurde / worden",
-        "wird / worden"
-      ],
-      "correctAnswer": "ist / worden",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q086",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ist ___是因为 er zu spät ___",
-      "options": [
-        "gekommen",
-        "gehet",
-        "ging",
-        "kommt"
-      ],
-      "correctAnswer": "gekommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q087",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Sie ___ gestern einen Film ___",
-      "options": [
-        "hat / gesehen",
-        "habt / gesehen",
-        "ist / gesehen",
-        "wird / gesehen"
-      ],
-      "correctAnswer": "hat / gesehen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q088",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ er Hilfe braucht, soll er fragen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_083",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ es regnet, bleibe ich zu Hause.",
       "options": [
         "Wenn",
         "Weil",
@@ -1352,202 +1662,758 @@
         "Damit"
       ],
       "correctAnswer": "Wenn",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "explanation": "wenn — conditional conjunction ('if'), here expresses a general condition. weil would express a reason for something already true.",
+      "difficulty": "easy"
     },
     {
-      "id": "a2_10_q089",
+      "id": "a2_10_q084",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ist ___ Freude ___",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_084",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist nicht gekommen, ______ er krank war.",
       "options": [
-        "vor / übertönt",
-        "von / übertönt",
-        "aus / überflogen",
-        "mit / über"
+        "weil",
+        "obwohl",
+        "wenn",
+        "damit"
       ],
-      "correctAnswer": "vor / übertönt",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction ('because'). Here the reason is given for the consequence (not coming). obwohl would mean 'although' — the opposite.",
+      "difficulty": "easy"
     },
     {
-      "id": "a2_10_q090",
+      "id": "a2_10_q085",
       "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Gestern ___ ich ins Kino ___",
-      "options": [
-        "bin / gegangen",
-        "habe / gegangen",
-        "ist / gegangen",
-        "hat / gegangen"
-      ],
-      "correctAnswer": "bin / gegangen",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q091",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich ___ dir helfen ___",
-      "options": [
-        "kann / -",
-        "kannst / -",
-        "kann / können",
-        "könnt / -"
-      ],
-      "correctAnswer": "kann / -",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q092",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ du mit mir ___?",
-      "options": [
-        "Kannst / kommen",
-        "Kann / kommen",
-        "Können / kommst",
-        "Kannst / kommst"
-      ],
-      "correctAnswer": "Kannst / kommen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q093",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ___ schon in München ___",
-      "options": [
-        "war / -",
-        "ist / -",
-        "hat / -",
-        "wird / -"
-      ],
-      "correctAnswer": "war / -",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q094",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich habe ___ Ferien ___",
-      "options": [
-        "die / gemacht",
-        "- / gehabt",
-        "die / gehabt",
-        "- / gemacht"
-      ],
-      "correctAnswer": "die / gehabt",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q095",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Das Buch ___ mir ___",
-      "options": [
-        "hat / gefallen",
-        "ist / gefallen",
-        "hat / gefällt",
-        "ist / gefällt"
-      ],
-      "correctAnswer": "hat / gefallen",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q096",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Sie ___ seit drei Jahren hier.",
-      "options": [
-        "wohnt",
-        "wohnst",
-        "wohne",
-        "wohnen"
-      ],
-      "correctAnswer": "wohnt",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q097",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ dem Wetter bin ich froh.",
-      "options": [
-        "Wegen",
-        "Trotz",
-        "Während",
-        "Nach"
-      ],
-      "correctAnswer": "Wegen",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q098",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Er ist ___ dem Chef.",
-      "options": [
-        "bei",
-        "mit",
-        "von",
-        "zu"
-      ],
-      "correctAnswer": "bei",
-      "explanation": "",
-      "difficulty": "medium",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q099",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "Ich interessiere mich ___ Musik.",
-      "options": [
-        "für",
-        "an",
-        "auf",
-        "über"
-      ],
-      "correctAnswer": "für",
-      "explanation": "",
-      "difficulty": "hard",
-      "type": "fill_blank"
-    },
-    {
-      "id": "a2_10_q100",
-      "subjectId": "a2_10",
-      "topicName": "Konjunktionen: und, oder, aber, denn",
-      "questionText": "___ er krank war, ist er nicht gekommen.",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_085",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ die Sonne scheint, gehen wir spazieren.",
       "options": [
         "Weil",
         "Obwohl",
         "Wenn",
-        "Als"
+        "Damit"
+      ],
+      "correctAnswer": "Wenn",
+      "explanation": "wenn — conditional conjunction for a general/future condition ('if'). weil would be grammatically correct but changes the meaning to causal ('because').",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q086",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_086",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Buch war ______ teuer ______ ich es nicht kaufen konnte.",
+      "options": [
+        "sowohl / als auch",
+        "weder / noch",
+        "entweder / oder",
+        "zwar / aber"
+      ],
+      "correctAnswer": "zwar / aber",
+      "explanation": "zwar ... aber — 'although ... but'. This structure admits one fact (expensive) while stating the opposite consequence (couldn't buy it).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q087",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_087",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er lernt Deutsch, ______ er in Deutschland studieren will.",
+      "options": [
+        "weil",
+        "obwohl",
+        "wenn",
+        "damit"
+      ],
+      "correctAnswer": "weil",
+      "explanation": "weil — causal conjunction ('because'). The reason for learning German is given here (wanting to study in Germany).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_10_q088",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_088",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ sie gut Deutsch sprach, konnte sie die Prüfung bestehen.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Wenn",
+        "Damit"
       ],
       "correctAnswer": "Weil",
-      "explanation": "",
-      "difficulty": "easy",
-      "type": "fill_blank"
+      "explanation": "weil — causal conjunction ('because'). Her good German is the reason she could pass the exam.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_10_q089",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_089",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie ist sehr intelligent, ______ sie lernt wenig.",
+      "options": [
+        "weil",
+        "obwohl",
+        "wenn",
+        "damit"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — contrast conjunction ('although'). The fact (intelligent) contradicts the expectation (learning little). This is a typical contrast structure.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q090",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_090",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ es spät war, haben wir das Projekt noch fertiggestellt.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Wenn",
+        "Damit"
+      ],
+      "correctAnswer": "Obwohl",
+      "explanation": "obwohl — contrast conjunction ('although'). Being late contradicts the result (finishing the project). Using weil would mean 'because it was late, we finished' — changing the meaning.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q091",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_091",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er spricht ______ Deutsch ______ Französisch.",
+      "options": [
+        "sowohl / als auch",
+        "entweder / oder",
+        "weder / noch",
+        "zwar / aber"
+      ],
+      "correctAnswer": "sowohl / als auch",
+      "explanation": "sowohl ... als auch — 'both ... and'. Connects two positive abilities (German AND French).",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_10_q092",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_092",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Ich habe ______ Zeit ______ Geld — ich kann nicht reisen.",
+      "options": [
+        "weder / noch",
+        "sowohl / als auch",
+        "entweder / oder",
+        "zwar / aber"
+      ],
+      "correctAnswer": "weder / noch",
+      "explanation": "weder ... noch — 'neither ... nor'. Both conditions (time AND money) are missing. This is a negative combination of two elements.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q093",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_093",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Du kannst ______ heute kommen ______ morgen — wie du willst.",
+      "options": [
+        "entweder / oder",
+        "sowohl / als auch",
+        "weder / noch",
+        "zwar / aber"
+      ],
+      "correctAnswer": "entweder / oder",
+      "explanation": "entweder ... oder — 'either ... or'. Two possible options are given, one of which will be chosen. The choice is open.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_10_q094",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_094",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ du fleißig lernst, ______ wirst du die Prüfung bestehen.",
+      "options": [
+        "Wenn / dann",
+        "Weil / deshalb",
+        "Obwohl / aber",
+        "Sowohl / als auch"
+      ],
+      "correctAnswer": "Wenn / dann",
+      "explanation": "wenn ... dann — conditional pattern ('if ... then'). The dann clause uses normal word order (subject + verb) because it is the main clause, not a subordinate clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q095",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_095",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist so müde, ______ er sofort einschlief.",
+      "options": [
+        "dass",
+        "weil",
+        "obwohl",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "dass — noun clause conjunction ('that'). Here it introduces a result clause after 'so...dass' pattern. The verb is at the end in the dass-clause.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q096",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_096",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat mir geholfen, ______ ich erfolgreich war.",
+      "options": [
+        "weil",
+        "damit",
+        "obwohl",
+        "wenn"
+      ],
+      "correctAnswer": "damit",
+      "explanation": "damit — purpose conjunction ('so that / in order that'). The help was given with the intention of achieving a result (success).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q097",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_097",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "______ ich gestern krank war, bin ich nicht zur Arbeit gegangen.",
+      "options": [
+        "Weil",
+        "Obwohl",
+        "Wenn",
+        "Damit"
+      ],
+      "correctAnswer": "Weil",
+      "explanation": "weil — causal conjunction ('because'). The reason for not going to work is given. Because I was sick → I didn't go.",
+      "difficulty": "easy"
+    },
+    {
+      "id": "a2_10_q098",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_098",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Nicht nur ______ er fleißig, ______ half er auch anderen.",
+      "options": [
+        "war / sondern",
+        "ist / aber",
+        "war / und",
+        "hat / aber"
+      ],
+      "correctAnswer": "war / sondern",
+      "explanation": "nicht nur ... sondern auch — 'not only ... but also'. This is a two-part correlating conjunction. The second part requires sondern (not aber) to properly contrast and add.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q099",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_099",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist so stark, ______ er drei Koffer allein tragen kann.",
+      "options": [
+        "dass",
+        "weil",
+        "obwohl",
+        "wenn"
+      ],
+      "correctAnswer": "dass",
+      "explanation": "dass — introduces a result clause after 'so...dass' ('so...that'). The result is that he can carry three suitcases alone.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q100",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_100",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie trägt immer einen Schirm, ______ es regnet oder nicht.",
+      "options": [
+        "weil",
+        "obwohl",
+        "wenn",
+        "damit"
+      ],
+      "correctAnswer": "obwohl",
+      "explanation": "obwohl — 'regardless of whether'. The umbrella is carried even when it is NOT raining — a contradictory behavior that obwohl captures perfectly.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q101",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_101",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ er sehr müde war, ________ er die Präsentation bis zum Ende durchgezogen, ________ er sich anschließend sofort ins Bett gelegt hat.",
+      "options": [
+        "Obwohl / hat / und",
+        "Weil / hat / sodass",
+        "Obwohl / hat / sodass",
+        "Weil / hätte / und"
+      ],
+      "correctAnswer": "Obwohl / hat / sodass",
+      "explanation": "obwohl — contrast conjunction ('although'); hat — main clause verb; sodass — consequence conjunction ('so that'). Structure: subordinate clause (obwohl + verb-end) + main clause + consequence clause (sodass + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q102",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_102",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Projekt war ________ technisch anspruchsvoll ________ zeitlich sehr eng geplant, ________ es dennoch erfolgreich abgeschlossen werden konnte.",
+      "options": [
+        "sowohl / als auch / obwohl",
+        "weder / noch / sodass",
+        "zwar / aber / trotzdem",
+        "entweder / oder / damit"
+      ],
+      "correctAnswer": "zwar / aber / trotzdem",
+      "explanation": "zwar ... aber — partial contrast ('although ... but'); trotzdem — contrast adverb (comes before verb in main clause). Structure: zwar + adjective, aber + condition, trotzdem + result.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q103",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_103",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ die Firma in finanzielle Schwierigkeiten geraten war, ________ sie mehrere Standorte schließen müssen, ________ die Mitarbeiter frühzeitig informiert wurden.",
+      "options": [
+        "Weil / hatte / bevor",
+        "Nachdem / hatte / damit",
+        "Da / hatte / sodass",
+        "Obwohl / hätte / während"
+      ],
+      "correctAnswer": "Da / hatte / sodass",
+      "explanation": "da — causal conjunction ('because'), preferred at beginning of sentence; hatte — Plusquamperfekt for earlier past; sodass — consequence conjunction ('so that'). Structure: reason (da + verb-end) + result (hatten + verb-end) + consequence (sodass + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q104",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_104",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man kann ________ mit dem Zug ________ mit dem Bus dorthin fahren; ________ dauert die Reise mit dem Zug deutlich kürzer.",
+      "options": [
+        "sowohl / als auch / jedoch",
+        "entweder / oder / allerdings",
+        "weder / noch / deshalb",
+        "zwar / aber / trotzdem"
+      ],
+      "correctAnswer": "entweder / oder / allerdings",
+      "explanation": "entweder ... oder — 'either ... or' (choice between two options); allerdings — contrast adverb ('however') used to introduce an unexpected contrast after the semicolon.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q105",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_105",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ er die Warnungen ignoriert hatte, ________ der Unfall vielleicht vermieden werden können, ________ er die Hinweise ernst genommen ________ ________.",
+      "options": [
+        "Wenn / hätte / wenn / hätte",
+        "Wenn / wäre / wenn / hätte",
+        "Hätte / wäre / wenn / hätte",
+        "Wenn / wäre / als / hat"
+      ],
+      "correctAnswer": "Wenn / wäre / wenn / hätte",
+      "explanation": "Konjunktiv II conditional structure: Wenn + Plusquamperfekt Konjunktiv II, hätte + Partizip, wenn + Plusquamperfekt Konjunktiv II, hätte. 'If he had ignored the warnings, the accident could have been avoided, if he had taken the warnings seriously.'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q106",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_106",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Entscheidung fiel nicht nur ________ schnell, ________ auch ohne ausreichende Beratung, ________ viele Mitarbeiter unzufrieden waren.",
+      "options": [
+        "sehr / sondern / sodass",
+        "zu / aber / weil",
+        "besonders / sondern auch / weswegen",
+        "besonders / sondern / sodass"
+      ],
+      "correctAnswer": "besonders / sondern / sodass",
+      "explanation": "nicht nur ... sondern — 'not only ... but also' (emphasis + addition); besonders — 'particularly' before sondern; sodass — consequence conjunction ('so that'). The decision was not only fast but also without consultation, resulting in employee dissatisfaction.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q107",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_107",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie den Vertrag unterschreiben, ________ Sie sich unbedingt ________ den genauen Konditionen informieren, ________ es später zu Missverständnissen kommt.",
+      "options": [
+        "Bevor / sollten / über / damit",
+        "Nachdem / müssen / mit / weil",
+        "Wenn / könnten / über / obwohl",
+        "Während / sollten / bei / sodass"
+      ],
+      "correctAnswer": "Bevor / sollten / über / damit",
+      "explanation": "bevor — temporal conjunction ('before'); sollten — modal verb in Konjunktiv II for formal advice; über — preposition for 'about' the conditions; damit — purpose conjunction ('so that'). Formal B2 structure: 'Before signing, you should inform yourself about the exact conditions, so that misunderstandings do not occur later.'",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q108",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_108",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er hat ________ das Angebot angenommen ________ es abgelehnt, ________ er sich noch nicht entscheiden konnte.",
+      "options": [
+        "weder / noch / weil",
+        "sowohl / als auch / obwohl",
+        "entweder / oder / da",
+        "zwar / aber / weil"
+      ],
+      "correctAnswer": "weder / noch / weil",
+      "explanation": "weder ... noch — 'neither ... nor' (rejects both options); weil — causal conjunction ('because'). He has neither accepted nor rejected the offer, because he could not decide yet.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q109",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_109",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ das Wetter schlecht war, ________ die Veranstaltung im Freien stattgefunden, ________ alle Teilnehmer mit Regenjacken erschienen waren.",
+      "options": [
+        "Obwohl / hat / da",
+        "Weil / hat / obwohl",
+        "Obwohl / hätte / wenn",
+        "Da / hat / sodass"
+      ],
+      "correctAnswer": "Obwohl / hat / da",
+      "explanation": "obwohl — contrast conjunction ('although'); hat — main clause verb; da — causal conjunction ('because') explaining why participants came prepared. Structure: contrast (obwohl) + main clause + reason (da + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q110",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_110",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die neue Software ist ________ benutzerfreundlich ________ effizient, ________ sie sich schnell im Unternehmen durchgesetzt hat.",
+      "options": [
+        "sowohl / als auch / sodass",
+        "weder / noch / weil",
+        "zwar / aber / obwohl",
+        "entweder / oder / damit"
+      ],
+      "correctAnswer": "sowohl / als auch / sodass",
+      "explanation": "sowohl ... als auch — 'both ... and' (connects two positive qualities); sodass — consequence conjunction ('so that'). The software is both user-friendly and efficient, so it quickly established itself in the company.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q111",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_111",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ man früh genug mit der Vorbereitung beginnt, ________ die Prüfung problemlos bestanden werden, ________ man sich zusätzlich noch intensiver damit beschäftigt.",
+      "options": [
+        "Wenn / kann / falls",
+        "Wenn / könnte / wenn",
+        "Falls / kann / obwohl",
+        "Sofern / könnte / falls"
+      ],
+      "correctAnswer": "Wenn / könnte / wenn",
+      "explanation": "wenn — conditional conjunction ('if'); könnte — Konjunktiv II for passive possibility ('could be passed'); wenn — second conditional clause. Structure: condition (wenn + verb-end) + result (könnte + verb-end) + additional condition (wenn + verb-end).",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q112",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_112",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Sie hat ________ die Einladung angenommen ________ abgesagt, ________ sie noch nicht weiß, ob sie an dem Tag Zeit hat.",
+      "options": [
+        "weder / noch / weil",
+        "sowohl / als auch / obwohl",
+        "weder / noch / da",
+        "entweder / oder / weil"
+      ],
+      "correctAnswer": "entweder / oder / weil",
+      "explanation": "entweder ... oder — 'either ... or' (choice, not yet made); weil — causal conjunction ('because'). The key: 'She has either accepted OR not accepted the invitation, because...' (Either/or implies uncertainty about which choice was made).",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q113",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_113",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ der Chef die Maßnahmen angekündigt hatte, ________ die Mitarbeiter bereits darüber informiert, ________ es Gerüchte gab.",
+      "options": [
+        "Bevor / waren / weil",
+        "Nachdem / waren / obwohl",
+        "Als / hatten / da",
+        "Während / hatten / sodass"
+      ],
+      "correctAnswer": "Nachdem / waren / obwohl",
+      "explanation": "nachdem — temporal conjunction ('after') — the announcement came first; hatten — Plusquamperfekt ('had been informed' — completed before the main event); obwohl — contrast conjunction ('although') — contradiction: despite being informed, rumors existed.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q114",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_114",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Das Meeting wurde ________ verschoben ________ abgesagt, ________ der Projektleiter erkrankt war.",
+      "options": [
+        "sowohl / als auch / weil",
+        "entweder / oder / obwohl",
+        "nicht nur / sondern auch / da",
+        "weder / noch / weil"
+      ],
+      "correctAnswer": "nicht nur / sondern auch / da",
+      "explanation": "nicht nur ... sondern auch — 'not only ... but also' (adds a second action); da — causal conjunction ('because'). The meeting was not only postponed but also cancelled, because the project leader fell ill.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q115",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_115",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ Sie Fragen haben, ________ Sie sich jederzeit ________ die Hotline wenden, ________ Ihnen schnell geholfen wird.",
+      "options": [
+        "Wenn / können / an / damit",
+        "Falls / sollten / an / sodass",
+        "Obwohl / müssen / bei / weil",
+        "Wenn / dürfen / über / obwohl"
+      ],
+      "correctAnswer": "Falls / sollten / an / sodass",
+      "explanation": "falls — conditional conjunction ('if / in case') for formal requests; sollten — Konjunktiv II for polite recommendation; an — preposition ('to' the hotline); sodass — purpose conjunction ('so that'). Formal polite B2 structure.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q116",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_116",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Er ist ________ ein erfahrener Mitarbeiter ________ ein zuverlässiger Kollege, ________ er im Team sehr geschätzt wird.",
+      "options": [
+        "sowohl / als auch / sodass",
+        "zwar / aber / weil",
+        "weder / noch / obwohl",
+        "entweder / oder / da"
+      ],
+      "correctAnswer": "sowohl / als auch / sodass",
+      "explanation": "sowohl ... als auch — 'both ... and' (connects two positive qualities: experienced AND reliable); sodass — consequence conjunction ('so that'). He is both an experienced employee and a reliable colleague, so he is highly valued in the team.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q117",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_117",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ die Studie vielversprechende Ergebnisse geliefert hat, ________ weitere Forschungen notwendig, ________ die Langzeitwirkungen noch nicht bekannt sind.",
+      "options": [
+        "Obwohl / sind / weil",
+        "Weil / sind / obwohl",
+        "Obwohl / wären / wenn",
+        "Da / sind / sodass"
+      ],
+      "correctAnswer": "Obwohl / sind / weil",
+      "explanation": "obwohl — contrast conjunction ('although'); sind — present plural for current necessity; weil — causal conjunction ('because') explaining why further research is needed. Although the study showed promising results, further research is necessary because the long-term effects are not yet known.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q118",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_118",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Man sollte ________ zu optimistisch ________ zu pessimistisch sein, ________ man eine realistische Einschätzung der Situation treffen kann.",
+      "options": [
+        "weder / noch / damit",
+        "sowohl / als auch / weil",
+        "entweder / oder / obwohl",
+        "zwar / aber / sodass"
+      ],
+      "correctAnswer": "weder / noch / damit",
+      "explanation": "weder ... noch — 'neither ... nor' (rejecting both extremes: not too optimistic NOR too pessimistic); damit — purpose conjunction ('so that / in order that'). Neither too optimistic nor too pessimistic, so that one can make a realistic assessment.",
+      "difficulty": "medium"
+    },
+    {
+      "id": "a2_10_q119",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_119",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "________ der Antrag vollständig ausgefüllt ist, ________ er bearbeitet werden, ________ es zu Verzögerungen kommt.",
+      "options": [
+        "Wenn / kann / damit",
+        "Nur wenn / kann / sonst",
+        "Obwohl / muss / weil",
+        "Falls / sollte / obwohl"
+      ],
+      "correctAnswer": "Nur wenn / kann / sonst",
+      "explanation": "nur wenn — conditional conjunction with emphasis ('only if'); kann — modal verb for possibility; sonst — contrast conjunction ('otherwise / if not') indicating what happens if the condition is not met. Only if the application is fully completed can it be processed, otherwise delays occur.",
+      "difficulty": "hard"
+    },
+    {
+      "id": "a2_10_q120",
+      "subjectId": "a2_10",
+      "topicId": "a2_10",
+      "topicName": "Konjunktionen",
+      "sourceId": "manual",
+      "originalId": "manual_120",
+      "level": "A2",
+      "type": "multiple_choice",
+      "questionText": "Die Konferenz findet ________ in Präsenz ________ online statt, ________ alle Teilnehmer flexibel teilnehmen können.",
+      "options": [
+        "sowohl / als auch / damit",
+        "entweder / oder / weil",
+        "weder / noch / obwohl",
+        "zwar / aber / sodass"
+      ],
+      "correctAnswer": "sowohl / als auch / damit",
+      "explanation": "sowohl ... als auch — 'both ... and' (the conference takes place both in-person AND online); damit — purpose conjunction ('so that'). Both options are available, so that all participants can participate flexibly.",
+      "difficulty": "medium"
     }
   ],
-  "totalQuestions": 100
+  "description": "Konjunktionen (conjunctions) connect words, phrases, or clauses. German has two types: koordinierende Konjunktionen (coordinating: und, aber, oder, denn, sondern, doch, yet) — these do NOT change word order. UNTERORDNENDE Konjunktionen (subordinating: dass, ob, weil, wenn, als, bevor, bis, während, nach, damit, obwohl) — these send the verb to the end of the clause (like Nebensätze). Other important coordinating conjunctions: deshalb (therefore), deswegen (for that reason), trotzdem (nevertheless/despite this), außerdem (moreover), allerdings (however), nämlich (namely/because), immerhin (at least).",
+  "tips": [
+    "und (and), aber (but), oder (or), denn (because), sondern (but rather), doch (yet) — coordinating conjunctions, verb stays in position 2.",
+    "Deshalb/Deswegen (therefore) + verb: 'Ich war müde, deshalb bin ich früh eingeschlafen.'",
+    "Trotzdem (nevertheless) + verb: 'Es regnete, trotzdem bin ich ausgegangen.'",
+    "Außerdem (moreover) + verb: 'Er ist intelligent, außerdem ist er sympathisch.'",
+    "Subordinating conjunctions send the verb to the end: weil, obwohl, bevor, nachdem, während, bis, wenn, dass, ob.",
+    "Position after coordinating conjunction: verb stays in V2 (Ich bin müde, aber ich gehe trotzdem aus.)",
+    "Sondern is used after a negation: 'Nicht er, sondern sein Bruder.' (Not him, but his brother.)"
+  ]
 }
