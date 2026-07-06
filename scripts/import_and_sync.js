@@ -1,26 +1,46 @@
 /**
- * import_and_sync.js — content/grammar/*.json -> grammarQuizBank (Step 2 of data-integrity fix)
- * ================================================================================================
- * PREVIOUS BUG: this script used to write to Firestore collection `moduleQuizQuestions`,
- * which nothing in the app reads. The live app reads grammar questions from
- * `grammarQuizBank` via FirebaseDataSource.getGrammarQuestionsBySubject(). Every
- * "synced" claim based on the old script was Firestore-unverified.
+ * import_and_sync.js — content/grammar/*.json -> moduleQuizQuestions (Step 2/3 of data-integrity fix)
+ * =====================================================================================================
+ * CORRECTED 2026-07-06: an earlier version of this fix retargeted this script at
+ * `grammarQuizBank`, based on the assumption that's what the app reads live. That
+ * assumption was WRONG — a full trace of every read/write call in
+ * LocalQuestionBank.kt showed `getQuestionDetails()` only ever reads the bundled
+ * APK asset file, and `ContentRepository.getGrammarQuestionsBySubject()` (which
+ * reads grammarQuizBank) has zero callers anywhere in the app.
  *
- * NEW PIPELINE: content/grammar/<subjectId>.json (git, source of truth) -> this
- * script -> grammarQuizBank. GitHub asset-file pushing via REST API has been
- * removed entirely — commit content/ changes with normal `git commit` + `git push`
- * like everything else in this repo; don't maintain a second parallel content path.
+ * The collection that's ACTUALLY read at runtime is `moduleQuizQuestions`, via
+ * FirebaseSyncService.syncIfNeeded() (gated: only runs if >7 days since last sync,
+ * and only picks up docs where `version` > the client's last-synced version). That
+ * downloads into LocalQuestionBank.updateTopicFromFirebase(), which writes a
+ * "{subjectId}_fb.json" cache file to internal storage via openFileOutput — and
+ * (separately fixed, see LocalQuestionBank.kt) getQuestionDetails() now reads that
+ * cache file first, falling back to the bundled asset file when absent.
  *
- * grammarQuizBank doc shape (matches what FirebaseDataSource.kt actually reads):
- *   { id, subjectId, level, questionText, options: "opt1|opt2|opt3|opt4" (STRING,
- *     pipe-delimited, not array), correctAnswer, difficulty, type }
- * NOTE: no `explanation` field yet — that's a separate, deliberate follow-up
- * (Step 3 of the data-integrity fix), not bundled into this script by default.
+ * So the real, now fully wired-up pipeline is:
+ *   content/grammar/<subjectId>.json (git, source of truth)
+ *     -> this script -> Firestore moduleQuizQuestions/<subjectId>
+ *     -> FirebaseSyncService (on next app open, if sync is due)
+ *     -> LocalQuestionBank writes {subjectId}_fb.json
+ *     -> LocalQuestionBank.getQuestionDetails() reads it
  *
- * Also writes/updates a lightweight `topics/<subjectId>` doc (name, level, type,
- * questionCount) so the `topics` collection stays accurate — currently dead code
- * in the app (FirebaseDataSource.getSubjectsByLevel() is hardcoded to fail), but
- * this is what Step 4 (killing hardcoded subject lists) will need to read from.
+ * moduleQuizQuestions doc shape (one doc per subjectId, matching what
+ * FirebaseSyncService.syncIfNeeded() and LocalQuestionBank.saveQuestionsJson()
+ * expect):
+ *   { id, subjectId, topicName, totalQuestions, version (int), updatedAt,
+ *     questions: [ { id, subjectId, type, questionText, options: [...] (real
+ *     array, NOT pipe-delimited - this collection's schema is different from
+ *     grammarQuizBank's), correctAnswer, explanation, difficulty, topicName } ] }
+ *
+ * VERSIONING: FirebaseSyncService keeps a single GLOBAL version counter on the
+ * client (SharedPreferences), not per-topic. It queries
+ * `.whereGreaterThan("version", currentVersion)` across the whole collection,
+ * and after any non-empty sync just does `currentVersion + 1` client-side. That
+ * means: every doc touched in a given sync run must be stamped with a version
+ * STRICTLY GREATER than every version used in any previous run, or clients who
+ * already synced past that point will silently never see the update. This
+ * script computes newVersion = (max existing version in the collection) + 1 and
+ * stamps every topic being synced in this run with that same value - simple and
+ * safe as long as this script is the only writer.
  *
  * Usage:
  *   export GOOGLE_APPLICATION_CREDENTIALS=/path/to/key.json
@@ -29,9 +49,7 @@
  *   node scripts/import_and_sync.js c2_12                     # sync one topic
  *   node scripts/import_and_sync.js                           # sync ALL topics
  *
- * This script never deletes anything. It does not touch the orphaned
- * `moduleQuizQuestions` collection — see scripts/delete_orphaned_module_quiz_questions.js
- * for that, which must be run separately and explicitly, never automatically.
+ * This script never deletes anything.
  */
 
 const admin = require('firebase-admin');
@@ -39,6 +57,7 @@ const fs = require('fs');
 const path = require('path');
 
 const CONTENT_DIR = path.join(__dirname, '..', 'content', 'grammar');
+const COLLECTION = 'moduleQuizQuestions';
 
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
@@ -52,18 +71,30 @@ if (!process.env.GOOGLE_APPLICATION_CREDENTIALS) {
 const serviceAccount = JSON.parse(fs.readFileSync(process.env.GOOGLE_APPLICATION_CREDENTIALS, 'utf8'));
 admin.initializeApp({ credential: admin.credential.cert(serviceAccount) });
 const db = admin.firestore();
+const FIELD = admin.firestore.FieldValue;
 
-function toFirestoreQuestion(q, subjectId, level) {
+function toSyncQuestion(q, subjectId, topicName) {
   return {
     id: q.id,
     subjectId: q.subjectId || subjectId,
-    level: q.level || level,
+    type: q.type || 'multiple_choice',
     questionText: q.questionText,
-    options: Array.isArray(q.options) ? q.options.join('|') : q.options,
+    options: Array.isArray(q.options) ? q.options : (typeof q.options === 'string' ? q.options.split('|') : []),
     correctAnswer: q.correctAnswer,
+    explanation: q.explanation || '',
     difficulty: q.difficulty || 'medium',
-    type: q.type || 'multiple_choice'
+    topicName: q.topicName || topicName
   };
+}
+
+async function getNextVersion() {
+  const snapshot = await db.collection(COLLECTION).select('version').get();
+  let max = 0;
+  snapshot.forEach(doc => {
+    const v = doc.get('version');
+    if (typeof v === 'number' && v > max) max = v;
+  });
+  return max + 1;
 }
 
 async function planTopic(subjectId) {
@@ -72,51 +103,34 @@ async function planTopic(subjectId) {
     return { subjectId, error: `File not found: ${filePath}` };
   }
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-  const level = data.level || subjectId.split('_')[0].toUpperCase();
 
-  const existingSnapshot = await db.collection('grammarQuizBank')
-    .where('subjectId', '==', subjectId)
-    .select()
-    .get();
-  const existingIds = new Set(existingSnapshot.docs.map(d => d.id));
+  const existingDoc = await db.collection(COLLECTION).doc(subjectId).get();
+  const existingVersion = existingDoc.exists ? (existingDoc.get('version') || null) : null;
+  const existingCount = existingDoc.exists ? (existingDoc.get('totalQuestions') || 0) : 0;
 
-  const localQuestions = data.questions.map(q => toFirestoreQuestion(q, subjectId, level));
-  const localIds = new Set(localQuestions.map(q => q.id));
-
-  const toCreate = localQuestions.filter(q => !existingIds.has(q.id));
-  const toUpdate = localQuestions.filter(q => existingIds.has(q.id));
-  const staleInFirestore = [...existingIds].filter(id => !localIds.has(id));
+  const questions = data.questions.map(q => toSyncQuestion(q, subjectId, data.topicName));
 
   return {
     subjectId,
-    level,
     topicName: data.topicName,
-    localTotal: localQuestions.length,
-    firestoreTotal: existingIds.size,
-    toCreate: toCreate.length,
-    toUpdate: toUpdate.length,
-    staleInFirestore, // present in Firestore but not in local file - NOT deleted, just reported
-    questions: localQuestions,
-    topicDoc: {
-      id: subjectId,
-      level,
-      name: data.topicName,
-      type: 'grammar',
-      questionCount: localQuestions.length
-    }
+    localTotal: questions.length,
+    existingVersion,
+    existingCount,
+    questions
   };
 }
 
-async function applyTopic(plan) {
-  const batchSize = 400;
-  for (let i = 0; i < plan.questions.length; i += batchSize) {
-    const batch = db.batch();
-    plan.questions.slice(i, i + batchSize).forEach(q => {
-      batch.set(db.collection('grammarQuizBank').doc(q.id), q, { merge: true });
-    });
-    await batch.commit();
-  }
-  await db.collection('topics').doc(plan.subjectId).set(plan.topicDoc, { merge: true });
+async function applyTopic(plan, newVersion) {
+  const docData = {
+    id: plan.subjectId,
+    subjectId: plan.subjectId,
+    topicName: plan.topicName,
+    totalQuestions: plan.questions.length,
+    version: newVersion,
+    updatedAt: FIELD.serverTimestamp(),
+    questions: plan.questions
+  };
+  await db.collection(COLLECTION).doc(plan.subjectId).set(docData);
 }
 
 async function main() {
@@ -124,7 +138,7 @@ async function main() {
   const allSubjectIds = files.map(f => f.replace('.json', '')).sort();
   const targetIds = subjectArgs.length > 0 ? subjectArgs : allSubjectIds;
 
-  console.log(DRY_RUN ? '🔍 DRY RUN — no writes will be made\n' : '🚀 Syncing content/grammar/*.json -> grammarQuizBank\n');
+  console.log(DRY_RUN ? '🔍 DRY RUN — no writes will be made\n' : '🚀 Syncing content/grammar/*.json -> moduleQuizQuestions\n');
 
   const plans = [];
   for (const subjectId of targetIds) {
@@ -134,7 +148,7 @@ async function main() {
       console.log(`  ❌ ${subjectId}: ${plan.error}`);
       continue;
     }
-    console.log(`  ${subjectId} (${plan.topicName}): local=${plan.localTotal}, firestore=${plan.firestoreTotal}, create=${plan.toCreate}, update=${plan.toUpdate}${plan.staleInFirestore.length ? `, stale-in-firestore=${plan.staleInFirestore.length} (not deleted)` : ''}`);
+    console.log(`  ${subjectId} (${plan.topicName}): local=${plan.localTotal}, existing-in-firestore=${plan.existingCount} (version ${plan.existingVersion ?? 'none'})`);
   }
 
   if (DRY_RUN) {
@@ -142,14 +156,17 @@ async function main() {
     return;
   }
 
+  const newVersion = await getNextVersion();
+  console.log(`\n📌 New version for this sync run: ${newVersion}`);
+
   for (const plan of plans) {
     if (plan.error) continue;
     console.log(`\n📦 Applying ${plan.subjectId}...`);
-    await applyTopic(plan);
-    console.log(`  ✅ ${plan.subjectId}: ${plan.questions.length} questions written, topics/${plan.subjectId} updated`);
+    await applyTopic(plan, newVersion);
+    console.log(`  ✅ ${plan.subjectId}: ${plan.questions.length} questions written at version ${newVersion}`);
   }
 
-  console.log('\n🎉 Sync complete.');
+  console.log('\n🎉 Sync complete. Clients will pick this up next time FirebaseSyncService.syncIfNeeded() runs (app open, >7 days since last sync, or forceSync()).');
 }
 
 main().catch(e => { console.error('Error:', e); process.exit(1); });

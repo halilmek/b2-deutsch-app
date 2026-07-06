@@ -269,64 +269,82 @@ object LocalQuestionBank {
     }
 
     /**
-     * Read question details from the per-topic JSON file.
-     * Opens {subjectId}.json directly — no shared cache.
+     * Read question details, preferring the Firebase-synced cache
+     * ({subjectId}_fb.json, written by updateTopicFromFirebase) over the
+     * bundled APK asset file. Falls back to the asset file when no synced
+     * cache exists yet, or if it fails to parse — this is what makes
+     * FirebaseSyncService's downloads actually reach the quiz screen instead
+     * of being written and never read back.
      */
     private fun getQuestionDetails(context: Context, questionId: String): Question? {
         // Extract subjectId from questionId (e.g. "b2_01_q005" → "b2_01")
         val subjectId = questionId.substringBeforeLast("_q")
-        val fileName = "$subjectId.json"
 
+        val fromSync = try {
+            context.openFileInput("${subjectId}_fb.json").use { inputStream ->
+                val jsonText = InputStreamReader(inputStream).readText()
+                findQuestionInJson(JSONObject(jsonText), questionId, subjectId, "${subjectId}_fb.json")
+            }
+        } catch (e: java.io.FileNotFoundException) {
+            null // no synced cache yet for this topic — expected, fall through to assets
+        } catch (e: Exception) {
+            Log.e("LQB", "Failed to read synced cache for $subjectId, falling back to assets", e)
+            null
+        }
+        if (fromSync != null) return fromSync
+
+        val fileName = "$subjectId.json"
         return try {
             context.assets.open(fileName).use { inputStream ->
-                val reader = InputStreamReader(inputStream)
-                val jsonText = reader.readText()
-                reader.close()
-                val json = JSONObject(jsonText)
-                val questions = json.getJSONArray("questions")
-                for (i in 0 until questions.length()) {
-                    val q = questions.getJSONObject(i)
-                    if (q.getString("id") == questionId) {
-                        // Use optString with safe fallbacks — don't crash on missing fields
-                        val qSubjectId = q.optString("subjectId", subjectId)
-                        val qType = q.optString("type", "multiple_choice")
-                        val qText = q.optString("questionText", "")
-                        val qAnswer = q.optString("correctAnswer", "")
-
-                        if (qText.isEmpty()) {
-                            Log.e("LQB", "⚠️ Question $questionId has empty questionText in $fileName")
-                        }
-                        if (qAnswer.isEmpty()) {
-                            Log.e("LQB", "⚠️ Question $questionId has empty correctAnswer in $fileName")
-                        }
-
-                        val optionsArray = q.optJSONArray("options")
-                        val options = if (optionsArray != null) {
-                            (0 until optionsArray.length()).map { optionsArray.getString(it) }
-                        } else {
-                            Log.w("LQB", "⚠️ Question $questionId has no options in $fileName")
-                            emptyList()
-                        }
-
-                        return@use Question(
-                            id = q.getString("id"),
-                            subjectId = qSubjectId,
-                            type = qType,
-                            questionText = qText,
-                            options = options,
-                            correctAnswer = qAnswer,
-                            explanation = q.optString("explanation", ""),
-                            difficulty = q.optString("difficulty", "medium"),
-                            topicName = q.optString("topicName", "")
-                        )
-                    }
-                }
-                null
+                val jsonText = InputStreamReader(inputStream).readText()
+                findQuestionInJson(JSONObject(jsonText), questionId, subjectId, fileName)
             }
         } catch (e: Exception) {
             e.printStackTrace()
             null
         }
+    }
+
+    private fun findQuestionInJson(json: JSONObject, questionId: String, subjectId: String, sourceLabel: String): Question? {
+        val questions = json.getJSONArray("questions")
+        for (i in 0 until questions.length()) {
+            val q = questions.getJSONObject(i)
+            if (q.getString("id") == questionId) {
+                // Use optString with safe fallbacks — don't crash on missing fields
+                val qSubjectId = q.optString("subjectId", subjectId)
+                val qType = q.optString("type", "multiple_choice")
+                val qText = q.optString("questionText", "")
+                val qAnswer = q.optString("correctAnswer", "")
+
+                if (qText.isEmpty()) {
+                    Log.e("LQB", "⚠️ Question $questionId has empty questionText in $sourceLabel")
+                }
+                if (qAnswer.isEmpty()) {
+                    Log.e("LQB", "⚠️ Question $questionId has empty correctAnswer in $sourceLabel")
+                }
+
+                val optionsArray = q.optJSONArray("options")
+                val options = if (optionsArray != null) {
+                    (0 until optionsArray.length()).map { optionsArray.getString(it) }
+                } else {
+                    Log.w("LQB", "⚠️ Question $questionId has no options in $sourceLabel")
+                    emptyList()
+                }
+
+                return Question(
+                    id = q.getString("id"),
+                    subjectId = qSubjectId,
+                    type = qType,
+                    questionText = qText,
+                    options = options,
+                    correctAnswer = qAnswer,
+                    explanation = q.optString("explanation", ""),
+                    difficulty = q.optString("difficulty", "medium"),
+                    topicName = q.optString("topicName", "")
+                )
+            }
+        }
+        return null
     }
 
     private fun getPrefs(context: Context): SharedPreferences {

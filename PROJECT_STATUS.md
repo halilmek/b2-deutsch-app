@@ -26,7 +26,39 @@
 - The B2 content-contamination finding (duplicated placeholder question across 21/23 topics in `grammarQuizBank`) is **not currently affecting real users** either, by the same logic — though it would matter the moment anyone wires up a Firestore-backed content path (or if `grammarQuizBank` was populated by copying from a different source than intended, it's still worth fixing before it becomes live).
 - Step 4 (kill hardcoded topic lists) is a **separate, still-valid concern** — that's about the *subject/topic list* (`SubjectListViewModel`'s hardcoded `getC1Subjects()` etc., and `FirebaseDataSource.getSubjectsByLevel()` always failing), not question *content*. The c2_11-invisible bug fixed last session was real and confirmed by that separate code path.
 
-**Not yet answered — needs a product/architecture decision, not something to improvise:** is the intended design (a) ship all content via APK releases only, and treat Firestore + `FirebaseSyncService` as vestigial/half-built and either finish wiring it up or remove it; or (b) actually wire `LocalQuestionBank` to read the synced `_fb.json` file (or `grammarQuizBank` directly) so Firestore content updates reach users without a new release, as `ARCHITECTURE.md` and the old sync script's own docstring ("Users will receive updates when they open the app within 7 days max") both suggest was the original intent.
+**✅ 2026-07-06: user decided — wire up the sync properly (option b).** Implemented:
+
+1. **`LocalQuestionBank.getQuestionDetails()` now reads the Firebase-synced cache first.** Refactored to try `context.openFileInput("${subjectId}_fb.json")` before falling back to `context.assets.open("$subjectId.json")`. Shared parsing logic extracted into `findQuestionInJson()`. Verified with `./gradlew compileDebugKotlin` — builds clean, no new warnings.
+2. **`import_and_sync.js` retargeted (again) — this time correctly — at `moduleQuizQuestions`,** the collection `FirebaseSyncService` actually queries. Doc shape now matches what `FirebaseSyncService`/`LocalQuestionBank.saveQuestionsJson()` expect: one doc per `subjectId` with a real `options` array (not pipe-delimited — that convention was specific to the still-dead `grammarQuizBank`), plus `explanation` (previously missing — Step 3's backfill happened automatically by including it from the start in the corrected schema).
+3. **Versioning:** `FirebaseSyncService` keeps a single global version counter client-side and queries `version > currentVersion` across the whole collection — not per-topic. The script computes `newVersion = max(existing versions in the collection) + 1` and stamps every topic touched in a run with that same value, so future incremental syncs stay correct as long as this script remains the only writer.
+4. **Checked for conflicts with pre-existing `moduleQuizQuestions` data first:** the 408 docs backed up in Step 1 were either one malformed topic-summary doc (`b2_04`, missing `version` entirely) or 406 orphaned individual-question docs, none with a `version` field — confirmed none of them were ever actually reachable by `FirebaseSyncService`'s `whereGreaterThan` query. No real user has ever received a synced update through this mechanism before today. Safe to proceed without any migration/cleanup of old data (left in place, harmless).
+5. **Executed the real sync** for the same 71 non-B2 topics as before (A1/A2/B1/C1/C2), same B2 exclusion for the same contamination reason. Verified: 72 docs now have `version: 1` in `moduleQuizQuestions` (71 grammar topics + the correction includes recount — see table below), with real question-shaped data including `explanation`.
+
+| Level | Topics synced | Questions synced |
+|-------|---------------|-------------------|
+| A1 | 15 | 1,100 |
+| A2 | 15 | 1,710 |
+| B1 | 15 | 1,501 |
+| C1 | 15 | 1,528 |
+| C2 | 12 | 1,240 |
+| **B2** | **0 (deliberately excluded)** | **0** |
+
+**This is now a genuinely live pipeline** — the next time the app runs on a device with `FirebaseSyncService.syncIfNeeded()` due (fresh install, or >7 days since last sync, or a manual `forceSync()`), these 71 topics will download and actually reach the quiz screen. **Not yet verified on an actual device/emulator** — this environment has no Android runtime available; recommend a manual on-device smoke test (fresh install or clear app data, open the app, confirm sync fires and a synced topic's content matches `content/grammar/`) before relying on this in production.
+
+**Explanation-field gap report (Step 3, as instructed — not auto-generated, logged for a human content-authoring decision):** local content is missing `explanation` for exactly these already-known topics (all traced back to Step 1's Firestore-only export, which never had explanations to begin with):
+
+| Level | Topics missing explanation | Questions affected |
+|-------|------------------------------|----------------------|
+| A1 | a1_11–a1_15 | 500 |
+| A2 | a2_11–a2_15 | 500 |
+| B1 | b1_11–b1_15 | 500 |
+| C1 | c1_11–c1_15 | 500 |
+| B2 | b2_07 only (partial — 40 of its 100 questions) | 40 |
+| C2 | none | 0 |
+
+Total: 2,040 questions across 21 topics have no explanation text anywhere (not lost by any script — they never had one; these are the topics that exist only in Firestore with no authored content behind them). **Not auto-generated.** This is a content-authoring task for a human/future session, not something to backfill silently.
+
+**UI already handles missing explanations correctly, no changes needed:** checked both quiz-result code paths. `QuizResultAdapter.kt` sets `binding.tvExplanation.visibility = GONE` when `explanation.isEmpty()`. `QuizViewModel.submitQuiz()` applies `.ifEmpty { "Keine Erklärung verfügbar" }` before building each `WrongAnswer`, so `QuizResultFragment.createWrongAnswerCard()` always renders either the real explanation or that explicit placeholder — never a blank row. (Unrelated aside noticed in passing: `QuizResultFragment.kt`'s hardcoded strings — "Question $number", "Your answer:", "Correct answer:" — are in English while the rest of the app's UI is German; not fixed here, out of scope for this task.)
 
 ---
 
@@ -226,18 +258,19 @@ This is a different, larger-scope problem than the "no `explanation` field" or "
 
 ## 🚨 OPEN ITEMS
 
-1. ~~C2 sync to Firestore~~ **✅ RESOLVED 2026-07-06** — all 1,240 C2 questions across 12 topics are now live in `grammarQuizBank`.
-2. ~~`import_and_sync.js` targets the wrong collection~~ **✅ RESOLVED 2026-07-06** — rewritten to read `content/grammar/*.json` and write `grammarQuizBank` correctly, plus a `--dry-run` flag. Executed for real for A1/A2/B1/C1/C2 (71 topics), verified against Firestore.
-3. **B2 `grammarQuizBank` content is contaminated with a duplicated placeholder question across 21/23 topics.** See "FIREBASE SYNC STATUS" above. Deliberately left untouched by the Step 2 sync run. Blocks any real (write) sync of B2 until a human decides the remediation strategy.
-4. **Missing `explanation` field in `grammarQuizBank`:** likely breaks the "see why an answer was wrong" feature for every level except C2. Needs investigation + backfill. **(Step 3, in progress.)**
+1. ~~C2 sync to Firestore~~ **✅ RESOLVED 2026-07-06, corrected same day** — first synced to `grammarQuizBank` (found to be dead code, no effect on real users), then correctly re-synced to `moduleQuizQuestions` (the collection `FirebaseSyncService` actually reads) — all 1,240 C2 questions across 12 topics.
+2. ~~`import_and_sync.js` targets the wrong collection~~ **✅ RESOLVED 2026-07-06 (twice)** — first "fixed" to `grammarQuizBank` based on an incorrect assumption about what's live; corrected same day to `moduleQuizQuestions` after tracing `LocalQuestionBank.kt`'s actual read paths. See "CORRECTION" section above for the full story.
+3. **B2 content is contaminated with a duplicated placeholder question across 21/23 topics** (found in `grammarQuizBank`, not yet checked directly in `moduleQuizQuestions` but likely the same root content). Deliberately excluded from both sync runs. Blocks any real sync of B2 until a human decides the remediation strategy.
+4. ~~Missing `explanation` field~~ **✅ RESOLVED 2026-07-06** — the corrected `moduleQuizQuestions` schema includes `explanation` from the start; synced topics now carry it. **Genuinely missing (not a sync bug) for 21 topics/2,040 questions** — see the "Explanation-field gap report" table above. Logged for a human content-authoring decision, not auto-generated.
 5. ~~20 topics (`_11`–`_15` for A1/A2/B1/C1) exist only in Firestore, not in git~~ **✅ RESOLVED 2026-07-06** — exported to `content/grammar/*.json` and `content/firestore_backup/*.json` via `scripts/export_firestore_content.js` (Step 1).
-6. **96 multiple-choice + 45 fill-blank questions in `grammarQuizBank` have a `correctAnswer` not present in their own `options`** (systematic — 1/topic for A2/B1/B2, 3/topic for C1, 0 for A1). Real users cannot answer these correctly. Discovered while validating the Step 1 backup; user decided (2026-07-06) to log this and handle it as a separate future task.
-7. **`FirebaseDataSource.getSubjectsByLevel()` is hardcoded to always `Result.failure(...)`** — the `topics` Firestore collection (107 docs) is never actually read; `SubjectListViewModel`'s hardcoded per-level lists are the *only* source for the subject list, always, not a fallback. Root cause of the c2_11-invisible bug from last session, and the reason Step 4 (kill hardcoded topic lists) is needed. **(Step 4, planned.)**
+6. **96 multiple-choice + 45 fill-blank questions in `grammarQuizBank` have a `correctAnswer` not present in their own `options`** (systematic — 1/topic for A2/B1/B2, 3/topic for C1, 0 for A1). Since `grammarQuizBank` turned out to be dead code, this specific instance doesn't currently reach real users — but the same content may well be duplicated into `moduleQuizQuestions` from whatever originally seeded it; not re-checked there. Logged as a separate future task regardless.
+7. **`FirebaseDataSource.getSubjectsByLevel()` is hardcoded to always `Result.failure(...)`** — the `topics` Firestore collection (107 docs) is never actually read; `SubjectListViewModel`'s hardcoded per-level lists are the *only* source for the subject list, always, not a fallback. Root cause of the c2_11-invisible bug from last session, and the reason Step 4 (kill hardcoded topic lists) is needed. **(Step 4, next.)**
 8. **B2 descriptions:** Several B2 JSON files show "MISSING" description — should verify (unverified this session).
 9. **c1_01:** at 127 questions, needs more to standardize to 100 or formalize as-is (unverified this session).
 10. **`SubjectListViewModel.kt` topic-name drift:** confirmed three different names exist for `c1_08` across local JSON (`topicName`), the Firestore `topics` collection (`name`), and the hardcoded Kotlin fallback list (`name`/`nameShort`) — none of the three match. This is a real, unfixed naming-consistency bug (not just the c1_08 case previously noted); needs a full audit across c1_01–c1_10 and c2_01–c2_12, ideally with one of the three sources picked as ground truth.
 11. **`topics/c1_11` has a corrupted `name` field** (`"Sentiments污染物"`, garbled English/Chinese mix). Not investigated further.
 12. **c2_12 (Modalpartikeln):** only 20/100 questions written last session. Continue with q021–q100 in 20-question batches, following the existing pattern (see `scripts/create_c2_12.py`). **Blocked until Step 5 (steps 1-4 must land first per explicit user instruction).**
+13. **Not verified on an actual Android device/emulator** — the `LocalQuestionBank`/`FirebaseSyncService` wiring fix and the whole `moduleQuizQuestions` sync pipeline were verified by code trace + `compileDebugKotlin` + direct Firestore inspection only, since this environment has no Android runtime. Recommend a manual on-device test before trusting this in production: fresh install (or clear app data) → force a sync → confirm downloaded content matches `content/grammar/`.
 
 ---
 
