@@ -474,4 +474,32 @@ Synced to Firestore (`moduleQuizQuestions/c2_12`, version 2; `topics/c2_12` upda
 
 ---
 
-_Last updated: 2026-07-06_
+## 🐛 TWO BUGS FIXED FROM MANUAL DEVICE TESTING (2026-07-07)
+
+User did an actual on-device test pass (first real device verification this session's data pipeline/UI work has had) and found two bugs. Fixed both, scope held strictly to these two — no new features, no content work.
+
+### Bug 1 — C2 level showed a lock icon, entering C2 showed no topics
+
+**Root cause:** `LevelAdapter.kt` had a hardcoded `if (level.id == "C2")` special case (left over from before C2 had real content) that displayed a `"🔒 C2"` button on the C2 level card. Its click handler only showed a "Coming Soon" Toast and never called `onLevelClick` — unlike every other level, which navigates to `action_home_to_subjectList`. Because the button sat within the card's tappable bounds, a tap landing on it was consumed there instead of reaching the card's own click listener. `Level.isLocked` was correctly `false` for every level the whole time — this was a second, separate hardcoded gate that bypassed that flag entirely. Directly contradicts `docs/MONETIZATION_SPEC.md` (topic browsing free for every level) and `CLAUDE.md`'s "no hardcoded CEFR levels" rule.
+
+**Data path was already healthy — verified before touching code:** queried Firestore directly, confirmed all 12 `c2_*` docs exist in `topics` with exactly the fields `buildSubjectFromTopicMeta` expects (`id`, `level`, `name`, `questionCount`, `type: "grammar"`); confirmed all 12 `c2_*.json` asset files exist for the offline fallback. So Step 4's dynamic topic-loading path was never the problem — C2 topics were fully ready, just unreachable because of the lock button intercepting the tap.
+
+**Fix:** removed the C2 special case and `onC2Click` callback from `LevelAdapter.kt`/`HomeFragment.kt`, removed the now-dead `btnC2` view from `item_level.xml`. C2 now behaves identically to every other level. Also added a `Log.d`/`Log.e` in `FirebaseDataSource.getSubjectsByLevel()` reporting the Firestore query result count per level (requested, for on-device log verification).
+
+**Found but out of scope, not touched:** `LocalQuestionBank.kt`'s `getAllTopicIds()`/`getAllC2TopicIds()` hardcode C2's topic count at 10, but C2 actually has 12 topics (`c2_11`/`c2_12` not covered). This affects grammar-quiz progress-tracking functions (`resetAllTopics`, `initializeFromAssets`) for those two specific topics — unrelated to the topic-*list* visibility bug just fixed, and outside this session's "fix ONLY these two bugs" scope. Flagging for a future session.
+
+### Bug 2 — Flashcards didn't flip on tap
+
+**Root cause:** `FlashcardFragment.kt` sets its click listener on `cardFlashcard` (the `MaterialCardView`), but the card's only direct child was a `NestedScrollView` filling the whole card. A ScrollView/NestedScrollView intercepts the touch stream for its own scroll-gesture detection and does not forward it as a click to its parent — so no matter where inside the card a user tapped, the touch was consumed before it could reach `cardFlashcard`'s own click detection. The click listener logic and `flipCard()`'s visibility toggle were both already correct; the bug was purely about which view in the hierarchy actually received the tap.
+
+**Checked and ruled out the "data binding, not flip" alternative explicitly asked about:** `showCard()` already sets `tvEnglish`/`tvTurkish`/`tvExample` unconditionally on every card (not gated on flip state) — the back side's data was always correct, only its visibility toggle was unreachable.
+
+**Fix:** removed the `NestedScrollView` (per instruction, preferred a simple robust visibility toggle over a fancy broken mechanism — there was no scroll requirement to begin with; flashcard content is a few short lines). The content `LinearLayout` is now a direct child of `cardFlashcard`, so a tap anywhere in the card bubbles straight to its click listener.
+
+**Verified:** `./gradlew assembleDebug` clean for both fixes combined, no new warnings (same 2 pre-existing unused-parameter warnings as before, unchanged).
+
+**Verified on device: PENDING (user will re-test).**
+
+---
+
+_Last updated: 2026-07-07_
