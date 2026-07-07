@@ -11,8 +11,7 @@ import com.b2deutsch.app.databinding.ItemLevelBinding
 
 class LevelAdapter(
     private val onLevelClick: (Level) -> Unit,
-    private val onExamsClick: ((Level) -> Unit)? = null,
-    private val onC2Click: ((Level) -> Unit)? = null
+    private val onExamsClick: ((Level) -> Unit)? = null
 ) : ListAdapter<Level, LevelAdapter.LevelViewHolder>(LevelDiffCallback()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LevelViewHolder {
@@ -45,21 +44,6 @@ class LevelAdapter(
                 }
             } else {
                 binding.btnExams.visibility = View.GONE
-            }
-
-            // Show C2 button (under construction) for C2 level
-            if (level.id == "C2") {
-                binding.btnC2.visibility = View.VISIBLE
-                binding.btnC2.setOnClickListener {
-                    android.widget.Toast.makeText(
-                        binding.root.context,
-                        "🔒 C2 - Coming Soon! (Under Construction)",
-                        android.widget.Toast.LENGTH_SHORT
-                    ).show()
-                    onC2Click?.invoke(level)
-                }
-            } else {
-                binding.btnC2.visibility = View.GONE
             }
 
             // Visual indicator for locked levels

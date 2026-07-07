@@ -78,21 +78,5 @@
             android:layout_marginTop="8dp"
             app:backgroundTint="@color/purple_700" />
 
-        <!-- C2 Button (under construction) -->
-        <com.google.android.material.button.MaterialButton
-            android:id="@+id/btnC2"
-            style="@style/Widget.MaterialComponents.Button.TextButton"
-            android:layout_width="wrap_content"
-            android:layout_height="32dp"
-            android:text="🔒 C2"
-            android:textColor="@android:color/white"
-            android:textSize="12sp"
-            android:visibility="gone"
-            app:layout_constraintTop_toBottomOf="@id/tvLevelDescription"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginTop="8dp"
-            app:backgroundTint="@color/purple_700" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </com.google.android.material.card.MaterialCardView>

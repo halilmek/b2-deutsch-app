@@ -1,5 +1,6 @@
 package com.b2deutsch.app.data.remote
 
+import android.util.Log
 import com.b2deutsch.app.data.model.*
 import com.b2deutsch.app.util.Constants
 import com.google.firebase.auth.FirebaseAuth
@@ -367,12 +368,15 @@ class FirebaseDataSource @Inject constructor(
                 )
             }.sortedBy { it.order }
 
+            Log.d("FirebaseDataSource", "getSubjectsByLevel($level): ${snapshot.size()} docs matched, ${subjects.size} mapped to Subject")
+
             if (subjects.isEmpty()) {
                 Result.failure(Exception("No topics found in Firestore for level $level"))
             } else {
                 Result.success(subjects)
             }
         } catch (e: Exception) {
+            Log.e("FirebaseDataSource", "getSubjectsByLevel($level) failed", e)
             Result.failure(e)
         }
     }
