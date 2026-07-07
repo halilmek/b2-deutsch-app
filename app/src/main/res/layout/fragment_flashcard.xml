@@ -41,19 +41,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <androidx.core.widget.NestedScrollView
+        <!--
+            No NestedScrollView here on purpose: a ScrollView/NestedScrollView
+            intercepts the touch stream for its own scroll-gesture detection and
+            never forwards it as a click to its parent, so cardFlashcard's
+            setOnClickListener would never fire no matter where inside the card
+            the user tapped. Content here is a few short lines and doesn't need
+            to scroll, so a plain LinearLayout keeps the tap-to-flip reliable.
+        -->
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="24dp"
+            android:minHeight="240dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center"
-                android:padding="24dp"
-                android:minHeight="240dp">
-
-                <TextView
+            <TextView
                     android:id="@+id/tvPartOfSpeech"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -131,8 +135,7 @@
                     android:alpha="0.7"
                     android:layout_marginTop="20dp" />
 
-            </LinearLayout>
-        </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Action buttons - only visible after flip -->
