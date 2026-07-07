@@ -47,6 +47,9 @@ class ContentRepository @Inject constructor(
     suspend fun getVocabularyByCategory(level: String, category: String): Result<List<VocabularyWord>> =
         dataSource.getVocabularyByCategory(level, category)
 
+    suspend fun getVocabularyThemes(level: String): Result<List<VocabularyTheme>> =
+        dataSource.getVocabularyThemes(level)
+
     // ============ READING ============
     suspend fun getReadingPassages(level: String): Result<List<ReadingPassage>> =
         dataSource.getReadingPassagesByLevel(level)

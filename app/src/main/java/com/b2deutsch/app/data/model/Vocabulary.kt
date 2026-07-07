@@ -19,3 +19,16 @@ data class FlashcardStudySession(
     val wordId: String,
     val result: String // "correct", "hard", "wrong"
 )
+
+/**
+ * A vocabulary topic category (Firestore `themes` collection - the same
+ * taxonomy already used for B2 reading topics: beruf, gesundheit, umwelt...).
+ * Level-agnostic and content-driven: adding a new theme document makes it
+ * appear here with no code change, same principle as SubjectMapper.kt.
+ */
+data class VocabularyTheme(
+    val id: String = "",
+    val name: String = "",
+    val iconEmoji: String = "📚",
+    val wordCount: Int = 0
+)

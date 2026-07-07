@@ -349,12 +349,44 @@
             app:argType="string" />
     </fragment>
 
-    <!-- Legacy Vocabulary -->
+    <!-- Vocabulary -->
     <fragment
         android:id="@+id/vocabularyFragment"
         android:name="com.b2deutsch.app.ui.vocabulary.VocabularyFragment"
         android:label="Vocabulary"
-        tools:layout="@layout/fragment_vocabulary" />
+        tools:layout="@layout/fragment_vocabulary">
+
+        <action
+            android:id="@+id/action_vocabulary_to_flashcard"
+            app:destination="@id/flashcardFragment">
+            <argument
+                android:name="level"
+                app:argType="string" />
+            <argument
+                android:name="category"
+                app:argType="string" />
+            <argument
+                android:name="categoryName"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/flashcardFragment"
+        android:name="com.b2deutsch.app.ui.vocabulary.FlashcardFragment"
+        android:label="Flashcards"
+        tools:layout="@layout/fragment_flashcard">
+
+        <argument
+            android:name="level"
+            app:argType="string" />
+        <argument
+            android:name="category"
+            app:argType="string" />
+        <argument
+            android:name="categoryName"
+            app:argType="string" />
+    </fragment>
 
     <!-- Legacy Writing -->
     <fragment

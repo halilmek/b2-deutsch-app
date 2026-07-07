@@ -301,6 +301,26 @@ User asked to "keep coding until the app is finished" per the planning docs. Giv
 
 ---
 
+## 📖 EPIC 6 — Vocabulary flashcards, built end-to-end (2026-07-07)
+
+User picked Vocabulary as the next epic (self-contained, no paid AI API or Cloud Functions dependency, unlike Writing/Speaking). Built the full vertical slice: content, per-user spaced-repetition progress, flashcard UI, and navigation.
+
+**Content:** 108 words across the 9 categories that already exist in Firestore's `themes` collection (`beruf`, `bildung`, `geschichte`, `gesellschaft`, `gesundheit`, `medien`, `reisen`, `umwelt`, `wirtschaft` — the same taxonomy already used for B2 reading topics, reused here instead of inventing a second one). `content/vocabulary/{category}.json` (git, source of truth) → `scripts/sync_vocabulary.js` → Firestore `vocabulary` collection (matches `VocabularyWord`'s field names exactly — `FirebaseDataSource.getVocabularyByLevel/getVocabularyByCategory` already existed and worked, just had zero documents to return before this). Verified: 108/108 unique ids, every word has all 3 languages + an example sentence, synced and confirmed directly against Firestore.
+
+**Per-user progress — architectural note:** `VocabularyWord.isLearned`/`reviewCount`/`lastReviewed` exist on the data class but must never be read from or written to the shared Firestore content document (that would make one user's "learned" status visible to every other user of the same word). New `VocabularyProgressStore` (SharedPreferences, mirroring `LocalQuestionBank`'s existing local-progress pattern) tracks this per-device instead: a simple Leitner-style spacing (0/1/2/4/8/16-day intervals; "correct" advances the interval, "hard"/"wrong" resets it to due-immediately). `VocabularyViewModel` overlays this local state onto the Firestore-sourced words at read time.
+
+**UI:** `VocabularyFragment` rewritten from its "coming soon" placeholder to a real category list (`VocabularyThemeAdapter`, word counts sourced from Firestore, categories with 0 words filtered out automatically — none currently, since all 9 are seeded). New `FlashcardFragment`: tap-to-flip card (German front; English/Turkish/example sentence on the back), three action buttons, deck built from words actually due for review (not just all words), completion state when the due-deck is empty.
+
+**Also fixed in passing:** the `themes/gesellschaft` Firestore doc had `name: "Gesundheit und Soziales"` (copy-paste error from the `gesundheit` theme, given `gesellschaft` = society/social issues, not health) — corrected to `"Gesellschaft und Soziales"` directly in Firestore, since the new Vocabulary screen surfaces this name to real users.
+
+**Nav:** added `flashcardFragment` + `action_vocabulary_to_flashcard` (level/category/categoryName args) to `nav_graph.xml`. `HomeFragment`'s "Wortschatz" card (added last session) already pointed at `vocabularyFragment`, now a real screen instead of a stub.
+
+**Verified:** `./gradlew assembleDebug` clean, no new warnings. **Not verified on-device** (no Android runtime in this environment) — recommend a manual test before trusting this in production: open Wortschatz from Home → confirm all 9 categories show with correct word counts → open one → flip a card, tap all three answer buttons, confirm the deck advances and the completion screen appears after the last word.
+
+**Scope note:** 12 words/category (108 total) is a deliberately modest starting set, matching the same "land a first batch, extend later" pattern used for grammar content this session — not a claim that vocabulary content is complete. `VOCAB-004` (mark known/learning — done via the 3 flashcard buttons), `VOCAB-005` (spaced repetition — done, simple Leitner spacing), `VOCAB-006` (audio pronunciation), `VOCAB-008` (progress tracking UI beyond the flashcard flow itself), and `VOCAB-009`/`VOCAB-010` remain open for a future session.
+
+---
+
 ## 🏗️ STEP 4 — Killed hardcoded per-level subject lists (2026-07-06)
 
 **Problem:** `SubjectListViewModel` had six near-identical hardcoded functions (`getA1Subjects()` … `getC2Subjects()`), each a `listOf(Subject(...), ...)` literal — a direct violation of `CLAUDE.md`'s "never hardcode a CEFR level" rule, and the root cause of the c2_11-invisible bug found last session (a topic simply missing from one of these lists is invisible, silently, with no error). `FirebaseDataSource.getSubjectsByLevel()` was hardcoded to always `Result.failure(...)`, so the Firestore `topics` collection (107 docs) was never actually read despite being fully populated — these six lists were the *only* code path, always, for every level.

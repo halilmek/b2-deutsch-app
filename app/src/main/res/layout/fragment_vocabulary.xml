@@ -10,18 +10,37 @@
         android:id="@+id/tvHeader"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vocabulary"
+        android:text="Wortschatz"
         android:textSize="24sp"
         android:textStyle="bold"
         android:textColor="@color/purple_700"
         android:padding="16dp"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvThemes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@id/tvHeader"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <TextView
         android:id="@+id/tvEmpty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="No vocabulary words yet.\nCheck back soon!"
+        android:text="Noch kein Wortschatz verfügbar.\nSchau bald wieder vorbei!"
         android:textAlignment="center"
         android:textSize="16sp"
         android:textColor="@android:color/darker_gray"

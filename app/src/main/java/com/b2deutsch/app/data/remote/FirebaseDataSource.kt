@@ -253,6 +253,34 @@ class FirebaseDataSource @Inject constructor(
         }
     }
 
+    // Vocabulary category list - reuses the `themes` collection (already
+    // populated for B2 reading topics: beruf, gesundheit, umwelt...) so
+    // vocabulary categories stay consistent with the rest of the content
+    // without a second, separately-maintained taxonomy.
+    suspend fun getVocabularyThemes(level: String): Result<List<VocabularyTheme>> {
+        return try {
+            val themesSnapshot = firestore.collection("themes").get().await()
+            val themes = themesSnapshot.documents.mapNotNull { doc ->
+                val name = doc.getString("name") ?: return@mapNotNull null
+                val iconEmoji = doc.getString("iconEmoji") ?: "📚"
+                val wordCountSnapshot = firestore.collection(Constants.Collections.VOCABULARY)
+                    .whereEqualTo("level", level)
+                    .whereEqualTo("category", doc.id)
+                    .get()
+                    .await()
+                VocabularyTheme(
+                    id = doc.id,
+                    name = name,
+                    iconEmoji = iconEmoji,
+                    wordCount = wordCountSnapshot.size()
+                )
+            }.filter { it.wordCount > 0 }
+            Result.success(themes)
+        } catch (e: Exception) {
+            Result.failure(e)
+        }
+    }
+
     // ============ READING ============
     suspend fun getReadingPassagesByLevel(level: String): Result<List<ReadingPassage>> {
         return try {

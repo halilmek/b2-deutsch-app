@@ -138,16 +138,16 @@
 
 | ID | Story | Points | Priority | Status |
 |----|-------|--------|----------|--------|
-| VOCAB-001 | **As a user, I want to see vocabulary lists organized by topic** so I can learn words in context | 3 | P0 | 📋 TODO |
-| VOCAB-002 | **As a user, I want to study flashcards** so I can memorize vocabulary effectively | 5 | P0 | 📋 TODO |
-| VOCAB-003 | **As a user, I want to flip cards to see translation** so I can test my memory | 2 | P0 | 📋 TODO |
-| VOCAB-004 | **As a user, I want to mark words as "known" or "learning"** so the app prioritizes difficult words | 3 | P0 | 📋 TODO |
-| VOCAB-005 | **As a user, I want spaced repetition** so I review words at optimal intervals for memory | 8 | P1 | 📋 TODO |
-| VOCAB-006 | **As a user, I want audio pronunciation** for each word so I can improve my pronunciation | 5 | P2 | 📋 TODO |
-| VOCAB-007 | **As a user, I want example sentences** for each word so I understand usage | 3 | P1 | 📋 TODO |
-| VOCAB-008 | **As a user, I want to track my vocabulary progress** so I see how many words I've learned | 3 | P1 | 📋 TODO |
-| VOCAB-009 | **As a Premium user, I want vocabulary for all levels A1-C1** so I can expand my word bank | 5 | P2 | 📋 TODO |
-| VOCAB-010 | **As a user, I want daily vocabulary reminders** so I maintain my study habit | 5 | P2 | 📋 TODO |
+| VOCAB-001 | **As a user, I want to see vocabulary lists organized by topic** so I can learn words in context | 3 | P0 | ✅ Done (2026-07-07, B2 only, 9 categories/108 words) |
+| VOCAB-002 | **As a user, I want to study flashcards** so I can memorize vocabulary effectively | 5 | P0 | ✅ Done (2026-07-07) |
+| VOCAB-003 | **As a user, I want to flip cards to see translation** so I can test my memory | 2 | P0 | ✅ Done (2026-07-07) |
+| VOCAB-004 | **As a user, I want to mark words as "known" or "learning"** so the app prioritizes difficult words | 3 | P0 | ✅ Done (2026-07-07, via the 3 flashcard answer buttons) |
+| VOCAB-005 | **As a user, I want spaced repetition** so I review words at optimal intervals for memory | 8 | P1 | ✅ Done (2026-07-07, simple Leitner-style 0/1/2/4/8/16-day spacing) |
+| VOCAB-006 | **As a user, I want audio pronunciation** for each word so I can improve my pronunciation | 5 | P2 | 📋 TODO (VocabularyWord.audioUrl field exists, unused - no audio files recorded/hosted yet) |
+| VOCAB-007 | **As a user, I want example sentences** for each word so I understand usage | 3 | P1 | ✅ Done (2026-07-07, every word has one) |
+| VOCAB-008 | **As a user, I want to track my vocabulary progress** so I see how many words I've learned | 3 | P1 | 🔄 In Progress (per-word learned state exists locally via VocabularyProgressStore; no aggregate "X/Y words learned" summary UI yet) |
+| VOCAB-009 | **As a Premium user, I want vocabulary for all levels A1-C1** so I can expand my word bank | 5 | P2 | 📋 TODO (B2 only so far; same content pattern can extend to other levels) |
+| VOCAB-010 | **As a user, I want daily vocabulary reminders** so I maintain my study habit | 5 | P2 | 📋 TODO (needs a notification/scheduling mechanism, not built) |
 
 ---
 
