@@ -545,4 +545,41 @@ This is the full planned C2 curriculum now visible in Firestore. In the app (ver
 
 ---
 
+## 🔬 DIAGNOSIS ONLY (2026-07-07) — B2 contamination + broken-correctAnswer re-check, no content modified
+
+User manually checked B2 on-device and found no contamination, correctly contradicting the "B2 is contaminated" open item. Re-ran the original checks across all four sources, read-only, nothing fixed or rewritten.
+
+### B2 contamination ("___ ich in Deutschland ankam..." at q001/q021/q061/q081, and "Er hat sich gemeldet..." at q002/q022 — the original report only mentioned the first sentence at q001 and, for `b2_07/08/09` only, a second sentence at q002; the actual footprint is wider, see below)
+
+| Source | Contaminated topics (excl. `b2_01`, which legitimately owns the first sentence as its real Konnektoren q001) |
+|---|---|
+| **`content/grammar/*.json`** (git source of truth) | **0** — clean |
+| **`app/src/main/assets/*.json`** (bundled APK) | **0** — clean |
+| **`moduleQuizQuestions`** (live Firestore, what `FirebaseSyncService` actually downloads) | **0** — clean. Only one B2 doc exists there at all (`b2_04`, a malformed leftover from before this session, no `version` field — never reachable by the sync query anyway). Checked its `questions[]` directly: no match for either placeholder sentence. |
+| **`grammarQuizBank`** (live Firestore, confirmed dead code — nothing in the app calls `getGrammarQuestionsBySubject`) | **21 of 23 topics** (`b2_03`–`b2_23`, every topic except `b2_01`/`b2_02`) — **still contaminated, unfixed.** Each has *both* placeholder sentences, at *more* positions than originally documented: `q001`/`q021`/`q061`/`q081` (first sentence) **and** `q002`/`q022` (second sentence) — not just `b2_07`–`b2_09` as the original note said; all 21 topics carry both. |
+
+### Broken `correctAnswer`-not-in-`options` (re-checked with a corrected, schema-aware comparison — see note below)
+
+| Level | `content/` MC / fill | `assets/` MC / fill | `moduleQuizQuestions` MC / fill | `grammarQuizBank` MC / fill |
+|---|---|---|---|---|
+| A1 | 4 / 0 | 4 / 0 | 4 / 0 | 4 / 0 |
+| A2 | 50 / 5 | 45 / 0 | 50 / 5 | 84 / 9 |
+| B1 | 7 / 0 | 2 / 0 | 7 / 0 | 7 / 0 |
+| B2 | 2 / 34 | 2 / 34 | *(not synced — 0 real B2 docs)* | 21 / 0 |
+| C1 | 15 / 10 | 0 / 0 | 15 / 10 | 15 / 10 |
+| C2 | 3 / 0 | 3 / 0 | 3 / 0 | 3 / 0 |
+| **Total** | **81 / 49** | **56 / 34** | **79 / 15** | **134 / 19** |
+
+**Correction to last session's check, found while re-verifying:** the original naive check (`correctAnswer in options`) produces false positives on ~40 questions repo-wide that use an alternate schema — `options: [{"text": ..., "isCorrect": true/false}]` object array instead of a flat string array. Re-checked properly this time (object-schema questions verified via their `isCorrect` flag matching `correctAnswer`, not just string membership). The numbers above are the corrected, schema-aware counts — they don't exactly match the previously-reported "96 MC + 45 fill" (which was `grammarQuizBank`-only, using the old naive check) because of that methodology fix, not because content changed.
+
+**C1 assets showing 0/0 is not "already fixed":** `app/src/main/assets/` only has `c1_01`–`c1_10` (the original 10 curated topics); every C1 broken question found lives in `c1_11`–`c1_15`, which exist in `content/grammar/` and Firestore but were never bundled into the APK. Same underlying content, just not present in that particular source.
+
+### Conclusion
+
+1. **B2 contamination is real and still present, but confined entirely to `grammarQuizBank`, a Firestore collection with zero live effect on the app.** It was never "resolved" by any commit — it was correctly *contained*: last session's decision to exclude B2 from every sync into `moduleQuizQuestions` (the collection that actually reaches users) is exactly why it never propagated anywhere else. The user's on-device check is correct: B2 has no visible contamination because the only path from `grammarQuizBank` to a real screen is fully severed (confirmed in an earlier session — `ContentRepository.getGrammarQuestionsBySubject()` has zero callers).
+2. **Broken `correctAnswer`/`options` questions are real** (not a false-positive artifact) and present in every source checked, at every level except a few clean spots — including `moduleQuizQuestions`, the live collection, for A1/A2/B1/C1/C2 (79 MC + 15 fill there specifically). This is a genuinely open, unresolved content-quality issue distinct from the B2 story, unaffected by anything done this session.
+3. **No content was modified this turn.** Both issues remain exactly as open items, now with corrected, source-by-source numbers instead of a single conflated figure. Content repair for either is a separate task pending explicit go-ahead, same as C2 question generation.
+
+---
+
 _Last updated: 2026-07-07_
