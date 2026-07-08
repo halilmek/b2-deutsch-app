@@ -108,15 +108,21 @@ async function planTopic(subjectId) {
   }
   const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
+  // A "planned, not yet authored" topic (questionCount 0 - shown in the app as
+  // "Wird vorbereitet") has an empty or absent `questions` array. Must not
+  // throw here - default to [] so its metadata still syncs cleanly.
+  const topicName = data.topicName || subjectId;
+  const rawQuestions = Array.isArray(data.questions) ? data.questions : [];
+
   const existingDoc = await db.collection(COLLECTION).doc(subjectId).get();
   const existingVersion = existingDoc.exists ? (existingDoc.get('version') || null) : null;
   const existingCount = existingDoc.exists ? (existingDoc.get('totalQuestions') || 0) : 0;
 
-  const questions = data.questions.map(q => toSyncQuestion(q, subjectId, data.topicName));
+  const questions = rawQuestions.map(q => toSyncQuestion(q, subjectId, topicName));
 
   return {
     subjectId,
-    topicName: data.topicName,
+    topicName,
     localTotal: questions.length,
     existingVersion,
     existingCount,

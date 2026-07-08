@@ -300,7 +300,7 @@ class QuizViewModel @Inject constructor(
     fun loadQuizzes(level: String) {
         viewModelScope.launch {
             _isLoading.value = true
-            val topicIds = LocalQuestionBank.getAllTopicIds(level)
+            val topicIds = LocalQuestionBank.getAllTopicIds(application, level)
             val quizList = topicIds.map { subjectId ->
                 val progress = LocalQuestionBank.getProgressString(application, subjectId)
                 Quiz(

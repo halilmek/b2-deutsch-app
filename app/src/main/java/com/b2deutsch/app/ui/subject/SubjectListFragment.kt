@@ -4,6 +4,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
@@ -66,6 +67,19 @@ class SubjectListFragment : Fragment() {
         binding.tvLevel.text = "Level: $currentLevel"
 
         subjectAdapter = SubjectAdapter { subject ->
+            // Content-readiness gate (not a paywall - all quizzes are free per
+            // MONETIZATION_SPEC): a topic with no questions yet is shown but not
+            // navigable. Derived from subject.questionCount, not a per-topic list,
+            // so this works the same for any level's unfinished topics.
+            if (currentCategory == null && subject.isComingSoon) {
+                Toast.makeText(
+                    requireContext(),
+                    "Dieses Thema wird noch vorbereitet und ist bald verfügbar.",
+                    Toast.LENGTH_SHORT
+                ).show()
+                return@SubjectAdapter
+            }
+
             viewModel.selectSubject(subject)
             // For grammar topics, go to subject detail
             // For quiz categories, go directly to quiz

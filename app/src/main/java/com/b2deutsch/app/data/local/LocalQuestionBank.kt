@@ -56,7 +56,7 @@ object LocalQuestionBank {
             prefs.edit().putInt(KEY_INIT_VERSION, INIT_VERSION).apply()
         }
 
-        val topicIds = getAllB2TopicIds() + getAllA1TopicIds() + getAllA2TopicIds() + getAllB1TopicIds() + getAllC1TopicIds() + getAllC2TopicIds()
+        val topicIds = discoverAllTopicIdsFromAssets(context)
 
         topicIds.forEach { subjectId ->
             val fileName = "$subjectId.json"
@@ -180,10 +180,10 @@ object LocalQuestionBank {
     }
 
     /**
-     * Reset progress for ALL B2 topics
+     * Reset progress for every topic across every level.
      */
     fun resetAllTopics(context: Context) {
-        (getAllB2TopicIds() + getAllA1TopicIds() + getAllA2TopicIds() + getAllB1TopicIds() + getAllC1TopicIds() + getAllC2TopicIds()).forEach { resetTopic(context, it) }
+        discoverAllTopicIdsFromAssets(context).forEach { resetTopic(context, it) }
     }
 
     /**
@@ -351,45 +351,41 @@ object LocalQuestionBank {
         return context.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
     }
 
-    private fun getAllB2TopicIds(): List<String> {
-        return (1..23).map { "b2_${it.toString().padStart(2, '0')}" }
-    }
+    /**
+     * Discover every topic ID across every level by scanning bundled asset
+     * file names matching "{prefix}_NN.json" - no hardcoded level list and
+     * no hardcoded per-level counts. A topic (or an entirely new level)
+     * becomes visible here the moment its asset file ships, consistent
+     * with CLAUDE.md's "no hardcoded CEFR levels" rule. Files that don't
+     * match this pattern (e.g. b2_questions.json) are correctly excluded.
+     */
+    private val TOPIC_FILE_PATTERN = Regex("^[a-z][a-z0-9]*_(\\d+)\\.json$")
 
-    private fun getAllA1TopicIds(): List<String> {
-        return (1..10).map { "a1_${it.toString().padStart(2, '0')}" }
-    }
-
-    private fun getAllA2TopicIds(): List<String> {
-        return (1..10).map { "a2_${it.toString().padStart(2, '0')}" }
-    }
-
-    private fun getAllB1TopicIds(): List<String> {
-        return (1..10).map { "b1_${it.toString().padStart(2, '0')}" }
-    }
-
-    private fun getAllC1TopicIds(): List<String> {
-        return (1..10).map { "c1_${it.toString().padStart(2, '0')}" }
-    }
-
-    private fun getAllC2TopicIds(): List<String> {
-        return (1..10).map { "c2_${it.toString().padStart(2, '0')}" }
+    private fun discoverAllTopicIdsFromAssets(context: Context): List<String> {
+        val fileNames = try {
+            context.assets.list("")?.toList() ?: emptyList()
+        } catch (e: Exception) {
+            emptyList()
+        }
+        return fileNames.filter { TOPIC_FILE_PATTERN.matches(it) }.map { it.removeSuffix(".json") }
     }
 
     /**
-     * Get all topic IDs for a given level.
+     * Topic IDs for one specific level, derived the same way (regex-matched
+     * asset file names) rather than a hardcoded per-level count.
      */
-        fun getAllTopicIds(level: String): List<String> {
-        val levelUpper = level.uppercase()
-        val count = when (levelUpper) {
-            "A1" -> 10
-            "A2" -> 10
-            "B1" -> 10
-            "B2" -> 23
-            "C1" -> 10
-            "C2" -> 10
-            else -> 0
+    fun getAllTopicIds(context: Context, level: String): List<String> {
+        val prefix = "${level.lowercase()}_"
+        val pattern = Regex("^${Regex.escape(prefix)}(\\d+)\\.json$")
+        val fileNames = try {
+            context.assets.list("")?.toList() ?: emptyList()
+        } catch (e: Exception) {
+            emptyList()
         }
-        return (1..count).map { "${levelUpper.lowercase()}_${it.toString().padStart(2, '0')}" }
+        return fileNames
+            .mapNotNull { fileName -> pattern.find(fileName)?.let { fileName.removeSuffix(".json") to it.groupValues[1].toInt() } }
+            .sortedBy { (_, order) -> order }
+            .map { (id, _) -> id }
     }
 
     // ============ DATA CLASSES ============

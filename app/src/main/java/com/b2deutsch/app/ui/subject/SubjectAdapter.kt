@@ -35,7 +35,6 @@ class SubjectAdapter(
             binding.tvSubjectIcon.text = subject.iconEmoji
             binding.tvSubjectName.text = subject.name
             binding.tvSubjectDescription.text = subject.description
-            binding.tvQuizCount.text = "${subject.questionCount} Fragen · ${subject.quizCount} Quiz"
 
             // Category badge
             binding.tvCategory.text = getCategoryLabel(subject.category)
@@ -44,7 +43,16 @@ class SubjectAdapter(
             // Premium indicator
             binding.ivPremium.visibility = if (subject.isPremium) View.VISIBLE else View.GONE
 
-            // Lock icon hidden — topics without quizzes are still clickable (user can read tips/explanation)
+            // Not a paywall lock (all quizzes are free per MONETIZATION_SPEC) - this
+            // is purely a content-readiness state, derived from questionCount, not
+            // a hardcoded per-topic-id list. Works the same for any level.
+            if (subject.isComingSoon) {
+                binding.tvQuizCount.text = "🕒 Wird vorbereitet"
+                binding.root.alpha = 0.55f
+            } else {
+                binding.tvQuizCount.text = "${subject.questionCount} Fragen · ${subject.quizCount} Quiz"
+                binding.root.alpha = 1.0f
+            }
             binding.ivLock.visibility = View.GONE
 
             binding.root.setOnClickListener {

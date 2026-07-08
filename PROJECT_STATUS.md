@@ -502,4 +502,21 @@ User did an actual on-device test pass (first real device verification this sess
 
 ---
 
+## 📋 CURRICULUM VISIBILITY — derived "Wird vorbereitet" topic state (2026-07-07, in progress)
+
+New requirement: show the full planned topic curriculum per level, including topics with no questions authored yet, instead of only showing topics once content exists. Built everything except the actual content addition, which is blocked on a real question (see below).
+
+**Done, code-complete, verified via `./gradlew assembleDebug`/`testDebugUnitTest`:**
+
+1. **`Subject.isComingSoon`** — new computed property (`questionCount <= 0`), not a stored field, not a per-topic-id list. Derived purely from whatever `questionCount` Firestore/asset metadata already supplied.
+2. **`SubjectAdapter.kt`** — when `isComingSoon`, dims the card (`alpha = 0.55f`) and replaces the quiz-count text with `"🕒 Wird vorbereitet"`. Explicitly kept separate from `ivLock` (the premium-paywall icon) — this is a content-readiness state, not a paywall, and MONETIZATION_SPEC says all quizzes are free; conflating the two would visually lie about why the topic isn't available.
+3. **`SubjectListFragment.kt`** — tapping a coming-soon topic (in the grammar/"Themen" flow specifically) now shows a Toast ("Dieses Thema wird noch vorbereitet und ist bald verfügbar.") instead of navigating. Gate is `subject.isComingSoon`, evaluated per-subject at click time — works for any level, no C2-specific branch anywhere in this code.
+4. **`scripts/import_and_sync.js` hardened** — `planTopic()` used to call `data.questions.map(...)` directly, which throws if a placeholder content file has no `questions` key at all (as opposed to an empty array). Now defaults to `[]` and defaults `topicName` to the subjectId if absent, so a topic with zero questions syncs its metadata (`moduleQuizQuestions` doc + `topics` doc, both with `questionCount: 0`) without error. `applyTopic()` already handled an empty `questions` array fine — verified by reading the write path, no crash risk there.
+5. **Verified the asset-fallback path needs no changes** — `SubjectListViewModel.discoverSubjectsFromAssets()` already reads `totalQuestions` via `json.optInt("totalQuestions", 0)` (safe default) and never touches the `questions` array for metadata purposes, so a placeholder asset file with `questions: []` (or a missing key) works today with zero code changes.
+6. **Also fixed the tangential finding from last session**, as explicitly requested: `LocalQuestionBank.kt` hardcoded topic counts per level (A1/A2/B1/C1/C2 → 10, B2 → 23) across six near-identical `getAllXXTopicIds()` functions plus a duplicate hardcoded count map in the public `getAllTopicIds(level)`. Replaced all of it with `discoverAllTopicIdsFromAssets()` (used by `initializeFromAssets`/`resetAllTopics`) and a regex-based `getAllTopicIds(context, level)` — both derive topic IDs by scanning actual bundled asset file names (`{prefix}_NN.json`), no hardcoded level list, no hardcoded counts, matches the exact mechanism already used in `SubjectListViewModel`'s Step 4 fix. Updated the one external caller (`QuizViewModel.loadQuizzes()`, the legacy `QuizzesFragment` path) to pass `Context`.
+
+**Blocked, per explicit instruction to stop and ask rather than invent content:** part (a) of this requirement — Firestore `topics` + asset metadata docs for the planned C2 curriculum beyond `c2_12` (`c2_13` onward). Searched every `.md` doc in the repo and every `scripts/` filename/comment for a canonical planned-topic list; none exists. Cannot fabricate C2 grammar topic titles for an exam-prep curriculum without product/content input — asked the user directly instead. Once the actual topic titles are provided: create minimal placeholder `content/grammar/{id}.json` + `app/src/main/assets/{id}.json` files (`topicName`, `level`, `description: ""`, `tips: []`, `questions: []`, `totalQuestions: 0`) for each, sync via the now-hardened script, and verify end-to-end (dry-run + real sync + confirm `topics/{id}` and `moduleQuizQuestions/{id}` both land with `questionCount: 0`, confirm the app shows them dimmed with "Wird vorbereitet" and blocks navigation on tap).
+
+---
+
 _Last updated: 2026-07-07_

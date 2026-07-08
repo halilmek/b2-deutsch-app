@@ -21,4 +21,13 @@ data class Subject(
     val quizCount: Int = 0,               // Number of available quizzes (computed: questionCount / 10, rounded up)
     val isPremium: Boolean = false,
     val tips: List<String> = emptyList() // Learning tips for this subject
-)
+) {
+    /**
+     * Derived, not hardcoded: a topic is "coming soon" purely because it
+     * has no questions yet (questionCount comes from the topics collection/
+     * asset metadata, itself dynamic per Step 4 - no per-topic-id list here).
+     * Works identically for any level's unfinished topics.
+     */
+    val isComingSoon: Boolean
+        get() = questionCount <= 0
+}
