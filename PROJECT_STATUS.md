@@ -502,7 +502,7 @@ User did an actual on-device test pass (first real device verification this sess
 
 ---
 
-## 📋 CURRICULUM VISIBILITY — derived "Wird vorbereitet" topic state (2026-07-07, in progress)
+## 📋 CURRICULUM VISIBILITY — derived "Wird vorbereitet" topic state (2026-07-07, COMPLETE)
 
 New requirement: show the full planned topic curriculum per level, including topics with no questions authored yet, instead of only showing topics once content exists. Built everything except the actual content addition, which is blocked on a real question (see below).
 
@@ -515,7 +515,33 @@ New requirement: show the full planned topic curriculum per level, including top
 5. **Verified the asset-fallback path needs no changes** — `SubjectListViewModel.discoverSubjectsFromAssets()` already reads `totalQuestions` via `json.optInt("totalQuestions", 0)` (safe default) and never touches the `questions` array for metadata purposes, so a placeholder asset file with `questions: []` (or a missing key) works today with zero code changes.
 6. **Also fixed the tangential finding from last session**, as explicitly requested: `LocalQuestionBank.kt` hardcoded topic counts per level (A1/A2/B1/C1/C2 → 10, B2 → 23) across six near-identical `getAllXXTopicIds()` functions plus a duplicate hardcoded count map in the public `getAllTopicIds(level)`. Replaced all of it with `discoverAllTopicIdsFromAssets()` (used by `initializeFromAssets`/`resetAllTopics`) and a regex-based `getAllTopicIds(context, level)` — both derive topic IDs by scanning actual bundled asset file names (`{prefix}_NN.json`), no hardcoded level list, no hardcoded counts, matches the exact mechanism already used in `SubjectListViewModel`'s Step 4 fix. Updated the one external caller (`QuizViewModel.loadQuizzes()`, the legacy `QuizzesFragment` path) to pass `Context`.
 
-**Blocked, per explicit instruction to stop and ask rather than invent content:** part (a) of this requirement — Firestore `topics` + asset metadata docs for the planned C2 curriculum beyond `c2_12` (`c2_13` onward). Searched every `.md` doc in the repo and every `scripts/` filename/comment for a canonical planned-topic list; none exists. Cannot fabricate C2 grammar topic titles for an exam-prep curriculum without product/content input — asked the user directly instead. Once the actual topic titles are provided: create minimal placeholder `content/grammar/{id}.json` + `app/src/main/assets/{id}.json` files (`topicName`, `level`, `description: ""`, `tips: []`, `questions: []`, `totalQuestions: 0`) for each, sync via the now-hardened script, and verify end-to-end (dry-run + real sync + confirm `topics/{id}` and `moduleQuizQuestions/{id}` both land with `questionCount: 0`, confirm the app shows them dimmed with "Wird vorbereitet" and blocks navigation on tap).
+**Part (a) resolved 2026-07-07 — user-approved C2 curriculum draft, now live as placeholders.** Since no canonical C2 topic list existed anywhere in the repo, drafted 9 additional C2-level topics (read the existing `c2_01`–`c2_12` titles first to avoid duplication, proposed distinct Goethe/telc-C2-appropriate topics, presented as a table, stopped for approval — user approved as-is):
+
+| id | Titel |
+|---|---|
+| `c2_13` | Erweiterte Partizipialkonstruktionen |
+| `c2_14` | Stilebenen & Registerwechsel |
+| `c2_15` | Textkohäsion: Ellipsen, Pro-Formen & Sprachökonomie |
+| `c2_16` | Ironie, rhetorische Mittel & Sprachbilder |
+| `c2_17` | Erweiterte Vergleichs- und Gradationsstrukturen |
+| `c2_18` | Erweiterte Genitivkonstruktionen & Attributstapelung |
+| `c2_19` | Anglizismen & Sprachwandel im Deutschen |
+| `c2_20` | Textsortenspezifische Stilmittel: Kommentar & Rezension |
+| `c2_21` | Idiomatik & feste Wendungen im gehobenen Kontext |
+
+Created via `scripts/create_c2_placeholder_topics.py`: `content/grammar/{id}.json` + `app/src/main/assets/{id}.json` for each, with real `topicName`/`description`, `tips: []`, `questions: []`, `totalQuestions: 0` — **deliberately zero questions, content generation is a separate task pending explicit go-ahead, not done here.**
+
+Synced via the now-hardened `import_and_sync.js` (dry-run first, then real) — zero errors, exactly the scenario the hardening fix was for. **Verified directly against Firestore** (not just trusted the script's own success output):
+
+| Collection | Result |
+|---|---|
+| `topics/{c2_13..c2_21}` | All 9 exist, correct `name`/`level: C2`/`type: grammar`/`questionCount: 0` |
+| `moduleQuizQuestions/{c2_13..c2_21}` | All 9 exist, `totalQuestions: 0`, `questions: []`, `version: 3` |
+| `topics` where `level==C2 && type==grammar` | **21 total** — 12 with real questions (`c2_01`–`c2_12`), 9 correctly flagged coming-soon (`c2_13`–`c2_21`) |
+
+This is the full planned C2 curriculum now visible in Firestore. In the app (verified by code path, not on-device — see caveat below): `FirebaseDataSource.getSubjectsByLevel("C2")` returns all 21 (no `questionCount` filtering in the query, by design — coming-soon topics are meant to be *visible*, just not *navigable*); each maps through `buildSubjectFromTopicMeta` with `questionCount: 0`; `Subject.isComingSoon` evaluates true; `SubjectAdapter` dims the card and shows "🕒 Wird vorbereitet"; `SubjectListFragment`'s click handler shows the info Toast instead of navigating. `./gradlew assembleDebug` clean with the new assets bundled.
+
+**Not verified on an actual device** (no Android runtime in this environment, consistent with every other UI change this session) — recommend confirming on next device test: open C2 → see 21 topics total, 9 visibly dimmed with "Wird vorbereitet" → tap one of the 9 → confirm it shows the info toast and does not navigate → tap a real topic (e.g. `c2_01`) → confirm normal navigation still works.
 
 ---
 
