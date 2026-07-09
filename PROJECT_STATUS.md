@@ -582,4 +582,36 @@ User manually checked B2 on-device and found no contamination, correctly contrad
 
 ---
 
-_Last updated: 2026-07-07_
+## 🔧 BROKEN `correctAnswer` FIX EXECUTION (2026-07-09)
+
+Following the diagnosis above, fixed the 79 broken `multiple_choice` + 15 broken `fill_blank` questions confirmed live in `moduleQuizQuestions`, across A1/A2/B1/C1/C2 (B2 out of scope — never synced there, per the diagnosis). `grammarQuizBank` untouched (dead code). No writing/speaking/exams work done. `content/grammar/*.json` fixed first (source of truth), then synced via `scripts/import_and_sync.js`; `app/src/main/assets/*.json` updated too wherever the topic file exists there.
+
+Two corruption patterns emerged: (a) genuinely fixable single-question errors (typo/umlaut-stripped `correctAnswer`, missing option, dual-answer ambiguity, wrong `isCorrect` flag) — fixed minimally, preserving the original question; (b) a systemic **duplicate-placeholder pattern** — the exact same templated question copy-pasted verbatim across 4-5 unrelated topics regardless of subject matter — which can't be "fixed" without inventing content, so those were replaced with new topic-appropriate questions.
+
+| Level | Fixed | Replaced | Total | Commit |
+|---|---|---|---|---|
+| A1 | 4 | 0 | 4 | `6a07e43` |
+| A2 | 45 | 10 | 55 | `6b1df2b` |
+| B1 | 2 | 5 | 7 | `2f0c6ac` |
+| C1 | 0 | 20 (c1_12–c1_15 only) | 20 | `af415d8` |
+| C2 | 3 | 0 | 3 | `0043497` |
+| **Total** | **54** | **35** | **89** | |
+
+All fixed/replaced questions marked `reviewed: false` (pending SME review, per `docs/ROLES.md`). Each level verified: schema-aware broken-check clean → dry-run sync → real sync → spot-checked directly in Firestore → `./gradlew assembleDebug` clean → committed → pushed.
+
+**Per-level detail:**
+- **A1** (`a1_04`): 4 questions had a correct article form missing from its own `options` — added the missing form.
+- **A2** (`a2_01,05,06,07,08,09,10,11,12,13,14,15`): mostly umlaut-stripped/corrupted `correctAnswer` fixes and dual-answer (Turkish/English mix) disambiguation. Replaced 10: `a2_08_q116` (structurally broken, blank-count mismatch) plus the `a2_11/13/14/15` duplicate-placeholder pair (`q018`+`q078` each), which carried a question topically wrong for all four topics.
+- **B1** (`b1_04,10,11,12,13,14,15`): 2 minimal fixes (subject-verb agreement, missing option). Replaced 5: `b1_11–b1_15_q014`, the same duplicate placeholder ("Das Buch, ___ ich gestern gekauft habe...") shared across 5 unrelated topics.
+- **C1** (`c1_12,13,14,15`): all 20 replaced — same duplicate-placeholder pattern as B1, shared across 5 topics via 2 templates. New topic-appropriate content authored for the 4 topics with legible names (Konjunktionen: geschweige denn/zumal; Kausale/konditionale/konzessive Beziehungen; Textkohärenz: Konnektoren; Stilistische Varianten).
+- **C2** (`c2_02,08,09`): 3 minimal fixes — 1 awkward option-text rewrite, 2 umlaut/typo corrections.
+
+**Open blocker — `c1_11` NOT fixed:** 5 broken questions (`q007,020,027,067,087`) share the exact same duplicate-placeholder pattern as `c1_12`–`c1_15`, but `c1_11`'s `topicName` in the data is corrupted (renders as "Sentiments污染物" / similar garbled text), so its actual intended subject matter is unknown. Per "if anything unexpected surfaces, stop and report" — did not guess or fabricate a topic; needs the user to clarify what `c1_11` was supposed to be about before it can be fixed or replaced.
+
+**Pre-existing gap confirmed (not fixed, out of scope):** `a2_11–15`, `b1_11–15`, `c1_11–15` are not bundled in `app/src/main/assets/` at all — only `content/grammar/` and Firestore have them. `content/grammar/` was updated for all of these; nothing to update on the assets side.
+
+**Verified on device: PENDING** (user will re-test).
+
+---
+
+_Last updated: 2026-07-09_
