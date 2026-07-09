@@ -614,4 +614,36 @@ All fixed/replaced questions marked `reviewed: false` (pending SME review, per `
 
 ---
 
+## ✅ CONTENT-REPAIR PHASE CLOSED (2026-07-09)
+
+Three follow-up items fixed after the broken-`correctAnswer` execution above, closing out this phase of work.
+
+**Item 1 — topic descriptions missing past topic 10 (every level except B2).** Root cause: `scripts/import_and_sync.js` wrote the Firestore `topics/{id}` doc with only `{id, level, name, type, questionCount}` — `description`/`tips` were silently dropped on every sync, for every topic, always. Invisible for topics 1–10 (and all of B2/C2) because `SubjectListViewModel.enrichFromAssetJson()` overlays description/tips from the bundled APK asset file when one exists. Topics `_11`–`_15` (A1/A2/B1/C1) were never bundled into `app/src/main/assets/`, so they had nothing to fall back to. Fixed: `import_and_sync.js` now writes description/tips to the `topics` doc; `TopicMeta`/`buildSubjectFromTopicMeta` (`SubjectMapper.kt`) and `FirebaseDataSource.getSubjectsByLevel()` now carry those fields through from Firestore. Backfilled description/tips onto all 83 existing `topics/{id}` docs that already had that content authored in `content/grammar/`, without bumping the `moduleQuizQuestions` version (so it didn't force a full question re-download). Commit `5dddd41`.
+
+**Item 2 — raw options-object artifact reaching the quiz screen.** Root cause: two spots in `LocalQuestionBank.kt` never accounted for the object-array options schema (`[{"text":...,"isCorrect":...}]`, used for some questions to explicitly flag the correct option) — `findQuestionInJson()`'s `JSONArray.getString(index)` and `saveQuestionsJson()`'s unchecked `as? List<String>` cast on Firestore's raw data. Fixed with a schema-aware extractor at both spots. Confirmed affected (identical footprint in content/, assets, and live `moduleQuizQuestions`): only `a2_01` and `a2_02`, 40 questions total. Commit `e8dae51`.
+
+**Item 3 — c1_11 retired.** Investigation (sampling all 100 questions, not just the 5 originally-flagged broken ones) found `c1_11` isn't one coherent topic: it mixes material already covered by `c1_01`/`c1_02`/`c1_03`/`c1_04`/`c1_05`, and repeats the same duplicate-placeholder contamination template found in `c1_12`–`c1_15` beyond the flagged questions (`q080`/`q100`, `q006`/`q086`). Its `topicName` was also corrupted ("Sentiments污染物"). Per user decision: retired rather than relabeled or salvaged. Original 100 questions preserved at `content/grammar/c1_11_retired.json` (never synced). Live `c1_11` is now a 0-question "Wird vorbereitet" placeholder (`topicName: "Thema wird noch festgelegt"`), same mechanism as `c2_13`–`c2_21`. Synced: `moduleQuizQuestions/c1_11` version 9, 0 questions; `topics/c1_11` questionCount 0. Commit `6a05045`.
+
+### Closing verification (re-ran full checks against live Firestore after all three items)
+
+| Level | Broken `correctAnswer`/`options` in `moduleQuizQuestions` | Raw `isCorrect`/`{text=` artifacts in options | Topics 1–10 have description | Topics `_11`–`_15` have description |
+|---|---|---|---|---|
+| A1 | 0 | 0 | ✅ all 10 | ❌ none (content gap, unauthored) |
+| A2 | 0 | 0 | ✅ all 10 | ❌ none (content gap, unauthored) |
+| B1 | 0 | 0 | ✅ all 10 | ❌ none (content gap, unauthored) |
+| B2 | *(not synced — out of scope, unchanged)* | *(not synced)* | ✅ all 23, incl. `b2_11`–`b2_23` | n/a — `b2_03` alone has no description (pre-existing, unrelated single-topic gap) |
+| C1 | 0 | 0 | ✅ all 10 | ❌ `c1_12`–`c1_15` unauthored; `c1_11` retired (0-question placeholder, description intentionally empty) |
+| C2 | 0 | 0 | ✅ all 21, incl. `c2_13`–`c2_21` placeholders | n/a — full asset/Firestore coverage, no gap |
+
+### Still open (not fixed this phase, flagged not fabricated)
+
+- **Content gap:** `a1_11–15`, `a2_11–15`, `b1_11–15`, `c1_12–15` (18 topics) and `b2_03` (1 topic) have no `description`/`tips` authored anywhere. They render "No description available" — correct fallback behavior, not a bug. Needs a human content-authoring pass.
+- **`c1_11`** now sits as an unplanned "Wird vorbereitet" placeholder with no real topic assigned — needs a curriculum decision (what C1 grammar point should fill that slot) whenever content authoring resumes.
+- **B2 `grammarQuizBank` contamination** (documented in the DIAGNOSIS ONLY section above) remains untouched — dead code, zero live effect, unrelated to this phase.
+- **Not verified on an actual device/emulator this session** (no Android runtime available in this environment) — `assembleDebug`/`compileDebugKotlin` clean throughout, but a manual on-device smoke test is recommended before relying on any of this in production.
+
+**Content-repair phase closed.** No further content or code work performed beyond what's listed above.
+
+---
+
 _Last updated: 2026-07-09_
