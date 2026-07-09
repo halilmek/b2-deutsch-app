@@ -2049,17 +2049,18 @@
           "isCorrect": true
         },
         {
-          "text": "Hättest / hätte / hättest",
-          "isCorrect": true
+          "text": "Würdest / würde / würdest",
+          "isCorrect": false
         },
         {
-          "text": "Hättest / hätte / hättest",
-          "isCorrect": true
+          "text": "Hattest / hatte / hattest",
+          "isCorrect": false
         }
       ],
       "correctAnswer": "Hättest / hätte / hättest",
       "explanation": "This is a conditional sentence with Konjunktiv II (Präteritum-based). The HÄTTE-construction expresses a hypothetical past condition: 'If you had known…' The inverted form 'Hättest du gewusst' (without 'Wenn') is the Würde-conversational form of Konjunktiv II. All three verbs use Konjunktiv II forms of Präteritum: hättest / hätte / hättest.",
-      "questionNumber": 98
+      "questionNumber": 98,
+      "reviewed": false
     },
     {
       "id": "a2_01_q099",
@@ -2430,7 +2431,7 @@
         },
         {
           "text": "fanden / unterbreitete",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "finden / unterbreiten / würde",
@@ -2438,12 +2439,13 @@
         },
         {
           "text": "fanden / unterbreitet / hatte",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
       "correctAnswer": "fanden / unterbreitet / hatte",
       "explanation": "'Bis' (until) introduces the point when the mediator finally made a proposal. The subordinate clause uses Plusquamperfekt 'unterbreitet hatte' because the proposal came after the prolonged negotiations. The main clause 'fanden keinen Kompromiss' uses Präteritum for the extended period of failed negotiations.",
-      "questionNumber": 110
+      "questionNumber": 110,
+      "reviewed": false
     }
   ],
   "description": "Präteritum is the simple past tense in German, primarily used in written narratives (novels, newspapers, reports) to describe past events. In spoken German, Perfekt is preferred for most verbs — EXCEPT modal verbs (konnte, musste, durfte, wollte, sollte, mochte) and the verbs sein and haben, which regularly appear in Präteritum even in conversation. Weak (regular) verbs add -te to the stem; strong (irregular) verbs change their vowel (Ablaut: laufen→lief, finden→fand, schreiben→schrieb) without adding -te.",
