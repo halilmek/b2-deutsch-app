@@ -305,6 +305,19 @@ object LocalQuestionBank {
         }
     }
 
+    /**
+     * Options exist in two schemas across sources: a flat string ("Antwort A")
+     * or an object with a "text"/"isCorrect" pair (used where an explicit
+     * correct-option flag was authored). Without this, the object form leaks
+     * its raw JSON/Map representation onto the quiz screen instead of the
+     * option's display text.
+     */
+    private fun optionTextFromJson(raw: Any?): String = when (raw) {
+        is String -> raw
+        is JSONObject -> raw.optString("text", raw.toString())
+        else -> raw?.toString() ?: ""
+    }
+
     private fun findQuestionInJson(json: JSONObject, questionId: String, subjectId: String, sourceLabel: String): Question? {
         val questions = json.getJSONArray("questions")
         for (i in 0 until questions.length()) {
@@ -325,7 +338,7 @@ object LocalQuestionBank {
 
                 val optionsArray = q.optJSONArray("options")
                 val options = if (optionsArray != null) {
-                    (0 until optionsArray.length()).map { optionsArray.getString(it) }
+                    (0 until optionsArray.length()).map { optionTextFromJson(optionsArray.get(it)) }
                 } else {
                     Log.w("LQB", "⚠️ Question $questionId has no options in $sourceLabel")
                     emptyList()
@@ -455,6 +468,18 @@ object LocalQuestionBank {
     }
 
     /**
+     * Same dual-schema normalization as optionTextFromJson, but for the raw
+     * Map values Firestore hands back before anything is written to JSON —
+     * an object-schema option here is a Map<String, Any>, not a JSONObject.
+     */
+    @Suppress("UNCHECKED_CAST")
+    private fun optionTextFromFirebaseValue(raw: Any?): String = when (raw) {
+        is String -> raw
+        is Map<*, *> -> (raw["text"] as? String) ?: raw.toString()
+        else -> raw?.toString() ?: ""
+    }
+
+    /**
      * Save question data locally as JSON (for offline Firebase fallback).
      */
     private fun saveQuestionsJson(
@@ -482,8 +507,8 @@ object LocalQuestionBank {
                 qObj.put("difficulty", q["difficulty"] ?: "medium")
                 qObj.put("topicName", q["topicName"] ?: topicName)
 
-                @Suppress("UNCHECKED_CAST")
-                val options = q["options"] as? List<String> ?: emptyList()
+                val rawOptions = q["options"] as? List<*> ?: emptyList<Any?>()
+                val options = rawOptions.map { optionTextFromFirebaseValue(it) }
                 qObj.put("options", JSONArray(options))
 
                 questionsArray.put(qObj)
