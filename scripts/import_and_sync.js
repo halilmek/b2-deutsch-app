@@ -112,6 +112,8 @@ async function planTopic(subjectId) {
   // "Wird vorbereitet") has an empty or absent `questions` array. Must not
   // throw here - default to [] so its metadata still syncs cleanly.
   const topicName = data.topicName || subjectId;
+  const description = data.description || '';
+  const tips = Array.isArray(data.tips) ? data.tips : [];
   const rawQuestions = Array.isArray(data.questions) ? data.questions : [];
 
   const existingDoc = await db.collection(COLLECTION).doc(subjectId).get();
@@ -123,6 +125,8 @@ async function planTopic(subjectId) {
   return {
     subjectId,
     topicName,
+    description,
+    tips,
     localTotal: questions.length,
     existingVersion,
     existingCount,
@@ -145,13 +149,18 @@ async function applyTopic(plan, newVersion) {
   // Keep the `topics` collection accurate - this is what
   // FirebaseDataSource.getSubjectsByLevel() reads to build the subject list
   // dynamically (no hardcoded per-level lists in the app anymore).
+  // description/tips were previously dropped here entirely, so any topic not
+  // also bundled into app/src/main/assets/ (e.g. _11-_15 on several levels)
+  // showed no description in the app even when content/ had one authored.
   const level = plan.subjectId.split('_')[0].toUpperCase();
   await db.collection('topics').doc(plan.subjectId).set({
     id: plan.subjectId,
     level,
     name: plan.topicName,
     type: 'grammar',
-    questionCount: plan.questions.length
+    questionCount: plan.questions.length,
+    description: plan.description,
+    tips: plan.tips
   });
 }
 

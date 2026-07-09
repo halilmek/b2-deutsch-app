@@ -12,7 +12,9 @@ data class TopicMeta(
     val level: String,
     val name: String,
     val type: String?,
-    val questionCount: Long?
+    val questionCount: Long?,
+    val description: String? = null,
+    val tips: List<String>? = null
 )
 
 /**
@@ -27,10 +29,12 @@ fun buildSubjectFromTopicMeta(meta: TopicMeta): Subject {
         level = meta.level,
         name = meta.name,
         nameShort = meta.name,
+        description = meta.description ?: "",
         category = categoryForTopicType(meta.type),
         iconEmoji = "📝",
         order = order,
-        questionCount = (meta.questionCount ?: 0L).toInt()
+        questionCount = (meta.questionCount ?: 0L).toInt(),
+        tips = meta.tips ?: emptyList()
     )
 }
 

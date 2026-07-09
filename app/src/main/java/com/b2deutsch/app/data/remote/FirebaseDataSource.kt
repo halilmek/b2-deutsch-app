@@ -357,13 +357,16 @@ class FirebaseDataSource @Inject constructor(
 
             val subjects = snapshot.documents.mapNotNull { doc ->
                 val name = doc.getString("name") ?: return@mapNotNull null
+                val tips = (doc.get("tips") as? List<*>)?.filterIsInstance<String>()
                 buildSubjectFromTopicMeta(
                     TopicMeta(
                         id = doc.id,
                         level = level,
                         name = name,
                         type = doc.getString("type"),
-                        questionCount = doc.getLong("questionCount")
+                        questionCount = doc.getLong("questionCount"),
+                        description = doc.getString("description"),
+                        tips = tips
                     )
                 )
             }.sortedBy { it.order }
