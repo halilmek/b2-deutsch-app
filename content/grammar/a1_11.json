@@ -1,9 +1,276 @@
 {
+  "version": "1.0",
   "subjectId": "a1_11",
   "topicName": "Trennbare Verben",
   "level": "A1",
+  "totalQuestions": 20,
   "description": "",
   "tips": [],
-  "questions": [],
-  "totalQuestions": 0
+  "questions": [
+    {
+      "id": "a1_11_q001",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Es ist zu laut. Er macht das Radio ___.",
+      "options": ["aus", "an", "auf", "zu"],
+      "correctAnswer": "aus",
+      "explanation": "'ausmachen' ist trennbar: Präfix 'aus' steht am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q002",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Die Kinder sehen jeden Tag ___.",
+      "options": ["fern", "an", "auf", "vor"],
+      "correctAnswer": "fern",
+      "explanation": "'fernsehen' ist trennbar: Präfix 'fern' steht am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q003",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Es ist kalt. Sie zieht sich eine Jacke ___.",
+      "options": ["an", "aus", "auf", "ab"],
+      "correctAnswer": "an",
+      "explanation": "'anziehen' ist trennbar: Präfix 'an' steht am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q004",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Wann fängt der Film ___?",
+      "options": ["an", "auf", "aus", "ab"],
+      "correctAnswer": "an",
+      "explanation": "'anfangen' ist trennbar: Präfix 'an' steht am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q005",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Er ist müde. Er hört mit der Arbeit ___.",
+      "options": ["auf", "an", "aus", "ab"],
+      "correctAnswer": "auf",
+      "explanation": "'aufhören' ist trennbar: Präfix 'auf' steht am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q006",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Bringst du bitte einen Kuchen ___?",
+      "options": ["mit", "auf", "an", "vor"],
+      "correctAnswer": "mit",
+      "explanation": "'mitbringen' ist trennbar: Präfix 'mit' steht am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q007",
+      "subjectId": "a1_11",
+      "type": "fill_blank",
+      "questionText": "Ergänze: Wann ___ der Zug ___? (ankommen)",
+      "options": [],
+      "correctAnswer": "kommt ... an",
+      "explanation": "'ankommen' ist trennbar; im Hauptsatz steht das Präfix 'an' am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q008",
+      "subjectId": "a1_11",
+      "type": "fill_blank",
+      "questionText": "Ergänze: Ich ___ jetzt das Licht ___. (anmachen)",
+      "options": [],
+      "correctAnswer": "mache ... an",
+      "explanation": "'anmachen' ist trennbar; im Hauptsatz steht das Präfix 'an' am Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q009",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch richtig?",
+      "options": [
+        "Ich stehe um 7 Uhr auf.",
+        "Ich aufstehe um 7 Uhr.",
+        "Ich auf stehe um 7 Uhr.",
+        "Ich stehe auf um 7 Uhr."
+      ],
+      "correctAnswer": "Ich stehe um 7 Uhr auf.",
+      "explanation": "Im Hauptsatz steht das konjugierte Verb auf Position 2, das trennbare Präfix wandert ans Satzende.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q010",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch richtig?",
+      "options": [
+        "Er hat das Fenster aufgemacht.",
+        "Er hat aufgemacht das Fenster.",
+        "Er hat das Fenster gemachtauf.",
+        "Er aufgemacht hat das Fenster."
+      ],
+      "correctAnswer": "Er hat das Fenster aufgemacht.",
+      "explanation": "Im Perfekt kommt 'ge-' zwischen Präfix und Verbstamm: auf + ge + macht = aufgemacht.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q011",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Ich muss morgen früh ___.\"",
+      "options": ["aufstehen", "stehe auf", "auf stehen", "stehen auf"],
+      "correctAnswer": "aufstehen",
+      "explanation": "Mit einem Modalverb bleibt das trennbare Verb im Infinitiv zusammen: muss aufstehen.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q012",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Wähle die richtige Perfektform: \"Wir haben gestern viele Freunde ___.\" (einladen)",
+      "options": ["eingeladen", "geeinladen", "einladen", "geladen ein"],
+      "correctAnswer": "eingeladen",
+      "explanation": "Perfekt von 'einladen': ein + ge + laden = eingeladen.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q013",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Welches Präfix ist trennbar?",
+      "options": [
+        "auf- (aufstehen)",
+        "be- (bekommen)",
+        "ver- (verstehen)",
+        "ent- (entdecken)"
+      ],
+      "correctAnswer": "auf- (aufstehen)",
+      "explanation": "'auf-' ist ein trennbares Präfix (betont); be-, ver-, ent- sind untrennbar (unbetont).",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q014",
+      "subjectId": "a1_11",
+      "type": "fill_blank",
+      "questionText": "Ergänze: ___ du mich morgen ___? (abholen)",
+      "options": [],
+      "correctAnswer": "Holst ... ab",
+      "explanation": "'abholen' ist trennbar; in der Frage steht das konjugierte Verb an Position 1, das Präfix am Ende.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q015",
+      "subjectId": "a1_11",
+      "type": "fill_blank",
+      "questionText": "Ergänze: Sie ___ ihre Freundin zur Party ___. (einladen)",
+      "options": [],
+      "correctAnswer": "lädt ... ein",
+      "explanation": "'einladen' ist trennbar; das Präfix 'ein' steht im Hauptsatz am Satzende.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q016",
+      "subjectId": "a1_11",
+      "type": "fill_blank",
+      "questionText": "Ergänze: Wir ___ das Zimmer jeden Samstag ___. (aufräumen)",
+      "options": [],
+      "correctAnswer": "räumen ... auf",
+      "explanation": "'aufräumen' ist trennbar; das Präfix 'auf' steht im Hauptsatz am Satzende.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q017",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz ist grammatisch richtig?",
+      "options": [
+        "Nachdem sie aufgestanden war, machte sie Frühstück.",
+        "Nachdem sie war aufgestanden, machte sie Frühstück.",
+        "Nachdem sie aufstand war, machte sie Frühstück.",
+        "Nachdem sie stand auf, machte sie Frühstück."
+      ],
+      "correctAnswer": "Nachdem sie aufgestanden war, machte sie Frühstück.",
+      "explanation": "Plusquamperfekt: war + Partizip II (aufgestanden) am Satzende des Nebensatzes.",
+      "difficulty": "hard",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q018",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt im Nebensatz? \"Ich weiß nicht, ob er heute ___.\" (mitkommen)",
+      "options": ["mitkommt", "kommt mit", "mit kommt", "kommtmit"],
+      "correctAnswer": "mitkommt",
+      "explanation": "Im Nebensatz steht das ganze konjugierte Verb (mit Präfix zusammen) am Satzende: mitkommt.",
+      "difficulty": "hard",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q019",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Welcher Satz zeigt die korrekte Position des trennbaren Verbs in einer W-Frage?",
+      "options": [
+        "Wann kommst du an?",
+        "Wann an kommst du?",
+        "Wann ankommst du?",
+        "Wann kommst an du?"
+      ],
+      "correctAnswer": "Wann kommst du an?",
+      "explanation": "In der W-Frage steht das konjugierte Verb auf Position 2, das Präfix 'an' am Satzende.",
+      "difficulty": "hard",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q020",
+      "subjectId": "a1_11",
+      "type": "fill_blank",
+      "questionText": "Ergänze im Perfekt: Er ist heute früh ___. (aufstehen)",
+      "options": [],
+      "correctAnswer": "aufgestanden",
+      "explanation": "Perfekt von 'aufstehen' mit 'sein': auf + ge + standen = aufgestanden.",
+      "difficulty": "hard",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    }
+  ]
 }
