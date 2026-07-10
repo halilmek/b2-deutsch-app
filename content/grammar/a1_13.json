@@ -4,6 +4,347 @@
   "level": "A1",
   "description": "",
   "tips": [],
-  "questions": [],
-  "totalQuestions": 0
+  "questions": [
+    {
+      "id": "a1_13_q001",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Ich bin gestern ins Kino ___.\"",
+      "options": [
+        "gegangen",
+        "gegehungen",
+        "gehen",
+        "gegangen sein"
+      ],
+      "correctAnswer": "gegangen",
+      "explanation": "'Gehen' beschreibt eine Ortsveränderung und bildet das Perfekt mit 'sein'. Partizip II ist 'gegangen'.",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q002",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Wann bist du nach Hause ___?\"",
+      "options": [
+        "gekommen",
+        "gekommt",
+        "kommen",
+        "gekommen sein"
+      ],
+      "correctAnswer": "gekommen",
+      "explanation": "'Kommen' ist eine Ortsveränderung (Perfekt mit 'sein') und hat das Partizip II 'gekommen'.",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q003",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Wir sind mit dem Auto nach Köln ___.\"",
+      "options": [
+        "gefahren",
+        "gefahrst",
+        "fahren",
+        "gefahrt"
+      ],
+      "correctAnswer": "gefahren",
+      "explanation": "'Fahren' ist eine Ortsveränderung. Partizip II lautet 'gefahren'.",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q004",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Sie (Singular) ist nach Spanien ___.\"",
+      "options": [
+        "geflogen",
+        "gefliegt",
+        "fliegen",
+        "gefliegt worden"
+      ],
+      "correctAnswer": "geflogen",
+      "explanation": "Ortsveränderung mit dem Flugzeug: 'fliegen' bildet das Perfekt mit 'sein' und Partizip II 'geflogen'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q005",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Der Junge ist schnell ___.\"",
+      "options": [
+        "gelaufen",
+        "gelauft",
+        "laufen",
+        "gelaust"
+      ],
+      "correctAnswer": "gelaufen",
+      "explanation": "Laufen ist eine Bewegung von A nach B, erfordert 'sein' und das Partizip II 'gelaufen'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q006",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Wir sind am Wochenende zu Hause ___.\"",
+      "options": [
+        "geblieben",
+        "gebleibt",
+        "bleiben",
+        "gebliebt"
+      ],
+      "correctAnswer": "geblieben",
+      "explanation": "Das Verb 'bleiben' drückt einen Zustand aus, bildet das Perfekt aber als Ausnahme immer mit 'sein'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q007",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Ich bin gestern im Büro ___.\"",
+      "options": [
+        "gewesen",
+        "gesein",
+        "war",
+        "gewest"
+      ],
+      "correctAnswer": "gewesen",
+      "explanation": "Das Verb 'sein' bildet sein Perfekt selbst mit dem Hilfsverb 'sein'. Das Partizip II ist 'gewesen'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q008",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Wann bist du heute ___?\"",
+      "options": [
+        "aufgestanden",
+        "geaufgestanden",
+        "aufgestanden sein",
+        "aufsteht"
+      ],
+      "correctAnswer": "aufgestanden",
+      "explanation": "Zustandswechsel (vom Schlafen zum Wachsein): 'aufstehen' nutzt 'sein'. Das '-ge-' steht in der Mitte: auf + ge + standen.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q009",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Meine Eltern sind nach Italien ___.\"",
+      "options": [
+        "gereist",
+        "gereisen",
+        "gereisest",
+        "gereiset"
+      ],
+      "correctAnswer": "gereist",
+      "explanation": "'Reisen' ist eine Ortsveränderung und ist regelmäßig: ge- + reis + -t = gereist.",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q010",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Wir sind im Harz ___.\"",
+      "options": [
+        "gewandert",
+        "gewandern",
+        "wandert",
+        "gewandert sein"
+      ],
+      "correctAnswer": "gewandert",
+      "explanation": "'Wandern' ist eine Fortbewegung und nutzt 'sein'. Regelmäßiges Partizip II: 'gewandert'.",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q011",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Familie Müller ist nach Berlin ___.\"",
+      "options": [
+        "umgezogen",
+        "geumgezogen",
+        "umgezogt",
+        "umziehen"
+      ],
+      "correctAnswer": "umgezogen",
+      "explanation": "Ortsveränderung/Wohnungswechsel: 'umziehen' wird mit 'sein' konjugiert, '-ge-' steht in der Mitte.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q012",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Bist du schon in den Zug ___?\"",
+      "options": [
+        "eingestiegen",
+        "geeingestiegen",
+        "einsteigen",
+        "eingesteigt"
+      ],
+      "correctAnswer": "eingestiegen",
+      "explanation": "Trennbares, unregelmäßiges Verb mit Ortsänderung: ein + ge + stiegen = eingestiegen.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q013",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Wir sind an der nächsten Station ___.\"",
+      "options": [
+        "ausgestiegen",
+        "ausgesteigt",
+        "geausgestiegen",
+        "aussteigen"
+      ],
+      "correctAnswer": "ausgestiegen",
+      "explanation": "Gegenteil von einsteigen: 'aussteigen' bildet das Partizip II mit '-ge-' in der Mitte -> 'ausgestiegen'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q014",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Der Zug ist pünktlich ___.\"",
+      "options": [
+        "angekommen",
+        "geankommen",
+        "ankommt",
+        "angekommt"
+      ],
+      "correctAnswer": "angekommen",
+      "explanation": "'Ankommen' beschreibt das Ende einer Ortsveränderung. Partizip II lautet 'angekommen'.",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q015",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Der Bus ist schon ___.\"",
+      "options": [
+        "abgefahren",
+        "geabfahren",
+        "abfahrt",
+        "abgefahrt"
+      ],
+      "correctAnswer": "abgefahren",
+      "explanation": "Das trennbare Verb 'abfahren' nutzt das Hilfsverb 'sein' und bildet das Partizip II als 'abgefahren'.",
+      "difficulty": "easy",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q016",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Das Kind ist vom Fahrrad ___.\"",
+      "options": [
+        "gefallen",
+        "gefallt",
+        "fallen",
+        "gefallen sein"
+      ],
+      "correctAnswer": "gefallen",
+      "explanation": "'Fallen' ist eine unkontrollierte Ortsveränderung nach unten und nutzt das Hilfsverb 'sein'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q017",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Was ist gestern ___?\"",
+      "options": [
+        "passiert",
+        "gepassiert",
+        "passieren",
+        "passiert sein"
+      ],
+      "correctAnswer": "passiert",
+      "explanation": "Das Verb 'passieren' (geschehen) drückt eine Zustandsänderung aus. Fremdwörter auf '-ieren' bilden kein 'ge-' im Partizip II.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q018",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Ich bin um 6 Uhr ___.\"",
+      "options": [
+        "aufgewacht",
+        "aufgewachen",
+        "geaufwacht",
+        "aufwacht"
+      ],
+      "correctAnswer": "aufgewacht",
+      "explanation": "'Aufwachen' ist ein Zustandswechsel (Schlafen -> Wachsein) und ist regelmäßig: auf + ge + wach + t.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q019",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Seid ihr im See ___?\"",
+      "options": [
+        "geschwommen",
+        "geschwimmt",
+        "schwimmen",
+        "geschwommen sein"
+      ],
+      "correctAnswer": "geschwommen",
+      "explanation": "Fortbewegung im Wasser: 'schwimmen' nutzt bei Richtungs-/Ortsänderung (oder generell oft im A1-Kontext) 'sein'. Partizip II ist 'geschwommen'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    },
+    {
+      "id": "a1_13_q020",
+      "subjectId": "a1_13",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Er ist über den Bach ___.\"",
+      "options": [
+        "gesprungen",
+        "gespringt",
+        "springen",
+        "gesprungen sein"
+      ],
+      "correctAnswer": "gesprungen",
+      "explanation": "'Springen' ist eine dynamische Bewegung von einem Ort zum anderen und nutzt 'sein'. Partizip II ist 'gesprungen'.",
+      "difficulty": "medium",
+      "topicName": "Perfekt mit sein",
+      "reviewed": false
+    }
+  ],
+  "totalQuestions": 20
 }

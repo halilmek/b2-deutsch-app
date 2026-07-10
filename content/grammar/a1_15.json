@@ -4,6 +4,347 @@
   "level": "A1",
   "description": "",
   "tips": [],
-  "questions": [],
-  "totalQuestions": 0
+  "questions": [
+    {
+      "id": "a1_15_q001",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 4?",
+      "options": [
+        "vier",
+        "fünf",
+        "drei",
+        "viertel"
+      ],
+      "correctAnswer": "vier",
+      "explanation": "Die Kardinalzahl für 4 heißt auf Deutsch 'vier'.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q002",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 11?",
+      "options": [
+        "elf",
+        "eins",
+        "zwölf",
+        "zehn"
+      ],
+      "correctAnswer": "elf",
+      "explanation": "Die Zahl 11 ist eine unregelmäßige Form und heißt 'elf'.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q003",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 12?",
+      "options": [
+        "zwölf",
+        "elf",
+        "zwanzig",
+        "zwei"
+      ],
+      "correctAnswer": "zwölf",
+      "explanation": "Die Zahl 12 heißt auf Deutsch 'zwölf'.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q004",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 14?",
+      "options": [
+        "vierzehn",
+        "vierzig",
+        "vierte",
+        "einundvierzig"
+      ],
+      "correctAnswer": "vierzehn",
+      "explanation": "Zahlen von 13 bis 19 werden mit der Einerstelle + 'zehn' gebildet: vier + zehn = vierzehn.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q005",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 21?",
+      "options": [
+        "einundzwanzig",
+        "zwanzigundeins",
+        "einsundzwanzig",
+        "einundzwanzigste"
+      ],
+      "correctAnswer": "einundzwanzig",
+      "explanation": "Zweistellige Zahlen ab 21 nennen zuerst die Einerstelle ('ein'), verbunden mit 'und' vor der Zehnerstelle ('zwanzig').",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q006",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 30?",
+      "options": [
+        "dreißig",
+        "dreizehn",
+        "dreizig",
+        "dreiundzwanzig"
+      ],
+      "correctAnswer": "dreißig",
+      "explanation": "Achtung: Die Zehnerzahl 30 wird mit 'ß' geschrieben ('dreißig'), nicht mit 'z'.",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q007",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 45?",
+      "options": [
+        "fünfundvierzig",
+        "vierzigundfünf",
+        "fünfvierzig",
+        "fünfundvierzehn"
+      ],
+      "correctAnswer": "fünfundvierzig",
+      "explanation": "Einerstelle zuerst ('fünf') + 'und' + Zehnerstelle ('vierzig') = fünfundvierzig.",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q008",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 16?",
+      "options": [
+        "sechzehn",
+        "sechszehn",
+        "sechzig",
+        "sechzehnte"
+      ],
+      "correctAnswer": "sechzehn",
+      "explanation": "Bei 16 fällt das '-s' von 'sechs' weg -> 'sechzehn'.",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q009",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 17?",
+      "options": [
+        "siebzehn",
+        "siebenzehn",
+        "siebzig",
+        "siebzehnte"
+      ],
+      "correctAnswer": "siebzehn",
+      "explanation": "Bei 17 fällt die Endung '-en' von 'sieben' weg -> 'siebzehn'.",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q010",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 53?",
+      "options": [
+        "dreiundfünfzig",
+        "fünfzigunddrei",
+        "dreifünfzig",
+        "dreiundfünfzehn"
+      ],
+      "correctAnswer": "dreiundfünfzig",
+      "explanation": "Formel: Einer + und + Zehner = drei + und + fünfzig.",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q011",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 68?",
+      "options": [
+        "achtundsechzig",
+        "sechzigundacht",
+        "achtsechzig",
+        "achtundsechzehn"
+      ],
+      "correctAnswer": "achtundsechzig",
+      "explanation": "Zuerst kommt 'acht', dann 'und', dann 'sechzig'.",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q012",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Wie schreibt man die Zahl 70?",
+      "options": [
+        "siebzig",
+        "siebenzig",
+        "siebzehn",
+        "siebzigste"
+      ],
+      "correctAnswer": "siebzig",
+      "explanation": "Die Zehnerzahl verliert das '-en' von 'sieben' -> 'siebzig'.",
+      "difficulty": "medium",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q013",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'vierundachtzig'?",
+      "options": [
+        "84",
+        "48",
+        "44",
+        "88"
+      ],
+      "correctAnswer": "84",
+      "explanation": "'vier' = 4 (Einer), 'achtzig' = 80 (Zehner). Das ergibt 84.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q014",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'neunundneunzig'?",
+      "options": [
+        "99",
+        "90",
+        "19",
+        "91"
+      ],
+      "correctAnswer": "99",
+      "explanation": "'neun' (9) + 'und' + 'neunzig' (90) = 99.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q015",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'dreizehn'?",
+      "options": [
+        "13",
+        "30",
+        "31",
+        "3"
+      ],
+      "correctAnswer": "13",
+      "explanation": "'drei' + 'zehn' entspricht der Zahl 13.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q016",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'zweiundzwanzig'?",
+      "options": [
+        "22",
+        "202",
+        "21",
+        "12"
+      ],
+      "correctAnswer": "22",
+      "explanation": "'zwei' (2) + 'und' + 'zwanzig' (20) ergibt 22.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q017",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'fünfzig'?",
+      "options": [
+        "50",
+        "15",
+        "5",
+        "55"
+      ],
+      "correctAnswer": "50",
+      "explanation": "'fünfzig' ist die reine Zehnerzahl für 50.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q018",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'sechsunddreißig'?",
+      "options": [
+        "36",
+        "63",
+        "16",
+        "26"
+      ],
+      "correctAnswer": "36",
+      "explanation": "'sechs' (6) + 'und' + 'dreißig' (30) ergibt 36.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q019",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'hundert'?",
+      "options": [
+        "100",
+        "10",
+        "1000",
+        "1"
+      ],
+      "correctAnswer": "100",
+      "explanation": "'hundert' oder 'einhundert' ist die Zahl 100.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    },
+    {
+      "id": "a1_15_q020",
+      "subjectId": "a1_15",
+      "type": "multiple_choice",
+      "questionText": "Welche Zahl ist 'achtundzwanzig'?",
+      "options": [
+        "28",
+        "82",
+        "18",
+        "38"
+      ],
+      "correctAnswer": "28",
+      "explanation": "'acht' (8) + 'und' + 'zwanzig' (20) entspricht der Zahl 28.",
+      "difficulty": "easy",
+      "topicName": "Zahlen: 1-100",
+      "reviewed": false
+    }
+  ],
+  "totalQuestions": 20
 }

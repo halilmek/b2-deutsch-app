@@ -3,7 +3,7 @@
   "subjectId": "a1_11",
   "topicName": "Trennbare Verben",
   "level": "A1",
-  "totalQuestions": 20,
+  "totalQuestions": 40,
   "description": "",
   "tips": [],
   "questions": [
@@ -12,7 +12,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Es ist zu laut. Er macht das Radio ___.",
-      "options": ["aus", "an", "auf", "zu"],
+      "options": [
+        "aus",
+        "an",
+        "auf",
+        "zu"
+      ],
       "correctAnswer": "aus",
       "explanation": "'ausmachen' ist trennbar: Präfix 'aus' steht am Satzende.",
       "difficulty": "easy",
@@ -24,7 +29,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Die Kinder sehen jeden Tag ___.",
-      "options": ["fern", "an", "auf", "vor"],
+      "options": [
+        "fern",
+        "an",
+        "auf",
+        "vor"
+      ],
       "correctAnswer": "fern",
       "explanation": "'fernsehen' ist trennbar: Präfix 'fern' steht am Satzende.",
       "difficulty": "easy",
@@ -36,7 +46,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Es ist kalt. Sie zieht sich eine Jacke ___.",
-      "options": ["an", "aus", "auf", "ab"],
+      "options": [
+        "an",
+        "aus",
+        "auf",
+        "ab"
+      ],
       "correctAnswer": "an",
       "explanation": "'anziehen' ist trennbar: Präfix 'an' steht am Satzende.",
       "difficulty": "easy",
@@ -48,7 +63,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Wann fängt der Film ___?",
-      "options": ["an", "auf", "aus", "ab"],
+      "options": [
+        "an",
+        "auf",
+        "aus",
+        "ab"
+      ],
       "correctAnswer": "an",
       "explanation": "'anfangen' ist trennbar: Präfix 'an' steht am Satzende.",
       "difficulty": "easy",
@@ -60,7 +80,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Er ist müde. Er hört mit der Arbeit ___.",
-      "options": ["auf", "an", "aus", "ab"],
+      "options": [
+        "auf",
+        "an",
+        "aus",
+        "ab"
+      ],
       "correctAnswer": "auf",
       "explanation": "'aufhören' ist trennbar: Präfix 'auf' steht am Satzende.",
       "difficulty": "easy",
@@ -72,7 +97,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Bringst du bitte einen Kuchen ___?",
-      "options": ["mit", "auf", "an", "vor"],
+      "options": [
+        "mit",
+        "auf",
+        "an",
+        "vor"
+      ],
       "correctAnswer": "mit",
       "explanation": "'mitbringen' ist trennbar: Präfix 'mit' steht am Satzende.",
       "difficulty": "easy",
@@ -142,7 +172,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Was ist korrekt? \"Ich muss morgen früh ___.\"",
-      "options": ["aufstehen", "stehe auf", "auf stehen", "stehen auf"],
+      "options": [
+        "aufstehen",
+        "stehe auf",
+        "auf stehen",
+        "stehen auf"
+      ],
       "correctAnswer": "aufstehen",
       "explanation": "Mit einem Modalverb bleibt das trennbare Verb im Infinitiv zusammen: muss aufstehen.",
       "difficulty": "medium",
@@ -154,7 +189,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Wähle die richtige Perfektform: \"Wir haben gestern viele Freunde ___.\" (einladen)",
-      "options": ["eingeladen", "geeinladen", "einladen", "geladen ein"],
+      "options": [
+        "eingeladen",
+        "geeinladen",
+        "einladen",
+        "geladen ein"
+      ],
       "correctAnswer": "eingeladen",
       "explanation": "Perfekt von 'einladen': ein + ge + laden = eingeladen.",
       "difficulty": "medium",
@@ -236,7 +276,12 @@
       "subjectId": "a1_11",
       "type": "multiple_choice",
       "questionText": "Was ist korrekt im Nebensatz? \"Ich weiß nicht, ob er heute ___.\" (mitkommen)",
-      "options": ["mitkommt", "kommt mit", "mit kommt", "kommtmit"],
+      "options": [
+        "mitkommt",
+        "kommt mit",
+        "mit kommt",
+        "kommtmit"
+      ],
       "correctAnswer": "mitkommt",
       "explanation": "Im Nebensatz steht das ganze konjugierte Verb (mit Präfix zusammen) am Satzende: mitkommt.",
       "difficulty": "hard",
@@ -269,6 +314,346 @@
       "correctAnswer": "aufgestanden",
       "explanation": "Perfekt von 'aufstehen' mit 'sein': auf + ge + standen = aufgestanden.",
       "difficulty": "hard",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q021",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Ich ___ jeden Morgen um 7 Uhr ___.\"",
+      "options": [
+        "stehe ... auf",
+        "aufstehe",
+        "auf ... stehe",
+        "stehe auf"
+      ],
+      "correctAnswer": "stehe ... auf",
+      "explanation": "Trennbares Verb 'aufstehen': Präfix 'auf' wandert im Hauptsatz ans Satzende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q022",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Kommst du heute Abend ___?\"",
+      "options": [
+        "mit",
+        "bei",
+        "zu",
+        "vor"
+      ],
+      "correctAnswer": "mit",
+      "explanation": "Trennbares Verb 'mitkommen': Das Präfix 'mit' steht am Ende des Fragesatzes.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q023",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Wir ___ morgen im Supermarkt ___.\"",
+      "options": [
+        "kaufen ... ein",
+        "einkaufen",
+        "ein ... kaufen",
+        "kauft ... ein"
+      ],
+      "correctAnswer": "kaufen ... ein",
+      "explanation": "Trennbares Verb 'einkaufen': 'Wir' verlangt die konjugierte Form 'kaufen' auf Position 2, 'ein' steht am Ende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q024",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Er ___ jeden Tag drei Stunden ___.\"",
+      "options": [
+        "sieht ... fern",
+        "fernsehen",
+        "sieht ... vor",
+        "seht ... fern"
+      ],
+      "correctAnswer": "sieht ... fern",
+      "explanation": "Trennbares Verb 'fernsehen': Das Verb 'sehen' verändert bei 'er/sie/es' den Vokal zu 'sieht'.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q025",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Wann ___ der Zug in Berlin ___?\"",
+      "options": [
+        "kommt ... an",
+        "ankommt",
+        "an ... kommt",
+        "kommen ... an"
+      ],
+      "correctAnswer": "kommt ... an",
+      "explanation": "Trennbares Verb 'ankommen': 'der Zug' ist Singular (er), daher 'kommt' auf Position 2 und 'an' am Ende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q026",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Ich ___ meine Mutter morgen ___.\"",
+      "options": [
+        "rufe ... an",
+        "anrufen",
+        "rufe ... auf",
+        "ruf ... an"
+      ],
+      "correctAnswer": "rufe ... an",
+      "explanation": "Trennbares Verb 'anrufen': Das Präfix 'an' steht am Ende des Satzes.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q027",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"___ du bitte das Zimmer ___?\"",
+      "options": [
+        "Räumst ... auf",
+        "Aufräumst",
+        "Räumst ... aus",
+        "Räumt ... auf"
+      ],
+      "correctAnswer": "Räumst ... auf",
+      "explanation": "Trennbares Verb 'aufräumen': Bei einer Ja/Nein-Frage steht das konjugierte Verb auf Position 1.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q028",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Der Bus ___ um 10 Uhr ___.\"",
+      "options": [
+        "fährt ... ab",
+        "abfährt",
+        "fahrt ... ab",
+        "fährt ... an"
+      ],
+      "correctAnswer": "fährt ... ab",
+      "explanation": "Trennbares Verb 'abfahren': Das Verb 'fahren' ist unregelmäßig und wird bei 'der Bus' zu 'fährt'.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q029",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Wir ___ dich zu unserer Party ___.\"",
+      "options": [
+        "laden ... ein",
+        "einladen",
+        "ladet ... ein",
+        "laden ... aus"
+      ],
+      "correctAnswer": "laden ... ein",
+      "explanation": "Trennbares Verb 'einladen': Das Präfix 'ein' geht ans Satzende, 'laden' passt zu 'wir'.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q030",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Bitte ___ Sie das Licht ___.\"",
+      "options": [
+        "machen ... aus",
+        "ausmachen",
+        "machen ... an",
+        "macht ... aus"
+      ],
+      "correctAnswer": "machen ... aus",
+      "explanation": "Trennbares Verb 'ausmachen' (Licht ausschalten): Im Höflichkeitsimperativ bleibt 'machen Sie' auf Position 1/2 und 'aus' geht ans Ende.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q031",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Ich ___ das Radio ___.\"",
+      "options": [
+        "mache ... an",
+        "anmache",
+        "mache ... auf",
+        "mach ... an"
+      ],
+      "correctAnswer": "mache ... an",
+      "explanation": "Trennbares Verb 'anmachen' (einschalten): 'mache' steht auf Position 2, das Präfix 'an' am Ende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q032",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Was ___ du zur Party ___?\"",
+      "options": [
+        "bringst ... mit",
+        "mitbringst",
+        "bringst ... nach",
+        "bringt ... mit"
+      ],
+      "correctAnswer": "bringst ... mit",
+      "explanation": "Trennbares Verb 'mitbringen': Das Fragewort 'Was' besetzt Position 1, das konjugierte Verb 'bringst' folgt auf Position 2.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q033",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Ich möchte dich gerne ___.\"",
+      "options": [
+        "kennenlernen",
+        "kennen ... lernen",
+        "lerne ... kennen",
+        "kennenzulernen"
+      ],
+      "correctAnswer": "kennenlernen",
+      "explanation": "Mit dem Modalverb 'möchte' steht das trennbare Verb am Satzende im Infinitiv (zusammengeschrieben).",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q034",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Der Koch ___ das Essen ___.\"",
+      "options": [
+        "bereitet ... vor",
+        "vorbereitet",
+        "bereitet ... mit",
+        "bereiten ... vor"
+      ],
+      "correctAnswer": "bereitet ... vor",
+      "explanation": "Trennbares Verb 'vorbereiten': Subjekt ist 'Der Koch' (er), daher 'bereitet ... vor'.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q035",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Bitte ___ Sie das Formular ___.\"",
+      "options": [
+        "füllen ... aus",
+        "ausfüllen",
+        "füllen ... auf",
+        "füllt ... aus"
+      ],
+      "correctAnswer": "füllen ... aus",
+      "explanation": "Trennbares Verb 'ausfüllen': Höfliche Aufforderung mit 'Sie', 'aus' steht ganz am Ende.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q036",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"___ bitte das Fenster ___!\"",
+      "options": [
+        "Mach ... auf",
+        "Aufmach",
+        "Mache ... aus",
+        "Machst ... auf"
+      ],
+      "correctAnswer": "Mach ... auf",
+      "explanation": "Trennbares Verb 'aufmachen' im Imperativ (du-Form): Das Präfix 'auf' steht am Satzende, die Endung '-st' fällt weg.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q037",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"In Hannover müssen wir ___.\"",
+      "options": [
+        "umsteigen",
+        "um ... steigen",
+        "steigen ... um",
+        "umzusteigen"
+      ],
+      "correctAnswer": "umsteigen",
+      "explanation": "Das Modalverb 'müssen' verlangt den Infinitiv am Satzende, daher wird 'umsteigen' nicht getrennt.",
+      "difficulty": "medium",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q038",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Die Passagiere ___ in den Bus ___.\"",
+      "options": [
+        "steigen ... ein",
+        "einsteigen",
+        "steigen ... aus",
+        "steigt ... ein"
+      ],
+      "correctAnswer": "steigen ... ein",
+      "explanation": "Trennbares Verb 'einsteigen': Pluralform 'steigen' passt zu 'Die Passagiere'.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q039",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Ergänze den Satz: \"Hier müssen alle Fahrgäste ___.\"",
+      "options": [
+        "aussteigen",
+        "aus ... steigen",
+        "steigen ... aus",
+        "auszusteigen"
+      ],
+      "correctAnswer": "aussteigen",
+      "explanation": "Wegen des Modalverbs 'müssen' steht das trennbare Verb im Infinitiv am Ende des Satzes.",
+      "difficulty": "easy",
+      "topicName": "Trennbare Verben",
+      "reviewed": false
+    },
+    {
+      "id": "a1_11_q040",
+      "subjectId": "a1_11",
+      "type": "multiple_choice",
+      "questionText": "Was ist korrekt? \"Bitte hört mir ___!\"",
+      "options": [
+        "zu",
+        "mit",
+        "an",
+        "auf"
+      ],
+      "correctAnswer": "zu",
+      "explanation": "Trennbares Verb 'zuhören': Das Präfix 'zu' wird ans Satzende gesetzt.",
+      "difficulty": "medium",
       "topicName": "Trennbare Verben",
       "reviewed": false
     }
