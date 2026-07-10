@@ -153,15 +153,20 @@ async function applyTopic(plan, newVersion) {
   // also bundled into app/src/main/assets/ (e.g. _11-_15 on several levels)
   // showed no description in the app even when content/ had one authored.
   const level = plan.subjectId.split('_')[0].toUpperCase();
-  await db.collection('topics').doc(plan.subjectId).set({
+  const topicDoc = {
     id: plan.subjectId,
     level,
     name: plan.topicName,
     type: 'grammar',
-    questionCount: plan.questions.length,
-    description: plan.description,
-    tips: plan.tips
-  });
+    questionCount: plan.questions.length
+  };
+  // Only include description/tips when content/ actually has them. Combined
+  // with {merge: true} below, an empty content/ value never overwrites a
+  // description that was authored directly in Firestore outside of this
+  // script - it's simply left untouched instead of wiped to "".
+  if (plan.description) topicDoc.description = plan.description;
+  if (plan.tips && plan.tips.length > 0) topicDoc.tips = plan.tips;
+  await db.collection('topics').doc(plan.subjectId).set(topicDoc, { merge: true });
 }
 
 async function main() {
