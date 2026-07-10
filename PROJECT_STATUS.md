@@ -646,4 +646,53 @@ Three follow-up items fixed after the broken-`correctAnswer` execution above, cl
 
 ---
 
+---
+
+## 🗑️ CONTENT-INTEGRITY PHASE CLOSED — 20 duplicate topics retired (2026-07-09)
+
+While drafting the 20 missing topic descriptions authorized after the previous session's regression investigation, reading each topic's actual questions (not just the label) surfaced a much bigger problem than a missing description: **most of these topics have no real content behind them at all.**
+
+**Finding:** within each sibling group, almost every question is byte-identical across all topics in the group — only the `topicName` label differs:
+
+| Group | Identical positions across siblings | Genuinely unique content |
+|---|---|---|
+| `a1_11`–`a1_15` | **100 / 100** | none |
+| `a2_11`–`a2_15` | 98 / 100 | only `q018`+`q078` (written in the earlier broken-answer fix) |
+| `b1_11`–`b1_15` | 99 / 100 | only `q014` (same) |
+| `c1_12`–`c1_15` | 95 / 100 | only `q007/020/027/067/087` (same) |
+| `b2_03` | 50 / 50 vs. `b2_02` | none — literal duplicate of an already-authored topic |
+
+Writing polished descriptions for these would have made hollow content look legitimate. Per user decision: **retired all 20**, same mechanism as `c1_11`'s earlier retirement — not a new pattern.
+
+**What changed:**
+- `content/grammar/{id}_retired.json` created for all 20 (full original question sets preserved for history, never synced).
+- `content/grammar/{id}.json` rewritten as 0-question placeholders. For the 19 topics with a real, legitimate label (`a1_11`–`15`, `a2_11`–`15`, `b1_11`–`15`, `c1_12`–`15`), the real `topicName` was kept — these are reserved curriculum slots pending real content, same as `c2_13`–`c2_21`. For `b2_03` (a true duplicate of `b2_02`, no independent identity) and `c1_11` (corrupted name, retired earlier), a neutral placeholder name ("Thema wird noch festgelegt") was used instead.
+- Synced via `scripts/import_and_sync.js` to `moduleQuizQuestions` + `topics` for all except `b2_03`.
+- `b2_03` needed different handling: B2 is excluded from `moduleQuizQuestions` sync entirely (pre-existing `grammarQuizBank`-contamination decision), and its question count on-device comes from the bundled `app/src/main/assets/b2_03.json`, not Firestore. Updated that asset file directly to the 0-question placeholder, and wrote `topics/b2_03` via a targeted merge (not the full sync script) to avoid creating a `moduleQuizQuestions` doc for a B2 topic.
+- Commits: `213e039` (A1), `0f9669a` (A2), `d73c0b0` (B1), `6c1bcbb` (C1), `4bba110` (B2).
+
+### Final honest topic/question counts per level (verified against live Firestore)
+
+| Level | Real topics (with content) | Placeholder topics ("Wird vorbereitet") | Total live questions |
+|---|---|---|---|
+| A1 | 10 (`a1_01`–`a1_10`) | 5 (`a1_11`–`a1_15`) | 600 |
+| A2 | 10 (`a2_01`–`a2_10`) | 5 (`a2_11`–`a2_15`) | 1,210 |
+| B1 | 10 (`b1_01`–`b1_10`) | 5 (`b1_11`–`b1_15`) | 1,001 |
+| B2 | 22 (all except `b2_03`) | 1 (`b2_03`) | 2,271 *(not synced to `moduleQuizQuestions` — served from bundled assets only, per the standing B2 exclusion)* |
+| C1 | 10 (`c1_01`–`c1_10`) | 5 (`c1_11`–`c1_15`) | 1,028 |
+| C2 | 12 (`c2_01`–`c2_12`) | 9 (`c2_13`–`c2_21`) | 1,320 |
+
+Every level now shows its real, content-backed topics plus dimmed coming-soon placeholders — no level has a topic whose label overstates what it actually contains.
+
+### Still open
+
+- **18 reserved curriculum slots** (`a1_11–15`, `a2_11–15`, `b1_11–15`, `c1_12–15`) need real question content authored from scratch — their labels are legitimate, real grammar points, just currently empty. This is a bulk-content-generation task, explicitly out of scope for this phase.
+- **`c1_11` and `b2_03`** additionally need a topic *identity* decided (what grammar point should fill that slot) before content authoring can even start.
+- **B2 `grammarQuizBank` contamination** (documented earlier) remains untouched — dead code, zero live effect.
+- **Not verified on an actual device/emulator this session** — no Android runtime available in this environment. `assembleDebug` clean throughout.
+
+**Content-integrity phase closed.** No further content or code work performed beyond what's listed above.
+
+---
+
 _Last updated: 2026-07-09_
